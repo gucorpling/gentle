@@ -768,8 +768,8 @@
 36-11	3220-3225	faced	person[189]	giv[189]	nonsal[189]	_	_	_	
 36-12	3226-3229	off	person[189]	giv[189]	nonsal[189]	_	_	_	
 36-13	3230-3237	against	person[189]	giv[189]	nonsal[189]	_	_	_	
-36-14	3238-3242	each	person[189]|abstract[190]	giv[189]|giv[190]	nonsal[189]|nonsal[190]	_	_	_	
-36-15	3243-3248	other	person[189]|abstract[190]	giv[189]|giv[190]	nonsal[189]|nonsal[190]	_	_	_	
+36-14	3238-3242	each	person[189]|person[190]	giv[189]|giv[190]	nonsal[189]|nonsal[190]	_	_	_	
+36-15	3243-3248	other	person[189]|person[190]	giv[189]|giv[190]	nonsal[189]|nonsal[190]	_	_	_	
 36-16	3249-3250	a	person[189]|time[191]	giv[189]|new[191]	nonsal[189]|nonsal[191]	_	_	_	
 36-17	3251-3257	number	person[189]|time[191]	giv[189]|new[191]	nonsal[189]|nonsal[191]	_	_	_	
 36-18	3258-3260	of	person[189]|time[191]	giv[189]|new[191]	nonsal[189]|nonsal[191]	_	_	_	
