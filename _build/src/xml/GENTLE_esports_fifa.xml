@@ -481,7 +481,7 @@ go	VV	go
 <w>
 all	RB	all
 -	HYPH	-
-out	RP	out
+out	JJ	out
 </w>
 and	CC	and
 win	VV	win
@@ -657,7 +657,7 @@ what	WP	what
 <s type="wh">
 How	WRB	how
 ...	:	…
-what	WDT	what
+what	WP	what
 sorry	JJ	sorry
 what	WP	what
 how	WRB	how
@@ -708,7 +708,7 @@ played	VVN	play
 in	RB	in
 uh	UH	uh
 all	DT	all
-right	RB	right
+right	RB	_
 apparently	RB	apparently
 Alderweireld	NP	Alderweireld
 clipped	VVD	clip
@@ -784,7 +784,7 @@ my	PP$	my
 field	NN	field
 and	CC	and
 <w>
-can	MD	cannot
+can	MD	can
 not	RB	not
 </w>
 finish	VV	finish

@@ -14,12 +14,12 @@ AGREEMENT	NN	agreement
 <p>
 <s type="decl">
 This	DT	this
-Services	NP	Services
+Services	NP	service
 Agreement	NP	Agreement
 (	(	(
 <q>
 "	``	''
-Services	NPS	Services
+Services	NPS	service
 Agreement	NP	Agreement
 "	''	''
 </q>
@@ -176,7 +176,7 @@ together	RB	together
 the	DT	the
 <q>
 "	``	''
-Services	NPS	Services
+Services	NPS	service
 "	''	''
 </q>
 )	)	)
@@ -231,7 +231,7 @@ In	IN	in
 exchange	NN	exchange
 for	IN	for
 the	DT	the
-Services	NPS	Services
+Services	NPS	service
 ,	,	,
 you	PP	you
 shall	MD	shall
@@ -709,7 +709,7 @@ in	IN	in
 Section	NP	Section
 4	CD	4
 (	(	(
-Returns	NPS	Returns
+Returns	NPS	return
 ,	,	,
 Reversals	NPS	Reversal
 ,	,	,
@@ -1308,7 +1308,7 @@ information	NN	information
 </s>
 </item>
 <item n="3">
-<s type="frag">
+<s type="other">
 iii)	LS	iii)
 The	DT	the
 other	JJ	other
@@ -1597,18 +1597,18 @@ Date	NN	Date
 08/19/2019	CD	08/19/2019
 </s>
 </p>
-<s type="frag">
 <p>
+<s type="frag">
 /s/	UH	/s/
 Howard	NP	Howard
 Marks	NP	Marks
-</p>
-<p>
-Howard	NP	Howard
-Marks	NPS	Marks
-</p>
-<p>
-CEO	NP	CEO
-</p>
 </s>
+<s type="frag">
+Howard	NP	Howard
+Marks	NP	Marks
+</s>
+<s type="frag">
+CEO	NP	CEO
+</s>
+</p>
 </text>

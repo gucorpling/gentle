@@ -195,7 +195,7 @@
 16-27	977-978	.	_	_	_	_	_	_	
 
 #Text=He was discussed at the hematopathology conference .
-17-1	979-981	He	abstract[56]	giv[56]	nonsal[56]	_	coref	20-1[70_56]	
+17-1	979-981	He	person[56]	giv[56]	nonsal[56]	_	coref	20-1[70_56]	
 17-2	982-985	was	_	_	_	_	_	_	
 17-3	986-995	discussed	_	_	_	_	_	_	
 17-4	996-998	at	_	_	_	_	_	_	

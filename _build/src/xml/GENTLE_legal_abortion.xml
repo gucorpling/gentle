@@ -7,7 +7,6 @@ Wade	NP	Wade
 </s>
 </head>
 <head rend="bold">
-<p>
 <s type="frag">
 Supreme	NP	Supreme
 Court	NP	Court
@@ -16,7 +15,6 @@ the	DT	the
 United	NP	Unite
 States	NPS	State
 </s>
-</p>
 </head>
 <p>
 <s type="frag">
@@ -412,7 +410,7 @@ to	TO	to
 sue	VV	sue
 ;	:	;
 the	DT	the
-Does	NPS	do
+Does	NPS	Doe
 and	CC	and
 Hallford	NP	Hallford
 do	VVP	do
@@ -593,7 +591,7 @@ on	IN	on
 contingencies	NNS	contingency
 ,	,	,
 any	DT	any
-one	CD	one
+one	NN	one
 or	CC	or
 more	JJR	more
 of	IN	of

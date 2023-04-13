@@ -923,7 +923,7 @@
 35-6	3992-3993	1	event[239]	giv[239]	nonsal[239]	_	_	_	
 35-7	3994-4001	victory	event[239]	giv[239]	nonsal[239]	_	_	_	
 35-8	4002-4003	,	_	_	_	_	_	_	
-35-9	4004-4009	Genoa	organization[240]	giv[240]	nonsal[240]	Genoa_C.F.C.[240]	_	_	
+35-9	4004-4009	Genoa	event[240]	giv[240]	nonsal[240]	Genoa_C.F.C.[240]	_	_	
 35-10	4010-4013	was	_	_	_	_	_	_	
 35-11	4014-4018	just	_	_	_	_	_	_	
 35-12	4019-4023	some	event[241]	giv[241]	nonsal[241]	_	_	_	

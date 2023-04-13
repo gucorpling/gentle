@@ -1,11 +1,11 @@
-<text id="GENTLE_medical_transplant" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="xxxx-xx-xx" dateModified="xxxx-xx-xx"  shortTitle="transplant" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder" speakerCount="0" speakerList="none" title="Posttransplant Lymphoproliferative Disorder" type="medical">
-<p>
+<text id="GENTLE_medical_transplant" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="transplant" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder" speakerCount="0" speakerList="none" title="Posttransplant Lymphoproliferative Disorder" type="medical">
 <head rend="bold red">
 <s type="frag">
 Description	NN	description
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Posttransplant	JJ	posttransplant
 lymphoproliferative	JJ	lymphoproliferative
@@ -48,7 +48,6 @@ chemotherapy	NN	chemotherapy
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 CHIEF	JJ	chief
@@ -56,6 +55,7 @@ COMPLAINT	NN	complaint
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 The	DT	the
 patient	NN	patient
@@ -88,7 +88,7 @@ disorder	NN	disorder
 <item n="2">
 <s type="frag">
 2.	LS	2.
-Chronic	JJ	Chronic
+Chronic	JJ	chronic
 renal	JJ	renal
 insufficiency	NN	insufficiency
 .	SENT	.
@@ -128,7 +128,6 @@ Hypertension	NN	hypertension
 </s>
 </item>
 </list>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 HISTORY	NN	history
@@ -138,6 +137,7 @@ ILLNESS	NN	illness
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 A	DT	a
 <w>
@@ -566,7 +566,6 @@ edema	NN	edema
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 LABORATORY	NN	laboratory
@@ -574,6 +573,7 @@ DATA	NNS	data
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 CBC	NP	CBC
 from	IN	from

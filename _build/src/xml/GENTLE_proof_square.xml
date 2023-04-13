@@ -96,7 +96,7 @@ From	IN	from
 Proposition	NP	Proposition
 4	CD	4
 of	IN	of
-Book	NP	Book
+Book	NP	book
 II	CD	II
 :	:	:
 Square	NN	Square
@@ -306,7 +306,7 @@ From	IN	from
 Proposition	NP	Proposition
 15	CD	15
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Commensurability	NN	commensurability
@@ -324,7 +324,7 @@ to	IN	to
 Proposition	NP	Proposition
 23	CD	23
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Straight	JJ	straight
@@ -373,7 +373,7 @@ from	IN	from
 Proposition	NP	Proposition
 22	CD	22
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Square	NN	Square
@@ -488,7 +488,7 @@ by	IN	by
 Proposition	NP	Proposition
 11	CD	11
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Commensurability	NN	commensurability
@@ -520,7 +520,7 @@ by	IN	by
 Proposition	NP	Proposition
 12	CD	12
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Commensurability	NN	commensurability
@@ -585,7 +585,7 @@ from	IN	from
 Proposition	NP	Proposition
 1	CD	1
 of	IN	of
-Book	NP	Book
+Book	NP	book
 VI	CD	VI
 :	:	:
 Areas	NNS	area
@@ -603,7 +603,7 @@ and	CC	and
 Proposition	NP	Proposition
 11	CD	11
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	CD	X
 :	:	:
 Commensurability	NN	commensurability
@@ -692,7 +692,7 @@ to	IN	to
 Proposition	NP	Proposition
 60	CD	60
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Square	NN	Square
@@ -728,7 +728,7 @@ From	IN	from
 Proposition	NP	Proposition
 1	CD	1
 of	IN	of
-Book	NP	Book
+Book	NP	book
 VI	NP	VI
 :	:	:
 Areas	NNS	area
@@ -776,7 +776,7 @@ from	IN	from
 Proposition	NP	Proposition
 1	CD	1
 of	IN	of
-Book	NP	Book
+Book	NP	book
 VI	NP	VI
 :	:	:
 Areas	NNS	area
@@ -795,7 +795,7 @@ Proposition	NN	Proposition
 Proposition	NN	Proposition
 11	CD	11
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Commensurability	NN	commensurability
@@ -838,7 +838,7 @@ to	IN	to
 Proposition	NP	Proposition
 17	CD	17
 of	IN	of
-Book	NP	Book
+Book	NP	book
 X	NP	X
 :	:	:
 Condition	NN	condition

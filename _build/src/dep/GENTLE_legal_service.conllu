@@ -409,7 +409,7 @@
 33	is	_	_	_	_	34	cop	_	_
 34	lower	_	_	_	_	16	acl:relcl	_	_
 35	,	_	_	_	_	38	punct	_	_
-36	plus	_	_	_	_	38	case	_	_
+36	plus	_	_	_	_	38	cc	_	_
 37	all	_	_	_	_	38	det	_	_
 38	expenses	_	_	_	_	13	conj	_	_
 39	of	_	_	_	_	40	case	_	_
@@ -940,9 +940,9 @@
 12	the	_	_	_	_	14	det	_	_
 13	Reversal	_	_	_	_	14	compound	_	_
 14	Liability	_	_	_	_	10	nmod	_	_
-15	and	_	_	_	_	2	cc	_	_
-16	/	_	_	_	_	2	cc	_	_
-17	or	_	_	_	_	2	cc	_	_
+15	and	_	_	_	_	2	dep	_	_
+16	/	_	_	_	_	17	cc	_	_
+17	or	_	_	_	_	15	conj	_	_
 
 1	(v)	_	_	_	_	2	dep	_	_
 2	take	_	_	_	_	0	root	_	_
@@ -1313,7 +1313,7 @@
 17	other	_	_	_	_	18	amod	_	_
 18	party	_	_	_	_	14	nmod	_	_
 19	;	_	_	_	_	20	punct	_	_
-20	or	_	_	_	_	6	cc	_	_
+20	or	_	_	_	_	6	dep	_	_
 
 1	vii)	_	_	_	_	6	dep	_	_
 2	Upon	_	_	_	_	6	case	_	_

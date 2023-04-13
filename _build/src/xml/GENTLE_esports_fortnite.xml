@@ -295,8 +295,8 @@ say	VV	say
 I	PP	I
 quit	VVP	quit
 ,	,	,
-ca	MD	ca
-n't	RB	n't
+ca	MD	can
+n't	RB	not
 wait	VV	wait
 for	IN	for
 him	PP	he
@@ -733,7 +733,7 @@ BlastR	NP	BlastR
 is	VBP	be
 just	RB	just
 hanging	VVG	hang
-out	RB	out
+out	RP	out
 here	RB	here
 .	SENT	.
 </s>
@@ -819,7 +819,7 @@ inside	RB	inside
 and	CC	and
 pushes	VVZ	push
 on	RP	on
-through	IN	through
+through	RP	through
 a	DT	a
 solid	JJ	solid
 aggressive	JJ	aggressive
@@ -1136,7 +1136,7 @@ own	JJ	own
 <s type="decl">
 Pika	NP	Pika
 was	VBD	be
-like	IN	like
+like	RP	like
 <quote>
 "	``	''
 okay	UH	okay
