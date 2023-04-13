@@ -164,7 +164,7 @@ equal	JJ	equal
 to	IN	to
 2	CD	2
 ⋅	SYM	⋅
-AC	JJR	AC
+AC	NN	AC
 ⋅	SYM	⋅
 CB	NN	CB
 .	SENT	.
@@ -303,7 +303,7 @@ medial	JJ	medial
 From	IN	from
 :	:	:
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Sum_of_Commensurable_Magnitudes">
-Proposition	NP	proposition
+Proposition	NP	Proposition
 15	CD	15
 of	IN	of
 Book	NP	Book
@@ -321,7 +321,7 @@ and	CC	and
 <ref target="https://proofwiki.org/wiki/Straight_Line_Commensurable_with_Medial_Straight_Line_is_Medial/Porism">
 Porism	NP	Porism
 to	IN	to
-Proposition	NP	proposition
+Proposition	NP	Proposition
 23	CD	23
 of	IN	of
 Book	NP	Book
@@ -376,7 +376,7 @@ of	IN	of
 Book	NP	Book
 X	NP	X
 :	:	:
-Square	JJ	Square
+Square	NN	Square
 on	IN	on
 Medial	NP	Medial
 Straight	NP	straight
@@ -517,7 +517,7 @@ by	IN	by
 </s>
 <s type="decl">
 <ref target="https://proofwiki.org/wiki/Commensurability_is_Transitive_Relation">
-Proposition	NP	proposition
+Proposition	NP	Proposition
 12	CD	12
 of	IN	of
 Book	NP	Book
@@ -531,7 +531,7 @@ Relation	NN	relation
 and	CC	and
 :	:	:
 <ref target="https://proofwiki.org/wiki/Commensurable_Magnitudes_are_Incommensurable_with_Same_Magnitude">
-Proposition	NP	proposition
+Proposition	NP	Proposition
 13	CD	13
 of	IN	of
 Book	NP	book
@@ -600,7 +600,7 @@ Base	NN	Base
 and	CC	and
 :	:	:
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
-Proposition	NP	proposition
+Proposition	NP	Proposition
 11	CD	11
 of	IN	of
 Book	NP	Book
@@ -684,7 +684,7 @@ line	NN	line
 </ref>
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 From	IN	from
 <ref target="https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
 Lemma	NP	Lemma
@@ -702,7 +702,7 @@ Straight	JJ	straight
 Line	NN	Line
 applied	VVN	apply
 to	IN	to
-Rational	NN	Rational
+Rational	JJ	Rational
 Straight	JJ	straight
 Line	NN	Line
 </ref>
@@ -722,7 +722,7 @@ DL	NN	DL
 MF	NN	MF
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 From	IN	from
 <ref target="https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
 Proposition	NP	Proposition
@@ -791,7 +791,8 @@ Base	NN	Base
 and	CC	and
 :	:	:
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
-Proposition	NN	proposition
+Proposition	NN	Proposition
+Proposition	NN	Proposition
 11	CD	11
 of	IN	of
 Book	NP	Book

@@ -527,7 +527,7 @@
 16	can	_	_	_	_	17	aux	_	_
 17	color	_	_	_	_	6	advcl	_	_
 18	it	_	_	_	_	17	obj	_	_
-19	c2	_	_	_	_	17	nmod:npmod	_	_
+19	c2	_	_	_	_	17	xcomp	_	_
 20	.	_	_	_	_	6	punct	_	_
 
 1	This	_	_	_	_	2	det	_	_

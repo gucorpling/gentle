@@ -190,7 +190,7 @@ coloring	NN	coloring
 such	JJ	such
 that	IN/that	that
 k	NN	k
-≤	SYM	be
+≤	SYM	≤
 5	CD	5
 .	SENT	.
 </s>
@@ -218,7 +218,7 @@ coloring	NN	coloring
 such	JJ	such
 that	IN/that	that
 k	NN	k
-≤	NN	be
+≤	SYM	≤
 5	CD	5
 .	SENT	.
 </s>
@@ -336,7 +336,7 @@ thus	RB	thus
 five	CD	five
 -	HYPH	-
 color	NN	color
-Gr+1	NN	gr+1
+Gr+1	NN	Gr+1
 .	SENT	.
 </s>
 </p>
@@ -557,7 +557,7 @@ y2	NN	y2
 ,	,	,
 y3	NN	y3
 ,	,	,
-y4	NN	44
+y4	NN	y4
 and	CC	and
 y5	NN	y5
 clockwise	NN	clockwise

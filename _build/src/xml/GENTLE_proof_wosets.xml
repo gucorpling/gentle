@@ -399,7 +399,7 @@ S	NN	S
 </w>
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 Likewise	RB	likewise
 if	IN	if
 x	NN	x
@@ -409,7 +409,7 @@ y	NN	y
 T	NN	T
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 If	IN	if
 x	NN	x
 ∈	SYM	∈
@@ -820,7 +820,7 @@ k	NN	k
 <s type="imp">
 Note	VV	note
 that	IN/that	that
-Ix	NN	ix
+Ix	NN	Ix
 =	SYM	=
 Ik	NN	Ik
 (	(	(
