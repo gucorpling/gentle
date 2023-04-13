@@ -1,11 +1,11 @@
-<text id="GENTLE_medical_screw" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="xxxx-xx-xx" dateModified="xxxx-xx-xx"  shortTitle="screw" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2082-Followup%20Screw%20Fixation" speakerCount="0" speakerList="none" title="Followup Screw Fixation" type="medical">
-<p>
+<text id="GENTLE_medical_screw" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="screw" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2082-Followup%20Screw%20Fixation" speakerCount="0" speakerList="none" title="Followup Screw Fixation" type="medical">
 <head rend="bold red">
 <s type="frag">
 Description	NN	description
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Followup	NN	followup
 4	CD	4
@@ -35,7 +35,6 @@ nonoperatively	RB	nonoperatively
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 REASON	NN	reason
@@ -44,6 +43,7 @@ VISIT	NN	visit
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Followup	NN	followup
 4	CD	4
@@ -73,7 +73,6 @@ nonoperatively	RB	nonoperatively
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 HISTORY	NN	history
@@ -83,6 +82,7 @@ ILLNESS	NN	illness
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 The	DT	the
 patient	NN	patient
@@ -201,13 +201,13 @@ neuropathy	NN	neuropathy
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 FINDINGS	NNS	finding
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 On	IN	on
 physical	JJ	physical
@@ -400,13 +400,13 @@ film	NN	film
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 ASSESSMENT	NN	assessment
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Four	CD	four
 months	NNS	month
@@ -431,13 +431,13 @@ fractures	NNS	fracture
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
-PLANS	NNS	plans
+PLANS	NNS	plan
 :	:	:
 </s>
 </head>
+<p>
 <s type="sub">
 I	PP	I
 would	MD	would

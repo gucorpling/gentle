@@ -346,7 +346,7 @@
 21-17	1713-1714	.	_	_	_	_	_	_	
 
 #Text=These appear to be extraarticular .
-22-1	1715-1720	These	abstract[100]	giv[100]	nonsal[100]	_	coref	23-1[101_100]	
+22-1	1715-1720	These	event[100]	giv[100]	nonsal[100]	_	coref	23-1[101_100]	
 22-2	1721-1727	appear	_	_	_	_	_	_	
 22-3	1728-1730	to	_	_	_	_	_	_	
 22-4	1731-1733	be	_	_	_	_	_	_	
@@ -354,7 +354,7 @@
 22-6	1749-1750	.	_	_	_	_	_	_	
 
 #Text=They are all in a bayonet arrangement , but there appears to be bridging callus between the fragments on the oblique film .
-23-1	1751-1755	They	abstract[101]	giv[101]	nonsal[101]	_	coref	25-15[112_101]	
+23-1	1751-1755	They	event[101]	giv[101]	nonsal[101]	_	coref	25-15[112_101]	
 23-2	1756-1759	are	_	_	_	_	_	_	
 23-3	1760-1763	all	_	_	_	_	_	_	
 23-4	1764-1766	in	_	_	_	_	_	_	

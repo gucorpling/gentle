@@ -1,11 +1,11 @@
-<text id="GENTLE_medical_anemia" author="MTSAMPLES.COM" dateCollected="2022-11-08" dateCreated="xxxx-xx-xx" dateModified="xxxx-xx-xx"  shortTitle="anemia" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=1873-Anemia%20&amp;%20Leukemia%20Followup" speakerCount="0" speakerList="none" title="Anemia &amp; Leukemia Followup" type="medical">
-<p>
+<text id="GENTLE_medical_anemia" author="MTSAMPLES.COM" dateCollected="2022-11-08" dateCreated="2022-11-08" dateModified="2022-11-08"  shortTitle="anemia" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=1873-Anemia%20&amp;%20Leukemia%20Followup" speakerCount="0" speakerList="none" title="Anemia &amp; Leukemia Followup" type="medical">
 <head rend="bold red">
 <s type="frag">
 Description	NN	description
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Chronic	JJ	chronic
 lymphocytic	JJ	lymphocytic
@@ -30,7 +30,7 @@ was	VBD	be
 diagnosed	VVN	diagnose
 with	IN	with
 chronic	JJ	chronic
-lymphocytic	NN	lymphocytic
+lymphocytic	JJ	lymphocytic
 leukemia	NN	leukemia
 and	CC	and
 was	VBD	be
@@ -52,7 +52,7 @@ diagnosis	NN	diagnosis
 </p>
 <head rend="red bold caps">
 <s type="frag">
-CHIEF	JJ	CHIEF
+CHIEF	JJ	chief
 COMPLAINT	NN	complaint
 :	:	:
 </s>
@@ -88,7 +88,6 @@ ulcer	NN	ulcer
 </s>
 </item>
 </list>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 HISTORY	NN	history
@@ -98,6 +97,7 @@ ILLNESS	NN	illness
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 The	DT	the
 patient	NN	patient
@@ -116,7 +116,7 @@ was	VBD	be
 diagnosed	VVN	diagnose
 with	IN	with
 chronic	JJ	chronic
-lymphocytic	NN	lymphocytic
+lymphocytic	JJ	lymphocytic
 leukemia	NN	leukemia
 in	IN	in
 <date when="2008-05">
@@ -177,7 +177,7 @@ for	IN	for
 <w>
 follow	NN	follow
 -	HYPH	-
-up	NN	up
+up	RP	up
 </w>
 and	CC	and
 complete	JJ	complete
@@ -201,14 +201,14 @@ antibacterial	NN	antibacterial
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
-CURRENT	JJ	Current
+CURRENT	JJ	current
 MEDICATIONS	NNS	medication
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Prilosec	NN	prilosec
 20	CD	20
@@ -246,19 +246,18 @@ mg	NN	milligram
 q.o.d.	NN	q.o.d.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 ALLERGIES	NNS	allergy
 :	:	:
 </s>
 </head>
+<p>
 <s type="frag">
 Vicodin	NP	Vicodin
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 REVIEW	NN	review
@@ -267,6 +266,7 @@ SYSTEMS	NNS	system
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 The	DT	the
 patient	NN	patient
@@ -563,7 +563,6 @@ edema	NN	edema
 </s>
 </item>
 </list>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 LABORATORY	NN	laboratory
@@ -571,6 +570,7 @@ DATA	NN	data
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 His	PP$	his
 white	JJ	white
@@ -592,17 +592,17 @@ platelets	NNS	platelet
 .	SENT	.
 </s>
 </p>
-<p>
 <head rend="bold red caps">
 <s type="frag">
 <w>
 ASSESSMENT	NN	assessment
 /	SYM	/
-PLAN	NN	PLAN
+PLAN	NN	plan
 </w>
 :	:	:
 </s>
 </head>
+<p>
 <s type="decl">
 This	DT	this
 is	VBZ	be
