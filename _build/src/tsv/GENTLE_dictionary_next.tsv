@@ -1,0 +1,804 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Referent|entity|infstat|salience|identity
+#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
+
+
+#Text=next
+1-1	0-4	next	abstract[1]	new[1]	nonsal[1]	_	coref	10-8[36_1]	
+
+#Text=English
+2-1	5-12	English	abstract[2]	new[2]	nonsal[2]	English_language[2]	_	_	
+
+#Text=Alternative forms
+3-1	13-24	Alternative	abstract[3]	new[3]	nonsal[3]	_	_	_	
+3-2	25-30	forms	abstract[3]	new[3]	nonsal[3]	_	_	_	
+
+#Text=neest ( dialectal )
+4-1	31-36	neest	abstract[4]	new[4]	nonsal[4]	_	_	_	
+4-2	37-38	(	_	_	_	_	_	_	
+4-3	39-48	dialectal	_	_	_	_	_	_	
+4-4	49-50	)	_	_	_	_	_	_	
+
+#Text=neist ( Scotland )
+5-1	51-56	neist	abstract[5]	new[5]	nonsal[5]	_	_	_	
+5-2	57-58	(	_	_	_	_	_	_	
+5-3	59-67	Scotland	place[6]	new[6]	nonsal[6]	Scotland[6]	_	_	
+5-4	68-69	)	_	_	_	_	_	_	
+
+#Text=nex ( archaic )
+6-1	70-73	nex	abstract[7]	new[7]	nonsal[7]	_	_	_	
+6-2	74-75	(	_	_	_	_	_	_	
+6-3	76-83	archaic	_	_	_	_	_	_	
+6-4	84-85	)	_	_	_	_	_	_	
+
+#Text=nex' ( dialectal )
+7-1	86-90	nex'	abstract[8]	new[8]	nonsal[8]	_	_	_	
+7-2	91-92	(	_	_	_	_	_	_	
+7-3	93-102	dialectal	_	_	_	_	_	_	
+7-4	103-104	)	_	_	_	_	_	_	
+
+#Text=Etymology
+8-1	105-114	Etymology	abstract[9]	new[9]	nonsal[9]	_	_	_	
+
+#Text=From Middle English nexte , nexste , nixte , from Old English nīehsta , nīehste , etc. , inflected forms of nīehst ( “ nearest , next ” ) , superlative form of nēah ( “ nigh , near ” ) , corresponding to Proto-Germanic *nēhwist ( “ nearest , closest ” ) ; equivalent to nigh + -est .
+9-1	115-119	From	_	_	_	_	_	_	
+9-2	120-126	Middle	abstract[10]	new[10]	nonsal[10]	Middle_English[10]	_	_	
+9-3	127-134	English	abstract[10]	new[10]	nonsal[10]	Middle_English[10]	_	_	
+9-4	135-140	nexte	abstract[11]	new[11]	nonsal[11]	_	_	_	
+9-5	141-142	,	_	_	_	_	_	_	
+9-6	143-149	nexste	abstract[12]	new[12]	nonsal[12]	_	_	_	
+9-7	150-151	,	_	_	_	_	_	_	
+9-8	152-157	nixte	abstract[13]	new[13]	nonsal[13]	_	_	_	
+9-9	158-159	,	_	_	_	_	_	_	
+9-10	160-164	from	_	_	_	_	_	_	
+9-11	165-168	Old	abstract[14]|abstract[15]	new[14]|new[15]	nonsal[14]|nonsal[15]	Old_English[15]	coref	9-19[18_14]	
+9-12	169-176	English	abstract[14]|abstract[15]	new[14]|new[15]	nonsal[14]|nonsal[15]	Old_English[15]	_	_	
+9-13	177-184	nīehsta	abstract[14]|abstract[16]	new[14]|new[16]	nonsal[14]|nonsal[16]	_	_	_	
+9-14	185-186	,	abstract[14]	new[14]	nonsal[14]	_	_	_	
+9-15	187-194	nīehste	abstract[14]|abstract[17]	new[14]|new[17]	nonsal[14]|nonsal[17]	_	_	_	
+9-16	195-196	,	abstract[14]	new[14]	nonsal[14]	_	_	_	
+9-17	197-201	etc.	abstract[14]	new[14]	nonsal[14]	_	_	_	
+9-18	202-203	,	_	_	_	_	_	_	
+9-19	204-213	inflected	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-20	214-219	forms	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-21	220-222	of	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-22	223-229	nīehst	abstract[18]|abstract[19]	giv[18]|new[19]	nonsal[18]|nonsal[19]	_	_	_	
+9-23	230-231	(	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-24	232-233	“	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-25	234-241	nearest	abstract[18]|abstract[20]	giv[18]|new[20]	nonsal[18]|nonsal[20]	_	_	_	
+9-26	242-243	,	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-27	244-248	next	abstract[18]|abstract[21]	giv[18]|new[21]	nonsal[18]|nonsal[21]	_	_	_	
+9-28	249-250	”	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-29	251-252	)	abstract[18]	giv[18]	nonsal[18]	_	_	_	
+9-30	253-254	,	_	_	_	_	_	_	
+9-31	255-266	superlative	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-32	267-271	form	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-33	272-274	of	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-34	275-279	nēah	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-35	280-281	(	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-36	282-283	“	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-37	284-288	nigh	abstract[22]|abstract[23]	giv[22]|new[23]	nonsal[22]|nonsal[23]	_	coref	30-8[117_23]	
+9-38	289-290	,	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-39	291-295	near	abstract[22]|abstract[24]	giv[22]|new[24]	nonsal[22]|nonsal[24]	_	coref	10-58[61_24]	
+9-40	296-297	”	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-41	298-299	)	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-42	300-301	,	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-43	302-315	corresponding	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-44	316-318	to	abstract[22]	giv[22]	nonsal[22]	_	_	_	
+9-45	319-333	Proto-Germanic	abstract[22]|abstract[25]|abstract[26]	giv[22]|new[25]|new[26]	nonsal[22]|nonsal[25]|nonsal[26]	Proto-Germanic_language[26]	_	_	
+9-46	334-342	*nēhwist	abstract[22]|abstract[25]|abstract[27]	giv[22]|new[25]|new[27]	nonsal[22]|nonsal[25]|nonsal[27]	_	_	_	
+9-47	343-344	(	abstract[22]|abstract[25]	giv[22]|new[25]	nonsal[22]|nonsal[25]	_	_	_	
+9-48	345-346	“	abstract[22]|abstract[25]	giv[22]|new[25]	nonsal[22]|nonsal[25]	_	_	_	
+9-49	347-354	nearest	abstract[22]|abstract[25]|abstract[28]	giv[22]|new[25]|new[28]	nonsal[22]|nonsal[25]|nonsal[28]	_	_	_	
+9-50	355-356	,	abstract[22]|abstract[25]	giv[22]|new[25]	nonsal[22]|nonsal[25]	_	_	_	
+9-51	357-364	closest	abstract[22]|abstract[25]|abstract[29]	giv[22]|new[25]|new[29]	nonsal[22]|nonsal[25]|nonsal[29]	_	_	_	
+9-52	365-366	”	abstract[22]|abstract[25]	giv[22]|new[25]	nonsal[22]|nonsal[25]	_	_	_	
+9-53	367-368	)	abstract[22]|abstract[25]	giv[22]|new[25]	nonsal[22]|nonsal[25]	_	_	_	
+9-54	369-370	;	_	_	_	_	_	_	
+9-55	371-381	equivalent	_	_	_	_	_	_	
+9-56	382-384	to	_	_	_	_	_	_	
+9-57	385-389	nigh	abstract[30]|abstract[31]	new[30]|new[31]	nonsal[30]|nonsal[31]	_	_	_	
+9-58	390-391	+	abstract[30]	new[30]	nonsal[30]	_	_	_	
+9-59	392-396	-est	abstract[30]|abstract[32]	new[30]|new[32]	nonsal[30]|nonsal[32]	_	_	_	
+9-60	397-398	.	_	_	_	_	_	_	
+
+#Text=Cognate with Saterland Frisian naist ( “ next ” ) , Dutch naast ( “ next ” ) , German nächst ( “ next ” ) , Danish næste ( “ next ” ) , Swedish näst ( “ next ” ) , Icelandic næst ( “ next ” ) , Persian نزد ( nazd , “ near , with ” ) .
+10-1	399-406	Cognate	_	_	_	_	_	_	
+10-2	407-411	with	_	_	_	_	_	_	
+10-3	412-421	Saterland	abstract[33]|abstract[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	Saterland_Frisian_language[34]	_	_	
+10-4	422-429	Frisian	abstract[33]|abstract[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	Saterland_Frisian_language[34]	_	_	
+10-5	430-435	naist	abstract[33]|abstract[35]	new[33]|new[35]	nonsal[33]|nonsal[35]	_	_	_	
+10-6	436-437	(	abstract[33]	new[33]	nonsal[33]	_	_	_	
+10-7	438-439	“	abstract[33]	new[33]	nonsal[33]	_	_	_	
+10-8	440-444	next	abstract[33]|abstract[36]	new[33]|giv[36]	nonsal[33]|nonsal[36]	_	coref	10-16[40_36]	
+10-9	445-446	”	abstract[33]	new[33]	nonsal[33]	_	_	_	
+10-10	447-448	)	abstract[33]	new[33]	nonsal[33]	_	_	_	
+10-11	449-450	,	_	_	_	_	_	_	
+10-12	451-456	Dutch	abstract[37]|abstract[38]	new[37]|new[38]	nonsal[37]|nonsal[38]	Dutch_language[38]	_	_	
+10-13	457-462	naast	abstract[37]|abstract[39]	new[37]|new[39]	nonsal[37]|nonsal[39]	_	_	_	
+10-14	463-464	(	abstract[37]	new[37]	nonsal[37]	_	_	_	
+10-15	465-466	“	abstract[37]	new[37]	nonsal[37]	_	_	_	
+10-16	467-471	next	abstract[37]|abstract[40]	new[37]|giv[40]	nonsal[37]|nonsal[40]	_	coref	10-24[44_40]	
+10-17	472-473	”	abstract[37]	new[37]	nonsal[37]	_	_	_	
+10-18	474-475	)	abstract[37]	new[37]	nonsal[37]	_	_	_	
+10-19	476-477	,	_	_	_	_	_	_	
+10-20	478-484	German	abstract[41]|abstract[42]	new[41]|new[42]	nonsal[41]|nonsal[42]	_	_	_	
+10-21	485-491	nächst	abstract[41]|abstract[43]	new[41]|new[43]	nonsal[41]|nonsal[43]	_	_	_	
+10-22	492-493	(	abstract[41]	new[41]	nonsal[41]	_	_	_	
+10-23	494-495	“	abstract[41]	new[41]	nonsal[41]	_	_	_	
+10-24	496-500	next	abstract[41]|abstract[44]	new[41]|giv[44]	nonsal[41]|nonsal[44]	_	coref	10-32[48_44]	
+10-25	501-502	”	abstract[41]	new[41]	nonsal[41]	_	_	_	
+10-26	503-504	)	abstract[41]	new[41]	nonsal[41]	_	_	_	
+10-27	505-506	,	_	_	_	_	_	_	
+10-28	507-513	Danish	abstract[45]|abstract[46]	new[45]|new[46]	nonsal[45]|nonsal[46]	_	_	_	
+10-29	514-519	næste	abstract[45]|abstract[47]	new[45]|new[47]	nonsal[45]|nonsal[47]	_	_	_	
+10-30	520-521	(	abstract[45]	new[45]	nonsal[45]	_	_	_	
+10-31	522-523	“	abstract[45]	new[45]	nonsal[45]	_	_	_	
+10-32	524-528	next	abstract[45]|abstract[48]	new[45]|giv[48]	nonsal[45]|nonsal[48]	_	coref	10-40[52_48]	
+10-33	529-530	”	abstract[45]	new[45]	nonsal[45]	_	_	_	
+10-34	531-532	)	abstract[45]	new[45]	nonsal[45]	_	_	_	
+10-35	533-534	,	_	_	_	_	_	_	
+10-36	535-542	Swedish	abstract[49]|abstract[50]	new[49]|new[50]	nonsal[49]|nonsal[50]	_	_	_	
+10-37	543-547	näst	abstract[49]|abstract[51]	new[49]|new[51]	nonsal[49]|nonsal[51]	_	_	_	
+10-38	548-549	(	abstract[49]	new[49]	nonsal[49]	_	_	_	
+10-39	550-551	“	abstract[49]	new[49]	nonsal[49]	_	_	_	
+10-40	552-556	next	abstract[49]|abstract[52]	new[49]|giv[52]	nonsal[49]|nonsal[52]	_	coref	10-48[56_52]	
+10-41	557-558	”	abstract[49]	new[49]	nonsal[49]	_	_	_	
+10-42	559-560	)	abstract[49]	new[49]	nonsal[49]	_	_	_	
+10-43	561-562	,	_	_	_	_	_	_	
+10-44	563-572	Icelandic	abstract[53]|abstract[54]	new[53]|new[54]	nonsal[53]|nonsal[54]	_	_	_	
+10-45	573-577	næst	abstract[53]|abstract[55]	new[53]|new[55]	nonsal[53]|nonsal[55]	_	_	_	
+10-46	578-579	(	abstract[53]	new[53]	nonsal[53]	_	_	_	
+10-47	580-581	“	abstract[53]	new[53]	nonsal[53]	_	_	_	
+10-48	582-586	next	abstract[53]|abstract[56]	new[53]|giv[56]	nonsal[53]|nonsal[56]	_	_	_	
+10-49	587-588	”	abstract[53]	new[53]	nonsal[53]	_	_	_	
+10-50	589-590	)	abstract[53]	new[53]	nonsal[53]	_	_	_	
+10-51	591-592	,	_	_	_	_	_	_	
+10-52	593-600	Persian	abstract[57]|abstract[58]	new[57]|new[58]	nonsal[57]|nonsal[58]	Persian_language[58]	_	_	
+10-53	601-604	نزد	abstract[57]|abstract[59]	new[57]|new[59]	nonsal[57]|nonsal[59]	_	coref	10-55[60_59]	
+10-54	605-606	(	abstract[57]	new[57]	nonsal[57]	_	_	_	
+10-55	607-611	nazd	abstract[57]|abstract[60]	new[57]|new[60]	nonsal[57]|nonsal[60]	_	_	_	
+10-56	612-613	,	abstract[57]	new[57]	nonsal[57]	_	_	_	
+10-57	614-615	“	abstract[57]	new[57]	nonsal[57]	_	_	_	
+10-58	616-620	near	abstract[57]|abstract[61]	new[57]|giv[61]	nonsal[57]|nonsal[61]	_	_	_	
+10-59	621-622	,	abstract[57]	new[57]	nonsal[57]	_	_	_	
+10-60	623-627	with	abstract[57]|abstract[62]	new[57]|new[62]	nonsal[57]|nonsal[62]	_	_	_	
+10-61	628-629	”	abstract[57]	new[57]	nonsal[57]	_	_	_	
+10-62	630-631	)	abstract[57]	new[57]	nonsal[57]	_	_	_	
+10-63	632-633	.	_	_	_	_	_	_	
+
+#Text=Pronunciation
+11-1	634-647	Pronunciation	abstract[63]	new[63]	nonsal[63]	_	_	_	
+
+#Text=enPR : nĕ kst , IPA ( key ) : / nɛkst /
+12-1	648-652	enPR	abstract[64]	new[64]	nonsal[64]	_	_	_	
+12-2	653-654	:	_	_	_	_	_	_	
+12-3	655-657	nĕ	abstract[65]	new[65]	nonsal[65]	_	_	_	
+12-4	658-661	kst	abstract[65]	new[65]	nonsal[65]	_	_	_	
+12-5	662-663	,	_	_	_	_	_	_	
+12-6	664-667	IPA	abstract[66]	new[66]	nonsal[66]	International_Phonetic_Alphabet[66]	_	_	
+12-7	668-669	(	_	_	_	_	_	_	
+12-8	670-673	key	abstract[67]	new[67]	nonsal[67]	_	_	_	
+12-9	674-675	)	_	_	_	_	_	_	
+12-10	676-677	:	_	_	_	_	_	_	
+12-11	678-679	/	_	_	_	_	_	_	
+12-12	680-685	nɛkst	abstract[68]	new[68]	nonsal[68]	_	_	_	
+12-13	686-687	/	_	_	_	_	_	_	
+
+#Text=Audio ( US )
+13-1	688-693	Audio	abstract[69]	new[69]	nonsal[69]	_	_	_	
+13-2	694-695	(	_	_	_	_	_	_	
+13-3	696-698	US	abstract[70]	new[70]	nonsal[70]	United_States[70]	_	_	
+13-4	699-700	)	_	_	_	_	_	_	
+
+#Text=Rhymes : -ɛkst
+14-1	701-707	Rhymes	abstract[71]	new[71]	nonsal[71]	_	coref	14-3[72_71]	
+14-2	708-709	:	_	_	_	_	_	_	
+14-3	710-715	-ɛkst	abstract[72]	new[72]	nonsal[72]	_	_	_	
+
+#Text=Adjective
+15-1	716-725	Adjective	abstract[73]	new[73]	nonsal[73]	_	_	_	
+
+#Text=next ( not comparable )
+16-1	726-730	next	abstract[74]	new[74]	nonsal[74]	_	_	_	
+16-2	731-732	(	_	_	_	_	_	_	
+16-3	733-736	not	_	_	_	_	_	_	
+16-4	737-747	comparable	_	_	_	_	_	_	
+16-5	748-749	)	_	_	_	_	_	_	
+
+#Text=Nearest in place or position , having nothing similar intervening ; adjoining .
+17-1	750-757	Nearest	_	_	_	_	_	_	
+17-2	758-760	in	_	_	_	_	_	_	
+17-3	761-766	place	place[75]	new[75]	nonsal[75]	_	_	_	
+17-4	767-769	or	_	_	_	_	_	_	
+17-5	770-778	position	place[76]	new[76]	nonsal[76]	_	_	_	
+17-6	779-780	,	_	_	_	_	_	_	
+17-7	781-787	having	_	_	_	_	_	_	
+17-8	788-795	nothing	object[77]	new[77]	nonsal[77]	_	_	_	
+17-9	796-803	similar	object[77]	new[77]	nonsal[77]	_	_	_	
+17-10	804-815	intervening	_	_	_	_	_	_	
+17-11	816-817	;	_	_	_	_	_	_	
+17-12	818-827	adjoining	_	_	_	_	_	_	
+17-13	828-829	.	_	_	_	_	_	_	
+
+#Text=The man in the next bunk kept me awake all night with his snoring .
+18-1	830-833	The	person[78]	new[78]	nonsal[78]	_	coref	18-13[83_78]	
+18-2	834-837	man	person[78]	new[78]	nonsal[78]	_	_	_	
+18-3	838-840	in	person[78]	new[78]	nonsal[78]	_	_	_	
+18-4	841-844	the	person[78]|object[79]	new[78]|new[79]	nonsal[78]|nonsal[79]	_	_	_	
+18-5	845-849	next	person[78]|object[79]	new[78]|new[79]	nonsal[78]|nonsal[79]	_	_	_	
+18-6	850-854	bunk	person[78]|object[79]	new[78]|new[79]	nonsal[78]|nonsal[79]	_	_	_	
+18-7	855-859	kept	_	_	_	_	_	_	
+18-8	860-862	me	person[80]	acc[80]	nonsal[80]	_	_	_	
+18-9	863-868	awake	_	_	_	_	_	_	
+18-10	869-872	all	time[81]	new[81]	nonsal[81]	_	_	_	
+18-11	873-878	night	time[81]	new[81]	nonsal[81]	_	_	_	
+18-12	879-883	with	_	_	_	_	_	_	
+18-13	884-887	his	event[82]|person[83]	new[82]|giv[83]	nonsal[82]|nonsal[83]	_	_	_	
+18-14	888-895	snoring	event[82]	new[82]	nonsal[82]	_	_	_	
+18-15	896-897	.	_	_	_	_	_	_	
+
+#Text=She lives a mile or two away , in the next village .
+19-1	898-901	She	person[84]	acc[84]	nonsal[84]	_	_	_	
+19-2	902-907	lives	_	_	_	_	_	_	
+19-3	908-909	a	abstract[85]	new[85]	nonsal[85]	_	bridge	19-6[86_85]	
+19-4	910-914	mile	abstract[85]	new[85]	nonsal[85]	_	_	_	
+19-5	915-917	or	_	_	_	_	_	_	
+19-6	918-921	two	abstract[86]	acc[86]	nonsal[86]	_	_	_	
+19-7	922-926	away	_	_	_	_	_	_	
+19-8	927-928	,	_	_	_	_	_	_	
+19-9	929-931	in	_	_	_	_	_	_	
+19-10	932-935	the	place[87]	new[87]	nonsal[87]	_	_	_	
+19-11	936-940	next	place[87]	new[87]	nonsal[87]	_	_	_	
+19-12	941-948	village	place[87]	new[87]	nonsal[87]	_	_	_	
+19-13	949-950	.	_	_	_	_	_	_	
+
+#Text=( obsolete ) Most direct , or shortest or nearest in distance or time .
+20-1	951-952	(	_	_	_	_	_	_	
+20-2	953-961	obsolete	_	_	_	_	_	_	
+20-3	962-963	)	_	_	_	_	_	_	
+20-4	964-968	Most	_	_	_	_	_	_	
+20-5	969-975	direct	_	_	_	_	_	_	
+20-6	976-977	,	_	_	_	_	_	_	
+20-7	978-980	or	_	_	_	_	_	_	
+20-8	981-989	shortest	_	_	_	_	_	_	
+20-9	990-992	or	_	_	_	_	_	_	
+20-10	993-1000	nearest	_	_	_	_	_	_	
+20-11	1001-1003	in	_	_	_	_	_	_	
+20-12	1004-1012	distance	place[88]	new[88]	nonsal[88]	_	_	_	
+20-13	1013-1015	or	_	_	_	_	_	_	
+20-14	1016-1020	time	time[89]	new[89]	nonsal[89]	_	coref	56-9[183_89]	
+20-15	1021-1022	.	_	_	_	_	_	_	
+
+#Text=Nearest in order , succession , or rank ; immediately following ( or sometimes preceding ) in order .
+21-1	1023-1030	Nearest	_	_	_	_	_	_	
+21-2	1031-1033	in	_	_	_	_	_	_	
+21-3	1034-1039	order	abstract[90]	new[90]	nonsal[90]	_	coref	21-18[93_90]	
+21-4	1040-1041	,	_	_	_	_	_	_	
+21-5	1042-1052	succession	abstract[91]	new[91]	nonsal[91]	_	_	_	
+21-6	1053-1054	,	_	_	_	_	_	_	
+21-7	1055-1057	or	_	_	_	_	_	_	
+21-8	1058-1062	rank	abstract[92]	new[92]	nonsal[92]	_	_	_	
+21-9	1063-1064	;	_	_	_	_	_	_	
+21-10	1065-1076	immediately	_	_	_	_	_	_	
+21-11	1077-1086	following	_	_	_	_	_	_	
+21-12	1087-1088	(	_	_	_	_	_	_	
+21-13	1089-1091	or	_	_	_	_	_	_	
+21-14	1092-1101	sometimes	_	_	_	_	_	_	
+21-15	1102-1111	preceding	_	_	_	_	_	_	
+21-16	1112-1113	)	_	_	_	_	_	_	
+21-17	1114-1116	in	_	_	_	_	_	_	
+21-18	1117-1122	order	abstract[93]	giv[93]	nonsal[93]	_	coref	33-4[124_93]	
+21-19	1123-1124	.	_	_	_	_	_	_	
+
+#Text=Please turn to the next page .
+22-1	1125-1131	Please	_	_	_	_	_	_	
+22-2	1132-1136	turn	_	_	_	_	_	_	
+22-3	1137-1139	to	_	_	_	_	_	_	
+22-4	1140-1143	the	object[94]	new[94]	nonsal[94]	_	_	_	
+22-5	1144-1148	next	object[94]	new[94]	nonsal[94]	_	_	_	
+22-6	1149-1153	page	object[94]	new[94]	nonsal[94]	_	_	_	
+22-7	1154-1155	.	_	_	_	_	_	_	
+
+#Text=On Wednesday next , I 'm going to Spain .
+23-1	1156-1158	On	_	_	_	_	_	_	
+23-2	1159-1168	Wednesday	time[95]	acc[95]	nonsal[95]	_	_	_	
+23-3	1169-1173	next	time[95]	acc[95]	nonsal[95]	_	_	_	
+23-4	1174-1175	,	_	_	_	_	_	_	
+23-5	1176-1177	I	person[96]	acc[96]	nonsal[96]	_	_	_	
+23-6	1178-1180	'm	_	_	_	_	_	_	
+23-7	1181-1186	going	_	_	_	_	_	_	
+23-8	1187-1189	to	_	_	_	_	_	_	
+23-9	1190-1195	Spain	place[97]	new[97]	nonsal[97]	Spain[97]	_	_	
+23-10	1196-1197	.	_	_	_	_	_	_	
+
+#Text=the next chapter ; the next week ; the Sunday next before Easter
+24-1	1198-1201	the	abstract[98]	acc[98]	nonsal[98]	_	_	_	
+24-2	1202-1206	next	abstract[98]	acc[98]	nonsal[98]	_	_	_	
+24-3	1207-1214	chapter	abstract[98]	acc[98]	nonsal[98]	_	_	_	
+24-4	1215-1216	;	_	_	_	_	_	_	
+24-5	1217-1220	the	time[99]	acc[99]	nonsal[99]	_	_	_	
+24-6	1221-1225	next	time[99]	acc[99]	nonsal[99]	_	_	_	
+24-7	1226-1230	week	time[99]	acc[99]	nonsal[99]	_	_	_	
+24-8	1231-1232	;	_	_	_	_	_	_	
+24-9	1233-1236	the	time[100]	new[100]	nonsal[100]	_	_	_	
+24-10	1237-1243	Sunday	time[100]	new[100]	nonsal[100]	_	_	_	
+24-11	1244-1248	next	time[100]	new[100]	nonsal[100]	_	_	_	
+24-12	1249-1255	before	time[100]	new[100]	nonsal[100]	_	_	_	
+24-13	1256-1262	Easter	time[100]|time[101]	new[100]|new[101]	nonsal[100]|nonsal[101]	Easter[101]	_	_	
+
+#Text=The man was driven by his love for money and his desire to become the next Bill Gates .
+25-1	1263-1266	The	person[102]	new[102]	nonsal[102]	_	coref	25-6[104_102]	
+25-2	1267-1270	man	person[102]	new[102]	nonsal[102]	_	_	_	
+25-3	1271-1274	was	_	_	_	_	_	_	
+25-4	1275-1281	driven	_	_	_	_	_	_	
+25-5	1282-1284	by	_	_	_	_	_	_	
+25-6	1285-1288	his	abstract[103]|person[104]	new[103]|giv[104]	nonsal[103]|nonsal[104]	_	coref	25-11[107_104]	
+25-7	1289-1293	love	abstract[103]	new[103]	nonsal[103]	_	_	_	
+25-8	1294-1297	for	abstract[103]	new[103]	nonsal[103]	_	_	_	
+25-9	1298-1303	money	abstract[103]|abstract[105]	new[103]|new[105]	nonsal[103]|nonsal[105]	_	_	_	
+25-10	1304-1307	and	_	_	_	_	_	_	
+25-11	1308-1311	his	abstract[106]|person[107]	new[106]|giv[107]	nonsal[106]|nonsal[107]	_	_	_	
+25-12	1312-1318	desire	abstract[106]	new[106]	nonsal[106]	_	_	_	
+25-13	1319-1321	to	abstract[106]	new[106]	nonsal[106]	_	_	_	
+25-14	1322-1328	become	abstract[106]	new[106]	nonsal[106]	_	_	_	
+25-15	1329-1332	the	abstract[106]|person[108]	new[106]|new[108]	nonsal[106]|nonsal[108]	_	_	_	
+25-16	1333-1337	next	abstract[106]|person[108]	new[106]|new[108]	nonsal[106]|nonsal[108]	_	_	_	
+25-17	1338-1342	Bill	abstract[106]|person[108]|person[109]	new[106]|new[108]|new[109]	nonsal[106]|nonsal[108]|nonsal[109]	Bill_Gates[109]	_	_	
+25-18	1343-1348	Gates	abstract[106]|person[108]|person[109]	new[106]|new[108]|new[109]	nonsal[106]|nonsal[108]|nonsal[109]	Bill_Gates[109]	_	_	
+25-19	1349-1350	.	_	_	_	_	_	_	
+
+#Text=( chiefly law ) Nearest in relationship .
+26-1	1351-1352	(	_	_	_	_	_	_	
+26-2	1353-1360	chiefly	_	_	_	_	_	_	
+26-3	1361-1364	law	abstract[110]	new[110]	nonsal[110]	_	_	_	
+26-4	1365-1366	)	_	_	_	_	_	_	
+26-5	1367-1374	Nearest	_	_	_	_	_	_	
+26-6	1375-1377	in	_	_	_	_	_	_	
+26-7	1378-1390	relationship	abstract[111]	new[111]	nonsal[111]	_	_	_	
+26-8	1391-1392	.	_	_	_	_	_	_	
+
+#Text=( See also next of kin . )
+27-1	1393-1394	(	_	_	_	_	_	_	
+27-2	1395-1398	See	_	_	_	_	_	_	
+27-3	1399-1403	also	_	_	_	_	_	_	
+27-4	1404-1408	next	person[112]	giv[112]	nonsal[112]	_	_	_	
+27-5	1409-1411	of	person[112]	giv[112]	nonsal[112]	_	_	_	
+27-6	1412-1415	kin	person[112]	giv[112]	nonsal[112]	_	_	_	
+27-7	1416-1417	.	_	_	_	_	_	_	
+27-8	1418-1419	)	_	_	_	_	_	_	
+
+#Text=next friend
+28-1	1420-1424	next	person[113]	new[113]	nonsal[113]	_	_	_	
+28-2	1425-1431	friend	person[113]	new[113]	nonsal[113]	_	_	_	
+
+#Text=Usage notes
+29-1	1432-1437	Usage	abstract[114]	new[114]	nonsal[114]	_	_	_	
+29-2	1438-1443	notes	abstract[114]	new[114]	nonsal[114]	_	_	_	
+
+#Text=Near was originally the comparative form of nigh ; the superlative form was next .
+30-1	1444-1448	Near	abstract[115]	new[115]	nonsal[115]	_	coref	30-4[116_115]	
+30-2	1449-1452	was	_	_	_	_	_	_	
+30-3	1453-1463	originally	_	_	_	_	_	_	
+30-4	1464-1467	the	abstract[116]	giv[116]	nonsal[116]	_	_	_	
+30-5	1468-1479	comparative	abstract[116]	giv[116]	nonsal[116]	_	_	_	
+30-6	1480-1484	form	abstract[116]	giv[116]	nonsal[116]	_	_	_	
+30-7	1485-1487	of	abstract[116]	giv[116]	nonsal[116]	_	_	_	
+30-8	1488-1492	nigh	abstract[116]|abstract[117]	giv[116]|giv[117]	nonsal[116]|nonsal[117]	_	coref	31-1[120_117]	
+30-9	1493-1494	;	_	_	_	_	_	_	
+30-10	1495-1498	the	abstract[118]	giv[118]	nonsal[118]	_	coref	30-14[119_118]	
+30-11	1499-1510	superlative	abstract[118]	giv[118]	nonsal[118]	_	_	_	
+30-12	1511-1515	form	abstract[118]	giv[118]	nonsal[118]	_	_	_	
+30-13	1516-1519	was	_	_	_	_	_	_	
+30-14	1520-1524	next	abstract[119]	giv[119]	nonsal[119]	_	_	_	
+30-15	1525-1526	.	_	_	_	_	_	_	
+
+#Text=Nigh is used today mostly in archaic , poetic , or regional contexts .
+31-1	1527-1531	Nigh	abstract[120]	giv[120]	nonsal[120]	_	_	_	
+31-2	1532-1534	is	_	_	_	_	_	_	
+31-3	1535-1539	used	_	_	_	_	_	_	
+31-4	1540-1545	today	time[121]	acc[121]	nonsal[121]	_	_	_	
+31-5	1546-1552	mostly	_	_	_	_	_	_	
+31-6	1553-1555	in	_	_	_	_	_	_	
+31-7	1556-1563	archaic	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-8	1564-1565	,	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-9	1566-1572	poetic	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-10	1573-1574	,	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-11	1575-1577	or	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-12	1578-1586	regional	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-13	1587-1595	contexts	abstract[122]	new[122]	nonsal[122]	_	_	_	
+31-14	1596-1597	.	_	_	_	_	_	_	
+
+#Text=Synonyms
+32-1	1598-1606	Synonyms	abstract[123]	new[123]	nonsal[123]	_	_	_	
+
+#Text=( nearest in order ) : See also Thesaurus : former or Thesaurus : subsequent
+33-1	1607-1608	(	_	_	_	_	_	_	
+33-2	1609-1616	nearest	_	_	_	_	_	_	
+33-3	1617-1619	in	_	_	_	_	_	_	
+33-4	1620-1625	order	abstract[124]	giv[124]	nonsal[124]	_	_	_	
+33-5	1626-1627	)	_	_	_	_	_	_	
+33-6	1628-1629	:	_	_	_	_	_	_	
+33-7	1630-1633	See	_	_	_	_	_	_	
+33-8	1634-1638	also	_	_	_	_	_	_	
+33-9	1639-1648	Thesaurus	organization[125]	new[125]	nonsal[125]	_	coref	33-13[127_125]	
+33-10	1649-1650	:	_	_	_	_	_	_	
+33-11	1651-1657	former	abstract[126]	giv[126]	nonsal[126]	_	_	_	
+33-12	1658-1660	or	_	_	_	_	_	_	
+33-13	1661-1670	Thesaurus	organization[127]	giv[127]	nonsal[127]	_	_	_	
+33-14	1671-1672	:	_	_	_	_	_	_	
+33-15	1673-1683	subsequent	abstract[128]	new[128]	nonsal[128]	_	_	_	
+
+#Text=Antonyms
+34-1	1684-1692	Antonyms	abstract[129]	new[129]	nonsal[129]	Opposite_(semantics)[129]	coref	35-1[130_129]	
+
+#Text=previous
+35-1	1693-1701	previous	abstract[130]	new[130]	nonsal[130]	_	_	_	
+
+#Text=Derived terms
+36-1	1702-1709	Derived	abstract[131]	new[131]	nonsal[131]	_	coref	37-1[132_131]	
+36-2	1710-1715	terms	abstract[131]	new[131]	nonsal[131]	_	_	_	
+
+#Text=next - day
+37-1	1716-1720	next	time[132]	new[132]	nonsal[132]	_	_	_	
+37-2	1721-1722	-	time[132]	new[132]	nonsal[132]	_	_	_	
+37-3	1723-1726	day	time[132]	new[132]	nonsal[132]	_	_	_	
+
+#Text=Determiner
+38-1	1727-1737	Determiner	abstract[133]	new[133]	nonsal[133]	Determiner[133]	coref	39-1[134_133]	
+
+#Text=next
+39-1	1738-1742	next	abstract[134]	giv[134]	nonsal[134]	_	_	_	
+
+#Text=Denotes the one immediately following the current or most recent one .
+40-1	1743-1750	Denotes	_	_	_	_	_	_	
+40-2	1751-1754	the	abstract[135]	new[135]	nonsal[135]	_	_	_	
+40-3	1755-1758	one	abstract[135]	new[135]	nonsal[135]	_	_	_	
+40-4	1759-1770	immediately	abstract[135]	new[135]	nonsal[135]	_	_	_	
+40-5	1771-1780	following	abstract[135]	new[135]	nonsal[135]	_	_	_	
+40-6	1781-1784	the	abstract[135]|abstract[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	_	_	
+40-7	1785-1792	current	abstract[135]|abstract[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	_	_	
+40-8	1793-1795	or	abstract[135]|abstract[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	_	_	
+40-9	1796-1800	most	abstract[135]|abstract[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	_	_	
+40-10	1801-1807	recent	abstract[135]|abstract[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	_	_	
+40-11	1808-1811	one	abstract[135]|abstract[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	_	_	
+40-12	1812-1813	.	_	_	_	_	_	_	
+
+#Text=Next week would be a good time to meet .
+41-1	1814-1818	Next	time[137]	acc[137]	nonsal[137]	_	coref	41-5[138_137]	
+41-2	1819-1823	week	time[137]	acc[137]	nonsal[137]	_	_	_	
+41-3	1824-1829	would	_	_	_	_	_	_	
+41-4	1830-1832	be	_	_	_	_	_	_	
+41-5	1833-1834	a	time[138]	giv[138]	nonsal[138]	_	_	_	
+41-6	1835-1839	good	time[138]	giv[138]	nonsal[138]	_	_	_	
+41-7	1840-1844	time	time[138]	giv[138]	nonsal[138]	_	_	_	
+41-8	1845-1847	to	time[138]	giv[138]	nonsal[138]	_	_	_	
+41-9	1848-1852	meet	time[138]	giv[138]	nonsal[138]	_	_	_	
+41-10	1853-1854	.	_	_	_	_	_	_	
+
+#Text=I 'll know better next time .
+42-1	1855-1856	I	person[139]	acc[139]	nonsal[139]	_	_	_	
+42-2	1857-1860	'll	_	_	_	_	_	_	
+42-3	1861-1865	know	_	_	_	_	_	_	
+42-4	1866-1872	better	_	_	_	_	_	_	
+42-5	1873-1877	next	time[140]	giv[140]	nonsal[140]	_	_	_	
+42-6	1878-1882	time	time[140]	giv[140]	nonsal[140]	_	_	_	
+42-7	1883-1884	.	_	_	_	_	_	_	
+
+#Text=( of days of the week or months of the year ) Closest in the future , or closest but one if the closest is very soon ; of days , sometimes thought to specifically refer to the instance closest to seven days ( one week ) in the future .
+43-1	1885-1886	(	_	_	_	_	_	_	
+43-2	1887-1889	of	_	_	_	_	_	_	
+43-3	1890-1894	days	time[141]	new[141]	nonsal[141]	_	_	_	
+43-4	1895-1897	of	time[141]	new[141]	nonsal[141]	_	_	_	
+43-5	1898-1901	the	time[141]|time[142]	new[141]|giv[142]	nonsal[141]|nonsal[142]	_	_	_	
+43-6	1902-1906	week	time[141]|time[142]	new[141]|giv[142]	nonsal[141]|nonsal[142]	_	_	_	
+43-7	1907-1909	or	_	_	_	_	_	_	
+43-8	1910-1916	months	time[143]	new[143]	nonsal[143]	_	_	_	
+43-9	1917-1919	of	time[143]	new[143]	nonsal[143]	_	_	_	
+43-10	1920-1923	the	time[143]|time[144]	new[143]|new[144]	nonsal[143]|nonsal[144]	_	_	_	
+43-11	1924-1928	year	time[143]|time[144]	new[143]|new[144]	nonsal[143]|nonsal[144]	_	_	_	
+43-12	1929-1930	)	_	_	_	_	_	_	
+43-13	1931-1938	Closest	_	_	_	_	_	_	
+43-14	1939-1941	in	_	_	_	_	_	_	
+43-15	1942-1945	the	abstract[145]	new[145]	nonsal[145]	_	_	_	
+43-16	1946-1952	future	abstract[145]	new[145]	nonsal[145]	_	_	_	
+43-17	1953-1954	,	_	_	_	_	_	_	
+43-18	1955-1957	or	_	_	_	_	_	_	
+43-19	1958-1965	closest	_	_	_	_	_	_	
+43-20	1966-1969	but	_	_	_	_	_	_	
+43-21	1970-1973	one	abstract[146]	giv[146]	nonsal[146]	_	_	_	
+43-22	1974-1976	if	_	_	_	_	_	_	
+43-23	1977-1980	the	abstract[147]	new[147]	nonsal[147]	_	_	_	
+43-24	1981-1988	closest	abstract[147]	new[147]	nonsal[147]	_	_	_	
+43-25	1989-1991	is	_	_	_	_	_	_	
+43-26	1992-1996	very	_	_	_	_	_	_	
+43-27	1997-2001	soon	_	_	_	_	_	_	
+43-28	2002-2003	;	_	_	_	_	_	_	
+43-29	2004-2006	of	_	_	_	_	_	_	
+43-30	2007-2011	days	time[148]	new[148]	nonsal[148]	_	_	_	
+43-31	2012-2013	,	_	_	_	_	_	_	
+43-32	2014-2023	sometimes	_	_	_	_	_	_	
+43-33	2024-2031	thought	_	_	_	_	_	_	
+43-34	2032-2034	to	_	_	_	_	_	_	
+43-35	2035-2047	specifically	_	_	_	_	_	_	
+43-36	2048-2053	refer	_	_	_	_	_	_	
+43-37	2054-2056	to	_	_	_	_	_	_	
+43-38	2057-2060	the	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-39	2061-2069	instance	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-40	2070-2077	closest	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-41	2078-2080	to	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-42	2081-2086	seven	abstract[149]|time[150]	new[149]|giv[150]	nonsal[149]|nonsal[150]	_	coref	43-45[151_150]	
+43-43	2087-2091	days	abstract[149]|time[150]	new[149]|giv[150]	nonsal[149]|nonsal[150]	_	_	_	
+43-44	2092-2093	(	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-45	2094-2097	one	abstract[149]|time[151]	new[149]|giv[151]	nonsal[149]|nonsal[151]	_	_	_	
+43-46	2098-2102	week	abstract[149]|time[151]	new[149]|giv[151]	nonsal[149]|nonsal[151]	_	_	_	
+43-47	2103-2104	)	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-48	2105-2107	in	abstract[149]	new[149]	nonsal[149]	_	_	_	
+43-49	2108-2111	the	abstract[149]|time[152]	new[149]|new[152]	nonsal[149]|nonsal[152]	_	_	_	
+43-50	2112-2118	future	abstract[149]|time[152]	new[149]|new[152]	nonsal[149]|nonsal[152]	_	_	_	
+43-51	2119-2120	.	_	_	_	_	_	_	
+
+#Text=The party is next Tuesday ; that is , not tomorrow , but eight days from now .
+44-1	2121-2124	The	event[153]	new[153]	nonsal[153]	_	_	_	
+44-2	2125-2130	party	event[153]	new[153]	nonsal[153]	_	_	_	
+44-3	2131-2133	is	_	_	_	_	_	_	
+44-4	2134-2138	next	time[154]	acc[154]	nonsal[154]	_	_	_	
+44-5	2139-2146	Tuesday	time[154]	acc[154]	nonsal[154]	_	_	_	
+44-6	2147-2148	;	_	_	_	_	_	_	
+44-7	2149-2153	that	_	_	_	_	_	_	
+44-8	2154-2156	is	_	_	_	_	_	_	
+44-9	2157-2158	,	_	_	_	_	_	_	
+44-10	2159-2162	not	_	_	_	_	_	_	
+44-11	2163-2171	tomorrow	time[155]	acc[155]	nonsal[155]	_	_	_	
+44-12	2172-2173	,	_	_	_	_	_	_	
+44-13	2174-2177	but	_	_	_	_	_	_	
+44-14	2178-2183	eight	time[156]	giv[156]	nonsal[156]	_	_	_	
+44-15	2184-2188	days	time[156]	giv[156]	nonsal[156]	_	_	_	
+44-16	2189-2193	from	time[156]	giv[156]	nonsal[156]	_	_	_	
+44-17	2194-2197	now	time[156]|time[157]	giv[156]|acc[157]	nonsal[156]|nonsal[157]	_	_	_	
+44-18	2198-2199	.	_	_	_	_	_	_	
+
+#Text=When you say next Thursday , do you mean Thursday this week or Thursday next week ?
+45-1	2200-2204	When	_	_	_	_	_	_	
+45-2	2205-2208	you	person[158]	acc[158]	nonsal[158]	_	coref	45-8[160_158]	
+45-3	2209-2212	say	_	_	_	_	_	_	
+45-4	2213-2217	next	time[159]	acc[159]	nonsal[159]	_	_	_	
+45-5	2218-2226	Thursday	time[159]	acc[159]	nonsal[159]	_	_	_	
+45-6	2227-2228	,	_	_	_	_	_	_	
+45-7	2229-2231	do	_	_	_	_	_	_	
+45-8	2232-2235	you	person[160]	giv[160]	nonsal[160]	_	_	_	
+45-9	2236-2240	mean	_	_	_	_	_	_	
+45-10	2241-2249	Thursday	time[161]	giv[161]	nonsal[161]	_	_	_	
+45-11	2250-2254	this	time[161]|time[162]	giv[161]|acc[162]	nonsal[161]|nonsal[162]	_	bridge	45-15[164_162]	
+45-12	2255-2259	week	time[161]|time[162]	giv[161]|acc[162]	nonsal[161]|nonsal[162]	_	_	_	
+45-13	2260-2262	or	_	_	_	_	_	_	
+45-14	2263-2271	Thursday	time[163]	giv[163]	nonsal[163]	_	_	_	
+45-15	2272-2276	next	time[163]|time[164]	giv[163]|acc[164]	nonsal[163]|nonsal[164]	_	_	_	
+45-16	2277-2281	week	time[163]|time[164]	giv[163]|acc[164]	nonsal[163]|nonsal[164]	_	_	_	
+45-17	2282-2283	?	_	_	_	_	_	_	
+
+#Text=See also
+46-1	2284-2287	See	_	_	_	_	_	_	
+46-2	2288-2292	also	_	_	_	_	_	_	
+
+#Text=last
+47-1	2293-2297	last	abstract[165]	new[165]	nonsal[165]	_	_	_	
+
+#Text=this
+48-1	2298-2302	this	abstract[166]	giv[166]	nonsal[166]	_	_	_	
+
+#Text=this coming
+49-1	2303-2307	this	time[167]	new[167]	nonsal[167]	_	_	_	
+49-2	2308-2314	coming	time[167]	new[167]	nonsal[167]	_	_	_	
+
+#Text=week (as in Saturday week )
+50-1	2315-2319	week	time[168]	new[168]	nonsal[168]	_	_	_	
+50-2	2320-2323	(as	_	_	_	_	_	_	
+50-3	2324-2326	in	_	_	_	_	_	_	
+50-4	2327-2335	Saturday	time[169]|time[170]	giv[169]|new[170]	nonsal[169]|nonsal[170]	Saturday[170]	_	_	
+50-5	2336-2340	week	time[169]	giv[169]	nonsal[169]	_	_	_	
+50-6	2341-2342	)	_	_	_	_	_	_	
+
+#Text=Adverb
+51-1	2343-2349	Adverb	abstract[171]	new[171]	nonsal[171]	Adverb[171]	_	_	
+
+#Text=next ( not comparable )
+52-1	2350-2354	next	abstract[172]	new[172]	nonsal[172]	_	_	_	
+52-2	2355-2356	(	_	_	_	_	_	_	
+52-3	2357-2360	not	_	_	_	_	_	_	
+52-4	2361-2371	comparable	_	_	_	_	_	_	
+52-5	2372-2373	)	_	_	_	_	_	_	
+
+#Text=In a time , place , rank or sequence closest or following .
+53-1	2374-2376	In	_	_	_	_	_	_	
+53-2	2377-2378	a	_	_	_	_	_	_	
+53-3	2379-2383	time	time[173]	giv[173]	nonsal[173]	_	_	_	
+53-4	2384-2385	,	_	_	_	_	_	_	
+53-5	2386-2391	place	place[174]	new[174]	nonsal[174]	_	_	_	
+53-6	2392-2393	,	_	_	_	_	_	_	
+53-7	2394-2398	rank	abstract[175]	new[175]	nonsal[175]	_	coref	55-1[179_175]	
+53-8	2399-2401	or	_	_	_	_	_	_	
+53-9	2402-2410	sequence	abstract[176]	new[176]	nonsal[176]	_	coref	56-11[184_176]	
+53-10	2411-2418	closest	_	_	_	_	_	_	
+53-11	2419-2421	or	_	_	_	_	_	_	
+53-12	2422-2431	following	_	_	_	_	_	_	
+53-13	2432-2433	.	_	_	_	_	_	_	
+
+#Text=They live in the next closest house .
+54-1	2434-2438	They	person[177]	acc[177]	nonsal[177]	_	_	_	
+54-2	2439-2443	live	_	_	_	_	_	_	
+54-3	2444-2446	in	_	_	_	_	_	_	
+54-4	2447-2450	the	place[178]	new[178]	nonsal[178]	_	_	_	
+54-5	2451-2455	next	place[178]	new[178]	nonsal[178]	_	_	_	
+54-6	2456-2463	closest	place[178]	new[178]	nonsal[178]	_	_	_	
+54-7	2464-2469	house	place[178]	new[178]	nonsal[178]	_	_	_	
+54-8	2470-2471	.	_	_	_	_	_	_	
+
+#Text=It 's the next best thing to ice cream .
+55-1	2472-2474	It	abstract[179]	giv[179]	nonsal[179]	_	coref	55-3[180_179]	
+55-2	2475-2477	's	_	_	_	_	_	_	
+55-3	2478-2481	the	abstract[180]	giv[180]	nonsal[180]	_	_	_	
+55-4	2482-2486	next	abstract[180]	giv[180]	nonsal[180]	_	_	_	
+55-5	2487-2491	best	abstract[180]	giv[180]	nonsal[180]	_	_	_	
+55-6	2492-2497	thing	abstract[180]	giv[180]	nonsal[180]	_	_	_	
+55-7	2498-2500	to	abstract[180]	giv[180]	nonsal[180]	_	_	_	
+55-8	2501-2504	ice	abstract[180]|substance[181]	giv[180]|new[181]	nonsal[180]|nonsal[181]	_	_	_	
+55-9	2505-2510	cream	abstract[180]|substance[181]	giv[180]|new[181]	nonsal[180]|nonsal[181]	_	_	_	
+55-10	2511-2512	.	_	_	_	_	_	_	
+
+#Text=( conjunctive ) So as to follow in time or sequence something previously mentioned .
+56-1	2513-2514	(	_	_	_	_	_	_	
+56-2	2515-2526	conjunctive	abstract[182]	new[182]	nonsal[182]	_	_	_	
+56-3	2527-2528	)	_	_	_	_	_	_	
+56-4	2529-2531	So	_	_	_	_	_	_	
+56-5	2532-2534	as	_	_	_	_	_	_	
+56-6	2535-2537	to	_	_	_	_	_	_	
+56-7	2538-2544	follow	_	_	_	_	_	_	
+56-8	2545-2547	in	_	_	_	_	_	_	
+56-9	2548-2552	time	time[183]	giv[183]	nonsal[183]	_	_	_	
+56-10	2553-2555	or	_	_	_	_	_	_	
+56-11	2556-2564	sequence	abstract[184]	giv[184]	nonsal[184]	_	_	_	
+56-12	2565-2574	something	abstract[185]	new[185]	nonsal[185]	_	_	_	
+56-13	2575-2585	previously	abstract[185]	new[185]	nonsal[185]	_	_	_	
+56-14	2586-2595	mentioned	abstract[185]	new[185]	nonsal[185]	_	_	_	
+56-15	2596-2597	.	_	_	_	_	_	_	
+
+#Text=First we removed all the handles ; next , we stripped off the old paint .
+57-1	2598-2603	First	_	_	_	_	_	_	
+57-2	2604-2606	we	person[186]	acc[186]	nonsal[186]	_	coref	57-10[188_186]	
+57-3	2607-2614	removed	_	_	_	_	_	_	
+57-4	2615-2618	all	object[187]	acc[187]	nonsal[187]	_	_	_	
+57-5	2619-2622	the	object[187]	acc[187]	nonsal[187]	_	_	_	
+57-6	2623-2630	handles	object[187]	acc[187]	nonsal[187]	_	_	_	
+57-7	2631-2632	;	_	_	_	_	_	_	
+57-8	2633-2637	next	_	_	_	_	_	_	
+57-9	2638-2639	,	_	_	_	_	_	_	
+57-10	2640-2642	we	person[188]	giv[188]	nonsal[188]	_	_	_	
+57-11	2643-2651	stripped	_	_	_	_	_	_	
+57-12	2652-2655	off	_	_	_	_	_	_	
+57-13	2656-2659	the	substance[189]	acc[189]	nonsal[189]	_	_	_	
+57-14	2660-2663	old	substance[189]	acc[189]	nonsal[189]	_	_	_	
+57-15	2664-2669	paint	substance[189]	acc[189]	nonsal[189]	_	_	_	
+57-16	2670-2671	.	_	_	_	_	_	_	
+
+#Text=On the first subsequent occasion .
+58-1	2672-2674	On	_	_	_	_	_	_	
+58-2	2675-2678	the	event[190]	new[190]	nonsal[190]	_	_	_	
+58-3	2679-2684	first	event[190]	new[190]	nonsal[190]	_	_	_	
+58-4	2685-2695	subsequent	event[190]	new[190]	nonsal[190]	_	_	_	
+58-5	2696-2704	occasion	event[190]	new[190]	nonsal[190]	_	_	_	
+58-6	2705-2706	.	_	_	_	_	_	_	
+
+#Text=Financial panic , earthquakes , oil spills , riots .
+59-1	2707-2716	Financial	event[191]	new[191]	nonsal[191]	_	_	_	
+59-2	2717-2722	panic	event[191]	new[191]	nonsal[191]	_	_	_	
+59-3	2723-2724	,	_	_	_	_	_	_	
+59-4	2725-2736	earthquakes	event[192]	new[192]	nonsal[192]	_	_	_	
+59-5	2737-2738	,	_	_	_	_	_	_	
+59-6	2739-2742	oil	event[193]|substance[194]	new[193]|new[194]	nonsal[193]|nonsal[194]	_	_	_	
+59-7	2743-2749	spills	event[193]	new[193]	nonsal[193]	_	_	_	
+59-8	2750-2751	,	_	_	_	_	_	_	
+59-9	2752-2757	riots	event[195]	new[195]	nonsal[195]	_	_	_	
+59-10	2758-2759	.	_	_	_	_	_	_	
+
+#Text=What comes next ?
+60-1	2760-2764	What	_	_	_	_	_	_	
+60-2	2765-2770	comes	_	_	_	_	_	_	
+60-3	2771-2775	next	_	_	_	_	_	_	
+60-4	2776-2777	?	_	_	_	_	_	_	
+
+#Text=When we next meet , you 'll be married .
+61-1	2778-2782	When	_	_	_	_	_	_	
+61-2	2783-2785	we	person[196]	acc[196]	nonsal[196]	_	_	_	
+61-3	2786-2790	next	_	_	_	_	_	_	
+61-4	2791-2795	meet	_	_	_	_	_	_	
+61-5	2796-2797	,	_	_	_	_	_	_	
+61-6	2798-2801	you	person[197]	acc[197]	nonsal[197]	_	_	_	
+61-7	2802-2805	'll	_	_	_	_	_	_	
+61-8	2806-2808	be	_	_	_	_	_	_	
+61-9	2809-2816	married	_	_	_	_	_	_	
+61-10	2817-2818	.	_	_	_	_	_	_	
+
+#Text=Antonyms
+62-1	2819-2827	Antonyms	abstract[198]	giv[198]	nonsal[198]	Opposite_(semantics)[198]	coref	63-1[199_198]	
+
+#Text=previously
+63-1	2828-2838	previously	abstract[199]	giv[199]	nonsal[199]	_	_	_	
+
+#Text=Preposition
+64-1	2839-2850	Preposition	abstract[200]	new[200]	nonsal[200]	_	_	_	
+
+#Text=next
+65-1	2851-2855	next	abstract[201]	new[201]	nonsal[201]	_	coref	72-4[213_201]	
+
+#Text=( obsolete or poetic ) On the side of ; nearest or adjacent to ; next to .
+66-1	2856-2857	(	_	_	_	_	_	_	
+66-2	2858-2866	obsolete	_	_	_	_	_	_	
+66-3	2867-2869	or	_	_	_	_	_	_	
+66-4	2870-2876	poetic	_	_	_	_	_	_	
+66-5	2877-2878	)	_	_	_	_	_	_	
+66-6	2879-2881	On	_	_	_	_	_	_	
+66-7	2882-2885	the	place[202]	new[202]	nonsal[202]	_	_	_	
+66-8	2886-2890	side	place[202]	new[202]	nonsal[202]	_	_	_	
+66-9	2891-2893	of	_	_	_	_	_	_	
+66-10	2894-2895	;	_	_	_	_	_	_	
+66-11	2896-2903	nearest	_	_	_	_	_	_	
+66-12	2904-2906	or	_	_	_	_	_	_	
+66-13	2907-2915	adjacent	_	_	_	_	_	_	
+66-14	2916-2918	to	_	_	_	_	_	_	
+66-15	2919-2920	;	_	_	_	_	_	_	
+66-16	2921-2925	next	_	_	_	_	_	_	
+66-17	2926-2928	to	_	_	_	_	_	_	
+66-18	2929-2930	.	_	_	_	_	_	_	
+
+#Text=Noun
+67-1	2931-2935	Noun	abstract[203]	new[203]	nonsal[203]	_	_	_	
+
+#Text=next ( uncountable )
+68-1	2936-2940	next	abstract[204]	new[204]	nonsal[204]	_	_	_	
+68-2	2941-2942	(	_	_	_	_	_	_	
+68-3	2943-2954	uncountable	_	_	_	_	_	_	
+68-4	2955-2956	)	_	_	_	_	_	_	
+
+#Text=The one that follows after this one .
+69-1	2957-2960	The	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+69-2	2961-2964	one	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+69-3	2965-2969	that	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+69-4	2970-2977	follows	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+69-5	2978-2983	after	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+69-6	2984-2988	this	abstract[205]|abstract[206]	giv[205]|giv[206]	nonsal[205]|nonsal[206]	_	_	_	
+69-7	2989-2992	one	abstract[205]|abstract[206]	giv[205]|giv[206]	nonsal[205]|nonsal[206]	_	_	_	
+69-8	2993-2994	.	_	_	_	_	_	_	
+
+#Text=Next , please , do n't hold up the queue !
+70-1	2995-2999	Next	_	_	_	_	_	_	
+70-2	3000-3001	,	_	_	_	_	_	_	
+70-3	3002-3008	please	_	_	_	_	_	_	
+70-4	3009-3010	,	_	_	_	_	_	_	
+70-5	3011-3013	do	_	_	_	_	_	_	
+70-6	3014-3017	n't	_	_	_	_	_	_	
+70-7	3018-3022	hold	_	_	_	_	_	_	
+70-8	3023-3025	up	_	_	_	_	_	_	
+70-9	3026-3029	the	abstract[207]	new[207]	nonsal[207]	_	_	_	
+70-10	3030-3035	queue	abstract[207]	new[207]	nonsal[207]	_	_	_	
+70-11	3036-3037	!	_	_	_	_	_	_	
+
+#Text=One moment she was there , the next she was n't .
+71-1	3038-3041	One	time[208]	new[208]	nonsal[208]	_	bridge	71-7[210_208]	
+71-2	3042-3048	moment	time[208]	new[208]	nonsal[208]	_	_	_	
+71-3	3049-3052	she	person[209]	acc[209]	nonsal[209]	_	coref	71-9[211_209]	
+71-4	3053-3056	was	_	_	_	_	_	_	
+71-5	3057-3062	there	_	_	_	_	_	_	
+71-6	3063-3064	,	_	_	_	_	_	_	
+71-7	3065-3068	the	time[210]	acc[210]	nonsal[210]	_	_	_	
+71-8	3069-3073	next	time[210]	acc[210]	nonsal[210]	_	_	_	
+71-9	3074-3077	she	person[211]	giv[211]	nonsal[211]	_	_	_	
+71-10	3078-3081	was	_	_	_	_	_	_	
+71-11	3082-3085	n't	_	_	_	_	_	_	
+71-12	3086-3087	.	_	_	_	_	_	_	
+
+#Text=The week after next
+72-1	3088-3091	The	time[212]	new[212]	nonsal[212]	_	bridge	72-4[213_212]	
+72-2	3092-3096	week	time[212]	new[212]	nonsal[212]	_	_	_	
+72-3	3097-3102	after	time[212]	new[212]	nonsal[212]	_	_	_	
+72-4	3103-3107	next	time[212]|time[213]	new[212]|acc[213]	nonsal[212]|nonsal[213]	_	_	_	

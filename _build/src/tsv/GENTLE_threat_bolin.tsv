@@ -1,0 +1,426 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Referent|entity|infstat|salience|identity
+#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
+
+
+#Text=Jerry 6/25/90
+1-1	0-5	Jerry	person[1]	new[1]	nonsal[1]	_	coref	3-13[12_1]	
+1-2	6-13	6/25/90	time[2]	new[2]	nonsal[2]	_	_	_	
+
+#Text=Well I finally heard from Paula and what I heard from her I 'm not to pleased with .
+2-1	14-18	Well	_	_	_	_	_	_	
+2-2	19-20	I	person[3]	acc[3]	nonsal[3]	_	coref	2-9[5_3]	
+2-3	21-28	finally	_	_	_	_	_	_	
+2-4	29-34	heard	_	_	_	_	_	_	
+2-5	35-39	from	_	_	_	_	_	_	
+2-6	40-45	Paula	person[4]	new[4]	nonsal[4]	_	coref	2-12[6_4]	
+2-7	46-49	and	_	_	_	_	_	_	
+2-8	50-54	what	_	_	_	_	_	_	
+2-9	55-56	I	person[5]	giv[5]	nonsal[5]	_	coref	2-13[7_5]	
+2-10	57-62	heard	_	_	_	_	_	_	
+2-11	63-67	from	_	_	_	_	_	_	
+2-12	68-71	her	person[6]	giv[6]	nonsal[6]	_	coref	3-3[10_6]	
+2-13	72-73	I	person[7]	giv[7]	nonsal[7]	_	coref	3-1[8_7]	
+2-14	74-76	'm	_	_	_	_	_	_	
+2-15	77-80	not	_	_	_	_	_	_	
+2-16	81-83	to	_	_	_	_	_	_	
+2-17	84-91	pleased	_	_	_	_	_	_	
+2-18	92-96	with	_	_	_	_	_	_	
+2-19	97-98	.	_	_	_	_	_	_	
+
+#Text=I heard her side of things wich are real different from what you had to say .
+3-1	99-100	I	person[8]	giv[8]	nonsal[8]	_	coref	4-1[13_8]	
+3-2	101-106	heard	_	_	_	_	_	_	
+3-3	107-110	her	abstract[9]|person[10]	new[9]|giv[10]	nonsal[9]|nonsal[10]	_	coref	13-36[80_10]	
+3-4	111-115	side	abstract[9]	new[9]	nonsal[9]	_	_	_	
+3-5	116-118	of	abstract[9]	new[9]	nonsal[9]	_	_	_	
+3-6	119-125	things	abstract[9]|abstract[11]	new[9]|new[11]	nonsal[9]|nonsal[11]	_	_	_	
+3-7	126-130	wich	_	_	_	_	_	_	
+3-8	131-134	are	_	_	_	_	_	_	
+3-9	135-139	real	_	_	_	_	_	_	
+3-10	140-149	different	_	_	_	_	_	_	
+3-11	150-154	from	_	_	_	_	_	_	
+3-12	155-159	what	_	_	_	_	_	_	
+3-13	160-163	you	person[12]	acc[12]	nonsal[12]	_	coref	4-11[15_12]	
+3-14	164-167	had	_	_	_	_	_	_	
+3-15	168-170	to	_	_	_	_	_	_	
+3-16	171-174	say	_	_	_	_	_	_	
+3-17	175-176	.	_	_	_	_	_	_	
+
+#Text=I 'm only going to say this one time so you better make sure you understand .
+4-1	177-178	I	person[13]	giv[13]	nonsal[13]	_	coref	5-5[19_13]	
+4-2	179-181	'm	_	_	_	_	_	_	
+4-3	182-186	only	_	_	_	_	_	_	
+4-4	187-192	going	_	_	_	_	_	_	
+4-5	193-195	to	_	_	_	_	_	_	
+4-6	196-199	say	_	_	_	_	_	_	
+4-7	200-204	this	abstract[14]	giv[14]	nonsal[14]	_	_	_	
+4-8	205-208	one	_	_	_	_	_	_	
+4-9	209-213	time	_	_	_	_	_	_	
+4-10	214-216	so	_	_	_	_	_	_	
+4-11	217-220	you	person[15]	giv[15]	nonsal[15]	_	coref	4-15[16_15]	
+4-12	221-227	better	_	_	_	_	_	_	
+4-13	228-232	make	_	_	_	_	_	_	
+4-14	233-237	sure	_	_	_	_	_	_	
+4-15	238-241	you	person[16]	giv[16]	nonsal[16]	_	coref	5-2[17_16]	
+4-16	242-252	understand	_	_	_	_	_	_	
+4-17	253-254	.	_	_	_	_	_	_	
+
+#Text=If you ever touch my daughter again , I 'll have you permanently removed from the face of this Earth .
+5-1	255-257	If	_	_	_	_	_	_	
+5-2	258-261	you	person[17]	giv[17]	nonsal[17]	_	coref	5-12[21_17]	
+5-3	262-266	ever	_	_	_	_	_	_	
+5-4	267-272	touch	_	_	_	_	_	_	
+5-5	273-275	my	person[18]|person[19]	new[18]|giv[19]	nonsal[18]|nonsal[19]	_	coref|coref	6-8[27_18]|5-9[20_19]	
+5-6	276-284	daughter	person[18]	new[18]	nonsal[18]	_	_	_	
+5-7	285-290	again	_	_	_	_	_	_	
+5-8	291-292	,	_	_	_	_	_	_	
+5-9	293-294	I	person[20]	giv[20]	nonsal[20]	_	coref	7-1[31_20]	
+5-10	295-298	'll	_	_	_	_	_	_	
+5-11	299-303	have	_	_	_	_	_	_	
+5-12	304-307	you	person[21]	giv[21]	nonsal[21]	_	coref	6-1[24_21]	
+5-13	308-319	permanently	_	_	_	_	_	_	
+5-14	320-327	removed	_	_	_	_	_	_	
+5-15	328-332	from	_	_	_	_	_	_	
+5-16	333-336	the	place[22]	new[22]	nonsal[22]	_	_	_	
+5-17	337-341	face	place[22]	new[22]	nonsal[22]	_	_	_	
+5-18	342-344	of	place[22]	new[22]	nonsal[22]	_	_	_	
+5-19	345-349	this	place[22]|place[23]	new[22]|acc[23]	nonsal[22]|nonsal[23]	Earth[23]	_	_	
+5-20	350-355	Earth	place[22]|place[23]	new[22]|acc[23]	nonsal[22]|nonsal[23]	Earth[23]	_	_	
+5-21	356-357	.	_	_	_	_	_	_	
+
+#Text=You better thank your lucky stars you Ashley 's father or youd already have your fucking legs broke .
+6-1	358-361	You	person[24]	giv[24]	nonsal[24]	_	coref	6-4[25_24]	
+6-2	362-368	better	_	_	_	_	_	_	
+6-3	369-374	thank	_	_	_	_	_	_	
+6-4	375-379	your	person[25]	giv[25]	nonsal[25]	_	coref	6-7[26_25]	
+6-5	380-385	lucky	_	_	_	_	_	_	
+6-6	386-391	stars	_	_	_	_	_	_	
+6-7	392-395	you	person[26]	new[26]	nonsal[26]	_	coref	6-12[28_26]	
+6-8	396-402	Ashley	person[26]|person[27]	new[26]|new[27]	nonsal[26]|nonsal[27]	_	_	_	
+6-9	403-405	's	person[26]|person[27]	new[26]|new[27]	nonsal[26]|nonsal[27]	_	_	_	
+6-10	406-412	father	person[26]	new[26]	nonsal[26]	_	_	_	
+6-11	413-415	or	_	_	_	_	_	_	
+6-12	416-420	youd	person[28]	giv[28]	nonsal[28]	_	coref	6-15[30_28]	
+6-13	421-428	already	_	_	_	_	_	_	
+6-14	429-433	have	_	_	_	_	_	_	
+6-15	434-438	your	object[29]|person[30]	new[29]|giv[30]	nonsal[29]|nonsal[30]	_	coref	7-20[36_30]	
+6-16	439-446	fucking	object[29]	new[29]	nonsal[29]	_	_	_	
+6-17	447-451	legs	object[29]	new[29]	nonsal[29]	_	_	_	
+6-18	452-457	broke	_	_	_	_	_	_	
+6-19	458-459	.	_	_	_	_	_	_	
+
+#Text=I found out what happend to most of the money from the van , and I also found out you got 1500 for the truck not 1300 like you said .
+7-1	460-461	I	person[31]	giv[31]	nonsal[31]	_	coref	7-16[35_31]	
+7-2	462-467	found	_	_	_	_	_	_	
+7-3	468-471	out	_	_	_	_	_	_	
+7-4	472-476	what	abstract[32]	new[32]	nonsal[32]	_	_	_	
+7-5	477-484	happend	abstract[32]	new[32]	nonsal[32]	_	_	_	
+7-6	485-487	to	abstract[32]	new[32]	nonsal[32]	_	_	_	
+7-7	488-492	most	abstract[32]	new[32]	nonsal[32]	_	_	_	
+7-8	493-495	of	abstract[32]	new[32]	nonsal[32]	_	_	_	
+7-9	496-499	the	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	_	_	_	
+7-10	500-505	money	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	_	_	_	
+7-11	506-510	from	abstract[32]	new[32]	nonsal[32]	_	_	_	
+7-12	511-514	the	abstract[32]|object[34]	new[32]|new[34]	nonsal[32]|nonsal[34]	_	coref	7-24[38_34]	
+7-13	515-518	van	abstract[32]|object[34]	new[32]|new[34]	nonsal[32]|nonsal[34]	_	_	_	
+7-14	519-520	,	_	_	_	_	_	_	
+7-15	521-524	and	_	_	_	_	_	_	
+7-16	525-526	I	person[35]	giv[35]	nonsal[35]	_	coref	8-1[41_35]	
+7-17	527-531	also	_	_	_	_	_	_	
+7-18	532-537	found	_	_	_	_	_	_	
+7-19	538-541	out	_	_	_	_	_	_	
+7-20	542-545	you	person[36]	giv[36]	nonsal[36]	_	coref	7-29[40_36]	
+7-21	546-549	got	_	_	_	_	_	_	
+7-22	550-554	1500	abstract[37]	new[37]	nonsal[37]	_	_	_	
+7-23	555-558	for	_	_	_	_	_	_	
+7-24	559-562	the	object[38]	new[38]	nonsal[38]	_	_	_	
+7-25	563-568	truck	object[38]	new[38]	nonsal[38]	_	_	_	
+7-26	569-572	not	_	_	_	_	_	_	
+7-27	573-577	1300	abstract[39]	new[39]	nonsal[39]	_	_	_	
+7-28	578-582	like	_	_	_	_	_	_	
+7-29	583-586	you	person[40]	giv[40]	nonsal[40]	_	coref	8-10[42_40]	
+7-30	587-591	said	_	_	_	_	_	_	
+7-31	592-593	.	_	_	_	_	_	_	
+
+#Text=I 'm still going to find out how much you got for the Buick and if it 's 1 ¢ over 1000 you can kiss your ass good by .
+8-1	594-595	I	person[41]	giv[41]	nonsal[41]	_	coref	9-24[56_41]	
+8-2	596-598	'm	_	_	_	_	_	_	
+8-3	599-604	still	_	_	_	_	_	_	
+8-4	605-610	going	_	_	_	_	_	_	
+8-5	611-613	to	_	_	_	_	_	_	
+8-6	614-618	find	_	_	_	_	_	_	
+8-7	619-622	out	_	_	_	_	_	_	
+8-8	623-626	how	_	_	_	_	_	_	
+8-9	627-631	much	_	_	_	_	_	_	
+8-10	632-635	you	person[42]	giv[42]	nonsal[42]	_	coref	8-23[48_42]	
+8-11	636-639	got	_	_	_	_	_	_	
+8-12	640-643	for	_	_	_	_	_	_	
+8-13	644-647	the	object[43]	new[43]	nonsal[43]	Buick[43]	coref	8-17[44_43]	
+8-14	648-653	Buick	object[43]	new[43]	nonsal[43]	Buick[43]	_	_	
+8-15	654-657	and	_	_	_	_	_	_	
+8-16	658-660	if	_	_	_	_	_	_	
+8-17	661-663	it	object[44]	giv[44]	nonsal[44]	_	coref	9-5[52_44]	
+8-18	664-666	's	_	_	_	_	_	_	
+8-19	667-668	1	abstract[45]|abstract[46]	new[45]|new[46]	nonsal[45]|nonsal[46]	_	_	_	
+8-20	669-670	¢	abstract[45]|abstract[46]	new[45]|new[46]	nonsal[45]|nonsal[46]	_	_	_	
+8-21	671-675	over	abstract[45]	new[45]	nonsal[45]	_	_	_	
+8-22	676-680	1000	abstract[45]|abstract[47]	new[45]|new[47]	nonsal[45]|nonsal[47]	_	_	_	
+8-23	681-684	you	person[48]	giv[48]	nonsal[48]	_	coref	8-26[50_48]	
+8-24	685-688	can	_	_	_	_	_	_	
+8-25	689-693	kiss	_	_	_	_	_	_	
+8-26	694-698	your	object[49]|person[50]	new[49]|giv[50]	nonsal[49]|nonsal[50]	_	coref	10-1[57_50]	
+8-27	699-702	ass	object[49]	new[49]	nonsal[49]	_	_	_	
+8-28	703-707	good	_	_	_	_	_	_	
+8-29	708-710	by	_	_	_	_	_	_	
+8-30	711-712	.	_	_	_	_	_	_	
+
+#Text=PI also found out it was running like a top and the burnt valves was a bunch of bull shit , just like I thought in the first place .
+9-1	713-715	PI	person[51]	new[51]	nonsal[51]	_	_	_	
+9-2	716-720	also	_	_	_	_	_	_	
+9-3	721-726	found	_	_	_	_	_	_	
+9-4	727-730	out	_	_	_	_	_	_	
+9-5	731-733	it	abstract[52]	giv[52]	nonsal[52]	_	_	_	
+9-6	734-737	was	_	_	_	_	_	_	
+9-7	738-745	running	_	_	_	_	_	_	
+9-8	746-750	like	_	_	_	_	_	_	
+9-9	751-752	a	object[53]	new[53]	nonsal[53]	_	_	_	
+9-10	753-756	top	object[53]	new[53]	nonsal[53]	_	_	_	
+9-11	757-760	and	_	_	_	_	_	_	
+9-12	761-764	the	object[54]	new[54]	nonsal[54]	_	coref	9-16[55_54]	
+9-13	765-770	burnt	object[54]	new[54]	nonsal[54]	_	_	_	
+9-14	771-777	valves	object[54]	new[54]	nonsal[54]	_	_	_	
+9-15	778-781	was	_	_	_	_	_	_	
+9-16	782-783	a	object[55]	giv[55]	nonsal[55]	_	_	_	
+9-17	784-789	bunch	object[55]	giv[55]	nonsal[55]	_	_	_	
+9-18	790-792	of	object[55]	giv[55]	nonsal[55]	_	_	_	
+9-19	793-797	bull	object[55]	giv[55]	nonsal[55]	_	_	_	
+9-20	798-802	shit	object[55]	giv[55]	nonsal[55]	_	_	_	
+9-21	803-804	,	_	_	_	_	_	_	
+9-22	805-809	just	_	_	_	_	_	_	
+9-23	810-814	like	_	_	_	_	_	_	
+9-24	815-816	I	person[56]	giv[56]	nonsal[56]	_	coref	11-1[60_56]	
+9-25	817-824	thought	_	_	_	_	_	_	
+9-26	825-827	in	_	_	_	_	_	_	
+9-27	828-831	the	_	_	_	_	_	_	
+9-28	832-837	first	_	_	_	_	_	_	
+9-29	838-843	place	_	_	_	_	_	_	
+9-30	844-845	.	_	_	_	_	_	_	
+
+#Text=You sounded a little shaky over the phone and gave yourself away .
+10-1	846-849	You	person[57]	giv[57]	nonsal[57]	_	coref	10-11[59_57]	
+10-2	850-857	sounded	_	_	_	_	_	_	
+10-3	858-859	a	_	_	_	_	_	_	
+10-4	860-866	little	_	_	_	_	_	_	
+10-5	867-872	shaky	_	_	_	_	_	_	
+10-6	873-877	over	_	_	_	_	_	_	
+10-7	878-881	the	object[58]	new[58]	nonsal[58]	_	_	_	
+10-8	882-887	phone	object[58]	new[58]	nonsal[58]	_	_	_	
+10-9	888-891	and	_	_	_	_	_	_	
+10-10	892-896	gave	_	_	_	_	_	_	
+10-11	897-905	yourself	person[59]	giv[59]	nonsal[59]	_	coref	11-3[61_59]	
+10-12	906-910	away	_	_	_	_	_	_	
+10-13	911-912	.	_	_	_	_	_	_	
+
+#Text=I told you a long time ago do n't play fucking games with me .
+11-1	913-914	I	person[60]	giv[60]	nonsal[60]	_	coref	11-14[65_60]	
+11-2	915-919	told	_	_	_	_	_	_	
+11-3	920-923	you	person[61]	giv[61]	nonsal[61]	_	coref	12-1[66_61]	
+11-4	924-925	a	time[62]	new[62]	nonsal[62]	_	_	_	
+11-5	926-930	long	time[62]	new[62]	nonsal[62]	_	_	_	
+11-6	931-935	time	time[62]	new[62]	nonsal[62]	_	_	_	
+11-7	936-939	ago	time[62]	new[62]	nonsal[62]	_	_	_	
+11-8	940-942	do	_	_	_	_	_	_	
+11-9	943-946	n't	_	_	_	_	_	_	
+11-10	947-951	play	_	_	_	_	_	_	
+11-11	952-959	fucking	abstract[63]	new[63]	nonsal[63]	_	coref	13-23[75_63]	
+11-12	960-965	games	abstract[63]|abstract[64]	new[63]|new[64]	nonsal[63]|nonsal[64]	_	_	_	
+11-13	966-970	with	_	_	_	_	_	_	
+11-14	971-973	me	person[65]	giv[65]	nonsal[65]	_	coref	13-1[69_65]	
+11-15	974-975	.	_	_	_	_	_	_	
+
+#Text=You 're playing with the wrong person asshole .
+12-1	976-979	You	person[66]	giv[66]	nonsal[66]	_	coref	12-8[68_66]	
+12-2	980-983	're	_	_	_	_	_	_	
+12-3	984-991	playing	_	_	_	_	_	_	
+12-4	992-996	with	_	_	_	_	_	_	
+12-5	997-1000	the	person[67]	new[67]	nonsal[67]	_	_	_	
+12-6	1001-1006	wrong	person[67]	new[67]	nonsal[67]	_	_	_	
+12-7	1007-1013	person	person[67]	new[67]	nonsal[67]	_	_	_	
+12-8	1014-1021	asshole	person[68]	giv[68]	nonsal[68]	_	coref	13-23[76_68]	
+12-9	1022-1023	.	_	_	_	_	_	_	
+
+#Text=I 've made a couple of phone calls to San Pedro to some friends of mine and the not to happy with your fucking game playing with other people 's money and especially you hitting Paula .
+13-1	1024-1025	I	person[69]	giv[69]	nonsal[69]	_	coref	13-16[74_69]	
+13-2	1026-1029	've	_	_	_	_	_	_	
+13-3	1030-1034	made	_	_	_	_	_	_	
+13-4	1035-1036	a	event[70]	new[70]	nonsal[70]	_	_	_	
+13-5	1037-1043	couple	event[70]	new[70]	nonsal[70]	_	_	_	
+13-6	1044-1046	of	event[70]	new[70]	nonsal[70]	_	_	_	
+13-7	1047-1052	phone	event[70]|object[71]	new[70]|new[71]	nonsal[70]|nonsal[71]	_	_	_	
+13-8	1053-1058	calls	event[70]	new[70]	nonsal[70]	_	_	_	
+13-9	1059-1061	to	_	_	_	_	_	_	
+13-10	1062-1065	San	place[72]	new[72]	nonsal[72]	San_Pedro,_Los_Angeles[72]	_	_	
+13-11	1066-1071	Pedro	place[72]	new[72]	nonsal[72]	San_Pedro,_Los_Angeles[72]	_	_	
+13-12	1072-1074	to	_	_	_	_	_	_	
+13-13	1075-1079	some	person[73]	new[73]	nonsal[73]	_	_	_	
+13-14	1080-1087	friends	person[73]	new[73]	nonsal[73]	_	_	_	
+13-15	1088-1090	of	person[73]	new[73]	nonsal[73]	_	_	_	
+13-16	1091-1095	mine	person[73]|person[74]	new[73]|giv[74]	nonsal[73]|nonsal[74]	_	coref	14-2[81_74]	
+13-17	1096-1099	and	_	_	_	_	_	_	
+13-18	1100-1103	the	_	_	_	_	_	_	
+13-19	1104-1107	not	_	_	_	_	_	_	
+13-20	1108-1110	to	_	_	_	_	_	_	
+13-21	1111-1116	happy	_	_	_	_	_	_	
+13-22	1117-1121	with	_	_	_	_	_	_	
+13-23	1122-1126	your	abstract[75]|person[76]	new[75]|giv[76]	nonsal[75]|nonsal[76]	_	coref|coref	21-4[119_75]|13-34[79_76]	
+13-24	1127-1134	fucking	abstract[75]	new[75]	nonsal[75]	_	_	_	
+13-25	1135-1139	game	abstract[75]	new[75]	nonsal[75]	_	_	_	
+13-26	1140-1147	playing	_	_	_	_	_	_	
+13-27	1148-1152	with	_	_	_	_	_	_	
+13-28	1153-1158	other	abstract[77]|person[78]	new[77]|new[78]	nonsal[77]|nonsal[78]	_	_	_	
+13-29	1159-1165	people	abstract[77]|person[78]	new[77]|new[78]	nonsal[77]|nonsal[78]	_	_	_	
+13-30	1166-1168	's	abstract[77]|person[78]	new[77]|new[78]	nonsal[77]|nonsal[78]	_	_	_	
+13-31	1169-1174	money	abstract[77]	new[77]	nonsal[77]	_	_	_	
+13-32	1175-1178	and	_	_	_	_	_	_	
+13-33	1179-1189	especially	_	_	_	_	_	_	
+13-34	1190-1193	you	person[79]	giv[79]	nonsal[79]	_	coref	15-31[95_79]	
+13-35	1194-1201	hitting	_	_	_	_	_	_	
+13-36	1202-1207	Paula	person[80]	giv[80]	nonsal[80]	_	coref	15-6[85_80]	
+13-37	1208-1209	.	_	_	_	_	_	_	
+
+#Text=What I want done and it better be done .
+14-1	1210-1214	What	_	_	_	_	_	_	
+14-2	1215-1216	I	person[81]	giv[81]	nonsal[81]	_	coref	15-4[84_81]	
+14-3	1217-1221	want	_	_	_	_	_	_	
+14-4	1222-1226	done	_	_	_	_	_	_	
+14-5	1227-1230	and	_	_	_	_	_	_	
+14-6	1231-1233	it	abstract[82]	giv[82]	nonsal[82]	_	_	_	
+14-7	1234-1240	better	_	_	_	_	_	_	
+14-8	1241-1243	be	_	_	_	_	_	_	
+14-9	1244-1248	done	_	_	_	_	_	_	
+14-10	1249-1250	.	_	_	_	_	_	_	
+
+#Text=Everything that 's mine or hers tools , clothes , books , gun , TV , VCR , I do n't fucking care if it 's a bobby pin , you better give it to Paula .
+15-1	1251-1261	Everything	object[83]	new[83]	nonsal[83]	_	_	_	
+15-2	1262-1266	that	object[83]	new[83]	nonsal[83]	_	_	_	
+15-3	1267-1269	's	object[83]	new[83]	nonsal[83]	_	_	_	
+15-4	1270-1274	mine	object[83]|person[84]	new[83]|giv[84]	nonsal[83]|nonsal[84]	_	coref	15-19[92_84]	
+15-5	1275-1277	or	object[83]	new[83]	nonsal[83]	_	_	_	
+15-6	1278-1282	hers	object[83]|object[85]	new[83]|new[85]	nonsal[83]|nonsal[85]	_	coref	15-36[97_85]	
+15-7	1283-1288	tools	object[83]|object[86]	new[83]|new[86]	nonsal[83]|nonsal[86]	_	_	_	
+15-8	1289-1290	,	object[83]	new[83]	nonsal[83]	_	_	_	
+15-9	1291-1298	clothes	object[83]|object[87]	new[83]|new[87]	nonsal[83]|nonsal[87]	_	_	_	
+15-10	1299-1300	,	object[83]	new[83]	nonsal[83]	_	_	_	
+15-11	1301-1306	books	object[83]|object[88]	new[83]|new[88]	nonsal[83]|nonsal[88]	_	_	_	
+15-12	1307-1308	,	object[83]	new[83]	nonsal[83]	_	_	_	
+15-13	1309-1312	gun	object[83]|object[89]	new[83]|new[89]	nonsal[83]|nonsal[89]	_	_	_	
+15-14	1313-1314	,	object[83]	new[83]	nonsal[83]	_	_	_	
+15-15	1315-1317	TV	object[83]|object[90]	new[83]|new[90]	nonsal[83]|nonsal[90]	_	_	_	
+15-16	1318-1319	,	object[83]	new[83]	nonsal[83]	_	_	_	
+15-17	1320-1323	VCR	object[83]|object[91]	new[83]|new[91]	nonsal[83]|nonsal[91]	_	_	_	
+15-18	1324-1325	,	_	_	_	_	_	_	
+15-19	1326-1327	I	person[92]	giv[92]	nonsal[92]	_	coref	16-1[99_92]	
+15-20	1328-1330	do	_	_	_	_	_	_	
+15-21	1331-1334	n't	_	_	_	_	_	_	
+15-22	1335-1342	fucking	_	_	_	_	_	_	
+15-23	1343-1347	care	_	_	_	_	_	_	
+15-24	1348-1350	if	_	_	_	_	_	_	
+15-25	1351-1353	it	object[93]	giv[93]	nonsal[93]	_	coref	15-27[94_93]	
+15-26	1354-1356	's	_	_	_	_	_	_	
+15-27	1357-1358	a	object[94]	giv[94]	nonsal[94]	_	_	_	
+15-28	1359-1364	bobby	object[94]	giv[94]	nonsal[94]	_	_	_	
+15-29	1365-1368	pin	object[94]	giv[94]	nonsal[94]	_	_	_	
+15-30	1369-1370	,	_	_	_	_	_	_	
+15-31	1371-1374	you	person[95]	giv[95]	nonsal[95]	_	coref	17-1[105_95]	
+15-32	1375-1381	better	_	_	_	_	_	_	
+15-33	1382-1386	give	_	_	_	_	_	_	
+15-34	1387-1389	it	object[96]	giv[96]	nonsal[96]	_	_	_	
+15-35	1390-1392	to	_	_	_	_	_	_	
+15-36	1393-1398	Paula	person[97]	giv[97]	nonsal[97]	_	coref	16-8[102_97]	
+15-37	1399-1400	.	_	_	_	_	_	_	
+
+#Text=I want all my shit given to her and I mean every fucking thing .
+16-1	1401-1402	I	event[98]|person[99]	giv[98]|giv[99]	nonsal[98]|nonsal[99]	_	coref|coref	17-7[107_98]|16-4[101_99]	
+16-2	1403-1407	want	event[98]	giv[98]	nonsal[98]	_	_	_	
+16-3	1408-1411	all	event[98]|abstract[100]	giv[98]|new[100]	nonsal[98]|nonsal[100]	_	_	_	
+16-4	1412-1414	my	event[98]|abstract[100]|person[101]	giv[98]|new[100]|giv[101]	nonsal[98]|nonsal[100]|nonsal[101]	_	coref	16-10[103_101]	
+16-5	1415-1419	shit	event[98]|abstract[100]	giv[98]|new[100]	nonsal[98]|nonsal[100]	_	_	_	
+16-6	1420-1425	given	event[98]	giv[98]	nonsal[98]	_	_	_	
+16-7	1426-1428	to	event[98]	giv[98]	nonsal[98]	_	_	_	
+16-8	1429-1432	her	event[98]|person[102]	giv[98]|giv[102]	nonsal[98]|nonsal[102]	_	coref	21-7[121_102]	
+16-9	1433-1436	and	event[98]	giv[98]	nonsal[98]	_	_	_	
+16-10	1437-1438	I	event[98]|person[103]	giv[98]|giv[103]	nonsal[98]|nonsal[103]	_	coref	17-9[108_103]	
+16-11	1439-1443	mean	event[98]	giv[98]	nonsal[98]	_	_	_	
+16-12	1444-1449	every	event[98]|abstract[104]	giv[98]|new[104]	nonsal[98]|nonsal[104]	_	_	_	
+16-13	1450-1457	fucking	event[98]|abstract[104]	giv[98]|new[104]	nonsal[98]|nonsal[104]	_	_	_	
+16-14	1458-1463	thing	event[98]|abstract[104]	giv[98]|new[104]	nonsal[98]|nonsal[104]	_	_	_	
+16-15	1464-1465	.	_	_	_	_	_	_	
+
+#Text=You have a week to do it or I make another phone call .
+17-1	1466-1469	You	person[105]	giv[105]	nonsal[105]	_	coref	18-3[111_105]	
+17-2	1470-1474	have	_	_	_	_	_	_	
+17-3	1475-1476	a	time[106]	new[106]	nonsal[106]	_	coref	20-1[117_106]	
+17-4	1477-1481	week	time[106]	new[106]	nonsal[106]	_	_	_	
+17-5	1482-1484	to	_	_	_	_	_	_	
+17-6	1485-1487	do	_	_	_	_	_	_	
+17-7	1488-1490	it	event[107]	giv[107]	nonsal[107]	_	_	_	
+17-8	1491-1493	or	_	_	_	_	_	_	
+17-9	1494-1495	I	person[108]	giv[108]	nonsal[108]	_	coref	18-1[110_108]	
+17-10	1496-1500	make	_	_	_	_	_	_	
+17-11	1501-1508	another	event[109]	new[109]	nonsal[109]	_	_	_	
+17-12	1509-1514	phone	event[109]	new[109]	nonsal[109]	_	_	_	
+17-13	1515-1519	call	event[109]	new[109]	nonsal[109]	_	_	_	
+17-14	1520-1521	.	_	_	_	_	_	_	
+
+#Text=I hope you get the fucking message .
+18-1	1522-1523	I	person[110]	giv[110]	nonsal[110]	_	_	_	
+18-2	1524-1528	hope	_	_	_	_	_	_	
+18-3	1529-1532	you	person[111]	giv[111]	nonsal[111]	_	coref	19-1[114_111]	
+18-4	1533-1536	get	_	_	_	_	_	_	
+18-5	1537-1540	the	abstract[112]	new[112]	nonsal[112]	_	_	_	
+18-6	1541-1548	fucking	abstract[112]	new[112]	nonsal[112]	_	_	_	
+18-7	1549-1556	message	abstract[112]	new[112]	nonsal[112]	_	_	_	
+18-8	1557-1558	.	_	_	_	_	_	_	
+
+#Text=Your game playing is eventually going to get you in more than a poo butt game player can handle .
+19-1	1559-1563	Your	abstract[113]|person[114]	new[113]|giv[114]	nonsal[113]|nonsal[114]	_	coref	19-9[115_114]	
+19-2	1564-1568	game	abstract[113]	new[113]	nonsal[113]	_	_	_	
+19-3	1569-1576	playing	abstract[113]	new[113]	nonsal[113]	_	_	_	
+19-4	1577-1579	is	_	_	_	_	_	_	
+19-5	1580-1590	eventually	_	_	_	_	_	_	
+19-6	1591-1596	going	_	_	_	_	_	_	
+19-7	1597-1599	to	_	_	_	_	_	_	
+19-8	1600-1603	get	_	_	_	_	_	_	
+19-9	1604-1607	you	person[115]	giv[115]	nonsal[115]	_	coref	20-3[118_115]	
+19-10	1608-1610	in	_	_	_	_	_	_	
+19-11	1611-1615	more	_	_	_	_	_	_	
+19-12	1616-1620	than	_	_	_	_	_	_	
+19-13	1621-1622	a	person[116]	new[116]	nonsal[116]	_	_	_	
+19-14	1623-1626	poo	person[116]	new[116]	nonsal[116]	_	_	_	
+19-15	1627-1631	butt	person[116]	new[116]	nonsal[116]	_	_	_	
+19-16	1632-1636	game	person[116]	new[116]	nonsal[116]	_	_	_	
+19-17	1637-1643	player	person[116]	new[116]	nonsal[116]	_	_	_	
+19-18	1644-1647	can	_	_	_	_	_	_	
+19-19	1648-1654	handle	_	_	_	_	_	_	
+19-20	1655-1656	.	_	_	_	_	_	_	
+
+#Text=1 week asshole .
+20-1	1657-1658	1	time[117]	giv[117]	nonsal[117]	_	_	_	
+20-2	1659-1663	week	time[117]	giv[117]	nonsal[117]	_	_	_	
+20-3	1664-1671	asshole	person[118]	giv[118]	nonsal[118]	_	coref	21-4[120_118]	
+20-4	1672-1673	.	_	_	_	_	_	_	
+
+#Text=And keep playing your game with Paula and see what happens .
+21-1	1674-1677	And	_	_	_	_	_	_	
+21-2	1678-1682	keep	_	_	_	_	_	_	
+21-3	1683-1690	playing	_	_	_	_	_	_	
+21-4	1691-1695	your	abstract[119]|person[120]	giv[119]|giv[120]	nonsal[119]|nonsal[120]	_	_	_	
+21-5	1696-1700	game	abstract[119]	giv[119]	nonsal[119]	_	_	_	
+21-6	1701-1705	with	_	_	_	_	_	_	
+21-7	1706-1711	Paula	person[121]	giv[121]	nonsal[121]	_	_	_	
+21-8	1712-1715	and	_	_	_	_	_	_	
+21-9	1716-1719	see	_	_	_	_	_	_	
+21-10	1720-1724	what	_	_	_	_	_	_	
+21-11	1725-1732	happens	_	_	_	_	_	_	
+21-12	1733-1734	.	_	_	_	_	_	_	

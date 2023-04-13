@@ -1,0 +1,84 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative-antithesis" type="rst"/>
+			<rel name="adversative-concession" type="rst"/>
+			<rel name="adversative-contrast" type="multinuc"/>
+			<rel name="attribution-negative" type="rst"/>
+			<rel name="attribution-positive" type="rst"/>
+			<rel name="causal-cause" type="rst"/>
+			<rel name="causal-result" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration-additional" type="rst"/>
+			<rel name="elaboration-attribute" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation-evidence" type="rst"/>
+			<rel name="explanation-justify" type="rst"/>
+			<rel name="explanation-motivation" type="rst"/>
+			<rel name="joint-disjunction" type="multinuc"/>
+			<rel name="joint-list" type="multinuc"/>
+			<rel name="joint-other" type="multinuc"/>
+			<rel name="joint-sequence" type="multinuc"/>
+			<rel name="mode-manner" type="rst"/>
+			<rel name="mode-means" type="rst"/>
+			<rel name="organization-heading" type="rst"/>
+			<rel name="organization-phatic" type="rst"/>
+			<rel name="organization-preparation" type="rst"/>
+			<rel name="purpose-attribute" type="rst"/>
+			<rel name="purpose-goal" type="rst"/>
+			<rel name="restatement-partial" type="rst"/>
+			<rel name="restatement-repetition" type="multinuc"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic-question" type="rst"/>
+			<rel name="topic-solutionhood" type="rst"/>
+		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="semantic" subtypes="antonymy;general_word;indicative_word_pair;lexical_chain;meronymy;repetition;synonymy"/>
+			<sig type="morphological" subtypes="tense"/>
+			<sig type="syntactic" subtypes="adjectival_modifier;imperative_clause;infinitival_clause;interrupted_matrix_clause;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;parentheses;question_mark;semicolon"/>
+			<sig type="genre" subtypes="inverted_pyramid_scheme;layout;newspaper_style_attribution;newspaper_style_definition"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="reference+syntactic" subtypes="comparative_reference+subject np;demonstrative_reference+subject np;personal_reference+subject np;propositional_reference+subject np"/>
+			<sig type="semantic+syntactic" subtypes="general_word+subject np;lexical_chain+subject np;meronymy+subject np;repetition+subject np;synonymy+subject np"/>
+			<sig type="lexical+syntactic" subtypes="indicative_word+present_participial_clause"/>
+			<sig type="syntactic+positional" subtypes="past_participial_clause+beginning;present_participial_clause+beginning"/>
+			<sig type="syntactic+semantic" subtypes="parallel_syntactic_construction+lexical_chain"/>
+			<sig type="graphical+syntactic" subtypes="comma+past_participial_clause;comma+present_participial_clause"/>
+			<sig type="unsure" subtypes="unsure"/>
+			<sig type="orphan" subtypes="orphan"/>
+		</sigtypes>
+	</header>
+	<body>
+		<segment id="1" parent="23" relname="span">I HIDE myself within my flower ,</segment>
+		<segment id="2" parent="22" relname="same-unit">That</segment>
+		<segment id="3" parent="19" relname="context-circumstance">wearing on your breast ,</segment>
+		<segment id="4" parent="19" relname="same-unit">You ,</segment>
+		<segment id="5" parent="6" relname="mode-manner">unsuspecting ,</segment>
+		<segment id="6" parent="20" relname="span">wear me too —</segment>
+		<segment id="7" parent="23" relname="adversative-concession">And angels know the rest .</segment>
+		<segment id="8" parent="18" relname="span">I hide myself within my flower ,</segment>
+		<segment id="9" parent="17" relname="same-unit">That ,</segment>
+		<segment id="10" parent="14" relname="context-circumstance">fading from your vase ,</segment>
+		<segment id="11" parent="14" relname="same-unit">You ,</segment>
+		<segment id="12" parent="13" relname="mode-manner">unsuspecting ,</segment>
+		<segment id="13" parent="15" relname="span">feel for me Almost a loneliness .</segment>
+		<group id="14" type="multinuc" parent="16" relname="span"/>
+		<group id="15" type="span" parent="14" relname="same-unit"/>
+		<group id="16" type="span" parent="17" relname="same-unit"/>
+		<group id="17" type="multinuc" parent="8" relname="elaboration-attribute"/>
+		<group id="18" type="span" parent="25" relname="joint-sequence"/>
+		<group id="19" type="multinuc" parent="21" relname="span"/>
+		<group id="20" type="span" parent="19" relname="same-unit"/>
+		<group id="21" type="span" parent="22" relname="same-unit"/>
+		<group id="22" type="multinuc" parent="1" relname="elaboration-attribute"/>
+		<group id="23" type="span" parent="24" relname="span"/>
+		<group id="24" type="span" parent="25" relname="joint-sequence"/>
+		<group id="25" type="multinuc" />
+	</body>
+</rst>

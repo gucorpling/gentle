@@ -1,0 +1,1533 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Referent|entity|infstat|salience|identity
+#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
+
+
+#Text=THE RAVEN .
+1-1	0-3	THE	animal[1]	new[1]	nonsal[1]	_	coref	27-20[120_1]	
+1-2	4-9	RAVEN	animal[1]	new[1]	nonsal[1]	_	_	_	
+1-3	10-11	.	_	_	_	_	_	_	
+
+#Text=ONCE upon a midnight dreary , while I pondered , weak and weary , Over many a quaint and curious volume of forgotten lore —
+2-1	12-16	ONCE	_	_	_	_	_	_	
+2-2	17-21	upon	_	_	_	_	_	_	
+2-3	22-23	a	event[2]	new[2]	nonsal[2]	_	_	_	
+2-4	24-32	midnight	event[2]	new[2]	nonsal[2]	_	_	_	
+2-5	33-39	dreary	event[2]	new[2]	nonsal[2]	_	_	_	
+2-6	40-41	,	_	_	_	_	_	_	
+2-7	42-47	while	_	_	_	_	_	_	
+2-8	48-49	I	person[3]	acc[3]	nonsal[3]	_	coref	3-2[6_3]	
+2-9	50-58	pondered	_	_	_	_	_	_	
+2-10	59-60	,	_	_	_	_	_	_	
+2-11	61-65	weak	_	_	_	_	_	_	
+2-12	66-69	and	_	_	_	_	_	_	
+2-13	70-75	weary	_	_	_	_	_	_	
+2-14	76-77	,	_	_	_	_	_	_	
+2-15	78-82	Over	_	_	_	_	_	_	
+2-16	83-87	many	object[4]	new[4]	nonsal[4]	_	coref	7-15[27_4]	
+2-17	88-89	a	object[4]	new[4]	nonsal[4]	_	_	_	
+2-18	90-96	quaint	object[4]	new[4]	nonsal[4]	_	_	_	
+2-19	97-100	and	object[4]	new[4]	nonsal[4]	_	_	_	
+2-20	101-108	curious	object[4]	new[4]	nonsal[4]	_	_	_	
+2-21	109-115	volume	object[4]	new[4]	nonsal[4]	_	_	_	
+2-22	116-118	of	object[4]	new[4]	nonsal[4]	_	_	_	
+2-23	119-128	forgotten	object[4]|abstract[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	_	_	_	
+2-24	129-133	lore	object[4]|abstract[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	_	_	_	
+2-25	134-135	—	_	_	_	_	_	_	
+
+#Text=While I nodded , nearly napping , suddenly there came a tapping , As of some one gently rapping , rapping at my chamber door .
+3-1	136-141	While	_	_	_	_	_	_	
+3-2	142-143	I	person[6]	giv[6]	nonsal[6]	_	coref	3-23[10_6]	
+3-3	144-150	nodded	_	_	_	_	_	_	
+3-4	151-152	,	_	_	_	_	_	_	
+3-5	153-159	nearly	_	_	_	_	_	_	
+3-6	160-167	napping	_	_	_	_	_	_	
+3-7	168-169	,	_	_	_	_	_	_	
+3-8	170-178	suddenly	_	_	_	_	_	_	
+3-9	179-184	there	_	_	_	_	_	_	
+3-10	185-189	came	_	_	_	_	_	_	
+3-11	190-191	a	event[7]	new[7]	nonsal[7]	_	_	_	
+3-12	192-199	tapping	event[7]	new[7]	nonsal[7]	_	_	_	
+3-13	200-201	,	_	_	_	_	_	_	
+3-14	202-204	As	_	_	_	_	_	_	
+3-15	205-207	of	_	_	_	_	_	_	
+3-16	208-212	some	person[8]	new[8]	nonsal[8]	_	coref	4-3[11_8]	
+3-17	213-216	one	person[8]	new[8]	nonsal[8]	_	_	_	
+3-18	217-223	gently	_	_	_	_	_	_	
+3-19	224-231	rapping	_	_	_	_	_	_	
+3-20	232-233	,	_	_	_	_	_	_	
+3-21	234-241	rapping	_	_	_	_	_	_	
+3-22	242-244	at	_	_	_	_	_	_	
+3-23	245-247	my	place[9]|person[10]	new[9]|giv[10]	nonsal[9]|nonsal[10]	_	coref|coref	4-13[14_9]|4-7[12_10]	
+3-24	248-255	chamber	place[9]	new[9]	nonsal[9]	_	_	_	
+3-25	256-260	door	place[9]	new[9]	nonsal[9]	_	_	_	
+3-26	261-262	.	_	_	_	_	_	_	
+
+#Text=" 'Tis some visiter , " I muttered , " tapping at my chamber door —
+4-1	263-264	"	_	_	_	_	_	_	
+4-2	265-269	'Tis	_	_	_	_	_	_	
+4-3	270-274	some	person[11]	new[11]	nonsal[11]	_	coref	10-3[46_11]	
+4-4	275-282	visiter	person[11]	new[11]	nonsal[11]	_	_	_	
+4-5	283-284	,	_	_	_	_	_	_	
+4-6	285-286	"	_	_	_	_	_	_	
+4-7	287-288	I	person[12]	giv[12]	nonsal[12]	_	coref	4-13[15_12]	
+4-8	289-297	muttered	_	_	_	_	_	_	
+4-9	298-299	,	_	_	_	_	_	_	
+4-10	300-301	"	_	_	_	_	_	_	
+4-11	302-309	tapping	event[13]	new[13]	nonsal[13]	_	coref	5-2[16_13]	
+4-12	310-312	at	event[13]	new[13]	nonsal[13]	_	_	_	
+4-13	313-315	my	event[13]|place[14]|person[15]	new[13]|giv[14]|giv[15]	nonsal[13]|nonsal[14]|nonsal[15]	_	coref|coref	10-8[48_14]|6-4[18_15]	
+4-14	316-323	chamber	event[13]|place[14]	new[13]|giv[14]	nonsal[13]|nonsal[14]	_	_	_	
+4-15	324-328	door	event[13]|place[14]	new[13]|giv[14]	nonsal[13]|nonsal[14]	_	_	_	
+4-16	329-330	—	_	_	_	_	_	_	
+
+#Text=Only this and nothing more . "
+5-1	331-335	Only	_	_	_	_	_	_	
+5-2	336-340	this	event[16]	giv[16]	nonsal[16]	_	_	_	
+5-3	341-344	and	_	_	_	_	_	_	
+5-4	345-352	nothing	abstract[17]	new[17]	nonsal[17]	_	coref	12-5[57_17]	
+5-5	353-357	more	abstract[17]	new[17]	nonsal[17]	_	_	_	
+5-6	358-359	.	_	_	_	_	_	_	
+5-7	360-361	"	_	_	_	_	_	_	
+
+#Text=Ah , distinctly I remember it was in the bleak December , And each separate dying ember wrought its ghost upon the floor .
+6-1	362-364	Ah	_	_	_	_	_	_	
+6-2	365-366	,	_	_	_	_	_	_	
+6-3	367-377	distinctly	_	_	_	_	_	_	
+6-4	378-379	I	person[18]	giv[18]	nonsal[18]	_	coref	7-2[24_18]	
+6-5	380-388	remember	_	_	_	_	_	_	
+6-6	389-391	it	_	_	_	_	_	_	
+6-7	392-395	was	_	_	_	_	_	_	
+6-8	396-398	in	_	_	_	_	_	_	
+6-9	399-402	the	time[19]	new[19]	nonsal[19]	_	_	_	
+6-10	403-408	bleak	time[19]	new[19]	nonsal[19]	_	_	_	
+6-11	409-417	December	time[19]	new[19]	nonsal[19]	_	_	_	
+6-12	418-419	,	_	_	_	_	_	_	
+6-13	420-423	And	_	_	_	_	_	_	
+6-14	424-428	each	object[20]	new[20]	nonsal[20]	_	coref	6-19[22_20]	
+6-15	429-437	separate	object[20]	new[20]	nonsal[20]	_	_	_	
+6-16	438-443	dying	object[20]	new[20]	nonsal[20]	_	_	_	
+6-17	444-449	ember	object[20]	new[20]	nonsal[20]	_	_	_	
+6-18	450-457	wrought	_	_	_	_	_	_	
+6-19	458-461	its	abstract[21]|object[22]	new[21]|giv[22]	nonsal[21]|nonsal[22]	_	_	_	
+6-20	462-467	ghost	abstract[21]	new[21]	nonsal[21]	_	_	_	
+6-21	468-472	upon	_	_	_	_	_	_	
+6-22	473-476	the	place[23]	giv[23]	nonsal[23]	_	coref	79-13[357_23]	
+6-23	477-482	floor	place[23]	giv[23]	nonsal[23]	_	_	_	
+6-24	483-484	.	_	_	_	_	_	_	
+
+#Text=Eagerly I wished the morrow ; — vainly I had sought to borrow From my books surcease of sorrow — sorrow for the lost Lenore — For the rare and radiant maiden whom the angels name Lenore — Nameless here for evermore .
+7-1	485-492	Eagerly	_	_	_	_	_	_	
+7-2	493-494	I	person[24]	giv[24]	nonsal[24]	_	coref	7-9[26_24]	
+7-3	495-501	wished	_	_	_	_	_	_	
+7-4	502-505	the	time[25]	new[25]	nonsal[25]	_	coref	43-2[184_25]	
+7-5	506-512	morrow	time[25]	new[25]	nonsal[25]	_	_	_	
+7-6	513-514	;	_	_	_	_	_	_	
+7-7	515-516	—	_	_	_	_	_	_	
+7-8	517-523	vainly	_	_	_	_	_	_	
+7-9	524-525	I	person[26]	giv[26]	nonsal[26]	_	coref	7-15[28_26]	
+7-10	526-529	had	_	_	_	_	_	_	
+7-11	530-536	sought	_	_	_	_	_	_	
+7-12	537-539	to	_	_	_	_	_	_	
+7-13	540-546	borrow	_	_	_	_	_	_	
+7-14	547-551	From	_	_	_	_	_	_	
+7-15	552-554	my	object[27]|person[28]	new[27]|giv[28]	nonsal[27]|nonsal[28]	_	coref	8-12[39_28]	
+7-16	555-560	books	object[27]	new[27]	nonsal[27]	_	_	_	
+7-17	561-569	surcease	abstract[29]	giv[29]	nonsal[29]	_	_	_	
+7-18	570-572	of	abstract[29]	giv[29]	nonsal[29]	_	_	_	
+7-19	573-579	sorrow	abstract[29]|abstract[30]	giv[29]|new[30]	nonsal[29]|nonsal[30]	_	coref	7-21[31_30]	
+7-20	580-581	—	_	_	_	_	_	_	
+7-21	582-588	sorrow	abstract[31]	giv[31]	nonsal[31]	_	_	_	
+7-22	589-592	for	abstract[31]	giv[31]	nonsal[31]	_	_	_	
+7-23	593-596	the	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	coref	7-37[35_32]	
+7-24	597-601	lost	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	_	_	
+7-25	602-608	Lenore	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	_	_	
+7-26	609-610	—	_	_	_	_	_	_	
+7-27	611-614	For	_	_	_	_	_	_	
+7-28	615-618	the	person[33]	new[33]	nonsal[33]	_	_	_	
+7-29	619-623	rare	person[33]	new[33]	nonsal[33]	_	_	_	
+7-30	624-627	and	person[33]	new[33]	nonsal[33]	_	_	_	
+7-31	628-635	radiant	person[33]	new[33]	nonsal[33]	_	_	_	
+7-32	636-642	maiden	person[33]	new[33]	nonsal[33]	_	_	_	
+7-33	643-647	whom	person[33]	new[33]	nonsal[33]	_	_	_	
+7-34	648-651	the	person[33]|person[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	_	coref	53-18[247_34]	
+7-35	652-658	angels	person[33]|person[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	_	_	_	
+7-36	659-663	name	person[33]	new[33]	nonsal[33]	_	_	_	
+7-37	664-670	Lenore	person[33]|abstract[35]	new[33]|giv[35]	nonsal[33]|nonsal[35]	_	coref	19-26[89_35]	
+7-38	671-672	—	_	_	_	_	_	_	
+7-39	673-681	Nameless	_	_	_	_	_	_	
+7-40	682-686	here	_	_	_	_	_	_	
+7-41	687-690	for	_	_	_	_	_	_	
+7-42	691-699	evermore	time[36]	new[36]	nonsal[36]	_	_	_	
+7-43	700-701	.	_	_	_	_	_	_	
+
+#Text=And the silken sad uncertain rustling of each purple curtain Thrilled me — filled me with fantastic terrors never felt before ;
+8-1	702-705	And	_	_	_	_	_	_	
+8-2	706-709	the	event[37]	new[37]	nonsal[37]	_	_	_	
+8-3	710-716	silken	event[37]	new[37]	nonsal[37]	_	_	_	
+8-4	717-720	sad	event[37]	new[37]	nonsal[37]	_	_	_	
+8-5	721-730	uncertain	event[37]	new[37]	nonsal[37]	_	_	_	
+8-6	731-739	rustling	event[37]	new[37]	nonsal[37]	_	_	_	
+8-7	740-742	of	event[37]	new[37]	nonsal[37]	_	_	_	
+8-8	743-747	each	event[37]|object[38]	new[37]|new[38]	nonsal[37]|nonsal[38]	_	_	_	
+8-9	748-754	purple	event[37]|object[38]	new[37]|new[38]	nonsal[37]|nonsal[38]	_	_	_	
+8-10	755-762	curtain	event[37]|object[38]	new[37]|new[38]	nonsal[37]|nonsal[38]	_	_	_	
+8-11	763-771	Thrilled	_	_	_	_	_	_	
+8-12	772-774	me	person[39]	giv[39]	nonsal[39]	_	coref	8-15[40_39]	
+8-13	775-776	—	_	_	_	_	_	_	
+8-14	777-783	filled	_	_	_	_	_	_	
+8-15	784-786	me	person[40]	giv[40]	nonsal[40]	_	coref	9-10[44_40]	
+8-16	787-791	with	_	_	_	_	_	_	
+8-17	792-801	fantastic	abstract[41]	new[41]	nonsal[41]	_	_	_	
+8-18	802-809	terrors	abstract[41]	new[41]	nonsal[41]	_	_	_	
+8-19	810-815	never	abstract[41]	new[41]	nonsal[41]	_	_	_	
+8-20	816-820	felt	abstract[41]	new[41]	nonsal[41]	_	_	_	
+8-21	821-827	before	abstract[41]	new[41]	nonsal[41]	_	_	_	
+8-22	828-829	;	_	_	_	_	_	_	
+
+#Text=So that now , to still the beating of my heart , I stood repeating
+9-1	830-832	So	_	_	_	_	_	_	
+9-2	833-837	that	_	_	_	_	_	_	
+9-3	838-841	now	_	_	_	_	_	_	
+9-4	842-843	,	_	_	_	_	_	_	
+9-5	844-846	to	_	_	_	_	_	_	
+9-6	847-852	still	_	_	_	_	_	_	
+9-7	853-856	the	event[42]	new[42]	nonsal[42]	_	_	_	
+9-8	857-864	beating	event[42]	new[42]	nonsal[42]	_	_	_	
+9-9	865-867	of	event[42]	new[42]	nonsal[42]	_	_	_	
+9-10	868-870	my	event[42]|object[43]|person[44]	new[42]|new[43]|giv[44]	nonsal[42]|nonsal[43]|nonsal[44]	_	coref|coref	25-2[111_43]|9-13[45_44]	
+9-11	871-876	heart	event[42]|object[43]	new[42]|new[43]	nonsal[42]|nonsal[43]	_	_	_	
+9-12	877-878	,	_	_	_	_	_	_	
+9-13	879-880	I	person[45]	giv[45]	nonsal[45]	_	coref	10-8[49_45]	
+9-14	881-886	stood	_	_	_	_	_	_	
+9-15	887-896	repeating	_	_	_	_	_	_	
+
+#Text=" 'Tis some visiter entreating entrance at my chamber door —
+10-1	897-898	"	_	_	_	_	_	_	
+10-2	899-903	'Tis	_	_	_	_	_	_	
+10-3	904-908	some	person[46]	giv[46]	nonsal[46]	_	coref	11-1[51_46]	
+10-4	909-916	visiter	person[46]	giv[46]	nonsal[46]	_	_	_	
+10-5	917-927	entreating	_	_	_	_	_	_	
+10-6	928-936	entrance	event[47]	new[47]	nonsal[47]	_	coref	11-5[52_47]	
+10-7	937-939	at	_	_	_	_	_	_	
+10-8	940-942	my	place[48]|person[49]	giv[48]|giv[49]	nonsal[48]|nonsal[49]	_	coref|coref	11-7[53_48]|11-7[54_49]	
+10-9	943-950	chamber	place[48]	giv[48]	nonsal[48]	_	_	_	
+10-10	951-955	door	place[48]	giv[48]	nonsal[48]	_	_	_	
+10-11	956-957	—	_	_	_	_	_	_	
+
+#Text=Some late visiter entreating entrance at my chamber door ;
+11-1	958-962	Some	event[50]|person[51]	new[50]|giv[51]	nonsal[50]|nonsal[51]	_	coref|coref	12-1[55_50]|14-7[60_51]	
+11-2	963-967	late	event[50]|person[51]	new[50]|giv[51]	nonsal[50]|nonsal[51]	_	_	_	
+11-3	968-975	visiter	event[50]|person[51]	new[50]|giv[51]	nonsal[50]|nonsal[51]	_	_	_	
+11-4	976-986	entreating	event[50]	new[50]	nonsal[50]	_	_	_	
+11-5	987-995	entrance	event[50]|event[52]	new[50]|giv[52]	nonsal[50]|nonsal[52]	_	_	_	
+11-6	996-998	at	event[50]|event[52]	new[50]|giv[52]	nonsal[50]|nonsal[52]	_	_	_	
+11-7	999-1001	my	event[50]|event[52]|place[53]|person[54]	new[50]|giv[52]|giv[53]|giv[54]	nonsal[50]|nonsal[52]|nonsal[53]|nonsal[54]	_	coref|coref	15-25[70_53]|13-2[59_54]	
+11-8	1002-1009	chamber	event[50]|event[52]|place[53]	new[50]|giv[52]|giv[53]	nonsal[50]|nonsal[52]|nonsal[53]	_	_	_	
+11-9	1010-1014	door	event[50]|event[52]|place[53]	new[50]|giv[52]|giv[53]	nonsal[50]|nonsal[52]|nonsal[53]	_	_	_	
+11-10	1015-1016	;	_	_	_	_	_	_	
+
+#Text=This it is and nothing more . "
+12-1	1017-1021	This	event[55]	giv[55]	nonsal[55]	_	coref	12-2[56_55]	
+12-2	1022-1024	it	event[56]	giv[56]	nonsal[56]	_	_	_	
+12-3	1025-1027	is	_	_	_	_	_	_	
+12-4	1028-1031	and	_	_	_	_	_	_	
+12-5	1032-1039	nothing	abstract[57]	giv[57]	nonsal[57]	_	coref	17-4[78_57]	
+12-6	1040-1044	more	abstract[57]	giv[57]	nonsal[57]	_	_	_	
+12-7	1045-1046	.	_	_	_	_	_	_	
+12-8	1047-1048	"	_	_	_	_	_	_	
+
+#Text=Presently my soul grew stronger ;
+13-1	1049-1058	Presently	_	_	_	_	_	_	
+13-2	1059-1061	my	abstract[58]|person[59]	new[58]|giv[59]	nonsal[58]|nonsal[59]	_	coref|coref	22-7[99_58]|14-11[61_59]	
+13-3	1062-1066	soul	abstract[58]	new[58]	nonsal[58]	_	_	_	
+13-4	1067-1071	grew	_	_	_	_	_	_	
+13-5	1072-1080	stronger	_	_	_	_	_	_	
+13-6	1081-1082	;	_	_	_	_	_	_	
+
+#Text=hesitating then no longer , " Sir , " said I , " or Madam , truly your forgiveness I implore ;
+14-1	1083-1093	hesitating	_	_	_	_	_	_	
+14-2	1094-1098	then	_	_	_	_	_	_	
+14-3	1099-1101	no	_	_	_	_	_	_	
+14-4	1102-1108	longer	_	_	_	_	_	_	
+14-5	1109-1110	,	_	_	_	_	_	_	
+14-6	1111-1112	"	_	_	_	_	_	_	
+14-7	1113-1116	Sir	person[60]	new[60]	nonsal[60]	_	coref	14-15[62_60]	
+14-8	1117-1118	,	_	_	_	_	_	_	
+14-9	1119-1120	"	_	_	_	_	_	_	
+14-10	1121-1125	said	_	_	_	_	_	_	
+14-11	1126-1127	I	person[61]	giv[61]	nonsal[61]	_	coref	14-20[65_61]	
+14-12	1128-1129	,	_	_	_	_	_	_	
+14-13	1130-1131	"	_	_	_	_	_	_	
+14-14	1132-1134	or	_	_	_	_	_	_	
+14-15	1135-1140	Madam	person[62]	new[62]	nonsal[62]	_	coref	14-18[64_62]	
+14-16	1141-1142	,	_	_	_	_	_	_	
+14-17	1143-1148	truly	_	_	_	_	_	_	
+14-18	1149-1153	your	abstract[63]|person[64]	new[63]|giv[64]	nonsal[63]|nonsal[64]	_	coref	15-12[68_64]	
+14-19	1154-1165	forgiveness	abstract[63]	new[63]	nonsal[63]	_	_	_	
+14-20	1166-1167	I	person[65]	giv[65]	nonsal[65]	_	coref	15-5[67_65]	
+14-21	1168-1175	implore	_	_	_	_	_	_	
+14-22	1176-1177	;	_	_	_	_	_	_	
+
+#Text=But the fact is I was napping , and so gently you came rapping , And so faintly you came tapping , tapping at my chamber door , That I scarce was sure I heard you " —
+15-1	1178-1181	But	_	_	_	_	_	_	
+15-2	1182-1185	the	abstract[66]	new[66]	nonsal[66]	_	_	_	
+15-3	1186-1190	fact	abstract[66]	new[66]	nonsal[66]	_	_	_	
+15-4	1191-1193	is	_	_	_	_	_	_	
+15-5	1194-1195	I	person[67]	giv[67]	nonsal[67]	_	coref	15-25[71_67]	
+15-6	1196-1199	was	_	_	_	_	_	_	
+15-7	1200-1207	napping	_	_	_	_	_	_	
+15-8	1208-1209	,	_	_	_	_	_	_	
+15-9	1210-1213	and	_	_	_	_	_	_	
+15-10	1214-1216	so	_	_	_	_	_	_	
+15-11	1217-1223	gently	_	_	_	_	_	_	
+15-12	1224-1227	you	person[68]	giv[68]	nonsal[68]	_	coref	15-19[69_68]	
+15-13	1228-1232	came	_	_	_	_	_	_	
+15-14	1233-1240	rapping	_	_	_	_	_	_	
+15-15	1241-1242	,	_	_	_	_	_	_	
+15-16	1243-1246	And	_	_	_	_	_	_	
+15-17	1247-1249	so	_	_	_	_	_	_	
+15-18	1250-1257	faintly	_	_	_	_	_	_	
+15-19	1258-1261	you	person[69]	giv[69]	nonsal[69]	_	coref	15-36[74_69]	
+15-20	1262-1266	came	_	_	_	_	_	_	
+15-21	1267-1274	tapping	_	_	_	_	_	_	
+15-22	1275-1276	,	_	_	_	_	_	_	
+15-23	1277-1284	tapping	_	_	_	_	_	_	
+15-24	1285-1287	at	_	_	_	_	_	_	
+15-25	1288-1290	my	place[70]|person[71]	giv[70]|giv[71]	nonsal[70]|nonsal[71]	_	coref|coref	16-5[76_70]|15-30[72_71]	
+15-26	1291-1298	chamber	place[70]	giv[70]	nonsal[70]	_	_	_	
+15-27	1299-1303	door	place[70]	giv[70]	nonsal[70]	_	_	_	
+15-28	1304-1305	,	_	_	_	_	_	_	
+15-29	1306-1310	That	_	_	_	_	_	_	
+15-30	1311-1312	I	person[72]	giv[72]	nonsal[72]	_	coref	15-34[73_72]	
+15-31	1313-1319	scarce	_	_	_	_	_	_	
+15-32	1320-1323	was	_	_	_	_	_	_	
+15-33	1324-1328	sure	_	_	_	_	_	_	
+15-34	1329-1330	I	person[73]	giv[73]	nonsal[73]	_	coref	16-2[75_73]	
+15-35	1331-1336	heard	_	_	_	_	_	_	
+15-36	1337-1340	you	person[74]	giv[74]	nonsal[74]	_	coref	38-20[174_74]	
+15-37	1341-1342	"	_	_	_	_	_	_	
+15-38	1343-1344	—	_	_	_	_	_	_	
+
+#Text=here I opened wide the door ; — —
+16-1	1345-1349	here	_	_	_	_	_	_	
+16-2	1350-1351	I	person[75]	giv[75]	nonsal[75]	_	coref	18-8[80_75]	
+16-3	1352-1358	opened	_	_	_	_	_	_	
+16-4	1359-1363	wide	_	_	_	_	_	_	
+16-5	1364-1367	the	object[76]	giv[76]	nonsal[76]	_	coref	22-3[98_76]	
+16-6	1368-1372	door	object[76]	giv[76]	nonsal[76]	_	_	_	
+16-7	1373-1374	;	_	_	_	_	_	_	
+16-8	1375-1376	—	_	_	_	_	_	_	
+16-9	1377-1378	—	_	_	_	_	_	_	
+
+#Text=Darkness there and nothing more .
+17-1	1379-1387	Darkness	abstract[77]	new[77]	nonsal[77]	_	coref	18-3[79_77]	
+17-2	1388-1393	there	_	_	_	_	_	_	
+17-3	1394-1397	and	_	_	_	_	_	_	
+17-4	1398-1405	nothing	abstract[78]	giv[78]	nonsal[78]	_	coref	21-4[97_78]	
+17-5	1406-1410	more	_	_	_	_	_	_	
+17-6	1411-1412	.	_	_	_	_	_	_	
+
+#Text=Deep into that darkness peering , long I stood there wondering , fearing , Doubting , dreaming dreams no mortals ever dared to dream before ;
+18-1	1413-1417	Deep	_	_	_	_	_	_	
+18-2	1418-1422	into	_	_	_	_	_	_	
+18-3	1423-1427	that	abstract[79]	giv[79]	nonsal[79]	_	_	_	
+18-4	1428-1436	darkness	abstract[79]	giv[79]	nonsal[79]	_	_	_	
+18-5	1437-1444	peering	_	_	_	_	_	_	
+18-6	1445-1446	,	_	_	_	_	_	_	
+18-7	1447-1451	long	_	_	_	_	_	_	
+18-8	1452-1453	I	person[80]	giv[80]	nonsal[80]	_	coref	20-2[91_80]	
+18-9	1454-1459	stood	_	_	_	_	_	_	
+18-10	1460-1465	there	_	_	_	_	_	_	
+18-11	1466-1475	wondering	_	_	_	_	_	_	
+18-12	1476-1477	,	_	_	_	_	_	_	
+18-13	1478-1485	fearing	_	_	_	_	_	_	
+18-14	1486-1487	,	_	_	_	_	_	_	
+18-15	1488-1496	Doubting	_	_	_	_	_	_	
+18-16	1497-1498	,	_	_	_	_	_	_	
+18-17	1499-1507	dreaming	_	_	_	_	_	_	
+18-18	1508-1514	dreams	abstract[81]	new[81]	nonsal[81]	_	_	_	
+18-19	1515-1517	no	abstract[81]|person[82]	new[81]|new[82]	nonsal[81]|nonsal[82]	_	_	_	
+18-20	1518-1525	mortals	abstract[81]|person[82]	new[81]|new[82]	nonsal[81]|nonsal[82]	_	_	_	
+18-21	1526-1530	ever	abstract[81]	new[81]	nonsal[81]	_	_	_	
+18-22	1531-1536	dared	abstract[81]	new[81]	nonsal[81]	_	_	_	
+18-23	1537-1539	to	abstract[81]	new[81]	nonsal[81]	_	_	_	
+18-24	1540-1545	dream	abstract[81]	new[81]	nonsal[81]	_	_	_	
+18-25	1546-1552	before	abstract[81]	new[81]	nonsal[81]	_	_	_	
+18-26	1553-1554	;	_	_	_	_	_	_	
+
+#Text=But the silence was unbroken , and the stillness gave no token , And the only word there spoken was the whispered word , " Lenore ? "
+19-1	1555-1558	But	_	_	_	_	_	_	
+19-2	1559-1562	the	abstract[83]	new[83]	nonsal[83]	_	_	_	
+19-3	1563-1570	silence	abstract[83]	new[83]	nonsal[83]	_	_	_	
+19-4	1571-1574	was	_	_	_	_	_	_	
+19-5	1575-1583	unbroken	_	_	_	_	_	_	
+19-6	1584-1585	,	_	_	_	_	_	_	
+19-7	1586-1589	and	_	_	_	_	_	_	
+19-8	1590-1593	the	abstract[84]	new[84]	nonsal[84]	_	_	_	
+19-9	1594-1603	stillness	abstract[84]	new[84]	nonsal[84]	_	_	_	
+19-10	1604-1608	gave	_	_	_	_	_	_	
+19-11	1609-1611	no	abstract[85]	new[85]	nonsal[85]	_	_	_	
+19-12	1612-1617	token	abstract[85]	new[85]	nonsal[85]	_	_	_	
+19-13	1618-1619	,	_	_	_	_	_	_	
+19-14	1620-1623	And	_	_	_	_	_	_	
+19-15	1624-1627	the	abstract[86]	new[86]	nonsal[86]	_	coref	19-21[87_86]	
+19-16	1628-1632	only	abstract[86]	new[86]	nonsal[86]	_	_	_	
+19-17	1633-1637	word	abstract[86]	new[86]	nonsal[86]	_	_	_	
+19-18	1638-1643	there	abstract[86]	new[86]	nonsal[86]	_	_	_	
+19-19	1644-1650	spoken	abstract[86]	new[86]	nonsal[86]	_	_	_	
+19-20	1651-1654	was	_	_	_	_	_	_	
+19-21	1655-1658	the	abstract[87]	giv[87]	nonsal[87]	_	coref	19-25[88_87]	
+19-22	1659-1668	whispered	abstract[87]	giv[87]	nonsal[87]	_	_	_	
+19-23	1669-1673	word	abstract[87]	giv[87]	nonsal[87]	_	_	_	
+19-24	1674-1675	,	_	_	_	_	_	_	
+19-25	1676-1677	"	abstract[88]	giv[88]	nonsal[88]	_	coref	20-1[90_88]	
+19-26	1678-1684	Lenore	abstract[88]|person[89]	giv[88]|giv[89]	nonsal[88]|nonsal[89]	_	coref	20-14[95_89]	
+19-27	1685-1686	?	abstract[88]	giv[88]	nonsal[88]	_	_	_	
+19-28	1687-1688	"	abstract[88]	giv[88]	nonsal[88]	_	_	_	
+
+#Text=This I whispered , and an echo murmured back the word , " Lenore ! " —
+20-1	1689-1693	This	abstract[90]	giv[90]	nonsal[90]	_	coref	20-10[93_90]	
+20-2	1694-1695	I	person[91]	giv[91]	nonsal[91]	_	coref	22-8[100_91]	
+20-3	1696-1705	whispered	_	_	_	_	_	_	
+20-4	1706-1707	,	_	_	_	_	_	_	
+20-5	1708-1711	and	_	_	_	_	_	_	
+20-6	1712-1714	an	abstract[92]	new[92]	nonsal[92]	_	_	_	
+20-7	1715-1719	echo	abstract[92]	new[92]	nonsal[92]	_	_	_	
+20-8	1720-1728	murmured	_	_	_	_	_	_	
+20-9	1729-1733	back	_	_	_	_	_	_	
+20-10	1734-1737	the	abstract[93]	giv[93]	nonsal[93]	_	coref	20-13[94_93]	
+20-11	1738-1742	word	abstract[93]	giv[93]	nonsal[93]	_	_	_	
+20-12	1743-1744	,	_	_	_	_	_	_	
+20-13	1745-1746	"	abstract[94]	giv[94]	nonsal[94]	_	coref	21-2[96_94]	
+20-14	1747-1753	Lenore	abstract[94]|person[95]	giv[94]|giv[95]	nonsal[94]|nonsal[95]	_	coref	52-13[242_95]	
+20-15	1754-1755	!	abstract[94]	giv[94]	nonsal[94]	_	_	_	
+20-16	1756-1757	"	abstract[94]	giv[94]	nonsal[94]	_	_	_	
+20-17	1758-1759	—	_	_	_	_	_	_	
+
+#Text=Merely this and nothing more .
+21-1	1760-1766	Merely	_	_	_	_	_	_	
+21-2	1767-1771	this	abstract[96]	giv[96]	nonsal[96]	_	_	_	
+21-3	1772-1775	and	_	_	_	_	_	_	
+21-4	1776-1783	nothing	object[97]	giv[97]	nonsal[97]	_	coref	26-5[116_97]	
+21-5	1784-1788	more	_	_	_	_	_	_	
+21-6	1789-1790	.	_	_	_	_	_	_	
+
+#Text=Back into the chamber turning , all my soul within me burning , Soon again I heard a tapping something louder than before .
+22-1	1791-1795	Back	_	_	_	_	_	_	
+22-2	1796-1800	into	_	_	_	_	_	_	
+22-3	1801-1804	the	place[98]	giv[98]	nonsal[98]	_	coref	30-12[128_98]	
+22-4	1805-1812	chamber	place[98]	giv[98]	nonsal[98]	_	_	_	
+22-5	1813-1820	turning	_	_	_	_	_	_	
+22-6	1821-1822	,	_	_	_	_	_	_	
+22-7	1823-1826	all	abstract[99]	giv[99]	nonsal[99]	_	coref	48-6[208_99]	
+22-8	1827-1829	my	abstract[99]|person[100]	giv[99]|giv[100]	nonsal[99]|nonsal[100]	_	coref	22-11[101_100]	
+22-9	1830-1834	soul	abstract[99]	giv[99]	nonsal[99]	_	_	_	
+22-10	1835-1841	within	_	_	_	_	_	_	
+22-11	1842-1844	me	person[101]	giv[101]	nonsal[101]	_	coref	22-16[102_101]	
+22-12	1845-1852	burning	_	_	_	_	_	_	
+22-13	1853-1854	,	_	_	_	_	_	_	
+22-14	1855-1859	Soon	_	_	_	_	_	_	
+22-15	1860-1865	again	_	_	_	_	_	_	
+22-16	1866-1867	I	person[102]	giv[102]	nonsal[102]	_	coref	23-6[104_102]	
+22-17	1868-1873	heard	_	_	_	_	_	_	
+22-18	1874-1875	a	object[103]	new[103]	nonsal[103]	_	coref	23-10[105_103]	
+22-19	1876-1883	tapping	object[103]	new[103]	nonsal[103]	_	_	_	
+22-20	1884-1893	something	object[103]	new[103]	nonsal[103]	_	_	_	
+22-21	1894-1900	louder	_	_	_	_	_	_	
+22-22	1901-1905	than	_	_	_	_	_	_	
+22-23	1906-1912	before	_	_	_	_	_	_	
+22-24	1913-1914	.	_	_	_	_	_	_	
+
+#Text=" Surely , " said I , " surely that is something at my window lattice ;
+23-1	1915-1916	"	_	_	_	_	_	_	
+23-2	1917-1923	Surely	_	_	_	_	_	_	
+23-3	1924-1925	,	_	_	_	_	_	_	
+23-4	1926-1927	"	_	_	_	_	_	_	
+23-5	1928-1932	said	_	_	_	_	_	_	
+23-6	1933-1934	I	person[104]	giv[104]	nonsal[104]	_	coref	23-14[108_104]	
+23-7	1935-1936	,	_	_	_	_	_	_	
+23-8	1937-1938	"	_	_	_	_	_	_	
+23-9	1939-1945	surely	_	_	_	_	_	_	
+23-10	1946-1950	that	object[105]	giv[105]	nonsal[105]	_	coref	23-12[106_105]	
+23-11	1951-1953	is	_	_	_	_	_	_	
+23-12	1954-1963	something	object[106]	giv[106]	nonsal[106]	_	_	_	
+23-13	1964-1966	at	object[106]	giv[106]	nonsal[106]	_	_	_	
+23-14	1967-1969	my	object[106]|place[107]|person[108]	giv[106]|new[107]|giv[108]	nonsal[106]|nonsal[107]|nonsal[108]	_	coref	24-2[109_108]	
+23-15	1970-1976	window	object[106]|place[107]	giv[106]|new[107]	nonsal[106]|nonsal[107]	_	_	_	
+23-16	1977-1984	lattice	object[106]|place[107]	giv[106]|new[107]	nonsal[106]|nonsal[107]	_	_	_	
+23-17	1985-1986	;	_	_	_	_	_	_	
+
+#Text=Let me see , then , what thereat is and this mystery explore —
+24-1	1987-1990	Let	_	_	_	_	_	_	
+24-2	1991-1993	me	person[109]	giv[109]	nonsal[109]	_	coref	25-2[112_109]	
+24-3	1994-1997	see	_	_	_	_	_	_	
+24-4	1998-1999	,	_	_	_	_	_	_	
+24-5	2000-2004	then	_	_	_	_	_	_	
+24-6	2005-2006	,	_	_	_	_	_	_	
+24-7	2007-2011	what	_	_	_	_	_	_	
+24-8	2012-2019	thereat	_	_	_	_	_	_	
+24-9	2020-2022	is	_	_	_	_	_	_	
+24-10	2023-2026	and	_	_	_	_	_	_	
+24-11	2027-2031	this	abstract[110]	new[110]	nonsal[110]	_	coref	25-9[114_110]	
+24-12	2032-2039	mystery	abstract[110]	new[110]	nonsal[110]	_	_	_	
+24-13	2040-2047	explore	_	_	_	_	_	_	
+24-14	2048-2049	—	_	_	_	_	_	_	
+
+#Text=Let my heart be still a moment and this mystery explore ; —
+25-1	2050-2053	Let	_	_	_	_	_	_	
+25-2	2054-2056	my	object[111]|person[112]	giv[111]|giv[112]	nonsal[111]|nonsal[112]	_	coref|coref	75-6[336_111]|27-3[117_112]	
+25-3	2057-2062	heart	object[111]	giv[111]	nonsal[111]	_	_	_	
+25-4	2063-2065	be	_	_	_	_	_	_	
+25-5	2066-2071	still	_	_	_	_	_	_	
+25-6	2072-2073	a	time[113]	new[113]	nonsal[113]	_	_	_	
+25-7	2074-2080	moment	time[113]	new[113]	nonsal[113]	_	_	_	
+25-8	2081-2084	and	_	_	_	_	_	_	
+25-9	2085-2089	this	abstract[114]	giv[114]	nonsal[114]	_	_	_	
+25-10	2090-2097	mystery	abstract[114]	giv[114]	nonsal[114]	_	_	_	
+25-11	2098-2105	explore	_	_	_	_	_	_	
+25-12	2106-2107	;	_	_	_	_	_	_	
+25-13	2108-2109	—	_	_	_	_	_	_	
+
+#Text='Tis the wind and nothing more . "
+26-1	2110-2114	'Tis	_	_	_	_	_	_	
+26-2	2115-2118	the	abstract[115]	new[115]	nonsal[115]	_	_	_	
+26-3	2119-2123	wind	abstract[115]	new[115]	nonsal[115]	_	_	_	
+26-4	2124-2127	and	_	_	_	_	_	_	
+26-5	2128-2135	nothing	abstract[116]	giv[116]	nonsal[116]	_	_	_	
+26-6	2136-2140	more	abstract[116]	giv[116]	nonsal[116]	_	_	_	
+26-7	2141-2142	.	_	_	_	_	_	_	
+26-8	2143-2144	"	_	_	_	_	_	_	
+
+#Text=Open here I flung the shutter , when , with many a flirt and flutter , In there stepped a stately Raven of the saintly days of yore .
+27-1	2145-2149	Open	_	_	_	_	_	_	
+27-2	2150-2154	here	_	_	_	_	_	_	
+27-3	2155-2156	I	person[117]	giv[117]	nonsal[117]	_	coref	30-12[129_117]	
+27-4	2157-2162	flung	_	_	_	_	_	_	
+27-5	2163-2166	the	object[118]	new[118]	nonsal[118]	_	_	_	
+27-6	2167-2174	shutter	object[118]	new[118]	nonsal[118]	_	_	_	
+27-7	2175-2176	,	_	_	_	_	_	_	
+27-8	2177-2181	when	_	_	_	_	_	_	
+27-9	2182-2183	,	_	_	_	_	_	_	
+27-10	2184-2188	with	_	_	_	_	_	_	
+27-11	2189-2193	many	event[119]	new[119]	nonsal[119]	_	_	_	
+27-12	2194-2195	a	event[119]	new[119]	nonsal[119]	_	_	_	
+27-13	2196-2201	flirt	event[119]	new[119]	nonsal[119]	_	_	_	
+27-14	2202-2205	and	event[119]	new[119]	nonsal[119]	_	_	_	
+27-15	2206-2213	flutter	event[119]	new[119]	nonsal[119]	_	_	_	
+27-16	2214-2215	,	_	_	_	_	_	_	
+27-17	2216-2218	In	_	_	_	_	_	_	
+27-18	2219-2224	there	_	_	_	_	_	_	
+27-19	2225-2232	stepped	_	_	_	_	_	_	
+27-20	2233-2234	a	animal[120]	new[120]	nonsal[120]	_	coref	28-6[123_120]	
+27-21	2235-2242	stately	animal[120]	new[120]	nonsal[120]	_	_	_	
+27-22	2243-2248	Raven	animal[120]	new[120]	nonsal[120]	_	_	_	
+27-23	2249-2251	of	animal[120]	new[120]	nonsal[120]	_	_	_	
+27-24	2252-2255	the	animal[120]|time[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	_	_	
+27-25	2256-2263	saintly	animal[120]|time[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	_	_	
+27-26	2264-2268	days	animal[120]|time[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	_	_	
+27-27	2269-2271	of	animal[120]|time[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	_	_	
+27-28	2272-2276	yore	animal[120]|time[121]	new[120]|new[121]	nonsal[120]|nonsal[121]	_	_	_	
+27-29	2277-2278	.	_	_	_	_	_	_	
+
+#Text=Not the least obeisance made he ;
+28-1	2279-2282	Not	_	_	_	_	_	_	
+28-2	2283-2286	the	abstract[122]	new[122]	nonsal[122]	_	_	_	
+28-3	2287-2292	least	abstract[122]	new[122]	nonsal[122]	_	_	_	
+28-4	2293-2302	obeisance	abstract[122]	new[122]	nonsal[122]	_	_	_	
+28-5	2303-2307	made	_	_	_	_	_	_	
+28-6	2308-2310	he	animal[123]	giv[123]	nonsal[123]	_	coref	29-7[125_123]	
+28-7	2311-2312	;	_	_	_	_	_	_	
+
+#Text=not a minute stopped or stayed he ;
+29-1	2313-2316	not	_	_	_	_	_	_	
+29-2	2317-2318	a	time[124]	new[124]	nonsal[124]	_	_	_	
+29-3	2319-2325	minute	time[124]	new[124]	nonsal[124]	_	_	_	
+29-4	2326-2333	stopped	_	_	_	_	_	_	
+29-5	2334-2336	or	_	_	_	_	_	_	
+29-6	2337-2343	stayed	_	_	_	_	_	_	
+29-7	2344-2346	he	animal[125]	giv[125]	nonsal[125]	_	coref	32-2[134_125]	
+29-8	2347-2348	;	_	_	_	_	_	_	
+
+#Text=But , with mien of lord or lady , perched above my chamber door — Perched upon a bust of Pallas just above my chamber door —
+30-1	2349-2352	But	_	_	_	_	_	_	
+30-2	2353-2354	,	_	_	_	_	_	_	
+30-3	2355-2359	with	_	_	_	_	_	_	
+30-4	2360-2364	mien	abstract[126]	new[126]	nonsal[126]	_	_	_	
+30-5	2365-2367	of	abstract[126]	new[126]	nonsal[126]	_	_	_	
+30-6	2368-2372	lord	abstract[126]|person[127]	new[126]|new[127]	nonsal[126]|nonsal[127]	_	_	_	
+30-7	2373-2375	or	abstract[126]|person[127]	new[126]|new[127]	nonsal[126]|nonsal[127]	_	_	_	
+30-8	2376-2380	lady	abstract[126]|person[127]	new[126]|new[127]	nonsal[126]|nonsal[127]	_	_	_	
+30-9	2381-2382	,	_	_	_	_	_	_	
+30-10	2383-2390	perched	_	_	_	_	_	_	
+30-11	2391-2396	above	_	_	_	_	_	_	
+30-12	2397-2399	my	object[128]|person[129]	giv[128]|giv[129]	nonsal[128]|nonsal[129]	_	coref|coref	30-24[132_128]|30-24[133_129]	
+30-13	2400-2407	chamber	object[128]	giv[128]	nonsal[128]	_	_	_	
+30-14	2408-2412	door	object[128]	giv[128]	nonsal[128]	_	_	_	
+30-15	2413-2414	—	_	_	_	_	_	_	
+30-16	2415-2422	Perched	_	_	_	_	_	_	
+30-17	2423-2427	upon	_	_	_	_	_	_	
+30-18	2428-2429	a	object[130]	new[130]	nonsal[130]	_	coref	38-8[172_130]	
+30-19	2430-2434	bust	object[130]	new[130]	nonsal[130]	_	_	_	
+30-20	2435-2437	of	object[130]	new[130]	nonsal[130]	_	_	_	
+30-21	2438-2444	Pallas	object[130]|person[131]	new[130]|new[131]	nonsal[130]|nonsal[131]	Athena[131]	coref	77-20[346_131]	
+30-22	2445-2449	just	_	_	_	_	_	_	
+30-23	2450-2455	above	_	_	_	_	_	_	
+30-24	2456-2458	my	object[132]|person[133]	giv[132]|giv[133]	nonsal[132]|nonsal[133]	_	coref|coref	48-26[214_132]|32-6[136_133]	
+30-25	2459-2466	chamber	object[132]	giv[132]	nonsal[132]	_	_	_	
+30-26	2467-2471	door	object[132]	giv[132]	nonsal[132]	_	_	_	
+30-27	2472-2473	—	_	_	_	_	_	_	
+
+#Text=Perched , and sat , and nothing more .
+31-1	2474-2481	Perched	_	_	_	_	_	_	
+31-2	2482-2483	,	_	_	_	_	_	_	
+31-3	2484-2487	and	_	_	_	_	_	_	
+31-4	2488-2491	sat	_	_	_	_	_	_	
+31-5	2492-2493	,	_	_	_	_	_	_	
+31-6	2494-2497	and	_	_	_	_	_	_	
+31-7	2498-2505	nothing	_	_	_	_	_	_	
+31-8	2506-2510	more	_	_	_	_	_	_	
+31-9	2511-2512	.	_	_	_	_	_	_	
+
+#Text=Then this ebony bird beguiling my sad fancy into smiling , By the grave and stern decorum of the countenance it wore , " Though thy crest be shorn and shaven , thou , " I said , " art sure no craven , Ghastly grim and ancient Raven wandering from the Nightly shore —
+32-1	2513-2517	Then	_	_	_	_	_	_	
+32-2	2518-2522	this	animal[134]	new[134]	nonsal[134]	_	coref	32-21[139_134]	
+32-3	2523-2528	ebony	animal[134]	new[134]	nonsal[134]	_	_	_	
+32-4	2529-2533	bird	animal[134]	new[134]	nonsal[134]	_	_	_	
+32-5	2534-2543	beguiling	_	_	_	_	_	_	
+32-6	2544-2546	my	abstract[135]|person[136]	new[135]|giv[136]	nonsal[135]|nonsal[136]	_	coref	32-36[143_136]	
+32-7	2547-2550	sad	abstract[135]	new[135]	nonsal[135]	_	_	_	
+32-8	2551-2556	fancy	abstract[135]	new[135]	nonsal[135]	_	_	_	
+32-9	2557-2561	into	_	_	_	_	_	_	
+32-10	2562-2569	smiling	_	_	_	_	_	_	
+32-11	2570-2571	,	_	_	_	_	_	_	
+32-12	2572-2574	By	_	_	_	_	_	_	
+32-13	2575-2578	the	abstract[137]	giv[137]	nonsal[137]	_	_	_	
+32-14	2579-2584	grave	abstract[137]	giv[137]	nonsal[137]	_	_	_	
+32-15	2585-2588	and	abstract[137]	giv[137]	nonsal[137]	_	_	_	
+32-16	2589-2594	stern	abstract[137]	giv[137]	nonsal[137]	_	_	_	
+32-17	2595-2602	decorum	abstract[137]	giv[137]	nonsal[137]	_	_	_	
+32-18	2603-2605	of	abstract[137]	giv[137]	nonsal[137]	_	_	_	
+32-19	2606-2609	the	abstract[137]|abstract[138]	giv[137]|new[138]	nonsal[137]|nonsal[138]	_	_	_	
+32-20	2610-2621	countenance	abstract[137]|abstract[138]	giv[137]|new[138]	nonsal[137]|nonsal[138]	_	_	_	
+32-21	2622-2624	it	abstract[137]|abstract[138]|animal[139]	giv[137]|new[138]|giv[139]	nonsal[137]|nonsal[138]|nonsal[139]	_	coref	32-26[141_139]	
+32-22	2625-2629	wore	abstract[137]|abstract[138]	giv[137]|new[138]	nonsal[137]|nonsal[138]	_	_	_	
+32-23	2630-2631	,	_	_	_	_	_	_	
+32-24	2632-2633	"	_	_	_	_	_	_	
+32-25	2634-2640	Though	_	_	_	_	_	_	
+32-26	2641-2644	thy	object[140]|animal[141]	new[140]|giv[141]	nonsal[140]|nonsal[141]	_	coref	32-33[142_141]	
+32-27	2645-2650	crest	object[140]	new[140]	nonsal[140]	_	_	_	
+32-28	2651-2653	be	_	_	_	_	_	_	
+32-29	2654-2659	shorn	_	_	_	_	_	_	
+32-30	2660-2663	and	_	_	_	_	_	_	
+32-31	2664-2670	shaven	_	_	_	_	_	_	
+32-32	2671-2672	,	_	_	_	_	_	_	
+32-33	2673-2677	thou	animal[142]	giv[142]	nonsal[142]	_	coref	32-42[144_142]	
+32-34	2678-2679	,	_	_	_	_	_	_	
+32-35	2680-2681	"	_	_	_	_	_	_	
+32-36	2682-2683	I	person[143]	giv[143]	nonsal[143]	_	coref	33-2[147_143]	
+32-37	2684-2688	said	_	_	_	_	_	_	
+32-38	2689-2690	,	_	_	_	_	_	_	
+32-39	2691-2692	"	_	_	_	_	_	_	
+32-40	2693-2696	art	_	_	_	_	_	_	
+32-41	2697-2701	sure	_	_	_	_	_	_	
+32-42	2702-2704	no	animal[144]	new[144]	nonsal[144]	_	coref	32-45[145_144]	
+32-43	2705-2711	craven	animal[144]	new[144]	nonsal[144]	_	_	_	
+32-44	2712-2713	,	_	_	_	_	_	_	
+32-45	2714-2721	Ghastly	animal[145]	new[145]	nonsal[145]	_	coref	33-4[149_145]	
+32-46	2722-2726	grim	animal[145]	new[145]	nonsal[145]	_	_	_	
+32-47	2727-2730	and	animal[145]	new[145]	nonsal[145]	_	_	_	
+32-48	2731-2738	ancient	animal[145]	new[145]	nonsal[145]	_	_	_	
+32-49	2739-2744	Raven	animal[145]	new[145]	nonsal[145]	_	_	_	
+32-50	2745-2754	wandering	_	_	_	_	_	_	
+32-51	2755-2759	from	_	_	_	_	_	_	
+32-52	2760-2763	the	place[146]	new[146]	nonsal[146]	_	coref	33-9[150_146]	
+32-53	2764-2771	Nightly	place[146]	new[146]	nonsal[146]	_	_	_	
+32-54	2772-2777	shore	place[146]	new[146]	nonsal[146]	_	_	_	
+32-55	2778-2779	—	_	_	_	_	_	_	
+
+#Text=Tell me what thy lordly name is on the Night 's Plutonian shore ! "
+33-1	2780-2784	Tell	_	_	_	_	_	_	
+33-2	2785-2787	me	person[147]	giv[147]	nonsal[147]	_	coref	35-2[153_147]	
+33-3	2788-2792	what	_	_	_	_	_	_	
+33-4	2793-2796	thy	abstract[148]|animal[149]	new[148]|giv[149]	nonsal[148]|nonsal[149]	_	coref|coref	37-37[169_148]|34-2[151_149]	
+33-5	2797-2803	lordly	abstract[148]	new[148]	nonsal[148]	_	_	_	
+33-6	2804-2808	name	abstract[148]	new[148]	nonsal[148]	_	_	_	
+33-7	2809-2811	is	_	_	_	_	_	_	
+33-8	2812-2814	on	_	_	_	_	_	_	
+33-9	2815-2818	the	place[150]	giv[150]	nonsal[150]	_	coref	71-9[323_150]	
+33-10	2819-2824	Night	place[150]	giv[150]	nonsal[150]	_	_	_	
+33-11	2825-2827	's	place[150]	giv[150]	nonsal[150]	_	_	_	
+33-12	2828-2837	Plutonian	place[150]	giv[150]	nonsal[150]	_	_	_	
+33-13	2838-2843	shore	place[150]	giv[150]	nonsal[150]	_	_	_	
+33-14	2844-2845	!	_	_	_	_	_	_	
+33-15	2846-2847	"	_	_	_	_	_	_	
+
+#Text=Quoth the Raven , " Nevermore . "
+34-1	2848-2853	Quoth	_	_	_	_	_	_	
+34-2	2854-2857	the	animal[151]	new[151]	nonsal[151]	_	coref	35-4[154_151]	
+34-3	2858-2863	Raven	animal[151]	new[151]	nonsal[151]	_	_	_	
+34-4	2864-2865	,	_	_	_	_	_	_	
+34-5	2866-2867	"	_	_	_	_	_	_	
+34-6	2868-2877	Nevermore	abstract[152]	new[152]	nonsal[152]	_	coref	37-41[170_152]	
+34-7	2878-2879	.	_	_	_	_	_	_	
+34-8	2880-2881	"	_	_	_	_	_	_	
+
+#Text=Much I marvelled this ungainly fowl to hear discourse so plainly ,
+35-1	2882-2886	Much	_	_	_	_	_	_	
+35-2	2887-2888	I	person[153]	giv[153]	nonsal[153]	_	coref	41-2[182_153]	
+35-3	2889-2898	marvelled	_	_	_	_	_	_	
+35-4	2899-2903	this	animal[154]	new[154]	nonsal[154]	_	coref	36-2[156_154]	
+35-5	2904-2912	ungainly	animal[154]	new[154]	nonsal[154]	_	_	_	
+35-6	2913-2917	fowl	animal[154]	new[154]	nonsal[154]	_	_	_	
+35-7	2918-2920	to	_	_	_	_	_	_	
+35-8	2921-2925	hear	_	_	_	_	_	_	
+35-9	2926-2935	discourse	_	_	_	_	_	_	
+35-10	2936-2938	so	_	_	_	_	_	_	
+35-11	2939-2946	plainly	_	_	_	_	_	_	
+35-12	2947-2948	,	_	_	_	_	_	_	
+
+#Text=Though its answer little meaning — little relevancy bore ;
+36-1	2949-2955	Though	_	_	_	_	_	_	
+36-2	2956-2959	its	abstract[155]|animal[156]	new[155]|giv[156]	nonsal[155]|nonsal[156]	_	coref	37-18[161_156]	
+36-3	2960-2966	answer	abstract[155]	new[155]	nonsal[155]	_	_	_	
+36-4	2967-2973	little	abstract[157]	new[157]	nonsal[157]	_	_	_	
+36-5	2974-2981	meaning	abstract[157]	new[157]	nonsal[157]	_	_	_	
+36-6	2982-2983	—	_	_	_	_	_	_	
+36-7	2984-2990	little	abstract[158]	new[158]	nonsal[158]	_	_	_	
+36-8	2991-3000	relevancy	abstract[158]	new[158]	nonsal[158]	_	_	_	
+36-9	3001-3005	bore	_	_	_	_	_	_	
+36-10	3006-3007	;	_	_	_	_	_	_	
+
+#Text=For we can not help agreeing that no living human being Ever yet was blessed with seeing bird above his chamber door — Bird or beast upon the sculptured bust above his chamber door , With such name as " Nevermore . "
+37-1	3008-3011	For	_	_	_	_	_	_	
+37-2	3012-3014	we	person[159]	acc[159]	nonsal[159]	_	_	_	
+37-3	3015-3018	can	_	_	_	_	_	_	
+37-4	3019-3022	not	_	_	_	_	_	_	
+37-5	3023-3027	help	_	_	_	_	_	_	
+37-6	3028-3036	agreeing	_	_	_	_	_	_	
+37-7	3037-3041	that	_	_	_	_	_	_	
+37-8	3042-3044	no	person[160]	new[160]	nonsal[160]	_	coref	37-20[163_160]	
+37-9	3045-3051	living	person[160]	new[160]	nonsal[160]	_	_	_	
+37-10	3052-3057	human	person[160]	new[160]	nonsal[160]	_	_	_	
+37-11	3058-3063	being	person[160]	new[160]	nonsal[160]	_	_	_	
+37-12	3064-3068	Ever	_	_	_	_	_	_	
+37-13	3069-3072	yet	_	_	_	_	_	_	
+37-14	3073-3076	was	_	_	_	_	_	_	
+37-15	3077-3084	blessed	_	_	_	_	_	_	
+37-16	3085-3089	with	_	_	_	_	_	_	
+37-17	3090-3096	seeing	_	_	_	_	_	_	
+37-18	3097-3101	bird	animal[161]	giv[161]	nonsal[161]	_	coref	38-2[171_161]	
+37-19	3102-3107	above	_	_	_	_	_	_	
+37-20	3108-3111	his	object[162]|person[163]	giv[162]|giv[163]	nonsal[162]|nonsal[163]	_	coref|coref	37-32[167_162]|37-32[168_163]	
+37-21	3112-3119	chamber	object[162]	giv[162]	nonsal[162]	_	_	_	
+37-22	3120-3124	door	object[162]	giv[162]	nonsal[162]	_	_	_	
+37-23	3125-3126	—	_	_	_	_	_	_	
+37-24	3127-3131	Bird	animal[164]	giv[164]	nonsal[164]	_	_	_	
+37-25	3132-3134	or	_	_	_	_	_	_	
+37-26	3135-3140	beast	animal[165]	new[165]	nonsal[165]	_	_	_	
+37-27	3141-3145	upon	_	_	_	_	_	_	
+37-28	3146-3149	the	object[166]	giv[166]	nonsal[166]	_	_	_	
+37-29	3150-3160	sculptured	object[166]	giv[166]	nonsal[166]	_	_	_	
+37-30	3161-3165	bust	object[166]	giv[166]	nonsal[166]	_	_	_	
+37-31	3166-3171	above	object[166]	giv[166]	nonsal[166]	_	_	_	
+37-32	3172-3175	his	object[166]|object[167]|person[168]	giv[166]|giv[167]|giv[168]	nonsal[166]|nonsal[167]|nonsal[168]	_	_	_	
+37-33	3176-3183	chamber	object[166]|object[167]	giv[166]|giv[167]	nonsal[166]|nonsal[167]	_	_	_	
+37-34	3184-3188	door	object[166]|object[167]	giv[166]|giv[167]	nonsal[166]|nonsal[167]	_	_	_	
+37-35	3189-3190	,	_	_	_	_	_	_	
+37-36	3191-3195	With	_	_	_	_	_	_	
+37-37	3196-3200	such	abstract[169]	giv[169]	nonsal[169]	_	_	_	
+37-38	3201-3205	name	abstract[169]	giv[169]	nonsal[169]	_	_	_	
+37-39	3206-3208	as	abstract[169]	giv[169]	nonsal[169]	_	_	_	
+37-40	3209-3210	"	abstract[169]	giv[169]	nonsal[169]	_	_	_	
+37-41	3211-3220	Nevermore	abstract[169]|abstract[170]	giv[169]|giv[170]	nonsal[169]|nonsal[170]	_	coref	38-14[173_170]	
+37-42	3221-3222	.	abstract[169]	giv[169]	nonsal[169]	_	_	_	
+37-43	3223-3224	"	abstract[169]	giv[169]	nonsal[169]	_	_	_	
+
+#Text=But the Raven , sitting lonely on that placid bust , spoke only That one word , as if his soul in that one word he did outpour .
+38-1	3225-3228	But	_	_	_	_	_	_	
+38-2	3229-3232	the	animal[171]	new[171]	nonsal[171]	_	coref	38-20[175_171]	
+38-3	3233-3238	Raven	animal[171]	new[171]	nonsal[171]	_	_	_	
+38-4	3239-3240	,	_	_	_	_	_	_	
+38-5	3241-3248	sitting	_	_	_	_	_	_	
+38-6	3249-3255	lonely	_	_	_	_	_	_	
+38-7	3256-3258	on	_	_	_	_	_	_	
+38-8	3259-3263	that	object[172]	giv[172]	nonsal[172]	_	coref	48-24[213_172]	
+38-9	3264-3270	placid	object[172]	giv[172]	nonsal[172]	_	_	_	
+38-10	3271-3275	bust	object[172]	giv[172]	nonsal[172]	_	_	_	
+38-11	3276-3277	,	_	_	_	_	_	_	
+38-12	3278-3283	spoke	_	_	_	_	_	_	
+38-13	3284-3288	only	_	_	_	_	_	_	
+38-14	3289-3293	That	abstract[173]	new[173]	nonsal[173]	_	coref	38-23[176_173]	
+38-15	3294-3297	one	abstract[173]	new[173]	nonsal[173]	_	_	_	
+38-16	3298-3302	word	abstract[173]	new[173]	nonsal[173]	_	_	_	
+38-17	3303-3304	,	_	_	_	_	_	_	
+38-18	3305-3307	as	_	_	_	_	_	_	
+38-19	3308-3310	if	_	_	_	_	_	_	
+38-20	3311-3314	his	abstract[174]|animal[175]	giv[174]|giv[175]	nonsal[174]|nonsal[175]	_	coref	38-26[177_175]	
+38-21	3315-3319	soul	abstract[174]	giv[174]	nonsal[174]	_	_	_	
+38-22	3320-3322	in	_	_	_	_	_	_	
+38-23	3323-3327	that	abstract[176]	giv[176]	nonsal[176]	_	coref	44-6[190_176]	
+38-24	3328-3331	one	abstract[176]	giv[176]	nonsal[176]	_	_	_	
+38-25	3332-3336	word	abstract[176]	giv[176]	nonsal[176]	_	_	_	
+38-26	3337-3339	he	animal[177]	giv[177]	nonsal[177]	_	coref	39-4[179_177]	
+38-27	3340-3343	did	_	_	_	_	_	_	
+38-28	3344-3351	outpour	_	_	_	_	_	_	
+38-29	3352-3353	.	_	_	_	_	_	_	
+
+#Text=Nothing farther then he uttered ;
+39-1	3354-3361	Nothing	abstract[178]	new[178]	nonsal[178]	_	_	_	
+39-2	3362-3369	farther	abstract[178]	new[178]	nonsal[178]	_	_	_	
+39-3	3370-3374	then	_	_	_	_	_	_	
+39-4	3375-3377	he	animal[179]	giv[179]	nonsal[179]	_	coref	40-5[181_179]	
+39-5	3378-3385	uttered	_	_	_	_	_	_	
+39-6	3386-3387	;	_	_	_	_	_	_	
+
+#Text=not a feather then he fluttered —
+40-1	3388-3391	not	_	_	_	_	_	_	
+40-2	3392-3393	a	object[180]	new[180]	nonsal[180]	_	_	_	
+40-3	3394-3401	feather	object[180]	new[180]	nonsal[180]	_	_	_	
+40-4	3402-3406	then	_	_	_	_	_	_	
+40-5	3407-3409	he	animal[181]	giv[181]	nonsal[181]	_	coref	43-4[185_181]	
+40-6	3410-3419	fluttered	_	_	_	_	_	_	
+40-7	3420-3421	—	_	_	_	_	_	_	
+
+#Text=Till I scarcely more than muttered
+41-1	3422-3426	Till	_	_	_	_	_	_	
+41-2	3427-3428	I	person[182]	giv[182]	nonsal[182]	_	coref	43-7[186_182]	
+41-3	3429-3437	scarcely	_	_	_	_	_	_	
+41-4	3438-3442	more	_	_	_	_	_	_	
+41-5	3443-3447	than	_	_	_	_	_	_	
+41-6	3448-3456	muttered	_	_	_	_	_	_	
+
+#Text=" Other friends have flown before —
+42-1	3457-3458	"	_	_	_	_	_	_	
+42-2	3459-3464	Other	person[183]	new[183]	nonsal[183]	_	_	_	
+42-3	3465-3472	friends	person[183]	new[183]	nonsal[183]	_	_	_	
+42-4	3473-3477	have	_	_	_	_	_	_	
+42-5	3478-3483	flown	_	_	_	_	_	_	
+42-6	3484-3490	before	_	_	_	_	_	_	
+42-7	3491-3492	—	_	_	_	_	_	_	
+
+#Text=On the morrow he will leave me , as my Hopes have flown before . "
+43-1	3493-3495	On	_	_	_	_	_	_	
+43-2	3496-3499	the	time[184]	new[184]	nonsal[184]	_	_	_	
+43-3	3500-3506	morrow	time[184]	new[184]	nonsal[184]	_	_	_	
+43-4	3507-3509	he	animal[185]	giv[185]	nonsal[185]	_	coref	44-2[189_185]	
+43-5	3510-3514	will	_	_	_	_	_	_	
+43-6	3515-3520	leave	_	_	_	_	_	_	
+43-7	3521-3523	me	person[186]	giv[186]	nonsal[186]	_	coref	43-10[188_186]	
+43-8	3524-3525	,	_	_	_	_	_	_	
+43-9	3526-3528	as	_	_	_	_	_	_	
+43-10	3529-3531	my	abstract[187]|person[188]	new[187]|giv[188]	nonsal[187]|nonsal[188]	_	coref	45-17[193_188]	
+43-11	3532-3537	Hopes	abstract[187]	new[187]	nonsal[187]	_	_	_	
+43-12	3538-3542	have	_	_	_	_	_	_	
+43-13	3543-3548	flown	_	_	_	_	_	_	
+43-14	3549-3555	before	_	_	_	_	_	_	
+43-15	3556-3557	.	_	_	_	_	_	_	
+43-16	3558-3559	"	_	_	_	_	_	_	
+
+#Text=Then the bird said " Nevermore . "
+44-1	3560-3564	Then	_	_	_	_	_	_	
+44-2	3565-3568	the	animal[189]	giv[189]	nonsal[189]	_	coref	45-21[194_189]	
+44-3	3569-3573	bird	animal[189]	giv[189]	nonsal[189]	_	_	_	
+44-4	3574-3578	said	_	_	_	_	_	_	
+44-5	3579-3580	"	_	_	_	_	_	_	
+44-6	3581-3590	Nevermore	abstract[190]	giv[190]	nonsal[190]	_	coref	49-44[225_190]	
+44-7	3591-3592	.	_	_	_	_	_	_	
+44-8	3593-3594	"	_	_	_	_	_	_	
+
+#Text=Startled at the stillness broken by reply so aptly spoken , " Doubtless , " said I , " what it utters is its only stock and store
+45-1	3595-3603	Startled	_	_	_	_	_	_	
+45-2	3604-3606	at	_	_	_	_	_	_	
+45-3	3607-3610	the	abstract[191]	new[191]	nonsal[191]	_	_	_	
+45-4	3611-3620	stillness	abstract[191]	new[191]	nonsal[191]	_	_	_	
+45-5	3621-3627	broken	abstract[191]	new[191]	nonsal[191]	_	_	_	
+45-6	3628-3630	by	abstract[191]	new[191]	nonsal[191]	_	_	_	
+45-7	3631-3636	reply	abstract[191]|abstract[192]	new[191]|new[192]	nonsal[191]|nonsal[192]	_	_	_	
+45-8	3637-3639	so	abstract[191]|abstract[192]	new[191]|new[192]	nonsal[191]|nonsal[192]	_	_	_	
+45-9	3640-3645	aptly	abstract[191]|abstract[192]	new[191]|new[192]	nonsal[191]|nonsal[192]	_	_	_	
+45-10	3646-3652	spoken	abstract[191]|abstract[192]	new[191]|new[192]	nonsal[191]|nonsal[192]	_	_	_	
+45-11	3653-3654	,	_	_	_	_	_	_	
+45-12	3655-3656	"	_	_	_	_	_	_	
+45-13	3657-3666	Doubtless	_	_	_	_	_	_	
+45-14	3667-3668	,	_	_	_	_	_	_	
+45-15	3669-3670	"	_	_	_	_	_	_	
+45-16	3671-3675	said	_	_	_	_	_	_	
+45-17	3676-3677	I	person[193]	giv[193]	nonsal[193]	_	coref	48-7[209_193]	
+45-18	3678-3679	,	_	_	_	_	_	_	
+45-19	3680-3681	"	_	_	_	_	_	_	
+45-20	3682-3686	what	_	_	_	_	_	_	
+45-21	3687-3689	it	animal[194]	giv[194]	nonsal[194]	_	coref	45-24[196_194]	
+45-22	3690-3696	utters	_	_	_	_	_	_	
+45-23	3697-3699	is	_	_	_	_	_	_	
+45-24	3700-3703	its	abstract[195]|animal[196]	new[195]|giv[196]	nonsal[195]|nonsal[196]	_	coref	46-15[200_196]	
+45-25	3704-3708	only	abstract[195]	new[195]	nonsal[195]	_	_	_	
+45-26	3709-3714	stock	abstract[195]	new[195]	nonsal[195]	_	_	_	
+45-27	3715-3718	and	abstract[195]	new[195]	nonsal[195]	_	_	_	
+45-28	3719-3724	store	abstract[195]	new[195]	nonsal[195]	_	_	_	
+
+#Text=Caught from some unhappy master whom unmerciful Disaster Followed fast and followed faster till his songs one burden bore —
+46-1	3725-3731	Caught	_	_	_	_	_	_	
+46-2	3732-3736	from	_	_	_	_	_	_	
+46-3	3737-3741	some	person[197]	new[197]	nonsal[197]	_	_	_	
+46-4	3742-3749	unhappy	person[197]	new[197]	nonsal[197]	_	_	_	
+46-5	3750-3756	master	person[197]	new[197]	nonsal[197]	_	_	_	
+46-6	3757-3761	whom	person[197]	new[197]	nonsal[197]	_	_	_	
+46-7	3762-3772	unmerciful	person[197]|event[198]	new[197]|new[198]	nonsal[197]|nonsal[198]	_	_	_	
+46-8	3773-3781	Disaster	person[197]|event[198]	new[197]|new[198]	nonsal[197]|nonsal[198]	_	_	_	
+46-9	3782-3790	Followed	person[197]	new[197]	nonsal[197]	_	_	_	
+46-10	3791-3795	fast	person[197]	new[197]	nonsal[197]	_	_	_	
+46-11	3796-3799	and	person[197]	new[197]	nonsal[197]	_	_	_	
+46-12	3800-3808	followed	person[197]	new[197]	nonsal[197]	_	_	_	
+46-13	3809-3815	faster	person[197]	new[197]	nonsal[197]	_	_	_	
+46-14	3816-3820	till	person[197]	new[197]	nonsal[197]	_	_	_	
+46-15	3821-3824	his	person[197]|abstract[199]|animal[200]	new[197]|new[199]|giv[200]	nonsal[197]|nonsal[199]|nonsal[200]	_	coref	47-5[204_200]	
+46-16	3825-3830	songs	person[197]|abstract[199]	new[197]|new[199]	nonsal[197]|nonsal[199]	_	_	_	
+46-17	3831-3834	one	person[197]|abstract[201]	new[197]|new[201]	nonsal[197]|nonsal[201]	_	coref	47-7[205_201]	
+46-18	3835-3841	burden	person[197]|abstract[201]	new[197]|new[201]	nonsal[197]|nonsal[201]	_	_	_	
+46-19	3842-3846	bore	person[197]	new[197]	nonsal[197]	_	_	_	
+46-20	3847-3848	—	_	_	_	_	_	_	
+
+#Text=Till the dirges of his Hope that melancholy burden bore Of ' Never — nevermore . ' "
+47-1	3849-3853	Till	_	_	_	_	_	_	
+47-2	3854-3857	the	abstract[202]	new[202]	nonsal[202]	_	_	_	
+47-3	3858-3864	dirges	abstract[202]	new[202]	nonsal[202]	_	_	_	
+47-4	3865-3867	of	abstract[202]	new[202]	nonsal[202]	_	_	_	
+47-5	3868-3871	his	abstract[202]|abstract[203]|animal[204]	new[202]|new[203]|giv[204]	nonsal[202]|nonsal[203]|nonsal[204]	_	coref	48-2[207_204]	
+47-6	3872-3876	Hope	abstract[202]|abstract[203]	new[202]|new[203]	nonsal[202]|nonsal[203]	_	_	_	
+47-7	3877-3881	that	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+47-8	3882-3892	melancholy	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+47-9	3893-3899	burden	abstract[205]	giv[205]	nonsal[205]	_	_	_	
+47-10	3900-3904	bore	_	_	_	_	_	_	
+47-11	3905-3907	Of	_	_	_	_	_	_	
+47-12	3908-3909	'	_	_	_	_	_	_	
+47-13	3910-3915	Never	_	_	_	_	_	_	
+47-14	3916-3917	—	_	_	_	_	_	_	
+47-15	3918-3927	nevermore	time[206]	new[206]	nonsal[206]	_	coref	52-19[243_206]	
+47-16	3928-3929	.	_	_	_	_	_	_	
+47-17	3930-3931	'	_	_	_	_	_	_	
+47-18	3932-3933	"	_	_	_	_	_	_	
+
+#Text=But the Raven still beguiling all my sad soul into smiling , Straight I wheeled a cushioned seat in front of bird and bust and door ;
+48-1	3934-3937	But	_	_	_	_	_	_	
+48-2	3938-3941	the	animal[207]	new[207]	nonsal[207]	_	coref	48-22[212_207]	
+48-3	3942-3947	Raven	animal[207]	new[207]	nonsal[207]	_	_	_	
+48-4	3948-3953	still	_	_	_	_	_	_	
+48-5	3954-3963	beguiling	_	_	_	_	_	_	
+48-6	3964-3967	all	abstract[208]	giv[208]	nonsal[208]	_	coref	67-2[303_208]	
+48-7	3968-3970	my	abstract[208]|person[209]	giv[208]|giv[209]	nonsal[208]|nonsal[209]	_	coref	48-14[210_209]	
+48-8	3971-3974	sad	abstract[208]	giv[208]	nonsal[208]	_	_	_	
+48-9	3975-3979	soul	abstract[208]	giv[208]	nonsal[208]	_	_	_	
+48-10	3980-3984	into	_	_	_	_	_	_	
+48-11	3985-3992	smiling	_	_	_	_	_	_	
+48-12	3993-3994	,	_	_	_	_	_	_	
+48-13	3995-4003	Straight	_	_	_	_	_	_	
+48-14	4004-4005	I	person[210]	giv[210]	nonsal[210]	_	coref	49-8[216_210]	
+48-15	4006-4013	wheeled	_	_	_	_	_	_	
+48-16	4014-4015	a	object[211]	new[211]	nonsal[211]	_	coref	49-4[215_211]	
+48-17	4016-4025	cushioned	object[211]	new[211]	nonsal[211]	_	_	_	
+48-18	4026-4030	seat	object[211]	new[211]	nonsal[211]	_	_	_	
+48-19	4031-4033	in	_	_	_	_	_	_	
+48-20	4034-4039	front	_	_	_	_	_	_	
+48-21	4040-4042	of	_	_	_	_	_	_	
+48-22	4043-4047	bird	animal[212]	giv[212]	nonsal[212]	_	coref	49-19[220_212]	
+48-23	4048-4051	and	_	_	_	_	_	_	
+48-24	4052-4056	bust	object[213]	giv[213]	nonsal[213]	_	coref	74-3[331_213]	
+48-25	4057-4060	and	_	_	_	_	_	_	
+48-26	4061-4065	door	object[214]	giv[214]	nonsal[214]	_	coref	74-6[332_214]	
+48-27	4066-4067	;	_	_	_	_	_	_	
+
+#Text=Then , upon the velvet sinking , I betook myself to linking Fancy unto fancy , thinking what this ominous bird of yore — What this grim , ungainly , ghastly , gaunt , and ominous bird of yore Meant in croaking " Nevermore . "
+49-1	4068-4072	Then	_	_	_	_	_	_	
+49-2	4073-4074	,	_	_	_	_	_	_	
+49-3	4075-4079	upon	_	_	_	_	_	_	
+49-4	4080-4083	the	object[215]	new[215]	nonsal[215]	_	coref	51-15[237_215]	
+49-5	4084-4090	velvet	object[215]	new[215]	nonsal[215]	_	_	_	
+49-6	4091-4098	sinking	object[215]	new[215]	nonsal[215]	_	_	_	
+49-7	4099-4100	,	_	_	_	_	_	_	
+49-8	4101-4102	I	person[216]	giv[216]	nonsal[216]	_	coref	49-10[217_216]	
+49-9	4103-4109	betook	_	_	_	_	_	_	
+49-10	4110-4116	myself	person[217]	giv[217]	nonsal[217]	_	coref	50-2[227_217]	
+49-11	4117-4119	to	_	_	_	_	_	_	
+49-12	4120-4127	linking	_	_	_	_	_	_	
+49-13	4128-4133	Fancy	abstract[218]	new[218]	nonsal[218]	_	coref	49-15[219_218]	
+49-14	4134-4138	unto	_	_	_	_	_	_	
+49-15	4139-4144	fancy	abstract[219]	giv[219]	nonsal[219]	_	_	_	
+49-16	4145-4146	,	_	_	_	_	_	_	
+49-17	4147-4155	thinking	_	_	_	_	_	_	
+49-18	4156-4160	what	_	_	_	_	_	_	
+49-19	4161-4165	this	animal[220]	new[220]	nonsal[220]	_	coref	49-26[223_220]	
+49-20	4166-4173	ominous	animal[220]	new[220]	nonsal[220]	_	_	_	
+49-21	4174-4178	bird	animal[220]	new[220]	nonsal[220]	_	_	_	
+49-22	4179-4181	of	animal[220]	new[220]	nonsal[220]	_	_	_	
+49-23	4182-4186	yore	animal[220]|time[221]	new[220]|new[221]	nonsal[220]|nonsal[221]	_	coref	49-39[224_221]	
+49-24	4187-4188	—	_	_	_	_	_	_	
+49-25	4189-4193	What	abstract[222]	new[222]	nonsal[222]	_	coref	50-1[226_222]	
+49-26	4194-4198	this	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	coref	50-13[229_223]	
+49-27	4199-4203	grim	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-28	4204-4205	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-29	4206-4214	ungainly	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-30	4215-4216	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-31	4217-4224	ghastly	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-32	4225-4226	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-33	4227-4232	gaunt	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-34	4233-4234	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-35	4235-4238	and	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-36	4239-4246	ominous	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-37	4247-4251	bird	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-38	4252-4254	of	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-39	4255-4259	yore	abstract[222]|abstract[223]|time[224]	new[222]|giv[223]|giv[224]	nonsal[222]|nonsal[223]|nonsal[224]	_	_	_	
+49-40	4260-4265	Meant	abstract[222]	new[222]	nonsal[222]	_	_	_	
+49-41	4266-4268	in	abstract[222]	new[222]	nonsal[222]	_	_	_	
+49-42	4269-4277	croaking	abstract[222]	new[222]	nonsal[222]	_	_	_	
+49-43	4278-4279	"	abstract[222]	new[222]	nonsal[222]	_	_	_	
+49-44	4280-4289	Nevermore	abstract[222]|abstract[225]	new[222]|giv[225]	nonsal[222]|nonsal[225]	_	coref	56-6[269_225]	
+49-45	4290-4291	.	abstract[222]	new[222]	nonsal[222]	_	_	_	
+49-46	4292-4293	"	abstract[222]	new[222]	nonsal[222]	_	_	_	
+
+#Text=This I sat engaged in guessing , but no syllable expressing To the fowl whose fiery eyes now burned into my bosom 's core ;
+50-1	4294-4298	This	abstract[226]	giv[226]	nonsal[226]	_	_	_	
+50-2	4299-4300	I	person[227]	giv[227]	nonsal[227]	_	coref	50-21[231_227]	
+50-3	4301-4304	sat	_	_	_	_	_	_	
+50-4	4305-4312	engaged	_	_	_	_	_	_	
+50-5	4313-4315	in	_	_	_	_	_	_	
+50-6	4316-4324	guessing	_	_	_	_	_	_	
+50-7	4325-4326	,	_	_	_	_	_	_	
+50-8	4327-4330	but	_	_	_	_	_	_	
+50-9	4331-4333	no	abstract[228]	new[228]	nonsal[228]	_	_	_	
+50-10	4334-4342	syllable	abstract[228]	new[228]	nonsal[228]	_	_	_	
+50-11	4343-4353	expressing	_	_	_	_	_	_	
+50-12	4354-4356	To	_	_	_	_	_	_	
+50-13	4357-4360	the	animal[229]	giv[229]	nonsal[229]	_	coref	54-2[250_229]	
+50-14	4361-4365	fowl	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-15	4366-4371	whose	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-16	4372-4377	fiery	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-17	4378-4382	eyes	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-18	4383-4386	now	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-19	4387-4393	burned	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-20	4394-4398	into	animal[229]	giv[229]	nonsal[229]	_	_	_	
+50-21	4399-4401	my	animal[229]|place[230]|person[231]	giv[229]|new[230]|giv[231]	nonsal[229]|nonsal[230]|nonsal[231]	_	coref	51-4[233_231]	
+50-22	4402-4407	bosom	animal[229]|place[230]	giv[229]|new[230]	nonsal[229]|nonsal[230]	_	_	_	
+50-23	4408-4410	's	animal[229]|place[230]	giv[229]|new[230]	nonsal[229]|nonsal[230]	_	_	_	
+50-24	4411-4415	core	animal[229]|place[230]	giv[229]|new[230]	nonsal[229]|nonsal[230]	_	_	_	
+50-25	4416-4417	;	_	_	_	_	_	_	
+
+#Text=This and more I sat divining , with my head at ease reclining On the cushion 's velvet lining that the lamp - light gloated o'er ,
+51-1	4418-4422	This	abstract[232]	giv[232]	nonsal[232]	_	_	_	
+51-2	4423-4426	and	_	_	_	_	_	_	
+51-3	4427-4431	more	_	_	_	_	_	_	
+51-4	4432-4433	I	person[233]	giv[233]	nonsal[233]	_	coref	51-9[235_233]	
+51-5	4434-4437	sat	_	_	_	_	_	_	
+51-6	4438-4446	divining	_	_	_	_	_	_	
+51-7	4447-4448	,	_	_	_	_	_	_	
+51-8	4449-4453	with	_	_	_	_	_	_	
+51-9	4454-4456	my	object[234]|person[235]	new[234]|giv[235]	nonsal[234]|nonsal[235]	_	coref	53-3[244_235]	
+51-10	4457-4461	head	object[234]	new[234]	nonsal[234]	_	_	_	
+51-11	4462-4464	at	_	_	_	_	_	_	
+51-12	4465-4469	ease	_	_	_	_	_	_	
+51-13	4470-4479	reclining	_	_	_	_	_	_	
+51-14	4480-4482	On	_	_	_	_	_	_	
+51-15	4483-4486	the	object[236]|object[237]	new[236]|new[237]	nonsal[236]|nonsal[237]	_	coref	52-2[240_237]	
+51-16	4487-4494	cushion	object[236]|object[237]	new[236]|new[237]	nonsal[236]|nonsal[237]	_	_	_	
+51-17	4495-4497	's	object[236]|object[237]	new[236]|new[237]	nonsal[236]|nonsal[237]	_	_	_	
+51-18	4498-4504	velvet	object[236]	new[236]	nonsal[236]	_	_	_	
+51-19	4505-4511	lining	object[236]	new[236]	nonsal[236]	_	_	_	
+51-20	4512-4516	that	object[236]	new[236]	nonsal[236]	_	_	_	
+51-21	4517-4520	the	object[236]|abstract[238]	new[236]|new[238]	nonsal[236]|nonsal[238]	_	coref	52-7[241_238]	
+51-22	4521-4525	lamp	object[236]|abstract[238]	new[236]|new[238]	nonsal[236]|nonsal[238]	_	_	_	
+51-23	4526-4527	-	object[236]|abstract[238]	new[236]|new[238]	nonsal[236]|nonsal[238]	_	_	_	
+51-24	4528-4533	light	object[236]|abstract[238]	new[236]|new[238]	nonsal[236]|nonsal[238]	_	_	_	
+51-25	4534-4541	gloated	object[236]	new[236]	nonsal[236]	_	_	_	
+51-26	4542-4546	o'er	object[236]	new[236]	nonsal[236]	_	_	_	
+51-27	4547-4548	,	_	_	_	_	_	_	
+
+#Text=But whose velvet violet lining with the lamp - light gloating o'er She shall press , ah , nevermore !
+52-1	4549-4552	But	_	_	_	_	_	_	
+52-2	4553-4558	whose	object[239]|object[240]	giv[239]|giv[240]	nonsal[239]|nonsal[240]	_	_	_	
+52-3	4559-4565	velvet	object[239]	giv[239]	nonsal[239]	_	_	_	
+52-4	4566-4572	violet	object[239]	giv[239]	nonsal[239]	_	_	_	
+52-5	4573-4579	lining	object[239]	giv[239]	nonsal[239]	_	_	_	
+52-6	4580-4584	with	object[239]	giv[239]	nonsal[239]	_	_	_	
+52-7	4585-4588	the	object[239]|abstract[241]	giv[239]|giv[241]	nonsal[239]|nonsal[241]	_	_	_	
+52-8	4589-4593	lamp	object[239]|abstract[241]	giv[239]|giv[241]	nonsal[239]|nonsal[241]	_	_	_	
+52-9	4594-4595	-	object[239]|abstract[241]	giv[239]|giv[241]	nonsal[239]|nonsal[241]	_	_	_	
+52-10	4596-4601	light	object[239]|abstract[241]	giv[239]|giv[241]	nonsal[239]|nonsal[241]	_	_	_	
+52-11	4602-4610	gloating	object[239]	giv[239]	nonsal[239]	_	_	_	
+52-12	4611-4615	o'er	object[239]	giv[239]	nonsal[239]	_	_	_	
+52-13	4616-4619	She	person[242]	acc[242]	nonsal[242]	_	coref	54-31[264_242]	
+52-14	4620-4625	shall	_	_	_	_	_	_	
+52-15	4626-4631	press	_	_	_	_	_	_	
+52-16	4632-4633	,	_	_	_	_	_	_	
+52-17	4634-4636	ah	_	_	_	_	_	_	
+52-18	4637-4638	,	_	_	_	_	_	_	
+52-19	4639-4648	nevermore	time[243]	giv[243]	nonsal[243]	_	coref	80-18[362_243]	
+52-20	4649-4650	!	_	_	_	_	_	_	
+
+#Text=Then , me thought , the air grew denser , perfumed from an unseen censer Swung by Seraphim whose foot - falls tinkled on the tufted floor .
+53-1	4651-4655	Then	_	_	_	_	_	_	
+53-2	4656-4657	,	_	_	_	_	_	_	
+53-3	4658-4660	me	person[244]	giv[244]	nonsal[244]	_	coref	54-5[251_244]	
+53-4	4661-4668	thought	_	_	_	_	_	_	
+53-5	4669-4670	,	_	_	_	_	_	_	
+53-6	4671-4674	the	substance[245]	new[245]	nonsal[245]	_	_	_	
+53-7	4675-4678	air	substance[245]	new[245]	nonsal[245]	_	_	_	
+53-8	4679-4683	grew	_	_	_	_	_	_	
+53-9	4684-4690	denser	_	_	_	_	_	_	
+53-10	4691-4692	,	_	_	_	_	_	_	
+53-11	4693-4701	perfumed	_	_	_	_	_	_	
+53-12	4702-4706	from	_	_	_	_	_	_	
+53-13	4707-4709	an	object[246]	new[246]	nonsal[246]	_	_	_	
+53-14	4710-4716	unseen	object[246]	new[246]	nonsal[246]	_	_	_	
+53-15	4717-4723	censer	object[246]	new[246]	nonsal[246]	_	_	_	
+53-16	4724-4729	Swung	_	_	_	_	_	_	
+53-17	4730-4732	by	_	_	_	_	_	_	
+53-18	4733-4741	Seraphim	person[247]	new[247]	nonsal[247]	_	coref	54-16[255_247]	
+53-19	4742-4747	whose	person[247]	new[247]	nonsal[247]	_	_	_	
+53-20	4748-4752	foot	person[247]|abstract[248]	new[247]|new[248]	nonsal[247]|nonsal[248]	_	_	_	
+53-21	4753-4754	-	person[247]|abstract[248]	new[247]|new[248]	nonsal[247]|nonsal[248]	_	_	_	
+53-22	4755-4760	falls	person[247]|abstract[248]	new[247]|new[248]	nonsal[247]|nonsal[248]	_	_	_	
+53-23	4761-4768	tinkled	person[247]	new[247]	nonsal[247]	_	_	_	
+53-24	4769-4771	on	person[247]	new[247]	nonsal[247]	_	_	_	
+53-25	4772-4775	the	person[247]|object[249]	new[247]|new[249]	nonsal[247]|nonsal[249]	_	_	_	
+53-26	4776-4782	tufted	person[247]|object[249]	new[247]|new[249]	nonsal[247]|nonsal[249]	_	_	_	
+53-27	4783-4788	floor	person[247]|object[249]	new[247]|new[249]	nonsal[247]|nonsal[249]	_	_	_	
+53-28	4789-4790	.	_	_	_	_	_	_	
+
+#Text=" Wretch , " I cried , " thy God hath lent thee — by these angels he hath sent thee Respite — respite and nepenthe from thy memories of Lenore !
+54-1	4791-4792	"	_	_	_	_	_	_	
+54-2	4793-4799	Wretch	animal[250]	giv[250]	nonsal[250]	_	coref	54-9[253_250]	
+54-3	4800-4801	,	_	_	_	_	_	_	
+54-4	4802-4803	"	_	_	_	_	_	_	
+54-5	4804-4805	I	person[251]	giv[251]	nonsal[251]	_	coref	57-6[271_251]	
+54-6	4806-4811	cried	_	_	_	_	_	_	
+54-7	4812-4813	,	_	_	_	_	_	_	
+54-8	4814-4815	"	_	_	_	_	_	_	
+54-9	4816-4819	thy	person[252]|animal[253]	new[252]|giv[253]	nonsal[252]|nonsal[253]	God[252]	coref|coref	54-18[256_252]|54-13[254_253]	
+54-10	4820-4823	God	person[252]	new[252]	nonsal[252]	God[252]	_	_	
+54-11	4824-4828	hath	_	_	_	_	_	_	
+54-12	4829-4833	lent	_	_	_	_	_	_	
+54-13	4834-4838	thee	animal[254]	giv[254]	nonsal[254]	_	coref	54-21[257_254]	
+54-14	4839-4840	—	_	_	_	_	_	_	
+54-15	4841-4843	by	_	_	_	_	_	_	
+54-16	4844-4849	these	person[255]	new[255]	nonsal[255]	_	coref	67-21[308_255]	
+54-17	4850-4856	angels	person[255]	new[255]	nonsal[255]	_	_	_	
+54-18	4857-4859	he	person[256]	giv[256]	nonsal[256]	_	coref	66-2[301_256]	
+54-19	4860-4864	hath	_	_	_	_	_	_	
+54-20	4865-4869	sent	_	_	_	_	_	_	
+54-21	4870-4874	thee	animal[257]	giv[257]	nonsal[257]	_	coref	54-28[263_257]	
+54-22	4875-4882	Respite	abstract[258]	new[258]	nonsal[258]	_	coref	54-24[260_258]	
+54-23	4883-4884	—	_	_	_	_	_	_	
+54-24	4885-4892	respite	abstract[259]|abstract[260]	new[259]|giv[260]	nonsal[259]|nonsal[260]	_	_	_	
+54-25	4893-4896	and	abstract[259]	new[259]	nonsal[259]	_	_	_	
+54-26	4897-4905	nepenthe	abstract[259]|substance[261]	new[259]|new[261]	nonsal[259]|nonsal[261]	_	coref	55-5[266_261]	
+54-27	4906-4910	from	abstract[259]	new[259]	nonsal[259]	_	_	_	
+54-28	4911-4914	thy	abstract[259]|abstract[262]|animal[263]	new[259]|new[262]|giv[263]	nonsal[259]|nonsal[262]|nonsal[263]	_	coref	56-2[268_263]	
+54-29	4915-4923	memories	abstract[259]|abstract[262]	new[259]|new[262]	nonsal[259]|nonsal[262]	_	_	_	
+54-30	4924-4926	of	abstract[259]|abstract[262]	new[259]|new[262]	nonsal[259]|nonsal[262]	_	_	_	
+54-31	4927-4933	Lenore	abstract[259]|abstract[262]|person[264]	new[259]|new[262]|giv[264]	nonsal[259]|nonsal[262]|nonsal[264]	_	coref	55-10[267_264]	
+54-32	4934-4935	!	_	_	_	_	_	_	
+
+#Text=Quaff , oh quaff this kind nepenthe and forget this lost Lenore ! "
+55-1	4936-4941	Quaff	_	_	_	_	_	_	
+55-2	4942-4943	,	_	_	_	_	_	_	
+55-3	4944-4946	oh	_	_	_	_	_	_	
+55-4	4947-4952	quaff	_	_	_	_	_	_	
+55-5	4953-4957	this	abstract[265]|substance[266]	new[265]|new[266]	nonsal[265]|nonsal[266]	_	_	_	
+55-6	4958-4962	kind	abstract[265]|substance[266]	new[265]|new[266]	nonsal[265]|nonsal[266]	_	_	_	
+55-7	4963-4971	nepenthe	abstract[265]|substance[266]	new[265]|new[266]	nonsal[265]|nonsal[266]	_	_	_	
+55-8	4972-4975	and	abstract[265]	new[265]	nonsal[265]	_	_	_	
+55-9	4976-4982	forget	abstract[265]	new[265]	nonsal[265]	_	_	_	
+55-10	4983-4987	this	abstract[265]|person[267]	new[265]|giv[267]	nonsal[265]|nonsal[267]	_	coref	67-17[307_267]	
+55-11	4988-4992	lost	abstract[265]|person[267]	new[265]|giv[267]	nonsal[265]|nonsal[267]	_	_	_	
+55-12	4993-4999	Lenore	abstract[265]|person[267]	new[265]|giv[267]	nonsal[265]|nonsal[267]	_	_	_	
+55-13	5000-5001	!	_	_	_	_	_	_	
+55-14	5002-5003	"	_	_	_	_	_	_	
+
+#Text=Quoth the Raven , " Nevermore . "
+56-1	5004-5009	Quoth	_	_	_	_	_	_	
+56-2	5010-5013	the	animal[268]	new[268]	nonsal[268]	_	coref	59-9[278_268]	
+56-3	5014-5019	Raven	animal[268]	new[268]	nonsal[268]	_	_	_	
+56-4	5020-5021	,	_	_	_	_	_	_	
+56-5	5022-5023	"	_	_	_	_	_	_	
+56-6	5024-5033	Nevermore	abstract[269]	giv[269]	nonsal[269]	_	coref	62-6[291_269]	
+56-7	5034-5035	.	_	_	_	_	_	_	
+56-8	5036-5037	"	_	_	_	_	_	_	
+
+#Text=" Prophet ! " said I , " thing of evil !
+57-1	5038-5039	"	_	_	_	_	_	_	
+57-2	5040-5047	Prophet	person[270]	new[270]	nonsal[270]	_	coref	58-2[273_270]	
+57-3	5048-5049	!	_	_	_	_	_	_	
+57-4	5050-5051	"	_	_	_	_	_	_	
+57-5	5052-5056	said	_	_	_	_	_	_	
+57-6	5057-5058	I	person[271]	giv[271]	nonsal[271]	_	coref	59-33[283_271]	
+57-7	5059-5060	,	_	_	_	_	_	_	
+57-8	5061-5062	"	_	_	_	_	_	_	
+57-9	5063-5068	thing	_	_	_	_	_	_	
+57-10	5069-5071	of	_	_	_	_	_	_	
+57-11	5072-5076	evil	abstract[272]	new[272]	nonsal[272]	_	coref	63-11[295_272]	
+57-12	5077-5078	!	_	_	_	_	_	_	
+
+#Text=— prophet still , if bird or devil ! —
+58-1	5079-5080	—	_	_	_	_	_	_	
+58-2	5081-5088	prophet	person[273]	giv[273]	nonsal[273]	_	coref	63-2[292_273]	
+58-3	5089-5094	still	_	_	_	_	_	_	
+58-4	5095-5096	,	_	_	_	_	_	_	
+58-5	5097-5099	if	_	_	_	_	_	_	
+58-6	5100-5104	bird	animal[274]	giv[274]	nonsal[274]	_	coref	64-5[297_274]	
+58-7	5105-5107	or	_	_	_	_	_	_	
+58-8	5108-5113	devil	person[275]	new[275]	nonsal[275]	_	coref	64-7[298_275]	
+58-9	5114-5115	!	_	_	_	_	_	_	
+58-10	5116-5117	—	_	_	_	_	_	_	
+
+#Text=Whether Tempter sent , or whether tempest tossed thee here a shore , Desolate yet all undaunted , on this desert land enchanted — On this home by Horror haunted — tell me truly , I implore —
+59-1	5118-5125	Whether	_	_	_	_	_	_	
+59-2	5126-5133	Tempter	abstract[276]	new[276]	nonsal[276]	_	_	_	
+59-3	5134-5138	sent	_	_	_	_	_	_	
+59-4	5139-5140	,	_	_	_	_	_	_	
+59-5	5141-5143	or	_	_	_	_	_	_	
+59-6	5144-5151	whether	_	_	_	_	_	_	
+59-7	5152-5159	tempest	event[277]	new[277]	nonsal[277]	_	coref	71-6[322_277]	
+59-8	5160-5166	tossed	_	_	_	_	_	_	
+59-9	5167-5171	thee	animal[278]	giv[278]	nonsal[278]	_	coref	62-2[290_278]	
+59-10	5172-5176	here	place[279]	new[279]	nonsal[279]	_	coref	59-20[280_279]	
+59-11	5177-5178	a	place[279]	new[279]	nonsal[279]	_	_	_	
+59-12	5179-5184	shore	place[279]	new[279]	nonsal[279]	_	_	_	
+59-13	5185-5186	,	_	_	_	_	_	_	
+59-14	5187-5195	Desolate	_	_	_	_	_	_	
+59-15	5196-5199	yet	_	_	_	_	_	_	
+59-16	5200-5203	all	_	_	_	_	_	_	
+59-17	5204-5213	undaunted	_	_	_	_	_	_	
+59-18	5214-5215	,	_	_	_	_	_	_	
+59-19	5216-5218	on	_	_	_	_	_	_	
+59-20	5219-5223	this	place[280]	new[280]	nonsal[280]	_	_	_	
+59-21	5224-5230	desert	place[280]	new[280]	nonsal[280]	_	_	_	
+59-22	5231-5235	land	place[280]	new[280]	nonsal[280]	_	_	_	
+59-23	5236-5245	enchanted	_	_	_	_	_	_	
+59-24	5246-5247	—	_	_	_	_	_	_	
+59-25	5248-5250	On	_	_	_	_	_	_	
+59-26	5251-5255	this	place[281]	new[281]	nonsal[281]	_	_	_	
+59-27	5256-5260	home	place[281]	new[281]	nonsal[281]	_	_	_	
+59-28	5261-5263	by	place[281]	new[281]	nonsal[281]	_	_	_	
+59-29	5264-5270	Horror	place[281]|abstract[282]	new[281]|new[282]	nonsal[281]|nonsal[282]	_	_	_	
+59-30	5271-5278	haunted	place[281]	new[281]	nonsal[281]	_	_	_	
+59-31	5279-5280	—	_	_	_	_	_	_	
+59-32	5281-5285	tell	_	_	_	_	_	_	
+59-33	5286-5288	me	person[283]	giv[283]	nonsal[283]	_	coref	59-36[284_283]	
+59-34	5289-5294	truly	_	_	_	_	_	_	
+59-35	5295-5296	,	_	_	_	_	_	_	
+59-36	5297-5298	I	person[284]	giv[284]	nonsal[284]	_	coref	61-3[287_284]	
+59-37	5299-5306	implore	_	_	_	_	_	_	
+59-38	5307-5308	—	_	_	_	_	_	_	
+
+#Text=Is there — is there balm in Gilead ?
+60-1	5309-5311	Is	_	_	_	_	_	_	
+60-2	5312-5317	there	_	_	_	_	_	_	
+60-3	5318-5319	—	_	_	_	_	_	_	
+60-4	5320-5322	is	_	_	_	_	_	_	
+60-5	5323-5328	there	_	_	_	_	_	_	
+60-6	5329-5333	balm	substance[285]	new[285]	nonsal[285]	_	_	_	
+60-7	5334-5336	in	_	_	_	_	_	_	
+60-8	5337-5343	Gilead	place[286]	new[286]	nonsal[286]	Gilead[286]	_	_	
+60-9	5344-5345	?	_	_	_	_	_	_	
+
+#Text=— tell me — tell me , I implore ! "
+61-1	5346-5347	—	_	_	_	_	_	_	
+61-2	5348-5352	tell	_	_	_	_	_	_	
+61-3	5353-5355	me	person[287]	giv[287]	nonsal[287]	_	coref	61-6[288_287]	
+61-4	5356-5357	—	_	_	_	_	_	_	
+61-5	5358-5362	tell	_	_	_	_	_	_	
+61-6	5363-5365	me	person[288]	giv[288]	nonsal[288]	_	coref	61-8[289_288]	
+61-7	5366-5367	,	_	_	_	_	_	_	
+61-8	5368-5369	I	person[289]	giv[289]	nonsal[289]	_	coref	63-6[293_289]	
+61-9	5370-5377	implore	_	_	_	_	_	_	
+61-10	5378-5379	!	_	_	_	_	_	_	
+61-11	5380-5381	"	_	_	_	_	_	_	
+
+#Text=Quoth the Raven , " Nevermore . "
+62-1	5382-5387	Quoth	_	_	_	_	_	_	
+62-2	5388-5391	the	animal[290]	new[290]	nonsal[290]	_	coref	69-2[313_290]	
+62-3	5392-5397	Raven	animal[290]	new[290]	nonsal[290]	_	_	_	
+62-4	5398-5399	,	_	_	_	_	_	_	
+62-5	5400-5401	"	_	_	_	_	_	_	
+62-6	5402-5411	Nevermore	abstract[291]	giv[291]	nonsal[291]	_	coref	69-6[314_291]	
+62-7	5412-5413	.	_	_	_	_	_	_	
+62-8	5414-5415	"	_	_	_	_	_	_	
+
+#Text=" Prophet ! " said I , " thing of evil —
+63-1	5416-5417	"	_	_	_	_	_	_	
+63-2	5418-5425	Prophet	person[292]	giv[292]	nonsal[292]	_	coref	64-1[296_292]	
+63-3	5426-5427	!	_	_	_	_	_	_	
+63-4	5428-5429	"	_	_	_	_	_	_	
+63-5	5430-5434	said	_	_	_	_	_	_	
+63-6	5435-5436	I	person[293]	giv[293]	nonsal[293]	_	coref	70-15[320_293]	
+63-7	5437-5438	,	_	_	_	_	_	_	
+63-8	5439-5440	"	_	_	_	_	_	_	
+63-9	5441-5446	thing	abstract[294]	new[294]	nonsal[294]	_	_	_	
+63-10	5447-5449	of	abstract[294]	new[294]	nonsal[294]	_	_	_	
+63-11	5450-5454	evil	abstract[294]|abstract[295]	new[294]|giv[295]	nonsal[294]|nonsal[295]	_	_	_	
+63-12	5455-5456	—	_	_	_	_	_	_	
+
+#Text=prophet still , if bird or devil !
+64-1	5457-5464	prophet	person[296]	giv[296]	nonsal[296]	_	_	_	
+64-2	5465-5470	still	_	_	_	_	_	_	
+64-3	5471-5472	,	_	_	_	_	_	_	
+64-4	5473-5475	if	_	_	_	_	_	_	
+64-5	5476-5480	bird	animal[297]	giv[297]	nonsal[297]	_	coref	70-10[318_297]	
+64-6	5481-5483	or	_	_	_	_	_	_	
+64-7	5484-5489	devil	person[298]	giv[298]	nonsal[298]	_	_	_	
+64-8	5490-5491	!	_	_	_	_	_	_	
+
+#Text=By that Heaven that bends above us —
+65-1	5492-5494	By	_	_	_	_	_	_	
+65-2	5495-5499	that	place[299]	new[299]	nonsal[299]	Heaven[299]	_	_	
+65-3	5500-5506	Heaven	place[299]	new[299]	nonsal[299]	Heaven[299]	_	_	
+65-4	5507-5511	that	place[299]	new[299]	nonsal[299]	Heaven[299]	_	_	
+65-5	5512-5517	bends	place[299]	new[299]	nonsal[299]	Heaven[299]	_	_	
+65-6	5518-5523	above	place[299]	new[299]	nonsal[299]	Heaven[299]	_	_	
+65-7	5524-5526	us	place[299]|person[300]	new[299]|acc[300]	nonsal[299]|nonsal[300]	Heaven[299]	coref	66-4[302_300]	
+65-8	5527-5528	—	_	_	_	_	_	_	
+
+#Text=by that God we both adore —
+66-1	5529-5531	by	_	_	_	_	_	_	
+66-2	5532-5536	that	person[301]	giv[301]	nonsal[301]	God[301]	_	_	
+66-3	5537-5540	God	person[301]	giv[301]	nonsal[301]	God[301]	_	_	
+66-4	5541-5543	we	person[301]|person[302]	giv[301]|giv[302]	nonsal[301]|nonsal[302]	God[301]	coref	70-5[317_302]	
+66-5	5544-5548	both	person[301]|person[302]	giv[301]|giv[302]	nonsal[301]|nonsal[302]	God[301]	_	_	
+66-6	5549-5554	adore	person[301]	giv[301]	nonsal[301]	God[301]	_	_	
+66-7	5555-5556	—	_	_	_	_	_	_	
+
+#Text=Tell this soul with sorrow laden if , within the distant Aidenn , It shall clasp a sainted maiden whom the angels name Lenore —
+67-1	5557-5561	Tell	_	_	_	_	_	_	
+67-2	5562-5566	this	abstract[303]	new[303]	nonsal[303]	_	coref	67-14[306_303]	
+67-3	5567-5571	soul	abstract[303]	new[303]	nonsal[303]	_	_	_	
+67-4	5572-5576	with	_	_	_	_	_	_	
+67-5	5577-5583	sorrow	abstract[304]	new[304]	nonsal[304]	_	_	_	
+67-6	5584-5589	laden	_	_	_	_	_	_	
+67-7	5590-5592	if	_	_	_	_	_	_	
+67-8	5593-5594	,	_	_	_	_	_	_	
+67-9	5595-5601	within	_	_	_	_	_	_	
+67-10	5602-5605	the	place[305]	new[305]	nonsal[305]	Garden_of_Eden[305]	_	_	
+67-11	5606-5613	distant	place[305]	new[305]	nonsal[305]	Garden_of_Eden[305]	_	_	
+67-12	5614-5620	Aidenn	place[305]	new[305]	nonsal[305]	Garden_of_Eden[305]	_	_	
+67-13	5621-5622	,	_	_	_	_	_	_	
+67-14	5623-5625	It	abstract[306]	giv[306]	nonsal[306]	_	coref	80-2[358_306]	
+67-15	5626-5631	shall	_	_	_	_	_	_	
+67-16	5632-5637	clasp	_	_	_	_	_	_	
+67-17	5638-5639	a	person[307]	new[307]	nonsal[307]	_	coref	68-2[310_307]	
+67-18	5640-5647	sainted	person[307]	new[307]	nonsal[307]	_	_	_	
+67-19	5648-5654	maiden	person[307]	new[307]	nonsal[307]	_	_	_	
+67-20	5655-5659	whom	person[307]	new[307]	nonsal[307]	_	_	_	
+67-21	5660-5663	the	person[307]|person[308]	new[307]|giv[308]	nonsal[307]|nonsal[308]	_	coref	68-8[311_308]	
+67-22	5664-5670	angels	person[307]|person[308]	new[307]|giv[308]	nonsal[307]|nonsal[308]	_	_	_	
+67-23	5671-5675	name	person[307]	new[307]	nonsal[307]	_	_	_	
+67-24	5676-5682	Lenore	person[307]|abstract[309]	new[307]|giv[309]	nonsal[307]|nonsal[309]	_	coref	68-11[312_309]	
+67-25	5683-5684	—	_	_	_	_	_	_	
+
+#Text=Clasp a rare and radiant maiden whom the angels name Lenore . '
+68-1	5685-5690	Clasp	_	_	_	_	_	_	
+68-2	5691-5692	a	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-3	5693-5697	rare	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-4	5698-5701	and	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-5	5702-5709	radiant	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-6	5710-5716	maiden	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-7	5717-5721	whom	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-8	5722-5725	the	person[310]|person[311]	giv[310]|giv[311]	nonsal[310]|nonsal[311]	_	_	_	
+68-9	5726-5732	angels	person[310]|person[311]	giv[310]|giv[311]	nonsal[310]|nonsal[311]	_	_	_	
+68-10	5733-5737	name	person[310]	giv[310]	nonsal[310]	_	_	_	
+68-11	5738-5744	Lenore	person[310]|abstract[312]	giv[310]|giv[312]	nonsal[310]|nonsal[312]	_	_	_	
+68-12	5745-5746	.	_	_	_	_	_	_	
+68-13	5747-5748	'	_	_	_	_	_	_	
+
+#Text=Quoth the Raven , " Nevermore . "
+69-1	5749-5754	Quoth	_	_	_	_	_	_	
+69-2	5755-5758	the	animal[313]	new[313]	nonsal[313]	_	coref	71-3[321_313]	
+69-3	5759-5764	Raven	animal[313]	new[313]	nonsal[313]	_	_	_	
+69-4	5765-5766	,	_	_	_	_	_	_	
+69-5	5767-5768	"	_	_	_	_	_	_	
+69-6	5769-5778	Nevermore	abstract[314]	giv[314]	nonsal[314]	_	coref	70-3[315_314]	
+69-7	5779-5780	.	_	_	_	_	_	_	
+69-8	5781-5782	"	_	_	_	_	_	_	
+
+#Text=" Be that word our sign of parting , bird or fiend ! " I shrieked , upstarting —
+70-1	5783-5784	"	_	_	_	_	_	_	
+70-2	5785-5787	Be	_	_	_	_	_	_	
+70-3	5788-5792	that	abstract[315]	new[315]	nonsal[315]	_	coref	76-6[343_315]	
+70-4	5793-5797	word	abstract[315]	new[315]	nonsal[315]	_	_	_	
+70-5	5798-5801	our	abstract[316]|person[317]	giv[316]|giv[317]	nonsal[316]|nonsal[317]	_	_	_	
+70-6	5802-5806	sign	abstract[316]	giv[316]	nonsal[316]	_	_	_	
+70-7	5807-5809	of	abstract[316]	giv[316]	nonsal[316]	_	_	_	
+70-8	5810-5817	parting	abstract[316]	giv[316]	nonsal[316]	_	_	_	
+70-9	5818-5819	,	_	_	_	_	_	_	
+70-10	5820-5824	bird	animal[318]	giv[318]	nonsal[318]	_	_	_	
+70-11	5825-5827	or	_	_	_	_	_	_	
+70-12	5828-5833	fiend	animal[319]	new[319]	nonsal[319]	_	_	_	
+70-13	5834-5835	!	_	_	_	_	_	_	
+70-14	5836-5837	"	_	_	_	_	_	_	
+70-15	5838-5839	I	person[320]	giv[320]	nonsal[320]	_	coref	73-2[330_320]	
+70-16	5840-5848	shrieked	_	_	_	_	_	_	
+70-17	5849-5850	,	_	_	_	_	_	_	
+70-18	5851-5861	upstarting	_	_	_	_	_	_	
+70-19	5862-5863	—	_	_	_	_	_	_	
+
+#Text=" Get thee back into the tempest and the Night 's Plutonian shore !
+71-1	5864-5865	"	_	_	_	_	_	_	
+71-2	5866-5869	Get	_	_	_	_	_	_	
+71-3	5870-5874	thee	animal[321]	giv[321]	nonsal[321]	_	coref	72-11[328_321]	
+71-4	5875-5879	back	_	_	_	_	_	_	
+71-5	5880-5884	into	_	_	_	_	_	_	
+71-6	5885-5888	the	event[322]	giv[322]	nonsal[322]	_	_	_	
+71-7	5889-5896	tempest	event[322]	giv[322]	nonsal[322]	_	_	_	
+71-8	5897-5900	and	_	_	_	_	_	_	
+71-9	5901-5904	the	place[323]	giv[323]	nonsal[323]	_	_	_	
+71-10	5905-5910	Night	place[323]	giv[323]	nonsal[323]	_	_	_	
+71-11	5911-5913	's	place[323]	giv[323]	nonsal[323]	_	_	_	
+71-12	5914-5923	Plutonian	place[323]	giv[323]	nonsal[323]	_	_	_	
+71-13	5924-5929	shore	place[323]	giv[323]	nonsal[323]	_	_	_	
+71-14	5930-5931	!	_	_	_	_	_	_	
+
+#Text=Leave no black plume as a token of that lie thy soul hath spoken !
+72-1	5932-5937	Leave	_	_	_	_	_	_	
+72-2	5938-5940	no	object[324]	new[324]	nonsal[324]	_	_	_	
+72-3	5941-5946	black	object[324]	new[324]	nonsal[324]	_	_	_	
+72-4	5947-5952	plume	object[324]	new[324]	nonsal[324]	_	_	_	
+72-5	5953-5955	as	_	_	_	_	_	_	
+72-6	5956-5957	a	object[325]	new[325]	nonsal[325]	_	_	_	
+72-7	5958-5963	token	object[325]	new[325]	nonsal[325]	_	_	_	
+72-8	5964-5966	of	object[325]	new[325]	nonsal[325]	_	_	_	
+72-9	5967-5971	that	object[325]|abstract[326]	new[325]|new[326]	nonsal[325]|nonsal[326]	_	_	_	
+72-10	5972-5975	lie	object[325]|abstract[326]	new[325]|new[326]	nonsal[325]|nonsal[326]	_	_	_	
+72-11	5976-5979	thy	object[325]|abstract[326]|abstract[327]|animal[328]	new[325]|new[326]|giv[327]|giv[328]	nonsal[325]|nonsal[326]|nonsal[327]|nonsal[328]	_	coref	75-2[335_328]	
+72-12	5980-5984	soul	object[325]|abstract[326]|abstract[327]	new[325]|new[326]|giv[327]	nonsal[325]|nonsal[326]|nonsal[327]	_	_	_	
+72-13	5985-5989	hath	object[325]|abstract[326]	new[325]|new[326]	nonsal[325]|nonsal[326]	_	_	_	
+72-14	5990-5996	spoken	object[325]|abstract[326]	new[325]|new[326]	nonsal[325]|nonsal[326]	_	_	_	
+72-15	5997-5998	!	_	_	_	_	_	_	
+
+#Text=Leave my loneliness unbroken !
+73-1	5999-6004	Leave	_	_	_	_	_	_	
+73-2	6005-6007	my	abstract[329]|person[330]	new[329]|giv[330]	nonsal[329]|nonsal[330]	_	coref	74-6[333_330]	
+73-3	6008-6018	loneliness	abstract[329]	new[329]	nonsal[329]	_	_	_	
+73-4	6019-6027	unbroken	_	_	_	_	_	_	
+73-5	6028-6029	!	_	_	_	_	_	_	
+
+#Text=— quit the bust above my door !
+74-1	6030-6031	—	_	_	_	_	_	_	
+74-2	6032-6036	quit	_	_	_	_	_	_	
+74-3	6037-6040	the	object[331]	new[331]	nonsal[331]	_	coref	77-16[345_331]	
+74-4	6041-6045	bust	object[331]	new[331]	nonsal[331]	_	_	_	
+74-5	6046-6051	above	object[331]	new[331]	nonsal[331]	_	_	_	
+74-6	6052-6054	my	object[331]|object[332]|person[333]	new[331]|new[332]|giv[333]	nonsal[331]|nonsal[332]|nonsal[333]	_	coref|coref	75-15[340_332]|75-6[337_333]	
+74-7	6055-6059	door	object[331]|object[332]	new[331]|new[332]	nonsal[331]|nonsal[332]	_	_	_	
+74-8	6060-6061	!	_	_	_	_	_	_	
+
+#Text=Take thy beak from out my heart , and take thy form from off my door ! "
+75-1	6062-6066	Take	_	_	_	_	_	_	
+75-2	6067-6070	thy	object[334]|animal[335]	new[334]|giv[335]	nonsal[334]|nonsal[335]	_	coref	75-11[339_335]	
+75-3	6071-6075	beak	object[334]	new[334]	nonsal[334]	_	_	_	
+75-4	6076-6080	from	_	_	_	_	_	_	
+75-5	6081-6084	out	_	_	_	_	_	_	
+75-6	6085-6087	my	object[336]|person[337]	new[336]|giv[337]	nonsal[336]|nonsal[337]	_	coref	75-15[341_337]	
+75-7	6088-6093	heart	object[336]	new[336]	nonsal[336]	_	_	_	
+75-8	6094-6095	,	_	_	_	_	_	_	
+75-9	6096-6099	and	_	_	_	_	_	_	
+75-10	6100-6104	take	_	_	_	_	_	_	
+75-11	6105-6108	thy	object[338]|animal[339]	new[338]|giv[339]	nonsal[338]|nonsal[339]	_	coref	76-2[342_339]	
+75-12	6109-6113	form	object[338]	new[338]	nonsal[338]	_	_	_	
+75-13	6114-6118	from	_	_	_	_	_	_	
+75-14	6119-6122	off	_	_	_	_	_	_	
+75-15	6123-6125	my	object[340]|person[341]	giv[340]|giv[341]	nonsal[340]|nonsal[341]	_	coref|coref	77-23[347_340]|77-23[348_341]	
+75-16	6126-6130	door	object[340]	giv[340]	nonsal[340]	_	_	_	
+75-17	6131-6132	!	_	_	_	_	_	_	
+75-18	6133-6134	"	_	_	_	_	_	_	
+
+#Text=Quoth the Raven , " Nevermore . "
+76-1	6135-6140	Quoth	_	_	_	_	_	_	
+76-2	6141-6144	the	animal[342]	new[342]	nonsal[342]	_	coref	77-2[344_342]	
+76-3	6145-6150	Raven	animal[342]	new[342]	nonsal[342]	_	_	_	
+76-4	6151-6152	,	_	_	_	_	_	_	
+76-5	6153-6154	"	_	_	_	_	_	_	
+76-6	6155-6164	Nevermore	abstract[343]	giv[343]	nonsal[343]	_	_	_	
+76-7	6165-6166	.	_	_	_	_	_	_	
+76-8	6167-6168	"	_	_	_	_	_	_	
+
+#Text=And the Raven , never flitting , still is sitting , still is sitting On the pallid bust of Pallas just above my chamber door ;
+77-1	6169-6172	And	_	_	_	_	_	_	
+77-2	6173-6176	the	animal[344]	new[344]	nonsal[344]	_	coref	78-2[350_344]	
+77-3	6177-6182	Raven	animal[344]	new[344]	nonsal[344]	_	_	_	
+77-4	6183-6184	,	_	_	_	_	_	_	
+77-5	6185-6190	never	_	_	_	_	_	_	
+77-6	6191-6199	flitting	_	_	_	_	_	_	
+77-7	6200-6201	,	_	_	_	_	_	_	
+77-8	6202-6207	still	_	_	_	_	_	_	
+77-9	6208-6210	is	_	_	_	_	_	_	
+77-10	6211-6218	sitting	_	_	_	_	_	_	
+77-11	6219-6220	,	_	_	_	_	_	_	
+77-12	6221-6226	still	_	_	_	_	_	_	
+77-13	6227-6229	is	_	_	_	_	_	_	
+77-14	6230-6237	sitting	_	_	_	_	_	_	
+77-15	6238-6240	On	_	_	_	_	_	_	
+77-16	6241-6244	the	object[345]	giv[345]	nonsal[345]	_	_	_	
+77-17	6245-6251	pallid	object[345]	giv[345]	nonsal[345]	_	_	_	
+77-18	6252-6256	bust	object[345]	giv[345]	nonsal[345]	_	_	_	
+77-19	6257-6259	of	object[345]	giv[345]	nonsal[345]	_	_	_	
+77-20	6260-6266	Pallas	object[345]|person[346]	giv[345]|giv[346]	nonsal[345]|nonsal[346]	Athena[346]	_	_	
+77-21	6267-6271	just	_	_	_	_	_	_	
+77-22	6272-6277	above	_	_	_	_	_	_	
+77-23	6278-6280	my	object[347]|person[348]	giv[347]|giv[348]	nonsal[347]|nonsal[348]	_	coref	80-2[359_348]	
+77-24	6281-6288	chamber	object[347]	giv[347]	nonsal[347]	_	_	_	
+77-25	6289-6293	door	object[347]	giv[347]	nonsal[347]	_	_	_	
+77-26	6294-6295	;	_	_	_	_	_	_	
+
+#Text=And his eyes have all the seeming of a demon 's that is dreaming
+78-1	6296-6299	And	_	_	_	_	_	_	
+78-2	6300-6303	his	object[349]|animal[350]	new[349]|giv[350]	nonsal[349]|nonsal[350]	_	coref	79-7[354_350]	
+78-3	6304-6308	eyes	object[349]	new[349]	nonsal[349]	_	_	_	
+78-4	6309-6313	have	_	_	_	_	_	_	
+78-5	6314-6317	all	abstract[351]	new[351]	nonsal[351]	_	_	_	
+78-6	6318-6321	the	abstract[351]	new[351]	nonsal[351]	_	_	_	
+78-7	6322-6329	seeming	abstract[351]	new[351]	nonsal[351]	_	_	_	
+78-8	6330-6332	of	abstract[351]	new[351]	nonsal[351]	_	_	_	
+78-9	6333-6334	a	abstract[351]|person[352]	new[351]|new[352]	nonsal[351]|nonsal[352]	_	_	_	
+78-10	6335-6340	demon	abstract[351]|person[352]	new[351]|new[352]	nonsal[351]|nonsal[352]	_	_	_	
+78-11	6341-6343	's	abstract[351]|person[352]	new[351]|new[352]	nonsal[351]|nonsal[352]	_	_	_	
+78-12	6344-6348	that	abstract[351]|person[352]	new[351]|new[352]	nonsal[351]|nonsal[352]	_	_	_	
+78-13	6349-6351	is	abstract[351]|person[352]	new[351]|new[352]	nonsal[351]|nonsal[352]	_	_	_	
+78-14	6352-6360	dreaming	abstract[351]|person[352]	new[351]|new[352]	nonsal[351]|nonsal[352]	_	_	_	
+
+#Text=And the lamp - light o'er him streaming throws his shadow on the floor ;
+79-1	6361-6364	And	_	_	_	_	_	_	
+79-2	6365-6368	the	abstract[353]	new[353]	nonsal[353]	_	_	_	
+79-3	6369-6373	lamp	abstract[353]	new[353]	nonsal[353]	_	_	_	
+79-4	6374-6375	-	abstract[353]	new[353]	nonsal[353]	_	_	_	
+79-5	6376-6381	light	abstract[353]	new[353]	nonsal[353]	_	_	_	
+79-6	6382-6386	o'er	abstract[353]	new[353]	nonsal[353]	_	_	_	
+79-7	6387-6390	him	abstract[353]|animal[354]	new[353]|giv[354]	nonsal[353]|nonsal[354]	_	coref	79-10[356_354]	
+79-8	6391-6400	streaming	_	_	_	_	_	_	
+79-9	6401-6407	throws	_	_	_	_	_	_	
+79-10	6408-6411	his	abstract[355]|animal[356]	new[355]|giv[356]	nonsal[355]|nonsal[356]	_	coref	80-6[360_355]	
+79-11	6412-6418	shadow	abstract[355]	new[355]	nonsal[355]	_	_	_	
+79-12	6419-6421	on	_	_	_	_	_	_	
+79-13	6422-6425	the	place[357]	new[357]	nonsal[357]	_	coref	80-12[361_357]	
+79-14	6426-6431	floor	place[357]	new[357]	nonsal[357]	_	_	_	
+79-15	6432-6433	;	_	_	_	_	_	_	
+
+#Text=And my soul from out that shadow that lies floating on the floor Shall be lifted — nevermore !
+80-1	6434-6437	And	_	_	_	_	_	_	
+80-2	6438-6440	my	abstract[358]|person[359]	giv[358]|giv[359]	nonsal[358]|nonsal[359]	_	_	_	
+80-3	6441-6445	soul	abstract[358]	giv[358]	nonsal[358]	_	_	_	
+80-4	6446-6450	from	_	_	_	_	_	_	
+80-5	6451-6454	out	_	_	_	_	_	_	
+80-6	6455-6459	that	abstract[360]	giv[360]	nonsal[360]	_	_	_	
+80-7	6460-6466	shadow	abstract[360]	giv[360]	nonsal[360]	_	_	_	
+80-8	6467-6471	that	abstract[360]	giv[360]	nonsal[360]	_	_	_	
+80-9	6472-6476	lies	abstract[360]	giv[360]	nonsal[360]	_	_	_	
+80-10	6477-6485	floating	abstract[360]	giv[360]	nonsal[360]	_	_	_	
+80-11	6486-6488	on	abstract[360]	giv[360]	nonsal[360]	_	_	_	
+80-12	6489-6492	the	abstract[360]|place[361]	giv[360]|giv[361]	nonsal[360]|nonsal[361]	_	_	_	
+80-13	6493-6498	floor	abstract[360]|place[361]	giv[360]|giv[361]	nonsal[360]|nonsal[361]	_	_	_	
+80-14	6499-6504	Shall	_	_	_	_	_	_	
+80-15	6505-6507	be	_	_	_	_	_	_	
+80-16	6508-6514	lifted	_	_	_	_	_	_	
+80-17	6515-6516	—	_	_	_	_	_	_	
+80-18	6517-6526	nevermore	time[362]	giv[362]	nonsal[362]	_	_	_	
+80-19	6527-6528	!	_	_	_	_	_	_	
