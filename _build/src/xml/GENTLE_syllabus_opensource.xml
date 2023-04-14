@@ -322,7 +322,7 @@ https://rensselaer.webex.com/meet/modim2	JJ	https://rensselaer.webex.com/meet/mo
 </item>
 <item>
 <s type="frag">
-Office	NN	Office
+Office	NN	office
 Hours	NNS	hour
 :	:	:
 TBD	NP	TBD
@@ -832,7 +832,7 @@ Common	JJ	Common
 Open	JJ	Open
 Source	NP	Source
 Software	NP	Software
-Stacks	NPS	Stacks
+Stacks	NPS	Stack
 and	CC	and
 common	JJ	common
 tools	NNS	tool
