@@ -420,7 +420,7 @@
 39	and	_	_	_	_	46	cc	_	_
 40	not	_	_	_	_	46	advmod	_	_
 41	simply	_	_	_	_	46	advmod	_	_
-42	when	_	_	_	_	46	conj	_	_
+42	when	_	_	_	_	46	advmod	_	_
 43	the	_	_	_	_	44	det	_	_
 44	action	_	_	_	_	46	nsubj:pass	_	_
 45	is	_	_	_	_	46	aux:pass	_	_
