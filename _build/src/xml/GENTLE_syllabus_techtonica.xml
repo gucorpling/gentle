@@ -313,7 +313,7 @@ Week	NN	Week
 Onboarding	NN	onboarding
 &amp;	CC	&amp;
 Developer	NN	developer
-Tools	NPS	Tools
+Tools	NPS	Tool
 </ref>
 </s>
 </item>
@@ -372,7 +372,7 @@ APIs	NNS	API
 Week	NN	Week
 6	CD	6
 -	:	-
-Databases	NNS	Database
+Databases	NNS	database
 </ref>
 </s>
 </item>
@@ -443,7 +443,7 @@ Structures	NNS	structure
 </s>
 <s type="frag">
 <ref target="algorithms">
-Algorithms	NNS	Algorithm
+Algorithms	NNS	algorithm
 </ref>
 </s>
 </item>
@@ -479,7 +479,7 @@ Week	NN	Week
 Project	NP	Project
 Prep	NP	Prep
 Week	NP	Week
-&amp;	SYM	&amp;
+&amp;	CC	&amp;
 Electives	NPS	Elective
 </ref>
 </s>
@@ -555,7 +555,7 @@ Week	NN	Week
 Onboarding	NN	onboarding
 &amp;	CC	&amp;
 Developer	NN	developer
-Tools	NPS	Tools
+Tools	NNS	tool
 </s>
 </head>
 <list type="ordered">
@@ -642,7 +642,7 @@ Tools	NNS	tool
 7.	LS	7.
 Advanced	NP	Advanced
 Command	NP	Command
-Line	NP	Line
+Line	NN	line
 </ref>
 </s>
 </item>
@@ -863,16 +863,16 @@ Debugging	VVG	Debug
 </list>
 <list type="ordered">
 <item n="25">
-<ref target="/projects/recipe-page/phase-1-html-prompt.md">
 <s type="frag">
+<ref target="/projects/recipe-page/phase-1-html-prompt.md">
 25.	LS	25.
 Recipe	NN	recipe
 Page	NN	page
 Project	NN	Project
 :	:	:
 HTML	NP	HTML
-</s>
 </ref>
+</s>
 </item>
 </list>
 <head>
@@ -894,7 +894,7 @@ CSS	NP	CSS
 1.	LS	1.
 Git	NP	Git
 Version	NN	version
-Control	NN	Control
+Control	NN	control
 </ref>
 </s>
 </item>
@@ -951,7 +951,7 @@ Systems	NNS	system
 <ref target="/dev-tools/vscode.md">
 6.	LS	6.
 Local	NP	local
-Development	NP	Development
+Development	NN	development
 with	IN	with
 VS	NP	VS
 Code	NP	Code
@@ -980,7 +980,7 @@ DOM	NP	DOM
 <item n="8">
 <s type="decl">
 <ref target="/networking-computing/README.md">
-8.	MD	have
+8.	LS	8.
 How	WRB	how
 the	DT	the
 Internet	NP	Internet
@@ -1028,7 +1028,7 @@ CSS	NP	CSS
 <ref target="/web/media-queries.md">
 11.	LS	11.
 Media	NP	Media
-Queries	NPS	Queries
+Queries	NPS	Query
 </ref>
 </s>
 </item>
@@ -1160,7 +1160,7 @@ Branding	NN	branding
 <ref target="/reading-and-writing-documentation/documentation.md">
 21.	LS	21.
 <w>
-Reading	VVG	read
+Reading	NN	read
 /	SYM	/
 Writing	NN	Writing
 </w>
@@ -1236,7 +1236,7 @@ JavaScript	NP	JavaScript
 -	:	-
 Variables	NNS	variable
 ,	,	,
-Strings	NPS	Strings
+Strings	NPS	String
 ,	,	,
 Numbers	NNS	number
 </ref>
@@ -1270,7 +1270,7 @@ Conditionals	NNS	conditional
 ,	,	,
 Comparisons	NNS	comparison
 ,	,	,
-Booleans	NPS	Booleans
+Booleans	NPS	Boolean
 </ref>
 </s>
 </item>
@@ -1354,7 +1354,7 @@ TDD	NP	TDD
 <item n="10">
 <s type="frag">
 <ref target="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">
-10.	MD	1ave
+10.	LS	10.
 Assigned	VVN	assign
 Reading	NN	reading
 -	:	-
@@ -1593,7 +1593,7 @@ Practice	NN	practice
 <s type="frag">
 <ref target="/express-js/express.md">
 7.	LS	7.
-Express	NPS	Express
+Express	NP	Express
 </ref>
 </s>
 </item>
@@ -1614,7 +1614,7 @@ APIs	NNS	API
 Week	NN	Week
 6	CD	6
 -	:	-
-Databases	NPS	Database
+Databases	NNS	database
 </s>
 </head>
 <list type="ordered">
@@ -1627,7 +1627,7 @@ JavaScript	NP	JavaScript
 -	:	-
 Async	NN	async
 ,	,	,
-Callbacks	NPS	Callbacks
+Callbacks	NPS	callback
 ,	,	,
 Promises	NNS	promise
 </ref>
@@ -1713,7 +1713,7 @@ Postgres	NP	Postgre
 8.	LS	8.
 Intro	NN	intro
 to	IN	to
-Databases	NNS	Database
+Databases	NNS	database
 </ref>
 </s>
 </item>
@@ -2016,9 +2016,9 @@ Week	NP	Week
 11	CD	11
 -	:	-
 Data	NN	data
-Structures	NPS	Structures
+Structures	NNS	structure
 &amp;	CC	&amp;
-Algorithms	NPS	Algorithm
+Algorithms	NNS	algorithm
 </s>
 </head>
 <head>
@@ -2035,7 +2035,7 @@ Structures	NNS	structure
 Intro	NN	intro
 to	IN	to
 Data	NN	data
-Structures	NPS	Structures
+Structures	NNS	structure
 </ref>
 </s>
 </item>
@@ -2049,9 +2049,9 @@ Sprint	NP	Sprint
 Plan	NP	Plan
 for	IN	for
 Data	NN	data
-Structures	NPS	Structures
+Structures	NNS	structure
 &amp;	CC	&amp;
-Algorithms	NPS	Algorithm
+Algorithms	NNS	algorithm
 Week	NN	Week
 </ref>
 </s>
@@ -2137,7 +2137,7 @@ Trees	NNS	tree
 </list>
 <head>
 <s type="frag">
-Algorithms	NNS	Algorithm
+Algorithms	NNS	algorithm
 </s>
 </head>
 <list type="ordered">
@@ -2147,7 +2147,7 @@ Algorithms	NNS	Algorithm
 1.	LS	1.
 Intro	NN	intro
 to	IN	to
-Algorithms	NNS	Algorithm
+Algorithms	NNS	algorithm
 </ref>
 </s>
 </item>
@@ -2157,7 +2157,7 @@ Algorithms	NNS	Algorithm
 <s type="frag">
 <ref target="/algorithms/searching.md">
 2.	LS	2.
-Algorithms	NNS	Algorithm
+Algorithms	NNS	algorithm
 :	:	:
 Searching	VVG	search
 </ref>
@@ -2169,7 +2169,7 @@ Searching	VVG	search
 <s type="frag">
 <ref target="/algorithms/sorting.md">
 3.	LS	3.
-Algorithms	NNS	Algorithm
+Algorithms	NNS	algorithm
 :	:	:
 Sorting	NN	sorting
 </ref>
@@ -2382,19 +2382,17 @@ Engineering	NN	Engineering
 </list>
 <list type="ordered">
 <item n="12">
-<ref target="/career/roles-in-tech/">
 <s type="frag">
+<ref target="/career/roles-in-tech/">
 12.	LS	12.
 Career	NP	Career
 Week	NP	Week
 :	:	:
-</s>
-<s type="frag">
 Technical	NP	Technical
 Program	NN	Program
 Manager	NN	manager
-</s>
 </ref>
+</s>
 </item>
 </list>
 <head>
@@ -2405,8 +2403,8 @@ Week	NN	Week
 Project	NP	Project
 Prep	NP	Prep
 Week	NP	Week
-&amp;	SYM	&amp;
-Electives	NPS	Elective
+&amp;	CC	&amp;
+Electives	NPS	elective
 </s>
 </head>
 <list type="ordered">
@@ -2419,7 +2417,7 @@ to	IN	to
 Security	NN	Security
 in	IN	in
 Web	NP	Web
-Development	NN	Development
+Development	NN	development
 </ref>
 </s>
 </item>
@@ -2578,7 +2576,7 @@ Negotiating	VVG	negotiate
 <s type="frag">
 <ref target="/program-prep/ethics.md">
 14.	LS	14.
-Ethics	NPS	Ethics
+Ethics	NN	Ethics
 in	IN	in
 Software	NN	software
 Engineering	NN	Engineering
