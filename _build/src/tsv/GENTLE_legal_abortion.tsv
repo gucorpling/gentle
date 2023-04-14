@@ -231,7 +231,7 @@
 13-14	1130-1135	court	organization[63]	giv[63]	nonsal[63]	_	_	_	
 13-15	1136-1144	declared	_	_	_	_	_	_	
 13-16	1145-1148	the	abstract[64]	new[64]	nonsal[64]	_	coref	22-26[117_64]	
-13-17	1149-1157	abortion	abstract[64]|event[65]	new[64]|giv[65]	nonsal[64]|nonsal[65]	_	coref	29-2[145_65]	
+13-17	1149-1157	abortion	abstract[64]|event[65]	new[64]|giv[65]	nonsal[64]|nonsal[65]	_	coref	36-34[218_65]	
 13-18	1158-1166	statutes	abstract[64]	new[64]	nonsal[64]	_	_	_	
 13-19	1167-1171	void	_	_	_	_	_	_	
 13-20	1172-1174	as	_	_	_	_	_	_	
@@ -391,17 +391,17 @@
 21-5	1949-1951	's	abstract[104]|person[105]	new[104]|giv[105]	nonsal[104]|nonsal[105]	_	_	_	
 21-6	1952-1962	contention	abstract[104]	new[104]	nonsal[104]	_	_	_	
 21-7	1963-1964	,	_	_	_	_	_	_	
-21-8	1965-1968	the	event[106]	giv[106]	nonsal[106]	_	_	_	
+21-8	1965-1968	the	event[106]	giv[106]	nonsal[106]	_	coref	30-16[171_106]	
 21-9	1969-1976	natural	event[106]	giv[106]	nonsal[106]	_	_	_	
 21-10	1977-1988	termination	event[106]	giv[106]	nonsal[106]	_	_	_	
 21-11	1989-1991	of	event[106]	giv[106]	nonsal[106]	_	_	_	
-21-12	1992-1995	Roe	event[106]|event[107]|person[108]	giv[106]|giv[107]|giv[108]	nonsal[106]|nonsal[107]|nonsal[108]	Norma_McCorvey[108]	coref	22-3[112_107]	
+21-12	1992-1995	Roe	event[106]|event[107]|person[108]	giv[106]|giv[107]|giv[108]	nonsal[106]|nonsal[107]|nonsal[108]	Norma_McCorvey[108]	coref|coref	22-3[112_107]|21-18[110_108]	
 21-13	1996-1998	's	event[106]|event[107]|person[108]	giv[106]|giv[107]|giv[108]	nonsal[106]|nonsal[107]|nonsal[108]	Norma_McCorvey[108]	_	_	
 21-14	1999-2008	pregnancy	event[106]|event[107]	giv[106]|giv[107]	nonsal[106]|nonsal[107]	_	_	_	
 21-15	2009-2012	did	_	_	_	_	_	_	
 21-16	2013-2016	not	_	_	_	_	_	_	
 21-17	2017-2021	moot	_	_	_	_	_	_	
-21-18	2022-2025	her	abstract[109]|person[110]	new[109]|giv[110]	nonsal[109]|nonsal[110]	_	coref	30-16[171_110]	
+21-18	2022-2025	her	abstract[109]|person[110]	new[109]|giv[110]	nonsal[109]|nonsal[110]	_	coref	29-23[151_110]	
 21-19	2026-2030	suit	abstract[109]	new[109]	nonsal[109]	_	_	_	
 21-20	2031-2032	.	_	_	_	_	_	_	
 
@@ -564,7 +564,7 @@
 
 #Text=3. State criminal abortion laws , like those involved here , that except from criminality only a life - saving procedure on the mother 's behalf without regard to the stage of her pregnancy and other interests involved violate the Due Process Clause of the Fourteenth Amendment , which protects against state action the right to privacy , including a woman 's qualified right to terminate her pregnancy .
 29-1	2770-2772	3.	_	_	_	_	_	_	
-29-2	2773-2778	State	abstract[145]|place[146]	giv[145]|new[146]	nonsal[145]|nonsal[146]	_	coref|coref	29-4[147_145]|29-52[160_146]	
+29-2	2773-2778	State	abstract[145]|place[146]	giv[145]|new[146]	nonsal[145]|nonsal[146]	_	coref	29-52[160_146]	
 29-3	2779-2787	criminal	abstract[145]	giv[145]	nonsal[145]	_	_	_	
 29-4	2788-2796	abortion	abstract[145]|event[147]	giv[145]|giv[147]	nonsal[145]|nonsal[147]	_	coref	32-16[187_147]	
 29-5	2797-2801	laws	abstract[145]	giv[145]	nonsal[145]	_	_	_	
@@ -708,7 +708,7 @@
 32-13	3530-3539	trimester	time[183]|time[184]|time[185]	new[183]|new[184]|new[185]	nonsal[183]|nonsal[184]|nonsal[185]	_	_	_	
 32-14	3540-3541	,	_	_	_	_	_	_	
 32-15	3542-3545	the	abstract[186]	new[186]	nonsal[186]	_	coref	32-19[189_186]	
-32-16	3546-3554	abortion	abstract[186]|event[187]	new[186]|giv[187]	nonsal[186]|nonsal[187]	_	coref	34-37[205_187]	
+32-16	3546-3554	abortion	abstract[186]|event[187]	new[186]|giv[187]	nonsal[186]|nonsal[187]	_	_	_	
 32-17	3555-3563	decision	abstract[186]	new[186]	nonsal[186]	_	_	_	
 32-18	3564-3567	and	_	_	_	_	_	_	
 32-19	3568-3571	its	abstract[188]|abstract[189]	new[188]|giv[189]	nonsal[188]|nonsal[189]	_	_	_	
@@ -773,7 +773,7 @@
 34-34	3852-3853	,	_	_	_	_	_	_	
 34-35	3854-3862	regulate	_	_	_	_	_	_	
 34-36	3863-3866	the	event[204]	new[204]	nonsal[204]	_	_	_	
-34-37	3867-3875	abortion	event[204]|event[205]	new[204]|giv[205]	nonsal[204]|nonsal[205]	_	coref	36-34[218_205]	
+34-37	3867-3875	abortion	event[204]|event[205]	new[204]|giv[205]	nonsal[204]|nonsal[205]	_	_	_	
 34-38	3876-3885	procedure	event[204]	new[204]	nonsal[204]	_	_	_	
 34-39	3886-3888	in	_	_	_	_	_	_	
 34-40	3889-3893	ways	abstract[206]	new[206]	nonsal[206]	_	_	_	
