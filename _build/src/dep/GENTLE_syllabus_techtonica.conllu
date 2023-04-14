@@ -1059,7 +1059,7 @@
 2	API	_	_	_	_	3	compound	_	_
 3	testing	_	_	_	_	0	root	_	_
 4	with	_	_	_	_	5	case	_	_
-5	Jest	_	_	_	_	3	nmod	_	_
+5	Jest	_	_	_	_	3	obl	_	_
 
 1	5.	_	_	_	_	2	dep	_	_
 2	Testing	_	_	_	_	0	root	_	_
@@ -1220,7 +1220,7 @@
 1	2.	_	_	_	_	5	dep	_	_
 2	Take	_	_	_	_	5	compound	_	_
 3	-	_	_	_	_	4	punct	_	_
-4	home	_	_	_	_	2	compound:prt	_	_
+4	home	_	_	_	_	2	compound	_	_
 5	Problems	_	_	_	_	0	root	_	_
 
 1	3.	_	_	_	_	3	dep	_	_
