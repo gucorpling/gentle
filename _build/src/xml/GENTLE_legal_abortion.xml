@@ -702,7 +702,10 @@ pregnancy	NN	pregnancy
 Though	IN	though
 the	DT	the
 State	NP	State
-cannot	MD	cannot
+<w>
+can	MD	can
+not	RB	not
+</w>
 override	VV	override
 that	DT	that
 right	NN	right
