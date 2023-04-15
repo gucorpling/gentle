@@ -23,7 +23,7 @@ me	PP	I
 The	DT	the
 Carriage	NN	carriage
 held	VVD	hold
-but	CC	but
+but	RB	but
 just	RB	just
 Ourselves	PP	ourselves
 —	:	—
@@ -125,7 +125,7 @@ Us	PP	we
 <s type="decl">
 <l n="14"/>
 The	DT	the
-Dews	NNS	Dews
+Dews	NNS	dew
 drew	VVD	draw
 quivering	VVG	quiver
 and	CC	and
@@ -177,7 +177,7 @@ scarcely	RB	scarcely
 visible	JJ	visible
 —	:	—
 </s>
-<s type="frag">
+<s type="decl">
 <l n="20"/>
 The	DT	the
 Cornice	NP	Cornice
@@ -194,7 +194,10 @@ Ground	NP	Ground
 Since	IN	since
 then	RB	then
 —	:	—
-'tis	NPS	'tis
+<w>
+'t	PP	it
+is	VBZ	is
+</w>
 centuries	NNS	century
 —	:	—
 and	CC	and

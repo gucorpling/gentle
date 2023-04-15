@@ -202,8 +202,8 @@
 
 1	Some	_	_	_	_	3	det	_	_
 2	late	_	_	_	_	3	amod	_	_
-3	visiter	_	_	_	_	4	nsubj	_	_
-4	entreating	_	_	_	_	0	root	_	_
+3	visiter	_	_	_	_	0	root	_	_
+4	entreating	_	_	_	_	3	acl	_	_
 5	entrance	_	_	_	_	4	obj	_	_
 6	at	_	_	_	_	9	case	_	_
 7	my	_	_	_	_	9	nmod:poss	_	_
@@ -403,7 +403,7 @@
 14	Soon	_	_	_	_	15	advmod	_	_
 15	again	_	_	_	_	17	advmod	_	_
 16	I	_	_	_	_	17	nsubj	_	_
-17	heard	_	_	_	_	0	reparandum	_	_
+17	heard	_	_	_	_	0	root	_	_
 18	a	_	_	_	_	20	det	_	_
 19	tapping	_	_	_	_	20	amod	_	_
 20	something	_	_	_	_	17	obj	_	_
@@ -610,7 +610,7 @@
 55	—	_	_	_	_	49	punct	_	_
 
 1	Tell	_	_	_	_	0	root	_	_
-2	me	_	_	_	_	1	obj	_	_
+2	me	_	_	_	_	1	iobj	_	_
 3	what	_	_	_	_	1	ccomp	_	_
 4	thy	_	_	_	_	6	nmod:poss	_	_
 5	lordly	_	_	_	_	6	amod	_	_
@@ -639,10 +639,10 @@
 3	marvelled	_	_	_	_	0	root	_	_
 4	this	_	_	_	_	6	det	_	_
 5	ungainly	_	_	_	_	6	amod	_	_
-6	fowl	_	_	_	_	8	obj	_	_
+6	fowl	_	_	_	_	9	nsubj	_	_
 7	to	_	_	_	_	8	mark	_	_
 8	hear	_	_	_	_	3	xcomp	_	_
-9	discourse	_	_	_	_	8	xcomp	_	_
+9	discourse	_	_	_	_	8	ccomp	_	_
 10	so	_	_	_	_	11	advmod	_	_
 11	plainly	_	_	_	_	9	advmod	_	_
 12	,	_	_	_	_	3	punct	_	_
@@ -752,7 +752,7 @@
 3	scarcely	_	_	_	_	4	advmod	_	_
 4	more	_	_	_	_	6	advmod	_	_
 5	than	_	_	_	_	4	fixed	_	_
-6	muttered	_	_	_	_	0	reparandum	_	_
+6	muttered	_	_	_	_	0	root	_	_
 
 1	"	_	_	_	_	5	punct	_	_
 2	Other	_	_	_	_	3	amod	_	_
@@ -1137,7 +1137,7 @@
 18	,	_	_	_	_	17	punct	_	_
 19	on	_	_	_	_	22	case	_	_
 20	this	_	_	_	_	22	det	_	_
-21	desert	_	_	_	_	22	amod	_	_
+21	desert	_	_	_	_	22	compound	_	_
 22	land	_	_	_	_	8	obl	_	_
 23	enchanted	_	_	_	_	22	acl	_	_
 24	—	_	_	_	_	22	punct	_	_
@@ -1149,7 +1149,7 @@
 30	haunted	_	_	_	_	27	acl	_	_
 31	—	_	_	_	_	37	punct	_	_
 32	tell	_	_	_	_	37	ccomp	_	_
-33	me	_	_	_	_	32	obj	_	_
+33	me	_	_	_	_	32	iobj	_	_
 34	truly	_	_	_	_	32	advmod	_	_
 35	,	_	_	_	_	37	punct	_	_
 36	I	_	_	_	_	37	nsubj	_	_
@@ -1168,10 +1168,10 @@
 
 1	—	_	_	_	_	2	punct	_	_
 2	tell	_	_	_	_	0	root	_	_
-3	me	_	_	_	_	2	obj	_	_
+3	me	_	_	_	_	2	iobj	_	_
 4	—	_	_	_	_	2	punct	_	_
 5	tell	_	_	_	_	9	ccomp	_	_
-6	me	_	_	_	_	5	obj	_	_
+6	me	_	_	_	_	5	iobj	_	_
 7	,	_	_	_	_	9	punct	_	_
 8	I	_	_	_	_	9	nsubj	_	_
 9	implore	_	_	_	_	2	parataxis	_	_

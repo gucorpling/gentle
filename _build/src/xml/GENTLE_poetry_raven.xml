@@ -55,7 +55,7 @@ tapping	NN	tapping
 As	IN	as
 of	IN	of
 some	DT	some
-one	CD	one
+one	NN	one
 gently	RB	gently
 rapping	VVG	rap
 ,	,	,
@@ -473,7 +473,7 @@ again	RB	again
 I	PP	I
 heard	VVD	hear
 a	DT	a
-tapping	NN	tapping
+tapping	VVG	tapping
 something	NN	something
 louder	JJR	loud
 than	IN	than
@@ -660,7 +660,7 @@ smiling	VVG	smile
 <l n="44"/>
 By	IN	by
 the	DT	the
-grave	NN	grave
+grave	JJ	grave
 and	CC	and
 stern	JJ	stern
 decorum	NN	decorum
@@ -723,7 +723,7 @@ shore	NN	shore
 !	SENT	!
 "	''	''
 </s>
-<s type="other">
+<s type="decl">
 <l n="48"/>
 Quoth	VVZ	quoth
 the	DT	the
@@ -976,7 +976,7 @@ burden	NN	burden
 bore	NN	bore
 —	:	—
 </s>
-<s type="frag">
+<s type="decl">
 <l n="65"/>
 Till	IN	till
 the	DT	the
@@ -1059,7 +1059,7 @@ of	IN	of
 yore	NN	yore
 —	:	—
 <l n="71"/>
-What	WDT	what
+What	WP	what
 this	DT	this
 grim	JJ	grim
 ,	,	,
@@ -1183,7 +1183,7 @@ thought	VVD	think
 the	DT	the
 air	NN	air
 grew	VVD	grow
-denser	JJR	denser
+denser	JJR	dense
 ,	,	,
 perfumed	VVN	perfume
 from	IN	from
@@ -1193,7 +1193,7 @@ censer	NN	censer
 <l n="80"/>
 Swung	VVN	swing
 by	IN	by
-Seraphim	NP	Seraphim
+Seraphim	NPS	Seraphim
 whose	WP$	whose
 foot	NN	foot
 -	:	-
@@ -1260,7 +1260,7 @@ Lenore	NP	Lenore
 </s>
 <s type="decl">
 <l n="84"/>
-Quoth	VVZ	Quoth
+Quoth	VVZ	quoth
 the	DT	the
 Raven	NN	Raven
 ,	,	,
@@ -1315,7 +1315,7 @@ shore	NN	shore
 ,	,	,
 <l n="87"/>
 Desolate	JJ	Desolate
-yet	RB	yet
+yet	CC	yet
 all	DT	all
 undaunted	JJ	undaunted
 ,	,	,
@@ -1344,12 +1344,12 @@ implore	VVP	implore
 <l n="89"/>
 <s type="q">
 Is	VBZ	be
-there	JJ	there
+there	EX	there
 —	:	—
 <hi rend="italic">
 is	VBZ	be
 </hi>
-there	PP$	there
+there	EX	there
 balm	NN	balm
 in	IN	in
 Gilead	NP	Gilead
@@ -1368,7 +1368,7 @@ implore	VVP	implore
 !	SENT	!
 "	''	''
 </s>
-<s type="imp">
+<s type="decl">
 <l n="90"/>
 Quoth	VVZ	quoth
 the	DT	the
@@ -1417,7 +1417,7 @@ above	IN	above
 us	PP	we
 —	:	—
 </s>
-<s type="frag">
+<s type="other">
 by	IN	by
 that	DT	that
 God	NP	God
@@ -1486,7 +1486,7 @@ Nevermore	RB	Nevermore
 <p>
 <s type="decl">
 <l n="97"/>
-"	''	''
+"	``	''
 Be	VB	be
 that	DT	that
 word	NN	word
@@ -1508,7 +1508,7 @@ upstarting	VVG	upstart
 </s>
 <s type="imp">
 <l n="98"/>
-"	''	''
+"	``	''
 Get	VV	get
 thee	PP	thee
 back	RB	back

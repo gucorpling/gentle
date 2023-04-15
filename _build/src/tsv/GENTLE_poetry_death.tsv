@@ -14,7 +14,7 @@
 1-8	35-36	—	_	_	_	_	_	_	
 
 #Text=He kindly stopped for me —
-2-1	37-39	He	person[3]	giv[3]	nonsal[3]	_	bridge|bridge|coref	2-5[4_3]|3-6[6_3]|6-1[9_3]	
+2-1	37-39	He	person[3]	giv[3]	nonsal[3]	_	coref|bridge|bridge	6-1[9_3]|2-5[4_3]|3-6[6_3]	
 2-2	40-46	kindly	_	_	_	_	_	_	
 2-3	47-54	stopped	_	_	_	_	_	_	
 2-4	55-58	for	_	_	_	_	_	_	
@@ -22,7 +22,7 @@
 2-6	62-63	—	_	_	_	_	_	_	
 
 #Text=The Carriage held but just Ourselves —
-3-1	64-67	The	person[5]	new[5]	nonsal[5]	_	bridge	17-17[47_5]	
+3-1	64-67	The	person[5]	new[5]	nonsal[5]	_	bridge	17-18[47_5]	
 3-2	68-76	Carriage	person[5]	new[5]	nonsal[5]	_	_	_	
 3-3	77-81	held	_	_	_	_	_	_	
 3-4	82-85	but	_	_	_	_	_	_	
@@ -166,27 +166,28 @@
 16-6	599-605	Ground	place[43]	giv[43]	nonsal[43]	_	_	_	
 16-7	606-607	—	_	_	_	_	_	_	
 
-#Text=Since then — 'tis centuries — and yet Feels shorter than the Day I first surmised the Horses' Heads Were toward Eternity —
+#Text=Since then — 't is centuries — and yet Feels shorter than the Day I first surmised the Horses' Heads Were toward Eternity —
 17-1	608-613	Since	_	_	_	_	_	_	
-17-2	614-618	then	time[44]	new[44]	nonsal[44]	_	coref	17-5[45_44]	
+17-2	614-618	then	time[44]	new[44]	nonsal[44]	_	coref	17-6[45_44]	
 17-3	619-620	—	_	_	_	_	_	_	
-17-4	621-625	'tis	_	_	_	_	_	_	
-17-5	626-635	centuries	time[45]	new[45]	nonsal[45]	_	_	_	
-17-6	636-637	—	_	_	_	_	_	_	
-17-7	638-641	and	_	_	_	_	_	_	
-17-8	642-645	yet	_	_	_	_	_	_	
-17-9	646-651	Feels	_	_	_	_	_	_	
-17-10	652-659	shorter	_	_	_	_	_	_	
-17-11	660-664	than	_	_	_	_	_	_	
-17-12	665-668	the	time[46]	new[46]	nonsal[46]	_	_	_	
-17-13	669-672	Day	time[46]	new[46]	nonsal[46]	_	_	_	
-17-14	673-674	I	time[46]	new[46]	nonsal[46]	_	_	_	
-17-15	675-680	first	time[46]	new[46]	nonsal[46]	_	_	_	
-17-16	681-689	surmised	time[46]	new[46]	nonsal[46]	_	_	_	
-17-17	690-693	the	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
-17-18	694-701	Horses'	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
-17-19	702-707	Heads	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
-17-20	708-712	Were	time[46]	new[46]	nonsal[46]	_	_	_	
-17-21	713-719	toward	time[46]	new[46]	nonsal[46]	_	_	_	
-17-22	720-728	Eternity	time[46]|abstract[48]	new[46]|new[48]	nonsal[46]|nonsal[48]	_	_	_	
-17-23	729-730	—	_	_	_	_	_	_	
+17-4	621-623	't	_	_	_	_	_	_	
+17-5	624-626	is	_	_	_	_	_	_	
+17-6	627-636	centuries	time[45]	new[45]	nonsal[45]	_	_	_	
+17-7	637-638	—	_	_	_	_	_	_	
+17-8	639-642	and	_	_	_	_	_	_	
+17-9	643-646	yet	_	_	_	_	_	_	
+17-10	647-652	Feels	_	_	_	_	_	_	
+17-11	653-660	shorter	_	_	_	_	_	_	
+17-12	661-665	than	_	_	_	_	_	_	
+17-13	666-669	the	time[46]	new[46]	nonsal[46]	_	_	_	
+17-14	670-673	Day	time[46]	new[46]	nonsal[46]	_	_	_	
+17-15	674-675	I	time[46]	new[46]	nonsal[46]	_	_	_	
+17-16	676-681	first	time[46]	new[46]	nonsal[46]	_	_	_	
+17-17	682-690	surmised	time[46]	new[46]	nonsal[46]	_	_	_	
+17-18	691-694	the	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
+17-19	695-702	Horses'	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
+17-20	703-708	Heads	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
+17-21	709-713	Were	time[46]	new[46]	nonsal[46]	_	_	_	
+17-22	714-720	toward	time[46]	new[46]	nonsal[46]	_	_	_	
+17-23	721-729	Eternity	time[46]|abstract[48]	new[46]|new[48]	nonsal[46]|nonsal[48]	_	_	_	
+17-24	730-731	—	_	_	_	_	_	_	

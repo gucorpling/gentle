@@ -282,7 +282,7 @@
 29	LEE	_	_	_	_	28	flat	_	_
 30	:	_	_	_	_	19	punct	_	_
 
-1	For	_	_	_	_	5	cc	_	_
+1	For	_	_	_	_	5	mark	_	_
 2	the	_	_	_	_	3	det	_	_
 3	moon	_	_	_	_	5	nsubj	_	_
 4	never	_	_	_	_	5	advmod	_	_

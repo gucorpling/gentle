@@ -79,7 +79,7 @@
 		<segment id="22" parent="23" relname="organization-preparation">The Cornice —</segment>
 		<segment id="23" parent="45" relname="span">in the Ground —</segment>
 		<segment id="24" parent="25" relname="organization-preparation">Since then —</segment>
-		<segment id="25" parent="48" relname="span">'tis centuries —</segment>
+		<segment id="25" parent="48" relname="span">'t is centuries —</segment>
 		<segment id="26" parent="49" relname="span">and yet Feels shorter</segment>
 		<segment id="27" parent="47" relname="span">than the Day</segment>
 		<segment id="28" parent="29" relname="attribution-positive">I first surmised</segment>
