@@ -139,12 +139,12 @@
 7-20	580-581	—	_	_	_	_	_	_	
 7-21	582-588	sorrow	abstract[31]	giv[31]	nonsal[31]	_	_	_	
 7-22	589-592	for	abstract[31]	giv[31]	nonsal[31]	_	_	_	
-7-23	593-596	the	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	coref	7-37[35_32]	
+7-23	593-596	the	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	coref	7-28[33_32]	
 7-24	597-601	lost	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	_	_	
 7-25	602-608	Lenore	abstract[31]|person[32]	giv[31]|new[32]	nonsal[31]|nonsal[32]	_	_	_	
 7-26	609-610	—	_	_	_	_	_	_	
 7-27	611-614	For	_	_	_	_	_	_	
-7-28	615-618	the	person[33]	new[33]	nonsal[33]	_	_	_	
+7-28	615-618	the	person[33]	new[33]	nonsal[33]	_	coref	19-26[89_33]	
 7-29	619-623	rare	person[33]	new[33]	nonsal[33]	_	_	_	
 7-30	624-627	and	person[33]	new[33]	nonsal[33]	_	_	_	
 7-31	628-635	radiant	person[33]	new[33]	nonsal[33]	_	_	_	
@@ -153,7 +153,7 @@
 7-34	648-651	the	person[33]|person[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	_	coref	53-18[247_34]	
 7-35	652-658	angels	person[33]|person[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	_	_	_	
 7-36	659-663	name	person[33]	new[33]	nonsal[33]	_	_	_	
-7-37	664-670	Lenore	person[33]|abstract[35]	new[33]|giv[35]	nonsal[33]|nonsal[35]	_	coref	19-26[89_35]	
+7-37	664-670	Lenore	person[33]|abstract[35]	new[33]|giv[35]	nonsal[33]|nonsal[35]	_	coref	67-24[309_35]	
 7-38	671-672	—	_	_	_	_	_	_	
 7-39	673-681	Nameless	_	_	_	_	_	_	
 7-40	682-686	here	_	_	_	_	_	_	
@@ -305,7 +305,7 @@
 15-33	1324-1328	sure	_	_	_	_	_	_	
 15-34	1329-1330	I	person[73]	giv[73]	nonsal[73]	_	coref	16-2[75_73]	
 15-35	1331-1336	heard	_	_	_	_	_	_	
-15-36	1337-1340	you	person[74]	giv[74]	nonsal[74]	_	coref	38-20[174_74]	
+15-36	1337-1340	you	person[74]	giv[74]	nonsal[74]	_	_	_	
 15-37	1341-1342	"	_	_	_	_	_	_	
 15-38	1343-1344	—	_	_	_	_	_	_	
 
@@ -314,8 +314,8 @@
 16-2	1350-1351	I	person[75]	giv[75]	nonsal[75]	_	coref	18-8[80_75]	
 16-3	1352-1358	opened	_	_	_	_	_	_	
 16-4	1359-1363	wide	_	_	_	_	_	_	
-16-5	1364-1367	the	object[76]	giv[76]	nonsal[76]	_	coref	22-3[98_76]	
-16-6	1368-1372	door	object[76]	giv[76]	nonsal[76]	_	_	_	
+16-5	1364-1367	the	place[76]	giv[76]	nonsal[76]	_	coref	22-3[98_76]	
+16-6	1368-1372	door	place[76]	giv[76]	nonsal[76]	_	_	_	
 16-7	1373-1374	;	_	_	_	_	_	_	
 16-8	1375-1376	—	_	_	_	_	_	_	
 16-9	1377-1378	—	_	_	_	_	_	_	
@@ -409,7 +409,7 @@
 21-1	1760-1766	Merely	_	_	_	_	_	_	
 21-2	1767-1771	this	abstract[96]	giv[96]	nonsal[96]	_	_	_	
 21-3	1772-1775	and	_	_	_	_	_	_	
-21-4	1776-1783	nothing	object[97]	giv[97]	nonsal[97]	_	coref	26-5[116_97]	
+21-4	1776-1783	nothing	abstract[97]	giv[97]	nonsal[97]	_	coref	26-5[116_97]	
 21-5	1784-1788	more	_	_	_	_	_	_	
 21-6	1789-1790	.	_	_	_	_	_	_	
 
@@ -561,9 +561,9 @@
 30-9	2381-2382	,	_	_	_	_	_	_	
 30-10	2383-2390	perched	_	_	_	_	_	_	
 30-11	2391-2396	above	_	_	_	_	_	_	
-30-12	2397-2399	my	object[128]|person[129]	giv[128]|giv[129]	nonsal[128]|nonsal[129]	_	coref|coref	30-24[132_128]|30-24[133_129]	
-30-13	2400-2407	chamber	object[128]	giv[128]	nonsal[128]	_	_	_	
-30-14	2408-2412	door	object[128]	giv[128]	nonsal[128]	_	_	_	
+30-12	2397-2399	my	place[128]|person[129]	giv[128]|giv[129]	nonsal[128]|nonsal[129]	_	coref|coref	30-24[132_128]|30-24[133_129]	
+30-13	2400-2407	chamber	place[128]	giv[128]	nonsal[128]	_	_	_	
+30-14	2408-2412	door	place[128]	giv[128]	nonsal[128]	_	_	_	
 30-15	2413-2414	—	_	_	_	_	_	_	
 30-16	2415-2422	Perched	_	_	_	_	_	_	
 30-17	2423-2427	upon	_	_	_	_	_	_	
@@ -573,9 +573,9 @@
 30-21	2438-2444	Pallas	object[130]|person[131]	new[130]|new[131]	nonsal[130]|nonsal[131]	Athena[131]	coref	77-20[346_131]	
 30-22	2445-2449	just	_	_	_	_	_	_	
 30-23	2450-2455	above	_	_	_	_	_	_	
-30-24	2456-2458	my	object[132]|person[133]	giv[132]|giv[133]	nonsal[132]|nonsal[133]	_	coref|coref	48-26[214_132]|32-6[136_133]	
-30-25	2459-2466	chamber	object[132]	giv[132]	nonsal[132]	_	_	_	
-30-26	2467-2471	door	object[132]	giv[132]	nonsal[132]	_	_	_	
+30-24	2456-2458	my	place[132]|person[133]	giv[132]|giv[133]	nonsal[132]|nonsal[133]	_	coref|coref	48-26[214_132]|32-6[136_133]	
+30-25	2459-2466	chamber	place[132]	giv[132]	nonsal[132]	_	_	_	
+30-26	2467-2471	door	place[132]	giv[132]	nonsal[132]	_	_	_	
 30-27	2472-2473	—	_	_	_	_	_	_	
 
 #Text=Perched , and sat , and nothing more .
@@ -935,7 +935,7 @@
 48-23	4048-4051	and	_	_	_	_	_	_	
 48-24	4052-4056	bust	object[213]	giv[213]	nonsal[213]	_	coref	74-3[331_213]	
 48-25	4057-4060	and	_	_	_	_	_	_	
-48-26	4061-4065	door	object[214]	giv[214]	nonsal[214]	_	coref	74-6[332_214]	
+48-26	4061-4065	door	place[214]	giv[214]	nonsal[214]	_	coref	74-6[332_214]	
 48-27	4066-4067	;	_	_	_	_	_	_	
 
 #Text=Then , upon the velvet sinking , I betook myself to linking Fancy unto fancy , thinking what this ominous bird of yore — What this grim , ungainly , ghastly , gaunt , and ominous bird of yore Meant in croaking " Nevermore . "
@@ -964,20 +964,20 @@
 49-23	4182-4186	yore	animal[220]|time[221]	new[220]|new[221]	nonsal[220]|nonsal[221]	_	coref	49-39[224_221]	
 49-24	4187-4188	—	_	_	_	_	_	_	
 49-25	4189-4193	What	abstract[222]	new[222]	nonsal[222]	_	coref	50-1[226_222]	
-49-26	4194-4198	this	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	coref	50-13[229_223]	
-49-27	4199-4203	grim	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-28	4204-4205	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-29	4206-4214	ungainly	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-30	4215-4216	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-31	4217-4224	ghastly	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-32	4225-4226	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-33	4227-4232	gaunt	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-34	4233-4234	,	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-35	4235-4238	and	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-36	4239-4246	ominous	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-37	4247-4251	bird	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-38	4252-4254	of	abstract[222]|abstract[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
-49-39	4255-4259	yore	abstract[222]|abstract[223]|time[224]	new[222]|giv[223]|giv[224]	nonsal[222]|nonsal[223]|nonsal[224]	_	_	_	
+49-26	4194-4198	this	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	coref	50-13[229_223]	
+49-27	4199-4203	grim	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-28	4204-4205	,	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-29	4206-4214	ungainly	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-30	4215-4216	,	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-31	4217-4224	ghastly	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-32	4225-4226	,	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-33	4227-4232	gaunt	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-34	4233-4234	,	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-35	4235-4238	and	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-36	4239-4246	ominous	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-37	4247-4251	bird	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-38	4252-4254	of	abstract[222]|animal[223]	new[222]|giv[223]	nonsal[222]|nonsal[223]	_	_	_	
+49-39	4255-4259	yore	abstract[222]|animal[223]|time[224]	new[222]|giv[223]|giv[224]	nonsal[222]|nonsal[223]|nonsal[224]	_	_	_	
 49-40	4260-4265	Meant	abstract[222]	new[222]	nonsal[222]	_	_	_	
 49-41	4266-4268	in	abstract[222]	new[222]	nonsal[222]	_	_	_	
 49-42	4269-4277	croaking	abstract[222]	new[222]	nonsal[222]	_	_	_	
@@ -1416,8 +1416,8 @@
 74-3	6037-6040	the	object[331]	new[331]	nonsal[331]	_	coref	77-16[345_331]	
 74-4	6041-6045	bust	object[331]	new[331]	nonsal[331]	_	_	_	
 74-5	6046-6051	above	object[331]	new[331]	nonsal[331]	_	_	_	
-74-6	6052-6054	my	object[331]|object[332]|person[333]	new[331]|new[332]|giv[333]	nonsal[331]|nonsal[332]|nonsal[333]	_	coref|coref	75-15[340_332]|75-6[337_333]	
-74-7	6055-6059	door	object[331]|object[332]	new[331]|new[332]	nonsal[331]|nonsal[332]	_	_	_	
+74-6	6052-6054	my	object[331]|place[332]|person[333]	new[331]|new[332]|giv[333]	nonsal[331]|nonsal[332]|nonsal[333]	_	coref|coref	75-15[340_332]|75-6[337_333]	
+74-7	6055-6059	door	object[331]|place[332]	new[331]|new[332]	nonsal[331]|nonsal[332]	_	_	_	
 74-8	6060-6061	!	_	_	_	_	_	_	
 
 #Text=Take thy beak from out my heart , and take thy form from off my door ! "
@@ -1435,8 +1435,8 @@
 75-12	6109-6113	form	object[338]	new[338]	nonsal[338]	_	_	_	
 75-13	6114-6118	from	_	_	_	_	_	_	
 75-14	6119-6122	off	_	_	_	_	_	_	
-75-15	6123-6125	my	object[340]|person[341]	giv[340]|giv[341]	nonsal[340]|nonsal[341]	_	coref|coref	77-23[347_340]|77-23[348_341]	
-75-16	6126-6130	door	object[340]	giv[340]	nonsal[340]	_	_	_	
+75-15	6123-6125	my	place[340]|person[341]	giv[340]|giv[341]	nonsal[340]|nonsal[341]	_	coref|coref	77-23[347_340]|77-23[348_341]	
+75-16	6126-6130	door	place[340]	giv[340]	nonsal[340]	_	_	_	
 75-17	6131-6132	!	_	_	_	_	_	_	
 75-18	6133-6134	"	_	_	_	_	_	_	
 
@@ -1473,9 +1473,9 @@
 77-20	6260-6266	Pallas	object[345]|person[346]	giv[345]|giv[346]	nonsal[345]|nonsal[346]	Athena[346]	_	_	
 77-21	6267-6271	just	_	_	_	_	_	_	
 77-22	6272-6277	above	_	_	_	_	_	_	
-77-23	6278-6280	my	object[347]|person[348]	giv[347]|giv[348]	nonsal[347]|nonsal[348]	_	coref	80-2[359_348]	
-77-24	6281-6288	chamber	object[347]	giv[347]	nonsal[347]	_	_	_	
-77-25	6289-6293	door	object[347]	giv[347]	nonsal[347]	_	_	_	
+77-23	6278-6280	my	place[347]|person[348]	giv[347]|giv[348]	nonsal[347]|nonsal[348]	_	coref	80-2[359_348]	
+77-24	6281-6288	chamber	place[347]	giv[347]	nonsal[347]	_	_	_	
+77-25	6289-6293	door	place[347]	giv[347]	nonsal[347]	_	_	_	
 77-26	6294-6295	;	_	_	_	_	_	_	
 
 #Text=And his eyes have all the seeming of a demon 's that is dreaming
