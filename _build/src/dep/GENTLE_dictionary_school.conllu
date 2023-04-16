@@ -870,7 +870,7 @@
 2	also	_	_	_	_	1	advmod	_	_
 3	Thesaurus	_	_	_	_	5	dep	_	_
 4	:	_	_	_	_	5	punct	_	_
-5	school	_	_	_	_	1	ccomp	_	_
+5	school	_	_	_	_	1	obj	_	_
 
 1	Coordinate	_	_	_	_	2	amod	_	_
 2	terms	_	_	_	_	0	root	_	_

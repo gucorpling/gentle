@@ -87,7 +87,7 @@
 		<segment id="49" parent="164" relname="restatement-repetition">adjoining .</segment>
 		<segment id="50" parent="165" relname="joint-list">The man in the next bunk kept me awake all night with his snoring .</segment>
 		<segment id="51" parent="165" relname="joint-list">She lives a mile or two away , in the next village .</segment>
-		<segment id="52" parent="53" relname="contingency-condition">( obsolete )</segment>
+		<segment id="52" parent="53" relname="context-background">( obsolete )</segment>
 		<segment id="53" parent="167" relname="span">Most direct , or shortest or nearest in distance or time .</segment>
 		<segment id="54" parent="171" relname="restatement-repetition">Nearest in order , succession , or rank ;</segment>
 		<segment id="55" parent="169" relname="span">immediately following</segment>
@@ -97,17 +97,17 @@
 		<segment id="59" parent="172" relname="joint-list">On Wednesday next , I 'm going to Spain .</segment>
 		<segment id="60" parent="172" relname="joint-list">the next chapter ; the next week ; the Sunday next before Easter</segment>
 		<segment id="61" parent="173" relname="span">The man was driven by his love for money and his desire</segment>
-		<segment id="62" parent="61" relname="elaboration-attribute">to become the next Bill Gates .</segment>
-		<segment id="63" parent="64" relname="contingency-condition">( chiefly law )</segment>
+		<segment id="62" parent="61" relname="purpose-attribute">to become the next Bill Gates .</segment>
+		<segment id="63" parent="64" relname="context-circumstance">( chiefly law )</segment>
 		<segment id="64" parent="175" relname="span">Nearest in relationship .</segment>
-		<segment id="65" parent="175" relname="context-background">( See also next of kin . )</segment>
+		<segment id="65" parent="175" relname="elaboration-additional">( See also next of kin . )</segment>
 		<segment id="66" parent="176" relname="explanation-evidence">next friend</segment>
 		<segment id="67" parent="181" relname="organization-heading">Usage notes</segment>
 		<segment id="68" parent="180" relname="joint-list">Near was originally the comparative form of nigh ;</segment>
 		<segment id="69" parent="180" relname="joint-list">the superlative form was next .</segment>
 		<segment id="70" parent="181" relname="adversative-contrast">Nigh is used today mostly in archaic , poetic , or regional contexts .</segment>
 		<segment id="71" parent="183" relname="organization-heading">Synonyms</segment>
-		<segment id="72" parent="73" relname="contingency-condition">( nearest in order ) :</segment>
+		<segment id="72" parent="73" relname="context-circumstance">( nearest in order ) :</segment>
 		<segment id="73" parent="183" relname="span">See also Thesaurus : former or Thesaurus : subsequent</segment>
 		<segment id="74" parent="75" relname="organization-heading">Antonyms</segment>
 		<segment id="75" parent="185" relname="span">previous</segment>
@@ -120,11 +120,11 @@
 		<segment id="82" parent="191" relname="span">Next week would be a good time</segment>
 		<segment id="83" parent="82" relname="purpose-attribute">to meet .</segment>
 		<segment id="84" parent="192" relname="joint-list">I 'll know better next time .</segment>
-		<segment id="85" parent="194" relname="contingency-condition">( of days of the week or months of the year )</segment>
+		<segment id="85" parent="194" relname="context-circumstance">( of days of the week or months of the year )</segment>
 		<segment id="86" parent="194" relname="span">Closest in the future , or closest but one</segment>
 		<segment id="87" parent="86" relname="contingency-condition">if the closest is very soon ;</segment>
 		<segment id="88" parent="196" relname="span">of days , sometimes thought to specifically refer to the instance closest to seven days</segment>
-		<segment id="89" parent="88" relname="elaboration-attribute">( one week )</segment>
+		<segment id="89" parent="88" relname="restatement-partial">( one week )</segment>
 		<segment id="90" parent="195" relname="same-unit">in the future .</segment>
 		<segment id="91" parent="201" relname="span">The party is next Tuesday ;</segment>
 		<segment id="92" parent="200" relname="same-unit">that is ,</segment>
@@ -137,14 +137,14 @@
 		<segment id="99" parent="205" relname="joint-list">this</segment>
 		<segment id="100" parent="205" relname="joint-list">this coming</segment>
 		<segment id="101" parent="206" relname="span">week</segment>
-		<segment id="102" parent="101" relname="explanation-evidence">(as in Saturday week )</segment>
+		<segment id="102" parent="101" relname="mode-manner">(as in Saturday week )</segment>
 		<segment id="103" parent="227" relname="organization-heading">Adverb</segment>
 		<segment id="104" parent="212" relname="span">next</segment>
 		<segment id="105" parent="104" relname="elaboration-additional">( not comparable )</segment>
 		<segment id="106" parent="218" relname="span">In a time , place , rank or sequence closest or following .</segment>
 		<segment id="107" parent="213" relname="joint-list">They live in the next closest house .</segment>
 		<segment id="108" parent="213" relname="joint-list">It 's the next best thing to ice cream .</segment>
-		<segment id="109" parent="214" relname="contingency-condition">( conjunctive )</segment>
+		<segment id="109" parent="214" relname="context-circumstance">( conjunctive )</segment>
 		<segment id="110" parent="214" relname="span">So as to follow in time or sequence something</segment>
 		<segment id="111" parent="110" relname="elaboration-attribute">previously mentioned .</segment>
 		<segment id="112" parent="216" relname="joint-list">First we removed all the handles ;</segment>
@@ -158,13 +158,13 @@
 		<segment id="120" parent="224" relname="span">previously</segment>
 		<segment id="121" parent="229" relname="organization-heading">Preposition</segment>
 		<segment id="122" parent="228" relname="organization-heading">next</segment>
-		<segment id="123" parent="124" relname="contingency-condition">( obsolete or poetic )</segment>
+		<segment id="123" parent="124" relname="context-background">( obsolete or poetic )</segment>
 		<segment id="124" parent="228" relname="span">On the side of ; nearest or adjacent to ; next to .</segment>
 		<segment id="125" parent="237" relname="organization-heading">Noun</segment>
 		<segment id="126" parent="232" relname="span">next</segment>
 		<segment id="127" parent="126" relname="elaboration-additional">( uncountable )</segment>
 		<segment id="128" parent="231" relname="span">The one</segment>
-		<segment id="129" parent="128" relname="elaboration-additional">that follows after this one .</segment>
+		<segment id="129" parent="128" relname="elaboration-attribute">that follows after this one .</segment>
 		<segment id="130" parent="233" relname="joint-list">Next , please ,</segment>
 		<segment id="131" parent="233" relname="joint-list">do n't hold up the queue !</segment>
 		<segment id="132" parent="234" relname="adversative-contrast">One moment she was there ,</segment>

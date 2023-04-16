@@ -40,28 +40,28 @@
 		<segment id="2" parent="294" relname="organization-heading">English</segment>
 		<segment id="3" parent="188" relname="organization-heading">Etymology</segment>
 		<segment id="4" parent="171" relname="span">From Middle English trust</segment>
-		<segment id="5" parent="4" relname="elaboration-attribute">( “ trust , protection ” ) .</segment>
+		<segment id="5" parent="4" relname="elaboration-additional">( “ trust , protection ” ) .</segment>
 		<segment id="6" parent="172" relname="span">Long considered a borrowing from Old Norse traust</segment>
-		<segment id="7" parent="6" relname="elaboration-attribute">( “ confidence , help , protection ” ) ,</segment>
+		<segment id="7" parent="6" relname="elaboration-additional">( “ confidence , help , protection ” ) ,</segment>
 		<segment id="8" parent="174" relname="adversative-contrast">itself from Proto - Germanic *traustą ,</segment>
 		<segment id="9" parent="174" relname="adversative-contrast">but the root vocalism is incompatible ,</segment>
 		<segment id="10" parent="175" relname="span">and now it 's considered a reflex of an unattested Old English *trust , from a rare zero - grade proto - Germanic variant of the same root</segment>
 		<segment id="11" parent="176" relname="span">also attested in Middle High German getrüste</segment>
-		<segment id="12" parent="11" relname="elaboration-attribute">( “ host ” ) .</segment>
+		<segment id="12" parent="11" relname="elaboration-additional">( “ host ” ) .</segment>
 		<segment id="13" parent="180" relname="span">Ultimately from Proto - Indo - European *deru-</segment>
-		<segment id="14" parent="13" relname="elaboration-attribute">( be firm , hard , solid ” ) .</segment>
+		<segment id="14" parent="13" relname="elaboration-additional">( be firm , hard , solid ” ) .</segment>
 		<segment id="15" parent="181" relname="span">Akin to Danish trøst</segment>
-		<segment id="16" parent="15" relname="elaboration-attribute">( “ comfort , solace ” ) ,</segment>
+		<segment id="16" parent="15" relname="elaboration-additional">( “ comfort , solace ” ) ,</segment>
 		<segment id="17" parent="182" relname="span">Saterland Frisian Traast</segment>
-		<segment id="18" parent="17" relname="elaboration-attribute">( “ comfort , solace ” ) ,</segment>
+		<segment id="18" parent="17" relname="elaboration-additional">( “ comfort , solace ” ) ,</segment>
 		<segment id="19" parent="183" relname="span">West Frisian treast</segment>
-		<segment id="20" parent="19" relname="elaboration-attribute">( “ comfort , solace ” ) ,</segment>
+		<segment id="20" parent="19" relname="elaboration-additional">( “ comfort , solace ” ) ,</segment>
 		<segment id="21" parent="185" relname="span">Dutch troost</segment>
-		<segment id="22" parent="21" relname="elaboration-attribute">( “ comfort , consolation ” ) ,</segment>
+		<segment id="22" parent="21" relname="elaboration-additional">( “ comfort , consolation ” ) ,</segment>
 		<segment id="23" parent="186" relname="span">German Trost</segment>
-		<segment id="24" parent="23" relname="elaboration-attribute">( “ comfort , consolation ” ) ,</segment>
+		<segment id="24" parent="23" relname="elaboration-additional">( “ comfort , consolation ” ) ,</segment>
 		<segment id="25" parent="187" relname="span">Gothic trausti</segment>
-		<segment id="26" parent="25" relname="elaboration-attribute">( trausti , “ alliance , pact ” ) .</segment>
+		<segment id="26" parent="25" relname="elaboration-additional">( trausti , “ alliance , pact ” ) .</segment>
 		<segment id="27" parent="188" relname="joint-other">Doublet of tryst .</segment>
 		<segment id="28" parent="188" relname="joint-other">More at true , tree .</segment>
 		<segment id="29" parent="198" relname="organization-heading">Pronunciation</segment>
@@ -70,7 +70,7 @@
 		<segment id="32" parent="190" relname="span">IPA</segment>
 		<segment id="33" parent="32" relname="elaboration-additional">( key ) :</segment>
 		<segment id="34" parent="191" relname="span">/trʌst/ , [tɹʌst] , [tɹɐst] , [t͡ʃɹ-]</segment>
-		<segment id="35" parent="195" relname="contingency-condition">( Northern England )</segment>
+		<segment id="35" parent="195" relname="context-circumstance">( Northern England )</segment>
 		<segment id="36" parent="194" relname="span">IPA</segment>
 		<segment id="37" parent="36" relname="elaboration-additional">( key ) :</segment>
 		<segment id="38" parent="195" relname="span">/trʊst/</segment>
@@ -87,7 +87,7 @@
 		<segment id="49" parent="204" relname="joint-list">to lose trust in someone</segment>
 		<segment id="50" parent="204" relname="joint-list">build up trust</segment>
 		<segment id="51" parent="205" relname="span">a relationship</segment>
-		<segment id="52" parent="51" relname="elaboration-additional">built on mutual trust</segment>
+		<segment id="52" parent="51" relname="elaboration-attribute">built on mutual trust</segment>
 		<segment id="53" parent="206" relname="joint-disjunction">Dependence upon something in the future ; hope .</segment>
 		<segment id="54" parent="207" relname="span">Confidence in the future payment for goods or services</segment>
 		<segment id="55" parent="54" relname="elaboration-attribute">supplied ;</segment>
@@ -102,18 +102,18 @@
 		<segment id="64" parent="214" relname="span">That</segment>
 		<segment id="65" parent="64" relname="elaboration-attribute">upon which confidence is reposed ;</segment>
 		<segment id="66" parent="215" relname="same-unit">ground of reliance ; hope .</segment>
-		<segment id="67" parent="68" relname="contingency-condition">( rare )</segment>
+		<segment id="67" parent="68" relname="evaluation-comment">( rare )</segment>
 		<segment id="68" parent="216" relname="span">Trustworthiness , reliability .</segment>
 		<segment id="69" parent="217" relname="span">The condition or obligation of one</segment>
 		<segment id="70" parent="69" relname="elaboration-attribute">to whom anything is confided ;</segment>
 		<segment id="71" parent="218" relname="same-unit">responsible charge or office .</segment>
-		<segment id="72" parent="219" relname="contingency-condition">( law )</segment>
+		<segment id="72" parent="219" relname="context-circumstance">( law )</segment>
 		<segment id="73" parent="219" relname="span">The confidence</segment>
 		<segment id="74" parent="220" relname="span">vested in a person</segment>
 		<segment id="75" parent="221" relname="span">who has legal ownership of a property</segment>
 		<segment id="76" parent="75" relname="purpose-goal">to manage for the benefit of another .</segment>
 		<segment id="77" parent="222" relname="explanation-evidence">I put the house into my sister 's trust .</segment>
-		<segment id="78" parent="231" relname="contingency-condition">( law )</segment>
+		<segment id="78" parent="231" relname="context-circumstance">( law )</segment>
 		<segment id="79" parent="228" relname="span">An arrangement</segment>
 		<segment id="80" parent="225" relname="span">whereby property or money is given</segment>
 		<segment id="81" parent="224" relname="span">to be held by a third party</segment>
@@ -127,7 +127,7 @@
 		<segment id="89" parent="234" relname="span">organised for mutual benefit</segment>
 		<segment id="90" parent="89" relname="purpose-goal">to produce and distribute specific commodities or services ,</segment>
 		<segment id="91" parent="235" relname="joint-list">and managed by a central body of trustees .</segment>
-		<segment id="92" parent="93" relname="contingency-condition">( computing )</segment>
+		<segment id="92" parent="93" relname="context-circumstance">( computing )</segment>
 		<segment id="93" parent="236" relname="span">Affirmation of the access rights of a user of a computer system .</segment>
 		<segment id="94" parent="239" relname="organization-heading">Synonyms</segment>
 		<segment id="95" parent="96" relname="context-circumstance">( confidence in a person or quality )</segment>
@@ -150,47 +150,47 @@
 		<segment id="112" parent="249" relname="restatement-repetition">to confide in .</segment>
 		<segment id="113" parent="251" relname="span">We can not trust anyone</segment>
 		<segment id="114" parent="113" relname="elaboration-attribute">who deceives us .</segment>
-		<segment id="115" parent="253" relname="elaboration-additional">( intransitive , with in )</segment>
+		<segment id="115" parent="253" relname="context-background">( intransitive , with in )</segment>
 		<segment id="116" parent="253" relname="joint-list">To have faith in ;</segment>
 		<segment id="117" parent="253" relname="joint-list">to rely on for continuing support or aid .</segment>
 		<segment id="118" parent="255" relname="span">In God We Trust</segment>
 		<segment id="119" parent="118" relname="elaboration-additional">( official US motto )</segment>
-		<segment id="120" parent="257" relname="elaboration-additional">( transitive )</segment>
+		<segment id="120" parent="257" relname="context-background">( transitive )</segment>
 		<segment id="121" parent="257" relname="restatement-repetition">To give credence to ;</segment>
 		<segment id="122" parent="257" relname="restatement-repetition">to believe ;</segment>
 		<segment id="123" parent="257" relname="restatement-repetition">to credit .</segment>
-		<segment id="124" parent="260" relname="elaboration-additional">( transitive )</segment>
+		<segment id="124" parent="260" relname="context-background">( transitive )</segment>
 		<segment id="125" parent="259" relname="restatement-repetition">To hope confidently ;</segment>
 		<segment id="126" parent="259" relname="restatement-repetition">to believe</segment>
 		<segment id="127" parent="259" relname="context-circumstance">( usually with a phrase or infinitive clause as the object )</segment>
 		<segment id="128" parent="129" relname="attribution-positive">I trust</segment>
 		<segment id="129" parent="262" relname="span">you have cleaned your room ?</segment>
-		<segment id="130" parent="265" relname="elaboration-additional">( transitive )</segment>
+		<segment id="130" parent="265" relname="context-background">( transitive )</segment>
 		<segment id="131" parent="265" relname="span">to show confidence in a person</segment>
-		<segment id="132" parent="131" relname="mode-manner">by entrusting them with something .</segment>
+		<segment id="132" parent="131" relname="mode-means">by entrusting them with something .</segment>
 		<segment id="133" parent="267" relname="elaboration-additional">( transitive )</segment>
 		<segment id="134" parent="267" relname="restatement-repetition">To commit , as to one 's care ;</segment>
 		<segment id="135" parent="267" relname="restatement-repetition">to entrust .</segment>
-		<segment id="136" parent="269" relname="elaboration-additional">( transitive )</segment>
+		<segment id="136" parent="269" relname="context-background">( transitive )</segment>
 		<segment id="137" parent="269" relname="joint-disjunction">To give credit to ;</segment>
 		<segment id="138" parent="269" relname="joint-disjunction">to sell to upon credit , or in confidence of future payment .</segment>
 		<segment id="139" parent="270" relname="explanation-evidence">Merchants and manufacturers trust their customers annually with goods .</segment>
-		<segment id="140" parent="273" relname="elaboration-additional">( intransitive followed by to</segment>
+		<segment id="140" parent="273" relname="context-background">( intransitive followed by to</segment>
 		<segment id="141" parent="273" relname="span">To rely on ( something ) ,</segment>
 		<segment id="142" parent="272" relname="span">as though having trust</segment>
 		<segment id="143" parent="142" relname="elaboration-additional">( on it ) .</segment>
 		<segment id="144" parent="275" relname="joint-list">to trust to luck</segment>
-		<segment id="145" parent="146" relname="context-circumstance">Having lost the book ,</segment>
+		<segment id="145" parent="146" relname="causal-cause">Having lost the book ,</segment>
 		<segment id="146" parent="276" relname="span">he had to trust to his memory for further details .</segment>
-		<segment id="147" parent="278" relname="elaboration-additional">( archaic , transitive</segment>
+		<segment id="147" parent="278" relname="context-background">( archaic , transitive</segment>
 		<segment id="148" parent="278" relname="joint-disjunction">To risk ;</segment>
 		<segment id="149" parent="278" relname="joint-disjunction">to venture confidently .</segment>
-		<segment id="150" parent="280" relname="elaboration-additional">( intransitive )</segment>
+		<segment id="150" parent="280" relname="context-background">( intransitive )</segment>
 		<segment id="151" parent="280" relname="restatement-repetition">To have trust ;</segment>
 		<segment id="152" parent="280" relname="restatement-repetition">to be credulous ;</segment>
 		<segment id="153" parent="280" relname="restatement-repetition">to be won to confidence ;</segment>
 		<segment id="154" parent="280" relname="restatement-repetition">to confide .</segment>
-		<segment id="155" parent="282" relname="elaboration-additional">( archaic , intransitive</segment>
+		<segment id="155" parent="282" relname="context-background">( archaic , intransitive</segment>
 		<segment id="156" parent="282" relname="joint-disjunction">To sell or deliver anything in reliance upon a promise of payment ;</segment>
 		<segment id="157" parent="282" relname="joint-disjunction">to give credit .</segment>
 		<segment id="158" parent="284" relname="organization-heading">Antonyms</segment>
@@ -200,16 +200,16 @@
 		<segment id="162" parent="287" relname="span">trust</segment>
 		<segment id="163" parent="286" relname="joint-list">( comparative more trust ,</segment>
 		<segment id="164" parent="286" relname="joint-list">superlative most trust )</segment>
-		<segment id="165" parent="166" relname="contingency-condition">( obsolete )</segment>
+		<segment id="165" parent="166" relname="context-background">( obsolete )</segment>
 		<segment id="166" parent="288" relname="span">Secure , safe .</segment>
-		<segment id="167" parent="168" relname="contingency-condition">( obsolete )</segment>
+		<segment id="167" parent="168" relname="context-background">( obsolete )</segment>
 		<segment id="168" parent="289" relname="span">Faithful , dependable .</segment>
-		<segment id="169" parent="170" relname="contingency-condition">( law )</segment>
+		<segment id="169" parent="170" relname="context-circumstance">( law )</segment>
 		<segment id="170" parent="290" relname="span">of or relating to a trust .</segment>
 		<group id="171" type="span" parent="178" relname="span"/>
 		<group id="172" type="span" parent="173" relname="span"/>
 		<group id="173" type="span" parent="177" relname="adversative-contrast"/>
-		<group id="174" type="multinuc" parent="172" relname="elaboration-attribute"/>
+		<group id="174" type="multinuc" parent="172" relname="elaboration-additional"/>
 		<group id="175" type="span" parent="179" relname="joint-list"/>
 		<group id="176" type="span" parent="10" relname="elaboration-attribute"/>
 		<group id="177" type="multinuc" parent="171" relname="elaboration-additional"/>
@@ -255,12 +255,12 @@
 		<group id="217" type="span" parent="218" relname="same-unit"/>
 		<group id="218" type="multinuc" parent="206" relname="joint-disjunction"/>
 		<group id="219" type="span" parent="222" relname="span"/>
-		<group id="220" type="span" parent="73" relname="elaboration-additional"/>
+		<group id="220" type="span" parent="73" relname="elaboration-attribute"/>
 		<group id="221" type="span" parent="74" relname="elaboration-attribute"/>
 		<group id="222" type="span" parent="223" relname="span"/>
 		<group id="223" type="span" parent="206" relname="joint-disjunction"/>
 		<group id="224" type="span" parent="226" relname="same-unit"/>
-		<group id="225" type="span" parent="79" relname="elaboration-additional"/>
+		<group id="225" type="span" parent="79" relname="elaboration-attribute"/>
 		<group id="226" type="multinuc" parent="80" relname="purpose-attribute"/>
 		<group id="227" type="span" parent="226" relname="same-unit"/>
 		<group id="228" type="span" parent="231" relname="same-unit"/>
@@ -307,7 +307,7 @@
 		<group id="269" type="multinuc" parent="270" relname="span"/>
 		<group id="270" type="span" parent="271" relname="span"/>
 		<group id="271" type="span" parent="264" relname="joint-disjunction"/>
-		<group id="272" type="span" parent="141" relname="causal-cause"/>
+		<group id="272" type="span" parent="141" relname="mode-manner"/>
 		<group id="273" type="span" parent="274" relname="span"/>
 		<group id="274" type="span" parent="277" relname="span"/>
 		<group id="275" type="multinuc" parent="274" relname="explanation-evidence"/>

@@ -586,18 +586,18 @@ shul	NN	shul
 </ref>
 .	SENT	.
 </s>
-<s type="frag">
+<s type="imp">
 Compare	VV	compare
 <ref target="https://en.wikipedia.org/wiki/Old_Frisian">
-Old	NNS	Old
+Old	NP	Old
 Frisian	NP	Frisian
 </ref>
 <ref target="https://en.wiktionary.org/wiki/skule#Old_Frisian">
-skūle	NN	skūle
+skūle	FW	skūle
 </ref>
 ,	,	,
 <ref target="https://en.wiktionary.org/wiki/schule#Old_Frisian">
-schūle	NN	schūle
+schūle	FW	schūle
 </ref>
 (	(	(
 “	``	''
@@ -626,7 +626,7 @@ Skoule	FW	skoule
 Dutch	NP	Dutch
 </ref>
 <ref target="https://en.wiktionary.org/wiki/school#Dutch">
-school	NP	school
+school	FW	school
 </ref>
 (	(	(
 “	``	''
@@ -654,7 +654,7 @@ High	NP	High
 German	NP	German
 </ref>
 <ref target="https://en.wiktionary.org/wiki/scuola#Old_High_German">
-scuola	NN	scuola
+scuola	FW	scuola
 </ref>
 (	(	(
 “	``	''
@@ -667,7 +667,7 @@ Old	NP	Old
 Norse	NP	Norse
 </ref>
 <ref target="https://en.wiktionary.org/wiki/sk%C3%B3li#Old_Norse">
-skóli	NP	skóli
+skóli	FW	skóli
 </ref>
 (	(	(
 “	``	''
@@ -842,7 +842,7 @@ educational	JJ	educational
 institution	NN	institution
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 Our	PP$	our
 children	NNS	child
 attend	VVP	attend
@@ -929,7 +929,7 @@ of	IN	of
 teaching	NN	teaching
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 Divinity	NN	divinity
 ,	,	,
 history	NN	history
@@ -1112,7 +1112,7 @@ educational	JJ	educational
 institution	NN	institution
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 I	PP	I
 'll	MD	will
 see	VV	see
@@ -1263,7 +1263,7 @@ institute	NN	institute
 Hyponyms	NNS	hyponym
 </hi>
 </s>
-<s type="inf">
+<s type="imp">
 See	VV	see
 also	RB	also
 <ref target="https://en.wiktionary.org/wiki/Thesaurus:school">
@@ -1423,7 +1423,7 @@ lesson	NN	lesson
 </s>
 </item>
 <item>
-<s type="frag">
+<s type="inf">
 (	(	(
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
 transitive	JJ	transitive

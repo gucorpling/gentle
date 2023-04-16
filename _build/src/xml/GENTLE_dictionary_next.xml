@@ -498,7 +498,7 @@ relationship	NN	relationship
 </ref>
 .	SENT	.
 </s>
-<s type="inf">
+<s type="imp">
 (	(	(
 See	VV	see
 also	RB	also
@@ -580,7 +580,7 @@ Synonyms	NN	synonym
 </s>
 <list type="unordered">
 <item>
-<s type="other">
+<s type="imp">
 (	(	(
 nearest	JJS	near
 in	IN	in
@@ -590,13 +590,13 @@ order	NN	order
 See	VV	see
 also	RB	also
 <ref target="https://en.wiktionary.org/wiki/Thesaurus:former">
-Thesaurus	NN	Thesaurus
+Thesaurus	NN	thesaurus
 :	:	:
 former	JJ	former
 </ref>
 or	CC	or
 <ref target="https://en.wiktionary.org/wiki/Thesaurus:subsequent">
-Thesaurus	NN	Thesaurus
+Thesaurus	NN	thesaurus
 :	:	:
 subsequent	JJ	subsequent
 </ref>
@@ -746,7 +746,7 @@ the	DT	the
 future	NN	future
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 <hi rend="italic">
 The	DT	the
 party	NN	party
@@ -768,7 +768,7 @@ now	RB	now
 .	SENT	.
 </hi>
 </s>
-<s type="frag">
+<s type="q">
 <hi rend="italic">
 When	WRB	when
 you	PP	you
@@ -813,7 +813,7 @@ this	DT	this
 </s>
 </item>
 <item>
-<s type="frag">
+<s type="other">
 <ref target="https://en.wiktionary.org/wiki/this_coming">
 this	DT	this
 coming	VVG	come
