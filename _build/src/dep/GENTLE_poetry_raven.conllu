@@ -1024,7 +1024,7 @@
 15	censer	_	_	_	_	11	obl	_	_
 16	Swung	_	_	_	_	15	acl	_	_
 17	by	_	_	_	_	18	case	_	_
-18	Seraphim	_	_	_	_	15	obl:agent	_	_
+18	Seraphim	_	_	_	_	16	obl:agent	_	_
 19	whose	_	_	_	_	22	nmod:poss	_	_
 20	foot	_	_	_	_	22	compound	_	_
 21	-	_	_	_	_	22	punct	_	_
