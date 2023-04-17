@@ -729,7 +729,7 @@ school	NN	school
 .	SENT	.
 </s>
 <s type="other">
-Related	VVN	Relat
+Related	VVN	relate
 also	RB	also
 to	IN	to
 <ref target="https://en.wikipedia.org/wiki/Old_High_German">
@@ -811,7 +811,7 @@ schools	NNS	school
 </s>
 <list type="ordered">
 <item>
-<s type="frag">
+<s type="decl">
 (	(	(
 <ref target="https://en.wikipedia.org/wiki/United_States">
 US	NP	US
@@ -854,7 +854,7 @@ our	PP$	our
 neighborhood	NN	neighborhood
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 Harvard	NP	Harvard
 University	NP	University
 is	VBZ	be
@@ -1209,6 +1209,7 @@ Synonyms	NNS	synonym
 </hi>
 </s>
 <list type="unordered">
+<item>
 <s type="frag">
 (	(	(
 institution	NN	institution
@@ -1231,6 +1232,8 @@ college	NN	college
 university	NN	university
 </ref>
 </s>
+</item>
+<item>
 <s type="frag">
 (	(	(
 organizational	JJ	organizational
@@ -1257,6 +1260,7 @@ faculty	NN	faculty
 institute	NN	institute
 </ref>
 </s>
+</item>
 </list>
 <s type="frag">
 <hi rend="bold">

@@ -113,7 +113,7 @@ nīehst	FW	nīehst
 “	``	''
 nearest	JJS	near
 ,	,	,
-next	JJS	next
+next	JJ	next
 ”	''	''
 )	)	)
 ,	,	,
@@ -148,13 +148,13 @@ closest	JJS	close
 )	)	)
 ;	,	;
 equivalent	JJ	equivalent
-to	TO	to
+to	IN	to
 <ref target="https://en.wiktionary.org/wiki/nigh#English">
 nigh	JJ	nigh
 </ref>
 +	CC	+
 <ref target="https://en.wiktionary.org/wiki/-est#English">
--est	JJS	-est
+-est	NN	-est
 </ref>
 .	SENT	.
 </s>
@@ -503,7 +503,7 @@ relationship	NN	relationship
 See	VV	see
 also	RB	also
 <ref target="https://en.wiktionary.org/wiki/next_of_kin#English">
-next	JJS	next
+next	JJ	next
 of	IN	of
 kin	NN	kin
 </ref>
@@ -662,8 +662,8 @@ one	NN	one
 .	SENT	.
 </hi>
 </s>
-<s type="frag">
-<hi rend="decl">
+<s type="sub">
+<hi rend="italic">
 Next	JJ	next
 week	NN	week
 would	MD	would
@@ -676,8 +676,8 @@ meet	VV	meet
 .	SENT	.
 </hi>
 </s>
-<s type="frag">
-<hi rend="decl">
+<s type="decl">
+<hi rend="italic">
 I	PP	I
 'll	MD	will
 know	VV	know
