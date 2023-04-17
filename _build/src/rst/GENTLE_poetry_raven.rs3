@@ -44,7 +44,7 @@
 		<segment id="6" parent="213" relname="span">suddenly there came a tapping ,</segment>
 		<segment id="7" parent="212" relname="span">As of some one gently rapping ,</segment>
 		<segment id="8" parent="7" relname="elaboration-additional">rapping at my chamber door .</segment>
-		<segment id="9" parent="216" relname="span">" 'Tis some visiter , "</segment>
+		<segment id="9" parent="216" relname="span">" 'T is some visiter , "</segment>
 		<segment id="10" parent="9" relname="attribution-positive">I muttered ,</segment>
 		<segment id="11" parent="216" relname="elaboration-attribute">" tapping at my chamber door —</segment>
 		<segment id="12" parent="217" relname="restatement-partial">Only this and nothing more . "</segment>
@@ -60,7 +60,7 @@
 		<segment id="22" parent="228" relname="same-unit">So that now ,</segment>
 		<segment id="23" parent="24" relname="purpose-goal">to still the beating of my heart ,</segment>
 		<segment id="24" parent="227" relname="span">I stood repeating</segment>
-		<segment id="25" parent="229" relname="span">" 'Tis some visiter</segment>
+		<segment id="25" parent="229" relname="span">" 'T is some visiter</segment>
 		<segment id="26" parent="25" relname="elaboration-attribute">entreating entrance at my chamber door —</segment>
 		<segment id="27" parent="230" relname="span">Some late visiter</segment>
 		<segment id="28" parent="27" relname="elaboration-attribute">entreating entrance at my chamber door ;</segment>
@@ -103,7 +103,7 @@
 		<segment id="65" parent="264" relname="joint-list">and this mystery explore —</segment>
 		<segment id="66" parent="265" relname="joint-list">Let my heart be still a moment</segment>
 		<segment id="67" parent="265" relname="joint-list">and this mystery explore ; —</segment>
-		<segment id="68" parent="267" relname="evaluation-comment">'Tis the wind and nothing more . "</segment>
+		<segment id="68" parent="267" relname="evaluation-comment">'T is the wind and nothing more . "</segment>
 		<segment id="69" parent="269" relname="span">Open here I flung the shutter ,</segment>
 		<segment id="70" parent="277" relname="span">when , with many a flirt and flutter , In there stepped a stately Raven of the saintly days of yore .</segment>
 		<segment id="71" parent="271" relname="joint-list">Not the least obeisance made he ;</segment>

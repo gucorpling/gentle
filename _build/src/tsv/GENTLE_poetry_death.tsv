@@ -166,7 +166,7 @@
 16-6	599-605	Ground	place[43]	giv[43]	nonsal[43]	_	_	_	
 16-7	606-607	—	_	_	_	_	_	_	
 
-#Text=Since then — 't is centuries — and yet Feels shorter than the Day I first surmised the Horses' Heads Were toward Eternity —
+#Text=Since then — 't is centuries — and yet Feels shorter than the Day I first surmised the Horses ' Heads Were toward Eternity —
 17-1	608-613	Since	_	_	_	_	_	_	
 17-2	614-618	then	time[44]	new[44]	nonsal[44]	_	coref	17-6[45_44]	
 17-3	619-620	—	_	_	_	_	_	_	
@@ -185,9 +185,10 @@
 17-16	676-681	first	time[46]	new[46]	nonsal[46]	_	_	_	
 17-17	682-690	surmised	time[46]	new[46]	nonsal[46]	_	_	_	
 17-18	691-694	the	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
-17-19	695-702	Horses'	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
-17-20	703-708	Heads	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
-17-21	709-713	Were	time[46]	new[46]	nonsal[46]	_	_	_	
-17-22	714-720	toward	time[46]	new[46]	nonsal[46]	_	_	_	
-17-23	721-729	Eternity	time[46]|abstract[48]	new[46]|new[48]	nonsal[46]|nonsal[48]	_	_	_	
-17-24	730-731	—	_	_	_	_	_	_	
+17-19	695-701	Horses	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
+17-20	702-703	'	time[46]|animal[47]	new[46]|new[47]	nonsal[46]|nonsal[47]	_	_	_	
+17-21	704-709	Heads	time[46]	new[46]	nonsal[46]	_	_	_	
+17-22	710-714	Were	time[46]	new[46]	nonsal[46]	_	_	_	
+17-23	715-721	toward	time[46]	new[46]	nonsal[46]	_	_	_	
+17-24	722-730	Eternity	time[46]|abstract[48]	new[46]|new[48]	nonsal[46]|nonsal[48]	_	_	_	
+17-25	731-732	—	_	_	_	_	_	_	

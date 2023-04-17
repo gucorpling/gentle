@@ -83,7 +83,7 @@
 		<segment id="26" parent="49" relname="span">and yet Feels shorter</segment>
 		<segment id="27" parent="47" relname="span">than the Day</segment>
 		<segment id="28" parent="29" relname="attribution-positive">I first surmised</segment>
-		<segment id="29" parent="46" relname="span">the Horses' Heads Were toward Eternity —</segment>
+		<segment id="29" parent="46" relname="span">the Horses ' Heads Were toward Eternity —</segment>
 		<group id="30" type="span" parent="51" relname="span"/>
 		<group id="31" type="multinuc" parent="30" relname="elaboration-additional"/>
 		<group id="32" type="multinuc" parent="5" relname="causal-cause"/>

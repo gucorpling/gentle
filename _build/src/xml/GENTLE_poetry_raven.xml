@@ -69,7 +69,10 @@ door	NN	door
 <s type="decl">
 <l n="5"/>
 "	``	''
-'Tis	VVZ	'tis
+<w>
+'T	PP	it
+is	VBZ	is
+</w>
 some	DT	some
 visiter	NN	visiter
 ,	,	,
@@ -223,7 +226,10 @@ repeating	VVG	repeat
 <s type="decl">
 <l n="16"/>
 "	``	''
-'Tis	VVZ	'tis
+<w>
+'T	PP	it
+is	VBZ	is
+</w>
 some	DT	some
 visiter	NN	visiter
 entreating	VVG	entreat
@@ -535,7 +541,10 @@ explore	VV	explore
 </s>
 <s type="decl">
 <l n="36"/>
-'Tis	VVZ	'tis
+<w>
+'T	PP	it
+is	VBZ	is
+</w>
 the	DT	the
 wind	NN	wind
 and	CC	and
@@ -1217,7 +1226,7 @@ cried	VVD	cry
 "	``	''
 thy	PP$	thy
 God	NP	God
-hath	VVZ	hath
+hath	VHZ	have
 lent	VVN	lent
 thee	PP	thee
 —	:	—
@@ -1225,7 +1234,7 @@ by	IN	by
 these	DT	this
 angels	NNS	angel
 he	PP	he
-hath	VVZ	hath
+hath	VHZ	have
 sent	VVN	send
 thee	PP	thee
 <l n="82"/>
@@ -1537,7 +1546,7 @@ that	DT	that
 lie	NN	lie
 thy	PP$	thy
 soul	NN	soul
-hath	VVZ	hath
+hath	VHZ	have
 spoken	VVN	speak
 !	SENT	!
 </s>
