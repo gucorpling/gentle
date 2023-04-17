@@ -496,16 +496,17 @@
 7	etiology	_	_	_	_	4	nmod	_	_
 8	.	_	_	_	_	4	punct	_	_
 
-1	PLAN	_	_	_	_	6	dep	_	_
+1	PLAN	_	_	_	_	0	root	_	_
 2	:	_	_	_	_	1	punct	_	_
-3	The	_	_	_	_	4	det	_	_
-4	patient	_	_	_	_	6	nsubj	_	_
-5	will	_	_	_	_	6	aux	_	_
-6	continue	_	_	_	_	0	root	_	_
-7	his	_	_	_	_	9	nmod:poss	_	_
-8	current	_	_	_	_	9	amod	_	_
-9	medications	_	_	_	_	6	obj	_	_
-10	.	_	_	_	_	6	punct	_	_
+
+1	The	_	_	_	_	2	det	_	_
+2	patient	_	_	_	_	4	nsubj	_	_
+3	will	_	_	_	_	4	aux	_	_
+4	continue	_	_	_	_	0	root	_	_
+5	his	_	_	_	_	7	nmod:poss	_	_
+6	current	_	_	_	_	7	amod	_	_
+7	medications	_	_	_	_	4	obj	_	_
+8	.	_	_	_	_	4	punct	_	_
 
 1	He	_	_	_	_	3	nsubj	_	_
 2	will	_	_	_	_	3	aux	_	_

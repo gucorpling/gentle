@@ -1319,7 +1319,7 @@
 2	Upon	_	_	_	_	6	case	_	_
 3	a	_	_	_	_	6	det	_	_
 4	force	_	_	_	_	6	compound	_	_
-5	majeure	_	_	_	_	4	nmod:npmod	_	_
+5	majeure	_	_	_	_	4	amod	_	_
 6	event	_	_	_	_	0	root	_	_
 7	that	_	_	_	_	9	nsubj	_	_
 8	materially	_	_	_	_	9	advmod	_	_

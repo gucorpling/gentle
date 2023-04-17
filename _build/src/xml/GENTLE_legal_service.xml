@@ -1525,7 +1525,7 @@ vii)	LS	vii)
 Upon	IN	upon
 a	DT	a
 force	NN	force
-majeure	NN	majeure
+majeure	JJ	majeure
 event	NN	event
 that	WDT	that
 materially	RB	materially
@@ -1564,7 +1564,7 @@ Inc.	NP	Inc.
 <s type="frag">
 By	IN	by
 :	:	:
-/s/	NP	/S/
+/s/	LS	/s/
 Dawn	NP	Dawn
 Dickson	NP	Dickson
 ,	,	,
@@ -1594,21 +1594,19 @@ Founder	NN	founder
 <s type="frag">
 Date	NN	Date
 :	:	:
+<date when="2019-08-19">
 08/19/2019	CD	08/19/2019
+</date>
 </s>
 </p>
 <p>
 <s type="frag">
-/s/	UH	/s/
+/s/	LS	/s/
 Howard	NP	Howard
 Marks	NP	Marks
-</s>
-<s type="frag">
 Howard	NP	Howard
 Marks	NP	Marks
-</s>
-<s type="frag">
-CEO	NP	CEO
+CEO	NN	CEO
 </s>
 </p>
 </text>

@@ -1298,10 +1298,9 @@
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	3	punct	_	_
-
-1	Technical	_	_	_	_	3	amod	_	_
-2	Program	_	_	_	_	3	compound	_	_
-3	Manager	_	_	_	_	0	root	_	_
+5	Technical	_	_	_	_	3	amod	_	_
+6	Program	_	_	_	_	3	compound	_	_
+7	Manager	_	_	_	_	3	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
 2	14	_	_	_	_	1	nummod	_	_
