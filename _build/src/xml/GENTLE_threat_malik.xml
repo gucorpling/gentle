@@ -439,8 +439,10 @@ My	PP$	my
 Cases	NNS	case
 </s>
 <s type="imp">
-Be	VB	be
-ware	JJ	ware
+<w>
+Be	VV	beware
+ware	JJ	_
+</w>
 Of	IN	of
 All	DT	all
 Actions	NNS	action
