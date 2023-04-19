@@ -108,7 +108,7 @@
 		<segment id="70" parent="289" relname="joint-list">16. Growth Mindset</segment>
 		<segment id="71" parent="289" relname="joint-list">17. Asking Good Questions</segment>
 		<segment id="72" parent="290" relname="span">18. Networking</segment>
-		<segment id="73" parent="72" relname="organization-preparation">( Career )</segment>
+		<segment id="73" parent="72" relname="elaboration-additional">( Career )</segment>
 		<segment id="74" parent="291" relname="span">19. Chrome Developer Tools :</segment>
 		<segment id="75" parent="74" relname="elaboration-additional">Setup</segment>
 		<segment id="76" parent="292" relname="organization-preparation">20. One of either :</segment>
