@@ -17,8 +17,8 @@ this	DT	this
 Case	NN	case
 reverse	VVZ	reverse
 <w>
-it	PP	it
-self	NN	self
+it	PP	itself
+self	NN	_
 </w>
 as	IN	as
 is	VBZ	be
@@ -99,7 +99,7 @@ na	TO	to
 </w>
 act	NP	act
 racially	RB	racially
-motivated	VVD	motivate
+motivated	JJ	motivated
 with	IN	with
 justice	NN	justice
 in	IN	in
