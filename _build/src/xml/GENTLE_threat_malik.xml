@@ -327,7 +327,10 @@ weeks	NNS	week
 my	PP$	my
 person	NN	person
 is	VBZ	be
-gonna	MD	go
+<w>
+gon	VVG	go
+na	TO	to
+</w>
 submit	VV	submit
 5	CD	5
 lawsuits	NNS	lawsuit
