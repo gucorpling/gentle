@@ -755,9 +755,8 @@
 2	Source	_	_	_	_	3	compound	_	_
 3	Paper	_	_	_	_	4	nsubj	_	_
 4	Due	_	_	_	_	0	root	_	_
-
-1	24th	_	_	_	_	0	root	_	_
-2	June	_	_	_	_	1	nmod:tmod	_	_
+5	24th	_	_	_	_	4	obl:tmod	_	_
+6	June	_	_	_	_	5	compund	_	_
 
 1	Grade	_	_	_	_	2	compound	_	_
 2	Distribution	_	_	_	_	0	root	_	_
