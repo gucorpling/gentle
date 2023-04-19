@@ -125,7 +125,7 @@ tell	VV	tell
 you	PP	you
 what	WDT	what
 a	DT	a
-soulless	NN	soulless
+soulless	JJ	soulless
 existence	NN	existence
 you	PP	you
 are	VBP	be
@@ -202,7 +202,8 @@ checking	VVG	check
 under	IN	under
 your	PP$	your
 car	NN	car
-everyday	RB	everyday
+every	DT	every
+day	NN	day
 —	:	—
 because	IN	because
 maybe	RB	maybe
@@ -655,7 +656,8 @@ likes	NNS	like
 of	IN	of
 which	WDT	which
 you	PP	you
-cannot	VVP	cannot
+can	MD	can
+not	RB	not
 imagine	VV	imagine
 .	SENT	.
 </s>

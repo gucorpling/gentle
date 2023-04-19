@@ -215,7 +215,7 @@
         (VP
           (VBG checking)
           (PP (IN under) (NP (PRP$ your) (NN car)))
-          (NP (RB everyday))
+          (NP (DT every) (NN day))
           (: —)
           (SBAR
             (IN because)
@@ -780,7 +780,7 @@
                     (WHPP (IN of) (WHNP (WDT which))))
                   (S
                     (NP (PRP you))
-                    (VP (VBP cannot) (VP (VB imagine)))))))))))
+                    (VP (MD can) (RB not) (VP (VB imagine)))))))))))
     (. .)))
 
 (ROOT

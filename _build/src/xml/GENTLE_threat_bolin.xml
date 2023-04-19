@@ -106,7 +106,7 @@ have	VH	have
 your	PP$	your
 fucking	UH	fucking
 legs	NNS	leg
-broke	VVD	break
+broke	VVN	break
 .	SENT	.
 </s>
 </p>
@@ -176,8 +176,7 @@ can	MD	can
 kiss	VV	kiss
 your	PP$	your
 ass	NN	ass
-good	JJ	good
-by	NN	bye
+goodbye	NN	goodbye
 .	SENT	.
 </s>
 <s type="decl">

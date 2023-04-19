@@ -57,7 +57,7 @@
 		<segment id="19" parent="99" relname="joint-list">who your friends are ,</segment>
 		<segment id="20" parent="99" relname="joint-list">what you drive ,</segment>
 		<segment id="21" parent="99" relname="joint-list">where you live .</segment>
-		<segment id="22" parent="102" relname="span">You will be checking under your car everyday —</segment>
+		<segment id="22" parent="102" relname="span">You will be checking under your car every day —</segment>
 		<segment id="23" parent="101" relname="span">because maybe today is the day</segment>
 		<segment id="24" parent="23" relname="elaboration-attribute">someone places an explosive under it .</segment>
 		<segment id="25" parent="104" relname="explanation-evidence">People will be picketing your home , your office .</segment>
@@ -119,7 +119,7 @@
 		<segment id="81" parent="80" relname="adversative-antithesis">instead of kill ,</segment>
 		<segment id="82" parent="144" relname="span">or that God will bring judgment on you ,</segment>
 		<segment id="83" parent="145" relname="span">the likes</segment>
-		<segment id="84" parent="83" relname="elaboration-attribute">of which you cannot imagine .</segment>
+		<segment id="84" parent="83" relname="elaboration-attribute">of which you can not imagine .</segment>
 		<segment id="85" parent="176" relname="span">We do n't want you killing our children in our community .</segment>
 		<segment id="86" parent="146" relname="joint-list">Good people are tired of this rampant evil ,</segment>
 		<segment id="87" parent="146" relname="joint-list">and will stand against you every step of the way .</segment>
