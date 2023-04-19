@@ -16,8 +16,10 @@ unless	IN	unless
 this	DT	this
 Case	NN	case
 reverse	VVZ	reverse
+<w>
 it	PP	it
 self	NN	self
+</w>
 as	IN	as
 is	VBZ	be
 justl	RB	just
@@ -91,7 +93,10 @@ White	JJ	white
 American	JJ	American
 Jewish	JJ	Jewish
 Judges	NNS	judge
-wanna	NP	wanna
+<w>
+wan	VVP	want
+na	TO	to
+</w>
 act	NP	act
 racially	RB	racially
 motivated	VVD	motivate
@@ -144,7 +149,10 @@ Koranic	NP	Koranic
 and	CC	and
 Torooh	NP	Torah
 perspective	NN	perspective
-thats	VVZ	that
+<w>
+that	DT	that
+s	VBZ	be
+</w>
 an	DT	a
 eye	NN	eye
 for	IN	for
@@ -370,8 +378,11 @@ believe	VV	believe
 it	PP	it
 or	CC	or
 not	RB	not
-thats	NNS	thats
-up	RB	up
+<w>
+that	DT	that
+s	VBZ	be
+</w>
+up	IN	up
 to	IN	to
 Judges	NNS	judge
 .	SENT	.
