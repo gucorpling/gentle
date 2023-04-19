@@ -73,7 +73,7 @@
 2-5	334-336	is	_	_	_	_	_	_	_
 2-6	337-339	no	abstract[20]	giv[20]	nonsal[20]	undefined[20]	_	_	_
 2-7	340-344	joke	abstract[20]	giv[20]	nonsal[20]	undefined[20]	_	_	_
-2-8	345-346	I	person[21]	giv[21]	nonsal[21]	undefined[21]	_	coref	2-20[26_21]
+2-8	345-346	I	person[21]	giv[21]	nonsal[21]	undefined[21]	_	coref	2-70[38_21]
 2-9	347-349	'm	_	_	_	_	_	_	_
 2-10	350-354	know	_	_	_	_	_	_	_
 2-11	355-357	in	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 2-17	384-386	on	abstract[23]	new[23]	nonsal[23]	undefined[23]	_	_	_
 2-18	387-393	blacks	abstract[23]|person[25]	new[23]|new[25]	nonsal[23]|nonsal[25]	undefined[23]|undefined[25]	_	_	_
 2-19	394-396	or	_	_	_	_	_	_	_
-2-20	397-398	a	person[26]	new[26]	nonsal[26]	undefined[26]	_	coref	2-70[38_26]
+2-20	397-398	a	person[26]	new[26]	nonsal[26]	undefined[26]	_	_	_
 2-21	399-404	black	person[26]	new[26]	nonsal[26]	undefined[26]	_	_	_
 2-22	405-408	and	_	_	_	_	_	_	_
 2-23	409-411	if	_	_	_	_	_	_	_
@@ -100,7 +100,7 @@
 2-32	456-464	racially	abstract[28]	new[28]	nonsal[28]	undefined[28]	_	_	_
 2-33	465-474	motivated	abstract[28]	new[28]	nonsal[28]	undefined[28]	_	_	_
 2-34	475-479	with	abstract[28]	new[28]	nonsal[28]	undefined[28]	_	_	_
-2-35	480-487	justice	abstract[28]|abstract[29]	new[28]|new[29]	nonsal[28]|nonsal[29]	undefined[28]|undefined[29]	_	coref	2-98[48_29]
+2-35	480-487	justice	abstract[28]|abstract[29]	new[28]|undefined[29]	nonsal[28]|undefined[29]	undefined[28]|undefined[29]	_	coref	5-48[84_29]
 2-36	488-490	in	abstract[28]	new[28]	nonsal[28]	undefined[28]	_	_	_
 2-37	491-492	a	abstract[28]|abstract[30]	new[28]|new[30]	nonsal[28]|nonsal[30]	undefined[28]|undefined[30]	_	_	_
 2-38	493-499	double	abstract[28]|abstract[30]	new[28]|new[30]	nonsal[28]|nonsal[30]	undefined[28]|undefined[30]	_	_	_
@@ -256,7 +256,7 @@
 5-4	1198-1203	merit	abstract[74]	giv[74]	nonsal[74]	undefined[74]	_	_	_
 5-5	1204-1206	so	_	_	_	_	_	_	_
 5-6	1207-1213	unless	_	_	_	_	_	_	_
-5-7	1214-1215	a	event[75]	giv[75]	nonsal[75]	undefined[75]	_	coref	5-48[84_75]
+5-7	1214-1215	a	event[75]	giv[75]	nonsal[75]	undefined[75]	_	_	_
 5-8	1216-1220	just	event[75]	giv[75]	nonsal[75]	undefined[75]	_	_	_
 5-9	1221-1230	treatment	event[75]	giv[75]	nonsal[75]	undefined[75]	_	_	_
 5-10	1231-1233	is	_	_	_	_	_	_	_
@@ -276,7 +276,7 @@
 5-24	1293-1297	case	abstract[78]|abstract[79]	new[78]|giv[79]	nonsal[78]|nonsal[79]	undefined[78]|undefined[79]	_	_	_
 5-25	1298-1300	at	abstract[78]|abstract[79]	new[78]|giv[79]	nonsal[78]|nonsal[79]	undefined[78]|undefined[79]	_	_	_
 5-26	1301-1306	issue	abstract[78]|abstract[79]	new[78]|giv[79]	nonsal[78]|nonsal[79]	undefined[78]|undefined[79]	_	_	_
-5-27	1307-1310	two	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	undefined[80]|undefined[81]	_	coref	5-58[86_80]
+5-27	1307-1310	two	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	undefined[80]|undefined[81]	_	_	_
 5-28	1311-1316	White	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	undefined[80]|undefined[81]	_	_	_
 5-29	1317-1325	American	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	undefined[80]|undefined[81]	_	_	_
 5-30	1326-1332	Jewish	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	undefined[80]|undefined[81]	_	_	_
@@ -297,7 +297,7 @@
 5-45	1403-1406	see	_	_	_	_	_	_	_
 5-46	1407-1409	wo	_	_	_	_	_	_	_
 5-47	1410-1413	n't	_	_	_	_	_	_	_
-5-48	1414-1421	justice	abstract[84]	giv[84]	nonsal[84]	undefined[84]	_	_	_
+5-48	1414-1421	justice	abstract[84]	giv[84]	nonsal[84]	undefined[84]	_	coref	5-58[86_84]
 5-49	1422-1428	become	_	_	_	_	_	_	_
 5-50	1429-1433	done	_	_	_	_	_	_	_
 5-51	1434-1438	even	_	_	_	_	_	_	_
