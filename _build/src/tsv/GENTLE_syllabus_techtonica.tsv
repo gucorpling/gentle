@@ -91,7 +91,7 @@
 6-8	458-467	classroom	abstract[27]|place[28]	giv[27]|new[28]	nonsal[27]|nonsal[28]	_	_	_	
 6-9	468-476	learning	abstract[27]	giv[27]	nonsal[27]	_	_	_	
 6-10	477-480	and	_	_	_	_	_	_	
-6-11	481-485	they	abstract[29]	giv[29]	nonsal[29]	_	coref	167-18[438_29]	
+6-11	481-485	they	abstract[29]	giv[29]	nonsal[29]	_	coref	167-18[437_29]	
 6-12	486-490	cost	_	_	_	_	_	_	
 6-13	491-492	$	abstract[30]	new[30]	nonsal[30]	_	_	_	
 6-14	493-499	15,000	abstract[30]	new[30]	nonsal[30]	_	_	_	
@@ -135,7 +135,7 @@
 7-31	691-695	have	_	_	_	_	_	_	
 7-32	696-698	in	_	_	_	_	_	_	
 7-33	699-702	any	abstract[39]	giv[39]	nonsal[39]	_	_	_	
-7-34	703-711	software	abstract[39]|abstract[40]|abstract[41]	giv[39]|new[40]|new[41]	nonsal[39]|nonsal[40]|nonsal[41]	_	coref|coref	191-4[498_40]|167-14[437_41]	
+7-34	703-711	software	abstract[39]|abstract[40]|abstract[41]	giv[39]|new[40]|new[41]	nonsal[39]|nonsal[40]|nonsal[41]	_	coref|coref	191-4[497_40]|167-14[436_41]	
 7-35	712-723	engineering	abstract[39]|abstract[40]	giv[39]|new[40]	nonsal[39]|nonsal[40]	_	_	_	
 7-36	724-727	job	abstract[39]	giv[39]	nonsal[39]	_	_	_	
 7-37	728-729	)	_	_	_	_	_	_	
@@ -328,7 +328,7 @@
 19-4	1556-1564	Advanced	abstract[101]|abstract[102]	giv[101]|new[102]	nonsal[101]|nonsal[102]	_	coref|coref	130-4[350_101]|130-4[351_102]	
 19-5	1565-1567	JS	abstract[101]|abstract[102]|abstract[103]	giv[101]|new[102]|giv[103]	nonsal[101]|nonsal[102]|nonsal[103]	JavaScript[103]	coref	31-14[136_103]	
 19-6	1568-1571	and	abstract[101]	giv[101]	nonsal[101]	_	_	_	
-19-7	1572-1577	React	abstract[101]|abstract[104]	giv[101]|giv[104]	nonsal[101]|nonsal[104]	React_(JavaScript_library)[104]	_	_	
+19-7	1572-1577	React	abstract[101]|abstract[104]	giv[101]|giv[104]	nonsal[101]|nonsal[104]	React_(JavaScript_library)[104]	coref	96-7[278_104]	
 
 #Text=Week 8 - Testing
 20-1	1578-1582	Week	time[105]	giv[105]	nonsal[105]	_	coref	134-1[360_105]	
@@ -369,36 +369,36 @@
 25-1	1707-1717	Algorithms	abstract[117]	giv[117]	nonsal[117]	Algorithm[117]	coref	146-7[394_117]	
 
 #Text=Week 12 - Final Assessments
-26-1	1718-1722	Week	time[118]	giv[118]	nonsal[118]	_	coref	160-1[420_118]	
+26-1	1718-1722	Week	time[118]	giv[118]	nonsal[118]	_	coref	160-1[419_118]	
 26-2	1723-1725	12	time[118]	giv[118]	nonsal[118]	_	_	_	
 26-3	1726-1727	-	_	_	_	_	_	_	
-26-4	1728-1733	Final	event[119]	giv[119]	nonsal[119]	_	coref	160-4[421_119]	
+26-4	1728-1733	Final	event[119]	giv[119]	nonsal[119]	_	coref	160-4[420_119]	
 26-5	1734-1745	Assessments	event[119]	giv[119]	nonsal[119]	_	_	_	
 
 #Text=Week 13 - Career Week !
-27-1	1746-1750	Week	time[120]	giv[120]	nonsal[120]	_	coref	163-1[424_120]	
+27-1	1746-1750	Week	time[120]	giv[120]	nonsal[120]	_	coref	163-1[423_120]	
 27-2	1751-1753	13	time[120]	giv[120]	nonsal[120]	_	_	_	
 27-3	1754-1755	-	_	_	_	_	_	_	
-27-4	1756-1762	Career	time[121]|abstract[122]	giv[121]|new[122]	nonsal[121]|nonsal[122]	Career[122]	coref|coref	163-4[425_121]|163-4[426_122]	
+27-4	1756-1762	Career	time[121]|abstract[122]	giv[121]|new[122]	nonsal[121]|nonsal[122]	Career[122]	coref|coref	163-4[424_121]|163-4[425_122]	
 27-5	1763-1767	Week	time[121]	giv[121]	nonsal[121]	_	_	_	
 27-6	1768-1769	!	_	_	_	_	_	_	
 
 #Text=Week 14 - Project Prep Week & Electives
-28-1	1770-1774	Week	time[123]	giv[123]	nonsal[123]	_	coref	177-1[464_123]	
+28-1	1770-1774	Week	time[123]	giv[123]	nonsal[123]	_	coref	177-1[463_123]	
 28-2	1775-1777	14	time[123]	giv[123]	nonsal[123]	_	_	_	
 28-3	1778-1779	-	_	_	_	_	_	_	
-28-4	1780-1787	Project	time[124]|abstract[125]|abstract[126]	new[124]|new[125]|new[126]	nonsal[124]|nonsal[125]|nonsal[126]	_	coref|coref|coref	177-4[465_124]|177-4[466_125]|29-5[129_126]	
+28-4	1780-1787	Project	time[124]|abstract[125]|abstract[126]	new[124]|new[125]|new[126]	nonsal[124]|nonsal[125]|nonsal[126]	_	coref|coref|coref	177-4[464_124]|177-4[465_125]|29-5[129_126]	
 28-5	1788-1792	Prep	time[124]|abstract[125]	new[124]|new[125]	nonsal[124]|nonsal[125]	_	_	_	
 28-6	1793-1797	Week	time[124]	new[124]	nonsal[124]	_	_	_	
 28-7	1798-1799	&	_	_	_	_	_	_	
 28-8	1800-1809	Electives	abstract[127]	giv[127]	nonsal[127]	_	_	_	
 
 #Text=Weeks 15 + - Final Project
-29-1	1810-1815	Weeks	time[128]	new[128]	nonsal[128]	_	coref	192-1[500_128]	
+29-1	1810-1815	Weeks	time[128]	new[128]	nonsal[128]	_	coref	192-1[499_128]	
 29-2	1816-1818	15	time[128]	new[128]	nonsal[128]	_	_	_	
 29-3	1819-1820	+	time[128]	new[128]	nonsal[128]	_	_	_	
 29-4	1821-1822	-	_	_	_	_	_	_	
-29-5	1823-1828	Final	abstract[129]	new[129]	nonsal[129]	_	coref	177-4[467_129]	
+29-5	1823-1828	Final	abstract[129]	new[129]	nonsal[129]	_	coref	177-4[466_129]	
 29-6	1829-1836	Project	abstract[129]	new[129]	nonsal[129]	_	_	_	
 
 #Text=Week 0 - Pre - Work
@@ -428,7 +428,7 @@
 31-16	1958-1959	.	_	_	_	_	_	_	
 
 #Text=Participants should memorize common JavaScript built - in functions within the first month .
-32-1	1960-1972	Participants	person[137]	giv[137]	nonsal[137]	_	coref	193-5[503_137]	
+32-1	1960-1972	Participants	person[137]	giv[137]	nonsal[137]	_	coref	193-5[502_137]	
 32-2	1973-1979	should	_	_	_	_	_	_	
 32-3	1980-1988	memorize	_	_	_	_	_	_	
 32-4	1989-1995	common	abstract[138]	new[138]	nonsal[138]	_	_	_	
@@ -466,7 +466,7 @@
 35-2	2124-2136	Expectations	abstract[147]	new[147]	nonsal[147]	_	_	_	
 35-3	2137-2142	While	abstract[147]	new[147]	nonsal[147]	_	_	_	
 35-4	2143-2145	at	abstract[147]	new[147]	nonsal[147]	_	_	_	
-35-5	2146-2156	Techtonica	abstract[147]|abstract[148]	new[147]|giv[148]	nonsal[147]|nonsal[148]	_	coref	167-4[433_148]	
+35-5	2146-2156	Techtonica	abstract[147]|abstract[148]	new[147]|giv[148]	nonsal[147]|nonsal[148]	_	coref	167-4[432_148]	
 
 #Text=3. How to Learn
 36-1	2157-2159	3.	_	_	_	_	_	_	
@@ -482,7 +482,7 @@
 38-1	2192-2194	5.	_	_	_	_	_	_	
 38-2	2195-2200	Roles	abstract[150]	new[150]	nonsal[150]	_	_	_	
 38-3	2201-2203	in	abstract[150]	new[150]	nonsal[150]	_	_	_	
-38-4	2204-2208	Tech	abstract[150]|abstract[151]	new[150]|new[151]	nonsal[150]|nonsal[151]	Technology[151]	coref	167-9[435_151]	
+38-4	2204-2208	Tech	abstract[150]|abstract[151]	new[150]|new[151]	nonsal[150]|nonsal[151]	Technology[151]	coref	167-9[434_151]	
 
 #Text=6. Intro to Command Line Interface Tools
 39-1	2209-2211	6.	_	_	_	_	_	_	
@@ -983,7 +983,7 @@
 
 #Text=1. Node
 107-1	4258-4260	1.	_	_	_	_	_	_	
-107-2	4261-4265	Node	abstract[303]	new[303]	nonsal[303]	_	coref	143-8[386_303]	
+107-2	4261-4265	Node	abstract[303]	new[303]	nonsal[303]	_	coref	135-6[365_303]	
 
 #Text=2. JavaScript 8 - Regular Expressions / RegEx
 108-1	4266-4268	2.	_	_	_	_	_	_	
@@ -1096,604 +1096,606 @@
 124-7	4661-4667	tables	abstract[337]	giv[337]	nonsal[337]	_	_	_	
 124-8	4668-4669	)	_	_	_	_	_	_	
 
-#Text=10. SQL 1 ( Single tables)
+#Text=10. SQL 1 ( Single tables )
 125-1	4670-4673	10.	_	_	_	_	_	_	
 125-2	4674-4677	SQL	abstract[338]	new[338]	nonsal[338]	_	_	_	
 125-3	4678-4679	1	abstract[338]	new[338]	nonsal[338]	_	_	_	
 125-4	4680-4681	(	_	_	_	_	_	_	
 125-5	4682-4688	Single	abstract[339]	giv[339]	nonsal[339]	_	_	_	
-125-6	4689-4696	tables)	abstract[339]	giv[339]	nonsal[339]	_	_	_	
+125-6	4689-4695	tables	abstract[339]	giv[339]	nonsal[339]	_	_	_	
+125-7	4696-4697	)	_	_	_	_	_	_	
 
 #Text=11. Data Modeling 2 ( Multiple tables )
-126-1	4697-4700	11.	_	_	_	_	_	_	
-126-2	4701-4705	Data	abstract[340]|abstract[341]	new[340]|giv[341]	nonsal[340]|nonsal[341]	_	_	_	
-126-3	4706-4714	Modeling	abstract[340]	new[340]	nonsal[340]	_	_	_	
-126-4	4715-4716	2	abstract[340]	new[340]	nonsal[340]	_	_	_	
-126-5	4717-4718	(	_	_	_	_	_	_	
-126-6	4719-4727	Multiple	abstract[342]	giv[342]	nonsal[342]	_	coref	127-5[344_342]	
-126-7	4728-4734	tables	abstract[342]	giv[342]	nonsal[342]	_	_	_	
-126-8	4735-4736	)	_	_	_	_	_	_	
+126-1	4698-4701	11.	_	_	_	_	_	_	
+126-2	4702-4706	Data	abstract[340]|abstract[341]	new[340]|giv[341]	nonsal[340]|nonsal[341]	_	_	_	
+126-3	4707-4715	Modeling	abstract[340]	new[340]	nonsal[340]	_	_	_	
+126-4	4716-4717	2	abstract[340]	new[340]	nonsal[340]	_	_	_	
+126-5	4718-4719	(	_	_	_	_	_	_	
+126-6	4720-4728	Multiple	abstract[342]	giv[342]	nonsal[342]	_	coref	127-5[344_342]	
+126-7	4729-4735	tables	abstract[342]	giv[342]	nonsal[342]	_	_	_	
+126-8	4736-4737	)	_	_	_	_	_	_	
 
-#Text=12. SQL 2 ( Multiple tables)
-127-1	4737-4740	12.	_	_	_	_	_	_	
-127-2	4741-4744	SQL	abstract[343]	new[343]	nonsal[343]	_	_	_	
-127-3	4745-4746	2	abstract[343]	new[343]	nonsal[343]	_	_	_	
-127-4	4747-4748	(	_	_	_	_	_	_	
-127-5	4749-4757	Multiple	abstract[344]	giv[344]	nonsal[344]	_	_	_	
-127-6	4758-4765	tables)	abstract[344]	giv[344]	nonsal[344]	_	_	_	
+#Text=12. SQL 2 ( Multiple tables )
+127-1	4738-4741	12.	_	_	_	_	_	_	
+127-2	4742-4745	SQL	abstract[343]	new[343]	nonsal[343]	_	_	_	
+127-3	4746-4747	2	abstract[343]	new[343]	nonsal[343]	_	_	_	
+127-4	4748-4749	(	_	_	_	_	_	_	
+127-5	4750-4758	Multiple	abstract[344]	giv[344]	nonsal[344]	_	_	_	
+127-6	4759-4765	tables	abstract[344]	giv[344]	nonsal[344]	_	_	_	
+127-7	4766-4767	)	_	_	_	_	_	_	
 
 #Text=13. Intro to Docker
-128-1	4766-4769	13.	_	_	_	_	_	_	
-128-2	4770-4775	Intro	abstract[345]	new[345]	nonsal[345]	_	_	_	
-128-3	4776-4778	to	abstract[345]	new[345]	nonsal[345]	_	_	_	
-128-4	4779-4785	Docker	abstract[345]|abstract[346]	new[345]|new[346]	nonsal[345]|nonsal[346]	Docker_(software)[346]	coref	129-7[348_346]	
+128-1	4768-4771	13.	_	_	_	_	_	_	
+128-2	4772-4777	Intro	abstract[345]	new[345]	nonsal[345]	_	_	_	
+128-3	4778-4780	to	abstract[345]	new[345]	nonsal[345]	_	_	_	
+128-4	4781-4787	Docker	abstract[345]|abstract[346]	new[345]|new[346]	nonsal[345]|nonsal[346]	Docker_(software)[346]	coref	129-7[348_346]	
 
 #Text=14. Install and Run PostgreSQL using Docker
-129-1	4786-4789	14.	_	_	_	_	_	_	
-129-2	4790-4797	Install	_	_	_	_	_	_	
-129-3	4798-4801	and	_	_	_	_	_	_	
-129-4	4802-4805	Run	_	_	_	_	_	_	
-129-5	4806-4816	PostgreSQL	abstract[347]	new[347]	nonsal[347]	PostgreSQL[347]	_	_	
-129-6	4817-4822	using	_	_	_	_	_	_	
-129-7	4823-4829	Docker	abstract[348]	giv[348]	nonsal[348]	Docker_(software)[348]	_	_	
+129-1	4788-4791	14.	_	_	_	_	_	_	
+129-2	4792-4799	Install	_	_	_	_	_	_	
+129-3	4800-4803	and	_	_	_	_	_	_	
+129-4	4804-4807	Run	_	_	_	_	_	_	
+129-5	4808-4818	PostgreSQL	abstract[347]	new[347]	nonsal[347]	PostgreSQL[347]	_	_	
+129-6	4819-4824	using	_	_	_	_	_	_	
+129-7	4825-4831	Docker	abstract[348]	giv[348]	nonsal[348]	Docker_(software)[348]	_	_	
 
 #Text=Week 7 - Advanced JS and React
-130-1	4830-4834	Week	time[349]	new[349]	nonsal[349]	_	_	_	
-130-2	4835-4836	7	time[349]	new[349]	nonsal[349]	_	_	_	
-130-3	4837-4838	-	_	_	_	_	_	_	
-130-4	4839-4847	Advanced	abstract[350]|abstract[351]	giv[350]|giv[351]	nonsal[350]|nonsal[351]	_	_	_	
-130-5	4848-4850	JS	abstract[350]|abstract[351]	giv[350]|giv[351]	nonsal[350]|nonsal[351]	_	_	_	
-130-6	4851-4854	and	abstract[350]	giv[350]	nonsal[350]	_	_	_	
-130-7	4855-4860	React	abstract[350]|abstract[352]	giv[350]|giv[352]	nonsal[350]|nonsal[352]	React_(JavaScript_library)[352]	coref	131-8[355_352]	
+130-1	4832-4836	Week	time[349]	new[349]	nonsal[349]	_	_	_	
+130-2	4837-4838	7	time[349]	new[349]	nonsal[349]	_	_	_	
+130-3	4839-4840	-	_	_	_	_	_	_	
+130-4	4841-4849	Advanced	abstract[350]|abstract[351]	giv[350]|giv[351]	nonsal[350]|nonsal[351]	_	_	_	
+130-5	4850-4852	JS	abstract[350]|abstract[351]	giv[350]|giv[351]	nonsal[350]|nonsal[351]	_	_	_	
+130-6	4853-4856	and	abstract[350]	giv[350]	nonsal[350]	_	_	_	
+130-7	4857-4862	React	abstract[350]|abstract[352]	giv[350]|giv[352]	nonsal[350]|nonsal[352]	React_(JavaScript_library)[352]	coref	131-8[355_352]	
 
 #Text=1. Full - Stack Web App Using React and Express
-131-1	4861-4863	1.	_	_	_	_	_	_	
-131-2	4864-4868	Full	abstract[353]	new[353]	nonsal[353]	_	_	_	
-131-3	4869-4870	-	abstract[353]	new[353]	nonsal[353]	_	_	_	
-131-4	4871-4876	Stack	abstract[353]	new[353]	nonsal[353]	_	_	_	
-131-5	4877-4880	Web	abstract[353]|abstract[354]	new[353]|new[354]	nonsal[353]|nonsal[354]	World_Wide_Web[354]	coref	178-6[472_354]	
-131-6	4881-4884	App	abstract[353]	new[353]	nonsal[353]	_	_	_	
-131-7	4885-4890	Using	abstract[353]	new[353]	nonsal[353]	_	_	_	
-131-8	4891-4896	React	abstract[353]|abstract[355]	new[353]|giv[355]	nonsal[353]|nonsal[355]	React_(JavaScript_library)[355]	coref	139-8[377_355]	
-131-9	4897-4900	and	abstract[353]	new[353]	nonsal[353]	_	_	_	
-131-10	4901-4908	Express	abstract[353]|abstract[356]	new[353]|giv[356]	nonsal[353]|nonsal[356]	Express.js[356]	_	_	
+131-1	4863-4865	1.	_	_	_	_	_	_	
+131-2	4866-4870	Full	abstract[353]	new[353]	nonsal[353]	_	_	_	
+131-3	4871-4872	-	abstract[353]	new[353]	nonsal[353]	_	_	_	
+131-4	4873-4878	Stack	abstract[353]	new[353]	nonsal[353]	_	_	_	
+131-5	4879-4882	Web	abstract[353]|abstract[354]	new[353]|new[354]	nonsal[353]|nonsal[354]	World_Wide_Web[354]	coref	178-6[471_354]	
+131-6	4883-4886	App	abstract[353]	new[353]	nonsal[353]	_	_	_	
+131-7	4887-4892	Using	abstract[353]	new[353]	nonsal[353]	_	_	_	
+131-8	4893-4898	React	abstract[353]|abstract[355]	new[353]|giv[355]	nonsal[353]|nonsal[355]	React_(JavaScript_library)[355]	coref	139-8[377_355]	
+131-9	4899-4902	and	abstract[353]	new[353]	nonsal[353]	_	_	_	
+131-10	4903-4910	Express	abstract[353]|abstract[356]	new[353]|giv[356]	nonsal[353]|nonsal[356]	Express.js[356]	_	_	
 
 #Text=2. Recursion
-132-1	4909-4911	2.	_	_	_	_	_	_	
-132-2	4912-4921	Recursion	abstract[357]	new[357]	nonsal[357]	_	_	_	
+132-1	4911-4913	2.	_	_	_	_	_	_	
+132-2	4914-4923	Recursion	abstract[357]	new[357]	nonsal[357]	_	_	_	
 
 #Text=3. JavaScript Set object
-133-1	4922-4924	3.	_	_	_	_	_	_	
-133-2	4925-4935	JavaScript	abstract[358]|abstract[359]	new[358]|giv[359]	nonsal[358]|nonsal[359]	JavaScript[359]	coref	154-2[412_359]	
-133-3	4936-4939	Set	abstract[358]	new[358]	nonsal[358]	_	_	_	
-133-4	4940-4946	object	abstract[358]	new[358]	nonsal[358]	_	_	_	
+133-1	4924-4926	3.	_	_	_	_	_	_	
+133-2	4927-4937	JavaScript	abstract[358]|abstract[359]	new[358]|giv[359]	nonsal[358]|nonsal[359]	JavaScript[359]	coref	154-2[412_359]	
+133-3	4938-4941	Set	abstract[358]	new[358]	nonsal[358]	_	_	_	
+133-4	4942-4948	object	abstract[358]	new[358]	nonsal[358]	_	_	_	
 
 #Text=Week 8 - Testing
-134-1	4947-4951	Week	time[360]	giv[360]	nonsal[360]	_	_	_	
-134-2	4952-4953	8	time[360]	giv[360]	nonsal[360]	_	_	_	
-134-3	4954-4955	-	_	_	_	_	_	_	
-134-4	4956-4963	Testing	event[361]	giv[361]	nonsal[361]	_	_	_	
+134-1	4949-4953	Week	time[360]	giv[360]	nonsal[360]	_	_	_	
+134-2	4954-4955	8	time[360]	giv[360]	nonsal[360]	_	_	_	
+134-3	4956-4957	-	_	_	_	_	_	_	
+134-4	4958-4965	Testing	event[361]	giv[361]	nonsal[361]	_	_	_	
 
 #Text=1. Adding Tests to your NodeJS project
-135-1	4964-4966	1.	_	_	_	_	_	_	
-135-2	4967-4973	Adding	_	_	_	_	_	_	
-135-3	4974-4979	Tests	abstract[362]	new[362]	nonsal[362]	_	_	_	
-135-4	4980-4982	to	_	_	_	_	_	_	
-135-5	4983-4987	your	abstract[363]|person[364]	new[363]|giv[364]	nonsal[363]|nonsal[364]	_	coref	144-3[388_364]	
-135-6	4988-4994	NodeJS	abstract[363]|abstract[365]	new[363]|new[365]	nonsal[363]|nonsal[365]	Node.js[365]	_	_	
-135-7	4995-5002	project	abstract[363]	new[363]	nonsal[363]	_	_	_	
+135-1	4966-4968	1.	_	_	_	_	_	_	
+135-2	4969-4975	Adding	_	_	_	_	_	_	
+135-3	4976-4981	Tests	abstract[362]	new[362]	nonsal[362]	_	_	_	
+135-4	4982-4984	to	_	_	_	_	_	_	
+135-5	4985-4989	your	abstract[363]|person[364]	new[363]|giv[364]	nonsal[363]|nonsal[364]	_	coref	144-3[388_364]	
+135-6	4990-4996	NodeJS	abstract[363]|abstract[365]	new[363]|new[365]	nonsal[363]|nonsal[365]	Node.js[365]	coref	143-8[386_365]	
+135-7	4997-5004	project	abstract[363]	new[363]	nonsal[363]	_	_	_	
 
 #Text=2. Testing with Jest
-136-1	5003-5005	2.	_	_	_	_	_	_	
-136-2	5006-5013	Testing	event[366]	new[366]	nonsal[366]	_	coref	137-5[369_366]	
-136-3	5014-5018	with	event[366]	new[366]	nonsal[366]	_	_	_	
-136-4	5019-5023	Jest	event[366]|abstract[367]	new[366]|new[367]	nonsal[366]|nonsal[367]	_	coref	137-7[370_367]	
+136-1	5005-5007	2.	_	_	_	_	_	_	
+136-2	5008-5015	Testing	event[366]	new[366]	nonsal[366]	_	coref	137-5[369_366]	
+136-3	5016-5020	with	event[366]	new[366]	nonsal[366]	_	_	_	
+136-4	5021-5025	Jest	event[366]|abstract[367]	new[366]|new[367]	nonsal[366]|nonsal[367]	_	coref	137-7[370_367]	
 
 #Text=3. Rithm School - Testing with Jest
-137-1	5024-5026	3.	_	_	_	_	_	_	
-137-2	5027-5032	Rithm	organization[368]	new[368]	nonsal[368]	_	_	_	
-137-3	5033-5039	School	organization[368]	new[368]	nonsal[368]	_	_	_	
-137-4	5040-5041	-	_	_	_	_	_	_	
-137-5	5042-5049	Testing	event[369]	giv[369]	nonsal[369]	_	_	_	
-137-6	5050-5054	with	event[369]	giv[369]	nonsal[369]	_	_	_	
-137-7	5055-5059	Jest	event[369]|abstract[370]	giv[369]|giv[370]	nonsal[369]|nonsal[370]	_	coref	138-5[373_370]	
+137-1	5026-5028	3.	_	_	_	_	_	_	
+137-2	5029-5034	Rithm	organization[368]	new[368]	nonsal[368]	_	_	_	
+137-3	5035-5041	School	organization[368]	new[368]	nonsal[368]	_	_	_	
+137-4	5042-5043	-	_	_	_	_	_	_	
+137-5	5044-5051	Testing	event[369]	giv[369]	nonsal[369]	_	_	_	
+137-6	5052-5056	with	event[369]	giv[369]	nonsal[369]	_	_	_	
+137-7	5057-5061	Jest	event[369]|abstract[370]	giv[369]|giv[370]	nonsal[369]|nonsal[370]	_	coref	138-5[373_370]	
 
 #Text=4. API testing with Jest
-138-1	5060-5062	4.	_	_	_	_	_	_	
-138-2	5063-5066	API	event[371]|abstract[372]	new[371]|new[372]	nonsal[371]|nonsal[372]	API[372]	_	_	
-138-3	5067-5074	testing	event[371]	new[371]	nonsal[371]	_	_	_	
-138-4	5075-5079	with	event[371]	new[371]	nonsal[371]	_	_	_	
-138-5	5080-5084	Jest	event[371]|abstract[373]	new[371]|giv[373]	nonsal[371]|nonsal[373]	_	coref	139-6[375_373]	
+138-1	5062-5064	4.	_	_	_	_	_	_	
+138-2	5065-5068	API	event[371]|abstract[372]	new[371]|new[372]	nonsal[371]|nonsal[372]	API[372]	_	_	
+138-3	5069-5076	testing	event[371]	new[371]	nonsal[371]	_	_	_	
+138-4	5077-5081	with	event[371]	new[371]	nonsal[371]	_	_	_	
+138-5	5082-5086	Jest	event[371]|abstract[373]	new[371]|giv[373]	nonsal[371]|nonsal[373]	_	coref	139-6[375_373]	
 
 #Text=5. Testing React Components with Jest and React Testing Library
-139-1	5085-5087	5.	_	_	_	_	_	_	
-139-2	5088-5095	Testing	_	_	_	_	_	_	
-139-3	5096-5101	React	abstract[374]	new[374]	nonsal[374]	_	_	_	
-139-4	5102-5112	Components	abstract[374]	new[374]	nonsal[374]	_	_	_	
-139-5	5113-5117	with	_	_	_	_	_	_	
-139-6	5118-5122	Jest	abstract[375]	giv[375]	nonsal[375]	_	_	_	
-139-7	5123-5126	and	_	_	_	_	_	_	
-139-8	5127-5132	React	abstract[376]|abstract[377]	new[376]|giv[377]	nonsal[376]|nonsal[377]	React_(JavaScript_library)[377]	coref	143-6[385_377]	
-139-9	5133-5140	Testing	abstract[376]	new[376]	nonsal[376]	_	_	_	
-139-10	5141-5148	Library	abstract[376]	new[376]	nonsal[376]	_	_	_	
+139-1	5087-5089	5.	_	_	_	_	_	_	
+139-2	5090-5097	Testing	_	_	_	_	_	_	
+139-3	5098-5103	React	abstract[374]	new[374]	nonsal[374]	_	_	_	
+139-4	5104-5114	Components	abstract[374]	new[374]	nonsal[374]	_	_	_	
+139-5	5115-5119	with	_	_	_	_	_	_	
+139-6	5120-5124	Jest	abstract[375]	giv[375]	nonsal[375]	_	_	_	
+139-7	5125-5128	and	_	_	_	_	_	_	
+139-8	5129-5134	React	abstract[376]|abstract[377]	new[376]|giv[377]	nonsal[376]|nonsal[377]	React_(JavaScript_library)[377]	coref	143-6[385_377]	
+139-9	5135-5142	Testing	abstract[376]	new[376]	nonsal[376]	_	_	_	
+139-10	5143-5150	Library	abstract[376]	new[376]	nonsal[376]	_	_	_	
 
 #Text=Week 9 - Eventonica
-140-1	5149-5153	Week	time[378]	new[378]	nonsal[378]	_	_	_	
-140-2	5154-5155	9	time[378]	new[378]	nonsal[378]	_	_	_	
-140-3	5156-5157	-	_	_	_	_	_	_	
-140-4	5158-5168	Eventonica	abstract[379]	new[379]	nonsal[379]	_	coref	141-2[381_379]	
+140-1	5151-5155	Week	time[378]	new[378]	nonsal[378]	_	_	_	
+140-2	5156-5157	9	time[378]	new[378]	nonsal[378]	_	_	_	
+140-3	5158-5159	-	_	_	_	_	_	_	
+140-4	5160-5170	Eventonica	abstract[379]	new[379]	nonsal[379]	_	coref	141-2[381_379]	
 
 #Text=1. Eventonica Project
-141-1	5169-5171	1.	_	_	_	_	_	_	
-141-2	5172-5182	Eventonica	abstract[380]|abstract[381]	new[380]|new[381]	nonsal[380]|nonsal[381]	_	_	_	
-141-3	5183-5190	Project	abstract[380]	new[380]	nonsal[380]	_	_	_	
+141-1	5171-5173	1.	_	_	_	_	_	_	
+141-2	5174-5184	Eventonica	abstract[380]|abstract[381]	new[380]|new[381]	nonsal[380]|nonsal[381]	_	_	_	
+141-3	5185-5192	Project	abstract[380]	new[380]	nonsal[380]	_	_	_	
 
 #Text=Week 10 - Full Stack Practice
-142-1	5191-5195	Week	time[382]	new[382]	nonsal[382]	_	_	_	
-142-2	5196-5198	10	time[382]	new[382]	nonsal[382]	_	_	_	
-142-3	5199-5200	-	_	_	_	_	_	_	
-142-4	5201-5205	Full	event[383]	new[383]	nonsal[383]	_	_	_	
-142-5	5206-5211	Stack	event[383]	new[383]	nonsal[383]	_	_	_	
-142-6	5212-5220	Practice	event[383]	new[383]	nonsal[383]	_	_	_	
+142-1	5193-5197	Week	time[382]	new[382]	nonsal[382]	_	_	_	
+142-2	5198-5200	10	time[382]	new[382]	nonsal[382]	_	_	_	
+142-3	5201-5202	-	_	_	_	_	_	_	
+142-4	5203-5207	Full	event[383]	new[383]	nonsal[383]	_	_	_	
+142-5	5208-5213	Stack	event[383]	new[383]	nonsal[383]	_	_	_	
+142-6	5214-5222	Practice	event[383]	new[383]	nonsal[383]	_	_	_	
 
 #Text=1. Deploying to Heroku with React and Node
-143-1	5221-5223	1.	_	_	_	_	_	_	
-143-2	5224-5233	Deploying	_	_	_	_	_	_	
-143-3	5234-5236	to	_	_	_	_	_	_	
-143-4	5237-5243	Heroku	abstract[384]	new[384]	nonsal[384]	Heroku[384]	coref	199-5[529_384]	
-143-5	5244-5248	with	_	_	_	_	_	_	
-143-6	5249-5254	React	abstract[385]	giv[385]	nonsal[385]	React_(JavaScript_library)[385]	coref	144-4[389_385]	
-143-7	5255-5258	and	_	_	_	_	_	_	
-143-8	5259-5263	Node	abstract[386]	new[386]	nonsal[386]	_	coref	144-6[390_386]	
+143-1	5223-5225	1.	_	_	_	_	_	_	
+143-2	5226-5235	Deploying	_	_	_	_	_	_	
+143-3	5236-5238	to	_	_	_	_	_	_	
+143-4	5239-5245	Heroku	abstract[384]	new[384]	nonsal[384]	Heroku[384]	coref	199-5[528_384]	
+143-5	5246-5250	with	_	_	_	_	_	_	
+143-6	5251-5256	React	abstract[385]	giv[385]	nonsal[385]	React_(JavaScript_library)[385]	coref	144-4[389_385]	
+143-7	5257-5260	and	_	_	_	_	_	_	
+143-8	5261-5265	Node	abstract[386]	new[386]	nonsal[386]	_	coref	144-6[390_386]	
 
 #Text=2. Optimizing your React / NodeJS Project
-144-1	5264-5266	2.	_	_	_	_	_	_	
-144-2	5267-5277	Optimizing	_	_	_	_	_	_	
-144-3	5278-5282	your	abstract[387]|person[388]	giv[387]|giv[388]	nonsal[387]|nonsal[388]	_	coref	185-6[487_388]	
-144-4	5283-5288	React	abstract[387]|abstract[389]	giv[387]|giv[389]	nonsal[387]|nonsal[389]	React_(JavaScript_library)[389]	_	_	
-144-5	5289-5290	/	abstract[387]	giv[387]	nonsal[387]	_	_	_	
-144-6	5291-5297	NodeJS	abstract[387]|abstract[390]	giv[387]|giv[390]	nonsal[387]|nonsal[390]	Node.js[390]	_	_	
-144-7	5298-5305	Project	abstract[387]	giv[387]	nonsal[387]	_	_	_	
+144-1	5266-5268	2.	_	_	_	_	_	_	
+144-2	5269-5279	Optimizing	_	_	_	_	_	_	
+144-3	5280-5284	your	abstract[387]|person[388]	giv[387]|giv[388]	nonsal[387]|nonsal[388]	_	coref	185-6[486_388]	
+144-4	5285-5290	React	abstract[387]|abstract[389]	giv[387]|giv[389]	nonsal[387]|nonsal[389]	React_(JavaScript_library)[389]	_	_	
+144-5	5291-5292	/	abstract[387]	giv[387]	nonsal[387]	_	_	_	
+144-6	5293-5299	NodeJS	abstract[387]|abstract[390]	giv[387]|giv[390]	nonsal[387]|nonsal[390]	Node.js[390]	_	_	
+144-7	5300-5307	Project	abstract[387]	giv[387]	nonsal[387]	_	_	_	
 
 #Text=3. Enzyme Testing
-145-1	5306-5308	3.	_	_	_	_	_	_	
-145-2	5309-5315	Enzyme	event[391]	giv[391]	nonsal[391]	_	_	_	
-145-3	5316-5323	Testing	event[391]	giv[391]	nonsal[391]	_	_	_	
+145-1	5308-5310	3.	_	_	_	_	_	_	
+145-2	5311-5317	Enzyme	event[391]	giv[391]	nonsal[391]	_	_	_	
+145-3	5318-5325	Testing	event[391]	giv[391]	nonsal[391]	_	_	_	
 
 #Text=Week 11 - Data Structures & Algorithms
-146-1	5324-5328	Week	time[392]	giv[392]	nonsal[392]	_	coref	149-5[399_392]	
-146-2	5329-5331	11	time[392]	giv[392]	nonsal[392]	_	_	_	
-146-3	5332-5333	-	_	_	_	_	_	_	
-146-4	5334-5338	Data	abstract[393]	giv[393]	nonsal[393]	Data_structure[393]	coref	147-1[395_393]	
-146-5	5339-5349	Structures	abstract[393]	giv[393]	nonsal[393]	Data_structure[393]	_	_	
-146-6	5350-5351	&	_	_	_	_	_	_	
-146-7	5352-5362	Algorithms	abstract[394]	giv[394]	nonsal[394]	Algorithm[394]	coref	149-8[401_394]	
+146-1	5326-5330	Week	time[392]	giv[392]	nonsal[392]	_	coref	149-5[399_392]	
+146-2	5331-5333	11	time[392]	giv[392]	nonsal[392]	_	_	_	
+146-3	5334-5335	-	_	_	_	_	_	_	
+146-4	5336-5340	Data	abstract[393]	giv[393]	nonsal[393]	Data_structure[393]	coref	147-1[395_393]	
+146-5	5341-5351	Structures	abstract[393]	giv[393]	nonsal[393]	Data_structure[393]	_	_	
+146-6	5352-5353	&	_	_	_	_	_	_	
+146-7	5354-5364	Algorithms	abstract[394]	giv[394]	nonsal[394]	Algorithm[394]	coref	149-8[401_394]	
 
 #Text=Data Structures
-147-1	5363-5367	Data	abstract[395]	giv[395]	nonsal[395]	Data_structure[395]	coref	148-4[397_395]	
-147-2	5368-5378	Structures	abstract[395]	giv[395]	nonsal[395]	Data_structure[395]	_	_	
+147-1	5365-5369	Data	abstract[395]	giv[395]	nonsal[395]	Data_structure[395]	coref	148-4[397_395]	
+147-2	5370-5380	Structures	abstract[395]	giv[395]	nonsal[395]	Data_structure[395]	_	_	
 
 #Text=1. Intro to Data Structures
-148-1	5379-5381	1.	_	_	_	_	_	_	
-148-2	5382-5387	Intro	abstract[396]	new[396]	nonsal[396]	_	_	_	
-148-3	5388-5390	to	abstract[396]	new[396]	nonsal[396]	_	_	_	
-148-4	5391-5395	Data	abstract[396]|abstract[397]	new[396]|giv[397]	nonsal[396]|nonsal[397]	Data_structure[397]	coref	149-5[400_397]	
-148-5	5396-5406	Structures	abstract[396]|abstract[397]	new[396]|giv[397]	nonsal[396]|nonsal[397]	Data_structure[397]	_	_	
+148-1	5381-5383	1.	_	_	_	_	_	_	
+148-2	5384-5389	Intro	abstract[396]	new[396]	nonsal[396]	_	_	_	
+148-3	5390-5392	to	abstract[396]	new[396]	nonsal[396]	_	_	_	
+148-4	5393-5397	Data	abstract[396]|abstract[397]	new[396]|giv[397]	nonsal[396]|nonsal[397]	Data_structure[397]	coref	149-5[400_397]	
+148-5	5398-5408	Structures	abstract[396]|abstract[397]	new[396]|giv[397]	nonsal[396]|nonsal[397]	Data_structure[397]	_	_	
 
 #Text=2. Sprint Plan for Data Structures & Algorithms Week
-149-1	5407-5409	2.	_	_	_	_	_	_	
-149-2	5410-5416	Sprint	abstract[398]	new[398]	nonsal[398]	_	_	_	
-149-3	5417-5421	Plan	abstract[398]	new[398]	nonsal[398]	_	_	_	
-149-4	5422-5425	for	abstract[398]	new[398]	nonsal[398]	_	_	_	
-149-5	5426-5430	Data	abstract[398]|time[399]|abstract[400]	new[398]|giv[399]|giv[400]	nonsal[398]|nonsal[399]|nonsal[400]	Data_structure[400]	coref	151-2[404_400]	
-149-6	5431-5441	Structures	abstract[398]|time[399]|abstract[400]	new[398]|giv[399]|giv[400]	nonsal[398]|nonsal[399]|nonsal[400]	Data_structure[400]	_	_	
-149-7	5442-5443	&	abstract[398]|time[399]	new[398]|giv[399]	nonsal[398]|nonsal[399]	_	_	_	
-149-8	5444-5454	Algorithms	abstract[398]|time[399]|abstract[401]	new[398]|giv[399]|giv[401]	nonsal[398]|nonsal[399]|nonsal[401]	Algorithm[401]	coref	156-1[415_401]	
-149-9	5455-5459	Week	abstract[398]|time[399]	new[398]|giv[399]	nonsal[398]|nonsal[399]	_	_	_	
+149-1	5409-5411	2.	_	_	_	_	_	_	
+149-2	5412-5418	Sprint	abstract[398]	new[398]	nonsal[398]	_	_	_	
+149-3	5419-5423	Plan	abstract[398]	new[398]	nonsal[398]	_	_	_	
+149-4	5424-5427	for	abstract[398]	new[398]	nonsal[398]	_	_	_	
+149-5	5428-5432	Data	abstract[398]|time[399]|abstract[400]	new[398]|giv[399]|giv[400]	nonsal[398]|nonsal[399]|nonsal[400]	Data_structure[400]	coref	151-2[404_400]	
+149-6	5433-5443	Structures	abstract[398]|time[399]|abstract[400]	new[398]|giv[399]|giv[400]	nonsal[398]|nonsal[399]|nonsal[400]	Data_structure[400]	_	_	
+149-7	5444-5445	&	abstract[398]|time[399]	new[398]|giv[399]	nonsal[398]|nonsal[399]	_	_	_	
+149-8	5446-5456	Algorithms	abstract[398]|time[399]|abstract[401]	new[398]|giv[399]|giv[401]	nonsal[398]|nonsal[399]|nonsal[401]	Algorithm[401]	coref	156-1[414_401]	
+149-9	5457-5461	Week	abstract[398]|time[399]	new[398]|giv[399]	nonsal[398]|nonsal[399]	_	_	_	
 
 #Text=3. Data Structures : Stacks
-150-1	5460-5462	3.	_	_	_	_	_	_	
-150-2	5463-5467	Data	abstract[402]	new[402]	nonsal[402]	Data_structure[402]	_	_	
-150-3	5468-5478	Structures	abstract[402]	new[402]	nonsal[402]	Data_structure[402]	_	_	
-150-4	5479-5480	:	_	_	_	_	_	_	
-150-5	5481-5487	Stacks	abstract[403]	new[403]	nonsal[403]	_	_	_	
+150-1	5462-5464	3.	_	_	_	_	_	_	
+150-2	5465-5469	Data	abstract[402]	new[402]	nonsal[402]	Data_structure[402]	_	_	
+150-3	5470-5480	Structures	abstract[402]	new[402]	nonsal[402]	Data_structure[402]	_	_	
+150-4	5481-5482	:	_	_	_	_	_	_	
+150-5	5483-5489	Stacks	abstract[403]	new[403]	nonsal[403]	_	_	_	
 
 #Text=4. Data Structures : Queues
-151-1	5488-5490	4.	_	_	_	_	_	_	
-151-2	5491-5495	Data	abstract[404]	giv[404]	nonsal[404]	Data_structure[404]	coref	152-2[406_404]	
-151-3	5496-5506	Structures	abstract[404]	giv[404]	nonsal[404]	Data_structure[404]	_	_	
-151-4	5507-5508	:	_	_	_	_	_	_	
-151-5	5509-5515	Queues	abstract[405]	new[405]	nonsal[405]	_	_	_	
+151-1	5490-5492	4.	_	_	_	_	_	_	
+151-2	5493-5497	Data	abstract[404]	giv[404]	nonsal[404]	Data_structure[404]	coref	152-2[406_404]	
+151-3	5498-5508	Structures	abstract[404]	giv[404]	nonsal[404]	Data_structure[404]	_	_	
+151-4	5509-5510	:	_	_	_	_	_	_	
+151-5	5511-5517	Queues	abstract[405]	new[405]	nonsal[405]	_	_	_	
 
 #Text=5. Data Structures : Linked Lists
-152-1	5516-5518	5.	_	_	_	_	_	_	
-152-2	5519-5523	Data	abstract[406]	giv[406]	nonsal[406]	Data_structure[406]	coref	153-2[408_406]	
-152-3	5524-5534	Structures	abstract[406]	giv[406]	nonsal[406]	Data_structure[406]	_	_	
-152-4	5535-5536	:	_	_	_	_	_	_	
-152-5	5537-5543	Linked	abstract[407]	new[407]	nonsal[407]	_	_	_	
-152-6	5544-5549	Lists	abstract[407]	new[407]	nonsal[407]	_	_	_	
+152-1	5518-5520	5.	_	_	_	_	_	_	
+152-2	5521-5525	Data	abstract[406]	giv[406]	nonsal[406]	Data_structure[406]	coref	153-2[408_406]	
+152-3	5526-5536	Structures	abstract[406]	giv[406]	nonsal[406]	Data_structure[406]	_	_	
+152-4	5537-5538	:	_	_	_	_	_	_	
+152-5	5539-5545	Linked	abstract[407]	new[407]	nonsal[407]	_	_	_	
+152-6	5546-5551	Lists	abstract[407]	new[407]	nonsal[407]	_	_	_	
 
 #Text=6. Data Structures : Hash Tables
-153-1	5550-5552	6.	_	_	_	_	_	_	
-153-2	5553-5557	Data	abstract[408]	giv[408]	nonsal[408]	Data_structure[408]	coref	155-2[413_408]	
-153-3	5558-5568	Structures	abstract[408]	giv[408]	nonsal[408]	Data_structure[408]	_	_	
-153-4	5569-5570	:	_	_	_	_	_	_	
-153-5	5571-5575	Hash	abstract[409]|abstract[410]	new[409]|new[410]	nonsal[409]|nonsal[410]	Hash_table[410]	_	_	
-153-6	5576-5582	Tables	abstract[409]	new[409]	nonsal[409]	_	_	_	
+153-1	5552-5554	6.	_	_	_	_	_	_	
+153-2	5555-5559	Data	abstract[408]	giv[408]	nonsal[408]	Data_structure[408]	coref	155-2[413_408]	
+153-3	5560-5570	Structures	abstract[408]	giv[408]	nonsal[408]	Data_structure[408]	_	_	
+153-4	5571-5572	:	_	_	_	_	_	_	
+153-5	5573-5577	Hash	abstract[409]|abstract[410]	new[409]|new[410]	nonsal[409]|nonsal[410]	Hash_table[410]	_	_	
+153-6	5578-5584	Tables	abstract[409]	new[409]	nonsal[409]	_	_	_	
 
 #Text=7. JavaScript Map
-154-1	5583-5585	7.	_	_	_	_	_	_	
-154-2	5586-5596	JavaScript	abstract[411]|abstract[412]	new[411]|giv[412]	nonsal[411]|nonsal[412]	JavaScript[412]	_	_	
-154-3	5597-5600	Map	abstract[411]	new[411]	nonsal[411]	_	_	_	
+154-1	5585-5587	7.	_	_	_	_	_	_	
+154-2	5588-5598	JavaScript	abstract[411]|abstract[412]	new[411]|giv[412]	nonsal[411]|nonsal[412]	JavaScript[412]	_	_	
+154-3	5599-5602	Map	abstract[411]	new[411]	nonsal[411]	_	_	_	
 
 #Text=8. Data Structures : Trees
-155-1	5601-5603	8.	_	_	_	_	_	_	
-155-2	5604-5608	Data	abstract[413]	giv[413]	nonsal[413]	Data_structure[413]	_	_	
-155-3	5609-5619	Structures	abstract[413]	giv[413]	nonsal[413]	Data_structure[413]	_	_	
-155-4	5620-5621	:	_	_	_	_	_	_	
-155-5	5622-5627	Trees	abstract[414]	new[414]	nonsal[414]	_	_	_	
+155-1	5603-5605	8.	_	_	_	_	_	_	
+155-2	5606-5610	Data	abstract[413]	giv[413]	nonsal[413]	Data_structure[413]	_	_	
+155-3	5611-5621	Structures	abstract[413]	giv[413]	nonsal[413]	Data_structure[413]	_	_	
+155-4	5622-5623	:	_	_	_	_	_	_	
+155-5	5624-5629	Trees	_	_	_	_	_	_	
 
 #Text=Algorithms
-156-1	5628-5638	Algorithms	abstract[415]	giv[415]	nonsal[415]	Algorithm[415]	coref	157-4[417_415]	
+156-1	5630-5640	Algorithms	abstract[414]	giv[414]	nonsal[414]	Algorithm[414]	coref	157-4[416_414]	
 
 #Text=1. Intro to Algorithms
-157-1	5639-5641	1.	_	_	_	_	_	_	
-157-2	5642-5647	Intro	abstract[416]	new[416]	nonsal[416]	_	_	_	
-157-3	5648-5650	to	abstract[416]	new[416]	nonsal[416]	_	_	_	
-157-4	5651-5661	Algorithms	abstract[416]|abstract[417]	new[416]|giv[417]	nonsal[416]|nonsal[417]	Algorithm[417]	coref	158-2[418_417]	
+157-1	5641-5643	1.	_	_	_	_	_	_	
+157-2	5644-5649	Intro	abstract[415]	new[415]	nonsal[415]	_	_	_	
+157-3	5650-5652	to	abstract[415]	new[415]	nonsal[415]	_	_	_	
+157-4	5653-5663	Algorithms	abstract[415]|abstract[416]	new[415]|giv[416]	nonsal[415]|nonsal[416]	Algorithm[416]	coref	158-2[417_416]	
 
 #Text=2. Algorithms : Searching
-158-1	5662-5664	2.	_	_	_	_	_	_	
-158-2	5665-5675	Algorithms	abstract[418]	giv[418]	nonsal[418]	Algorithm[418]	coref	159-2[419_418]	
-158-3	5676-5677	:	_	_	_	_	_	_	
-158-4	5678-5687	Searching	_	_	_	_	_	_	
+158-1	5664-5666	2.	_	_	_	_	_	_	
+158-2	5667-5677	Algorithms	abstract[417]	giv[417]	nonsal[417]	Algorithm[417]	coref	159-2[418_417]	
+158-3	5678-5679	:	_	_	_	_	_	_	
+158-4	5680-5689	Searching	_	_	_	_	_	_	
 
 #Text=3. Algorithms : Sorting
-159-1	5688-5690	3.	_	_	_	_	_	_	
-159-2	5691-5701	Algorithms	abstract[419]	giv[419]	nonsal[419]	Algorithm[419]	_	_	
-159-3	5702-5703	:	_	_	_	_	_	_	
-159-4	5704-5711	Sorting	_	_	_	_	_	_	
+159-1	5690-5692	3.	_	_	_	_	_	_	
+159-2	5693-5703	Algorithms	abstract[418]	giv[418]	nonsal[418]	Algorithm[418]	_	_	
+159-3	5704-5705	:	_	_	_	_	_	_	
+159-4	5706-5713	Sorting	_	_	_	_	_	_	
 
 #Text=Week 12 - Final Assessments
-160-1	5712-5716	Week	time[420]	new[420]	nonsal[420]	_	_	_	
-160-2	5717-5719	12	time[420]	new[420]	nonsal[420]	_	_	_	
-160-3	5720-5721	-	_	_	_	_	_	_	
-160-4	5722-5727	Final	event[421]	giv[421]	nonsal[421]	_	_	_	
-160-5	5728-5739	Assessments	event[421]	giv[421]	nonsal[421]	_	_	_	
+160-1	5714-5718	Week	time[419]	new[419]	nonsal[419]	_	_	_	
+160-2	5719-5721	12	time[419]	new[419]	nonsal[419]	_	_	_	
+160-3	5722-5723	-	_	_	_	_	_	_	
+160-4	5724-5729	Final	event[420]	giv[420]	nonsal[420]	_	_	_	
+160-5	5730-5741	Assessments	event[420]	giv[420]	nonsal[420]	_	_	_	
 
 #Text=1. Navigating New Codebases
-161-1	5740-5742	1.	_	_	_	_	_	_	
-161-2	5743-5753	Navigating	_	_	_	_	_	_	
-161-3	5754-5757	New	abstract[422]	new[422]	nonsal[422]	_	_	_	
-161-4	5758-5767	Codebases	abstract[422]	new[422]	nonsal[422]	_	_	_	
+161-1	5742-5744	1.	_	_	_	_	_	_	
+161-2	5745-5755	Navigating	_	_	_	_	_	_	
+161-3	5756-5759	New	abstract[421]	new[421]	nonsal[421]	_	_	_	
+161-4	5760-5769	Codebases	abstract[421]	new[421]	nonsal[421]	_	_	_	
 
 #Text=2. Open - source Projects
-162-1	5768-5770	2.	_	_	_	_	_	_	
-162-2	5771-5775	Open	abstract[423]	new[423]	nonsal[423]	_	_	_	
-162-3	5776-5777	-	abstract[423]	new[423]	nonsal[423]	_	_	_	
-162-4	5778-5784	source	abstract[423]	new[423]	nonsal[423]	_	_	_	
-162-5	5785-5793	Projects	abstract[423]	new[423]	nonsal[423]	_	_	_	
+162-1	5770-5772	2.	_	_	_	_	_	_	
+162-2	5773-5777	Open	abstract[422]	new[422]	nonsal[422]	_	_	_	
+162-3	5778-5779	-	abstract[422]	new[422]	nonsal[422]	_	_	_	
+162-4	5780-5786	source	abstract[422]	new[422]	nonsal[422]	_	_	_	
+162-5	5787-5795	Projects	abstract[422]	new[422]	nonsal[422]	_	_	_	
 
 #Text=Week 13 - Career Week !
-163-1	5794-5798	Week	time[424]	new[424]	nonsal[424]	_	_	_	
-163-2	5799-5801	13	time[424]	new[424]	nonsal[424]	_	_	_	
-163-3	5802-5803	-	_	_	_	_	_	_	
-163-4	5804-5810	Career	time[425]|abstract[426]	giv[425]|giv[426]	nonsal[425]|nonsal[426]	Career[426]	coref|coref	168-2[439_425]|168-2[440_426]	
-163-5	5811-5815	Week	time[425]	giv[425]	nonsal[425]	_	_	_	
-163-6	5816-5817	!	_	_	_	_	_	_	
+163-1	5796-5800	Week	time[423]	new[423]	nonsal[423]	_	_	_	
+163-2	5801-5803	13	time[423]	new[423]	nonsal[423]	_	_	_	
+163-3	5804-5805	-	_	_	_	_	_	_	
+163-4	5806-5812	Career	time[424]|abstract[425]	giv[424]|giv[425]	nonsal[424]|nonsal[425]	Career[425]	coref|coref	168-2[438_424]|168-2[439_425]	
+163-5	5813-5817	Week	time[424]	giv[424]	nonsal[424]	_	_	_	
+163-6	5818-5819	!	_	_	_	_	_	_	
 
 #Text=1. Technical Interviewing
-164-1	5818-5820	1.	_	_	_	_	_	_	
-164-2	5821-5830	Technical	event[427]	new[427]	nonsal[427]	_	_	_	
-164-3	5831-5843	Interviewing	event[427]	new[427]	nonsal[427]	_	_	_	
+164-1	5820-5822	1.	_	_	_	_	_	_	
+164-2	5823-5832	Technical	event[426]	new[426]	nonsal[426]	_	_	_	
+164-3	5833-5845	Interviewing	event[426]	new[426]	nonsal[426]	_	_	_	
 
 #Text=2. Take - home Problems
-165-1	5844-5846	2.	_	_	_	_	_	_	
-165-2	5847-5851	Take	abstract[428]	new[428]	nonsal[428]	_	_	_	
-165-3	5852-5853	-	abstract[428]	new[428]	nonsal[428]	_	_	_	
-165-4	5854-5858	home	abstract[428]|place[429]	new[428]|new[429]	nonsal[428]|nonsal[429]	_	coref	182-6[479_429]	
-165-5	5859-5867	Problems	abstract[428]	new[428]	nonsal[428]	_	_	_	
+165-1	5846-5848	2.	_	_	_	_	_	_	
+165-2	5849-5853	Take	abstract[427]	new[427]	nonsal[427]	_	_	_	
+165-3	5854-5855	-	abstract[427]	new[427]	nonsal[427]	_	_	_	
+165-4	5856-5860	home	abstract[427]|place[428]	new[427]|new[428]	nonsal[427]|nonsal[428]	_	coref	182-6[478_428]	
+165-5	5861-5869	Problems	abstract[427]	new[427]	nonsal[427]	_	_	_	
 
 #Text=3. Non-Tech Interviews
-166-1	5868-5870	3.	_	_	_	_	_	_	
-166-2	5871-5879	Non-Tech	event[430]	new[430]	nonsal[430]	_	_	_	
-166-3	5880-5890	Interviews	event[430]	new[430]	nonsal[430]	_	_	_	
+166-1	5870-5872	3.	_	_	_	_	_	_	
+166-2	5873-5881	Non-Tech	event[429]	new[429]	nonsal[429]	_	_	_	
+166-3	5882-5892	Interviews	event[429]	new[429]	nonsal[429]	_	_	_	
 
 #Text=4. Article by Techtonica Alum : Working in the field as a New Software Engineer out of Bootcamp
-167-1	5891-5893	4.	_	_	_	_	_	_	
-167-2	5894-5901	Article	abstract[431]	new[431]	nonsal[431]	_	coref	167-7[434_431]	
-167-3	5902-5904	by	abstract[431]	new[431]	nonsal[431]	_	_	_	
-167-4	5905-5915	Techtonica	abstract[431]|person[432]|abstract[433]	new[431]|new[432]|giv[433]	nonsal[431]|nonsal[432]|nonsal[433]	_	_	_	
-167-5	5916-5920	Alum	abstract[431]|person[432]	new[431]|new[432]	nonsal[431]|nonsal[432]	_	_	_	
-167-6	5921-5922	:	_	_	_	_	_	_	
-167-7	5923-5930	Working	abstract[434]	giv[434]	nonsal[434]	_	_	_	
-167-8	5931-5933	in	abstract[434]	giv[434]	nonsal[434]	_	_	_	
-167-9	5934-5937	the	abstract[434]|abstract[435]	giv[434]|new[435]	nonsal[434]|nonsal[435]	_	coref	187-6[491_435]	
-167-10	5938-5943	field	abstract[434]|abstract[435]	giv[434]|new[435]	nonsal[434]|nonsal[435]	_	_	_	
-167-11	5944-5946	as	abstract[434]	giv[434]	nonsal[434]	_	_	_	
-167-12	5947-5948	a	abstract[434]|person[436]	giv[434]|new[436]	nonsal[434]|nonsal[436]	_	_	_	
-167-13	5949-5952	New	abstract[434]|person[436]	giv[434]|new[436]	nonsal[434]|nonsal[436]	_	_	_	
-167-14	5953-5961	Software	abstract[434]|person[436]|abstract[437]	giv[434]|new[436]|giv[437]	nonsal[434]|nonsal[436]|nonsal[437]	_	coref	191-4[499_437]	
-167-15	5962-5970	Engineer	abstract[434]|person[436]	giv[434]|new[436]	nonsal[434]|nonsal[436]	_	_	_	
-167-16	5971-5974	out	abstract[434]	giv[434]	nonsal[434]	_	_	_	
-167-17	5975-5977	of	abstract[434]	giv[434]	nonsal[434]	_	_	_	
-167-18	5978-5986	Bootcamp	abstract[434]|abstract[438]	giv[434]|new[438]	nonsal[434]|nonsal[438]	Coding_bootcamp[438]	_	_	
+167-1	5893-5895	4.	_	_	_	_	_	_	
+167-2	5896-5903	Article	abstract[430]	new[430]	nonsal[430]	_	coref	167-7[433_430]	
+167-3	5904-5906	by	abstract[430]	new[430]	nonsal[430]	_	_	_	
+167-4	5907-5917	Techtonica	abstract[430]|person[431]|abstract[432]	new[430]|new[431]|giv[432]	nonsal[430]|nonsal[431]|nonsal[432]	_	_	_	
+167-5	5918-5922	Alum	abstract[430]|person[431]	new[430]|new[431]	nonsal[430]|nonsal[431]	_	_	_	
+167-6	5923-5924	:	_	_	_	_	_	_	
+167-7	5925-5932	Working	abstract[433]	giv[433]	nonsal[433]	_	_	_	
+167-8	5933-5935	in	abstract[433]	giv[433]	nonsal[433]	_	_	_	
+167-9	5936-5939	the	abstract[433]|abstract[434]	giv[433]|new[434]	nonsal[433]|nonsal[434]	_	coref	187-6[490_434]	
+167-10	5940-5945	field	abstract[433]|abstract[434]	giv[433]|new[434]	nonsal[433]|nonsal[434]	_	_	_	
+167-11	5946-5948	as	abstract[433]	giv[433]	nonsal[433]	_	_	_	
+167-12	5949-5950	a	abstract[433]|person[435]	giv[433]|new[435]	nonsal[433]|nonsal[435]	_	_	_	
+167-13	5951-5954	New	abstract[433]|person[435]	giv[433]|new[435]	nonsal[433]|nonsal[435]	_	_	_	
+167-14	5955-5963	Software	abstract[433]|person[435]|abstract[436]	giv[433]|new[435]|giv[436]	nonsal[433]|nonsal[435]|nonsal[436]	_	coref	191-4[498_436]	
+167-15	5964-5972	Engineer	abstract[433]|person[435]	giv[433]|new[435]	nonsal[433]|nonsal[435]	_	_	_	
+167-16	5973-5976	out	abstract[433]	giv[433]	nonsal[433]	_	_	_	
+167-17	5977-5979	of	abstract[433]	giv[433]	nonsal[433]	_	_	_	
+167-18	5980-5988	Bootcamp	abstract[433]|abstract[437]	giv[433]|new[437]	nonsal[433]|nonsal[437]	Coding_bootcamp[437]	_	_	
 
 #Text=5. Career Week : Machine Learning Engineer
-168-1	5987-5989	5.	_	_	_	_	_	_	
-168-2	5990-5996	Career	time[439]|abstract[440]	giv[439]|new[440]	nonsal[439]|nonsal[440]	Career[440]	coref|coref	169-2[442_439]|169-2[443_440]	
-168-3	5997-6001	Week	time[439]	giv[439]	nonsal[439]	_	_	_	
-168-4	6002-6003	:	_	_	_	_	_	_	
-168-5	6004-6011	Machine	person[441]	giv[441]	nonsal[441]	_	_	_	
-168-6	6012-6020	Learning	person[441]	giv[441]	nonsal[441]	_	_	_	
-168-7	6021-6029	Engineer	person[441]	giv[441]	nonsal[441]	_	_	_	
+168-1	5989-5991	5.	_	_	_	_	_	_	
+168-2	5992-5998	Career	time[438]|abstract[439]	giv[438]|new[439]	nonsal[438]|nonsal[439]	Career[439]	coref|coref	169-2[441_438]|169-2[442_439]	
+168-3	5999-6003	Week	time[438]	giv[438]	nonsal[438]	_	_	_	
+168-4	6004-6005	:	_	_	_	_	_	_	
+168-5	6006-6013	Machine	person[440]	giv[440]	nonsal[440]	_	_	_	
+168-6	6014-6022	Learning	person[440]	giv[440]	nonsal[440]	_	_	_	
+168-7	6023-6031	Engineer	person[440]	giv[440]	nonsal[440]	_	_	_	
 
 #Text=6. Career Week : Entrepreneurship
-169-1	6030-6032	6.	_	_	_	_	_	_	
-169-2	6033-6039	Career	time[442]|abstract[443]	giv[442]|giv[443]	nonsal[442]|nonsal[443]	Career[443]	coref|coref	170-2[445_442]|170-2[446_443]	
-169-3	6040-6044	Week	time[442]	giv[442]	nonsal[442]	_	_	_	
-169-4	6045-6046	:	_	_	_	_	_	_	
-169-5	6047-6063	Entrepreneurship	abstract[444]	new[444]	nonsal[444]	Entrepreneurship[444]	_	_	
+169-1	6032-6034	6.	_	_	_	_	_	_	
+169-2	6035-6041	Career	time[441]|abstract[442]	giv[441]|giv[442]	nonsal[441]|nonsal[442]	Career[442]	coref|coref	170-2[444_441]|170-2[445_442]	
+169-3	6042-6046	Week	time[441]	giv[441]	nonsal[441]	_	_	_	
+169-4	6047-6048	:	_	_	_	_	_	_	
+169-5	6049-6065	Entrepreneurship	abstract[443]	new[443]	nonsal[443]	Entrepreneurship[443]	_	_	
 
 #Text=7. Career Week : Data Science
-170-1	6064-6066	7.	_	_	_	_	_	_	
-170-2	6067-6073	Career	time[445]|abstract[446]	giv[445]|giv[446]	nonsal[445]|nonsal[446]	Career[446]	coref|coref	171-2[448_445]|171-2[449_446]	
-170-3	6074-6078	Week	time[445]	giv[445]	nonsal[445]	_	_	_	
-170-4	6079-6080	:	_	_	_	_	_	_	
-170-5	6081-6085	Data	abstract[447]	new[447]	nonsal[447]	Data_science[447]	_	_	
-170-6	6086-6093	Science	abstract[447]	new[447]	nonsal[447]	Data_science[447]	_	_	
+170-1	6066-6068	7.	_	_	_	_	_	_	
+170-2	6069-6075	Career	time[444]|abstract[445]	giv[444]|giv[445]	nonsal[444]|nonsal[445]	Career[445]	coref|coref	171-2[447_444]|171-2[448_445]	
+170-3	6076-6080	Week	time[444]	giv[444]	nonsal[444]	_	_	_	
+170-4	6081-6082	:	_	_	_	_	_	_	
+170-5	6083-6087	Data	abstract[446]	new[446]	nonsal[446]	Data_science[446]	_	_	
+170-6	6088-6095	Science	abstract[446]	new[446]	nonsal[446]	Data_science[446]	_	_	
 
 #Text=8. Career Week : Security
-171-1	6094-6096	8.	_	_	_	_	_	_	
-171-2	6097-6103	Career	time[448]|abstract[449]	giv[448]|giv[449]	nonsal[448]|nonsal[449]	Career[449]	coref|coref	172-2[451_448]|172-2[452_449]	
-171-3	6104-6108	Week	time[448]	giv[448]	nonsal[448]	_	_	_	
-171-4	6109-6110	:	_	_	_	_	_	_	
-171-5	6111-6119	Security	time[450]	giv[450]	nonsal[450]	_	_	_	
+171-1	6096-6098	8.	_	_	_	_	_	_	
+171-2	6099-6105	Career	time[447]|abstract[448]	giv[447]|giv[448]	nonsal[447]|nonsal[448]	Career[448]	coref|coref	172-2[450_447]|172-2[451_448]	
+171-3	6106-6110	Week	time[447]	giv[447]	nonsal[447]	_	_	_	
+171-4	6111-6112	:	_	_	_	_	_	_	
+171-5	6113-6121	Security	time[449]	giv[449]	nonsal[449]	_	_	_	
 
 #Text=9. Career Week : QA Engineer
-172-1	6120-6122	9.	_	_	_	_	_	_	
-172-2	6123-6129	Career	time[451]|abstract[452]	giv[451]|giv[452]	nonsal[451]|nonsal[452]	Career[452]	coref|coref	173-2[454_451]|173-2[455_452]	
-172-3	6130-6134	Week	time[451]	giv[451]	nonsal[451]	_	_	_	
-172-4	6135-6136	:	_	_	_	_	_	_	
-172-5	6137-6139	QA	person[453]	giv[453]	nonsal[453]	_	_	_	
-172-6	6140-6148	Engineer	person[453]	giv[453]	nonsal[453]	_	_	_	
+172-1	6122-6124	9.	_	_	_	_	_	_	
+172-2	6125-6131	Career	time[450]|abstract[451]	giv[450]|giv[451]	nonsal[450]|nonsal[451]	Career[451]	coref|coref	173-2[453_450]|173-2[454_451]	
+172-3	6132-6136	Week	time[450]	giv[450]	nonsal[450]	_	_	_	
+172-4	6137-6138	:	_	_	_	_	_	_	
+172-5	6139-6141	QA	person[452]	giv[452]	nonsal[452]	_	_	_	
+172-6	6142-6150	Engineer	person[452]	giv[452]	nonsal[452]	_	_	_	
 
 #Text=10. Career Week : Developer Advocate
-173-1	6149-6152	10.	_	_	_	_	_	_	
-173-2	6153-6159	Career	time[454]|abstract[455]	giv[454]|giv[455]	nonsal[454]|nonsal[455]	Career[455]	coref|coref	174-2[457_454]|174-2[458_455]	
-173-3	6160-6164	Week	time[454]	giv[454]	nonsal[454]	_	_	_	
-173-4	6165-6166	:	_	_	_	_	_	_	
-173-5	6167-6176	Developer	time[456]	giv[456]	nonsal[456]	_	_	_	
-173-6	6177-6185	Advocate	time[456]	giv[456]	nonsal[456]	_	_	_	
+173-1	6151-6154	10.	_	_	_	_	_	_	
+173-2	6155-6161	Career	time[453]|abstract[454]	giv[453]|giv[454]	nonsal[453]|nonsal[454]	Career[454]	coref|coref	174-2[456_453]|174-2[457_454]	
+173-3	6162-6166	Week	time[453]	giv[453]	nonsal[453]	_	_	_	
+173-4	6167-6168	:	_	_	_	_	_	_	
+173-5	6169-6178	Developer	time[455]	giv[455]	nonsal[455]	_	_	_	
+173-6	6179-6187	Advocate	time[455]	giv[455]	nonsal[455]	_	_	_	
 
 #Text=11. Career Week : Sales Engineering
-174-1	6186-6189	11.	_	_	_	_	_	_	
-174-2	6190-6196	Career	time[457]|abstract[458]	giv[457]|giv[458]	nonsal[457]|nonsal[458]	Career[458]	coref|coref	175-2[461_457]|175-2[462_458]	
-174-3	6197-6201	Week	time[457]	giv[457]	nonsal[457]	_	_	_	
-174-4	6202-6203	:	_	_	_	_	_	_	
-174-5	6204-6209	Sales	abstract[459]|abstract[460]	new[459]|new[460]	nonsal[459]|nonsal[460]	_	_	_	
-174-6	6210-6221	Engineering	abstract[459]	new[459]	nonsal[459]	_	_	_	
+174-1	6188-6191	11.	_	_	_	_	_	_	
+174-2	6192-6198	Career	time[456]|abstract[457]	giv[456]|giv[457]	nonsal[456]|nonsal[457]	Career[457]	coref|coref	175-2[460_456]|175-2[461_457]	
+174-3	6199-6203	Week	time[456]	giv[456]	nonsal[456]	_	_	_	
+174-4	6204-6205	:	_	_	_	_	_	_	
+174-5	6206-6211	Sales	abstract[458]|abstract[459]	new[458]|new[459]	nonsal[458]|nonsal[459]	_	_	_	
+174-6	6212-6223	Engineering	abstract[458]	new[458]	nonsal[458]	_	_	_	
 
 #Text=12. Career Week :
-175-1	6222-6225	12.	_	_	_	_	_	_	
-175-2	6226-6232	Career	time[461]|abstract[462]	giv[461]|giv[462]	nonsal[461]|nonsal[462]	Career[462]	_	_	
-175-3	6233-6237	Week	time[461]	giv[461]	nonsal[461]	_	_	_	
-175-4	6238-6239	:	_	_	_	_	_	_	
+175-1	6224-6227	12.	_	_	_	_	_	_	
+175-2	6228-6234	Career	time[460]|abstract[461]	giv[460]|giv[461]	nonsal[460]|nonsal[461]	Career[461]	_	_	
+175-3	6235-6239	Week	time[460]	giv[460]	nonsal[460]	_	_	_	
+175-4	6240-6241	:	_	_	_	_	_	_	
 
 #Text=Technical Program Manager
-176-1	6240-6249	Technical	person[463]	new[463]	nonsal[463]	_	_	_	
-176-2	6250-6257	Program	person[463]	new[463]	nonsal[463]	_	_	_	
-176-3	6258-6265	Manager	person[463]	new[463]	nonsal[463]	_	_	_	
+176-1	6242-6251	Technical	person[462]	new[462]	nonsal[462]	_	_	_	
+176-2	6252-6259	Program	person[462]	new[462]	nonsal[462]	_	_	_	
+176-3	6260-6267	Manager	person[462]	new[462]	nonsal[462]	_	_	_	
 
 #Text=Week 14 - Project Prep Week & Electives
-177-1	6266-6270	Week	time[464]	new[464]	nonsal[464]	_	coref	193-2[502_464]	
-177-2	6271-6273	14	time[464]	new[464]	nonsal[464]	_	_	_	
-177-3	6274-6275	-	_	_	_	_	_	_	
-177-4	6276-6283	Project	time[465]|abstract[466]|abstract[467]	new[465]|giv[466]|giv[467]	nonsal[465]|nonsal[466]|nonsal[467]	_	coref	185-2[485_467]	
-177-5	6284-6288	Prep	time[465]|abstract[466]	new[465]|giv[466]	nonsal[465]|nonsal[466]	_	_	_	
-177-6	6289-6293	Week	time[465]	new[465]	nonsal[465]	_	_	_	
-177-7	6294-6295	&	_	_	_	_	_	_	
-177-8	6296-6305	Electives	abstract[468]	giv[468]	nonsal[468]	_	_	_	
+177-1	6268-6272	Week	time[463]	new[463]	nonsal[463]	_	coref	193-2[501_463]	
+177-2	6273-6275	14	time[463]	new[463]	nonsal[463]	_	_	_	
+177-3	6276-6277	-	_	_	_	_	_	_	
+177-4	6278-6285	Project	time[464]|abstract[465]|abstract[466]	new[464]|giv[465]|giv[466]	nonsal[464]|nonsal[465]|nonsal[466]	_	coref	185-2[484_466]	
+177-5	6286-6290	Prep	time[464]|abstract[465]	new[464]|giv[465]	nonsal[464]|nonsal[465]	_	_	_	
+177-6	6291-6295	Week	time[464]	new[464]	nonsal[464]	_	_	_	
+177-7	6296-6297	&	_	_	_	_	_	_	
+177-8	6298-6307	Electives	abstract[467]	giv[467]	nonsal[467]	_	_	_	
 
 #Text=1. Intro to Security in Web Development
-178-1	6306-6308	1.	_	_	_	_	_	_	
-178-2	6309-6314	Intro	abstract[469]	new[469]	nonsal[469]	_	_	_	
-178-3	6315-6317	to	abstract[469]	new[469]	nonsal[469]	_	_	_	
-178-4	6318-6326	Security	abstract[469]|abstract[470]	new[469]|giv[470]	nonsal[469]|nonsal[470]	_	_	_	
-178-5	6327-6329	in	abstract[469]	new[469]	nonsal[469]	_	_	_	
-178-6	6330-6333	Web	abstract[469]|abstract[471]|abstract[472]	new[469]|new[471]|new[472]	nonsal[469]|nonsal[471]|nonsal[472]	World_Wide_Web[472]	coref	193-11[505_472]	
-178-7	6334-6345	Development	abstract[469]|abstract[471]	new[469]|new[471]	nonsal[469]|nonsal[471]	_	_	_	
+178-1	6308-6310	1.	_	_	_	_	_	_	
+178-2	6311-6316	Intro	abstract[468]	new[468]	nonsal[468]	_	_	_	
+178-3	6317-6319	to	abstract[468]	new[468]	nonsal[468]	_	_	_	
+178-4	6320-6328	Security	abstract[468]|abstract[469]	new[468]|giv[469]	nonsal[468]|nonsal[469]	_	_	_	
+178-5	6329-6331	in	abstract[468]	new[468]	nonsal[468]	_	_	_	
+178-6	6332-6335	Web	abstract[468]|abstract[470]|abstract[471]	new[468]|new[470]|new[471]	nonsal[468]|nonsal[470]|nonsal[471]	World_Wide_Web[471]	coref	193-11[504_471]	
+178-7	6336-6347	Development	abstract[468]|abstract[470]	new[468]|new[470]	nonsal[468]|nonsal[470]	_	_	_	
 
 #Text=2. Refactoring
-179-1	6346-6348	2.	_	_	_	_	_	_	
-179-2	6349-6360	Refactoring	event[473]	new[473]	nonsal[473]	_	_	_	
+179-1	6348-6350	2.	_	_	_	_	_	_	
+179-2	6351-6362	Refactoring	event[472]	new[472]	nonsal[472]	_	_	_	
 
 #Text=3. Interviewing
-180-1	6361-6363	3.	_	_	_	_	_	_	
-180-2	6364-6376	Interviewing	event[474]	new[474]	nonsal[474]	_	_	_	
+180-1	6363-6365	3.	_	_	_	_	_	_	
+180-2	6366-6378	Interviewing	event[473]	new[473]	nonsal[473]	_	_	_	
 
 #Text=4. Resume Writing
-181-1	6377-6379	4.	_	_	_	_	_	_	
-181-2	6380-6386	Resume	event[475]	new[475]	nonsal[475]	_	_	_	
-181-3	6387-6394	Writing	event[475]	new[475]	nonsal[475]	_	_	_	
+181-1	6379-6381	4.	_	_	_	_	_	_	
+181-2	6382-6388	Resume	event[474]	new[474]	nonsal[474]	_	_	_	
+181-3	6389-6396	Writing	event[474]	new[474]	nonsal[474]	_	_	_	
 
 #Text=5. Front End Take - home Challenge
-182-1	6395-6397	5.	_	_	_	_	_	_	
-182-2	6398-6403	Front	abstract[476]|abstract[477]	new[476]|new[477]	nonsal[476]|nonsal[477]	_	_	_	
-182-3	6404-6407	End	abstract[476]|abstract[477]	new[476]|new[477]	nonsal[476]|nonsal[477]	_	_	_	
-182-4	6408-6412	Take	abstract[476]|event[478]	new[476]|new[478]	nonsal[476]|nonsal[478]	_	coref	183-4[482_478]	
-182-5	6413-6414	-	abstract[476]|event[478]	new[476]|new[478]	nonsal[476]|nonsal[478]	_	_	_	
-182-6	6415-6419	home	abstract[476]|event[478]|place[479]	new[476]|new[478]|new[479]	nonsal[476]|nonsal[478]|nonsal[479]	_	coref	183-6[483_479]	
-182-7	6420-6429	Challenge	abstract[476]|event[478]	new[476]|new[478]	nonsal[476]|nonsal[478]	_	_	_	
+182-1	6397-6399	5.	_	_	_	_	_	_	
+182-2	6400-6405	Front	abstract[475]|abstract[476]	new[475]|new[476]	nonsal[475]|nonsal[476]	_	_	_	
+182-3	6406-6409	End	abstract[475]|abstract[476]	new[475]|new[476]	nonsal[475]|nonsal[476]	_	_	_	
+182-4	6410-6414	Take	abstract[475]|event[477]	new[475]|new[477]	nonsal[475]|nonsal[477]	_	coref	183-4[481_477]	
+182-5	6415-6416	-	abstract[475]|event[477]	new[475]|new[477]	nonsal[475]|nonsal[477]	_	_	_	
+182-6	6417-6421	home	abstract[475]|event[477]|place[478]	new[475]|new[477]|new[478]	nonsal[475]|nonsal[477]|nonsal[478]	_	coref	183-6[482_478]	
+182-7	6422-6431	Challenge	abstract[475]|event[477]	new[475]|new[477]	nonsal[475]|nonsal[477]	_	_	_	
 
 #Text=6. Back End Take - home Challenge
-183-1	6430-6432	6.	_	_	_	_	_	_	
-183-2	6433-6437	Back	abstract[480]|abstract[481]	new[480]|new[481]	nonsal[480]|nonsal[481]	_	_	_	
-183-3	6438-6441	End	abstract[480]|abstract[481]	new[480]|new[481]	nonsal[480]|nonsal[481]	_	_	_	
-183-4	6442-6446	Take	abstract[480]|event[482]	new[480]|giv[482]	nonsal[480]|nonsal[482]	_	_	_	
-183-5	6447-6448	-	abstract[480]|event[482]	new[480]|giv[482]	nonsal[480]|nonsal[482]	_	_	_	
-183-6	6449-6453	home	abstract[480]|event[482]|place[483]	new[480]|giv[482]|giv[483]	nonsal[480]|nonsal[482]|nonsal[483]	_	_	_	
-183-7	6454-6463	Challenge	abstract[480]|event[482]	new[480]|giv[482]	nonsal[480]|nonsal[482]	_	_	_	
+183-1	6432-6434	6.	_	_	_	_	_	_	
+183-2	6435-6439	Back	abstract[479]|abstract[480]	new[479]|new[480]	nonsal[479]|nonsal[480]	_	_	_	
+183-3	6440-6443	End	abstract[479]|abstract[480]	new[479]|new[480]	nonsal[479]|nonsal[480]	_	_	_	
+183-4	6444-6448	Take	abstract[479]|event[481]	new[479]|giv[481]	nonsal[479]|nonsal[481]	_	_	_	
+183-5	6449-6450	-	abstract[479]|event[481]	new[479]|giv[481]	nonsal[479]|nonsal[481]	_	_	_	
+183-6	6451-6455	home	abstract[479]|event[481]|place[482]	new[479]|giv[481]|giv[482]	nonsal[479]|nonsal[481]|nonsal[482]	_	_	_	
+183-7	6456-6465	Challenge	abstract[479]|event[481]	new[479]|giv[481]	nonsal[479]|nonsal[481]	_	_	_	
 
 #Text=7. Technical Writing
-184-1	6464-6466	7.	_	_	_	_	_	_	
-184-2	6467-6476	Technical	event[484]	giv[484]	nonsal[484]	_	_	_	
-184-3	6477-6484	Writing	event[484]	giv[484]	nonsal[484]	_	_	_	
+184-1	6466-6468	7.	_	_	_	_	_	_	
+184-2	6469-6478	Technical	event[483]	giv[483]	nonsal[483]	_	_	_	
+184-3	6479-6486	Writing	event[483]	giv[483]	nonsal[483]	_	_	_	
 
 #Text=8. Final Project : Selecting Your Final Project
-185-1	6485-6487	8.	_	_	_	_	_	_	
-185-2	6488-6493	Final	abstract[485]	giv[485]	nonsal[485]	_	coref	185-6[486_485]	
-185-3	6494-6501	Project	abstract[485]	giv[485]	nonsal[485]	_	_	_	
-185-4	6502-6503	:	_	_	_	_	_	_	
-185-5	6504-6513	Selecting	_	_	_	_	_	_	
-185-6	6514-6518	Your	abstract[486]|person[487]	giv[486]|giv[487]	nonsal[486]|nonsal[487]	_	coref	186-2[488_486]	
-185-7	6519-6524	Final	abstract[486]	giv[486]	nonsal[486]	_	_	_	
-185-8	6525-6532	Project	abstract[486]	giv[486]	nonsal[486]	_	_	_	
+185-1	6487-6489	8.	_	_	_	_	_	_	
+185-2	6490-6495	Final	abstract[484]	giv[484]	nonsal[484]	_	coref	185-6[485_484]	
+185-3	6496-6503	Project	abstract[484]	giv[484]	nonsal[484]	_	_	_	
+185-4	6504-6505	:	_	_	_	_	_	_	
+185-5	6506-6515	Selecting	_	_	_	_	_	_	
+185-6	6516-6520	Your	abstract[485]|person[486]	giv[485]|giv[486]	nonsal[485]|nonsal[486]	_	coref	186-2[487_485]	
+185-7	6521-6526	Final	abstract[485]	giv[485]	nonsal[485]	_	_	_	
+185-8	6527-6534	Project	abstract[485]	giv[485]	nonsal[485]	_	_	_	
 
 #Text=9. Final Project : 5 weeks
-186-1	6533-6535	9.	_	_	_	_	_	_	
-186-2	6536-6541	Final	abstract[488]	giv[488]	nonsal[488]	_	coref	192-4[501_488]	
-186-3	6542-6549	Project	abstract[488]	giv[488]	nonsal[488]	_	_	_	
-186-4	6550-6551	:	_	_	_	_	_	_	
-186-5	6552-6553	5	time[489]	giv[489]	nonsal[489]	_	_	_	
-186-6	6554-6559	weeks	time[489]	giv[489]	nonsal[489]	_	_	_	
+186-1	6535-6537	9.	_	_	_	_	_	_	
+186-2	6538-6543	Final	abstract[487]	giv[487]	nonsal[487]	_	coref	192-4[500_487]	
+186-3	6544-6551	Project	abstract[487]	giv[487]	nonsal[487]	_	_	_	
+186-4	6552-6553	:	_	_	_	_	_	_	
+186-5	6554-6555	5	time[488]	giv[488]	nonsal[488]	_	_	_	
+186-6	6556-6561	weeks	time[488]	giv[488]	nonsal[488]	_	_	_	
 
 #Text=10. Resources : Underrepresented in Tech
-187-1	6560-6563	10.	_	_	_	_	_	_	
-187-2	6564-6573	Resources	abstract[490]	new[490]	nonsal[490]	_	_	_	
-187-3	6574-6575	:	_	_	_	_	_	_	
-187-4	6576-6592	Underrepresented	_	_	_	_	_	_	
-187-5	6593-6595	in	_	_	_	_	_	_	
-187-6	6596-6600	Tech	abstract[491]	new[491]	nonsal[491]	Technology[491]	_	_	
+187-1	6562-6565	10.	_	_	_	_	_	_	
+187-2	6566-6575	Resources	abstract[489]	new[489]	nonsal[489]	_	_	_	
+187-3	6576-6577	:	_	_	_	_	_	_	
+187-4	6578-6594	Underrepresented	_	_	_	_	_	_	
+187-5	6595-6597	in	_	_	_	_	_	_	
+187-6	6598-6602	Tech	abstract[490]	new[490]	nonsal[490]	Technology[490]	_	_	
 
 #Text=11. Difficult Workplace Situations
-188-1	6601-6604	11.	_	_	_	_	_	_	
-188-2	6605-6614	Difficult	abstract[492]	new[492]	nonsal[492]	_	_	_	
-188-3	6615-6624	Workplace	abstract[492]|place[493]	new[492]|new[493]	nonsal[492]|nonsal[493]	_	_	_	
-188-4	6625-6635	Situations	abstract[492]	new[492]	nonsal[492]	_	_	_	
+188-1	6603-6606	11.	_	_	_	_	_	_	
+188-2	6607-6616	Difficult	abstract[491]	new[491]	nonsal[491]	_	_	_	
+188-3	6617-6626	Workplace	abstract[491]|place[492]	new[491]|new[492]	nonsal[491]|nonsal[492]	_	_	_	
+188-4	6627-6637	Situations	abstract[491]	new[491]	nonsal[491]	_	_	_	
 
 #Text=12. Financial Literacy
-189-1	6636-6639	12.	_	_	_	_	_	_	
-189-2	6640-6649	Financial	abstract[494]	new[494]	nonsal[494]	Financial_literacy[494]	_	_	
-189-3	6650-6658	Literacy	abstract[494]	new[494]	nonsal[494]	Financial_literacy[494]	_	_	
+189-1	6638-6641	12.	_	_	_	_	_	_	
+189-2	6642-6651	Financial	abstract[493]	new[493]	nonsal[493]	Financial_literacy[493]	_	_	
+189-3	6652-6660	Literacy	abstract[493]	new[493]	nonsal[493]	Financial_literacy[493]	_	_	
 
 #Text=13. Negotiating
-190-1	6659-6662	13.	_	_	_	_	_	_	
-190-2	6663-6674	Negotiating	event[495]	new[495]	nonsal[495]	_	_	_	
+190-1	6661-6664	13.	_	_	_	_	_	_	
+190-2	6665-6676	Negotiating	event[494]	new[494]	nonsal[494]	_	_	_	
 
 #Text=14. Ethics in Software Engineering
-191-1	6675-6678	14.	_	_	_	_	_	_	
-191-2	6679-6685	Ethics	abstract[496]|abstract[497]	new[496]|new[497]	nonsal[496]|nonsal[497]	Ethics[497]	_	_	
-191-3	6686-6688	in	abstract[496]	new[496]	nonsal[496]	_	_	_	
-191-4	6689-6697	Software	abstract[496]|abstract[498]|abstract[499]	new[496]|giv[498]|new[499]	nonsal[496]|nonsal[498]|nonsal[499]	_	_	_	
-191-5	6698-6709	Engineering	abstract[496]|abstract[498]	new[496]|giv[498]	nonsal[496]|nonsal[498]	_	_	_	
+191-1	6677-6680	14.	_	_	_	_	_	_	
+191-2	6681-6687	Ethics	abstract[495]|abstract[496]	new[495]|new[496]	nonsal[495]|nonsal[496]	Ethics[496]	_	_	
+191-3	6688-6690	in	abstract[495]	new[495]	nonsal[495]	_	_	_	
+191-4	6691-6699	Software	abstract[495]|abstract[497]|abstract[498]	new[495]|giv[497]|new[498]	nonsal[495]|nonsal[497]|nonsal[498]	_	_	_	
+191-5	6700-6711	Engineering	abstract[495]|abstract[497]	new[495]|giv[497]	nonsal[495]|nonsal[497]	_	_	_	
 
 #Text=Weeks 15 + Final Project
-192-1	6710-6715	Weeks	time[500]	new[500]	nonsal[500]	_	_	_	
-192-2	6716-6718	15	time[500]	new[500]	nonsal[500]	_	_	_	
-192-3	6719-6720	+	time[500]	new[500]	nonsal[500]	_	_	_	
-192-4	6721-6726	Final	abstract[501]	giv[501]	nonsal[501]	_	coref	201-6[533_501]	
-192-5	6727-6734	Project	abstract[501]	giv[501]	nonsal[501]	_	_	_	
+192-1	6712-6717	Weeks	time[499]	new[499]	nonsal[499]	_	_	_	
+192-2	6718-6720	15	time[499]	new[499]	nonsal[499]	_	_	_	
+192-3	6721-6722	+	time[499]	new[499]	nonsal[499]	_	_	_	
+192-4	6723-6728	Final	abstract[500]	giv[500]	nonsal[500]	_	coref	201-6[532_500]	
+192-5	6729-6736	Project	abstract[500]	giv[500]	nonsal[500]	_	_	_	
 
 #Text=After Week 14 , Participants build a full - stack web application in the course of one month , from inception to production .
-193-1	6735-6740	After	_	_	_	_	_	_	
-193-2	6741-6745	Week	time[502]	giv[502]	nonsal[502]	_	_	_	
-193-3	6746-6748	14	time[502]	giv[502]	nonsal[502]	_	_	_	
-193-4	6749-6750	,	_	_	_	_	_	_	
-193-5	6751-6763	Participants	person[503]	new[503]	nonsal[503]	_	coref	196-8[516_503]	
-193-6	6764-6769	build	_	_	_	_	_	_	
-193-7	6770-6771	a	abstract[504]	new[504]	nonsal[504]	_	coref	194-1[509_504]	
-193-8	6772-6776	full	abstract[504]	new[504]	nonsal[504]	_	_	_	
-193-9	6777-6778	-	abstract[504]	new[504]	nonsal[504]	_	_	_	
-193-10	6779-6784	stack	abstract[504]	new[504]	nonsal[504]	_	_	_	
-193-11	6785-6788	web	abstract[504]|abstract[505]	new[504]|new[505]	nonsal[504]|nonsal[505]	_	_	_	
-193-12	6789-6800	application	abstract[504]	new[504]	nonsal[504]	_	_	_	
-193-13	6801-6803	in	_	_	_	_	_	_	
-193-14	6804-6807	the	_	_	_	_	_	_	
-193-15	6808-6814	course	_	_	_	_	_	_	
-193-16	6815-6817	of	_	_	_	_	_	_	
-193-17	6818-6821	one	time[506]	new[506]	nonsal[506]	_	_	_	
-193-18	6822-6827	month	time[506]	new[506]	nonsal[506]	_	_	_	
-193-19	6828-6829	,	_	_	_	_	_	_	
-193-20	6830-6834	from	_	_	_	_	_	_	
-193-21	6835-6844	inception	event[507]	new[507]	nonsal[507]	_	_	_	
-193-22	6845-6847	to	_	_	_	_	_	_	
-193-23	6848-6858	production	event[508]	new[508]	nonsal[508]	_	_	_	
-193-24	6859-6860	.	_	_	_	_	_	_	
+193-1	6737-6742	After	_	_	_	_	_	_	
+193-2	6743-6747	Week	time[501]	giv[501]	nonsal[501]	_	_	_	
+193-3	6748-6750	14	time[501]	giv[501]	nonsal[501]	_	_	_	
+193-4	6751-6752	,	_	_	_	_	_	_	
+193-5	6753-6765	Participants	person[502]	new[502]	nonsal[502]	_	coref	196-8[515_502]	
+193-6	6766-6771	build	_	_	_	_	_	_	
+193-7	6772-6773	a	abstract[503]	new[503]	nonsal[503]	_	coref	194-1[508_503]	
+193-8	6774-6778	full	abstract[503]	new[503]	nonsal[503]	_	_	_	
+193-9	6779-6780	-	abstract[503]	new[503]	nonsal[503]	_	_	_	
+193-10	6781-6786	stack	abstract[503]	new[503]	nonsal[503]	_	_	_	
+193-11	6787-6790	web	abstract[503]|abstract[504]	new[503]|new[504]	nonsal[503]|nonsal[504]	_	_	_	
+193-12	6791-6802	application	abstract[503]	new[503]	nonsal[503]	_	_	_	
+193-13	6803-6805	in	_	_	_	_	_	_	
+193-14	6806-6809	the	_	_	_	_	_	_	
+193-15	6810-6816	course	_	_	_	_	_	_	
+193-16	6817-6819	of	_	_	_	_	_	_	
+193-17	6820-6823	one	time[505]	new[505]	nonsal[505]	_	_	_	
+193-18	6824-6829	month	time[505]	new[505]	nonsal[505]	_	_	_	
+193-19	6830-6831	,	_	_	_	_	_	_	
+193-20	6832-6836	from	_	_	_	_	_	_	
+193-21	6837-6846	inception	event[506]	new[506]	nonsal[506]	_	_	_	
+193-22	6847-6849	to	_	_	_	_	_	_	
+193-23	6850-6860	production	event[507]	new[507]	nonsal[507]	_	_	_	
+193-24	6861-6862	.	_	_	_	_	_	_	
 
 #Text=This includes :
-194-1	6861-6865	This	abstract[509]	giv[509]	nonsal[509]	_	coref	199-2[527_509]	
-194-2	6866-6874	includes	_	_	_	_	_	_	
-194-3	6875-6876	:	_	_	_	_	_	_	
+194-1	6863-6867	This	abstract[508]	giv[508]	nonsal[508]	_	coref	199-2[526_508]	
+194-2	6868-6876	includes	_	_	_	_	_	_	
+194-3	6877-6878	:	_	_	_	_	_	_	
 
 #Text=Creating project planning docs with wire frames
-195-1	6877-6885	Creating	_	_	_	_	_	_	
-195-2	6886-6893	project	abstract[510]|abstract[511]|abstract[512]	new[510]|new[511]|giv[512]	nonsal[510]|nonsal[511]|nonsal[512]	_	_	_	
-195-3	6894-6902	planning	abstract[510]|abstract[511]	new[510]|new[511]	nonsal[510]|nonsal[511]	_	_	_	
-195-4	6903-6907	docs	abstract[510]|abstract[511]	new[510]|new[511]	nonsal[510]|nonsal[511]	_	_	_	
-195-5	6908-6912	with	abstract[510]	new[510]	nonsal[510]	_	_	_	
-195-6	6913-6917	wire	abstract[510]|abstract[513]	new[510]|new[513]	nonsal[510]|nonsal[513]	_	_	_	
-195-7	6918-6924	frames	abstract[510]|abstract[513]	new[510]|new[513]	nonsal[510]|nonsal[513]	_	_	_	
+195-1	6879-6887	Creating	_	_	_	_	_	_	
+195-2	6888-6895	project	abstract[509]|abstract[510]|abstract[511]	new[509]|new[510]|giv[511]	nonsal[509]|nonsal[510]|nonsal[511]	_	_	_	
+195-3	6896-6904	planning	abstract[509]|abstract[510]	new[509]|new[510]	nonsal[509]|nonsal[510]	_	_	_	
+195-4	6905-6909	docs	abstract[509]|abstract[510]	new[509]|new[510]	nonsal[509]|nonsal[510]	_	_	_	
+195-5	6910-6914	with	abstract[509]	new[509]	nonsal[509]	_	_	_	
+195-6	6915-6919	wire	abstract[509]|abstract[512]	new[509]|new[512]	nonsal[509]|nonsal[512]	_	_	_	
+195-7	6920-6926	frames	abstract[509]|abstract[512]	new[509]|new[512]	nonsal[509]|nonsal[512]	_	_	_	
 
 #Text=Planning out must - have features for their MVP
-196-1	6925-6933	Planning	_	_	_	_	_	_	
-196-2	6934-6937	out	_	_	_	_	_	_	
-196-3	6938-6942	must	abstract[514]	new[514]	nonsal[514]	_	_	_	
-196-4	6943-6944	-	abstract[514]	new[514]	nonsal[514]	_	_	_	
-196-5	6945-6949	have	abstract[514]	new[514]	nonsal[514]	_	_	_	
-196-6	6950-6958	features	abstract[514]	new[514]	nonsal[514]	_	_	_	
-196-7	6959-6962	for	_	_	_	_	_	_	
-196-8	6963-6968	their	abstract[515]|person[516]	giv[515]|giv[516]	nonsal[515]|nonsal[516]	_	coref|coref	198-8[526_515]|197-4[519_516]	
-196-9	6969-6972	MVP	abstract[515]	giv[515]	nonsal[515]	_	_	_	
+196-1	6927-6935	Planning	_	_	_	_	_	_	
+196-2	6936-6939	out	_	_	_	_	_	_	
+196-3	6940-6944	must	abstract[513]	new[513]	nonsal[513]	_	_	_	
+196-4	6945-6946	-	abstract[513]	new[513]	nonsal[513]	_	_	_	
+196-5	6947-6951	have	abstract[513]	new[513]	nonsal[513]	_	_	_	
+196-6	6952-6960	features	abstract[513]	new[513]	nonsal[513]	_	_	_	
+196-7	6961-6964	for	_	_	_	_	_	_	
+196-8	6965-6970	their	abstract[514]|person[515]	giv[514]|giv[515]	nonsal[514]|nonsal[515]	_	coref|coref	198-8[525_514]|197-4[518_515]	
+196-9	6971-6974	MVP	abstract[514]	giv[514]	nonsal[514]	_	_	_	
 
 #Text=Updating status on their Trello board to meet weekly milestones / sprints
-197-1	6973-6981	Updating	_	_	_	_	_	_	
-197-2	6982-6988	status	abstract[517]	new[517]	nonsal[517]	_	_	_	
-197-3	6989-6991	on	_	_	_	_	_	_	
-197-4	6992-6997	their	abstract[518]|person[519]	new[518]|giv[519]	nonsal[518]|nonsal[519]	_	coref	198-6[525_519]	
-197-5	6998-7004	Trello	abstract[518]	new[518]	nonsal[518]	_	_	_	
-197-6	7005-7010	board	abstract[518]	new[518]	nonsal[518]	_	_	_	
-197-7	7011-7013	to	_	_	_	_	_	_	
-197-8	7014-7018	meet	_	_	_	_	_	_	
-197-9	7019-7025	weekly	abstract[520]	new[520]	nonsal[520]	_	_	_	
-197-10	7026-7036	milestones	abstract[520]	new[520]	nonsal[520]	_	_	_	
-197-11	7037-7038	/	_	_	_	_	_	_	
-197-12	7039-7046	sprints	event[521]	new[521]	nonsal[521]	_	_	_	
+197-1	6975-6983	Updating	_	_	_	_	_	_	
+197-2	6984-6990	status	abstract[516]	new[516]	nonsal[516]	_	_	_	
+197-3	6991-6993	on	_	_	_	_	_	_	
+197-4	6994-6999	their	abstract[517]|person[518]	new[517]|giv[518]	nonsal[517]|nonsal[518]	_	coref	198-6[524_518]	
+197-5	7000-7006	Trello	abstract[517]	new[517]	nonsal[517]	_	_	_	
+197-6	7007-7012	board	abstract[517]	new[517]	nonsal[517]	_	_	_	
+197-7	7013-7015	to	_	_	_	_	_	_	
+197-8	7016-7020	meet	_	_	_	_	_	_	
+197-9	7021-7027	weekly	abstract[519]	new[519]	nonsal[519]	_	_	_	
+197-10	7028-7038	milestones	abstract[519]	new[519]	nonsal[519]	_	_	_	
+197-11	7039-7040	/	_	_	_	_	_	_	
+197-12	7041-7048	sprints	event[520]	new[520]	nonsal[520]	_	_	_	
 
 #Text=Gathering user feedback and adapting their remaining MVP plan
-198-1	7047-7056	Gathering	_	_	_	_	_	_	
-198-2	7057-7061	user	abstract[522]|person[523]	new[522]|new[523]	nonsal[522]|nonsal[523]	_	_	_	
-198-3	7062-7070	feedback	abstract[522]	new[522]	nonsal[522]	_	_	_	
-198-4	7071-7074	and	_	_	_	_	_	_	
-198-5	7075-7083	adapting	_	_	_	_	_	_	
-198-6	7084-7089	their	abstract[524]|person[525]	new[524]|giv[525]	nonsal[524]|nonsal[525]	_	coref	199-2[528_525]	
-198-7	7090-7099	remaining	abstract[524]	new[524]	nonsal[524]	_	_	_	
-198-8	7100-7103	MVP	abstract[524]|abstract[526]	new[524]|giv[526]	nonsal[524]|nonsal[526]	Minimum_viable_product[526]	_	_	
-198-9	7104-7108	plan	abstract[524]	new[524]	nonsal[524]	_	_	_	
+198-1	7049-7058	Gathering	_	_	_	_	_	_	
+198-2	7059-7063	user	abstract[521]|person[522]	new[521]|new[522]	nonsal[521]|nonsal[522]	_	_	_	
+198-3	7064-7072	feedback	abstract[521]	new[521]	nonsal[521]	_	_	_	
+198-4	7073-7076	and	_	_	_	_	_	_	
+198-5	7077-7085	adapting	_	_	_	_	_	_	
+198-6	7086-7091	their	abstract[523]|person[524]	new[523]|giv[524]	nonsal[523]|nonsal[524]	_	coref	199-2[527_524]	
+198-7	7092-7101	remaining	abstract[523]	new[523]	nonsal[523]	_	_	_	
+198-8	7102-7105	MVP	abstract[523]|abstract[525]	new[523]|giv[525]	nonsal[523]|nonsal[525]	Minimum_viable_product[525]	_	_	
+198-9	7106-7110	plan	abstract[523]	new[523]	nonsal[523]	_	_	_	
 
 #Text=Deploying their application to Heroku
-199-1	7109-7118	Deploying	_	_	_	_	_	_	
-199-2	7119-7124	their	abstract[527]|person[528]	giv[527]|giv[528]	nonsal[527]|nonsal[528]	_	_	_	
-199-3	7125-7136	application	abstract[527]	giv[527]	nonsal[527]	_	_	_	
-199-4	7137-7139	to	_	_	_	_	_	_	
-199-5	7140-7146	Heroku	abstract[529]	giv[529]	nonsal[529]	Heroku[529]	_	_	
+199-1	7111-7120	Deploying	_	_	_	_	_	_	
+199-2	7121-7126	their	abstract[526]|person[527]	giv[526]|giv[527]	nonsal[526]|nonsal[527]	_	_	_	
+199-3	7127-7138	application	abstract[526]	giv[526]	nonsal[526]	_	_	_	
+199-4	7139-7141	to	_	_	_	_	_	_	
+199-5	7142-7148	Heroku	abstract[528]	giv[528]	nonsal[528]	Heroku[528]	_	_	
 
 #Text=Recording a compelling demo for the finished product
-200-1	7147-7156	Recording	_	_	_	_	_	_	
-200-2	7157-7158	a	abstract[530]	new[530]	nonsal[530]	_	_	_	
-200-3	7159-7169	compelling	abstract[530]	new[530]	nonsal[530]	_	_	_	
-200-4	7170-7174	demo	abstract[530]	new[530]	nonsal[530]	_	_	_	
-200-5	7175-7178	for	abstract[530]	new[530]	nonsal[530]	_	_	_	
-200-6	7179-7182	the	abstract[530]|abstract[531]	new[530]|new[531]	nonsal[530]|nonsal[531]	_	_	_	
-200-7	7183-7191	finished	abstract[530]|abstract[531]	new[530]|new[531]	nonsal[530]|nonsal[531]	_	_	_	
-200-8	7192-7199	product	abstract[530]|abstract[531]	new[530]|new[531]	nonsal[530]|nonsal[531]	_	_	_	
+200-1	7149-7158	Recording	_	_	_	_	_	_	
+200-2	7159-7160	a	abstract[529]	new[529]	nonsal[529]	_	_	_	
+200-3	7161-7171	compelling	abstract[529]	new[529]	nonsal[529]	_	_	_	
+200-4	7172-7176	demo	abstract[529]	new[529]	nonsal[529]	_	_	_	
+200-5	7177-7180	for	abstract[529]	new[529]	nonsal[529]	_	_	_	
+200-6	7181-7184	the	abstract[529]|abstract[530]	new[529]|new[530]	nonsal[529]|nonsal[530]	_	_	_	
+200-7	7185-7193	finished	abstract[529]|abstract[530]	new[529]|new[530]	nonsal[529]|nonsal[530]	_	_	_	
+200-8	7194-7201	product	abstract[529]|abstract[530]	new[529]|new[530]	nonsal[529]|nonsal[530]	_	_	_	
 
 #Text=For more details , see Final Project .
-201-1	7200-7203	For	_	_	_	_	_	_	
-201-2	7204-7208	more	abstract[532]	new[532]	nonsal[532]	_	_	_	
-201-3	7209-7216	details	abstract[532]	new[532]	nonsal[532]	_	_	_	
-201-4	7217-7218	,	_	_	_	_	_	_	
-201-5	7219-7222	see	_	_	_	_	_	_	
-201-6	7223-7228	Final	abstract[533]	giv[533]	nonsal[533]	_	_	_	
-201-7	7229-7236	Project	abstract[533]	giv[533]	nonsal[533]	_	_	_	
-201-8	7237-7238	.	_	_	_	_	_	_	
+201-1	7202-7205	For	_	_	_	_	_	_	
+201-2	7206-7210	more	abstract[531]	new[531]	nonsal[531]	_	_	_	
+201-3	7211-7218	details	abstract[531]	new[531]	nonsal[531]	_	_	_	
+201-4	7219-7220	,	_	_	_	_	_	_	
+201-5	7221-7224	see	_	_	_	_	_	_	
+201-6	7225-7230	Final	abstract[532]	giv[532]	nonsal[532]	_	_	_	
+201-7	7231-7238	Project	abstract[532]	giv[532]	nonsal[532]	_	_	_	
+201-8	7239-7240	.	_	_	_	_	_	_	

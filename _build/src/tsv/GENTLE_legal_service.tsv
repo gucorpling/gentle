@@ -497,7 +497,7 @@
 18-21	2482-2483	.	_	_	_	_	_	_	
 
 #Text=ACH transaction : $ 1
-19-1	2484-2487	ACH	abstract[132]|abstract[133]	new[132]|giv[133]	nonsal[132]|nonsal[133]	Automated_clearing_house[133]	coref	36-8[208_133]	
+19-1	2484-2487	ACH	abstract[132]|abstract[133]	new[132]|giv[133]	nonsal[132]|nonsal[133]	National_Automated_Clearing_House[133]	coref	36-8[208_133]	
 19-2	2488-2499	transaction	abstract[132]	new[132]	nonsal[132]	_	_	_	
 19-3	2500-2501	:	_	_	_	_	_	_	
 19-4	2502-2503	$	abstract[134]	new[134]	nonsal[134]	_	_	_	
@@ -735,7 +735,7 @@
 36-5	3588-3592	bank	abstract[206]|abstract[207]	new[206]|new[207]	nonsal[206]|nonsal[207]	_	_	_	
 36-6	3593-3601	accounts	abstract[206]|abstract[207]	new[206]|new[207]	nonsal[206]|nonsal[207]	_	_	_	
 36-7	3602-3605	via	abstract[206]|abstract[207]	new[206]|new[207]	nonsal[206]|nonsal[207]	_	_	_	
-36-8	3606-3609	ACH	abstract[206]|abstract[207]|abstract[208]	new[206]|new[207]|giv[208]	nonsal[206]|nonsal[207]|nonsal[208]	Automated_clearing_house[208]	coref	53-12[351_208]	
+36-8	3606-3609	ACH	abstract[206]|abstract[207]|abstract[208]	new[206]|new[207]|giv[208]	nonsal[206]|nonsal[207]|nonsal[208]	National_Automated_Clearing_House[208]	coref	53-12[351_208]	
 36-9	3610-3613	are	_	_	_	_	_	_	
 36-10	3614-3621	subject	_	_	_	_	_	_	
 36-11	3622-3624	to	_	_	_	_	_	_	

@@ -186,16 +186,16 @@
 4	Techtonica	_	_	_	_	6	nmod:poss	_	_
 5	’s	_	_	_	_	4	case	_	_
 6	program	_	_	_	_	3	obj	_	_
-7	as	_	_	_	_	8	case	_	_
-8	hands	_	_	_	_	6	nmod	_	_
+7	as	_	_	_	_	10	advmod	_	_
+8	hands	_	_	_	_	10	compound	_	_
 9	-	_	_	_	_	10	punct	_	_
-10	on	_	_	_	_	8	compound:prt	_	_
+10	on	_	_	_	_	3	xcomp	_	_
 11	and	_	_	_	_	14	cc	_	_
 12	project	_	_	_	_	14	compound	_	_
 13	-	_	_	_	_	12	punct	_	_
-14	based	_	_	_	_	6	as	_	_
+14	based	_	_	_	_	10	conj	_	_
 15	as	_	_	_	_	16	mark	_	_
-16	possible	_	_	_	_	14	advcl	_	_
+16	possible	_	_	_	_	10	advcl	_	_
 17	to	_	_	_	_	19	mark	_	_
 18	best	_	_	_	_	19	advmod	_	_
 19	prepare	_	_	_	_	3	advcl	_	_
@@ -688,11 +688,11 @@
 5	Personal	_	_	_	_	6	amod	_	_
 6	Branding	_	_	_	_	3	parataxis	_	_
 
-1	21.	_	_	_	_	5	dep	_	_
-2	Reading	_	_	_	_	5	compound	_	_
+1	21.	_	_	_	_	2	dep	_	_
+2	Reading	_	_	_	_	0	root	_	_
 3	/	_	_	_	_	4	cc	_	_
 4	Writing	_	_	_	_	2	conj	_	_
-5	Documentation	_	_	_	_	0	root	_	_
+5	Documentation	_	_	_	_	2	obj	_	_
 
 1	22.	_	_	_	_	2	dep	_	_
 2	Writing	_	_	_	_	0	root	_	_
@@ -971,7 +971,8 @@
 3	1	_	_	_	_	2	nummod	_	_
 4	(	_	_	_	_	6	punct	_	_
 5	Single	_	_	_	_	6	amod	_	_
-6	tables)	_	_	_	_	2	appos	_	_
+6	tables	_	_	_	_	2	appos	_	_
+7	)	_	_	_	_	6	punct	_	_
 
 1	11.	_	_	_	_	3	dep	_	_
 2	Data	_	_	_	_	3	compound	_	_
@@ -987,7 +988,8 @@
 3	2	_	_	_	_	2	nummod	_	_
 4	(	_	_	_	_	6	punct	_	_
 5	Multiple	_	_	_	_	6	amod	_	_
-6	tables)	_	_	_	_	2	appos	_	_
+6	tables	_	_	_	_	2	appos	_	_
+7	)	_	_	_	_	6	punct	_	_
 
 1	13.	_	_	_	_	2	dep	_	_
 2	Intro	_	_	_	_	0	root	_	_
@@ -1053,7 +1055,7 @@
 4	-	_	_	_	_	3	punct	_	_
 5	Testing	_	_	_	_	3	appos	_	_
 6	with	_	_	_	_	7	case	_	_
-7	Jest	_	_	_	_	5	nmod	_	_
+7	Jest	_	_	_	_	5	obl	_	_
 
 1	4.	_	_	_	_	3	dep	_	_
 2	API	_	_	_	_	3	compound	_	_

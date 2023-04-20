@@ -71,7 +71,7 @@ door	NN	door
 "	``	''
 <w>
 'T	PP	it
-is	VBZ	is
+is	VBZ	be
 </w>
 some	DT	some
 visiter	NN	visiter
@@ -228,7 +228,7 @@ repeating	VVG	repeat
 "	``	''
 <w>
 'T	PP	it
-is	VBZ	is
+is	VBZ	be
 </w>
 some	DT	some
 visiter	NN	visiter
@@ -479,7 +479,7 @@ again	RB	again
 I	PP	I
 heard	VVD	hear
 a	DT	a
-tapping	VVG	tapping
+tapping	NN	tapping
 something	NN	something
 louder	JJR	loud
 than	IN	than
@@ -543,7 +543,7 @@ explore	VV	explore
 <l n="36"/>
 <w>
 'T	PP	it
-is	VBZ	is
+is	VBZ	be
 </w>
 the	DT	the
 wind	NN	wind
@@ -557,7 +557,7 @@ more	JJR	more
 <p>
 <s type="decl">
 <l n="37"/>
-Open	JJ	Open
+Open	JJ	open
 here	RB	here
 I	PP	I
 flung	VVD	fling
@@ -696,7 +696,7 @@ I	PP	I
 said	VVD	say
 ,	,	,
 "	``	''
-art	NN	art
+art	VBP	be
 sure	JJ	sure
 no	DT	no
 craven	JJ	craven

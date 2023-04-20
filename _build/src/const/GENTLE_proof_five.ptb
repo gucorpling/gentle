@@ -197,7 +197,7 @@
                       (SBAR
                         (JJ such)
                         (IN that)
-                        (S (NP (NN k)) (VP (NN ≤) (NP (CD 5))))))))))))))
+                        (S (NP (NN k)) (VP (SYM ≤) (NP (CD 5))))))))))))))
     (. .)))
 
 (ROOT (NP (NN Induction) (NN Step)))

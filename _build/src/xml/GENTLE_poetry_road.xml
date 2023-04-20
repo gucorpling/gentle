@@ -1,5 +1,5 @@
 <text id="GENTLE_poetry_road" author="Robert Frost" dateCollected="2022-11-12" dateCreated="2021-05-30" dateModified="2021-05-30"  shortTitle="road" sourceURL="https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken" speakerCount="0" speakerList="none" title="The Road Not Taken" type="poetry">
-<p/>
+<p>
 <s type="decl">
 <l n="1"/>
 Two	CD	two
@@ -47,7 +47,8 @@ the	DT	the
 undergrowth	NN	undergrowth
 ;	:	;
 </s>
-<p/>
+</p>
+<p>
 <s type="other">
 <l n="6"/>
 Then	RB	then
@@ -97,7 +98,8 @@ the	DT	the
 same	JJ	same
 ,	,	,
 </s>
-<p/>
+</p>
+<p>
 <s type="decl">
 <l n="11"/>
 And	CC	and
@@ -151,7 +153,8 @@ come	VV	come
 back	RB	back
 .	SENT	.
 </s>
-<p/>
+</p>
+<p>
 <s type="decl">
 <l n="16"/>
 I	PP	I
@@ -199,4 +202,5 @@ the	DT	the
 difference	NN	difference
 .	SENT	.
 </s>
+</p>
 </text>

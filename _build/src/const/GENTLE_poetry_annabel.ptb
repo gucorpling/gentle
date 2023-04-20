@@ -109,8 +109,8 @@
         (WHNP (WDT that))
         (S
           (NP
-            (NP (DT the) (VBN winged) (NNS seraphs))
-            (PP (IN of) (NP (NNP heaven))))
+            (NP (DT the) (JJ winged) (NNS seraphs))
+            (PP (IN of) (NP (NN heaven))))
           (VP (VBD Coveted) (NP (PRP her) (CC and) (PRP me))))))
     (. .)))
 
@@ -151,7 +151,7 @@
 
 (ROOT
   (SBAR
-    (RB So)
+    (IN So)
     (IN that)
     (S
       (NP (PRP$ her) (JJ highborn) (NN kinsman))
@@ -233,7 +233,7 @@
               (, ,)
               (S
                 (VP
-                  (JJ Chilling)
+                  (VBG Chilling)
                   (CC and)
                   (VBG killing)
                   (NP (PRP$ my) (NNP ANNABEL) (NNP LEE)))))))))

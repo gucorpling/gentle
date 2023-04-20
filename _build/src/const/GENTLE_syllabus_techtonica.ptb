@@ -1,6 +1,6 @@
 (ROOT
   (FRAG
-    (JJ Welcome)
+    (UH Welcome)
     (PP (IN to) (NP (DT the) (NNP Techtonica) (NN curriculum)))
     (. !)))
 
@@ -64,7 +64,7 @@
 (ROOT
   (S
     (SBAR
-      (WHNP (WDT What))
+      (WHNP (WP What))
       (S
         (NP (NNS bootcamps) (CC and) (NNP Techtonica))
         (VP (VBP have) (PP (IN in) (ADJP (JJ common))))))
@@ -244,7 +244,7 @@
         (ADJP
           (ADJP
             (RB as)
-            (ADJP (NNS hands) (HYPH -) (RP on))
+            (ADJP (NNS hands) (HYPH -) (RB on))
             (CC and)
             (ADJP (NN project) (: -) (VBN based)))
           (PP (IN as) (ADJP (JJ possible))))
@@ -303,17 +303,17 @@
     (. .)))
 
 (ROOT
-  (NP (NP (NNP Week) (CD 0)) (: -) (PP (NN Pre) (HYPH -) (NN Work))))
+  (NP (NP (NN Week) (CD 0)) (: -) (PP (JJ Pre) (HYPH -) (NN Work))))
 
 (ROOT
   (NP
     (NP (NN Week) (CD 1))
     (: -)
-    (NP (NN Onboarding) (CC &) (NN Developer) (NNPS Tools))))
+    (NP (NN Onboarding) (CC &) (NN Developer) (NNS Tools))))
 
 (ROOT
   (NP
-    (NP (NNP Week) (CD 2))
+    (NP (NN Week) (CD 2))
     (: -)
     (NP (NP (NNS Webpages)) (: :) (NP (NNP HTML) (CC &) (NNP CSS)))))
 
@@ -327,7 +327,7 @@
   (NP
     (NP (NN Week) (CD 4))
     (: -)
-    (S (JJ Intermediate) (NN JavaScript) (CC and) (NNP React))))
+    (S (JJ Intermediate) (NNP JavaScript) (CC and) (NNP React))))
 
 (ROOT (NP (NP (NN Week) (CD 5)) (: -) (NP (NN Web) (NNS APIs))))
 
@@ -337,7 +337,7 @@
   (NP
     (NP (NN Week) (CD 7))
     (: -)
-    (NP (NP (NNP Advanced) (NN JS)) (CC and) (NP (NNP React)))))
+    (NP (NP (JJ Advanced) (NN JS)) (CC and) (NP (NNP React)))))
 
 (ROOT (NP (NP (NN Week) (CD 8)) (: -) (NP (VBG Testing))))
 
@@ -374,7 +374,7 @@
   (NP
     (NP (NN Week) (CD 14))
     (: -)
-    (NP (NNP Project) (NNP Prep) (NNP Week) (SYM &) (NNPS Electives))))
+    (NP (NN Project) (NN Prep) (NN Week) (CC &) (NNS Electives))))
 
 (ROOT
   (NP
@@ -383,7 +383,7 @@
     (NP (JJ Final) (NN Project))))
 
 (ROOT
-  (NP (NP (NNP Week) (CD 0)) (: -) (PP (NN Pre) (HYPH -) (NN Work))))
+  (NP (NP (NN Week) (CD 0)) (: -) (PP (JJ Pre) (HYPH -) (NN Work))))
 
 (ROOT
   (S
@@ -421,12 +421,12 @@
   (NP
     (NP (NN Week) (CD 1))
     (: -)
-    (NP (NN Onboarding) (CC &) (NN Developer) (NNPS Tools))))
+    (NP (NN Onboarding) (CC &) (NN Developer) (NNS Tools))))
 
 (ROOT
   (FRAG
     (X (LS 1.))
-    (NP (NNP Welcome) (, ,) (NNS Tips) (, ,) (CC and) (NNS Rules))))
+    (NP (NN Welcome) (, ,) (NNS Tips) (, ,) (CC and) (NNS Rules))))
 
 (ROOT
   (FRAG
@@ -442,8 +442,7 @@
 
 (ROOT (NP (LS 4.) (NN Professionalism)))
 
-(ROOT
-  (NP (NP (LS 5.) (NP (NNS Roles))) (PP (IN in) (NP (NNP Tech)))))
+(ROOT (NP (NP (LS 5.) (NP (NNS Roles))) (PP (IN in) (NP (NN Tech)))))
 
 (ROOT
   (X
@@ -453,7 +452,7 @@
       (IN to)
       (NP (NN Command) (NN Line) (NN Interface) (NNS Tools)))))
 
-(ROOT (NP (LS 7.) (NNP Advanced) (NNP Command) (NNP Line)))
+(ROOT (NP (LS 7.) (JJ Advanced) (NN Command) (NN Line)))
 
 (ROOT (NP (LS 8.) (NNP Bash) (NN Profile)))
 
@@ -466,13 +465,13 @@
     (LS 11.)
     (SBAR
       (WHADVP (WRB How))
-      (S (VP (TO to) (VP (VB Pair) (NP (NN Program))))))))
+      (S (VP (TO to) (VP (NN Pair) (NP (VB Program))))))))
 
 (ROOT
   (NP
     (LS 12.)
     (NP
-      (NP (NNP Project) (CD 0))
+      (NP (NN Project) (CD 0))
       (: -)
       (NP (NN Week) (CD 1) (NN Review)))))
 
@@ -480,7 +479,7 @@
 
 (ROOT (NP (LS 14.) (NN Keyboard) (NNS Shortcuts)))
 
-(ROOT (NP (LS 15.) (NNPS Ergonomics)))
+(ROOT (NP (LS 15.) (NNS Ergonomics)))
 
 (ROOT (NP (LS 16.) (NP (NN Growth) (NN Mindset))))
 
@@ -498,9 +497,9 @@
 
 (ROOT
   (NP
-    (NP (LS 19.) (NNP Chrome) (NNP Developer) (NNS Tools))
+    (NP (LS 19.) (NNP Chrome) (NNP Developer) (NNPS Tools))
     (: :)
-    (NP (NNP Setup))))
+    (NP (NN Setup))))
 
 (ROOT
   (NP
@@ -512,7 +511,7 @@
         (VP
           (VP
             (VBG Living)
-            (PP (IN in) (NP (JJ Open) (NNPS Workspaces))))
+            (PP (IN in) (NP (JJ Open) (NNS Workspaces))))
           (CC or)
           (VP
             (VBG Working)
@@ -553,7 +552,7 @@
       (VP
         (VBG Using)
         (NP (NNP GitHub))
-        (PP (IN for) (NP (NNP Code) (NN Storage)))))))
+        (PP (IN for) (NP (NN Code) (NN Storage)))))))
 
 (ROOT (NP (LS 4.) (NNP GitHub) (NN Collaboration)))
 
@@ -563,7 +562,7 @@
   (NP
     (LS 6.)
     (NP
-      (NP (NNP Local) (NNP Development))
+      (NP (NNP Local) (NN Development))
       (PP (IN with) (NP (NNP VS) (NNP Code))))))
 
 (ROOT
@@ -577,7 +576,7 @@
 
 (ROOT
   (PRN
-    (MD 8.)
+    (LS 8.)
     (SBAR
       (WHADVP (WRB How))
       (S (NP (DT the) (NNP Internet)) (VP (VBZ Works))))
@@ -585,18 +584,18 @@
       (-LRB- -LRB-)
       (NP
         (NP (DT The) (JJ Other) (NN Kind))
-        (PP (IN of) (NP (NNP Networking))))
+        (PP (IN of) (NP (NN Networking))))
       (-RRB- -RRB-))))
 
 (ROOT (X (X (LS 9.)) (NP (NN Intro)) (PP (IN to) (NP (NNP DNS)))))
 
 (ROOT
   (NP
-    (NP (LS 10.) (NP (NN Recipe) (NNP Page) (NN Project)))
+    (NP (LS 10.) (NP (NN Recipe) (NN Page) (NN Project)))
     (: :)
     (NP (NNP CSS))))
 
-(ROOT (NP (LS 11.) (NNP Media) (NNPS Queries)))
+(ROOT (NP (LS 11.) (NNS Media) (NNS Queries)))
 
 (ROOT (NP (LS 12.) (NP (NNP UI) (CC /) (NNP UX))))
 
@@ -606,7 +605,7 @@
 
 (ROOT
   (NP
-    (NP (LS 15.) (NN Recipe) (NNP Page) (NN Project))
+    (NP (LS 15.) (NN Recipe) (NN Page) (NN Project))
     (: :)
     (NP (NNP Bootstrap))))
 
@@ -617,13 +616,13 @@
   (NP
     (X (LS 17.))
     (NP
-      (NP (NNP Git) (NP (NNP Part) (CD 2)))
+      (NP (NNP Git) (NN Part) (CD 2))
       (: :)
       (NP (NN Study) (NN Guide)))))
 
 (ROOT
   (NP
-    (NP (LS 18.) (NNP Portfolio) (NNP Project))
+    (NP (LS 18.) (NN Portfolio) (NN Project))
     (: :)
     (NP (NNP HTML) (, ,) (NNP CSS) (CC &) (NNP Bootstrap))))
 
@@ -634,23 +633,23 @@
       (VP
         (VBG Using)
         (NP (NNP GitHub))
-        (PP (IN for) (NP (NNP Project) (NNP Collaboration)))))))
+        (PP (IN for) (NP (NN Project) (NN Collaboration)))))))
 
 (ROOT
   (NP
-    (NP (X (LS 20.)) (NP (NNP Portfolio) (NN Project)))
+    (NP (X (LS 20.)) (NP (NN Portfolio) (NN Project)))
     (: :)
     (NP (JJ Personal) (NN Branding))))
 
 (ROOT
   (NP
     (LS 21.)
-    (NP (VBG Reading) (SYM /) (NN Writing) (NN Documentation))))
+    (NP (VBG Reading) (SYM /) (VBG Writing) (NN Documentation))))
 
 (ROOT
   (X
     (X (LS 22.))
-    (S (VP (VBG Writing) (NP (JJ Readable) (NNP Code))))))
+    (S (VP (VBG Writing) (NP (JJ Readable) (NN Code))))))
 
 (ROOT
   (S
@@ -658,17 +657,17 @@
     (S
       (VP
         (VB Deploy)
-        (NP (PRP$ your) (NNP Portfolio) (NN Project))
+        (NP (PRP$ your) (NN Portfolio) (NN Project))
         (: :)
         (S
           (VP
             (VBG Deploying)
-            (NP (NN Client) (HYPH -) (NNP Side) (NNS Apps))
+            (NP (ADJP (NN Client) (HYPH -) (NN Side)) (NNS Apps))
             (PP (IN with) (NP (NNP Netlify)))))))))
 
 (ROOT
   (NP
-    (NP (LS 24.) (NNP Portfolio) (NNP Project))
+    (NP (LS 24.) (NN Portfolio) (NN Project))
     (: :)
     (NP (NN Collaboration) (CC and) (NN Review))))
 
@@ -676,7 +675,7 @@
   (NP
     (NP (NN Week) (CD 3))
     (: -)
-    (NP (NN JavaScript) (NNS Fundamentals))))
+    (NP (NNP JavaScript) (NNS Fundamentals))))
 
 (ROOT
   (NP
@@ -684,7 +683,7 @@
     (NP
       (NP (NNP JavaScript) (CD 1))
       (: -)
-      (NP (NNS Variables) (, ,) (NNPS Strings) (, ,) (NNS Numbers)))))
+      (NP (NNS Variables) (, ,) (NNS Strings) (, ,) (NNS Numbers)))))
 
 (ROOT
   (FRAG
@@ -703,7 +702,7 @@
         (, ,)
         (NNS Comparisons)
         (, ,)
-        (NNPS Booleans)))))
+        (NNS Booleans)))))
 
 (ROOT
   (NP
@@ -726,36 +725,37 @@
 
 (ROOT (NP (LS 7.) (NN Datetime)))
 
-(ROOT (NP (X (LS 8.)) (NP (JJ Basic) (NN JavaScript) (NN Practice))))
+(ROOT
+  (NP (X (LS 8.)) (NP (JJ Basic) (NNP JavaScript) (NN Practice))))
 
 (ROOT (FRAG (X (LS 9.)) (NP (VBG Testing) (CC &) (NNP TDD))))
 
 (ROOT
   (NP
-    (X (MD 10.))
+    (X (LS 10.))
     (NP
       (NP (VBN Assigned) (NN Reading))
       (: -)
-      (NP (NNP Eloquent) (NN JavaScript)))))
+      (NP (JJ Eloquent) (NNP JavaScript)))))
 
 (ROOT
   (NP
     (NP (NN Week) (CD 4))
     (: -)
-    (S (JJ Intermediate) (NN JavaScript) (CC and) (NNP React))))
+    (S (JJ Intermediate) (NNP JavaScript) (CC and) (NNP React))))
 
 (ROOT
   (NP
     (LS 1.)
     (NP
-      (NP (NNP JavaScript) (NNP DOM) (NNP Manipulation))
+      (NP (NNP JavaScript) (NNP DOM) (NN Manipulation))
       (: -)
       (NP (ADVP (RB formerly)) (NP (NNP jQuery))))))
 
 (ROOT
   (NP
     (LS 2.)
-    (NP (NP (NNP HTML)) (CC /) (NP (NNP JS) (NNP Game) (NN Project)))))
+    (NP (NP (NNP HTML)) (CC /) (NP (NNP JS) (NN Game) (NN Project)))))
 
 (ROOT (NP (NP (LS 3.) (NNP a11y)) (: :) (NP (NN Accessibility))))
 
@@ -763,9 +763,9 @@
 
 (ROOT
   (NP
-    (NP (LS 5.) (NP (NNP Portfolio) (NNP Project)))
+    (NP (LS 5.) (NP (NN Portfolio) (NN Project)))
     (: :)
-    (S (VP (NNP Incorporate) (NP (NNP SEO) (CC &) (NN a11y))))))
+    (S (VP (VB Incorporate) (NP (NNP SEO) (CC &) (NNP a11y))))))
 
 (ROOT
   (NP
@@ -773,7 +773,9 @@
     (NP
       (NP (NNP JavaScript) (CD 7))
       (: -)
-      (NP (ADJP (NN Object) (HYPH -) (JJ Oriented)) (NN Programming)))))
+      (NP
+        (ADJP (NNP Object) (HYPH -) (NNP Oriented))
+        (NNP Programming)))))
 
 (ROOT
   (NP
@@ -782,16 +784,16 @@
       (NP (NN Mini) (NN Project))
       (: :)
       (NP
-        (NP (ADJP (NNP Object) (JJ Oriented)) (NN Programming))
+        (NP (ADJP (NNP Object) (NNP Oriented)) (NNP Programming))
         (PP (IN in) (NP (NNP JS)))))))
 
 (ROOT (NP (LS 8.) (JJ Functional) (NN Programming)))
 
-(ROOT (X (X (LS 9.)) (NP (DT All) (VB React) (NNS Lessons))))
+(ROOT (X (X (LS 9.)) (NP (DT All) (NNP React) (NNS Lessons))))
 
 (ROOT (NP (NP (NN Week) (CD 5)) (: -) (NP (NN Web) (NNS APIs))))
 
-(ROOT (NP (LS 1.) (NN Node)))
+(ROOT (NP (LS 1.) (NNP Node)))
 
 (ROOT
   (NP
@@ -800,11 +802,11 @@
       (NP (NP (NNP JavaScript)) (NP (CD 8)))
       (: -)
       (NP
-        (NP (JJ Regular) (NNS Expressions))
+        (NP (NNP Regular) (NNPS Expressions))
         (SYM /)
-        (NP (NN RegEx))))))
+        (NP (NNP RegEx))))))
 
-(ROOT (NP (LS 3.) (NNP Runtime) (NN Complexity)))
+(ROOT (NP (LS 3.) (NN Runtime) (NN Complexity)))
 
 (ROOT (X (X (LS 4.)) (NP (NN Intro)) (PP (IN to) (NP (NNP HTTP)))))
 
@@ -812,11 +814,11 @@
 
 (ROOT (NP (LS 6.) (NP (NNP HTTP) (NNS Requests) (NN Practice))))
 
-(ROOT (NP (LS 7.) (NNPS Express)))
+(ROOT (NP (LS 7.) (NNP Express)))
 
-(ROOT (NP (LS 8.) (NN REST) (NNS APIs)))
+(ROOT (NP (LS 8.) (NNP REST) (NNS APIs)))
 
-(ROOT (NP (NP (NN Week) (CD 6)) (: -) (NP (NNPS Databases))))
+(ROOT (NP (NP (NN Week) (CD 6)) (: -) (NP (NNS Databases))))
 
 (ROOT
   (NP
@@ -824,7 +826,7 @@
     (NP
       (NP (NNP JavaScript) (CD 9))
       (: -)
-      (NP (NN Async) (, ,) (NNPS Callbacks) (, ,) (NNS Promises)))))
+      (NP (NN Async) (, ,) (NNS Callbacks) (, ,) (NNS Promises)))))
 
 (ROOT
   (FRAG
@@ -844,7 +846,7 @@
 
 (ROOT (NP (LS 5.) (NNP TwilioQuest) (NNP Exercise)))
 
-(ROOT (NP (LS 6.) (NN import) (CC &) (VB require)))
+(ROOT (NP (LS 6.) (VB import) (CC &) (VB require)))
 
 (ROOT (S (LS 7.) (S (VP (VB Install) (NP (NNP Postgres))))))
 
@@ -862,19 +864,21 @@
 
 (ROOT
   (NP
-    (NP (LS 10.) (NNP SQL) (CD 1))
-    (PRN (-LRB- -LRB-) (NP (JJ Single) (NN tables-RRB-)))))
+    (LS 10.)
+    (NP
+      (NP (NNP SQL) (CD 1))
+      (PRN (-LRB- -LRB-) (NP (JJ Single) (NN tables)) (-RRB- -RRB-)))))
 
 (ROOT
   (NP
     (LS 11.)
-    (NP (NNP Data) (NN Modeling) (CD 2))
+    (NP (NN Data) (NN Modeling) (CD 2))
     (PRN (-LRB- -LRB-) (NP (JJ Multiple) (NNS tables)) (-RRB- -RRB-))))
 
 (ROOT
   (NP
-    (NP (LS 12.) (NNP SQL) (CD 2))
-    (PRN (-LRB- -LRB-) (NP (JJ Multiple) (NNS tables-RRB-)))))
+    (NP (LS 12.) (NP (NNP SQL) (CD 2)))
+    (PRN (-LRB- -LRB-) (NP (JJ Multiple) (NNS tables)) (-RRB- -RRB-))))
 
 (ROOT
   (X (X (LS 13.)) (NP (NN Intro)) (PP (IN to) (NP (NNP Docker)))))
@@ -891,7 +895,7 @@
   (NP
     (NP (NN Week) (CD 7))
     (: -)
-    (NP (NP (NNP Advanced) (NN JS)) (CC and) (NP (NNP React)))))
+    (NP (NP (JJ Advanced) (NN JS)) (CC and) (NP (NNP React)))))
 
 (ROOT
   (FRAG
@@ -904,7 +908,7 @@
 
 (ROOT (NP (LS 2.) (NN Recursion)))
 
-(ROOT (NP (LS 3.) (NNP JavaScript) (NNP Set) (NN object)))
+(ROOT (NP (LS 3.) (NNP JavaScript) (NN Set) (NN object)))
 
 (ROOT (NP (NP (NN Week) (CD 8)) (: -) (NP (VBG Testing))))
 
@@ -978,33 +982,33 @@
         (VBG Optimizing)
         (NP (PRP$ your) (NNP React) (CC /) (NNP NodeJS) (NN Project))))))
 
-(ROOT (NP (LS 3.) (NN Enzyme) (NN Testing)))
+(ROOT (NP (LS 3.) (NN Enzyme) (VBG Testing)))
 
 (ROOT
   (NP
-    (NP (NNP Week) (CD 11))
+    (NP (NN Week) (CD 11))
     (: -)
-    (NP (NN Data) (NNPS Structures) (CC &) (NP (NNPS Algorithms)))))
+    (NP (NN Data) (NNS Structures) (CC &) (NP (NNS Algorithms)))))
 
 (ROOT (NP (NN Data) (NNS Structures)))
 
 (ROOT
   (NP
     (NP (X (LS 1.)) (NP (NN Intro)))
-    (PP (IN to) (NP (NN Data) (NNPS Structures)))))
+    (PP (IN to) (NP (NN Data) (NNS Structures)))))
 
 (ROOT
   (NP
     (X (LS 2.))
     (NP
-      (NP (NNP Sprint) (NNP Plan))
+      (NP (NN Sprint) (NN Plan))
       (PP
         (IN for)
         (NP
           (NN Data)
-          (NNPS Structures)
+          (NNS Structures)
           (CC &)
-          (NNPS Algorithms)
+          (NNS Algorithms)
           (NN Week))))))
 
 (ROOT
@@ -1031,9 +1035,9 @@
     (NP
       (NP (NN Data) (NNS Structures))
       (: :)
-      (NP (NNP Hash) (NNS Tables)))))
+      (NP (NN Hash) (NNS Tables)))))
 
-(ROOT (NP (LS 7.) (NNP JavaScript) (NNP Map)))
+(ROOT (NP (LS 7.) (NNP JavaScript) (NN Map)))
 
 (ROOT
   (NP
@@ -1053,7 +1057,7 @@
     (NP (NP (NNS Algorithms)) (: :) (NP (VBG Searching)))))
 
 (ROOT
-  (X (X (LS 3.)) (NP (NP (NNS Algorithms)) (: :) (NP (NN Sorting)))))
+  (X (X (LS 3.)) (NP (NP (NNS Algorithms)) (: :) (NP (VBG Sorting)))))
 
 (ROOT
   (NP (NP (NN Week) (CD 12)) (: -) (NP (JJ Final) (NNS Assessments))))
@@ -1061,7 +1065,7 @@
 (ROOT
   (X
     (LS 1.)
-    (S (VP (VBG Navigating) (NP (NNP New) (NNPS Codebases))))))
+    (S (VP (VBG Navigating) (NP (NNP New) (NNS Codebases))))))
 
 (ROOT
   (NP
@@ -1089,7 +1093,7 @@
     (LS 4.)
     (NP
       (NP (NN Article))
-      (PP (IN by) (NP (NNP Techtonica) (NNP Alum))))
+      (PP (IN by) (NP (NNP Techtonica) (NN Alum))))
     (: :)
     (S
       (VP
@@ -1098,8 +1102,8 @@
         (PP
           (IN as)
           (NP
-            (NP (DT a) (NNP New) (NNP Software) (NNP Engineer))
-            (PP (IN out) (PP (IN of) (NP (NNP Bootcamp))))))))))
+            (NP (DT a) (JJ New) (NN Software) (NN Engineer))
+            (PP (IN out) (PP (IN of) (NP (NN Bootcamp))))))))))
 
 (ROOT
   (NP
@@ -1107,7 +1111,7 @@
     (NP
       (NP (NNP Career) (NNP Week))
       (: :)
-      (NP (NNP Machine) (NNP Learning) (NN Engineer)))))
+      (NP (NN Machine) (NN Learning) (NN Engineer)))))
 
 (ROOT
   (NP
@@ -1115,7 +1119,7 @@
     (NP
       (NP (NNP Career) (NNP Week))
       (: :)
-      (NP (NNP Entrepreneurship)))))
+      (NP (NN Entrepreneurship)))))
 
 (ROOT
   (NP
@@ -1137,7 +1141,7 @@
     (NP
       (NP (NNP Career) (NNP Week))
       (: :)
-      (NP (NNP QA) (NN Engineer)))))
+      (NP (NN QA) (NN Engineer)))))
 
 (ROOT
   (NP
@@ -1147,19 +1151,21 @@
 
 (ROOT
   (NP
-    (NP (LS 11.) (NP (NNP Career) (NN Week)))
+    (NP (LS 11.) (NP (NNP Career) (NNP Week)))
     (: :)
-    (NP (NNP Sales) (NN Engineering))))
+    (NP (NNS Sales) (NN Engineering))))
 
-(ROOT (NP (LS 12.) (NNP Career) (NNP Week) (: :)))
-
-(ROOT (NP (NNP Technical) (NN Program) (NN Manager)))
+(ROOT
+  (NP
+    (NP (LS 12.) (NNP Career) (NNP Week))
+    (: :)
+    (NP (JJ Technical) (NN Program) (NN Manager))))
 
 (ROOT
   (NP
     (NP (NN Week) (CD 14))
     (: -)
-    (NP (NNP Project) (NNP Prep) (NNP Week) (SYM &) (NNPS Electives))))
+    (NP (NN Project) (NN Prep) (NN Week) (CC &) (NNS Electives))))
 
 (ROOT
   (X
@@ -1170,7 +1176,7 @@
         (IN to)
         (NP
           (NP (NN Security))
-          (PP (IN in) (NP (NNP Web) (NN Development))))))))
+          (PP (IN in) (NP (NN Web) (NN Development))))))))
 
 (ROOT (NP (X (LS 2.)) (NP (NN Refactoring))))
 
@@ -1226,7 +1232,7 @@
   (FRAG
     (LS 14.)
     (NP
-      (NP (NNPS Ethics))
+      (NP (NN Ethics))
       (PP (IN in) (NP (NN Software) (NN Engineering))))))
 
 (ROOT

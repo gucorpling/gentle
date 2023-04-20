@@ -1,7 +1,7 @@
 <text id="GENTLE_syllabus_techtonica" author="Techtonica" dateCollected="2022-11-10" dateCreated="2020-01-02" dateModified="2022-05-18"  shortTitle="techtonica" sourceURL="https://github.com/Techtonica/curriculum/blob/main/README.md" speakerCount="0" speakerList="none" title="Welcome to the Techtonica curriculum!" type="syllabus">
 <head>
 <s type="frag">
-Welcome	JJ	welcome
+Welcome	UH	welcome
 to	IN	to
 the	DT	the
 Techtonica	NP	Techtonica
@@ -50,7 +50,7 @@ Techtonica.org	NP	Techtonica.org
 </p>
 <p>
 <s type="decl">
-Program	NN	Program
+Program	NN	program
 participants	NNS	participant
 will	MD	will
 learn	VV	learn
@@ -68,7 +68,7 @@ JavaScript	NP	JavaScript
 .	SENT	.
 </s>
 <s type="decl">
-What	WDT	what
+What	WP	what
 bootcamps	NNS	bootcamp
 and	CC	and
 Techtonica	NP	Techtonica
@@ -214,7 +214,7 @@ as	RB	as
 <w>
 hands	NNS	hand
 -	HYPH	-
-on	RP	on
+on	RB	on
 </w>
 and	CC	and
 <w>
@@ -295,32 +295,32 @@ issue	NN	issue
 <item>
 <s type="frag">
 <ref target="week-0---pre-work">
-Week	NP	Week
+Week	NN	week
 0	CD	0
 -	:	-
-Pre	NN	Pre
+Pre	JJ	pre
 -	HYPH	-
-Work	NN	Work
+Work	NN	work
 </ref>
 </s>
 </item>
 <item>
 <s type="frag">
 <ref target="week-1---onboarding--developer-tools">
-Week	NN	Week
+Week	NN	week
 1	CD	1
 -	:	-
 Onboarding	NN	onboarding
 &amp;	CC	&amp;
 Developer	NN	developer
-Tools	NPS	Tool
+Tools	NNS	tool
 </ref>
 </s>
 </item>
 <item>
 <s type="frag">
 <ref target="week-2---webpages-html--css">
-Week	NP	Week
+Week	NN	week
 2	CD	2
 -	:	-
 Webpages	NNS	webpage
@@ -334,7 +334,7 @@ CSS	NP	CSS
 <item>
 <s type="frag">
 <ref target="week-3---javascript-fundamentals">
-Week	NN	Week
+Week	NN	week
 3	CD	3
 -	:	-
 JavaScript	NN	javascript
@@ -345,11 +345,11 @@ Fundamentals	NNS	fundamental
 <item>
 <s type="frag">
 <ref target="week-4---intermediate-javascript-and-React">
-Week	NN	Week
+Week	NN	week
 4	CD	4
 -	:	-
-Intermediate	JJ	Intermediate
-JavaScript	NN	javascript
+Intermediate	JJ	intermediate
+JavaScript	NP	JavaScript
 and	CC	and
 React	NP	React
 </ref>
@@ -358,7 +358,7 @@ React	NP	React
 <item>
 <s type="frag">
 <ref target="week-5---web-apis">
-Week	NN	Week
+Week	NN	week
 5	CD	5
 -	:	-
 Web	NN	web
@@ -369,7 +369,7 @@ APIs	NNS	API
 <item>
 <s type="frag">
 <ref target="week-6---databases">
-Week	NN	Week
+Week	NN	week
 6	CD	6
 -	:	-
 Databases	NNS	database
@@ -379,10 +379,10 @@ Databases	NNS	database
 <item>
 <s type="frag">
 <ref target="week-7---Advanced-JS-and-React">
-Week	NN	Week
+Week	NN	week
 7	CD	7
 -	:	-
-Advanced	NP	Advanced
+Advanced	JJ	advanced
 JS	NN	JS
 and	CC	and
 React	NP	React
@@ -392,7 +392,7 @@ React	NP	React
 <item>
 <s type="ger">
 <ref target="week-8---Testing">
-Week	NN	Week
+Week	NN	week
 8	CD	8
 -	:	-
 Testing	VVG	test
@@ -402,7 +402,7 @@ Testing	VVG	test
 <item>
 <s type="frag">
 <ref target="week-9---eventonica">
-Week	NN	Week
+Week	NN	week
 9	CD	9
 -	:	-
 Eventonica	NP	Eventonica
@@ -413,7 +413,7 @@ Project	NN	project
 <item>
 <s type="frag">
 <ref target="week-10---more-pern--assessments">
-Week	NN	Week
+Week	NN	week
 10	CD	10
 -	:	-
 More	JJR	more
@@ -429,7 +429,7 @@ Review	NN	review
 Week	NN	week
 11	CD	11
 -	:	-
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 &amp;	CC	&amp;
 Algorithms	NNS	algorithm
@@ -437,7 +437,7 @@ Algorithms	NNS	algorithm
 </s>
 <s type="frag">
 <ref target="data-structures">
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 </ref>
 </s>
@@ -450,18 +450,18 @@ Algorithms	NNS	algorithm
 <item>
 <s type="frag">
 <ref target="week-12---final-assessments">
-Week	NN	Week
+Week	NN	week
 12	CD	12
 -	:	-
 Final	JJ	final
-Assessments	NNS	Assessment
+Assessments	NNS	assessment
 </ref>
 </s>
 </item>
 <item>
 <s type="frag">
 <ref target="week-13---career-week">
-Week	NN	Week
+Week	NN	week
 13	CD	13
 -	:	-
 Career	NP	Career
@@ -473,14 +473,14 @@ Week	NP	Week
 <item>
 <s type="frag">
 <ref target="week-14---project-prep-week--electives">
-Week	NN	Week
+Week	NN	week
 14	CD	14
 -	:	-
-Project	NP	Project
-Prep	NP	Prep
-Week	NP	Week
+Project	NN	project
+Prep	NN	prep
+Week	NN	week
 &amp;	CC	&amp;
-Electives	NPS	Elective
+Electives	NNS	elective
 </ref>
 </s>
 </item>
@@ -494,19 +494,19 @@ Weeks	NNS	week
 </w>
 -	:	-
 Final	JJ	final
-Project	NN	Project
+Project	NN	project
 </ref>
 </s>
 </item>
 </list>
 <head>
 <s type="frag">
-Week	NP	Week
+Week	NN	week
 0	CD	0
 -	:	-
-Pre	NN	Pre
+Pre	JJ	pre
 -	HYPH	-
-Work	NN	Work
+Work	NN	work
 </s>
 </head>
 <s type="decl">
@@ -528,7 +528,7 @@ fundamentals	NNS	fundamental
 .	SENT	.
 </s>
 <s type="sub">
-Participants	NNS	Participant
+Participants	NNS	participant
 should	MD	should
 memorize	VV	memorize
 <ref target="/javascript/common-functions-cheatsheet.md">
@@ -549,7 +549,7 @@ month	NN	month
 </s>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 1	CD	1
 -	:	-
 Onboarding	NN	onboarding
@@ -563,7 +563,7 @@ Tools	NNS	tool
 <s type="frag">
 <ref target="/onboarding/tech-industry-tips.md">
 1.	LS	1.
-Welcome	NP	welcome
+Welcome	NN	welcome
 ,	,	,
 Tips	NNS	tip
 ,	,	,
@@ -603,7 +603,7 @@ Learn	VV	learn
 <s type="frag">
 <ref target="/onboarding/professionalism.md">
 4.	LS	4.
-Professionalism	NN	Professionalism
+Professionalism	NN	professionalism
 </ref>
 </s>
 </item>
@@ -615,7 +615,7 @@ Professionalism	NN	Professionalism
 5.	LS	5.
 Roles	NNS	role
 in	IN	in
-Tech	NP	Tech
+Tech	NN	tech
 </ref>
 </s>
 </item>
@@ -640,8 +640,8 @@ Tools	NNS	tool
 <s type="frag">
 <ref target="/dev-tools/command-line-advanced.md">
 7.	LS	7.
-Advanced	NP	Advanced
-Command	NP	Command
+Advanced	JJ	advanced
+Command	NN	command
 Line	NN	line
 </ref>
 </s>
@@ -686,8 +686,8 @@ brew	NN	brew
 11.	LS	11.
 How	WRB	how
 to	TO	to
-Pair	VV	pair
-Program	NN	Program
+Pair	NN	pair
+Program	VV	program
 </ref>
 </s>
 </item>
@@ -697,10 +697,10 @@ Program	NN	Program
 <s type="frag">
 <ref target="/projects/first-assessment.md">
 12.	LS	12.
-Project	NP	Project
+Project	NN	project
 0	CD	0
 -	:	-
-Week	NN	Week
+Week	NN	week
 1	CD	1
 Review	NN	review
 </ref>
@@ -712,7 +712,7 @@ Review	NN	review
 <s type="frag">
 <ref target="/dev-tools/operating-systems.md">
 13.	LS	13.
-Operating	NN	Operating
+Operating	NN	operating
 Systems	NNS	system
 </ref>
 </s>
@@ -734,7 +734,7 @@ Shortcuts	NNS	shortcut
 <s type="frag">
 <ref target="/onboarding/ergonomics.md">
 15.	LS	15.
-Ergonomics	NPS	Ergonomics
+Ergonomics	NNS	ergonomics
 </ref>
 </s>
 </item>
@@ -782,9 +782,9 @@ Career	NN	career
 19.	LS	19.
 Chrome	NP	Chrome
 Developer	NP	Developer
-Tools	NNS	tool
+Tools	NPS	Tool
 :	:	:
-Setup	NP	Setup
+Setup	NN	setup
 </ref>
 </s>
 </item>
@@ -800,8 +800,8 @@ either	DT	either
 <ref target="onboarding/living-in-open-workspaces.md">
 Living	VVG	live
 in	IN	in
-Open	JJ	Open
-Workspaces	NPS	Workspace
+Open	JJ	open
+Workspaces	NNS	workspace
 </ref>
 or	CC	or
 <ref target="career/working-and-collaborating-remotely.md">
@@ -856,7 +856,7 @@ Methods	NNS	method
 <s type="ger">
 <ref target="/debugging/debugging.md">
 24.	LS	24.
-Debugging	VVG	Debug
+Debugging	VVG	debug
 </ref>
 </s>
 </item>
@@ -868,7 +868,7 @@ Debugging	VVG	Debug
 25.	LS	25.
 Recipe	NN	recipe
 Page	NN	page
-Project	NN	Project
+Project	NN	project
 :	:	:
 HTML	NP	HTML
 </ref>
@@ -877,7 +877,7 @@ HTML	NP	HTML
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 2	CD	2
 -	:	-
 Webpages	NNS	webpage
@@ -917,7 +917,7 @@ Control	NN	control
 Using	VVG	use
 GitHub	NP	GitHub
 for	IN	for
-Code	NP	Code
+Code	NN	code
 Storage	NN	storage
 </ref>
 </s>
@@ -929,7 +929,7 @@ Storage	NN	storage
 <ref target="/git/github-collaboration.md">
 4.	LS	4.
 GitHub	NP	GitHub
-Collaboration	NN	Collaboration
+Collaboration	NN	collaboration
 </ref>
 </s>
 </item>
@@ -939,7 +939,7 @@ Collaboration	NN	Collaboration
 <s type="frag">
 <ref target="/dev-tools/operating-systems.md">
 5.	LS	5.
-Operating	NN	Operating
+Operating	NN	operating
 Systems	NNS	system
 </ref>
 </s>
@@ -990,7 +990,7 @@ The	DT	the
 Other	JJ	other
 Kind	NN	kind
 of	IN	of
-Networking	NP	Networking
+Networking	NN	networking
 )	)	)
 </ref>
 </s>
@@ -1014,8 +1014,8 @@ DNS	NP	DNS
 <ref target="/projects/recipe-page/phase-2-css-prompt.md">
 10.	LS	10.
 Recipe	NN	recipe
-Page	NP	Page
-Project	NN	Project
+Page	NN	page
+Project	NN	project
 :	:	:
 CSS	NP	CSS
 </ref>
@@ -1027,8 +1027,8 @@ CSS	NP	CSS
 <s type="frag">
 <ref target="/web/media-queries.md">
 11.	LS	11.
-Media	NP	Media
-Queries	NPS	Query
+Media	NNS	medium
+Queries	NNS	query
 </ref>
 </s>
 </item>
@@ -1062,7 +1062,7 @@ Bootstrap	NP	Bootstrap
 <s type="ger">
 <ref target="/career/building-confidence.md">
 14.	LS	14.
-Building	VVG	Build
+Building	VVG	build
 Confidence	NN	confidence
 </ref>
 </s>
@@ -1074,8 +1074,8 @@ Confidence	NN	confidence
 <ref target="/projects/recipe-page/phase-3-bootstrap-prompt.md">
 15.	LS	15.
 Recipe	NN	recipe
-Page	NP	Page
-Project	NN	Project
+Page	NN	page
+Project	NN	project
 :	:	:
 Bootstrap	NP	Bootstrap
 </ref>
@@ -1100,10 +1100,10 @@ Challenges	NNS	challenge
 <ref target="/git/git-version-control-part2.md">
 17.	LS	17.
 Git	NP	Git
-Part	NP	part
+Part	NN	part
 2	CD	2
 :	:	:
-Study	NN	Study
+Study	NN	study
 Guide	NN	guide
 </ref>
 </s>
@@ -1114,8 +1114,8 @@ Guide	NN	guide
 <s type="frag">
 <ref target="/projects/portfolio/portfolio-webpage-1.md">
 18.	LS	18.
-Portfolio	NP	Portfolio
-Project	NP	Project
+Portfolio	NN	portfolio
+Project	NN	project
 :	:	:
 HTML	NP	HTML
 ,	,	,
@@ -1134,8 +1134,8 @@ Bootstrap	NP	Bootstrap
 Using	VVG	use
 GitHub	NP	GitHub
 for	IN	for
-Project	NP	Project
-Collaboration	NP	Collaboration
+Project	NN	project
+Collaboration	NN	collaboration
 </ref>
 </s>
 </item>
@@ -1145,8 +1145,8 @@ Collaboration	NP	Collaboration
 <s type="frag">
 <ref target="/personal-brand/personal-branding.md">
 20.	LS	20.
-Portfolio	NP	Portfolio
-Project	NN	Project
+Portfolio	NN	portfolio
+Project	NN	project
 :	:	:
 Personal	JJ	personal
 Branding	NN	branding
@@ -1160,9 +1160,9 @@ Branding	NN	branding
 <ref target="/reading-and-writing-documentation/documentation.md">
 21.	LS	21.
 <w>
-Reading	NN	read
+Reading	VVG	read
 /	SYM	/
-Writing	NN	Writing
+Writing	VVG	write
 </w>
 Documentation	NN	documentation
 </ref>
@@ -1176,25 +1176,25 @@ Documentation	NN	documentation
 22.	LS	22.
 Writing	VVG	write
 Readable	JJ	readable
-Code	NP	Code
+Code	NN	code
 </ref>
 </s>
 </item>
 </list>
 <list type="ordered">
 <item n="23">
-<s type="imp">
+<s type="multiple">
 <ref target="/deploying/deploying-1-personal-site.md">
 23.	LS	23.
 Deploy	VV	deploy
 your	PP$	your
-Portfolio	NP	Portfolio
-Project	NN	Project
+Portfolio	NN	portfolio
+Project	NN	project
 :	:	:
-Deploying	VVG	Deploy
+Deploying	VVG	deploy
 Client	NN	client
 -	HYPH	-
-Side	NP	side
+Side	NN	side
 Apps	NNS	app
 with	IN	with
 Netlify	NP	Netlify
@@ -1207,10 +1207,10 @@ Netlify	NP	Netlify
 <s type="frag">
 <ref target="/projects/portfolio/portfolio-webpage-3.md">
 24.	LS	24.
-Portfolio	NP	Portfolio
-Project	NP	Project
+Portfolio	NN	portfolio
+Project	NN	project
 :	:	:
-Collaboration	NN	Collaboration
+Collaboration	NN	collaboration
 and	CC	and
 Review	NN	review
 </ref>
@@ -1219,10 +1219,10 @@ Review	NN	review
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 3	CD	3
 -	:	-
-JavaScript	NN	javascript
+JavaScript	NP	JavaScript
 Fundamentals	NNS	fundamental
 </s>
 </head>
@@ -1236,7 +1236,7 @@ JavaScript	NP	JavaScript
 -	:	-
 Variables	NNS	variable
 ,	,	,
-Strings	NPS	String
+Strings	NNS	string
 ,	,	,
 Numbers	NNS	number
 </ref>
@@ -1270,7 +1270,7 @@ Conditionals	NNS	conditional
 ,	,	,
 Comparisons	NNS	comparison
 ,	,	,
-Booleans	NPS	Boolean
+Booleans	NNS	Boolean
 </ref>
 </s>
 </item>
@@ -1332,7 +1332,7 @@ Datetime	NN	datetime
 <ref target="/javascript/basic-js-practice.md">
 8.	LS	8.
 Basic	JJ	basic
-JavaScript	NN	javascript
+JavaScript	NP	JavaScript
 Practice	NN	practice
 </ref>
 </s>
@@ -1358,19 +1358,19 @@ TDD	NP	TDD
 Assigned	VVN	assign
 Reading	NN	reading
 -	:	-
-Eloquent	NP	eloquent
-JavaScript	NN	javascript
+Eloquent	JJ	eloquent
+JavaScript	NP	JavaScript
 </ref>
 </s>
 </item>
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 4	CD	4
 -	:	-
-Intermediate	JJ	Intermediate
-JavaScript	NN	javascript
+Intermediate	JJ	intermediate
+JavaScript	NP	JavaScript
 and	CC	and
 React	NP	React
 </s>
@@ -1382,7 +1382,7 @@ React	NP	React
 1.	LS	1.
 JavaScript	NP	JavaScript
 DOM	NP	DOM
-Manipulation	NP	Manipulation
+Manipulation	NN	manipulation
 </ref>
 -	:	-
 <hi rend="italic">
@@ -1402,8 +1402,8 @@ HTML	NP	HTML
 /	CC	/
 JS	NP	JS
 </w>
-Game	NP	Game
-Project	NN	Project
+Game	NN	game
+Project	NN	project
 </ref>
 </s>
 </item>
@@ -1415,7 +1415,7 @@ Project	NN	Project
 3.	LS	3.
 a11y	NP	a11y
 :	:	:
-Accessibility	NN	Accessibility
+Accessibility	NN	accessibility
 </ref>
 </s>
 </item>
@@ -1432,16 +1432,16 @@ SEO	NP	SEO
 </list>
 <list type="ordered">
 <item n="5">
-<s type="frag">
+<s type="multiple">
 <ref target="/projects/portfolio/portfolio-webpage-2.md">
 5.	LS	5.
-Portfolio	NP	Portfolio
-Project	NP	Project
+Portfolio	NN	portfolio
+Project	NN	project
 :	:	:
-Incorporate	NP	Incorporate
+Incorporate	VV	incorporate
 SEO	NP	SEO
 &amp;	CC	&amp;
-a11y	NN	a11y
+a11y	NP	a11y
 </ref>
 </s>
 </item>
@@ -1455,11 +1455,11 @@ JavaScript	NP	JavaScript
 7	CD	7
 -	:	-
 <w>
-Object	NN	object
+Object	NP	Object
 -	HYPH	-
-Oriented	JJ	Oriented
+Oriented	NP	Oriented
 </w>
-Programming	NN	Programming
+Programming	NP	Programming
 </ref>
 </s>
 </item>
@@ -1470,11 +1470,11 @@ Programming	NN	Programming
 <ref target="/javascript/first-js-oop-project.md">
 7.	LS	7.
 Mini	NN	mini
-Project	NN	Project
+Project	NN	project
 :	:	:
 Object	NP	Object
-Oriented	JJ	Oriented
-Programming	NN	Programming
+Oriented	NP	Oriented
+Programming	NP	Programming
 in	IN	in
 JS	NP	JS
 </ref>
@@ -1486,8 +1486,8 @@ JS	NP	JS
 <s type="frag">
 <ref target="/functional-programming/FP.md">
 8.	LS	8.
-Functional	JJ	Functional
-Programming	NN	Programming
+Functional	JJ	functional
+Programming	NN	programming
 </ref>
 </s>
 </item>
@@ -1498,7 +1498,7 @@ Programming	NN	Programming
 <ref target="/react-js">
 9.	LS	9.
 All	DT	all
-React	VV	react
+React	NP	React
 Lessons	NNS	lesson
 </ref>
 </s>
@@ -1506,7 +1506,7 @@ Lessons	NNS	lesson
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 5	CD	5
 -	:	-
 Web	NN	web
@@ -1518,7 +1518,7 @@ APIs	NNS	API
 <s type="frag">
 <ref target="/node-js/node-js.md">
 1.	LS	1.
-Node	NN	node
+Node	NP	Node
 </ref>
 </s>
 </item>
@@ -1531,11 +1531,11 @@ Node	NN	node
 JavaScript	NP	JavaScript
 8	CD	8
 -	:	-
-Regular	JJ	regular
+Regular	NP	Regular
 <w>
-Expressions	NNS	expression
+Expressions	NPS	Expression
 /	SYM	/
-RegEx	NN	RegEx
+RegEx	NP	RegEx
 </w>
 </ref>
 </s>
@@ -1546,7 +1546,7 @@ RegEx	NN	RegEx
 <s type="frag">
 <ref target="/runtime-complexity/runtime-complexity.md">
 3.	LS	3.
-Runtime	NP	Runtime
+Runtime	NN	runtime
 Complexity	NN	complexity
 </ref>
 </s>
@@ -1603,7 +1603,7 @@ Express	NP	Express
 <s type="frag">
 <ref target="/api/REST-API.md">
 8.	LS	8.
-REST	NN	REST
+REST	NP	REST
 APIs	NNS	API
 </ref>
 </s>
@@ -1611,7 +1611,7 @@ APIs	NNS	API
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 6	CD	6
 -	:	-
 Databases	NNS	database
@@ -1627,7 +1627,7 @@ JavaScript	NP	JavaScript
 -	:	-
 Async	NN	async
 ,	,	,
-Callbacks	NPS	callback
+Callbacks	NNS	callback
 ,	,	,
 Promises	NNS	promise
 </ref>
@@ -1688,7 +1688,7 @@ Exercise	NP	Exercise
 <s type="frag">
 <ref target="/javascript/require-and-import-mini-lesson.md">
 6.	LS	6.
-import	NN	import
+import	VV	import
 &amp;	CC	&amp;
 require	VV	require
 </ref>
@@ -1701,7 +1701,7 @@ require	VV	require
 <ref target="/databases/installing-postgresql.md">
 7.	LS	7.
 Install	VV	install
-Postgres	NP	Postgre
+Postgres	NP	Postgres
 </ref>
 </s>
 </item>
@@ -1723,7 +1723,7 @@ Databases	NNS	database
 <s type="frag">
 <ref target="/databases/data-modeling-1.md">
 9.	LS	9.
-Data	NN	data
+Data	NN	datum
 Modeling	NN	modeling
 1	CD	1
 (	(	(
@@ -1743,7 +1743,8 @@ SQL	NP	SQL
 1	CD	1
 (	(	(
 Single	JJ	single
-tables)	NN	tableso
+tables	NN	table
+)	)	)
 </ref>
 </s>
 </item>
@@ -1753,11 +1754,11 @@ tables)	NN	tableso
 <s type="frag">
 <ref target="/databases/data-modeling-2.md">
 11.	LS	11.
-Data	NP	data
+Data	NN	datum
 Modeling	NN	modeling
 2	CD	2
 (	(	(
-Multiple	JJ	Multiple
+Multiple	JJ	multiple
 tables	NNS	table
 )	)	)
 </ref>
@@ -1772,8 +1773,9 @@ tables	NNS	table
 SQL	NP	SQL
 2	CD	2
 (	(	(
-Multiple	JJ	Multiple
-tables)	NNS	tableso
+Multiple	JJ	multiple
+tables	NNS	table
+)	)	)
 </ref>
 </s>
 </item>
@@ -1807,10 +1809,10 @@ Docker	NP	Docker
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 7	CD	7
 -	:	-
-Advanced	NP	Advanced
+Advanced	JJ	advanced
 JS	NN	JS
 and	CC	and
 React	NP	React
@@ -1850,7 +1852,7 @@ Recursion	NN	recursion
 <ref target="https://www.javascripttutorial.net/es6/javascript-set/">
 3.	LS	3.
 JavaScript	NP	JavaScript
-Set	NP	set
+Set	NN	set
 object	NN	object
 </ref>
 </s>
@@ -1858,7 +1860,7 @@ object	NN	object
 </list>
 <head>
 <s type="ger">
-Week	NN	Week
+Week	NN	week
 8	CD	8
 -	:	-
 Testing	VVG	test
@@ -1932,14 +1934,14 @@ Jest	NP	Jest
 and	CC	and
 React	NP	React
 Testing	NN	testing
-Library	NN	Library
+Library	NN	library
 </ref>
 </s>
 </item>
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 9	CD	9
 -	:	-
 Eventonica	NP	Eventonica
@@ -1958,7 +1960,7 @@ Project	NN	project
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 10	CD	10
 -	:	-
 Full	JJ	full
@@ -1971,7 +1973,7 @@ Practice	NN	practice
 <s type="ger">
 <ref target="/deploying/deploying-to-heroku.md">
 1.	LS	1.
-Deploying	VVG	Deploy
+Deploying	VVG	deploy
 to	IN	to
 Heroku	NP	Heroku
 with	IN	with
@@ -1994,7 +1996,7 @@ React	NP	React
 /	CC	/
 NodeJS	NP	NodeJS
 </w>
-Project	NN	Project
+Project	NN	project
 </ref>
 </s>
 </item>
@@ -2005,17 +2007,17 @@ Project	NN	Project
 <ref target="/testing-and-tdd/enzyme-testing.md">
 3.	LS	3.
 Enzyme	NN	enzyme
-Testing	NN	Testing
+Testing	VVG	test
 </ref>
 </s>
 </item>
 </list>
 <head>
 <s type="frag">
-Week	NP	Week
+Week	NN	week
 11	CD	11
 -	:	-
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 &amp;	CC	&amp;
 Algorithms	NNS	algorithm
@@ -2023,7 +2025,7 @@ Algorithms	NNS	algorithm
 </head>
 <head>
 <s type="frag">
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 </s>
 </head>
@@ -2034,7 +2036,7 @@ Structures	NNS	structure
 1.	LS	1.
 Intro	NN	intro
 to	IN	to
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 </ref>
 </s>
@@ -2045,14 +2047,14 @@ Structures	NNS	structure
 <s type="frag">
 <ref target="/projects/data-structures-algorithms-sprint.md">
 2.	LS	2.
-Sprint	NP	Sprint
-Plan	NP	Plan
+Sprint	NN	sprint
+Plan	NN	plan
 for	IN	for
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 &amp;	CC	&amp;
 Algorithms	NNS	algorithm
-Week	NN	Week
+Week	NN	week
 </ref>
 </s>
 </item>
@@ -2062,7 +2064,7 @@ Week	NN	Week
 <s type="frag">
 <ref target="/data-structures/stack.md">
 3.	LS	3.
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 :	:	:
 Stacks	NNS	stack
@@ -2075,7 +2077,7 @@ Stacks	NNS	stack
 <s type="frag">
 <ref target="/data-structures/queues.md">
 4.	LS	4.
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 :	:	:
 Queues	NNS	queue
@@ -2088,7 +2090,7 @@ Queues	NNS	queue
 <s type="frag">
 <ref target="/data-structures/linked-lists.md">
 5.	LS	5.
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 :	:	:
 Linked	VVN	link
@@ -2102,10 +2104,10 @@ Lists	NNS	list
 <s type="frag">
 <ref target="/data-structures/hash-tables.md">
 6.	LS	6.
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 :	:	:
-Hash	NP	Hash
+Hash	NN	hash
 Tables	NNS	table
 </ref>
 </s>
@@ -2117,7 +2119,7 @@ Tables	NNS	table
 <ref target="/javascript/javascript-maps.md">
 7.	LS	7.
 JavaScript	NP	JavaScript
-Map	NP	map
+Map	NN	map
 </ref>
 </s>
 </item>
@@ -2127,7 +2129,7 @@ Map	NP	map
 <s type="frag">
 <ref target="/data-structures/trees.md">
 8.	LS	8.
-Data	NN	data
+Data	NN	datum
 Structures	NNS	structure
 :	:	:
 Trees	NNS	tree
@@ -2171,18 +2173,18 @@ Searching	VVG	search
 3.	LS	3.
 Algorithms	NNS	algorithm
 :	:	:
-Sorting	NN	sorting
+Sorting	VVG	sort
 </ref>
 </s>
 </item>
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 12	CD	12
 -	:	-
 Final	JJ	final
-Assessments	NNS	Assessment
+Assessments	NNS	assessment
 </s>
 </head>
 <list type="ordered">
@@ -2191,8 +2193,8 @@ Assessments	NNS	Assessment
 <ref target="/program-prep/navigating-new-codebases.md">
 1.	LS	1.
 Navigating	VVG	navigate
-New	NP	New
-Codebases	NPS	Codebase
+New	NP	new
+Codebases	NNS	codebase
 </ref>
 </s>
 </item>
@@ -2202,9 +2204,11 @@ Codebases	NPS	Codebase
 <s type="frag">
 <ref target="/open-source/open-source.md">
 2.	LS	2.
-Open	JJ	Open
+<w>
+Open	JJ	open
 -	HYPH	-
 source	NN	source
+</w>
 Projects	NNS	project
 </ref>
 </s>
@@ -2212,7 +2216,7 @@ Projects	NNS	project
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 13	CD	13
 -	:	-
 Career	NP	Career
@@ -2225,7 +2229,7 @@ Week	NP	Week
 <s type="frag">
 <ref target="/career/interviewing/technical-interviewing.md">
 1.	LS	1.
-Technical	JJ	Technical
+Technical	JJ	technical
 Interviewing	NN	interviewing
 </ref>
 </s>
@@ -2265,7 +2269,7 @@ Interviews	NNS	interview
 Article	NN	article
 by	IN	by
 Techtonica	NP	Techtonica
-Alum	NP	Alum
+Alum	NN	alum
 :	:	:
 Working	VVG	work
 in	IN	in
@@ -2273,12 +2277,12 @@ the	DT	the
 field	NN	field
 as	IN	as
 a	DT	a
-New	NP	New
-Software	NP	Software
-Engineer	NP	Engineer
+New	JJ	new
+Software	NN	software
+Engineer	NN	engineer
 out	IN	out
 of	IN	of
-Bootcamp	NP	Bootcamp
+Bootcamp	NN	bootcamp
 </ref>
 </s>
 </item>
@@ -2291,9 +2295,9 @@ Bootcamp	NP	Bootcamp
 Career	NP	Career
 Week	NP	Week
 :	:	:
-Machine	NP	Machine
-Learning	NP	learning
-Engineer	NN	Engineer
+Machine	NN	machine
+Learning	NN	learning
+Engineer	NN	engineer
 </ref>
 </s>
 </item>
@@ -2306,7 +2310,7 @@ Engineer	NN	Engineer
 Career	NP	Career
 Week	NP	Week
 :	:	:
-Entrepreneurship	NP	Entrepreneurship
+Entrepreneurship	NN	entrepreneurship
 </ref>
 </s>
 </item>
@@ -2333,7 +2337,7 @@ Science	NP	Science
 Career	NP	Career
 Week	NP	Week
 :	:	:
-Security	NN	Security
+Security	NN	security
 </ref>
 </s>
 </item>
@@ -2346,8 +2350,8 @@ Security	NN	Security
 Career	NP	Career
 Week	NP	Week
 :	:	:
-QA	NP	QA
-Engineer	NN	Engineer
+QA	NN	QA
+Engineer	NN	engineer
 </ref>
 </s>
 </item>
@@ -2372,9 +2376,9 @@ Advocate	NN	advocate
 <ref target="/career/roles-in-tech/sales-engineering.md">
 11.	LS	11.
 Career	NP	Career
-Week	NN	Week
+Week	NP	Week
 :	:	:
-Sales	NP	Sales
+Sales	NNS	sale
 Engineering	NN	Engineering
 </ref>
 </s>
@@ -2388,8 +2392,8 @@ Engineering	NN	Engineering
 Career	NP	Career
 Week	NP	Week
 :	:	:
-Technical	NP	Technical
-Program	NN	Program
+Technical	JJ	technical
+Program	NN	program
 Manager	NN	manager
 </ref>
 </s>
@@ -2397,14 +2401,14 @@ Manager	NN	manager
 </list>
 <head>
 <s type="frag">
-Week	NN	Week
+Week	NN	week
 14	CD	14
 -	:	-
-Project	NP	Project
-Prep	NP	Prep
-Week	NP	Week
+Project	NN	project
+Prep	NN	prep
+Week	NN	week
 &amp;	CC	&amp;
-Electives	NPS	elective
+Electives	NNS	elective
 </s>
 </head>
 <list type="ordered">
@@ -2414,9 +2418,9 @@ Electives	NPS	elective
 1.	LS	1.
 Intro	NN	intro
 to	IN	to
-Security	NN	Security
+Security	NN	security
 in	IN	in
-Web	NP	Web
+Web	NN	web
 Development	NN	development
 </ref>
 </s>
@@ -2488,7 +2492,7 @@ Challenge	NN	challenge
 <s type="frag">
 <ref target="/career/roles-in-tech/technical-writing.md">
 7.	LS	7.
-Technical	JJ	Technical
+Technical	JJ	technical
 Writing	NN	Writing
 </ref>
 </s>
@@ -2500,12 +2504,12 @@ Writing	NN	Writing
 <ref target="/projects/final-project/selecting-your-project.md">
 8.	LS	8.
 Final	JJ	final
-Project	NN	Project
+Project	NN	project
 :	:	:
 Selecting	VVG	select
 Your	PP$	your
 Final	JJ	final
-Project	NN	Project
+Project	NN	project
 </ref>
 </s>
 </item>
@@ -2516,7 +2520,7 @@ Project	NN	Project
 <ref target="/projects/final-project/final-project.md">
 9.	LS	9.
 Final	JJ	final
-Project	NN	Project
+Project	NN	project
 :	:	:
 5	CD	5
 weeks	NNS	week
@@ -2601,7 +2605,7 @@ After	IN	after
 Week	NP	Week
 14	CD	14
 ,	,	,
-Participants	NNS	Participant
+Participants	NNS	participant
 build	VVP	build
 a	DT	a
 <w>
@@ -2690,7 +2694,7 @@ plan	NN	plan
 </item>
 <item>
 <s type="ger">
-Deploying	VVG	Deploy
+Deploying	VVG	deploy
 their	PP$	their
 application	NN	application
 to	IN	to

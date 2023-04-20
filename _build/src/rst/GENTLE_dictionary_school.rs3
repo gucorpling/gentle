@@ -186,7 +186,7 @@
 		<segment id="148" parent="275" relname="joint-list">( third - person singular simple present schools ,</segment>
 		<segment id="149" parent="275" relname="joint-list">present participle schooling ,</segment>
 		<segment id="150" parent="275" relname="joint-list">simple past and past participle schooled )</segment>
-		<segment id="151" parent="277" relname="elaboration-additional">( transitive )</segment>
+		<segment id="151" parent="277" relname="context-background">( transitive )</segment>
 		<segment id="152" parent="277" relname="span">To educate , teach , or train</segment>
 		<segment id="153" parent="152" relname="context-circumstance">( often , but not necessarily , in a school ) .</segment>
 		<segment id="154" parent="278" relname="explanation-evidence">Many future prime ministers were schooled in Eton .</segment>

@@ -8,7 +8,7 @@
 1-2	4-9	roads	place[1]	new[1]	nonsal[1]	NONE[1]	_	_	
 1-3	10-18	diverged	_	_	_	_	_	_	
 1-4	19-21	in	_	_	_	_	_	_	
-1-5	22-23	a	place[2]	new[2]	nonsal[2]	_	coref	6-19[36_2]	
+1-5	22-23	a	place[2]	new[2]	nonsal[2]	_	coref	7-19[36_2]	
 1-6	24-30	yellow	place[2]	new[2]	nonsal[2]	_	_	_	
 1-7	31-35	wood	place[2]	new[2]	nonsal[2]	_	_	_	
 1-8	36-37	,	_	_	_	_	_	_	
@@ -34,11 +34,11 @@
 1-28	127-129	as	_	_	_	_	_	_	
 1-29	130-133	far	_	_	_	_	_	_	
 1-30	134-136	as	_	_	_	_	_	_	
-1-31	137-138	I	person[8]	giv[8]	nonsal[8]	_	coref	4-3[22_8]	
+1-31	137-138	I	person[8]	giv[8]	nonsal[8]	_	coref	5-3[22_8]	
 1-32	139-144	could	_	_	_	_	_	_	
 1-33	145-147	To	_	_	_	_	_	_	
 1-34	148-153	where	_	_	_	_	_	_	
-1-35	154-156	it	place[9]	giv[9]	nonsal[9]	_	coref	4-5[23_9]	
+1-35	154-156	it	place[9]	giv[9]	nonsal[9]	_	coref	5-5[23_9]	
 1-36	157-161	bent	_	_	_	_	_	_	
 1-37	162-164	in	_	_	_	_	_	_	
 1-38	165-168	the	plant[10]	new[10]	nonsal[10]	_	_	_	
@@ -64,7 +64,7 @@
 2-16	253-258	claim	abstract[12]	new[12]	nonsal[12]	_	_	_	
 2-17	259-260	,	_	_	_	_	_	_	
 2-18	261-268	Because	_	_	_	_	_	_	
-2-19	269-271	it	place[13]	giv[13]	nonsal[13]	_	coref	6-27[40_13]	
+2-19	269-271	it	place[13]	giv[13]	nonsal[13]	_	coref	7-27[40_13]	
 2-20	272-275	was	_	_	_	_	_	_	
 2-21	276-282	grassy	_	_	_	_	_	_	
 2-22	283-286	and	_	_	_	_	_	_	
@@ -82,18 +82,18 @@
 3-7	332-337	there	event[15]	new[15]	nonsal[15]	_	_	_	
 3-8	338-341	Had	_	_	_	_	_	_	
 3-9	342-346	worn	_	_	_	_	_	_	
-3-10	347-351	them	place[16]	giv[16]	nonsal[16]	_	coref	3-17[18_16]	
+3-10	347-351	them	place[16]	giv[16]	nonsal[16]	_	coref	4-2[18_16]	
 3-11	352-358	really	_	_	_	_	_	_	
 3-12	359-364	about	_	_	_	_	_	_	
 3-13	365-368	the	abstract[17]	new[17]	nonsal[17]	_	_	_	
 3-14	369-373	same	abstract[17]	new[17]	nonsal[17]	_	_	_	
-3-15	374-375	,	_	_	_	_	_	_
+3-15	374-375	,	_	_	_	_	_	_	
 
 #Text=And both that morning equally lay In leaves no step had trodden black .
 4-1	376-379	And	_	_	_	_	_	_	
-4-2	380-384	both	place[18]	giv[18]	nonsal[18]	_	coref	6-15[35_18]	
-4-3	385-389	that	time[19]	acc[19]	nonsal[19]	_	bridge	4-8[24_19]	
-4-4	390-397	morning	time[19]	acc[19]	nonsal[19]	_	_	_	
+4-2	380-384	both	place[18]	giv[18]	nonsal[18]	_	coref	7-15[35_18]	
+4-3	385-389	that	time[19]	new[19]	nonsal[19]	_	bridge	5-8[24_19]	
+4-4	390-397	morning	time[19]	new[19]	nonsal[19]	_	_	_	
 4-5	398-405	equally	_	_	_	_	_	_	
 4-6	406-409	lay	_	_	_	_	_	_	
 4-7	410-412	In	_	_	_	_	_	_	
@@ -108,7 +108,7 @@
 #Text=Oh , I kept the first for another day !
 5-1	448-450	Oh	_	_	_	_	_	_	
 5-2	451-452	,	_	_	_	_	_	_	
-5-3	453-454	I	person[22]	giv[22]	nonsal[22]	_	coref	5-10[27_22]	
+5-3	453-454	I	person[22]	giv[22]	nonsal[22]	_	coref	6-10[27_22]	
 5-4	455-459	kept	_	_	_	_	_	_	
 5-5	460-463	the	place[23]	giv[23]	nonsal[23]	_	_	_	
 5-6	464-469	first	place[23]	giv[23]	nonsal[23]	_	_	_	
@@ -127,10 +127,10 @@
 6-7	517-519	to	_	_	_	_	_	_	
 6-8	520-523	way	abstract[26]	new[26]	nonsal[26]	_	_	_	
 6-9	524-525	,	_	_	_	_	_	_	
-6-10	526-527	I	person[27]	giv[27]	nonsal[27]	_	coref	5-13[28_27]	
+6-10	526-527	I	person[27]	giv[27]	nonsal[27]	_	coref	6-13[28_27]	
 6-11	528-535	doubted	_	_	_	_	_	_	
 6-12	536-538	if	_	_	_	_	_	_	
-6-13	539-540	I	person[28]	giv[28]	nonsal[28]	_	coref	6-1[29_28]	
+6-13	539-540	I	person[28]	giv[28]	nonsal[28]	_	coref	7-1[29_28]	
 6-14	541-547	should	_	_	_	_	_	_	
 6-15	548-552	ever	_	_	_	_	_	_	
 6-16	553-557	come	_	_	_	_	_	_	
@@ -138,11 +138,11 @@
 6-18	563-564	.	_	_	_	_	_	_	
 
 #Text=I shall be telling this with a sigh Somewhere ages and ages hence : Two roads diverged in a wood , and I — I took the one less travelled by , And that has made all the difference .
-7-1	565-566	I	person[29]	giv[29]	nonsal[29]	_	coref	6-23[37_29]	
+7-1	565-566	I	person[29]	giv[29]	nonsal[29]	_	coref	7-23[37_29]	
 7-2	567-572	shall	_	_	_	_	_	_	
 7-3	573-575	be	_	_	_	_	_	_	
 7-4	576-583	telling	_	_	_	_	_	_	
-7-5	584-588	this	abstract[30]	giv[30]	nonsal[30]	_	coref	6-25[38_30]	
+7-5	584-588	this	abstract[30]	giv[30]	nonsal[30]	_	coref	7-25[38_30]	
 7-6	589-593	with	_	_	_	_	_	_	
 7-7	594-595	a	abstract[31]	new[31]	nonsal[31]	_	_	_	
 7-8	596-600	sigh	abstract[31]	new[31]	nonsal[31]	_	_	_	
@@ -160,9 +160,9 @@
 7-20	657-661	wood	place[36]	giv[36]	nonsal[36]	_	_	_	
 7-21	662-663	,	_	_	_	_	_	_	
 7-22	664-667	and	_	_	_	_	_	_	
-7-23	668-669	I	person[37]	giv[37]	nonsal[37]	_	coref	6-25[39_37]	
+7-23	668-669	I	person[37]	giv[37]	nonsal[37]	_	coref	7-25[39_37]	
 7-24	670-671	—	_	_	_	_	_	_	
-7-25	672-673	I	abstract[38]|person[39]	giv[38]|giv[39]	nonsal[38]|nonsal[39]	_	coref	6-34[41_38]	
+7-25	672-673	I	abstract[38]|person[39]	giv[38]|giv[39]	nonsal[38]|nonsal[39]	_	coref	7-34[41_38]	
 7-26	674-678	took	abstract[38]	giv[38]	nonsal[38]	_	_	_	
 7-27	679-682	the	abstract[38]|place[40]	giv[38]|giv[40]	nonsal[38]|nonsal[40]	_	_	_	
 7-28	683-686	one	abstract[38]|place[40]	giv[38]|giv[40]	nonsal[38]|nonsal[40]	_	_	_	

@@ -149,9 +149,7 @@
       (VBZ is)
       (ADJP
         (JJ equal)
-        (PP
-          (IN to)
-          (NP (QP (CD 2) (SYM ⋅)) (JJR AC) (SYM ⋅) (NN CB)))))
+        (PP (IN to) (NP (QP (CD 2) (SYM ⋅)) (NN AC) (SYM ⋅) (NN CB)))))
     (. .)))
 
 (ROOT
@@ -278,7 +276,7 @@
         (NP
           (NP
             (NP (NNP Proposition) (CD 15))
-            (PP (IN of) (NP (NNP Book) (NNP X))))
+            (PP (IN of) (NP (NNP Book) (CD X))))
           (: :)
           (NP
             (NP (NN Commensurability))
@@ -296,11 +294,11 @@
         (NP
           (NP
             (NP (NNP Proposition) (CD 23))
-            (PP (IN of) (NP (NNP Book) (NNP X))))
+            (PP (IN of) (NP (NNP Book) (CD X))))
           (: :)
           (NP
             (NP (JJ Straight) (NN Line))
-            (ADJP (NN Commensurable) (PP (IN with) (NP (JJ Medial)))))))
+            (ADJP (JJ Commensurable) (PP (IN with) (NP (JJ Medial)))))))
       (NP (JJ Straight) (NN Line))
       (VP
         (VP (VBZ is) (ADJP (JJ Medial)))
@@ -348,11 +346,11 @@
       (NP
         (NP
           (NP (NNP Proposition) (CD 22))
-          (PP (IN of) (NP (NNP Book) (NNP X))))
+          (PP (IN of) (NP (NNP Book) (CD X))))
         (: :)
         (NP
-          (JJ Square)
-          (PP (IN on) (NP (NNP Medial) (NNP Straight) (NNP Line))))))
+          (NP (NN Square))
+          (PP (IN on) (NP (JJ Medial) (JJ Straight) (NN Line))))))
     (: :)
     (NP (NN MD))
     (VP
@@ -442,7 +440,7 @@
       (NP
         (NP
           (NP (NNP Proposition) (CD 11))
-          (PP (IN of) (NP (NNP Book) (NNP X))))
+          (PP (IN of) (NP (NNP Book) (CD X))))
         (: :)
         (NP
           (NP (NN Commensurability))
@@ -460,48 +458,49 @@
         (PP (IN with) (NP (NN AC) (SYM ⋅) (NN CB)))))
     (. .)))
 
-(ROOT (FRAG (RB Hence) (PP (IN by)) (: :)))
-
 (ROOT
-  (FRAG
-    (NP
-      (NP
-        (NP (NNP Proposition) (CD 12))
-        (PP (IN of) (NP (NNP Book) (NNP X))))
+  (S
+    (ADVP (RB Hence))
+    (PP
+      (IN by)
       (: :)
-      (S
-        (NP (NN Commensurability))
-        (VP (VBZ is) (NP (JJ Transitive) (NN Relation)))))
-    (CC and)
-    (: :)
-    (S
       (NP
-        (S
-          (NP (NNP Proposition) (CD 13))
-          (PP (IN of) (NP (NNP Book) (NNP X))))
-        (: :)
-        (S
-          (NP (JJ Commensurable) (NNS Magnitudes))
-          (VP
-            (VBP are)
-            (ADJP
-              (JJ Incommensurable)
-              (PP (IN with) (NP (JJ Same) (NN Magnitude)))))))
-      (NP (PRP it))
-      (VP
-        (VBZ follows)
-        (SBAR
-          (IN that)
+        (NP
+          (NP
+            (NP (NNP Proposition) (CD 12))
+            (PP (IN of) (NP (NNP Book) (CD X))))
           (: :)
           (S
-            (NP (NN AC2) (SYM +) (NN CB2))
+            (NP (NN Commensurability))
+            (VP (VBZ is) (NP (JJ Transitive) (NN Relation)))))
+        (CC and)
+        (: :)
+        (NP
+          (NP (NNP Proposition) (CD 13))
+          (PP (IN of) (NP (NNP Book) (CD X)))
+          (: :)
+          (S
+            (NP (JJ Commensurable) (NNS Magnitudes))
             (VP
-              (VBZ is)
+              (VBP are)
               (ADJP
-                (JJ incommensurable)
-                (PP
-                  (IN with)
-                  (NP (CD 2) (SYM ⋅) (NN AC) (: ⋅) (NN CB)))))))))
+                (JJ Incommensurable)
+                (PP (IN with) (NP (JJ Same) (NN Magnitude)))))))))
+    (NP (PRP it))
+    (VP
+      (VBZ follows)
+      (SBAR
+        (IN that)
+        (: :)
+        (S
+          (NP (NN AC2) (SYM +) (NN CB2))
+          (VP
+            (VBZ is)
+            (ADJP
+              (JJ incommensurable)
+              (PP
+                (IN with)
+                (NP (QP (CD 2) (SYM ⋅)) (NN AC) (SYM ⋅) (NN CB))))))))
     (. .)))
 
 (ROOT
@@ -623,14 +622,14 @@
       (IN to)
       (NP
         (NP (NNP Proposition) (CD 60))
-        (PP (IN of) (NP (NNP Book) (NNP X)))))
+        (PP (IN of) (NP (NNP Book) (CD X)))))
     (: :)
     (NP
       (NP (NN Square))
-      (PP (IN on) (NP (NN Binomial) (JJ Straight) (NN Line)))
+      (PP (IN on) (NP (JJ Binomial) (JJ Straight) (NN Line)))
       (VP
         (VBN applied)
-        (PP (IN to) (NP (NN Rational) (JJ Straight) (NN Line)))))
+        (PP (IN to) (NP (JJ Rational) (JJ Straight) (NN Line)))))
     (: :)
     (NP
       (NP (NN AC2) (SYM +) (NN CB2))
@@ -649,7 +648,7 @@
       (IN From)
       (NP
         (NP (NNP Proposition) (CD 1))
-        (PP (IN of) (NP (NNP Book) (NNP VI)))))
+        (PP (IN of) (NP (NNP Book) (CD VI)))))
     (: :)
     (NP
       (NP
@@ -694,20 +693,20 @@
         (NP
           (NP
             (NP (NNP Proposition) (CD 1))
-            (PP (IN of) (NP (NNP Book) (NNP VI))))
+            (PP (IN of) (NP (NNP Book) (CD VI))))
           (: :)
           (NP
             (NP (NNS Areas))
             (PP
               (IN of)
-              (NP (NNPS Triangles) (CC and) (NNS Parallelograms)))
+              (NP (NNS Triangles) (CC and) (NNS Parallelograms)))
             (ADJP (JJ Proportional) (PP (IN to) (NP (NN Base))))))
         (CC and)
         (: :)
         (NP
           (NP
             (NP (NN Proposition) (CD 11))
-            (PP (IN of) (NP (NNP Book) (NNP X))))
+            (PP (IN of) (NP (NNP Book) (CD X))))
           (: :)
           (NP
             (NP (NN Commensurability))
@@ -749,14 +748,14 @@
         (NP
           (NP
             (NP (NNP Proposition) (CD 17))
-            (PP (IN of) (NP (NNP Book) (NNP X))))
+            (PP (IN of) (NP (NNP Book) (CD X))))
           (: :)
           (NP
             (NP (NN Condition))
             (PP
               (IN for)
               (NP
-                (NP (NNP Commensurability))
+                (NP (NN Commensurability))
                 (PP
                   (IN of)
                   (NP
@@ -797,7 +796,7 @@
     (NP (NN DG))
     (VP
       (VBZ is)
-      (NP (DT a) (JJ third) (NN binomial) (JJ straight) (NN line)))
+      (NP (DT a) (JJ third) (JJ binomial) (JJ straight) (NN line)))
     (. .)
     (SYM ■)))
 

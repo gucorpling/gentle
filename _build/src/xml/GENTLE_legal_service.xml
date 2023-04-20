@@ -272,8 +272,8 @@ the	DT	the
 end	NN	end
 of	IN	of
 the	DT	the
-Initial	JJ	Initial
-Term	NP	Term
+Initial	JJ	initial
+Term	NN	term
 (	(	(
 as	IN	as
 defined	VVN	define
@@ -1030,7 +1030,7 @@ Fee	NP	Fee
 </item>
 <item n="4">
 <s type="decl">
-iv)	LS	Iv)
+iv)	LS	iv)
 Customer	NN	customer
 authorizes	VVZ	authorize
 the	DT	the
@@ -1164,8 +1164,8 @@ Offering	NN	offering
 the	DT	the
 <q>
 "	``	''
-Initial	JJ	Initial
-Term	NP	Term
+Initial	JJ	initial
+Term	NN	term
 "	''	''
 </q>
 )	)	)
@@ -1394,7 +1394,7 @@ business	NN	business
 </item>
 <item n="4">
 <s type="decl">
-iv)	LS	Iv)
+iv)	LS	iv)
 If	IN	if
 any	DT	any
 change	NN	change

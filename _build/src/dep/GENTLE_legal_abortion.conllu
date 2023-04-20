@@ -276,7 +276,7 @@
 1	Held	_	_	_	_	0	root	_	_
 2	:	_	_	_	_	1	punct	_	_
 
-1	1.	_	_	_	_	26	root	_	_
+1	1.	_	_	_	_	26	dep	_	_
 2	While	_	_	_	_	6	mark	_	_
 3	28	_	_	_	_	4	nummod	_	_
 4	U.S.C.	_	_	_	_	5	compound	_	_
@@ -331,7 +331,7 @@
 53	are	_	_	_	_	55	cop	_	_
 54	necessarily	_	_	_	_	55	advmod	_	_
 55	identical	_	_	_	_	26	conj	_	_
-56	.	_	_	_	_	26	_	_	_
+56	.	_	_	_	_	26	punct	_	_
 
 1	P.	_	_	_	_	0	root	_	_
 2	123	_	_	_	_	1	nmod	_	_
@@ -540,7 +540,7 @@
 9	involved	_	_	_	_	8	acl	_	_
 10	here	_	_	_	_	9	advmod	_	_
 11	,	_	_	_	_	5	punct	_	_
-12	that	_	_	_	_	39	nsubj	_	_
+12	that	_	_	_	_	13	nsubj	_	_
 13	except	_	_	_	_	5	acl:relcl	_	_
 14	from	_	_	_	_	15	case	_	_
 15	criminality	_	_	_	_	13	obl	_	_
@@ -820,7 +820,7 @@
 8	165	_	_	_	_	6	nmod	_	_
 9	.	_	_	_	_	1	punct	_	_
 
-1	4.	_	_	_	_	5	root	_	_
+1	4.	_	_	_	_	5	dep	_	_
 2	The	_	_	_	_	3	det	_	_
 3	State	_	_	_	_	5	nsubj	_	_
 4	may	_	_	_	_	5	aux	_	_

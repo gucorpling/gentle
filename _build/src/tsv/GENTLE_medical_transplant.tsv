@@ -526,7 +526,7 @@
 #Text=CBC from today shows white count of 9.6 with a normal differential , ANC of 7400 , hemoglobin 8.9 , hematocrit 26.5 with an MCV of 109 , and platelet count of 220,000 .
 43-1	2519-2522	CBC	abstract[151]|abstract[152]	new[151]|new[152]	nonsal[151]|nonsal[152]	Complete_blood_count[152]	coref	48-13[185_152]	
 43-2	2523-2527	from	abstract[151]	new[151]	nonsal[151]	_	_	_	
-43-3	2528-2533	today	abstract[151]|time[153]	new[151]|new[153]	nonsal[151]|nonsal[153]	_	coref	46-13[177_153]	
+43-3	2528-2533	today	abstract[151]|time[153]	new[151]|acc[153]	nonsal[151]|nonsal[153]	_	coref	46-13[177_153]	
 43-4	2534-2539	shows	_	_	_	_	_	_	
 43-5	2540-2545	white	abstract[154]	new[154]	nonsal[154]	_	coref	43-8[155_154]	
 43-6	2546-2551	count	abstract[154]	new[154]	nonsal[154]	_	_	_	
@@ -590,7 +590,7 @@
 46-10	2819-2824	cycle	abstract[174]	new[174]	nonsal[174]	_	_	_	
 46-11	2825-2827	of	abstract[174]	new[174]	nonsal[174]	_	_	_	
 46-12	2828-2840	chemotherapy	abstract[174]|event[176]	new[174]|new[176]	nonsal[174]|nonsal[176]	_	coref	50-9[192_176]	
-46-13	2841-2846	today	abstract[174]|time[177]	new[174]|giv[177]	nonsal[174]|nonsal[177]	_	coref	53-4[200_177]	
+46-13	2841-2846	today	time[177]	giv[177]	nonsal[177]	_	coref	53-4[200_177]	
 46-14	2847-2848	.	_	_	_	_	_	_	
 
 #Text=PET scan has been ordered to be done within 2 weeks .
@@ -616,9 +616,9 @@
 48-6	2923-2926	for	_	_	_	_	_	_	
 48-7	2927-2930	the	event[183]	giv[183]	nonsal[183]	_	_	_	
 48-8	2931-2936	visit	event[183]	giv[183]	nonsal[183]	_	_	_	
-48-9	2937-2939	in	_	_	_	_	_	_	
-48-10	2940-2941	3	time[184]	new[184]	nonsal[184]	_	_	_	
-48-11	2942-2947	weeks	time[184]	new[184]	nonsal[184]	_	_	_	
+48-9	2937-2939	in	event[183]	giv[183]	nonsal[183]	_	_	_	
+48-10	2940-2941	3	event[183]|time[184]	giv[183]|new[184]	nonsal[183]|nonsal[184]	_	_	_	
+48-11	2942-2947	weeks	event[183]|time[184]	giv[183]|new[184]	nonsal[183]|nonsal[184]	_	_	_	
 48-12	2948-2952	with	_	_	_	_	_	_	
 48-13	2953-2956	CBC	abstract[185]	giv[185]	nonsal[185]	Complete_blood_count[185]	_	_	
 48-14	2957-2958	,	_	_	_	_	_	_	

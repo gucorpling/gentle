@@ -6,9 +6,9 @@ CSCI-4470-01	NP	CSCI-4470-01
 </head>
 <head>
 <s type="frag">
-Open	JJ	Open
-Source	NN	source
-Software	NN	software
+Open	NP	Open
+Source	NP	Source
+Software	NP	Software
 Spring	NN	spring
 Semester	NN	semester
 <date when="2022">
@@ -781,10 +781,10 @@ in	IN	in
 generating	VVG	generate
 understanding	NN	understand
 of	IN	of
-Open	JJ	Open
+Open	NP	Open
 Source	NP	Source
 Software	NP	Software
-Tools	NPS	Tools
+Tools	NPS	Tool
 and	CC	and
 Community	NP	Community
 </s>
@@ -811,10 +811,10 @@ Effectively	RB	effectively
 establish	VV	establish
 and	CC	and
 use	VV	use
-Testing	NN	Testing
+Testing	NN	testing
 and	CC	and
-Version	NP	Version
-Control	NP	Control
+Version	NN	version
+Control	NN	control
 in	IN	in
 an	DT	a
 open	JJ	open
@@ -829,7 +829,7 @@ Demonstrate	VV	demonstrate
 competence	NN	competence
 with	IN	with
 Common	JJ	Common
-Open	JJ	Open
+Open	NP	Open
 Source	NP	Source
 Software	NP	Software
 Stacks	NPS	Stack
@@ -918,7 +918,7 @@ Development	NN	development
 3.	LS	3.
 Software	NN	software
 Development	NNS	development
-Tools	NPS	tool
+Tools	NNS	tool
 and	CC	and
 Paradigms	NNS	paradigm
 </s>
@@ -981,8 +981,8 @@ Topics	NNS	topic
 of	IN	of
 interest	NN	interest
 (	(	(
-Open	JJ	open
-Hardware	NN	hardware
+Open	NP	Open
+Hardware	NP	Hardware
 ,	,	,
 Tensor	NP	Tensor
 Flow	NP	Flow
@@ -1081,13 +1081,15 @@ July	NP	July
 <s type="frag">
 Quiz	NP	Quiz
 2	CD	2
+<date when="2022-08-09">
 9th	JJ	9th
 August	NP	August
+</date>
 </s>
 </item>
 </list>
 <head>
-<s type="frag">
+<s type="other">
 Open	JJ	open
 Source	NN	source
 Paper	NN	paper
@@ -1097,8 +1099,10 @@ Due	JJ	due
 <list type="unordered">
 <item>
 <s type="frag">
+<date when="2022-06-24">
 24th	JJ	24th
 June	NP	June
+</date>
 </s>
 </item>
 </list>
@@ -1622,7 +1626,7 @@ grade	NN	grade
 )	)	)
 penalty	NN	penalty
 and	CC	and
-(2)	LS	2
+(2)	LS	(2)
 reporting	VVG	report
 to	IN	to
 the	DT	the

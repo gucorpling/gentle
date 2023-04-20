@@ -96,10 +96,10 @@ From	IN	from
 Proposition	NP	Proposition
 4	CD	4
 of	IN	of
-Book	NP	book
+Book	NP	Book
 II	CD	II
 :	:	:
-Square	NN	Square
+Square	NN	square
 of	IN	of
 Sum	NN	sum
 </ref>
@@ -306,14 +306,14 @@ From	IN	from
 Proposition	NP	Proposition
 15	CD	15
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
 Commensurability	NN	commensurability
 of	IN	of
 Sum	NN	sum
 of	IN	of
-Commensurable	JJ	Commensurable
+Commensurable	JJ	commensurable
 Magnitudes	NNS	magnitude
 </ref>
 and	CC	and
@@ -324,18 +324,18 @@ to	IN	to
 Proposition	NP	Proposition
 23	CD	23
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
 Straight	JJ	straight
-Line	NN	Line
-Commensurable	NN	commensurable
+Line	NN	line
+Commensurable	JJ	commensurable
 with	IN	with
-Medial	JJ	Medial
+Medial	JJ	medial
 Straight	JJ	straight
-Line	NN	Line
+Line	NN	line
 is	VBZ	be
-Medial	JJ	Medial
+Medial	JJ	medial
 </ref>
 it	PP	it
 follows	VVZ	follow
@@ -373,14 +373,14 @@ from	IN	from
 Proposition	NP	Proposition
 22	CD	22
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
-Square	NN	Square
+Square	NN	square
 on	IN	on
-Medial	NP	Medial
-Straight	NP	straight
-Line	NP	Line
+Medial	JJ	medial
+Straight	JJ	straight
+Line	NN	line
 </ref>
 :	:	:
 MD	NN	MD
@@ -468,7 +468,7 @@ with	IN	with
 CB	NN	CB
 .	SENT	.
 </s>
-<s type="frag">
+<s type="decl">
 Also	RB	also
 :	:	:
 AC	NN	AC
@@ -488,14 +488,14 @@ by	IN	by
 Proposition	NP	Proposition
 11	CD	11
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
 Commensurability	NN	commensurability
 of	IN	of
 Elements	NNS	element
 of	IN	of
-Proportional	JJ	Proportional
+Proportional	JJ	proportional
 Magnitudes	NNS	magnitude
 </ref>
 :	:	:
@@ -510,22 +510,20 @@ AC	NN	AC
 CB	NN	CB
 .	SENT	.
 </s>
-<s type="other">
+<s type="decl">
 Hence	RB	hence
 by	IN	by
 :	:	:
-</s>
-<s type="decl">
 <ref target="https://proofwiki.org/wiki/Commensurability_is_Transitive_Relation">
 Proposition	NP	Proposition
 12	CD	12
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
 Commensurability	NN	commensurability
 is	VBZ	be
-Transitive	JJ	Transitive
+Transitive	JJ	transitive
 Relation	NN	relation
 </ref>
 and	CC	and
@@ -534,13 +532,13 @@ and	CC	and
 Proposition	NP	Proposition
 13	CD	13
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
-Commensurable	JJ	Commensurable
+Commensurable	JJ	commensurable
 Magnitudes	NNS	magnitude
 are	VBP	be
-Incommensurable	JJ	Incommensurable
+Incommensurable	JJ	incommensurable
 with	IN	with
 Same	JJ	same
 Magnitude	NN	magnitude
@@ -560,7 +558,7 @@ with	IN	with
 2	CD	2
 ⋅	SYM	⋅
 AC	NN	AC
-⋅	:	⋅
+⋅	SYM	⋅
 CB	NN	CB
 .	SENT	.
 </s>
@@ -585,17 +583,17 @@ from	IN	from
 Proposition	NP	Proposition
 1	CD	1
 of	IN	of
-Book	NP	book
+Book	NP	Book
 VI	CD	VI
 :	:	:
 Areas	NNS	area
 of	IN	of
 Triangles	NNS	triangle
 and	CC	and
-Parallelograms	NNS	Parallelogram
-Proportional	JJ	Proportional
+Parallelograms	NNS	parallelogram
+Proportional	JJ	proportional
 to	IN	to
-Base	NN	Base
+Base	NN	base
 </ref>
 and	CC	and
 :	:	:
@@ -603,14 +601,14 @@ and	CC	and
 Proposition	NP	Proposition
 11	CD	11
 of	IN	of
-Book	NP	book
+Book	NP	Book
 X	CD	X
 :	:	:
 Commensurability	NN	commensurability
 of	IN	of
 Elements	NNS	element
 of	IN	of
-Proportional	JJ	Proportional
+Proportional	JJ	proportional
 Magnitudes	NNS	magnitude
 </ref>
 it	PP	it
@@ -692,25 +690,25 @@ to	IN	to
 Proposition	NP	Proposition
 60	CD	60
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
-Square	NN	Square
+Square	NN	square
 on	IN	on
-Binomial	NN	Binomial
+Binomial	JJ	binomial
 Straight	JJ	straight
-Line	NN	Line
+Line	NN	line
 applied	VVN	apply
 to	IN	to
-Rational	JJ	Rational
+Rational	JJ	rational
 Straight	JJ	straight
-Line	NN	Line
+Line	NN	line
 </ref>
 :	:	:
 AC2	NN	AC2
 +	SYM	+
 CB2	NN	CB2
-&amp;gt;	SYM	>
+&gt;	SYM	&gt;
 2	CD	2
 ⋅	SYM	⋅
 AC	NN	AC
@@ -728,17 +726,17 @@ From	IN	from
 Proposition	NP	Proposition
 1	CD	1
 of	IN	of
-Book	NP	book
-VI	NP	VI
+Book	NP	Book
+VI	CD	VI
 :	:	:
 Areas	NNS	area
 of	IN	of
 Triangles	NNS	triangle
 and	CC	and
-Parallelograms	NNS	Parallelogram
-Proportional	JJ	Proportional
+Parallelograms	NNS	parallelogram
+Proportional	JJ	proportional
 to	IN	to
-Base	NN	Base
+Base	NN	base
 </ref>
 :	:	:
 DM	NN	DM
@@ -776,17 +774,17 @@ from	IN	from
 Proposition	NP	Proposition
 1	CD	1
 of	IN	of
-Book	NP	book
-VI	NP	VI
+Book	NP	Book
+VI	CD	VI
 :	:	:
 Areas	NNS	area
 of	IN	of
-Triangles	NPS	Triangle
+Triangles	NNS	triangle
 and	CC	and
-Parallelograms	NNS	Parallelogram
-Proportional	JJ	Proportional
+Parallelograms	NNS	parallelogram
+Proportional	JJ	proportional
 to	IN	to
-Base	NN	Base
+Base	NN	base
 </ref>
 and	CC	and
 :	:	:
@@ -794,14 +792,14 @@ and	CC	and
 Proposition	NN	Proposition
 11	CD	11
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
 Commensurability	NN	commensurability
 of	IN	of
 Elements	NNS	element
 of	IN	of
-Proportional	JJ	Proportional
+Proportional	JJ	proportional
 Magnitudes	NNS	magnitude
 </ref>
 it	PP	it
@@ -837,16 +835,16 @@ to	IN	to
 Proposition	NP	Proposition
 17	CD	17
 of	IN	of
-Book	NP	book
-X	NP	X
+Book	NP	Book
+X	CD	X
 :	:	:
 Condition	NN	condition
 for	IN	for
-Commensurability	NP	Commensurability
+Commensurability	NN	commensurability
 of	IN	of
 Roots	NNS	root
 of	IN	of
-Quadratic	JJ	Quadratic
+Quadratic	JJ	quadratic
 Equation	NN	equation
 </ref>
 :	:	:
@@ -901,7 +899,7 @@ is	VBZ	be
 a	DT	a
 <ref target="https://proofwiki.org/wiki/Definition:Third_Binomial">
 third	JJ	third
-binomial	NN	binomial
+binomial	JJ	binomial
 </ref>
 <ref target="https://proofwiki.org/wiki/Definition:Line_Segment">
 straight	JJ	straight

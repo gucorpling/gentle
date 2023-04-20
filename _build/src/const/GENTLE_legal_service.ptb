@@ -277,7 +277,7 @@
                       (IN of)
                       (NP
                         (NP
-                          (NP (DT the) (JJ Initial) (NNP Term))
+                          (NP (DT the) (JJ Initial) (NN Term))
                           (PRN
                             (-LRB- -LRB-)
                             (SBAR
@@ -1139,7 +1139,7 @@
               (NP (NP (DT the) (NNP Company) (POS 's)) (NN Offering))))
           (PRN
             (-LRB- -LRB-)
-            (NP (DT the) (`` ") (JJ Initial) (NNP Term) ('' "))
+            (NP (DT the) (`` ") (JJ Initial) (NN Term) ('' "))
             (-RRB- -RRB-))))
       (SBAR
         (IN unless)
@@ -1513,7 +1513,7 @@
     (PP
       (IN Upon)
       (NP
-        (NP (DT a) (ADJP (NN force) (NN majeure)) (NN event))
+        (NP (DT a) (ADJP (NN force) (JJ majeure)) (NN event))
         (SBAR
           (WHNP (WDT that))
           (S
@@ -1550,7 +1550,7 @@
     (NP (NNP Inc.))))
 
 (ROOT
-  (PP (IN By) (: :) (NNP /s/) (NP (NNP Dawn) (NNP Dickson)) (, ,)))
+  (PP (IN By) (: :) (LS /s/) (NP (NNP Dawn) (NNP Dickson)) (, ,)))
 
 (ROOT (NP (NN Customer) (: :)))
 
@@ -1567,10 +1567,10 @@
 
 (ROOT
   (NP
-    (X (UH /s/))
+    (X (LS /s/))
     (NP
       (NP (NNP Howard) (NNP Marks))
       (NNP Howard)
-      (NNPS Marks)
-      (NNP CEO))))
+      (NNP Marks)
+      (NN CEO))))
 

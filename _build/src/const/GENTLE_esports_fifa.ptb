@@ -563,7 +563,7 @@
                           (CC and)
                           (VP
                             (VB go)
-                            (ADVP (RB all) (HYPH -) (RP out)))
+                            (ADVP (RB all) (HYPH -) (JJ out)))
                           (CC and)
                           (VP
                             (VB win)
@@ -752,11 +752,7 @@
   (SBARQ
     (WHADVP (WRB How))
     (: ...)
-    (WHADVP
-      (WDT what)
-      (JJ sorry)
-      (WHNP (WP what))
-      (WHADVP (WRB how)))
+    (WHADVP (WP what) (JJ sorry) (WHNP (WP what)) (WHADVP (WRB how)))
     (SQ
       (VBZ is)
       (NP (EX there))

@@ -70,37 +70,36 @@
     (. ;)))
 
 (ROOT
-  (S
-    (SBAR
-      (IN Though)
-      (S
-        (PP (IN as) (PP (IN for) (NP (DT that))))
-        (NP (NP (DT the) (NN passing)) (ADVP (RB there)))
-        (VP
-          (VBD Had)
-          (VP
-            (VBN worn)
-            (NP (PRP them))
-            (ADVP (RB really))
-            (NP (RB about) (DT the) (JJ same))))))
-    (, ,)
-    (CC And)
+  (SBAR
+    (IN Though)
     (S
-      (NP (DT both))
-      (NP (DT that) (NN morning))
+      (PP (IN as) (PP (IN for) (NP (DT that))))
+      (NP (NP (DT the) (NN passing)) (ADVP (RB there)))
       (VP
-        (ADVP (RB equally))
-        (VBD lay)
-        (PP
-          (IN In)
-          (NP
-            (NP (NNS leaves))
-            (SBAR
-              (S
-                (NP (DT no) (NN step))
-                (VP
-                  (VBD had)
-                  (VP (VBN trodden) (S (ADJP (JJ black)))))))))))
+        (VBD Had)
+        (VP
+          (VBN worn)
+          (NP (PRP them))
+          (ADVP (RB really))
+          (NP (RB about) (DT the) (JJ same)))))
+    (, ,)))
+
+(ROOT
+  (S
+    (CC And)
+    (NP (DT both))
+    (NP (DT that) (NN morning))
+    (VP
+      (ADVP (RB equally))
+      (VBD lay)
+      (PP
+        (IN In)
+        (NP
+          (NP (NNS leaves))
+          (SBAR
+            (S
+              (NP (DT no) (NN step))
+              (VP (VBD had) (VP (VBN trodden) (S (ADJP (JJ black))))))))))
     (. .)))
 
 (ROOT

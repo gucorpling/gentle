@@ -568,7 +568,7 @@
 56-1	2793-2796	The	abstract[168]	new[168]	nonsal[168]	_	_	_	
 56-2	2797-2801	goal	abstract[168]	new[168]	nonsal[168]	_	_	_	
 56-3	2802-2804	of	abstract[168]	new[168]	nonsal[168]	_	_	_	
-56-4	2805-2809	this	abstract[168]|abstract[169]	new[168]|giv[169]	nonsal[168]|nonsal[169]	_	bridge|coref	56-25[177_169]|57-3[178_169]	
+56-4	2805-2809	this	abstract[168]|abstract[169]	new[168]|giv[169]	nonsal[168]|nonsal[169]	_	coref|bridge	57-3[178_169]|56-25[177_169]	
 56-5	2810-2816	course	abstract[168]|abstract[169]	new[168]|giv[169]	nonsal[168]|nonsal[169]	_	_	_	
 56-6	2817-2819	is	_	_	_	_	_	_	
 56-7	2820-2822	to	_	_	_	_	_	_	
@@ -815,7 +815,7 @@
 85-3	4000-4001	(	_	_	_	_	_	_	
 85-4	4002-4006	3.75	abstract[250]	new[250]	nonsal[250]	_	_	_	
 85-5	4007-4013	points	abstract[250]	new[250]	nonsal[250]	_	_	_	
-85-6	4014-4018	each	abstract[251]	giv[251]	nonsal[251]	_	bridge|coref	85-9[252_251]|122-1[349_251]	
+85-6	4014-4018	each	event[251]	giv[251]	nonsal[251]	_	coref|bridge	122-1[349_251]|85-9[252_251]	
 85-7	4019-4020	/	_	_	_	_	_	_	
 85-8	4021-4025	drop	_	_	_	_	_	_	
 85-9	4026-4032	lowest	abstract[252]	acc[252]	nonsal[252]	_	_	_	
@@ -1132,7 +1132,7 @@
 
 #Text=In this course , collaboration in your project group ( 3 or 4 students ) is allowed , but should not be abused .
 120-1	5344-5346	In	_	_	_	_	_	_	
-120-2	5347-5351	this	abstract[343]	new[343]	nonsal[343]	_	bridge|coref	123-15[355_343]|128-2[397_343]	
+120-2	5347-5351	this	abstract[343]	new[343]	nonsal[343]	_	coref|bridge	128-2[397_343]|123-15[355_343]	
 120-3	5352-5358	course	abstract[343]	new[343]	nonsal[343]	_	_	_	
 120-4	5359-5360	,	_	_	_	_	_	_	
 120-5	5361-5374	collaboration	abstract[344]	new[344]	nonsal[344]	_	_	_	
@@ -1164,7 +1164,7 @@
 121-5	5477-5478	.	_	_	_	_	_	_	
 
 #Text=Labs and Quizzes should be solved and written by individuals alone .
-122-1	5479-5483	Labs	abstract[349]	new[349]	nonsal[349]	_	_	_	
+122-1	5479-5483	Labs	event[349]	new[349]	nonsal[349]	_	_	_	
 122-2	5484-5487	and	_	_	_	_	_	_	
 122-3	5488-5495	Quizzes	abstract[350]	new[350]	nonsal[350]	_	_	_	
 122-4	5496-5502	should	_	_	_	_	_	_	

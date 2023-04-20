@@ -27,14 +27,14 @@
             (NP (DT the) (NNP Northern) (NNP District))
             (PP (IN of) (NP (NNP Texas)))))))))
 
-(ROOT (NP (NN No.) (CD 70) (SYM -) (NP (CD 18))))
+(ROOT (NP (NN No.) (CD 70) (HYPH -) (NP (CD 18))))
 
 (ROOT
   (FRAG
     (S (VP (VBN Argued)))
     (: :)
     (NP (NNP December) (CD 13) (, ,) (CD 1971))
-    (. ---)))
+    (: ---)))
 
 (ROOT
   (NP
@@ -197,7 +197,7 @@
             (VP
               (VBD had)
               (NP
-                (VBG standing)
+                (NN standing)
                 (SBAR (S (VP (TO to) (VP (VB sue)))))))
             (CC and)
             (VP
@@ -215,7 +215,7 @@
           (S
             (NP
               (JJ declaratory)
-              (PRN (, ,) (IN though) (RB not) (JJ injunctive) (, ,))
+              (PRN (, ,) (CC though) (RB not) (JJ injunctive) (, ,))
               (NN relief))
             (VP (VBD was) (VP (VBN warranted)))))))
     (, ,)
@@ -352,16 +352,14 @@
       (NP (NNP Roe))
       (VP
         (VBZ has)
-        (NP
-          (NP (VBG standing))
-          (SBAR (S (VP (TO to) (VP (VB sue))))))))
+        (NP (NP (NN standing)) (SBAR (S (VP (TO to) (VP (VB sue))))))))
     (: ;)
     (S
       (NP (NP (DT the) (NNPS Does)) (CC and) (NP (NNP Hallford)))
       (VP (VBP do) (RB not)))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 123) (SYM -) (CD 129) (. .)))
+(ROOT (NP (NNS Pp.) (CD 123) (SYM -) (CD 129) (. .)))
 
 (ROOT
   (S
@@ -430,7 +428,7 @@
                           (VP (VBZ is) (VP (VBN initiated))))))))))))))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 124) (SYM -) (CD 125) (. .)))
+(ROOT (NP (NNS Pp.) (CD 124) (SYM -) (CD 125) (. .)))
 
 (ROOT
   (S
@@ -493,7 +491,7 @@
     (NP (CD 401) (NNP U.S.) (CD 66))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 125) (SYM -) (CD 127) (. .)))
+(ROOT (NP (NNS Pp.) (CD 125) (SYM -) (CD 127) (. .)))
 
 (ROOT
   (S
@@ -511,7 +509,7 @@
             (, ,)
             (SBAR
               (WHNP
-                (NP (DT any) (CD one) (CC or) (JJR more))
+                (NP (DT any) (NN one) (CC or) (JJR more))
                 (WHPP (IN of) (WHNP (WDT which))))
               (S (VP (MD may) (RB not) (VP (VB occur))))))))
       (, ,))
@@ -533,7 +531,7 @@
                 (NN controversy)))))))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 127) (SYM -) (CD 129) (. .)))
+(ROOT (NP (NNS Pp.) (CD 127) (SYM -) (CD 129) (. .)))
 
 (ROOT
   (S
@@ -608,7 +606,10 @@
       (IN Though)
       (S
         (NP (DT the) (NNP State))
-        (VP (MD cannot) (VP (VB override) (NP (DT that) (NN right))))))
+        (VP
+          (MD can)
+          (RB not)
+          (VP (VB override) (NP (DT that) (NN right))))))
     (, ,)
     (NP (PRP it))
     (VP
@@ -660,7 +661,7 @@
                               (PP (IN to) (NP (NN term))))))))))))))))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 147) (SYM -) (CD 164) (. .)))
+(ROOT (NP (NNS Pp.) (CD 147) (SYM -) (CD 164) (. .)))
 
 (ROOT
   (S
@@ -699,11 +700,11 @@
                   (NN physician))))))))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 163) (, ,) (CD 164) (. .)))
+(ROOT (NP (NNS Pp.) (CD 163) (, ,) (CD 164) (. .)))
 
 (ROOT
   (S
-    (`` -LRB-b-RRB-)
+    (LS -LRB-b-RRB-)
     (PP
       (IN For)
       (NP
@@ -754,7 +755,7 @@
                     (PP (IN to) (NP (JJ maternal) (NN health)))))))))))
     (. .)))
 
-(ROOT (NP (NN Pp.) (CD 163) (, ,) (CD 164) (. .)))
+(ROOT (NP (NNS Pp.) (CD 163) (, ,) (CD 164) (. .)))
 
 (ROOT
   (S
@@ -814,7 +815,7 @@
 
 (ROOT
   (NP
-    (NP (NN Pp.) (CD 163) (SYM -) (CD 164))
+    (NP (NNS Pp.) (CD 163) (SYM -) (CD 164))
     (: ;)
     (NP (CD 164) (SYM -) (CD 165))
     (. .)))

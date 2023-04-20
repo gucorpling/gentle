@@ -715,7 +715,7 @@
     (VP
       (VBP is)
       (ADVP (RB just))
-      (VP (VBG hanging) (PRT (RB out)) (ADVP (RB here))))
+      (VP (VBG hanging) (PRT (RP out)) (ADVP (RB here))))
     (. .)))
 
 (ROOT
@@ -805,7 +805,7 @@
       (VBZ pushes)
       (PRT (RP on))
       (PP
-        (IN through)
+        (RP through)
         (NP (DT a) (JJ solid) (JJ aggressive) (NN play))))
     (. .)))
 
@@ -1134,7 +1134,7 @@
     (VP
       (VBD was)
       (PP
-        (IN like)
+        (RP like)
         (`` ")
         (S
           (INTJ (UH okay))

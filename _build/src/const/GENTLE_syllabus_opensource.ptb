@@ -2,9 +2,9 @@
 
 (ROOT
   (NP
-    (JJ Open)
-    (NN Source)
-    (NN Software)
+    (NNP Open)
+    (NNP Source)
+    (NNP Software)
     (NN Spring)
     (NN Semester)
     (CD 2022)))
@@ -554,7 +554,7 @@
                     (PP
                       (IN of)
                       (NP
-                        (JJ Open)
+                        (NNP Open)
                         (NNP Source)
                         (NNP Software)
                         (NNPS Tools)
@@ -580,10 +580,7 @@
       (VB establish)
       (CC and)
       (VB use)
-      (NP
-        (NP (NN Testing))
-        (CC and)
-        (NP (NNP Version) (NNP Control)))
+      (NP (NP (NN Testing)) (CC and) (NP (NN Version) (NN Control)))
       (PP (IN in) (NP (DT an) (JJ open) (NN source) (NN project))))
     (. .)))
 
@@ -598,7 +595,7 @@
           (NP
             (NP
               (JJ Common)
-              (JJ Open)
+              (NNP Open)
               (NNP Source)
               (NNP Software)
               (NNPS Stacks))
@@ -633,7 +630,7 @@
     (NP
       (NN Software)
       (NNS Development)
-      (NNPS Tools)
+      (NNS Tools)
       (CC and)
       (NNS Paradigms))))
 
@@ -659,7 +656,7 @@
       (PRN
         (-LRB- -LRB-)
         (NP
-          (NP (JJ Open) (NN Hardware))
+          (NP (NNP Open) (NNP Hardware))
           (, ,)
           (NP (NNP Tensor) (NNP Flow))
           (, ,)

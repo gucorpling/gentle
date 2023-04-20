@@ -363,44 +363,38 @@
     (VP
       (VB Compare)
       (NP
-        (NNS Old)
+        (NNP Old)
         (NNP Frisian)
-        (NN skūle)
+        (FW skūle)
         (, ,)
-        (NX
-          (NN schūle)
+        (FW schūle)
+        (PRN
           (PRN
-            (PRN
-              (-LRB- -LRB-)
-              (`` “)
-              (NP (NN school))
-              ('' ”)
-              (-RRB- -RRB-))
             (-LRB- -LRB-)
-            (NP (NNP West) (NNP Frisian) (FW skoalle))
-            (, ,)
-            (NP (NNP Saterland) (NNP Frisian) (FW Skoule))
+            (`` “)
+            (NP (NN school))
+            ('' ”)
             (-RRB- -RRB-))
+          (-LRB- -LRB-)
+          (NP (NNP West) (NNP Frisian) (FW skoalle))
           (, ,)
-          (NP
-            (NP (NNP Dutch) (NNP school))
-            (PRN
-              (-LRB- -LRB-)
-              (`` “)
-              (NN school)
-              ('' ”)
-              (-RRB- -RRB-))))
+          (NP (NNP Saterland) (NNP Frisian) (FW Skoule))
+          (-RRB- -RRB-))
+        (, ,)
+        (NP
+          (NP (NNP Dutch) (FW school))
+          (PRN (-LRB- -LRB-) (`` “) (NN school) ('' ”) (-RRB- -RRB-)))
         (, ,)
         (NP
           (NP (NNP German) (NNP Low) (NNP German) (FW School))
           (PRN (-LRB- -LRB-) (`` “) (NN school) ('' ”) (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (NNP Old) (NNP High) (NNP German) (NN scuola))
+          (NP (NNP Old) (NNP High) (NNP German) (FW scuola))
           (PRN (-LRB- -LRB-) (`` “) (NN school) ('' ”) (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (NNP Old) (NNP Norse) (NNP skóli))
+          (NP (NNP Old) (NNP Norse) (FW skóli))
           (PRN (-LRB- -LRB-) (`` “) (NN school) ('' ”) (-RRB- -RRB-)))))
     (. .)))
 

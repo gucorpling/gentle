@@ -20,7 +20,7 @@
 
 (ROOT
   (NP
-    (NP (NNS Diabetes) (NN mellitus))
+    (NP (NN Diabetes) (NN mellitus))
     (, ,)
     (PP (ADVP (RB currently)) (IN on) (NP (JJ oral) (NN therapy)))
     (. .)))
@@ -68,7 +68,7 @@
       (VP (VBD was) (NP (CD 425))))
     (, ,)
     (S
-      (NP (NN viral) (NN load))
+      (NP (JJ viral) (NN load))
       (VP
         (VBD was)
         (NP (RBR less) (IN than) (CD 50))
@@ -93,14 +93,14 @@
                 (WHPP (IN for) (WHNP (WDT which)))
                 (S
                   (NP (PRP he))
-                  (VP (VBD underwent) (NP (NN I) (SYM &) (NN D))))))))))
+                  (VP (VBD underwent) (NP (NNP I) (CC &) (NNP D))))))))))
     (CC and)
     (S
       (NP (PRP he))
       (VP
         (VBZ has)
         (ADVP (RB newly))
-        (VP (VBN diagnosed) (NP (NNP diabetes) (NNP mellitus)))))
+        (VP (VBN diagnosed) (NP (NN diabetes) (NN mellitus)))))
     (. .)))
 
 (ROOT
@@ -189,7 +189,7 @@
                 (NP (PRP him))
                 (PP
                   (IN on)
-                  (NP (NNP Glucophage) (CC and) (NNP glyburide)))))))))
+                  (NP (NNP Glucophage) (CC and) (NN glyburide)))))))))
     (. .)))
 
 (ROOT
@@ -214,7 +214,7 @@
     (VP
       (VBZ is)
       (PP (IN in) (NP (JJ general)))
-      (VP (VBG feeling) (ADJP (JJR better))))
+      (VP (VBG feeling) (ADJP (RBR better))))
     (. .)))
 
 (ROOT
@@ -247,7 +247,7 @@
 (ROOT
   (NP
     (X (LS 1.))
-    (NP (NP (NNP Gabapentin)) (NP (CD 600) (NN mg)))
+    (NP (NP (NNP Gabapentin)) (NP (CD 600) (NNS mg)))
     (PP (IN at) (NP (NN night)))
     (. .)))
 
@@ -255,7 +255,7 @@
   (NP
     (LS 2.)
     (NP (NNP Metformin))
-    (NP (NP (CD 1000) (NN mg)) (NP (RB twice) (DT a) (NN day)))
+    (NP (NP (CD 1000) (NNS mg)) (NP (RB twice) (DT a) (NN day)))
     (. .)))
 
 (ROOT
@@ -483,17 +483,16 @@
     (PP (IN of) (NP (JJ unclear) (NN etiology)))
     (. .)))
 
+(ROOT (NP (NN PLAN) (: :)))
+
 (ROOT
-  (NP
-    (NP (NN PLAN))
-    (: :)
-    (S
-      (NP (DT The) (NN patient))
+  (S
+    (NP (DT The) (NN patient))
+    (VP
+      (MD will)
       (VP
-        (MD will)
-        (VP
-          (VB continue)
-          (NP (PRP$ his) (JJ current) (NNS medications)))))
+        (VB continue)
+        (NP (PRP$ his) (JJ current) (NNS medications))))
     (. .)))
 
 (ROOT

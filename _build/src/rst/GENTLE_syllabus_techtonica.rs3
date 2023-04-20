@@ -203,11 +203,11 @@
 		<segment id="165" parent="306" relname="span">9. Data Modeling 1</segment>
 		<segment id="166" parent="165" relname="elaboration-additional">( Single tables )</segment>
 		<segment id="167" parent="307" relname="span">10. SQL 1</segment>
-		<segment id="168" parent="167" relname="elaboration-additional">( Single tables)</segment>
+		<segment id="168" parent="167" relname="elaboration-additional">( Single tables )</segment>
 		<segment id="169" parent="308" relname="span">11. Data Modeling 2</segment>
 		<segment id="170" parent="169" relname="elaboration-additional">( Multiple tables )</segment>
 		<segment id="171" parent="309" relname="span">12. SQL 2</segment>
-		<segment id="172" parent="171" relname="elaboration-additional">( Multiple tables)</segment>
+		<segment id="172" parent="171" relname="elaboration-additional">( Multiple tables )</segment>
 		<segment id="173" parent="304" relname="joint-list">13. Intro to Docker</segment>
 		<segment id="174" parent="304" relname="joint-list">14. Install and Run PostgreSQL using Docker</segment>
 		<segment id="175" parent="364" relname="span">Week 7 - Advanced JS and React</segment>

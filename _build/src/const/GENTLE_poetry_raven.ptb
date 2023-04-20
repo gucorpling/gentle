@@ -49,7 +49,7 @@
           (PP
             (IN of)
             (S
-              (NP (DT some) (CD one))
+              (NP (DT some) (NN one))
               (VP
                 (ADVP (RB gently))
                 (VBG rapping)
@@ -61,8 +61,9 @@
 (ROOT
   (S
     (`` ")
+    (NP (PRP 'T))
     (VP
-      (VBZ 'Tis)
+      (VBZ is)
       (NP (DT some) (NN visiter))
       (PRN (, ,) ('' ") (S (NP (PRP I)) (VP (VBD muttered))) (, ,))
       (`` ")
@@ -207,14 +208,16 @@
 (ROOT
   (S
     (`` ")
+    (NP (PRP 'T))
     (VP
-      (VBZ 'Tis)
-      (S
+      (VBZ is)
+      (NP
         (NP (DT some) (NN visiter))
         (VP
           (VBG entreating)
-          (NP (NN entrance))
-          (PP (IN at) (NP (PRP$ my) (NN chamber) (NN door))))))
+          (NP
+            (NP (NN entrance))
+            (PP (IN at) (NP (PRP$ my) (NN chamber) (NN door)))))))
     (: —)))
 
 (ROOT
@@ -480,8 +483,9 @@
 
 (ROOT
   (S
+    (NP (PRP 'T))
     (VP
-      (VBZ 'Tis)
+      (VBZ is)
       (NP
         (NP (DT the) (NN wind))
         (CC and)
@@ -583,7 +587,7 @@
           (NP
             (NP
               (DT the)
-              (ADJP (NN grave) (CC and) (JJ stern))
+              (ADJP (JJ grave) (CC and) (JJ stern))
               (NN decorum))
             (PP
               (IN of)
@@ -603,18 +607,19 @@
       (PRN (, ,) ('' ") (S (NP (PRP I)) (VP (VBD said))) (, ,))
       (`` "))
     (VP
-      (NN art)
-      (ADJP (JJ sure))
-      (NP
+      (VBP art)
+      (ADJP
+        (ADJP (JJ sure))
         (NP
-          (DT no)
-          (JJ craven)
-          (, ,)
-          (ADJP (JJ Ghastly) (JJ grim) (CC and) (JJ ancient))
-          (NNP Raven))
-        (VP
-          (VBG wandering)
-          (PP (IN from) (NP (DT the) (RB Nightly) (NN shore))))))
+          (NP
+            (DT no)
+            (JJ craven)
+            (, ,)
+            (ADJP (JJ Ghastly) (JJ grim) (CC and) (JJ ancient))
+            (NNP Raven))
+          (VP
+            (VBG wandering)
+            (PP (IN from) (NP (DT the) (RB Nightly) (NN shore)))))))
     (: —)))
 
 (ROOT
@@ -945,7 +950,7 @@
                 (PP (IN of) (NP (NN yore))))
               (: —)
               (SBAR
-                (WHNP (WDT What))
+                (WHNP (WP What))
                 (S
                   (NP
                     (NP
@@ -1082,7 +1087,7 @@
                 (PP
                   (IN by)
                   (NP
-                    (NP (NNP Seraphim))
+                    (NP (NNPS Seraphim))
                     (SBAR
                       (WHNP (WP$ whose) (NN foot))
                       (: -)
@@ -1188,7 +1193,7 @@
               (S
                 (ADJP
                   (JJ Desolate)
-                  (RB yet)
+                  (CC yet)
                   (ADJP (DT all) (JJ undaunted)))))))
         (, ,)
         (PP
@@ -1213,9 +1218,9 @@
 (ROOT
   (SQ
     (VBZ Is)
-    (NP (JJ there))
+    (NP (EX there))
     (: —)
-    (SINV (VBZ is) (NP (PRP$ there)))
+    (PRN (SINV (VBZ is) (NP (EX there))))
     (NN balm)
     (PP (IN in) (NP (NNP Gilead)))
     (. ?)))
@@ -1337,7 +1342,7 @@
 
 (ROOT
   (S
-    ('' ")
+    (`` ")
     (S
       (VP
         (VB Be)
@@ -1355,7 +1360,7 @@
 
 (ROOT
   (S
-    ('' ")
+    (`` ")
     (VP
       (VB Get)
       (NP (PRP thee))

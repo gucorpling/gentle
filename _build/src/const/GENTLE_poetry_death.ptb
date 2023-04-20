@@ -19,7 +19,7 @@
     (VP
       (VBD held)
       (NP
-        (CC but)
+        (RB but)
         (NP
           (NP (ADVP (RB just)) (NP (PRP Ourselves)))
           (: —)
@@ -149,8 +149,9 @@
   (S
     (PP (IN Since) (NP (RB then)))
     (: —)
+    (NP (PRP 't))
     (VP
-      (VP (NNPS 'tis) (NP (NNS centuries)))
+      (VP (VBZ is) (NP (NNS centuries)))
       (: —)
       (CC and)
       (ADVP (RB yet))
@@ -170,7 +171,9 @@
                     (VBD surmised)
                     (SBAR
                       (S
-                        (NP (DT the) (NNS Horses') (NNS Heads))
+                        (NP
+                          (NP (DT the) (NNS Horses) (POS '))
+                          (NNS Heads))
                         (VP
                           (VBD Were)
                           (PP (IN toward) (NP (NNP Eternity))))))))))))))

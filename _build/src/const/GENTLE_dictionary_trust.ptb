@@ -1,4 +1,4 @@
-(ROOT (NP (VB trust)))
+(ROOT (NP (NN trust)))
 
 (ROOT (NP (NNP English)))
 
@@ -32,7 +32,7 @@
               (IN from)
               (NP
                 (NP
-                  (NP (NNP Old) (NNP Norse) (NN traust))
+                  (NP (NNP Old) (NNP Norse) (FW traust))
                   (PRN
                     (-LRB- -LRB-)
                     (`` “)
@@ -72,11 +72,13 @@
               (PP
                 (IN of)
                 (NP
-                  (DT an)
-                  (JJ unattested)
-                  (NNP Old)
-                  (NNP English)
-                  (NNP *trust)))
+                  (FRAG
+                    (WHNP
+                      (DT an)
+                      (JJ unattested)
+                      (NNP Old)
+                      (NNP English)))
+                  (FW *trust)))
               (, ,)
               (PP
                 (IN from)
@@ -84,7 +86,7 @@
                   (NP
                     (DT a)
                     (JJ rare)
-                    (ADJP (JJ zero) (HYPH -) (NN grade))
+                    (ADJP (CD zero) (HYPH -) (NN grade))
                     (UCP (JJ proto) (HYPH -) (JJ Germanic))
                     (NN variant))
                   (PP
@@ -101,8 +103,8 @@
                               (ADJP
                                 (NNP Middle)
                                 (NNP High)
-                                (JJ German))
-                              (NN getrüste))
+                                (NNP German))
+                              (FW getrüste))
                             (PRN
                               (-LRB- -LRB-)
                               (`` “)
@@ -139,7 +141,7 @@
       (IN to)
       (NP
         (NP
-          (NP (JJ Danish) (NN trøst))
+          (NP (NNP Danish) (FW trøst))
           (PRN
             (-LRB- -LRB-)
             (`` “)
@@ -150,7 +152,7 @@
             (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (NNP Saterland) (NNP Frisian) (NNP Traast))
+          (NP (NNP Saterland) (NNP Frisian) (FW Traast))
           (PRN
             (-LRB- -LRB-)
             (`` “)
@@ -161,7 +163,7 @@
             (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (NNP West) (NNP Frisian) (NN treast))
+          (NP (NNP West) (NNP Frisian) (FW treast))
           (PRN
             (-LRB- -LRB-)
             (`` “)
@@ -172,7 +174,7 @@
             (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (NNP Dutch) (NN troost))
+          (NP (NNP Dutch) (FW troost))
           (PRN
             (-LRB- -LRB-)
             (`` “)
@@ -183,7 +185,7 @@
             (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (NNP German) (NNP Trost))
+          (NP (NNP German) (FW Trost))
           (PRN
             (-LRB- -LRB-)
             (`` “)
@@ -192,11 +194,11 @@
             (-RRB- -RRB-)))
         (, ,)
         (NP
-          (NP (JJ Gothic) (NN trausti))
+          (NP (NNP Gothic) (FW trausti))
           (PRN
             (-LRB- -LRB-)
             (NP
-              (NP (NN trausti))
+              (NP (FW trausti))
               (, ,)
               (`` “)
               (NP (NN alliance) (, ,) (NN pact))
@@ -232,7 +234,7 @@
         (, ,)
         (NN [tɹɐst])
         (, ,)
-        (FW [t͡ʃɹ-])))))
+        (NN [t͡ʃɹ-])))))
 
 (ROOT
   (NP
@@ -243,16 +245,16 @@
           (NP (NNP Northern) (NNP England))
           (-RRB- -RRB-))
         (NNP IPA))
-      (PRN (-LRB- -LRB-) (ADJP (JJ key)) (-RRB- -RRB-)))
+      (PRN (-LRB- -LRB-) (NP (NN key)) (-RRB- -RRB-)))
     (: :)
-    (NP (NNP /trʊst/))))
+    (NP (NN /trʊst/))))
 
 (ROOT
   (NP
-    (NP (NNP Audio))
+    (NP (NN Audio))
     (PRN (-LRB- -LRB-) (NP (NNP GA)) (-RRB- -RRB-))))
 
-(ROOT (NP (NP (NNS Rhymes)) (: :) (INTJ (JJ -ʌst))))
+(ROOT (NP (NP (NNS Rhymes)) (: :) (INTJ (NN -ʌst))))
 
 (ROOT (NP (NN Noun)))
 

@@ -144,7 +144,7 @@
 		<segment id="106" parent="247" relname="joint-list">( third - person singular simple present trusts ,</segment>
 		<segment id="107" parent="247" relname="joint-list">present participle trusting ,</segment>
 		<segment id="108" parent="247" relname="joint-list">simple past and past participle trusted )</segment>
-		<segment id="109" parent="249" relname="elaboration-additional">( transitive )</segment>
+		<segment id="109" parent="249" relname="context-background">( transitive )</segment>
 		<segment id="110" parent="249" relname="restatement-repetition">To place confidence in ,</segment>
 		<segment id="111" parent="249" relname="restatement-repetition">to rely on ,</segment>
 		<segment id="112" parent="249" relname="restatement-repetition">to confide in .</segment>
@@ -168,7 +168,7 @@
 		<segment id="130" parent="265" relname="context-background">( transitive )</segment>
 		<segment id="131" parent="265" relname="span">to show confidence in a person</segment>
 		<segment id="132" parent="131" relname="mode-means">by entrusting them with something .</segment>
-		<segment id="133" parent="267" relname="elaboration-additional">( transitive )</segment>
+		<segment id="133" parent="267" relname="context-background">( transitive )</segment>
 		<segment id="134" parent="267" relname="restatement-repetition">To commit , as to one 's care ;</segment>
 		<segment id="135" parent="267" relname="restatement-repetition">to entrust .</segment>
 		<segment id="136" parent="269" relname="context-background">( transitive )</segment>

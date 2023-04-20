@@ -45,7 +45,7 @@
           (PRN
             (-LRB- -LRB-)
             (`` “)
-            (ADJP (JJS nearest) (, ,) (JJS next))
+            (ADJP (JJS nearest) (, ,) (JJ next))
             ('' ”)
             (-RRB- -RRB-)))))
     (, ,)
@@ -74,7 +74,7 @@
     (, ;)
     (ADJP
       (JJ equivalent)
-      (PP (TO to) (NP (JJ nigh) (CC +) (JJS -est))))
+      (PP (IN to) (NP (JJ nigh) (CC +) (NN -est))))
     (. .)))
 
 (ROOT
@@ -284,7 +284,7 @@
     (VP
       (VB See)
       (ADVP (RB also))
-      (NP (NP (JJS next)) (PP (IN of) (NP (NN kin)))))
+      (NP (NP (JJ next)) (PP (IN of) (NP (NN kin)))))
     (. .)
     (-RRB- -RRB-)))
 
