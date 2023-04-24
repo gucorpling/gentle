@@ -408,7 +408,7 @@
 15-12	2044-2051	finance	abstract[104]|abstract[105]	new[104]|new[105]	nonsal[104]|nonsal[105]	_	_	_	
 15-13	2052-2058	charge	abstract[104]	new[104]	nonsal[104]	_	_	_	
 15-14	2059-2061	of	abstract[104]	new[104]	nonsal[104]	_	_	_	
-15-15	2062-2065	1.5	abstract[104]|abstract[106]	new[104]|new[106]	nonsal[104]|nonsal[106]	_	coref	47-31[284_106]	
+15-15	2062-2065	1.5	abstract[104]|abstract[106]	new[104]|new[106]	nonsal[104]|nonsal[106]	_	_	_	
 15-16	2066-2067	%	abstract[104]|abstract[106]	new[104]|new[106]	nonsal[104]|nonsal[106]	_	_	_	
 15-17	2068-2071	per	abstract[104]|abstract[106]	new[104]|new[106]	nonsal[104]|nonsal[106]	_	_	_	
 15-18	2072-2077	month	abstract[104]|abstract[106]|time[107]	new[104]|new[106]|new[107]	nonsal[104]|nonsal[106]|nonsal[107]	_	_	_	
