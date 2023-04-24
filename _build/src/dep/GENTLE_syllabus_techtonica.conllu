@@ -19,7 +19,7 @@
 12	training	_	_	_	_	9	obj	_	_
 13	and	_	_	_	_	15	cc	_	_
 14	job	_	_	_	_	15	compound	_	_
-15	placement	_	_	_	_	9	obj	_	_
+15	placement	_	_	_	_	12	conj	_	_
 16	for	_	_	_	_	20	case	_	_
 17	unemployed	_	_	_	_	20	amod	_	_
 18	or	_	_	_	_	19	cc	_	_
@@ -137,7 +137,7 @@
 45	of	_	_	_	_	46	case	_	_
 46	topics	_	_	_	_	44	nmod	_	_
 47	and	_	_	_	_	48	cc	_	_
-48	assignments	_	_	_	_	44	of	_	_
+48	assignments	_	_	_	_	46	conj	_	_
 49	(	_	_	_	_	50	punct	_	_
 50	see	_	_	_	_	41	parataxis	_	_
 51	our	_	_	_	_	53	nmod:poss	_	_
@@ -166,18 +166,18 @@
 74	own	_	_	_	_	71	obl	_	_
 75	or	_	_	_	_	77	cc	_	_
 76	in	_	_	_	_	77	case	_	_
-77	collaboration	_	_	_	_	71	on	_	_
+77	collaboration	_	_	_	_	74	conj	_	_
 78	with	_	_	_	_	79	case	_	_
 79	volunteers	_	_	_	_	77	nmod	_	_
 80	,	_	_	_	_	81	punct	_	_
-81	mentors	_	_	_	_	77	with	_	_
+81	mentors	_	_	_	_	79	conj	_	_
 82	,	_	_	_	_	84	punct	_	_
 83	tech	_	_	_	_	84	compound	_	_
-84	groups	_	_	_	_	77	with	_	_
+84	groups	_	_	_	_	79	conj	_	_
 85	,	_	_	_	_	88	punct	_	_
 86	and	_	_	_	_	88	cc	_	_
 87	other	_	_	_	_	88	amod	_	_
-88	participants	_	_	_	_	77	with	_	_
+88	participants	_	_	_	_	79	conj	_	_
 89	.	_	_	_	_	2	punct	_	_
 
 1	We	_	_	_	_	3	nsubj	_	_
@@ -250,22 +250,22 @@
 30	.	_	_	_	_	6	punct	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	0	_	_	_	_	1	nummod	_	_
+2	0	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Pre	_	_	_	_	6	compound	_	_
 5	-	_	_	_	_	4	punct	_	_
 6	Work	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	1	_	_	_	_	1	nummod	_	_
+2	1	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Onboarding	_	_	_	_	1	appos	_	_
 5	&	_	_	_	_	7	cc	_	_
 6	Developer	_	_	_	_	7	compound	_	_
-7	Tools	_	_	_	_	1	appos	_	_
+7	Tools	_	_	_	_	4	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	2	_	_	_	_	1	nummod	_	_
+2	2	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Webpages	_	_	_	_	1	appos	_	_
 5	:	_	_	_	_	6	punct	_	_
@@ -274,64 +274,64 @@
 8	CSS	_	_	_	_	6	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	3	_	_	_	_	1	nummod	_	_
+2	3	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	JavaScript	_	_	_	_	5	compound	_	_
 5	Fundamentals	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	4	_	_	_	_	1	nummod	_	_
+2	4	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Intermediate	_	_	_	_	5	amod	_	_
 5	JavaScript	_	_	_	_	1	appos	_	_
 6	and	_	_	_	_	7	cc	_	_
-7	React	_	_	_	_	1	appos	_	_
+7	React	_	_	_	_	5	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	5	_	_	_	_	1	nummod	_	_
+2	5	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Web	_	_	_	_	5	compound	_	_
 5	APIs	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	6	_	_	_	_	1	nummod	_	_
+2	6	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Databases	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	7	_	_	_	_	1	nummod	_	_
+2	7	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Advanced	_	_	_	_	5	amod	_	_
 5	JS	_	_	_	_	1	appos	_	_
 6	and	_	_	_	_	7	cc	_	_
-7	React	_	_	_	_	1	appos	_	_
+7	React	_	_	_	_	5	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	8	_	_	_	_	1	nummod	_	_
+2	8	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Testing	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	9	_	_	_	_	1	nummod	_	_
+2	9	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Eventonica	_	_	_	_	5	compound	_	_
 5	Project	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	10	_	_	_	_	1	nummod	_	_
+2	10	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	More	_	_	_	_	5	advmod	_	_
 5	PERN	_	_	_	_	1	appos	_	_
 6	&	_	_	_	_	7	cc	_	_
-7	Review	_	_	_	_	1	appos	_	_
+7	Review	_	_	_	_	5	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	11	_	_	_	_	1	nummod	_	_
+2	11	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Data	_	_	_	_	5	compound	_	_
 5	Structures	_	_	_	_	1	appos	_	_
 6	&	_	_	_	_	7	cc	_	_
-7	Algorithms	_	_	_	_	1	appos	_	_
+7	Algorithms	_	_	_	_	5	conj	_	_
 
 1	Data	_	_	_	_	2	compound	_	_
 2	Structures	_	_	_	_	0	root	_	_
@@ -352,23 +352,23 @@
 6	!	_	_	_	_	1	punct	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	14	_	_	_	_	1	nummod	_	_
+2	14	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	6	punct	_	_
 4	Project	_	_	_	_	5	compound	_	_
 5	Prep	_	_	_	_	6	compound	_	_
 6	Week	_	_	_	_	1	appos	_	_
 7	&	_	_	_	_	8	cc	_	_
-8	Electives	_	_	_	_	1	appos	_	_
+8	Electives	_	_	_	_	6	conj	_	_
 
-1	Weeks	_	_	_	_	6	dep	_	_
+1	Weeks	_	_	_	_	0	root	_	_
 2	15	_	_	_	_	1	dep	_	_
 3	+	_	_	_	_	2	conj	_	_
 4	-	_	_	_	_	6	punct	_	_
 5	Final	_	_	_	_	6	amod	_	_
-6	Project	_	_	_	_	0	root	_	_
+6	Project	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	0	_	_	_	_	1	nummod	_	_
+2	0	_	_	_	_	1	dep	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Pre	_	_	_	_	6	compound	_	_
 5	-	_	_	_	_	4	punct	_	_
@@ -1130,13 +1130,13 @@
 
 1	2.	_	_	_	_	3	dep	_	_
 2	Sprint	_	_	_	_	3	compound	_	_
-3	Plan	_	_	_	_	9	dep	_	_
-4	for	_	_	_	_	6	case	_	_
+3	Plan	_	_	_	_	0	root	_	_
+4	for	_	_	_	_	9	case	_	_
 5	Data	_	_	_	_	6	compound	_	_
-6	Structures	_	_	_	_	3	nmod	_	_
+6	Structures	_	_	_	_	9	compound	_	_
 7	&	_	_	_	_	8	cc	_	_
-8	Algorithms	_	_	_	_	3	for	_	_
-9	Week	_	_	_	_	0	root	_	_
+8	Algorithms	_	_	_	_	6	conj	_	_
+9	Week	_	_	_	_	3	nmod	_	_
 
 1	3.	_	_	_	_	3	dep	_	_
 2	Data	_	_	_	_	3	compound	_	_
@@ -1456,7 +1456,7 @@
 9	weekly	_	_	_	_	10	amod	_	_
 10	milestones	_	_	_	_	8	obj	_	_
 11	/	_	_	_	_	12	cc	_	_
-12	sprints	_	_	_	_	8	obj	_	_
+12	sprints	_	_	_	_	10	conj	_	_
 
 1	Gathering	_	_	_	_	0	root	_	_
 2	user	_	_	_	_	3	compound	_	_

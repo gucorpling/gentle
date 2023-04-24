@@ -11,7 +11,7 @@
 9	Induction	_	_	_	_	6	nmod	_	_
 10	on	_	_	_	_	12	case	_	_
 11	the	_	_	_	_	12	det	_	_
-12	number	_	_	_	_	6	orphan	_	_
+12	number	_	_	_	_	9	nmod	_	_
 13	of	_	_	_	_	14	case	_	_
 14	vertices	_	_	_	_	12	nmod	_	_
 15	.	_	_	_	_	3	punct	_	_
