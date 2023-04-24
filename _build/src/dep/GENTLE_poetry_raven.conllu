@@ -589,12 +589,12 @@
 31	shaven	_	_	_	_	29	conj	_	_
 32	,	_	_	_	_	29	punct	_	_
 33	thou	_	_	_	_	49	nsubj	_	_
-34	,	_	_	_	_	37	punct	_	_
-35	"	_	_	_	_	37	punct	_	_
+34	,	_	_	_	_	33	punct	_	_
+35	"	_	_	_	_	33	punct	_	_
 36	I	_	_	_	_	37	nsubj	_	_
 37	said	_	_	_	_	29	parataxis	_	_
-38	,	_	_	_	_	37	punct	_	_
-39	"	_	_	_	_	37	punct	_	_
+38	,	_	_	_	_	40	punct	_	_
+39	"	_	_	_	_	40	punct	_	_
 40	art	_	_	_	_	49	cop	_	_
 41	sure	_	_	_	_	49	advmod	_	_
 42	no	_	_	_	_	49	det	_	_
