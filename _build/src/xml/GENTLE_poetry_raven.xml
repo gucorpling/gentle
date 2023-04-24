@@ -1151,7 +1151,7 @@ lamp	NN	lamp
 -	:	-
 light	NN	light
 gloated	JJ	gloated
-o'er	NN	o'er
+o'er	IN	over
 ,	,	,
 </s>
 <s type="decl">
@@ -1167,7 +1167,7 @@ lamp	NN	lamp
 -	:	-
 light	NN	light
 gloating	VVG	gloat
-o'er	IN	o'er
+o'er	IN	over
 <l n="78"/>
 <hi rend="italic">
 She	PP	she
@@ -1656,7 +1656,7 @@ the	DT	the
 lamp	NN	lamp
 -	:	-
 light	NN	light
-o'er	IN	o'er
+o'er	IN	over
 him	PP	he
 streaming	VVG	stream
 throws	VVZ	throw

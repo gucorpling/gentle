@@ -332,8 +332,8 @@ and	CC	and
 he	PP	he
 's	VBZ	be
 <w>
-gon	VVG	gon
-na	TO	na
+gon	VVG	go
+na	TO	to
 </w>
 laugh	VV	laugh
 .	SENT	.
@@ -745,24 +745,26 @@ below	RB	below
 <w>
 gon	VVG	go
 na	TO	to
-see	VV	see
 </w>
+see	VV	see
 if	IN	if
-he	PP	we
+he	PP	he
 can	MD	can
 take	VV	take
 shots	NNS	shot
 here	RB	here
 in	IN	in
 a	DT	a
-second	JJ	second
+second	NN	second
 .	SENT	.
 </s>
 <s type="decl">
 Tchub	NP	Tchub
 was	VBD	be
+<w>
 gon	VVG	go
 na	TO	to
+</w>
 roll	VV	roll
 all	PDT	all
 the	DT	the

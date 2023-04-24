@@ -110,7 +110,7 @@
 		<segment id="72" parent="71" relname="elaboration-attribute">charged to the Company by its third - party credit card processor .</segment>
 		<segment id="73" parent="223" relname="span">(ii) All transaction fees</segment>
 		<segment id="74" parent="73" relname="elaboration-attribute">charged to the Company or its affiliates by its third - party transaction processor .</segment>
-		<segment id="75" parent="224" relname="span">(iii ) Escrow agent fees</segment>
+		<segment id="75" parent="224" relname="span">(iii) Escrow agent fees</segment>
 		<segment id="76" parent="75" relname="elaboration-attribute">charged to the Company or its affiliates by third - party escrow agents .</segment>
 		<segment id="77" parent="225" relname="span">(iv) Return fees</segment>
 		<segment id="78" parent="227" relname="span">as set out in Section 4</segment>

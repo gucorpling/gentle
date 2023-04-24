@@ -674,8 +674,7 @@ processor	NN	processor
 </item>
 <item n="3">
 <s type="frag">
-(iii	NP	(iii
-)	)	)
+(iii)	LS	(iii)
 Escrow	NN	escrow
 agent	NN	agent
 fees	NNS	fee
@@ -1219,7 +1218,7 @@ The	DT	the
 other	JJ	other
 party	NN	party
 's	POS	's
-material	NN	material
+material	JJ	material
 breach	NN	breach
 that	WDT	that
 remains	VVZ	remain
@@ -1355,8 +1354,8 @@ creditors	NNS	creditor
 ,	,	,
 (D)	LS	(D)
 commences	VVZ	commence
-winding	VVG	wind
-down	RP	down
+winding	NN	winding
+down	RB	down
 or	CC	or
 liquidation	NN	liquidation
 of	IN	of

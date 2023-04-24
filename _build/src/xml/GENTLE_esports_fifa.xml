@@ -108,8 +108,10 @@ hardest	JJS	hard
 games	NNS	game
 I	PP	I
 'm	VBP	be
+<w>
 gon	VVG	go
 na	TO	to
+</w>
 be	VB	be
 playing	VVG	play
 because	IN	because
@@ -567,8 +569,10 @@ Jović	NP	Jović
 ,	,	,
 he	PP	he
 's	VBZ	be
+<w>
 gon	VVG	go
 na	TO	to
+</w>
 touch	VV	touch
 it	PP	it
 and	CC	and
