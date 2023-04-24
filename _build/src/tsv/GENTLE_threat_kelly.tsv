@@ -47,7 +47,7 @@
 4-6	152-153	.	_	_	_	_	_	_	
 
 #Text=That is 3 to 5 years .
-5-1	154-158	That	abstract[14]	giv[14]	nonsal[14]	_	coref	5-3[15_14]	
+5-1	154-158	That	time[14]	giv[14]	nonsal[14]	_	coref	5-3[15_14]	
 5-2	159-161	is	_	_	_	_	_	_	
 5-3	162-163	3	time[15]	new[15]	nonsal[15]	_	_	_	
 5-4	164-166	to	time[15]	new[15]	nonsal[15]	_	_	_	
@@ -87,20 +87,20 @@
 8-3	297-301	tell	_	_	_	_	_	_	
 8-4	302-306	them	person[23]	giv[23]	nonsal[23]	_	coref	11-1[35_23]	
 8-5	307-312	about	_	_	_	_	_	_	
-8-6	313-316	all	abstract[24]	new[24]	nonsal[24]	_	coref	10-9[33_24]	
-8-7	317-320	the	abstract[24]	new[24]	nonsal[24]	_	_	_	
-8-8	321-325	shit	abstract[24]	new[24]	nonsal[24]	_	_	_	
-8-9	326-329	you	abstract[24]|person[25]	new[24]|giv[25]	nonsal[24]|nonsal[25]	_	coref	8-14[27_25]	
-8-10	330-334	turn	abstract[24]	new[24]	nonsal[24]	_	_	_	
-8-11	335-337	in	abstract[24]	new[24]	nonsal[24]	_	_	_	
-8-12	338-344	stolen	abstract[24]	new[24]	nonsal[24]	_	_	_	
-8-13	345-349	from	abstract[24]	new[24]	nonsal[24]	_	_	_	
-8-14	350-354	your	abstract[24]|place[26]|person[27]	new[24]|giv[26]|giv[27]	nonsal[24]|nonsal[26]|nonsal[27]	_	coref|coref	9-1[28_26]|10-2[31_27]	
-8-15	355-360	house	abstract[24]|place[26]	new[24]|giv[26]	nonsal[24]|nonsal[26]	_	_	_	
+8-6	313-316	all	event[24]	new[24]	nonsal[24]	_	coref	10-9[33_24]	
+8-7	317-320	the	event[24]	new[24]	nonsal[24]	_	_	_	
+8-8	321-325	shit	event[24]	new[24]	nonsal[24]	_	_	_	
+8-9	326-329	you	event[24]|person[25]	new[24]|giv[25]	nonsal[24]|nonsal[25]	_	coref	8-14[27_25]	
+8-10	330-334	turn	event[24]	new[24]	nonsal[24]	_	_	_	
+8-11	335-337	in	event[24]	new[24]	nonsal[24]	_	_	_	
+8-12	338-344	stolen	event[24]	new[24]	nonsal[24]	_	_	_	
+8-13	345-349	from	event[24]	new[24]	nonsal[24]	_	_	_	
+8-14	350-354	your	event[24]|place[26]|person[27]	new[24]|giv[26]|giv[27]	nonsal[24]|nonsal[26]|nonsal[27]	_	coref|coref	9-1[28_26]|10-2[31_27]	
+8-15	355-360	house	event[24]|place[26]	new[24]|giv[26]	nonsal[24]|nonsal[26]	_	_	_	
 8-16	361-362	.	_	_	_	_	_	_	
 
 #Text=It was not my house .
-9-1	363-365	It	object[28]	giv[28]	nonsal[28]	_	_	_	
+9-1	363-365	It	place[28]	giv[28]	nonsal[28]	_	_	_	
 9-2	366-369	was	_	_	_	_	_	_	
 9-3	370-373	not	_	_	_	_	_	_	
 9-4	374-376	my	place[29]|person[30]	giv[29]|giv[30]	nonsal[29]|nonsal[30]	_	coref	13-10[48_30]	
@@ -474,7 +474,7 @@
 35-6	1701-1704	get	_	_	_	_	_	_	
 35-7	1705-1708	out	_	_	_	_	_	_	
 35-8	1709-1711	of	_	_	_	_	_	_	
-35-9	1712-1714	it	abstract[133]	giv[133]	nonsal[133]	_	_	_	
+35-9	1712-1714	it	place[133]	giv[133]	nonsal[133]	_	_	_	
 35-10	1715-1716	,	_	_	_	_	_	_	
 35-11	1717-1720	but	_	_	_	_	_	_	
 35-12	1721-1723	do	_	_	_	_	_	_	
