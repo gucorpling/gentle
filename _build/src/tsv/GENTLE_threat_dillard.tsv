@@ -467,8 +467,8 @@
 22-7	2190-2193	are	_	_	_	_	_	_	
 22-8	2194-2197	six	abstract[111]	new[111]	nonsal[111]	_	_	_	
 22-9	2198-2204	things	abstract[111]	new[111]	nonsal[111]	_	_	_	
-22-10	2205-2208	the	abstract[111]|person[112]	new[111]|new[112]	nonsal[111]|nonsal[112]	Lord[112]	coref	28-23[156_112]	
-22-11	2209-2213	Lord	abstract[111]|person[112]	new[111]|new[112]	nonsal[111]|nonsal[112]	Lord[112]	_	_	
+22-10	2205-2208	the	abstract[111]|person[112]	new[111]|new[112]	nonsal[111]|nonsal[112]	God[112]	coref	28-23[156_112]	
+22-11	2209-2213	Lord	abstract[111]|person[112]	new[111]|new[112]	nonsal[111]|nonsal[112]	God[112]	_	_	
 22-12	2214-2219	hates	abstract[111]	new[111]	nonsal[111]	_	_	_	
 22-13	2220-2223	...	_	_	_	_	_	_	
 22-14	2224-2229	hands	object[113]	new[113]	nonsal[113]	_	_	_	

@@ -321,8 +321,10 @@ or	CC	or
 I	PP	I
 will	MD	will
 do	VV	do
-what	WP	what
-ever	RB	ever
+<sic ana="whatever">
+what	WP	whatever
+ever	RB	_
+</sic>
 it	PP	it
 takes	VVZ	take
 to	TO	to

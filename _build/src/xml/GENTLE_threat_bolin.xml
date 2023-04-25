@@ -2,7 +2,9 @@
 <p>
 <s type="frag">
 Jerry	NP	Jerry
+<date when="1990-06-25">
 6/25/90	CD	6/25/90
+</date>
 </s>
 </p>
 <p>
@@ -34,7 +36,9 @@ her	PP$	her
 side	NN	side
 of	IN	of
 things	NNS	thing
+<sic ana="which">
 wich	WDT	which
+</sic>
 are	VBP	be
 real	RB	real
 different	JJ	different
@@ -46,7 +50,7 @@ to	TO	to
 say	VV	say
 .	SENT	.
 </s>
-<s type="decl">
+<s type="multiple">
 I	PP	I
 'm	VBP	be
 only	RB	only
@@ -58,7 +62,7 @@ one	CD	one
 time	NN	time
 so	IN	so
 you	PP	you
-better	ADV	better
+better	RBR	well
 make	VV	make
 sure	JJ	sure
 you	PP	you
@@ -88,9 +92,9 @@ this	DT	this
 Earth	NP	Earth
 .	SENT	.
 </s>
-<s type="decl">
+<s type="sub">
 You	PP	you
-better	RBR	good
+better	RBR	well
 thank	VVP	thank
 your	PP$	your
 lucky	JJ	lucky
@@ -293,7 +297,7 @@ hitting	VVG	hit
 Paula	NP	Paula
 .	SENT	.
 </s>
-<s type="frag">
+<s type="multiple">
 What	WP	what
 I	PP	I
 want	VVP	want
@@ -305,7 +309,7 @@ be	VB	be
 done	VVN	do
 .	SENT	.
 </s>
-<s type="decl">
+<s type="multiple">
 Everything	NN	everything
 that	WDT	that
 's	VBZ	be
@@ -333,7 +337,7 @@ if	IN	if
 it	PP	it
 's	VBZ	be
 a	DT	a
-bobby	NP	Bobby
+bobby	NN	bobby
 pin	NN	pin
 ,	,	,
 you	PP	you
