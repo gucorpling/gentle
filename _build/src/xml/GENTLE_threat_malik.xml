@@ -8,23 +8,31 @@ know	VV	know
 what	WP	what
 this	DT	this
 Court	NN	court
+<sic ana="deems">
 deem	VVZ	deem
+</sic>
 it	PP	it
 is	VBZ	be
 but	CC	but
 unless	IN	unless
 this	DT	this
 Case	NN	case
+<sic ana="reverses">
 reverse	VVZ	reverse
+</sic>
 <sic ana="itself">
 it	PP	itself
 self	PP	_
 </sic>
 as	IN	as
 is	VBZ	be
+<sic ana="just">
 justl	RB	just
+</sic>
 due	JJ	due
+<sic ana="then">
 than	RB	then
+</sic>
 a	DT	a
 White	JJ	white
 Folks	NNS	folk
@@ -74,7 +82,9 @@ no	DT	no
 joke	NN	joke
 I	PP	I
 'm	VBP	be
+<sic ana="known">
 know	VVN	know
+</sic>
 in	IN	in
 prison	NN	prison
 for	IN	for
@@ -110,15 +120,15 @@ way	NN	way
 dropping	VVG	drop
 the	DT	the
 "	``	''
-I	NP	I
+I	NN	I
 "	''	''
 ;	:	;
 "	``	''
-C	NP	C
+C	NN	C
 "	''	''
 and	CC	and
 "	``	''
-E	NP	E
+E	NN	E
 "	''	''
 of	IN	of
 the	DT	the
@@ -129,14 +139,16 @@ raising	VVG	raise
 the	DT	the
 word	NN	word
 "	``	''
-Just	NN	just
+Just	JJ	just
 "	''	''
 well	UH	well
 then	RB	then
 so	RB	so
 become	VV	become
 it	PP	it
+<sic ana="I">
 Ii	PP	I
+</sic>
 'll	MD	will
 play	VV	play
 likewise	RB	likewise
@@ -147,7 +159,9 @@ from	IN	from
 a	DT	a
 Koranic	NP	Koranic
 and	CC	and
+<sic ana="Torah">
 Torooh	NP	Torah
+</sic>
 perspective	NN	perspective
 <w>
 that	DT	that
@@ -166,7 +180,7 @@ life	NN	life
 which	WDT	which
 means	VVZ	mean
 if	IN	if
-just	RB	just
+just	JJ	just
 treatment	NN	treatment
 is	VBZ	be
 not	RB	not
@@ -177,7 +191,9 @@ case	NN	case
 if	IN	if
 I	PP	I
 can	MD	can
-arranged	VVN	arrange
+<sic ana="arrange">
+arranged	VV	arrange
+</sic>
 sooner	RBR	soon
 than	IN	than
 upon	IN	upon
@@ -399,7 +415,9 @@ Judges	NNS	judge
 </p>
 <p>
 <s type="decl">
-Pharoah	NP	Pharoah
+<sic ana="Pharaoh">
+Pharoah	NP	Pharaoh
+</sic>
 and	CC	and
 his	PP$	his
 clique	NN	clique
@@ -418,11 +436,15 @@ and	CC	and
 grievously	RB	grievously
 oppressed	VVD	oppress
 the	DT	the
+<sic ana="Israelites">
 israelities	NPS	Israelite
+</sic>
 </s>
 <s type="decl">
 What	WP	what
-Pharoah	NP	Pharoah
+<sic ana="Pharaoh">
+Pharoah	NP	Pharaoh
+</sic>
 Wished	VVD	wish
 Was	VBD	be
 To	TO	to
@@ -435,7 +457,9 @@ That	DT	that
 What	WP	what
 You	PP	you
 Folks	NNS	folk
+<sic ana="are trying">
 Trying	VVG	try
+</sic>
 to	TO	to
 Do	VV	do
 Me	PP	I
@@ -445,15 +469,17 @@ My	PP$	my
 Cases	NNS	case
 </s>
 <s type="imp">
-<w>
+<sic ana="Beware">
 Be	VV	beware
 ware	JJ	_
-</w>
+</sic>
 Of	IN	of
 All	DT	all
 Actions	NNS	action
 South	NP	South
+<sic ana="African">
 Africanner	NP	African
+</sic>
 Europeans	NPS	European
 </s>
 </p>
