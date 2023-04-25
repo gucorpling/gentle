@@ -290,7 +290,7 @@
 5	night	_	_	_	_	3	obl	_	_
 6	.	_	_	_	_	2	punct	_	_
 
-1	8.	_	_	_	_	2	nummod	_	_
+1	8.	_	_	_	_	2	dep	_	_
 2	Clonazepam	_	_	_	_	0	root	_	_
 3	1	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
