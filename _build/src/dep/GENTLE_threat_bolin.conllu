@@ -331,7 +331,7 @@
 10	I	_	_	_	_	11	nsubj	_	_
 11	mean	_	_	_	_	2	conj	_	_
 12	every	_	_	_	_	14	det	_	_
-13	fucking	_	_	_	_	14	nummod	_	_
+13	fucking	_	_	_	_	14	discourse	_	_
 14	thing	_	_	_	_	11	obj	_	_
 15	.	_	_	_	_	2	punct	_	_
 

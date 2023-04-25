@@ -18,7 +18,7 @@ Case	NN	case
 reverse	VVZ	reverse
 <sic ana="itself">
 it	PP	itself
-self	NN	_
+self	PP	_
 </sic>
 as	IN	as
 is	VBZ	be
@@ -277,7 +277,9 @@ in	IN	in
 the	DT	the
 name	NN	name
 of	IN	of
-principal	NN	principal
+<sic ana="principle">
+principal	NN	principle
+</sic>
 of	IN	of
 the	DT	the
 case	NN	case
@@ -300,7 +302,9 @@ if	IN	if
 the	DT	the
 Court	NP	Court
 will	MD	will
-an	RB	not
+<sic ana="and">
+an	CC	and
+</sic>
 see	VV	see
 wo	MD	will
 n't	RB	not
@@ -312,7 +316,9 @@ if	IN	if
 you	PP	you
 Judges	NNS	judge
 never	RB	never
+<sic ana="hear">
 here	VV	hear
+</sic>
 of	IN	of
 it	PP	it
 .	SENT	.

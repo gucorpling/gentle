@@ -44,7 +44,7 @@
 26	such	_	_	_	_	29	mark	_	_
 27	that	_	_	_	_	29	mark	_	_
 28	k	_	_	_	_	29	nsubj	_	_
-29	≤	_	_	_	_	19	advcl	_	_
+29	≤	_	_	_	_	25	acl	_	_
 30	5	_	_	_	_	29	obl:npmod	_	_
 31	.	_	_	_	_	7	punct	_	_
 
@@ -147,7 +147,7 @@
 18	such	_	_	_	_	21	mark	_	_
 19	that	_	_	_	_	21	mark	_	_
 20	k	_	_	_	_	21	nsubj	_	_
-21	≤	_	_	_	_	11	advcl	_	_
+21	≤	_	_	_	_	17	acl	_	_
 22	5	_	_	_	_	21	obl:npmod	_	_
 23	.	_	_	_	_	6	punct	_	_
 
@@ -170,7 +170,7 @@
 17	such	_	_	_	_	20	mark	_	_
 18	that	_	_	_	_	20	mark	_	_
 19	k	_	_	_	_	20	nsubj	_	_
-20	≤	_	_	_	_	10	advcl	_	_
+20	≤	_	_	_	_	16	acl	_	_
 21	5	_	_	_	_	20	obl:npmod	_	_
 22	.	_	_	_	_	3	punct	_	_
 
@@ -641,7 +641,7 @@
 17	such	_	_	_	_	20	mark	_	_
 18	that	_	_	_	_	20	mark	_	_
 19	k	_	_	_	_	20	nsubj	_	_
-20	≤	_	_	_	_	10	advcl	_	_
+20	≤	_	_	_	_	16	acl	_	_
 21	5	_	_	_	_	20	obl:npmod	_	_
 22	.	_	_	_	_	10	punct	_	_
 
