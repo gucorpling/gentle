@@ -136,7 +136,7 @@
         (VB tell)
         (NP (PRP you))
         (SBAR
-          (WHNP (WDT what) (DT a) (NN soulless) (NN existence))
+          (WHNP (WDT what) (DT a) (JJ soulless) (NN existence))
           (S
             (NP (PRP you))
             (VP

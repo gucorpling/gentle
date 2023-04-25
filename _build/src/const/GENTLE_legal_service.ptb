@@ -662,8 +662,7 @@
 
 (ROOT
   (NP
-    (X (NNP -LRB-iii))
-    (-RRB- -RRB-)
+    (LS -LRB-iii-RRB-)
     (NP
       (NP (NN Escrow) (NN agent) (NNS fees))
       (VP
@@ -856,7 +855,7 @@
                 (NP
                   (CD 15)
                   (NNP U.S.C.)
-                  (FRAG (WHNP (CD 1693) (NN et) (NN seq.))))
+                  (FRAG (WHNP (CD 1693) (CC et) (NN seq.))))
                 (SBAR
                   (IN as)
                   (S (VP (MD may) (VP (VB be) (VP (VBN amended)))))))
@@ -1183,7 +1182,7 @@
     (NP
       (NP
         (NP (DT The) (JJ other) (NN party) (POS 's))
-        (NN material)
+        (JJ material)
         (NN breach))
       (SBAR
         (WHNP (WDT that))
@@ -1333,7 +1332,7 @@
             (VBZ commences)
             (S
               (VP
-                (VP (VBG winding) (PRT (RP down)))
+                (VP (NN winding) (PRT (RB down)))
                 (CC or)
                 (NP (NN liquidation))
                 (PP

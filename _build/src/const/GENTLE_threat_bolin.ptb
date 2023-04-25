@@ -18,7 +18,7 @@
       (VP
         (VBP 'm)
         (RB not)
-        (ADJP (TO to) (VBN pleased) (PP (IN with)))))
+        (ADJP (RB to) (VBN pleased) (PP (IN with)))))
     (. .)))
 
 (ROOT
@@ -119,7 +119,7 @@
           (VB have)
           (S
             (NP (PRP$ your) (UH fucking) (NNS legs))
-            (VP (VBD broke))))))
+            (VP (VBN broke))))))
     (. .)))
 
 (ROOT
@@ -192,14 +192,13 @@
         (IN if)
         (S
           (NP (PRP it))
-          (VP (VBZ 's) (NP (QP (CD 1) (NN ¢) (IN over) (CD 1000))))))
+          (VP
+            (VBZ 's)
+            (NP (QP (NP (QP (CD 1) (NN ¢))) (IN over) (CD 1000))))))
       (NP (PRP you))
       (VP
         (MD can)
-        (VP
-          (VB kiss)
-          (NP (PRP$ your) (NN ass))
-          (INTJ goodbye)))
+        (VP (VB kiss) (NP (PRP$ your) (NN ass)) (ADVP (NN goodbye)))))
     (. .)))
 
 (ROOT
@@ -364,7 +363,7 @@
                 (IN if)
                 (S
                   (NP (PRP it))
-                  (VP (VBZ 's) (NP (DT a) (NNP bobby) (NN pin))))))))))
+                  (VP (VBZ 's) (NP (DT a) (NN bobby) (NN pin))))))))))
     (, ,)
     (NP (PRP you))
     (VP

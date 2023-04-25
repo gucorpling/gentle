@@ -738,7 +738,7 @@
                     (VB take)
                     (NP (NNS shots))
                     (ADVP (RB here))
-                    (PP (IN in) (NP (DT a) (JJ second)))))))))))
+                    (PP (IN in) (NP (DT a) (NN second)))))))))))
     (. .)))
 
 (ROOT

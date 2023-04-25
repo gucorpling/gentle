@@ -7,7 +7,7 @@
       (PP (IN within) (NP (PRP$ my) (NN flower)))
       (, ,)
       (SBAR
-        (DT That)
+        (IN That)
         (S
           (S
             (VP

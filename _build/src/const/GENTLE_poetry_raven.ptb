@@ -1041,7 +1041,7 @@
               (WHNP (WDT that))
               (S
                 (NP (DT the) (NN lamp) (: -) (NN light))
-                (VP (JJ gloated) (ADVP (NN o'er)))))))))
+                (VP (JJ gloated) (ADVP (IN o'er)))))))))
     (, ,)))
 
 (ROOT

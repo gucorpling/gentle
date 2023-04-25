@@ -211,7 +211,7 @@
       (VP
         (VBG Ruling)
         (SBAR
-          (DT that)
+          (IN that)
           (S
             (NP
               (JJ declaratory)

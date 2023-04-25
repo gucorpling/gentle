@@ -144,7 +144,7 @@
         (VP
           (VB be)
           (ADJP
-            (ADJP (RB well) (JJ known))
+            (ADJP (RB well) (VBN known))
             (PP
               (IN to)
               (NP
