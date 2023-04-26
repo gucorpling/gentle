@@ -1,4 +1,4 @@
-# gentle
+# GENTLE
 
 Repository for the Genre Tests for Linguistic Evaluation (GENTLE)
 
