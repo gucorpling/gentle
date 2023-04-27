@@ -95,22 +95,31 @@ Earth	NP	Earth
 <s type="sub">
 You	PP	you
 better	RBR	well
-thank	VVP	thank
+thank	VV	thank
 your	PP$	your
 lucky	JJ	lucky
 stars	NNS	star
+<sic ana="you are">
 you	PP	you
+</sic>
 Ashley	NP	Ashley
 's	POS	's
 father	NN	father
 or	CC	or
-youd	NN	youd
+<w>
+you	PP	you
+<sic ana="'d">
+d	MD	would
+</sic>
+</w>
 already	RB	already
 have	VH	have
 your	PP$	your
 fucking	UH	fucking
 legs	NNS	leg
+<sic ana="broken">
 broke	VVN	break
+</sic>
 .	SENT	.
 </s>
 </p>
@@ -276,9 +285,13 @@ friends	NNS	friend
 of	IN	of
 mine	PP	mine
 and	CC	and
+<sic ana="they">
 the	PP	they
+</sic>
 not	RB	not
+<sic ana="too">
 to	RB	too
+</sic>
 happy	JJ	happy
 with	IN	with
 your	PP$	your
@@ -304,7 +317,7 @@ want	VVP	want
 done	VVN	do
 and	CC	and
 it	PP	it
-better	RBR	good
+better	RBR	well
 be	VB	be
 done	VVN	do
 .	SENT	.
@@ -341,7 +354,7 @@ bobby	NN	bobby
 pin	NN	pin
 ,	,	,
 you	PP	you
-better	RBR	good
+better	RBR	well
 give	VV	give
 it	PP	it
 to	IN	to

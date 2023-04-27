@@ -34,25 +34,6 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
-		<sigtypes>
-			<sig type="dm" subtypes="dm"/>
-			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
-			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
-			<sig type="semantic" subtypes="antonymy;general_word;indicative_word_pair;lexical_chain;meronymy;repetition;synonymy"/>
-			<sig type="morphological" subtypes="tense"/>
-			<sig type="syntactic" subtypes="adjectival_modifier;imperative_clause;infinitival_clause;interrupted_matrix_clause;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
-			<sig type="graphical" subtypes="colon;dash;items_in_sequence;parentheses;question_mark;semicolon"/>
-			<sig type="genre" subtypes="inverted_pyramid_scheme;layout;newspaper_style_attribution;newspaper_style_definition"/>
-			<sig type="numerical" subtypes="same_count"/>
-			<sig type="reference+syntactic" subtypes="comparative_reference+subject np;demonstrative_reference+subject np;personal_reference+subject np;propositional_reference+subject np"/>
-			<sig type="semantic+syntactic" subtypes="general_word+subject np;lexical_chain+subject np;meronymy+subject np;repetition+subject np;synonymy+subject np"/>
-			<sig type="lexical+syntactic" subtypes="indicative_word+present_participial_clause"/>
-			<sig type="syntactic+positional" subtypes="past_participial_clause+beginning;present_participial_clause+beginning"/>
-			<sig type="syntactic+semantic" subtypes="parallel_syntactic_construction+lexical_chain"/>
-			<sig type="graphical+syntactic" subtypes="comma+past_participial_clause;comma+present_participial_clause"/>
-			<sig type="unsure" subtypes="unsure"/>
-			<sig type="orphan" subtypes="orphan"/>
-		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="229" relname="organization-heading">Proof</segment>

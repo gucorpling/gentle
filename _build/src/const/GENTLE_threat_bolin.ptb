@@ -106,14 +106,14 @@
       (NP (PRP You))
       (ADVP (RBR better))
       (VP
-        (VBP thank)
+        (VB thank)
         (NP (PRP$ your) (JJ lucky) (NNS stars))
-        (SBAR
-          (S (PRP you) (NP (NP (NNP Ashley) (POS 's)) (NN father))))))
+        (SBAR (S (PRP you) (NP (NNP Ashley) (POS 's)) (NN father)))))
     (CC or)
     (S
+      (NP (PRP you))
       (VP
-        (NN youd)
+        (MD d)
         (ADVP (RB already))
         (VP
           (VB have)
