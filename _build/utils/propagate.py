@@ -581,7 +581,7 @@ def compile_ud(tmp, gum_target, pre_annotated, reddit=False):
 	dep_target = gum_target + "dep" + os.sep + "not-to-release" + os.sep
 	if not os.path.isdir(dep_target):
 		os.makedirs(dep_target)
-	dep_merge_dir = tmp + "dep" + os.sep + "ud" + os.sep + "GUM" + os.sep
+	dep_merge_dir = tmp + "dep" + os.sep + "ud" + os.sep + "GENTLE" + os.sep
 	if not os.path.isdir(dep_merge_dir):
 		os.makedirs(dep_merge_dir)
 	entidep_dir = tmp + "entidep" + os.sep	
@@ -603,7 +603,7 @@ def compile_ud(tmp, gum_target, pre_annotated, reddit=False):
 		sys.stdout.write("\t+ " + " "*70 + "\r")
 		sys.stdout.write(" " + str(docnum+1) + "/" + str(len(depfiles)) + ":\t+ " + docname + "\r")
 
-		entity_file = tmp + "tsv" + os.sep + "GUM" + os.sep + docname + ".tsv"
+		entity_file = tmp + "tsv" + os.sep + "GENTLE" + os.sep + docname + ".tsv"
 		tsv_lines = io.open(entity_file,encoding="utf8").read().replace("\r","").split("\n")
 		int_max_entity = 10000
 		tok_id = 0
@@ -1113,7 +1113,7 @@ def get_coref_ids(gum_target, ontogum=False):
 	if ontogum:
 		conll_coref = glob(gum_target + "coref" + os.sep + "ontogum" + os.sep + "conll" + os.sep + "*.conll")
 	else:
-		conll_coref = glob(gum_target + "coref" + os.sep + "conll" + os.sep + "GUM" + os.sep + "*.conll")
+		conll_coref = glob(gum_target + "coref" + os.sep + "conll" + os.sep + "GENTLE" + os.sep + "*.conll")
 	for file_ in conll_coref:
 		doc = os.path.basename(file_).replace(".conll","")
 		lines = io.open(file_,encoding="utf8").read().split("\n")
@@ -1264,8 +1264,8 @@ def add_entities_to_conllu(gum_target,reddit=False,ontogum=False,conllua_data=No
 	if salience_data is None:
 		salience_data = {}
 
-	files = glob(gum_target + "dep" + os.sep + "*.conllu")
-	files += glob(gum_target + "dep" + os.sep + "not-to-release" + os.sep + "*.conllu")
+	#files = glob(gum_target + "dep" + os.sep + "*.conllu")
+	files = glob(gum_target + "dep" + os.sep + "not-to-release" + os.sep + "*.conllu")
 
 	if not reddit:
 		files = [f for f in files if not "reddit" in f]
@@ -1483,7 +1483,7 @@ def add_bridging_to_conllu(gum_target,reddit=False):
 	bigfiles = glob(gum_target + "dep" + os.sep + "*.conllu")
 
 	for file_ in bigfiles:
-		docs = re.findall("# newdoc id ?= ?(GUM_[^\n]+)",io.open(file_).read())
+		docs = re.findall("# newdoc id ?= ?((?:GUM|GENTLE)_[^\n]+)",io.open(file_).read())
 
 		output = []
 		for doc in docs:
@@ -1502,8 +1502,8 @@ def add_xml_to_conllu(gum_target, reddit=False, ontogum=False):
 		xml_data[os.path.basename(file_).replace(".xml","")] = io.open(file_,encoding="utf8").read()
 
 	if ontogum:
-		files = glob(gum_target+"coref" + os.sep + "ontogum" + os.sep + "conllu" + os.sep + "GUM*.conllu")
-		files += glob(gum_target+"coref" + os.sep + "ontogum" + os.sep + "conllu" + os.sep + "en_gum-ud*.conllu")
+		files = glob(gum_target+"coref" + os.sep + "ontogum" + os.sep + "conllu" + os.sep + "GENTLE*.conllu")
+		files += glob(gum_target+"coref" + os.sep + "ontogum" + os.sep + "conllu" + os.sep + "en_gentle-ud*.conllu")
 	else:
 		files = glob(gum_target + "dep" + os.sep + "not-to-release" + os.sep + "*.conllu")
 		files += glob(gum_target + "dep" + os.sep + "*.conllu")
@@ -1524,7 +1524,7 @@ def add_xml_to_conllu(gum_target, reddit=False, ontogum=False):
 				docs = f.read().split("# newdoc id")
 				for doc in docs[1:]:
 					doc = "# newdoc id" + doc
-					docname = re.search(r'# newdoc id = (GUM_[^\s]+)',doc).group(1)
+					docname = re.search(r'# newdoc id = ((GUM|GENTLE)_[^\s]+)',doc).group(1)
 					docnames.append(docname)
 				with_tags = "\n\n".join([xml_tagged_conllu[d] for d in docnames])
 

@@ -813,7 +813,7 @@ def flag_dep_warnings(id, tok, pos, lemma, func, parent, parent_lemma, parent_id
 	if func =="xcomp" and parent_lemma == "be":
 		print("WARN: verb lemma 'be' should not have xcomp child" + inname)
 
-	IN_not_like_lemma = ["vs", "vs.", "v.", "v", "ca", "that", "then", "a", "fro", "too", "til", "wether"]  # incl. known typos
+	IN_not_like_lemma = ["vs", "vs.", "v.", "v", "ca", "that", "then", "a", "fro", "too", "til", "wether", "o'er"]  # incl. known typos
 	if pos == "IN" and tok.lower() not in IN_not_like_lemma and lemma != tok.lower() and func != "goeswith" and "goeswith" not in child_funcs:
 		print("WARN: pos IN should have lemma identical to lower cased token" + inname)
 

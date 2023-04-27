@@ -318,12 +318,19 @@ else:
 		pepper_params = pepper_params.replace("file:/**gum_tmp**", os.path.abspath(pepper_tmp))
 		pepper_params = pepper_params.replace("file:/**gum_target**", os.path.abspath(pepper_home) + os.sep + "../../target/")
 
+	# Remove unary tags from conversion XML
+	for file_ in glob(pepper_tmp + "xml" + os.sep + "GENTLE" + os.sep + "*.xml"):
+		xml = open(file_,encoding="utf8").read()
+		xml = re.sub(r'<[^<>]+/>\n',r'',xml)
+		with open(file_,'w',encoding="utf8",newline="\n") as f:
+			f.write(xml)
+
 	# Setup metadata file
 	build_date = datetime.datetime.now().date().isoformat()
 	meta = io.open(pepper_home + "meta_template.meta", encoding="utf8").read().replace("\r","")
 	meta = meta.replace("**gum_version**",options.increment_version)
 	meta = meta.replace("**build_date**",build_date)
-	meta_out = io.open(pepper_tmp + "xml" + os.sep + "GENTLE" + os.sep + "GUM.meta",'w')
+	meta_out = io.open(pepper_tmp + "xml" + os.sep + "GENTLE" + os.sep + "GENTLE.meta",'w')
 	meta_out.write(meta)
 	meta_out.close()
 
