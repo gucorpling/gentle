@@ -1,8 +1,8 @@
 # GENTLE
 
-Repository for the Genre Tests for Linguistic Evaluation (GENTLE)
+Repository for the Genre Tests for Linguistic Evaluation (GENTLE) Corpus
 
-This repository contains release versions of the Genre Tests for Linguistic Evaluation (GENTLE), a corpus of English texts from
+This repository contains release versions of the Genre Tests for Linguistic Evaluation (GENTLE) corpus, an English out-of-domain test set following the same multilayer annotations found in the [GUM corpus](https://gucorpling.org/gum/). The texts are of the following 8 genres:
 
   * dictionary entries
   * live esports commentary
@@ -13,13 +13,13 @@ This repository contains release versions of the Genre Tests for Linguistic Eval
   * course syllabuses
   * threat letters
 
-## Train / dev / test splits
+## Splits - test only
 
-The entire corpus is designed to be a test set of challenging genres for NLP systems to be evaluated on. Although one can train a model on this corpus, we present this entire corpus as a test set, and do not provide any official train / dev / test splits.
+The entire corpus is designed to be a *test set* of challenging genres for NLP systems to be evaluated on. Although one can train a model on this corpus, or concatenate it to another training set, we present this entire corpus as a test set, and do not provide any official train / dev data.
 
 ## Citing
 
-To cite this corpus in general, please refer to the following article:
+To cite this corpus in general, please refer to the following article: (TBA)
 <!--
 
 Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
