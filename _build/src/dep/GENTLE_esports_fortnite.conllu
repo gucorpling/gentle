@@ -294,7 +294,7 @@
 47	gon	_	_	_	_	37	parataxis	_	_
 48	na	_	_	_	_	49	mark	_	_
 49	ask	_	_	_	_	47	xcomp	_	_
-50	him	_	_	_	_	49	obj	_	_
+50	him	_	_	_	_	49	iobj	_	_
 51	to	_	_	_	_	52	mark	_	_
 52	take	_	_	_	_	49	xcomp	_	_
 53	the	_	_	_	_	54	det	_	_
@@ -314,7 +314,7 @@
 
 1	Pay	_	_	_	_	0	root	_	_
 2	his	_	_	_	_	3	nmod:poss	_	_
-3	butler	_	_	_	_	1	obj	_	_
+3	butler	_	_	_	_	1	iobj	_	_
 4	to	_	_	_	_	5	mark	_	_
 5	do	_	_	_	_	1	xcomp	_	_
 6	that	_	_	_	_	5	obj	_	_

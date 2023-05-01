@@ -57,7 +57,7 @@
 7	've	_	_	_	_	9	aux	_	_
 8	obviously	_	_	_	_	9	advmod	_	_
 9	paid	_	_	_	_	4	acl	_	_
-10	someone	_	_	_	_	9	obj	_	_
+10	someone	_	_	_	_	9	iobj	_	_
 11	to	_	_	_	_	12	mark	_	_
 12	find	_	_	_	_	9	advcl	_	_
 13	you	_	_	_	_	12	obj	_	_
