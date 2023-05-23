@@ -35,7 +35,7 @@
 2-6	123-124	.	_	_	_	_	_	_	
 
 #Text=I hide myself within my flower , That , fading from your vase , You , unsuspecting , feel for me Almost a loneliness .
-3-1	125-126	I	person[11]	giv[11]	nonsal[11]	NONE[11]	coref	3-3[12_11]	
+3-1	125-126	I	person[11]	giv[11]	nonsal[11]	_	coref	3-3[12_11]	
 3-2	127-131	hide	_	_	_	_	_	_	
 3-3	132-138	myself	person[12]	giv[12]	nonsal[12]	_	coref	3-5[14_12]	
 3-4	139-145	within	_	_	_	_	_	_	
