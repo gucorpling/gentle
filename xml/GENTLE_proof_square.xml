@@ -1,0 +1,912 @@
+<text id="GENTLE_proof_square" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2014-10-21" dateModified="2020-09-29"  shortTitle="square" sourceURL="https://proofwiki.org/wiki/Square_on_Second_Bimedial_Straight_Line_applied_to_Rational_Straight_Line" speakerCount="0" speakerList="none" title="Square on Second Bimedial Straight Line applied to Rational Straight Line" type="proof">
+<head>
+<s type="frag" transition="establishment">
+Proof	NN	Proof	NN1	NOUN	root
+</s>
+</head>
+<p>
+<s type="imp" transition="null">
+<figure rend="Euclid-X-60.png">
+</figure>
+Let	VV	let	VVB	VERB	root
+AB	NN	AB	NN1	NOUN	obj
+be	VB	be	VBI	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Second_Bimedial">
+second	JJ	second	ORD	ADJ	amod
+bimedial	NN	bimedial	NN1	NOUN	compound
+</ref>
+<ref target="https://proofwiki.org/wiki/Definition:Line_Segment">
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	xcomp
+</ref>
+divided	VVN	divide	VVN	VERB	acl
+into	IN	into	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+<ref target="https://proofwiki.org/wiki/Definition:Medial">
+medials	NNS	medial	NN2	NOUN	obl
+</ref>
+at	IN	at	PRP	ADP	case
+C	NN	C	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+Let	VV	let	VVB	VERB	root
+AC	NN	AC	NN1	NOUN	obj
+&gt;	SYM	&gt;	UNC	SYM	xcomp
+CB	NN	CB	NN1	NOUN	obl:npmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+Let	VV	let	VVB	VERB	root
+DE	NN	DE	NN1	NOUN	obj
+be	VB	be	VBI	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+rational	JJ	rational	AJ0	ADJ	amod
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	xcomp
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="establishment">
+Let	VV	let	VVB	VERB	root
+DEFG	NN	DEFG	NN1	NOUN	obj
+equal	JJ	equal	AJ0	ADJ	amod
+to	IN	to	PRP	ADP	case
+AB2	NN	AB2	NN0	NOUN	obl
+be	VB	be	VBI	AUX	aux:pass
+applied	VVN	apply	VVN	VERB	xcomp
+to	IN	to	PRP	ADP	case
+DE	NN	DE	NN1	NOUN	obl
+producing	VVG	produce	VVG	VERB	advcl
+DG	NN	DG	NN1	NOUN	obj
+as	IN	as	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+<ref target="https://proofwiki.org/wiki/Definition:Breadth">
+breadth	NN	breadth	NN1	NOUN	obl
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+It	PP	it	PNP	PRON	expl
+is	VBZ	be	VBZ	AUX	aux:pass
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	AUX	aux:pass
+demonstrated	VVN	demonstrate	VVN	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+DG	NN	DG	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Third_Binomial">
+third	JJ	third	ORD	ADJ	amod
+binomial	NN	binomial	NN1	NOUN	compound
+</ref>
+<ref target="https://proofwiki.org/wiki/Definition:Line_Segment">
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	ccomp
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="other" transition="zero">
+From	IN	from	PRP	ADP	case
+<ref target="https://proofwiki.org/wiki/Square_of_Sum">
+Proposition	NP	Proposition	NP0	PROPN	obl
+4	CD	4	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+II	CD	II	CRD	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Square	NN	square	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+Sum	NN	sum	NN1	NOUN	nmod
+</ref>
+:	:	:	PUN	PUNCT	punct
+AB2	NN	AB2	NN1	NOUN	nsubj
+=	SYM	=	UNC	SYM	appos
+AC2	NN	AC2	NN1	NOUN	obj
++	SYM	+	UNC	SYM	cc
+CB2	NN	CB2	NN1	NOUN	conj
++	SYM	+	UNC	SYM	cc
+2	CD	2	CRD	NUM	conj
+⋅	SYM	⋅	AJ0	SYM	case
+AC	NN	AC	NN1	NOUN	nmod
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+</s>
+<s type="imp" transition="establishment">
+Let	VV	let	VVB	VERB	root
+the	DT	the	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Rectangle">
+rectangle	NN	rectangle	NN1	NOUN	obj
+</ref>
+DH	NN	DH	NN1	NOUN	dep
+be	VB	be	VBI	AUX	aux:pass
+applied	VVN	apply	VVN	VERB	xcomp
+to	IN	to	PRP	ADP	case
+DE	NN	DE	NN1	NOUN	obl
+such	JJ	such	DT0	SCONJ	mark
+that	IN/that	that	CJT	SCONJ	mark
+DH	NN	DH	NN1	NOUN	nsubj
+=	SYM	=	UNC	SYM	advcl
+AC2	NN	AC2	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="rough-shift">
+Let	VV	let	VVB	VERB	root
+the	DT	the	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Rectangle">
+rectangle	NN	rectangle	NN1	NOUN	obj
+</ref>
+KL	NN	KL	NN1	NOUN	dep
+be	VB	be	VBI	AUX	aux:pass
+applied	VVN	apply	VVN	VERB	xcomp
+to	IN	to	PRP	ADP	case
+DE	NN	DE	NN1	NOUN	obl
+such	JJ	such	DT0	SCONJ	mark
+that	IN/that	that	CJT	SCONJ	mark
+KL	NN	KL	NN1	NOUN	nsubj
+=	SYM	=	UNC	SYM	advcl
+BC2	NN	BC2	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Then	RB	then	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Rectangle">
+rectangle	NN	rectangle	NN1	NOUN	nsubj
+</ref>
+MF	NN	MF	NN1	NOUN	dep
+is	VBZ	be	VBZ	AUX	cop
+equal	JJ	equal	AJ0	ADJ	root
+to	IN	to	PRP	ADP	case
+2	CD	2	CRD	NUM	obl
+⋅	SYM	⋅	AJ0	SYM	case
+AC	NN	AC	NN1	NOUN	nmod
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+Let	VV	let	VVB	VERB	root
+MG	NN	MG	NN0	NOUN	obj
+be	VB	be	VBI	AUX	aux:pass
+<ref target="https://proofwiki.org/wiki/Definition:Bisection">
+bisected	VVN	bisect	VVN	VERB	xcomp
+</ref>
+at	IN	at	PRP	ADP	case
+N	NN	N	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+Let	VV	let	VVB	VERB	root
+NO	NN	NO	NN1	NOUN	obj
+be	VB	be	VBI	AUX	aux:pass
+drawn	VVN	draw	VVN	VERB	xcomp
+<ref target="https://proofwiki.org/wiki/Definition:Parallel_Lines">
+parallel	RB	parallel	AV0	ADV	advmod
+</ref>
+to	IN	to	PRP	ADP	case
+ML	NN	ML	NN1	NOUN	obl
+(	(	(	PUL	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+GF	NN	GF	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	amod
+thing	NN	thing	NN1	NOUN	acl:relcl
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Therefore	RB	therefore	AV0	ADV	advmod
+each	DT	each	DT0	DET	nsubj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Rectangle">
+rectangles	NNS	rectangle	NN2	NOUN	nmod
+</ref>
+MO	NN	MO	NN1	NOUN	appos
+and	CC	and	CJC	CCONJ	cc
+NF	NN	NF	NN1	NOUN	conj
+equals	VVZ	equal	VVZ	VERB	root
+AC	NN	AC	NN1	NOUN	obj
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+We	PP	we	PNP	PRON	nsubj
+have	VHP	have	VHB	VERB	root
+that	IN/that	that	DT0	SCONJ	mark
+AB	NN	AB	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Second_Bimedial">
+second	JJ	second	ORD	ADJ	amod
+bimedial	NN	bimedial	NN1	NOUN	ccomp
+</ref>
+which	WDT	which	DTQ	PRON	nsubj:pass
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux:pass
+divided	VVN	divide	VVN	VERB	acl:relcl
+into	IN	into	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+<ref target="https://proofwiki.org/wiki/Definition:Medial">
+medials	NNS	medial	NN2	NOUN	obl
+</ref>
+at	IN	at	PRP	ADP	case
+C	NN	C	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Therefore	RB	therefore	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+by	IN	by	PRP	ADP	case
+definition	NN	definition	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+AC	NN	AC	NN1	NOUN	nsubj
+and	CC	and	CJC	CCONJ	cc
+CB	NN	CB	NN1	NOUN	conj
+are	VBP	be	VBB	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Medial_Line_Segment">
+medial	JJ	medial	AJ0	ADJ	amod
+straight	JJ	straight	AJ0	ADJ	amod
+lines	NNS	line	NN2	NOUN	root
+</ref>
+which	WDT	which	DTQ	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Commensurable_in_Square_Only">
+commensurable	JJ	commensurable	AJ0	ADJ	acl:relcl
+in	IN	in	PRP	ADP	case
+square	NN	square	NN1	NOUN	obl
+only	RB	only	AV0	ADV	advmod
+</ref>
+such	JJ	such	AJ0	SCONJ	mark
+that	IN/that	that	DT0	SCONJ	mark
+AC	NN	AC	NN1	NOUN	nsubj
+⋅	SYM	⋅	UNC	SYM	case
+CB	NP	CB	NP0	PROPN	nmod
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Medial_Area">
+medial	JJ	medial	AJ0	ADJ	amod
+</ref>
+<ref target="https://proofwiki.org/wiki/Definition:Rectangle">
+rectangle	NN	rectangle	NN1	NOUN	advcl
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Thus	RB	thus	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+by	IN	by	PRP	ADP	case
+definition	NN	definition	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+AC2	NN	AC2	NN1	NOUN	nsubj
+and	CC	and	CJC	CCONJ	cc
+CB2	NN	CB2	NN1	NOUN	conj
+are	VBP	be	VBB	AUX	cop
+also	RB	also	AV0	ADV	advmod
+<ref target="https://proofwiki.org/wiki/Definition:Medial_Area">
+medial	JJ	medial	AJ0	ADJ	root
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+From	IN	from	PRP	ADP	case
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Commensurability_of_Sum_of_Commensurable_Magnitudes">
+Proposition	NP	Proposition	NP0	PROPN	obl
+15	CD	15	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Commensurability	NN	commensurability	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+Sum	NN	sum	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Commensurable	JJ	commensurable	AJ0	ADJ	amod
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod
+</ref>
+and	CC	and	CJC	CCONJ	cc
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Straight_Line_Commensurable_with_Medial_Straight_Line_is_Medial/Porism">
+Porism	NP	Porism	NP0	PROPN	conj
+to	IN	to	PRP	ADP	case
+Proposition	NP	Proposition	NP0	PROPN	obl
+23	CD	23	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Straight	JJ	straight	AJ0	ADJ	amod
+Line	NN	line	NN1	NOUN	nsubj
+Commensurable	JJ	commensurable	AJ0	ADJ	acl
+with	IN	with	PRP	ADP	case
+Medial	JJ	medial	AJ0	ADJ	amod
+Straight	JJ	straight	AJ0	ADJ	amod
+Line	NN	line	NN1	NOUN	obl
+is	VBZ	be	VBZ	AUX	cop
+Medial	JJ	medial	AJ0	ADJ	appos
+</ref>
+it	PP	it	PNP	PRON	expl
+follows	VVZ	follow	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+DL	NN	DL	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Medial_Area">
+medial	JJ	medial	AJ0	ADJ	csubj
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+We	PP	we	PNP	PRON	nsubj
+have	VHP	have	VHB	VERB	root
+that	IN/that	that	DT0	SCONJ	mark
+DL	NN	DL	NN1	NOUN	nsubj:pass
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux:pass
+applied	VVN	apply	VVN	VERB	ccomp
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+rational	JJ	rational	AJ0	ADJ	amod
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	obl
+</ref>
+DE	NN	DE	NN1	NOUN	dep
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="rough-shift">
+Therefore	RB	therefore	AV0	ADV	advmod
+from	IN	from	PRP	ADP	case
+<ref target="https://proofwiki.org/wiki/Square_on_Medial_Straight_Line">
+Proposition	NP	Proposition	NP0	PROPN	obl
+22	CD	22	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Square	NN	square	NN1	NOUN	appos
+on	IN	on	PRP	ADP	case
+Medial	JJ	medial	AJ0	ADJ	amod
+Straight	JJ	straight	AJ0	ADJ	amod
+Line	NN	line	NN1	NOUN	nmod
+</ref>
+:	:	:	PUN	PUNCT	punct
+MD	NN	MD	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+rational	JJ	rational	AJ0	ADJ	root
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+incommensurable	JJ	incommensurable	AJ0	ADJ	conj
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+DE	NN	DE	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="smooth-shift">
+For	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	amod
+reason	NN	reason	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+MG	NN	MG	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+also	RB	also	AV0	ADV	advmod
+<ref target="https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+rational	JJ	rational	AJ0	ADJ	amod
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	root
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+incommensurable	JJ	incommensurable	AJ0	ADJ	conj
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+ML	NN	ML	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+equals	VVZ	equal	VVZ	VERB	acl:relcl
+DE	NN	DE	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Therefore	RB	therefore	AV0	ADV	advmod
+each	DT	each	DT0	DET	nsubj
+of	IN	of	PRF	ADP	case
+DM	NN	DM	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+MG	NN	MG	NN1	NOUN	conj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+rational	JJ	rational	AJ0	ADJ	amod
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	root
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+incommensurable	JJ	incommensurable	AJ0	ADJ	conj
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+DE	NN	DE	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="smooth-shift">
+We	PP	we	PNP	PRON	nsubj
+have	VHP	have	VHB	VERB	root
+that	IN/that	that	DT0	SCONJ	mark
+AC	NN	AC	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+incommensurable	JJ	incommensurable	AJ0	ADJ	ccomp
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+CB	NN	CB	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+Also	RB	also	AV0	ADV	advmod
+:	:	:	PUN	PUNCT	punct
+AC	NN	AC	NN1	NOUN	nsubj
+:	:	:	PUN	PUNCT	case
+CB	NN	CB	NN1	NOUN	nmod
+=	SYM	=	UNC	SYM	root
+AC2	NN	AC2	NN1	NOUN	obj
+:	:	:	PUN	PUNCT	case
+AC	NN	AC	NN1	NOUN	nmod
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+</s>
+<s type="decl" transition="smooth-shift">
+Therefore	RB	therefore	AV0	ADV	advmod
+by	IN	by	PRP	ADP	case
+<ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
+Proposition	NP	Proposition	NP0	PROPN	obl
+11	CD	11	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Commensurability	NN	commensurability	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+Elements	NNS	element	NN2	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Proportional	JJ	proportional	AJ0	ADJ	amod
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod
+</ref>
+:	:	:	PUN	PUNCT	punct
+AC2	NN	AC2	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable">
+incommensurable	JJ	incommensurable	AJ0	ADJ	root
+</ref>
+with	IN	with	PRP	ADP	case
+AC	NN	AC	NN1	NOUN	obl
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Hence	RB	hence	AV0	ADV	advmod
+by	IN	by	PRP	ADP	case
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Commensurability_is_Transitive_Relation">
+Proposition	NP	Proposition	NP0	PROPN	obl
+12	CD	12	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Commensurability	NN	commensurability	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+Transitive	JJ	transitive	AJ0	ADJ	amod
+Relation	NN	relation	NN1	NOUN	appos
+</ref>
+and	CC	and	CJC	CCONJ	cc
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Commensurable_Magnitudes_are_Incommensurable_with_Same_Magnitude">
+Proposition	NP	Proposition	NP0	PROPN	conj
+13	CD	13	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Commensurable	JJ	commensurable	AJ0	ADJ	amod
+Magnitudes	NNS	magnitude	NN2	NOUN	nsubj
+are	VBP	be	VBB	AUX	cop
+Incommensurable	JJ	incommensurable	AJ0	ADJ	appos
+with	IN	with	PRP	ADP	case
+Same	JJ	same	DT0	ADJ	amod
+Magnitude	NN	magnitude	NN1	NOUN	obl
+</ref>
+it	PP	it	PNP	PRON	expl
+follows	VVZ	follow	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+AC2	NN	AC2	NN1	NOUN	nsubj
++	SYM	+	UNC	SYM	cc
+CB2	NN	CB2	NN1	NOUN	conj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable">
+incommensurable	JJ	incommensurable	AJ0	ADJ	csubj
+</ref>
+with	IN	with	PRP	ADP	case
+2	CD	2	CRD	NUM	obl
+⋅	SYM	⋅	AJ0	SYM	case
+AC	NN	AC	NN1	NOUN	nmod
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+That	DT	that	DT0	PRON	advmod
+is	VBZ	be	VBZ	VERB	fixed
+:	:	:	PUN	PUNCT	punct
+DL	NN	DL	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable">
+incommensurable	JJ	incommensurable	AJ0	ADJ	root
+</ref>
+with	IN	with	PRP	ADP	case
+MF	NN	MF	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+So	RB	so	AV0	ADV	advmod
+from	IN	from	PRP	ADP	case
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Areas_of_Triangles_and_Parallelograms_Proportional_to_Base">
+Proposition	NP	Proposition	NP0	PROPN	obl
+1	CD	1	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+VI	CD	VI	CRD	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Areas	NNS	area	NN2	NOUN	appos
+of	IN	of	PRF	ADP	case
+Triangles	NNS	triangle	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+Parallelograms	NNS	parallelogram	NN2	NOUN	conj
+Proportional	JJ	proportional	AJ0	ADJ	acl
+to	IN	to	PRP	ADP	case
+Base	NN	base	NN1	NOUN	obl
+</ref>
+and	CC	and	CJC	CCONJ	cc
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
+Proposition	NP	Proposition	NP0	PROPN	conj
+11	CD	11	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Commensurability	NN	commensurability	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+Elements	NNS	element	NN2	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Proportional	JJ	proportional	AJ0	ADJ	amod
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod
+</ref>
+it	PP	it	PNP	PRON	expl
+follows	VVZ	follow	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+DM	NN	DM	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+incommensurable	JJ	incommensurable	AJ0	ADJ	csubj
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+MG	NN	MG	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+But	CC	but	CJC	CCONJ	cc
+DM	NN	DM	NN1	NOUN	nsubj
+and	CC	and	CJC	CCONJ	cc
+MG	NN	MG	NN1	NOUN	conj
+are	VBP	be	VBB	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+rational	JJ	rational	AJ0	ADJ	amod
+straight	JJ	straight	AJ0	ADJ	amod
+lines	NNS	line	NN2	NOUN	root
+</ref>
+which	WDT	which	DTQ	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+incommensurable	JJ	incommensurable	AJ0	ADJ	acl:relcl
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+each	DT	each	DT0	DET	obl
+other	JJ	other	AJ0	ADJ	fixed
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Therefore	RB	therefore	AV0	ADV	advmod
+by	IN	by	PRP	ADP	case
+definition	NN	definition	NN1	NOUN	obl
+DG	NN	DG	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Binomial_(Euclidean)">
+binomial	JJ	binomial	AJ0	ADJ	root
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+It	PP	it	PNP	PRON	expl
+remains	VVZ	remain	VVZ	VERB	root
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	AUX	aux:pass
+proved	VVN	prove	VVN	VERB	csubj
+that	IN/that	that	CJT	SCONJ	mark
+DG	NN	DG	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Third_Binomial">
+third	JJ	third	ORD	ADJ	amod
+binomial	NN	binomial	NN1	NOUN	compound
+</ref>
+<ref target="https://proofwiki.org/wiki/Definition:Line_Segment">
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	csubj:pass
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+From	IN	from	PRP	ADP	case
+<ref target="https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
+Lemma	NP	Lemma	NP0	PROPN	obl
+to	IN	to	PRP	ADP	case
+Proposition	NP	Proposition	NP0	PROPN	nmod
+60	CD	60	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Square	NN	square	NN1	NOUN	appos
+on	IN	on	PRP	ADP	case
+Binomial	JJ	binomial	AJ0	ADJ	compound
+Straight	JJ	straight	AJ0	ADJ	amod
+Line	NN	line	NN1	NOUN	nmod
+applied	VVN	apply	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+Rational	JJ	rational	AJ0	ADJ	amod
+Straight	JJ	straight	AJ0	ADJ	amod
+Line	NN	line	NN1	NOUN	obl
+</ref>
+:	:	:	PUN	PUNCT	punct
+AC2	NN	AC2	NN1	NOUN	nsubj
++	SYM	+	UNC	SYM	cc
+CB2	NN	CB2	NN1	NOUN	conj
+&gt;	SYM	&gt;	UNC	SYM	root
+2	CD	2	CRD	NUM	obl:npmod
+⋅	SYM	⋅	AJ0	SYM	case
+AC	NN	AC	NN1	NOUN	nmod
+⋅	SYM	⋅	UNC	SYM	case
+CB	NN	CB	NN1	NOUN	nmod
+Therefore	RB	therefore	AV0	ADV	advmod
+DL	NN	DL	NN1	NOUN	nsubj
+&gt;	SYM	&gt;	UNC	SYM	parataxis
+MF	NN	MF	NN1	NOUN	obl:npmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+From	IN	from	PRP	ADP	case
+<ref target="https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
+Proposition	NP	Proposition	NP0	PROPN	obl
+1	CD	1	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+VI	CD	VI	CRD	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Areas	NNS	area	NN2	NOUN	appos
+of	IN	of	PRF	ADP	case
+Triangles	NNS	triangle	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+Parallelograms	NNS	parallelogram	NN2	NOUN	conj
+Proportional	JJ	proportional	AJ0	ADJ	acl
+to	IN	to	PRP	ADP	case
+Base	NN	base	NN1	NOUN	obl
+</ref>
+:	:	:	PUN	PUNCT	punct
+DM	NN	DM	NN1	NOUN	nsubj
+&gt;	SYM	&gt;	UNC	SYM	root
+MG	NN	MG	NN0	NOUN	obl:npmod
+</s>
+<s type="decl" transition="null">
+Since	IN	since	CJS	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+AC2	NN	AC2	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Commensurable">
+commensurable	JJ	commensurable	AJ0	ADJ	advcl
+</ref>
+with	IN	with	PRP	ADP	case
+CB2	NN	CB2	NN1	NOUN	obl
+it	PP	it	PNP	PRON	expl
+follows	VVZ	follow	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+DH	NN	DH	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Commensurable">
+commensurable	JJ	commensurable	AJ0	ADJ	csubj
+</ref>
+with	IN	with	PRP	ADP	case
+KL	NN	KL	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+So	RB	so	AV0	ADV	advmod
+from	IN	from	PRP	ADP	case
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Areas_of_Triangles_and_Parallelograms_Proportional_to_Base">
+Proposition	NP	Proposition	NP0	PROPN	obl
+1	CD	1	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+VI	CD	VI	CRD	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Areas	NNS	area	NN2	NOUN	appos
+of	IN	of	PRF	ADP	case
+Triangles	NNS	triangle	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+Parallelograms	NNS	parallelogram	NN2	NOUN	conj
+Proportional	JJ	proportional	AJ0	ADJ	acl
+to	IN	to	PRP	ADP	case
+Base	NN	base	NN1	NOUN	obl
+</ref>
+and	CC	and	CJC	CCONJ	cc
+:	:	:	PUN	PUNCT	punct
+<ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
+Proposition	NN	Proposition	NN1	NOUN	conj
+11	CD	11	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Commensurability	NN	commensurability	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+Elements	NNS	element	NN2	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Proportional	JJ	proportional	AJ0	ADJ	amod
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod
+</ref>
+it	PP	it	PNP	PRON	expl
+follows	VVZ	follow	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+DK	NN	DK	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Commensurable_in_Length">
+commensurable	JJ	commensurable	AJ0	ADJ	ccomp
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+KM	NN	KM	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Also	RB	also	AV0	ADV	advmod
+DK	NN	DK	NN1	NOUN	nsubj
+⋅	SYM	⋅	UNC	SYM	case
+KM	NN	KM	NN1	NOUN	nmod
+=	SYM	=	UNC	SYM	root
+MN2	NN	MN2	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Thus	RB	thus	AV0	ADV	advmod
+from	IN	from	PRP	ADP	case
+<ref target="https://proofwiki.org/wiki/Condition_for_Commensurability_of_Roots_of_Quadratic_Equation/Lemma">
+Lemma	NP	Lemma	NP0	PROPN	obl
+to	IN	to	PRP	ADP	case
+Proposition	NP	Proposition	NP0	PROPN	nmod
+17	CD	17	CRD	NUM	dep
+of	IN	of	PRF	ADP	case
+Book	NP	Book	NP0	PROPN	nmod
+X	CD	X	ZZ0	NUM	dep
+:	:	:	PUN	PUNCT	punct
+Condition	NN	condition	NN1	NOUN	appos
+for	IN	for	PRP	ADP	case
+Commensurability	NN	commensurability	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Roots	NNS	root	NN2	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Quadratic	JJ	quadratic	AJ0	ADJ	amod
+Equation	NN	equation	NN1	NOUN	nmod
+</ref>
+:	:	:	PUN	PUNCT	punct
+DM2	NN	DM2	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+greater	JJR	great	AJC	ADJ	root
+than	IN	than	CJS	ADP	case
+MG2	NN	MG2	NN0	NOUN	obl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Square_(Geometry)">
+square	NN	square	NN1	NOUN	obl
+</ref>
+on	IN	on	PRP	ADP	case
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Line_Segment">
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	nmod
+</ref>
+<ref target="https://proofwiki.org/wiki/Definition:Commensurable_in_Length">
+commensurable	JJ	commensurable	AJ0	ADJ	acl
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+DM	NN	DM	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="other" transition="null">
+Also	RB	also	AV0	ADV	root
+:	:	:	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Neither	CC	neither	AV0	CCONJ	cc:preconj
+DM	NN	DM	NN1	NOUN	nsubj
+nor	CC	nor	CJC	CCONJ	cc
+MG	NN	MG	NN1	NOUN	conj
+is	VBZ	be	VBZ	AUX	cop
+<ref target="https://proofwiki.org/wiki/Definition:Commensurable_in_Length">
+commensurable	JJ	commensurable	AJ0	ADJ	root
+in	IN	in	PRP	ADP	case
+length	NN	length	NN1	NOUN	obl
+</ref>
+with	IN	with	PRP	ADP	case
+DE	NN	DE	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Therefore	RB	therefore	AV0	ADV	advmod
+DG	NN	DG	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<ref target="https://proofwiki.org/wiki/Definition:Third_Binomial">
+third	JJ	third	ORD	ADJ	amod
+binomial	JJ	binomial	AJ0	ADJ	compound
+</ref>
+<ref target="https://proofwiki.org/wiki/Definition:Line_Segment">
+straight	JJ	straight	AJ0	ADJ	amod
+line	NN	line	NN1	NOUN	root
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+■	SYM	■	NP0	PUNCT	punct
+</s>
+</p>
+</text>

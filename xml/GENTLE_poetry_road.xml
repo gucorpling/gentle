@@ -1,0 +1,206 @@
+<text id="GENTLE_poetry_road" author="Robert Frost" dateCollected="2022-11-12" dateCreated="2021-05-30" dateModified="2021-05-30"  shortTitle="road" sourceURL="https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken" speakerCount="0" speakerList="none" title="The Road Not Taken" type="poetry">
+<p>
+<s type="decl" transition="establishment">
+<l n="1"/>
+Two	CD	two	CRD	NUM	nummod
+roads	NNS	road	NN2	NOUN	nsubj
+diverged	VVN	diverge	VVN	VERB	root
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+yellow	JJ	yellow	AJ0	ADJ	amod
+wood	NN	wood	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+<l n="2"/>
+And	CC	and	CJC	CCONJ	cc
+sorry	JJ	sorry	AJ0	ADJ	acl
+I	PP	I	PNP	PRON	nsubj
+could	MD	could	VM0	AUX	aux
+not	RB	not	XX0	PART	advmod
+travel	VV	travel	VVI	VERB	ccomp
+both	DT	both	AV0	DET	advmod
+<l n="3"/>
+And	CC	and	CJC	CCONJ	cc
+be	VB	be	VBI	AUX	cop
+one	CD	one	CRD	NUM	nummod
+traveler	NN	traveler	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+long	RB	long	AV0	ADV	advmod
+I	PP	I	PNP	PRON	nsubj
+stood	VVD	stand	VVD	VERB	conj
+<l n="4"/>
+And	CC	and	CJC	CCONJ	cc
+looked	VVD	look	VVD	VERB	conj
+down	RP	down	AVP	ADP	compound:prt
+one	CD	one	PNI	NUM	obj
+as	RB	as	AV0	ADV	advmod
+far	RB	far	AV0	ADV	advmod
+as	IN	as	CJS	SCONJ	mark
+I	PP	I	PNP	PRON	nsubj
+could	MD	could	VM0	AUX	advcl
+<l n="5"/>
+To	IN	to	PRP	ADP	case
+where	WRB	where	CJS	ADV	obl
+it	PP	it	PNP	PRON	nsubj
+bent	VVD	bend	VVD	VERB	advcl:relcl
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+undergrowth	NN	undergrowth	NN1	NOUN	obl
+;	:	;	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="other" transition="null">
+<l n="6"/>
+Then	RB	then	AV0	ADV	advmod
+took	VVD	take	VVD	VERB	root
+the	DT	the	AT0	DET	det
+other	JJ	other	AJ0	ADJ	obj
+,	,	,	PUN	PUNCT	punct
+as	RB	as	CJS	ADV	advmod
+just	RB	just	AV0	ADV	amod
+as	IN	as	CJS	ADP	case
+fair	JJ	fair	AJ0	ADJ	obl
+,	,	,	PUN	PUNCT	punct
+<l n="7"/>
+And	CC	and	CJC	CCONJ	cc
+having	VHG	have	VHG	VERB	conj
+perhaps	RB	perhaps	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+better	JJR	good	AJC	ADJ	amod
+claim	NN	claim	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+<l n="8"/>
+Because	IN	because	CJS	SCONJ	mark
+it	PP	it	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+grassy	JJ	grassy	AJ0	ADJ	advcl
+and	CC	and	CJC	CCONJ	cc
+wanted	VVD	want	VVD	VERB	conj
+wear	NN	wear	NN1	NOUN	obj
+;	SENT	;	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<l n="9"/>
+Though	IN	though	CJS	SCONJ	mark
+as	IN	as	PRP	ADP	case
+for	IN	for	PRP	ADP	case
+that	DT	that	DT0	PRON	obl
+the	DT	the	AT0	DET	det
+passing	NN	passing	NN1	NOUN	nsubj
+there	RB	there	EX0	ADV	advmod
+<l n="10"/>
+Had	VHD	have	VHD	AUX	aux
+worn	VVN	wear	VVN	VERB	root
+them	PP	they	PNP	PRON	obj
+really	RB	really	AV0	ADV	advmod
+about	RB	about	PRP	ADV	advmod
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	obl:npmod
+,	,	,	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+<l n="11"/>
+And	CC	and	CJC	CCONJ	cc
+both	DT	both	AV0	DET	nsubj
+that	DT	that	DT0	DET	det
+morning	NN	morning	NN1	NOUN	obl:tmod
+equally	RB	equally	AV0	ADV	advmod
+lay	VVD	lie	VVD	VERB	root
+<l n="12"/>
+In	IN	in	PRP	ADP	case
+leaves	NNS	leave	NN2	NOUN	obl
+no	DT	no	AT0	DET	det
+step	NN	step	NN1	NOUN	nsubj
+had	VHD	have	VHD	AUX	aux
+trodden	VVN	tread	VVN	VERB	acl:relcl
+black	JJ	black	AJ0	ADJ	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+<l n="13"/>
+Oh	UH	oh	ITJ	INTJ	discourse
+,	,	,	PUN	PUNCT	punct
+I	PP	I	PNP	PRON	nsubj
+kept	VVD	keep	VVD	VERB	root
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	obj
+for	IN	for	PRP	ADP	case
+another	DT	another	DT0	DET	det
+day	NN	day	NN1	NOUN	obl
+!	SENT	!	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+<l n="14"/>
+Yet	CC	yet	AV0	CCONJ	cc
+knowing	VVG	know	VVG	VERB	advcl
+how	WRB	how	AVQ	ADV	obj
+way	NN	way	NN1	NOUN	nsubj
+leads	VVZ	lead	VVZ	VERB	acl:relcl
+on	RP	on	AVP	ADP	compound:prt
+to	IN	to	PRP	ADP	case
+way	NN	way	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+<l n="15"/>
+I	PP	I	PNP	PRON	nsubj
+doubted	VVD	doubt	VVD	VERB	root
+if	IN	if	CJS	SCONJ	mark
+I	PP	I	PNP	PRON	nsubj
+should	MD	should	VM0	AUX	aux
+ever	RB	ever	AV0	ADV	advmod
+come	VV	come	VVI	VERB	ccomp
+back	RB	back	AVP	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="continue">
+<l n="16"/>
+I	PP	I	PNP	PRON	nsubj
+shall	MD	shall	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux
+telling	VVG	tell	VVG	VERB	root
+this	DT	this	DT0	PRON	obj
+with	IN	with	PRP	ADP	case
+a	DT	a	AT0	DET	det
+sigh	NN	sigh	NN1	NOUN	obl
+<l n="17"/>
+Somewhere	RB	somewhere	AV0	ADV	advmod
+ages	NNS	age	NN2	NOUN	obl:tmod
+and	CC	and	CJC	CCONJ	cc
+ages	NNS	age	NN2	NOUN	conj
+hence	RB	hence	AV0	ADV	advmod
+:	:	:	PUN	PUNCT	punct
+<l n="18"/>
+Two	CD	two	CRD	NUM	nummod
+roads	NNS	road	NN2	NOUN	nsubj
+diverged	VVN	diverge	VVN	VERB	parataxis
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+wood	NN	wood	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+I	PP	I	PNP	PRON	reparandum
+—	:	—	UNC	PUNCT	punct
+<l n="19"/>
+I	PP	I	PNP	PRON	nsubj
+took	VVD	take	VVD	VERB	conj
+the	DT	the	AT0	DET	det
+one	NN	one	NN1	NOUN	obj
+less	RBR	less	AV0	ADV	advmod
+travelled	VVN	travel	VVN	VERB	acl
+by	IN	by	PRP	ADP	obl
+,	,	,	PUN	PUNCT	punct
+<l n="20"/>
+And	CC	and	CJC	CCONJ	cc
+that	DT	that	CJT	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+made	VVN	make	VVN	VERB	conj
+all	PDT	all	DT0	DET	det:predet
+the	DT	the	AT0	DET	det
+difference	NN	difference	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+</text>

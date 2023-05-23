@@ -1,0 +1,486 @@
+<text id="GENTLE_threat_malik" author="Malik, Abdel-Jabbor" dateCollected="2022-11-14" dateCreated="1990-09-03" dateModified="1990-09-03" shortTitle="malik" sourceURL="https://casetext.com/case/us-v-malik-9" speakerCount="0" speakerList="none" title="United States v. Malik, 16 F.3d 45, 48, 1994 U.S. App. LEXIS 2180, *4-6 (2d Cir. N.Y. February 7, 1994)" type="threat">
+<p>
+<s type="decl" transition="establishment">
+I	PP	I	PNP	PRON	nsubj
+do	VVP	do	VD	AUX	aux
+not	RB	not	XX0	PART	advmod
+know	VV	know	VVI	VERB	root
+what	WP	what	PNQ	PRON	xcomp
+this	DT	this	DT0	DET	det
+Court	NN	court	NN1	NOUN	nsubj
+<sic ana="deems">
+deem	VVZ	deem	VVZ	VERB	ccomp
+</sic>
+it	PP	it	PNP	PRON	obj
+is	VBZ	be	VBZ	AUX	cop
+but	CC	but	CJC	CCONJ	cc
+unless	IN	unless	CJS	SCONJ	mark
+this	DT	this	DT0	DET	det
+Case	NN	case	NN1	NOUN	nsubj
+<sic ana="reverses">
+reverse	VVZ	reverse	VVZ	VERB	advcl
+</sic>
+<sic ana="itself">
+it	PP	itself	PNP	PRON	obj
+self	PP	_	PNP	X	goeswith
+</sic>
+as	IN	as	CJS	SCONJ	mark
+is	VBZ	be	VBZ	AUX	cop
+<sic ana="just">
+justl	RB	just	NN1	ADV	advmod
+</sic>
+due	JJ	due	AJ0	ADJ	advcl
+<sic ana="then">
+than	RB	then	CJS	ADV	advmod
+</sic>
+a	DT	a	AT0	DET	det
+White	JJ	white	AJ0	ADJ	amod
+Folks	NNS	folk	NN2	NOUN	compound
+favor	NN	favor	NN1	NOUN	obl
+to	IN	to	PRP	ADP	case
+my	PP$	my	DPS	PRON	nmod:poss
+person	NN	person	NN1	NOUN	obl
+upon	IN	upon	PRP	ADP	case
+my	PP$	my	DPS	PRON	nmod:poss
+prison	NN	prison	NN1	NOUN	compound
+soon	RB	soon	AV0	ADV	advmod
+release	NN	release	NN1	NOUN	obl
+two	CD	two	CRD	NUM	nummod
+White	JJ	white	AJ0	ADJ	amod
+American	NP	American	NP0	PROPN	nsubj
+richly	RB	richly	AV0	ADV	advmod
+having	VHG	have	VHG	VERB	acl
+jews	NPS	Jew	NP0	PROPN	nmod:poss
+money	NN	money	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+20	CD	20	CRD	NUM	compound
+thousand	CD	thousand	CRD	NUM	nummod
+dollars	NNS	dollar	NN2	NOUN	nmod
+will	MD	will	VM0	AUX	aux
+become	VV	become	VVI	VERB	acl:relcl
+taken	VVN	take	VVN	VERB	xcomp
+from	IN	from	PRP	ADP	case
+them	PP	they	PNP	PRON	obl
+for	IN	for	PRP	ADP	case
+you	PP$	your	DPS	PRON	nmod:poss
+Jewish	JJ	Jewish	AJ0	ADJ	amod
+Judges	NNS	judge	NN2	NOUN	compound
+action	NN	action	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+unfairness	NN	unfairness	NN1	NOUN	nmod
+in	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Court	NN	court	NN1	NOUN	nmod
+</s>
+<s type="decl" transition="establishment">
+My	PP$	my	DPS	PRON	nmod:poss
+criminal	JJ	criminal	AJ0	ADJ	amod
+rap	NN	rap	NN1	NOUN	compound
+sheet	NN	sheet	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+no	DT	no	AT0	DET	det
+joke	NN	joke	NN1	NOUN	root
+I	PP	I	PNP	PRON	nsubj:outer
+'m	VBP	be	VBB	AUX	cop
+<sic ana="known">
+know	VVN	know	VVN	VERB	parataxis
+</sic>
+in	IN	in	PRP	ADP	case
+prison	NN	prison	NN1	NOUN	obl
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+store	NN	store	NN1	NOUN	compound
+holdup	NN	holdup	NN1	NOUN	obl
+on	IN	on	PRP	ADP	case
+blacks	NNS	black	NN2	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+a	DT	a	AT0	DET	det
+black	NN	black	NN1	NOUN	conj
+and	CC	and	CJC	CCONJ	cc
+if	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	discourse
+White	JJ	white	AJ0	ADJ	amod
+American	JJ	American	AJ0	ADJ	amod
+Jewish	JJ	Jewish	AJ0	ADJ	amod
+Judges	NNS	judge	NN2	NOUN	nsubj
+<w>
+wan	VVP	want	VVB	VERB	advcl
+na	TO	to	TO0	PART	mark
+</w>
+act	NP	act	NP0	VERB	xcomp
+racially	RB	racially	AV0	ADV	advmod
+motivated	JJ	motivated	AJ0	ADJ	xcomp
+with	IN	with	PRP	ADP	case
+justice	NN	justice	NN1	NOUN	obl
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+double	JJ	double	AJ0	ADJ	advmod
+sided	JJ	sided	AJ0	ADJ	amod
+way	NN	way	NN1	NOUN	obl
+dropping	VVG	drop	VVG	VERB	advcl
+the	DT	the	AT0	DET	det
+"	``	''	PUQ	PUNCT	punct
+I	NN	I	NN1	NOUN	obj
+"	''	''	PUQ	PUNCT	punct
+;	:	;	PUN	PUNCT	punct
+"	``	''	PUQ	PUNCT	punct
+C	NN	C	NN1	NOUN	conj
+"	''	''	PUQ	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+"	``	''	PUQ	PUNCT	punct
+E	NN	E	NN1	NOUN	conj
+"	''	''	PUQ	PUNCT	punct
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Word	NN	word	NN1	NOUN	nmod
+Justice	NN	justice	NN1	NOUN	appos
+apparently	RB	apparently	AV0	ADV	advmod
+raising	VVG	raise	VVG	VERB	advcl
+the	DT	the	AT0	DET	det
+word	NN	word	NN1	NOUN	obj
+"	``	''	PUQ	PUNCT	punct
+Just	JJ	just	AJ0	ADJ	appos
+"	''	''	PUQ	PUNCT	punct
+well	UH	well	ITJ	INTJ	discourse
+then	RB	then	AV0	ADV	advmod
+so	RB	so	AV0	ADV	advmod
+become	VV	become	VVB	VERB	conj
+it	PP	it	PNP	PRON	xcomp
+<sic ana="I">
+Ii	PP	I	PNP	PRON	nsubj
+</sic>
+'ll	MD	will	VM0	AUX	aux
+play	VV	play	VVI	VERB	parataxis
+likewise	RB	likewise	AV0	ADV	advmod
+with	IN	with	PRP	ADP	case
+you	PP	you	PNP	PRON	vocative
+judges	NNS	judge	NN2	NOUN	obl
+from	IN	from	PRP	ADP	case
+a	DT	a	AT0	DET	det
+Koranic	NP	Koranic	NP0	ADJ	amod
+and	CC	and	CJC	CCONJ	cc
+<sic ana="Torah">
+Torooh	NP	Torah	NP0	PROPN	conj
+</sic>
+perspective	NN	perspective	NN1	NOUN	obl
+<w>
+that	DT	that	CJT	PRON	nsubj
+s	VBZ	be	ZZ0	AUX	cop
+</w>
+an	DT	a	AT0	DET	det
+eye	NN	eye	NN1	NOUN	parataxis
+for	IN	for	PRP	ADP	case
+an	DT	a	AT0	DET	det
+eye	NN	eye	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+life	NN	life	NN1	NOUN	conj
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+life	NN	life	NN1	NOUN	nmod
+which	WDT	which	DTQ	PRON	nsubj
+means	VVZ	mean	VVZ	VERB	acl:relcl
+if	IN	if	CJS	SCONJ	mark
+just	JJ	just	AJ0	ADJ	amod
+treatment	NN	treatment	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+not	RB	not	XX0	PART	advmod
+actioned	VVN	action	VVN	VERB	advcl
+in	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+case	NN	case	NN1	NOUN	obl
+if	IN	if	CJS	SCONJ	mark
+I	PP	I	PNP	PRON	nsubj
+can	MD	can	VM0	AUX	aux
+<sic ana="arrange">
+arranged	VV	arrange	VVD	VERB	advcl
+</sic>
+sooner	RBR	soon	AV0	ADV	advmod
+than	IN	than	CJS	ADP	case
+upon	IN	upon	PRP	ADP	reparandum
+soon	RB	soon	AV0	ADV	obl
+prison	NN	prison	NN1	NOUN	compound
+discharge	NN	discharge	NN1	NOUN	obj
+two	CD	two	CRD	NUM	nummod
+-	HYPH	-	PUN	PUNCT	punct
+American	JJ	American	AJ0	ADJ	amod
+Jewish	JJ	Jewish	AJ0	ADJ	amod
+rich	JJ	rich	AJ0	ADJ	amod
+person	NN	person	NN1	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+become	VV	become	VVI	VERB	ccomp
+armed	JJ	armed	AJ0	ADJ	compound
+robbed	VVN	rob	VVN	VERB	xcomp
+of	IN	of	PRF	ADP	case
+20	CD	20	CRD	NUM	compound
+thousand	CD	thousand	CRD	NUM	nummod
+cash	NN	cash	NN1	NOUN	compound
+dollars	NNS	dollar	NN2	NOUN	obl
+in	IN	in	PRP	ADP	case
+replace	NN	replace	NN1	NOUN	obl
+for	IN	for	PRP	ADP	case
+my	PP$	my	DPS	PRON	nmod:poss
+case	NN	case	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Right	JJ	right	AJ0	ADJ	discourse
+Courts	NNS	court	NN2	NOUN	nsubj
+rob	VVP	rob	VVB	VERB	root
+me	PP	I	PNP	PRON	obj
+I	PP	I	PNP	PRON	nsubj:outer
+rob	VVP	rob	VVB	VERB	parataxis
+Court	NN	court	NN1	NOUN	obj
+citizen	NN	citizen	NN1	NOUN	nsubj
+sounds	VVZ	sound	VVZ	VERB	parataxis
+reasonable	JJ	reasonable	AJ0	ADJ	xcomp
+to	IN	to	PRP	ADP	case
+me	PP	I	PNP	PRON	obl
+and	CC	and	CJC	CCONJ	cc
+just	RB	just	AV0	ADV	advmod
+as	RB	as	AV0	ADV	advmod
+wrong	JJ	wrong	AJ0	ADJ	conj
+as	IN	as	CJS	ADP	case
+Court	NN	court	NN1	NOUN	obl
+in	IN	in	PRP	SCONJ	mark
+handling	VVG	handle	VVG	VERB	advcl
+this	DT	this	DT0	DET	det
+case	NN	case	NN1	NOUN	obj
+at	IN	at	PRP	ADP	case
+issue	NN	issue	NN1	NOUN	nmod
+wrongly	RB	wrongly	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="sub" transition="continue">
+If	IN	if	CJS	SCONJ	mark
+my	PP$	my	DPS	PRON	nmod:poss
+case	NN	case	NN1	NOUN	nsubj
+had	VHD	have	VHD	VERB	advcl
+no	DT	no	AT0	DET	det
+merit	NN	merit	NN1	NOUN	obj
+I	PP	I	PNP	PRON	nsubj
+'ed	MD	would	AV0	AUX	aux
+have	VH	have	VHB	VERB	root
+know	DT	no	VVB	DET	det
+objection	NN	objection	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+dismissal	NN	dismissal	NN1	NOUN	compound
+treatment	NN	treatment	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="continue">
+My	PP$	my	DPS	PRON	nmod:poss
+case	NN	case	NN1	NOUN	nsubj
+has	VHZ	have	VHZ	VERB	root
+merit	NN	merit	NN1	NOUN	obj
+so	IN	so	PRP	ADV	advmod
+unless	IN	unless	CJS	SCONJ	mark
+a	DT	a	AT0	DET	det
+just	JJ	just	AJ0	ADJ	amod
+treatment	NN	treatment	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+done	VVN	do	VDN	VERB	advcl
+by	IN	by	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Court	NN	court	NN1	NOUN	obl:agent
+with	IN	with	PRP	ADP	case
+it	PP	it	PNP	PRON	obl
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+name	NN	name	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+<sic ana="principle">
+principal	NN	principle	NN1	NOUN	nmod
+</sic>
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+case	NN	case	NN1	NOUN	nmod
+at	IN	at	PRP	ADP	case
+issue	NN	issue	NN1	NOUN	nmod
+two	CD	two	CRD	NUM	nummod
+White	JJ	white	AJ0	ADJ	amod
+American	JJ	American	AJ0	ADJ	amod
+Jewish	JJ	Jewish	AJ0	ADJ	amod
+folks	NNS	folk	NN2	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+become	VV	become	VVI	VERB	parataxis
+dealt	VVN	deal	VVN	VERB	xcomp
+with	IN	with	PRP	ADP	obl
+now	UH	now	ITJ	INTJ	discourse
+take	VV	take	VVB	VERB	parataxis
+me	PP	I	PNP	PRON	obj
+lightly	RB	lightly	AV0	ADV	advmod
+if	IN	if	CJS	SCONJ	mark
+the	DT	the	AT0	DET	det
+Court	NP	Court	NP0	PROPN	nsubj
+will	MD	will	VM0	AUX	advcl
+<sic ana="and">
+an	CC	and	AV0	CCONJ	cc
+</sic>
+see	VV	see	VVI	VERB	conj
+wo	MD	will	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+justice	NN	justice	NN1	NOUN	nsubj
+become	VV	become	VVB	VERB	ccomp
+done	VVN	do	VDN	VERB	xcomp
+even	RB	even	AV0	ADV	advmod
+if	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	dep
+Judges	NNS	judge	NN2	NOUN	nsubj
+never	RB	never	AV0	ADV	advmod
+<sic ana="hear">
+here	VV	hear	AV0	VERB	advcl
+</sic>
+of	IN	of	PRF	ADP	case
+it	PP	it	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+And	CC	and	CJC	CCONJ	cc
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+two	CD	two	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	obl
+my	PP$	my	DPS	PRON	nmod:poss
+person	NN	person	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	aux
+<w>
+gon	VVG	go	VVG	VERB	root
+na	TO	to	TO0	PART	mark
+</w>
+submit	VV	submit	VVI	VERB	xcomp
+5	CD	5	CRD	NUM	nummod
+lawsuits	NNS	lawsuit	NN2	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Northern	NP	Northern	NP0	ADJ	amod
+District	NP	District	NP0	PROPN	compound
+Court	NP	Court	NP0	PROPN	obl
+although	IN	although	CJS	SCONJ	mark
+legitimate	RB	legitimate	AJ0	ADV	advcl
+I	PP	I	PNP	PRON	nsubj
+really	RB	really	AV0	ADV	advmod
+do	VVP	do	VD	AUX	aux
+not	RB	not	XX0	PART	advmod
+have	VH	have	VHI	VERB	advcl
+'ta	TO	to	TO0	PART	mark
+do	VV	do	VDB	VERB	xcomp
+so	RB	so	AV0	ADV	advmod
+but	CC	but	CJC	CCONJ	cc
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="imp" transition="retain">
+Call	VV	call	VVB	VERB	root
+the	DT	the	AT0	DET	det
+Prison	NN	prison	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+F.B.I.	NP	F.B.I.	NP0	PROPN	compound
+Inspector	NP	Inspector	NP0	PROPN	conj
+General	JJ	General	AJ0	ADJ	amod
+;	:	;	PUN	PUNCT	punct
+Governor	NN	governor	NN1	NOUN	conj
+;	:	;	PUN	PUNCT	punct
+Police	NN	police	NN1	NOUN	conj
+Whoever	WP	whoever	PNQ	PRON	conj
+my	PP$	my	DPS	PRON	nmod:poss
+will	NN	will	NN1	NOUN	nsubj
+shall	MD	shall	VM0	AUX	aux
+become	VV	become	VVI	VERB	acl:relcl
+done	VVN	do	VDN	VERB	xcomp
+whether	IN	whether	CJS	SCONJ	mark
+this	DT	this	DT0	DET	det
+Court	NN	court	NN1	NOUN	nsubj
+believe	VV	believe	VVB	VERB	dislocated
+it	PP	it	PNP	PRON	obj
+or	CC	or	CJC	CCONJ	cc
+not	RB	not	XX0	PART	conj
+<w>
+that	DT	that	CJT	PRON	nsubj
+s	VBZ	be	ZZ0	AUX	cop
+</w>
+up	IN	up	PRP	ADP	case
+to	IN	to	PRP	ADP	case
+Judges	NNS	judge	NN2	NOUN	parataxis
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="zero">
+<sic ana="Pharaoh">
+Pharoah	NP	Pharaoh	NP0	PROPN	nsubj
+</sic>
+and	CC	and	CJC	CCONJ	cc
+his	PP$	his	DPS	PRON	nmod:poss
+clique	NN	clique	NN1	NOUN	conj
+Were	VBP	be	VBD	AUX	aux:pass
+intoxicated	VVN	intoxicate	VVN	VERB	root
+with	IN	with	PRP	ADP	case
+pride	NN	pride	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+race	NN	race	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+pride	NN	pride	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+material	JJ	material	AJ0	ADJ	amod
+civilization	NN	civilization	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+grievously	RB	grievously	AV0	ADV	advmod
+oppressed	VVD	oppress	VVD	VERB	conj
+the	DT	the	AT0	DET	det
+<sic ana="Israelites">
+israelities	NPS	Israelite	NP0	PROPN	obj
+</sic>
+</s>
+<s type="decl" transition="establishment">
+What	WP	what	PNQ	PRON	nsubj:outer
+<sic ana="Pharaoh">
+Pharoah	NP	Pharaoh	NP0	PROPN	nsubj
+</sic>
+Wished	VVD	wish	VVD	VERB	acl:relcl
+Was	VBD	be	VBD	AUX	cop
+To	TO	to	TO0	PART	mark
+Crush	VV	Crush	NN1	VERB	root
+Them	PP	they	PNP	PRON	obj
+</s>
+<s type="decl" transition="smooth-shift">
+Is	VBZ	be	VBZ	AUX	cop
+That	DT	that	DT0	PRON	nsubj
+What	WP	what	PNQ	PRON	root
+You	PP	you	PNP	PRON	dep
+Folks	NNS	folk	NN2	NOUN	nsubj
+<sic ana="are trying">
+Trying	VVG	try	VVG	VERB	acl:relcl
+</sic>
+to	TO	to	TO0	PART	mark
+Do	VV	do	VDI	VERB	xcomp
+Me	PP	I	PNP	PRON	obj
+As	RB	as	AV0	ADV	obl
+And	CC	and	CJC	CCONJ	cc
+My	PP$	my	DPS	PRON	nmod:poss
+Cases	NNS	case	NN2	NOUN	conj
+</s>
+<s type="imp" transition="zero">
+<sic ana="Beware">
+Be	VV	beware	VBB	VERB	root
+ware	JJ	_	AJ0	X	goeswith
+</sic>
+Of	IN	of	PRF	ADP	case
+All	DT	all	DT0	DET	det
+Actions	NNS	action	NN2	NOUN	obl
+South	NP	South	NP0	PROPN	compound
+<sic ana="African">
+Africanner	NP	African	NP0	ADJ	compound
+</sic>
+Europeans	NPS	European	NP0	PROPN	compound
+</s>
+</p>
+</text>

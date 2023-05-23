@@ -1,0 +1,544 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Referent|entity|infstat|salience|identity|centering
+#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
+
+
+#Text=Hello ,
+1-1	0-5	Hello	_	_	_	_		_	_
+1-2	6-7	,	_	_	_	_		_	_
+
+#Text=Do you remember . . . when you did the insurance scam ?
+2-1	8-10	Do	_	_	_	_		_	_
+2-2	11-14	you	person[1]	acc:com[1]	nonsal[1]	_	cf1[1]	ana	2-8[2_1]
+2-3	15-23	remember	_	_	_	_		_	_
+2-4	24-25	.	_	_	_	_		_	_
+2-5	26-27	.	_	_	_	_		_	_
+2-6	28-29	.	_	_	_	_		_	_
+2-7	30-34	when	_	_	_	_		_	_
+2-8	35-38	you	person[2]	giv:act[2]	nonsal[2]	_	cf1[2]	ana	3-3[10_2]
+2-9	39-42	did	_	_	_	_		_	_
+2-10	43-46	the	event[5]	new[5]	nonsal[5]	_	cf2[5]	ana	3-1[6_5]
+2-11	47-56	insurance	event[5]	new[5]	nonsal[5]	_	cf2[5]	_	_
+2-12	57-61	scam	event[5]	new[5]	nonsal[5]	_	cf2[5]	_	_
+2-13	62-63	?	_	_	_	_		_	_
+
+#Text=It was your house and your police report and you cashed the check .
+3-1	64-66	It	event[6]	giv:act[6]	nonsal[6]	_	cf2[6]	ana	4-1[18_6]
+3-2	67-70	was	_	_	_	_		_	_
+3-3	71-75	your	place[9]|person[10]	new[9]|giv:act[10]	nonsal[9]|nonsal[10]	_	cf2[8]|cf4[9]|cf1*[10]	ana|coref	3-6[13_10]|8-14[39_9]
+3-4	76-81	house	place[9]	new[9]	nonsal[9]	_	cf2[8]|cf4[9]	_	_
+3-5	82-85	and	_	_	_	_	cf2[8]	_	_
+3-6	86-90	your	object[12]|person[13]	new[12]|giv:act[13]	nonsal[12]|nonsal[13]	_	cf2[8]|cf5[12]|cf1*[13]	ana|coref	3-10[14_13]|18-1[102_12]
+3-7	91-97	police	object[12]	new[12]	nonsal[12]	_	cf2[8]|cf5[12]	_	_
+3-8	98-104	report	object[12]	new[12]	nonsal[12]	_	cf2[8]|cf5[12]	_	_
+3-9	105-108	and	_	_	_	_	cf2[8]	_	_
+3-10	109-112	you	person[14]	giv:act[14]	nonsal[14]	_	cf2[8]|cf1*[14]	ana	8-9[37_14]
+3-11	113-119	cashed	_	_	_	_	cf2[8]	_	_
+3-12	120-123	the	object[17]	new[17]	nonsal[17]	_	cf2[8]|cf3[17]	coref	19-3[107_17]
+3-13	124-129	check	object[17]	new[17]	nonsal[17]	_	cf2[8]|cf3[17]	_	_
+3-14	130-131	.	_	_	_	_	cf2[8]	_	_
+
+#Text=That is an E Felony .
+4-1	132-136	That	event[18]	giv:act[18]	nonsal[18]	_	cf1*[18]	coref	8-6[36_18]
+4-2	137-139	is	_	_	_	_		_	_
+4-3	140-142	an	_	_	_	_	cf1*[20]	_	_
+4-4	143-144	E	_	_	_	_	cf1*[20]	_	_
+4-5	145-151	Felony	_	_	_	_	cf1*[20]	_	_
+4-6	152-153	.	_	_	_	_		_	_
+
+#Text=That is 3 to 5 years .
+5-1	154-158	That	_	_	_	_	cf1[21]	_	_
+5-2	159-161	is	_	_	_	_		_	_
+5-3	162-163	3	_	_	_	_	cf1[23]	_	_
+5-4	164-166	to	_	_	_	_	cf1[23]	_	_
+5-5	167-168	5	_	_	_	_	cf1[23]	_	_
+5-6	169-174	years	_	_	_	_	cf1[23]	_	_
+5-7	175-176	.	_	_	_	_		_	_
+
+#Text=I will tell a fucking detective .
+6-1	177-178	I	person[24]	acc:com[24]	nonsal[24]	_	cf1[24]	ana	7-12[30_24]
+6-2	179-183	will	_	_	_	_		_	_
+6-3	184-188	tell	_	_	_	_		_	_
+6-4	189-190	a	_	_	_	_	cf2[26]	_	_
+6-5	191-198	fucking	_	_	_	_	cf2[26]	_	_
+6-6	199-208	detective	_	_	_	_	cf2[26]	_	_
+6-7	209-210	.	_	_	_	_		_	_
+
+#Text=There are a bunch of them right around the corner from my motherfucking cell .
+7-1	211-216	There	_	_	_	_		_	_
+7-2	217-220	are	_	_	_	_		_	_
+7-3	221-222	a	person[27]	giv:act[27]	nonsal[27]	_	cf2[27]	ana	8-4[32_27]
+7-4	223-228	bunch	person[27]	giv:act[27]	nonsal[27]	_	cf2[27]	_	_
+7-5	229-231	of	person[27]	giv:act[27]	nonsal[27]	_	cf2[27]	_	_
+7-6	232-236	them	person[27]	giv:act[27]	nonsal[27]	_	cf2[27]	_	_
+7-7	237-242	right	_	_	_	_		_	_
+7-8	243-249	around	_	_	_	_		_	_
+7-9	250-253	the	_	_	_	_	cf3[28]	_	_
+7-10	254-260	corner	_	_	_	_	cf3[28]	_	_
+7-11	261-265	from	_	_	_	_	cf3[28]	_	_
+7-12	266-268	my	person[30]	giv:act[30]	nonsal[30]	_	cf3[28]|cf4[29]|cf1*[30]	ana	8-1[31_30]
+7-13	269-282	motherfucking	_	_	_	_	cf3[28]|cf4[29]	_	_
+7-14	283-287	cell	_	_	_	_	cf3[28]|cf4[29]	_	_
+7-15	288-289	.	_	_	_	_		_	_
+
+#Text=I will tell them about all the shit you turn in stolen from your house .
+8-1	290-291	I	person[31]	giv:act[31]	nonsal[31]	_	cf1*[31]	ana	9-4[45_31]
+8-2	292-296	will	_	_	_	_		_	_
+8-3	297-301	tell	_	_	_	_		_	_
+8-4	302-306	them	person[32]	giv:act[32]	nonsal[32]	_	cf2[32]	ana	11-1[50_32]
+8-5	307-312	about	_	_	_	_		_	_
+8-6	313-316	all	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	ana	10-9[48_36]
+8-7	317-320	the	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
+8-8	321-325	shit	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
+8-9	326-329	you	event[36]|person[37]	giv:inact[36]|giv:inact[37]	nonsal[36]|nonsal[37]	_	cf4[36]|cf3[37]	ana	8-14[40_37]
+8-10	330-334	turn	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
+8-11	335-337	in	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
+8-12	338-344	stolen	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
+8-13	345-349	from	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
+8-14	350-354	your	event[36]|place[39]|person[40]	giv:inact[36]|giv:inact[39]|giv:act[40]	nonsal[36]|nonsal[39]|nonsal[40]	_	cf4[36]|cf5[39]|cf3[40]	ana|ana	10-2[46_40]|9-1[41_39]
+8-15	355-360	house	event[36]|place[39]	giv:inact[36]|giv:inact[39]	nonsal[36]|nonsal[39]	_	cf4[36]|cf5[39]	_	_
+8-16	361-362	.	_	_	_	_		_	_
+
+#Text=It was not my house .
+9-1	363-365	It	place[41]	giv:act[41]	nonsal[41]	_	cf1*[41]	_	_
+9-2	366-369	was	_	_	_	_		_	_
+9-3	370-373	not	_	_	_	_		_	_
+9-4	374-376	my	person[45]	giv:act[45]	nonsal[45]	_	cf3[44]|cf2[45]	ana	13-10[75_45]
+9-5	377-382	house	_	_	_	_	cf3[44]	_	_
+9-6	383-384	.	_	_	_	_		_	_
+
+#Text=If you think you can get away with it , you are so fucking dumb .
+10-1	385-387	If	_	_	_	_		_	_
+10-2	388-391	you	person[46]	giv:inact[46]	nonsal[46]	_	cf1[46]	ana	10-4[47_46]
+10-3	392-397	think	_	_	_	_		_	_
+10-4	398-401	you	person[47]	giv:act[47]	nonsal[47]	_	cf1[47]	ana	10-11[49_47]
+10-5	402-405	can	_	_	_	_		_	_
+10-6	406-409	get	_	_	_	_		_	_
+10-7	410-414	away	_	_	_	_		_	_
+10-8	415-419	with	_	_	_	_		_	_
+10-9	420-422	it	event[48]	giv:inact[48]	nonsal[48]	_	cf2[48]	coref	13-19[81_48]
+10-10	423-424	,	_	_	_	_		_	_
+10-11	425-428	you	person[49]	giv:act[49]	nonsal[49]	_	cf1[49]	ana	11-4[51_49]
+10-12	429-432	are	_	_	_	_		_	_
+10-13	433-435	so	_	_	_	_		_	_
+10-14	436-443	fucking	_	_	_	_		_	_
+10-15	444-448	dumb	_	_	_	_		_	_
+10-16	449-450	.	_	_	_	_		_	_
+
+#Text=They will cuff you in the middle of your shift at Wal-Greens .
+11-1	451-455	They	person[50]	giv:inact[50]	nonsal[50]	_	cf2[50]	ana	13-16[77_50]
+11-2	456-460	will	_	_	_	_		_	_
+11-3	461-465	cuff	_	_	_	_		_	_
+11-4	466-469	you	person[51]	giv:act[51]	nonsal[51]	_	cf1*[51]	ana	11-9[61_51]
+11-5	470-472	in	_	_	_	_		_	_
+11-6	473-476	the	_	_	_	_	cf3[59]	_	_
+11-7	477-483	middle	_	_	_	_	cf3[59]	_	_
+11-8	484-486	of	_	_	_	_	cf3[59]	_	_
+11-9	487-491	your	person[61]	giv:act[61]	nonsal[61]	_	cf3[59]|cf5[60]|cf1*[61]	ana	12-1[63_61]
+11-10	492-497	shift	_	_	_	_	cf3[59]|cf5[60]	_	_
+11-11	498-500	at	_	_	_	_	cf3[59]|cf5[60]	_	_
+11-12	501-511	Wal-Greens	_	_	_	Walgreens[62]	cf3[59]|cf5[60]|cf4[62]	_	_
+11-13	512-513	.	_	_	_	_		_	_
+
+#Text=You will not like it in here .
+12-1	514-517	You	person[63]	giv:act[63]	nonsal[63]	_	cf1*[63]	ana	13-3[70_63]
+12-2	518-522	will	_	_	_	_		_	_
+12-3	523-526	not	_	_	_	_		_	_
+12-4	527-531	like	_	_	_	_		_	_
+12-5	532-534	it	_	_	_	_	cf2[64]	_	_
+12-6	535-537	in	_	_	_	Prison[69]	cf3[69]	_	_
+12-7	538-542	here	_	_	_	Prison[69]	cf3[69]	_	_
+12-8	543-544	.	_	_	_	_		_	_
+
+#Text=So do yourself a favor drop the charges on me or else I will tell them all about your scam .
+13-1	545-547	So	_	_	_	_		_	_
+13-2	548-550	do	_	_	_	_		_	_
+13-3	551-559	yourself	person[70]	giv:act[70]	nonsal[70]	_	cf2*[70]	ana	13-19[82_70]
+13-4	560-561	a	_	_	_	_	cf6[72]	_	_
+13-5	562-567	favor	_	_	_	_	cf6[72]	_	_
+13-6	568-572	drop	_	_	_	_	cf7[73]	_	_
+13-7	573-576	the	_	_	_	_	cf7[73]|cf5[74]	_	_
+13-8	577-584	charges	_	_	_	_	cf7[73]|cf5[74]	_	_
+13-9	585-587	on	_	_	_	_	cf7[73]	_	_
+13-10	588-590	me	person[75]	giv:inact[75]	nonsal[75]	_	cf7[73]|cf1[75]	ana	13-13[76_75]
+13-11	591-593	or	_	_	_	_		_	_
+13-12	594-598	else	_	_	_	_		_	_
+13-13	599-600	I	person[76]	giv:act[76]	nonsal[76]	_	cf1[76]	ana	16-2[91_76]
+13-14	601-605	will	_	_	_	_		_	_
+13-15	606-610	tell	_	_	_	_		_	_
+13-16	611-615	them	person[77]	giv:inact[77]	nonsal[77]	_	cf3[77]	ana	14-1[83_77]
+13-17	616-619	all	_	_	_	_		_	_
+13-18	620-625	about	_	_	_	_		_	_
+13-19	626-630	your	event[81]|person[82]	giv:inact[81]|giv:act[82]	nonsal[81]|nonsal[82]	_	cf4[81]|cf2*[82]	ana|ana	14-8[87_81]|15-1[88_82]
+13-20	631-635	scam	event[81]	giv:inact[81]	nonsal[81]	_	cf4[81]	_	_
+13-21	636-637	.	_	_	_	_		_	_
+
+#Text=They love to here about stuff like that .
+14-1	638-642	They	person[83]	giv:act[83]	nonsal[83]	_	cf1*[83]	_	_
+14-2	643-647	love	_	_	_	_		_	_
+14-3	648-650	to	_	_	_	_		_	_
+14-4	651-655	here	_	_	_	_		_	_
+14-5	656-661	about	_	_	_	_		_	_
+14-6	662-667	stuff	_	_	_	_	cf3[86]	_	_
+14-7	668-672	like	_	_	_	_	cf3[86]	_	_
+14-8	673-677	that	event[87]	giv:act[87]	nonsal[87]	_	cf3[86]|cf2[87]	ana	15-3[89_87]
+14-9	678-679	.	_	_	_	_		_	_
+
+#Text=You did it all by yourself .
+15-1	680-683	You	person[88]	giv:inact[88]	nonsal[88]	_	cf2[88]	ana	15-6[90_88]
+15-2	684-687	did	_	_	_	_		_	_
+15-3	688-690	it	event[89]	giv:act[89]	nonsal[89]	_	cf1*[89]	ana	17-1[92_89]
+15-4	691-694	all	_	_	_	_		_	_
+15-5	695-697	by	_	_	_	_		_	_
+15-6	698-706	yourself	person[90]	giv:act[90]	nonsal[90]	_	cf2[90]	ana	17-5[100_90]
+15-7	707-708	.	_	_	_	_		_	_
+
+#Text=Not me .
+16-1	709-712	Not	_	_	_	_		_	_
+16-2	713-715	me	person[91]	giv:inact[91]	nonsal[91]	_	cf1[91]	ana	20-2[108_91]
+16-3	716-717	.	_	_	_	_		_	_
+
+#Text=It was all in your name .
+17-1	718-720	It	event[92]	giv:inact[92]	nonsal[92]	_	cf1[92]	_	_
+17-2	721-724	was	_	_	_	_		_	_
+17-3	725-728	all	_	_	_	_		_	_
+17-4	729-731	in	_	_	_	_		_	_
+17-5	732-736	your	person[100]	giv:inact[100]	nonsal[100]	_	cf3[99]|cf2[100]	ana	18-4[103_100]
+17-6	737-741	name	_	_	_	_	cf3[99]	_	_
+17-7	742-743	.	_	_	_	_		_	_
+
+#Text=The police report you signed .
+18-1	744-747	The	object[102]	giv:inact[102]	nonsal[102]	_	cf2[102]	_	_
+18-2	748-754	police	object[102]	giv:inact[102]	nonsal[102]	_	cf2[102]	_	_
+18-3	755-761	report	object[102]	giv:inact[102]	nonsal[102]	_	cf2[102]	_	_
+18-4	762-765	you	object[102]|person[103]	giv:inact[102]|giv:act[103]	nonsal[102]|nonsal[103]	_	cf2[102]|cf1*[103]	ana	19-1[104_103]
+18-5	766-772	signed	object[102]	giv:inact[102]	nonsal[102]	_	cf2[102]	_	_
+18-6	773-774	.	_	_	_	_		_	_
+
+#Text=You signed the check .
+19-1	775-778	You	person[104]	giv:act[104]	nonsal[104]	_	cf1*[104]	ana	20-10[111_104]
+19-2	779-785	signed	_	_	_	_		_	_
+19-3	786-789	the	object[107]	giv:inact[107]	nonsal[107]	_	cf2[107]	_	_
+19-4	790-795	check	object[107]	giv:inact[107]	nonsal[107]	_	cf2[107]	_	_
+19-5	796-797	.	_	_	_	_		_	_
+
+#Text=So I will go away just do the thing you need to do or show this letter to the judge so they can arrest you .
+20-1	798-800	So	_	_	_	_		_	_
+20-2	801-802	I	person[108]	giv:inact[108]	nonsal[108]	_	cf3[108]	ana	21-1[117_108]
+20-3	803-807	will	_	_	_	_		_	_
+20-4	808-810	go	_	_	_	_		_	_
+20-5	811-815	away	_	_	_	_		_	_
+20-6	816-820	just	_	_	_	_		_	_
+20-7	821-823	do	_	_	_	_		_	_
+20-8	824-827	the	_	_	_	_	cf4[110]	_	_
+20-9	828-833	thing	_	_	_	_	cf4[110]	_	_
+20-10	834-837	you	person[111]	giv:act[111]	nonsal[111]	_	cf4[110]|cf1*[111]	ana	20-25[116_111]
+20-11	838-842	need	_	_	_	_	cf4[110]	_	_
+20-12	843-845	to	_	_	_	_	cf4[110]	_	_
+20-13	846-848	do	_	_	_	_	cf4[110]	_	_
+20-14	849-851	or	_	_	_	_		_	_
+20-15	852-856	show	_	_	_	_		_	_
+20-16	857-861	this	_	_	_	_	cf5[113]	_	_
+20-17	862-868	letter	_	_	_	_	cf5[113]	_	_
+20-18	869-871	to	_	_	_	_		_	_
+20-19	872-875	the	person[114]	new[114]	nonsal[114]	_	cf2[114]	ana	20-22[115_114]
+20-20	876-881	judge	person[114]	new[114]	nonsal[114]	_	cf2[114]	_	_
+20-21	882-884	so	_	_	_	_		_	_
+20-22	885-889	they	person[115]	giv:act[115]	nonsal[115]	_	cf2[115]	ana	23-1[121_115]
+20-23	890-893	can	_	_	_	_		_	_
+20-24	894-900	arrest	_	_	_	_		_	_
+20-25	901-904	you	person[116]	giv:act[116]	nonsal[116]	_	cf1*[116]	ana	22-1[118_116]
+20-26	905-906	.	_	_	_	_		_	_
+
+#Text=I will testified .
+21-1	907-908	I	person[117]	giv:act[117]	nonsal[117]	_	cf1*[117]	ana	24-1[131_117]
+21-2	909-913	will	_	_	_	_		_	_
+21-3	914-923	testified	_	_	_	_		_	_
+21-4	924-925	.	_	_	_	_		_	_
+
+#Text=You think you are too good to do time .
+22-1	926-929	You	person[118]	giv:inact[118]	nonsal[118]	_	cf1[118]	ana	22-3[119_118]
+22-2	930-935	think	_	_	_	_		_	_
+22-3	936-939	you	person[119]	giv:act[119]	nonsal[119]	_	cf1[119]	ana	23-9[130_119]
+22-4	940-943	are	_	_	_	_		_	_
+22-5	944-947	too	_	_	_	_		_	_
+22-6	948-952	good	_	_	_	_		_	_
+22-7	953-955	to	_	_	_	_		_	_
+22-8	956-958	do	_	_	_	_		_	_
+22-9	959-963	time	_	_	_	_	cf2[120]	_	_
+22-10	964-965	.	_	_	_	_		_	_
+
+#Text=They do n't give a fucking shit about you .
+23-1	966-970	They	person[121]	giv:inact[121]	nonsal[121]	_	cf2[121]	_	_
+23-2	971-973	do	_	_	_	_		_	_
+23-3	974-977	n't	_	_	_	_		_	_
+23-4	978-982	give	_	_	_	_		_	_
+23-5	983-984	a	_	_	_	_	cf3[129]	_	_
+23-6	985-992	fucking	_	_	_	_	cf3[129]	_	_
+23-7	993-997	shit	_	_	_	_	cf3[129]	_	_
+23-8	998-1003	about	_	_	_	_		_	_
+23-9	1004-1007	you	person[130]	giv:act[130]	nonsal[130]	_	cf1*[130]	ana	25-13[138_130]
+23-10	1008-1009	.	_	_	_	_		_	_
+
+#Text=I 'm not playing anymore .
+24-1	1010-1011	I	person[131]	giv:inact[131]	nonsal[131]	_	cf1[131]	ana	25-4[135_131]
+24-2	1012-1014	'm	_	_	_	_		_	_
+24-3	1015-1018	not	_	_	_	_		_	_
+24-4	1019-1026	playing	_	_	_	_		_	_
+24-5	1027-1034	anymore	_	_	_	_		_	_
+24-6	1035-1036	.	_	_	_	_		_	_
+
+#Text=Call the lawyer I had the first time . . . or you will lose your fucking job and freedom .
+25-1	1037-1041	Call	_	_	_	_		_	_
+25-2	1042-1045	the	_	_	_	_	cf3[134]	_	_
+25-3	1046-1052	lawyer	_	_	_	_	cf3[134]	_	_
+25-4	1053-1054	I	person[135]	giv:act[135]	nonsal[135]	_	cf1*[135]	ana	26-8[144_135]
+25-5	1055-1058	had	_	_	_	_		_	_
+25-6	1059-1062	the	_	_	_	_	cf5[137]	_	_
+25-7	1063-1068	first	_	_	_	_	cf5[137]	_	_
+25-8	1069-1073	time	_	_	_	_	cf5[137]	_	_
+25-9	1074-1075	.	_	_	_	_		_	_
+25-10	1076-1077	.	_	_	_	_		_	_
+25-11	1078-1079	.	_	_	_	_		_	_
+25-12	1080-1082	or	_	_	_	_		_	_
+25-13	1083-1086	you	person[138]	giv:inact[138]	nonsal[138]	_	cf2[138]	ana	25-16[141_138]
+25-14	1087-1091	will	_	_	_	_		_	_
+25-15	1092-1096	lose	_	_	_	_		_	_
+25-16	1097-1101	your	person[141]	giv:act[141]	nonsal[141]	_	cf4[140]|cf2[141]	ana	26-2[143_141]
+25-17	1102-1109	fucking	_	_	_	_	cf4[140]	_	_
+25-18	1110-1113	job	_	_	_	_	cf4[140]	_	_
+25-19	1114-1117	and	_	_	_	_		_	_
+25-20	1118-1125	freedom	_	_	_	_	cf6[142]	_	_
+25-21	1126-1127	.	_	_	_	_		_	_
+
+#Text=So you will be better off or I will do what ever it takes to have you in jail like me .
+26-1	1128-1130	So	_	_	_	_		_	_
+26-2	1131-1134	you	person[143]	giv:act[143]	nonsal[143]	_	cf1*[143]	ana	26-17[153_143]
+26-3	1135-1139	will	_	_	_	_		_	_
+26-4	1140-1142	be	_	_	_	_		_	_
+26-5	1143-1149	better	_	_	_	_		_	_
+26-6	1150-1153	off	_	_	_	_		_	_
+26-7	1154-1156	or	_	_	_	_		_	_
+26-8	1157-1158	I	person[144]	giv:act[144]	nonsal[144]	_	cf2[144]	ana	26-21[155_144]
+26-9	1159-1163	will	_	_	_	_		_	_
+26-10	1164-1166	do	_	_	_	_		_	_
+26-11	1167-1171	what	_	_	_	_	cf5[149]	_	_
+26-12	1172-1176	ever	_	_	_	_	cf5[149]	_	_
+26-13	1177-1179	it	_	_	_	_	cf5[149]|cf4[150]	_	_
+26-14	1180-1185	takes	_	_	_	_	cf5[149]	_	_
+26-15	1186-1188	to	_	_	_	_	cf5[149]|cf4[152]	_	_
+26-16	1189-1193	have	_	_	_	_	cf5[149]|cf4[152]	_	_
+26-17	1194-1197	you	person[153]	giv:act[153]	nonsal[153]	_	cf5[149]|cf4[152]|cf1*[153]	ana	27-1[156_153]
+26-18	1198-1200	in	_	_	_	_	cf5[149]|cf4[152]	_	_
+26-19	1201-1205	jail	_	_	_	Prison[154]	cf5[149]|cf4[152]|cf3[154]	_	_
+26-20	1206-1210	like	_	_	_	_	cf5[149]|cf4[152]	_	_
+26-21	1211-1213	me	person[155]	giv:act[155]	nonsal[155]	_	cf5[149]|cf4[152]|cf2[155]	ana	29-1[165_155]
+26-22	1214-1215	.	_	_	_	_		_	_
+
+#Text=You ca n't take a charge .
+27-1	1216-1219	You	person[156]	giv:act[156]	nonsal[156]	_	cf1*[156]	ana	28-1[162_156]
+27-2	1220-1222	ca	_	_	_	_		_	_
+27-3	1223-1226	n't	_	_	_	_		_	_
+27-4	1227-1231	take	_	_	_	_		_	_
+27-5	1232-1233	a	_	_	_	_	cf2[161]	_	_
+27-6	1234-1240	charge	_	_	_	_	cf2[161]	_	_
+27-7	1241-1242	.	_	_	_	_		_	_
+
+#Text=You ca n't make it in here .
+28-1	1243-1246	You	person[162]	giv:act[162]	nonsal[162]	_	cf1*[162]	ana	29-10[171_162]
+28-2	1247-1249	ca	_	_	_	_		_	_
+28-3	1250-1253	n't	_	_	_	_		_	_
+28-4	1254-1258	make	_	_	_	_		_	_
+28-5	1259-1261	it	_	_	_	_	cf3[163]	_	_
+28-6	1262-1264	in	_	_	_	_		_	_
+28-7	1265-1269	here	_	_	_	Prison[164]	cf2[164]	_	_
+28-8	1270-1271	.	_	_	_	_		_	_
+
+#Text=I will be more than happy to tell on your dumb ass .
+29-1	1272-1273	I	person[165]	giv:inact[165]	nonsal[165]	_	cf2[165]	ana	30-1[172_165]
+29-2	1274-1278	will	_	_	_	_		_	_
+29-3	1279-1281	be	_	_	_	_		_	_
+29-4	1282-1286	more	_	_	_	_		_	_
+29-5	1287-1291	than	_	_	_	_		_	_
+29-6	1292-1297	happy	_	_	_	_		_	_
+29-7	1298-1300	to	_	_	_	_		_	_
+29-8	1301-1305	tell	_	_	_	_		_	_
+29-9	1306-1308	on	_	_	_	_		_	_
+29-10	1309-1313	your	person[171]	giv:act[171]	nonsal[171]	_	cf3[170]|cf1*[171]	ana	30-6[173_171]
+29-11	1314-1318	dumb	_	_	_	_	cf3[170]	_	_
+29-12	1319-1322	ass	_	_	_	_	cf3[170]	_	_
+29-13	1323-1324	.	_	_	_	_		_	_
+
+#Text=I am pissed off like you will never believe so if you do n't want to go to jail get me the fuck out of here or maybe your fucking Mom can help .
+30-1	1325-1326	I	person[172]	giv:act[172]	nonsal[172]	_	cf1*[172]	ana	30-21[176_172]
+30-2	1327-1329	am	_	_	_	_		_	_
+30-3	1330-1336	pissed	_	_	_	_		_	_
+30-4	1337-1340	off	_	_	_	_		_	_
+30-5	1341-1345	like	_	_	_	_		_	_
+30-6	1346-1349	you	person[173]	giv:act[173]	nonsal[173]	_	cf2[173]	ana	30-12[174_173]
+30-7	1350-1354	will	_	_	_	_		_	_
+30-8	1355-1360	never	_	_	_	_		_	_
+30-9	1361-1368	believe	_	_	_	_		_	_
+30-10	1369-1371	so	_	_	_	_		_	_
+30-11	1372-1374	if	_	_	_	_		_	_
+30-12	1375-1378	you	person[174]	giv:act[174]	nonsal[174]	_	cf2[174]	ana	30-29[186_174]
+30-13	1379-1381	do	_	_	_	_		_	_
+30-14	1382-1385	n't	_	_	_	_		_	_
+30-15	1386-1390	want	_	_	_	_		_	_
+30-16	1391-1393	to	_	_	_	_		_	_
+30-17	1394-1396	go	_	_	_	_		_	_
+30-18	1397-1399	to	_	_	_	_		_	_
+30-19	1400-1404	jail	_	_	_	Prison[175]	cf3[175]	_	_
+30-20	1405-1408	get	_	_	_	_		_	_
+30-21	1409-1411	me	person[176]	giv:act[176]	nonsal[176]	_	cf1*[176]	ana	32-1[187_176]
+30-22	1412-1415	the	_	_	_	_		_	_
+30-23	1416-1420	fuck	_	_	_	_		_	_
+30-24	1421-1424	out	_	_	_	_		_	_
+30-25	1425-1427	of	_	_	_	_		_	_
+30-26	1428-1432	here	_	_	_	Prison[177]	cf3[177]	_	_
+30-27	1433-1435	or	_	_	_	_		_	_
+30-28	1436-1441	maybe	_	_	_	_		_	_
+30-29	1442-1446	your	person[186]	giv:act[186]	nonsal[186]	_	cf4[185]|cf2[186]	ana	32-3[188_186]
+30-30	1447-1454	fucking	_	_	_	_	cf4[185]	_	_
+30-31	1455-1458	Mom	_	_	_	_	cf4[185]	_	_
+30-32	1459-1462	can	_	_	_	_		_	_
+30-33	1463-1467	help	_	_	_	_		_	_
+30-34	1468-1469	.	_	_	_	_		_	_
+
+#Text=Ha Ha .
+31-1	1470-1472	Ha	_	_	_	_		_	_
+31-2	1473-1475	Ha	_	_	_	_		_	_
+31-3	1476-1477	.	_	_	_	_		_	_
+
+#Text=I know you took my money I had saved too Go see the Bitch.
+32-1	1478-1479	I	person[187]	giv:inact[187]	nonsal[187]	_	cf1[187]	ana	32-5[193_187]
+32-2	1480-1484	know	_	_	_	_		_	_
+32-3	1485-1488	you	person[188]	giv:inact[188]	nonsal[188]	_	cf2[188]	ana	33-5[199_188]
+32-4	1489-1493	took	_	_	_	_		_	_
+32-5	1494-1496	my	person[193]	giv:act[193]	nonsal[193]	_	cf4[192]|cf1[193]	ana	32-7[194_193]
+32-6	1497-1502	money	_	_	_	_	cf4[192]	_	_
+32-7	1503-1504	I	person[194]	giv:act[194]	nonsal[194]	_	cf1[194]	ana	33-1[198_194]
+32-8	1505-1508	had	_	_	_	_		_	_
+32-9	1509-1514	saved	_	_	_	_		_	_
+32-10	1515-1518	too	_	_	_	_		_	_
+32-11	1519-1521	Go	_	_	_	_		_	_
+32-12	1522-1525	see	_	_	_	_		_	_
+32-13	1526-1529	the	_	_	_	_	cf3[197]	_	_
+32-14	1530-1536	Bitch.	_	_	_	_	cf3[197]	_	_
+
+#Text=I ca n't tell you how bad it will be for you not to believe me .
+33-1	1537-1538	I	person[198]	giv:act[198]	nonsal[198]	_	cf1*[198]	ana	33-16[207_198]
+33-2	1539-1541	ca	_	_	_	_		_	_
+33-3	1542-1545	n't	_	_	_	_		_	_
+33-4	1546-1550	tell	_	_	_	_		_	_
+33-5	1551-1554	you	person[199]	giv:act[199]	nonsal[199]	_	cf2[199]	ana	33-12[201_199]
+33-6	1555-1558	how	_	_	_	_		_	_
+33-7	1559-1562	bad	_	_	_	_		_	_
+33-8	1563-1565	it	_	_	_	_	cf3[200]	_	_
+33-9	1566-1570	will	_	_	_	_		_	_
+33-10	1571-1573	be	_	_	_	_		_	_
+33-11	1574-1577	for	_	_	_	_		_	_
+33-12	1578-1581	you	person[201]	giv:act[201]	nonsal[201]	_	cf2[201]	ana	35-1[216_201]
+33-13	1582-1585	not	_	_	_	_	cf3[206]	_	_
+33-14	1586-1588	to	_	_	_	_	cf3[206]	_	_
+33-15	1589-1596	believe	_	_	_	_	cf3[206]	_	_
+33-16	1597-1599	me	person[207]	giv:act[207]	nonsal[207]	_	cf3[206]|cf1*[207]	ana	36-6[226_207]
+33-17	1600-1601	.	_	_	_	_		_	_
+
+#Text=Mr. Patrick is in the cell here and a lawyer is on the top bunk or bed .
+34-1	1602-1605	Mr.	_	_	_	_	cf2[209]	_	_
+34-2	1606-1613	Patrick	_	_	_	_	cf2[209]	_	_
+34-3	1614-1616	is	_	_	_	_		_	_
+34-4	1617-1619	in	_	_	_	_		_	_
+34-5	1620-1623	the	place[210]	new[210]	nonsal[210]	_	cf4[210]	ana	35-9[218_210]
+34-6	1624-1628	cell	place[210]	new[210]	nonsal[210]	_	cf4[210]	_	_
+34-7	1629-1633	here	_	_	_	Prison[211]	cf1[211]	_	_
+34-8	1634-1637	and	_	_	_	_		_	_
+34-9	1638-1639	a	_	_	_	_	cf3[213]	_	_
+34-10	1640-1646	lawyer	_	_	_	_	cf3[213]	_	_
+34-11	1647-1649	is	_	_	_	_		_	_
+34-12	1650-1652	on	_	_	_	_		_	_
+34-13	1653-1656	the	_	_	_	_	cf5[214]	_	_
+34-14	1657-1660	top	_	_	_	_	cf5[214]	_	_
+34-15	1661-1665	bunk	_	_	_	_	cf5[214]	_	_
+34-16	1666-1668	or	_	_	_	_		_	_
+34-17	1669-1672	bed	_	_	_	_	cf6[215]	_	_
+34-18	1673-1674	.	_	_	_	_		_	_
+
+#Text=You might think you might get out of it , but do you really want to try .
+35-1	1675-1678	You	person[216]	giv:inact[216]	nonsal[216]	_	cf1[216]	ana	35-4[217_216]
+35-2	1679-1684	might	_	_	_	_		_	_
+35-3	1685-1690	think	_	_	_	_		_	_
+35-4	1691-1694	you	person[217]	giv:act[217]	nonsal[217]	_	cf1[217]	ana	35-13[219_217]
+35-5	1695-1700	might	_	_	_	_		_	_
+35-6	1701-1704	get	_	_	_	_		_	_
+35-7	1705-1708	out	_	_	_	_		_	_
+35-8	1709-1711	of	_	_	_	_		_	_
+35-9	1712-1714	it	place[218]	giv:act[218]	nonsal[218]	_	cf2*[218]	_	_
+35-10	1715-1716	,	_	_	_	_		_	_
+35-11	1717-1720	but	_	_	_	_		_	_
+35-12	1721-1723	do	_	_	_	_		_	_
+35-13	1724-1727	you	person[219]	giv:act[219]	nonsal[219]	_	cf1[219]	ana	36-11[227_219]
+35-14	1728-1734	really	_	_	_	_		_	_
+35-15	1735-1739	want	_	_	_	_		_	_
+35-16	1740-1742	to	_	_	_	_		_	_
+35-17	1743-1746	try	_	_	_	_		_	_
+35-18	1747-1748	.	_	_	_	_		_	_
+
+#Text=Just drop the charges and I will go away from you and your little friend .
+36-1	1749-1753	Just	_	_	_	_		_	_
+36-2	1754-1758	drop	_	_	_	_		_	_
+36-3	1759-1762	the	_	_	_	_	cf3[225]	_	_
+36-4	1763-1770	charges	_	_	_	_	cf3[225]	_	_
+36-5	1771-1774	and	_	_	_	_		_	_
+36-6	1775-1776	I	person[226]	giv:inact[226]	nonsal[226]	_	cf2[226]	ana	37-1[232_226]
+36-7	1777-1781	will	_	_	_	_		_	_
+36-8	1782-1784	go	_	_	_	_		_	_
+36-9	1785-1789	away	_	_	_	_		_	_
+36-10	1790-1794	from	_	_	_	_		_	_
+36-11	1795-1798	you	person[227]	giv:act[227]	nonsal[227]	_	cf1*[227]	ana	36-13[231_227]
+36-12	1799-1802	and	_	_	_	_		_	_
+36-13	1803-1807	your	person[231]	giv:act[231]	nonsal[231]	_	cf4[230]|cf1*[231]	_	_
+36-14	1808-1814	little	_	_	_	_	cf4[230]	_	_
+36-15	1815-1821	friend	_	_	_	_	cf4[230]	_	_
+36-16	1822-1823	.	_	_	_	_		_	_
+
+#Text=I am not fucking playing Bitch .
+37-1	1824-1825	I	person[232]	giv:act[232]	nonsal[232]	_	cf1*[232]	ana	38-13[240_232]
+37-2	1826-1828	am	_	_	_	_		_	_
+37-3	1829-1832	not	_	_	_	_		_	_
+37-4	1833-1840	fucking	_	_	_	_		_	_
+37-5	1841-1848	playing	_	_	_	_		_	_
+37-6	1849-1854	Bitch	_	_	_	_	cf2[233]	_	_
+37-7	1855-1856	.	_	_	_	_		_	_
+
+#Text=Jail is no fucking fun for a girl so do n't try me .
+38-1	1857-1861	Jail	_	_	_	Prison[234]	cf3[234]	_	_
+38-2	1862-1864	is	_	_	_	_		_	_
+38-3	1865-1867	no	_	_	_	_		_	_
+38-4	1868-1875	fucking	_	_	_	_		_	_
+38-5	1876-1879	fun	_	_	_	_		_	_
+38-6	1880-1883	for	_	_	_	_		_	_
+38-7	1884-1885	a	person[239]	giv:act[239]	nonsal[239]	_	cf2[239]	ana	39-4[241_239]
+38-8	1886-1890	girl	person[239]	giv:act[239]	nonsal[239]	_	cf2[239]	_	_
+38-9	1891-1893	so	_	_	_	_		_	_
+38-10	1894-1896	do	_	_	_	_		_	_
+38-11	1897-1900	n't	_	_	_	_		_	_
+38-12	1901-1904	try	_	_	_	_		_	_
+38-13	1905-1907	me	person[240]	giv:act[240]	nonsal[240]	_	cf1*[240]	ana	40-1[242_240]
+38-14	1908-1909	.	_	_	_	_		_	_
+
+#Text=Do n't take your time .
+39-1	1910-1912	Do	_	_	_	_		_	_
+39-2	1913-1916	n't	_	_	_	_		_	_
+39-3	1917-1921	take	_	_	_	_		_	_
+39-4	1922-1926	your	person[241]	giv:act[241]	nonsal[241]	_	cf1*[241]	_	_
+39-5	1927-1931	time	_	_	_	_		_	_
+39-6	1932-1933	.	_	_	_	_		_	_
+
+#Text=I am pissed .
+40-1	1934-1935	I	person[242]	giv:inact[242]	nonsal[242]	_	cf1[242]	_	_
+40-2	1936-1938	am	_	_	_	_		_	_
+40-3	1939-1945	pissed	_	_	_	_		_	_
+40-4	1946-1947	.	_	_	_	_		_	_
+

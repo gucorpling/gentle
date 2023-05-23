@@ -1,0 +1,1163 @@
+<text id="GENTLE_legal_abortion" author="Nancy Pelosi" dateCollected="2022-11-14" dateCreated="1973-01-22" dateModified="1973-01-22"  shortTitle="abortion" sourceURL="https://en.wikisource.org/wiki/Roe_v._Wade" speakerCount="0" speakerList="none" title="Roe v. Wade" type="legal">
+<head>
+<s type="frag" transition="establishment">
+Roe	NP	Roe	NP0	PROPN	root
+v.	IN	versus	PRP	ADP	case
+Wade	NP	Wade	NP0	PROPN	nmod
+</s>
+</head>
+<head rend="bold">
+<s type="frag" transition="null">
+Supreme	NP	Supreme	NP0	ADJ	amod
+Court	NP	Court	NP0	PROPN	root
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+United	NP	Unite	NP0	VERB	amod
+States	NPS	State	NP0	PROPN	nmod
+</s>
+</head>
+<p>
+<s type="frag" transition="establishment">
+<ref target="https://en.wikisource.org/wiki/United_States_Reports/Volume_410">
+410	CD	410	CRD	NUM	compound
+</ref>
+<ref target="https://en.wikisource.org/wiki/United_States_Reports">
+U.S.	NP	U.S.	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wikisource.org/wiki/Roe_v._Wade">
+113	CD	113	CRD	NUM	root
+</ref>
+</s>
+</p>
+<p>
+<s type="frag" transition="smooth-shift">
+<hi rend="bold">
+Roe	NP	Roe	NP0	PROPN	root
+v.	IN	versus	PRP	ADP	case
+Wade	NP	Wade	NP0	PROPN	nmod
+</hi>
+</s>
+</p>
+<p>
+<s type="frag" transition="continue">
+<hi rend="bold">
+Appeal	NN	appeal	NN1	NOUN	root
+from	IN	from	PRP	ADP	case
+the	DT	the	AT0	DET	det
+United	NP	Unite	NP0	VERB	amod
+States	NP	State	NP0	PROPN	compound
+District	NP	District	NP0	PROPN	compound
+Court	NP	Court	NP0	PROPN	nmod
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Northern	NP	Northern	NP0	ADJ	amod
+District	NP	District	NP0	PROPN	nmod
+of	IN	of	PRF	ADP	case
+Texas	NP	Texas	NP0	PROPN	nmod
+</hi>
+</s>
+</p>
+<p>
+<s type="other" transition="continue">
+No.	NN	No.	NN1	NOUN	root
+<w>
+70	CD	70	CRD	NUM	dep
+-	HYPH	-	PUN	PUNCT	punct
+18	CD	18	CRD	NUM	flat
+</w>
+</s>
+<s type="other" transition="zero">
+Argued	VVN	argue	VVN	VERB	root
+:	:	:	PUN	PUNCT	punct
+<date when="1971-12-13">
+December	NP	December	NP0	PROPN	compound
+13	CD	13	CRD	NUM	dep
+,	,	,	PUN	PUNCT	punct
+1971	CD	1971	CRD	NUM	nmod:tmod
+</date>
+---	:	-	AJ0	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Decided	VVN	decide	VVN	VERB	root
+:	:	:	PUN	PUNCT	punct
+<date when="1973-01-22">
+January	NP	January	NP0	PROPN	compound
+22	CD	22	CRD	NUM	dep
+,	,	,	PUN	PUNCT	punct
+1973	CD	1973	CRD	NUM	nmod:tmod
+</date>
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+A	DT	a	AT0	DET	det
+pregnant	JJ	pregnant	AJ0	ADJ	amod
+single	JJ	single	AJ0	ADJ	amod
+woman	NN	woman	NN1	NOUN	nsubj
+(	(	(	PUL	PUNCT	punct
+Roe	NP	Roe	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+brought	VVD	bring	VVD	VERB	root
+a	DT	a	AT0	DET	det
+class	NN	class	NN1	NOUN	compound
+action	NN	action	NN1	NOUN	obj
+challenging	VVG	challenge	VVG	VERB	acl
+the	DT	the	AT0	DET	det
+constitutionality	NN	constitutionality	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Texas	NP	Texas	NP0	PROPN	compound
+criminal	JJ	criminal	AJ0	ADJ	amod
+abortion	NN	abortion	NN1	NOUN	compound
+laws	NNS	law	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+proscribe	VVP	proscribe	VVB	VERB	acl:relcl
+procuring	VVG	procure	VVG	VERB	ccomp
+or	CC	or	CJC	CCONJ	cc
+attempting	VVG	attempt	VVG	VERB	conj
+an	DT	a	AT0	DET	det
+abortion	NN	abortion	NN1	NOUN	obj
+except	IN	except	CJS	ADP	case
+on	IN	on	PRP	ADP	case
+medical	JJ	medical	AJ0	ADJ	amod
+advice	NN	advice	NN1	NOUN	obl
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+purpose	NN	purpose	NN1	NOUN	nmod
+of	IN	of	PRF	SCONJ	mark
+saving	VVG	save	VVG	VERB	acl
+the	DT	the	AT0	DET	det
+mother	NN	mother	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+life	NN	life	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+A	DT	a	AT0	DET	det
+licensed	VVN	license	VVN	VERB	amod
+physician	NN	physician	NN1	NOUN	nsubj:pass
+(	(	(	PUL	PUNCT	punct
+Hallford	NP	Hallford	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+who	WP	who	PNQ	PRON	nsubj
+had	VHD	have	VHD	VERB	acl:relcl
+two	CD	two	CRD	NUM	nummod
+state	NN	state	NN1	NOUN	compound
+abortion	NN	abortion	NN1	NOUN	compound
+prosecutions	NNS	prosecution	NN2	NOUN	obj
+pending	VVG	pend	VVG	VERB	acl
+against	IN	against	PRP	ADP	case
+him	PP	he	PNP	PRON	obl
+,	,	,	PUN	PUNCT	punct
+was	VBD	be	VBD	AUX	aux:pass
+permitted	VVN	permit	VVN	VERB	root
+to	TO	to	TO0	PART	mark
+intervene	VV	intervene	VVI	VERB	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+A	DT	a	AT0	DET	det
+childless	JJ	childless	AJ0	ADJ	amod
+married	JJ	married	AJ0	ADJ	amod
+couple	NN	couple	NN1	NOUN	nsubj
+(	(	(	PUL	PUNCT	punct
+the	DT	the	AT0	DET	det
+Does	NPS	Doe	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+wife	NN	wife	NN1	NOUN	nsubj
+not	RB	not	XX0	PART	advmod
+being	VBG	be	VBG	AUX	cop
+pregnant	JJ	pregnant	AJ0	ADJ	advcl
+,	,	,	PUN	PUNCT	punct
+separately	RB	separately	AV0	ADV	advmod
+attacked	VVD	attack	VVD	VERB	root
+the	DT	the	AT0	DET	det
+laws	NNS	law	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+basing	VVG	base	VVG	VERB	advcl
+alleged	VVN	allege	VVN	VERB	amod
+injury	NN	injury	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+future	JJ	future	AJ0	ADJ	amod
+possibilities	NNS	possibility	NN2	NOUN	obl
+of	IN	of	PRF	ADP	case
+contraceptive	JJ	contraceptive	AJ0	ADJ	amod
+failure	NN	failure	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+pregnancy	NN	pregnancy	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+unpreparedness	NN	unpreparedness	NN1	NOUN	conj
+for	IN	for	PRP	ADP	case
+parenthood	NN	parenthood	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+impairment	NN	impairment	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+wife	NN	wife	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+health	NN	health	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+A	DT	a	AT0	DET	det
+<w>
+three	CD	three	CRD	NUM	nummod
+-	HYPH	-	PUN	PUNCT	punct
+judge	NN	judge	NN1	NOUN	compound
+</w>
+District	NP	District	NP0	PROPN	compound
+Court	NP	Court	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+consolidated	VVD	consolidate	VVD	VERB	acl:relcl
+the	DT	the	AT0	DET	det
+actions	NNS	action	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+held	VVD	hold	VVD	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+Roe	NP	Roe	NP0	PROPN	nsubj
+and	CC	and	CJC	CCONJ	cc
+Hallford	NP	Hallford	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+members	NNS	member	NN2	NOUN	conj
+of	IN	of	PRF	ADP	case
+their	PP$	their	DPS	PRON	nmod:poss
+classes	NNS	class	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+had	VHD	have	VHD	VERB	ccomp
+standing	NN	standing	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+sue	VV	sue	VVI	VERB	acl
+and	CC	and	CJC	CCONJ	cc
+presented	VVD	present	VVD	VERB	conj
+justiciable	JJ	justiciable	AJ0	ADJ	amod
+controversies	NNS	controversy	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Ruling	VVG	rule	VVG	VERB	advcl
+that	IN/that	that	CJT	SCONJ	mark
+declaratory	JJ	declaratory	AJ0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+though	CC	though	CJS	CCONJ	cc
+not	RB	not	XX0	PART	advmod
+injunctive	JJ	injunctive	AJ0	ADJ	conj
+,	,	,	PUN	PUNCT	punct
+relief	NN	relief	NN1	NOUN	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+warranted	VVN	warrant	VVN	VERB	ccomp
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+court	NN	court	NN1	NOUN	nsubj
+declared	VVD	declare	VVD	VERB	root
+the	DT	the	AT0	DET	det
+abortion	NN	abortion	NN1	NOUN	compound
+statutes	NNS	statute	NN2	NOUN	obj
+void	JJ	void	AJ0	ADJ	xcomp
+as	IN	as	PRP	SCONJ	mark
+vague	JJ	vague	AJ0	ADJ	advcl
+and	CC	and	CJC	CCONJ	cc
+overbroadly	RB	overbroadly	AJ0	ADV	advmod
+infringing	VVG	infringe	VVG	VERB	conj
+those	DT	this	DT0	DET	det
+plaintiffs	NNS	plaintiff	NN2	NOUN	nmod:poss
+'	POS	's	POS	PART	case
+Ninth	NP	Ninth	NP0	ADJ	amod
+and	CC	and	CJC	CCONJ	cc
+Fourteenth	NP	Fourteenth	NP0	PROPN	conj
+Amendment	NP	Amendment	NP0	PROPN	compound
+rights	NNS	right	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+The	DT	the	AT0	DET	det
+court	NN	court	NN1	NOUN	nsubj
+ruled	VVD	rule	VVD	VERB	root
+the	DT	the	AT0	DET	det
+Does	NPS	Doe	NP0	PROPN	nmod:poss
+'	POS	's	POS	PART	case
+complaint	NN	complaint	NN1	NOUN	obj
+not	RB	not	XX0	PART	advmod
+justiciable	JJ	justiciable	AJ0	ADJ	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Appellants	NNS	appellant	NN2	NOUN	nsubj
+directly	RB	directly	AV0	ADV	advmod
+appealed	VVD	appeal	VVD	VERB	root
+to	IN	to	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Court	NP	Court	NP0	PROPN	obl
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+injunctive	JJ	injunctive	AJ0	ADJ	amod
+rulings	NNS	ruling	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+appellee	NP	appellee	NP0	PROPN	nsubj
+cross	NP	cross	NP0	PROPN	compound
+-	:	-	PUN	PUNCT	punct
+appealed	VVD	appeal	VVD	VERB	conj
+from	IN	from	PRP	ADP	case
+the	DT	the	AT0	DET	det
+District	NP	District	NP0	PROPN	compound
+Court	NP	Court	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+grant	NN	grant	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+declaratory	JJ	declaratory	AJ0	ADJ	amod
+relief	NN	relief	NN1	NOUN	nmod
+to	IN	to	PRP	ADP	case
+Roe	NP	Roe	NP0	PROPN	nmod
+and	CC	and	CJC	CCONJ	cc
+Hallford	NP	Hallford	NP0	PROPN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="other" transition="zero">
+Held	VVN	hold	VVN	VERB	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="zero">
+1.	LS	1.	CRD	X	dep
+While	IN	while	CJS	SCONJ	mark
+<ref target="https://www.law.cornell.edu/uscode/text/28">
+28	CD	28	CRD	NUM	nummod
+</ref>
+<ref target="https://en.wikisource.org/wiki/United_States_Code">
+U.S.C.	NP	U.S.C.	NP0	PROPN	compound
+</ref>
+<ref target="https://www.law.cornell.edu/uscode/text/28/1253">
+<date when="1253">
+1253	CD	1253	CRD	NUM	nsubj
+</date>
+</ref>
+authorizes	VVZ	authorize	VVZ	VERB	advcl
+no	DT	no	AT0	DET	det
+direct	JJ	direct	AJ0	ADJ	amod
+appeal	NN	appeal	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Court	NP	Court	NP0	PROPN	nmod
+from	IN	from	PRP	ADP	case
+the	DT	the	AT0	DET	det
+grant	NN	grant	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+denial	NN	denial	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+declaratory	JJ	declaratory	AJ0	ADJ	amod
+relief	NN	relief	NN1	NOUN	nmod
+alone	RB	alone	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+review	NN	review	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+not	RB	not	XX0	PART	advmod
+foreclosed	VVN	foreclose	VVN	VERB	root
+when	WRB	when	CJS	ADV	mark
+the	DT	the	AT0	DET	det
+case	NN	case	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+properly	RB	properly	AV0	ADV	advmod
+before	IN	before	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Court	NP	Court	NP0	PROPN	advcl
+on	IN	on	PRP	ADP	case
+appeal	NN	appeal	NN1	NOUN	nmod
+from	IN	from	PRP	ADP	case
+specific	JJ	specific	AJ0	ADJ	amod
+denial	NN	denial	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+injunctive	JJ	injunctive	AJ0	ADJ	amod
+relief	NN	relief	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+arguments	NNS	argument	NN2	NOUN	nsubj
+as	IN	as	CJS	ADP	case
+to	IN	to	PRP	ADP	fixed
+both	CC	both	DT0	CCONJ	cc:preconj
+injunctive	JJ	injunctive	AJ0	ADJ	compound
+and	CC	and	CJC	CCONJ	cc
+declaratory	JJ	declaratory	AJ0	ADJ	conj
+relief	NN	relief	NN1	NOUN	nmod
+are	VBP	be	VBB	AUX	cop
+necessarily	RB	necessarily	AV0	ADV	advmod
+identical	JJ	identical	AJ0	ADJ	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+P.	NN	p.	NN1	NOUN	root
+123	CD	123	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+2.	LS	2.	CRD	X	dep
+Roe	NP	Roe	NP0	PROPN	nsubj
+has	VHZ	have	VHZ	VERB	root
+standing	NN	standing	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+sue	VV	sue	VVI	VERB	acl
+;	:	;	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+Does	NPS	Doe	NP0	PROPN	nsubj
+and	CC	and	CJC	CCONJ	cc
+Hallford	NP	Hallford	NP0	PROPN	conj
+do	VVP	do	VD	VERB	parataxis
+not	RB	not	XX0	PART	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Pp.	NNS	p.	NN2	NOUN	root
+<w>
+123	CD	123	CRD	NUM	nmod
+-	SYM	-	PUN	SYM	case
+129	CD	129	CRD	NUM	nmod
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+(a)	LS	(a)	UNC	X	dep
+Contrary	JJ	contrary	AJ0	ADJ	advcl
+to	IN	to	PRP	ADP	case
+appellee	NP	appellee	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+contention	NN	contention	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+natural	JJ	natural	AJ0	ADJ	amod
+termination	NN	termination	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+Roe	NP	Roe	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+pregnancy	NN	pregnancy	NN1	NOUN	nmod
+did	VVD	do	VDD	AUX	aux
+not	RB	not	XX0	PART	advmod
+moot	VV	moot	VVB	VERB	root
+her	PP$	her	DPS	PRON	nmod:poss
+suit	NN	suit	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Litigation	NN	litigation	NN1	NOUN	nsubj
+involving	VVG	involve	VVG	VERB	acl
+pregnancy	NN	pregnancy	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+"	``	''	PUQ	PUNCT	punct
+capable	JJ	capable	AJ0	ADJ	acl:relcl
+of	IN	of	PRF	ADP	case
+repetition	NN	repetition	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+yet	CC	yet	AV0	CCONJ	cc
+evading	VVG	evade	VVG	VERB	conj
+review	NN	review	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+"	''	''	PUQ	PUNCT	punct
+is	VBZ	be	VBZ	AUX	cop
+an	DT	a	AT0	DET	det
+exception	NN	exception	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+usual	JJ	usual	AJ0	ADJ	amod
+federal	JJ	federal	AJ0	ADJ	amod
+rule	NN	rule	NN1	NOUN	nmod
+that	IN/that	that	CJT	SCONJ	mark
+an	DT	a	AT0	DET	det
+actual	JJ	actual	AJ0	ADJ	amod
+controversy	NN	controversy	NN1	NOUN	nsubj
+<hi rend="bold">
+[	(	[	PUL	PUNCT	punct
+<sic ana="p.">
+p	NN	p	NN1	NOUN	parataxis
+</sic>
+114	CD	114	CRD	NUM	nmod
+]	)	]	PUR	PUNCT	punct
+</hi>
+must	MD	must	VM0	AUX	aux
+exist	VV	exist	VVI	VERB	acl
+at	IN	at	PRP	ADP	case
+review	NN	review	NN1	NOUN	compound
+stages	NNS	stage	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+not	RB	not	XX0	PART	advmod
+simply	RB	simply	AV0	ADV	advmod
+when	WRB	when	CJS	ADV	advmod
+the	DT	the	AT0	DET	det
+action	NN	action	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+initiated	VVN	initiate	VVN	VERB	advcl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="zero">
+Pp.	NNS	p.	NN2	NOUN	root
+<w>
+124	CD	124	CRD	NUM	nmod
+-	SYM	-	PUN	SYM	case
+125	CD	125	CRD	NUM	nmod
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+(b)	LS	(b)	UNC	X	dep
+The	DT	the	AT0	DET	det
+District	NP	District	NP0	PROPN	compound
+Court	NP	Court	NP0	PROPN	nsubj
+correctly	RB	correctly	AV0	ADV	advmod
+refused	VVD	refuse	VVD	VERB	root
+injunctive	JJ	injunctive	AJ0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+erred	VVD	err	VVD	VERB	conj
+in	IN	in	PRP	SCONJ	mark
+granting	VVG	grant	VVG	VERB	advcl
+declaratory	JJ	declaratory	AJ0	ADJ	obj
+,	,	,	PUN	PUNCT	punct
+relief	NN	relief	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+Hallford	NP	Hallford	NP0	PROPN	obl
+,	,	,	PUN	PUNCT	punct
+who	WP	who	PNQ	PRON	nsubj
+alleged	VVD	allege	VVD	VERB	acl:relcl
+no	DT	no	AT0	DET	det
+federally	RB	federally	AV0	ADV	advmod
+protected	VVN	protect	VVN	VERB	amod
+right	RB	right	AV0	ADV	obj
+not	RB	not	XX0	PART	advmod
+assertable	JJ	assertable	AJ0	ADJ	acl
+as	IN	as	PRP	ADP	case
+a	DT	a	AT0	DET	det
+defense	NN	defense	NN1	NOUN	obl
+against	IN	against	PRP	ADP	case
+the	DT	the	AT0	DET	det
+good	JJ	good	AJ0	ADJ	amod
+faith	NN	faith	NN1	NOUN	compound
+state	NN	state	NN1	NOUN	compound
+prosecutions	NNS	prosecution	NN2	NOUN	nmod
+pending	VVG	pend	VVG	VERB	acl
+against	IN	against	PRP	ADP	case
+him	PP	he	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Samuels	NP	Samuels	NP0	PROPN	root
+v.	IN	versus	PRP	ADP	case
+Mackell	NP	Mackell	NP0	PROPN	nmod
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikisource.org/wiki/Samuels_v._Mackell">
+401	CD	401	CRD	NUM	nummod
+U.S.	NP	U.S.	NP0	PROPN	compound
+66	CD	66	CRD	NUM	appos
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Pp.	NNS	p.	NN2	NOUN	root
+<w>
+125	CD	125	CRD	NUM	nmod
+-	SYM	-	PUN	SYM	case
+127	CD	127	CRD	NUM	nmod
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+(c)	LS	(c)	UNC	X	dep
+The	DT	the	AT0	DET	det
+Does	NPS	Doe	NP0	PROPN	nmod:poss
+'	POS	's	POS	PART	case
+complaint	NN	complaint	NN1	NOUN	nsubj
+,	,	,	PUN	PUNCT	punct
+based	VVN	base	VVN	VERB	acl
+as	IN	as	CJS	SCONJ	mark
+it	PP	it	PNP	PRON	nsubj
+is	VBZ	be	VBZ	VERB	advcl
+on	IN	on	PRP	ADP	case
+contingencies	NNS	contingency	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+any	DT	any	DT0	DET	det
+one	NN	one	NN1	NOUN	nsubj
+or	CC	or	CJC	CCONJ	cc
+more	JJR	more	DT0	ADJ	conj
+of	IN	of	PRF	ADP	case
+which	WDT	which	DTQ	PRON	nmod
+may	MD	may	VM0	AUX	aux
+not	RB	not	XX0	PART	advmod
+occur	VV	occur	VVI	VERB	acl:relcl
+,	,	,	PUN	PUNCT	punct
+is	VBZ	be	VBZ	AUX	cop
+too	RB	too	AV0	ADV	advmod
+speculative	JJ	speculative	AJ0	ADJ	root
+to	TO	to	TO0	PART	mark
+present	VV	present	VVI	VERB	advcl
+an	DT	a	AT0	DET	det
+actual	JJ	actual	AJ0	ADJ	amod
+case	NN	case	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+controversy	NN	controversy	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Pp.	NNS	p.	NN2	NOUN	root
+<w>
+127	CD	127	CRD	NUM	nmod
+-	SYM	-	PUN	SYM	case
+129	CD	129	CRD	NUM	nmod
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+3.	LS	3.	CRD	X	dep
+State	NN	State	NN1	NOUN	compound
+criminal	JJ	criminal	AJ0	ADJ	amod
+abortion	NN	abortion	NN1	NOUN	compound
+laws	NNS	law	NN2	NOUN	nsubj
+,	,	,	PUN	PUNCT	punct
+like	IN	like	PRP	ADP	case
+those	DT	this	DT0	PRON	nmod
+involved	VVN	involve	VVN	VERB	acl
+here	RB	here	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+that	IN/that	that	CJT	ADP	nsubj
+except	IN	except	CJS	ADP	acl:relcl
+from	IN	from	PRP	ADP	case
+criminality	NN	criminality	NN1	NOUN	obl
+only	RB	only	AV0	ADV	advmod
+a	DT	a	AT0	DET	det
+<w>
+life	NN	life	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+saving	VVG	save	VVG	VERB	amod
+</w>
+procedure	NN	procedure	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+mother	NN	mother	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+behalf	NN	behalf	NN1	NOUN	nmod
+without	IN	without	PRP	ADP	case
+regard	NN	regard	NN1	NOUN	obl
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+stage	NN	stage	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+her	PP$	her	DPS	PRON	nmod:poss
+pregnancy	NN	pregnancy	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+other	JJ	other	AJ0	ADJ	amod
+interests	NNS	interest	NN2	NOUN	conj
+involved	VVN	involve	VVN	VERB	acl
+violate	VVP	violate	VVB	VERB	root
+the	DT	the	AT0	DET	det
+Due	NP	Due	NP0	ADJ	amod
+Process	NP	Process	NP0	PROPN	compound
+Clause	NP	Clause	NP0	PROPN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+<ref target="https://en.wikisource.org/wiki/Additional_amendments_to_the_United_States_Constitution#Amendment_XIV">
+Fourteenth	NP	Fourteenth	NP0	ADJ	amod
+Amendment	NP	Amendment	NP0	PROPN	nmod
+</ref>
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+protects	VVZ	protect	VVZ	VERB	acl:relcl
+against	IN	against	PRP	ADP	case
+state	NN	state	NN1	NOUN	compound
+action	NN	action	NN1	NOUN	obl
+the	DT	the	AT0	DET	det
+right	NN	right	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+privacy	NN	privacy	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+including	VVG	include	VVG	VERB	case
+a	DT	a	AT0	DET	det
+woman	NN	woman	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+qualified	JJ	qualified	AJ0	ADJ	amod
+right	NN	right	NN1	NOUN	nmod
+to	TO	to	TO0	PART	mark
+terminate	VV	terminate	VVI	VERB	acl
+her	PP$	her	DPS	PRON	nmod:poss
+pregnancy	NN	pregnancy	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Though	IN	though	CJS	SCONJ	mark
+the	DT	the	AT0	DET	det
+State	NP	State	NP0	PROPN	nsubj
+<w>
+can	MD	can	VM0	AUX	aux
+not	RB	not	XX0	PART	advmod
+</w>
+override	VV	override	VVI	VERB	advcl
+that	DT	that	CJT	DET	det
+right	NN	right	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+it	PP	it	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+legitimate	JJ	legitimate	AJ0	ADJ	amod
+interests	NNS	interest	NN2	NOUN	obj
+in	IN	in	PRP	SCONJ	mark
+protecting	VVG	protect	VVG	VERB	acl
+both	CC	both	AV0	CCONJ	cc:preconj
+the	DT	the	AT0	DET	det
+pregnant	JJ	pregnant	AJ0	ADJ	amod
+woman	NN	woman	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+health	NN	health	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+potentiality	NN	potentiality	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+human	JJ	human	AJ0	ADJ	amod
+life	NN	life	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+each	DT	each	DT0	DET	nsubj
+of	IN	of	PRF	ADP	case
+which	WDT	which	DTQ	PRON	nmod
+interests	NNS	interest	NN2	NOUN	advcl:relcl
+grows	VVZ	grow	VVZ	VERB	conj
+and	CC	and	CJC	CCONJ	cc
+reaches	VVZ	reach	VVZ	VERB	conj
+a	DT	a	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+compelling	JJ	compelling	AJ0	ADJ	amod
+"	''	''	PUQ	PUNCT	punct
+</q>
+point	NN	point	NN1	NOUN	obj
+at	IN	at	PRP	ADP	case
+various	JJ	various	AJ0	ADJ	amod
+stages	NNS	stage	NN2	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+woman	NN	woman	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+approach	NN	approach	NN1	NOUN	nmod
+to	IN	to	PRP	ADP	case
+term	NN	term	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="zero">
+Pp.	NNS	p.	NN2	NOUN	root
+<w>
+147	CD	147	CRD	NUM	nmod
+-	SYM	-	PUN	SYM	case
+164	CD	164	CRD	NUM	nmod
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+(a)	LS	(a)	UNC	X	dep
+For	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+stage	NN	stage	NN1	NOUN	obl
+prior	RB	prior	PRP	ADV	case
+to	IN	to	PRP	ADP	fixed
+approximately	RB	approximately	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+end	NN	end	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	amod
+trimester	NN	trimester	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+abortion	NN	abortion	NN1	NOUN	compound
+decision	NN	decision	NN1	NOUN	nsubj:pass
+and	CC	and	CJC	CCONJ	cc
+its	PP$	its	DPS	PRON	nmod:poss
+effectuation	NN	effectuation	NN1	NOUN	conj
+must	MD	must	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux:pass
+left	VVN	leave	VVN	VERB	root
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+medical	JJ	medical	AJ0	ADJ	amod
+judgment	NN	judgment	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+pregnant	JJ	pregnant	AJ0	ADJ	amod
+woman	NN	woman	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+attending	VVG	attend	VVG	VERB	amod
+physician	NN	physician	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Pp.	NNS	p.	NN2	NOUN	root
+163	CD	163	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+164	CD	164	CRD	NUM	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+(b)	LS	(b)	UNC	X	dep
+For	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+stage	NN	stage	NN1	NOUN	obl
+subsequent	JJ	subsequent	AJ0	ADJ	amod
+to	IN	to	PRP	ADP	case
+approximately	RB	approximately	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+end	NN	end	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	amod
+trimester	NN	trimester	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+State	NP	State	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	SCONJ	mark
+promoting	VVG	promote	VVG	VERB	advcl
+its	PP$	its	DPS	PRON	nmod:poss
+interest	NN	interest	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+health	NN	health	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+mother	NN	mother	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+may	MD	may	VM0	AUX	aux
+,	,	,	PUN	PUNCT	punct
+if	IN	if	CJS	SCONJ	mark
+it	PP	it	PNP	PRON	nsubj
+chooses	VVZ	choose	VVZ	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+regulate	VV	regulate	VVB	VERB	root
+the	DT	the	AT0	DET	det
+abortion	NN	abortion	NN1	NOUN	compound
+procedure	NN	procedure	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+ways	NNS	way	NN2	NOUN	obl
+that	WDT	that	CJT	PRON	nsubj:outer
+are	VBP	be	VBB	AUX	cop
+reasonably	RB	reasonably	AV0	ADV	advmod
+related	VVN	relate	VVN	VERB	acl:relcl
+to	IN	to	PRP	ADP	case
+maternal	JJ	maternal	AJ0	ADJ	amod
+health	NN	health	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Pp.	NNS	p.	NN2	NOUN	root
+163	CD	163	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+164	CD	164	CRD	NUM	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+(c)	LS	(c)	UNC	X	dep
+For	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+stage	NN	stage	NN1	NOUN	obl
+subsequent	JJ	subsequent	AJ0	ADJ	acl
+to	IN	to	PRP	ADP	case
+viability	NN	viability	NN1	NOUN	obl
+the	DT	the	AT0	DET	det
+State	NP	State	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	SCONJ	mark
+promoting	VVG	promote	VVG	VERB	advcl
+its	PP$	its	DPS	PRON	nmod:poss
+interest	NN	interest	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+potentiality	NN	potentiality	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+human	JJ	human	AJ0	ADJ	amod
+life	NN	life	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+may	MD	may	VM0	AUX	aux
+,	,	,	PUN	PUNCT	punct
+if	IN	if	CJS	SCONJ	mark
+it	PP	it	PNP	PRON	nsubj
+chooses	VVZ	choose	VVZ	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+regulate	VV	regulate	VVB	VERB	root
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+even	RB	even	AV0	ADV	advmod
+proscribe	VV	proscribe	VVB	VERB	conj
+,	,	,	PUN	PUNCT	punct
+abortion	NN	abortion	NN1	NOUN	obj
+except	IN	except	PRP	SCONJ	mark
+where	WRB	where	AVQ	ADV	mark
+necessary	JJ	necessary	AJ0	ADJ	advcl
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	ADP	case
+appropriate	JJ	appropriate	AJ0	ADJ	amod
+medical	JJ	medical	AJ0	ADJ	amod
+judgment	NN	judgment	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+preservation	NN	preservation	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+life	NN	life	NN1	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+health	NN	health	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+mother	NN	mother	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Pp.	NNS	p.	NN2	NOUN	root
+<w>
+163	CD	163	CRD	NUM	nmod
+-	SYM	-	PUN	SYM	case
+164	CD	164	CRD	NUM	nmod
+</w>
+;	:	;	PUN	PUNCT	punct
+<w>
+164	CD	164	CRD	NUM	conj
+-	SYM	-	PUN	SYM	case
+165	CD	165	CRD	NUM	nmod
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+4.	LS	4.	CRD	X	dep
+The	DT	the	AT0	DET	det
+State	NP	State	NP0	PROPN	nsubj
+may	MD	may	VM0	AUX	aux
+define	VV	define	VVI	VERB	root
+the	DT	the	AT0	DET	det
+term	NN	term	NN1	NOUN	obj
+<q>
+"	``	''	PUQ	PUNCT	punct
+physician	NN	physician	NN1	NOUN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+to	TO	to	TO0	PART	mark
+mean	VV	mean	VVI	VERB	advcl
+only	RB	only	AV0	ADV	advmod
+a	DT	a	AT0	DET	det
+physician	NN	physician	NN1	NOUN	obj
+currently	RB	currently	AV0	ADV	advmod
+licensed	VVN	license	VVN	VERB	acl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+State	NP	State	NP0	PROPN	obl:agent
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+may	MD	may	VM0	AUX	aux
+proscribe	VV	proscribe	VVI	VERB	conj
+any	DT	any	DT0	DET	det
+abortion	NN	abortion	NN1	NOUN	obj
+by	IN	by	PRP	ADP	case
+a	DT	a	AT0	DET	det
+person	NN	person	NN1	NOUN	obl
+who	WP	who	PNQ	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+not	RB	not	XX0	PART	advmod
+a	DT	a	AT0	DET	det
+physician	NN	physician	NN1	NOUN	acl:relcl
+as	IN	as	CJS	SCONJ	mark
+so	RB	so	AV0	ADV	advmod
+defined	JJ	define	AJ0	ADJ	advcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+P.	NN	p.	NN1	NOUN	root
+165	CD	165	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+5.	LS	5.	CRD	X	dep
+It	PP	it	PNP	PRON	expl
+is	VBZ	be	VBZ	AUX	cop
+unnecessary	JJ	unnecessary	AJ0	ADJ	root
+to	TO	to	TO0	PART	mark
+decide	VV	decide	VVI	VERB	csubj
+the	DT	the	AT0	DET	det
+injunctive	JJ	injunctive	AJ0	ADJ	amod
+relief	NN	relief	NN1	NOUN	compound
+issue	NN	issue	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+since	IN	since	CJS	SCONJ	mark
+the	DT	the	AT0	DET	det
+Texas	NP	Texas	NP0	PROPN	compound
+authorities	NNS	authority	NN2	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+doubtless	RB	doubtless	AV0	ADV	advmod
+fully	RB	fully	AV0	ADV	advmod
+recognize	VV	recognize	VVB	VERB	advcl
+the	DT	the	AT0	DET	det
+Court	NP	Court	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+ruling	NN	ruling	NN1	NOUN	obj
+<hi rend="bold">
+[	(	[	PUL	PUNCT	punct
+p115	NP	p115	NP0	PROPN	parataxis
+]	)	]	PUR	PUNCT	punct
+</hi>
+that	IN/that	that	CJT	SCONJ	mark
+the	DT	the	AT0	DET	det
+Texas	NP	Texas	NP0	PROPN	compound
+criminal	JJ	criminal	AJ0	ADJ	amod
+abortion	NN	abortion	NN1	NOUN	compound
+statutes	NNS	statute	NN2	NOUN	nsubj
+are	VBP	be	VBB	AUX	cop
+unconstitutional	JJ	unconstitutional	AJ0	ADJ	acl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+P.	NN	p.	NN1	NOUN	root
+166	CD	166	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+BLACKMUN	NP	Blackmun	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+J.	NP	J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+delivered	VVD	deliver	VVD	VERB	root
+the	DT	the	AT0	DET	det
+opinion	NN	opinion	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Court	NP	Court	NP0	PROPN	nmod
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	ADP	case
+which	WDT	which	DTQ	PRON	obl
+BURGER	NP	Burger	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+C.J.	NP	C.J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+DOUGLAS	NP	Douglas	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+BRENNAN	NP	Brennan	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+STEWART	NP	Stewart	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+MARSHALL	NP	Marshalll	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+POWELL	NP	Powell	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+JJ.	NP	JJ.	NP0	PROPN	appos
+,	,	,	PUN	PUNCT	punct
+joined	VVD	join	VVD	VERB	acl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+BURGER	NP	Burger	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+C.J.	NP	C.J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+post	NN	post	NN1	NOUN	dep
+,	,	,	PUN	PUNCT	punct
+p.	NN	p.	NN1	NOUN	dep
+207	CD	207	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+DOUGLAS	NP	Douglas	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+J.	NP	J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+post	NN	post	NN1	NOUN	dep
+,	,	,	PUN	PUNCT	punct
+p.	NN	p.	NN1	NOUN	dep
+209	CD	209	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+STEWART	NP	Stewart	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+J.	NP	J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+post	NN	post	NN1	NOUN	dep
+,	,	,	PUN	PUNCT	punct
+p.	NN	p.	NN1	NOUN	dep
+167	CD	167	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+filed	VVD	file	VVD	VERB	root
+concurring	VVG	concur	VVG	VERB	amod
+opinions	NNS	opinion	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+WHITE	NP	White	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+J.	NP	J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+filed	VVD	file	VVD	VERB	root
+a	DT	a	AT0	DET	det
+dissenting	VVG	dissent	VVG	VERB	amod
+opinion	NN	opinion	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	ADP	case
+which	WDT	which	DTQ	PRON	obl
+REHNQUIST	NP	Rehnquist	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+J.	NP	J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+joined	VVD	join	VVD	VERB	acl:relcl
+,	,	,	PUN	PUNCT	punct
+post	NN	post	NN1	NOUN	dep
+,	,	,	PUN	PUNCT	punct
+p.	NN	p.	NN1	NOUN	dep
+221	CD	221	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+REHNQUIST	NP	Rehnquist	NP0	PROPN	nsubj
+,	,	,	PUN	PUNCT	punct
+J.	NP	J.	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+filed	VVD	file	VVD	VERB	root
+a	DT	a	AT0	DET	det
+dissenting	VVG	dissent	VVG	VERB	amod
+opinion	NN	opinion	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+post	NN	post	NN1	NOUN	dep
+,	,	,	PUN	PUNCT	punct
+p.	NN	p.	NN1	NOUN	dep
+171	CD	171	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+<hi rend="bold">
+[	(	[	PUL	PUNCT	punct
+<sic ana="p.">
+p	NN	p	NN1	NOUN	parataxis
+</sic>
+116	CD	116	CRD	NUM	nmod
+]	)	]	PUR	PUNCT	punct
+</hi>
+</s>
+</p>
+</text>

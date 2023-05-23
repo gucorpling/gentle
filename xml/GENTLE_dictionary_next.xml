@@ -1,0 +1,1112 @@
+<text id="GENTLE_dictionary_next" author="Wiktionary" dateCollected="2022-11-14" dateCreated="2003-03-18" dateModified="2022-10-02" shortTitle="next" sourceURL="https://en.wiktionary.org/wiki/next" speakerCount="0" speakerList="none" title="next" type="dictionary">
+<head>
+<s type="frag" transition="establishment">
+next	JJ	next	ORD	ADJ	root
+</s>
+</head>
+<head>
+<s type="frag" transition="null">
+English	NP	English	NP0	PROPN	root
+</s>
+</head>
+<s type="frag" transition="null">
+<hi rend="bold">
+Alternative	JJ	alternative	AJ0	ADJ	amod
+forms	NNS	form	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/w/index.php?title=neest&amp;action=edit&amp;redlink=1">
+neest	FW	neest	UNC	X	root
+</ref>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+dialectal	JJ	dialectal	AJ0	ADJ	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/neist#English">
+neist	NP	Neist	NP0	PROPN	root
+</ref>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+Scotland	NP	Scotland	NP0	PROPN	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/nex#English">
+nex	NP	Nex	NP0	PROPN	root
+</ref>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+archaic	NN	archaic	NN1	NOUN	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/nex%27#English">
+nex'	FW	nex'	UNC	X	root
+</ref>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+dialectal	JJ	dialectal	AJ0	ADJ	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Etymology	NN	etymology	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="null">
+From	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Middle_English">
+Middle	NP	Middle	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	nmod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/nexte#Middle_English">
+nexte	FW	nexte	UNC	X	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/w/index.php?title=nexste&amp;action=edit&amp;redlink=1">
+nexste	FW	nexste	UNC	X	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/w/index.php?title=nixte&amp;action=edit&amp;redlink=1">
+nixte	FW	nixte	UNC	X	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Old_English">
+Old	NP	Old	NP0	ADJ	amod
+English	NP	English	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/niehsta#Old_English">
+nīehsta	FW	nīehsta	UNC	X	nmod
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/w/index.php?title=niehste&amp;action=edit&amp;redlink=1">
+nīehste	FW	nīehste	UNC	X	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+etc.	FW	etc.	UNC	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+inflected	VVN	inflect	VVN	VERB	amod
+forms	NNS	form	NN2	NOUN	appos
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/niehst#Old_English">
+nīehst	FW	nīehst	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+nearest	JJS	near	AJS	ADJ	parataxis
+,	,	,	PUN	PUNCT	punct
+next	JJ	next	ORD	ADJ	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+superlative	JJ	superlative	AJ0	ADJ	amod
+form	NN	form	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/neah#Old_English">
+nēah	FW	nēah	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+nigh	JJ	nigh	AJ0	ADJ	parataxis
+,	,	,	PUN	PUNCT	punct
+near	JJ	near	AJ0	ADJ	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+corresponding	VVG	correspond	VVG	VERB	acl
+to	IN	to	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Proto-Germanic_language">
+Proto-Germanic	NP	Proto-Germanic	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/n%C4%93hwist">
+*nēhwist	FW	*nēhwist	UNC	X	obl
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+nearest	JJS	near	AJS	ADJ	parataxis
+,	,	,	PUN	PUNCT	punct
+closest	JJS	close	AJS	ADJ	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+;	,	;	PUN	PUNCT	punct
+equivalent	JJ	equivalent	AJ0	ADJ	parataxis
+to	IN	to	PRP	ADP	case
+<ref target="https://en.wiktionary.org/wiki/nigh#English">
+nigh	JJ	nigh	AJ0	ADJ	obl
+</ref>
++	CC	+	UNC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/-est#English">
+-est	NN	-est	NN1	NOUN	conj
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="other" transition="establishment">
+Cognate	NN	cognate	NN1	NOUN	root
+with	IN	with	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Saterland_Frisian_language">
+Saterland	NP	Saterland	NP0	PROPN	compound
+Frisian	NP	Frisian	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/naist#Saterland_Frisian">
+naist	FW	naist	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+next	JJ	next	ORD	ADJ	parataxis
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Dutch_language">
+Dutch	NP	Dutch	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/naast#Dutch">
+naast	FW	naast	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+next	JJ	next	ORD	ADJ	parataxis
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/German_language">
+German	NP	German	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/n%C3%A4chst#German">
+nächst	FW	nächst	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+next	JJ	next	ORD	ADJ	parataxis
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Danish_language">
+Danish	NP	Danish	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/n%C3%A6ste#Danish">
+næste	FW	næste	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+next	JJ	next	ORD	ADJ	parataxis
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Swedish_language">
+Swedish	NP	Swedish	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/n%C3%A4st#Swedish">
+näst	FW	näst	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+next	JJ	next	ORD	ADJ	parataxis
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Icelandic_language">
+Icelandic	NP	Icelandic	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/n%C3%A6st#Icelandic">
+næst	FW	næst	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+next	FW	next	UNC	X	parataxis
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Persian_language">
+Persian	NP	Persian	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/%D9%86%D8%B2%D8%AF#Persian">
+نزد	FW	نزد	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+nazd	FW	nazd	UNC	X	appos
+,	,	,	PUN	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+near	JJ	near	AJ0	ADJ	parataxis
+,	,	,	PUN	PUNCT	punct
+with	IN	with	PRP	ADP	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Pronunciation	NN	pronunciation	NN1	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/Appendix:English_pronunciation">
+enPR	NN	enPR	NN1	NOUN	dep
+</ref>
+:	:	:	PUN	PUNCT	punct
+nĕ	UH	nĕ	ITJ	INTJ	root
+kst	UH	kst	ITJ	INTJ	flat
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Wiktionary:International_Phonetic_Alphabet">
+IPA	NP	IPA	NP0	PROPN	dep
+</ref>
+(	(	(	PUL	PUNCT	punct
+key	NN	key	NN1	NOUN	parataxis
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+/	SYM	/	UNC	PUNCT	punct
+nɛkst	JJ	nɛkst	AJ0	ADJ	parataxis
+/	SYM	/	UNC	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+Audio	NN	audio	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+US	NP	US	NP0	PROPN	parataxis
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+Rhymes	VVZ	rhyme	VVZ	VERB	root
+:	:	:	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Rhymes:English/%C9%9Bkst">
+-ɛkst	UH	-ɛkst	ITJ	INTJ	dep
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Adjective	JJ	adjective	AJ0	ADJ	root
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+next	JJ	next	ORD	ADJ	root
+</hi>
+(	(	(	PUL	PUNCT	punct
+not	RB	not	XX0	PART	advmod
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#comparable">
+comparable	JJ	comparable	AJ0	ADJ	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="ordered">
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/nearest#English">
+Nearest	JJS	near	AJS	ADJ	root
+</ref>
+in	IN	in	PRP	ADP	case
+place	NN	place	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+position	NN	position	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+having	VHG	have	VHG	VERB	parataxis
+nothing	NN	nothing	NN1	PRON	obj
+similar	JJ	similar	AJ0	ADJ	amod
+intervening	NN	intervene	NN1	NOUN	xcomp
+;	:	;	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/adjoining#English">
+adjoining	VVG	adjoin	VVG	VERB	parataxis
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+The	DT	the	AT0	DET	det
+man	NN	man	NN1	NOUN	nsubj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+bunk	NN	bunk	NN1	NOUN	nmod
+kept	VVD	keep	VVD	VERB	root
+me	PP	I	PNP	PRON	obj
+awake	JJ	awake	AJ0	ADJ	xcomp
+all	DT	all	DT0	DET	det
+night	NN	night	NN1	NOUN	obl:tmod
+with	IN	with	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+snoring	NN	snoring	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+She	PP	she	PNP	PRON	nsubj
+lives	VVZ	life	VVZ	VERB	root
+a	DT	a	AT0	DET	det
+mile	NN	mile	NN1	NOUN	obl:npmod
+or	CC	or	CJC	CCONJ	cc
+two	CD	two	CRD	NUM	conj
+away	RB	away	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+village	NN	village	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#obsolete">
+obsolete	JJ	obsolete	AJ0	ADJ	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+Most	RBS	most	DT0	ADV	advmod
+direct	JJ	direct	AJ0	ADJ	root
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+shortest	JJS	short	AJS	ADJ	conj
+or	CC	or	CJC	CCONJ	cc
+nearest	JJS	near	AJS	ADJ	conj
+in	IN	in	PRP	ADP	case
+distance	NN	distance	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+time	NN	time	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+Nearest	JJ	near	AJ0	ADJ	root
+in	IN	in	PRP	ADP	case
+order	NN	order	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+succession	NN	succession	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+rank	NN	rank	NN1	NOUN	conj
+;	:	;	PUN	PUNCT	punct
+immediately	RB	immediately	AV0	ADV	advmod
+<ref target="https://en.wiktionary.org/wiki/following#English">
+following	VVG	follow	VVG	VERB	parataxis
+</ref>
+(	(	(	PUL	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+sometimes	RB	sometimes	AV0	ADV	advmod
+<ref target="https://en.wiktionary.org/wiki/preceding#English">
+preceding	VVG	precede	VVG	VERB	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+in	IN	in	PRP	ADP	case
+order	NN	order	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+Please	UH	please	ITJ	INTJ	discourse
+turn	VV	turn	VVB	VERB	root
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+page	NN	page	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+On	IN	on	PRP	ADP	case
+Wednesday	NP	Wednesday	NP0	PROPN	obl
+next	JJ	next	ORD	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+I	PP	I	PNP	PRON	nsubj
+'m	VBP	be	VBB	AUX	aux
+going	VVG	go	VVG	VERB	root
+to	IN	to	PRP	ADP	case
+Spain	NP	Spain	NP0	PROPN	obl
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="italic">
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+chapter	NN	chapter	NN1	NOUN	root
+;	:	;	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+week	NN	week	NN1	NOUN	parataxis
+;	:	;	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+Sunday	NP	Sunday	NP0	PROPN	parataxis
+next	JJ	next	ORD	ADJ	amod
+before	IN	before	PRP	ADP	case
+Easter	NP	Easter	NP0	PROPN	nmod
+</hi>
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+The	DT	the	AT0	DET	det
+man	NN	man	NN1	NOUN	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+driven	VVN	drive	VVN	VERB	root
+by	IN	by	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+love	NN	love	NN1	NOUN	obl:agent
+for	IN	for	PRP	ADP	case
+money	NN	money	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+his	PP$	his	DPS	PRON	nmod:poss
+desire	NN	desire	NN1	NOUN	conj
+to	TO	to	TO0	PART	mark
+become	VV	become	VVI	VERB	acl
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	amod
+Bill	NP	Bill	NP0	PROPN	xcomp
+Gates	NP	Gate	NP0	PROPN	flat
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+chiefly	RB	chiefly	AV0	ADV	advmod
+<ref target="https://en.wiktionary.org/wiki/law#English">
+law	NN	law	NN1	NOUN	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/nearest">
+Nearest	JJS	near	AJS	ADJ	root
+</ref>
+in	IN	in	PRP	ADP	case
+<ref target="https://en.wiktionary.org/wiki/relationship">
+relationship	NN	relationship	NN1	NOUN	obl
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+(	(	(	PUL	PUNCT	punct
+See	VV	see	VVB	VERB	root
+also	RB	also	AV0	ADV	advmod
+<ref target="https://en.wiktionary.org/wiki/next_of_kin#English">
+next	JJ	next	ORD	ADJ	obj
+of	IN	of	PRF	ADP	case
+kin	NN	kin	NN0	NOUN	nmod
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<hi rend="italic">
+<ref target="https://en.wiktionary.org/wiki/next_friend">
+next	JJ	next	ORD	ADJ	amod
+friend	NN	friend	NN1	NOUN	root
+</ref>
+</hi>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Usage	NN	usage	NN1	NOUN	compound
+notes	NNS	note	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="decl" transition="null">
+<ref target="https://en.wiktionary.org/wiki/near#English">
+Near	JJ	near	AJ0	ADJ	nsubj
+</ref>
+was	VBD	be	VBD	AUX	cop
+originally	RB	originally	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/comparative">
+comparative	JJ	comparative	AJ0	ADJ	amod
+</ref>
+form	NN	form	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/nigh#English">
+nigh	JJ	nigh	AJ0	ADJ	nmod
+</ref>
+;	:	;	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/superlative">
+superlative	JJ	superlative	AJ0	ADJ	amod
+</ref>
+form	NN	form	NN1	NOUN	nsubj
+was	VBD	be	VBD	AUX	cop
+<ref target="https://en.wiktionary.org/wiki/next#English">
+next	JJ	next	ORD	ADJ	parataxis
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Nigh	JJ	nigh	AJ0	ADJ	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+used	VVN	use	VVN	VERB	root
+today	NN	today	NN1	NOUN	obl:tmod
+mostly	RB	mostly	AV0	ADV	advmod
+in	IN	in	PRP	ADP	case
+archaic	JJ	archaic	AJ0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+poetic	JJ	poetic	AJ0	ADJ	conj
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+regional	JJ	regional	AJ0	ADJ	conj
+contexts	NNS	context	NN2	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Synonyms	NN	synonym	NN1	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="imp" transition="null">
+(	(	(	PUL	PUNCT	punct
+nearest	JJS	near	AJS	ADJ	parataxis
+in	IN	in	PRP	ADP	case
+order	NN	order	NN1	NOUN	obl
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+See	VV	see	VVB	VERB	root
+also	RB	also	AV0	ADV	advmod
+<ref target="https://en.wiktionary.org/wiki/Thesaurus:former">
+Thesaurus	NN	thesaurus	NN1	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+former	JJ	former	DT0	ADJ	obj
+</ref>
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/Thesaurus:subsequent">
+Thesaurus	NN	thesaurus	NN1	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+subsequent	JJ	subsequent	AJ0	ADJ	conj
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Antonyms	NNS	antonym	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="establishment">
+<ref target="https://en.wiktionary.org/wiki/previous#English">
+previous	JJ	previous	AJ0	ADJ	root
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Derived	VVN	derive	VVN	VERB	amod
+terms	NNS	term	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="establishment">
+<ref target="https://en.wiktionary.org/wiki/next-day#English">
+next	JJ	next	ORD	ADJ	compound
+-	HYPH	-	PUN	PUNCT	punct
+day	NN	day	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Determiner	NN	determiner	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="establishment">
+<hi rend="bold">
+next	JJ	next	ORD	ADJ	root
+</hi>
+</s>
+<list type="ordered">
+<item>
+<s type="frag" transition="zero">
+<hi rend="italic">
+Denotes	VVZ	denote	VVZ	VERB	root
+the	DT	the	AT0	DET	det
+one	NN	one	NN1	NOUN	obj
+immediately	RB	immediately	AV0	ADV	advmod
+following	VVG	follow	VVG	VERB	acl
+the	DT	the	AT0	DET	det
+current	JJ	current	AJ0	ADJ	amod
+or	CC	or	CJC	CCONJ	cc
+most	RBS	most	AV0	ADV	advmod
+recent	JJ	recent	AJ0	ADJ	conj
+one	NN	one	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="sub" transition="null">
+<hi rend="italic">
+Next	JJ	next	ORD	ADJ	amod
+week	NN	week	NN1	NOUN	nsubj
+would	MD	would	VM0	AUX	aux
+be	VB	be	VBI	AUX	cop
+a	DT	a	AT0	DET	det
+good	JJ	good	AJ0	ADJ	amod
+time	NN	time	NN1	NOUN	root
+to	TO	to	TO0	PART	mark
+meet	VV	meet	VVI	VERB	acl
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+I	PP	I	PNP	PRON	nsubj
+'ll	MD	will	VM0	AUX	aux
+know	VV	know	VVI	VERB	root
+better	RBR	well	AV0	ADV	advmod
+next	JJ	next	ORD	ADJ	amod
+time	NN	time	NN1	NOUN	obl:tmod
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+of	IN	of	PRF	ADP	case
+days	NNS	day	NN2	NOUN	parataxis
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+week	NN	week	NN1	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+months	NNS	month	NN2	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+year	NN	year	NN1	NOUN	nmod
+</hi>
+)	)	)	PUR	PUNCT	punct
+Closest	JJS	close	AJS	ADJ	root
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/future">
+future	NN	future	NN1	NOUN	obl
+</ref>
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+closest	JJS	close	AJS	ADJ	conj
+but	IN	but	CJC	ADP	case
+one	CD	one	PNI	NUM	obl
+if	IN	if	CJS	SCONJ	mark
+the	DT	the	AT0	DET	det
+closest	JJS	close	AJS	ADJ	nsubj
+is	VBZ	be	VBZ	AUX	cop
+very	RB	very	AV0	ADV	advmod
+soon	RB	soon	AV0	ADV	advcl
+;	:	;	PUN	PUNCT	punct
+of	IN	of	PRF	ADP	case
+days	NNS	day	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+sometimes	RB	sometimes	AV0	ADV	advmod
+thought	VVN	think	VVN	VERB	parataxis
+to	TO	to	TO0	PART	mark
+specifically	RB	specifically	AV0	ADV	advmod
+refer	VV	refer	VVI	VERB	xcomp
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+instance	NN	instance	NN1	NOUN	obl
+closest	JJS	close	AJS	ADJ	amod
+to	IN	to	PRP	ADP	case
+seven	CD	seven	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	obl
+(	(	(	PUL	PUNCT	punct
+one	CD	one	CRD	NUM	nummod
+week	NN	week	NN1	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+future	NN	future	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+The	DT	the	AT0	DET	det
+party	NN	party	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+next	JJ	next	ORD	ADJ	amod
+Tuesday	NP	Tuesday	NP0	PROPN	root
+;	:	;	PUN	PUNCT	punct
+that	DT	that	DT0	PRON	advmod
+is	VBZ	be	VBZ	VERB	fixed
+,	,	,	PUN	PUNCT	punct
+not	RB	not	XX0	PART	advmod
+tomorrow	NN	tomorrow	NN1	NOUN	parataxis
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+eight	CD	eight	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	conj
+from	IN	from	PRP	ADP	case
+now	RB	now	AV0	ADV	nmod
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="q" transition="null">
+<hi rend="italic">
+When	WRB	when	CJS	ADV	mark
+you	PP	you	PNP	PRON	nsubj
+say	VVP	say	VVB	VERB	advcl
+next	JJ	next	ORD	ADJ	amod
+Thursday	NP	Thursday	NP0	PROPN	obj
+,	,	,	PUN	PUNCT	punct
+do	VVP	do	VD	AUX	aux
+you	PP	you	PNP	PRON	nsubj
+mean	VV	mean	VVI	VERB	root
+Thursday	NP	Thursday	NP0	PROPN	obj
+this	DT	this	DT0	DET	det
+week	NN	week	NN1	NOUN	nmod:tmod
+or	CC	or	CJC	CCONJ	cc
+Thursday	NP	Thursday	NP0	PROPN	conj
+next	JJ	next	ORD	ADJ	amod
+week	NN	week	NN1	NOUN	nmod:tmod
+?	SENT	?	PUN	PUNCT	punct
+</hi>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+See	VV	see	VVB	VERB	root
+also	RB	also	AV0	ADV	advmod
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/last#English">
+last	JJ	last	ORD	ADJ	root
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/this#English">
+this	DT	this	DT0	PRON	root
+</ref>
+</s>
+</item>
+<item>
+<s type="other" transition="null">
+<ref target="https://en.wiktionary.org/wiki/this_coming">
+this	DT	this	DT0	DET	det
+coming	VVG	come	VVG	VERB	root
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/week">
+week	NN	week	NN1	NOUN	root
+</ref>
+(as	(	(as	PUL	PUNCT	case
+in	IN	in	PRP	ADP	case
+<hi rend="italic">
+Saturday	NP	Saturday	NP0	PROPN	compound
+week	NN	week	NN1	NOUN	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Adverb	NN	adverb	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+next	RB	next	ORD	ADV	root
+</hi>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+not	RB	not	XX0	PART	advmod
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#comparable">
+comparable	JJ	comparable	AJ0	ADJ	parataxis
+</ref>
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="ordered">
+<item>
+<s type="frag" transition="null">
+In	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+time	NN	time	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+place	NN	place	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+rank	NN	rank	NN1	NOUN	conj
+or	CC	or	CJC	CCONJ	cc
+sequence	NN	sequence	NN1	NOUN	conj
+closest	JJS	close	AJS	ADJ	root
+or	CC	or	CJC	CCONJ	cc
+following	VVG	follow	VVG	VERB	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+They	PP	they	PNP	PRON	nsubj
+live	VVP	live	VVB	VERB	root
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+next	RB	next	ORD	ADV	advmod
+closest	JJS	close	AJS	ADJ	amod
+house	NN	house	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+It	PP	it	PNP	PRON	nsubj
+'s	VBZ	be	VBZ	AUX	cop
+the	DT	the	AT0	DET	det
+next	RB	next	ORD	ADV	advmod
+best	JJS	good	AJS	ADJ	amod
+thing	NN	thing	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+ice	NN	ice	NN1	NOUN	compound
+cream	NN	cream	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+conjunctive	JJ	conjunctive	AJ0	ADJ	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+So	IN	so	PRP	SCONJ	mark
+as	IN	as	CJS	ADP	fixed
+to	TO	to	TO0	PART	mark
+follow	VV	follow	VVI	VERB	root
+in	IN	in	PRP	ADP	case
+time	NN	time	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+sequence	NN	sequence	NN1	NOUN	conj
+something	NN	something	NN1	PRON	obj
+previously	RB	previously	AV0	ADV	advmod
+mentioned	VVN	mention	VVN	VERB	acl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+First	RB	first	ORD	ADV	advmod
+we	PP	we	PNP	PRON	nsubj
+removed	VVD	remove	VVD	VERB	root
+all	PDT	all	DT0	DET	det:predet
+the	DT	the	AT0	DET	det
+handles	NNS	handle	NN2	NOUN	obj
+;	:	;	PUN	PUNCT	punct
+next	RB	next	ORD	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+we	PP	we	PNP	PRON	nsubj
+stripped	VVD	strip	VVD	VERB	parataxis
+off	RP	off	AVP	ADP	compound:prt
+the	DT	the	AT0	DET	det
+old	JJ	old	AJ0	ADJ	amod
+paint	NN	paint	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+On	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	amod
+<ref target="https://en.wiktionary.org/wiki/subsequent">
+subsequent	JJ	subsequent	AJ0	ADJ	amod
+</ref>
+occasion	NN	occasion	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<hi rend="italic">
+<s type="frag" transition="null">
+Financial	JJ	Financial	AJ0	ADJ	amod
+panic	NN	panic	NN1	NOUN	root
+,	,	,	PUN	PUNCT	punct
+earthquakes	NNS	earthquake	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+oil	NN	oil	NN1	NOUN	compound
+spills	NNS	spill	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+riots	NNS	riot	NN2	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+What	WP	what	PNQ	PRON	nsubj
+comes	VVZ	come	VVZ	VERB	root
+next	RB	next	ORD	ADV	advmod
+?	SENT	?	PUN	PUNCT	punct
+</s>
+</hi>
+<s type="decl" transition="null">
+<hi rend="italic">
+When	WRB	when	CJS	ADV	mark
+we	PP	we	PNP	PRON	nsubj
+next	RB	next	ORD	ADV	advmod
+meet	VVP	meet	VVB	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+you	PP	you	PNP	PRON	nsubj:pass
+'ll	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux:pass
+married	VVN	marry	VVN	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Antonyms	NNS	antonym	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="establishment">
+<ref target="https://en.wiktionary.org/wiki/previously#English">
+previously	RB	previously	AV0	ADV	root
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Preposition	NN	preposition	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+next	JJ	next	ORD	ADJ	root
+</hi>
+</s>
+<list type="ordered">
+<item>
+<s type="frag" transition="null">
+<hi rend="italic">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#obsolete">
+obsolete	JJ	obsolete	AJ0	ADJ	parataxis
+</ref>
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/poetic">
+poetic	JJ	poetic	AJ0	ADJ	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+On	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+side	NN	side	NN1	NOUN	root
+of	IN	of	PRF	ADP	obl
+;	:	;	PUN	PUNCT	punct
+nearest	JJS	near	AJS	ADJ	parataxis
+or	CC	or	CJC	CCONJ	cc
+adjacent	JJ	adjacent	AJ0	ADJ	conj
+to	IN	to	PRP	ADP	obl
+;	:	;	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/next_to">
+next	JJ	next	ORD	ADJ	conj
+to	IN	to	PRP	ADP	obl
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Noun	NN	noun	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+next	JJ	next	ORD	ADJ	root
+</hi>
+(	(	(	PUL	PUNCT	punct
+<hi rend="bold">
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable">
+uncountable	JJ	uncountable	AJ0	ADJ	parataxis
+</ref>
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="ordered">
+<item>
+<s type="frag" transition="null">
+The	DT	the	AT0	DET	det
+one	NN	one	NN1	NOUN	root
+that	WDT	that	CJT	PRON	nsubj
+follows	VVZ	follow	VVZ	VERB	acl:relcl
+after	IN	after	PRP	ADP	case
+this	DT	this	DT0	DET	det
+one	NN	one	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+<hi rend="italic">
+Next	JJ	next	ORD	ADJ	root
+,	,	,	PUN	PUNCT	punct
+please	UH	please	ITJ	INTJ	discourse
+,	,	,	PUN	PUNCT	punct
+do	VV	do	VDB	AUX	aux
+n't	RB	not	XX0	PART	advmod
+hold	VV	hold	VVI	VERB	parataxis
+up	RP	up	AVP	ADP	compound:prt
+the	DT	the	AT0	DET	det
+queue	NN	queue	NN1	NOUN	obj
+!	SENT	!	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+<hi rend="italic">
+One	CD	one	CRD	NUM	nummod
+moment	NN	moment	NN1	NOUN	obl:npmod
+she	PP	she	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+there	RB	there	AV0	ADV	root
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+next	JJ	next	ORD	ADJ	obl:tmod
+she	PP	she	PNP	PRON	nsubj
+was	VBD	be	VBD	VERB	parataxis
+n't	RB	not	XX0	PART	advmod
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="italic">
+The	DT	the	AT0	DET	det
+week	NN	week	NN1	NOUN	root
+after	IN	after	PRP	ADP	case
+next	JJ	next	ORD	ADJ	nmod
+</hi>
+</s>
+</item>
+</list>
+</text>

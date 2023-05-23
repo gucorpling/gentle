@@ -1,0 +1,956 @@
+# newdoc id = GENTLE_proof_square
+# global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Pr∞fWiki
+# meta::dateCollected = 2022-11-11
+# meta::dateCreated = 2014-10-21
+# meta::dateModified = 2020-09-29
+# meta::genre = proof
+# meta::sourceURL = https://proofwiki.org/wiki/Square_on_Second_Bimedial_Straight_Line_applied_to_Rational_Straight_Line
+# meta::speakerCount = 0
+# meta::title = Square on Second Bimedial Straight Line applied to Rational Straight Line
+# sent_id = GENTLE_proof_square-1
+# s_prominence = 2
+# s_type = frag
+# transition = establishment
+# text = Proof
+# newpar
+# newpar_block = head (1 s)
+1	Proof	Proof	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->16:5|Entity=(1-abstract-new-cf1-1-sgl)|XML=</figure>
+
+# sent_id = GENTLE_proof_square-2
+# s_prominence = 3
+# s_type = imp
+# transition = null
+# text = Let AB be a second bimedial straight line divided into its medials at C.
+# newpar
+# newpar_block = p (5 s)
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:2->8:0|XML=<figure rend:::"Euclid-X-60.png">
+2	AB	AB	NOUN	NN	Number=Sing	1	obj	1:obj|8:nsubj:xsubj	Entity=(2-abstract-new-cf1-1-coref)
+3	be	be	AUX	VB	VerbForm=Inf	8	cop	8:cop	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(3-abstract-new-cf2-5-sgl
+5	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	6:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Second_Bimedial">
+6	bimedial	bimedial	NOUN	NN	Number=Sing	8	compound	8:compound	XML=</ref>
+7	straight	straight	ADJ	JJ	Degree=Pos	8	amod	8:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Line_Segment">
+8	line	line	NOUN	NN	Number=Sing	1	xcomp	1:xcomp	XML=</ref>
+9	divided	divide	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	8:acl	Discourse=elaboration-attribute:3->2:0
+10	into	into	ADP	IN	_	12	case	12:case	_
+11	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(4-abstract-new-cf3-2-coref(2-abstract-giv:act-cf1-1-ana)
+12	medials	medial	NOUN	NNS	Number=Plur	9	obl	9:obl:into	Entity=4)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial"></ref>
+13	at	at	ADP	IN	_	14	case	14:case	_
+14	C	C	NOUN	NN	Number=Sing	9	obl	9:obl:at	Entity=(5-abstract-new-cf4-1-coref)3)|SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-3
+# s_prominence = 3
+# s_type = imp
+# transition = null
+# text = Let AC > CB.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:4->2:1
+2	AC	AC	NOUN	NN	Number=Sing	1	obj	1:obj|3:nsubj:xsubj	Entity=(6-abstract-new-cf1-1-coref)
+3	>	>	SYM	SYM	_	1	xcomp	1:xcomp	_
+4	CB	CB	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	Entity=(7-abstract-new-cf2-1-coref)|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-4
+# s_prominence = 3
+# s_type = imp
+# transition = null
+# text = Let DE be a rational straight line.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:5->2:1
+2	DE	DE	NOUN	NN	Number=Sing	1	obj	1:obj|7:nsubj:xsubj	Entity=(8-abstract-new-cf1-1-coref)
+3	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(9-abstract-new-cf2-4-sgl
+5	rational	rational	ADJ	JJ	Degree=Pos	7	amod	7:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+6	straight	straight	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+7	line	line	NOUN	NN	Number=Sing	1	xcomp	1:xcomp	Entity=9)|SpaceAfter=No|XML=</ref>
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-5
+# s_prominence = 3
+# s_type = imp
+# transition = establishment
+# text = Let DEFG equal to AB2 be applied to DE producing DG as its breadth.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:6->2:1
+2	DEFG	DEFG	NOUN	NN	Number=Sing	1	obj	1:obj|7:nsubj:pass:xsubj	Entity=(10-abstract-new-cf1-1-coref)
+3	equal	equal	ADJ	JJ	Degree=Pos	2	amod	2:amod	_
+4	to	to	ADP	IN	_	5	case	5:case	_
+5	AB2	AB2	NOUN	NN	Number=Sing	3	obl	3:obl:to	Entity=(11-abstract-new-cf4-1-coref)
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	7:aux:pass	_
+7	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	_
+8	to	to	ADP	IN	_	9	case	9:case	_
+9	DE	DE	NOUN	NN	Number=Sing	7	obl	7:obl:to	Entity=(8-abstract-giv:act-cf2*-1-coref)
+10	producing	produce	VERB	VBG	VerbForm=Ger	7	advcl	7:advcl	Discourse=elaboration-attribute:7->6:0
+11	DG	DG	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=(12-abstract-new-cf3-1-coref)
+12	as	as	ADP	IN	_	14	case	14:case	_
+13	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(13-abstract-new-cf5-2-sgl(10-abstract-giv:act-cf1-1-ana)
+14	breadth	breadth	NOUN	NN	Number=Sing	10	obl	10:obl:as	Entity=13)|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Breadth"></ref>
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-6
+# s_prominence = 2
+# s_type = decl
+# transition = smooth-shift
+# text = It is to be demonstrated that DG is a third binomial straight line.
+1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Discourse=organization-preparation:8->16:4|Entity=(14-abstract-new-cf2-1-cata)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+3	to	to	PART	TO	_	5	mark	5:mark	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	5:aux:pass	_
+5	demonstrated	demonstrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+6	that	that	SCONJ	IN	_	13	mark	13:mark	Entity=(14-abstract-acc:com-cf2-8-coref
+7	DG	DG	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=(12-abstract-giv:act-cf1*-1-coref)
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(12-abstract-giv:act-cf1*-5-coref
+10	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	11:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Third_Binomial">
+11	binomial	binomial	NOUN	NN	Number=Sing	13	compound	13:compound	XML=</ref>
+12	straight	straight	ADJ	JJ	Degree=Pos	13	amod	13:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Line_Segment">
+13	line	line	NOUN	NN	Number=Sing	5	ccomp	5:ccomp	Entity=12)14)|SpaceAfter=No|XML=</ref>
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GENTLE_proof_square-7
+# s_prominence = 2
+# s_type = other
+# transition = zero
+# text = From Proposition 4 of Book II: Square of Sum: AB2 = AC2 + CB2 + 2 ⋅ AC ⋅ CB
+# newpar
+# newpar_block = p (7 s)
+1	From	from	ADP	IN	_	2	case	2:case	Discourse=organization-preparation:9->10:0
+2	Proposition	Proposition	PROPN	NNP	Number=Sing	8	obl	8:obl:from	Entity=(15-abstract-new-cf1-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Square_of_Sum">
+3	4	4	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	_
+4	of	of	ADP	IN	_	5	case	5:case	_
+5	Book	Book	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=(16-abstract-new-cf6-1-sgl
+6	II	II	NUM	CD	NumForm=Roman|NumType=Card	5	dep	5:dep	Entity=16)15)|SpaceAfter=No
+7	:	:	PUNCT	:	_	2	punct	2:punct	_
+8	Square	square	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-preparation:10->11:0|Entity=(15-abstract-giv:act-cf1-1-coref
+9	of	of	ADP	IN	_	10	case	10:case	_
+10	Sum	sum	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=(17-abstract-new-cf7-1-sgl)15)|SpaceAfter=No|XML=</ref>
+11	:	:	PUNCT	:	_	13	punct	13:punct	_
+12	AB2	AB2	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Discourse=context-background:11->16:2|Entity=(11-abstract-giv:inact-cf2-1-coref)
+13	=	=	SYM	SYM	_	8	appos	8:appos	_
+14	AC2	AC2	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(18-abstract-new-cf5-1-coref)
+15	+	+	SYM	SYM	_	16	cc	16:cc	_
+16	CB2	CB2	NOUN	NN	Number=Sing	14	conj	13:obj|14:conj:plus	Entity=(19-abstract-new-cf8-1-coref)
+17	+	+	SYM	SYM	_	18	cc	18:cc	_
+18	2	2	NUM	CD	NumForm=Digit|NumType=Card	14	conj	13:obj|14:conj:plus	Entity=(20-abstract-new-cf9-1-coref(21-abstract-new-cf10-1-coref)
+19	⋅	⋅	SYM	SYM	_	20	case	20:case	_
+20	AC	AC	NOUN	NN	Number=Sing	18	nmod	18:nmod:times	Entity=(6-abstract-giv:inact-cf3-1-coref)
+21	⋅	⋅	SYM	SYM	_	22	case	22:case	_
+22	CB	CB	NOUN	NN	Number=Sing	20	nmod	20:nmod:times	Entity=(7-abstract-giv:inact-cf4-1-coref)20)
+
+# sent_id = GENTLE_proof_square-8
+# s_prominence = 2
+# s_type = imp
+# transition = establishment
+# text = Let the rectangle DH be applied to DE such that DH = AC2.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-evidence:12->16:0
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(22-abstract-new-cf1-2-coref
+3	rectangle	rectangle	NOUN	NN	Number=Sing	1	obj	1:obj|6:nsubj:pass:xsubj	Entity=22)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rectangle"></ref>
+4	DH	DH	NOUN	NN	Abbr=Yes|Number=Sing	3	dep	3:dep	Entity=(22-abstract-giv:act-cf1-1-coref)
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	6:aux:pass	_
+6	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	_
+7	to	to	ADP	IN	_	8	case	8:case	_
+8	DE	DE	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=(8-abstract-giv:inact-cf3-1-coref)
+9	such	such	SCONJ	JJ	Degree=Pos	12	mark	12:mark	Discourse=mode-manner:13->12:0
+10	that	that	SCONJ	IN	_	12	mark	12:mark	_
+11	DH	DH	NOUN	NN	Abbr=Yes|Number=Sing	12	nsubj	12:nsubj	Entity=(22-abstract-giv:act-cf1-1-coref)
+12	=	=	SYM	SYM	_	6	advcl	6:advcl:such_that	_
+13	AC2	AC2	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(18-abstract-giv:act-cf2*-1-coref)|SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-9
+# s_prominence = 2
+# s_type = imp
+# transition = rough-shift
+# text = Let the rectangle KL be applied to DE such that KL = BC2.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:14->12:1
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(23-abstract-new-cf1-2-coref
+3	rectangle	rectangle	NOUN	NN	Number=Sing	1	obj	1:obj|6:nsubj:pass:xsubj	Entity=23)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rectangle"></ref>
+4	KL	KL	NOUN	NN	Number=Sing	3	dep	3:dep	Entity=(23-abstract-giv:act-cf1-1-coref)
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	6:aux:pass	_
+6	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	_
+7	to	to	ADP	IN	_	8	case	8:case	_
+8	DE	DE	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=(8-abstract-giv:act-cf2*-1-coref)
+9	such	such	SCONJ	JJ	Degree=Pos	12	mark	12:mark	Discourse=mode-manner:15->14:0
+10	that	that	SCONJ	IN	_	12	mark	12:mark	_
+11	KL	KL	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(23-abstract-giv:act-cf1-1-coref)
+12	=	=	SYM	SYM	_	6	advcl	6:advcl:such_that	_
+13	BC2	BC2	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(19-abstract-giv:inact-cf3-1-coref)|SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-10
+# s_prominence = 1
+# s_type = decl
+# transition = zero
+# text = Then the rectangle MF is equal to 2 ⋅ AC ⋅ CB.
+1	Then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	Discourse=ROOT:16:0
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(24-abstract-new-cf1-2-coref
+3	rectangle	rectangle	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=24)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rectangle"></ref>
+4	MF	MF	NOUN	NN	Number=Sing	3	dep	3:dep	Entity=(24-abstract-giv:act-cf1-1-coref)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+6	equal	equal	ADJ	JJ	Degree=Pos	0	root	0:root	_
+7	to	to	ADP	IN	_	8	case	8:case	_
+8	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	obl	6:obl:to	Entity=(20-abstract-giv:inact-cf4-1-coref(21-abstract-giv:inact-cf5-1-coref)
+9	⋅	⋅	SYM	SYM	_	10	case	10:case	_
+10	AC	AC	NOUN	NN	Number=Sing	8	nmod	8:nmod:times	Entity=(6-abstract-giv:inact-cf2-1-coref)
+11	⋅	⋅	SYM	SYM	_	12	case	12:case	_
+12	CB	CB	NOUN	NN	Number=Sing	10	nmod	10:nmod:times	Entity=(7-abstract-giv:inact-cf3-1-coref)20)|SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GENTLE_proof_square-11
+# s_prominence = 2
+# s_type = imp
+# transition = null
+# text = Let MG be bisected at N.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=explanation-evidence:17->21:0
+2	MG	MG	NOUN	NN	Number=Sing	1	obj	1:obj|4:nsubj:pass:xsubj	Entity=(25-abstract-new-cf1-1-coref)
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	4:aux:pass	_
+4	bisected	bisect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Bisection"></ref>
+5	at	at	ADP	IN	_	6	case	6:case	_
+6	N	N	NOUN	NN	Number=Sing	4	obl	4:obl:at	Entity=(26-abstract-new-cf2-1-sgl)|SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-12
+# s_prominence = 2
+# s_type = imp
+# transition = null
+# text = Let NO be drawn parallel to ML (or GF, which is the same thing).
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:18->17:0
+2	NO	NO	NOUN	NN	Number=Sing|Polarity=Neg	1	obj	1:obj|4:nsubj:pass:xsubj	Entity=(27-abstract-new-cf3-1-sgl)
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	4:aux:pass	_
+4	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	_
+5	parallel	parallel	ADV	RB	Degree=Pos	4	advmod	4:advmod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Parallel_Lines"></ref>
+6	to	to	ADP	IN	_	7	case	7:case	_
+7	ML	ML	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=(20-abstract-giv:inact-cf2-1-coref)
+8	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=elaboration-additional:19->18:0|SpaceAfter=No
+9	or	or	CCONJ	CC	_	10	cc	10:cc	_
+10	GF	GF	NOUN	NN	Number=Sing	7	conj	5:obl:to|7:conj:or|16:nsubj	Entity=(28-abstract-new-cf1-1-coref|SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	16:punct	_
+12	which	which	PRON	WDT	PronType=Rel	16	nsubj	10:ref	Discourse=elaboration-attribute:20->19:0
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(28-abstract-giv:act-cf1-3-coref
+15	same	same	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+16	thing	thing	NOUN	NN	Number=Sing	10	acl:relcl	10:acl:relcl	Entity=28)28)|SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	10	punct	10:punct	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-13
+# s_prominence = 1
+# s_type = decl
+# transition = null
+# text = Therefore each of the rectangles MO and NF equals AC ⋅ CB.
+1	Therefore	therefore	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=joint-list_m:21->16:1
+2	each	each	DET	DT	PronType=Tot	9	nsubj	9:nsubj	Entity=(29-abstract-new-cf3-1-sgl
+3	of	of	ADP	IN	_	5	case	5:case	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(30-abstract-new-cf4-2-sgl
+5	rectangles	rectangle	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rectangle"></ref>
+6	MO	MO	NOUN	NN	Number=Sing	5	appos	5:appos	Entity=(31-abstract-new-cf5-1-sgl)
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	NF	NF	NOUN	NN	Number=Sing	6	conj	5:appos|6:conj:and	Entity=(32-abstract-new-cf6-1-sgl)30)29)
+9	equals	equal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+10	AC	AC	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=(6-abstract-giv:inact-cf1-1-coref)
+11	⋅	⋅	SYM	SYM	_	12	case	12:case	_
+12	CB	CB	NOUN	NN	Number=Sing	10	nmod	10:nmod:times	Entity=(7-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GENTLE_proof_square-14
+# s_prominence = 3
+# s_type = decl
+# transition = null
+# text = We have that AB is a second bimedial which has been divided into its medials at C.
+# newpar
+# newpar_block = p (9 s)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:22->23:1|Entity=(33-person-acc:com-cf4-1-ana)
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	that	that	SCONJ	IN	_	8	mark	8:mark	Discourse=context-background:23->25:1
+4	AB	AB	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(2-abstract-giv:inact-cf1-1-coref)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(2-abstract-giv:act-cf1-3-coref
+7	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	8:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Second_Bimedial">
+8	bimedial	bimedial	NOUN	NN	Number=Sing	2	ccomp	2:ccomp|12:nsubj:pass	XML=</ref>
+9	which	which	PRON	WDT	PronType=Rel	12	nsubj:pass	8:ref	Discourse=elaboration-attribute:24->23:0
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	aux:pass	12:aux:pass	_
+12	divided	divide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	8:acl:relcl	_
+13	into	into	ADP	IN	_	15	case	15:case	_
+14	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(4-abstract-giv:inact-cf2-4-coref(2-abstract-giv:act-cf1-1-ana)
+15	medials	medial	NOUN	NNS	Number=Plur	12	obl	12:obl:into	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial"></ref>
+16	at	at	ADP	IN	_	17	case	17:case	_
+17	C	C	NOUN	NN	Number=Sing	12	obl	12:obl:at	Entity=(5-abstract-giv:inact-cf3-1-coref)4)2)|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GENTLE_proof_square-15
+# s_prominence = 2
+# s_type = decl
+# transition = null
+# text = Therefore, by definition, AC and CB are medial straight lines which are commensurable in square only such that AC ⋅ CB is a medial rectangle.
+1	Therefore	therefore	ADV	RB	Degree=Pos	12	advmod	12:advmod	Discourse=explanation-evidence:25->28:0|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	by	by	ADP	IN	_	4	case	4:case	_
+4	definition	definition	NOUN	NN	Number=Sing	12	obl	12:obl:by	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	AC	AC	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Bridge=34<6|Entity=(34-abstract-new-cf3-1,3-coref(6-abstract-acc:inf-cf1-1-coref)
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	CB	CB	NOUN	NN	Number=Sing	6	conj	6:conj:and|12:nsubj	Bridge=34<7|Entity=(7-abstract-acc:inf-cf2-1-coref)34)
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
+10	medial	medial	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(34-abstract-giv:act-cf3-3-pred|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial_Line_Segment">
+11	straight	straight	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+12	lines	line	NOUN	NNS	Number=Plur	0	root	0:root|15:nsubj	XML=</ref>
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj	12:ref	Discourse=elaboration-attribute:26->25:0
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
+15	commensurable	commensurable	ADJ	JJ	Degree=Pos	12	acl:relcl	12:acl:relcl	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Commensurable_in_Square_Only">
+16	in	in	ADP	IN	_	17	case	17:case	_
+17	square	square	NOUN	NN	Number=Sing	15	obl	15:obl:in	Entity=(35-abstract-new-cf5-1-sgl)
+18	only	only	ADV	RB	_	17	advmod	17:advmod	XML=</ref>
+19	such	such	SCONJ	JJ	Degree=Pos	27	mark	27:mark	Discourse=mode-manner:27->26:0
+20	that	that	SCONJ	IN	_	27	mark	27:mark	_
+21	AC	AC	NOUN	NN	Number=Sing	27	nsubj	27:nsubj	Entity=(36-abstract-new-cf4-1-coref(6-abstract-giv:act-cf1-1-coref)
+22	⋅	⋅	SYM	SYM	_	23	case	23:case	_
+23	CB	CB	PROPN	NNP	Number=Sing	21	nmod	21:nmod:times	Entity=(7-abstract-giv:act-cf2-1-coref)36)
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	Entity=(36-abstract-giv:act-cf4-3-coref
+26	medial	medial	ADJ	JJ	Degree=Pos	27	amod	27:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial_Area"></ref>
+27	rectangle	rectangle	NOUN	NN	Number=Sing	15	advcl	15:advcl:such_that	Entity=36)34)|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rectangle"></ref>
+28	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GENTLE_proof_square-16
+# s_prominence = 1
+# s_type = decl
+# transition = null
+# text = Thus, by definition, AC2 and CB2 are also medial.
+1	Thus	thus	ADV	RB	_	11	advmod	11:advmod	Discourse=joint-list_m:28->16:3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	by	by	ADP	IN	_	4	case	4:case	_
+4	definition	definition	NOUN	NN	Number=Sing	11	obl	11:obl:by	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	AC2	AC2	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=(18-abstract-giv:inact-cf1-1-coref)
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	CB2	CB2	NOUN	NN	Number=Sing	6	conj	6:conj:and|11:nsubj	Bridge=18<19|Entity=(19-abstract-acc:inf-cf2-1-coref)
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+10	also	also	ADV	RB	_	11	advmod	11:advmod	_
+11	medial	medial	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial_Area"></ref>
+12	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = GENTLE_proof_square-17
+# s_prominence = 2
+# s_type = decl
+# transition = null
+# text = From: Proposition 15 of Book X: Commensurability of Sum of Commensurable Magnitudes and: Porism to Proposition 23 of Book X: Straight Line Commensurable with Medial Straight Line is Medial it follows that: DL is medial.
+1	From	from	ADP	IN	_	3	case	3:case	Discourse=organization-preparation:29->30:2|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+3	Proposition	Proposition	PROPN	NNP	Number=Sing	35	obl	35:obl:from	Discourse=explanation-evidence:30->36:1|Entity=(37-abstract-new-cf2-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Commensurability_of_Sum_of_Commensurable_Magnitudes">
+4	15	15	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	_
+5	of	of	ADP	IN	_	6	case	6:case	_
+6	Book	Book	PROPN	NNP	Number=Sing	3	nmod	3:nmod:of	Entity=(38-abstract-new-cf1-1-coref
+7	X	X	NUM	CD	NumForm=Roman|NumType=Card	6	dep	6:dep	Entity=38)37)|SpaceAfter=No
+8	:	:	PUNCT	:	_	9	punct	9:punct	_
+9	Commensurability	commensurability	NOUN	NN	Number=Sing	3	appos	3:appos	Discourse=elaboration-additional:31->30:0|Entity=(37-abstract-giv:act-cf2-1-appos
+10	of	of	ADP	IN	_	11	case	11:case	_
+11	Sum	sum	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=(39-abstract-new-cf7-1-sgl
+12	of	of	ADP	IN	_	14	case	14:case	_
+13	Commensurable	commensurable	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(40-abstract-new-cf8-2-coref
+14	Magnitudes	magnitude	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=40)39)37)|XML=</ref>
+15	and	and	CCONJ	CC	_	17	cc	17:cc	SpaceAfter=No
+16	:	:	PUNCT	:	_	15	punct	15:punct	_
+17	Porism	Porism	PROPN	NNP	Number=Sing	3	conj	3:conj:and|35:obl:from	Discourse=joint-list_m:32->30:1|Entity=(12-abstract-giv:inact-cf3-1,3,6-coref|XML=<ref target:::"https://proofwiki.org/wiki/Straight_Line_Commensurable_with_Medial_Straight_Line_is_Medial/Porism">
+18	to	to	ADP	IN	_	19	case	19:case	_
+19	Proposition	Proposition	PROPN	NNP	Number=Sing	17	obl	17:obl:to	Entity=(41-abstract-new-cf6-1,4-sgl
+20	23	23	NUM	CD	NumForm=Digit|NumType=Card	19	dep	19:dep	_
+21	of	of	ADP	IN	_	22	case	22:case	_
+22	Book	Book	PROPN	NNP	Number=Sing	19	nmod	19:nmod:of	Entity=(38-abstract-giv:act-cf1-1-coref
+23	X	X	NUM	CD	NumForm=Roman|NumType=Card	22	dep	22:dep	Entity=38)41)12)|SpaceAfter=No
+24	:	:	PUNCT	:	_	33	punct	33:punct	_
+25	Straight	straight	ADJ	JJ	Degree=Pos	26	amod	26:amod	Discourse=attribution-positive:33->34:0|Entity=(12-abstract-giv:act-cf3-9-disc
+26	Line	line	NOUN	NN	Number=Sing	33	nsubj	33:nsubj	_
+27	Commensurable	commensurable	ADJ	JJ	Degree=Pos	26	acl	26:acl	_
+28	with	with	ADP	IN	_	31	case	31:case	_
+29	Medial	medial	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(42-abstract-new-cf9-3-coref
+30	Straight	straight	ADJ	JJ	Degree=Pos	31	amod	31:amod	_
+31	Line	line	NOUN	NN	Number=Sing	26	obl	26:obl:with	Entity=42)
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	33:cop	_
+33	Medial	medial	ADJ	JJ	Degree=Pos	19	appos	19:appos	Entity=12)|XML=</ref>
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	expl	35:expl	Entity=(43-abstract-new-cf4-1-cata)
+35	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+36	that	that	SCONJ	IN	_	40	mark	40:mark	Discourse=elaboration-additional:34->32:0|Entity=(43-abstract-acc:com-cf4-5-coref|SpaceAfter=No
+37	:	:	PUNCT	:	_	36	punct	36:punct	_
+38	DL	DL	NOUN	NN	Number=Sing	40	nsubj	40:nsubj	Entity=(44-abstract-new-cf5-1-coref)
+39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	40:cop	_
+40	medial	medial	ADJ	JJ	Degree=Pos	35	csubj	35:csubj	Entity=43)|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Medial_Area"></ref>
+41	.	.	PUNCT	.	_	35	punct	35:punct	_
+
+# sent_id = GENTLE_proof_square-18
+# s_prominence = 1
+# s_type = decl
+# transition = establishment
+# text = We have that DL has been applied to the rational straight line DE.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:35->36:0|Entity=(33-person-giv:inact-cf3-1-ana)
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	that	that	SCONJ	IN	_	7	mark	7:mark	Discourse=joint-list_m:36->16:3
+4	DL	DL	NOUN	NN	Number=Sing	7	nsubj:pass	7:nsubj:pass	Entity=(44-abstract-giv:act-cf1*-1-coref)
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	7:aux:pass	_
+7	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	2:ccomp	_
+8	to	to	ADP	IN	_	12	case	12:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(8-abstract-giv:inact-cf2-4-coref
+10	rational	rational	ADJ	JJ	Degree=Pos	12	amod	12:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+11	straight	straight	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+12	line	line	NOUN	NN	Number=Sing	7	obl	7:obl:to	Entity=8)|XML=</ref>
+13	DE	DE	NOUN	NN	Number=Sing	12	dep	12:dep	Entity=(8-abstract-giv:act-cf2-1-coref)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GENTLE_proof_square-19
+# s_prominence = 1
+# s_type = decl
+# transition = rough-shift
+# text = Therefore from Proposition 22 of Book X: Square on Medial Straight Line: MD is rational and incommensurable in length with DE.
+1	Therefore	therefore	ADV	RB	Degree=Pos	17	advmod	17:advmod	Discourse=explanation-evidence:37->39:0
+2	from	from	ADP	IN	_	3	case	3:case	_
+3	Proposition	Proposition	PROPN	NNP	Number=Sing	17	obl	17:obl:from	Entity=(45-abstract-new-cf1-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Square_on_Medial_Straight_Line">
+4	22	22	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	_
+5	of	of	ADP	IN	_	6	case	6:case	_
+6	Book	Book	PROPN	NNP	Number=Sing	3	nmod	3:nmod:of	Entity=(38-abstract-giv:inact-cf3-1-coref
+7	X	X	NUM	CD	NumForm=Roman|NumType=Card	6	dep	6:dep	Entity=38)45)|SpaceAfter=No
+8	:	:	PUNCT	:	_	9	punct	9:punct	_
+9	Square	square	NOUN	NN	Number=Sing	3	appos	3:appos	Discourse=elaboration-additional:38->37:0|Entity=(45-abstract-giv:act-cf1-1-appos
+10	on	on	ADP	IN	_	13	case	13:case	_
+11	Medial	medial	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(42-abstract-giv:inact-cf4-3-coref
+12	Straight	straight	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+13	Line	line	NOUN	NN	Number=Sing	9	nmod	9:nmod:on	Entity=42)45)|SpaceAfter=No|XML=</ref>
+14	:	:	PUNCT	:	_	3	punct	3:punct	_
+15	MD	MD	NOUN	NN	Number=Sing	17	nsubj	17:nsubj|19:nsubj	Discourse=joint-list_m:39->36:2|Entity=(46-abstract-new-cf5-1-coref)
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+17	rational	rational	ADJ	JJ	Degree=Pos	0	root	0:root	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rational_Line_Segment"></ref>
+18	and	and	CCONJ	CC	_	19	cc	19:cc	_
+19	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	17	conj	17:conj:and	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+20	in	in	ADP	IN	_	21	case	21:case	_
+21	length	length	NOUN	NN	Number=Sing	19	obl	19:obl:in	Entity=(47-abstract-new-cf6-1-coref)|XML=</ref>
+22	with	with	ADP	IN	_	23	case	23:case	_
+23	DE	DE	NOUN	NN	Number=Sing	17	obl	17:obl:with	Entity=(8-abstract-giv:act-cf2*-1-coref)|SpaceAfter=No
+24	.	.	PUNCT	.	_	17	punct	17:punct	_
+
+# sent_id = GENTLE_proof_square-20
+# s_prominence = 3
+# s_type = frag
+# transition = smooth-shift
+# text = For the same reason:
+1	For	for	ADP	IN	_	4	case	4:case	Discourse=organization-preparation:40->41:1
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(45-abstract-giv:act-cf1*-3-coref
+3	same	same	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	reason	reason	NOUN	NN	Number=Sing	0	root	0:root	Entity=45)|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	punct	4:punct	_
+
+# sent_id = GENTLE_proof_square-21
+# s_prominence = 2
+# s_type = decl
+# transition = zero
+# text = MG is also rational straight line and incommensurable in length with ML, which equals DE.
+1	MG	MG	NOUN	NN	Number=Sing	6	nsubj	6:nsubj|8:nsubj	Discourse=explanation-evidence:41->43:0|Entity=(25-abstract-giv:inact-cf1-1-coref)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+3	also	also	ADV	RB	_	6	advmod	6:advmod	_
+4	rational	rational	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(25-abstract-giv:act-cf1-3-pred|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+5	straight	straight	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+6	line	line	NOUN	NN	Number=Sing	0	root	0:root	Entity=25)|XML=</ref>
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	6	conj	6:conj:and	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+9	in	in	ADP	IN	_	10	case	10:case	_
+10	length	length	NOUN	NN	Number=Sing	8	obl	8:obl:in	Entity=(47-abstract-giv:inact-cf3-1-coref)|XML=</ref>
+11	with	with	ADP	IN	_	12	case	12:case	_
+12	ML	ML	NOUN	NN	Number=Sing	8	obl	8:obl:with|15:nsubj	Entity=(20-abstract-giv:inact-cf4-1-coref)|SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	15:punct	_
+14	which	which	PRON	WDT	PronType=Rel	15	nsubj	12:ref	Discourse=elaboration-attribute:42->41:0
+15	equals	equal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+16	DE	DE	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(8-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GENTLE_proof_square-22
+# s_prominence = 1
+# s_type = decl
+# transition = establishment
+# text = Therefore each of DM and MG is rational straight line and incommensurable in length with DE.
+1	Therefore	therefore	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=joint-other_m:43->36:3
+2	each	each	DET	DT	PronType=Tot	10	nsubj	10:nsubj|12:nsubj	Entity=(48-abstract-new-cf2-1-ana
+3	of	of	ADP	IN	_	4	case	4:case	_
+4	DM	DM	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=(46-abstract-giv:inact-cf5-1-coref)
+5	and	and	CCONJ	CC	_	6	cc	6:cc	_
+6	MG	MG	NOUN	NN	Number=Sing	4	conj	2:nmod:of|4:conj:and	Entity=(25-abstract-giv:act-cf1*-1-coref)48)
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+8	rational	rational	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(48-abstract-giv:act-cf2-3-pred|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+9	straight	straight	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+10	line	line	NOUN	NN	Number=Sing	0	root	0:root	Entity=48)|XML=</ref>
+11	and	and	CCONJ	CC	_	12	cc	12:cc	_
+12	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	10	conj	10:conj:and	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+13	in	in	ADP	IN	_	14	case	14:case	_
+14	length	length	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=(47-abstract-giv:act-cf3-1-coref)|XML=</ref>
+15	with	with	ADP	IN	_	16	case	16:case	_
+16	DE	DE	NOUN	NN	Number=Sing	12	obl	12:obl:with	Entity=(8-abstract-giv:act-cf4-1-coref)|SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GENTLE_proof_square-23
+# s_prominence = 3
+# s_type = decl
+# transition = smooth-shift
+# text = We have that AC is incommensurable in length with CB.
+# newpar
+# newpar_block = p (8 s)
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:44->45:0|Entity=(33-person-giv:inact-cf2-1-ana)
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=context-background:45->50:1
+4	AC	AC	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(6-abstract-giv:inact-cf3-1-coref)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+6	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	length	length	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=(47-abstract-giv:act-cf1*-1-coref)|XML=</ref>
+9	with	with	ADP	IN	_	10	case	10:case	_
+10	CB	CB	NOUN	NN	Number=Sing	6	obl	6:obl:with	Entity=(36-abstract-giv:inact-cf4-1-coref)|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GENTLE_proof_square-24
+# s_prominence = 4
+# s_type = decl
+# transition = smooth-shift
+# text = Also: AC: CB = AC2: AC ⋅ CB
+1	Also	also	ADV	RB	_	6	advmod	6:advmod	Discourse=organization-preparation:46->47:0|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+3	AC	AC	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Discourse=context-background:47->45:1|Entity=(6-abstract-giv:act-cf1*-1-coref)|SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	5:punct	_
+5	CB	CB	NOUN	NN	Number=Sing	3	nmod	3:nmod	Entity=(36-abstract-giv:act-cf2-1-coref)
+6	=	=	SYM	SYM	_	0	root	0:root	_
+7	AC2	AC2	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(18-abstract-giv:inact-cf3-1-coref)|SpaceAfter=No
+8	:	:	PUNCT	:	_	9	punct	9:punct	_
+9	AC	AC	NOUN	NN	Number=Sing	7	nmod	7:nmod	Entity=(6-abstract-giv:act-cf1*-1-coref)
+10	⋅	⋅	SYM	SYM	_	11	case	11:case	_
+11	CB	CB	NOUN	NN	Number=Sing	9	nmod	9:nmod:times	Entity=(36-abstract-giv:act-cf2-1-coref)
+
+# sent_id = GENTLE_proof_square-25
+# s_prominence = 2
+# s_type = decl
+# transition = smooth-shift
+# text = Therefore by Proposition 11 of Book X: Commensurability of Elements of Proportional Magnitudes: AC2 is incommensurable with AC ⋅ CB.
+1	Therefore	therefore	ADV	RB	Degree=Pos	18	advmod	18:advmod	Discourse=explanation-evidence:48->50:0
+2	by	by	ADP	IN	_	3	case	3:case	_
+3	Proposition	Proposition	PROPN	NNP	Number=Sing	18	obl	18:obl:by	Entity=(49-abstract-new-cf2-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
+4	11	11	NUM	CD	NumForm=Digit|NumType=Card	3	dep	3:dep	_
+5	of	of	ADP	IN	_	6	case	6:case	_
+6	Book	Book	PROPN	NNP	Number=Sing	3	nmod	3:nmod:of	Entity=(38-abstract-giv:inact-cf5-1-coref
+7	X	X	NUM	CD	NumForm=Roman|NumType=Card	6	dep	6:dep	Entity=38)49)|SpaceAfter=No
+8	:	:	PUNCT	:	_	9	punct	9:punct	_
+9	Commensurability	commensurability	NOUN	NN	Number=Sing	3	appos	3:appos	Discourse=elaboration-additional:49->48:0|Entity=(49-abstract-giv:act-cf2-1-appos
+10	of	of	ADP	IN	_	11	case	11:case	_
+11	Elements	element	NOUN	NNS	Number=Plur	9	nmod	9:nmod:of	Entity=(50-abstract-new-cf6-1-coref
+12	of	of	ADP	IN	_	14	case	14:case	_
+13	Proportional	proportional	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(51-abstract-new-cf7-2-coref
+14	Magnitudes	magnitude	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=51)50)49)|SpaceAfter=No|XML=</ref>
+15	:	:	PUNCT	:	_	3	punct	3:punct	_
+16	AC2	AC2	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Discourse=context-background:50->56:3|Entity=(18-abstract-giv:act-cf1*-1-coref)
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+18	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	0	root	0:root	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable"></ref>
+19	with	with	ADP	IN	_	20	case	20:case	_
+20	AC	AC	NOUN	NN	Number=Sing	18	obl	18:obl:with	Entity=(6-abstract-giv:act-cf3-1-coref)
+21	⋅	⋅	SYM	SYM	_	22	case	22:case	_
+22	CB	CB	NOUN	NN	Number=Sing	20	nmod	20:nmod:times	Entity=(36-abstract-giv:act-cf4-1-coref)|SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	18:punct	_
+
+# sent_id = GENTLE_proof_square-26
+# s_prominence = 1
+# s_type = decl
+# transition = continue
+# text = Hence by: Proposition 12 of Book X: Commensurability is Transitive Relation and: Proposition 13 of Book X: Commensurable Magnitudes are Incommensurable with Same Magnitude it follows that: AC2 + CB2 is incommensurable with 2 ⋅ AC ⋅ CB.
+1	Hence	hence	ADV	RB	Degree=Pos	30	advmod	30:advmod	Discourse=organization-preparation:51->52:1
+2	by	by	ADP	IN	_	4	case	4:case	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	Proposition	Proposition	PROPN	NNP	Number=Sing	30	obl	30:obl:by	Discourse=explanation-evidence:52->56:1|Entity=(52-abstract-new-cf3-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Commensurability_is_Transitive_Relation">
+5	12	12	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	_
+6	of	of	ADP	IN	_	7	case	7:case	_
+7	Book	Book	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(38-abstract-giv:act-cf2-1-coref
+8	X	X	NUM	CD	NumForm=Roman|NumType=Card	7	dep	7:dep	Entity=38)52)|SpaceAfter=No
+9	:	:	PUNCT	:	_	13	punct	13:punct	_
+10	Commensurability	commensurability	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Discourse=elaboration-additional:53->52:0|Entity=(52-abstract-giv:act-cf3-4-pred
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
+12	Transitive	transitive	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(53-abstract-new-cf11-2-sgl
+13	Relation	relation	NOUN	NN	Number=Sing	4	appos	4:appos	Entity=53)52)|XML=</ref>
+14	and	and	CCONJ	CC	_	16	cc	16:cc	SpaceAfter=No
+15	:	:	PUNCT	:	_	14	punct	14:punct	_
+16	Proposition	Proposition	PROPN	NNP	Number=Sing	4	conj	4:conj:and|30:obl:by	Entity=(54-abstract-new-cf6-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Commensurable_Magnitudes_are_Incommensurable_with_Same_Magnitude">
+17	13	13	NUM	CD	NumForm=Digit|NumType=Card	16	dep	16:dep	_
+18	of	of	ADP	IN	_	19	case	19:case	_
+19	Book	Book	PROPN	NNP	Number=Sing	16	nmod	16:nmod:of	Entity=(38-abstract-giv:act-cf2-1-coref
+20	X	X	NUM	CD	NumForm=Roman|NumType=Card	19	dep	19:dep	Entity=38)54)|SpaceAfter=No
+21	:	:	PUNCT	:	_	25	punct	25:punct	_
+22	Commensurable	commensurable	ADJ	JJ	Degree=Pos	23	amod	23:amod	Discourse=elaboration-additional:54->53:0|Entity=(54-abstract-giv:act-cf6-4-appos(40-abstract-giv:inact-cf7-2-coref
+23	Magnitudes	magnitude	NOUN	NNS	Number=Plur	25	nsubj	25:nsubj	Entity=40)
+24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
+25	Incommensurable	incommensurable	ADJ	JJ	Degree=Pos	16	appos	16:appos	_
+26	with	with	ADP	IN	_	28	case	28:case	_
+27	Same	same	ADJ	JJ	Degree=Pos	28	amod	28:amod	Entity=(55-abstract-new-cf12-2-sgl
+28	Magnitude	magnitude	NOUN	NN	Number=Sing	25	obl	25:obl:with	Entity=55)54)|XML=</ref>
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	expl	30:expl	Discourse=attribution-positive:55->56:0|Entity=(56-abstract-new-cf10-1-cata)
+30	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+31	that	that	SCONJ	IN	_	37	mark	37:mark	Discourse=joint-list_m:56->16:3|Entity=(56-abstract-acc:com-cf10-7-coref|SpaceAfter=No
+32	:	:	PUNCT	:	_	31	punct	31:punct	_
+33	AC2	AC2	NOUN	NN	Number=Sing	37	nsubj	37:nsubj	Entity=(18-abstract-giv:act-cf1*-1-coref)
+34	+	+	SYM	SYM	_	35	cc	35:cc	_
+35	CB2	CB2	NOUN	NN	Number=Sing	33	conj	33:conj:plus|37:nsubj	Entity=(19-abstract-giv:inact-cf8-1-coref)
+36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	37:cop	_
+37	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	30	csubj	30:csubj	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable"></ref>
+38	with	with	ADP	IN	_	39	case	39:case	_
+39	2	2	NUM	CD	NumForm=Digit|NumType=Card	37	obl	37:obl:with	Entity=(20-abstract-giv:inact-cf9-1-coref
+40	⋅	⋅	SYM	SYM	_	41	case	41:case	_
+41	AC	AC	NOUN	NN	Number=Sing	39	nmod	39:nmod:times	Entity=(6-abstract-giv:act-cf4-1-coref)
+42	⋅	⋅	SYM	SYM	_	43	case	43:case	_
+43	CB	CB	NOUN	NN	Number=Sing	41	nmod	41:nmod:times	Entity=(36-abstract-giv:act-cf5-1-coref)20)56)|SpaceAfter=No
+44	.	.	PUNCT	.	_	30	punct	30:punct	_
+
+# sent_id = GENTLE_proof_square-27
+# s_prominence = 2
+# s_type = decl
+# transition = zero
+# text = That is: DL is incommensurable with MF.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	6	advmod	6:advmod	Discourse=organization-preparation:57->58:0
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	1:fixed	SpaceAfter=No
+3	:	:	PUNCT	:	_	1	punct	1:punct	_
+4	DL	DL	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Discourse=restatement-partial:58->56:2|Entity=(44-abstract-giv:inact-cf1-1-coref)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+6	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	0	root	0:root	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable"></ref>
+7	with	with	ADP	IN	_	8	case	8:case	_
+8	MF	MF	NOUN	NN	Number=Sing	6	obl	6:obl:with	Entity=(24-abstract-giv:inact-cf2-1-coref)|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GENTLE_proof_square-28
+# s_prominence = 2
+# s_type = decl
+# transition = null
+# text = So from: Proposition 1 of Book VI: Areas of Triangles and Parallelograms Proportional to Base and: Proposition 11 of Book X: Commensurability of Elements of Proportional Magnitudes it follows that: DM is incommensurable in length with MG.
+1	So	so	ADV	RB	_	33	advmod	33:advmod	Discourse=explanation-evidence:59->63:1
+2	from	from	ADP	IN	_	4	case	4:case	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	Proposition	Proposition	PROPN	NNP	Number=Sing	33	obl	33:obl:from	Entity=(57-abstract-new-cf1-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Areas_of_Triangles_and_Parallelograms_Proportional_to_Base">
+5	1	1	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	_
+6	of	of	ADP	IN	_	7	case	7:case	_
+7	Book	Book	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(58-abstract-new-cf10-1-coref
+8	VI	VI	NUM	CD	NumForm=Roman|NumType=Card	7	dep	7:dep	Entity=58)57)|SpaceAfter=No
+9	:	:	PUNCT	:	_	10	punct	10:punct	_
+10	Areas	area	NOUN	NNS	Number=Plur	4	appos	4:appos	Discourse=elaboration-additional:60->59:0|Entity=(57-abstract-giv:act-cf1-1-appos
+11	of	of	ADP	IN	_	12	case	12:case	_
+12	Triangles	triangle	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=(59-abstract-new-cf11-1-coref-Triangle)
+13	and	and	CCONJ	CC	_	14	cc	14:cc	_
+14	Parallelograms	parallelogram	NOUN	NNS	Number=Plur	12	conj	10:nmod:of|12:conj:and	Entity=(60-abstract-new-cf12-1-coref)
+15	Proportional	proportional	ADJ	JJ	Degree=Pos	10	acl	10:acl	_
+16	to	to	ADP	IN	_	17	case	17:case	_
+17	Base	base	NOUN	NN	Number=Sing	15	obl	15:obl:to	Entity=(61-abstract-new-cf13-1-coref)57)|XML=</ref>
+18	and	and	CCONJ	CC	_	20	cc	20:cc	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	18:punct	_
+20	Proposition	Proposition	PROPN	NNP	Number=Sing	4	conj	4:conj:and|33:obl:from	Entity=(49-abstract-giv:inact-cf2-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
+21	11	11	NUM	CD	NumForm=Digit|NumType=Card	20	dep	20:dep	_
+22	of	of	ADP	IN	_	23	case	23:case	_
+23	Book	Book	PROPN	NNP	Number=Sing	20	nmod	20:nmod:of	Entity=(38-abstract-giv:inact-cf4-1-coref
+24	X	X	NUM	CD	NumForm=Roman|NumType=Card	23	dep	23:dep	Entity=38)49)|SpaceAfter=No
+25	:	:	PUNCT	:	_	26	punct	26:punct	_
+26	Commensurability	commensurability	NOUN	NN	Number=Sing	20	appos	20:appos	Discourse=elaboration-additional:61->60:0|Entity=(49-abstract-giv:act-cf2-1-appos
+27	of	of	ADP	IN	_	28	case	28:case	_
+28	Elements	element	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=(50-abstract-giv:inact-cf5-1-coref
+29	of	of	ADP	IN	_	31	case	31:case	_
+30	Proportional	proportional	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(51-abstract-giv:inact-cf6-2-coref
+31	Magnitudes	magnitude	NOUN	NNS	Number=Plur	28	nmod	28:nmod:of	Entity=51)50)49)|XML=</ref>
+32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	33:expl	Discourse=attribution-positive:62->63:0|Entity=(62-abstract-new-cf9-1-sgl)
+33	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+34	that	that	SCONJ	IN	_	38	mark	38:mark	Discourse=explanation-evidence:63->66:0|SpaceAfter=No
+35	:	:	PUNCT	:	_	34	punct	34:punct	_
+36	DM	DM	NOUN	NN	Number=Sing	38	nsubj	38:nsubj	Entity=(46-abstract-giv:inact-cf3-1-coref)
+37	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	38:cop	_
+38	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	33	csubj	33:csubj	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+39	in	in	ADP	IN	_	40	case	40:case	_
+40	length	length	NOUN	NN	Number=Sing	38	obl	38:obl:in	Entity=(47-abstract-giv:inact-cf7-1-coref)|XML=</ref>
+41	with	with	ADP	IN	_	42	case	42:case	_
+42	MG	MG	NOUN	NN	Number=Sing	38	obl	38:obl:with	Entity=(25-abstract-giv:inact-cf8-1-coref)|SpaceAfter=No
+43	.	.	PUNCT	.	_	33	punct	33:punct	_
+
+# sent_id = GENTLE_proof_square-29
+# s_prominence = 2
+# s_type = decl
+# transition = establishment
+# text = But DM and MG are rational straight lines which are incommensurable in length with each other.
+1	But	but	CCONJ	CC	_	8	cc	8:cc	Discourse=adversative-contrast_m:64->63:2
+2	DM	DM	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Bridge=48<46|Entity=(48-abstract-giv:inact-cf1-1,3-coref(46-abstract-acc:inf-cf3-1-coref)
+3	and	and	CCONJ	CC	_	4	cc	4:cc	_
+4	MG	MG	NOUN	NN	Number=Sing	2	conj	2:conj:and|8:nsubj	Bridge=48<25|Entity=(25-abstract-acc:inf-cf4-1-coref)48)
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+6	rational	rational	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(48-abstract-giv:act-cf1-3-pred|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Rational_Line_Segment">
+7	straight	straight	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	lines	line	NOUN	NNS	Number=Plur	0	root	0:root|11:nsubj	XML=</ref>
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj	8:ref	Discourse=elaboration-attribute:65->64:0
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+11	incommensurable	incommensurable	ADJ	JJ	Degree=Pos	8	acl:relcl	8:acl:relcl	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Incommensurable_in_Length">
+12	in	in	ADP	IN	_	13	case	13:case	_
+13	length	length	NOUN	NN	Number=Sing	11	obl	11:obl:in	Entity=(47-abstract-giv:act-cf2*-1-coref)|XML=</ref>
+14	with	with	ADP	IN	_	15	case	15:case	_
+15	each	each	DET	DT	PronType=Rcp	11	obl	11:obl:with	_
+16	other	other	ADJ	JJ	Degree=Pos	15	fixed	15:fixed	Entity=48)|SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GENTLE_proof_square-30
+# s_prominence = 1
+# s_type = decl
+# transition = zero
+# text = Therefore by definition DG is binomial.
+1	Therefore	therefore	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=joint-list_m:66->16:3
+2	by	by	ADP	IN	_	3	case	3:case	_
+3	definition	definition	NOUN	NN	Number=Sing	6	obl	6:obl:by	_
+4	DG	DG	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(12-abstract-giv:inact-cf1-1-coref)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+6	binomial	binomial	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Binomial_(Euclidean)"></ref>
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GENTLE_proof_square-31
+# s_prominence = 3
+# s_type = decl
+# transition = establishment
+# text = It remains to be proved that DG is a third binomial straight line.
+# newpar
+# newpar_block = p (10 s)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=organization-preparation:67->71:2|Entity=(63-abstract-new-cf2-1-sgl)
+2	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	to	to	PART	TO	_	5	mark	5:mark	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	5:aux:pass	_
+5	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	csubj	2:csubj	_
+6	that	that	SCONJ	IN	_	13	mark	13:mark	_
+7	DG	DG	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=(12-abstract-giv:act-cf1*-1-coref)
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(12-abstract-giv:act-cf1*-5-coref
+10	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	11:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Third_Binomial">
+11	binomial	binomial	NOUN	NN	Number=Sing	13	compound	13:compound	XML=</ref>
+12	straight	straight	ADJ	JJ	Degree=Pos	13	amod	13:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Line_Segment">
+13	line	line	NOUN	NN	Number=Sing	5	csubj:pass	5:csubj:pass	Entity=12)|SpaceAfter=No|XML=</ref>
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GENTLE_proof_square-32
+# s_prominence = 2
+# s_type = decl
+# transition = zero
+# text = From Lemma to Proposition 60 of Book X: Square on Binomial Straight Line applied to Rational Straight Line: AC2 + CB2 > 2 ⋅ AC ⋅ CB Therefore DL > MF.
+1	From	from	ADP	IN	_	2	case	2:case	Discourse=context-background:68->71:0
+2	Lemma	Lemma	PROPN	NNP	Number=Sing	24	obl	24:obl:from	Entity=(64-abstract-new-cf9-1,3,6-sgl|XML=<ref target:::"https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
+3	to	to	ADP	IN	_	4	case	4:case	_
+4	Proposition	Proposition	PROPN	NNP	Number=Sing	2	nmod	2:nmod:to	Entity=(65-abstract-new-cf1-1,4-coref
+5	60	60	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	_
+6	of	of	ADP	IN	_	7	case	7:case	_
+7	Book	Book	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(38-abstract-giv:inact-cf4-1-coref
+8	X	X	NUM	CD	NumForm=Roman|NumType=Card	7	dep	7:dep	Entity=38)65)|SpaceAfter=No
+9	:	:	PUNCT	:	_	10	punct	10:punct	_
+10	Square	square	NOUN	NN	Number=Sing	2	appos	2:appos	Discourse=elaboration-additional:69->68:0|Entity=(65-abstract-giv:act-cf1-1-coref(66-abstract-new-cf10-1-sgl
+11	on	on	ADP	IN	_	14	case	14:case	_
+12	Binomial	binomial	ADJ	JJ	Degree=Pos	14	compound	14:compound	Entity=(67-abstract-new-cf11-3-sgl
+13	Straight	straight	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+14	Line	line	NOUN	NN	Number=Sing	10	nmod	10:nmod:on	Entity=67)66)
+15	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	14:acl	Discourse=elaboration-attribute:70->69:0
+16	to	to	ADP	IN	_	19	case	19:case	_
+17	Rational	rational	ADJ	JJ	Degree=Pos	19	amod	19:amod	Entity=(68-abstract-new-cf12-3-sgl
+18	Straight	straight	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
+19	Line	line	NOUN	NN	Number=Sing	15	obl	15:obl:to	Entity=68)65)64)|SpaceAfter=No|XML=</ref>
+20	:	:	PUNCT	:	_	2	punct	2:punct	_
+21	AC2	AC2	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Discourse=context-background:71->92:2|Entity=(18-abstract-giv:inact-cf2-1-coref)
+22	+	+	SYM	SYM	_	23	cc	23:cc	_
+23	CB2	CB2	NOUN	NN	Number=Sing	21	conj	21:conj:plus|24:nsubj	Entity=(69-abstract-new-cf13-1-coref)
+24	>	>	SYM	SYM	_	0	root	0:root	_
+25	2	2	NUM	CD	NumForm=Digit|NumType=Card	24	obl:npmod	24:obl:npmod	Entity=(20-abstract-giv:inact-cf8-1-coref
+26	⋅	⋅	SYM	SYM	_	27	case	27:case	_
+27	AC	AC	NOUN	NN	Number=Sing	25	nmod	25:nmod:times	Entity=(6-abstract-giv:inact-cf5-1-coref)
+28	⋅	⋅	SYM	SYM	_	29	case	29:case	_
+29	CB	CB	NOUN	NN	Number=Sing	27	nmod	27:nmod:times	Entity=(36-abstract-giv:inact-cf6-1-coref)20)
+30	Therefore	therefore	ADV	RB	Degree=Pos	32	advmod	32:advmod	_
+31	DL	DL	NOUN	NN	Number=Sing	32	nsubj	32:nsubj	Entity=(44-abstract-giv:inact-cf3-1-coref)
+32	>	>	SYM	SYM	_	24	parataxis	24:parataxis	_
+33	MF	MF	NOUN	NN	Number=Sing	32	obl:npmod	32:obl:npmod	Entity=(24-abstract-giv:inact-cf7-1-coref)|SpaceAfter=No
+34	.	.	PUNCT	.	_	24	punct	24:punct	_
+
+# sent_id = GENTLE_proof_square-33
+# s_prominence = 2
+# s_type = decl
+# transition = null
+# text = From Proposition 1 of Book VI: Areas of Triangles and Parallelograms Proportional to Base: DM > MG
+1	From	from	ADP	IN	_	2	case	2:case	Discourse=context-background:72->74:0
+2	Proposition	Proposition	PROPN	NNP	Number=Sing	18	obl	18:obl:from	Entity=(57-abstract-giv:inact-cf1-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
+3	1	1	NUM	CD	NumForm=Digit|NumType=Card	2	dep	2:dep	_
+4	of	of	ADP	IN	_	5	case	5:case	_
+5	Book	Book	PROPN	NNP	Number=Sing	2	nmod	2:nmod:of	Entity=(58-abstract-giv:inact-cf3-1-coref
+6	VI	VI	NUM	CD	NumForm=Roman|NumType=Card	5	dep	5:dep	Entity=58)57)|SpaceAfter=No
+7	:	:	PUNCT	:	_	8	punct	8:punct	_
+8	Areas	area	NOUN	NNS	Number=Plur	2	appos	2:appos	Discourse=elaboration-additional:73->72:0|Entity=(57-abstract-giv:act-cf1-1-appos
+9	of	of	ADP	IN	_	10	case	10:case	_
+10	Triangles	triangle	NOUN	NNS	Number=Plur	8	nmod	8:nmod:of	Entity=(59-abstract-giv:inact-cf4-1-coref-Triangle)
+11	and	and	CCONJ	CC	_	12	cc	12:cc	_
+12	Parallelograms	parallelogram	NOUN	NNS	Number=Plur	10	conj	8:nmod:of|10:conj:and	Entity=(60-abstract-giv:inact-cf5-1-coref)
+13	Proportional	proportional	ADJ	JJ	Degree=Pos	8	acl	8:acl	_
+14	to	to	ADP	IN	_	15	case	15:case	_
+15	Base	base	NOUN	NN	Number=Sing	13	obl	13:obl:to	Entity=(61-abstract-giv:inact-cf6-1-coref)57)|SpaceAfter=No|XML=</ref>
+16	:	:	PUNCT	:	_	2	punct	2:punct	_
+17	DM	DM	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Discourse=joint-list_m:74->71:1|Entity=(46-abstract-giv:inact-cf2-1-coref)
+18	>	>	SYM	SYM	_	0	root	0:root	_
+19	MG	MG	NOUN	NN	Number=Sing	18	obl:npmod	18:obl:npmod	Entity=(25-abstract-giv:inact-cf7-1-coref)
+
+# sent_id = GENTLE_proof_square-34
+# s_prominence = 3
+# s_type = decl
+# transition = null
+# text = Since: AC2 is commensurable with CB2 it follows that: DH is commensurable with KL.
+1	Since	since	SCONJ	IN	_	5	mark	5:mark	Discourse=organization-preparation:75->85:3|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+3	AC2	AC2	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Discourse=context-background:76->78:1|Entity=(18-abstract-giv:inact-cf1-1-coref)
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+5	commensurable	commensurable	ADJ	JJ	Degree=Pos	9	advcl	9:advcl:since	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Commensurable"></ref>
+6	with	with	ADP	IN	_	7	case	7:case	_
+7	CB2	CB2	NOUN	NN	Number=Sing	5	obl	5:obl:with	Entity=(69-abstract-giv:inact-cf3-1-coref)
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	9:expl	Discourse=attribution-positive:77->78:0|Entity=(70-abstract-new-cf5-1-cata)
+9	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+10	that	that	SCONJ	IN	_	14	mark	14:mark	Discourse=context-background:78->80:3|Entity=(70-abstract-acc:com-cf5-5-coref|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	punct	10:punct	_
+12	DH	DH	NOUN	NN	Abbr=Yes|Number=Sing	14	nsubj	14:nsubj	Entity=(22-abstract-giv:inact-cf2-1-coref)
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+14	commensurable	commensurable	ADJ	JJ	Degree=Pos	9	csubj	9:csubj	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Commensurable"></ref>
+15	with	with	ADP	IN	_	16	case	16:case	_
+16	KL	KL	NOUN	NN	Number=Sing	14	obl	14:obl:with	Entity=(23-abstract-giv:inact-cf4-1-coref)70)|SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GENTLE_proof_square-35
+# s_prominence = 2
+# s_type = decl
+# transition = null
+# text = So from: Proposition 1 of Book VI: Areas of Triangles and Parallelograms Proportional to Base and: Proposition 11 of Book X: Commensurability of Elements of Proportional Magnitudes it follows that: DK is commensurable in length with KM.
+1	So	so	ADV	RB	_	33	advmod	33:advmod	Discourse=organization-preparation:79->80:2
+2	from	from	ADP	IN	_	4	case	4:case	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	Proposition	Proposition	PROPN	NNP	Number=Sing	33	obl	33:obl:from	Discourse=context-background:80->85:2|Entity=(57-abstract-giv:inact-cf1-1,4-coref|XML=<ref target:::"https://proofwiki.org/wiki/Areas_of_Triangles_and_Parallelograms_Proportional_to_Base">
+5	1	1	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	_
+6	of	of	ADP	IN	_	7	case	7:case	_
+7	Book	Book	PROPN	NNP	Number=Sing	4	nmod	4:nmod:of	Entity=(58-abstract-giv:inact-cf3-1-coref
+8	VI	VI	NUM	CD	NumForm=Roman|NumType=Card	7	dep	7:dep	Entity=58)57)|SpaceAfter=No
+9	:	:	PUNCT	:	_	10	punct	10:punct	_
+10	Areas	area	NOUN	NNS	Number=Plur	4	appos	4:appos	Discourse=elaboration-additional:81->80:0|Entity=(57-abstract-giv:act-cf1-1-appos
+11	of	of	ADP	IN	_	12	case	12:case	_
+12	Triangles	triangle	NOUN	NNS	Number=Plur	10	nmod	10:nmod:of	Entity=(59-abstract-giv:inact-cf5-1-coref-Triangle)
+13	and	and	CCONJ	CC	_	14	cc	14:cc	_
+14	Parallelograms	parallelogram	NOUN	NNS	Number=Plur	12	conj	10:nmod:of|12:conj:and	Entity=(60-abstract-giv:inact-cf6-1-coref)
+15	Proportional	proportional	ADJ	JJ	Degree=Pos	10	acl	10:acl	_
+16	to	to	ADP	IN	_	17	case	17:case	_
+17	Base	base	NOUN	NN	Number=Sing	15	obl	15:obl:to	Entity=(61-abstract-giv:inact-cf7-1-coref)57)|XML=</ref>
+18	and	and	CCONJ	CC	_	20	cc	20:cc	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	18:punct	_
+20	Proposition	Proposition	NOUN	NN	Number=Sing	4	conj	4:conj:and|33:obl:from	Discourse=joint-list_m:82->80:1|Entity=(49-abstract-giv:inact-cf2-1-coref|XML=<ref target:::"https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
+21	11	11	NUM	CD	NumForm=Digit|NumType=Card	20	dep	20:dep	_
+22	of	of	ADP	IN	_	23	case	23:case	_
+23	Book	Book	PROPN	NNP	Number=Sing	20	nmod	20:nmod:of	Entity=(38-abstract-giv:inact-cf4-1-coref
+24	X	X	NUM	CD	NumForm=Roman|NumType=Card	23	dep	23:dep	Entity=38)49)|SpaceAfter=No
+25	:	:	PUNCT	:	_	26	punct	26:punct	_
+26	Commensurability	commensurability	NOUN	NN	Number=Sing	20	appos	20:appos	Discourse=elaboration-additional:83->82:0|Entity=(49-abstract-giv:act-cf2-1-appos
+27	of	of	ADP	IN	_	28	case	28:case	_
+28	Elements	element	NOUN	NNS	Number=Plur	26	nmod	26:nmod:of	Entity=(50-abstract-giv:inact-cf8-1-coref
+29	of	of	ADP	IN	_	31	case	31:case	_
+30	Proportional	proportional	ADJ	JJ	Degree=Pos	31	amod	31:amod	Entity=(51-abstract-giv:inact-cf9-2-coref
+31	Magnitudes	magnitude	NOUN	NNS	Number=Plur	28	nmod	28:nmod:of	Entity=51)50)49)|XML=</ref>
+32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	33:expl	Discourse=attribution-positive:84->85:0|Entity=(71-abstract-new-cf11-1-cata)
+33	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+34	that	that	SCONJ	IN	_	38	mark	38:mark	Discourse=explanation-evidence:85->92:1|Entity=(71-abstract-acc:com-cf11-5-coref|SpaceAfter=No
+35	:	:	PUNCT	:	_	34	punct	34:punct	_
+36	DK	DK	NOUN	NN	Number=Sing	38	nsubj	38:nsubj	Entity=(72-abstract-new-cf12-1-coref)
+37	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	38:cop	_
+38	commensurable	commensurable	ADJ	JJ	Degree=Pos	33	ccomp	33:ccomp	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Commensurable_in_Length">
+39	in	in	ADP	IN	_	40	case	40:case	_
+40	length	length	NOUN	NN	Number=Sing	38	obl	38:obl:in	Entity=(47-abstract-giv:inact-cf10-1-coref)|XML=</ref>
+41	with	with	ADP	IN	_	42	case	42:case	_
+42	KM	KM	NOUN	NN	Number=Sing	38	obl	38:obl:with	Entity=(73-abstract-new-cf13-1-coref)71)|SpaceAfter=No
+43	.	.	PUNCT	.	_	33	punct	33:punct	_
+
+# sent_id = GENTLE_proof_square-36
+# s_prominence = 3
+# s_type = decl
+# transition = establishment
+# text = Also DK ⋅ KM = MN2.
+1	Also	also	ADV	RB	_	5	advmod	5:advmod	Discourse=elaboration-additional:86->85:1
+2	DK	DK	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(72-abstract-giv:act-cf1*-1-coref)
+3	⋅	⋅	SYM	SYM	_	4	case	4:case	_
+4	KM	KM	NOUN	NN	Number=Sing	2	nmod	2:nmod:times	Entity=(73-abstract-giv:act-cf2-1-coref)
+5	=	=	SYM	SYM	_	0	root	0:root	_
+6	MN2	MN2	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(74-abstract-new-cf3-1-sgl)|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GENTLE_proof_square-37
+# s_prominence = 2
+# s_type = decl
+# transition = zero
+# text = Thus from Lemma to Proposition 17 of Book X: Condition for Commensurability of Roots of Quadratic Equation: DM2 is greater than MG2 by the square on a straight line commensurable in length with DM.
+1	Thus	thus	ADV	RB	_	22	advmod	22:advmod	Discourse=organization-preparation:87->89:1
+2	from	from	ADP	IN	_	3	case	3:case	_
+3	Lemma	Lemma	PROPN	NNP	Number=Sing	22	obl	22:obl:from	Entity=(75-abstract-new-cf7-1,3,6-sgl|XML=<ref target:::"https://proofwiki.org/wiki/Condition_for_Commensurability_of_Roots_of_Quadratic_Equation/Lemma">
+4	to	to	ADP	IN	_	5	case	5:case	_
+5	Proposition	Proposition	PROPN	NNP	Number=Sing	3	nmod	3:nmod:to	Entity=(76-abstract-new-cf1-1,4-coref
+6	17	17	NUM	CD	NumForm=Digit|NumType=Card	5	dep	5:dep	_
+7	of	of	ADP	IN	_	8	case	8:case	_
+8	Book	Book	PROPN	NNP	Number=Sing	5	nmod	5:nmod:of	Entity=(38-abstract-giv:inact-cf2-1-coref
+9	X	X	NUM	CD	NumForm=Roman|NumType=Card	8	dep	8:dep	Entity=38)76)|SpaceAfter=No
+10	:	:	PUNCT	:	_	11	punct	11:punct	_
+11	Condition	condition	NOUN	NN	Number=Sing	3	appos	3:appos	Discourse=organization-preparation:88->89:0|Entity=(76-abstract-giv:act-cf1-1-coref
+12	for	for	ADP	IN	_	13	case	13:case	_
+13	Commensurability	commensurability	NOUN	NN	Number=Sing	11	nmod	11:nmod:for	Entity=(77-abstract-new-cf8-1-sgl
+14	of	of	ADP	IN	_	15	case	15:case	_
+15	Roots	root	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	Entity=(78-abstract-new-cf9-1-sgl
+16	of	of	ADP	IN	_	18	case	18:case	_
+17	Quadratic	quadratic	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(79-abstract-new-cf10-2-sgl
+18	Equation	equation	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=79)78)77)76)75)|SpaceAfter=No|XML=</ref>
+19	:	:	PUNCT	:	_	3	punct	3:punct	_
+20	DM2	DM2	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	Discourse=explanation-evidence:89->92:0|Entity=(80-abstract-new-cf5-1-sgl)
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
+22	greater	great	ADJ	JJR	Degree=Cmp	0	root	0:root	_
+23	than	than	ADP	IN	_	24	case	24:case	_
+24	MG2	MG2	NOUN	NN	Number=Sing	22	obl	22:obl:than	Entity=(81-abstract-new-cf11-1-sgl)
+25	by	by	ADP	IN	_	27	case	27:case	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(82-abstract-new-cf6-2-sgl
+27	square	square	NOUN	NN	Number=Sing	22	obl	22:obl:by	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Square_(Geometry)"></ref>
+28	on	on	ADP	IN	_	31	case	31:case	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	31:det	Entity=(83-abstract-new-cf12-3-sgl
+30	straight	straight	ADJ	JJ	Degree=Pos	31	amod	31:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Line_Segment">
+31	line	line	NOUN	NN	Number=Sing	27	nmod	27:nmod:on	XML=</ref>
+32	commensurable	commensurable	ADJ	JJ	Degree=Pos	31	acl	31:acl	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Commensurable_in_Length">
+33	in	in	ADP	IN	_	34	case	34:case	_
+34	length	length	NOUN	NN	Number=Sing	32	obl	32:obl:in	Entity=(47-abstract-giv:inact-cf3-1-coref)|XML=</ref>
+35	with	with	ADP	IN	_	36	case	36:case	_
+36	DM	DM	NOUN	NN	Number=Sing	32	obl	32:obl:with	Entity=(46-abstract-giv:inact-cf4-1-coref)83)82)|SpaceAfter=No
+37	.	.	PUNCT	.	_	22	punct	22:punct	_
+
+# sent_id = GENTLE_proof_square-38
+# s_prominence = 3
+# s_type = other
+# transition = null
+# text = Also:
+1	Also	also	ADV	RB	_	0	root	0:root	Discourse=organization-preparation:90->91:0|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = GENTLE_proof_square-39
+# s_prominence = 2
+# s_type = decl
+# transition = null
+# text = Neither DM nor MG is commensurable in length with DE.
+1	Neither	neither	CCONJ	CC	_	2	cc:preconj	2:cc:preconj	Discourse=joint-other_m:91->89:2
+2	DM	DM	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=(46-abstract-giv:inact-cf1-1-coref)
+3	nor	nor	CCONJ	CC	_	4	cc	4:cc	_
+4	MG	MG	NOUN	NN	Number=Sing	2	conj	2:conj:nor|6:nsubj	Entity=(25-abstract-giv:inact-cf2-1-coref)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+6	commensurable	commensurable	ADJ	JJ	Degree=Pos	0	root	0:root	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Commensurable_in_Length">
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	length	length	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=(47-abstract-giv:inact-cf3-1-coref)|XML=</ref>
+9	with	with	ADP	IN	_	10	case	10:case	_
+10	DE	DE	NOUN	NN	Number=Sing	6	obl	6:obl:with	Entity=(8-abstract-giv:inact-cf4-1-coref)|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GENTLE_proof_square-40
+# s_prominence = 1
+# s_type = decl
+# transition = null
+# text = Therefore DG is a third binomial straight line. ■
+1	Therefore	therefore	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=joint-list_m:92->16:3
+2	DG	DG	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(12-abstract-giv:inact-cf1-1-coref)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(12-abstract-giv:act-cf1-5-pred
+5	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	6:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Third_Binomial">
+6	binomial	binomial	ADJ	JJ	Degree=Pos	8	compound	8:compound	XML=</ref>
+7	straight	straight	ADJ	JJ	Degree=Pos	8	amod	8:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Line_Segment">
+8	line	line	NOUN	NN	Number=Sing	0	root	0:root	Entity=12)|SpaceAfter=No|XML=</ref>
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+10	■	■	PUNCT	SYM	_	8	punct	8:punct	_
+

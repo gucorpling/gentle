@@ -1,0 +1,1611 @@
+<text id="GENTLE_legal_service" author="Antonio Guterres" dateCollected="2022-11-14" dateCreated="2019-08-19" dateModified="2019-08-19"  shortTitle="service" sourceURL="https://zenodo.org/record/4595826#.Y3L8Q4LMKDU" speakerCount="0" speakerList="none" title="Services Agreement" type="legal">
+<head>
+<s type="frag" transition="establishment">
+Exhibit	NP	exhibit	NP0	PROPN	root
+1.2	CD	1.2	CRD	NUM	dep
+</s>
+</head>
+<head>
+<s type="frag" transition="null">
+SERVICES	NNS	service	NN2	NOUN	compound
+AGREEMENT	NN	agreement	NN1	NOUN	root
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+This	DT	this	DT0	DET	det
+Services	NP	service	NP0	PROPN	compound
+Agreement	NP	Agreement	NP0	PROPN	nsubj:pass
+(	(	(	PUL	PUNCT	punct
+<q>
+"	``	''	PUQ	PUNCT	punct
+Services	NPS	service	NP0	PROPN	compound
+Agreement	NP	Agreement	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+or	CC	or	CJC	CCONJ	cc
+<q>
+"	``	''	PUQ	PUNCT	punct
+Agreement	NP	Agreement	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+is	VBZ	be	VBZ	AUX	aux:pass
+entered	VVN	enter	VVN	VERB	root
+into	IN	into	PRP	ADP	obl
+as	IN	as	PRP	ADP	case
+of	IN	of	PRF	ADP	fixed
+the	DT	the	AT0	DET	det
+date	NN	date	NN1	NOUN	obl
+noted	VVN	note	VVN	VERB	acl
+below	RB	below	AV0	ADV	advmod
+(	(	(	PUL	PUNCT	punct
+the	DT	the	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+Effective	NP	effective	NP0	ADJ	amod
+Date	NP	Date	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+between	IN	between	PRP	ADP	case
+StartEngine	NP	StartEngine	NP0	PROPN	compound
+Crowdfunding	NP	Crowdfunding	NP0	PROPN	compound
+,	,	,	PUN	PUNCT	punct
+Inc.	NP	Inc.	NP0	PROPN	obl
+,	,	,	PUN	PUNCT	punct
+a	DT	a	AT0	DET	det
+Delaware	NP	Delaware	NP0	PROPN	compound
+corporation	NN	corporation	NN1	NOUN	appos
+(	(	(	PUL	PUNCT	punct
+<q>
+"	``	''	PUQ	PUNCT	punct
+Company	NP	Company	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+Solutions	NPS	Solution	NP0	PROPN	compound
+Vending	NP	Vending	NP0	PROPN	compound
+International	NP	International	NP0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+Inc	NP	Inc	NP0	PROPN	conj
+a	DT	a	AT0	DET	det
+___DE	JJ	___DE	AJ0	ADJ	compound
+corporation	NN	corporation	NN1	NOUN	appos
+(	(	(	PUL	PUNCT	punct
+<q>
+"	``	''	PUQ	PUNCT	punct
+Customer	NN	customer	NN1	NOUN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+or	CC	or	CJC	CCONJ	cc
+<q>
+"	``	''	PUQ	PUNCT	punct
+you	PP	you	PNP	PRON	conj
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head>
+<s type="frag" transition="establishment">
+<hi rend="bold">
+1.	LS	1.	CRD	X	dep
+Services	NNS	service	NN2	NOUN	root
+</hi>
+</s>
+</head>
+<p>
+<s type="decl" transition="retain">
+Company	NN	company	NN1	NOUN	nsubj
+agrees	VVZ	agree	VVZ	VERB	root
+to	TO	to	TO0	PART	mark
+make	VV	make	VVI	VERB	xcomp
+available	JJ	available	AJ0	ADJ	xcomp
+to	IN	to	PRP	ADP	case
+Customer	NN	customer	NN1	NOUN	obl
+the	DT	the	AT0	DET	det
+ability	NN	ability	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+present	VV	present	VVI	VERB	acl
+information	NN	information	NN1	NOUN	obj
+with	IN	with	PRP	ADP	case
+respect	NN	respect	NN1	NOUN	nmod
+to	IN	to	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+securities	NNS	security	NN2	NOUN	compound
+offering	NN	offering	NN1	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+the	DT	the	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+Offering	NN	offering	NN1	NOUN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+to	IN	to	PRP	ADP	case
+Users	NNS	user	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+to	TO	to	TO0	PART	mark
+permit	VV	permit	VVI	VERB	acl
+Users	NNS	user	NN2	NOUN	obj
+to	TO	to	TO0	PART	mark
+create	VV	create	VVI	VERB	xcomp
+and	CC	and	CJC	CCONJ	cc
+manage	VV	manage	VVI	VERB	xcomp
+online	JJ	online	AJ0	ADJ	amod
+accounts	NNS	account	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+view	VV	view	VVI	VERB	xcomp
+information	NN	information	NN1	NOUN	obj
+regarding	VVG	regard	VVG	VERB	case
+the	DT	the	AT0	DET	det
+Customer	NN	customer	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+indicate	VV	indicate	VVB	VERB	acl
+interest	NN	interest	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Offering	NN	offering	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+to	TO	to	TO0	PART	mark
+subscribe	VV	subscribe	VVI	VERB	xcomp
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Offering	NN	offering	NN1	NOUN	obl
+by	IN	by	PRP	SCONJ	mark
+signing	VVG	sign	VVG	VERB	advcl
+a	DT	a	AT0	DET	det
+subscription	NN	subscription	NN1	NOUN	compound
+agreement	NN	agreement	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+similar	JJ	similar	AJ0	ADJ	amod
+instrument	NN	instrument	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+transmitting	VVG	transmit	VVG	VERB	advcl
+payment	NN	payment	NN1	NOUN	compound
+instructions	NNS	instruction	NN2	NOUN	obj
+(	(	(	PUL	PUNCT	punct
+together	RB	together	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+Services	NPS	service	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="rough-shift">
+A	DT	a	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+User	NN	user	NN1	NOUN	nsubj
+"	''	''	PUQ	PUNCT	punct
+</q>
+means	VVZ	mean	VVZ	VERB	root
+a	DT	a	AT0	DET	det
+natural	JJ	natural	AJ0	ADJ	amod
+person	NN	person	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+corporation	NN	corporation	NN1	NOUN	conj
+or	CC	or	CJC	CCONJ	cc
+other	JJ	other	AJ0	ADJ	amod
+entity	NN	entity	NN1	NOUN	conj
+that	WDT	that	CJT	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+established	VVN	establish	VVN	VERB	acl:relcl
+an	DT	a	AT0	DET	det
+account	NN	account	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+website	NN	website	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head>
+<s type="frag" transition="zero">
+<hi rend="bold">
+2.	LS	2.	CRD	X	dep
+Fees	NNS	fee	NN2	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+expenses	NNS	expense	NN2	NOUN	conj
+</hi>
+</s>
+</head>
+<p>
+<s type="sub" transition="establishment">
+<hi rend="bold">
+a)	LS	a)	UNC	X	dep
+Generally	RB	generally	AV0	ADV	dep
+</hi>
+In	IN	in	PRP	ADP	case
+exchange	NN	exchange	NN1	NOUN	obl
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Services	NPS	service	NP0	PROPN	nmod
+,	,	,	PUN	PUNCT	punct
+you	PP	you	PNP	PRON	nsubj
+shall	MD	shall	VM0	AUX	aux
+pay	VV	pay	VVI	VERB	root
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	iobj
+the	DT	the	AT0	DET	det
+then	RB	then	AV0	ADV	advmod
+applicable	JJ	applicable	AJ0	ADJ	amod
+fees	NNS	fee	NN2	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+expenses	NNS	expense	NN2	NOUN	obj
+set	VVN	set	VVN	VERB	acl
+out	RP	out	AVP	ADP	compound:prt
+below	RB	below	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+The	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nsubj
+reserves	VVZ	reserve	VVZ	VERB	root
+the	DT	the	AT0	DET	det
+right	NN	right	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+change	VV	change	VVI	VERB	acl
+the	DT	the	AT0	DET	det
+applicable	JJ	applicable	AJ0	ADJ	amod
+charges	NNS	charge	NN2	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+to	TO	to	TO0	PART	mark
+institute	VV	institute	VVI	VERB	acl
+new	JJ	new	AJ0	ADJ	amod
+charges	NNS	charge	NN2	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+fees	NNS	fee	NN2	NOUN	obj
+at	IN	at	PRP	ADP	case
+the	DT	the	AT0	DET	det
+end	NN	end	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Initial	JJ	initial	AJ0	ADJ	amod
+Term	NN	term	NN1	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+as	IN	as	CJS	SCONJ	mark
+defined	VVN	define	VVN	VERB	acl
+below	RB	below	AV0	ADV	advmod
+)	)	)	PUR	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+then	RB	then	AV0	ADV	advmod
+current	JJ	current	AJ0	ADJ	amod
+renewal	NN	renewal	NN1	NOUN	compound
+term	NN	term	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+upon	IN	upon	PRP	ADP	case
+30	CD	30	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	nmod:npmod
+prior	JJ	prior	AJ0	ADJ	amod
+notice	NN	notice	NN1	NOUN	obl
+to	IN	to	PRP	ADP	case
+you	PP	you	PNP	PRON	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="continue">
+If	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+believe	VVP	believe	VVB	VERB	advcl
+that	IN/that	that	CJT	SCONJ	mark
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nsubj
+has	VHZ	have	VHZ	AUX	aux
+billed	VVN	bill	VVN	VERB	ccomp
+you	PP	you	PNP	PRON	obj
+incorrectly	RB	incorrectly	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+you	PP	you	PNP	PRON	nsubj
+must	MD	must	VM0	AUX	aux
+contact	VV	contact	VVI	VERB	root
+Company	NP	Company	NP0	PROPN	obj
+no	RB	no	AV0	ADV	advmod
+later	RBR	late	AJC	ADV	advmod
+than	IN	than	CJS	ADP	case
+60	CD	60	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	obl
+after	IN	after	PRP	ADP	case
+the	DT	the	AT0	DET	det
+closing	VVG	close	VVG	VERB	amod
+date	NN	date	NN1	NOUN	obl
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	amod
+billing	NN	billing	NN1	NOUN	compound
+statement	NN	statement	NN1	NOUN	nmod
+in	IN	in	PRP	ADP	case
+which	WDT	which	DTQ	PRON	obl
+the	DT	the	AT0	DET	det
+error	NN	error	NN1	NOUN	nsubj
+or	CC	or	CJC	CCONJ	cc
+problem	NN	problem	NN1	NOUN	conj
+appeared	VVD	appear	VVD	VERB	acl:relcl
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	SCONJ	mark
+order	NN	order	NN1	NOUN	fixed
+to	TO	to	TO0	PART	mark
+receive	VV	receive	VVI	VERB	advcl
+an	DT	a	AT0	DET	det
+adjustment	NN	adjustment	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+credit	NN	credit	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="zero">
+Inquiries	NNS	inquiry	NN2	NOUN	nsubj:pass
+should	MD	should	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux:pass
+directed	VVN	direct	VVN	VERB	root
+to	IN	to	PRP	ADP	case
+contact@startengine.com	NP	contact@startengine.com	NP0	PROPN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+<hi rend="bold">
+b)	LS	b)	UNC	X	dep
+Monthly	JJ	Monthly	AJ0	ADJ	amod
+Fees	NNS	fee	NN2	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+Billing	NN	billing	NN1	NOUN	conj
+</hi>
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+Company	NN	company	NN1	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+bill	VV	bill	NN1	VERB	root
+you	PP	you	PNP	PRON	obj
+monthly	RB	monthly	AJ0	ADV	advmod
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Services	NNS	service	NN2	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+You	PP	you	PNP	PRON	nsubj
+authorize	VVP	authorize	VVB	VERB	root
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obj
+to	TO	to	TO0	PART	mark
+instruct	VV	instruct	VVI	VERB	xcomp
+Prime	NP	Prime	NP0	PROPN	compound
+Trust	NP	Trust	NP0	PROPN	obj
+or	CC	or	CJC	CCONJ	cc
+any	DT	any	DT0	DET	det
+escrow	NN	escrow	NN1	NOUN	compound
+agent	NN	agent	NN1	NOUN	conj
+used	VVN	use	VVN	VERB	acl
+by	IN	by	PRP	ADP	case
+Company	NP	Company	NP0	PROPN	obl:agent
+to	TO	to	TO0	PART	mark
+deduct	VV	deduct	VVI	VERB	xcomp
+such	JJ	such	DT0	ADJ	amod
+fees	NNS	fee	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+debts	NNS	debt	NN2	NOUN	conj
+and	CC	and	CJC	CCONJ	cc
+any	DT	any	DT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+amounts	NNS	amount	NN2	NOUN	compound
+liabilities	NNS	liability	NN2	NOUN	conj
+incurred	VVN	incur	VVN	VERB	acl
+under	IN	under	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Service	NP	Service	NP0	PROPN	compound
+Agreement	NP	Agreement	NP0	PROPN	obl
+,	,	,	PUN	PUNCT	punct
+prior	RB	prior	AJ0	ADV	mark
+to	IN	to	PRP	ADP	fixed
+releasing	VVG	release	VVG	VERB	advcl
+any	DT	any	DT0	DET	det
+amounts	NNS	amount	NN2	NOUN	obj
+due	JJ	due	AJ0	ADJ	acl
+to	IN	to	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+or	CC	or	CJC	CCONJ	cc
+to	IN	to	PRP	ADP	case
+any	DT	any	DT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+person	NN	person	NN1	NOUN	conj
+(	(	(	PUL	PUNCT	punct
+including	VVG	include	VVG	VERB	case
+another	DT	another	DT0	DET	det
+escrow	NN	escrow	NN1	NOUN	compound
+agent	NN	agent	NN1	NOUN	nmod
+)	)	)	PUR	PUNCT	punct
+from	IN	from	PRP	ADP	case
+escrow	NN	escrow	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+Amounts	NNS	amount	NN2	NOUN	nsubj
+which	WDT	which	DTQ	PRON	nsubj
+remain	VVP	remain	VVB	VERB	acl:relcl
+unpaid	JJ	unpaid	AJ0	ADJ	xcomp
+for	IN	for	PRP	ADP	case
+30	CD	30	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	obl
+are	VBP	be	VBB	AUX	cop
+subject	JJ	subject	AJ0	ADJ	root
+to	IN	to	PRP	ADP	case
+a	DT	a	AT0	DET	det
+finance	NN	finance	NN1	NOUN	compound
+charge	NN	charge	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+1.5	CD	1.5	CRD	NUM	nummod
+%	SYM	%	UNC	SYM	nmod
+per	IN	per	NN0	ADP	case
+month	NN	month	NN1	NOUN	nmod
+on	IN	on	PRP	ADP	case
+any	DT	any	DT0	DET	det
+outstanding	JJ	outstanding	AJ0	ADJ	amod
+balance	NN	balance	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+maximum	NN	maximum	NN1	NOUN	conj
+permitted	VVN	permit	VVN	VERB	acl
+by	IN	by	PRP	ADP	case
+law	NN	law	NN1	NOUN	obl:agent
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+ever	RB	ever	AV0	ADV	advmod
+is	VBZ	be	VBZ	AUX	cop
+lower	JJR	low	AJC	ADJ	acl:relcl
+,	,	,	PUN	PUNCT	punct
+plus	CC	plus	PRP	CCONJ	cc
+all	DT	all	DT0	DET	det
+expenses	NNS	expense	NN2	NOUN	conj
+of	IN	of	PRF	ADP	case
+collection	NN	collection	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+may	MD	may	VM0	AUX	aux
+result	VV	result	VVI	VERB	conj
+in	IN	in	PRP	ADP	case
+immediate	JJ	immediate	AJ0	ADJ	amod
+termination	NN	termination	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+Service	NN	service	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+shall	MD	shall	VM0	AUX	aux
+be	VB	be	VBI	AUX	cop
+responsible	JJ	responsible	AJ0	ADJ	root
+for	IN	for	PRP	ADP	case
+all	DT	all	DT0	DET	det
+taxes	NNS	taxis	NN2	NOUN	obl
+associated	VVN	associate	VVN	VERB	acl
+with	IN	with	PRP	ADP	case
+Services	NNS	service	NN2	NOUN	obl
+other	JJ	other	AJ0	ADJ	advmod
+than	IN	than	CJS	ADP	case
+U.S.	NP	U.S.	NP0	ADJ	amod
+taxes	NNS	taxis	NN2	NOUN	nmod
+based	VVN	base	VVN	VERB	acl
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+net	JJ	net	AJ0	ADJ	amod
+income	NN	income	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="zero">
+<hi rend="bold">
+c)	LS	c)	UNC	X	dep
+Transaction	NN	transaction	NN1	NOUN	compound
+Fees	NNS	fee	NN2	NOUN	root
+</hi>
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+Company	NN	company	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+transaction	NN	transaction	NN1	NOUN	compound
+fees	NNS	fee	NN2	NOUN	nsubj
+depend	VVP	depend	VVB	VERB	root
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+method	NN	method	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+payment	NN	payment	NN1	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+e.g.	FW	e.g.	UNC	ADV	advmod
+ACH	NP	ACH	NP0	PROPN	appos
+-	HYPH	-	PUN	PUNCT	punct
+US	NP	US	NP0	PROPN	flat
+or	CC	or	CJC	CCONJ	cc
+WIRE	NN	WIRE	NN1	NOUN	appos
+-	HYPH	-	PUN	PUNCT	punct
+US	NP	US	NP0	PROPN	dep
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="zero">
+ACH	NP	ACH	NP0	PROPN	compound
+transaction	NN	transaction	NN1	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+$	SYM	$	UNC	SYM	root
+1	CD	1	CRD	NUM	nummod
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+Wire	NN	wire	NN1	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+$	SYM	$	UNC	SYM	root
+15	CD	15	CRD	NUM	nummod
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+<hi rend="bold">
+d)	LS	d)	UNC	X	dep
+AML	NP	AML	NP0	PROPN	dep
+Fees	NNS	fee	NN2	NOUN	root
+</hi>
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+AML	NP	AML	NP0	PROPN	compound
+fees	NNS	fee	NN2	NOUN	nsubj:pass
+are	VBP	be	VBB	AUX	aux:pass
+charged	VVN	charge	VVN	VERB	root
+per	IN	per	PRP	ADP	case
+User	NN	user	NN1	NOUN	obl
+per	IN	per	PRP	ADP	case
+initial	JJ	initial	AJ0	ADJ	amod
+transaction	NN	transaction	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="smooth-shift">
+AML	NP	AML	NP0	PROPN	dep
+:	:	:	PUN	PUNCT	punct
+$	SYM	$	NP0	SYM	root
+2	CD	2	CRD	NUM	nummod
+</s>
+</p>
+<p>
+<s type="frag" transition="continue">
+AML	NP	AML	NP0	PROPN	dep
+UK	NP	UK	NP0	PROPN	dep
+:	:	:	PUN	PUNCT	punct
+$	SYM	$	UNC	SYM	root
+5	CD	5	CRD	NUM	nummod
+</s>
+</p>
+<p>
+<s type="frag" transition="zero">
+<hi rend="bold">
+e)	LS	e)	UNC	X	dep
+Reimbursable	JJ	Reimbursable	AJ0	ADJ	amod
+expenses	NNS	expense	NN2	NOUN	root
+</hi>
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+You	PP	you	PNP	PRON	nsubj
+shall	MD	shall	VM0	AUX	aux
+reimburse	VV	reimburse	VVI	VERB	root
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obj
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+following	VVG	follow	VVG	VERB	amod
+expenses	NNS	expense	NN2	NOUN	obl
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="establishment">
+(i)	LS	(i)	UNC	X	dep
+All	DT	all	DT0	DET	det
+credit	NN	credit	NN1	NOUN	compound
+card	NN	card	NN1	NOUN	compound
+charges	NNS	charge	NN2	NOUN	root
+charged	VVN	charge	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obl
+by	IN	by	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+<w>
+third	JJ	third	ORD	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+party	NN	party	NN1	NOUN	compound
+</w>
+credit	NN	credit	NN1	NOUN	compound
+card	NN	card	NN1	NOUN	compound
+processor	NN	processor	NN1	NOUN	obl:agent
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="2">
+<s type="frag" transition="continue">
+(ii)	LS	(ii)	UNC	X	dep
+All	DT	all	DT0	DET	det
+transaction	NN	transaction	NN1	NOUN	compound
+fees	NNS	fee	NN2	NOUN	root
+charged	VVN	charge	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obl
+or	CC	or	CJC	CCONJ	cc
+its	PP$	its	DPS	PRON	nmod:poss
+affiliates	NNS	affiliate	NN2	NOUN	conj
+by	IN	by	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+<w>
+third	JJ	third	ORD	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+party	NN	party	NN1	NOUN	compound
+</w>
+transaction	NN	transaction	NN1	NOUN	compound
+processor	NN	processor	NN1	NOUN	obl:agent
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="3">
+<s type="frag" transition="continue">
+(iii)	LS	(iii)	UNC	X	dep
+Escrow	NN	escrow	NN1	NOUN	compound
+agent	NN	agent	NN1	NOUN	compound
+fees	NNS	fee	NN2	NOUN	root
+charged	VVN	charge	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obl
+or	CC	or	CJC	CCONJ	cc
+its	PP$	its	DPS	PRON	nmod:poss
+affiliates	NNS	affiliate	NN2	NOUN	conj
+by	IN	by	PRP	ADP	case
+<w>
+third	JJ	third	ORD	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+party	NN	party	NN1	NOUN	compound
+</w>
+escrow	NN	escrow	NN1	NOUN	compound
+agents	NNS	agent	NN2	NOUN	obl:agent
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="4">
+<s type="frag" transition="zero">
+(iv)	LS	(iv)	AJ0	X	dep
+Return	NN	return	NN1	NOUN	compound
+fees	NNS	fee	NN2	NOUN	root
+as	IN	as	CJS	SCONJ	mark
+set	VVN	set	VVN	VERB	acl
+out	RP	out	AVP	ADP	compound:prt
+in	IN	in	PRP	ADP	case
+Section	NP	Section	NP0	PROPN	obl
+4	CD	4	CRD	NUM	dep
+(	(	(	PUL	PUNCT	punct
+Returns	NPS	return	NP0	PROPN	appos
+,	,	,	PUN	PUNCT	punct
+Reversals	NPS	Reversal	NP0	PROPN	appos
+,	,	,	PUN	PUNCT	punct
+Disputes	NPS	Dispute	NP0	PROPN	appos
+and	CC	and	CJC	CCONJ	cc
+Reserves	NPS	reserve	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+below	RB	below	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Credit	NN	credit	NN1	NOUN	compound
+cards	NNS	card	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+average	NN	average	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+3.5	CD	3.5	CRD	NUM	nummod
+%	SYM	%	UNC	SYM	parataxis
+(	(	(	PUL	PUNCT	punct
+varies	VVZ	vary	VVZ	VERB	parataxis
+because	IN	because	CJS	SCONJ	mark
+it	PP	it	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+combination	NN	combination	NN1	NOUN	advcl
+of	IN	of	PRF	ADP	case
+fixed	VVN	fix	VVN	VERB	nmod
+and	CC	and	CJC	CCONJ	cc
+a	DT	a	AT0	DET	det
+percentage	NN	percentage	NN1	NOUN	conj
+charged	VVN	charge	VVN	VERB	acl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+credit	NN	credit	NN1	NOUN	compound
+card	NN	card	NN1	NOUN	compound
+vendor	NN	vendor	NN1	NOUN	obl:agent
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+<hi rend="bold">
+2.	LS	2.	CRD	X	dep
+Customer	NN	customer	NN1	NOUN	compound
+Representations	NNS	representation	NN2	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+Warranties	NNS	warranty	NN2	NOUN	conj
+</hi>
+</s>
+</head>
+<p>
+<s type="decl" transition="establishment">
+Customer	NN	customer	NN1	NOUN	nsubj
+represents	VVZ	represent	VVZ	VERB	root
+and	CC	and	CJC	CCONJ	cc
+warrants	NNS	warrant	NN2	NOUN	conj
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obl
+that	IN/that	that	CJT	SCONJ	mark
+then	RB	then	AV0	ADV	advmod
+executed	VVN	execute	VVN	VERB	advcl
+and	CC	and	CJC	CCONJ	cc
+delivered	VVN	deliver	VVN	VERB	conj
+by	IN	by	PRP	ADP	case
+Customer	NP	customer	NP0	PROPN	obl:agent
+,	,	,	PUN	PUNCT	punct
+this	DT	this	DT0	DET	det
+Service	NN	service	NN1	NOUN	compound
+Agreement	NN	agreement	NN1	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+constitute	VV	constitute	VVI	VERB	ccomp
+the	DT	the	AT0	DET	det
+legal	JJ	legal	AJ0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+valid	JJ	valid	AJ0	ADJ	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+binding	VVG	bind	VVG	VERB	conj
+obligation	NN	obligation	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+Customer	NN	customer	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+enforceable	JJ	enforceable	AJ0	ADJ	acl
+in	IN	in	PRP	ADP	case
+accordance	NN	accordance	NN1	NOUN	obl
+with	IN	with	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+terms	NNS	term	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head>
+<s type="frag" transition="zero">
+<hi rend="bold">
+4.	LS	4.	CRD	X	dep
+Returns	NNS	return	NN2	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+Reversals	NNS	reversal	NN2	NOUN	conj
+</hi>
+</s>
+</head>
+<p>
+<s type="frag" transition="establishment">
+<hi rend="bold">
+a)	LS	a)	UNC	X	dep
+Returns	NNS	return	NN2	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+Reversals	NNS	reversal	NN2	NOUN	conj
+</hi>
+</s>
+</p>
+<p>
+<s type="decl" transition="smooth-shift">
+User	NN	user	NN1	NOUN	compound
+transactions	NNS	transaction	NN2	NOUN	nsubj
+debited	VVN	debit	VVN	VERB	acl
+from	IN	from	PRP	ADP	case
+bank	NN	bank	NN1	NOUN	compound
+accounts	NNS	account	NN2	NOUN	obl
+via	IN	via	PRP	ADP	case
+ACH	NP	ACH	NP0	PROPN	obl
+are	VBP	be	VBB	AUX	cop
+subject	JJ	subject	AJ0	ADJ	root
+to	IN	to	PRP	ADP	case
+returns	NNS	return	NN2	NOUN	obl
+(	(	(	PUL	PUNCT	punct
+e.g.	FW	e.g.	UNC	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+non-sufficient	JJ	non-sufficient	AJ0	ADJ	amod
+funds	NNS	fund	NN2	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+reversals	NNS	reversal	NN2	NOUN	conj
+from	IN	from	PRP	ADP	case
+chargebacks	NNS	chargeback	NN2	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+e.g.	FW	e.g.	UNC	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+unauthorized	JJ	unauthorized	AJ0	ADJ	amod
+activity	NN	activity	NN1	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+per	IN	per	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Electronic	NP	Electronic	NP0	ADJ	amod
+Fund	NP	Fund	NP0	PROPN	compound
+Transfer	NP	transfer	NP0	PROPN	compound
+Act	NP	Act	NP0	PROPN	obl
+(	(	(	PUL	PUNCT	punct
+15	CD	15	CRD	NUM	compound
+U.S.C.	NP	U.S.C.	NP0	PROPN	compound
+<date when="1693">
+1693	CD	1693	UNC	NUM	appos
+</date>
+et	CC	et	UNC	CCONJ	cc
+seq.	NN	seq.	NN1	NOUN	conj
+as	IN	as	CJS	SCONJ	mark
+may	MD	may	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux:pass
+amended	VVN	amend	VVN	VERB	acl
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+Regulation	NP	Regulation	NP0	PROPN	conj
+E	NP	E	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+NACHA	NP	NACHA	NP0	PROPN	compound
+guidelines	NNS	guideline	NN2	NOUN	conj
+(	(	(	PUL	PUNCT	punct
+collectively	RB	collectively	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+such	JJ	such	DT0	ADJ	amod
+returns	NNS	return	NN2	NOUN	nsubj
+and	CC	and	CJC	CCONJ	cc
+reversals	NNS	reversal	NN2	NOUN	conj
+are	VBP	be	VBB	AUX	cop
+<q>
+"	``	''	PUQ	PUNCT	punct
+Reversals	NPS	Reversal	NP0	PROPN	parataxis
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+The	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nsubj
+will	MD	will	VM0	AUX	aux
+work	VV	work	VVI	VERB	root
+to	TO	to	TO0	PART	mark
+protect	VV	protect	VVI	VERB	xcomp
+Customer	NN	customer	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+receiving	VVG	receive	VVG	VERB	amod
+Users	NNS	user	NN2	NOUN	obj
+from	IN	from	PRP	ADP	case
+unwarranted	JJ	unwarranted	AJ0	ADJ	amod
+Reversals	NNS	reversal	NN2	NOUN	obl
+;	:	;	PUN	PUNCT	punct
+however	RB	however	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+Customer	NN	customer	NN1	NOUN	nsubj
+acknowledges	VVZ	acknowledge	VVZ	VERB	parataxis
+and	CC	and	CJC	CCONJ	cc
+agrees	VVZ	agree	VVZ	VERB	conj
+that	IN/that	that	CJT	SCONJ	mark
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<list type="ordered">
+<item n="1">
+<s type="decl" transition="establishment">
+i)	LS	i)	UNC	X	dep
+Customer	NN	customer	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+liable	JJ	liable	AJ0	ADJ	root
+for	IN	for	PRP	ADP	case
+all	DT	all	DT0	DET	det
+User	NN	user	NN1	NOUN	compound
+Activity	NN	Activity	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+Reversals	NNS	reversal	NN2	NOUN	conj
+associated	VVN	associate	VVN	VERB	acl
+with	IN	with	PRP	ADP	case
+User	NP	User	NP0	PROPN	compound
+Activity	NP	Activity	NP0	PROPN	obl
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="2">
+<s type="decl" transition="rough-shift">
+ii)	LS	ii)	UNC	X	dep
+If	IN	if	CJS	SCONJ	mark
+Company	NP	Company	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+agent	NN	agent	NN1	NOUN	nsubj
+receives	VVZ	receive	VVZ	VERB	advcl
+a	DT	a	AT0	DET	det
+Reversal	NN	reversal	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nsubj
+may	MD	may	VM0	AUX	aux
+in	IN	in	PRP	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+sole	JJ	sole	AJ0	ADJ	amod
+discretion	NN	discretion	NN1	NOUN	obl
+charge	NN	charge	NN1	NOUN	root
+Customer	NN	customer	NN1	NOUN	iobj
+the	DT	the	AT0	DET	det
+full	JJ	full	AJ0	ADJ	amod
+amount	NN	amount	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Reversal	NN	reversal	NN1	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+<q>
+"	``	''	PUQ	PUNCT	punct
+Reversed	NP	reverse	NP0	VERB	amod
+Payment	NP	Payment	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+plus	CC	plus	PRP	CCONJ	cc
+an	DT	a	AT0	DET	det
+additional	JJ	additional	AJ0	ADJ	amod
+$	SYM	$	UNC	SYM	compound
+7	CD	7	CRD	NUM	nummod
+reversal	NN	reversal	NN1	NOUN	compound
+fee	NN	fee	NN1	NOUN	obj
+(	(	(	PUL	PUNCT	punct
+<q>
+"	``	''	PUQ	PUNCT	punct
+Reversal	NP	Reversal	NP0	PROPN	compound
+Fee	NP	Fee	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+and	CC	and	CJC	CCONJ	cc
+collectively	RB	collectively	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+Reversal	NP	Reversal	NP0	PROPN	compound
+Liability	NP	Liability	NP0	PROPN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="3">
+<s type="decl" transition="smooth-shift">
+iii)	LS	iii)	VVG	X	dep
+The	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nsubj
+has	VHZ	have	VHZ	VERB	root
+sole	JJ	sole	AJ0	ADJ	amod
+discretion	NN	discretion	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+determine	VV	determine	VVI	VERB	acl
+who	WP	who	PNQ	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+at	IN	at	PRP	ADP	case
+fault	NN	fault	NN1	NOUN	ccomp
+and	CC	and	CJC	CCONJ	cc
+liable	JJ	liable	AJ0	ADJ	conj
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Reversed	NP	reverse	NP0	VERB	amod
+Payment	NN	payment	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+Reversal	NP	Reversal	NP0	PROPN	compound
+Fee	NP	Fee	NP0	PROPN	conj
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="4">
+<s type="decl" transition="continue">
+iv)	LS	iv)	UNC	X	dep
+Customer	NN	customer	NN1	NOUN	nsubj
+authorizes	VVZ	authorize	VVZ	VERB	root
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	obj
+to	TO	to	TO0	PART	mark
+take	VV	take	VVI	VERB	xcomp
+any	DT	any	DT0	DET	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+following	VVG	follow	VVG	VERB	amod
+actions	NNS	action	NN2	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+in	IN	in	PRP	ADP	case
+any	DT	any	DT0	DET	det
+particular	JJ	particular	AJ0	ADJ	amod
+order	NN	order	NN1	NOUN	nmod
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="smooth-shift">
+(i)	LS	(i)	UNC	X	dep
+collect	VV	collect	VVB	VERB	root
+the	DT	the	AT0	DET	det
+unpaid	JJ	unpaid	AJ0	ADJ	amod
+portion	NN	portion	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Reversal	NP	Reversal	NP0	PROPN	compound
+Liability	NP	Liability	NP0	PROPN	nmod
+from	IN	from	PRP	ADP	case
+funds	NNS	fund	NN2	NOUN	obl
+sent	VVN	send	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+third	JJ	third	ORD	ADJ	amod
+party	NN	party	NN1	NOUN	compound
+escrow	NN	escrow	NN1	NOUN	compound
+account	NN	account	NN1	NOUN	obl
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="continue">
+(ii)	LS	(ii)	UNC	X	dep
+debit	VV	debit	VVB	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+bank	NN	bank	NN1	NOUN	compound
+account	NN	account	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+amount	NN	amount	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+unpaid	JJ	unpaid	AJ0	ADJ	amod
+portion	NN	portion	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Reversal	NP	Reversal	NP0	PROPN	compound
+Liability	NP	Liability	NP0	PROPN	nmod
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+(iv)	LS	(iv)	UNC	X	dep
+engage	VVP	engage	VVB	VERB	root
+in	IN	in	PRP	ADP	case
+collection	NN	collection	NN1	NOUN	compound
+efforts	NNS	effort	NN2	NOUN	obl
+to	TO	to	TO0	PART	mark
+recover	VV	recover	VVI	VERB	acl
+the	DT	the	AT0	DET	det
+unpaid	JJ	unpaid	AJ0	ADJ	amod
+portion	NN	portion	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Reversal	NP	Reversal	NP0	PROPN	compound
+Liability	NP	Liability	NP0	PROPN	nmod
+and	CC	and	CJC	CCONJ	dep
+/	SYM	/	UNC	SYM	cc
+or	CC	or	CJC	CCONJ	conj
+</s>
+<s type="imp" transition="zero">
+(v)	LS	(v)	UNC	X	dep
+take	VV	take	VVB	VERB	root
+legal	JJ	legal	AJ0	ADJ	amod
+action	NN	action	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+any	DT	any	DT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+action	NN	action	NN1	NOUN	obj
+under	IN	under	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Service	NP	Service	NP0	PROPN	compound
+Agreement	NP	Agreement	NP0	PROPN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+<hi rend="bold">
+5.	LS	5.	CRD	X	dep
+Term	NP	Term	NP0	PROPN	root
+and	CC	and	CJC	CCONJ	cc
+Survival	NN	Survival	NN1	NOUN	conj
+</hi>
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+a)	LS	a)	UNC	X	dep
+Subject	JJ	Subject	AJ0	ADJ	acl
+to	IN	to	PRP	ADP	case
+earlier	JJR	early	AJC	ADJ	amod
+termination	NN	termination	NN1	NOUN	obl
+as	IN	as	CJS	SCONJ	mark
+provided	VVN	provide	VVN	VERB	advcl
+below	RB	below	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+this	DT	this	DT0	DET	det
+Service	NN	service	NN1	NOUN	compound
+Agreement	NN	agreement	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+total	JJ	total	AJ0	ADJ	amod
+duration	NN	duration	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+Company	NP	Company	NP0	PROPN	nmod:poss
+'s	POS	's	POS	PART	case
+Offering	NN	offering	NN1	NOUN	nmod
+(	(	(	PUL	PUNCT	punct
+the	DT	the	AT0	DET	det
+<q>
+"	``	''	PUQ	PUNCT	punct
+Initial	JJ	initial	AJ0	ADJ	amod
+Term	NN	term	NN1	NOUN	appos
+"	''	''	PUQ	PUNCT	punct
+</q>
+)	)	)	PUR	PUNCT	punct
+unless	IN	unless	CJS	SCONJ	mark
+either	DT	either	DT0	DET	det
+party	NN	party	NN1	NOUN	nsubj
+requests	VVZ	request	VVZ	VERB	advcl
+termination	NN	termination	NN1	NOUN	obj
+at	IN	at	PRP	ADP	case
+least	JJS	least	AJS	ADJ	nmod
+30	CD	30	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	obl:npmod
+prior	RB	prior	PRP	ADV	advmod
+to	IN	to	PRP	ADP	fixed
+the	DT	the	AT0	DET	det
+end	NN	end	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+<w>
+then	RB	then	AV0	ADV	advmod
+-	HYPH	-	PUN	PUNCT	punct
+current	JJ	current	AJ0	ADJ	amod
+</w>
+term	NN	term	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+b)	LS	b)	UNC	X	dep
+Additionally	RB	additionally	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+either	DT	either	DT0	DET	det
+party	NN	party	NN1	NOUN	nsubj
+may	MD	may	VM0	AUX	aux
+terminate	VV	terminate	VVI	VERB	root
+this	DT	this	DT0	DET	det
+Service	NN	service	NN1	NOUN	compound
+Agreement	NP	Agreement	NP0	PROPN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+event	NN	event	NN1	NOUN	obl
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="zero">
+i)	LS	i)	VVG	X	dep
+The	DT	the	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+party	NN	party	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+material	JJ	material	AJ0	ADJ	amod
+breach	NN	breach	NN1	NOUN	root
+that	WDT	that	CJT	PRON	nsubj
+remains	VVZ	remain	VVZ	VERB	acl:relcl
+not	RB	not	XX0	PART	advmod
+cured	VVN	cure	VVN	VERB	xcomp
+and	CC	and	CJC	CCONJ	cc
+continues	VVZ	continue	VVZ	VERB	conj
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+period	NN	period	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+(A)	LS	(A)	AJ0	X	dep
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+case	NN	case	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+failure	NN	failure	NN1	NOUN	nmod
+involving	VVG	involve	VVG	VERB	acl
+the	DT	the	AT0	DET	det
+payment	NN	payment	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+any	DT	any	DT0	DET	det
+undisputed	JJ	undisputed	AJ0	ADJ	amod
+amount	NN	amount	NN1	NOUN	nmod
+due	JJ	due	AJ0	ADJ	acl
+hereunder	RB	hereunder	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+15	CD	15	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+(B)	LS	(B)	AJ0	X	dep
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+case	NN	case	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+any	DT	any	DT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+failure	NN	failure	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+30	CD	30	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	conj
+after	IN	after	PRP	SCONJ	mark
+the	DT	the	AT0	DET	det
+non	NN	non	NN1	NOUN	obl:npmod
+performing	VVG	perform	VVG	VERB	amod
+party	NN	party	NN1	NOUN	nsubj
+receives	VVZ	receive	VVZ	VERB	advcl
+notice	NN	notice	NN1	NOUN	obj
+from	IN	from	PRP	ADP	case
+the	DT	the	AT0	DET	det
+terminating	VVG	terminate	VVG	VERB	amod
+party	NN	party	NN1	NOUN	nmod
+specifying	VVG	specify	VVG	VERB	acl
+such	JJ	such	DT0	ADJ	amod
+failure	NN	failure	NN1	NOUN	obj
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="2">
+<s type="decl" transition="null">
+ii)	LS	ii)	VVG	X	dep
+Any	DT	any	DT0	DET	det
+statement	NN	statement	NN1	NOUN	nsubj
+,	,	,	PUN	PUNCT	punct
+representation	NN	representation	NN1	NOUN	conj
+or	CC	or	CJC	CCONJ	cc
+warranty	NN	warranty	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+party	NN	party	NN1	NOUN	nmod
+is	VBZ	be	VBZ	AUX	cop
+untrue	JJ	untrue	AJ0	ADJ	root
+or	CC	or	CJC	CCONJ	cc
+misleading	JJ	mislead	AJ0	ADJ	conj
+in	IN	in	PRP	ADP	case
+any	DT	any	DT0	DET	det
+material	JJ	material	AJ0	ADJ	amod
+respect	NN	respect	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+omits	VVZ	omit	VVZ	VERB	conj
+material	JJ	material	AJ0	ADJ	amod
+information	NN	information	NN1	NOUN	obj
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="3">
+<s type="other" transition="null">
+iii)	LS	iii)	VVG	X	dep
+The	DT	the	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+party	NN	party	NN1	NOUN	nsubj
+(A)	LS	(A)	UNC	X	dep
+voluntarily	RB	voluntarily	AV0	ADV	advmod
+or	CC	or	CJC	CCONJ	cc
+involuntarily	RB	involuntarily	AV0	ADV	conj
+is	VBZ	be	VBZ	AUX	cop
+subject	JJ	subject	AJ0	ADJ	root
+to	IN	to	PRP	ADP	case
+bankruptcy	NN	bankruptcy	NN1	NOUN	compound
+proceedings	NNS	proceeding	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+(B)	LS	(B)	UNC	X	dep
+applies	VVZ	apply	VVZ	VERB	conj
+for	IN	for	PRP	ADP	obl
+or	CC	or	CJC	CCONJ	cc
+consents	VVZ	consent	VVZ	VERB	conj
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+appointment	NN	appointment	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+receiver	NN	receiver	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+trustee	NN	trustee	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+custodian	NN	custodian	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+sequestrator	NN	sequestrator	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+similar	JJ	similar	AJ0	ADJ	amod
+official	NN	official	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+(C)	LS	(C)	UNC	X	dep
+makes	VVZ	make	VVZ	VERB	conj
+a	DT	a	AT0	DET	det
+general	JJ	general	AJ0	ADJ	amod
+assignment	NN	assignment	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+creditors	NNS	creditor	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+(D)	LS	(D)	AJ0	X	dep
+commences	VVZ	commence	VVZ	VERB	conj
+winding	NN	winding	NN1	NOUN	obj
+down	RB	down	AVP	ADV	advmod
+or	CC	or	CJC	CCONJ	cc
+liquidation	NN	liquidation	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+its	PP$	its	DPS	PRON	nmod:poss
+business	NN	business	NN1	NOUN	compound
+affairs	NNS	affair	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+(E)	LS	(E)	UNC	X	dep
+otherwise	RB	otherwise	AV0	ADV	advmod
+takes	VVZ	take	VVZ	VERB	conj
+corporate	JJ	corporate	AJ0	ADJ	amod
+action	NN	action	NN1	NOUN	obj
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+purpose	NN	purpose	NN1	NOUN	obl
+of	IN	of	PRF	SCONJ	mark
+effecting	VVG	effect	VVG	VERB	acl
+any	DT	any	DT0	DET	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+foregoing	NN	foregoing	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+(F)	LS	(F)	UNC	X	dep
+ceases	VVZ	cease	VVZ	VERB	conj
+operating	VVG	operate	VVG	VERB	xcomp
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+normal	JJ	normal	AJ0	ADJ	amod
+course	NN	course	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+business	NN	business	NN1	NOUN	nmod
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="4">
+<s type="decl" transition="null">
+iv)	LS	iv)	UNC	X	dep
+If	IN	if	CJS	SCONJ	mark
+any	DT	any	DT0	DET	det
+change	NN	change	NN1	NOUN	nsubj
+to	IN	to	PRP	ADP	nmod
+,	,	,	PUN	PUNCT	punct
+enactment	NN	enactment	NN1	NOUN	conj
+of	IN	of	PRF	ADP	nmod
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+change	NN	change	NN1	NOUN	conj
+in	IN	in	PRP	ADP	case
+interpretation	NN	interpretation	NN1	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+enforcement	NN	enforcement	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+any	DT	any	DT0	DET	det
+law	NN	law	NN1	NOUN	nmod
+occurs	VVZ	occur	VVZ	VERB	root
+that	WDT	that	CJT	PRON	nsubj
+would	MD	would	VM0	AUX	aux
+have	VH	have	VHI	VERB	acl:relcl
+a	DT	a	AT0	DET	det
+material	JJ	material	AJ0	ADJ	amod
+adverse	JJ	adverse	AJ0	ADJ	amod
+effect	NN	effect	NN1	NOUN	obj
+upon	IN	upon	PRP	ADP	case
+a	DT	a	AT0	DET	det
+party	NN	party	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+ability	NN	ability	NN1	NOUN	nmod
+to	TO	to	TO0	PART	mark
+perform	VV	perform	VVI	VERB	acl
+its	PP$	its	DPS	PRON	nmod:poss
+obligations	NNS	obligation	NN2	NOUN	obj
+under	IN	under	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Service	NP	Service	NP0	PROPN	compound
+Agreement	NP	Agreement	NP0	PROPN	nmod
+or	CC	or	CJC	CCONJ	cc
+a	DT	a	AT0	DET	det
+party	NN	party	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+<w>
+costs	NNS	cost	NN2	NOUN	conj
+/	SYM	/	UNC	SYM	cc
+revenues	NNS	revenue	NN2	NOUN	conj
+</w>
+with	IN	with	PRP	ADP	case
+respect	NN	respect	NN1	NOUN	nmod
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+services	NNS	service	NN2	NOUN	nmod
+under	IN	under	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Service	NP	Service	NP0	PROPN	compound
+Agreement	NP	Agreement	NP0	PROPN	nmod
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="5">
+<s type="frag" transition="establishment">
+v)	LS	v)	UNC	X	dep
+Upon	IN	upon	PRP	ADP	case
+direction	NN	direction	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+a	DT	a	AT0	DET	det
+party	NN	party	NN1	NOUN	nmod
+from	IN	from	PRP	ADP	case
+any	DT	any	DT0	DET	det
+regulatory	JJ	regulatory	AJ0	ADJ	amod
+authority	NN	authority	NN1	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+National	NP	National	NP0	ADJ	amod
+Automated	NP	Automated	NP0	ADJ	amod
+Clearing	NP	Clearing	NP0	PROPN	compound
+House	NP	House	NP0	PROPN	compound
+Association	NP	Association	NP0	PROPN	conj
+to	TO	to	TO0	PART	mark
+cease	VV	cease	VVI	VERB	acl
+or	CC	or	CJC	CCONJ	cc
+materially	RB	materially	AV0	ADV	advmod
+limit	VV	limit	VVB	VERB	conj
+the	DT	the	AT0	DET	det
+exercise	NN	exercise	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+performance	NN	performance	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+such	JJ	such	DT0	DET	det
+party	NN	party	NN1	NOUN	nmod:poss
+'s	POS	's	POS	PART	case
+rights	NNS	right	NN2	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+obligations	NNS	obligation	NN2	NOUN	conj
+under	IN	under	PRP	ADP	case
+this	DT	this	DT0	DET	det
+Service	NN	service	NN1	NOUN	compound
+Agreement	NP	Agreement	NP0	PROPN	nmod
+;	:	;	PUN	PUNCT	punct
+</s>
+</item>
+<item n="6">
+<s type="sub" transition="zero">
+vi)	LS	vi)	UNC	X	dep
+If	IN	if	CJS	SCONJ	mark
+there	EX	there	EX0	PRON	expl
+shall	MD	shall	VM0	AUX	aux
+have	VH	have	VHI	AUX	aux
+occurred	VVN	occur	VVN	VERB	root
+a	DT	a	AT0	DET	det
+material	JJ	material	AJ0	ADJ	amod
+adverse	JJ	adverse	AJ0	ADJ	amod
+change	NN	change	NN1	NOUN	nsubj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+financial	JJ	financial	AJ0	ADJ	amod
+condition	NN	condition	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+party	NN	party	NN1	NOUN	nmod
+;	:	;	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	dep
+</s>
+</item>
+<item n="7">
+<s type="frag" transition="null">
+vii)	LS	vii)	UNC	X	dep
+Upon	IN	upon	PRP	ADP	case
+a	DT	a	AT0	DET	det
+force	NN	force	NN1	NOUN	compound
+majeure	JJ	majeure	AJ0	ADJ	amod
+event	NN	event	NN1	NOUN	root
+that	WDT	that	CJT	PRON	nsubj
+materially	RB	materially	AV0	ADV	advmod
+prevents	VVZ	prevent	VVZ	VERB	acl:relcl
+or	CC	or	CJC	CCONJ	cc
+impedes	VVZ	imped	VVZ	VERB	conj
+a	DT	a	AT0	DET	det
+party	NN	party	NN1	NOUN	obj
+from	IN	from	PRP	SCONJ	mark
+performing	VVG	perform	VVG	VERB	xcomp
+its	PP$	its	DPS	PRON	nmod:poss
+obligations	NNS	obligation	NN2	NOUN	obj
+hereunder	RB	hereunder	AV0	ADV	advmod
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+period	NN	period	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+more	RBR	more	DT0	ADV	advmod
+than	IN	than	CJS	ADP	fixed
+10	CD	10	CRD	NUM	nummod
+business	NN	business	NN1	NOUN	compound
+days	NNS	day	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<p>
+<s type="frag" transition="null">
+StartEngine	NP	StartEngine	NP0	PROPN	compound
+Crowdfunding	NP	Crowdfunding	NP0	PROPN	compound
+,	,	,	PUN	PUNCT	punct
+Inc.	NP	Inc.	NP0	PROPN	root
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+By	IN	by	PRP	ADP	case
+:	:	:	PUN	PUNCT	punct
+/s/	LS	/s/	VVB	X	dep
+Dawn	NP	Dawn	NP0	PROPN	root
+Dickson	NP	Dickson	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+Customer	NN	customer	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+<w>
+By	IN	by	PRP	ADP	case
+:	:	:	PUN	PUNCT	punct
+Dawn	NP	Dawn	NP0	PROPN	root
+</w>
+Dickson	NP	Dickson	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+CEO	NN	CEO	NN1	NOUN	appos
+and	CC	and	CJC	CCONJ	cc
+Founder	NN	founder	NN1	NOUN	appos
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+Date	NN	Date	NN1	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+<date when="2019-08-19">
+08/19/2019	CD	08/19/2019	CRD	NUM	root
+</date>
+</s>
+</p>
+<p>
+<s type="frag" transition="null">
+/s/	LS	/s/	VVB	X	dep
+Howard	NP	Howard	NP0	PROPN	dep
+Marks	NP	Marks	NP0	PROPN	flat
+Howard	NP	Howard	NP0	PROPN	dep
+Marks	NP	Marks	NP0	PROPN	flat
+CEO	NN	CEO	NN1	NOUN	root
+</s>
+</p>
+</text>

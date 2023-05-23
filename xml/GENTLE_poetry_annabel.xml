@@ -1,0 +1,447 @@
+<text id="GENTLE_poetry_annabel" author="Edgar Allan Poe" dateCollected="2022-11-12" dateCreated="2000-01-01" dateModified="2000-01-01"  shortTitle="annabel" sourceURL="https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe/Volume_2/Annabel_Lee" speakerCount="0" speakerList="none" title="Annabel Lee" type="poetry">
+<head rend="caps">
+<s type="frag" transition="establishment">
+ANNABEL	NP	Annabel	NP0	PROPN	root
+LEE	NP	Lee	NP0	PROPN	flat
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="establishment">
+<l n="1"/>
+IT	PP	it	PNP	PRON	expl
+was	VBD	be	VBD	AUX	cop
+many	JJ	many	DT0	ADJ	amod
+and	CC	and	CJC	CCONJ	cc
+many	JJ	many	DT0	ADJ	conj
+a	DT	a	AT0	DET	det
+year	NN	year	NN1	NOUN	obl:tmod
+ago	RB	ago	AV0	ADV	root
+,	,	,	PUN	PUNCT	punct
+<l n="2"/>
+In	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+kingdom	NN	kingdom	NN1	NOUN	obl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+<l n="3"/>
+That	IN/that	that	DT0	SCONJ	mark
+a	DT	a	AT0	DET	det
+maiden	NN	maiden	NN1	NOUN	nsubj
+there	RB	there	AV0	ADV	advmod
+lived	VVD	live	VVD	VERB	csubj
+whom	WP	who	PNQ	PRON	obj
+you	PP	you	PNP	PRON	nsubj
+may	MD	may	VM0	AUX	aux
+know	VV	know	VVI	VERB	acl:relcl
+<l n="4"/>
+By	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+name	NN	name	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+ANNABEL	NP	Annabel	NP0	PROPN	nmod
+LEE	NP	Lee	NP0	PROPN	flat
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+<l n="5"/>
+And	CC	and	CJC	CCONJ	cc
+this	DT	this	DT0	DET	det
+maiden	NN	maiden	NN1	NOUN	dislocated
+she	PP	she	PNP	PRON	nsubj
+lived	VVD	live	VVD	VERB	root
+with	IN	with	PRP	ADP	case
+no	DT	no	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+thought	NN	thought	NN1	NOUN	obl
+<l n="6"/>
+Than	IN	than	CJS	SCONJ	mark
+to	TO	to	TO0	PART	mark
+love	VV	love	VVI	VERB	acl
+and	CC	and	CJC	CCONJ	cc
+be	VB	be	VBI	AUX	aux:pass
+loved	VVN	love	VVN	VERB	conj
+by	IN	by	PRP	ADP	case
+me	PP	I	PNP	PRON	obl:agent
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="smooth-shift">
+<l n="7"/>
+<hi rend="italic">
+I	PP	I	PNP	PRON	nsubj
+</hi>
+was	VBD	be	VBD	AUX	cop
+a	DT	a	AT0	DET	det
+child	NN	child	NN1	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+<hi rend="italic">
+she	PP	she	PNP	PRON	nsubj
+</hi>
+was	VBD	be	VBD	AUX	cop
+a	DT	a	AT0	DET	det
+child	NN	child	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+<l n="8"/>
+In	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+kingdom	NN	kingdom	NN1	NOUN	obl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+<l n="9"/>
+But	CC	but	CJC	CCONJ	cc
+we	PP	we	PNP	PRON	nsubj
+loved	VVD	love	VVD	VERB	root
+with	IN	with	PRP	ADP	case
+a	DT	a	AT0	DET	det
+love	NN	love	NN1	NOUN	obl
+that	WDT	that	CJT	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+more	JJR	more	AJC	ADJ	acl:relcl
+than	IN	than	CJS	ADP	case
+love	NN	love	NN1	NOUN	obl
+—	:	—	UNC	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<l n="10"/>
+I	PP	I	PNP	PRON	root
+and	CC	and	CJC	CCONJ	cc
+my	PP$	my	DPS	PRON	nmod:poss
+ANNABEL	NP	Annabel	NP0	PROPN	conj
+LEE	NP	Lee	NP0	PROPN	flat
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="establishment">
+<l n="11"/>
+With	IN	with	PRP	ADP	case
+a	DT	a	AT0	DET	det
+love	NN	love	NN1	NOUN	root
+that	WDT	that	CJT	PRON	obj
+the	DT	the	AT0	DET	det
+winged	JJ	winged	AJ0	ADJ	amod
+seraphs	NNS	seraph	NN2	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+heaven	NN	heaven	NN1	NOUN	nmod
+<l n="12"/>
+Coveted	VVD	covet	VVD	VERB	acl:relcl
+her	PP	she	PNP	PRON	iobj
+and	CC	and	CJC	CCONJ	cc
+me	PP	I	PNP	PRON	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="smooth-shift">
+<l n="13"/>
+And	CC	and	CJC	CCONJ	cc
+this	DT	this	DT0	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+the	DT	the	AT0	DET	det
+reason	NN	reason	NN1	NOUN	root
+that	IN/that	that	CJT	SCONJ	mark
+,	,	,	PUN	PUNCT	punct
+long	RB	long	AV0	ADV	advmod
+ago	RB	ago	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+<l n="14"/>
+In	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+kingdom	NN	kingdom	NN1	NOUN	obl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+<l n="15"/>
+A	DT	a	AT0	DET	det
+wind	NN	wind	NN1	NOUN	nsubj
+blew	VVD	blow	VVD	VERB	acl
+out	IN	out	PRP	ADP	case
+of	IN	of	PRF	ADP	fixed
+a	DT	a	AT0	DET	det
+cloud	NN	cloud	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+chilling	VVG	chill	VVG	VERB	advcl
+<l n="16"/>
+My	PP$	my	DPS	PRON	nmod:poss
+beautiful	JJ	beautiful	AJ0	ADJ	amod
+ANNABEL	NP	Annabel	NP0	PROPN	obj
+LEE	NP	Lee	NP0	PROPN	flat
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+<l n="17"/>
+So	IN	so	PRP	ADV	advmod
+that	IN/that	that	CJT	ADP	fixed
+her	PP$	her	DPS	PRON	nmod:poss
+highborn	JJ	highborn	AJ0	ADJ	amod
+kinsman	NN	kinsman	NN1	NOUN	nsubj
+came	VVD	come	VVD	VERB	root
+<l n="18"/>
+And	CC	and	CJC	CCONJ	cc
+bore	VVD	bear	VVD	VERB	conj
+her	PP	she	PNP	PRON	obj
+away	RB	away	AV0	ADV	advmod
+from	IN	from	PRP	ADP	case
+me	PP	I	PNP	PRON	obl
+,	,	,	PUN	PUNCT	punct
+<l n="19"/>
+To	TO	to	TO0	PART	mark
+shut	VV	shut	VVI	VERB	advcl
+her	PP	she	PNP	PRON	obj
+up	RP	up	AVP	ADP	compound:prt
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+sepulchre	NN	sepulchre	NN1	NOUN	obl
+<l n="20"/>
+In	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+kingdom	NN	kingdom	NN1	NOUN	nmod
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="continue">
+<l n="21"/>
+The	DT	the	AT0	DET	det
+angels	NNS	angel	NN2	NOUN	nsubj
+,	,	,	PUN	PUNCT	punct
+not	RB	not	XX0	PART	advmod
+half	RB	half	AV0	ADV	advmod
+so	RB	so	AV0	ADV	advmod
+happy	JJ	happy	AJ0	ADJ	acl
+in	IN	in	PRP	ADP	case
+heaven	NN	heaven	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+<l n="22"/>
+Went	VVD	went	VVD	VERB	root
+envying	VVG	envy	VVG	VERB	xcomp
+her	PP	she	PNP	PRON	obj
+and	CC	and	CJC	CCONJ	cc
+me	PP	I	PNP	PRON	conj
+—	:	—	UNC	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+<l n="23"/>
+Yes	UH	yes	ITJ	INTJ	discourse
+!	SENT	!	PUN	PUNCT	punct
+—	:	—	AJ0	PUNCT	punct
+that	DT	that	CJT	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+the	DT	the	AT0	DET	det
+reason	NN	reason	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+as	IN	as	CJS	SCONJ	mark
+all	DT	all	DT0	DET	det
+men	NNS	man	NN2	NOUN	nsubj
+know	VVP	know	VVB	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+<l n="24"/>
+In	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+kingdom	NN	kingdom	NN1	NOUN	obl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	nmod
+)	)	)	PUR	PUNCT	punct
+<l n="25"/>
+That	IN/that	that	CJT	SCONJ	mark
+the	DT	the	AT0	DET	det
+wind	NN	wind	NN1	NOUN	nsubj
+came	VVD	come	VVD	VERB	acl
+out	IN	out	PRP	ADP	case
+of	IN	of	PRF	ADP	fixed
+the	DT	the	AT0	DET	det
+cloud	NN	cloud	NN1	NOUN	obl
+by	IN	by	PRP	ADP	case
+night	NN	night	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+<l n="26"/>
+Chilling	VVG	chill	VVG	VERB	advcl
+and	CC	and	CJC	CCONJ	cc
+killing	VVG	kill	VVG	VERB	conj
+my	PP$	my	DPS	PRON	nmod:poss
+ANNABEL	NP	Annabel	NP0	PROPN	obj
+LEE	NP	Lee	NP0	PROPN	flat
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="zero">
+<l n="27"/>
+But	CC	but	CJC	CCONJ	cc
+our	PP$	our	DPS	PRON	nmod:poss
+love	NN	love	NN1	NOUN	dislocated
+it	PP	it	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+stronger	JJR	strong	AJC	ADJ	root
+by	IN	by	PRP	ADP	case
+far	RB	far	AV0	ADV	obl
+than	IN	than	CJS	ADP	case
+the	DT	the	AT0	DET	det
+love	NN	love	NN1	NOUN	obl
+<l n="28"/>
+Of	IN	of	PRF	ADP	case
+those	DT	this	DT0	PRON	nmod
+who	WP	who	PNQ	PRON	nsubj
+were	VBD	be	VBD	AUX	cop
+older	JJR	old	AJC	ADJ	acl:relcl
+than	IN	than	CJS	ADP	case
+we	PP	we	PNP	PRON	obl
+—	:	—	UNC	PUNCT	punct
+</s>
+<s type="frag" transition="establishment">
+<l n="29"/>
+Of	IN	of	PRF	ADP	case
+many	JJ	many	DT0	ADJ	root
+far	RB	far	AV0	ADV	advmod
+wiser	JJR	wise	AJC	ADJ	amod
+than	IN	than	CJS	ADP	case
+we	PP	we	PNP	PRON	obl
+—	:	—	UNC	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+<l n="30"/>
+And	CC	and	CJC	CCONJ	cc
+neither	CC	neither	AV0	CCONJ	cc:preconj
+the	DT	the	AT0	DET	det
+angels	NNS	angel	NN2	NOUN	nsubj
+in	IN	in	PRP	ADP	case
+heaven	NN	heaven	NN1	NOUN	nmod
+above	RB	above	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+<l n="31"/>
+Nor	CC	nor	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+demons	NNS	demon	NN2	NOUN	conj
+down	RB	down	AVP	ADV	advmod
+under	IN	under	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+<l n="32"/>
+Can	MD	can	VM0	AUX	aux
+ever	RB	ever	AV0	ADV	advmod
+dissever	VV	dissever	VVI	VERB	root
+my	PP$	my	DPS	PRON	nmod:poss
+soul	NN	soul	NN1	NOUN	obj
+from	IN	from	PRP	ADP	case
+the	DT	the	AT0	DET	det
+soul	NN	soul	NN1	NOUN	obl
+<l n="33"/>
+Of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+beautiful	JJ	beautiful	AJ0	ADJ	amod
+ANNABEL	NP	Annabel	NP0	PROPN	nmod
+LEE	NP	Lee	NP0	PROPN	flat
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+<l n="34"/>
+For	IN	for	PRP	SCONJ	mark
+the	DT	the	AT0	DET	det
+moon	NN	moon	NN1	NOUN	nsubj
+never	RB	never	AV0	ADV	advmod
+beams	VVZ	beam	VVZ	VERB	root
+,	,	,	PUN	PUNCT	punct
+without	IN	without	PRP	SCONJ	mark
+bringing	VVG	bring	VVG	VERB	advcl
+me	PP	I	PNP	PRON	iobj
+dreams	NNS	dream	NN2	NOUN	obj
+<l n="35"/>
+Of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+beautiful	JJ	beautiful	AJ0	ADJ	amod
+ANNABEL	NP	Annabel	NP0	PROPN	nmod
+LEE	NP	Lee	NP0	PROPN	flat
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+<l n="36"/>
+And	CC	and	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+stars	NNS	star	NN2	NOUN	nsubj
+never	RB	never	AV0	ADV	advmod
+rise	VVP	rise	VVB	VERB	root
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+I	PP	I	PNP	PRON	nsubj
+feel	VVP	feel	VVB	VERB	conj
+the	DT	the	AT0	DET	det
+bright	JJ	bright	AJ0	ADJ	amod
+eyes	NNS	eye	NN2	NOUN	obj
+<l n="37"/>
+Of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+beautiful	JJ	beautiful	AJ0	ADJ	amod
+ANNABEL	NP	Annabel	NP0	PROPN	nmod
+LEE	NP	Lee	NP0	PROPN	flat
+;	:	;	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+<l n="38"/>
+And	CC	and	CJC	CCONJ	cc
+so	RB	so	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+all	RB	all	DT0	DET	det:predet
+the	DT	the	AT0	DET	det
+night	NN	night	NN1	NOUN	compound
+-	:	-	PUN	PUNCT	punct
+tide	NN	tide	NN1	NOUN	obl:tmod
+,	,	,	PUN	PUNCT	punct
+I	PP	I	PNP	PRON	nsubj
+lie	VVP	lie	VVB	VERB	root
+down	RB	down	AVP	ADV	advmod
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+side	NN	side	NN1	NOUN	obl
+<l n="39"/>
+Of	IN	of	PRF	ADP	case
+my	PP$	my	DPS	PRON	nmod:poss
+<w>
+darling	NN	darling	NN1	NOUN	nmod
+—	:	—	UNC	PUNCT	punct
+my	PP$	my	DPS	PRON	nmod:poss
+</w>
+<w>
+darling	NN	darling	NN1	NOUN	appos
+—	:	—	UNC	PUNCT	punct
+my	PP$	my	DPS	PRON	nmod:poss
+</w>
+life	NN	life	NN1	NOUN	appos
+and	CC	and	CJC	CCONJ	cc
+my	PP$	my	DPS	PRON	nmod:poss
+bride	NN	bride	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+<l n="40"/>
+In	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sepulchre	NN	sepulchre	NN1	NOUN	obl
+there	RB	there	AV0	ADV	advmod
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sea	NN	sea	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+<l n="41"/>
+In	IN	in	PRP	ADP	case
+her	PP$	her	DPS	PRON	nmod:poss
+tomb	NN	tomb	NN1	NOUN	obl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sounding	VVG	sound	VVG	VERB	amod
+sea	NN	sea	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+</text>

@@ -1,0 +1,850 @@
+<text id="GENTLE_medical_transplant" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="transplant" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder" speakerCount="0" speakerList="none" title="Posttransplant Lymphoproliferative Disorder" type="medical">
+<head rend="bold red">
+<s type="frag" transition="establishment">
+Description	NN	description	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Posttransplant	JJ	posttransplant	AJ0	ADJ	compound
+lymphoproliferative	JJ	lymphoproliferative	AJ0	ADJ	compound
+disorder	NN	disorder	NN1	NOUN	root
+,	,	,	PUN	PUNCT	punct
+chronic	JJ	chronic	AJ0	ADJ	amod
+renal	JJ	renal	AJ0	ADJ	amod
+insufficiency	NN	insufficiency	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+squamous	JJ	squamous	AJ0	ADJ	amod
+cell	NN	cell	NN1	NOUN	compound
+carcinoma	NN	carcinoma	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+skin	NN	skin	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+anemia	NN	anemia	NN1	NOUN	conj
+secondary	JJ	secondary	AJ0	ADJ	amod
+to	IN	to	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+renal	JJ	renal	AJ0	ADJ	amod
+insufficiency	NN	insufficiency	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+chemotherapy	NN	chemotherapy	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+hypertension	NN	hypertension	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+here	RB	here	AV0	ADV	root
+for	IN	for	PRP	ADP	case
+followup	NN	followup	NN1	NOUN	compound
+visit	NN	visit	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+chemotherapy	NN	chemotherapy	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="zero">
+CHIEF	JJ	chief	AJ0	ADJ	amod
+COMPLAINT	NN	complaint	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+here	RB	here	AV0	ADV	root
+for	IN	for	PRP	ADP	case
+followup	NN	followup	NN1	NOUN	compound
+visit	NN	visit	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+chemotherapy	NN	chemotherapy	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+DIAGNOSES	NN	diagnosis	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+1.	LS	1.	CRD	X	dep
+Posttransplant	JJ	posttransplant	AJ0	ADJ	compound
+lymphoproliferative	JJ	lymphoproliferative	AJ0	ADJ	compound
+disorder	NN	disorder	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="2">
+<s type="frag" transition="null">
+2.	LS	2.	CRD	X	dep
+Chronic	JJ	chronic	AJ0	ADJ	amod
+renal	JJ	renal	AJ0	ADJ	amod
+insufficiency	NN	insufficiency	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="3">
+<s type="frag" transition="null">
+3.	LS	3.	CRD	X	dep
+Squamous	JJ	Squamous	AJ0	ADJ	amod
+cell	NN	cell	NN1	NOUN	compound
+carcinoma	NN	carcinoma	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+skin	NN	skin	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="4">
+<s type="frag" transition="null">
+4.	LS	4.	CRD	X	dep
+Anemia	NN	anemia	NN1	NOUN	root
+secondary	JJ	secondary	AJ0	ADJ	amod
+to	IN	to	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+renal	JJ	renal	AJ0	ADJ	amod
+insufficiency	NN	insufficiency	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+chemotherapy	NN	chemotherapy	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="5">
+<s type="frag" transition="null">
+5.	LS	5.	CRD	X	dep
+Hypertension	NN	hypertension	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+HISTORY	NN	history	NN1	NOUN	root
+OF	IN	of	PRF	ADP	case
+PRESENT	JJ	present	AJ0	ADJ	amod
+ILLNESS	NN	illness	NN1	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+A	DT	a	AT0	DET	det
+<w>
+51	CD	51	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+year	NN	year	NN1	NOUN	obl:tmod
+-	:	-	PUN	PUNCT	punct
+old	JJ	old	AJ0	ADJ	amod
+</w>
+white	JJ	white	AJ0	ADJ	amod
+male	NN	male	NN1	NOUN	root
+diagnosed	VVN	diagnose	VVN	VERB	acl
+with	IN	with	PRP	ADP	case
+PTLD	NP	PTLD	NP0	PROPN	obl
+in	IN	in	PRP	ADP	case
+latter	JJ	latter	DT0	ADJ	amod
+half	NN	half	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+<date when="2007">
+2007	CD	2007	CRD	NUM	nmod
+</date>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+He	PP	he	PNP	PRON	nsubj
+presented	VVD	present	VVD	VERB	root
+with	IN	with	PRP	ADP	case
+symptoms	NNS	symptom	NN2	NOUN	obl
+of	IN	of	PRF	ADP	case
+increasing	VVG	increase	VVG	VERB	amod
+adenopathy	NN	adenopathy	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+abdominal	JJ	abdominal	AJ0	ADJ	amod
+pain	NN	pain	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+weight	NN	weight	NN1	NOUN	compound
+loss	NN	loss	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+anorexia	NN	anorexia	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+did	VVD	do	VDD	AUX	aux
+not	RB	not	XX0	PART	advmod
+seek	VV	seek	VVI	VERB	root
+medical	JJ	medical	AJ0	ADJ	amod
+attention	NN	attention	NN1	NOUN	obj
+immediately	RB	immediately	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+finally	RB	finally	AV0	ADV	advmod
+hospitalized	VVN	hospitalize	VVN	VERB	root
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+renal	JJ	renal	AJ0	ADJ	amod
+transplant	NN	transplant	NN1	NOUN	compound
+service	NN	service	NN1	NOUN	obl:agent
+and	CC	and	CJC	CCONJ	cc
+underwent	VVD	undergo	VVD	VERB	conj
+a	DT	a	AT0	DET	det
+lymph	JJ	lymph	AJ0	ADJ	amod
+node	NN	node	NN1	NOUN	compound
+biopsy	NN	biopsy	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+groin	NN	groin	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+showed	VVD	show	VVD	VERB	acl:relcl
+diagnosis	NN	diagnosis	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+large	JJ	large	AJ0	ADJ	amod
+cell	NN	cell	NN1	NOUN	compound
+lymphoma	NN	lymphoma	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+discussed	VVN	discuss	VVN	VERB	root
+at	IN	at	PRP	ADP	case
+the	DT	the	AT0	DET	det
+hematopathology	NN	hematopathology	NN1	NOUN	compound
+conference	NN	conference	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Chemotherapy	NN	chemotherapy	NN1	NOUN	nsubj:pass
+with	IN	with	PRP	ADP	case
+rituximab	NN	rituximab	NN1	NOUN	nmod
+plus	CC	plus	PRP	CCONJ	cc
+cyclophosphamide	NN	cyclophosphamide	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+daunorubicin	NN	daunorubicin	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+vincristine	NN	vincristine	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+prednisone	NN	prednisone	NN1	NOUN	conj
+was	VBD	be	VBD	AUX	aux:pass
+started	VVN	start	VVN	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+First	JJ	first	ORD	ADJ	amod
+cycle	NN	cycle	NN1	NOUN	nsubj:pass
+of	IN	of	PRF	ADP	case
+chemotherapy	NN	chemotherapy	NN1	NOUN	nmod
+was	VBD	be	VBD	AUX	aux:pass
+complicated	VVN	complicate	VVN	VERB	root
+by	IN	by	PRP	ADP	case
+sepsis	NN	sepsis	NN1	NOUN	obl:agent
+despite	IN	despite	PRP	ADP	case
+growth	NN	growth	NN1	NOUN	compound
+factor	NN	factor	NN1	NOUN	compound
+support	NN	support	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+He	PP	he	PNP	PRON	nsubj
+also	RB	also	AV0	ADV	advmod
+appeared	VVD	appear	VVD	VERB	root
+to	TO	to	TO0	PART	mark
+have	VH	have	VHI	AUX	aux
+become	VVN	become	VVN	VERB	xcomp
+disoriented	JJ	disoriented	AJ0	ADJ	xcomp
+either	CC	either	AV0	CCONJ	cc:preconj
+secondary	JJ	secondary	AJ0	ADJ	advmod
+to	IN	to	PRP	ADP	case
+sepsis	NN	sepsis	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+steroid	NN	steroid	NN1	NOUN	compound
+therapy	NN	therapy	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="smooth-shift">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+has	VHZ	have	VHZ	AUX	aux
+received	VVN	receive	VVN	VERB	root
+5	CD	5	CRD	NUM	nummod
+cycles	NNS	cycle	NN2	NOUN	obj
+of	IN	of	PRF	ADP	case
+chemotherapy	NN	chemotherapy	NN1	NOUN	nmod
+to	IN	to	PRP	ADP	case
+date	NN	date	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+did	VVD	do	VDD	AUX	aux
+not	RB	not	XX0	PART	advmod
+keep	VV	keep	VVI	VERB	root
+his	PP$	his	DPS	PRON	nmod:poss
+appointment	NN	appointment	NN1	NOUN	obj
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+PET	NP	PET	NP0	PROPN	compound
+scan	NN	scan	NN1	NOUN	nmod
+after	IN	after	PRP	ADP	case
+3	CD	3	CRD	NUM	nummod
+cycles	NNS	cycle	NN2	NOUN	obl
+because	IN	because	CJS	SCONJ	mark
+he	PP	he	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	aux
+not	RB	not	XX0	PART	advmod
+feeling	VVG	feel	VVG	VERB	advcl
+well	JJ	well	AJ0	ADJ	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+His	PP$	his	DPS	PRON	nmod:poss
+therapy	NN	therapy	NN1	NOUN	nsubj:pass
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux:pass
+interrupted	VVN	interrupt	VVN	VERB	root
+for	IN	for	PRP	ADP	case
+infection	NN	infection	NN1	NOUN	obl
+related	VVN	relate	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+squamous	JJ	squamous	AJ0	ADJ	amod
+cell	NN	cell	NN1	NOUN	compound
+cancer	NN	cancer	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+skin	NN	skin	NN1	NOUN	compound
+surgery	NN	surgery	NN1	NOUN	conj
+as	RB	as	CJS	ADV	cc
+well	RB	well	AV0	ADV	fixed
+as	IN	as	CJS	ADP	fixed
+complaints	NNS	complaint	NN2	NOUN	conj
+of	IN	of	PRF	ADP	case
+chest	NN	chest	NN1	NOUN	compound
+infection	NN	infection	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="continue">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+here	RB	here	AV0	ADV	root
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sixth	JJ	sixth	ORD	ADJ	amod
+and	CC	and	CJC	CCONJ	cc
+final	JJ	final	AJ0	ADJ	conj
+cycle	NN	cycle	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+chemotherapy	NN	chemotherapy	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+states	VVZ	state	VVZ	VERB	root
+he	PP	he	PNP	PRON	nsubj
+feels	VVZ	feel	VVZ	VERB	ccomp
+well	JJ	well	AJ0	ADJ	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+denies	VVZ	deny	VVZ	VERB	root
+any	DT	any	DT0	DET	det
+nausea	NN	nausea	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+vomiting	NN	vomiting	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+cough	NN	cough	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+shortness	NN	shortness	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+breath	NN	breath	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+chest	NN	chest	NN1	NOUN	compound
+pain	NN	pain	NN1	NOUN	conj
+or	CC	or	CJC	CCONJ	cc
+fatigue	NN	fatigue	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+denies	VVZ	deny	VVZ	VERB	root
+any	DT	any	DT0	DET	det
+tingling	NN	tingling	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+numbness	NN	numbness	NN1	NOUN	conj
+in	IN	in	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+fingers	NNS	finger	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Review	NN	review	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+systems	NNS	system	NN2	NOUN	nmod
+is	VBZ	be	VBZ	AUX	cop
+otherwise	RB	otherwise	AV0	ADV	advmod
+entirely	RB	entirely	AV0	ADV	advmod
+negative	JJ	negative	AJ0	ADJ	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+Performance	NN	performance	NN1	NOUN	compound
+status	NN	status	NN1	NOUN	nsubj
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+ECOG	NP	ECOG	NP0	PROPN	compound
+scale	NN	scale	NN1	NOUN	nmod
+is	VBZ	be	VBZ	AUX	cop
+1	CD	1	CRD	NUM	root
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+PHYSICAL	JJ	physical	AJ0	ADJ	amod
+EXAMINATION	NN	examination	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+<hi rend="caps">
+VITAL	JJ	vital	AJ0	ADJ	amod
+SIGNS	NNS	sign	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+afebrile	JJ	afebrile	AJ0	ADJ	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Blood	NN	blood	NN1	NOUN	compound
+pressure	NN	pressure	NN1	NOUN	nsubj
+<w>
+161	CD	161	CRD	NUM	root
+/	SYM	/	UNC	PUNCT	punct
+80	CD	80	CRD	NUM	dep
+</w>
+,	,	,	PUN	PUNCT	punct
+pulse	NN	pulse	NN1	NOUN	nsubj
+65	CD	65	CRD	NUM	conj
+,	,	,	PUN	PUNCT	punct
+weight	NN	weight	NN1	NOUN	nsubj
+71.5	CD	71.5	CRD	NUM	nummod
+kg	NN	kilogram	NN0	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+essentially	RB	essentially	AV0	ADV	advmod
+unchanged	JJ	unchanged	AJ0	ADJ	acl:relcl
+from	IN	from	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+prior	JJ	prior	AJ0	ADJ	amod
+visit	NN	visit	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+There	EX	there	EX0	PRON	expl
+is	VBZ	be	VBZ	VERB	root
+mild	JJ	mild	AJ0	ADJ	amod
+pallor	NN	pallor	NN1	NOUN	nsubj
+noted	VVN	note	VVN	VERB	acl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+There	EX	there	EX0	PRON	expl
+is	VBZ	be	VBZ	VERB	root
+no	DT	no	AT0	DET	det
+icterus	NN	icterus	NN1	NOUN	nsubj
+,	,	,	PUN	PUNCT	punct
+adenopathy	NN	adenopathy	NN1	NOUN	conj
+or	CC	or	CJC	CCONJ	cc
+petechiae	NN	petechiae	NN1	NOUN	conj
+noted	VVN	note	VVN	VERB	acl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<hi rend="caps">
+CHEST	NN	chest	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+Clear	JJ	clear	AJ0	ADJ	dep
+to	IN	to	PRP	ADP	case
+auscultation	NN	auscultation	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="caps">
+CARDIOVASCULAR	JJ	cardiovascular	AJ0	ADJ	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+S1	NN	S1	NN1	NOUN	nsubj
+and	CC	and	CJC	CCONJ	cc
+S2	NN	S2	NN1	NOUN	conj
+normal	JJ	normal	AJ0	ADJ	dep
+with	IN	with	PRP	ADP	case
+regular	JJ	regular	AJ0	ADJ	amod
+rate	NN	rate	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+rhythm	NN	rhythm	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Systolic	JJ	systolic	AJ0	ADJ	amod
+flow	NN	flow	NN1	NOUN	compound
+murmur	NN	murmur	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+best	RBS	well	AV0	ADV	advmod
+heard	VVN	hear	VVN	VERB	root
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+pulmonary	JJ	pulmonary	AJ0	ADJ	amod
+area	NN	area	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<hi rend="caps">
+ABDOMEN	NN	abdomen	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+Soft	JJ	soft	AJ0	ADJ	dep
+and	CC	and	CJC	CCONJ	cc
+nontender	JJ	nontender	AJ0	ADJ	conj
+with	IN	with	PRP	ADP	case
+no	DT	no	AT0	DET	det
+organomegaly	NN	organomegaly	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Renal	JJ	renal	AJ0	ADJ	amod
+transplant	NN	transplant	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+noted	VVN	note	VVN	VERB	root
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+lower	JJ	low	AJ0	ADJ	amod
+quadrant	NN	quadrant	NN1	NOUN	obl
+with	IN	with	PRP	SCONJ	mark
+a	DT	a	AT0	DET	det
+scar	NN	scar	NN1	NOUN	nsubj
+present	JJ	present	AJ0	ADJ	advcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+<hi rend="caps">
+EXTREMITIES	NNS	extremity	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+Reveal	VV	reveal	VVB	VERB	dep
+no	DT	no	AT0	DET	det
+edema	NN	edema	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+LABORATORY	NN	laboratory	NN1	NOUN	compound
+DATA	NNS	data	NN0	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+CBC	NP	CBC	NP0	PROPN	nsubj
+from	IN	from	PRP	ADP	case
+today	NN	today	NN1	NOUN	nmod
+shows	VVZ	show	VVZ	VERB	root
+white	JJ	white	AJ0	ADJ	amod
+count	NN	count	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+9.6	CD	9.6	CRD	NUM	nmod
+with	IN	with	PRP	ADP	case
+a	DT	a	AT0	DET	det
+normal	JJ	normal	AJ0	ADJ	amod
+differential	NN	differential	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+ANC	NP	ANC	NP0	PROPN	conj
+of	IN	of	PRF	ADP	case
+7400	CD	7400	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+hemoglobin	NN	hemoglobin	NN1	NOUN	nsubj
+8.9	CD	8.9	CRD	NUM	conj
+,	,	,	PUN	PUNCT	punct
+hematocrit	NN	hematocrit	NN1	NOUN	nsubj
+26.5	CD	26.5	CRD	NUM	conj
+with	IN	with	PRP	ADP	case
+an	DT	a	AT0	DET	det
+MCV	NP	MCV	NP0	PROPN	nmod
+of	IN	of	PRF	ADP	case
+109	CD	109	CRD	NUM	nmod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+platelet	NN	platelet	NN1	NOUN	compound
+count	NN	count	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+220,000	CD	220000	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+ASSESSMENT	NN	assessment	NN1	NOUN	root
+AND	CC	and	CJC	CCONJ	cc
+PLAN	NN	plan	NN1	NOUN	conj
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+1.	LS	1.	CRD	X	dep
+Diffuse	VV	diffuse	AJ0	VERB	root
+large	JJ	large	AJ0	ADJ	amod
+<w>
+B	NN	B	NN1	NOUN	compound
+-	:	-	PUN	PUNCT	punct
+cell	NN	cell	NN1	NOUN	compound
+</w>
+lymphoma	NN	lymphoma	NN1	NOUN	obj
+following	VVG	follow	VVG	VERB	advcl
+transplantation	NN	transplantation	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj:outer
+is	VBZ	be	VBZ	AUX	cop
+to	TO	to	TO0	PART	mark
+receive	VV	receive	VVI	VERB	root
+his	PP$	his	DPS	PRON	nmod:poss
+sixth	JJ	sixth	ORD	ADJ	amod
+and	CC	and	CJC	CCONJ	cc
+final	JJ	final	AJ0	ADJ	conj
+cycle	NN	cycle	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+chemotherapy	NN	chemotherapy	NN1	NOUN	nmod
+today	NN	today	NN1	NOUN	obl:tmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+PET	NN	PET	NN1	NOUN	compound
+scan	NN	scan	NN1	NOUN	nsubj:pass
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux:pass
+ordered	VVN	order	VVN	VERB	root
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	AUX	aux:pass
+done	VVN	do	VDN	VERB	advcl
+within	IN	within	PRP	ADP	case
+2	CD	2	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+see	VV	see	VVI	VERB	root
+me	PP	I	PNP	PRON	obj
+back	RB	back	AVP	ADV	advmod
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+visit	NN	visit	NN1	NOUN	obl
+in	IN	in	PRP	ADP	case
+3	CD	3	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	obl
+with	IN	with	PRP	ADP	case
+CBC	NP	CBC	NP0	PROPN	obl
+,	,	,	PUN	PUNCT	punct
+CMP	NP	CMP	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+LDH	NP	LDH	NP0	PROPN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="2">
+<s type="frag" transition="null">
+2.	LS	2.	CRD	X	dep
+Chronic	JJ	chronic	AJ0	ADJ	amod
+renal	JJ	renal	AJ0	ADJ	amod
+insufficiency	NN	insufficiency	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="3">
+<s type="frag" transition="null">
+3.	LS	3.	CRD	X	dep
+Anemia	NN	anemia	NN1	NOUN	root
+secondary	JJ	secondary	AJ0	ADJ	amod
+to	IN	to	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+renal	JJ	renal	AJ0	ADJ	amod
+failure	NN	failure	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+chemotherapy	NN	chemotherapy	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	aux
+to	TO	to	TO0	PART	mark
+continue	VV	continue	VVI	VERB	root
+on	IN	on	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+regimen	NN	regimen	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+growth	NN	growth	NN1	NOUN	compound
+factor	NN	factor	NN1	NOUN	compound
+support	NN	support	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="4">
+<s type="frag" transition="null">
+4.	LS	4.	CRD	X	dep
+Hypertension	NN	hypertension	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+This	DT	this	DT0	PRON	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+elevated	VVN	elevate	VVN	VERB	root
+today	NN	today	NN1	NOUN	obl:tmod
+because	IN	because	CJS	SCONJ	mark
+he	PP	he	PNP	PRON	nsubj
+held	VVD	hold	VVD	VERB	advcl
+his	PP$	his	DPS	PRON	nmod:poss
+meds	NNS	med	NN2	NOUN	obj
+because	IN	because	CJS	SCONJ	mark
+he	PP	he	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	aux
+getting	VVG	get	VVG	VERB	advcl
+rituximab	NN	rituximab	NN1	NOUN	obj
+other	JJ	other	AJ0	ADJ	advmod
+than	IN	than	CJS	ADP	case
+that	DT	that	DT0	PRON	obl
+this	DT	this	DT0	PRON	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+well	RB	well	AV0	ADV	advmod
+controlled	VVN	control	VVN	VERB	parataxis
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+His	PP$	his	DPS	PRON	nmod:poss
+CMP	NP	CMP	NP0	PROPN	nsubj:outer
+is	VBZ	be	VBZ	AUX	cop
+pending	VVG	pend	VVG	VERB	root
+from	IN	from	PRP	ADP	case
+today	NN	today	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="5">
+<s type="frag" transition="zero">
+5.	LS	5.	CRD	X	dep
+Squamous	JJ	Squamous	AJ0	ADJ	amod
+cell	NN	cell	NN1	NOUN	compound
+carcinoma	NN	carcinoma	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+skin	NN	skin	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+scalp	NN	scalp	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+well	RB	well	AV0	ADV	advmod
+healed	VVN	heal	VVN	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+still	RB	still	AV0	ADV	advmod
+has	VHZ	have	VHZ	VERB	root
+an	DT	a	AT0	DET	det
+open	JJ	open	AJ0	ADJ	amod
+wound	NN	wind	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+posterior	JJ	posterior	AJ0	ADJ	amod
+aspect	NN	aspect	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+trunk	NN	trunk	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+This	DT	this	DT0	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+no	DT	no	AT0	DET	det
+active	JJ	active	AJ0	ADJ	amod
+drainage	NN	drainage	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+it	PP	it	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+yet	RB	yet	AV0	ADV	advmod
+to	TO	to	TO0	PART	mark
+heal	VV	heal	VVI	VERB	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+This	DT	this	DT0	PRON	nsubj
+probably	RB	probably	AV0	ADV	advmod
+will	MD	will	VM0	AUX	aux
+heal	VV	heal	VVI	VERB	root
+by	IN	by	PRP	ADP	case
+secondary	JJ	secondary	AJ0	ADJ	amod
+intention	NN	intention	NN1	NOUN	obl
+once	IN	once	CJS	SCONJ	mark
+chemotherapy	NN	chemotherapy	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+finished	VVN	finish	VVN	VERB	advcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="rough-shift">
+Prescription	NN	prescription	NN1	NOUN	nsubj:pass
+for	IN	for	PRP	ADP	case
+prednisone	NN	prednisone	NN1	NOUN	nmod
+as	IN	as	PRP	ADP	case
+part	NN	part	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+chemotherapy	NN	chemotherapy	NN1	NOUN	nmod
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux:pass
+given	VVN	give	VVN	VERB	root
+to	IN	to	PRP	ADP	case
+him	PP	he	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+</text>

@@ -1,0 +1,551 @@
+<text id="GENTLE_threat_kelly" author="Kelly, William Albert" dateCollected="2022-11-14" dateCreated="2012-01-01" dateModified="2012-01-01" shortTitle="kelly" sourceURL="https://casetext.com/case/state-v-kelly-473" speakerCount="0" speakerList="none" title="State v. Kelly, 2013 Tenn. Crim. App. LEXIS 890, *4-5, 2013 WL 5657672 (Tenn. Crim. App. October 16, 2013)" type="threat">
+<p>
+<s type="intj" transition="null">
+Hello	UH	hello	ITJ	INTJ	root
+,	,	,	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="q" transition="null">
+Do	VVP	do	VD	AUX	aux
+you	PP	you	PNP	PRON	nsubj
+remember	VV	remember	VVI	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+when	WRB	when	CJS	ADV	obj
+you	PP	you	PNP	PRON	nsubj
+did	VVD	do	VDD	VERB	advcl:relcl
+the	DT	the	AT0	DET	det
+insurance	NN	insurance	NN1	NOUN	compound
+scam	NN	scam	NN1	NOUN	obj
+?	SENT	?	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+It	PP	it	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+your	PP$	your	DPS	PRON	nmod:poss
+house	NN	house	NN1	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+your	PP$	your	DPS	PRON	nmod:poss
+police	NN	police	NN1	NOUN	compound
+report	NN	report	NN1	NOUN	conj
+and	CC	and	CJC	CCONJ	cc
+you	PP	you	PNP	PRON	nsubj
+cashed	VVD	cash	VVD	VERB	conj
+the	DT	the	AT0	DET	det
+check	NN	check	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+That	DT	that	DT0	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+an	DT	a	AT0	DET	det
+E	NP	E	NP0	PROPN	compound
+Felony	NP	felony	NP0	PROPN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+That	DT	that	DT0	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+3	CD	3	CRD	NUM	nummod
+to	IN	to	PRP	ADP	case
+5	CD	5	CRD	NUM	nmod
+years	NNS	year	NN2	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+tell	VV	tell	VVI	VERB	root
+a	DT	a	AT0	DET	det
+fucking	UH	fucking	ITJ	INTJ	discourse
+detective	NN	detective	NN1	NOUN	iobj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+There	EX	there	EX0	PRON	expl
+are	VBP	be	VBB	VERB	root
+a	DT	a	AT0	DET	det
+bunch	NN	bunch	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+them	PP	they	PNP	PRON	nmod
+right	RB	right	AV0	ADV	advmod
+around	IN	around	PRP	ADP	case
+the	DT	the	AT0	DET	det
+corner	NN	corner	NN1	NOUN	obl
+from	IN	from	PRP	ADP	case
+my	PP$	my	DPS	PRON	nmod:poss
+motherfucking	UH	motherfucking	ITJ	INTJ	discourse
+cell	NN	cell	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+tell	VV	tell	VVI	VERB	root
+them	PP	they	PNP	PRON	iobj
+about	IN	about	PRP	ADP	case
+all	PDT	all	DT0	DET	det:predet
+the	DT	the	AT0	DET	det
+shit	NN	shit	NN1	NOUN	obl
+you	PP	you	PNP	PRON	nsubj
+turn	VVP	turn	VVB	VERB	acl:relcl
+in	RP	in	AVP	ADP	compound:prt
+stolen	VVN	steal	VVN	VERB	acl:relcl
+from	IN	from	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+house	NN	house	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+It	PP	it	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+not	RB	not	XX0	PART	advmod
+my	PP$	my	DPS	PRON	nmod:poss
+house	NN	house	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+If	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+think	VVP	think	VVB	VERB	advcl
+you	PP	you	PNP	PRON	nsubj
+can	MD	can	VM0	AUX	aux
+get	VV	get	VVI	VERB	ccomp
+away	RP	away	AVP	ADP	compound:prt
+with	IN	with	PRP	ADP	case
+it	PP	it	PNP	PRON	obl
+,	,	,	PUN	PUNCT	punct
+you	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+so	RB	so	AV0	ADV	advmod
+fucking	UH	fucking	ITJ	INTJ	discourse
+dumb	JJ	dumb	AJ0	ADJ	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+They	PP	they	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+cuff	VV	cuff	NN1	VERB	root
+you	PP	you	PNP	PRON	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+middle	NN	middle	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+shift	NN	shift	NN1	NOUN	nmod
+at	IN	at	PRP	ADP	case
+Wal-Greens	NP	Walgreens	NP0	PROPN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+not	RB	not	XX0	PART	advmod
+like	VV	like	VVI	VERB	root
+it	PP	it	PNP	PRON	obj
+in	IN	in	PRP	ADP	case
+here	RB	here	AV0	ADV	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="retain">
+So	UH	so	ITJ	INTJ	discourse
+do	VV	do	VDB	VERB	root
+yourself	PP	yourself	PNP	PRON	iobj
+a	DT	a	AT0	DET	det
+favor	NN	favor	NN1	NOUN	obj
+drop	VV	drop	VVB	VERB	parataxis
+the	DT	the	AT0	DET	det
+charges	NNS	charge	NN2	NOUN	obj
+on	IN	on	PRP	ADP	case
+me	PP	I	PNP	PRON	nmod
+or	CC	or	CJC	CCONJ	cc
+else	RB	else	AV0	ADV	advmod
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+tell	VV	tell	VVI	VERB	conj
+them	PP	they	PNP	PRON	iobj
+all	RB	all	DT0	ADV	advmod
+about	IN	about	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+scam	NN	scam	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+They	PP	they	PNP	PRON	nsubj
+love	VVP	love	VVB	VERB	root
+to	TO	to	TO0	PART	mark
+here	VV	hear	VVI	VERB	xcomp
+about	IN	about	PRP	ADP	case
+stuff	NN	stuff	NN1	NOUN	obl
+like	IN	like	PRP	ADP	case
+that	DT	that	DT0	PRON	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+You	PP	you	PNP	PRON	nsubj
+did	VVD	do	VDD	VERB	root
+it	PP	it	PNP	PRON	obj
+all	RB	all	AV0	ADV	advmod
+by	IN	by	PRP	ADP	case
+yourself	PP	yourself	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="zero">
+Not	RB	not	XX0	PART	advmod
+me	PP	I	PNP	PRON	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+It	PP	it	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+all	DT	all	AV0	DET	advmod
+in	IN	in	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+name	NN	name	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="establishment">
+The	DT	the	AT0	DET	det
+police	NN	police	NN1	NOUN	compound
+report	NN	report	NN1	NOUN	root
+you	PP	you	PNP	PRON	nsubj
+signed	VVD	sign	VVD	VERB	acl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+signed	VVD	sign	VVD	VERB	root
+the	DT	the	AT0	DET	det
+check	NN	check	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+So	RB	so	CJS	ADV	advmod
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+go	VV	go	VVI	VERB	root
+away	RB	away	AV0	ADV	advmod
+just	RB	just	AV0	ADV	advmod
+do	VV	do	VDB	VERB	parataxis
+the	DT	the	AT0	DET	det
+thing	NN	thing	NN1	NOUN	obj
+you	PP	you	PNP	PRON	nsubj
+need	VVP	need	VVB	VERB	acl:relcl
+to	TO	to	TO0	PART	mark
+do	VV	do	VDI	VERB	xcomp
+or	CC	or	CJC	CCONJ	cc
+show	VV	show	VVB	VERB	conj
+this	DT	this	DT0	DET	det
+letter	NN	letter	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+judge	NN	judge	NN1	NOUN	obl
+so	IN	so	CJS	SCONJ	mark
+they	PP	they	PNP	PRON	nsubj
+can	MD	can	VM0	AUX	aux
+arrest	VV	arrest	VVI	VERB	advcl
+you	PP	you	PNP	PRON	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+testified	VVN	testify	VVN	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+You	PP	you	PNP	PRON	nsubj
+think	VVP	think	VVB	VERB	root
+you	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+too	RB	too	AV0	ADV	advmod
+good	JJ	good	AJ0	ADJ	ccomp
+to	TO	to	TO0	PART	mark
+do	VV	do	VDI	VERB	xcomp
+time	NN	time	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+They	PP	they	PNP	PRON	nsubj
+do	VVP	do	VD	AUX	aux
+n't	RB	not	XX0	PART	advmod
+give	VV	give	VVI	VERB	root
+a	DT	a	AT0	DET	det
+fucking	UH	fucking	ITJ	INTJ	discourse
+shit	NN	shit	NN1	NOUN	obj
+about	IN	about	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+I	PP	I	PNP	PRON	nsubj
+'m	VBP	be	VBB	AUX	aux
+not	RB	not	XX0	PART	advmod
+playing	VVG	play	VVG	VERB	root
+anymore	RB	anymore	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="multiple" transition="establishment">
+Call	VV	call	VVB	VERB	root
+the	DT	the	AT0	DET	det
+lawyer	NN	lawyer	NN1	NOUN	obj
+I	PP	I	PNP	PRON	nsubj
+had	VHD	have	VHD	VERB	acl:relcl
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	amod
+time	NN	time	NN1	NOUN	obl:tmod
+.	SENT	.	PUN	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+you	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+lose	VV	lose	VVI	VERB	conj
+your	PP$	your	DPS	PRON	nmod:poss
+fucking	UH	fucking	ITJ	INTJ	discourse
+job	NN	job	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+freedom	NN	freedom	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+So	UH	so	ITJ	INTJ	discourse
+you	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	cop
+better	JJR	good	AJC	ADJ	root
+off	RP	off	AVP	ADP	compound:prt
+or	CC	or	CJC	CCONJ	cc
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+do	VV	do	VDI	VERB	conj
+<sic ana="whatever">
+what	WP	whatever	PNQ	PRON	obj
+ever	RB	_	AV0	X	goeswith
+</sic>
+it	PP	it	PNP	PRON	nsubj
+takes	VVZ	take	VVZ	VERB	acl:relcl
+to	TO	to	TO0	PART	mark
+have	VH	have	VHI	VERB	advcl
+you	PP	you	PNP	PRON	obj
+in	IN	in	PRP	ADP	case
+jail	NN	jail	NN1	NOUN	xcomp
+like	IN	like	PRP	ADP	case
+me	PP	I	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+ca	MD	can	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+take	VV	take	VVI	VERB	root
+a	DT	a	AT0	DET	det
+charge	NN	charge	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+ca	MD	can	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+make	VV	make	VVI	VERB	root
+it	PP	it	PNP	PRON	obj
+in	IN	in	PRP	ADP	case
+here	RB	here	AV0	ADV	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	cop
+more	JJR	more	AJC	ADJ	root
+than	IN	than	CJS	ADP	case
+happy	JJ	happy	AJ0	ADJ	obl
+to	TO	to	TO0	PART	mark
+tell	VV	tell	VVI	VERB	xcomp
+on	IN	on	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+dumb	JJ	dumb	AJ0	ADJ	amod
+ass	NN	ass	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+I	PP	I	PNP	PRON	nsubj:outer
+am	VBP	be	VBB	AUX	cop
+pissed	VVN	pissed	VVN	VERB	root
+off	RP	off	AVP	ADP	compound:prt
+like	IN	like	PRP	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+never	RB	never	AV0	ADV	advmod
+believe	VV	believe	VVI	VERB	advcl
+so	RB	so	AV0	ADV	advmod
+if	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+do	VVP	do	VD	AUX	aux
+n't	RB	not	XX0	PART	advmod
+want	VV	want	VVI	VERB	advcl
+to	TO	to	TO0	PART	mark
+go	VV	go	VVI	VERB	xcomp
+to	IN	to	PRP	ADP	case
+jail	NN	jail	NN1	NOUN	obl
+get	VV	get	VVB	VERB	advcl
+me	PP	I	PNP	PRON	iobj
+the	DT	the	AT0	DET	det
+fuck	NN	fuck	NN1	NOUN	discourse
+out	IN	out	PRP	ADP	case
+of	IN	of	PRF	ADP	fixed
+here	RB	here	AV0	ADV	xcomp
+or	CC	or	CJC	CCONJ	cc
+maybe	RB	maybe	AV0	ADV	advmod
+your	PP$	your	DPS	PRON	nmod:poss
+fucking	UH	fucking	ITJ	INTJ	discourse
+Mom	NN	mom	NN1	NOUN	nsubj
+can	MD	can	VM0	AUX	aux
+help	VV	help	VVI	VERB	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="intj" transition="zero">
+Ha	UH	ha	ITJ	INTJ	root
+Ha	UH	ha	ITJ	INTJ	dep
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+I	PP	I	PNP	PRON	nsubj
+know	VVP	know	VVB	VERB	root
+you	PP	you	PNP	PRON	nsubj
+took	VVD	take	VVD	VERB	ccomp
+my	PP$	my	DPS	PRON	nmod:poss
+money	NN	money	NN1	NOUN	obj
+I	PP	I	PNP	PRON	nsubj
+had	VHD	have	VHD	AUX	aux
+saved	VVN	save	VVN	VERB	acl:relcl
+too	RB	too	AV0	SCONJ	mark
+Go	VV	go	VVB	VERB	parataxis
+see	VV	see	VVI	VERB	xcomp
+the	DT	the	AT0	DET	det
+Bitch.	NN	bitch	NN0	NOUN	obj
+</s>
+<s type="decl" transition="establishment">
+I	PP	I	PNP	PRON	nsubj
+ca	MD	can	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+tell	VV	tell	VVI	VERB	root
+you	PP	you	PNP	PRON	iobj
+how	WRB	how	AVQ	ADV	advmod
+bad	JJ	bad	AJ0	ADJ	obj
+it	PP	it	PNP	PRON	expl
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	VERB	acl:relcl
+for	IN	for	PRP	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+not	RB	not	XX0	PART	advmod
+to	TO	to	TO0	PART	mark
+believe	VV	believe	VVI	VERB	csubj
+me	PP	I	PNP	PRON	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Mr.	NP	Mr.	NP0	PROPN	nsubj
+Patrick	NP	Patrick	NP0	PROPN	flat
+is	VBZ	be	VBZ	AUX	cop
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+cell	NN	cell	NN1	NOUN	root
+here	RB	here	AV0	ADV	advmod
+and	CC	and	CJC	CCONJ	cc
+a	DT	a	AT0	DET	det
+lawyer	NN	lawyer	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+top	JJ	top	AJ0	ADJ	amod
+bunk	NN	bunk	NN1	NOUN	conj
+or	CC	or	CJC	CCONJ	cc
+bed	NN	bed	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="establishment">
+You	PP	you	PNP	PRON	nsubj
+might	MD	might	VM0	AUX	aux
+think	VV	think	VVI	VERB	root
+you	PP	you	PNP	PRON	nsubj
+might	MD	might	VM0	AUX	aux
+get	VV	get	VVI	VERB	ccomp
+out	IN	out	PRP	ADP	case
+of	IN	of	PRF	ADP	fixed
+it	PP	it	PNP	PRON	obl
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+do	VVP	do	VD	AUX	aux
+you	PP	you	PNP	PRON	nsubj
+really	RB	really	AV0	ADV	advmod
+want	VV	want	VVB	VERB	conj
+to	TO	to	TO0	PART	mark
+try	VV	try	VVI	VERB	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+Just	RB	just	AV0	ADV	advmod
+drop	VV	drop	VVB	VERB	root
+the	DT	the	AT0	DET	det
+charges	NNS	charge	NN2	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+go	VV	go	VVI	VERB	conj
+away	RB	away	AV0	ADV	advmod
+from	IN	from	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+and	CC	and	CJC	CCONJ	cc
+your	PP$	your	DPS	PRON	nmod:poss
+little	JJ	little	AJ0	ADJ	amod
+friend	NN	friend	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="smooth-shift">
+I	PP	I	PNP	PRON	nsubj
+am	VBP	be	VBB	AUX	aux
+not	RB	not	XX0	PART	advmod
+fucking	UH	fucking	ITJ	INTJ	discourse
+playing	VVG	play	VVG	VERB	root
+Bitch	NN	bitch	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Jail	NN	Jail	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+no	DT	no	AT0	DET	det
+fucking	UH	fucking	ITJ	INTJ	amod
+fun	NN	fun	NN1	NOUN	root
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+girl	NN	girl	NN1	NOUN	nmod
+so	RB	so	AV0	ADV	advmod
+do	VV	do	VDB	AUX	aux
+n't	RB	not	XX0	PART	advmod
+try	VV	try	VVI	VERB	parataxis
+me	PP	I	PNP	PRON	iobj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="imp" transition="smooth-shift">
+Do	VV	do	VDB	AUX	aux
+n't	RB	not	XX0	PART	advmod
+take	VV	take	VVI	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+time	NN	time	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+I	PP	I	PNP	PRON	nsubj:outer
+am	VBP	be	VBB	AUX	cop
+pissed	VVN	pissed	VVN	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+</text>

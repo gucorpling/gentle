@@ -1,0 +1,1469 @@
+<text id="GENTLE_dictionary_school" author="Wiktionary" dateCollected="2022-11-11" dateCreated="2003-11-16" dateModified="2022-11-08"  shortTitle="school" sourceURL="https://en.wiktionary.org/wiki/school" speakerCount="0" speakerList="none" title="school" type="dictionary">
+<head rend="bold">
+<s type="frag" transition="establishment">
+school	NN	school	NN1	NOUN	root
+</s>
+</head>
+<head>
+<s type="frag" transition="null">
+English	NP	English	NP0	PROPN	root
+</s>
+</head>
+<s type="frag" transition="null">
+<hi rend="bold">
+Pronunciation	NN	pronunciation	NN1	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="other" transition="null">
+<ref target="https://en.wiktionary.org/wiki/Appendix:English_pronunciation">
+enPR	NN	enPR	NN1	NOUN	dep
+</ref>
+:	:	:	PUN	PUNCT	punct
+sko͞ol	NN	sko͞ol	NN1	NOUN	root
+,	,	,	PUN	PUNCT	punct
+<w>
+<ref target="https://en.wiktionary.org/wiki/Wiktionary:International_Phonetic_Alphabet">
+IPA	NP	IPA	NP0	PROPN	dep
+</ref>
+(	(	(	PUL	PUNCT	punct
+key	NN	key	NN1	NOUN	parataxis
+)	)	)	PUR	PUNCT	punct
+</w>
+:	:	:	PUN	PUNCT	punct
+/	SYM	/	UNC	PUNCT	punct
+skuːl	NN	skuːl	NN1	NOUN	parataxis
+/	:	/	UNC	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+Audio	NN	audio	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+Received	NP	Received	NP0	ADJ	amod
+Pronunciation	NP	Pronunciation	NP0	PROPN	parataxis
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="decl" transition="null">
+Rhymes	NNS	rhyme	NN2	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Rhymes:English/u%CB%90l">
+-uːl	UH	-uːl	ITJ	INTJ	root
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Etymology	NN	etymology	NN1	NOUN	root
+1	CD	1	CRD	NUM	dep
+</hi>
+</s>
+<p>
+<s type="decl" transition="null">
+From	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Middle_English">
+Middle	NP	Middle	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scole#Middle_English">
+scole	FW	scole	UNC	X	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/schole#Middle_English">
+schole	FW	schole	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+group	NN	group	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+persons	NNS	person	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+multitude	NN	multitude	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+host	NN	host	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+school	NN	school	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+fish	NN	fish	NN0	NOUN	nmod
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Middle_Dutch">
+Middle	NP	Middle	NP0	ADJ	amod
+Dutch	NP	Dutch	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scole#Middle_Dutch">
+scole	FW	scole	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+multitude	NN	multitude	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+troop	NN	troop	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+people	NNS	person	NN0	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+swarm	NN	swarm	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+animals	NNS	animal	NN2	NOUN	nmod
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Old_Dutch">
+Old	NP	Old	NP0	ADJ	amod
+Dutch	NP	Dutch	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/w/index.php?title=Reconstruction:Old_Dutch/scola&amp;action=edit&amp;redlink=1">
+*scola	FW	*scola	UNC	X	nmod
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/w/index.php?title=Reconstruction:Old_Dutch/skola&amp;action=edit&amp;redlink=1">
+*skola	FW	*skola	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+troop	NN	troop	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+multitude	NN	multitude	NN1	NOUN	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Proto-Germanic_language">
+Proto-Germanic	NP	Proto-Germanic	NP0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/skul%C5%8D">
+*skulō	FW	*skulō	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+crowd	NN	crowd	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Proto-Indo-European_language">
+Proto-Indo-European	NP	Proto-Indo-European	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/w/index.php?title=Reconstruction:Proto-Indo-European/(s)k%CA%B7el-&amp;action=edit&amp;redlink=1">
+*(s)kʷel-	FW	*(s)kʷel-	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+crowd	NN	crowd	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+people	NNS	person	NN0	NOUN	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+Cognate	JJ	cognate	AJ0	ADJ	root
+with	IN	with	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Middle_Low_German">
+Middle	NP	Middle	NP0	ADJ	amod
+Low	NP	Low	NP0	ADJ	amod
+German	NP	German	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/schole#Middle_Low_German">
+schōle	FW	schōle	UNC	X	obl
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+multitude	NN	multitude	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+troop	NN	troop	NN1	NOUN	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Old_English">
+Old	NP	Old	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scolu#Old_English">
+scolu	NN	scolu	NN1	NOUN	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+troop	NN	troop	NN1	NOUN	appos
+or	CC	or	CJC	CCONJ	cc
+band	NN	band	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+people	NNS	person	NN0	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+host	NN	host	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+multitude	NN	multitude	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+school	NN	school	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+fish	NN	fish	NN0	NOUN	nmod
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#doublet">
+Doublet	NN	doublet	NN1	NOUN	parataxis
+</ref>
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/shoal#Etymology_2">
+shoal	NN	shoal	NN1	NOUN	nmod
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Alternative	JJ	alternative	AJ0	ADJ	amod
+forms	NNS	form	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="establishment">
+<ref target="https://en.wiktionary.org/wiki/skull">
+skull	NN	skull	NN1	NOUN	root
+</ref>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+obsolete	JJ	obsolete	AJ0	ADJ	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+</list>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Noun	NN	noun	NN1	NOUN	root
+</hi>
+</s>
+<figure rend="school (1) of fish.">
+<caption>
+<s type="frag" transition="null">
+school	NN	school	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+1	CD	1	CRD	NUM	dep
+)	)	)	PUR	PUNCT	punct
+of	IN	of	PRF	ADP	case
+fish	NN	fish	NN0	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</caption>
+</figure>
+<s type="frag" transition="null">
+<hi rend="bold">
+school	NN	school	NN1	NOUN	root
+</hi>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+plural	JJ	plural	AJ0	ADJ	dep
+</hi>
+<ref target="https://en.wiktionary.org/wiki/schools#English">
+schools	NNS	school	NN2	NOUN	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="ordered">
+<item>
+<s type ="frag" transition="establishment">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#collective">
+collective	JJ	collective	AJ0	ADJ	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+A	DT	a	AT0	DET	det
+group	NN	group	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/fish">
+fish	NN	fish	NN0	NOUN	nmod
+</ref>
+or	CC	or	CJC	CCONJ	cc
+a	DT	a	AT0	DET	det
+group	NN	group	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/marine">
+marine	JJ	marine	AJ0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/mammals">
+mammals	NNS	mammal	NN2	NOUN	nmod
+</ref>
+such	JJ	such	DT0	ADJ	case
+as	IN	as	CJS	ADP	fixed
+<ref target="https://en.wiktionary.org/wiki/porpoise">
+porpoises	NNS	porpoise	NN2	NOUN	nmod
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/dolphin">
+dolphins	NNS	dolphin	NN2	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/whale">
+whales	NNS	whale	NN2	NOUN	conj
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="decl" transition="zero">
+The	DT	the	AT0	DET	det
+divers	NNS	diver	NN2	NOUN	nsubj
+encountered	VVD	encounter	VVD	VERB	root
+a	DT	a	AT0	DET	det
+huge	JJ	huge	AJ0	ADJ	amod
+school	NN	school	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+mackerel	NN	mackerel	NN0	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+A	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/multitude">
+multitude	NN	multitude	NN1	NOUN	root
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Synonyms	NNS	synonym	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="other" transition="null">
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+fish	NNS	fish	NN0	NOUN	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/shoal">
+shoal	NN	shoal	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Verb	NN	verb	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+school	NN	school	NN1	NOUN	root
+</hi>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+<w>
+third	JJ	third	ORD	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+person	NN	person	NN1	NOUN	compound
+</w>
+singular	JJ	singular	AJ0	ADJ	amod
+simple	JJ	simple	AJ0	ADJ	amod
+present	NN	present	NN1	NOUN	dep
+</hi>
+<ref target="https://en.wiktionary.org/wiki/schools#English">
+schools	NNS	school	NN2	NOUN	parataxis
+</ref>
+,	,	,	PUN	PUNCT	punct
+<hi rend="bold">
+present	JJ	present	AJ0	ADJ	amod
+participle	NN	participle	NN1	NOUN	dep
+</hi>
+<ref target="https://en.wiktionary.org/wiki/schooling#English">
+schooling	VVG	school	VVG	VERB	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<hi rend="bold">
+simple	JJ	simple	AJ0	ADJ	amod
+past	NN	past	NN1	NOUN	dep
+and	CC	and	CJC	CCONJ	cc
+past	NN	past	NN1	NOUN	compound
+participle	NN	participle	NN1	NOUN	conj
+</hi>
+<ref target="https://en.wiktionary.org/wiki/schooled#English">
+schooled	VVD	school	VVD	VERB	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#intransitive">
+intransitive	JJ	intransitive	AJ0	ADJ	parataxis
+</ref>
+</hi>
+)	)	)	PUR	PUNCT	punct
+(	(	(	PUL	PUNCT	punct
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/fish">
+fish	NN	fish	NN0	NOUN	obl
+</ref>
+)	)	)	PUR	PUNCT	punct
+To	TO	to	TO0	PART	mark
+<ref target="https://en.wiktionary.org/wiki/form">
+form	VV	form	VVI	VERB	root
+</ref>
+into	IN	into	PRP	ADP	obl
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/travel">
+travel	VV	travel	VVB	VERB	conj
+</ref>
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+school	NN	school	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Etymology	NN	etymology	NN1	NOUN	root
+2	CD	2	CRD	NUM	dep
+</hi>
+</s>
+<figure rend="Elementary school">
+<caption>
+<s type="frag" transition="null">
+Elementary	JJ	elementary	AJ0	ADJ	amod
+school	NN	school	NN1	NOUN	root
+</s>
+</caption>
+</figure>
+<s type="frag" transition="null">
+From	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Middle_English">
+Middle	NP	Middle	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scole#Middle_English">
+scole	FW	scole	UNC	X	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Old_English">
+Old	NP	Old	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scol#Old_English">
+scōl	FW	scōl	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+place	NN	place	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+education	NN	education	NN1	NOUN	nmod
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Proto-Germanic_language">
+Proto-Germanic	NP	Proto-Germanic	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/w/index.php?title=Reconstruction:Proto-Germanic/sk%C5%8Dla&amp;action=edit&amp;redlink=1">
+*skōla	FW	*skōla	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+school	NN	school	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Late_Latin">
+Late	NP	late	NP0	ADJ	amod
+Latin	NP	Latin	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/schola#Latin">
+schola	NN	schola	NN1	NOUN	nmod
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/scola#Latin">
+scola	FW	scola	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+learned	JJ	learned	AJ0	ADJ	amod
+discussion	NN	discussion	NN1	NOUN	appos
+or	CC	or	CJC	CCONJ	cc
+dissertation	NN	dissertation	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+lecture	NN	lecture	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+school	NN	school	NN1	NOUN	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Ancient_Greek">
+Ancient	NP	Ancient	NP0	ADJ	amod
+Greek	NP	Greek	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/w/index.php?title=%CF%83%CF%87%CE%BF%CE%BB%CE%B5%E1%BF%96%CE%BF%CE%BD&amp;action=edit&amp;redlink=1">
+σχολεῖον	FW	σχολεῖον	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+skholeîon	FW	skholeîon	UNC	X	appos
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wiktionary.org/wiki/%CF%83%CF%87%CE%BF%CE%BB%CE%AE#Ancient_Greek">
+σχολή	FW	σχολή	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+skholḗ	FW	skholḗ	UNC	X	appos
+,	,	,	PUN	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+spare	JJ	spare	AJ0	ADJ	amod
+time	NN	time	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+leisure	NN	leisure	NN1	NOUN	conj
+;	:	;	PUN	PUNCT	punct
+conversations	NNS	conversation	NN2	NOUN	conj
+and	CC	and	CJC	CCONJ	cc
+the	DT	the	AT0	DET	det
+knowledge	NN	knowledge	NN1	NOUN	conj
+gained	VVN	gain	VVN	VERB	acl
+through	IN	through	PRP	ADP	case
+them	PP	they	PNP	PRON	obl
+during	IN	during	PRP	ADP	case
+free	JJ	free	AJ0	ADJ	amod
+time	NN	time	NN1	NOUN	obl
+;	:	;	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+places	NNS	place	NN2	NOUN	conj
+where	WRB	where	CJS	ADV	mark
+these	DT	this	DT0	DET	det
+conversations	NNS	conversation	NN2	NOUN	nsubj
+took	VVD	take	VVD	VERB	acl:relcl
+place	NN	place	NN1	NOUN	obj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Proto-Indo-European_language">
+Proto-Indo-European	NP	Proto-Indo-European	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/se%C7%B5%CA%B0-">
+*seǵʰ-	FW	*seǵʰ-	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+to	TO	to	TO0	PART	mark
+hold	VV	hold	VVI	VERB	appos
+,	,	,	PUN	PUNCT	punct
+have	VH	have	VHB	VERB	conj
+,	,	,	PUN	PUNCT	punct
+possess	VV	possess	VVB	VERB	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#doublet">
+Doublet	NN	doublet	NN1	NOUN	root
+</ref>
+of	IN	of	PRF	ADP	case
+<ref target="https://en.wiktionary.org/wiki/schola#English">
+schola	NN	schola	NN1	NOUN	nmod
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/shul#English">
+shul	NN	shul	NN1	NOUN	conj
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+Compare	VV	compare	VVB	VERB	root
+<ref target="https://en.wikipedia.org/wiki/Old_Frisian">
+Old	NP	Old	NP0	ADJ	amod
+Frisian	NP	Frisian	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/skule#Old_Frisian">
+skūle	FW	skūle	UNC	X	obj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/schule#Old_Frisian">
+schūle	FW	schūle	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+school	NN	school	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/West_Frisian_language">
+West	NP	West	NP0	PROPN	compound
+Frisian	NP	Frisian	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/skoalle#West_Frisian">
+skoalle	FW	skoalle	UNC	X	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Saterland_Frisian_language">
+Saterland	NP	Saterland	NP0	PROPN	compound
+Frisian	NP	Frisian	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/Skoule#Saterland_Frisian">
+Skoule	FW	skoule	UNC	X	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Dutch_language">
+Dutch	NP	Dutch	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/school#Dutch">
+school	FW	school	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+school	NN	school	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Low_German">
+German	NP	German	NP0	PROPN	compound
+Low	NP	Low	NP0	PROPN	compound
+German	NP	German	NP0	PROPN	conj
+</ref>
+<ref target="https://en.wiktionary.org/wiki/School#German_Low_German">
+School	FW	School	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+school	NN	school	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Old_High_German">
+Old	NP	Old	NP0	ADJ	amod
+High	NP	High	NP0	ADJ	amod
+German	NP	German	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scuola#Old_High_German">
+scuola	FW	scuola	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+school	NN	school	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Old_Norse">
+Old	NP	Old	NP0	ADJ	amod
+Norse	NP	Norse	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/sk%C3%B3li#Old_Norse">
+skóli	FW	skóli	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+school	NN	school	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="other" transition="null">
+Influenced	VVN	influence	VVN	VERB	root
+in	IN	in	PRP	ADP	case
+some	DT	some	DT0	DET	det
+senses	NNS	sense	NN2	NOUN	obl
+by	IN	by	PRP	ADP	case
+Middle	NP	Middle	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	compound
+<ref target="https://en.wiktionary.org/wiki/schole#Middle_English">
+schole	FW	schole	UNC	X	obl:agent
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+group	NN	group	NN1	NOUN	appos
+of	IN	of	PRF	ADP	case
+persons	NNS	person	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+host	NN	host	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+company	NN	company	NN1	NOUN	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Middle_Dutch">
+Middle	NP	Middle	NP0	ADJ	amod
+Dutch	NP	Dutch	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/scole#Middle_Dutch">
+scole	FW	scole	UNC	X	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+multitude	NN	multitude	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+troop	NN	troop	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+band	NN	band	NN1	NOUN	conj
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="null">
+See	VV	see	VVB	VERB	root
+<ref target="https://en.wiktionary.org/wiki/school#Etymology_1">
+<w>
+school	NN	school	NN1	NOUN	obj
+1	CD	1	CRD	NUM	dep
+</w>
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="other" transition="null">
+Related	VVN	relate	VVN	VERB	root
+also	RB	also	AV0	ADV	advmod
+to	IN	to	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Old_High_German">
+Old	NP	Old	NP0	ADJ	amod
+High	NP	High	NP0	ADJ	amod
+German	NP	German	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/sigi#Old_High_German">
+sigi	FW	sigi	UNC	X	obl
+</ref>
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/German_language">
+German	NP	German	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/Sieg#German">
+Sieg	FW	Sieg	UNC	X	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+victory	NN	victory	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Old_English">
+Old	NP	Old	NP0	ADJ	amod
+English	NP	English	NP0	PROPN	compound
+</ref>
+<ref target="https://en.wiktionary.org/wiki/sige#Old_English">
+siġe	FW	siġe	UNC	X	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/sigor#Old_English">
+sigor	FW	sigor	UNC	X	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+“	``	''	PUQ	PUNCT	punct
+victory	NN	victory	NN1	NOUN	appos
+”	''	''	PUQ	PUNCT	punct
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+Alternative	JJ	alternative	AJ0	ADJ	amod
+forms	NNS	form	NN2	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="establishment">
+<ref target="https://en.wiktionary.org/wiki/schole#English">
+schole	NN	schole	NN1	NOUN	root
+</ref>
+(	(	(	PUL	PUNCT	punct
+<hi rend="italic">
+obsolete	JJ	obsolete	AJ0	ADJ	parataxis
+</hi>
+)	)	)	PUR	PUNCT	punct
+</s>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Noun	NN	noun	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="null">
+school	NN	school	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#countable">
+countable	JJ	countable	AJ0	ADJ	parataxis
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable">
+uncountable	JJ	uncountable	AJ0	ADJ	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+plural	NNS	plural	NN2	NOUN	dep
+<ref target="https://en.wiktionary.org/wiki/schools#English">
+schools	NNS	school	NN2	NOUN	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="ordered">
+<item>
+<s type="decl" transition="null">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/United_States">
+US	NP	US	NP0	PROPN	parataxis
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Canada">
+Canada	NP	Canada	NP0	PROPN	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+An	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/institution">
+institution	NN	institution	NN1	NOUN	root
+</ref>
+dedicated	VVN	dedicate	VVN	VERB	acl
+to	IN	to	PRP	SCONJ	mark
+<ref target="https://en.wiktionary.org/wiki/teaching">
+teaching	VVG	teach	VVG	VERB	advcl
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/learning">
+learning	VVG	learn	VVG	VERB	conj
+</ref>
+;	:	;	PUN	PUNCT	punct
+an	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/educational">
+educational	JJ	educational	AJ0	ADJ	amod
+</ref>
+institution	NN	institution	NN1	NOUN	parataxis
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Our	PP$	our	DPS	PRON	nmod:poss
+children	NNS	child	NN2	NOUN	nsubj
+attend	VVP	attend	VVB	VERB	root
+a	DT	a	AT0	DET	det
+public	JJ	public	AJ0	ADJ	amod
+school	NN	school	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+our	PP$	our	DPS	PRON	nmod:poss
+neighborhood	NN	neighborhood	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Harvard	NP	Harvard	NP0	PROPN	compound
+University	NP	University	NP0	PROPN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+famous	JJ	famous	AJ0	ADJ	amod
+American	JJ	American	AJ0	ADJ	amod
+postsecondary	JJ	postsecondary	AJ0	ADJ	amod
+school	NN	school	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/Great_Britain">
+Britain	NP	Britain	NP0	PROPN	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+An	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/educational_institution">
+educational	JJ	educational	AJ0	ADJ	amod
+institution	NN	institution	NN1	NOUN	root
+</ref>
+providing	VVG	provide	VVG	VERB	acl
+<ref target="https://en.wiktionary.org/wiki/primary_education">
+primary	JJ	primary	AJ0	ADJ	amod
+</ref>
+and	CC	and	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/secondary_education">
+secondary	JJ	secondary	AJ0	ADJ	conj
+education	NN	education	NN1	NOUN	obj
+</ref>
+,	,	,	PUN	PUNCT	punct
+prior	RB	prior	AJ0	ADV	case
+to	IN	to	PRP	ADP	fixed
+<ref target="https://en.wiktionary.org/wiki/tertiary_education">
+tertiary	JJ	tertiary	AJ0	ADJ	amod
+education	NN	education	NN1	NOUN	obl
+</ref>
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/college">
+college	NN	college	NN1	NOUN	parataxis
+</ref>
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/university">
+university	NN	university	NN1	NOUN	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="establishment">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wikipedia.org/wiki/United_Kingdom">
+UK	NP	UK	NP0	PROPN	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+At	IN	at	PRP	ADP	case
+<ref target="https://en.wikipedia.org/wiki/Eton_College">
+Eton	NP	Eton	NP0	PROPN	compound
+College	NP	College	NP0	PROPN	obl
+</ref>
+,	,	,	PUN	PUNCT	punct
+a	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/period">
+period	NN	period	NN1	NOUN	root
+</ref>
+or	CC	or	CJC	CCONJ	cc
+session	NN	session	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+teaching	NN	teaching	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Divinity	NN	divinity	NN1	NOUN	nsubj:pass
+,	,	,	PUN	PUNCT	punct
+history	NN	history	NN1	NOUN	conj
+and	CC	and	CJC	CCONJ	cc
+geography	NN	geography	NN1	NOUN	conj
+are	VBP	be	VBB	AUX	aux:pass
+studied	VVN	study	VVN	VERB	root
+for	IN	for	PRP	ADP	case
+two	CD	two	CRD	NUM	nummod
+schools	NNS	school	NN2	NOUN	obl
+per	IN	per	PRP	ADP	case
+week	NN	week	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+Within	IN	within	PRP	ADP	case
+a	DT	a	AT0	DET	det
+larger	JJR	large	AJC	ADJ	amod
+educational	JJ	educational	AJ0	ADJ	amod
+institution	NN	institution	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+an	DT	a	AT0	DET	det
+organizational	JJ	organizational	AJ0	ADJ	amod
+unit	NN	unit	NN1	NOUN	root
+,	,	,	PUN	PUNCT	punct
+such	JJ	such	DT0	ADJ	case
+as	IN	as	CJS	ADP	fixed
+a	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/department">
+department	NN	department	NN1	NOUN	nmod
+</ref>
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/institute">
+institute	NN	institute	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+dedicated	VVN	dedicate	VVN	VERB	acl:relcl
+to	IN	to	PRP	ADP	case
+a	DT	a	AT0	DET	det
+specific	JJ	specific	AJ0	ADJ	amod
+subject	NN	subject	NN1	NOUN	compound
+area	NN	area	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+We	PP	we	PNP	PRON	nsubj:pass
+are	VBP	be	VBB	AUX	aux:pass
+enrolled	VVN	enroll	VVN	VERB	root
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	amod
+university	NN	university	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+I	PP	I	PNP	PRON	nsubj
+attend	VVP	attend	VVB	VERB	conj
+the	DT	the	AT0	DET	det
+School	NP	School	NP0	PROPN	obj
+of	IN	of	PRF	ADP	case
+Economics	NP	Economics	NP0	PROPN	nmod
+and	CC	and	CJC	CCONJ	cc
+my	PP$	my	DPS	PRON	nmod:poss
+brother	NN	brother	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+School	NP	School	NP0	PROPN	conj
+of	IN	of	PRF	ADP	case
+Music	NP	Music	NP0	PROPN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+An	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/art_movement">
+art	NN	art	NN1	NOUN	compound
+movement	NN	movement	NN1	NOUN	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+a	DT	a	AT0	DET	det
+community	NN	community	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+artists	NNS	artist	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+Barbizon	NP	Barbizon	NP0	PROPN	compound
+school	NN	school	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+painters	NNS	painter	NN2	NOUN	nmod
+were	VBD	be	VBD	AUX	cop
+part	NN	part	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+an	DT	a	AT0	DET	det
+art	NN	art	NN1	NOUN	compound
+movement	NN	movement	NN1	NOUN	nmod
+towards	IN	towards	PRP	ADP	case
+Realism	NP	Realism	NP0	PROPN	nmod
+in	IN	in	PRP	ADP	case
+art	NN	art	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj
+arose	VVD	arise	VVD	VERB	acl:relcl
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+context	NN	context	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+dominant	JJ	dominant	AJ0	ADJ	amod
+Romantic	NP	Romantic	NP0	ADJ	compound
+Movement	NP	Movement	NP0	PROPN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+time	NN	time	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+considered	VVN	consider	VVN	VERB	parataxis
+collectively	RB	collectively	AV0	ADV	advmod
+)	)	)	PUR	PUNCT	punct
+The	DT	the	AT0	DET	det
+followers	NNS	follower	NN2	NOUN	root
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+particular	JJ	particular	AJ0	ADJ	amod
+doctrine	NN	doctrine	NN1	NOUN	nmod
+;	:	;	PUN	PUNCT	punct
+a	DT	a	AT0	DET	det
+particular	JJ	particular	AJ0	ADJ	amod
+way	NN	way	NN1	NOUN	parataxis
+of	IN	of	PRF	SCONJ	mark
+thinking	VVG	think	VVG	VERB	advcl
+or	CC	or	CJC	CCONJ	cc
+particular	JJ	particular	AJ0	ADJ	amod
+doctrine	NN	doctrine	NN1	NOUN	conj
+;	:	;	PUN	PUNCT	punct
+a	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/school_of_thought">
+school	NN	school	NN1	NOUN	parataxis
+of	IN	of	PRF	ADP	case
+thought	NN	thought	NN1	NOUN	nmod
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+These	DT	this	DT0	DET	det
+economists	NNS	economist	NN2	NOUN	nsubj
+belong	VVP	belong	VVB	VERB	root
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+monetarist	JJ	monetarist	AJ0	ADJ	amod
+school	NN	school	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+The	DT	the	AT0	DET	det
+time	NN	time	NN1	NOUN	root
+during	IN	during	PRP	ADP	case
+which	WDT	which	DTQ	PRON	obl
+classes	NNS	class	NN2	NOUN	nsubj:pass
+are	VBP	be	VBB	AUX	aux:pass
+attended	VVN	attend	VVN	VERB	acl:relcl
+or	CC	or	CJC	CCONJ	cc
+in	IN	in	PRP	ADP	case
+session	NN	session	NN1	NOUN	conj
+in	IN	in	PRP	ADP	case
+an	DT	a	AT0	DET	det
+educational	JJ	educational	AJ0	ADJ	amod
+institution	NN	institution	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+I	PP	I	PNP	PRON	nsubj
+'ll	MD	will	VM0	AUX	aux
+see	VV	see	VVI	VERB	root
+you	PP	you	PNP	PRON	obj
+after	IN	after	PRP	ADP	case
+school	NN	school	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+The	DT	the	AT0	DET	det
+room	NN	room	NN1	NOUN	root
+or	CC	or	CJC	CCONJ	cc
+hall	NN	hall	NN1	NOUN	conj
+in	IN	in	PRP	ADP	case
+English	JJ	English	AJ0	ADJ	amod
+universities	NNS	university	NN2	NOUN	nmod
+where	WRB	where	AVQ	ADV	mark
+the	DT	the	AT0	DET	det
+examinations	NNS	examination	NN2	NOUN	nsubj:pass
+for	IN	for	PRP	ADP	case
+degrees	NNS	degree	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+honours	NNS	honour	NN2	NOUN	conj
+are	VBP	be	VBB	AUX	aux:pass
+held	VVN	hold	VVN	VERB	acl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+The	DT	the	AT0	DET	det
+canons	NNS	canon	NN2	NOUN	root
+,	,	,	PUN	PUNCT	punct
+precepts	NNS	precept	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+body	NN	body	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+opinion	NN	opinion	NN1	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+practice	NN	practice	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+sanctioned	VVN	sanction	VVN	VERB	acl
+by	IN	by	PRP	ADP	case
+the	DT	the	AT0	DET	det
+authority	NN	authority	NN1	NOUN	obl:agent
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+particular	JJ	particular	AJ0	ADJ	amod
+class	NN	class	NN1	NOUN	nmod
+or	CC	or	CJC	CCONJ	cc
+age	NN	age	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+was	VBD	be	VBD	AUX	cop
+a	DT	a	AT0	DET	det
+gentleman	NN	gentleman	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+old	JJ	old	AJ0	ADJ	amod
+school	NN	school	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+An	DT	a	AT0	DET	det
+establishment	NN	establishment	NN1	NOUN	root
+offering	VVG	offer	VVG	VERB	acl
+specialized	JJ	specialized	AJ0	ADJ	amod
+instruction	NN	instruction	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+as	IN	as	CJS	SCONJ	mark
+for	IN	for	PRP	ADP	fixed
+driving	VVG	drive	VVG	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+cooking	VVG	cook	VVG	VERB	conj
+,	,	,	PUN	PUNCT	punct
+typing	VVG	type	VVG	VERB	conj
+,	,	,	PUN	PUNCT	punct
+coding	VVG	code	VVG	VERB	conj
+,	,	,	PUN	PUNCT	punct
+etc.	FW	etc.	UNC	NOUN	conj
+</s>
+</item>
+</list>
+<s type="frag" transition="null">
+<hi rend="bold">
+Synonyms	NNS	synonym	NN2	NOUN	root
+</hi>
+</s>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+(	(	(	PUL	PUNCT	punct
+institution	NN	institution	NN1	NOUN	parataxis
+dedicated	VVN	dedicate	VVN	VERB	acl
+to	IN	to	PRP	ADP	case
+teaching	NN	teaching	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+learning	NN	learning	NN1	NOUN	conj
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/academy">
+academy	NN	academy	NN1	NOUN	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/college">
+college	NN	college	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/university">
+university	NN	university	NN1	NOUN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="establishment">
+(	(	(	PUL	PUNCT	punct
+organizational	JJ	organizational	AJ0	ADJ	amod
+unity	NN	unity	NN1	NOUN	parataxis
+within	IN	within	PRP	ADP	case
+an	DT	a	AT0	DET	det
+educational	JJ	educational	AJ0	ADJ	amod
+institution	NN	institution	NN1	NOUN	nmod
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/college">
+college	NN	college	NN1	NOUN	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/department">
+department	NN	department	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/faculty">
+faculty	NN	faculty	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/institute">
+institute	NN	institute	NN1	NOUN	conj
+</ref>
+</s>
+</item>
+</list>
+<s type="frag" transition="zero">
+<hi rend="bold">
+Hyponyms	NNS	hyponym	NN2	NOUN	root
+</hi>
+</s>
+<s type="imp" transition="null">
+See	VV	see	VVB	VERB	root
+also	RB	also	AV0	ADV	advmod
+<ref target="https://en.wiktionary.org/wiki/Thesaurus:school">
+Thesaurus	NN	thesaurus	NN1	NOUN	dep
+:	:	:	PUN	PUNCT	punct
+school	NN	school	NN1	NOUN	obj
+</ref>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+Coordinate	JJ	coordinate	AJ0	ADJ	amod
+terms	NNS	term	NN2	NOUN	root
+</hi>
+</s>
+<s type="other" transition="null">
+(	(	(	PUL	PUNCT	punct
+institution	NN	institution	NN1	NOUN	parataxis
+providing	VVG	provide	VVG	VERB	acl
+primary	JJ	primary	AJ0	ADJ	amod
+and	CC	and	CJC	CCONJ	cc
+secondary	JJ	secondary	AJ0	ADJ	conj
+education	NN	education	NN1	NOUN	obj
+)	)	)	PUR	PUNCT	punct
+:	:	:	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/nursery_school">
+nursery	NN	nursery	NN1	NOUN	compound
+school	NN	school	NN1	NOUN	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/kindergarten">
+kindergarten	NN	kindergarten	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/college">
+college	NN	college	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/polytechnic">
+polytechnic	NN	polytechnic	NN1	NOUN	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/university">
+university	NN	university	NN1	NOUN	conj
+</ref>
+</s>
+<s type="frag" transition="null">
+<hi rend="bold">
+Verb	NN	verb	NN1	NOUN	root
+</hi>
+</s>
+<s type="frag" transition="establishment">
+school	NN	school	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+third	JJ	third	ORD	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+person	NN	person	NN1	NOUN	compound
+singular	JJ	singular	AJ0	ADJ	amod
+simple	JJ	simple	AJ0	ADJ	amod
+present	JJ	present	AJ0	ADJ	dep
+<ref target="https://en.wiktionary.org/wiki/schools#English">
+schools	NNS	school	NN2	NOUN	parataxis
+</ref>
+,	,	,	PUN	PUNCT	punct
+present	JJ	present	AJ0	ADJ	amod
+participle	NN	participle	NN1	NOUN	dep
+<ref target="https://en.wiktionary.org/wiki/schooling#English">
+schooling	VVG	school	VVG	VERB	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+simple	JJ	simple	AJ0	ADJ	amod
+past	NN	past	NN1	NOUN	dep
+and	CC	and	CJC	CCONJ	cc
+past	JJ	past	AJ0	ADJ	amod
+participle	NN	participle	NN1	NOUN	conj
+<ref target="https://en.wiktionary.org/wiki/schooled#English">
+schooled	VVD	school	VVD	VERB	conj
+</ref>
+)	)	)	PUR	PUNCT	punct
+</s>
+<list type="ordered">
+<item>
+<s type="inf" transition="zero">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
+transitive	JJ	transitive	AJ0	ADJ	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+To	TO	to	TO0	PART	mark
+<ref target="https://en.wiktionary.org/wiki/educate">
+educate	VV	educate	VVI	VERB	root
+</ref>
+,	,	,	PUN	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/teach">
+teach	VV	teach	VVB	VERB	conj
+</ref>
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+<ref target="https://en.wiktionary.org/wiki/train">
+train	VV	train	NN1	VERB	conj
+</ref>
+(	(	(	PUL	PUNCT	punct
+often	RB	often	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+not	RB	not	XX0	PART	advmod
+necessarily	RB	necessarily	AV0	ADV	conj
+,	,	,	PUN	PUNCT	punct
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+school	NN	school	NN1	NOUN	obl
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="decl" transition="null">
+Many	JJ	many	DT0	ADJ	amod
+future	JJ	future	AJ0	ADJ	amod
+prime	JJ	prime	AJ0	ADJ	amod
+ministers	NNS	minister	NN2	NOUN	nsubj:pass
+were	VBD	be	VBD	AUX	aux:pass
+schooled	VVN	school	VVN	VERB	root
+in	IN	in	PRP	ADP	case
+Eton	NP	Eton	NP0	PROPN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="inf" transition="null">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
+transitive	JJ	transitive	AJ0	ADJ	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+To	TO	to	TO0	PART	mark
+<ref target="https://en.wiktionary.org/wiki/defeat">
+defeat	VV	defeat	VVI	VERB	root
+</ref>
+<ref target="https://en.wiktionary.org/wiki/emphatically">
+emphatically	RB	emphatically	AV0	ADV	advmod
+</ref>
+,	,	,	PUN	PUNCT	punct
+to	TO	to	TO0	PART	mark
+teach	VV	teach	VVI	VERB	conj
+an	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/opponent">
+opponent	NN	opponent	NN1	NOUN	iobj
+</ref>
+a	DT	a	AT0	DET	det
+<ref target="https://en.wiktionary.org/wiki/harsh">
+harsh	JJ	harsh	AJ0	ADJ	amod
+</ref>
+<ref target="https://en.wiktionary.org/wiki/lesson">
+lesson	NN	lesson	NN1	NOUN	obj
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="inf" transition="null">
+(	(	(	PUL	PUNCT	punct
+<ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
+transitive	JJ	transitive	AJ0	ADJ	parataxis
+</ref>
+)	)	)	PUR	PUNCT	punct
+To	TO	to	TO0	PART	mark
+control	VV	control	VVI	VERB	root
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+compose	VV	compose	VVI	VERB	conj
+,	,	,	PUN	PUNCT	punct
+one	PP	one	PNP	PRON	nmod:poss
+'s	POS	's	POS	PART	case
+expression	NN	expression	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="decl" transition="null">
+She	PP	she	PNP	PRON	nsubj
+took	VVD	take	VVD	VERB	root
+care	NN	care	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+school	VV	school	VVI	VERB	xcomp
+her	PP$	her	DPS	PRON	nmod:poss
+expression	NN	expression	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+not	RB	not	XX0	PART	advmod
+giving	VVG	give	VVG	VERB	advcl
+away	RP	away	AVP	ADP	compound:prt
+any	DT	any	DT0	DET	obj
+of	IN	of	PRF	ADP	case
+her	PP$	her	DPS	PRON	nmod:poss
+feelings	NNS	feeling	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+</text>

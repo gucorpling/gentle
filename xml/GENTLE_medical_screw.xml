@@ -1,0 +1,642 @@
+<text id="GENTLE_medical_screw" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="screw" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2082-Followup%20Screw%20Fixation" speakerCount="0" speakerList="none" title="Followup Screw Fixation" type="medical">
+<head rend="bold red">
+<s type="frag" transition="establishment">
+Description	NN	description	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Followup	NN	followup	NN1	NOUN	nmod
+4	CD	4	CRD	NUM	nummod
+months	NNS	month	NN2	NOUN	nmod:npmod
+status	NN	status	NN1	NOUN	root
+post	IN	post	PRP	ADP	case
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod
+screw	NN	screw	NN1	NOUN	compound
+fixation	NN	fixation	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+Schatzker	NP	Schatzker	NP0	PROPN	compound
+IV	NP	IV	NP0	PROPN	nmod:npmod
+tibial	JJ	tibial	AJ0	ADJ	amod
+plateau	NN	plateau	NN1	NOUN	compound
+fracture	NN	fracture	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+second	JJ	second	AJ0	ADJ	amod
+through	IN	through	PRP	ADP	case
+fifth	JJ	fifth	ORD	ADJ	obl
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod
+head	NN	head	NN1	NOUN	compound
+fractures	NNS	fracture	NN2	NOUN	conj
+treated	VVN	treat	VVN	VERB	acl
+nonoperatively	RB	nonoperatively	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+REASON	NN	reason	NN1	NOUN	root
+FOR	IN	for	PRP	ADP	case
+VISIT	NN	visit	NN1	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Followup	NN	followup	NN1	NOUN	dep
+4	CD	4	CRD	NUM	nummod
+months	NNS	month	NN2	NOUN	nmod:npmod
+status	NN	status	NN1	NOUN	root
+post	IN	post	PRP	ADP	case
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod
+screw	NN	screw	NN1	NOUN	compound
+fixation	NN	fixation	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+Schatzker	NP	Schatzker	NP0	PROPN	compound
+IV	NP	IV	NP0	PROPN	nmod:npmod
+tibial	JJ	tibial	AJ0	ADJ	amod
+plateau	NN	plateau	NN1	NOUN	compound
+fracture	NN	fracture	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+second	JJ	second	AJ0	ADJ	amod
+through	IN	through	PRP	ADP	case
+fifth	JJ	fifth	ORD	ADJ	obl
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod
+head	NN	head	NN1	NOUN	compound
+fractures	NNS	fracture	NN2	NOUN	conj
+treated	VVN	treat	VVN	VERB	acl
+nonoperatively	RB	nonoperatively	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+HISTORY	NN	history	NN1	NOUN	root
+OF	IN	of	PRF	ADP	case
+PRESENT	JJ	present	AJ0	ADJ	amod
+ILLNESS	NN	illness	NN1	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<w>
+59	CD	59	CRD	NUM	nummod
+-	HYPH	-	PUN	PUNCT	punct
+year	NN	year	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+old	JJ	old	AJ0	ADJ	amod
+</w>
+gentleman	NN	gentleman	NN1	NOUN	root
+who	WP	who	PNQ	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+now	RB	now	AV0	ADV	advmod
+approximately	RB	approximately	AV0	ADV	advmod
+4	CD	4	CRD	NUM	nummod
+months	NNS	month	NN2	NOUN	obl:npmod
+status	NN	status	NN1	NOUN	acl:relcl
+post	NN	post	NN1	NOUN	case
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod
+screw	NN	screw	NN1	NOUN	compound
+fixation	NN	fixation	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+Schatzker	NP	Schatzker	NP0	PROPN	compound
+IV	NP	IV	NP0	PROPN	compound
+tibial	JJ	tibial	AJ0	ADJ	amod
+plateau	NN	plateau	NN1	NOUN	compound
+fracture	NN	fracture	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+nonoperative	JJ	nonoperative	AJ0	ADJ	amod
+management	NN	management	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+second	JJ	second	AJ0	ADJ	amod
+through	IN	through	PRP	ADP	case
+fifth	JJ	fifth	ORD	ADJ	obl
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod
+head	NN	head	NN1	NOUN	compound
+fractures	NNS	fracture	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+He	PP	he	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+currently	RB	currently	AV0	ADV	advmod
+at	IN	at	PRP	ADP	case
+home	NN	home	NN1	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+has	VHZ	have	VHZ	AUX	aux
+left	VVN	leave	VVN	VERB	conj
+nursing	NN	nursing	NN1	NOUN	compound
+home	NN	home	NN1	NOUN	compound
+facility	NN	facility	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+states	VVZ	state	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+his	PP$	his	DPS	PRON	nmod:poss
+pain	NN	pain	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+well	RB	well	AV0	ADV	advmod
+controlled	VVN	control	VVN	VERB	ccomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux
+working	VVG	work	VVG	VERB	root
+with	IN	with	PRP	ADP	case
+physical	JJ	physical	AJ0	ADJ	amod
+therapy	NN	therapy	NN1	NOUN	obl
+two	CD	two	CRD	NUM	nummod
+to	IN	to	PRP	ADP	case
+three	CD	three	CRD	NUM	nmod
+times	NNS	time	NN2	NOUN	advmod
+a	DT	a	AT0	DET	det
+week	NN	week	NN1	NOUN	nmod:npmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+had	VHN	have	VHN	VERB	root
+no	DT	no	AT0	DET	det
+drainage	NN	drainage	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+fever	NN	fever	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+noticed	VVN	notice	VVN	VERB	root
+some	DT	some	DT0	DET	det
+increasing	VVG	increase	VVG	VERB	amod
+paresthesias	NN	paresthesia	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+bilateral	JJ	bilateral	AJ0	ADJ	amod
+feet	NNS	foot	NN2	NOUN	obl
+but	CC	but	CJC	CCONJ	cc
+has	VHZ	have	VHZ	VERB	conj
+a	DT	a	AT0	DET	det
+history	NN	history	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+spinal	JJ	spinal	AJ0	ADJ	amod
+stenosis	NN	stenosis	NN1	NOUN	nmod
+with	IN	with	PRP	ADP	case
+lower	JJR	low	AJC	ADJ	amod
+extremity	NN	extremity	NN1	NOUN	compound
+neuropathy	NN	neuropathy	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="zero">
+FINDINGS	NNS	finding	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+On	IN	on	PRP	ADP	case
+physical	JJ	physical	AJ0	ADJ	amod
+exam	NN	exam	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+his	PP$	his	DPS	PRON	nmod:poss
+incision	NN	incision	NN1	NOUN	nsubj:pass
+is	VBZ	be	VBZ	AUX	aux:pass
+near	RB	near	AV0	ADV	advmod
+well	RB	well	AV0	ADV	advmod
+healed	VVN	heal	VVN	VERB	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+no	DT	no	AT0	DET	det
+effusion	NN	effusion	NN1	NOUN	obj
+noted	VVN	note	VVN	VERB	acl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+His	PP$	his	DPS	PRON	nmod:poss
+range	NN	range	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+motion	NN	motion	NN1	NOUN	nmod
+is	VBZ	be	VBZ	AUX	cop
+10	CD	10	CRD	NUM	nummod
+to	IN	to	PRP	ADP	case
+105	CD	105	CRD	NUM	nmod
+degrees	NNS	degree	NN2	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+no	DT	no	AT0	DET	det
+pain	NN	pain	NN1	NOUN	obj
+or	CC	or	CJC	CCONJ	cc
+crepitance	NN	crepitance	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+On	IN	on	PRP	ADP	case
+examination	NN	examination	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+right	JJ	right	AJ0	ADJ	amod
+foot	NN	foot	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+he	PP	he	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+nontender	JJ	nontender	AJ0	ADJ	root
+to	IN	to	PRP	ADP	case
+palpation	NN	palpation	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod
+heads	NNS	head	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+4	CD	4	CRD	NUM	nummod
+out	IN	out	PRP	ADP	case
+of	IN	of	PRF	ADP	case
+5	CD	5	CRD	NUM	nmod
+strength	NN	strength	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+EHL	NP	EHL	NP0	PROPN	nmod
+,	,	,	PUN	PUNCT	punct
+FHL	NP	FHL	NP0	PROPN	conj
+,	,	,	PUN	PUNCT	punct
+tibialis	NN	tibialis	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+<w>
+gastroc	NN	gastroc	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+soleus	NN	soleus	NN0	NOUN	compound
+</w>
+complex	NN	complex	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+does	VVZ	do	VDZ	AUX	aux
+have	VH	have	VHI	VERB	root
+decreased	VVN	decrease	VVN	VERB	amod
+sensation	NN	sensation	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+light	JJ	light	AJ0	ADJ	amod
+touch	NN	touch	NN1	NOUN	nmod
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+<w>
+L4	NP	L4	NP0	PROPN	compound
+-	HYPH	-	PUN	PUNCT	case
+L5	NP	L5	NP0	PROPN	nmod
+</w>
+distribution	NN	distribution	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+feet	NNS	foot	NN2	NOUN	nmod
+bilaterally	RB	bilaterally	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="zero">
+<w>
+X	NN	X	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+rays	NNS	ray	NN2	NOUN	nsubj
+</w>
+taken	VVN	take	VVN	VERB	acl
+including	VVG	include	VVG	VERB	case
+AP	NP	AP	NP0	PROPN	nmod
+and	CC	and	CJC	CCONJ	cc
+lateral	NN	lateral	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+knee	NN	knee	NN1	NOUN	nmod
+demonstrate	VVP	demonstrate	VVB	VERB	root
+a	DT	a	AV0	DET	det
+healed	VVN	heal	VVN	VERB	amod
+medial	JJ	medial	AJ0	ADJ	amod
+tibial	JJ	tibial	AJ0	ADJ	amod
+plateau	NN	plateau	NN1	NOUN	compound
+fracture	NN	fracture	NN1	NOUN	compound
+status	NN	status	NN1	NOUN	obj
+post	NN	post	NN1	NOUN	case
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod
+screw	NN	screw	NN1	NOUN	compound
+fixation	NN	fixation	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Examination	NN	examination	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+three	CD	three	CRD	NUM	nummod
+views	NNS	view	NN2	NOUN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+foot	NN	foot	NN1	NOUN	nmod
+demonstrates	VVZ	demonstrate	VVZ	VERB	root
+the	DT	the	AT0	DET	det
+second	JJ	second	ORD	ADJ	amod
+through	IN	through	PRP	ADP	case
+fifth	JJ	fifth	ORD	ADJ	obl
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod
+head	NN	head	NN1	NOUN	compound
+fractures	NNS	fracture	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+These	DT	this	DT0	PRON	nsubj
+appear	VVP	appear	VVB	VERB	root
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	AUX	cop
+extraarticular	JJ	extraarticular	AJ0	ADJ	xcomp
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+They	PP	they	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+all	RB	all	AV0	ADV	advmod
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+bayonet	NN	bayonet	NN1	NOUN	compound
+arrangement	NN	arrangement	NN1	NOUN	root
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+there	EX	there	EX0	PRON	expl
+appears	VVZ	appear	VVZ	VERB	conj
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	VERB	xcomp
+bridging	VVG	bridge	VVG	VERB	amod
+callus	NN	callus	NN1	NOUN	nsubj
+between	IN	between	PRP	ADP	case
+the	DT	the	AT0	DET	det
+fragments	NNS	fragment	NN2	NOUN	nmod
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+oblique	JJ	oblique	AJ0	ADJ	amod
+film	NN	film	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="zero">
+ASSESSMENT	NN	assessment	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Four	CD	four	CRD	NUM	nummod
+months	NNS	month	NN2	NOUN	nmod
+status	NN	status	NN1	NOUN	root
+post	IN	post	PRP	ADP	case
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod
+screw	NN	screw	NN1	NOUN	compound
+fixation	NN	fixation	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+medial	JJ	medial	AJ0	ADJ	amod
+tibial	JJ	tibial	AJ0	ADJ	amod
+plateau	NN	plateau	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+second	JJ	second	AJ0	ADJ	amod
+through	IN	through	PRP	ADP	case
+fifth	JJ	fifth	ORD	ADJ	obl
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod
+head	NN	head	NN1	NOUN	compound
+fractures	NNS	fracture	NN2	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+PLANS	NNS	plan	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="sub" transition="null">
+I	PP	I	PNP	PRON	nsubj
+would	MD	would	VM0	AUX	aux
+like	VV	like	VVI	VERB	root
+the	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+continue	VV	continue	VVI	VERB	xcomp
+working	VVG	work	VVG	VERB	xcomp
+with	IN	with	PRP	ADP	case
+physical	JJ	physical	AJ0	ADJ	amod
+therapy	NN	therapy	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="establishment">
+He	PP	he	PNP	PRON	nsubj:outer
+may	MD	may	VM0	AUX	aux
+be	VB	be	VBI	AUX	cop
+weight	NN	weight	NN1	NOUN	compound
+bearing	VVG	bear	VVG	VERB	root
+as	IN	as	PRP	SCONJ	mark
+tolerated	VVN	tolerate	VVN	VERB	advcl
+on	IN	on	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+right	JJ	right	AJ0	ADJ	amod
+side	NN	side	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+would	MD	would	VM0	AUX	aux
+like	VV	like	VVI	VERB	root
+him	PP	he	PNP	PRON	obj
+to	TO	to	TO0	PART	mark
+try	VV	try	VVI	VERB	xcomp
+to	TO	to	TO0	PART	mark
+continue	VV	continue	VVI	VERB	xcomp
+to	TO	to	TO0	PART	mark
+work	VV	work	VVI	VERB	xcomp
+to	TO	to	TO0	PART	mark
+gain	VV	gain	VVI	VERB	advcl
+full	JJ	full	AJ0	ADJ	amod
+extension	NN	extension	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+knee	NN	knee	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+increase	VV	increase	VVB	VERB	conj
+his	PP$	his	DPS	PRON	nmod:poss
+knee	NN	knee	NN1	NOUN	compound
+flexion	NN	flexion	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="smooth-shift">
+I	PP	I	PNP	PRON	nsubj
+also	RB	also	AV0	ADV	advmod
+would	MD	would	VM0	AUX	aux
+like	VV	like	VVI	VERB	root
+him	PP	he	PNP	PRON	obj
+to	TO	to	TO0	PART	mark
+work	VV	work	VVI	VERB	xcomp
+on	IN	on	PRP	ADP	case
+ambulation	NN	ambulation	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+strengthening	NN	strengthening	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+discussed	VVD	discuss	VVD	VERB	root
+with	IN	with	PRP	ADP	case
+the	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	obl
+his	PP$	his	DPS	PRON	nmod:poss
+concerning	VVG	concern	VVG	VERB	amod
+symptoms	NNS	symptom	NN2	NOUN	obj
+of	IN	of	PRF	ADP	case
+paresthesias	NN	paresthesia	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+He	PP	he	PNP	PRON	nsubj
+said	VVD	say	VVD	VERB	root
+he	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+had	VHN	have	VHN	VERB	ccomp
+the	DT	the	AT0	DET	det
+left	JJ	left	AJ0	ADJ	amod
+thigh	NN	thigh	NN1	NOUN	obj
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+number	NN	number	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+years	NNS	year	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	aux:pass
+followed	VVN	follow	VVN	VERB	conj
+by	IN	by	PRP	ADP	case
+a	DT	a	AT0	DET	det
+neurologist	NN	neurologist	NN1	NOUN	obl:agent
+for	IN	for	PRP	ADP	case
+this	DT	this	DT0	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+states	VVZ	state	VVZ	VERB	root
+that	IN/that	that	CJT	SCONJ	mark
+he	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+had	VHN	have	VHN	VERB	ccomp
+some	DT	some	DT0	DET	det
+<w>
+right	NN	right	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+sided	VVN	side	VVN	VERB	amod
+</w>
+paresthesias	NN	paresthesia	NN1	NOUN	obj
+now	RB	now	AV0	ADV	advmod
+for	IN	for	PRP	ADP	case
+a	DT	a	AT0	DET	det
+number	NN	number	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+weeks	NNS	week	NN2	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+claims	VVZ	claim	VVZ	VERB	root
+he	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	ccomp
+no	DT	no	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+symptoms	NNS	symptom	NN2	NOUN	obj
+of	IN	of	PRF	ADP	case
+any	DT	any	DT0	DET	det
+worsening	VVG	worsen	VVG	VERB	amod
+stenosis	NN	stenosis	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="retain">
+I	PP	I	PNP	PRON	nsubj
+told	VVD	tell	VVD	VERB	root
+him	PP	he	PNP	PRON	iobj
+that	IN/that	that	CJT	SCONJ	mark
+I	PP	I	PNP	PRON	nsubj
+would	MD	would	VM0	AUX	aux
+see	VV	see	VVI	VERB	ccomp
+his	PP$	his	DPS	PRON	nmod:poss
+neurologist	NN	neurologist	NN1	NOUN	obj
+for	IN	for	PRP	ADP	case
+evaluation	NN	evaluation	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+possibly	RB	possibly	AV0	ADV	orphan
+a	DT	a	AT0	DET	det
+spinal	JJ	spinal	AJ0	ADJ	amod
+surgeon	NN	surgeon	NN1	NOUN	conj
+if	IN	if	CJS	SCONJ	mark
+his	PP$	his	DPS	PRON	nmod:poss
+symptoms	NNS	symptom	NN2	NOUN	nsubj
+progress	VVP	progress	VVB	VERB	advcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="sub" transition="continue">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+should	MD	should	VM0	AUX	aux
+follow	VV	follow	VVI	VERB	root
+up	RP	up	AVP	ADP	compound:prt
+in	IN	in	PRP	ADP	case
+2	CD	2	CRD	NUM	nummod
+months	NNS	month	NN2	NOUN	obl
+at	IN	at	PRP	ADP	case
+which	WDT	which	DTQ	DET	det
+time	NN	time	NN1	NOUN	obl
+he	PP	he	PNP	PRON	nsubj
+should	MD	should	VM0	AUX	aux
+have	VH	have	VHI	VERB	acl:relcl
+AP	NP	AP	NP0	PROPN	obj
+and	CC	and	CJC	CCONJ	cc
+lateral	NN	lateral	NN1	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+knee	NN	knee	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+three	CD	three	CRD	NUM	nummod
+views	NNS	view	NN2	NOUN	conj
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+foot	NN	foot	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+</text>

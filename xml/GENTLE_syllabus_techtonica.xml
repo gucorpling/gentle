@@ -1,0 +1,2731 @@
+<text id="GENTLE_syllabus_techtonica" author="Techtonica" dateCollected="2022-11-10" dateCreated="2020-01-02" dateModified="2022-05-18"  shortTitle="techtonica" sourceURL="https://github.com/Techtonica/curriculum/blob/main/README.md" speakerCount="0" speakerList="none" title="Welcome to the Techtonica curriculum!" type="syllabus">
+<head>
+<s type="frag" transition="establishment">
+Welcome	UH	welcome	ITJ	INTJ	root
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Techtonica	NP	Techtonica	NP0	PROPN	compound
+curriculum	NN	curriculum	NN1	NOUN	obl
+!	SENT	!	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="establishment">
+Techtonica	NP	Techtonica	NP0	PROPN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+non-profit	JJ	non-profit	AJ0	ADJ	amod
+project	NN	project	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+SocialGood	NP	SocialGood	NP0	PROPN	nmod
+that	WDT	that	CJT	PRON	nsubj
+does	VVZ	do	VDZ	VERB	acl:relcl
+free	JJ	free	AJ0	ADJ	amod
+tech	NN	tech	NN1	NOUN	compound
+training	NN	training	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+job	NN	job	NN1	NOUN	compound
+placement	NN	placement	NN1	NOUN	conj
+for	IN	for	PRP	ADP	case
+unemployed	JJ	unemployed	AJ0	ADJ	amod
+or	CC	or	CJC	CCONJ	cc
+underemployed	JJ	underemployed	AJ0	ADJ	conj
+folks	NNS	folk	NN2	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="zero">
+For	IN	for	PRP	ADP	case
+more	JJR	more	DT0	ADJ	amod
+information	NN	information	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+please	UH	please	ITJ	INTJ	discourse
+see	VV	see	VVB	VERB	root
+our	PP$	our	DPS	PRON	nmod:poss
+website	NN	website	NN1	NOUN	obj
+:	:	:	PUN	PUNCT	punct
+<ref target="http://techtonica.org">
+Techtonica.org	NP	Techtonica.org	NP0	PROPN	appos
+</ref>
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+Program	NN	program	NN1	NOUN	compound
+participants	NNS	participant	NN2	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+learn	VV	learn	VVI	VERB	root
+to	TO	to	TO0	PART	mark
+do	VV	do	VDI	VERB	xcomp
+<w>
+full	JJ	full	AJ0	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+stack	NN	stack	NN1	NOUN	compound
+</w>
+web	NN	web	NN1	NOUN	compound
+development	NN	development	NN1	NOUN	obj
+using	VVG	use	VVG	VERB	advcl
+JavaScript	NP	JavaScript	NP0	PROPN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+What	WP	what	PNQ	PRON	nsubj
+bootcamps	NNS	bootcamp	NN2	NOUN	nsubj
+and	CC	and	CJC	CCONJ	cc
+Techtonica	NP	Techtonica	NP0	PROPN	conj
+have	VHP	have	VHB	VERB	acl:relcl
+in	IN	in	PRP	ADP	case
+common	JJ	common	AJ0	ADJ	obl
+is	VBZ	be	VBZ	AUX	cop
+the	DT	the	AT0	DET	det
+fact	NN	fact	NN1	NOUN	root
+that	IN/that	that	CJT	SCONJ	mark
+they	PP	they	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+intensive	JJ	intensive	AJ0	ADJ	amod
+training	NN	training	NN1	NOUN	acl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+However	RB	however	AV0	ADV	advmod
+,	,	,	PUN	PUNCT	punct
+bootcamps	NNS	bootcamp	NN2	NOUN	nsubj
+can	MD	can	VM0	AUX	aux
+be	VB	be	VBI	AUX	cop
+pretty	RB	pretty	AV0	ADV	advmod
+passive	JJ	passive	AJ0	ADJ	amod
+classroom	NN	classroom	NN1	NOUN	compound
+learning	NN	learning	NN1	NOUN	root
+and	CC	and	CJC	CCONJ	cc
+they	PP	they	PNP	PRON	nsubj
+cost	VVP	cost	VVB	VERB	conj
+<w>
+$	SYM	$	UNC	SYM	obj
+15,000	CD	15000	CRD	NUM	nummod
++	SYM	+	UNC	SYM	advmod
+</w>
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+students	NNS	student	NN2	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="zero">
+Techtonica	NP	Techtonica	NP0	PROPN	nsubj
+aims	VVZ	aim	VVZ	VERB	root
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	AUX	cop
+more	RBR	more	AV0	ADV	advmod
+like	IN	like	PRP	ADP	case
+the	DT	the	AT0	DET	det
+workplace	NN	workplace	NN1	NOUN	xcomp
+to	TO	to	TO0	PART	mark
+make	VV	make	VVI	VERB	advcl
+the	DT	the	AT0	DET	det
+transition	NN	transition	NN1	NOUN	obj
+into	IN	into	PRP	ADP	case
+the	DT	the	AT0	DET	det
+industry	NN	industry	NN1	NOUN	nmod
+<w>
+better	RBR	well	AV0	ADV	xcomp
+—	:	—	AJ0	PUNCT	punct
+instead	RB	instead	AV0	ADV	mark
+</w>
+of	IN	of	PRF	ADP	fixed
+having	VHG	have	VHG	VERB	advcl
+an	DT	a	AT0	DET	det
+instructor	NN	instructor	NN1	NOUN	obj
+constantly	RB	constantly	AV0	ADV	advmod
+guiding	VVG	guide	VVG	VERB	acl:relcl
+you	PP	you	PNP	PRON	obj
+(	(	(	PUL	PUNCT	punct
+which	WDT	which	DTQ	PRON	nsubj:outer
+you	PP	you	PNP	PRON	nsubj
+wo	MD	will	VM0	AUX	aux
+n’t	RB	not	XX0	PART	advmod
+have	VH	have	VHB	VERB	acl:relcl
+in	IN	in	PRP	ADP	case
+any	DT	any	DT0	DET	det
+software	NN	software	NN1	NOUN	compound
+engineering	NN	engineering	NN1	NOUN	compound
+job	NN	job	NN1	NOUN	obl
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+you	PP	you	PNP	PRON	nsubj:pass
+are	VBP	be	VBB	AUX	aux:pass
+given	VVN	give	VVN	VERB	parataxis
+a	DT	a	AT0	DET	det
+general	JJ	general	AJ0	ADJ	amod
+schedule	NN	schedule	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+topics	NNS	topic	NN2	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+assignments	NNS	assignment	NN2	NOUN	conj
+(	(	(	PUL	PUNCT	punct
+see	VV	see	VVB	VERB	parataxis
+our	PP$	our	DPS	PRON	nmod:poss
+curriculum	NN	curriculum	NN1	NOUN	compound
+repo	NN	repo	NN1	NOUN	obj
+for	IN	for	PRP	ADP	case
+an	DT	a	AT0	DET	det
+idea	NN	idea	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+resources	NNS	resource	NN2	NOUN	nmod
+provided	VVN	provide	VVN	VERB	acl
+)	)	)	PUR	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+you	PP	you	PNP	PRON	nsubj:pass
+’re	VBP	be	AJ0	AUX	aux:pass
+expected	VVN	expect	VVN	VERB	conj
+to	TO	to	TO0	PART	mark
+figure	VV	figure	VVI	VERB	xcomp
+out	RP	out	AVP	ADP	compound:prt
+what	WP	what	PNQ	PRON	obj
+to	TO	to	TO0	PART	mark
+do	VV	do	VDI	VERB	acl
+on	IN	on	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+own	JJ	own	DT0	ADJ	obl
+or	CC	or	CJC	CCONJ	cc
+in	IN	in	PRP	ADP	case
+collaboration	NN	collaboration	NN1	NOUN	conj
+with	IN	with	PRP	ADP	case
+volunteers	NNS	volunteer	NN2	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+mentors	NNS	mentor	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+tech	NN	tech	NN1	NOUN	compound
+groups	NNS	group	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+other	JJ	other	AJ0	ADJ	amod
+participants	NNS	participant	NN2	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+We	PP	we	PNP	PRON	nsubj
+’re	VBP	be	AJ0	AUX	aux
+making	VVG	make	VVG	VERB	root
+Techtonica	NP	Techtonica	NP0	PROPN	nmod:poss
+’s	POS	's	POS	PART	case
+program	NN	program	NN1	NOUN	obj
+as	RB	as	PRP	ADV	advmod
+<w>
+hands	NNS	hand	NN2	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+on	RB	on	PRP	ADV	xcomp
+</w>
+and	CC	and	CJC	CCONJ	cc
+<w>
+project	NN	project	NN1	NOUN	compound
+-	:	-	PUN	PUNCT	punct
+based	VVN	base	VVN	VERB	conj
+</w>
+as	IN	as	PRP	SCONJ	mark
+possible	JJ	possible	AJ0	ADJ	advcl
+to	TO	to	TO0	PART	mark
+best	RBS	well	AV0	ADV	advmod
+prepare	VV	prepare	VVB	VERB	advcl
+you	PP	you	PNP	PRON	obj
+for	IN	for	PRP	ADP	case
+work	NN	work	NN1	NOUN	obl
+in	IN	in	PRP	ADP	case
+tech	NN	tech	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="imp" transition="zero">
+<hi rend="bold">
+<ref target="./README.md#table-of-contents">
+Jump	VV	jump	VVB	VERB	root
+to	IN	to	PRP	ADP	case
+Curriculum	NN	curriculum	NN1	NOUN	compound
+Table	NN	table	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+Contents	NNS	content	NN2	NOUN	nmod
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</hi>
+</s>
+</p>
+<head>
+<s type="frag" transition="establishment">
+Table	NN	table	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+Contents	NNS	content	NN2	NOUN	nmod
+</s>
+</head>
+<p>
+<s type="decl" transition="zero">
+The	DT	the	AT0	DET	det
+following	VVG	follow	VVG	VERB	nsubj
+is	VBZ	be	VBZ	AUX	cop
+the	DT	the	AT0	DET	det
+approximate	JJ	approximate	AJ0	ADJ	amod
+sequence	NN	sequence	NN1	NOUN	root
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+topics	NNS	topic	NN2	NOUN	nmod
+during	IN	during	PRP	ADP	case
+the	DT	the	AT0	DET	det
+program	NN	program	NN1	NOUN	nmod
+but	CC	but	CJC	CCONJ	cc
+is	VBZ	be	VBZ	AUX	aux:pass
+always	RB	always	AV0	ADV	advmod
+being	VBG	be	VBG	AUX	aux:pass
+tuned	VVN	tune	VVN	VERB	conj
+and	CC	and	CJC	CCONJ	cc
+optimized	VVN	optimize	VVN	VERB	conj
+so	RB	so	AV0	ADV	advmod
+if	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+have	VHP	have	VHB	VERB	advcl
+questions	NNS	question	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+please	UH	please	ITJ	INTJ	discourse
+open	VV	open	VVB	VERB	parataxis
+an	DT	a	AT0	DET	det
+issue	NN	issue	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+<ref target="week-0---pre-work">
+Week	NN	week	NN1	NOUN	root
+0	CD	0	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Pre	JJ	pre	AJ0	ADJ	compound
+-	HYPH	-	PUN	PUNCT	punct
+Work	NN	work	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-1---onboarding--developer-tools">
+Week	NN	week	NN1	NOUN	root
+1	CD	1	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Onboarding	NN	onboarding	NN1	NOUN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Developer	NN	developer	NN1	NOUN	compound
+Tools	NNS	tool	NN2	NOUN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-2---webpages-html--css">
+Week	NN	week	NN1	NOUN	root
+2	CD	2	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Webpages	NNS	webpage	NN2	NOUN	appos
+:	:	:	PUN	PUNCT	punct
+HTML	NP	HTML	NP0	PROPN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+CSS	NP	CSS	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-3---javascript-fundamentals">
+Week	NN	week	NN1	NOUN	root
+3	CD	3	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+JavaScript	NN	javascript	NN1	NOUN	compound
+Fundamentals	NNS	fundamental	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="establishment">
+<ref target="week-4---intermediate-javascript-and-React">
+Week	NN	week	NN1	NOUN	root
+4	CD	4	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Intermediate	JJ	intermediate	AJ0	ADJ	amod
+JavaScript	NP	JavaScript	NP0	PROPN	appos
+and	CC	and	CJC	CCONJ	cc
+React	NP	React	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="zero">
+<ref target="week-5---web-apis">
+Week	NN	week	NN1	NOUN	root
+5	CD	5	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Web	NN	web	NN1	NOUN	compound
+APIs	NNS	API	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-6---databases">
+Week	NN	week	NN1	NOUN	root
+6	CD	6	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Databases	NNS	database	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-7---Advanced-JS-and-React">
+Week	NN	week	NN1	NOUN	root
+7	CD	7	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Advanced	JJ	advanced	AJ0	ADJ	amod
+JS	NN	JS	NN1	NOUN	appos
+and	CC	and	CJC	CCONJ	cc
+React	NP	React	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="ger" transition="null">
+<ref target="week-8---Testing">
+Week	NN	week	NN1	NOUN	root
+8	CD	8	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Testing	VVG	test	VVG	VERB	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-9---eventonica">
+Week	NN	week	NN1	NOUN	root
+9	CD	9	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Eventonica	NP	Eventonica	NP0	PROPN	compound
+Project	NN	project	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-10---more-pern--assessments">
+Week	NN	week	NN1	NOUN	root
+10	CD	10	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+More	JJR	more	DT0	ADJ	advmod
+PERN	NP	PERN	NP0	PROPN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Review	NN	review	NN1	NOUN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-11---data-structures--algorithms">
+Week	NN	week	NN1	NOUN	root
+11	CD	11	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Algorithms	NNS	algorithm	NN2	NOUN	conj
+</ref>
+</s>
+<s type="frag" transition="establishment">
+<ref target="data-structures">
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+</ref>
+</s>
+<s type="frag" transition="zero">
+<ref target="algorithms">
+Algorithms	NNS	algorithm	NN2	NOUN	root
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-12---final-assessments">
+Week	NN	week	NN1	NOUN	root
+12	CD	12	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Final	JJ	final	AJ0	ADJ	amod
+Assessments	NNS	assessment	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-13---career-week">
+Week	NN	week	NN1	NOUN	root
+13	CD	13	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	appos
+!	SENT	!	PUN	PUNCT	punct
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<ref target="week-14---project-prep-week--electives">
+Week	NN	week	NN1	NOUN	root
+14	CD	14	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Project	NN	project	NN1	NOUN	compound
+Prep	NN	prep	NN1	NOUN	compound
+Week	NN	week	NN1	NOUN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Electives	NNS	elective	NN2	NOUN	conj
+</ref>
+</s>
+</item>
+<item>
+<s type="frag" transition="establishment">
+<ref target="weeks-15-final-project">
+Weeks	NNS	week	NN2	NOUN	root
+<w>
+15	CD	15	CRD	NUM	dep
++	SYM	+	UNC	SYM	conj
+</w>
+-	:	-	PUN	PUNCT	punct
+Final	JJ	final	AJ0	ADJ	amod
+Project	NN	project	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+0	CD	0	CRD	NUM	dep
+-	:	-	PUN	PUNCT	punct
+Pre	JJ	pre	AJ0	ADJ	compound
+-	HYPH	-	PUN	PUNCT	punct
+Work	NN	work	NN1	NOUN	appos
+</s>
+</head>
+<s type="decl" transition="null">
+Before	IN	before	PRP	SCONJ	mark
+beginning	VVG	begin	VVG	VERB	advcl
+the	DT	the	AT0	DET	det
+program	NN	program	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+participants	NNS	participant	NN2	NOUN	nsubj
+meet	VVP	meet	VVB	VERB	root
+weekly	RB	weekly	AJ0	ADV	advmod
+for	IN	for	PRP	ADP	case
+4	CD	4	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	obl
+to	TO	to	TO0	PART	mark
+learn	VV	learn	VVI	VERB	advcl
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+fundamentals	NNS	fundamental	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="establishment">
+Participants	NNS	participant	NN2	NOUN	nsubj
+should	MD	should	VM0	AUX	aux
+memorize	VV	memorize	VVI	VERB	root
+<ref target="/javascript/common-functions-cheatsheet.md">
+common	JJ	common	AJ0	ADJ	amod
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+<w>
+built	VVN	build	VVN	VERB	amod
+-	HYPH	-	PUN	PUNCT	punct
+in	RP	in	AVP	ADP	compound:prt
+</w>
+functions	NNS	function	NN2	NOUN	obj
+</ref>
+within	IN	within	PRP	ADP	case
+the	DT	the	AT0	DET	det
+first	JJ	first	ORD	ADJ	amod
+month	NN	month	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+1	CD	1	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Onboarding	NN	onboarding	NN1	NOUN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Developer	NN	developer	NN1	NOUN	compound
+Tools	NNS	tool	NN2	NOUN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+<ref target="/onboarding/tech-industry-tips.md">
+1.	LS	1.	CRD	X	dep
+Welcome	NN	welcome	NN1	NOUN	root
+,	,	,	PUN	PUNCT	punct
+Tips	NNS	tip	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+Rules	NNS	rule	NN2	NOUN	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="https://docs.google.com/document/d/1IWny-IXB-XDWW21l3JODwPuh1QOVBFQbii_DjvF0g00/edit?usp=sharing">
+2.	LS	2.	CRD	X	dep
+Expectations	NNS	expectation	NN2	NOUN	root
+While	IN	while	CJS	SCONJ	mark
+at	IN	at	PRP	ADP	case
+Techtonica	NP	Techtonica	NP0	PROPN	advcl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="null">
+<ref target="/onboarding/learning-to-learn.md">
+3.	LS	3.	CRD	X	dep
+How	WRB	how	AVQ	ADV	root
+to	TO	to	TO0	PART	mark
+Learn	VV	learn	VVB	VERB	acl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/onboarding/professionalism.md">
+4.	LS	4.	CRD	X	dep
+Professionalism	NN	professionalism	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="null">
+<ref target="/career/roles-in-tech/roles-in-tech.md">
+5.	LS	5.	CRD	X	dep
+Roles	NNS	role	NN2	NOUN	root
+in	IN	in	PRP	ADP	case
+Tech	NN	tech	NN1	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="null">
+<ref target="/dev-tools/command-line-interface.md">
+6.	LS	6.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+Command	NN	command	NN1	NOUN	compound
+Line	NN	line	NN1	NOUN	compound
+Interface	NN	interface	NN1	NOUN	compound
+Tools	NNS	tool	NN2	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="null">
+<ref target="/dev-tools/command-line-advanced.md">
+7.	LS	7.	CRD	X	dep
+Advanced	JJ	advanced	AJ0	ADJ	amod
+Command	NN	command	NN1	NOUN	compound
+Line	NN	line	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="null">
+<ref target="/dev-tools/dot-profile.md">
+8.	LS	8.	CRD	X	dep
+Bash	NP	Bash	NP0	PROPN	compound
+Profile	NN	profile	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="frag" transition="null">
+<ref target="/dev-tools/vim.md">
+9.	LS	9.	CRD	X	dep
+Vim	NP	Vim	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="10">
+<s type="frag" transition="null">
+<ref target="https://github.com/Techtonica/curriculum/issues/1155">
+10.	LS	10.	CRD	X	dep
+Home	NN	home	NN1	NOUN	compound
+brew	NN	brew	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="11">
+<s type="frag" transition="null">
+<ref target="/onboarding/pair-programming.md">
+11.	LS	11.	CRD	X	dep
+How	WRB	how	AVQ	ADV	root
+to	TO	to	TO0	PART	mark
+Pair	NN	pair	NN1	NOUN	acl
+Program	VV	program	NN1	VERB	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="12">
+<s type="frag" transition="null">
+<ref target="/projects/first-assessment.md">
+12.	LS	12.	CRD	X	dep
+Project	NN	project	NN1	NOUN	root
+0	CD	0	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Week	NN	week	NN1	NOUN	compound
+1	CD	1	CRD	NUM	nummod
+Review	NN	review	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="13">
+<s type="frag" transition="null">
+<ref target="/dev-tools/operating-systems.md">
+13.	LS	13.	CRD	X	dep
+Operating	NN	operating	NN1	NOUN	compound
+Systems	NNS	system	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="14">
+<s type="frag" transition="null">
+<ref target="/dev-tools/keyboard-shortcuts.md">
+14.	LS	14.	CRD	X	dep
+Keyboard	NN	keyboard	NN1	NOUN	compound
+Shortcuts	NNS	shortcut	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="15">
+<s type="frag" transition="null">
+<ref target="/onboarding/ergonomics.md">
+15.	LS	15.	CRD	X	dep
+Ergonomics	NNS	ergonomics	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="16">
+<s type="frag" transition="null">
+<ref target="/onboarding/YCLA_LessonPlan_v10.pdf">
+16.	LS	16.	CRD	X	dep
+Growth	NN	growth	NN1	NOUN	compound
+Mindset	NN	mindset	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="17">
+<s type="ger" transition="null">
+<ref target="/onboarding/asking-good-questions.md">
+17.	LS	17.	CRD	X	dep
+Asking	VVG	ask	VVG	VERB	root
+Good	JJ	good	AJ0	ADJ	amod
+Questions	NNS	question	NN2	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="18">
+<s type="frag" transition="null">
+<ref target="/career/networking-career.md">
+18.	LS	18.	CRD	X	dep
+Networking	NN	networking	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+Career	NN	career	NN1	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="19">
+<s type="frag" transition="null">
+<ref target="/chrome-developer-tools/chrome-developer-tools.md">
+19.	LS	19.	CRD	X	dep
+Chrome	NP	Chrome	NP0	PROPN	compound
+Developer	NP	Developer	NP0	PROPN	compound
+Tools	NPS	Tool	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Setup	NN	setup	NN1	NOUN	parataxis
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="20">
+<s type="frag" transition="null">
+20.	LS	20.	CRD	X	dep
+One	CD	one	CRD	NUM	root
+of	IN	of	PRF	ADP	case
+either	DT	either	AV0	DET	nmod
+:	:	:	PUN	PUNCT	punct
+<ref target="onboarding/living-in-open-workspaces.md">
+Living	VVG	live	VVG	VERB	appos
+in	IN	in	PRP	ADP	case
+Open	JJ	open	AJ0	ADJ	amod
+Workspaces	NNS	workspace	NN2	NOUN	obl
+</ref>
+or	CC	or	CJC	CCONJ	cc
+<ref target="career/working-and-collaborating-remotely.md">
+Working	VVG	work	VVG	VERB	conj
+Remotely	RB	remotely	AV0	ADV	advmod
+</ref>
+depending	VVG	depend	VVG	VERB	case
+on	IN	on	PRP	ADP	fixed
+program	NN	program	NN1	NOUN	compound
+status	NN	status	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="21">
+<s type="frag" transition="null">
+<ref target="/web/html.md">
+21.	LS	21.	CRD	X	dep
+HTML	NP	HTML	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="22">
+<s type="frag" transition="null">
+<ref target="/web/css.md">
+22.	LS	22.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+CSS	NP	CSS	NP0	PROPN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="23">
+<s type="frag" transition="null">
+<ref target="/web/js-dom-methods.md">
+23.	LS	23.	CRD	X	dep
+JS	NP	JS	NP0	PROPN	dep
+HTML	NP	HTML	NP0	PROPN	compound
+DOM	NP	DOM	NP0	PROPN	compound
+Methods	NNS	method	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="24">
+<s type="ger" transition="null">
+<ref target="/debugging/debugging.md">
+24.	LS	24.	CRD	X	dep
+Debugging	VVG	debug	VVG	VERB	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="25">
+<s type="frag" transition="null">
+<ref target="/projects/recipe-page/phase-1-html-prompt.md">
+25.	LS	25.	CRD	X	dep
+Recipe	NN	recipe	NN1	NOUN	compound
+Page	NN	page	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+HTML	NP	HTML	NP0	PROPN	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="establishment">
+Week	NN	week	NN1	NOUN	dep
+2	CD	2	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Webpages	NNS	webpage	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+HTML	NP	HTML	NP0	PROPN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+CSS	NP	CSS	NP0	PROPN	conj
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="zero">
+<ref target="/git/git-version-control.md">
+1.	LS	1.	CRD	X	dep
+Git	NP	Git	NP0	PROPN	compound
+Version	NN	version	NN1	NOUN	compound
+Control	NN	control	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="/git/gitignore.md">
+2.	LS	2.	CRD	X	dep
+.gitignore	NN	.gitignore	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="ger" transition="null">
+<ref target="/git/github-storage.md">
+3.	LS	3.	CRD	X	dep
+Using	VVG	use	VVG	VERB	root
+GitHub	NP	GitHub	NP0	PROPN	obj
+for	IN	for	PRP	ADP	case
+Code	NN	code	NN1	NOUN	compound
+Storage	NN	storage	NN1	NOUN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="establishment">
+<ref target="/git/github-collaboration.md">
+4.	LS	4.	CRD	X	dep
+GitHub	NP	GitHub	NP0	PROPN	compound
+Collaboration	NN	collaboration	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="zero">
+<ref target="/dev-tools/operating-systems.md">
+5.	LS	5.	CRD	X	dep
+Operating	NN	operating	NN1	NOUN	compound
+Systems	NNS	system	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="null">
+<ref target="/dev-tools/vscode.md">
+6.	LS	6.	CRD	X	dep
+Local	NP	local	NP0	ADJ	amod
+Development	NN	development	NN1	NOUN	root
+with	IN	with	PRP	ADP	case
+VS	NP	VS	NP0	PROPN	compound
+Code	NP	Code	NP0	PROPN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="multiple" transition="null">
+<ref target="https://bitsofco.de/what-exactly-is-the-dom/">
+7.	LS	7.	CRD	X	dep
+Article	NN	article	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+What	WP	what	PNQ	PRON	nsubj
+Exactly	RB	exactly	AV0	ADV	advmod
+is	VBZ	be	VBZ	AUX	cop
+the	DT	the	AT0	DET	det
+DOM	NP	DOM	NP0	PROPN	appos
+?	SENT	?	PUN	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="decl" transition="null">
+<ref target="/networking-computing/README.md">
+8.	LS	8.	CRD	X	reparandum
+How	WRB	how	AVQ	ADV	root
+the	DT	the	AT0	DET	det
+Internet	NP	Internet	NP0	PROPN	nsubj
+Works	VVZ	work	VVZ	VERB	advcl:relcl
+(	(	(	PUL	PUNCT	punct
+The	DT	the	AT0	DET	det
+Other	JJ	other	AJ0	ADJ	amod
+Kind	NN	kind	NN1	NOUN	parataxis
+of	IN	of	PRF	ADP	case
+Networking	NN	networking	NN1	NOUN	nmod
+)	)	)	PUR	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="frag" transition="null">
+<ref target="/networking-computing/intro-to-dns-ip.md">
+9.	LS	9.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+DNS	NP	DNS	NP0	PROPN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="10">
+<s type="frag" transition="null">
+<ref target="/projects/recipe-page/phase-2-css-prompt.md">
+10.	LS	10.	CRD	X	dep
+Recipe	NN	recipe	NN1	NOUN	compound
+Page	NN	page	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+CSS	NP	CSS	NP0	PROPN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="11">
+<s type="frag" transition="null">
+<ref target="/web/media-queries.md">
+11.	LS	11.	CRD	X	dep
+Media	NNS	medium	NN0	NOUN	compound
+Queries	NNS	query	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="12">
+<s type="frag" transition="null">
+<ref target="/ui-ux-design/ui-ux-design.md">
+12.	LS	12.	CRD	X	dep
+<w>
+UI	NP	UI	NP0	PROPN	root
+/	CC	/	UNC	CCONJ	cc
+UX	NP	UX	NP0	PROPN	conj
+</w>
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="13">
+<s type="frag" transition="null">
+<ref target="/web/bootstrap.md">
+13.	LS	13.	CRD	X	dep
+Bootstrap	NP	Bootstrap	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="14">
+<s type="ger" transition="null">
+<ref target="/career/building-confidence.md">
+14.	LS	14.	CRD	X	dep
+Building	VVG	build	VVG	VERB	root
+Confidence	NN	confidence	NN1	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="15">
+<s type="frag" transition="null">
+<ref target="/projects/recipe-page/phase-3-bootstrap-prompt.md">
+15.	LS	15.	CRD	X	dep
+Recipe	NN	recipe	NN1	NOUN	compound
+Page	NN	page	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Bootstrap	NP	Bootstrap	NP0	PROPN	parataxis
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="16">
+<s type="ger" transition="null">
+<ref target="/solving-coding-challenges/solving-coding-challenges.md">
+16.	LS	16.	CRD	X	dep
+Solving	VVG	solve	VVG	VERB	root
+Code	NN	code	NN1	NOUN	compound
+Challenges	NNS	challenge	NN2	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="17">
+<s type="frag" transition="null">
+<ref target="/git/git-version-control-part2.md">
+17.	LS	17.	CRD	X	dep
+Git	NP	Git	NP0	PROPN	compound
+Part	NN	part	NN1	NOUN	root
+2	CD	2	CRD	NUM	nummod
+:	:	:	PUN	PUNCT	punct
+Study	NN	study	NN1	NOUN	compound
+Guide	NN	guide	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="18">
+<s type="frag" transition="null">
+<ref target="/projects/portfolio/portfolio-webpage-1.md">
+18.	LS	18.	CRD	X	dep
+Portfolio	NN	portfolio	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+HTML	NP	HTML	NP0	PROPN	parataxis
+,	,	,	PUN	PUNCT	punct
+CSS	NP	CSS	NP0	PROPN	conj
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Bootstrap	NP	Bootstrap	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="19">
+<s type="ger" transition="null">
+<ref target="/git/github-collaboration.md">
+19.	LS	19.	CRD	X	dep
+Using	VVG	use	VVG	VERB	root
+GitHub	NP	GitHub	NP0	PROPN	obj
+for	IN	for	PRP	ADP	case
+Project	NN	project	NN1	NOUN	compound
+Collaboration	NN	collaboration	NN1	NOUN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="20">
+<s type="frag" transition="null">
+<ref target="/personal-brand/personal-branding.md">
+20.	LS	20.	CRD	X	dep
+Portfolio	NN	portfolio	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Personal	JJ	personal	AJ0	ADJ	amod
+Branding	NN	branding	NN1	NOUN	parataxis
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="21">
+<s type="ger" transition="null">
+<ref target="/reading-and-writing-documentation/documentation.md">
+21.	LS	21.	CRD	X	dep
+<w>
+Reading	VVG	read	VVG	VERB	root
+/	SYM	/	UNC	SYM	cc
+Writing	VVG	write	VVG	VERB	conj
+</w>
+Documentation	NN	documentation	NN1	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="22">
+<s type="ger" transition="null">
+<ref target="/writing-readable-code/writing-readable-code.md">
+22.	LS	22.	CRD	X	dep
+Writing	VVG	write	VVG	VERB	root
+Readable	JJ	readable	AJ0	ADJ	amod
+Code	NN	code	NN1	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="23">
+<s type="multiple" transition="null">
+<ref target="/deploying/deploying-1-personal-site.md">
+23.	LS	23.	CRD	X	dep
+Deploy	VV	deploy	VVB	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+Portfolio	NN	portfolio	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	obj
+:	:	:	PUN	PUNCT	punct
+Deploying	VVG	deploy	VVG	VERB	appos
+Client	NN	client	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+Side	NN	side	NN1	NOUN	compound
+Apps	NNS	app	NN2	NOUN	obj
+with	IN	with	PRP	ADP	case
+Netlify	NP	Netlify	NP0	PROPN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="24">
+<s type="frag" transition="establishment">
+<ref target="/projects/portfolio/portfolio-webpage-3.md">
+24.	LS	24.	CRD	X	dep
+Portfolio	NN	portfolio	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Collaboration	NN	collaboration	NN1	NOUN	appos
+and	CC	and	CJC	CCONJ	cc
+Review	NN	review	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+3	CD	3	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+Fundamentals	NNS	fundamental	NN2	NOUN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-1-variables.md">
+1.	LS	1.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+1	CD	1	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Variables	NNS	variable	NN2	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Strings	NNS	string	NN2	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Numbers	NNS	number	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-2-array-functions.md">
+2.	LS	2.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+2	CD	2	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Arrays	NNS	array	NN2	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Functions	NNS	function	NN2	NOUN	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-3-conditionals.md">
+3.	LS	3.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+3	CD	3	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Conditionals	NNS	conditional	NN2	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Comparisons	NNS	comparison	NN2	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Booleans	NNS	Boolean	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-4-loops.md">
+4.	LS	4.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+4	CD	4	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Loops	NNS	loop	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-5-switch.md">
+5.	LS	5.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+5	CD	5	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Switch	NN	switch	NN1	NOUN	compound
+Statements	NNS	statement	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-6-object-literals.md">
+6.	LS	6.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+6	CD	6	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Object	NN	object	NN1	NOUN	compound
+Literals	NNS	literal	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="null">
+<ref target="/datetime/datetime.md">
+7.	LS	7.	CRD	X	dep
+Datetime	NN	datetime	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="null">
+<ref target="/javascript/basic-js-practice.md">
+8.	LS	8.	CRD	X	dep
+Basic	JJ	basic	AJ0	ADJ	amod
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+Practice	NN	practice	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="ger" transition="null">
+<ref target="/testing-and-tdd/testing-and-tdd.md">
+9.	LS	9.	CRD	X	dep
+Testing	VVG	test	VVG	VERB	root
+&amp;	CC	&amp;	CJC	CCONJ	cc
+TDD	NP	TDD	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="10">
+<s type="frag" transition="null">
+<ref target="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">
+10.	LS	10.	CRD	X	dep
+Assigned	VVN	assign	VVN	VERB	amod
+Reading	NN	reading	NN1	NOUN	root
+-	:	-	PUN	PUNCT	punct
+Eloquent	JJ	eloquent	AJ0	ADJ	amod
+JavaScript	NP	JavaScript	NP0	PROPN	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="establishment">
+Week	NN	week	NN1	NOUN	root
+4	CD	4	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Intermediate	JJ	intermediate	AJ0	ADJ	amod
+JavaScript	NP	JavaScript	NP0	PROPN	appos
+and	CC	and	CJC	CCONJ	cc
+React	NP	React	NP0	PROPN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="continue">
+<ref target="/web/js-dom-methods.md">
+1.	LS	1.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+DOM	NP	DOM	NP0	PROPN	compound
+Manipulation	NN	manipulation	NN1	NOUN	root
+</ref>
+-	:	-	PUN	PUNCT	punct
+<hi rend="italic">
+formerly	RB	formerly	AV0	ADV	advmod
+jQuery	NP	jQuery	NP0	PROPN	appos
+</hi>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="continue">
+<ref target="/projects/js-html-games.md">
+2.	LS	2.	CRD	X	dep
+<w>
+HTML	NP	HTML	NP0	PROPN	compound
+/	CC	/	UNC	CCONJ	cc
+JS	NP	JS	NP0	PROPN	conj
+</w>
+Game	NN	game	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="zero">
+<ref target="/web/accessibility.md">
+3.	LS	3.	CRD	X	dep
+a11y	NP	a11y	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Accessibility	NN	accessibility	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/seo/seo.md">
+4.	LS	4.	CRD	X	dep
+SEO	NP	SEO	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="multiple" transition="establishment">
+<ref target="/projects/portfolio/portfolio-webpage-2.md">
+5.	LS	5.	CRD	X	dep
+Portfolio	NN	portfolio	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Incorporate	VV	incorporate	VVB	VERB	appos
+SEO	NP	SEO	NP0	PROPN	obj
+&amp;	CC	&amp;	CJC	CCONJ	cc
+a11y	NP	a11y	NP0	PROPN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="zero">
+<ref target="/javascript/javascript-7-oop.md">
+6.	LS	6.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+7	CD	7	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+<w>
+Object	NP	Object	NP0	PROPN	compound
+-	HYPH	-	PUN	PUNCT	punct
+Oriented	NP	Oriented	NP0	ADJ	amod
+</w>
+Programming	NP	Programming	NP0	PROPN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="establishment">
+<ref target="/javascript/first-js-oop-project.md">
+7.	LS	7.	CRD	X	dep
+Mini	NN	mini	NN1	NOUN	compound
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Object	NP	Object	NP0	PROPN	compound
+Oriented	NP	Oriented	NP0	ADJ	amod
+Programming	NP	Programming	NP0	PROPN	appos
+in	IN	in	PRP	ADP	case
+JS	NP	JS	NP0	PROPN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="zero">
+<ref target="/functional-programming/FP.md">
+8.	LS	8.	CRD	X	dep
+Functional	JJ	functional	AJ0	ADJ	amod
+Programming	NN	programming	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="frag" transition="null">
+<ref target="/react-js">
+9.	LS	9.	CRD	X	dep
+All	DT	all	DT0	DET	det
+React	NP	React	NP0	PROPN	compound
+Lessons	NNS	lesson	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+Week	NN	week	NN1	NOUN	root
+5	CD	5	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Web	NN	web	NN1	NOUN	compound
+APIs	NNS	API	NN2	NOUN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+<ref target="/node-js/node-js.md">
+1.	LS	1.	CRD	X	dep
+Node	NP	Node	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-8-regex.md">
+2.	LS	2.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+8	CD	8	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Regular	NP	Regular	NP0	ADJ	amod
+<w>
+Expressions	NPS	Expression	NP0	PROPN	appos
+/	SYM	/	UNC	SYM	cc
+RegEx	NP	RegEx	NP0	PROPN	conj
+</w>
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="null">
+<ref target="/runtime-complexity/runtime-complexity.md">
+3.	LS	3.	CRD	X	dep
+Runtime	NN	runtime	NN1	NOUN	compound
+Complexity	NN	complexity	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/api/intro-to-http.md">
+4.	LS	4.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+HTTP	NP	HTTP	NP0	PROPN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="null">
+<ref target="/api/apis-and-json.md">
+5.	LS	5.	CRD	X	dep
+APIs	NP	APIs	NP0	PROPN	root
+&amp;	CC	&amp;	CJC	CCONJ	cc
+JSON	NP	JSON	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="other" transition="null">
+<ref target="/api/http-request-practice.md">
+6.	LS	6.	CRD	X	dep
+HTTP	NP	HTTP	NP0	PROPN	compound
+Requests	NNS	request	NN2	NOUN	compound
+Practice	NN	practice	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="null">
+<ref target="/express-js/express.md">
+7.	LS	7.	CRD	X	dep
+Express	NP	Express	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="null">
+<ref target="/api/REST-API.md">
+8.	LS	8.	CRD	X	dep
+REST	NP	REST	NP0	PROPN	compound
+APIs	NNS	API	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+Week	NN	week	NN1	NOUN	root
+6	CD	6	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Databases	NNS	database	NN2	NOUN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+<ref target="/javascript/javascript-9-async.md">
+1.	LS	1.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	root
+9	CD	9	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Async	NN	async	NN1	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Callbacks	NNS	callback	NN2	NOUN	appos
+,	,	,	PUN	PUNCT	punct
+Promises	NNS	promise	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="https://www.digitalocean.com/community/tutorials/an-introduction-to-json">
+2.	LS	2.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+JSON	NP	JSON	NP0	PROPN	nmod
+</ref>
+(	(	(	PUL	PUNCT	punct
+DigitalOcean	NP	DigitalOcean	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="null">
+<ref target="/web/ajax.md">
+3.	LS	3.	CRD	X	dep
+AJAX	NP	AJAX	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/command-line/env.md">
+4.	LS	4.	CRD	X	dep
+.env	NP	.env	NP0	PROPN	compound
+&amp;	CC	&amp;	CJC	CCONJ	cc
+config	NN	config	NN1	NOUN	conj
+files	NNS	file	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="null">
+<ref target="/api/twilio-api.md">
+5.	LS	5.	CRD	X	dep
+TwilioQuest	NP	TwilioQuest	NP0	PROPN	compound
+Exercise	NP	Exercise	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="null">
+<ref target="/javascript/require-and-import-mini-lesson.md">
+6.	LS	6.	CRD	X	dep
+import	VV	import	NN1	VERB	root
+&amp;	CC	&amp;	CJC	CCONJ	cc
+require	VV	require	VVB	VERB	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="imp" transition="null">
+<ref target="/databases/installing-postgresql.md">
+7.	LS	7.	CRD	X	dep
+Install	VV	install	NP0	VERB	root
+Postgres	NP	Postgres	NP0	PROPN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="null">
+<ref target="/databases/database-intro.md">
+8.	LS	8.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+Databases	NNS	database	NN2	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="frag" transition="null">
+<ref target="/databases/data-modeling-1.md">
+9.	LS	9.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Modeling	NN	modeling	NN1	NOUN	root
+1	CD	1	CRD	NUM	nummod
+(	(	(	PUL	PUNCT	punct
+Single	JJ	single	AJ0	ADJ	amod
+tables	NNS	table	NN2	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="10">
+<s type="frag" transition="establishment">
+<ref target="/databases/sql-1.md">
+10.	LS	10.	CRD	X	dep
+SQL	NP	SQL	NP0	PROPN	root
+1	CD	1	CRD	NUM	nummod
+(	(	(	PUL	PUNCT	punct
+Single	JJ	single	AJ0	ADJ	amod
+tables	NN	table	NN1	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="11">
+<s type="frag" transition="zero">
+<ref target="/databases/data-modeling-2.md">
+11.	LS	11.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Modeling	NN	modeling	NN1	NOUN	root
+2	CD	2	CRD	NUM	nummod
+(	(	(	PUL	PUNCT	punct
+Multiple	JJ	multiple	AJ0	ADJ	amod
+tables	NNS	table	NN2	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="12">
+<s type="frag" transition="establishment">
+<ref target="/databases/sql-2.md">
+12.	LS	12.	CRD	X	dep
+SQL	NP	SQL	NP0	PROPN	root
+2	CD	2	CRD	NUM	nummod
+(	(	(	PUL	PUNCT	punct
+Multiple	JJ	multiple	AJ0	ADJ	amod
+tables	NNS	table	NN2	NOUN	appos
+)	)	)	PUR	PUNCT	punct
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="13">
+<s type="frag" transition="zero">
+<ref target="/docker/intro-docker.md">
+13.	LS	13.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+Docker	NP	Docker	NP0	PROPN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="14">
+<s type="imp" transition="establishment">
+<ref target="/databases/install-postgres-with-docker.md">
+14.	LS	14.	CRD	X	dep
+Install	VV	install	NN1	VERB	root
+and	CC	and	CJC	CCONJ	cc
+Run	VV	run	NN1	VERB	conj
+PostgreSQL	NP	PostgreSQL	NP0	PROPN	obj
+using	VVG	use	VVG	VERB	acl
+Docker	NP	Docker	NP0	PROPN	obj
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+7	CD	7	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Advanced	JJ	advanced	AJ0	ADJ	amod
+JS	NN	JS	NN1	NOUN	appos
+and	CC	and	CJC	CCONJ	cc
+React	NP	React	NP0	PROPN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="establishment">
+<ref target="/pair-programming/week-7/react-express-app/react-expressjs.md">
+1.	LS	1.	CRD	X	dep
+Full	JJ	full	AJ0	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+Stack	NN	stack	NN1	NOUN	compound
+Web	NN	web	NN1	NOUN	compound
+App	NN	app	NN1	NOUN	root
+Using	VVG	use	VVG	VERB	acl
+React	NP	React	NP0	PROPN	obj
+and	CC	and	CJC	CCONJ	cc
+Express	NP	Express	NP0	PROPN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="zero">
+<ref target="/recursion/recursion.md">
+2.	LS	2.	CRD	X	dep
+Recursion	NN	recursion	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="null">
+<ref target="https://www.javascripttutorial.net/es6/javascript-set/">
+3.	LS	3.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+Set	NN	set	NN1	NOUN	compound
+object	NN	object	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="ger" transition="null">
+Week	NN	week	NN1	NOUN	root
+8	CD	8	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Testing	VVG	test	VVG	VERB	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="ger" transition="null">
+<ref target="/testing-and-tdd/integration-testing.md">
+1.	LS	1.	CRD	X	dep
+Adding	VVG	add	VVG	VERB	root
+Tests	NNS	test	NN2	NOUN	obj
+to	IN	to	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+NodeJS	NP	NodeJS	NP0	PROPN	compound
+project	NN	project	NN1	NOUN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="ger" transition="null">
+<ref target="/testing-and-tdd/jest.md">
+2.	LS	2.	CRD	X	dep
+Testing	VVG	test	VVG	VERB	root
+with	IN	with	PRP	ADP	case
+Jest	NP	Jest	NP0	PROPN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="ger" transition="establishment">
+<ref target="https://www.rithmschool.com/courses/intermediate-react/testing-with-jest">
+3.	LS	3.	CRD	X	dep
+Rithm	NP	Rithm	NP0	PROPN	compound
+School	NP	School	NP0	PROPN	root
+-	HYPH	-	PUN	PUNCT	punct
+Testing	VVG	test	VVG	VERB	appos
+with	IN	with	PRP	ADP	case
+Jest	NP	Jest	NP0	PROPN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="continue">
+<ref target="https://jestjs.io/docs/tutorial-async">
+4.	LS	4.	CRD	X	dep
+API	NP	API	NP0	PROPN	compound
+testing	NN	testing	NN1	NOUN	root
+with	IN	with	PRP	ADP	case
+Jest	NP	Jest	NP0	PROPN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="ger" transition="continue">
+<ref target="/testing-and-tdd/react-testing-jest-and-RTL.md">
+5.	LS	5.	CRD	X	dep
+Testing	VVG	test	VVG	VERB	root
+React	NP	React	NP0	PROPN	compound
+Components	NNS	component	NN2	NOUN	obj
+with	IN	with	PRP	ADP	case
+Jest	NP	Jest	NP0	PROPN	obl
+and	CC	and	CJC	CCONJ	cc
+React	NP	React	NP0	PROPN	compound
+Testing	NN	testing	NN1	NOUN	compound
+Library	NN	library	NN1	NOUN	conj
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+9	CD	9	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Eventonica	NP	Eventonica	NP0	PROPN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="establishment">
+<ref target="/project-example/week-9/eventonica">
+1.	LS	1.	CRD	X	dep
+Eventonica	NP	Eventonica	NP0	PROPN	compound
+Project	NN	project	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+10	CD	10	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Full	JJ	full	AJ0	ADJ	amod
+Stack	NN	stack	NN1	NOUN	compound
+Practice	NN	practice	NN1	NOUN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="ger" transition="null">
+<ref target="/deploying/deploying-to-heroku.md">
+1.	LS	1.	CRD	X	dep
+Deploying	VVG	deploy	VVG	VERB	root
+to	IN	to	PRP	ADP	case
+Heroku	NP	Heroku	NP0	PROPN	obl
+with	IN	with	PRP	ADP	case
+React	NP	React	NP0	PROPN	obl
+and	CC	and	CJC	CCONJ	cc
+Node	NP	Node	NP0	PROPN	conj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="ger" transition="establishment">
+<ref target="/electives/optimization/optimizing-your-react-node-project.md">
+2.	LS	2.	CRD	X	dep
+Optimizing	VVG	optimize	VVG	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+<w>
+React	NP	React	NP0	PROPN	compound
+/	CC	/	UNC	CCONJ	cc
+NodeJS	NP	NodeJS	NP0	PROPN	conj
+</w>
+Project	NN	project	NN1	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="zero">
+<ref target="/testing-and-tdd/enzyme-testing.md">
+3.	LS	3.	CRD	X	dep
+Enzyme	NN	enzyme	NN1	NOUN	compound
+Testing	VVG	test	VVG	VERB	root
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+Week	NN	week	NN1	NOUN	root
+11	CD	11	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Algorithms	NNS	algorithm	NN2	NOUN	conj
+</s>
+</head>
+<head>
+<s type="frag" transition="establishment">
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="continue">
+<ref target="/data-structures/intro-to-data-structures.md">
+1.	LS	1.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="continue">
+<ref target="/projects/data-structures-algorithms-sprint.md">
+2.	LS	2.	CRD	X	dep
+Sprint	NN	sprint	NN1	NOUN	compound
+Plan	NN	plan	NN1	NOUN	root
+for	IN	for	PRP	ADP	case
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	compound
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Algorithms	NNS	algorithm	NN2	NOUN	conj
+Week	NN	week	NN1	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="zero">
+<ref target="/data-structures/stack.md">
+3.	LS	3.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Stacks	NNS	stack	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/data-structures/queues.md">
+4.	LS	4.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Queues	NNS	queue	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="establishment">
+<ref target="/data-structures/linked-lists.md">
+5.	LS	5.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Linked	VVN	link	VVN	VERB	amod
+Lists	NNS	list	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="continue">
+<ref target="/data-structures/hash-tables.md">
+6.	LS	6.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Hash	NN	hash	NN1	NOUN	compound
+Tables	NNS	table	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="zero">
+<ref target="/javascript/javascript-maps.md">
+7.	LS	7.	CRD	X	dep
+JavaScript	NP	JavaScript	NP0	PROPN	compound
+Map	NN	map	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="null">
+<ref target="/data-structures/trees.md">
+8.	LS	8.	CRD	X	dep
+Data	NN	datum	NN0	NOUN	compound
+Structures	NNS	structure	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Trees	NNS	tree	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+Algorithms	NNS	algorithm	NN2	NOUN	root
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="establishment">
+<ref target="/algorithms/intro-to-algorithms.md">
+1.	LS	1.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+Algorithms	NNS	algorithm	NN2	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="continue">
+<ref target="/algorithms/searching.md">
+2.	LS	2.	CRD	X	dep
+Algorithms	NNS	algorithm	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Searching	VVG	search	VVG	VERB	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="continue">
+<ref target="/algorithms/sorting.md">
+3.	LS	3.	CRD	X	dep
+Algorithms	NNS	algorithm	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Sorting	VVG	sort	VVG	VERB	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+12	CD	12	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Final	JJ	final	AJ0	ADJ	amod
+Assessments	NNS	assessment	NN2	NOUN	appos
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="ger" transition="null">
+<ref target="/program-prep/navigating-new-codebases.md">
+1.	LS	1.	CRD	X	dep
+Navigating	VVG	navigate	VVG	VERB	root
+New	NP	new	NP0	ADJ	amod
+Codebases	NNS	codebase	NN2	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="/open-source/open-source.md">
+2.	LS	2.	CRD	X	dep
+<w>
+Open	JJ	open	AJ0	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+source	NN	source	NN1	NOUN	compound
+</w>
+Projects	NNS	project	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+Week	NN	week	NN1	NOUN	root
+13	CD	13	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	appos
+!	SENT	!	PUN	PUNCT	punct
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+<ref target="/career/interviewing/technical-interviewing.md">
+1.	LS	1.	CRD	X	dep
+Technical	JJ	technical	AJ0	ADJ	amod
+Interviewing	NN	interviewing	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="/projects/take-home-problems/frontend.md">
+2.	LS	2.	CRD	X	dep
+<w>
+Take	VV	take	VVB	VERB	compound
+-	HYPH	-	PUN	PUNCT	punct
+home	NN	home	NN1	NOUN	compound
+</w>
+Problems	NNS	problem	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="frag" transition="null">
+<ref target="/career/interviewing/non-technical-interviewing.md">
+3.	LS	3.	CRD	X	dep
+Non-Tech	JJ	non-tech	AJ0	ADJ	amod
+Interviews	NNS	interview	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/">
+4.	LS	4.	CRD	X	dep
+Article	NN	article	NN1	NOUN	root
+by	IN	by	PRP	ADP	case
+Techtonica	NP	Techtonica	NP0	PROPN	compound
+Alum	NN	alum	NN1	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+Working	VVG	work	VVG	VERB	appos
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+field	NN	field	NN1	NOUN	obl
+as	IN	as	PRP	ADP	case
+a	DT	a	AT0	DET	det
+New	JJ	new	AJ0	ADJ	amod
+Software	NN	software	NN1	NOUN	compound
+Engineer	NN	engineer	NN1	NOUN	obl
+out	IN	out	PRP	ADP	case
+of	IN	of	PRF	ADP	fixed
+Bootcamp	NN	bootcamp	NN1	NOUN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="null">
+<ref target="/career/roles-in-tech/machine-learning.md">
+5.	LS	5.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Machine	NN	machine	NN1	NOUN	compound
+Learning	NN	learning	NN1	NOUN	compound
+Engineer	NN	engineer	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="establishment">
+<ref target="/career/roles-in-tech/entrepreneurship.md">
+6.	LS	6.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Entrepreneurship	NN	entrepreneurship	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="continue">
+<ref target="/career/roles-in-tech/data-science.md">
+7.	LS	7.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Data	NP	data	NP0	PROPN	compound
+Science	NP	Science	NP0	PROPN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="frag" transition="continue">
+<ref target="/career/roles-in-tech/security.md">
+8.	LS	8.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Security	NN	security	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="frag" transition="continue">
+<ref target="/career/roles-in-tech/qa.md">
+9.	LS	9.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+QA	NN	QA	NN1	NOUN	compound
+Engineer	NN	engineer	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="10">
+<s type="frag" transition="continue">
+<ref target="/career/roles-in-tech/developer-advocate.md">
+10.	LS	10.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Developer	NN	developer	NN1	NOUN	compound
+Advocate	NN	advocate	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="11">
+<s type="frag" transition="continue">
+<ref target="/career/roles-in-tech/sales-engineering.md">
+11.	LS	11.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Sales	NNS	sale	NN0	NOUN	compound
+Engineering	NN	Engineering	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="12">
+<s type="frag" transition="continue">
+<ref target="/career/roles-in-tech/">
+12.	LS	12.	CRD	X	dep
+Career	NP	Career	NP0	PROPN	compound
+Week	NP	Week	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+Technical	JJ	technical	AJ0	ADJ	amod
+Program	NN	program	NN1	NOUN	compound
+Manager	NN	manager	NN1	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="zero">
+Week	NN	week	NN1	NOUN	root
+14	CD	14	CRD	NUM	nummod
+-	:	-	PUN	PUNCT	punct
+Project	NN	project	NN1	NOUN	compound
+Prep	NN	prep	NN1	NOUN	compound
+Week	NN	week	NN1	NOUN	appos
+&amp;	CC	&amp;	CJC	CCONJ	cc
+Electives	NNS	elective	NN2	NOUN	conj
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+<ref target="/security/web-security.md">
+1.	LS	1.	CRD	X	dep
+Intro	NN	intro	NN1	NOUN	root
+to	IN	to	PRP	ADP	case
+Security	NN	security	NN1	NOUN	nmod
+in	IN	in	PRP	ADP	case
+Web	NN	web	NN1	NOUN	compound
+Development	NN	development	NN1	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="2">
+<s type="frag" transition="null">
+<ref target="/refactoring/refactoring.md">
+2.	LS	2.	CRD	X	dep
+Refactoring	NN	refactoring	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="3">
+<s type="ger" transition="null">
+<ref target="/career/interviewing/non-technical-interviewing.md">
+3.	LS	3.	CRD	X	dep
+Interviewing	VVG	interview	VVG	VERB	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="4">
+<s type="frag" transition="null">
+<ref target="/career/resume-writing.md">
+4.	LS	4.	CRD	X	dep
+Resume	NN	resume	NN1	NOUN	compound
+Writing	NN	Writing	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="5">
+<s type="frag" transition="null">
+<ref target="/projects/take-home-problems/frontend.md">
+5.	LS	5.	CRD	X	dep
+Front	JJ	Front	AJ0	ADJ	amod
+End	NN	end	NN1	NOUN	compound
+Take	NN	take	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+home	NN	home	NN1	NOUN	flat
+Challenge	NN	challenge	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="6">
+<s type="frag" transition="establishment">
+<ref target="/projects/take-home-problems/backend.md">
+6.	LS	6.	CRD	X	dep
+Back	NP	Back	NP0	PROPN	compound
+End	NN	end	NN1	NOUN	compound
+Take	NN	take	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+home	NN	home	NN1	NOUN	flat
+Challenge	NN	challenge	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="7">
+<s type="frag" transition="zero">
+<ref target="/career/roles-in-tech/technical-writing.md">
+7.	LS	7.	CRD	X	dep
+Technical	JJ	technical	AJ0	ADJ	amod
+Writing	NN	Writing	NN1	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="8">
+<s type="ger" transition="null">
+<ref target="/projects/final-project/selecting-your-project.md">
+8.	LS	8.	CRD	X	dep
+Final	JJ	final	AJ0	ADJ	amod
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Selecting	VVG	select	VVG	VERB	appos
+Your	PP$	your	DPS	PRON	nmod:poss
+Final	JJ	final	AJ0	ADJ	amod
+Project	NN	project	NN1	NOUN	obj
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="9">
+<s type="frag" transition="establishment">
+<ref target="/projects/final-project/final-project.md">
+9.	LS	9.	CRD	X	dep
+Final	JJ	final	AJ0	ADJ	amod
+Project	NN	project	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+5	CD	5	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	appos
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="10">
+<s type="frag" transition="zero">
+<ref target="/program-prep/underrepresented-in-tech.md">
+10.	LS	10.	CRD	X	dep
+Resources	NNS	resource	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+Underrepresented	JJ	Underrepresented	AJ0	ADJ	appos
+in	IN	in	PRP	ADP	case
+Tech	NP	Tech	NP0	PROPN	obl
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="11">
+<s type="frag" transition="null">
+<ref target="/career/difficult-workplace-situations.md">
+11.	LS	11.	CRD	X	dep
+Difficult	JJ	difficult	AJ0	ADJ	amod
+Workplace	NN	workplace	NN1	NOUN	compound
+Situations	NNS	situation	NN2	NOUN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="12">
+<s type="frag" transition="null">
+<ref target="/program-prep/financial-literacy.md">
+12.	LS	12.	CRD	X	dep
+Financial	NP	Financial	NP0	ADJ	amod
+Literacy	NP	Literacy	NP0	PROPN	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="13">
+<s type="ger" transition="null">
+<ref target="/career/interviewing/negotiating.md">
+13.	LS	13.	CRD	X	dep
+Negotiating	VVG	negotiate	VVG	VERB	root
+</ref>
+</s>
+</item>
+</list>
+<list type="ordered">
+<item n="14">
+<s type="frag" transition="null">
+<ref target="/program-prep/ethics.md">
+14.	LS	14.	CRD	X	dep
+Ethics	NN	Ethics	NN1	NOUN	root
+in	IN	in	PRP	ADP	case
+Software	NN	software	NN1	NOUN	compound
+Engineering	NN	Engineering	NN1	NOUN	nmod
+</ref>
+</s>
+</item>
+</list>
+<head>
+<s type="frag" transition="null">
+Weeks	NNS	week	NN2	NOUN	dep
+<w>
+15	CD	15	CRD	NUM	nummod
++	SYM	+	UNC	SYM	conj
+</w>
+Final	JJ	final	AJ0	ADJ	amod
+Project	NN	project	NN1	NOUN	root
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+After	IN	after	PRP	ADP	case
+Week	NP	Week	NP0	PROPN	obl
+14	CD	14	CRD	NUM	nummod
+,	,	,	PUN	PUNCT	punct
+Participants	NNS	participant	NN2	NOUN	nsubj
+build	VVP	build	VVB	VERB	root
+a	DT	a	AT0	DET	det
+<w>
+full	JJ	full	AJ0	ADJ	amod
+-	HYPH	-	PUN	PUNCT	punct
+stack	NN	stack	NN1	NOUN	compound
+</w>
+web	NN	web	NN1	NOUN	compound
+application	NN	application	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+course	NN	course	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+one	CD	one	CRD	NUM	nummod
+month	NN	month	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+from	IN	from	PRP	ADP	case
+inception	NN	inception	NN1	NOUN	obl
+to	IN	to	PRP	ADP	case
+production	NN	production	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+This	DT	this	DT0	PRON	nsubj
+includes	VVZ	include	VVZ	VERB	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</p>
+<list type="unordered">
+<item>
+<s type="ger" transition="zero">
+Creating	VVG	create	VVG	VERB	root
+project	NN	project	NN1	NOUN	compound
+planning	NN	planning	NN1	NOUN	compound
+docs	NNS	doc	NN2	NOUN	obj
+with	IN	with	PRP	ADP	case
+wire	NN	wire	NN1	NOUN	compound
+frames	NNS	frame	NN2	NOUN	obl
+</s>
+</item>
+<item>
+<s type="ger" transition="null">
+Planning	VVG	Plann	VVG	VERB	root
+out	RP	out	AVP	ADP	compound:prt
+<w>
+must	NN	must	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+have	NN	have	NN1	NOUN	compound
+</w>
+features	NNS	feature	NN2	NOUN	obj
+for	IN	for	PRP	ADP	case
+their	PP$	their	DPS	PRON	nmod:poss
+MVP	NP	MVP	NP0	PROPN	nmod
+</s>
+</item>
+<item>
+<s type="ger" transition="establishment">
+Updating	VVG	Update	VVG	VERB	root
+status	NN	status	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+their	PP$	their	DPS	PRON	nmod:poss
+Trello	NP	Trello	NP0	PROPN	compound
+board	NN	board	NN1	NOUN	obl
+to	TO	to	TO0	PART	mark
+meet	VV	meet	VVI	VERB	advcl
+weekly	JJ	weekly	AJ0	ADJ	amod
+<w>
+milestones	NNS	milestone	NN2	NOUN	obj
+/	SYM	/	UNC	SYM	cc
+sprints	NNS	sprint	NN2	NOUN	conj
+</w>
+</s>
+</item>
+<item>
+<s type="other" transition="continue">
+Gathering	VVG	gather	VVG	VERB	root
+user	NN	user	NN1	NOUN	compound
+feedback	NN	feedback	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+adapting	VVG	adapt	VVG	VERB	conj
+their	PP$	their	DPS	PRON	nmod:poss
+remaining	VVG	remain	VVG	VERB	amod
+MVP	NP	MVP	NP0	PROPN	compound
+plan	NN	plan	NN1	NOUN	obj
+</s>
+</item>
+<item>
+<s type="ger" transition="continue">
+Deploying	VVG	deploy	VVG	VERB	root
+their	PP$	their	DPS	PRON	nmod:poss
+application	NN	application	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+Heroku	NP	Heroku	NP0	PROPN	obl
+</s>
+</item>
+<item>
+<s type="ger" transition="zero">
+Recording	VVG	record	VVG	VERB	root
+a	DT	a	AT0	DET	det
+compelling	JJ	compelling	AJ0	ADJ	amod
+demo	NN	demo	NN1	NOUN	obj
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+finished	VVN	finish	VVN	VERB	amod
+product	NN	product	NN1	NOUN	obl
+</s>
+</item>
+</list>
+<p>
+<s type="imp" transition="null">
+For	IN	for	PRP	ADP	case
+more	JJR	more	DT0	ADJ	amod
+details	NNS	detail	NN2	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+see	VV	see	VVB	VERB	root
+<ref target="./projects/final-project">
+Final	NP	final	NP0	ADJ	amod
+Project	NP	Project	NP0	PROPN	obj
+</ref>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+</text>

@@ -1,0 +1,683 @@
+<text id="GENTLE_medical_anemia" author="MTSAMPLES.COM" dateCollected="2022-11-08" dateCreated="2022-11-08" dateModified="2022-11-08"  shortTitle="anemia" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=1873-Anemia%20&amp;%20Leukemia%20Followup" speakerCount="0" speakerList="none" title="Anemia &amp; Leukemia Followup" type="medical">
+<head rend="bold red">
+<s type="frag" transition="establishment">
+Description	NN	description	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Chronic	JJ	chronic	AJ0	ADJ	amod
+lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod
+leukemia	NN	leukemia	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+CLL	NP	CLL	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+,	,	,	PUN	PUNCT	punct
+autoimmune	JJ	autoimmune	AJ0	ADJ	amod
+hemolytic	JJ	hemolytic	AJ0	ADJ	amod
+anemia	NN	anemia	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+oral	JJ	oral	AJ0	ADJ	amod
+ulcer	NN	ulcer	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+diagnosed	VVN	diagnose	VVN	VERB	root
+with	IN	with	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod
+leukemia	NN	leukemia	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+was	VBD	be	VBD	AUX	aux:pass
+noted	VVN	note	VVN	VERB	conj
+to	TO	to	TO0	PART	mark
+have	VH	have	VHI	VERB	xcomp
+autoimmune	JJ	autoimmune	AJ0	ADJ	amod
+hemolytic	JJ	hemolytic	AJ0	ADJ	amod
+anemia	NN	anemia	NN1	NOUN	obj
+at	IN	at	PRP	ADP	case
+the	DT	the	AT0	DET	det
+time	NN	time	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+CLL	NP	CLL	NP0	PROPN	compound
+diagnosis	NN	diagnosis	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="red bold caps">
+<s type="frag" transition="zero">
+CHIEF	JJ	chief	AJ0	ADJ	amod
+COMPLAINT	NN	complaint	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<list type="ordered">
+<item n="1">
+<s type="frag" transition="null">
+1.	LS	1.	CRD	X	dep
+Chronic	JJ	chronic	AJ0	ADJ	amod
+lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod
+leukemia	NN	leukemia	NN1	NOUN	root
+(	(	(	PUL	PUNCT	punct
+CLL	NP	CLL	NP0	PROPN	appos
+)	)	)	PUR	PUNCT	punct
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="2">
+<s type="frag" transition="null">
+2.	LS	2.	CRD	X	dep
+Autoimmune	JJ	autoimmune	AJ0	ADJ	amod
+hemolytic	JJ	hemolytic	AJ0	ADJ	amod
+anemia	NN	anemia	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item n="3">
+<s type="frag" transition="null">
+3.	LS	3.	CRD	X	dep
+Oral	JJ	oral	AJ0	ADJ	amod
+ulcer	NN	ulcer	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+HISTORY	NN	history	NN1	NOUN	root
+OF	IN	of	PRF	ADP	case
+PRESENT	JJ	present	AJ0	ADJ	amod
+ILLNESS	NN	illness	NN1	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<w>
+72	CD	72	CRD	NUM	nummod
+-	HYPH	-	PUN	PUNCT	punct
+year	NN	year	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+old	JJ	old	AJ0	ADJ	amod
+</w>
+gentleman	NN	gentleman	NN1	NOUN	root
+who	WP	who	PNQ	PRON	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+diagnosed	VVN	diagnose	VVN	VERB	acl:relcl
+with	IN	with	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod
+leukemia	NN	leukemia	NN1	NOUN	obl
+in	IN	in	PRP	ADP	case
+<date when="2008-05">
+May	NP	May	NP0	PROPN	obl
+2008	CD	2008	CRD	NUM	nmod:tmod
+</date>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+He	PP	he	PNP	PRON	nsubj:pass
+was	VBD	be	VBD	AUX	aux:pass
+noted	VVN	note	VVN	VERB	root
+to	TO	to	TO0	PART	mark
+have	VH	have	VHI	VERB	xcomp
+autoimmune	JJ	autoimmune	AJ0	ADJ	amod
+hemolytic	JJ	hemolytic	AJ0	ADJ	amod
+anemia	NN	anemia	NN1	NOUN	obj
+at	IN	at	PRP	ADP	case
+the	DT	the	AT0	DET	det
+time	NN	time	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+CLL	NP	CLL	NP0	PROPN	compound
+diagnosis	NN	diagnosis	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	cop
+on	IN	on	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+steroids	NNS	steroid	NN2	NOUN	root
+to	TO	to	TO0	PART	mark
+control	VV	control	VVI	VERB	acl
+his	PP$	his	DPS	PRON	nmod:poss
+hemolysis	NN	hemolysis	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+is	VBZ	be	VBZ	AUX	cop
+currently	RB	currently	AV0	ADV	advmod
+on	IN	on	PRP	ADP	case
+prednisone	NN	prednisone	NN1	NOUN	conj
+5	CD	5	CRD	NUM	nummod
+mg	NNS	milligram	NN2	NOUN	obl:npmod
+every	DT	every	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+day	NN	day	NN1	NOUN	obl:tmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+comes	VVZ	come	VVZ	VERB	root
+in	RP	in	AVP	ADP	compound:prt
+to	IN	to	PRP	ADP	case
+clinic	NN	clinic	NN1	NOUN	obl
+today	NN	today	NN1	NOUN	obl:tmod
+for	IN	for	PRP	ADP	case
+<w>
+follow	NN	follow	NN1	NOUN	obl
+-	HYPH	-	PUN	PUNCT	punct
+up	RP	up	AVP	ADP	compound:prt
+</w>
+and	CC	and	CJC	CCONJ	cc
+complete	JJ	complete	AJ0	ADJ	amod
+blood	NN	blood	NN1	NOUN	compound
+count	NN	count	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+At	IN	at	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+last	JJ	last	ORD	ADJ	amod
+office	NN	office	NN1	NOUN	compound
+visit	NN	visit	NN1	NOUN	obl
+we	PP	we	PNP	PRON	nsubj
+discontinued	VVD	discontinue	VVD	VERB	root
+this	DT	this	DT0	DET	det
+prophylactic	JJ	prophylactic	AJ0	ADJ	amod
+antivirals	NNS	antiviral	NN2	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+antibacterial	NN	antibacterial	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="zero">
+CURRENT	JJ	current	AJ0	ADJ	amod
+MEDICATIONS	NNS	medication	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Prilosec	NN	prilosec	NN1	NOUN	root
+20	CD	20	CRD	NUM	nummod
+mg	NN	milligram	NN1	NOUN	obl:npmod
+b.i.d.	NN	b.i.d.	NN1	NOUN	nmod:tmod
+,	,	,	PUN	PUNCT	punct
+levothyroxine	NN	levothyroxine	NN1	NOUN	conj
+50	CD	50	CRD	NUM	nummod
+mcg	NN	might	NN1	NOUN	obl:npmod
+q.d.	NN	q.d.	NN1	NOUN	nmod:tmod
+,	,	,	PUN	PUNCT	punct
+Lopressor	NP	Lopressor	NP0	PROPN	conj
+75	CD	75	CRD	NUM	nummod
+mg	NN	milligram	NN1	NOUN	obl:npmod
+q.d.	NN	q.d.	NN1	NOUN	nmod:tmod
+,	,	,	PUN	PUNCT	punct
+vitamin	NN	vitamin	NN1	NOUN	conj
+C	NP	C	NP0	PROPN	flat
+500	CD	500	CRD	NUM	nummod
+mg	NN	milligram	NN1	NOUN	obl:npmod
+q.d.	NN	q.d.	NN1	NOUN	nmod:tmod
+,	,	,	PUN	PUNCT	punct
+multivitamin	NN	multivitamin	NN1	NOUN	conj
+q.d.	NN	q.d.	NN1	NOUN	nmod:tmod
+,	,	,	PUN	PUNCT	punct
+simvastatin	NN	simvastatin	NN1	NOUN	conj
+20	CD	20	CRD	NUM	nummod
+mg	NN	milligram	NN1	NOUN	obl:npmod
+q.d.	NN	q.d.	NN1	NOUN	nmod:tmod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+prednisone	NN	prednisone	NN1	NOUN	conj
+5	CD	5	CRD	NUM	nummod
+mg	NN	milligram	NN1	NOUN	obl:npmod
+q.o.d.	NN	q.o.d.	NN1	NOUN	nmod:tmod
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+ALLERGIES	NNS	allergy	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="frag" transition="null">
+Vicodin	NP	Vicodin	NP0	PROPN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+REVIEW	NN	review	NN1	NOUN	root
+OF	IN	of	PRF	ADP	case
+SYSTEMS	NNS	system	NN2	NOUN	nmod
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+The	DT	the	AT0	DET	det
+patient	NN	patient	NN1	NOUN	nsubj
+reports	VVZ	report	VVZ	VERB	root
+ulcer	NN	ulcer	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+tongue	NN	tongue	NN1	NOUN	nmod
+and	CC	and	CJC	CCONJ	cc
+his	PP$	his	DPS	PRON	nmod:poss
+lip	NN	lip	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	AUX	aux
+been	VBN	be	VBN	AUX	cop
+off	IN	off	PRP	ADP	root
+of	IN	of	PRF	ADP	case
+Valtrex	NP	Valtrex	NP0	PROPN	nmod
+for	IN	for	PRP	ADP	case
+five	CD	five	CRD	NUM	nummod
+days	NNS	day	NN2	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+is	VBZ	be	VBZ	AUX	aux
+having	VHG	have	VHG	VERB	root
+some	DT	some	DT0	DET	det
+difficulty	NN	difficulty	NN1	NOUN	obj
+with	IN	with	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+night	NN	night	NN1	NOUN	compound
+vision	NN	vision	NN1	NOUN	nmod
+with	IN	with	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+left	JJ	left	AJ0	ADJ	amod
+eye	NN	eye	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+a	DT	a	AT0	DET	det
+known	VVN	know	VVN	VERB	amod
+cataract	NN	cataract	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+denies	VVZ	deny	VVZ	VERB	root
+any	DT	any	DT0	DET	det
+fevers	NNS	fever	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+chills	NNS	chill	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+night	NN	night	NN1	NOUN	compound
+sweats	NNS	sweat	NN2	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+He	PP	he	PNP	PRON	nsubj
+continues	VVZ	continue	VVZ	VERB	root
+to	TO	to	TO0	PART	mark
+have	VH	have	VHI	VERB	xcomp
+headaches	NNS	headache	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+The	DT	the	AT0	DET	det
+rest	NN	rest	NN1	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+review	NN	review	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+systems	NNS	system	NN2	NOUN	nmod
+is	VBZ	be	VBZ	AUX	cop
+negative	JJ	negative	AJ0	ADJ	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="red bold caps">
+<s type="frag" transition="zero">
+PHYSICAL	JJ	physical	AJ0	ADJ	amod
+EXAM	NN	exam	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<list type="unordered">
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+VITALS	NNS	VITALS	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+<hi rend="caps">
+BP	NP	BP	NP0	PROPN	nsubj
+:	:	:	PUN	PUNCT	punct
+</hi>
+<w>
+120	CD	120	CRD	NUM	parataxis
+/	SYM	/	UNC	SYM	case
+74	CD	74	CRD	NUM	conj
+</w>
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<hi rend="caps">
+HEART	NN	heart	NN1	NOUN	compound
+RATE	NN	rate	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+72	CD	72	CRD	NUM	dep
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+<hi rend="caps">
+TEMP	NN	temperature	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+97.8	CD	97.8	CRD	NUM	dep
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+Weight	NN	weight	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+112.7	CD	112.7	CRD	NUM	nummod
+kg	NN	kilogram	NN0	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+GEN	NP	GEN	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+a	DT	a	AT0	DET	det
+obvious	JJ	obvious	AJ0	ADJ	amod
+cold	JJ	cold	AJ0	ADJ	amod
+sore	NN	sore	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+bottom	JJ	bottom	AJ0	ADJ	amod
+lip	NN	lip	NN1	NOUN	obl
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+left	NN	left	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+HEENT	NP	HEENT	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="decl" transition="null">
+Pupils	NNS	pupil	NN2	NOUN	nsubj
+are	VBP	be	VBB	AUX	cop
+equal	JJ	equal	AJ0	ADJ	root
+,	,	,	PUN	PUNCT	punct
+round	JJ	round	AJ0	ADJ	conj
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+reactive	JJ	reactive	AJ0	ADJ	conj
+to	IN	to	PRP	ADP	case
+light	NN	light	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Sclerae	NNS	sclera	NN2	NOUN	nsubj
+are	VBP	be	VBB	AUX	cop
+anicteric	JJ	anicteric	AJ0	ADJ	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+His	PP$	his	DPS	PRON	nmod:poss
+oropharynx	NN	oropharynx	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+notable	JJ	notable	AJ0	ADJ	root
+for	IN	for	PRP	ADP	case
+ulcer	NN	ulcer	NN1	NOUN	obl
+on	IN	on	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+tongue	NN	tongue	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="establishment">
+No	DT	no	AT0	DET	det
+ulcers	NNS	ulcer	NN2	NOUN	root
+on	IN	on	PRP	ADP	case
+his	PP$	his	DPS	PRON	nmod:poss
+buccal	JJ	buccal	AJ0	ADJ	amod
+mucosa	NN	mucosa	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="zero">
+<hi rend="caps">
+NECK	NN	neck	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+Supple	NN	supple	NN1	NOUN	dep
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+no	DT	no	AT0	DET	det
+cervical	JJ	cervical	AJ0	ADJ	amod
+or	CC	or	CJC	CCONJ	cc
+supraclavicular	JJ	supraclavicular	AJ0	ADJ	conj
+adenopathy	NN	adenopathy	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+LUNGS	NNS	lung	NN2	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+</s>
+<s type="frag" transition="null">
+Clear	JJ	clear	AJ0	ADJ	root
+to	IN	to	PRP	ADP	case
+auscultation	NN	auscultation	NN1	NOUN	obl
+bilaterally	RB	bilaterally	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+CV	NN	CV	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+Regular	JJ	regular	AJ0	ADJ	amod
+rate	NN	rate	NN1	NOUN	parataxis
+;	:	;	PUN	PUNCT	punct
+normal	JJ	normal	AJ0	ADJ	amod
+S1	NN	S1	NN1	NOUN	parataxis
+,	,	,	PUN	PUNCT	punct
+S2	NN	S2	NN1	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+no	DT	no	AT0	DET	det
+murmurs	NNS	murmur	NN2	NOUN	appos
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+ABDOMEN	NN	abdomen	NN1	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+Soft	JJ	soft	AJ0	ADJ	parataxis
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+He	PP	he	PNP	PRON	nsubj
+has	VHZ	have	VHZ	VERB	root
+positive	JJ	positive	AJ0	ADJ	amod
+bowel	NN	bowel	NN1	NOUN	compound
+sounds	NNS	sound	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="frag" transition="null">
+No	DT	no	AT0	DET	det
+hepatosplenomegaly	NN	hepatosplenomegaly	NN1	NOUN	root
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+<item>
+<s type="frag" transition="null">
+<hi rend="caps">
+EXT	NP	EXT	NP0	PROPN	root
+:	:	:	PUN	PUNCT	punct
+</hi>
+No	DT	no	AT0	DET	det
+lower	JJR	low	AJC	ADJ	amod
+extremity	NN	extremity	NN1	NOUN	compound
+edema	NN	edema	NN1	NOUN	parataxis
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</item>
+</list>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+LABORATORY	NN	laboratory	NN1	NOUN	compound
+DATA	NN	datum	NN0	NOUN	root
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+His	PP$	his	DPS	PRON	nmod:poss
+white	JJ	white	AJ0	ADJ	amod
+blood	NN	blood	NN1	NOUN	compound
+cell	NN	cell	NN1	NOUN	compound
+count	NN	count	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+4.6	CD	4.6	CRD	NUM	root
+,	,	,	PUN	PUNCT	punct
+hemoglobin	NN	hemoglobin	NN1	NOUN	conj
+14.2	CD	14.2	CRD	NUM	nummod
+,	,	,	PUN	PUNCT	punct
+hematocrit	NN	hematocrit	NN1	NOUN	conj
+42	CD	42	CRD	NUM	nummod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+platelets	NNS	platelet	NN2	NOUN	conj
+207,000	CD	207000	CRD	NUM	nummod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<head rend="bold red caps">
+<s type="frag" transition="null">
+<w>
+ASSESSMENT	NN	assessment	NN1	NOUN	root
+/	SYM	/	UNC	SYM	cc
+PLAN	NN	plan	NN1	NOUN	conj
+</w>
+:	:	:	PUN	PUNCT	punct
+</s>
+</head>
+<p>
+<s type="decl" transition="null">
+This	DT	this	DT0	PRON	nsubj
+is	VBZ	be	VBZ	AUX	cop
+a	DT	a	AT0	DET	det
+<w>
+72	CD	72	CRD	NUM	nummod
+-	HYPH	-	PUN	PUNCT	punct
+year	NN	year	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+old	JJ	old	AJ0	ADJ	amod
+</w>
+gentleman	NN	gentleman	NN1	NOUN	root
+with	IN	with	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod
+leukemia	NN	leukemia	NN1	NOUN	nmod
+on	IN	on	PRP	ADP	case
+chronic	JJ	chronic	AJ0	ADJ	amod
+steroids	NNS	steroid	NN2	NOUN	nmod
+for	IN	for	PRP	ADP	case
+autoimmune	JJ	autoimmune	AJ0	ADJ	amod
+hemolytic	JJ	hemolytic	AJ0	ADJ	amod
+anemia	NN	anemia	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+His	PP$	his	DPS	PRON	nmod:poss
+blood	NN	blood	NN1	NOUN	compound
+counts	NNS	count	NN2	NOUN	nsubj
+are	VBP	be	VBB	AUX	cop
+relatively	RB	relatively	AV0	ADV	advmod
+stable	JJ	stable	AJ0	ADJ	root
+at	IN	at	PRP	ADP	case
+5	CD	5	CRD	NUM	nummod
+mg	NNS	milligram	NN2	NOUN	obl
+of	IN	of	PRF	ADP	case
+prednisone	NN	prednisone	NN1	NOUN	nmod
+every	DT	every	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+day	NN	day	NN1	NOUN	obl:tmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+We	PP	we	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+plan	VV	plan	VVI	VERB	root
+on	IN	on	PRP	SCONJ	mark
+putting	VVG	put	VVG	VERB	advcl
+him	PP	he	PNP	PRON	obj
+back	RB	back	AVP	ADV	advmod
+on	IN	on	PRP	ADP	case
+the	DT	the	AT0	DET	det
+Valtrex	NP	Valtrex	NP0	PROPN	obl
+and	CC	and	CJC	CCONJ	cc
+decreasing	VVG	decrease	VVG	VERB	conj
+his	PP$	his	DPS	PRON	nmod:poss
+steroids	NNS	steroid	NN2	NOUN	obj
+to	IN	to	PRP	ADP	case
+1	CD	1	CRD	NUM	nummod
+mg	NN	milligram	NN1	NOUN	obl
+daily	RB	daily	AV0	ADV	advmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+see	VV	see	VVI	VERB	root
+him	PP	he	PNP	PRON	obj
+back	RB	back	AVP	ADV	advmod
+in	IN	in	PRP	ADP	case
+clinic	NN	clinic	NN1	NOUN	obl
+in	IN	in	PRP	ADP	case
+a	DT	a	AT0	DET	det
+week	NN	week	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+</text>

@@ -1,0 +1,734 @@
+<text id="GENTLE_threat_dillard" author="Dillard, Angel" dateCollected="2022-11-14" dateCreated="2011-01-19" dateModified="2011-01-19" shortTitle="dillard" sourceURL="https://casetext.com/case/united-states-v-dillard-8" speakerCount="0" speakerList="none" title="United States v. Dillard, 835 F. Supp. 2d 1120, 1121-1122, 2011 U.S. Dist. LEXIS 148562, *2-5, 2011 WL 6719138 (D. Kan. December 21, 2011)" type="threat">
+<p>
+<s type="other" transition="establishment">
+Dr.	NP	Dr.	NP0	PROPN	root
+Means	NP	Means	NP0	PROPN	flat
+,	,	,	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="establishment">
+It	PP	it	PNP	PRON	expl
+has	VHZ	have	VHZ	AUX	aux
+come	VVN	come	VVN	VERB	root
+to	IN	to	PRP	ADP	case
+our	PP$	our	DPS	PRON	nmod:poss
+attention	NN	attention	NN1	NOUN	obl
+that	IN/that	that	CJT	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	aux
+planning	VVG	plan	VVG	VERB	csubj
+to	TO	to	TO0	PART	mark
+do	VV	do	VDI	VERB	xcomp
+abortions	NNS	abortion	NN2	NOUN	obj
+at	IN	at	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+Harry	NP	Harry	NP0	PROPN	compound
+St.	NP	St.	NP0	PROPN	flat
+location	NN	location	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+am	VBP	be	VBB	AUX	cop
+stunned	JJ	stunned	AJ0	ADJ	root
+that	IN/that	that	CJT	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+would	MD	would	VM0	AUX	aux
+take	VV	take	VVI	VERB	ccomp
+your	PP$	your	DPS	PRON	nmod:poss
+career	NN	career	NN1	NOUN	obj
+in	IN	in	PRP	ADP	case
+this	DT	this	DT0	DET	det
+direction	NN	direction	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+Fewer	JJR	Few	DT0	ADJ	amod
+people	NNS	person	NN0	NOUN	nsubj
+than	IN	than	CJS	ADP	case
+ever	RB	ever	AV0	ADV	advmod
+before	RB	before	AV0	ADV	nmod
+are	VBP	be	VBB	AUX	cop
+pro-abortion	JJ	pro-abortion	AJ0	ADJ	root
+,	,	,	PUN	PUNCT	punct
+quality	NN	quality	NN1	NOUN	compound
+physicians	NNS	physician	NN2	NOUN	nsubj
+would	MD	would	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+even	RB	even	AV0	ADV	advmod
+consider	VV	consider	VVI	VERB	conj
+associating	VVG	associate	VVG	VERB	xcomp
+themselves	PP	themselves	PNP	PRON	obj
+with	IN	with	PRP	ADP	case
+it	PP	it	PNP	PRON	obl
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+more	JJR	more	DT0	ADJ	amod
+Americans	NPS	American	NP0	PROPN	nsubj
+than	IN	than	CJS	SCONJ	mark
+ever	RB	ever	AV0	ADV	advmod
+before	RB	before	AV0	ADV	nmod
+are	VBP	be	VBB	AUX	cop
+unwilling	JJ	unwilling	AJ0	ADJ	conj
+to	TO	to	TO0	PART	mark
+turn	VV	turn	VVI	VERB	xcomp
+a	DT	a	AT0	DET	det
+blind	JJ	blind	AJ0	ADJ	amod
+eye	NN	eye	NN1	NOUN	obj
+to	IN	to	PRP	ADP	case
+the	DT	the	AT0	DET	det
+killing	NN	killing	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+baby	NN	baby	NN1	NOUN	nmod
+when	WRB	when	CJS	ADV	mark
+the	DT	the	AT0	DET	det
+ratio	NN	ratio	NN1	NOUN	nsubj
+for	IN	for	PRP	ADP	case
+adoption	NN	adoption	NN1	NOUN	nmod
+is	VBZ	be	VBZ	AUX	cop
+36	CD	36	CRD	NUM	nummod
+couples	NNS	couple	NN2	NOUN	advcl
+to	IN	to	PRP	ADP	case
+1	CD	1	CRD	NUM	nummod
+baby	NN	baby	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="null">
+Maybe	RB	maybe	AV0	ADV	advmod
+you	PP	you	PNP	PRON	nsubj
+do	VVP	do	VD	AUX	aux
+n't	RB	not	XX0	PART	advmod
+realize	VV	realize	VVI	VERB	root
+the	DT	the	AT0	DET	det
+consequences	NNS	consequence	NN2	NOUN	obj
+of	IN	of	PRF	SCONJ	mark
+killing	VVG	kill	VVG	VERB	acl
+the	DT	the	AT0	DET	det
+innocent	JJ	innocent	AJ0	ADJ	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="sub" transition="establishment">
+If	IN	if	CJS	SCONJ	mark
+Tiller	NP	Tiller	NP0	PROPN	nsubj
+could	MD	could	VM0	AUX	aux
+speak	VV	speak	VVI	VERB	advcl
+from	IN	from	PRP	ADP	case
+hell	NN	hell	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+he	PP	he	PNP	PRON	nsubj
+would	MD	would	VM0	AUX	aux
+tell	VV	tell	VVI	VERB	root
+you	PP	you	PNP	PRON	iobj
+what	WDT	what	DTQ	DET	det
+a	DT	a	AT0	DET	det
+soulless	JJ	soulless	AJ0	ADJ	amod
+existence	NN	existence	NN1	NOUN	obj
+you	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	aux
+purposefully	RB	purposefully	AV0	ADV	advmod
+considering	VVG	consider	VVG	VERB	ccomp
+,	,	,	PUN	PUNCT	punct
+all	DT	all	DT0	DET	advmod
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+name	NN	name	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+greed	NN	greed	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Thousands	NNS	thousand	NN2	NOUN	nsubj
+of	IN	of	PRF	ADP	case
+people	NNS	person	NN0	NOUN	nmod
+are	VBP	be	VBB	AUX	aux
+already	RB	already	AV0	ADV	advmod
+looking	VVG	look	VVG	VERB	root
+into	IN	into	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+background	NN	background	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+not	RB	not	XX0	PART	advmod
+just	RB	just	AV0	ADV	advmod
+in	IN	in	PRP	ADP	case
+Wichita	NP	Wichita	NP0	PROPN	obl
+,	,	,	PUN	PUNCT	punct
+but	CC	but	CJC	CCONJ	cc
+from	IN	from	PRP	ADP	case
+all	RB	all	DT0	ADV	advmod
+over	IN	over	PRP	ADP	case
+the	DT	the	AT0	DET	det
+U.S.	NP	U.S.	NP0	PROPN	conj
+</s>
+<s type="decl" transition="smooth-shift">
+They	PP	they	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+know	VV	know	VVI	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+habits	NNS	habit	NN2	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+routines	NNS	routine	NN2	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+They	PP	they	PNP	PRON	nsubj
+know	VVP	know	VVB	VERB	root
+where	WRB	where	CJS	ADV	obj
+you	PP	you	PNP	PRON	nsubj
+shop	VVP	shop	VVB	VERB	advcl:relcl
+,	,	,	PUN	PUNCT	punct
+who	WP	who	PNQ	PRON	conj
+your	PP$	your	DPS	PRON	nmod:poss
+friends	NNS	friend	NN2	NOUN	nsubj
+are	VBP	be	VBB	VERB	acl:relcl
+,	,	,	PUN	PUNCT	punct
+what	WP	what	PNQ	PRON	conj
+you	PP	you	PNP	PRON	nsubj
+drive	VVP	drive	VVB	VERB	acl:relcl
+,	,	,	PUN	PUNCT	punct
+where	WRB	where	CJS	ADV	conj
+you	PP	you	PNP	PRON	nsubj
+live	VVP	live	VVB	VERB	advcl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux
+checking	VVG	check	VVG	VERB	root
+under	IN	under	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+car	NN	car	NN1	NOUN	obl
+every	DT	every	AT0	DET	det
+day	NN	day	NN1	NOUN	obl:tmod
+—	:	—	UNC	PUNCT	punct
+because	IN	because	CJS	SCONJ	mark
+maybe	RB	maybe	AV0	ADV	advmod
+today	NN	today	NN1	NOUN	nsubj
+is	VBZ	be	VBZ	AUX	cop
+the	DT	the	AT0	DET	det
+day	NN	day	NN1	NOUN	advcl
+someone	NN	someone	NN1	PRON	nsubj
+places	VVZ	place	VVZ	VERB	acl:relcl
+an	DT	a	AT0	DET	det
+explosive	NN	explosive	NN1	NOUN	obj
+under	IN	under	PRP	ADP	case
+it	PP	it	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+People	NNS	person	NN0	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux
+picketing	VVG	picket	VVG	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+home	NN	home	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+your	PP$	your	DPS	PRON	nmod:poss
+office	NN	office	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+come	VV	come	VVI	VERB	root
+under	IN	under	PRP	ADP	case
+greater	JJR	great	AJC	ADJ	amod
+scrutiny	NN	scrutiny	NN1	NOUN	obl
+than	IN	than	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+'ve	VHP	have	VHB	AUX	aux
+ever	RB	ever	AV0	ADV	advmod
+known	VVN	know	VVN	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+legally	RB	legally	AV0	ADV	advmod
+and	CC	and	CJC	CCONJ	cc
+professionally	RB	professionally	AV0	ADV	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Much	RB	much	AV0	ADV	advmod
+worse	JJR	bad	AJC	ADJ	root
+than	IN	than	CJS	ADP	case
+the	DT	the	AT0	DET	det
+disciplinary	JJ	disciplinary	AJ0	ADJ	amod
+actions	NNS	action	NN2	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+ethical	JJ	ethical	AJ0	ADJ	amod
+concerns	NNS	concern	NN2	NOUN	conj
+that	WDT	that	CJT	PRON	obj
+you	PP	you	PNP	PRON	nsubj
+'ve	VHP	have	VHB	AUX	aux
+been	VBN	be	VBN	AUX	aux
+facing	VVG	face	VVG	VERB	acl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+become	VV	become	VVI	VERB	root
+a	DT	a	AT0	DET	det
+pariah	NN	pariah	NN1	NOUN	xcomp
+—	:	—	UNC	PUNCT	punct
+no	DT	no	AT0	DET	det
+physician	NN	physician	NN1	NOUN	nsubj
+will	MD	will	VM0	AUX	aux
+want	VV	want	VVI	VERB	parataxis
+to	TO	to	TO0	PART	mark
+associate	VV	associate	VVI	VERB	xcomp
+with	IN	with	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj:pass
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux:pass
+seen	VVN	see	VVN	VERB	root
+like	IN	like	PRP	ADP	case
+all	PDT	all	DT0	DET	det:predet
+the	DT	the	AT0	DET	det
+other	JJ	other	AJ0	ADJ	amod
+hacks	NNS	hack	NN2	NOUN	obl
+that	WDT	that	CJT	PRON	nsubj
+have	VHP	have	VHB	AUX	aux
+stooped	VVN	stoop	VVN	VERB	acl:relcl
+to	IN	to	PRP	SCONJ	mark
+doing	VVG	do	VDG	VERB	advcl
+abortions	NNS	abortion	NN2	NOUN	obj
+when	WRB	when	CJS	ADV	advmod
+they	PP	they	PNP	PRON	nsubj
+were	VBD	be	VBD	AUX	cop
+n't	RB	not	XX0	PART	advmod
+good	JJ	good	AJ0	ADJ	advcl
+enough	RB	enough	AV0	ADV	advmod
+to	TO	to	TO0	PART	mark
+maintain	VV	maintain	VVI	VERB	advcl
+a	DT	a	AT0	DET	det
+real	JJ	real	AJ0	ADJ	amod
+practice	NN	practice	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+lose	VV	lose	VVI	VERB	root
+your	PP$	your	DPS	PRON	nmod:poss
+legitimate	JJ	legitimate	AJ0	ADJ	amod
+clientele	NN	clientele	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+as	IN	as	CJS	SCONJ	mark
+no	DT	no	AT0	DET	det
+one	NN	one	NN1	PRON	nsubj
+bringing	VVG	bring	VVG	VERB	acl
+a	DT	a	AT0	DET	det
+baby	NN	baby	NN1	NOUN	obj
+into	IN	into	PRP	ADP	case
+this	DT	this	DT0	DET	det
+world	NN	world	NN1	NOUN	obl
+wants	VVZ	want	VVZ	VERB	advcl
+to	TO	to	TO0	PART	mark
+be	VB	be	VBI	AUX	cop
+in	IN	in	PRP	ADP	case
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	amod
+facility	NN	facility	NN1	NOUN	xcomp
+where	WRB	where	CJS	ADV	advmod
+you	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	aux
+also	RB	also	AV0	ADV	advmod
+killing	VVG	kill	VVG	VERB	acl:relcl
+them	PP	they	PNP	PRON	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+have	VH	have	VHI	VERB	root
+trouble	NN	trouble	NN1	NOUN	obj
+keeping	VVG	keep	VVG	VERB	acl
+staff	NN	staff	NN0	NOUN	obj
+who	WP	who	PNQ	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+willing	JJ	willing	AJ0	ADJ	acl:relcl
+to	TO	to	TO0	PART	mark
+participate	VV	participate	VVI	VERB	xcomp
+in	IN	in	PRP	ADP	case
+innocent	JJ	innocent	AJ0	ADJ	amod
+blood	NN	blood	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+shedding	NN	shedding	NN1	NOUN	obl
+and	CC	and	CJC	CCONJ	cc
+wo	MD	will	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+be	VB	be	VBI	AUX	cop
+able	JJ	able	AJ0	ADJ	conj
+to	TO	to	TO0	PART	mark
+keep	VV	keep	VVI	VERB	xcomp
+the	DT	the	AT0	DET	det
+sanitary	JJ	sanitary	AJ0	ADJ	amod
+conditions	NNS	condition	NN2	NOUN	obj
+necessary	JJ	necessary	AJ0	ADJ	acl
+to	TO	to	TO0	PART	mark
+maintain	VV	maintain	VVI	VERB	advcl
+a	DT	a	AT0	DET	det
+healthy	JJ	healthy	AJ0	ADJ	amod
+medical	JJ	medical	AJ0	ADJ	amod
+facility	NN	facility	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+end	VV	end	VVI	VERB	root
+up	RP	up	AVP	ADP	compound:prt
+having	VHG	have	VHG	VERB	xcomp
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	amod
+kind	NN	kind	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+rat	NN	rat	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+infested	VVN	infest	VVN	VERB	amod
+,	,	,	PUN	PUNCT	punct
+dirty	JJ	dirty	AJ0	ADJ	amod
+facility	NN	facility	NN1	NOUN	nmod
+that	WDT	that	CJT	PRON	obj
+they	PP	they	PNP	PRON	nsubj
+have	VHP	have	VHB	VERB	acl:relcl
+in	IN	in	PRP	ADP	case
+north	NN	north	NN1	NOUN	compound
+-	HYPH	-	PUN	PUNCT	punct
+eastern	JJ	eastern	AJ0	ADJ	amod
+Kansas	NP	Kansas	NP0	PROPN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+Anyone	NN	anyone	NN1	PRON	nsubj
+who	WP	who	PNQ	PRON	nsubj
+partners	VVZ	partner	VVZ	VERB	acl:relcl
+with	IN	with	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+will	MD	will	VM0	AUX	aux
+experience	VV	experience	VVI	VERB	root
+the	DT	the	AT0	DET	det
+same	JJ	same	DT0	ADJ	amod
+headaches	NNS	headache	NN2	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="continue">
+Not	RB	not	XX0	PART	advmod
+to	TO	to	TO0	PART	mark
+mention	VV	mention	VVI	VERB	root
+the	DT	the	AT0	DET	det
+fact	NN	fact	NN1	NOUN	obj
+that	IN/that	that	CJT	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj:pass
+will	MD	will	VM0	AUX	aux
+be	VB	be	VBI	AUX	aux:pass
+haunted	VVN	haunt	VVN	VERB	acl
+by	IN	by	PRP	ADP	case
+bloody	JJ	bloody	AJ0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+squirming	VVG	squirm	VVG	VERB	amod
+,	,	,	PUN	PUNCT	punct
+dismembered	VVN	dismember	VVN	VERB	amod
+babies	NNS	baby	NN2	NOUN	obl:agent
+in	IN	in	PRP	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+sleep	NN	sleep	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+You	PP	you	PNP	PRON	nsubj
+ca	MD	can	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+do	VV	do	VDI	VERB	root
+what	WP	what	PNQ	PRON	obj
+is	VBZ	be	VBZ	AUX	cop
+morally	RB	morally	AV0	ADV	advmod
+reprehensible	JJ	reprehensible	AJ0	ADJ	acl:relcl
+and	CC	and	CJC	CCONJ	cc
+enjoy	VV	enjoy	VVB	VERB	conj
+peace	NN	peace	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+mind	NN	mind	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+The	DT	the	AT0	DET	det
+Bible	NP	Bible	NP0	PROPN	nsubj
+says	VVZ	say	VVZ	VERB	root
+,	,	,	PUN	PUNCT	punct
+"	``	''	PUQ	PUNCT	punct
+There	EX	there	EX0	PRON	expl
+are	VBP	be	VBB	VERB	ccomp
+six	CD	six	CRD	NUM	nummod
+things	NNS	thing	NN2	NOUN	nsubj
+the	DT	the	AT0	DET	det
+Lord	NP	Lord	NP0	PROPN	nsubj
+hates	VVZ	hate	VVZ	VERB	acl:relcl
+...	:	…	PUN	PUNCT	punct
+hands	NNS	hand	NN2	NOUN	appos
+that	WDT	that	CJT	PRON	nsubj
+shed	VVP	shed	VVB	VERB	acl:relcl
+innocent	JJ	innocent	AJ0	ADJ	amod
+blood	NN	blood	NN1	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+a	DT	a	AT0	DET	det
+heart	NN	heart	NN1	NOUN	conj
+that	WDT	that	CJT	PRON	nsubj
+devises	VVZ	devise	VVZ	VERB	acl:relcl
+evil	JJ	evil	AJ0	ADJ	amod
+schemes	NNS	scheme	NN2	NOUN	obj
+,	,	,	PUN	PUNCT	punct
+feet	NNS	foot	NN2	NOUN	conj
+that	WDT	that	CJT	PRON	nsubj
+are	VBP	be	VBB	AUX	cop
+quick	JJ	quick	AJ0	ADJ	acl:relcl
+to	TO	to	TO0	PART	mark
+rush	VV	rush	VVI	VERB	xcomp
+into	IN	into	PRP	ADP	case
+evil	NN	evil	NN1	NOUN	obl
+"	``	''	PUQ	PUNCT	punct
+Proverbs	NPS	proverb	NP0	PROPN	dep
+6	CD	6	CRD	NUM	dep
+:	SYM	:	PUN	PUNCT	punct
+16	CD	16	CRD	NUM	dep
+-	SYM	-	PUN	SYM	case
+18	CD	18	CRD	NUM	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="null">
+Abortion	NN	abortion	NN1	NOUN	nsubj
+kills	VVZ	kill	VVZ	VERB	root
+human	JJ	human	AJ0	ADJ	amod
+life	NN	life	NN1	NOUN	obj
+-	:	-	PUN	PUNCT	punct
+it	PP	it	PNP	PRON	expl
+matters	VVZ	matter	VVZ	VERB	parataxis
+not	RB	not	XX0	PART	advmod
+if	IN	if	CJS	SCONJ	mark
+you	PP	you	PNP	PRON	nsubj
+kill	VVP	kill	VVB	VERB	advcl
+it	PP	it	PNP	PRON	obj
+at	IN	at	PRP	ADP	case
+6	CD	6	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+at	IN	at	PRP	ADP	case
+26	CD	26	CRD	NUM	nummod
+weeks	NNS	week	NN2	NOUN	conj
+,	,	,	PUN	PUNCT	punct
+it	PP	it	PNP	PRON	nsubj
+'s	VBZ	be	VBZ	AUX	cop
+still	RB	still	AV0	ADV	advmod
+the	DT	the	AT0	DET	det
+unnatural	JJ	unnatural	AJ0	ADJ	amod
+,	,	,	PUN	PUNCT	punct
+violent	JJ	violent	AJ0	ADJ	amod
+death	NN	death	NN1	NOUN	parataxis
+of	IN	of	PRF	ADP	case
+a	DT	a	AT0	DET	det
+human	JJ	human	AJ0	ADJ	amod
+baby	NN	baby	NN1	NOUN	nmod
+for	IN	for	PRP	ADP	case
+the	DT	the	AT0	DET	det
+sake	NN	sake	NN1	NOUN	nmod
+of	IN	of	PRF	ADP	case
+convenience	NN	convenience	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+You	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	aux
+doing	VVG	do	VDG	VERB	root
+what	WP	what	PNQ	PRON	obj
+the	DT	the	AT0	DET	det
+Humane	NP	Humane	NP0	PROPN	compound
+Society	NP	Society	NP0	PROPN	nsubj
+would	MD	would	VM0	AUX	aux
+n't	RB	not	XX0	PART	advmod
+allow	VV	allow	VVI	VERB	acl:relcl
+to	TO	to	TO0	PART	mark
+happen	VV	happen	VVI	VERB	xcomp
+to	IN	to	PRP	ADP	case
+a	DT	a	AT0	DET	det
+pregnant	JJ	pregnant	AJ0	ADJ	amod
+dog	NN	dog	NN1	NOUN	obl
+or	CC	or	CJC	CCONJ	cc
+cat	NN	cat	NN1	NOUN	conj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="decl" transition="continue">
+I	PP	I	PNP	PRON	nsubj
+urge	VVP	urge	VVB	VERB	root
+you	PP	you	PNP	PRON	obj
+to	TO	to	TO0	PART	mark
+think	VV	think	VVI	VERB	xcomp
+very	RB	very	AV0	ADV	advmod
+carefully	RB	carefully	AV0	ADV	advmod
+about	IN	about	PRP	ADP	case
+the	DT	the	AT0	DET	det
+choices	NNS	choice	NN2	NOUN	obl
+you	PP	you	PNP	PRON	nsubj
+are	VBP	be	VBB	AUX	aux
+making	VVG	make	VVG	VERB	acl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+There	EX	there	EX0	PRON	expl
+are	VBP	be	VBB	VERB	root
+3	CD	3	CRD	NUM	nummod
+churches	NNS	church	NN2	NOUN	nsubj
+within	IN	within	PRP	ADP	case
+1	CD	1	CRD	NUM	nummod
+block	NN	block	NN1	NOUN	obl
+of	IN	of	PRF	ADP	case
+your	PP$	your	DPS	PRON	nmod:poss
+practice	NN	practice	NN1	NOUN	nmod
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+many	JJ	many	DT0	ADJ	amod
+others	NNS	other	NN2	NOUN	conj
+who	WP	who	PNQ	PRON	nsubj
+must	MD	must	VM0	AUX	aux
+take	VV	take	VVI	VERB	acl:relcl
+a	DT	a	AT0	DET	det
+stand	NN	stand	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="zero">
+We	PP	we	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+not	RB	not	XX0	PART	advmod
+let	VV	let	VVI	VERB	root
+this	DT	this	DT0	DET	det
+abomination	NN	abomination	NN1	NOUN	obj
+continue	VV	continue	VVI	VERB	xcomp
+without	IN	without	PRP	SCONJ	mark
+doing	VVG	do	VDG	VERB	advcl
+everything	NN	everything	NN1	PRON	obj
+we	PP	we	PNP	PRON	nsubj
+can	MD	can	VM0	AUX	acl:relcl
+to	TO	to	TO0	PART	mark
+stop	VV	stop	VVI	VERB	advcl
+it	PP	it	PNP	PRON	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="establishment">
+We	PP	we	PNP	PRON	nsubj
+pray	VVP	pray	VVB	VERB	root
+you	PP	you	PNP	PRON	nsubj
+will	MD	will	VM0	AUX	aux
+either	CC	either	AV0	CCONJ	cc:preconj
+make	VV	make	VVI	VERB	ccomp
+the	DT	the	AT0	DET	det
+right	JJ	right	AJ0	ADJ	amod
+choice	NN	choice	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+use	VV	use	VVB	VERB	conj
+your	PP$	your	DPS	PRON	nmod:poss
+medical	JJ	medical	AJ0	ADJ	amod
+practice	NN	practice	NN1	NOUN	obj
+to	TO	to	TO0	PART	mark
+heal	VV	heal	VVI	VERB	advcl
+instead	RB	instead	AV0	ADV	mark
+of	IN	of	PRF	ADP	fixed
+kill	VV	kill	NN1	VERB	advcl
+,	,	,	PUN	PUNCT	punct
+or	CC	or	CJC	CCONJ	cc
+that	IN/that	that	CJT	SCONJ	mark
+God	NP	God	NP0	PROPN	nsubj
+will	MD	will	VM0	AUX	aux
+bring	VV	bring	VVI	VERB	conj
+judgment	NN	judgment	NN1	NOUN	obj
+on	IN	on	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+,	,	,	PUN	PUNCT	punct
+the	DT	the	AT0	DET	det
+likes	NNS	like	NN2	NOUN	obj
+of	IN	of	PRF	ADP	case
+which	WDT	which	DTQ	PRON	nmod
+you	PP	you	PNP	PRON	nsubj
+can	MD	can	VM0	AUX	aux
+not	RB	not	XX0	PART	advmod
+imagine	VV	imagine	VVI	VERB	advcl:relcl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+We	PP	we	PNP	PRON	nsubj
+do	VVP	do	VD	AUX	aux
+n't	RB	not	XX0	PART	advmod
+want	VV	want	VVI	VERB	root
+you	PP	you	PNP	PRON	obj
+killing	VVG	kill	VVG	VERB	xcomp
+our	PP$	our	DPS	PRON	nmod:poss
+children	NNS	child	NN2	NOUN	obj
+in	IN	in	PRP	ADP	case
+our	PP$	our	DPS	PRON	nmod:poss
+community	NN	community	NN1	NOUN	obl
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="smooth-shift">
+Good	JJ	good	AJ0	ADJ	amod
+people	NNS	person	NN0	NOUN	nsubj
+are	VBP	be	VBB	AUX	cop
+tired	JJ	tired	AJ0	ADJ	root
+of	IN	of	PRF	ADP	case
+this	DT	this	DT0	DET	det
+rampant	JJ	rampant	AJ0	ADJ	amod
+evil	NN	evil	NN1	NOUN	obl
+,	,	,	PUN	PUNCT	punct
+and	CC	and	CJC	CCONJ	cc
+will	MD	will	VM0	AUX	aux
+stand	VV	stand	VVI	VERB	conj
+against	IN	against	PRP	ADP	case
+you	PP	you	PNP	PRON	obl
+every	DT	every	AT0	DET	det
+step	NN	step	NN1	NOUN	obl:npmod
+of	IN	of	PRF	ADP	case
+the	DT	the	AT0	DET	det
+way	NN	way	NN1	NOUN	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="imp" transition="continue">
+Do	VV	do	VDB	VERB	root
+the	DT	the	AT0	DET	det
+world	NN	world	NN1	NOUN	iobj
+a	DT	a	AT0	DET	det
+favor	NN	favor	NN1	NOUN	obj
+and	CC	and	CJC	CCONJ	cc
+ABORT	VV	abort	NN1	VERB	conj
+this	DT	this	DT0	DET	det
+stupid	JJ	stupid	AJ0	ADJ	amod
+plan	NN	plan	NN1	NOUN	obj
+of	IN	of	PRF	ADP	case
+yours	PP$	yours	DPS	PRON	nmod
+.	SENT	.	PUN	PUNCT	punct
+</s>
+<s type="decl" transition="continue">
+It	PP	it	PNP	PRON	expl
+'s	VBZ	be	VBZ	AUX	cop
+not	RB	not	XX0	PART	advmod
+too	RB	too	AV0	ADV	advmod
+late	JJ	late	AJ0	ADJ	root
+to	TO	to	TO0	PART	mark
+change	VV	change	VVI	VERB	csubj
+your	PP$	your	DPS	PRON	nmod:poss
+mind	NN	mind	NN1	NOUN	obj
+.	SENT	.	PUN	PUNCT	punct
+</s>
+</p>
+<p>
+<s type="frag" transition="zero">
+Angel	NP	Angel	NP0	PROPN	root
+Dillard	NP	Dillard	NP0	PROPN	flat
+</s>
+</p>
+</text>

@@ -1,0 +1,175 @@
+1	As in the game battle bus has launched one more time ,	0	_	_	pos1=IN|head_tok=launch|head_pos=VVN|head_id=8|parent_pos=_|sid=1|stype=decl|len=12|head_func=root|subord=RIGHT	2	explanation-evidence_r	_	_
+2	the Fortnite World Cup Finals ends right here .	6	_	_	pos1=DT|head_tok=end|head_pos=VVZ|head_id=18|parent_posVVN|sid=1|stype=decl|len=9|head_func=parataxis|subord=LEFT	55	adversative-antithesis_r	_	_
+3	All 100 players on your screen there , Jack , Bugha ,	5	_	_	pos1=DT|head_tok=player|head_pos=NNS|head_id=24|parent_pos=_|sid=2|stype=frag|len=12|head_func=root|subord=RIGHT	55	context-background_r	_	_
+4	sitting out in front of everyone thus far	0	_	_	pos1=VVG|head_tok=sit|head_pos=VVG|head_id=34|parent_posNP|sid=2|stype=frag|len=8|head_func=acl|subord=LEFT	3	elaboration-attribute_r	_	_
+5	a commanding lead .	0	_	_	pos1=DT|head_tok=lead|head_pos=NN|head_id=44|parent_posNP|sid=2|stype=frag|len=4|head_func=parataxis|subord=LEFT	4	evaluation-comment_r	_	_
+6	Kreo the winner of the previous game	1	_	_	pos1=NP|head_tok=Kreo|head_pos=NP|head_id=46|parent_pos=_|sid=3|stype=decl|len=7|head_func=root	3	joint-list_m	_	_
+7	flying in there the northeast corner of the map .	0	_	_	pos1=VVG|head_tok=fly|head_pos=VVG|head_id=53|parent_posNP|sid=3|stype=decl|len=10|head_func=acl|subord=LEFT	6	elaboration-attribute_r	_	_
+8	Spread of players across the screen ,	0	_	_	pos1=NN|head_tok=spread|head_pos=NN|head_id=63|parent_pos=_|sid=4|stype=decl|len=7|head_func=root	9	organization-preparation_r	_	_
+9	there 's your top ten on the left side , Bugha , Psalm , Kreo , Skite , Nayte , Riversan , Rhux and the rest .	2	_	_	pos1=EX|head_tok=be|head_pos=VBZ|head_id=71|parent_posNN|sid=4|stype=decl|len=27|head_func=parataxis|subord=LEFT	3	restatement-partial_r	_	_
+10	Average placements thus far of 25th for Kreo , only 8 eliminations but 30 points	3	_	_	pos1=JJ|head_tok=placement|head_pos=NNS|head_id=98|parent_pos=_|sid=5|stype=frag|len=15|head_func=root	3	elaboration-additional_r	_	_
+11	enough to put him in third place thus far .	0	_	_	pos1=JJ|head_tok=enough|head_pos=JJ|head_id=112|parent_posNNS|sid=5|stype=frag|len=10|head_func=parataxis|subord=LEFT	10	causal-result_r	_	_
+12	One thing	1	_	_	pos1=CD|head_tok=thing|head_pos=NN|head_id=123|parent_pos=_|sid=6|stype=decl|len=2|head_func=root	14	organization-preparation_r	_	_
+13	to remember from yesterday ,	0	_	_	pos1=TO|head_tok=yesterday|head_pos=NN|head_id=127|parent_posNN|sid=6|stype=decl|len=5|head_func=nmod|subord=RIGHT|date	12	purpose-attribute_r	_	_
+14	Nayte and Saf held on to the lead the first five games	4	_	_	pos1=NN|head_tok=hold|head_pos=VVD|head_id=132|parent_posNN|sid=6|stype=decl|len=12|head_func=parataxis|subord=LEFT	3	joint-other_m	_	_
+15	and it slipped away in Game six .	0	_	_	pos1=CC|head_tok=slip|head_pos=VVD|head_id=143|parent_posVVD|sid=6|stype=decl|len=8|head_func=conj|subord=LEFT	14	joint-sequence_m	_	_
+16	Bugha has been in the lead for all five games .	1	_	_	pos1=NP|head_tok=lead|head_pos=NN|head_id=154|parent_pos=_|sid=7|stype=decl|len=11|head_func=root	18	context-background_r	_	_
+17	He has never lost the first place spot .	0	_	_	pos1=PP|head_tok=lose|head_pos=VVN|head_id=163|parent_pos=_|sid=8|stype=decl|len=9|head_func=root	16	restatement-partial_r	_	_
+18	Will he suffer the same fate	4	_	_	pos1=MD|head_tok=suffer|head_pos=VV|head_id=171|parent_pos=_|sid=9|stype=q|len=6|head_func=root	3	joint-other_m	_	_
+19	or can he close it out right here	0	_	_	pos1=CC|head_tok=close|head_pos=VV|head_id=178|parent_posVV|sid=9|stype=q|len=8|head_func=conj|subord=LEFT	18	joint-disjunction_m	_	_
+20	to remain our Fortnite world champ ?	0	_	_	pos1=TO|head_tok=remain|head_pos=VV|head_id=184|parent_posVV|sid=9|stype=q|len=7|head_func=advcl|subord=LEFT	19	causal-result_r	_	_
+21	Bugha by the way he is from Pennsylvania 16 year old player , Sentinels ,	2	_	_	pos1=NP|head_tok=Pennsylvania|head_pos=NP|head_id=197|parent_pos=_|sid=10|stype=decl|len=15|head_func=root|subord=RIGHT	18	context-background_r	_	_
+22	qualified the very first week for the World Cup .	0	_	_	pos1=VVD|head_tok=qualify|head_pos=VVD|head_id=205|parent_posNP|sid=10|stype=decl|len=10|head_func=conj|subord=LEFT	21	joint-other_m	_	_
+23	So he just got his first part - time job	3	_	_	pos1=RB|head_tok=get|head_pos=VVD|head_id=218|parent_pos=_|sid=11|stype=decl|len=10|head_func=root	26	adversative-antithesis_r	_	_
+24	to try to start earning money	0	_	_	pos1=TO|head_tok=try|head_pos=VV|head_id=226|parent_posVVD|sid=11|stype=decl|len=6|head_func=advcl|subord=LEFT	23	purpose-goal_r	_	_
+25	to buy himself a car .	0	_	_	pos1=TO|head_tok=buy|head_pos=VV|head_id=232|parent_posVVG|sid=11|stype=decl|len=6|head_func=advcl|subord=LEFT	24	purpose-goal_r	_	_
+26	But instead after this could walk away with three million dollars ,	0	_	_	pos1=CC|head_tok=walk|head_pos=VV|head_id=242|parent_pos=_|sid=12|stype=sub|len=12|head_func=root|subord=RIGHT	21	joint-other_m	_	_
+27	he 's gon na walk on in	0	_	_	pos1=PP|head_tok=go|head_pos=VVG|head_id=251|parent_posVV|sid=12|stype=sub|len=7|head_func=parataxis|subord=LEFT	26	causal-result_r	_	_
+28	and say	0	_	_	pos1=CC|head_tok=say|head_pos=VV|head_id=257|parent_posVV|sid=12|stype=sub|len=2|head_func=conj|subord=LEFT	29	attribution-positive_r	_	_
+29	I quit ,	0	_	_	pos1=PP|head_tok=quit|head_pos=VVP|head_id=259|parent_posVV|sid=12|stype=sub|len=3|head_func=ccomp|subord=LEFT	27	joint-sequence_m	_	_
+30	ca n't wait for him to get home ,	1	_	_	pos1=MD|head_tok=wait|head_pos=VV|head_id=263|parent_posVVG|sid=12|stype=sub|len=9|head_func=parataxis|subord=RIGHT	26	evaluation-comment_r	_	_
+31	you know ,	0	_	_	pos1=PP|head_tok=know|head_pos=VVP|head_id=271|parent_posVV|sid=12|stype=sub|len=3|head_func=parataxis|subord=RIGHT	30	organization-phatic_r	_	_
+32	imagine	0	_	_	pos1=VV|head_tok=imagine|head_pos=VV|head_id=273|parent_posVV|sid=12|stype=sub|len=1|head_func=parataxis|subord=LEFT	33	adversative-antithesis_r	_	_
+33	he wins three million dollars here ,	3	_	_	pos1=PP|head_tok=win|head_pos=VVZ|head_id=275|parent_posVV|sid=12|stype=sub|len=7|head_func=ccomp|subord=RIGHT	37	contingency-condition_r	_	_
+34	his parents gon na ask him to take the trash out	2	_	_	pos1=PP$|head_tok=go|head_pos=VVG|head_id=283|parent_posVV|sid=12|stype=sub|len=11|head_func=parataxis|subord=LEFT	37	topic-solutionhood_r	_	_
+35	and he 's gon na laugh .	0	_	_	pos1=CC|head_tok=go|head_pos=VVG|head_id=295|parent_posVVG|sid=12|stype=sub|len=7|head_func=conj|subord=LEFT	34	evaluation-comment_r	_	_
+36	Yeah right .	1	_	_	pos1=UH|head_tok=right|head_pos=UH|head_id=300|parent_pos=_|sid=13|stype=intj|len=3|head_func=root	34	organization-phatic_r	_	_
+37	Pay his butler to do that ,	2	_	_	pos1=VV|head_tok=pay|head_pos=VV|head_id=302|parent_pos=_|sid=14|stype=imp|len=7|head_func=root|subord=RIGHT	26	elaboration-additional_r	_	_
+38	I guess	0	_	_	pos1=PP|head_tok=guess|head_pos=VVP|head_id=310|parent_posVV|sid=14|stype=imp|len=2|head_func=parataxis|subord=LEFT	37	attribution-positive_r	_	_
+39	at that point .	1	_	_	pos1=IN|head_tok=point|head_pos=NN|head_id=313|parent_posVV|sid=14|stype=imp|len=4|head_func=obl|subord=LEFT	37	same-unit_m	_	_
+40	Celce currently set up many builds ,	4	_	_	pos1=NP|head_tok=set|head_pos=VVD|head_id=317|parent_pos=_|sid=15|stype=decl|len=7|head_func=root	3	joint-other_m	_	_
+41	one of these very early awkward fights ,	0	_	_	pos1=CD|head_tok=fight|head_pos=NNS|head_id=328|parent_posVVD|sid=15|stype=decl|len=8|head_func=parataxis|subord=RIGHT	40	context-circumstance_r	_	_
+42	sees those as well .	1	_	_	pos1=VVZ|head_tok=see|head_pos=VVZ|head_id=330|parent_posNNS|sid=15|stype=decl|len=5|head_func=parataxis|subord=LEFT	40	elaboration-additional_r	_	_
+43	You look at those	0	_	_	pos1=PP|head_tok=look|head_pos=VVP|head_id=336|parent_pos=_|sid=16|stype=decl|len=4|head_func=root	44	organization-preparation_r	_	_
+44	what he has , common infantry rifle 25 shots and a drum gun .	2	_	_	pos1=WP|head_tok=rifle|head_pos=NN|head_id=345|parent_posDT|sid=16|stype=decl|len=14|head_func=appos|subord=LEFT	40	elaboration-additional_r	_	_
+45	Jack , one of the first four	4	_	_	pos1=NP|head_tok=one|head_pos=CD|head_id=355|parent_posNP|sid=17|stype=decl|len=7|head_func=nsubj|subord=RIGHT	3	joint-other_m	_	_
+46	to go down in this match	0	_	_	pos1=TO|head_tok=go|head_pos=VV|head_id=361|parent_posCD|sid=17|stype=decl|len=6|head_func=acl|subord=LEFT	45	elaboration-attribute_r	_	_
+47	is Skite ,	1	_	_	pos1=VBZ|head_tok=Skite|head_pos=NP|head_id=367|parent_pos=_|sid=17|stype=decl|len=3|head_func=root	45	same-unit_m	_	_
+48	who was in the old place already ,	0	_	_	pos1=WP|head_tok=place|head_pos=NN|head_id=374|parent_posNP|sid=17|stype=decl|len=8|head_func=acl:relcl|subord=LEFT	47	elaboration-attribute_r	_	_
+49	already gone from that top spot .	2	_	_	pos1=RB|head_tok=go|head_pos=VVN|head_id=378|parent_posNP|sid=17|stype=decl|len=7|head_func=parataxis|subord=LEFT	45	restatement-partial_r	_	_
+50	If I do –	0	_	_	pos1=IN|head_tok=do|head_pos=VVP|head_id=386|parent_posVV|sid=18|stype=q|len=4|head_func=reparandum|subord=RIGHT	51	organization-phatic_r	_	_
+51	as he throws them down ,	2	_	_	pos1=IN|head_tok=throw|head_pos=VVZ|head_id=390|parent_posVV|sid=18|stype=q|len=6|head_func=advcl|subord=RIGHT	52	context-circumstance_r	_	_
+52	can you see all the players	3	_	_	pos1=MD|head_tok=see|head_pos=VV|head_id=396|parent_pos=_|sid=18|stype=q|len=6|head_func=root	45	elaboration-additional_r	_	_
+53	surrounded	0	_	_	pos1=VVN|head_tok=surround|head_pos=VVN|head_id=400|parent_posNNS|sid=18|stype=q|len=1|head_func=acl|subord=LEFT	52	elaboration-attribute_r	_	_
+54	outside the sunny side of the map ?	1	_	_	pos1=IN|head_tok=side|head_pos=NN|head_id=404|parent_posVVN|sid=18|stype=q|len=8|head_func=obl|subord=LEFT	52	same-unit_m	_	_
+55	Celce he continues to bounce around for a moment ,	0	_	_	pos1=NP|head_tok=continue|head_pos=VVZ|head_id=411|parent_pos=_|sid=19|stype=multiple|len=10|head_func=root|subord=RIGHT	0	ROOT	_	_
+56	any AR shots	0	_	_	pos1=DT|head_tok=shot|head_pos=NNS|head_id=421|parent_posVVN|sid=19|stype=multiple|len=3|head_func=nsubj:pass|subord=RIGHT	55	evaluation-comment_r	_	_
+57	left ,	0	_	_	pos1=VVN|head_tok=leave|head_pos=VVN|head_id=422|parent_posNNS|sid=19|stype=multiple|len=2|head_func=acl|subord=RIGHT	56	elaboration-attribute_r	_	_
+58	will get solved at the end , right ?	1	_	_	pos1=MD|head_tok=solve|head_pos=VVN|head_id=426|parent_posVVZ|sid=19|stype=multiple|len=9|head_func=parataxis|subord=LEFT	56	same-unit_m	_	_
+59	Which 's good ,	2	_	_	pos1=WDT|head_tok=good|head_pos=JJ|head_id=435|parent_pos=_|sid=20|stype=decl|len=4|head_func=root	56	evaluation-comment_r	_	_
+60	anything good counts .	0	_	_	pos1=NN|head_tok=count|head_pos=VVZ|head_id=439|parent_posJJ|sid=20|stype=decl|len=4|head_func=parataxis|subord=LEFT	59	explanation-justify_r	_	_
+61	The farming of stone continues ,	1	_	_	pos1=DT|head_tok=continue|head_pos=VVZ|head_id=445|parent_pos=_|sid=21|stype=decl|len=6|head_func=root	55	joint-sequence_m	_	_
+62	Maufin and Zayt outside of Loot Lake	1	_	_	pos1=NP|head_tok=outside|head_pos=RB|head_id=450|parent_posVVZ|sid=21|stype=decl|len=7|head_func=parataxis|subord=LEFT	55	joint-sequence_m	_	_
+63	just fighting on the outskirts of it .	0	_	_	pos1=RB|head_tok=fight|head_pos=VVG|head_id=455|parent_posRB|sid=21|stype=decl|len=8|head_func=advcl|subord=LEFT	62	elaboration-additional_r	_	_
+64	He 's just kind of building walling against any pressure from Zayt ,	1	_	_	pos1=PP|head_tok=build|head_pos=VVG|head_id=467|parent_pos=_|sid=22|stype=decl|len=13|head_func=root	62	elaboration-additional_r	_	_
+65	does n't want to get caught on rotation .	0	_	_	pos1=VVZ|head_tok=want|head_pos=VV|head_id=477|parent_posVVG|sid=22|stype=decl|len=9|head_func=parataxis|subord=LEFT	64	causal-cause_r	_	_
+66	Interesting load , that gold combat very early .	2	_	_	pos1=PP|head_tok=load|head_pos=NN|head_id=485|parent_pos=_|sid=23|stype=decl|len=9|head_func=root	62	evaluation-comment_r	_	_
+67	That 's a very solid pickup	0	_	_	pos1=DT|head_tok=pickup|head_pos=NN|head_id=498|parent_pos=_|sid=24|stype=decl|len=6|head_func=root	66	joint-list_m	_	_
+68	to start this match ,	0	_	_	pos1=TO|head_tok=start|head_pos=VV|head_id=500|parent_posNN|sid=24|stype=decl|len=5|head_func=advcl|subord=LEFT	67	purpose-attribute_r	_	_
+69	single shockwave remaining ,	3	_	_	pos1=JJ|head_tok=remain|head_pos=VVG|head_id=506|parent_posNN|sid=24|stype=decl|len=4|head_func=parataxis|subord=RIGHT	62	elaboration-additional_r	_	_
+70	legendary grenade launcher drop gun and as well .	0	_	_	pos1=JJ|head_tok=gun|head_pos=NN|head_id=512|parent_posVVG|sid=24|stype=decl|len=9|head_func=conj|subord=LEFT	69	joint-list_m	_	_
+71	We talk about a great starting inventory ,	1	_	_	pos1=PP|head_tok=talk|head_pos=VVP|head_id=518|parent_pos=_|sid=25|stype=decl|len=8|head_func=root	72	organization-preparation_r	_	_
+72	BlastR in a fight , outside Pressure Plant	1	_	_	pos1=NP|head_tok=BlastR|head_pos=NP|head_id=525|parent_posVVP|sid=25|stype=decl|len=8|head_func=parataxis|subord=LEFT	55	joint-sequence_m	_	_
+73	but you 're only 73 HP ,	3	_	_	pos1=CC|head_tok=HP|head_pos=NNS|head_id=538|parent_posNP|sid=25|stype=decl|len=7|head_func=conj|subord=RIGHT	75	adversative-concession_r	_	_
+74	but again you 're this far to the tournament ,	2	_	_	pos1=CC|head_tok=far|head_pos=RB|head_id=545|parent_posNNS|sid=25|stype=decl|len=10|head_func=conj|subord=LEFT	75	explanation-justify_r	_	_
+75	you kind of get simpler ,	0	_	_	pos1=PP|head_tok=get|head_pos=VVP|head_id=553|parent_posNP|sid=25|stype=decl|len=6|head_func=parataxis|subord=LEFT	72	evaluation-comment_r	_	_
+76	you just kind of go for it ,	0	_	_	pos1=PP|head_tok=go|head_pos=VVP|head_id=560|parent_posVVP|sid=25|stype=decl|len=8|head_func=parataxis|subord=RIGHT	75	restatement-partial_r	_	_
+77	you got to just forge and engage .	1	_	_	pos1=PP|head_tok=get|head_pos=VVN|head_id=565|parent_posVVP|sid=25|stype=decl|len=8|head_func=parataxis|subord=LEFT	75	elaboration-additional_r	_	_
+78	What 's up ?	1	_	_	pos1=WP|head_tok=up|head_pos=RB|head_id=574|parent_pos=_|sid=26|stype=wh|len=4|head_func=root	80	topic-question_r	_	_
+79	Shot comes on through ,	0	_	_	pos1=NN|head_tok=come|head_pos=VVZ|head_id=577|parent_pos=_|sid=27|stype=wh|len=5|head_func=root|subord=RIGHT	80	adversative-concession_r	_	_
+80	not able to get it done as of yet .	1	_	_	pos1=RB|head_tok=able|head_pos=JJ|head_id=582|parent_posVVZ|sid=27|stype=wh|len=10|head_func=parataxis|subord=LEFT	55	joint-sequence_m	_	_
+81	BlastR still healing up ,	1	_	_	pos1=NP|head_tok=heal|head_pos=VVG|head_id=593|parent_pos=_|sid=28|stype=decl|len=5|head_func=root|subord=RIGHT	55	joint-sequence_m	_	_
+82	will have bandages	0	_	_	pos1=MD|head_tok=have|head_pos=VH|head_id=597|parent_posVVG|sid=28|stype=decl|len=3|head_func=parataxis|subord=LEFT	81	elaboration-additional_r	_	_
+83	to get back up	0	_	_	pos1=TO|head_tok=get|head_pos=VV|head_id=600|parent_posVH|sid=28|stype=decl|len=4|head_func=advcl|subord=LEFT	82	purpose-goal_r	_	_
+84	to take 75 HP .	0	_	_	pos1=TO|head_tok=take|head_pos=VV|head_id=604|parent_posVV|sid=28|stype=decl|len=5|head_func=advcl|subord=LEFT	83	joint-list_m	_	_
+85	Looks like	0	_	_	pos1=VVZ|head_tok=like|head_pos=IN|head_id=609|parent_posVVG|sid=29|stype=imp|len=2|head_func=mark|subord=RIGHT	86	attribution-positive_r	_	_
+86	Tfue picking up in elimination .	1	_	_	pos1=NP|head_tok=pick|head_pos=VVG|head_id=611|parent_posVVZ|sid=29|stype=imp|len=6|head_func=advcl|subord=LEFT	55	joint-sequence_m	_	_
+87	To see how things play out .	1	_	_	pos1=TO|head_tok=see|head_pos=VV|head_id=617|parent_pos=_|sid=30|stype=inf|len=7|head_func=root	88	organization-preparation_r	_	_
+88	90 players remaining .	1	_	_	pos1=CD|head_tok=remain|head_pos=VVG|head_id=625|parent_pos=_|sid=31|stype=decl|len=4|head_func=root	86	context-background_r	_	_
+89	The first circle starts to close in 50 seconds .	0	_	_	pos1=DT|head_tok=start|head_pos=VVZ|head_id=630|parent_pos=_|sid=32|stype=decl|len=10|head_func=root	88	joint-other_m	_	_
+90	Bandaging on the egg	0	_	_	pos1=VVG|head_tok=bandage|head_pos=VVG|head_id=637|parent_posVVG|sid=33|stype=decl|len=4|head_func=advcl|subord=RIGHT	91	context-circumstance_r	_	_
+91	BlastR is just hanging out here .	1	_	_	pos1=NP|head_tok=hang|head_pos=VVG|head_id=644|parent_pos=_|sid=33|stype=decl|len=7|head_func=root	55	joint-sequence_m	_	_
+92	That player down below gon na see	0	_	_	pos1=DT|head_tok=go|head_pos=VVG|head_id=652|parent_pos=_|sid=34|stype=decl|len=7|head_func=root	93	attribution-positive_r	_	_
+93	if he can take shots here in a second .	1	_	_	pos1=IN|head_tok=take|head_pos=VV|head_id=658|parent_posVV|sid=34|stype=decl|len=10|head_func=ccomp|subord=LEFT	91	adversative-contrast_m	_	_
+94	Tchub was gon na roll all the way down	1	_	_	pos1=NP|head_tok=go|head_pos=VVG|head_id=667|parent_pos=_|sid=35|stype=decl|len=9|head_func=root	55	joint-sequence_m	_	_
+95	looks like no engagement gon na happen .	0	_	_	pos1=VVZ|head_tok=look|head_pos=VVZ|head_id=674|parent_posVVG|sid=35|stype=decl|len=8|head_func=parataxis|subord=LEFT	94	evaluation-comment_r	_	_
+96	Here , JarkoS , letw1k3 , two players	1	_	_	pos1=RB|head_tok=JarkoS|head_pos=NP|head_id=684|parent_posVVG|sid=36|stype=decl|len=8|head_func=nsubj|subord=RIGHT	55	joint-sequence_m	_	_
+97	that have faced off against each other a number of times ,	0	_	_	pos1=WDT|head_tok=face|head_pos=VVN|head_id=692|parent_posNNS|sid=36|stype=decl|len=12|head_func=acl:relcl|subord=RIGHT	96	elaboration-attribute_r	_	_
+98	gon na go for the wall .	1	_	_	pos1=VVG|head_tok=go|head_pos=VVG|head_id=702|parent_pos=_|sid=36|stype=decl|len=7|head_func=root	96	same-unit_m	_	_
+99	Yes , the angle inside	0	_	_	pos1=UH|head_tok=angle|head_pos=NN|head_id=712|parent_pos=_|sid=37|stype=multiple|len=5|head_func=root	100	context-circumstance_r	_	_
+100	and pushes on through	2	_	_	pos1=CC|head_tok=push|head_pos=VVZ|head_id=715|parent_posNN|sid=37|stype=multiple|len=4|head_func=conj|subord=LEFT	96	joint-sequence_m	_	_
+101	a solid aggressive play .	1	_	_	pos1=DT|head_tok=play|head_pos=NN|head_id=721|parent_posVVZ|sid=37|stype=multiple|len=5|head_func=parataxis|subord=LEFT	100	evaluation-comment_r	_	_
+102	letw1k3 pick up his first elimination of Game six .	2	_	_	pos1=NP|head_tok=pick|head_pos=VVP|head_id=724|parent_pos=_|sid=38|stype=decl|len=10|head_func=root	96	joint-sequence_m	_	_
+103	Very clean	0	_	_	pos1=RB|head_tok=clean|head_pos=JJ|head_id=734|parent_pos=_|sid=39|stype=decl|len=2|head_func=root	102	evaluation-comment_r	_	_
+104	and that will end JarkoS ' Fortnite World Cup run ,	1	_	_	pos1=CC|head_tok=end|head_pos=VV|head_id=738|parent_posJJ|sid=39|stype=decl|len=11|head_func=conj|subord=LEFT	102	causal-result_r	_	_
+105	solid performance earlier on .	0	_	_	pos1=JJ|head_tok=performance|head_pos=NN|head_id=747|parent_posVV|sid=39|stype=decl|len=5|head_func=parataxis|subord=LEFT	104	evaluation-comment_r	_	_
+106	We 'll see where he stacks up with the rest of this lobby	0	_	_	pos1=PP|head_tok=see|head_pos=VV|head_id=753|parent_pos=_|sid=40|stype=decl|len=13|head_func=root	105	adversative-concession_r	_	_
+107	when it 's all said and done .	0	_	_	pos1=WRB|head_tok=say|head_pos=VVN|head_id=768|parent_posVVZ|sid=40|stype=decl|len=8|head_func=advcl|subord=LEFT	106	context-circumstance_r	_	_
+108	Reminder this is our final game here tonight .	1	_	_	pos1=NN|head_tok=reminder|head_pos=NN|head_id=772|parent_pos=_|sid=41|stype=decl|len=9|head_func=root	109	context-background_r	_	_
+109	Use the hashtag #FortniteWorldCup	2	_	_	pos1=VV|head_tok=use|head_pos=VV|head_id=781|parent_pos=_|sid=42|stype=imp|len=4|head_func=root	55	context-background_r	_	_
+110	get it trending just like yesterday .	0	_	_	pos1=VV|head_tok=get|head_pos=VV|head_id=785|parent_posVV|sid=42|stype=imp|len=7|head_func=parataxis|subord=LEFT	109	purpose-goal_r	_	_
+111	Well , I 've said	0	_	_	pos1=UH|head_tok=say|head_pos=VVN|head_id=796|parent_pos=_|sid=43|stype=decl|len=5|head_func=root	114	attribution-positive_r	_	_
+112	the millions of people	0	_	_	pos1=DT|head_tok=million|head_pos=NNS|head_id=798|parent_posVVN|sid=43|stype=decl|len=4|head_func=iobj|subord=LEFT	111	context-circumstance_r	_	_
+113	watching online ,	0	_	_	pos1=VVG|head_tok=watch|head_pos=VVG|head_id=801|parent_posNNS|sid=43|stype=decl|len=3|head_func=acl|subord=RIGHT	112	elaboration-attribute_r	_	_
+114	Psalm was our player as well near the top of the leaderboards .	1	_	_	pos1=NP|head_tok=player|head_pos=NN|head_id=807|parent_posVVN|sid=43|stype=decl|len=13|head_func=ccomp|subord=LEFT	115	context-background_r	_	_
+115	What could he do in this last game ?	3	_	_	pos1=WP|head_tok=do|head_pos=VV|head_id=820|parent_pos=_|sid=44|stype=wh|len=9|head_func=root	55	evaluation-comment_r	_	_
+116	Could he make the trek	0	_	_	pos1=MD|head_tok=make|head_pos=VV|head_id=828|parent_pos=_|sid=45|stype=sub|len=5|head_func=root	115	elaboration-additional_r	_	_
+117	to try to catch up to Bugha	0	_	_	pos1=TO|head_tok=try|head_pos=VV|head_id=832|parent_posVV|sid=45|stype=sub|len=7|head_func=advcl|subord=LEFT	116	purpose-goal_r	_	_
+118	who was 15 points , 15 points ahead , in first .	0	_	_	pos1=WP|head_tok=ahead|head_pos=RB|head_id=845|parent_posNP|sid=45|stype=sub|len=12|head_func=acl:relcl|subord=LEFT	117	elaboration-attribute_r	_	_
+119	Pika one v. one	4	_	_	pos1=NP|head_tok=Pika|head_pos=NP|head_id=850|parent_posVVG|sid=46|stype=decl|len=4|head_func=nsubj|subord=RIGHT	55	joint-sequence_m	_	_
+120	and angled down through a handful of edits here at Megamall	0	_	_	pos1=CC|head_tok=angle|head_pos=VVN|head_id=855|parent_posCD|sid=46|stype=decl|len=11|head_func=conj|subord=LEFT	119	context-circumstance_r	_	_
+121	is gon na push around the side	1	_	_	pos1=VBZ|head_tok=go|head_pos=VVG|head_id=866|parent_pos=_|sid=46|stype=decl|len=7|head_func=root	119	same-unit_m	_	_
+122	and try and make his way inside mall itself .	2	_	_	pos1=CC|head_tok=try|head_pos=VV|head_id=873|parent_posVV|sid=46|stype=decl|len=10|head_func=conj|subord=LEFT	119	joint-sequence_m	_	_
+123	Pika earned 12 of his total points in just the last match	3	_	_	pos1=NP|head_tok=earn|head_pos=VVD|head_id=883|parent_pos=_|sid=47|stype=decl|len=12|head_func=root	119	context-background_r	_	_
+124	and I think	0	_	_	pos1=CC|head_tok=think|head_pos=VVP|head_id=896|parent_posVVD|sid=47|stype=decl|len=3|head_func=conj|subord=LEFT	125	attribution-positive_r	_	_
+125	that says a lot about what is possible .	0	_	_	pos1=DT|head_tok=say|head_pos=VVZ|head_id=898|parent_posVVP|sid=47|stype=decl|len=9|head_func=ccomp|subord=LEFT	123	evaluation-comment_r	_	_
+126	In 11th place	4	_	_	pos1=IN|head_tok=place|head_pos=NN|head_id=908|parent_posVVG|sid=48|stype=decl|len=3|head_func=obl|subord=RIGHT	119	joint-sequence_m	_	_
+127	when we rolled into this game	0	_	_	pos1=WRB|head_tok=roll|head_pos=VVD|head_id=911|parent_posNN|sid=48|stype=decl|len=6|head_func=advcl|subord=LEFT	126	context-circumstance_r	_	_
+128	Pika trying to find a way inside ,	1	_	_	pos1=NP|head_tok=try|head_pos=VVG|head_id=916|parent_pos=_|sid=48|stype=decl|len=8|head_func=root	126	same-unit_m	_	_
+129	pushing down through the outside .	2	_	_	pos1=VVG|head_tok=push|head_pos=VVG|head_id=923|parent_posVVG|sid=48|stype=decl|len=6|head_func=parataxis|subord=LEFT	126	mode-means_r	_	_
+130	Does in fact get the wall replace ,	4	_	_	pos1=VVZ|head_tok=get|head_pos=VV|head_id=932|parent_pos=_|sid=49|stype=multiple|len=8|head_func=root	119	joint-sequence_m	_	_
+131	are you kidding me ?	0	_	_	pos1=VBP|head_tok=kid|head_pos=VVG|head_id=939|parent_posVV|sid=49|stype=multiple|len=5|head_func=parataxis|subord=LEFT	130	evaluation-comment_r	_	_
+132	Used the shockwave	1	_	_	pos1=VVD|head_tok=use|head_pos=VVD|head_id=942|parent_pos=_|sid=50|stype=other|len=3|head_func=root	130	mode-manner_r	_	_
+133	to get down the wall .	0	_	_	pos1=TO|head_tok=get|head_pos=VV|head_id=946|parent_posVVD|sid=50|stype=other|len=6|head_func=advcl|subord=LEFT	132	purpose-goal_r	_	_
+134	The player inside was smacking out of it .	1	_	_	pos1=DT|head_tok=smack|head_pos=VVG|head_id=955|parent_pos=_|sid=51|stype=decl|len=9|head_func=root	132	context-circumstance_r	_	_
+135	He , that 's unbelievable .	2	_	_	pos1=PP|head_tok=unbelievable|head_pos=JJ|head_id=964|parent_pos=_|sid=52|stype=decl|len=6|head_func=root	130	evaluation-comment_r	_	_
+136	He called the bluff ,	0	_	_	pos1=PP|head_tok=call|head_pos=VVD|head_id=967|parent_pos=_|sid=53|stype=decl|len=5|head_func=root	135	joint-list_m	_	_
+137	he called the bluff .	0	_	_	pos1=PP|head_tok=call|head_pos=VVD|head_id=972|parent_posVVD|sid=53|stype=decl|len=5|head_func=parataxis|subord=LEFT	136	restatement-repetition_m	_	_
+138	The guy was trying to break the wall	2	_	_	pos1=DT|head_tok=try|head_pos=VVG|head_id=979|parent_pos=_|sid=54|stype=decl|len=8|head_func=root	141	context-circumstance_r	_	_
+139	to secure for his own .	0	_	_	pos1=TO|head_tok=secure|head_pos=VV|head_id=985|parent_posVVG|sid=54|stype=decl|len=6|head_func=advcl|subord=LEFT	138	purpose-goal_r	_	_
+140	Pika was like	1	_	_	pos1=NP|head_tok=be|head_pos=VBD|head_id=991|parent_pos=_|sid=55|stype=decl|len=3|head_func=root	141	attribution-positive_r	_	_
+141	" okay , break the wall for me ,	3	_	_	pos1=``|head_tok=break|head_pos=VV|head_id=996|parent_posVBD|sid=55|stype=decl|len=9|head_func=ccomp|subord=LEFT	130	elaboration-additional_r	_	_
+142	I 'll just replace it with my own . "	0	_	_	pos1=PP|head_tok=replace|head_pos=VV|head_id=1005|parent_posVV|sid=55|stype=decl|len=10|head_func=parataxis|subord=LEFT	141	joint-sequence_m	_	_
+143	He does just that .	3	_	_	pos1=PP|head_tok=do|head_pos=VVZ|head_id=1013|parent_pos=_|sid=56|stype=decl|len=5|head_func=root	141	causal-result_r	_	_
+144	Pika , full HP , two slurp juices , 6 minis ,	4	_	_	pos1=NP|head_tok=Pika|head_pos=NP|head_id=1017|parent_pos=_|sid=57|stype=decl|len=12|head_func=root|subord=RIGHT	119	joint-sequence_m	_	_
+145	a very good assault for the shotgun	0	_	_	pos1=DT|head_tok=assault|head_pos=NN|head_id=1032|parent_posNNS|sid=57|stype=decl|len=7|head_func=parataxis|subord=LEFT	144	joint-list_m	_	_
+146	but looks like the aggression does n't end here .	0	_	_	pos1=CC|head_tok=look|head_pos=VVZ|head_id=1037|parent_posNN|sid=57|stype=decl|len=10|head_func=conj|subord=LEFT	145	adversative-contrast_m	_	_
+147	He can just continue to play these box fights	1	_	_	pos1=PP|head_tok=continue|head_pos=VV|head_id=1049|parent_pos=_|sid=58|stype=decl|len=9|head_func=root	144	evaluation-comment_r	_	_
+148	by using the shockwave	0	_	_	pos1=IN|head_tok=use|head_pos=VVG|head_id=1056|parent_posVV|sid=58|stype=decl|len=4|head_func=advcl|subord=LEFT	147	mode-means_r	_	_
+149	to try to chomp down this opponent again .	0	_	_	pos1=TO|head_tok=try|head_pos=VV|head_id=1060|parent_posVVG|sid=58|stype=decl|len=9|head_func=advcl|subord=LEFT	148	purpose-goal_r	_	_
+150	Said it once ,	1	_	_	pos1=VVN|head_tok=say|head_pos=VVN|head_id=1068|parent_pos=_|sid=59|stype=decl|len=4|head_func=root|subord=RIGHT	151	attribution-positive_r	_	_
+151	it surprised you to use that same tactic	1	_	_	pos1=PP|head_tok=surprise|head_pos=VVD|head_id=1073|parent_posVVN|sid=59|stype=decl|len=8|head_func=parataxis|subord=LEFT	147	joint-list_m	_	_
+152	you 've seen .	0	_	_	pos1=PP|head_tok=see|head_pos=VVN|head_id=1082|parent_posNN|sid=59|stype=decl|len=4|head_func=acl:relcl|subord=LEFT	151	elaboration-attribute_r	_	_
+153	At this point , 100 HP , 100 shield .	1	_	_	pos1=IN|head_tok=HP|head_pos=NNS|head_id=1089|parent_pos=_|sid=60|stype=frag|len=10|head_func=root	154	context-circumstance_r	_	_
+154	I do not blame him for being aggressive here ,	2	_	_	pos1=PP|head_tok=blame|head_pos=VV|head_id=1097|parent_pos=_|sid=61|stype=decl|len=10|head_func=root|subord=RIGHT	151	adversative-contrast_m	_	_
+155	knowing	0	_	_	pos1=VVG|head_tok=know|head_pos=VVG|head_id=1104|parent_posJJ|sid=61|stype=decl|len=1|head_func=advcl|subord=LEFT	156	attribution-positive_r	_	_
+156	that players may be a little sparse in terms of loot .	0	_	_	pos1=IN/that|head_tok=sparse|head_pos=JJ|head_id=1111|parent_posVVG|sid=61|stype=decl|len=12|head_func=ccomp|subord=LEFT	154	explanation-justify_r	_	_
+157	He 's trying to track Kinstaar on the outside	4	_	_	pos1=PP|head_tok=try|head_pos=VVG|head_id=1119|parent_pos=_|sid=62|stype=decl|len=9|head_func=root	119	joint-sequence_m	_	_
+158	rotating around the edge of Megamall .	0	_	_	pos1=VVG|head_tok=rotate|head_pos=VVG|head_id=1126|parent_posVVG|sid=62|stype=decl|len=7|head_func=advcl|subord=LEFT	157	mode-manner_r	_	_
+159	These two players gon na end up on top of each other	1	_	_	pos1=DT|head_tok=go|head_pos=VVG|head_id=1136|parent_pos=_|sid=63|stype=decl|len=12|head_func=root	157	evaluation-comment_r	_	_
+160	before you know it ,	0	_	_	pos1=IN|head_tok=know|head_pos=VVP|head_id=1147|parent_posVV|sid=63|stype=decl|len=5|head_func=advcl|subord=LEFT	159	context-circumstance_r	_	_
+161	oh my gosh , floor loot .	2	_	_	pos1=UH|head_tok=loot|head_pos=NN|head_id=1155|parent_posVVG|sid=63|stype=decl|len=7|head_func=parataxis|subord=LEFT	157	joint-sequence_m	_	_
+162	Okay .	0	_	_	pos1=UH|head_tok=okay|head_pos=UH|head_id=1157|parent_pos=_|sid=64|stype=intj|len=2|head_func=root	161	organization-phatic_r	_	_
+163	A heavy sniper rifle .	1	_	_	pos1=DT|head_tok=rifle|head_pos=NN|head_id=1162|parent_pos=_|sid=65|stype=frag|len=5|head_func=root	161	elaboration-additional_r	_	_
+164	That 's end of another slurp .	0	_	_	pos1=DT|head_tok=end|head_pos=NN|head_id=1166|parent_pos=_|sid=66|stype=decl|len=7|head_func=root	163	joint-list_m	_	_
+165	Okay .	1	_	_	pos1=UH|head_tok=okay|head_pos=UH|head_id=1171|parent_pos=_|sid=67|stype=intj|len=2|head_func=root	163	organization-phatic_r	_	_
+166	He 's looking for it .	4	_	_	pos1=PP|head_tok=look|head_pos=VVG|head_id=1175|parent_pos=_|sid=68|stype=decl|len=6|head_func=root	119	joint-sequence_m	_	_
+167	See	1	_	_	pos1=VV|head_tok=see|head_pos=VV|head_id=1179|parent_pos=_|sid=69|stype=imp|len=1|head_func=root	168	attribution-positive_r	_	_
+168	him watching ,	0	_	_	pos1=PP|head_tok=watch|head_pos=VVG|head_id=1181|parent_posVV|sid=69|stype=imp|len=3|head_func=ccomp|subord=RIGHT	166	explanation-evidence_r	_	_
+169	waiting .	0	_	_	pos1=VVG|head_tok=wait|head_pos=VVG|head_id=1183|parent_posVVG|sid=69|stype=imp|len=2|head_func=conj|subord=LEFT	168	joint-list_m	_	_
+170	Does use those audio cues	1	_	_	pos1=VVZ|head_tok=use|head_pos=VV|head_id=1186|parent_pos=_|sid=70|stype=other|len=5|head_func=root	166	mode-means_r	_	_
+171	to try and track down the opponent underneath	0	_	_	pos1=TO|head_tok=try|head_pos=VV|head_id=1191|parent_posVV|sid=70|stype=other|len=8|head_func=advcl|subord=LEFT	170	purpose-goal_r	_	_
+172	opts to back out of the fight for just a second .	2	_	_	pos1=VVZ|head_tok=opt|head_pos=VVZ|head_id=1198|parent_posVV|sid=70|stype=other|len=12|head_func=parataxis|subord=LEFT	166	joint-sequence_m	_	_
+173	Get a different angle	0	_	_	pos1=VV|head_tok=get|head_pos=VV|head_id=1210|parent_pos=_|sid=71|stype=inf|len=4|head_func=root	172	purpose-goal_r	_	_
+174	because awareness inside Megamall is insane	0	_	_	pos1=IN|head_tok=insane|head_pos=JJ|head_id=1219|parent_posVV|sid=71|stype=inf|len=6|head_func=advcl|subord=LEFT	173	causal-cause_r	_	_
+175	knowing exactly where his opponents are and exactly when to push .	1	_	_	pos1=VVG|head_tok=know|head_pos=VVG|head_id=1220|parent_posJJ|sid=71|stype=inf|len=12|head_func=advcl|subord=LEFT	173	context-circumstance_r	_	_

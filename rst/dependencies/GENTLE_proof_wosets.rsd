@@ -1,0 +1,118 @@
+1	Proof	6	_	_	pos1=NN|head_tok=Proof|head_pos=NN|head_id=1|parent_pos=_|sid=1|stype=frag|len=1|head_func=root|heading=heading	59	organization-heading_r	_	_
+2	If the sets S and T	0	_	_	pos1=IN|head_tok=set|head_pos=NNS|head_id=4|parent_posJJ|sid=2|stype=decl|len=6|head_func=nsubj|subord=RIGHT|para=para	5	contingency-condition_r	_	_
+3	considered	0	_	_	pos1=VVN|head_tok=consider|head_pos=VVN|head_id=8|parent_posNNS|sid=2|stype=decl|len=1|head_func=acl|subord=LEFT	2	elaboration-attribute_r	_	_
+4	are empty or singletons ,	1	_	_	pos1=VBP|head_tok=empty|head_pos=JJ|head_id=10|parent_posVVZ|sid=2|stype=decl|len=5|head_func=advcl|subord=RIGHT	2	same-unit_m	_	_
+5	the theorem holds vacuously or trivially .	1	_	_	pos1=DT|head_tok=hold|head_pos=VVZ|head_id=16|parent_pos=_|sid=2|stype=decl|len=7|head_func=root	7	explanation-justify_r	_	_
+6	Thus assume	0	_	_	pos1=RB|head_tok=assume|head_pos=VV|head_id=22|parent_pos=_|sid=3|stype=imp|len=2|head_func=root	7	attribution-positive_r	_	_
+7	S and T each contain at least two elements .	5	_	_	pos1=NN|head_tok=contain|head_pos=VVP|head_id=27|parent_posVV|sid=3|stype=imp|len=10|head_func=ccomp|subord=LEFT	59	context-background_r	_	_
+8	Let U = ( S , ⪯ S ) ∪ ( T , ⪯ T )	4	_	_	pos1=VV|head_tok=let|head_pos=VV|head_id=33|parent_pos=_|sid=4|stype=inf|len=16|head_func=root|para=para	11	context-background_r	_	_
+9	Define the following relation ⪯ on U :	3	_	_	pos1=VV|head_tok=define|head_pos=VV|head_id=49|parent_pos=_|sid=5|stype=imp|len=8|head_func=root|subord=RIGHT	11	organization-preparation_r	_	_
+10	∀ x , y ∈ U :	0	_	_	pos1=SYM|head_tok=x|head_pos=NN|head_id=58|parent_posSYM|sid=5|stype=imp|len=7|head_func=dislocated|subord=RIGHT	11	context-circumstance_r	_	_
+11	x ⪯ y	1	_	_	pos1=NN|head_tok=⪯|head_pos=SYM|head_id=65|parent_posVV|sid=5|stype=imp|len=3|head_func=parataxis|subord=LEFT	19	context-background_r	_	_
+12	if and only if :	1	_	_	pos1=IN|head_tok=if|head_pos=IN|head_id=67|parent_posSYM|sid=5|stype=imp|len=5|head_func=case|subord=RIGHT	11	contingency-condition_r	_	_
+13	x , y ∈ S :	0	_	_	pos1=NN|head_tok=x|head_pos=NN|head_id=72|parent_posSYM|sid=5|stype=imp|len=6|head_func=dislocated|subord=RIGHT	14	context-circumstance_r	_	_
+14	x ⪯ S y	0	_	_	pos1=NN|head_tok=⪯|head_pos=SYM|head_id=79|parent_posSYM|sid=5|stype=imp|len=4|head_func=advcl|subord=LEFT	12	same-unit_m	_	_
+15	or : x , y ∈ T :	0	_	_	pos1=CC|head_tok=x|head_pos=NN|head_id=84|parent_posSYM|sid=5|stype=imp|len=8|head_func=dislocated|subord=RIGHT	16	context-circumstance_r	_	_
+16	x ⪯ T y	2	_	_	pos1=RB|head_tok=⪯|head_pos=SYM|head_id=91|parent_posSYM|sid=5|stype=imp|len=4|head_func=conj|subord=LEFT	11	joint-disjunction_m	_	_
+17	or : x ∈ S , y ∈ T	2	_	_	pos1=CC|head_tok=∈|head_pos=SYM|head_id=97|parent_posSYM|sid=5|stype=imp|len=9|head_func=conj|subord=LEFT	11	joint-disjunction_m	_	_
+18	We claim	0	_	_	pos1=PP|head_tok=claim|head_pos=VVP|head_id=104|parent_pos=_|sid=6|stype=decl|len=2|head_func=root|para=para	19	attribution-positive_r	_	_
+19	that ⪯ is a well - ordering .	3	_	_	pos1=IN/that|head_tok=ordering|head_pos=NN|head_id=111|parent_posVVP|sid=6|stype=decl|len=8|head_func=ccomp|subord=LEFT	59	organization-preparation_r	_	_
+20	First , we show	0	_	_	pos1=RB|head_tok=show|head_pos=VVP|head_id=116|parent_pos=_|sid=7|stype=decl|len=4|head_func=root	21	attribution-positive_r	_	_
+21	it is a total ordering .	4	_	_	pos1=PP|head_tok=ordering|head_pos=NN|head_id=121|parent_posVVP|sid=7|stype=decl|len=6|head_func=ccomp|subord=LEFT	26	organization-preparation_r	_	_
+22	Checking in turn each of the criteria for a total ordering :	1	_	_	pos1=VVG|head_tok=check|head_pos=VVG|head_id=123|parent_pos=_|sid=8|stype=multiple|len=12|head_func=root	21	mode-means_r	_	_
+23	Reflexivity	2	_	_	pos1=NN|head_tok=reflexivity|head_pos=NN|head_id=135|parent_pos=_|sid=9|stype=frag|len=1|head_func=root|heading=heading	26	organization-heading_r	_	_
+24	If x = y ,	0	_	_	pos1=IN|head_tok=&eq;|head_pos=SYM|head_id=138|parent_posNN|sid=10|stype=decl|len=5|head_func=advcl|subord=RIGHT|para=para	25	contingency-condition_r	_	_
+25	they 're necessarily both in S or T simultaneously .	1	_	_	pos1=PP|head_tok=S|head_pos=NN|head_id=146|parent_pos=_|sid=10|stype=decl|len=10|head_func=root	26	explanation-evidence_r	_	_
+26	Reflexivity then follows from ⪯ S and x ⪯ T being reflexive ,	1	_	_	pos1=NN|head_tok=follow|head_pos=VVZ|head_id=153|parent_pos=_|sid=11|stype=decl|len=13|head_func=root	59	explanation-evidence_r	_	_
+27	as they are both orderings .	0	_	_	pos1=IN|head_tok=ordering|head_pos=NNS|head_id=168|parent_posVVZ|sid=11|stype=decl|len=6|head_func=advcl|subord=LEFT	26	explanation-justify_r	_	_
+28	Transitivity	1	_	_	pos1=NN|head_tok=transitivity|head_pos=NN|head_id=170|parent_pos=_|sid=12|stype=frag|len=1|head_func=root|heading=heading	46	organization-heading_r	_	_
+29	Let x , y , z ∈ U .	2	_	_	pos1=VV|head_tok=let|head_pos=VV|head_id=171|parent_pos=_|sid=13|stype=imp|len=9|head_func=root|para=para	32	context-background_r	_	_
+30	If x , y , z ∈ S	0	_	_	pos1=IN|head_tok=∈|head_pos=SYM|head_id=186|parent_posJJ|sid=14|stype=decl|len=8|head_func=advcl|subord=RIGHT	32	contingency-condition_r	_	_
+31	or x , y , z ∈ T simultaneously ,	0	_	_	pos1=CC|head_tok=simultaneously|head_pos=RB|head_id=196|parent_posSYM|sid=14|stype=decl|len=10|head_func=advmod|subord=RIGHT	30	joint-disjunction_m	_	_
+32	then ⪯ is transitive by the transitivity of ⪯ S and ⪯ T .	0	_	_	pos1=RB|head_tok=transitive|head_pos=JJ|head_id=201|parent_pos=_|sid=14|stype=decl|len=14|head_func=root	46	explanation-evidence_r	_	_
+33	Suppose	1	_	_	pos1=VV|head_tok=suppose|head_pos=VV|head_id=212|parent_pos=_|sid=15|stype=imp|len=1|head_func=root	34	attribution-positive_r	_	_
+34	x , y ∈ S	3	_	_	pos1=NN|head_tok=∈|head_pos=SYM|head_id=216|parent_posVV|sid=15|stype=imp|len=5|head_func=ccomp|subord=LEFT	37	context-background_r	_	_
+35	and z ∈ T .	0	_	_	pos1=CC|head_tok=∈|head_pos=SYM|head_id=220|parent_posSYM|sid=15|stype=imp|len=5|head_func=conj|subord=LEFT	34	joint-list_m	_	_
+36	Let x ⪯ y and y ⪯ z .	1	_	_	pos1=VV|head_tok=let|head_pos=VV|head_id=223|parent_pos=_|sid=16|stype=inf|len=9|head_func=root	37	context-background_r	_	_
+37	Then x ⪯ z	1	_	_	pos1=RB|head_tok=⪯|head_pos=SYM|head_id=234|parent_pos=_|sid=17|stype=decl|len=4|head_func=root	32	joint-disjunction_m	_	_
+38	because x ∈ S	0	_	_	pos1=IN|head_tok=∈|head_pos=SYM|head_id=238|parent_posSYM|sid=17|stype=decl|len=4|head_func=advcl|subord=LEFT	37	explanation-justify_r	_	_
+39	and y ∈ T .	0	_	_	pos1=CC|head_tok=∈|head_pos=SYM|head_id=242|parent_posSYM|sid=17|stype=decl|len=5|head_func=conj|subord=LEFT	38	joint-list_m	_	_
+40	Suppose	1	_	_	pos1=VV|head_tok=suppose|head_pos=VV|head_id=245|parent_pos=_|sid=18|stype=imp|len=1|head_func=root	41	attribution-positive_r	_	_
+41	x ∈ S	1	_	_	pos1=NN|head_tok=∈|head_pos=SYM|head_id=247|parent_posVV|sid=18|stype=imp|len=3|head_func=ccomp|subord=LEFT	43	context-background_r	_	_
+42	and y , z ∈ T .	0	_	_	pos1=CC|head_tok=∈|head_pos=SYM|head_id=253|parent_posSYM|sid=18|stype=imp|len=7|head_func=conj|subord=LEFT	41	joint-list_m	_	_
+43	Then x ⪯ z	2	_	_	pos1=RB|head_tok=⪯|head_pos=SYM|head_id=258|parent_pos=_|sid=19|stype=decl|len=4|head_func=root	37	joint-list_m	_	_
+44	also because x ∈ S	0	_	_	pos1=RB|head_tok=∈|head_pos=SYM|head_id=263|parent_posSYM|sid=19|stype=decl|len=5|head_func=advcl|subord=LEFT	43	explanation-justify_r	_	_
+45	and y ∈ T .	0	_	_	pos1=CC|head_tok=∈|head_pos=SYM|head_id=267|parent_posSYM|sid=19|stype=decl|len=5|head_func=conj|subord=LEFT	44	joint-list_m	_	_
+46	Thus ⪯ is transitive .	3	_	_	pos1=RB|head_tok=transitive|head_pos=JJ|head_id=273|parent_pos=_|sid=20|stype=decl|len=5|head_func=root	26	joint-list_m	_	_
+47	Antisymmetry	2	_	_	pos1=NN|head_tok=antisymmetry|head_pos=NN|head_id=275|parent_pos=_|sid=21|stype=frag|len=1|head_func=root|heading=heading	57	organization-heading_r	_	_
+48	Let x ⪯ y and y ⪯ x .	1	_	_	pos1=VV|head_tok=let|head_pos=VV|head_id=276|parent_pos=_|sid=22|stype=imp|len=9|head_func=root|para=para	57	context-background_r	_	_
+49	If x , y ∈ S	0	_	_	pos1=IN|head_tok=∈|head_pos=SYM|head_id=289|parent_posSYM|sid=23|stype=decl|len=6|head_func=advcl|subord=RIGHT	50	contingency-condition_r	_	_
+50	then x = y by the antisymmetry of ⪯ S .	0	_	_	pos1=RB|head_tok=&eq;|head_pos=SYM|head_id=293|parent_pos=_|sid=23|stype=decl|len=11|head_func=root	57	explanation-evidence_r	_	_
+51	Likewise	1	_	_	pos1=RB|head_tok=likewise|head_pos=RB|head_id=302|parent_posSYM|sid=24|stype=decl|len=1|head_func=advmod|subord=RIGHT	50	restatement-repetition_m	_	_
+52	if x , y ∈ T .	0	_	_	pos1=IN|head_tok=∈|head_pos=SYM|head_id=307|parent_pos=_|sid=24|stype=decl|len=7|head_func=root	51	contingency-condition_r	_	_
+53	If x ∈ S	1	_	_	pos1=IN|head_tok=∈|head_pos=SYM|head_id=312|parent_posSYM|sid=25|stype=decl|len=4|head_func=advcl|subord=RIGHT	55	contingency-condition_r	_	_
+54	and y ∈ T ,	0	_	_	pos1=CC|head_tok=∈|head_pos=SYM|head_id=316|parent_posSYM|sid=25|stype=decl|len=5|head_func=conj|subord=RIGHT	53	joint-list_m	_	_
+55	then y ∈ S	2	_	_	pos1=RB|head_tok=∈|head_pos=SYM|head_id=321|parent_pos=_|sid=25|stype=decl|len=4|head_func=root	50	joint-disjunction_m	_	_
+56	and x ∈ T as well .	0	_	_	pos1=CC|head_tok=as|head_pos=RB|head_id=327|parent_posSYM|sid=25|stype=decl|len=7|head_func=advmod|subord=LEFT	55	joint-list_m	_	_
+57	Thus x = y from the antisymmetry of ⪯ S or ⪯ T .	3	_	_	pos1=RB|head_tok=&eq;|head_pos=SYM|head_id=332|parent_pos=_|sid=26|stype=decl|len=14|head_func=root	26	joint-list_m	_	_
+58	Conclude	0	_	_	pos1=VV|head_tok=conclude|head_pos=VV|head_id=344|parent_pos=_|sid=27|stype=imp|len=1|head_func=root	59	attribution-positive_r	_	_
+59	that ⪯ is a total ordering .	0	_	_	pos1=IN/that|head_tok=ordering|head_pos=NN|head_id=350|parent_posVV|sid=27|stype=imp|len=7|head_func=ccomp|subord=LEFT	0	ROOT	_	_
+60	To show ⪯ is a well - ordering ,	0	_	_	pos1=TO|head_tok=show|head_pos=VV|head_id=353|parent_posVV|sid=28|stype=imp|len=9|head_func=advcl|subord=RIGHT	61	purpose-goal_r	_	_
+61	consider a non-empty set X ⊆ U .	1	_	_	pos1=VV|head_tok=consider|head_pos=VV|head_id=361|parent_pos=_|sid=28|stype=imp|len=8|head_func=root	62	context-circumstance_r	_	_
+62	Then either : X ∩ S = ∅	1	_	_	pos1=RB|head_tok=&eq;|head_pos=SYM|head_id=375|parent_pos=_|sid=29|stype=decl|len=8|head_func=root|para=para	83	context-background_r	_	_
+63	or : X ∩ T = ∅	0	_	_	pos1=CC|head_tok=&eq;|head_pos=SYM|head_id=382|parent_posSYM|sid=29|stype=decl|len=7|head_func=conj|subord=LEFT	62	joint-disjunction_m	_	_
+64	or : X ∩ S is non-empty	0	_	_	pos1=CC|head_tok=non-empty|head_pos=JJ|head_id=390|parent_posSYM|sid=29|stype=decl|len=7|head_func=conj|subord=LEFT	62	joint-disjunction_m	_	_
+65	and X ∩ T is non-empty .	0	_	_	pos1=CC|head_tok=non-empty|head_pos=JJ|head_id=396|parent_posJJ|sid=29|stype=decl|len=7|head_func=conj|subord=LEFT	64	joint-list_m	_	_
+66	In the first case , X ⊆ T ,	1	_	_	pos1=IN|head_tok=⊆|head_pos=SYM|head_id=404|parent_pos=_|sid=30|stype=decl|len=9|head_func=root|subord=RIGHT|para=para	69	explanation-evidence_r	_	_
+67	by Intersection with Complement is Empty	0	_	_	pos1=IN|head_tok=empty|head_pos=JJ|head_id=412|parent_posSYM|sid=30|stype=decl|len=6|head_func=advcl|subord=LEFT	66	explanation-evidence_r	_	_
+68	iff Subset .	0	_	_	pos1=IN|head_tok=subset|head_pos=NN|head_id=414|parent_posJJ|sid=30|stype=decl|len=3|head_func=advcl|subord=LEFT	67	contingency-condition_r	_	_
+69	Then X has a smallest element	0	_	_	pos1=RB|head_tok=have|head_pos=VHZ|head_id=418|parent_pos=_|sid=31|stype=decl|len=6|head_func=root	83	explanation-evidence_r	_	_
+70	defined by ⪯ T .	0	_	_	pos1=VVN|head_tok=define|head_pos=VVN|head_id=422|parent_posNN|sid=31|stype=decl|len=5|head_func=acl|subord=LEFT	69	elaboration-attribute_r	_	_
+71	In the second case , X ⊆ S ,	1	_	_	pos1=IN|head_tok=⊆|head_pos=SYM|head_id=433|parent_pos=_|sid=32|stype=decl|len=9|head_func=root|subord=RIGHT	74	explanation-evidence_r	_	_
+72	also by Intersection with Complement is Empty	0	_	_	pos1=RB|head_tok=empty|head_pos=JJ|head_id=442|parent_posSYM|sid=32|stype=decl|len=7|head_func=advcl|subord=LEFT	71	explanation-evidence_r	_	_
+73	iff Subset .	0	_	_	pos1=IN|head_tok=subset|head_pos=NN|head_id=444|parent_posJJ|sid=32|stype=decl|len=3|head_func=advcl|subord=LEFT	72	contingency-condition_r	_	_
+74	Then X has a smallest element	2	_	_	pos1=RB|head_tok=have|head_pos=VHZ|head_id=448|parent_pos=_|sid=33|stype=decl|len=6|head_func=root	69	joint-disjunction_m	_	_
+75	defined by ⪯ S .	0	_	_	pos1=VVN|head_tok=define|head_pos=VVN|head_id=452|parent_posNN|sid=33|stype=decl|len=5|head_func=acl|subord=LEFT	74	elaboration-attribute_r	_	_
+76	In the third case , the smallest element of X ∖ T is an element of S .	0	_	_	pos1=IN|head_tok=element|head_pos=NN|head_id=471|parent_pos=_|sid=34|stype=decl|len=18|head_func=root	77	explanation-justify_r	_	_
+77	Thus it precedes any element of T by the definition of ⪯ .	1	_	_	pos1=RB|head_tok=precede|head_pos=VVZ|head_id=477|parent_pos=_|sid=35|stype=decl|len=13|head_func=root	81	context-background_r	_	_
+78	The smallest element of X ∖ T ,	1	_	_	pos1=DT|head_tok=element|head_pos=NN|head_id=490|parent_posVVN|sid=36|stype=decl|len=8|head_func=nsubj:pass|subord=RIGHT	77	joint-list_m	_	_
+79	which is a subset of S ,	0	_	_	pos1=WDT|head_tok=subset|head_pos=NN|head_id=499|parent_posNN|sid=36|stype=decl|len=7|head_func=acl:relcl|subord=RIGHT	78	elaboration-attribute_r	_	_
+80	is guaranteed to exist by the well - ordering on S .	1	_	_	pos1=VBZ|head_tok=guarantee|head_pos=VVN|head_id=504|parent_pos=_|sid=36|stype=decl|len=12|head_func=root	78	same-unit_m	_	_
+81	This smallest element is then also the smallest element	2	_	_	pos1=DT|head_tok=element|head_pos=NN|head_id=523|parent_pos=_|sid=37|stype=decl|len=9|head_func=root	69	joint-disjunction_m	_	_
+82	of ( X ∖ T ) ∪ T = X .	0	_	_	pos1=IN|head_tok=&eq;|head_pos=SYM|head_id=532|parent_posNN|sid=37|stype=decl|len=11|head_func=advcl|subord=LEFT	81	elaboration-attribute_r	_	_
+83	Thus ⪯ is a well - ordering on S ∪ T . □	2	_	_	pos1=RB|head_tok=ordering|head_pos=NN|head_id=541|parent_pos=_|sid=38|stype=decl|len=13|head_func=root	59	joint-list_m	_	_
+84	Consider the mapping :	2	_	_	pos1=VV|head_tok=consider|head_pos=VV|head_id=548|parent_pos=_|sid=39|stype=imp|len=4|head_func=root|para=para	86	organization-preparation_r	_	_
+85	k :	1	_	_	pos1=NN|head_tok=k|head_pos=NN|head_id=552|parent_posNN|sid=39|stype=imp|len=2|head_func=appos|subord=RIGHT	86	organization-preparation_r	_	_
+86	( T , ⪯ T ) → ( U , ⪯ ) :	1	_	_	pos1=(|head_tok=→|head_pos=SYM|head_id=560|parent_posNN|sid=39|stype=imp|len=13|head_func=parataxis|subord=RIGHT	89	context-background_r	_	_
+87	k ( α ) = α	0	_	_	pos1=NN|head_tok=&eq;|head_pos=SYM|head_id=571|parent_posSYM|sid=39|stype=imp|len=6|head_func=parataxis|subord=LEFT	86	joint-list_m	_	_
+88	Then k is strictly increasing , by the construction of ⪯ .	0	_	_	pos1=RB|head_tok=increase|head_pos=VVG|head_id=577|parent_pos=_|sid=40|stype=decl|len=12|head_func=root	89	explanation-evidence_r	_	_
+89	Thus there is a strictly increasing mapping from T to U .	0	_	_	pos1=RB|head_tok=be|head_pos=VBZ|head_id=587|parent_pos=_|sid=41|stype=decl|len=12|head_func=root	91	explanation-evidence_r	_	_
+90	From Strictly Increasing Mapping Between Wosets Implies Order Isomorphism ,	2	_	_	pos1=IN|head_tok=imply|head_pos=VVZ|head_id=603|parent_posJJ|sid=42|stype=decl|len=10|head_func=advcl|subord=RIGHT	89	joint-list_m	_	_
+91	T is order isomorphic to U or an initial segment of U .	1	_	_	pos1=NN|head_tok=isomorphic|head_pos=JJ|head_id=610|parent_pos=_|sid=42|stype=decl|len=13|head_func=root	116	explanation-evidence_r	_	_
+92	Let Ix denote the initial segment in U	1	_	_	pos1=VV|head_tok=let|head_pos=VV|head_id=620|parent_pos=_|sid=43|stype=imp|len=8|head_func=root|para=para	102	context-background_r	_	_
+93	determined by x ,	0	_	_	pos1=VVN|head_tok=determine|head_pos=VVN|head_id=628|parent_posNN|sid=43|stype=imp|len=4|head_func=acl|subord=RIGHT	92	elaboration-attribute_r	_	_
+94	according to k .	0	_	_	pos1=VVG|head_tok=k|head_pos=NN|head_id=634|parent_posVVN|sid=43|stype=imp|len=4|head_func=obl|subord=LEFT	93	mode-manner_r	_	_
+95	Note	1	_	_	pos1=VV|head_tok=note|head_pos=VV|head_id=636|parent_pos=_|sid=44|stype=imp|len=1|head_func=root	96	attribution-positive_r	_	_
+96	that Ix = Ik ( x ) ,	1	_	_	pos1=IN/that|head_tok=&eq;|head_pos=SYM|head_id=639|parent_posVV|sid=44|stype=imp|len=8|head_func=ccomp|subord=RIGHT	92	elaboration-additional_r	_	_
+97	because k ( x ) = x .	0	_	_	pos1=IN|head_tok=&eq;|head_pos=SYM|head_id=650|parent_posSYM|sid=44|stype=imp|len=8|head_func=advcl|subord=LEFT	96	explanation-justify_r	_	_
+98	Suppose	0	_	_	pos1=VV|head_tok=suppose|head_pos=VV|head_id=653|parent_pos=_|sid=45|stype=imp|len=1|head_func=root|para=para	99	attribution-positive_r	_	_
+99	x ∈ S .	1	_	_	pos1=NN|head_tok=∈|head_pos=SYM|head_id=655|parent_posVV|sid=45|stype=imp|len=4|head_func=ccomp|subord=LEFT	100	contingency-condition_r	_	_
+100	Then Ix ⊆ S	0	_	_	pos1=RB|head_tok=⊆|head_pos=SYM|head_id=660|parent_pos=_|sid=46|stype=decl|len=4|head_func=root	102	explanation-evidence_r	_	_
+101	because ⪯ is a well - ordering .	0	_	_	pos1=IN|head_tok=ordering|head_pos=NN|head_id=668|parent_posSYM|sid=46|stype=decl|len=8|head_func=advcl|subord=LEFT	100	explanation-justify_r	_	_
+102	Thus there is an order isomorphism from T to Ix in S .	1	_	_	pos1=RB|head_tok=be|head_pos=VBZ|head_id=672|parent_pos=_|sid=47|stype=decl|len=13|head_func=root	91	joint-list_m	_	_
+103	Suppose	0	_	_	pos1=VV|head_tok=suppose|head_pos=VV|head_id=683|parent_pos=_|sid=48|stype=imp|len=1|head_func=root	104	attribution-positive_r	_	_
+104	x = min T , the smallest element of T .	2	_	_	pos1=NN|head_tok=&eq;|head_pos=SYM|head_id=685|parent_posVV|sid=48|stype=imp|len=11|head_func=ccomp|subord=LEFT	105	contingency-condition_r	_	_
+105	Then every element of S strictly precedes x ,	0	_	_	pos1=RB|head_tok=precede|head_pos=VVZ|head_id=701|parent_pos=_|sid=49|stype=decl|len=9|head_func=root	109	explanation-evidence_r	_	_
+106	as x is in T .	0	_	_	pos1=IN|head_tok=T|head_pos=NN|head_id=708|parent_posVVZ|sid=49|stype=decl|len=6|head_func=advcl|subord=LEFT	105	explanation-justify_r	_	_
+107	Also , x precedes every element of T ,	1	_	_	pos1=RB|head_tok=precede|head_pos=VVZ|head_id=713|parent_pos=_|sid=50|stype=decl|len=9|head_func=root	105	joint-list_m	_	_
+108	so Ix ≠ T .	0	_	_	pos1=RB|head_tok=≠|head_pos=SYM|head_id=721|parent_posVVZ|sid=50|stype=decl|len=5|head_func=parataxis|subord=LEFT	107	causal-result_r	_	_
+109	Thus there is an order isomorphism from T to all of S .	1	_	_	pos1=RB|head_tok=be|head_pos=VBZ|head_id=726|parent_pos=_|sid=51|stype=decl|len=13|head_func=root	91	joint-list_m	_	_
+110	Suppose	1	_	_	pos1=VV|head_tok=suppose|head_pos=VV|head_id=737|parent_pos=_|sid=52|stype=imp|len=1|head_func=root	111	attribution-positive_r	_	_
+111	x ∈ T	1	_	_	pos1=SYM|head_tok=∈|head_pos=NN|head_id=739|parent_posVV|sid=52|stype=imp|len=3|head_func=ccomp|subord=LEFT	113	contingency-condition_r	_	_
+112	and x ≠ min T .	0	_	_	pos1=CC|head_tok=≠|head_pos=SYM|head_id=743|parent_posNN|sid=52|stype=imp|len=6|head_func=conj|subord=LEFT	111	joint-list_m	_	_
+113	Then Ix defines an initial segment in T .	0	_	_	pos1=RB|head_tok=define|head_pos=VVZ|head_id=749|parent_pos=_|sid=53|stype=decl|len=9|head_func=root	116	explanation-evidence_r	_	_
+114	Also , every element of S strictly precedes x ,	0	_	_	pos1=RB|head_tok=precede|head_pos=VVZ|head_id=763|parent_pos=_|sid=54|stype=decl|len=10|head_func=root	113	joint-list_m	_	_
+115	as x is in T .	0	_	_	pos1=IN|head_tok=T|head_pos=NN|head_id=770|parent_posVVZ|sid=54|stype=decl|len=6|head_func=advcl|subord=LEFT	114	explanation-justify_r	_	_
+116	Thus there is an order isomorphism from an initial segment of T to all of S .	4	_	_	pos1=RB|head_tok=be|head_pos=VBZ|head_id=774|parent_pos=_|sid=55|stype=decl|len=17|head_func=root	59	joint-list_m	_	_
+117	The cases are distinct	2	_	_	pos1=DT|head_tok=distinct|head_pos=JJ|head_id=792|parent_pos=_|sid=56|stype=decl|len=4|head_func=root	116	elaboration-additional_r	_	_
+118	by Well - Ordered Class is not Isomorphic to Initial Segment . ■	0	_	_	pos1=IN|head_tok=isomorphic|head_pos=JJ|head_id=800|parent_posJJ|sid=56|stype=decl|len=13|head_func=advcl|subord=LEFT	117	explanation-evidence_r	_	_

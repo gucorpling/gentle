@@ -1,0 +1,40 @@
+1	I understand	1	_	_	pos1=PP|head_tok=understand|head_pos=VVP|head_id=2|parent_pos=_|sid=1|stype=decl|len=2|head_func=root|para=para	3	attribution-positive_r	_	_
+2	you think	0	_	_	pos1=PP|head_tok=think|head_pos=VVP|head_id=4|parent_posVVP|sid=1|stype=decl|len=2|head_func=ccomp|subord=LEFT	3	attribution-positive_r	_	_
+3	you 're very tough	3	_	_	pos1=PP|head_tok=tough|head_pos=JJ|head_id=8|parent_posVVP|sid=1|stype=decl|len=4|head_func=ccomp|subord=LEFT	11	adversative-antithesis_r	_	_
+4	and you think	1	_	_	pos1=CC|head_tok=think|head_pos=VVP|head_id=11|parent_posVVP|sid=1|stype=decl|len=3|head_func=conj|subord=LEFT	6	attribution-positive_r	_	_
+5	that by dragging this process out	0	_	_	pos1=IN/that|head_tok=drag|head_pos=VVG|head_id=14|parent_posVVN|sid=1|stype=decl|len=6|head_func=advcl|subord=RIGHT	6	mode-means_r	_	_
+6	you have created me a lot of misery ;	2	_	_	pos1=PP|head_tok=create|head_pos=VVN|head_id=20|parent_posVVP|sid=1|stype=decl|len=9|head_func=ccomp|subord=LEFT	3	joint-list_m	_	_
+7	that is an incorrect assessment ,	2	_	_	pos1=DT|head_tok=assessment|head_pos=NN|head_id=31|parent_posVVP|sid=1|stype=decl|len=6|head_func=parataxis|subord=RIGHT	6	evaluation-comment_r	_	_
+8	but I must admit	0	_	_	pos1=CC|head_tok=admit|head_pos=VV|head_id=36|parent_posNN|sid=1|stype=decl|len=4|head_func=conj|subord=LEFT	9	attribution-positive_r	_	_
+9	I have run out of patience with you and your smug attitude .	0	_	_	pos1=PP|head_tok=run|head_pos=VVN|head_id=39|parent_posVV|sid=1|stype=decl|len=13|head_func=ccomp|subord=LEFT	7	adversative-contrast_m	_	_
+10	I hope	2	_	_	pos1=PP|head_tok=hope|head_pos=VVP|head_id=51|parent_pos=_|sid=2|stype=decl|len=2|head_func=root	11	attribution-positive_r	_	_
+11	the fact	4	_	_	pos1=DT|head_tok=fact|head_pos=NN|head_id=53|parent_posVVZ|sid=2|stype=decl|len=2|head_func=nsubj|subord=RIGHT	22	context-background_r	_	_
+12	that I 've obviously paid someone to find you	0	_	_	pos1=IN/that|head_tok=pay|head_pos=VVN|head_id=58|parent_posNN|sid=2|stype=decl|len=9|head_func=acl|subord=LEFT	11	elaboration-attribute_r	_	_
+13	conveys the seriousness	1	_	_	pos1=VVZ|head_tok=convey|head_pos=VVZ|head_id=63|parent_posVVP|sid=2|stype=decl|len=3|head_func=ccomp|subord=LEFT	11	adversative-contrast_m	_	_
+14	with which I take your current attitude .	0	_	_	pos1=IN|head_tok=take|head_pos=VVP|head_id=69|parent_posNN|sid=2|stype=decl|len=8|head_func=acl:relcl|subord=LEFT	13	elaboration-attribute_r	_	_
+15	If you resolve this issue quickly and efficiently	1	_	_	pos1=IN|head_tok=resolve|head_pos=VVP|head_id=76|parent_posVV|sid=3|stype=decl|len=8|head_func=advcl|subord=RIGHT|para=para	17	contingency-condition_r	_	_
+16	I can guarantee	0	_	_	pos1=PP|head_tok=guarantee|head_pos=VV|head_id=84|parent_pos=_|sid=3|stype=decl|len=3|head_func=root	17	attribution-positive_r	_	_
+17	you will not hear from me again ;	2	_	_	pos1=PP|head_tok=hear|head_pos=VV|head_id=88|parent_posVV|sid=3|stype=decl|len=8|head_func=ccomp|subord=LEFT	22	explanation-motivation_r	_	_
+18	if you do n't ,	1	_	_	pos1=IN|head_tok=do|head_pos=VVP|head_id=95|parent_posVVN|sid=3|stype=decl|len=5|head_func=advcl|subord=RIGHT	19	contingency-condition_r	_	_
+19	well , you will be well known to the Citibank customers	2	_	_	pos1=UH|head_tok=know|head_pos=VVN|head_id=104|parent_posVV|sid=3|stype=decl|len=11|head_func=parataxis|subord=LEFT	17	adversative-antithesis_r	_	_
+20	you are currently in litigation with in a very short amount of time .	0	_	_	pos1=PP|head_tok=amount|head_pos=NN|head_id=119|parent_posVVN|sid=3|stype=decl|len=14|head_func=obl|subord=LEFT	19	elaboration-attribute_r	_	_
+21	Again , make my life easy ,	0	_	_	pos1=RB|head_tok=make|head_pos=VV|head_id=125|parent_pos=_|sid=4|stype=decl|len=7|head_func=root|subord=RIGHT|para=para	22	explanation-motivation_r	_	_
+22	fax over the letter ,	0	_	_	pos1=VV|head_tok=fax|head_pos=VV|head_id=130|parent_posVV|sid=4|stype=decl|len=5|head_func=parataxis|subord=RIGHT	0	ROOT	_	_
+23	and you will not be hearing from me again .	1	_	_	pos1=CC|head_tok=hear|head_pos=VVG|head_id=140|parent_posVV|sid=4|stype=decl|len=10|head_func=conj|subord=LEFT	22	causal-result_r	_	_
+24	PS :	3	_	_	pos1=FW|head_tok=PS|head_pos=FW|head_id=145|parent_posVVD|sid=5|stype=decl|len=2|head_func=discourse|subord=RIGHT|para=para	28	organization-preparation_r	_	_
+25	I took the liberty	1	_	_	pos1=PP|head_tok=take|head_pos=VVD|head_id=148|parent_pos=_|sid=5|stype=decl|len=4|head_func=root	28	mode-means_r	_	_
+26	of buying the corporate phone directory	0	_	_	pos1=IN|head_tok=buy|head_pos=VVG|head_id=152|parent_posNN|sid=5|stype=decl|len=6|head_func=acl|subord=LEFT	25	elaboration-attribute_r	_	_
+27	and locating information on your outstanding disputed credit accounts from an internet dealer today ,	0	_	_	pos1=CC|head_tok=locate|head_pos=VVG|head_id=158|parent_posVVG|sid=5|stype=decl|len=15|head_func=conj|subord=RIGHT	26	joint-list_m	_	_
+28	and can probably make you better known to your customers	3	_	_	pos1=CC|head_tok=make|head_pos=VV|head_id=175|parent_posVVD|sid=5|stype=decl|len=10|head_func=conj|subord=LEFT	22	explanation-motivation_r	_	_
+29	than the security measures	0	_	_	pos1=IN|head_tok=measure|head_pos=NNS|head_id=185|parent_posVVP|sid=5|stype=decl|len=4|head_func=nsubj|subord=RIGHT	32	attribution-positive_r	_	_
+30	you enact at your company	0	_	_	pos1=PP|head_tok=enact|head_pos=VVP|head_id=187|parent_posNNS|sid=5|stype=decl|len=5|head_func=acl:relcl|subord=LEFT	29	elaboration-attribute_r	_	_
+31	indicate	1	_	_	pos1=VVP|head_tok=indicate|head_pos=VVP|head_id=191|parent_posVVN|sid=5|stype=decl|len=1|head_func=advcl|subord=LEFT	29	same-unit_m	_	_
+32	you would like .	0	_	_	pos1=PP|head_tok=like|head_pos=VV|head_id=194|parent_posVVP|sid=5|stype=decl|len=4|head_func=ccomp|subord=LEFT	28	adversative-antithesis_r	_	_
+33	Consider this ,	2	_	_	pos1=VV|head_tok=consider|head_pos=VV|head_id=196|parent_pos=_|sid=6|stype=imp|len=3|head_func=root	28	evaluation-comment_r	_	_
+34	as I 'm sure ,	1	_	_	pos1=IN|head_tok=sure|head_pos=JJ|head_id=202|parent_posVV|sid=6|stype=imp|len=5|head_func=advcl|subord=LEFT	38	attribution-positive_r	_	_
+35	being in the collections business	0	_	_	pos1=VBG|head_tok=business|head_pos=NN|head_id=208|parent_posJJ|sid=6|stype=imp|len=5|head_func=advcl|subord=LEFT	38	context-background_r	_	_
+36	and having the attitude about it	0	_	_	pos1=CC|head_tok=have|head_pos=VHG|head_id=210|parent_posNN|sid=6|stype=imp|len=6|head_func=conj|subord=LEFT	35	joint-list_m	_	_
+37	that you do ,	0	_	_	pos1=WDT|head_tok=do|head_pos=VVP|head_id=217|parent_posNN|sid=6|stype=imp|len=4|head_func=acl:relcl|subord=LEFT	36	elaboration-attribute_r	_	_
+38	that you often make people upset .	0	_	_	pos1=IN/that|head_tok=make|head_pos=VVP|head_id=222|parent_posJJ|sid=6|stype=imp|len=7|head_func=ccomp|subord=LEFT	33	explanation-motivation_r	_	_
+39	Lord knows	0	_	_	pos1=NP|head_tok=know|head_pos=VVZ|head_id=227|parent_pos=_|sid=7|stype=decl|len=2|head_func=root	40	organization-phatic_r	_	_
+40	that drawing too much publicity and making people upset is what did in Joan Lefkow .	1	_	_	pos1=IN/that|head_tok=what|head_pos=WP|head_id=238|parent_posVVZ|sid=7|stype=decl|len=16|head_func=ccomp|subord=LEFT	33	joint-other_m	_	_

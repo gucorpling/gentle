@@ -1,0 +1,36 @@
+1	ANNABEL LEE .	4	_	_	pos1=NP|head_tok=Annabel|head_pos=NP|head_id=1|parent_pos=_|sid=1|stype=frag|len=3|head_func=root|heading=heading	20	organization-heading_r	_	_
+2	IT was many and many a year ago , In a kingdom by the sea , That a maiden there lived	3	_	_	pos1=PP|head_tok=ago|head_pos=RB|head_id=11|parent_pos=_|sid=2|stype=decl|len=21|head_func=root|para=para	9	context-background_r	_	_
+3	whom you may know By the name of ANNABEL LEE ;	0	_	_	pos1=WP|head_tok=know|head_pos=VV|head_id=28|parent_posNN|sid=2|stype=decl|len=11|head_func=acl:relcl|subord=LEFT	2	elaboration-attribute_r	_	_
+4	And this maiden she lived with no other thought	1	_	_	pos1=CC|head_tok=live|head_pos=VVD|head_id=40|parent_pos=_|sid=3|stype=decl|len=9|head_func=root	2	elaboration-additional_r	_	_
+5	Than to love	0	_	_	pos1=IN|head_tok=love|head_pos=VV|head_id=47|parent_posNN|sid=3|stype=decl|len=3|head_func=acl|subord=LEFT	4	elaboration-attribute_r	_	_
+6	and be loved by me .	0	_	_	pos1=CC|head_tok=love|head_pos=VVN|head_id=50|parent_posVV|sid=3|stype=decl|len=6|head_func=conj|subord=LEFT	5	joint-list_m	_	_
+7	I was a child	2	_	_	pos1=PP|head_tok=child|head_pos=NN|head_id=57|parent_pos=_|sid=4|stype=decl|len=4|head_func=root|para=para	9	context-background_r	_	_
+8	and she was a child , In this kingdom by the sea :	0	_	_	pos1=CC|head_tok=kingdom|head_pos=NN|head_id=66|parent_posNN|sid=4|stype=decl|len=13|head_func=obl|subord=LEFT	7	joint-other_m	_	_
+9	But we loved with a love	2	_	_	pos1=CC|head_tok=love|head_pos=VVD|head_id=73|parent_pos=_|sid=5|stype=decl|len=6|head_func=root	14	causal-cause_r	_	_
+10	that was more than love —	0	_	_	pos1=WDT|head_tok=more|head_pos=JJR|head_id=79|parent_posNN|sid=5|stype=decl|len=6|head_func=acl:relcl|subord=LEFT	9	elaboration-attribute_r	_	_
+11	I and my ANNABEL LEE ;	0	_	_	pos1=PP|head_tok=I|head_pos=PP|head_id=83|parent_pos=_|sid=6|stype=frag|len=6|head_func=root	10	elaboration-additional_r	_	_
+12	With a love	1	_	_	pos1=IN|head_tok=love|head_pos=NN|head_id=91|parent_pos=_|sid=7|stype=frag|len=3|head_func=root	9	elaboration-additional_r	_	_
+13	that the winged seraphs of heaven Coveted her and me .	0	_	_	pos1=WDT|head_tok=covet|head_pos=VVD|head_id=98|parent_posNN|sid=7|stype=frag|len=11|head_func=acl:relcl|subord=LEFT	12	elaboration-attribute_r	_	_
+14	And this was the reason	3	_	_	pos1=CC|head_tok=reason|head_pos=NN|head_id=107|parent_pos=_|sid=8|stype=decl|len=5|head_func=root|para=para	20	context-background_r	_	_
+15	that , long ago , In this kingdom by the sea , A wind blew out of a cloud ,	0	_	_	pos1=IN/that|head_tok=blow|head_pos=VVD|head_id=122|parent_posNN|sid=8|stype=decl|len=20|head_func=acl|subord=LEFT	14	elaboration-attribute_r	_	_
+16	chilling My beautiful ANNABEL LEE ;	0	_	_	pos1=VVG|head_tok=chill|head_pos=VVG|head_id=128|parent_posVVD|sid=8|stype=decl|len=6|head_func=advcl|subord=LEFT	15	causal-result_r	_	_
+17	So that her highborn kinsman came	1	_	_	pos1=IN|head_tok=come|head_pos=VVD|head_id=139|parent_pos=_|sid=9|stype=decl|len=6|head_func=root	14	causal-result_r	_	_
+18	And bore her away from me ,	0	_	_	pos1=CC|head_tok=bear|head_pos=VVD|head_id=141|parent_posVVD|sid=9|stype=decl|len=7|head_func=conj|subord=LEFT	17	joint-sequence_m	_	_
+19	To shut her up in a sepulchre In this kingdom by the sea .	0	_	_	pos1=TO|head_tok=shut|head_pos=VV|head_id=148|parent_posVVD|sid=9|stype=decl|len=14|head_func=advcl|subord=LEFT	18	purpose-goal_r	_	_
+20	The angels , not half so happy in heaven , Went envying her and me —	0	_	_	pos1=DT|head_tok=went|head_pos=VVD|head_id=171|parent_pos=_|sid=10|stype=decl|len=16|head_func=root|para=para	0	ROOT	_	_
+21	Yes ! —	0	_	_	pos1=UH|head_tok=yes|head_pos=UH|head_id=177|parent_posNN|sid=11|stype=decl|len=3|head_func=discourse|subord=RIGHT	20	evaluation-comment_r	_	_
+22	that was the reason	1	_	_	pos1=DT|head_tok=reason|head_pos=NN|head_id=183|parent_pos=_|sid=11|stype=decl|len=4|head_func=root	20	elaboration-additional_r	_	_
+23	( as all men know , In this kingdom by the sea )	0	_	_	pos1=(|head_tok=know|head_pos=VVP|head_id=188|parent_posNN|sid=11|stype=decl|len=13|head_func=advcl|subord=LEFT	22	explanation-evidence_r	_	_
+24	That the wind came out of the cloud by night ,	1	_	_	pos1=IN/that|head_tok=come|head_pos=VVD|head_id=200|parent_posNN|sid=11|stype=decl|len=11|head_func=acl|subord=LEFT	22	elaboration-attribute_r	_	_
+25	Chilling and killing my ANNABEL LEE .	0	_	_	pos1=VVG|head_tok=chill|head_pos=VVG|head_id=208|parent_posVVD|sid=11|stype=decl|len=7|head_func=advcl|subord=LEFT	24	causal-result_r	_	_
+26	But our love it was stronger by far than the love Of those	2	_	_	pos1=CC|head_tok=strong|head_pos=JJR|head_id=220|parent_pos=_|sid=12|stype=decl|len=13|head_func=root|para=para	20	adversative-contrast_m	_	_
+27	who were older than we —	0	_	_	pos1=WP|head_tok=old|head_pos=JJR|head_id=230|parent_posDT|sid=12|stype=decl|len=6|head_func=acl:relcl|subord=LEFT	26	elaboration-attribute_r	_	_
+28	Of many far wiser than we —	1	_	_	pos1=IN|head_tok=many|head_pos=JJ|head_id=235|parent_pos=_|sid=13|stype=frag|len=7|head_func=root	26	same-unit_m	_	_
+29	And neither the angels in heaven above , Nor the demons down under the sea , Can ever dissever my soul from the soul Of the beautiful ANNABEL LEE :	2	_	_	pos1=CC|head_tok=dissever|head_pos=VV|head_id=259|parent_pos=_|sid=14|stype=decl|len=30|head_func=root	26	joint-other_m	_	_
+30	For the moon never beams ,	0	_	_	pos1=IN|head_tok=beam|head_pos=VVZ|head_id=275|parent_pos=_|sid=15|stype=decl|len=6|head_func=root|para=para	33	adversative-concession_r	_	_
+31	without bringing me dreams Of the beautiful ANNABEL LEE ;	0	_	_	pos1=IN|head_tok=bring|head_pos=VVG|head_id=278|parent_posVVZ|sid=15|stype=decl|len=10|head_func=advcl|subord=LEFT	30	mode-manner_r	_	_
+32	And the stars never rise ,	1	_	_	pos1=CC|head_tok=rise|head_pos=VVP|head_id=291|parent_pos=_|sid=16|stype=decl|len=6|head_func=root|subord=RIGHT	30	joint-list_m	_	_
+33	but I feel the bright eyes Of the beautiful ANNABEL LEE ;	3	_	_	pos1=CC|head_tok=feel|head_pos=VVP|head_id=295|parent_posVVP|sid=16|stype=decl|len=12|head_func=conj|subord=LEFT	26	elaboration-additional_r	_	_
+34	And so , all the night - tide , I lie down by the side Of my darling	1	_	_	pos1=CC|head_tok=lie|head_pos=VVP|head_id=315|parent_pos=_|sid=17|stype=decl|len=18|head_func=root	33	joint-other_m	_	_
+35	— my darling —	0	_	_	pos1=:|head_tok=darling|head_pos=NN|head_id=325|parent_posNN|sid=17|stype=decl|len=4|head_func=appos|subord=LEFT	34	restatement-partial_r	_	_
+36	my life and my bride , In the sepulchre there by the sea , In her tomb by the sounding sea .	1	_	_	pos1=PP$|head_tok=tomb|head_pos=NN|head_id=343|parent_posVVP|sid=17|stype=decl|len=22|head_func=obl|subord=LEFT	34	same-unit_m	_	_
