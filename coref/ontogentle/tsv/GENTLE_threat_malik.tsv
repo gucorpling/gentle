@@ -96,40 +96,40 @@
 2-28	438-444	Judges	_	_	_	_	cf4[37]	_	_
 2-29	445-448	wan	_	_	_	_		_	_
 2-30	449-451	na	_	_	_	_		_	_
-2-31	452-455	act	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	ana	2-69[48_38]
-2-32	456-464	racially	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-33	465-474	motivated	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-34	475-479	with	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-35	480-487	justice	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf12[39]	_	_
-2-36	488-490	in	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-37	491-492	a	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf20[41]	_	_
-2-38	493-499	double	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf20[41]	_	_
-2-39	500-505	sided	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf20[41]	_	_
-2-40	506-509	way	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf20[41]	_	_
-2-41	510-518	dropping	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-42	519-522	the	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-43	523-524	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-44	525-526	I	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-45	527-528	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-46	529-530	;	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-47	531-532	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-48	533-534	C	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-49	535-536	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-50	537-540	and	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-51	541-542	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-52	543-544	E	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-53	545-546	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-54	547-549	of	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf14[42]	_	_
-2-55	550-553	the	abstract[38]	new[38]	nonsal[38]	Justice[43]	cf3[38]|cf14[42]|cf9[43]	_	_
-2-56	554-558	Word	abstract[38]	new[38]	nonsal[38]	Justice[43]	cf3[38]|cf14[42]|cf9[43]	_	_
-2-57	559-566	Justice	abstract[38]	new[38]	nonsal[38]	Justice[44]	cf3[38]|cf14[42]|cf9[44]	_	_
-2-58	567-577	apparently	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-59	578-585	raising	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-60	586-589	the	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf11[46]	_	_
-2-61	590-594	word	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf11[46]	_	_
-2-62	595-596	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
-2-63	597-601	Just	abstract[38]	new[38]	nonsal[38]	_	cf3[38]|cf11[47]	_	_
-2-64	602-603	"	abstract[38]	new[38]	nonsal[38]	_	cf3[38]	_	_
+2-31	452-455	act	abstract[208]	new[208]	_	_	cf3[38]	disc	2-69[48_208]
+2-32	456-464	racially	_	_	_	_	cf3[38]	_	_
+2-33	465-474	motivated	_	_	_	_	cf3[38]	_	_
+2-34	475-479	with	_	_	_	_	cf3[38]	_	_
+2-35	480-487	justice	_	_	_	_	cf3[38]|cf12[39]	_	_
+2-36	488-490	in	_	_	_	_	cf3[38]	_	_
+2-37	491-492	a	_	_	_	_	cf3[38]|cf20[41]	_	_
+2-38	493-499	double	_	_	_	_	cf3[38]|cf20[41]	_	_
+2-39	500-505	sided	_	_	_	_	cf3[38]|cf20[41]	_	_
+2-40	506-509	way	_	_	_	_	cf3[38]|cf20[41]	_	_
+2-41	510-518	dropping	_	_	_	_	cf3[38]	_	_
+2-42	519-522	the	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-43	523-524	"	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-44	525-526	I	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-45	527-528	"	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-46	529-530	;	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-47	531-532	"	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-48	533-534	C	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-49	535-536	"	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-50	537-540	and	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-51	541-542	"	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-52	543-544	E	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-53	545-546	"	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-54	547-549	of	_	_	_	_	cf3[38]|cf14[42]	_	_
+2-55	550-553	the	_	_	_	Justice[43]	cf3[38]|cf14[42]|cf9[43]	_	_
+2-56	554-558	Word	_	_	_	Justice[43]	cf3[38]|cf14[42]|cf9[43]	_	_
+2-57	559-566	Justice	_	_	_	Justice[44]	cf3[38]|cf14[42]|cf9[44]	_	_
+2-58	567-577	apparently	_	_	_	_	cf3[38]	_	_
+2-59	578-585	raising	_	_	_	_	cf3[38]	_	_
+2-60	586-589	the	_	_	_	_	cf3[38]|cf11[46]	_	_
+2-61	590-594	word	_	_	_	_	cf3[38]|cf11[46]	_	_
+2-62	595-596	"	_	_	_	_	cf3[38]	_	_
+2-63	597-601	Just	_	_	_	_	cf3[38]|cf11[47]	_	_
+2-64	602-603	"	_	_	_	_	cf3[38]	_	_
 2-65	604-608	well	_	_	_	_		_	_
 2-66	609-613	then	_	_	_	_		_	_
 2-67	614-616	so	_	_	_	_		_	_
@@ -137,7 +137,7 @@
 2-69	624-626	it	abstract[48]	giv:act[48]	nonsal[48]	_	cf3[48]	_	_
 2-70	627-629	Ii	person[52]	giv:act[52]	nonsal[52]	_	cf2[51]|cf1*[52]	ana	2-107[69_52]
 2-71	630-633	'll	_	_	_	_	cf2[51]	_	_
-2-72	634-638	play	abstract[208]	new[208]	_	_	cf2[51]	disc	2-83[58_208]
+2-72	634-638	play	abstract[209]	new[209]	_	_	cf2[51]	disc	2-83[58_209]
 2-73	639-647	likewise	_	_	_	_	cf2[51]	_	_
 2-74	648-652	with	_	_	_	_	cf2[51]	_	_
 2-75	653-656	you	_	_	_	_	cf2[51]|cf4[54]	_	_
@@ -250,7 +250,7 @@
 4-16	1184-1185	.	_	_	_	_		_	_
 
 #Text=My case has merit so unless a just treatment is done by this Court with it in the name of principal of the case at issue two White American Jewish folks will become dealt with now take me lightly if the Court will an see wo n't justice become done even if you Judges never here of it .
-5-1	1186-1188	My	abstract[103]|person[104]	giv:act[103]|giv:act[104]	nonsal[103]|nonsal[104]	_	cf2[103]|cf1*[104]	ana|ana	5-38[116_104]|5-16[110_103]
+5-1	1186-1188	My	abstract[103]|person[104]	giv:act[103]|giv:act[104]	nonsal[103]|nonsal[104]	_	cf2[103]|cf1*[104]	ana|ana	5-16[110_103]|5-38[116_104]
 5-2	1189-1193	case	abstract[103]	giv:act[103]	nonsal[103]	_	cf2[103]	_	_
 5-3	1194-1197	has	_	_	_	_		_	_
 5-4	1198-1203	merit	_	_	_	_	cf8[105]	_	_
@@ -358,7 +358,7 @@
 7-10	1685-1686	;	_	_	_	_		_	_
 7-11	1687-1693	Police	_	_	_	Police[138]	cf10[138]	_	_
 7-12	1694-1701	Whoever	_	_	_	_		_	_
-7-13	1702-1704	my	abstract[141]|person[142]	new[141]|giv:act[142]	nonsal[141]|nonsal[142]	_	cf2[141]|cf3*[142]	ana|ana	7-22[146_141]|10-9[171_142]
+7-13	1702-1704	my	abstract[141]|person[142]	new[141]|giv:act[142]	nonsal[141]|nonsal[142]	_	cf2[141]|cf3*[142]	ana|ana	10-9[171_142]|7-22[146_141]
 7-14	1705-1709	will	abstract[141]	new[141]	nonsal[141]	_	cf2[141]	_	_
 7-15	1710-1715	shall	_	_	_	_		_	_
 7-16	1716-1722	become	_	_	_	_		_	_
@@ -366,7 +366,7 @@
 7-18	1728-1735	whether	_	_	_	_	cf1[144]	_	_
 7-19	1736-1740	this	organization[145]	giv:act[145]	nonsal[145]	Court[145]	cf1[144]|cf4[145]	_	_
 7-20	1741-1746	Court	organization[145]	giv:act[145]	nonsal[145]	Court[145]	cf1[144]|cf4[145]	_	_
-7-21	1747-1754	believe	abstract[209]	new[209]	_	_	cf1[144]	disc	7-25[147_209]
+7-21	1747-1754	believe	abstract[210]	new[210]	_	_	cf1[144]	disc	7-25[147_210]
 7-22	1755-1757	it	abstract[146]	giv:act[146]	nonsal[146]	_	cf1[144]|cf2[146]	_	_
 7-23	1758-1760	or	_	_	_	_	cf1[144]	_	_
 7-24	1761-1764	not	_	_	_	_	cf1[144]	_	_
@@ -405,7 +405,7 @@
 9-3	1935-1941	Wished	_	_	_	_		_	_
 9-4	1942-1945	Was	_	_	_	_		_	_
 9-5	1946-1948	To	_	_	_	_	cf3[165]	_	_
-9-6	1949-1954	Crush	abstract[210]	new[210]	_	_	cf3[165]	disc	10-2[167_210]
+9-6	1949-1954	Crush	abstract[211]	new[211]	_	_	cf3[165]	disc	10-2[167_211]
 9-7	1955-1959	Them	person[166]	giv:act[166]	nonsal[166]	_	cf3[165]|cf1*[166]	_	_
 
 #Text=Is That What You Folks Trying to Do Me As And My Cases

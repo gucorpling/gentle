@@ -71,7 +71,7 @@
 5-2	258-261	you	person[25]	giv:act[25]	nonsal[25]	_	cf1*[25]	ana	5-12[37_25]
 5-3	262-266	ever	_	_	_	_		_	_
 5-4	267-272	touch	_	_	_	_		_	_
-5-5	273-275	my	person[34]|person[35]	new[34]|giv:act[35]	nonsal[34]|nonsal[35]	_	cf3[34]|cf2[35]	ana|coref	5-9[36_35]|6-8[48_34]
+5-5	273-275	my	person[34]|person[35]	new[34]|giv:act[35]	nonsal[34]|nonsal[35]	_	cf3[34]|cf2[35]	coref|ana	6-8[48_34]|5-9[36_35]
 5-6	276-284	daughter	person[34]	new[34]	nonsal[34]	_	cf3[34]	_	_
 5-7	285-290	again	_	_	_	_		_	_
 5-8	291-292	,	_	_	_	_		_	_
@@ -273,7 +273,7 @@
 13-20	1109-1111	to	_	_	_	_		_	_
 13-21	1112-1117	happy	_	_	_	_		_	_
 13-22	1118-1122	with	_	_	_	_		_	_
-13-23	1123-1127	your	abstract[122]|person[123]	acc:inf[122]|giv:act[123]	nonsal[122]|nonsal[123]	_	cf5[122]|cf3[123]	ana|coref	13-34[127_123]|21-4[198_122]
+13-23	1123-1127	your	abstract[122]|person[123]	acc:inf[122]|giv:act[123]	nonsal[122]|nonsal[123]	_	cf5[122]|cf3[123]	coref|ana	21-4[198_122]|13-34[127_123]
 13-24	1128-1135	fucking	abstract[122]	acc:inf[122]	nonsal[122]	_	cf5[122]	_	_
 13-25	1136-1140	game	abstract[122]	acc:inf[122]	nonsal[122]	_	cf5[122]	_	_
 13-26	1141-1148	playing	_	_	_	_		_	_

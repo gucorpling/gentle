@@ -1,267 +1,267 @@
-<text id="GENTLE_threat_white" author="White, William" dateCollected="2022-11-14" dateCreated="2007-05-23" dateModified="2007-05-23" shortTitle="white" sourceURL="https://casetext.com/case/united-states-v-white-71" speakerCount="0" speakerList="none" title="United States v. White, 670 F.3d 498, 502, 2012 U.S. App. LEXIS 4198, *5-6 (4th Cir. Va. March 1, 2012)" type="threat">
+<text id="GENTLE_threat_white" partition="test" author="White, William" dateCollected="2022-11-14" dateCreated="2007-05-23" dateModified="2007-05-23" shortTitle="white" sourceURL="https://casetext.com/case/united-states-v-white-71" speakerCount="0" speakerList="none" title="United States v. White, 670 F.3d 498, 502, 2012 U.S. App. LEXIS 4198, *5-6 (4th Cir. Va. March 1, 2012)" type="threat">
 <p>
 <s type="decl" transition="establishment">
-I	PP	I	PNP	PRON	nsubj
-understand	VVP	understand	VVB	VERB	root
-you	PP	you	PNP	PRON	nsubj
-think	VVP	think	VVB	VERB	ccomp
-you	PP	you	PNP	PRON	nsubj
-'re	VBP	be	VBB	AUX	cop
-very	RB	very	AV0	ADV	advmod
-tough	JJ	tough	AJ0	ADJ	ccomp
-and	CC	and	CJC	CCONJ	cc
-you	PP	you	PNP	PRON	nsubj
-think	VVP	think	VVB	VERB	conj
-that	IN/that	that	CJT	SCONJ	mark
-by	IN	by	PRP	SCONJ	mark
-dragging	VVG	drag	VVG	VERB	advcl
-this	DT	this	DT0	DET	det
-process	NN	process	NN1	NOUN	obj
-out	RP	out	AVP	ADP	compound:prt
-you	PP	you	PNP	PRON	nsubj
-have	VHP	have	VHB	AUX	aux
-created	VVN	create	VVN	VERB	ccomp
-me	PP	I	PNP	PRON	iobj
-a	DT	a	AT0	DET	det
-lot	NN	lot	NN1	NOUN	obj
-of	IN	of	PRF	ADP	case
-misery	NN	misery	NN1	NOUN	nmod
-;	:	;	PUN	PUNCT	punct
-that	DT	that	DT0	PRON	nsubj
-is	VBZ	be	VBZ	AUX	cop
-an	DT	a	AT0	DET	det
-incorrect	JJ	incorrect	AJ0	ADJ	amod
-assessment	NN	assessment	NN1	NOUN	parataxis
-,	,	,	PUN	PUNCT	punct
-but	CC	but	CJC	CCONJ	cc
-I	PP	I	PNP	PRON	nsubj
-must	MD	must	VM0	AUX	aux
-admit	VV	admit	VVI	VERB	conj
-I	PP	I	PNP	PRON	nsubj
-have	VHP	have	VHB	AUX	aux
-run	VVN	run	VVN	VERB	ccomp
-out	IN	out	PRP	ADP	case
-of	IN	of	PRF	ADP	case
-patience	NN	patience	NN1	NOUN	obl
-with	IN	with	PRP	ADP	case
-you	PP	you	PNP	PRON	nmod
-and	CC	and	CJC	CCONJ	cc
-your	PP$	your	DPS	PRON	nmod:poss
-smug	JJ	smug	AJ0	ADJ	amod
-attitude	NN	attitude	NN1	NOUN	conj
-.	SENT	.	PUN	PUNCT	punct
+I	PP	I	PNP	PRON	nsubj	_
+understand	VVP	understand	VVB	VERB	root	under-stand
+you	PP	you	PNP	PRON	nsubj	_
+think	VVP	think	VVB	VERB	ccomp	_
+you	PP	you	PNP	PRON	nsubj	_
+'re	VBP	be	VBB	AUX	cop	_
+very	RB	very	AV0	ADV	advmod	_
+tough	JJ	tough	AJ0	ADJ	ccomp	_
+and	CC	and	CJC	CCONJ	cc	_
+you	PP	you	PNP	PRON	nsubj	_
+think	VVP	think	VVB	VERB	conj	_
+that	IN/that	that	CJT	SCONJ	mark	_
+by	IN	by	PRP	SCONJ	mark	_
+dragging	VVG	drag	VVG	VERB	advcl	_
+this	DT	this	DT0	DET	det	_
+process	NN	process	NN1	NOUN	obj	_
+out	RP	out	AVP	ADP	compound:prt	_
+you	PP	you	PNP	PRON	nsubj	_
+have	VHP	have	VHB	AUX	aux	_
+created	VVN	create	VVN	VERB	ccomp	creat-ed
+me	PP	I	PNP	PRON	iobj	_
+a	DT	a	AT0	DET	det	_
+lot	NN	lot	NN1	NOUN	obj	_
+of	IN	of	PRF	ADP	case	_
+misery	NN	misery	NN1	NOUN	nmod	_
+;	:	;	PUN	PUNCT	punct	_
+that	DT	that	DT0	PRON	nsubj	_
+is	VBZ	be	VBZ	AUX	cop	_
+an	DT	a	AT0	DET	det	_
+incorrect	JJ	incorrect	AJ0	ADJ	amod	in-correct
+assessment	NN	assessment	NN1	NOUN	parataxis	assess-ment
+,	,	,	PUN	PUNCT	punct	_
+but	CC	but	CJC	CCONJ	cc	_
+I	PP	I	PNP	PRON	nsubj	_
+must	MD	must	VM0	AUX	aux	_
+admit	VV	admit	VVI	VERB	conj	_
+I	PP	I	PNP	PRON	nsubj	_
+have	VHP	have	VHB	AUX	aux	_
+run	VVN	run	VVN	VERB	ccomp	_
+out	IN	out	PRP	ADP	case	_
+of	IN	of	PRF	ADP	case	_
+patience	NN	patience	NN1	NOUN	obl	pati-ence
+with	IN	with	PRP	ADP	case	_
+you	PP	you	PNP	PRON	nmod	_
+and	CC	and	CJC	CCONJ	cc	_
+your	PP$	your	DPS	PRON	nmod:poss	_
+smug	JJ	smug	AJ0	ADJ	amod	_
+attitude	NN	attitude	NN1	NOUN	conj	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
-I	PP	I	PNP	PRON	nsubj
-hope	VVP	hope	VVB	VERB	root
-the	DT	the	AT0	DET	det
-fact	NN	fact	NN1	NOUN	nsubj
-that	IN/that	that	CJT	SCONJ	mark
-I	PP	I	PNP	PRON	nsubj
-'ve	VHP	have	VHB	AUX	aux
-obviously	RB	obviously	AV0	ADV	advmod
-paid	VVN	pay	VVN	VERB	acl
-someone	NN	someone	NN1	PRON	iobj
-to	TO	to	TO0	PART	mark
-find	VV	find	VVI	VERB	advcl
-you	PP	you	PNP	PRON	obj
-conveys	VVZ	convey	VVZ	VERB	ccomp
-the	DT	the	AT0	DET	det
-seriousness	NN	seriousness	NN1	NOUN	obj
-with	IN	with	PRP	ADP	case
-which	WDT	which	DTQ	PRON	obl
-I	PP	I	PNP	PRON	nsubj
-take	VVP	take	VVB	VERB	acl:relcl
-your	PP$	your	DPS	PRON	nmod:poss
-current	JJ	current	AJ0	ADJ	amod
-attitude	NN	attitude	NN1	NOUN	obj
-.	SENT	.	PUN	PUNCT	punct
+I	PP	I	PNP	PRON	nsubj	_
+hope	VVP	hope	VVB	VERB	root	_
+the	DT	the	AT0	DET	det	_
+fact	NN	fact	NN1	NOUN	nsubj	_
+that	IN/that	that	CJT	SCONJ	mark	_
+I	PP	I	PNP	PRON	nsubj	_
+'ve	VHP	have	VHB	AUX	aux	_
+obviously	RB	obviously	AV0	ADV	advmod	obvious-ly
+paid	VVN	pay	VVN	VERB	acl	_
+someone	NN	someone	NN1	PRON	iobj	_
+to	TO	to	TO0	PART	mark	_
+find	VV	find	VVI	VERB	advcl	_
+you	PP	you	PNP	PRON	obj	_
+conveys	VVZ	convey	VVZ	VERB	ccomp	_
+the	DT	the	AT0	DET	det	_
+seriousness	NN	seriousness	NN1	NOUN	obj	_
+with	IN	with	PRP	ADP	case	_
+which	WDT	which	DTQ	PRON	obl	_
+I	PP	I	PNP	PRON	nsubj	_
+take	VVP	take	VVB	VERB	acl:relcl	_
+your	PP$	your	DPS	PRON	nmod:poss	_
+current	JJ	current	AJ0	ADJ	amod	_
+attitude	NN	attitude	NN1	NOUN	obj	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <p>
 <s type="decl" transition="smooth-shift">
-If	IN	if	CJS	SCONJ	mark
-you	PP	you	PNP	PRON	nsubj
-resolve	VVP	resolve	VVB	VERB	advcl
-this	DT	this	DT0	DET	det
-issue	NN	issue	NN1	NOUN	obj
-quickly	RB	quickly	AV0	ADV	advmod
-and	CC	and	CJC	CCONJ	cc
-efficiently	RB	efficiently	AV0	ADV	conj
-I	PP	I	PNP	PRON	nsubj
-can	MD	can	VM0	AUX	aux
-guarantee	VV	guarantee	VVI	VERB	root
-you	PP	you	PNP	PRON	nsubj
-will	MD	will	VM0	AUX	aux
-not	RB	not	XX0	PART	advmod
-hear	VV	hear	VVI	VERB	ccomp
-from	IN	from	PRP	ADP	case
-me	PP	I	PNP	PRON	obl
-again	RB	again	AV0	ADV	advmod
-;	:	;	PUN	PUNCT	punct
-if	IN	if	CJS	SCONJ	mark
-you	PP	you	PNP	PRON	nsubj
-do	VVP	do	VD	VERB	advcl
-n't	RB	not	XX0	PART	advmod
-,	,	,	PUN	PUNCT	punct
-well	UH	well	ITJ	INTJ	discourse
-,	,	,	PUN	PUNCT	punct
-you	PP	you	PNP	PRON	nsubj:pass
-will	MD	will	VM0	AUX	aux
-be	VB	be	VBI	AUX	aux:pass
-well	RB	well	AV0	ADV	advmod
-known	VVN	know	VVN	VERB	parataxis
-to	IN	to	PRP	ADP	case
-the	DT	the	AT0	DET	det
-Citibank	NP	Citibank	NP0	PROPN	compound
-customers	NNS	customer	NN2	NOUN	obl
-you	PP	you	PNP	PRON	nsubj
-are	VBP	be	VBB	AUX	cop
-currently	RB	currently	AV0	ADV	advmod
-in	IN	in	PRP	ADP	case
-litigation	NN	litigation	NN1	NOUN	acl:relcl
-with	IN	with	PRP	ADP	obl
-in	IN	in	PRP	ADP	case
-a	DT	a	AT0	DET	det
-very	RB	very	AV0	ADV	advmod
-short	JJ	short	AJ0	ADJ	amod
-amount	NN	amount	NN1	NOUN	obl
-of	IN	of	PRF	ADP	case
-time	NN	time	NN1	NOUN	nmod
-.	SENT	.	PUN	PUNCT	punct
+If	IN	if	CJS	SCONJ	mark	_
+you	PP	you	PNP	PRON	nsubj	_
+resolve	VVP	resolve	VVB	VERB	advcl	_
+this	DT	this	DT0	DET	det	_
+issue	NN	issue	NN1	NOUN	obj	_
+quickly	RB	quickly	AV0	ADV	advmod	quick-ly
+and	CC	and	CJC	CCONJ	cc	_
+efficiently	RB	efficiently	AV0	ADV	conj	_
+I	PP	I	PNP	PRON	nsubj	_
+can	MD	can	VM0	AUX	aux	_
+guarantee	VV	guarantee	VVI	VERB	root	_
+you	PP	you	PNP	PRON	nsubj	_
+will	MD	will	VM0	AUX	aux	_
+not	RB	not	XX0	PART	advmod	_
+hear	VV	hear	VVI	VERB	ccomp	_
+from	IN	from	PRP	ADP	case	_
+me	PP	I	PNP	PRON	obl	_
+again	RB	again	AV0	ADV	advmod	_
+;	:	;	PUN	PUNCT	punct	_
+if	IN	if	CJS	SCONJ	mark	_
+you	PP	you	PNP	PRON	nsubj	_
+do	VVP	do	VD	AUX	advcl	_
+n't	RB	not	XX0	PART	advmod	_
+,	,	,	PUN	PUNCT	punct	_
+well	UH	well	ITJ	INTJ	discourse	_
+,	,	,	PUN	PUNCT	punct	_
+you	PP	you	PNP	PRON	nsubj:pass	_
+will	MD	will	VM0	AUX	aux	_
+be	VB	be	VBI	AUX	aux:pass	_
+well	RB	well	AV0	ADV	advmod	_
+known	VVN	know	VVN	VERB	parataxis	know-n
+to	IN	to	PRP	ADP	case	_
+the	DT	the	AT0	DET	det	_
+Citibank	NP	Citibank	NP0	PROPN	compound	_
+customers	NNS	customer	NN2	NOUN	obl	custom-er-s
+you	PP	you	PNP	PRON	nsubj	_
+are	VBP	be	VBB	AUX	cop	_
+currently	RB	currently	AV0	ADV	advmod	current-ly
+in	IN	in	PRP	ADP	case	_
+litigation	NN	litigation	NN1	NOUN	acl:relcl	_
+with	IN	with	PRP	ADP	obl	_
+in	IN	in	PRP	ADP	case	_
+a	DT	a	AT0	DET	det	_
+very	RB	very	AV0	ADV	advmod	_
+short	JJ	short	AJ0	ADJ	amod	_
+amount	NN	amount	NN1	NOUN	obl	_
+of	IN	of	PRF	ADP	case	_
+time	NN	time	NN1	NOUN	nmod	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <p>
 <s type="decl" transition="continue">
-Again	RB	again	AV0	ADV	advmod
-,	,	,	PUN	PUNCT	punct
-make	VV	make	VVB	VERB	root
-my	PP$	my	DPS	PRON	nmod:poss
-life	NN	life	NN1	NOUN	obj
-easy	JJ	easy	AJ0	ADJ	xcomp
-,	,	,	PUN	PUNCT	punct
-fax	VV	fax	VVB	VERB	parataxis
-over	RP	over	AVP	ADP	compound:prt
-the	DT	the	AT0	DET	det
-letter	NN	letter	NN1	NOUN	obj
-,	,	,	PUN	PUNCT	punct
-and	CC	and	CJC	CCONJ	cc
-you	PP	you	PNP	PRON	nsubj
-will	MD	will	VM0	AUX	aux
-not	RB	not	XX0	PART	advmod
-be	VB	be	VBI	AUX	aux
-hearing	VVG	hear	VVG	VERB	conj
-from	IN	from	PRP	ADP	case
-me	PP	I	PNP	PRON	obl
-again	RB	again	AV0	ADV	advmod
-.	SENT	.	PUN	PUNCT	punct
+Again	RB	again	AV0	ADV	advmod	_
+,	,	,	PUN	PUNCT	punct	_
+make	VV	make	VVB	VERB	root	_
+my	PP$	my	DPS	PRON	nmod:poss	_
+life	NN	life	NN1	NOUN	obj	_
+easy	JJ	easy	AJ0	ADJ	xcomp	eas-y
+,	,	,	PUN	PUNCT	punct	_
+fax	VV	fax	VVB	VERB	parataxis	_
+over	RP	over	AVP	ADP	compound:prt	_
+the	DT	the	AT0	DET	det	_
+letter	NN	letter	NN1	NOUN	obj	lett-er
+,	,	,	PUN	PUNCT	punct	_
+and	CC	and	CJC	CCONJ	cc	_
+you	PP	you	PNP	PRON	nsubj	_
+will	MD	will	VM0	AUX	aux	_
+not	RB	not	XX0	PART	advmod	_
+be	VB	be	VBI	AUX	aux	_
+hearing	VVG	hear	VVG	VERB	conj	hear-ing
+from	IN	from	PRP	ADP	case	_
+me	PP	I	PNP	PRON	obl	_
+again	RB	again	AV0	ADV	advmod	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <p>
 <s type="decl" transition="smooth-shift">
-PS	FW	PS	UNC	X	discourse
-:	:	:	PUN	PUNCT	punct
-I	PP	I	PNP	PRON	nsubj
-took	VVD	take	VVD	VERB	root
-the	DT	the	AT0	DET	det
-liberty	NN	liberty	NN1	NOUN	obj
-of	IN	of	PRF	SCONJ	mark
-buying	VVG	buy	VVG	VERB	acl
-the	DT	the	AT0	DET	det
-corporate	JJ	corporate	AJ0	ADJ	amod
-phone	NN	phone	NN1	NOUN	compound
-directory	NN	directory	NN1	NOUN	obj
-and	CC	and	CJC	CCONJ	cc
-locating	VVG	locate	VVG	VERB	conj
-information	NN	information	NN1	NOUN	obj
-on	IN	on	PRP	ADP	case
-your	PP$	your	DPS	PRON	nmod:poss
-outstanding	JJ	outstanding	AJ0	ADJ	amod
-disputed	JJ	disputed	AJ0	ADJ	amod
-credit	NN	credit	NN1	NOUN	compound
-accounts	NNS	account	NN2	NOUN	nmod
-from	IN	from	PRP	ADP	case
-an	DT	a	AT0	DET	det
-internet	NN	Internet	NN1	NOUN	compound
-dealer	NN	dealer	NN1	NOUN	obl
-today	NN	today	NN1	NOUN	obl:tmod
-,	,	,	PUN	PUNCT	punct
-and	CC	and	CJC	CCONJ	cc
-can	MD	can	VM0	AUX	aux
-probably	RB	probably	AV0	ADV	advmod
-make	VV	make	VVI	VERB	conj
-you	PP	you	PNP	PRON	obj
-better	RBR	well	AV0	ADV	advmod
-known	VVN	know	VVN	VERB	xcomp
-to	IN	to	PRP	ADP	case
-your	PP$	your	DPS	PRON	nmod:poss
-customers	NNS	customer	NN2	NOUN	obl
-than	IN	than	CJS	SCONJ	mark
-the	DT	the	AT0	DET	det
-security	NN	security	NN1	NOUN	compound
-measures	NNS	measure	NN2	NOUN	nsubj
-you	PP	you	PNP	PRON	nsubj
-enact	VVP	enact	VVB	VERB	acl:relcl
-at	IN	at	PRP	ADP	case
-your	PP$	your	DPS	PRON	nmod:poss
-company	NN	company	NN1	NOUN	obl
-indicate	VVP	indicate	VVB	VERB	advcl
-you	PP	you	PNP	PRON	nsubj
-would	MD	would	VM0	AUX	aux
-like	VV	like	VVI	VERB	ccomp
-.	SENT	.	PUN	PUNCT	punct
+PS	FW	PS	UNC	X	discourse	_
+:	:	:	PUN	PUNCT	punct	_
+I	PP	I	PNP	PRON	nsubj	_
+took	VVD	take	VVD	VERB	root	_
+the	DT	the	AT0	DET	det	_
+liberty	NN	liberty	NN1	NOUN	obj	_
+of	IN	of	PRF	SCONJ	mark	_
+buying	VVG	buy	VVG	VERB	acl	buy-ing
+the	DT	the	AT0	DET	det	_
+corporate	JJ	corporate	AJ0	ADJ	amod	_
+phone	NN	phone	NN1	NOUN	compound	_
+directory	NN	directory	NN1	NOUN	obj	_
+and	CC	and	CJC	CCONJ	cc	_
+locating	VVG	locate	VVG	VERB	conj	_
+information	NN	information	NN1	NOUN	obj	in-form-ation
+on	IN	on	PRP	ADP	case	_
+your	PP$	your	DPS	PRON	nmod:poss	_
+outstanding	JJ	outstanding	AJ0	ADJ	amod	out-stand-ing
+disputed	JJ	disputed	AJ0	ADJ	amod	_
+credit	NN	credit	NN1	NOUN	compound	_
+accounts	NNS	account	NN2	NOUN	nmod	account-s
+from	IN	from	PRP	ADP	case	_
+an	DT	a	AT0	DET	det	_
+internet	NN	Internet	NN1	NOUN	compound	inter-net
+dealer	NN	dealer	NN1	NOUN	obl	deal-er
+today	NN	today	NN1	NOUN	obl:tmod	to-day
+,	,	,	PUN	PUNCT	punct	_
+and	CC	and	CJC	CCONJ	cc	_
+can	MD	can	VM0	AUX	aux	_
+probably	RB	probably	AV0	ADV	advmod	probab-ly
+make	VV	make	VVI	VERB	conj	_
+you	PP	you	PNP	PRON	obj	_
+better	RBR	well	AV0	ADV	advmod	bett-er
+known	VVN	know	VVN	VERB	xcomp	know-n
+to	IN	to	PRP	ADP	case	_
+your	PP$	your	DPS	PRON	nmod:poss	_
+customers	NNS	customer	NN2	NOUN	obl	custom-er-s
+than	IN	than	CJS	SCONJ	mark	_
+the	DT	the	AT0	DET	det	_
+security	NN	security	NN1	NOUN	compound	secur-ity
+measures	NNS	measure	NN2	NOUN	nsubj	measure-s
+you	PP	you	PNP	PRON	nsubj	_
+enact	VVP	enact	VVB	VERB	acl:relcl	_
+at	IN	at	PRP	ADP	case	_
+your	PP$	your	DPS	PRON	nmod:poss	_
+company	NN	company	NN1	NOUN	obl	_
+indicate	VVP	indicate	VVB	VERB	advcl	_
+you	PP	you	PNP	PRON	nsubj	_
+would	MD	would	VM0	AUX	aux	_
+like	VV	like	VVI	VERB	ccomp	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="continue">
-Consider	VV	consider	VVB	VERB	root
-this	DT	this	DT0	PRON	obj
-,	,	,	PUN	PUNCT	punct
-as	IN	as	CJS	SCONJ	mark
-I	PP	I	PNP	PRON	nsubj
-'m	VBP	be	VBB	AUX	cop
-sure	JJ	sure	AJ0	ADJ	advcl
-,	,	,	PUN	PUNCT	punct
-being	VBG	be	VBG	AUX	cop
-in	IN	in	PRP	ADP	case
-the	DT	the	AT0	DET	det
-collections	NNS	collection	NN2	NOUN	compound
-business	NN	business	NN1	NOUN	advcl
-and	CC	and	CJC	CCONJ	cc
-having	VHG	have	VHG	VERB	conj
-the	DT	the	AT0	DET	det
-attitude	NN	attitude	NN1	NOUN	obj
-about	IN	about	PRP	ADP	case
-it	PP	it	PNP	PRON	nmod
-that	WDT	that	CJT	PRON	obj
-you	PP	you	PNP	PRON	nsubj
-do	VVP	do	VD	VERB	acl:relcl
-,	,	,	PUN	PUNCT	punct
-that	IN/that	that	CJT	SCONJ	mark
-you	PP	you	PNP	PRON	nsubj
-often	RB	often	AV0	ADV	advmod
-make	VVP	make	VVB	VERB	ccomp
-people	NNS	person	NN0	NOUN	obj
-upset	JJ	upset	AJ0	ADJ	xcomp
-.	SENT	.	PUN	PUNCT	punct
+Consider	VV	consider	VVB	VERB	root	_
+this	DT	this	DT0	PRON	obj	_
+,	,	,	PUN	PUNCT	punct	_
+as	IN	as	CJS	SCONJ	mark	_
+I	PP	I	PNP	PRON	nsubj	_
+'m	VBP	be	VBB	AUX	cop	_
+sure	JJ	sure	AJ0	ADJ	advcl	_
+,	,	,	PUN	PUNCT	punct	_
+being	VBG	be	VBG	AUX	cop	be-ing
+in	IN	in	PRP	ADP	case	_
+the	DT	the	AT0	DET	det	_
+collections	NNS	collection	NN2	NOUN	compound	collect-ion-s
+business	NN	business	NN1	NOUN	advcl	busi-ness
+and	CC	and	CJC	CCONJ	cc	_
+having	VHG	have	VHG	VERB	conj	hav-ing
+the	DT	the	AT0	DET	det	_
+attitude	NN	attitude	NN1	NOUN	obj	_
+about	IN	about	PRP	ADP	case	_
+it	PP	it	PNP	PRON	nmod	_
+that	WDT	that	CJT	PRON	obj	_
+you	PP	you	PNP	PRON	nsubj	_
+do	VVP	do	VD	VERB	acl:relcl	_
+,	,	,	PUN	PUNCT	punct	_
+that	IN/that	that	CJT	SCONJ	mark	_
+you	PP	you	PNP	PRON	nsubj	_
+often	RB	often	AV0	ADV	advmod	_
+make	VVP	make	VVB	VERB	ccomp	_
+people	NNS	person	NN0	NOUN	obj	_
+upset	JJ	upset	AJ0	ADJ	xcomp	up-set
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
-Lord	NP	Lord	NP0	PROPN	nsubj
-knows	VVZ	know	VVZ	VERB	root
-that	IN/that	that	CJT	SCONJ	mark
-drawing	VVG	draw	VVG	VERB	csubj
-too	RB	too	AV0	ADV	advmod
-much	JJ	much	DT0	ADJ	amod
-publicity	NN	publicity	NN1	NOUN	obj
-and	CC	and	CJC	CCONJ	cc
-making	VVG	make	VVG	VERB	conj
-people	NNS	person	NN0	NOUN	obj
-upset	JJ	upset	AJ0	ADJ	xcomp
-is	VBZ	be	VBZ	AUX	cop
-what	WP	what	PNQ	PRON	ccomp
-did	VVD	do	VDD	VERB	acl:relcl
-in	RP	in	AVP	ADP	compound:prt
-Joan	NP	Joan	NP0	PROPN	obj
-Lefkow	NP	Lefkow	NP0	PROPN	flat
-.	SENT	.	PUN	PUNCT	punct
+Lord	NP	Lord	NP0	PROPN	nsubj	_
+knows	VVZ	know	VVZ	VERB	root	know-s
+that	IN/that	that	CJT	SCONJ	mark	_
+drawing	VVG	draw	VVG	VERB	csubj	draw-ing
+too	RB	too	AV0	ADV	advmod	_
+much	JJ	much	DT0	ADJ	amod	_
+publicity	NN	publicity	NN1	NOUN	obj	public-ity
+and	CC	and	CJC	CCONJ	cc	_
+making	VVG	make	VVG	VERB	conj	mak-ing
+people	NNS	person	NN0	NOUN	obj	_
+upset	JJ	upset	AJ0	ADJ	xcomp	up-set
+is	VBZ	be	VBZ	AUX	cop	_
+what	WP	what	PNQ	PRON	ccomp	_
+did	VVD	do	VDD	VERB	acl:relcl	_
+in	RP	in	AVP	ADP	compound:prt	_
+Joan	NP	Joan	NP0	PROPN	obj	_
+Lefkow	NP	Lefkow	NP0	PROPN	flat	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 </text>

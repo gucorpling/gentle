@@ -1,23 +1,23 @@
-1	Two roads diverged in a yellow wood ,	3	_	_	pos1=CD|head_tok=diverge|head_pos=VVN|head_id=3|parent_pos=_|sid=1|stype=decl|len=8|head_func=root|para=para	3	context-circumstance_r	_	_
-2	And sorry I could not travel both And be one traveler ,	2	_	_	pos1=CC|head_tok=sorry|head_pos=JJ|head_id=10|parent_posPP|sid=1|stype=decl|len=12|head_func=acl|subord=RIGHT	3	causal-cause_r	_	_
-3	long I stood	3	_	_	pos1=RB|head_tok=stand|head_pos=VVD|head_id=23|parent_posVVN|sid=1|stype=decl|len=3|head_func=conj|subord=LEFT	22	context-background_r	_	_
-4	And looked down one as far	0	_	_	pos1=CC|head_tok=look|head_pos=VVD|head_id=25|parent_posVVD|sid=1|stype=decl|len=6|head_func=conj|subord=LEFT	3	joint-list_m	_	_
-5	as I could	0	_	_	pos1=IN|head_tok=could|head_pos=MD|head_id=32|parent_posRB|sid=1|stype=decl|len=3|head_func=advcl|subord=LEFT	4	mode-manner_r	_	_
-6	To where it bent in the undergrowth ;	1	_	_	pos1=IN|head_tok=where|head_pos=WRB|head_id=34|parent_posVVD|sid=1|stype=decl|len=8|head_func=obl|subord=LEFT	4	same-unit_m	_	_
-7	Then took the other ,	1	_	_	pos1=RB|head_tok=take|head_pos=VVD|head_id=42|parent_pos=_|sid=2|stype=other|len=5|head_func=root|para=para	3	joint-sequence_m	_	_
-8	as just as fair ,	0	_	_	pos1=RB|head_tok=just|head_pos=RB|head_id=47|parent_posJJ|sid=2|stype=other|len=5|head_func=amod|subord=LEFT	7	causal-cause_r	_	_
-9	And having perhaps the better claim ,	0	_	_	pos1=CC|head_tok=have|head_pos=VHG|head_id=52|parent_posRB|sid=2|stype=other|len=7|head_func=conj|subord=LEFT	8	joint-list_m	_	_
-10	Because it was grassy	0	_	_	pos1=IN|head_tok=grassy|head_pos=JJ|head_id=61|parent_posVHG|sid=2|stype=other|len=4|head_func=advcl|subord=LEFT	11	explanation-justify_r	_	_
-11	and wanted wear ;	0	_	_	pos1=CC|head_tok=want|head_pos=VVD|head_id=63|parent_posJJ|sid=2|stype=other|len=4|head_func=conj|subord=LEFT	9	causal-cause_r	_	_
-12	Though as for that the passing there Had worn them really about the same ,	1	_	_	pos1=IN|head_tok=wear|head_pos=VVN|head_id=74|parent_pos=_|sid=3|stype=decl|len=15|head_func=root	11	adversative-concession_r	_	_
-13	And both that morning equally lay In leaves	0	_	_	pos1=CC|head_tok=lie|head_pos=VVD|head_id=86|parent_pos=_|sid=4|stype=decl|len=8|head_func=root|para=para	12	explanation-evidence_r	_	_
-14	no step had trodden black .	0	_	_	pos1=DT|head_tok=tread|head_pos=VVN|head_id=92|parent_posNNS|sid=4|stype=decl|len=6|head_func=acl:relcl|subord=LEFT	13	elaboration-attribute_r	_	_
-15	Oh , I kept the first for another day !	1	_	_	pos1=UH|head_tok=keep|head_pos=VVD|head_id=98|parent_pos=_|sid=5|stype=decl|len=10|head_func=root	19	adversative-antithesis_r	_	_
-16	Yet	0	_	_	pos1=CC|head_tok=yet|head_pos=CC|head_id=105|parent_posVVD|sid=6|stype=decl|len=1|head_func=cc|subord=RIGHT	19	attribution-positive_r	_	_
-17	knowing how way leads on to way ,	0	_	_	pos1=VVG|head_tok=know|head_pos=VVG|head_id=106|parent_posVVD|sid=6|stype=decl|len=8|head_func=advcl|subord=RIGHT	18	causal-cause_r	_	_
-18	I doubted	0	_	_	pos1=PP|head_tok=doubt|head_pos=VVD|head_id=115|parent_pos=_|sid=6|stype=decl|len=2|head_func=root	16	same-unit_m	_	_
-19	if I should ever come back .	1	_	_	pos1=IN|head_tok=come|head_pos=VV|head_id=120|parent_posVVD|sid=6|stype=decl|len=7|head_func=ccomp|subord=LEFT	7	adversative-concession_r	_	_
-20	I shall be telling this with a sigh Somewhere ages and ages hence :	2	_	_	pos1=PP|head_tok=tell|head_pos=VVG|head_id=126|parent_pos=_|sid=7|stype=decl|len=14|head_func=root|para=para	22	attribution-positive_r	_	_
-21	Two roads diverged in a wood ,	0	_	_	pos1=CD|head_tok=diverge|head_pos=VVN|head_id=139|parent_posVVG|sid=7|stype=decl|len=7|head_func=parataxis|subord=RIGHT	22	context-circumstance_r	_	_
-22	and I — I took the one less travelled by ,	0	_	_	pos1=CC|head_tok=take|head_pos=VVD|head_id=148|parent_posVVN|sid=7|stype=decl|len=11|head_func=conj|subord=LEFT	0	ROOT	_	_
-23	And that has made all the difference .	1	_	_	pos1=CC|head_tok=make|head_pos=VVN|head_id=158|parent_posVVN|sid=7|stype=decl|len=8|head_func=conj|subord=LEFT	22	causal-result_r	_	_
+1	Two roads diverged in a yellow wood ,	3	_	_	pos1=CD|head_tok=diverge|head_pos=VVN|head_id=3|parent_pos=_|sid=1|stype=decl|len=8|head_func=root|edu_tense=None|para=para	3	context-circumstance_r	_	_
+2	And sorry I could not travel both And be one traveler ,	2	_	_	pos1=CC|head_tok=sorry|head_pos=JJ|head_id=10|parent_posPP|sid=1|stype=decl|len=12|head_func=acl|edu_tense=None|subord=RIGHT	3	causal-cause_r	_	_
+3	long I stood	3	_	_	pos1=RB|head_tok=stand|head_pos=VVD|head_id=23|parent_posVVN|sid=1|stype=decl|len=3|head_func=conj|edu_tense=PastSimp|subord=LEFT	22	context-background_r	_	_
+4	And looked down one as far	0	_	_	pos1=CC|head_tok=look|head_pos=VVD|head_id=25|parent_posVVD|sid=1|stype=decl|len=6|head_func=conj|edu_tense=PastSimp|subord=LEFT	3	joint-list_m	_	_
+5	as I could	0	_	_	pos1=IN|head_tok=could|head_pos=MD|head_id=32|parent_posRB|sid=1|stype=decl|len=3|head_func=advcl|edu_tense=None|subord=LEFT	4	mode-manner_r	_	_
+6	To where it bent in the undergrowth ;	1	_	_	pos1=IN|head_tok=where|head_pos=WRB|head_id=34|parent_posVVD|sid=1|stype=decl|len=8|head_func=obl|edu_tense=None|subord=LEFT	4	same-unit_m	_	_
+7	Then took the other ,	1	_	_	pos1=RB|head_tok=take|head_pos=VVD|head_id=42|parent_pos=_|sid=2|stype=other|len=5|head_func=root|edu_tense=PastSimp|para=para	3	joint-sequence_m	_	_
+8	as just as fair ,	0	_	_	pos1=RB|head_tok=just|head_pos=RB|head_id=47|parent_posJJ|sid=2|stype=other|len=5|head_func=amod|edu_tense=None|subord=LEFT	7	causal-cause_r	_	_
+9	And having perhaps the better claim ,	0	_	_	pos1=CC|head_tok=have|head_pos=VHG|head_id=52|parent_posRB|sid=2|stype=other|len=7|head_func=conj|edu_tense=None|subord=LEFT	8	joint-list_m	_	_
+10	Because it was grassy	0	_	_	pos1=IN|head_tok=grassy|head_pos=JJ|head_id=61|parent_posVHG|sid=2|stype=other|len=4|head_func=advcl|edu_tense=PastSimp|subord=LEFT	11	explanation-justify_r	_	_
+11	and wanted wear ;	0	_	_	pos1=CC|head_tok=want|head_pos=VVD|head_id=63|parent_posJJ|sid=2|stype=other|len=4|head_func=conj|edu_tense=PastSimp|subord=LEFT	9	causal-cause_r	_	_
+12	Though as for that the passing there Had worn them really about the same ,	1	_	_	pos1=IN|head_tok=wear|head_pos=VVN|head_id=74|parent_pos=_|sid=3|stype=decl|len=15|head_func=root|edu_tense=PastPerf	11	adversative-concession_r	_	_
+13	And both that morning equally lay In leaves	0	_	_	pos1=CC|head_tok=lie|head_pos=VVD|head_id=86|parent_pos=_|sid=4|stype=decl|len=8|head_func=root|edu_tense=PastSimp|para=para	12	explanation-evidence_r	_	_
+14	no step had trodden black .	0	_	_	pos1=DT|head_tok=tread|head_pos=VVN|head_id=92|parent_posNNS|sid=4|stype=decl|len=6|head_func=acl:relcl|edu_tense=PastPerf|subord=LEFT	13	elaboration-attribute_r	_	_
+15	Oh , I kept the first for another day !	1	_	_	pos1=UH|head_tok=keep|head_pos=VVD|head_id=98|parent_pos=_|sid=5|stype=decl|len=10|head_func=root|edu_tense=PastSimp	19	adversative-antithesis_r	_	_
+16	Yet	0	_	_	pos1=CC|head_tok=yet|head_pos=CC|head_id=105|parent_posVVD|sid=6|stype=decl|len=1|head_func=cc|edu_tense=None|subord=RIGHT	19	attribution-positive_r	_	_
+17	knowing how way leads on to way ,	0	_	_	pos1=VVG|head_tok=know|head_pos=VVG|head_id=106|parent_posVVD|sid=6|stype=decl|len=8|head_func=advcl|edu_tense=None|subord=RIGHT	18	causal-cause_r	_	_
+18	I doubted	0	_	_	pos1=PP|head_tok=doubt|head_pos=VVD|head_id=115|parent_pos=_|sid=6|stype=decl|len=2|head_func=root|edu_tense=PastSimp	16	same-unit_m	_	_
+19	if I should ever come back .	1	_	_	pos1=IN|head_tok=come|head_pos=VV|head_id=120|parent_posVVD|sid=6|stype=decl|len=7|head_func=ccomp|edu_tense=Modal|subord=LEFT	7	adversative-concession_r	_	_
+20	I shall be telling this with a sigh Somewhere ages and ages hence :	2	_	_	pos1=PP|head_tok=tell|head_pos=VVG|head_id=126|parent_pos=_|sid=7|stype=decl|len=14|head_func=root|edu_tense=PresProg|para=para	22	attribution-positive_r	_	_
+21	Two roads diverged in a wood ,	0	_	_	pos1=CD|head_tok=diverge|head_pos=VVN|head_id=139|parent_posVVG|sid=7|stype=decl|len=7|head_func=parataxis|edu_tense=None|subord=RIGHT	22	context-circumstance_r	_	_
+22	and I — I took the one less travelled by ,	0	_	_	pos1=CC|head_tok=take|head_pos=VVD|head_id=148|parent_posVVN|sid=7|stype=decl|len=11|head_func=conj|edu_tense=PastSimp|subord=LEFT	0	ROOT	_	_
+23	And that has made all the difference .	1	_	_	pos1=CC|head_tok=make|head_pos=VVN|head_id=158|parent_posVVN|sid=7|stype=decl|len=8|head_func=conj|edu_tense=PresPerf|subord=LEFT	22	causal-result_r	_	_

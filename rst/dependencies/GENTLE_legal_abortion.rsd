@@ -1,116 +1,116 @@
-1	Roe v. Wade	3	_	_	pos1=NP|head_tok=Roe|head_pos=NP|head_id=1|parent_pos=_|sid=1|stype=frag|len=3|head_func=root|heading=heading	3	organization-heading_r	_	_
-2	Supreme Court of the United States	2	_	_	pos1=NP|head_tok=Court|head_pos=NP|head_id=5|parent_pos=_|sid=2|stype=frag|len=6|head_func=root|heading=heading	3	organization-heading_r	_	_
-3	410 U.S. 113	7	_	_	pos1=CD|head_tok=113|head_pos=CD|head_id=12|parent_pos=_|sid=3|stype=frag|len=3|head_func=root|para=para	29	organization-heading_r	_	_
-4	Roe v. Wade	0	_	_	pos1=NP|head_tok=Roe|head_pos=NP|head_id=13|parent_pos=_|sid=4|stype=frag|len=3|head_func=root|para=para	3	joint-list_m	_	_
-5	Appeal from the United States District Court for the Northern District of Texas	1	_	_	pos1=NN|head_tok=appeal|head_pos=NN|head_id=16|parent_pos=_|sid=5|stype=frag|len=13|head_func=root|para=para	3	elaboration-additional_r	_	_
-6	No. 70 - 18	0	_	_	pos1=NN|head_tok=No.|head_pos=NN|head_id=29|parent_pos=_|sid=6|stype=other|len=4|head_func=root|para=para	5	joint-list_m	_	_
-7	Argued :	1	_	_	pos1=VVN|head_tok=argue|head_pos=VVN|head_id=33|parent_pos=_|sid=7|stype=other|len=2|head_func=root	5	elaboration-additional_r	_	_
-8	December 13 , 1971 ---	0	_	_	pos1=NP|head_tok=13|head_pos=CD|head_id=36|parent_posVVN|sid=7|stype=other|len=5|head_func=dep|subord=LEFT|date	7	elaboration-additional_r	_	_
-9	Decided :	1	_	_	pos1=VVN|head_tok=decide|head_pos=VVN|head_id=40|parent_pos=_|sid=8|stype=frag|len=2|head_func=root	7	joint-list_m	_	_
-10	January 22 , 1973	0	_	_	pos1=NP|head_tok=22|head_pos=CD|head_id=43|parent_posVVN|sid=8|stype=frag|len=4|head_func=dep|subord=LEFT|date	9	elaboration-additional_r	_	_
-11	A pregnant single woman	3	_	_	pos1=DT|head_tok=woman|head_pos=NN|head_id=49|parent_posVVD|sid=9|stype=decl|len=4|head_func=nsubj|subord=RIGHT|para=para	29	context-background_r	_	_
-12	( Roe )	0	_	_	pos1=(|head_tok=Roe|head_pos=NP|head_id=51|parent_posNN|sid=9|stype=decl|len=3|head_func=appos|subord=LEFT	11	elaboration-additional_r	_	_
-13	brought a class action	1	_	_	pos1=VVD|head_tok=bring|head_pos=VVD|head_id=53|parent_pos=_|sid=9|stype=decl|len=4|head_func=root	11	same-unit_m	_	_
-14	challenging the constitutionality of the Texas criminal abortion laws ,	0	_	_	pos1=VVG|head_tok=challenge|head_pos=VVG|head_id=57|parent_posNN|sid=9|stype=decl|len=10|head_func=acl|subord=LEFT	13	elaboration-attribute_r	_	_
-15	which proscribe procuring or attempting an abortion except on medical advice for the purpose	0	_	_	pos1=WDT|head_tok=proscribe|head_pos=VVP|head_id=68|parent_posNNS|sid=9|stype=decl|len=14|head_func=acl:relcl|subord=LEFT	14	elaboration-attribute_r	_	_
-16	of saving the mother 's life .	0	_	_	pos1=IN|head_tok=save|head_pos=VVG|head_id=82|parent_posNN|sid=9|stype=decl|len=7|head_func=acl|subord=LEFT	15	elaboration-attribute_r	_	_
-17	A licensed physician	2	_	_	pos1=DT|head_tok=physician|head_pos=NN|head_id=90|parent_posVVN|sid=10|stype=decl|len=3|head_func=nsubj:pass|subord=RIGHT	11	joint-other_m	_	_
-18	( Hallford ) ,	0	_	_	pos1=(|head_tok=Hallford|head_pos=NP|head_id=92|parent_posNN|sid=10|stype=decl|len=4|head_func=appos|subord=LEFT	17	elaboration-additional_r	_	_
-19	who had two state abortion prosecutions pending against him ,	1	_	_	pos1=WP|head_tok=have|head_pos=VHD|head_id=96|parent_posNN|sid=10|stype=decl|len=10|head_func=acl:relcl|subord=RIGHT	17	elaboration-attribute_r	_	_
-20	was permitted to intervene .	2	_	_	pos1=VBD|head_tok=permit|head_pos=VVN|head_id=106|parent_pos=_|sid=10|stype=decl|len=5|head_func=root	17	same-unit_m	_	_
-21	A childless married couple	2	_	_	pos1=DT|head_tok=couple|head_pos=NN|head_id=113|parent_posVVD|sid=11|stype=decl|len=4|head_func=nsubj|subord=RIGHT	11	joint-other_m	_	_
-22	( the Does ) ,	0	_	_	pos1=(|head_tok=Doe|head_pos=NPS|head_id=116|parent_posNN|sid=11|stype=decl|len=5|head_func=appos|subord=LEFT	21	elaboration-additional_r	_	_
-23	the wife not being pregnant ,	1	_	_	pos1=DT|head_tok=pregnant|head_pos=JJ|head_id=123|parent_posVVD|sid=11|stype=decl|len=6|head_func=advcl|subord=RIGHT	21	context-circumstance_r	_	_
-24	separately attacked the laws ,	2	_	_	pos1=RB|head_tok=attack|head_pos=VVD|head_id=126|parent_pos=_|sid=11|stype=decl|len=5|head_func=root	21	same-unit_m	_	_
-25	basing alleged injury on the future possibilities of contraceptive failure , pregnancy , unpreparedness for parenthood , and impairment of the wife 's health .	3	_	_	pos1=VVG|head_tok=base|head_pos=VVG|head_id=130|parent_posVVD|sid=11|stype=decl|len=25|head_func=advcl|subord=LEFT	21	elaboration-additional_r	_	_
-26	A three - judge District Court ,	2	_	_	pos1=DT|head_tok=Court|head_pos=NP|head_id=160|parent_posVVD|sid=12|stype=decl|len=7|head_func=nsubj|subord=RIGHT	29	attribution-positive_r	_	_
-27	which consolidated the actions ,	0	_	_	pos1=WDT|head_tok=consolidate|head_pos=VVD|head_id=163|parent_posNP|sid=12|stype=decl|len=5|head_func=acl:relcl|subord=RIGHT	26	elaboration-attribute_r	_	_
-28	held	1	_	_	pos1=VVD|head_tok=hold|head_pos=VVD|head_id=167|parent_pos=_|sid=12|stype=decl|len=1|head_func=root	26	same-unit_m	_	_
-29	that Roe and Hallford , and members of their classes , had standing	0	_	_	pos1=IN/that|head_tok=have|head_pos=VHD|head_id=179|parent_posVVD|sid=12|stype=decl|len=13|head_func=ccomp|subord=LEFT	0	ROOT	_	_
-30	to sue	0	_	_	pos1=TO|head_tok=sue|head_pos=VV|head_id=182|parent_posNN|sid=12|stype=decl|len=2|head_func=acl|subord=LEFT	29	purpose-attribute_r	_	_
-31	and presented justiciable controversies .	1	_	_	pos1=CC|head_tok=present|head_pos=VVD|head_id=184|parent_posVHD|sid=12|stype=decl|len=5|head_func=conj|subord=LEFT	29	joint-list_m	_	_
-32	Ruling that declaratory ,	0	_	_	pos1=VVG|head_tok=declaratory|head_pos=JJ|head_id=190|parent_posNN|sid=13|stype=decl|len=4|head_func=amod|subord=RIGHT	34	causal-cause_r	_	_
-33	though not injunctive ,	0	_	_	pos1=CC|head_tok=injunctive|head_pos=JJ|head_id=194|parent_posJJ|sid=13|stype=decl|len=4|head_func=conj|subord=RIGHT	32	adversative-concession_r	_	_
-34	relief was warranted ,	0	_	_	pos1=NN|head_tok=warrant|head_pos=VVN|head_id=198|parent_posVVG|sid=13|stype=decl|len=4|head_func=ccomp|subord=RIGHT	35	context-background_r	_	_
-35	the court declared the abortion statutes void as vague and overbroadly infringing those plaintiffs ' Ninth and Fourteenth Amendment rights .	4	_	_	pos1=DT|head_tok=declare|head_pos=VVD|head_id=202|parent_pos=_|sid=13|stype=decl|len=21|head_func=root	29	causal-result_r	_	_
-36	The court ruled the Does ' complaint not justiciable .	1	_	_	pos1=DT|head_tok=rule|head_pos=VVD|head_id=223|parent_pos=_|sid=14|stype=decl|len=10|head_func=root	35	joint-other_m	_	_
-37	Appellants directly appealed to this Court on the injunctive rulings ,	2	_	_	pos1=NNS|head_tok=appeal|head_pos=VVD|head_id=233|parent_pos=_|sid=15|stype=decl|len=11|head_func=root|subord=RIGHT	35	causal-result_r	_	_
-38	and appellee cross - appealed from the District Court 's grant of declaratory relief to Roe and Hallford .	0	_	_	pos1=CC|head_tok=appeal|head_pos=VVD|head_id=246|parent_posVVD|sid=15|stype=decl|len=19|head_func=conj|subord=LEFT	37	joint-other_m	_	_
-39	Held :	5	_	_	pos1=VVN|head_tok=hold|head_pos=VVN|head_id=261|parent_pos=_|sid=16|stype=other|len=2|head_func=root|para=para	41	organization-preparation_r	_	_
-40	1. While 28 U.S.C. 1253 authorizes no direct appeal to this Court from the grant or denial of declaratory relief alone ,	1	_	_	pos1=LS|head_tok=authorize|head_pos=VVZ|head_id=268|parent_posVVN|sid=17|stype=decl|len=22|head_func=advcl|subord=RIGHT|para=para|date	41	adversative-concession_r	_	_
-41	review is not foreclosed	5	_	_	pos1=NN|head_tok=foreclose|head_pos=VVN|head_id=288|parent_pos=_|sid=17|stype=decl|len=4|head_func=root	29	explanation-evidence_r	_	_
-42	when the case is properly before the Court on appeal from specific denial of injunctive relief	0	_	_	pos1=WRB|head_tok=Court|head_pos=NP|head_id=296|parent_posVVN|sid=17|stype=decl|len=16|head_func=advcl|subord=LEFT	41	context-circumstance_r	_	_
-43	and the arguments as to both injunctive and declaratory relief are necessarily identical .	2	_	_	pos1=CC|head_tok=identical|head_pos=JJ|head_id=317|parent_posVVN|sid=17|stype=decl|len=14|head_func=conj|subord=LEFT	41	joint-other_m	_	_
-44	P. 123 .	3	_	_	pos1=NN|head_tok=p.|head_pos=NN|head_id=319|parent_pos=_|sid=18|stype=frag|len=3|head_func=root	41	explanation-evidence_r	_	_
-45	2. Roe has standing to sue ;	4	_	_	pos1=LS|head_tok=have|head_pos=VHZ|head_id=324|parent_pos=_|sid=19|stype=decl|len=7|head_func=root|para=para	41	joint-list_m	_	_
-46	the Does and Hallford do not .	0	_	_	pos1=DT|head_tok=do|head_pos=VVP|head_id=333|parent_posVHZ|sid=19|stype=decl|len=7|head_func=parataxis|subord=LEFT	45	adversative-contrast_m	_	_
-47	Pp. 123 - 129 .	1	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=336|parent_pos=_|sid=20|stype=frag|len=5|head_func=root	45	explanation-evidence_r	_	_
-48	(a) Contrary to appellee 's contention , the natural termination of Roe 's pregnancy did not moot her suit .	2	_	_	pos1=LS|head_tok=moot|head_pos=VV|head_id=357|parent_pos=_|sid=21|stype=decl|len=20|head_func=root|para=para	45	elaboration-additional_r	_	_
-49	Litigation involving pregnancy ,	0	_	_	pos1=NN|head_tok=litigation|head_pos=NN|head_id=361|parent_posNN|sid=22|stype=decl|len=4|head_func=nsubj|subord=RIGHT	48	explanation-evidence_r	_	_
-50	which is " capable of repetition ,	0	_	_	pos1=WDT|head_tok=capable|head_pos=JJ|head_id=368|parent_posNN|sid=22|stype=decl|len=7|head_func=acl:relcl|subord=RIGHT	49	elaboration-additional_r	_	_
-51	yet evading review , "	0	_	_	pos1=CC|head_tok=evade|head_pos=VVG|head_id=373|parent_posJJ|sid=22|stype=decl|len=5|head_func=conj|subord=RIGHT	50	adversative-contrast_m	_	_
-52	is an exception to the usual federal rule	1	_	_	pos1=VBZ|head_tok=exception|head_pos=NN|head_id=379|parent_pos=_|sid=22|stype=decl|len=8|head_func=root	49	same-unit_m	_	_
-53	that an actual controversy	0	_	_	pos1=IN/that|head_tok=controversy|head_pos=NN|head_id=388|parent_posVV|sid=22|stype=decl|len=4|head_func=nsubj|subord=RIGHT	52	elaboration-additional_r	_	_
-54	[ p 114 ]	0	_	_	pos1=(|head_tok=p|head_pos=NN|head_id=390|parent_posNN|sid=22|stype=decl|len=4|head_func=parataxis|subord=LEFT	53	explanation-evidence_r	_	_
-55	must exist at review stages ,	1	_	_	pos1=MD|head_tok=exist|head_pos=VV|head_id=394|parent_posNN|sid=22|stype=decl|len=6|head_func=acl|subord=RIGHT	53	same-unit_m	_	_
-56	and not simply when the action is initiated .	0	_	_	pos1=CC|head_tok=initiate|head_pos=VVN|head_id=406|parent_posVV|sid=22|stype=decl|len=9|head_func=advcl:relcl|subord=LEFT	55	joint-other_m	_	_
-57	Pp. 124 - 125 .	1	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=408|parent_pos=_|sid=23|stype=frag|len=5|head_func=root	55	explanation-evidence_r	_	_
-58	(b) The District Court correctly refused injunctive ,	1	_	_	pos1=LS|head_tok=injunctive|head_pos=JJ|head_id=419|parent_posNN|sid=24|stype=decl|len=8|head_func=amod|subord=RIGHT|para=para	48	joint-list_m	_	_
-59	but erred	0	_	_	pos1=CC|head_tok=err|head_pos=VVD|head_id=422|parent_posVVD|sid=24|stype=decl|len=2|head_func=conj|subord=LEFT	58	adversative-contrast_m	_	_
-60	in granting declaratory , relief to Hallford ,	0	_	_	pos1=IN|head_tok=relief|head_pos=NN|head_id=427|parent_posVVD|sid=24|stype=decl|len=8|head_func=obj|subord=LEFT	59	elaboration-additional_r	_	_
-61	who alleged no federally protected right not assertable as a defense against the good faith state prosecutions	0	_	_	pos1=WP|head_tok=allege|head_pos=VVD|head_id=432|parent_posNP|sid=24|stype=decl|len=17|head_func=acl:relcl|subord=LEFT	60	elaboration-attribute_r	_	_
-62	pending against him .	0	_	_	pos1=VVG|head_tok=pend|head_pos=VVG|head_id=448|parent_posNNS|sid=24|stype=decl|len=4|head_func=acl|subord=LEFT	61	elaboration-additional_r	_	_
-63	Samuels v. Mackell , 401 U.S. 66 .	1	_	_	pos1=NP|head_tok=Samuels|head_pos=NP|head_id=452|parent_pos=_|sid=25|stype=frag|len=8|head_func=root	58	explanation-evidence_r	_	_
-64	Pp. 125 - 127 .	0	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=460|parent_pos=_|sid=26|stype=frag|len=5|head_func=root	63	elaboration-additional_r	_	_
-65	(c) The Does ' complaint ,	1	_	_	pos1=LS|head_tok=complaint|head_pos=NN|head_id=469|parent_posJJ|sid=27|stype=decl|len=6|head_func=nsubj|subord=RIGHT|para=para	48	joint-list_m	_	_
-66	based as it is on contingencies ,	0	_	_	pos1=VVN|head_tok=base|head_pos=VVN|head_id=471|parent_posNN|sid=27|stype=decl|len=7|head_func=acl|subord=LEFT	65	elaboration-additional_r	_	_
-67	any one or more of which may not occur ,	0	_	_	pos1=DT|head_tok=occur|head_pos=VV|head_id=486|parent_posNNS|sid=27|stype=decl|len=10|head_func=acl:relcl|subord=RIGHT	66	elaboration-additional_r	_	_
-68	is too speculative	1	_	_	pos1=VBZ|head_tok=speculative|head_pos=JJ|head_id=490|parent_pos=_|sid=27|stype=decl|len=3|head_func=root	65	same-unit_m	_	_
-69	to present an actual case or controversy .	0	_	_	pos1=TO|head_tok=present|head_pos=VV|head_id=492|parent_posJJ|sid=27|stype=decl|len=8|head_func=advcl|subord=LEFT	68	purpose-goal_r	_	_
-70	Pp. 127 - 129 .	2	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=499|parent_pos=_|sid=28|stype=frag|len=5|head_func=root	65	explanation-evidence_r	_	_
-71	3. State criminal abortion laws , like those involved here ,	4	_	_	pos1=LS|head_tok=law|head_pos=NNS|head_id=508|parent_posVVP|sid=29|stype=decl|len=11|head_func=nsubj|subord=RIGHT|para=para	41	joint-list_m	_	_
-72	that except from criminality only a life - saving procedure on the mother 's behalf without regard to the stage of her pregnancy and other interests involved	0	_	_	pos1=IN/that|head_tok=except|head_pos=IN|head_id=516|parent_posNNS|sid=29|stype=decl|len=27|head_func=acl:relcl|subord=LEFT	71	elaboration-additional_r	_	_
-73	violate the Due Process Clause of the Fourteenth Amendment ,	1	_	_	pos1=VVP|head_tok=violate|head_pos=VVP|head_id=542|parent_pos=_|sid=29|stype=decl|len=10|head_func=root	71	same-unit_m	_	_
-74	which protects against state action the right to privacy ,	0	_	_	pos1=WDT|head_tok=protect|head_pos=VVZ|head_id=553|parent_posNP|sid=29|stype=decl|len=10|head_func=acl:relcl|subord=LEFT	73	elaboration-attribute_r	_	_
-75	including a woman 's qualified right	0	_	_	pos1=VVG|head_tok=right|head_pos=NN|head_id=567|parent_posNN|sid=29|stype=decl|len=6|head_func=nmod|subord=LEFT	74	elaboration-additional_r	_	_
-76	to terminate her pregnancy .	0	_	_	pos1=TO|head_tok=terminate|head_pos=VV|head_id=569|parent_posNN|sid=29|stype=decl|len=5|head_func=acl|subord=LEFT	75	purpose-attribute_r	_	_
-77	Though the State can not override that right ,	1	_	_	pos1=IN|head_tok=override|head_pos=VV|head_id=578|parent_posVHZ|sid=30|stype=decl|len=9|head_func=advcl|subord=RIGHT	78	adversative-concession_r	_	_
-78	it has legitimate interests	2	_	_	pos1=PP|head_tok=have|head_pos=VHZ|head_id=583|parent_pos=_|sid=30|stype=decl|len=4|head_func=root	71	elaboration-additional_r	_	_
-79	in protecting both the pregnant woman 's health and the potentiality of human life ,	0	_	_	pos1=IN|head_tok=protect|head_pos=VVG|head_id=587|parent_posNNS|sid=30|stype=decl|len=15|head_func=acl|subord=LEFT	78	elaboration-attribute_r	_	_
-80	each of which interests grows	0	_	_	pos1=DT|head_tok=interest|head_pos=NNS|head_id=604|parent_posVHZ|sid=30|stype=decl|len=5|head_func=advcl:relcl|subord=LEFT	79	elaboration-attribute_r	_	_
-81	and reaches a " compelling " point at various stages of the woman 's approach to term .	0	_	_	pos1=CC|head_tok=reach|head_pos=VVZ|head_id=607|parent_posNNS|sid=30|stype=decl|len=18|head_func=conj|subord=LEFT	80	joint-list_m	_	_
-82	Pp. 147 - 164 .	2	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=624|parent_pos=_|sid=31|stype=frag|len=5|head_func=root	78	explanation-evidence_r	_	_
-83	(a) For the stage prior to approximately the end of the first trimester , the abortion decision and its effectuation must be left to the medical judgment of the pregnant woman 's attending physician .	3	_	_	pos1=LS|head_tok=leave|head_pos=VVN|head_id=651|parent_pos=_|sid=32|stype=decl|len=35|head_func=root|para=para	71	elaboration-additional_r	_	_
-84	Pp. 163 , 164 .	0	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=664|parent_pos=_|sid=33|stype=frag|len=5|head_func=root	83	explanation-evidence_r	_	_
-85	(b) For the stage subsequent to approximately the end of the first trimester , the State ,	1	_	_	pos1=LS|head_tok=State|head_pos=NP|head_id=684|parent_posVV|sid=34|stype=decl|len=17|head_func=nsubj|subord=RIGHT|para=para	83	joint-list_m	_	_
-86	in promoting its interest in the health of the mother ,	0	_	_	pos1=IN|head_tok=promote|head_pos=VVG|head_id=687|parent_posVV|sid=34|stype=decl|len=11|head_func=advcl|subord=RIGHT	85	purpose-goal_r	_	_
-87	may ,	1	_	_	pos1=MD|head_tok=may|head_pos=MD|head_id=697|parent_posVV|sid=34|stype=decl|len=2|head_func=aux|subord=RIGHT	85	same-unit_m	_	_
-88	if it chooses ,	2	_	_	pos1=IN|head_tok=choose|head_pos=VVZ|head_id=701|parent_posVV|sid=34|stype=decl|len=4|head_func=advcl|subord=RIGHT	85	contingency-condition_r	_	_
-89	regulate the abortion procedure in ways	3	_	_	pos1=VV|head_tok=regulate|head_pos=VV|head_id=703|parent_pos=_|sid=34|stype=decl|len=6|head_func=root	85	same-unit_m	_	_
-90	that are reasonably related to maternal health .	0	_	_	pos1=WDT|head_tok=relate|head_pos=VVN|head_id=712|parent_posNNS|sid=34|stype=decl|len=8|head_func=acl:relcl|subord=LEFT	89	elaboration-attribute_r	_	_
-91	Pp. 163 , 164 .	4	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=717|parent_pos=_|sid=35|stype=frag|len=5|head_func=root	85	explanation-evidence_r	_	_
-92	(c) For the stage subsequent to viability the State ,	1	_	_	pos1=LS|head_tok=State|head_pos=NP|head_id=730|parent_posVV|sid=36|stype=decl|len=10|head_func=nsubj|subord=RIGHT|para=para	83	joint-list_m	_	_
-93	in promoting its interest in the potentiality of human life ,	0	_	_	pos1=IN|head_tok=promote|head_pos=VVG|head_id=733|parent_posVV|sid=36|stype=decl|len=11|head_func=advcl|subord=RIGHT	92	purpose-goal_r	_	_
-94	may ,	1	_	_	pos1=MD|head_tok=may|head_pos=MD|head_id=743|parent_posVV|sid=36|stype=decl|len=2|head_func=aux|subord=RIGHT	92	same-unit_m	_	_
-95	if it chooses ,	2	_	_	pos1=IN|head_tok=choose|head_pos=VVZ|head_id=747|parent_posVV|sid=36|stype=decl|len=4|head_func=advcl|subord=RIGHT	92	contingency-condition_r	_	_
-96	regulate ,	3	_	_	pos1=VV|head_tok=regulate|head_pos=VV|head_id=749|parent_pos=_|sid=36|stype=decl|len=2|head_func=root|subord=RIGHT	92	same-unit_m	_	_
-97	and even proscribe , abortion except where necessary , in appropriate medical judgment , for the preservation of the life or health of the mother .	0	_	_	pos1=CC|head_tok=necessary|head_pos=JJ|head_id=758|parent_posVV|sid=36|stype=decl|len=26|head_func=advcl|subord=LEFT	96	joint-list_m	_	_
-98	Pp. 163 - 164 ; 164 - 165 .	4	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=777|parent_pos=_|sid=37|stype=frag|len=9|head_func=root	92	explanation-evidence_r	_	_
-99	4. The State may define the term " physician " to mean only a physician	4	_	_	pos1=LS|head_tok=define|head_pos=VV|head_id=790|parent_pos=_|sid=38|stype=decl|len=15|head_func=root|para=para	41	joint-list_m	_	_
-100	currently licensed by the State ,	0	_	_	pos1=RB|head_tok=license|head_pos=VVN|head_id=802|parent_posNN|sid=38|stype=decl|len=6|head_func=acl|subord=RIGHT	99	elaboration-attribute_r	_	_
-101	and may proscribe any abortion by a person	1	_	_	pos1=CC|head_tok=proscribe|head_pos=VV|head_id=809|parent_posVV|sid=38|stype=decl|len=8|head_func=conj|subord=LEFT	99	joint-other_m	_	_
-102	who is not a physician	0	_	_	pos1=WP|head_tok=physician|head_pos=NN|head_id=819|parent_posNN|sid=38|stype=decl|len=5|head_func=acl:relcl|subord=LEFT	101	elaboration-attribute_r	_	_
-103	as so defined .	0	_	_	pos1=IN|head_tok=define|head_pos=JJ|head_id=822|parent_posNN|sid=38|stype=decl|len=4|head_func=advcl|subord=LEFT	102	elaboration-additional_r	_	_
-104	P. 165 .	2	_	_	pos1=NN|head_tok=p.|head_pos=NN|head_id=824|parent_pos=_|sid=39|stype=frag|len=3|head_func=root	99	explanation-evidence_r	_	_
-105	5. It is unnecessary to decide the injunctive relief issue ,	4	_	_	pos1=LS|head_tok=unnecessary|head_pos=JJ|head_id=830|parent_pos=_|sid=40|stype=decl|len=11|head_func=root|para=para	41	joint-list_m	_	_
-106	since the Texas authorities will doubtless fully recognize the Court 's ruling	0	_	_	pos1=IN|head_tok=recognize|head_pos=VV|head_id=845|parent_posJJ|sid=40|stype=decl|len=12|head_func=advcl|subord=LEFT	105	explanation-justify_r	_	_
-107	[ p115 ]	0	_	_	pos1=(|head_tok=p115|head_pos=NP|head_id=851|parent_posNN|sid=40|stype=decl|len=3|head_func=parataxis|subord=LEFT	106	explanation-evidence_r	_	_
-108	that the Texas criminal abortion statutes are unconstitutional .	1	_	_	pos1=IN/that|head_tok=unconstitutional|head_pos=JJ|head_id=860|parent_posNN|sid=40|stype=decl|len=9|head_func=acl|subord=LEFT	106	elaboration-attribute_r	_	_
-109	P. 166 .	1	_	_	pos1=NN|head_tok=p.|head_pos=NN|head_id=862|parent_pos=_|sid=41|stype=frag|len=3|head_func=root	105	explanation-evidence_r	_	_
-110	BLACKMUN , J. , delivered the opinion of the Court ,	6	_	_	pos1=NP|head_tok=deliver|head_pos=VVD|head_id=869|parent_pos=_|sid=42|stype=decl|len=11|head_func=root|para=para	29	joint-other_m	_	_
-111	in which BURGER , C.J. , and DOUGLAS , BRENNAN , STEWART , MARSHALL , and POWELL , JJ. , joined .	0	_	_	pos1=IN|head_tok=join|head_pos=VVD|head_id=896|parent_posVVD|sid=42|stype=decl|len=22|head_func=acl:relcl|subord=LEFT	110	elaboration-attribute_r	_	_
-112	BURGER , C.J. , post , p. 207 , DOUGLAS , J. , post , p. 209 , and STEWART , J. , post , p. 167 , filed concurring opinions .	1	_	_	pos1=NP|head_tok=file|head_pos=VVD|head_id=926|parent_pos=_|sid=43|stype=decl|len=32|head_func=root	110	joint-list_m	_	_
-113	WHITE , J. , filed a dissenting opinion ,	1	_	_	pos1=NP|head_tok=file|head_pos=VVD|head_id=934|parent_pos=_|sid=44|stype=decl|len=9|head_func=root	110	joint-list_m	_	_
-114	in which REHNQUIST , J. , joined , post , p. 221 .	0	_	_	pos1=IN|head_tok=join|head_pos=VVD|head_id=945|parent_posNN|sid=44|stype=decl|len=13|head_func=acl:relcl|subord=LEFT	113	elaboration-attribute_r	_	_
-115	REHNQUIST , J. , filed a dissenting opinion , post , p. 171 .	1	_	_	pos1=NP|head_tok=file|head_pos=VVD|head_id=956|parent_pos=_|sid=45|stype=decl|len=14|head_func=root	110	joint-list_m	_	_
-116	[ p 116 ]	2	_	_	pos1=(|head_tok=p|head_pos=NN|head_id=967|parent_posNN|sid=45|stype=decl|len=4|head_func=parataxis|subord=LEFT	110	explanation-evidence_r	_	_
+1	Roe v. Wade	3	_	_	pos1=NP|head_tok=Roe|head_pos=NP|head_id=1|parent_pos=_|sid=1|stype=frag|len=3|head_func=root|edu_tense=None|heading=heading	3	organization-heading_r	_	_
+2	Supreme Court of the United States	2	_	_	pos1=NP|head_tok=Court|head_pos=NP|head_id=5|parent_pos=_|sid=2|stype=frag|len=6|head_func=root|edu_tense=None|heading=heading	3	organization-heading_r	_	_
+3	410 U.S. 113	7	_	_	pos1=CD|head_tok=113|head_pos=CD|head_id=12|parent_pos=_|sid=3|stype=frag|len=3|head_func=root|edu_tense=None|para=para	29	organization-heading_r	_	_
+4	Roe v. Wade	0	_	_	pos1=NP|head_tok=Roe|head_pos=NP|head_id=13|parent_pos=_|sid=4|stype=frag|len=3|head_func=root|edu_tense=None|para=para	3	joint-list_m	_	_
+5	Appeal from the United States District Court for the Northern District of Texas	1	_	_	pos1=NN|head_tok=appeal|head_pos=NN|head_id=16|parent_pos=_|sid=5|stype=frag|len=13|head_func=root|edu_tense=None|para=para	3	elaboration-additional_r	_	_
+6	No. 70 - 18	0	_	_	pos1=NN|head_tok=No.|head_pos=NN|head_id=29|parent_pos=_|sid=6|stype=other|len=4|head_func=root|edu_tense=None|para=para	5	joint-list_m	_	_
+7	Argued :	1	_	_	pos1=VVN|head_tok=argue|head_pos=VVN|head_id=33|parent_pos=_|sid=7|stype=other|len=2|head_func=root|edu_tense=None	5	elaboration-additional_r	_	_
+8	December 13 , 1971 ---	0	_	_	pos1=NP|head_tok=13|head_pos=CD|head_id=36|parent_posVVN|sid=7|stype=other|len=5|head_func=dep|edu_tense=None|subord=LEFT|date	7	elaboration-additional_r	_	_
+9	Decided :	1	_	_	pos1=VVN|head_tok=decide|head_pos=VVN|head_id=40|parent_pos=_|sid=8|stype=frag|len=2|head_func=root|edu_tense=None	7	joint-list_m	_	_
+10	January 22 , 1973	0	_	_	pos1=NP|head_tok=22|head_pos=CD|head_id=43|parent_posVVN|sid=8|stype=frag|len=4|head_func=dep|edu_tense=None|subord=LEFT|date	9	elaboration-additional_r	_	_
+11	A pregnant single woman	3	_	_	pos1=DT|head_tok=woman|head_pos=NN|head_id=49|parent_posVVD|sid=9|stype=decl|len=4|head_func=nsubj|edu_tense=None|subord=RIGHT|para=para	29	context-background_r	_	_
+12	( Roe )	0	_	_	pos1=(|head_tok=Roe|head_pos=NP|head_id=51|parent_posNN|sid=9|stype=decl|len=3|head_func=appos|edu_tense=None|subord=LEFT	11	elaboration-additional_r	_	_
+13	brought a class action	1	_	_	pos1=VVD|head_tok=bring|head_pos=VVD|head_id=53|parent_pos=_|sid=9|stype=decl|len=4|head_func=root|edu_tense=PastSimp	11	same-unit_m	_	_
+14	challenging the constitutionality of the Texas criminal abortion laws ,	0	_	_	pos1=VVG|head_tok=challenge|head_pos=VVG|head_id=57|parent_posNN|sid=9|stype=decl|len=10|head_func=acl|edu_tense=None|subord=LEFT	13	elaboration-attribute_r	_	_
+15	which proscribe procuring or attempting an abortion except on medical advice for the purpose	0	_	_	pos1=WDT|head_tok=proscribe|head_pos=VVP|head_id=68|parent_posNNS|sid=9|stype=decl|len=14|head_func=acl:relcl|edu_tense=Pres|subord=LEFT	14	elaboration-attribute_r	_	_
+16	of saving the mother 's life .	0	_	_	pos1=IN|head_tok=save|head_pos=VVG|head_id=82|parent_posNN|sid=9|stype=decl|len=7|head_func=acl|edu_tense=None|subord=LEFT	15	elaboration-attribute_r	_	_
+17	A licensed physician	2	_	_	pos1=DT|head_tok=physician|head_pos=NN|head_id=90|parent_posVVN|sid=10|stype=decl|len=3|head_func=nsubj:pass|edu_tense=None|subord=RIGHT	11	joint-other_m	_	_
+18	( Hallford ) ,	0	_	_	pos1=(|head_tok=Hallford|head_pos=NP|head_id=92|parent_posNN|sid=10|stype=decl|len=4|head_func=appos|edu_tense=None|subord=LEFT	17	elaboration-additional_r	_	_
+19	who had two state abortion prosecutions pending against him ,	1	_	_	pos1=WP|head_tok=have|head_pos=VHD|head_id=96|parent_posNN|sid=10|stype=decl|len=10|head_func=acl:relcl|edu_tense=PastSimp|subord=RIGHT	17	elaboration-attribute_r	_	_
+20	was permitted to intervene .	2	_	_	pos1=VBD|head_tok=permit|head_pos=VVN|head_id=106|parent_pos=_|sid=10|stype=decl|len=5|head_func=root|edu_tense=None	17	same-unit_m	_	_
+21	A childless married couple	2	_	_	pos1=DT|head_tok=couple|head_pos=NN|head_id=113|parent_posVVD|sid=11|stype=decl|len=4|head_func=nsubj|edu_tense=None|subord=RIGHT	11	joint-other_m	_	_
+22	( the Does ) ,	0	_	_	pos1=(|head_tok=Doe|head_pos=NPS|head_id=116|parent_posNN|sid=11|stype=decl|len=5|head_func=appos|edu_tense=None|subord=LEFT	21	elaboration-additional_r	_	_
+23	the wife not being pregnant ,	1	_	_	pos1=DT|head_tok=pregnant|head_pos=JJ|head_id=123|parent_posVVD|sid=11|stype=decl|len=6|head_func=advcl|edu_tense=None|subord=RIGHT	21	context-circumstance_r	_	_
+24	separately attacked the laws ,	2	_	_	pos1=RB|head_tok=attack|head_pos=VVD|head_id=126|parent_pos=_|sid=11|stype=decl|len=5|head_func=root|edu_tense=PastSimp	21	same-unit_m	_	_
+25	basing alleged injury on the future possibilities of contraceptive failure , pregnancy , unpreparedness for parenthood , and impairment of the wife 's health .	3	_	_	pos1=VVG|head_tok=base|head_pos=VVG|head_id=130|parent_posVVD|sid=11|stype=decl|len=25|head_func=advcl|edu_tense=None|subord=LEFT	21	elaboration-additional_r	_	_
+26	A three - judge District Court ,	2	_	_	pos1=DT|head_tok=Court|head_pos=NP|head_id=160|parent_posVVD|sid=12|stype=decl|len=7|head_func=nsubj|edu_tense=None|subord=RIGHT	29	attribution-positive_r	_	_
+27	which consolidated the actions ,	0	_	_	pos1=WDT|head_tok=consolidate|head_pos=VVD|head_id=163|parent_posNP|sid=12|stype=decl|len=5|head_func=acl:relcl|edu_tense=PastSimp|subord=RIGHT	26	elaboration-attribute_r	_	_
+28	held	1	_	_	pos1=VVD|head_tok=hold|head_pos=VVD|head_id=167|parent_pos=_|sid=12|stype=decl|len=1|head_func=root|edu_tense=PastSimp	26	same-unit_m	_	_
+29	that Roe and Hallford , and members of their classes , had standing	0	_	_	pos1=IN/that|head_tok=have|head_pos=VHD|head_id=179|parent_posVVD|sid=12|stype=decl|len=13|head_func=ccomp|edu_tense=PastSimp|subord=LEFT	0	ROOT	_	_
+30	to sue	0	_	_	pos1=TO|head_tok=sue|head_pos=VV|head_id=182|parent_posNN|sid=12|stype=decl|len=2|head_func=acl|edu_tense=None|subord=LEFT	29	purpose-attribute_r	_	_
+31	and presented justiciable controversies .	1	_	_	pos1=CC|head_tok=present|head_pos=VVD|head_id=184|parent_posVHD|sid=12|stype=decl|len=5|head_func=conj|edu_tense=PastSimp|subord=LEFT	29	joint-list_m	_	_
+32	Ruling that declaratory ,	0	_	_	pos1=VVG|head_tok=declaratory|head_pos=JJ|head_id=190|parent_posNN|sid=13|stype=decl|len=4|head_func=amod|edu_tense=None|subord=RIGHT	34	causal-cause_r	_	_
+33	though not injunctive ,	0	_	_	pos1=CC|head_tok=injunctive|head_pos=JJ|head_id=194|parent_posJJ|sid=13|stype=decl|len=4|head_func=conj|edu_tense=None|subord=RIGHT	32	adversative-concession_r	_	_
+34	relief was warranted ,	0	_	_	pos1=NN|head_tok=warrant|head_pos=VVN|head_id=198|parent_posVVG|sid=13|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=RIGHT	35	context-background_r	_	_
+35	the court declared the abortion statutes void as vague and overbroadly infringing those plaintiffs ' Ninth and Fourteenth Amendment rights .	4	_	_	pos1=DT|head_tok=declare|head_pos=VVD|head_id=202|parent_pos=_|sid=13|stype=decl|len=21|head_func=root|edu_tense=PastSimp	29	causal-result_r	_	_
+36	The court ruled the Does ' complaint not justiciable .	1	_	_	pos1=DT|head_tok=rule|head_pos=VVD|head_id=223|parent_pos=_|sid=14|stype=decl|len=10|head_func=root|edu_tense=PastSimp	35	joint-other_m	_	_
+37	Appellants directly appealed to this Court on the injunctive rulings ,	2	_	_	pos1=NNS|head_tok=appeal|head_pos=VVD|head_id=233|parent_pos=_|sid=15|stype=decl|len=11|head_func=root|edu_tense=PastSimp|subord=RIGHT	35	causal-result_r	_	_
+38	and appellee cross - appealed from the District Court 's grant of declaratory relief to Roe and Hallford .	0	_	_	pos1=CC|head_tok=appeal|head_pos=VVD|head_id=246|parent_posVVD|sid=15|stype=decl|len=19|head_func=conj|edu_tense=PastSimp|subord=LEFT	37	joint-other_m	_	_
+39	Held :	5	_	_	pos1=VVN|head_tok=hold|head_pos=VVN|head_id=261|parent_pos=_|sid=16|stype=other|len=2|head_func=root|edu_tense=None|para=para	41	organization-preparation_r	_	_
+40	1. While 28 U.S.C. 1253 authorizes no direct appeal to this Court from the grant or denial of declaratory relief alone ,	1	_	_	pos1=LS|head_tok=authorize|head_pos=VVZ|head_id=268|parent_posVVN|sid=17|stype=decl|len=22|head_func=advcl|edu_tense=Pres|subord=RIGHT|para=para|date	41	adversative-concession_r	_	_
+41	review is not foreclosed	5	_	_	pos1=NN|head_tok=foreclose|head_pos=VVN|head_id=288|parent_pos=_|sid=17|stype=decl|len=4|head_func=root|edu_tense=None	29	explanation-evidence_r	_	_
+42	when the case is properly before the Court on appeal from specific denial of injunctive relief	0	_	_	pos1=WRB|head_tok=Court|head_pos=NP|head_id=296|parent_posVVN|sid=17|stype=decl|len=16|head_func=advcl|edu_tense=Pres|subord=LEFT	41	context-circumstance_r	_	_
+43	and the arguments as to both injunctive and declaratory relief are necessarily identical .	2	_	_	pos1=CC|head_tok=identical|head_pos=JJ|head_id=317|parent_posVVN|sid=17|stype=decl|len=14|head_func=conj|edu_tense=Pres|subord=LEFT	41	joint-other_m	_	_
+44	P. 123 .	3	_	_	pos1=NN|head_tok=p.|head_pos=NN|head_id=319|parent_pos=_|sid=18|stype=frag|len=3|head_func=root|edu_tense=None	41	explanation-evidence_r	_	_
+45	2. Roe has standing to sue ;	4	_	_	pos1=LS|head_tok=have|head_pos=VHZ|head_id=324|parent_pos=_|sid=19|stype=decl|len=7|head_func=root|edu_tense=Pres|para=para	41	joint-list_m	_	_
+46	the Does and Hallford do not .	0	_	_	pos1=DT|head_tok=do|head_pos=VVP|head_id=333|parent_posVHZ|sid=19|stype=decl|len=7|head_func=parataxis|edu_tense=Pres|subord=LEFT	45	adversative-contrast_m	_	_
+47	Pp. 123 - 129 .	1	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=336|parent_pos=_|sid=20|stype=frag|len=5|head_func=root|edu_tense=None	45	explanation-evidence_r	_	_
+48	(a) Contrary to appellee 's contention , the natural termination of Roe 's pregnancy did not moot her suit .	2	_	_	pos1=LS|head_tok=moot|head_pos=VV|head_id=357|parent_pos=_|sid=21|stype=decl|len=20|head_func=root|edu_tense=None|para=para	45	elaboration-additional_r	_	_
+49	Litigation involving pregnancy ,	0	_	_	pos1=NN|head_tok=litigation|head_pos=NN|head_id=361|parent_posNN|sid=22|stype=decl|len=4|head_func=nsubj|edu_tense=None|subord=RIGHT	48	explanation-evidence_r	_	_
+50	which is " capable of repetition ,	0	_	_	pos1=WDT|head_tok=capable|head_pos=JJ|head_id=368|parent_posNN|sid=22|stype=decl|len=7|head_func=acl:relcl|edu_tense=Pres|subord=RIGHT	49	elaboration-additional_r	_	_
+51	yet evading review , "	0	_	_	pos1=CC|head_tok=evade|head_pos=VVG|head_id=373|parent_posJJ|sid=22|stype=decl|len=5|head_func=conj|edu_tense=None|subord=RIGHT	50	adversative-contrast_m	_	_
+52	is an exception to the usual federal rule	1	_	_	pos1=VBZ|head_tok=exception|head_pos=NN|head_id=379|parent_pos=_|sid=22|stype=decl|len=8|head_func=root|edu_tense=Pres	49	same-unit_m	_	_
+53	that an actual controversy	0	_	_	pos1=IN/that|head_tok=controversy|head_pos=NN|head_id=388|parent_posVV|sid=22|stype=decl|len=4|head_func=nsubj|edu_tense=None|subord=RIGHT	52	elaboration-additional_r	_	_
+54	[ p 114 ]	0	_	_	pos1=(|head_tok=p|head_pos=NN|head_id=390|parent_posNN|sid=22|stype=decl|len=4|head_func=parataxis|edu_tense=None|subord=LEFT	53	explanation-evidence_r	_	_
+55	must exist at review stages ,	1	_	_	pos1=MD|head_tok=exist|head_pos=VV|head_id=394|parent_posNN|sid=22|stype=decl|len=6|head_func=acl|edu_tense=Modal|subord=RIGHT	53	same-unit_m	_	_
+56	and not simply when the action is initiated .	0	_	_	pos1=CC|head_tok=initiate|head_pos=VVN|head_id=406|parent_posVV|sid=22|stype=decl|len=9|head_func=advcl:relcl|edu_tense=None|subord=LEFT	55	joint-other_m	_	_
+57	Pp. 124 - 125 .	1	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=408|parent_pos=_|sid=23|stype=frag|len=5|head_func=root|edu_tense=None	55	explanation-evidence_r	_	_
+58	(b) The District Court correctly refused injunctive ,	1	_	_	pos1=LS|head_tok=refuse|head_pos=VVD|head_id=418|parent_pos=_|sid=24|stype=decl|len=8|head_func=root|edu_tense=PastSimp|subord=RIGHT|para=para	48	joint-list_m	_	_
+59	but erred	0	_	_	pos1=CC|head_tok=err|head_pos=VVD|head_id=422|parent_posVVD|sid=24|stype=decl|len=2|head_func=conj|edu_tense=PastSimp|subord=LEFT	58	adversative-contrast_m	_	_
+60	in granting declaratory , relief to Hallford ,	0	_	_	pos1=IN|head_tok=relief|head_pos=NN|head_id=427|parent_posVVD|sid=24|stype=decl|len=8|head_func=obj|edu_tense=None|subord=LEFT	59	elaboration-additional_r	_	_
+61	who alleged no federally protected right not assertable as a defense against the good faith state prosecutions	0	_	_	pos1=WP|head_tok=allege|head_pos=VVD|head_id=432|parent_posNP|sid=24|stype=decl|len=17|head_func=acl:relcl|edu_tense=PastSimp|subord=LEFT	60	elaboration-attribute_r	_	_
+62	pending against him .	0	_	_	pos1=VVG|head_tok=pend|head_pos=VVG|head_id=448|parent_posNNS|sid=24|stype=decl|len=4|head_func=acl|edu_tense=None|subord=LEFT	61	elaboration-additional_r	_	_
+63	Samuels v. Mackell , 401 U.S. 66 .	1	_	_	pos1=NP|head_tok=Samuels|head_pos=NP|head_id=452|parent_pos=_|sid=25|stype=frag|len=8|head_func=root|edu_tense=None	58	explanation-evidence_r	_	_
+64	Pp. 125 - 127 .	0	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=460|parent_pos=_|sid=26|stype=frag|len=5|head_func=root|edu_tense=None	63	elaboration-additional_r	_	_
+65	(c) The Does ' complaint ,	1	_	_	pos1=LS|head_tok=complaint|head_pos=NN|head_id=469|parent_posJJ|sid=27|stype=decl|len=6|head_func=nsubj|edu_tense=None|subord=RIGHT|para=para	48	joint-list_m	_	_
+66	based as it is on contingencies ,	0	_	_	pos1=VVN|head_tok=base|head_pos=VVN|head_id=471|parent_posNN|sid=27|stype=decl|len=7|head_func=acl|edu_tense=None|subord=LEFT	65	elaboration-additional_r	_	_
+67	any one or more of which may not occur ,	0	_	_	pos1=DT|head_tok=occur|head_pos=VV|head_id=486|parent_posNNS|sid=27|stype=decl|len=10|head_func=acl:relcl|edu_tense=Modal|subord=RIGHT	66	elaboration-additional_r	_	_
+68	is too speculative	1	_	_	pos1=VBZ|head_tok=speculative|head_pos=JJ|head_id=490|parent_pos=_|sid=27|stype=decl|len=3|head_func=root|edu_tense=Pres	65	same-unit_m	_	_
+69	to present an actual case or controversy .	0	_	_	pos1=TO|head_tok=present|head_pos=VV|head_id=492|parent_posJJ|sid=27|stype=decl|len=8|head_func=advcl|edu_tense=None|subord=LEFT	68	purpose-goal_r	_	_
+70	Pp. 127 - 129 .	2	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=499|parent_pos=_|sid=28|stype=frag|len=5|head_func=root|edu_tense=None	65	explanation-evidence_r	_	_
+71	3. State criminal abortion laws , like those involved here ,	4	_	_	pos1=LS|head_tok=law|head_pos=NNS|head_id=508|parent_posVVP|sid=29|stype=decl|len=11|head_func=nsubj|edu_tense=None|subord=RIGHT|para=para	41	joint-list_m	_	_
+72	that except from criminality only a life - saving procedure on the mother 's behalf without regard to the stage of her pregnancy and other interests involved	0	_	_	pos1=IN/that|head_tok=except|head_pos=IN|head_id=516|parent_posNNS|sid=29|stype=decl|len=27|head_func=acl:relcl|edu_tense=None|subord=LEFT	71	elaboration-additional_r	_	_
+73	violate the Due Process Clause of the Fourteenth Amendment ,	1	_	_	pos1=VVP|head_tok=violate|head_pos=VVP|head_id=542|parent_pos=_|sid=29|stype=decl|len=10|head_func=root|edu_tense=Pres	71	same-unit_m	_	_
+74	which protects against state action the right to privacy ,	0	_	_	pos1=WDT|head_tok=protect|head_pos=VVZ|head_id=553|parent_posNP|sid=29|stype=decl|len=10|head_func=acl:relcl|edu_tense=Pres|subord=LEFT	73	elaboration-attribute_r	_	_
+75	including a woman 's qualified right	0	_	_	pos1=VVG|head_tok=right|head_pos=NN|head_id=567|parent_posNN|sid=29|stype=decl|len=6|head_func=nmod|edu_tense=None|subord=LEFT	74	elaboration-additional_r	_	_
+76	to terminate her pregnancy .	0	_	_	pos1=TO|head_tok=terminate|head_pos=VV|head_id=569|parent_posNN|sid=29|stype=decl|len=5|head_func=acl|edu_tense=None|subord=LEFT	75	purpose-attribute_r	_	_
+77	Though the State can not override that right ,	1	_	_	pos1=IN|head_tok=override|head_pos=VV|head_id=578|parent_posVHZ|sid=30|stype=decl|len=9|head_func=advcl|edu_tense=Modal|subord=RIGHT	78	adversative-concession_r	_	_
+78	it has legitimate interests	2	_	_	pos1=PP|head_tok=have|head_pos=VHZ|head_id=583|parent_pos=_|sid=30|stype=decl|len=4|head_func=root|edu_tense=Pres	71	elaboration-additional_r	_	_
+79	in protecting both the pregnant woman 's health and the potentiality of human life ,	0	_	_	pos1=IN|head_tok=protect|head_pos=VVG|head_id=587|parent_posNNS|sid=30|stype=decl|len=15|head_func=acl|edu_tense=None|subord=LEFT	78	elaboration-attribute_r	_	_
+80	each of which interests grows	0	_	_	pos1=DT|head_tok=interest|head_pos=NNS|head_id=604|parent_posVHZ|sid=30|stype=decl|len=5|head_func=advcl:relcl|edu_tense=None|subord=LEFT	79	elaboration-attribute_r	_	_
+81	and reaches a " compelling " point at various stages of the woman 's approach to term .	0	_	_	pos1=CC|head_tok=reach|head_pos=VVZ|head_id=607|parent_posNNS|sid=30|stype=decl|len=18|head_func=conj|edu_tense=Pres|subord=LEFT	80	joint-list_m	_	_
+82	Pp. 147 - 164 .	2	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=624|parent_pos=_|sid=31|stype=frag|len=5|head_func=root|edu_tense=None	78	explanation-evidence_r	_	_
+83	(a) For the stage prior to approximately the end of the first trimester , the abortion decision and its effectuation must be left to the medical judgment of the pregnant woman 's attending physician .	3	_	_	pos1=LS|head_tok=leave|head_pos=VVN|head_id=651|parent_pos=_|sid=32|stype=decl|len=35|head_func=root|edu_tense=None|para=para	71	elaboration-additional_r	_	_
+84	Pp. 163 , 164 .	0	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=664|parent_pos=_|sid=33|stype=frag|len=5|head_func=root|edu_tense=None	83	explanation-evidence_r	_	_
+85	(b) For the stage subsequent to approximately the end of the first trimester , the State ,	1	_	_	pos1=LS|head_tok=State|head_pos=NP|head_id=684|parent_posVV|sid=34|stype=decl|len=17|head_func=nsubj|edu_tense=None|subord=RIGHT|para=para	83	joint-list_m	_	_
+86	in promoting its interest in the health of the mother ,	0	_	_	pos1=IN|head_tok=promote|head_pos=VVG|head_id=687|parent_posVV|sid=34|stype=decl|len=11|head_func=advcl|edu_tense=None|subord=RIGHT	85	purpose-goal_r	_	_
+87	may ,	1	_	_	pos1=MD|head_tok=may|head_pos=MD|head_id=697|parent_posVV|sid=34|stype=decl|len=2|head_func=aux|edu_tense=None|subord=RIGHT	85	same-unit_m	_	_
+88	if it chooses ,	2	_	_	pos1=IN|head_tok=choose|head_pos=VVZ|head_id=701|parent_posVV|sid=34|stype=decl|len=4|head_func=advcl|edu_tense=Pres|subord=RIGHT	85	contingency-condition_r	_	_
+89	regulate the abortion procedure in ways	3	_	_	pos1=VV|head_tok=regulate|head_pos=VV|head_id=703|parent_pos=_|sid=34|stype=decl|len=6|head_func=root|edu_tense=Modal	85	same-unit_m	_	_
+90	that are reasonably related to maternal health .	0	_	_	pos1=WDT|head_tok=relate|head_pos=VVN|head_id=712|parent_posNNS|sid=34|stype=decl|len=8|head_func=acl:relcl|edu_tense=None|subord=LEFT	89	elaboration-attribute_r	_	_
+91	Pp. 163 , 164 .	4	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=717|parent_pos=_|sid=35|stype=frag|len=5|head_func=root|edu_tense=None	85	explanation-evidence_r	_	_
+92	(c) For the stage subsequent to viability the State ,	1	_	_	pos1=LS|head_tok=State|head_pos=NP|head_id=730|parent_posVV|sid=36|stype=decl|len=10|head_func=nsubj|edu_tense=None|subord=RIGHT|para=para	83	joint-list_m	_	_
+93	in promoting its interest in the potentiality of human life ,	0	_	_	pos1=IN|head_tok=promote|head_pos=VVG|head_id=733|parent_posVV|sid=36|stype=decl|len=11|head_func=advcl|edu_tense=None|subord=RIGHT	92	purpose-goal_r	_	_
+94	may ,	1	_	_	pos1=MD|head_tok=may|head_pos=MD|head_id=743|parent_posVV|sid=36|stype=decl|len=2|head_func=aux|edu_tense=None|subord=RIGHT	92	same-unit_m	_	_
+95	if it chooses ,	2	_	_	pos1=IN|head_tok=choose|head_pos=VVZ|head_id=747|parent_posVV|sid=36|stype=decl|len=4|head_func=advcl|edu_tense=Pres|subord=RIGHT	92	contingency-condition_r	_	_
+96	regulate ,	3	_	_	pos1=VV|head_tok=regulate|head_pos=VV|head_id=749|parent_pos=_|sid=36|stype=decl|len=2|head_func=root|edu_tense=Modal|subord=RIGHT	92	same-unit_m	_	_
+97	and even proscribe , abortion except where necessary , in appropriate medical judgment , for the preservation of the life or health of the mother .	0	_	_	pos1=CC|head_tok=necessary|head_pos=JJ|head_id=758|parent_posVV|sid=36|stype=decl|len=26|head_func=advcl|edu_tense=None|subord=LEFT	96	joint-list_m	_	_
+98	Pp. 163 - 164 ; 164 - 165 .	4	_	_	pos1=NNS|head_tok=p.|head_pos=NNS|head_id=777|parent_pos=_|sid=37|stype=frag|len=9|head_func=root|edu_tense=None	92	explanation-evidence_r	_	_
+99	4. The State may define the term " physician " to mean only a physician	4	_	_	pos1=LS|head_tok=define|head_pos=VV|head_id=790|parent_pos=_|sid=38|stype=decl|len=15|head_func=root|edu_tense=Modal|para=para	41	joint-list_m	_	_
+100	currently licensed by the State ,	0	_	_	pos1=RB|head_tok=license|head_pos=VVN|head_id=802|parent_posNN|sid=38|stype=decl|len=6|head_func=acl|edu_tense=None|subord=RIGHT	99	elaboration-attribute_r	_	_
+101	and may proscribe any abortion by a person	1	_	_	pos1=CC|head_tok=proscribe|head_pos=VV|head_id=809|parent_posVV|sid=38|stype=decl|len=8|head_func=conj|edu_tense=Modal|subord=LEFT	99	joint-other_m	_	_
+102	who is not a physician	0	_	_	pos1=WP|head_tok=physician|head_pos=NN|head_id=819|parent_posNN|sid=38|stype=decl|len=5|head_func=acl:relcl|edu_tense=Pres|subord=LEFT	101	elaboration-attribute_r	_	_
+103	as so defined .	0	_	_	pos1=IN|head_tok=define|head_pos=JJ|head_id=822|parent_posNN|sid=38|stype=decl|len=4|head_func=advcl|edu_tense=None|subord=LEFT	102	elaboration-additional_r	_	_
+104	P. 165 .	2	_	_	pos1=NN|head_tok=p.|head_pos=NN|head_id=824|parent_pos=_|sid=39|stype=frag|len=3|head_func=root|edu_tense=None	99	explanation-evidence_r	_	_
+105	5. It is unnecessary to decide the injunctive relief issue ,	4	_	_	pos1=LS|head_tok=unnecessary|head_pos=JJ|head_id=830|parent_pos=_|sid=40|stype=decl|len=11|head_func=root|edu_tense=Pres|para=para	41	joint-list_m	_	_
+106	since the Texas authorities will doubtless fully recognize the Court 's ruling	0	_	_	pos1=IN|head_tok=recognize|head_pos=VV|head_id=845|parent_posJJ|sid=40|stype=decl|len=12|head_func=advcl|edu_tense=Fut|subord=LEFT	105	explanation-justify_r	_	_
+107	[ p115 ]	0	_	_	pos1=(|head_tok=p115|head_pos=NP|head_id=851|parent_posNN|sid=40|stype=decl|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	106	explanation-evidence_r	_	_
+108	that the Texas criminal abortion statutes are unconstitutional .	1	_	_	pos1=IN/that|head_tok=unconstitutional|head_pos=JJ|head_id=860|parent_posNN|sid=40|stype=decl|len=9|head_func=acl|edu_tense=Pres|subord=LEFT	106	elaboration-attribute_r	_	_
+109	P. 166 .	1	_	_	pos1=NN|head_tok=p.|head_pos=NN|head_id=862|parent_pos=_|sid=41|stype=frag|len=3|head_func=root|edu_tense=None	105	explanation-evidence_r	_	_
+110	BLACKMUN , J. , delivered the opinion of the Court ,	6	_	_	pos1=NP|head_tok=deliver|head_pos=VVD|head_id=869|parent_pos=_|sid=42|stype=decl|len=11|head_func=root|edu_tense=PastSimp|para=para	29	joint-other_m	_	_
+111	in which BURGER , C.J. , and DOUGLAS , BRENNAN , STEWART , MARSHALL , and POWELL , JJ. , joined .	0	_	_	pos1=IN|head_tok=join|head_pos=VVD|head_id=896|parent_posVVD|sid=42|stype=decl|len=22|head_func=acl:relcl|edu_tense=PastSimp|subord=LEFT	110	elaboration-attribute_r	_	_
+112	BURGER , C.J. , post , p. 207 , DOUGLAS , J. , post , p. 209 , and STEWART , J. , post , p. 167 , filed concurring opinions .	1	_	_	pos1=NP|head_tok=file|head_pos=VVD|head_id=926|parent_pos=_|sid=43|stype=decl|len=32|head_func=root|edu_tense=PastSimp	110	joint-list_m	_	_
+113	WHITE , J. , filed a dissenting opinion ,	1	_	_	pos1=NP|head_tok=file|head_pos=VVD|head_id=934|parent_pos=_|sid=44|stype=decl|len=9|head_func=root|edu_tense=PastSimp	110	joint-list_m	_	_
+114	in which REHNQUIST , J. , joined , post , p. 221 .	0	_	_	pos1=IN|head_tok=join|head_pos=VVD|head_id=945|parent_posNN|sid=44|stype=decl|len=13|head_func=acl:relcl|edu_tense=PastSimp|subord=LEFT	113	elaboration-attribute_r	_	_
+115	REHNQUIST , J. , filed a dissenting opinion , post , p. 171 .	1	_	_	pos1=NP|head_tok=file|head_pos=VVD|head_id=956|parent_pos=_|sid=45|stype=decl|len=14|head_func=root|edu_tense=PastSimp	110	joint-list_m	_	_
+116	[ p 116 ]	2	_	_	pos1=(|head_tok=p|head_pos=NN|head_id=967|parent_posNN|sid=45|stype=decl|len=4|head_func=parataxis|edu_tense=None|subord=LEFT	110	explanation-evidence_r	_	_

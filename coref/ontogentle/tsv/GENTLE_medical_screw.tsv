@@ -241,7 +241,7 @@
 17-1	1176-1178	On	_	_	_	_		_	_
 17-2	1179-1190	examination	_	_	_	_	cf3[86]	_	_
 17-3	1191-1193	of	_	_	_	_	cf3[86]	_	_
-17-4	1194-1197	his	object[87]|person[88]	new[87]|giv:act[88]	nonsal[87]|nonsal[88]	_	cf3[86]|cf4[87]|cf1*[88]	ana|coref	17-8[89_88]|21-6[124_87]
+17-4	1194-1197	his	object[87]|person[88]	new[87]|giv:act[88]	nonsal[87]|nonsal[88]	_	cf3[86]|cf4[87]|cf1*[88]	coref|ana	21-6[124_87]|17-8[89_88]
 17-5	1198-1203	right	object[87]	new[87]	nonsal[87]	_	cf3[86]|cf4[87]	_	_
 17-6	1204-1208	foot	object[87]	new[87]	nonsal[87]	_	cf3[86]|cf4[87]	_	_
 17-7	1209-1210	,	_	_	_	_		_	_
@@ -458,7 +458,7 @@
 29-18	2243-2247	knee	object[164]	giv:inact[164]	nonsal[164]	_	cf4[163]|cf2[164]	_	_
 29-19	2248-2251	and	_	_	_	_		_	_
 29-20	2252-2260	increase	_	_	_	_		_	_
-29-21	2261-2264	his	object[166]|person[167]	giv:act[166]|giv:act[167]	nonsal[166]|nonsal[167]	_	cf5[165]|cf2[166]|cf1*[167]	ana|coref	30-5[169_167]|36-19[229_166]
+29-21	2261-2264	his	object[166]|person[167]	giv:act[166]|giv:act[167]	nonsal[166]|nonsal[167]	_	cf5[165]|cf2[166]|cf1*[167]	coref|ana	36-19[229_166]|30-5[169_167]
 29-22	2265-2269	knee	object[166]	giv:act[166]	nonsal[166]	_	cf5[165]|cf2[166]	_	_
 29-23	2270-2277	flexion	_	_	_	_	cf5[165]	_	_
 29-24	2278-2279	.	_	_	_	_		_	_

@@ -463,7 +463,7 @@
     (NP
       (NP (DT An) (NN arrangement))
       (SBAR
-        (WHADVP (JJ whereby))
+        (WHADVP (WRB whereby))
         (S
           (NP-SBJ (NN property) (CC or) (NN money))
           (VP

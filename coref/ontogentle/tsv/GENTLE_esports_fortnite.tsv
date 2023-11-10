@@ -31,7 +31,7 @@
 2-2	107-110	100	person[10]	new[10]	nonsal[10]	_	cf1[10]	_	_
 2-3	111-118	players	person[10]	new[10]	nonsal[10]	_	cf1[10]	_	_
 2-4	119-121	on	person[10]	new[10]	nonsal[10]	_	cf1[10]	_	_
-2-5	122-126	your	person[10]|object[11]|person[12]	new[10]|new[11]|acc:com[12]	nonsal[10]|nonsal[11]|nonsal[12]	_	cf1[10]|cf5[11]|cf2[12]	coref|ana	4-5[31_11]|4-10[33_12]
+2-5	122-126	your	person[10]|object[11]|person[12]	new[10]|new[11]|acc:com[12]	nonsal[10]|nonsal[11]|nonsal[12]	_	cf1[10]|cf5[11]|cf2[12]	ana|coref	4-10[33_12]|4-5[31_11]
 2-6	127-133	screen	person[10]|object[11]	new[10]|new[11]	nonsal[10]|nonsal[11]	_	cf1[10]|cf5[11]	_	_
 2-7	134-139	there	_	_	_	_		_	_
 2-8	140-141	,	_	_	_	_		_	_

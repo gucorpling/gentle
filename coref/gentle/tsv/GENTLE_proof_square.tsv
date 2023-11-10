@@ -229,7 +229,7 @@
 15-18	850-854	only	abstract[116]	giv:act[116]	nonsal[116]	_	cf3[116]	_	_	
 15-19	855-859	such	abstract[116]	giv:act[116]	nonsal[116]	_	cf3[116]	_	_	
 15-20	860-864	that	abstract[116]	giv:act[116]	nonsal[116]	_	cf3[116]	_	_	
-15-21	865-867	AC	abstract[116]|abstract[119]|abstract[120]	giv:act[116]|new[119]|giv:act[120]	nonsal[116]|nonsal[119]|nonsal[120]	_	cf3[116]|cf4[119]|cf1[120]	coref|coref	15-25[124_119]|23-4[180_120]	
+15-21	865-867	AC	abstract[116]|abstract[119]|abstract[120]	giv:act[116]|new[119]|giv:act[120]	nonsal[116]|nonsal[119]|nonsal[120]	_	cf3[116]|cf4[119]|cf1[120]	pred|coref	15-25[124_119]|23-4[180_120]	
 15-22	868-869	⋅	abstract[116]|abstract[119]	giv:act[116]|new[119]	nonsal[116]|nonsal[119]	_	cf3[116]|cf4[119]	_	_	
 15-23	870-872	CB	abstract[116]|abstract[119]|abstract[121]	giv:act[116]|new[119]|giv:act[121]	nonsal[116]|nonsal[119]|nonsal[121]	_	cf3[116]|cf4[119]|cf2[121]	_	_	
 15-24	873-875	is	abstract[116]	giv:act[116]	nonsal[116]	_	cf3[116]	_	_	

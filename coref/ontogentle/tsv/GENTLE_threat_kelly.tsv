@@ -25,7 +25,7 @@
 #Text=It was your house and your police report and you cashed the check .
 3-1	64-66	It	event[6]	giv:act[6]	nonsal[6]	_	cf2[6]	ana	4-1[18_6]
 3-2	67-70	was	_	_	_	_		_	_
-3-3	71-75	your	place[9]|person[10]	new[9]|giv:act[10]	nonsal[9]|nonsal[10]	_	cf2[8]|cf4[9]|cf1*[10]	ana|coref	3-6[13_10]|8-14[39_9]
+3-3	71-75	your	place[9]|person[10]	new[9]|giv:act[10]	nonsal[9]|nonsal[10]	_	cf2[8]|cf4[9]|cf1*[10]	coref|ana	8-14[39_9]|3-6[13_10]
 3-4	76-81	house	place[9]	new[9]	nonsal[9]	_	cf2[8]|cf4[9]	_	_
 3-5	82-85	and	_	_	_	_	cf2[8]	_	_
 3-6	86-90	your	object[12]|person[13]	new[12]|giv:act[13]	nonsal[12]|nonsal[13]	_	cf2[8]|cf5[12]|cf1*[13]	ana|coref	3-10[14_13]|18-1[102_12]
@@ -95,7 +95,7 @@
 8-11	335-337	in	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
 8-12	338-344	stolen	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
 8-13	345-349	from	event[36]	giv:inact[36]	nonsal[36]	_	cf4[36]	_	_
-8-14	350-354	your	event[36]|place[39]|person[40]	giv:inact[36]|giv:inact[39]|giv:act[40]	nonsal[36]|nonsal[39]|nonsal[40]	_	cf4[36]|cf5[39]|cf3[40]	ana|ana	10-2[46_40]|9-1[41_39]
+8-14	350-354	your	event[36]|place[39]|person[40]	giv:inact[36]|giv:inact[39]|giv:act[40]	nonsal[36]|nonsal[39]|nonsal[40]	_	cf4[36]|cf5[39]|cf3[40]	ana|ana	9-1[41_39]|10-2[46_40]
 8-15	355-360	house	event[36]|place[39]	giv:inact[36]|giv:inact[39]	nonsal[36]|nonsal[39]	_	cf4[36]|cf5[39]	_	_
 8-16	361-362	.	_	_	_	_		_	_
 
