@@ -609,7 +609,7 @@
         (NP (PRP you))
         (ADVP (RB just))
         (VP
-          (ADVP (NN kind) (RB of))
+          (ADVP (NN kind) (IN of))
           (VP (VBP go) (PP (IN for) (NP (PRP it))))))
       (, ,)
       (S

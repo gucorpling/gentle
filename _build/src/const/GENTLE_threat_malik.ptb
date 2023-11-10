@@ -109,7 +109,7 @@
                 (VP
                   (TO na)
                   (VP
-                    (NNP act)
+                    (VB act)
                     (ADJP (ADJP (RB racially) (JJ motivated)))
                     (PP (IN with) (NP (NN justice)))
                     (PP
