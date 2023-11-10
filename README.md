@@ -19,24 +19,31 @@ The entire corpus is designed to be a *test set* of challenging genres for NLP s
 
 ## Citing
 
-To cite this corpus in general, please refer to the following article: (TBA)
-<!--
+To cite this corpus, please refer to the following article:
 
-Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
+Aoyama, Tatsuya, Shabnam Behzad, Luke Gessler, Lauren Levine, Jessica Lin, Yang Janet Liu, Siyao Peng, Yilun Zhu and Amir Zeldes (2023) "GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation". In: Proceedings of the Seventeenth Linguistic Annotation Workshop (LAW-XVII 2023), 166–178. Toronto, Canada.
 
 ```
-@Article{Zeldes2017,
-  author    = {Amir Zeldes},
-  title     = {The {GUM} Corpus: Creating Multilayer Resources in the Classroom},
-  journal   = {Language Resources and Evaluation},
-  year      = {2017},
-  volume    = {51},
-  number    = {3},
-  pages     = {581--612},
-  doi       = {http://dx.doi.org/10.1007/s10579-016-9343-x}
+@inproceedings{aoyama-etal-2023-gentle,
+    title = "{GENTLE}: A Genre-Diverse Multilayer Challenge Set for {E}nglish {NLP} and Linguistic Evaluation",
+    author = "Aoyama, Tatsuya  and
+      Behzad, Shabnam  and
+      Gessler, Luke  and
+      Levine, Lauren  and
+      Lin, Jessica  and
+      Liu, Yang Janet  and
+      Peng, Siyao  and
+      Zhu, Yilun  and
+      Zeldes, Amir",
+    booktitle = "Proceedings of the 17th Linguistic Annotation Workshop (LAW-XVII)",
+    year = "2023",
+    address = "Toronto, Canada",
+    url = "https://aclanthology.org/2023.law-1.17",
+    doi = "10.18653/v1/2023.law-1.17",
+    pages = "166--178",
 }
 ```
--->
+
 
 ## Directories
 
@@ -49,12 +56,12 @@ The corpus is downloadable in multiple formats. Not all formats contain all anno
     * conll/ - CoNLL shared task tabular format (with Wikification but no bridging or split antecedent annotations)
     * tsv/ - WebAnno .tsv format, including entity type, salience and information status annotations, Wikification, bridging, split antecedent and singleton entities
     * ontogum/ - alternative version of coreference annotation in CoNLL, tsv and CoNLL-U formats following OntoNotes guidelines (see Zhu et al. 2021)
-  * dep/ - Dependency trees using Universal Dependencies, enriched with metadata, sentence types, speaker information,  enhanced dependencies, entities, information status, salience, centering, coreference, bridging, Wikification, XML markup, morphological tags and Universal POS tags according to the UD standard
+  * dep/ - Dependency trees using Universal Dependencies, enriched with metadata, summaries, sentence types, speaker information,  enhanced dependencies, entities, information status, salience, centering, coreference, bridging, Wikification, XML markup, morphological tags/segmentation, CxG constructions, discourse relations, and Universal POS tags according to the UD standard
   * paula/ - The entire merged corpus in standoff [PAULA XML](https://github.com/korpling/paula-xml), with all annotations
-  * rst/ - Rhetorical Structure Theory analyses
-    * rstweb/ - full .rs3 format data as used by RSTTool and rstWeb (recommended)
+  * rst/ - Enhanced Rhetorical Structure Theory (RST++) analyses
+    * rstweb/ - full .rs4 format data as used by RSTTool and rstWeb (recommended)
     * lisp_nary/ - n-ary lisp trees (.dis format) 
     * lisp_binary/ - binarized lisp trees (.dis format) 
     * dependencies/ - a converted RST dependency representation (.rsd format)
-    * disrpt/ - plain segmentation and relation-per-line data formats following the DISRPT shared task specification
-  * xml/ - vertical XML representations with 1 token or tag per line, metadata, and tab delimited lemmas and POS tags (extended VVZ style, vanilla, UPOS and CLAWS5, as well as dependency functions), compatible with the IMS Corpus Workbench (a.k.a. TreeTagger format).
+    * disrpt/ - plain segmentation, connective detection and relation-per-line data formats following the DISRPT shared task specification
+  * xml/ - vertical XML representations with 1 token or tag per line, metadata, summaries and tab delimited lemmas, morphological segmentation and POS tags (extended VVZ style, vanilla, UPOS and CLAWS5, as well as dependency functions), compatible with the IMS Corpus Workbench (a.k.a. TreeTagger format).
