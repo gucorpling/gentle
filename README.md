@@ -59,7 +59,7 @@ The corpus is downloadable in multiple formats. Not all formats contain all anno
   * dep/ - Dependency trees using Universal Dependencies, enriched with metadata, summaries, sentence types, speaker information,  enhanced dependencies, entities, information status, salience, centering, coreference, bridging, Wikification, XML markup, morphological tags/segmentation, CxG constructions, discourse relations, and Universal POS tags according to the UD standard
   * paula/ - The entire merged corpus in standoff [PAULA XML](https://github.com/korpling/paula-xml), with all annotations
   * rst/ - Enhanced Rhetorical Structure Theory (RST++) analyses
-    * rstweb/ - full .rs4 format data as used by RSTTool and rstWeb (recommended)
+    * rstweb/ - full .rs3 format data as used by RSTTool and rstWeb (recommended)
     * lisp_nary/ - n-ary lisp trees (.dis format) 
     * lisp_binary/ - binarized lisp trees (.dis format) 
     * dependencies/ - a converted RST dependency representation (.rsd format)
