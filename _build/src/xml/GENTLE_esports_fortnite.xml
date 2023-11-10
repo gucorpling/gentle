@@ -631,7 +631,7 @@ simpler	JJR	simple
 you	PP	you
 just	RB	just
 kind	NN	kind
-of	RB	of
+of	IN	of
 go	VVP	go
 for	IN	for
 it	PP	it
@@ -1237,7 +1237,7 @@ that	DT	that
 same	JJ	same
 tactic	NN	tactic
 you	PP	you
-'ve	VBP	be
+'ve	VHP	have
 seen	VVN	see
 .	SENT	.
 </s>
