@@ -739,7 +739,7 @@ the	DT	the
 Raven	NN	Raven
 ,	,	,
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	NP	Nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -820,7 +820,7 @@ such	JJ	such
 name	NN	name
 as	IN	as
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	NP	Nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -923,7 +923,7 @@ the	DT	the
 bird	NN	bird
 said	VVD	say
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	RB	nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -1088,7 +1088,7 @@ Meant	VVN	Mean
 in	IN	in
 croaking	VVG	croak
 "	``	''
-Nevermore	NN	Nevermore
+Nevermore	RB	nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -1274,7 +1274,7 @@ the	DT	the
 Raven	NN	Raven
 ,	,	,
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	RB	nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -1384,7 +1384,7 @@ the	DT	the
 Raven	NN	Raven
 ,	,	,
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	RB	nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -1487,7 +1487,7 @@ the	DT	the
 Raven	NN	Raven
 ,	,	,
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	RB	nevermore
 .	SENT	.
 "	''	''
 </s>
@@ -1596,7 +1596,7 @@ the	DT	the
 Raven	NN	Raven
 ,	,	,
 "	``	''
-Nevermore	RB	Nevermore
+Nevermore	RB	nevermore
 .	SENT	.
 "	''	''
 </s>
