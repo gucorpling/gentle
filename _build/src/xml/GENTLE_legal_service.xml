@@ -969,7 +969,7 @@ Reversal	NN	reversal
 (	(	(
 <q>
 "	``	''
-Reversed	NP	reverse
+Reversed	NP	Reverse
 Payment	NP	Payment
 "	''	''
 </q>
@@ -1019,8 +1019,8 @@ and	CC	and
 liable	JJ	liable
 for	IN	for
 the	DT	the
-Reversed	NP	reverse
-Payment	NN	payment
+Reversed	NP	Reverse
+Payment	NP	Payment
 and	CC	and
 Reversal	NP	Reversal
 Fee	NP	Fee
@@ -1294,7 +1294,7 @@ party	NN	party
 is	VBZ	be
 untrue	JJ	untrue
 or	CC	or
-misleading	JJ	mislead
+misleading	VVG	mislead
 in	IN	in
 any	DT	any
 material	JJ	material

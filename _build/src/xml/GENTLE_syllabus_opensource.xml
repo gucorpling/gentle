@@ -442,9 +442,9 @@ Sage	NP	Sage
 5510	CD	5510
 </hi>
 on	IN	on
-Tuesdays	JJ	Tuesday
+Tuesdays	NPS	Tuesday
 and	CC	and
-Fridays	NNS	friday
+Fridays	NPS	Friday
 from	IN	from
 <time when="22:30">
 10:30	CD	10:30
@@ -779,7 +779,7 @@ of	IN	of
 community	NN	community
 in	IN	in
 generating	VVG	generate
-understanding	NN	understand
+understanding	NN	understanding
 of	IN	of
 Open	NP	Open
 Source	NP	Source
@@ -1633,7 +1633,7 @@ the	DT	the
 Dean	NP	Dean
 of	IN	of
 Academic	NP	Academic
-Affairs	NP	Affair
+Affairs	NPS	Affair
 and	CC	and
 either	CC	either
 the	DT	the

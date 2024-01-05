@@ -182,7 +182,7 @@ has	VHZ	have
 noticed	VVN	notice
 some	DT	some
 increasing	VVG	increase
-paresthesias	NN	paresthesia
+paresthesias	NNS	paresthesia
 in	IN	in
 his	PP$	his
 bilateral	JJ	bilateral
@@ -518,7 +518,7 @@ his	PP$	his
 concerning	VVG	concern
 symptoms	NNS	symptom
 of	IN	of
-paresthesias	NN	paresthesia
+paresthesias	NNS	paresthesia
 .	SENT	.
 </s>
 <s type="decl">
@@ -559,7 +559,7 @@ right	NN	right
 -	HYPH	-
 sided	VVN	side
 </w>
-paresthesias	NN	paresthesia
+paresthesias	NNS	paresthesia
 now	RB	now
 for	IN	for
 a	DT	a

@@ -810,7 +810,7 @@ go	VV	go
 for	IN	for
 the	DT	the
 wall	NN	wall
-.	,	,
+.	SENT	.
 </s>
 <s type="multiple">
 Yes	UH	yes
@@ -1075,7 +1075,7 @@ are	VBP	be
 you	PP	you
 kidding	VVG	kid
 me	PP	I
-?	,	,
+?	SENT	?
 </s>
 <s type="other">
 Used	VVD	use

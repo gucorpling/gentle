@@ -71,7 +71,7 @@ chemotherapy	NN	chemotherapy
 </p>
 <head rend="bold red caps">
 <s type="frag">
-DIAGNOSES	NN	diagnosis
+DIAGNOSES	NNS	diagnosis
 :	:	:
 </s>
 </head>
@@ -547,7 +547,7 @@ noted	VVN	note
 in	IN	in
 the	DT	the
 right	JJ	right
-lower	JJ	low
+lower	JJR	low
 quadrant	NN	quadrant
 with	IN	with
 a	DT	a
@@ -789,7 +789,7 @@ still	RB	still
 has	VHZ	have
 an	DT	a
 open	JJ	open
-wound	NN	wind
+wound	NN	wound
 on	IN	on
 the	DT	the
 right	JJ	right

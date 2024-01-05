@@ -326,7 +326,7 @@ position	NN	position
 having	VHG	have
 nothing	NN	nothing
 similar	JJ	similar
-intervening	NN	intervene
+intervening	VVG	intervene
 ;	:	;
 <ref target="https://en.wiktionary.org/wiki/adjoining#English">
 adjoining	VVG	adjoin
@@ -391,7 +391,7 @@ time	NN	time
 </item>
 <item>
 <s type="frag">
-Nearest	JJ	near
+Nearest	JJS	near
 in	IN	in
 order	NN	order
 ,	,	,
@@ -476,7 +476,7 @@ become	VV	become
 the	DT	the
 next	JJ	next
 Bill	NP	Bill
-Gates	NP	Gate
+Gates	NP	Gates
 .	SENT	.
 </hi>
 </s>
@@ -575,7 +575,7 @@ contexts	NNS	context
 </list>
 <s type="frag">
 <hi rend="bold">
-Synonyms	NN	synonym
+Synonyms	NNS	synonym
 </hi>
 </s>
 <list type="unordered">

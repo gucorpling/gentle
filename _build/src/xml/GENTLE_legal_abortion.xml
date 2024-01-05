@@ -45,7 +45,7 @@ Appeal	NN	appeal
 from	IN	from
 the	DT	the
 United	NP	Unite
-States	NP	State
+States	NPS	State
 District	NP	District
 Court	NP	Court
 for	IN	for
@@ -395,7 +395,7 @@ identical	JJ	identical
 .	SENT	.
 </s>
 <s type="frag">
-P.	NN	p.
+P.	NN	page
 123	CD	123
 .	SENT	.
 </s>
@@ -418,7 +418,7 @@ not	RB	not
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 <w>
 123	CD	123
 -	SYM	-
@@ -504,7 +504,7 @@ initiated	VVN	initiate
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 <w>
 124	CD	124
 -	SYM	-
@@ -568,7 +568,7 @@ U.S.	NP	U.S.
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 <w>
 125	CD	125
 -	SYM	-
@@ -615,7 +615,7 @@ controversy	NN	controversy
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 <w>
 127	CD	127
 -	SYM	-
@@ -758,7 +758,7 @@ term	NN	term
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 <w>
 147	CD	147
 -	SYM	-
@@ -806,7 +806,7 @@ physician	NN	physician
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 163	CD	163
 ,	,	,
 164	CD	164
@@ -865,7 +865,7 @@ health	NN	health
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 163	CD	163
 ,	,	,
 164	CD	164
@@ -931,7 +931,7 @@ mother	NN	mother
 .	SENT	.
 </s>
 <s type="frag">
-Pp.	NNS	p.
+Pp.	NNS	page
 <w>
 163	CD	163
 -	SYM	-
@@ -986,11 +986,11 @@ a	DT	a
 physician	NN	physician
 as	IN	as
 so	RB	so
-defined	JJ	define
+defined	VVN	define
 .	SENT	.
 </s>
 <s type="frag">
-P.	NN	p.
+P.	NN	page
 165	CD	165
 .	SENT	.
 </s>
@@ -1036,7 +1036,7 @@ unconstitutional	JJ	unconstitutional
 .	SENT	.
 </s>
 <s type="frag">
-P.	NN	p.
+P.	NN	page
 166	CD	166
 .	SENT	.
 </s>
@@ -1084,7 +1084,7 @@ C.J.	NP	C.J.
 ,	,	,
 post	NN	post
 ,	,	,
-p.	NN	p.
+p.	NN	page
 207	CD	207
 ,	,	,
 DOUGLAS	NP	Douglas
@@ -1093,7 +1093,7 @@ J.	NP	J.
 ,	,	,
 post	NN	post
 ,	,	,
-p.	NN	p.
+p.	NN	page
 209	CD	209
 ,	,	,
 and	CC	and
@@ -1103,7 +1103,7 @@ J.	NP	J.
 ,	,	,
 post	NN	post
 ,	,	,
-p.	NN	p.
+p.	NN	page
 167	CD	167
 ,	,	,
 filed	VVD	file
@@ -1131,7 +1131,7 @@ joined	VVD	join
 ,	,	,
 post	NN	post
 ,	,	,
-p.	NN	p.
+p.	NN	page
 221	CD	221
 .	SENT	.
 </s>
@@ -1147,7 +1147,7 @@ opinion	NN	opinion
 ,	,	,
 post	NN	post
 ,	,	,
-p.	NN	p.
+p.	NN	page
 171	CD	171
 .	SENT	.
 <hi rend="bold">

@@ -429,7 +429,7 @@ Review	NN	review
 Week	NN	week
 11	CD	11
 -	:	-
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 &amp;	CC	&amp;
 Algorithms	NNS	algorithm
@@ -437,7 +437,7 @@ Algorithms	NNS	algorithm
 </s>
 <s type="frag">
 <ref target="data-structures">
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 </ref>
 </s>
@@ -1723,7 +1723,7 @@ Databases	NNS	database
 <s type="frag">
 <ref target="/databases/data-modeling-1.md">
 9.	LS	9.
-Data	NN	datum
+Data	NNS	datum
 Modeling	NN	modeling
 1	CD	1
 (	(	(
@@ -1743,7 +1743,7 @@ SQL	NP	SQL
 1	CD	1
 (	(	(
 Single	JJ	single
-tables	NN	table
+tables	NNS	table
 )	)	)
 </ref>
 </s>
@@ -1754,7 +1754,7 @@ tables	NN	table
 <s type="frag">
 <ref target="/databases/data-modeling-2.md">
 11.	LS	11.
-Data	NN	datum
+Data	NNS	datum
 Modeling	NN	modeling
 2	CD	2
 (	(	(
@@ -2017,7 +2017,7 @@ Testing	VVG	test
 Week	NN	week
 11	CD	11
 -	:	-
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 &amp;	CC	&amp;
 Algorithms	NNS	algorithm
@@ -2025,7 +2025,7 @@ Algorithms	NNS	algorithm
 </head>
 <head>
 <s type="frag">
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 </s>
 </head>
@@ -2036,7 +2036,7 @@ Structures	NNS	structure
 1.	LS	1.
 Intro	NN	intro
 to	IN	to
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 </ref>
 </s>
@@ -2050,7 +2050,7 @@ Structures	NNS	structure
 Sprint	NN	sprint
 Plan	NN	plan
 for	IN	for
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 &amp;	CC	&amp;
 Algorithms	NNS	algorithm
@@ -2064,7 +2064,7 @@ Week	NN	week
 <s type="frag">
 <ref target="/data-structures/stack.md">
 3.	LS	3.
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 :	:	:
 Stacks	NNS	stack
@@ -2077,7 +2077,7 @@ Stacks	NNS	stack
 <s type="frag">
 <ref target="/data-structures/queues.md">
 4.	LS	4.
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 :	:	:
 Queues	NNS	queue
@@ -2090,7 +2090,7 @@ Queues	NNS	queue
 <s type="frag">
 <ref target="/data-structures/linked-lists.md">
 5.	LS	5.
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 :	:	:
 Linked	VVN	link
@@ -2104,7 +2104,7 @@ Lists	NNS	list
 <s type="frag">
 <ref target="/data-structures/hash-tables.md">
 6.	LS	6.
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 :	:	:
 Hash	NN	hash
@@ -2129,7 +2129,7 @@ Map	NN	map
 <s type="frag">
 <ref target="/data-structures/trees.md">
 8.	LS	8.
-Data	NN	datum
+Data	NNS	datum
 Structures	NNS	structure
 :	:	:
 Trees	NNS	tree
@@ -2323,7 +2323,7 @@ Entrepreneurship	NN	entrepreneurship
 Career	NP	Career
 Week	NP	Week
 :	:	:
-Data	NP	data
+Data	NPS	Datum
 Science	NP	Science
 </ref>
 </s>

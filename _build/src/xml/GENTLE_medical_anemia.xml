@@ -217,7 +217,7 @@ b.i.d.	NN	b.i.d.
 ,	,	,
 levothyroxine	NN	levothyroxine
 50	CD	50
-mcg	NN	might
+mcg	NN	microgram
 q.d.	NN	q.d.
 ,	,	,
 Lopressor	NP	Lopressor
@@ -566,7 +566,7 @@ edema	NN	edema
 <head rend="bold red caps">
 <s type="frag">
 LABORATORY	NN	laboratory
-DATA	NN	datum
+DATA	NNS	datum
 :	:	:
 </s>
 </head>
