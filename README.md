@@ -21,7 +21,7 @@ The entire corpus is designed to be a *test set* of challenging genres for NLP s
 
 To cite this corpus, please refer to the following article:
 
-  * Aoyama, Tatsuya, Shabnam Behzad, Luke Gessler, Lauren Levine, Jessica Lin, Yang Janet Liu, Siyao Peng, Yilun Zhu and Amir Zeldes (2023) "GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation". In: Proceedings of the Seventeenth Linguistic Annotation Workshop (LAW-XVII 2023), 166–178. Toronto, Canada.
+  * Aoyama, Tatsuya, Shabnam Behzad, Luke Gessler, Lauren Levine, Jessica Lin, Yang Janet Liu, Siyao Peng, Yilun Zhu and Amir Zeldes (2023) "[GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation](https://aclanthology.org/2023.law-1.17.pdf)". In: Proceedings of the Seventeenth Linguistic Annotation Workshop (LAW-XVII 2023), 166–178. Toronto, Canada.
 
 ```
 @inproceedings{aoyama-etal-2023-gentle,
