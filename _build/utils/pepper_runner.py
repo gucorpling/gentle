@@ -3,6 +3,7 @@ from .nlp_helper import exec_via_temp
 import platform
 
 PY2 = sys.version_info[0] < 3
+PY3_v = sys.version_info[1]
 
 def compress_pepper_out(pepper_msg,full_log=False):
 	empty_spans = 0
@@ -91,6 +92,8 @@ def run_pepper(pepper_params,full_log=False):
 	threads.append(t)
 	t.start()
 	spinner = "/"
+	if PY3_v >= 9:
+		t.isAlive = t.is_alive
 	while t.isAlive():
 		spinner = cycle_spinner(spinner)
 		sys.__stdout__.write("Pepper is working... " + spinner + "\r")
@@ -107,9 +110,13 @@ def run_pepper(pepper_params,full_log=False):
 		node_annotation = f.read().replace("\r","")
 		node_annotation = node_annotation.replace("default_ns\tkind","rst\tkind")
 		node_annotation = node_annotation.replace("default_ns\ttype","rst\ttype")
+		node_annotation = node_annotation.replace("default_ns\tsignal", "rst\tsignal")
+		node_annotation = node_annotation.replace("default_ns\tCopyOf","dep\tCopyOf")
+		node_annotation = node_annotation.replace("default_ns\tCorrectForm","dep\tCorrectForm")
 		node_annotation = node_annotation.replace("default_ns\tclaws5","gum\tclaws5")
 		node_annotation = node_annotation.replace("default_ns\ttok_func","gum\ttok_func")
 		node_annotation = node_annotation.replace("default_ns","tei")
+		node_annotation = node_annotation.replace("\trst\t","\tdefault_ns\t")  # revert default_ns for rst++
 	with io.open(annis_out_dir + "node_annotation." + ext,"w",encoding="utf8",newline="\n") as f:
 		f.write(node_annotation)
 
