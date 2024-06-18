@@ -78,7 +78,7 @@ print("Validating files...")
 print("="*20 + "\n")
 
 reddit = check_reddit(gum_source)
-if not reddit:
+if not reddit and options.corpus_name != "GENTLE":
 	print("Could not find restored tokens in reddit documents.")
 	print("Abort conversion or continue without reddit? (You can restore reddit tokens using process_reddit.py)")
 	try:
@@ -115,7 +115,7 @@ def const_parse(gum_source, warn_slash_tokens=False, reddit=False, only_parse_di
 			return True
 		else:
 			for i, sent in enumerate(ptb_trees):
-				ptb_tags = re.findall(r"\(([^()\s]+) [^()\s]+\)",sent)
+				ptb_tags = re.findall(r"\(([^()\s]+)\s+[^()\s]+\)",sent)
 				xml_tags = [l.split("\t")[:2] for l in xml_sents[i].split("\n") if "\t" in l]
 				vanilla_tags = [tt2vanilla(tag,token) for token, tag in xml_tags]
 				if len(vanilla_tags) != len(ptb_tags):
@@ -143,7 +143,11 @@ def const_parse(gum_source, warn_slash_tokens=False, reddit=False, only_parse_di
 	for file_ in files_:
 		if not reddit and "reddit_" in file_:
 			continue
-		changed = check_diff(io.open(file_,encoding="utf8").read(), io.open(file_.replace(".xml",".ptb").replace("xml","const"),encoding="utf8").read(), os.path.basename(file_))
+		try:
+			changed = check_diff(io.open(file_,encoding="utf8").read(), io.open(file_.replace(".xml",".ptb").replace("xml","const"),encoding="utf8").read(), os.path.basename(file_))
+		except FileNotFoundError:  # No parse exists, create it
+			sys.stderr.write("! " + os.path.basename(file_) + ": no parse found - flagging for parse\n")
+			changed = True
 		if not changed:
 			continue
 		xmlfiles.append(file_)
@@ -241,7 +245,7 @@ if not options.pepper_only:
 		if not os.path.exists(gum_source + "const"):
 			sys.stdout.write("x const/ directory missing in target but parsing was set to false! Aborting merge...\n")
 			sys.exit()
-		elif len(glob(gum_source + "const" + os.sep + "*.ptb")) != len(glob(gum_target + "xml" + os.sep + "*.xml")):
+		elif len(glob(gum_source + "const" + os.sep + "*.ptb")) != len(glob(gum_source + "xml" + os.sep + "*.xml")):
 			sys.stdout.write("x parsing was set to false but xml/ and const/ contain different amounts of files! Aborting...\n")
 			sys.exit()
 
@@ -313,7 +317,7 @@ else:
 		os.makedirs(gum_target + "coref" + os.sep + "conll" + os.sep)
 
 	try:
-		pepper_params = io.open("utils" + os.sep + "pepper" + os.sep + "merge_gum.pepperparams", encoding="utf8").read().replace("\r","")
+		pepper_params = io.open(pepper_home + "merge_gum.pepperparams", encoding="utf8").read().replace("\r","")
 	except:
 		sys.__stdout__.write("x Can't find pepper template at: "+"utils" + os.sep + "pepper" + os.sep + "merge_gum.pepperparams"+"\n  Aborting...")
 		sys.exit()

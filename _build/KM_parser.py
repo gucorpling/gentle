@@ -6,11 +6,11 @@ import torch.nn.init as init
 
 
 use_cuda = torch.cuda.is_available()
-use_cuda = False
+#use_cuda = False
 if use_cuda:
     torch_t = torch.cuda
     def from_numpy(ndarray):
-        if float(sys.version[:3]) <= 3.6:
+        if float(sys.version[:3]) <= 3.6 and float(sys.version[:3]) > 3.1:
             return eval('torch.from_numpy(ndarray).pin_memory().cuda(async=True)')
         else:
             return torch.from_numpy(ndarray).pin_memory().cuda(non_blocking=True)
@@ -33,7 +33,7 @@ ROOT = "<START>"
 Sub_Head = "<H>"
 No_Head = "<N>"
 
-DTYPE = torch.uint8 if float(sys.version[:3]) < 3.7 else torch.bool
+DTYPE = torch.uint8 if float(sys.version[:3]) < 3.7 and float(sys.version[:3]) > 3.1 else torch.bool
 
 TAG_UNK = "UNK"
 
@@ -1725,9 +1725,8 @@ class ChartParser(nn.Module):
             # features = all_encoder_layers[-1]
             features = transformer_outputs[0]
 
-            features_packed = features.masked_select(all_word_end_mask.to(DTYPE).unsqueeze(-1)).reshape(-1,
-                                                                                                              features.shape[
-                                                                                                                  -1])
+            # DTYPE torch.uint8 -> torch.bool
+            features_packed = features.masked_select(all_word_end_mask.to(DTYPE).unsqueeze(-1)).reshape(-1,features.shape[-1])
 
             # For now, just project the features from the last word piece in each word
             extra_content_annotations = self.project_xlnet(features_packed)
