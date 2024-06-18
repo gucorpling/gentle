@@ -569,7 +569,7 @@ edema	NN	edema
 <head rend="bold red caps">
 <s type="frag">
 LABORATORY	NN	laboratory
-DATA	NNS	data
+DATA	NNS	datum
 :	:	:
 </s>
 </head>

@@ -483,7 +483,7 @@
 2	's	_	_	_	_	1	cop	_	_
 3	Paquetá	_	_	_	_	1	nsubj	_	_
 4	now	_	_	_	_	5	advmod	_	_
-5	finding	_	_	_	_	3	acl	_	_
+5	finding	_	_	_	_	1	advcl	_	_
 6	Galano	_	_	_	_	5	obj	_	_
 7	,	_	_	_	_	11	punct	_	_
 8	Galano	_	_	_	_	11	nsubj	_	_
@@ -693,7 +693,7 @@
 19	,	_	_	_	_	30	punct	_	_
 20	but	_	_	_	_	30	cc	_	_
 21	uh	_	_	_	_	30	discourse	_	_
-22	how	_	_	_	_	23	mark	_	_
+22	how	_	_	_	_	23	advmod	_	_
 23	many	_	_	_	_	24	amod	_	_
 24	times	_	_	_	_	27	reparandum	_	_
 25	how	_	_	_	_	26	advmod	_	_

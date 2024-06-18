@@ -1003,7 +1003,7 @@
                             (NP
                               (DT the)
                               (NX
-                                (NX (NNP Reversed) (NN Payment))
+                                (NX (NNP Reversed) (NNP Payment))
                                 (CC and)
                                 (NX (NNP Reversal) (NNP Fee))))))))))))))))
     (: ;)))
@@ -1273,7 +1273,7 @@
     (VP
       (VP
         (VBZ is)
-        (ADJP (JJ untrue) (CC or) (JJ misleading))
+        (ADJP (JJ untrue) (CC or) (VBG misleading))
         (PP (IN in) (NP (DT any) (JJ material) (NN respect))))
       (CC or)
       (VP (VBZ omits) (NP (JJ material) (NN information))))

@@ -739,8 +739,8 @@
 38	procedure	_	_	_	_	35	obj	_	_
 39	in	_	_	_	_	40	case	_	_
 40	ways	_	_	_	_	35	obl	_	_
-41	that	_	_	_	_	44	nsubj	_	_
-42	are	_	_	_	_	44	cop	_	_
+41	that	_	_	_	_	44	nsubj:pass	_	_
+42	are	_	_	_	_	44	aux:pass	_	_
 43	reasonably	_	_	_	_	44	advmod	_	_
 44	related	_	_	_	_	40	acl:relcl	_	_
 45	to	_	_	_	_	47	case	_	_

@@ -792,7 +792,7 @@
         (VP
           (TO na)
           (VP (VB go) (PP (IN for) (NP (DT the) (NN wall)))))))
-    (, .)))
+    (. .)))
 
 (ROOT
   (S
@@ -1071,7 +1071,7 @@
     (VP (VB get) (S (NP (DT the) (NN wall)) (VP (NN replace))))
     (, ,)
     (SQ (VBP are) (NP (PRP you)) (VP (VBG kidding) (NP (PRP me))))
-    (, ?)))
+    (. ?)))
 
 (ROOT
   (S

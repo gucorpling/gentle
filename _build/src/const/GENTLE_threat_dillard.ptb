@@ -830,7 +830,7 @@
         (VB ABORT)
         (NP
           (NP (DT this) (JJ stupid) (NN plan))
-          (PP (IN of) (NP (PRP$ yours))))))
+          (PP (IN of) (NP (PRP yours))))))
     (. .)))
 
 (ROOT

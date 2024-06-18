@@ -161,7 +161,7 @@
       (NP
         (NP (NN nothing))
         (ADJP (JJ similar))
-        (VP (NN intervening))))
+        (VP (VBG intervening))))
     (: ;)
     (ADJP (VBG adjoining))
     (. .)))
@@ -204,8 +204,8 @@
 
 (ROOT
   (FRAG
-    (ADJP
-      (JJ Nearest)
+    (ADVP
+      (JJS Nearest)
       (PP
         (IN in)
         (NP (NN order) (, ,) (NN succession) (, ,) (CC or) (NN rank))))
@@ -330,7 +330,7 @@
             (NNS contexts)))))
     (. .)))
 
-(ROOT (NP (NN Synonyms)))
+(ROOT (NP (NNS Synonyms)))
 
 (ROOT
   (FRAG

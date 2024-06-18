@@ -515,7 +515,7 @@ see	VV	see
 then	RB	then
 ,	,	,
 what	WP	what
-thereat	NN	thereat
+thereat	RB	thereat
 is	VBZ	be
 and	CC	and
 this	DT	this
@@ -884,7 +884,7 @@ I	PP	I
 scarcely	RB	scarcely
 more	RBR	more
 than	IN	than
-muttered	VVN	mutter
+muttered	VVD	mutter
 </s>
 <s type="decl">
 "	``	''
@@ -1084,7 +1084,7 @@ bird	NN	bird
 of	IN	of
 yore	NN	yore
 <l n="72"/>
-Meant	VVN	Mean
+Meant	VVD	mean
 in	IN	in
 croaking	VVG	croak
 "	``	''

@@ -66,8 +66,8 @@
 5	is	_	_	_	_	7	cop	_	_
 6	no	_	_	_	_	7	det	_	_
 7	joke	_	_	_	_	0	root	_	_
-8	I	_	_	_	_	10	nsubj	_	_
-9	'm	_	_	_	_	10	cop	_	_
+8	I	_	_	_	_	10	nsubj:pass	_	_
+9	'm	_	_	_	_	10	aux:pass	_	_
 10	know	_	_	_	_	7	parataxis	_	_
 11	in	_	_	_	_	12	case	_	_
 12	prison	_	_	_	_	10	obl	_	_

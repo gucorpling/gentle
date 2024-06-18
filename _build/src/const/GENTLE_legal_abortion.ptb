@@ -18,7 +18,7 @@
         (NP
           (DT the)
           (NNP United)
-          (NNP States)
+          (NNPS States)
           (NNP District)
           (NNP Court))
         (PP
@@ -544,7 +544,7 @@
         (NP (NP (DT those)) (VP (VBN involved) (ADVP (RB here)))))
       (, ,)
       (SBAR
-        (IN that)
+        (WHNP (WDT that))
         (S
           (PP (IN except) (PP (IN from) (NP (NN criminality))))
           (NP
@@ -862,7 +862,7 @@
                       (NP (DT a) (NN physician))
                       (SBAR
                         (IN as)
-                        (S (VP (ADVP (RB so)) (JJ defined)))))))))))))
+                        (S (VP (ADVP (RB so)) (VBN defined)))))))))))))
     (. .)))
 
 (ROOT (NP (NN P.) (CD 165) (. .)))

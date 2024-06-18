@@ -501,8 +501,8 @@
 28	yore	_	_	_	_	26	nmod	_	_
 29	.	_	_	_	_	4	punct	_	_
 
-1	Not	_	_	_	_	3	advmod	_	_
-2	the	_	_	_	_	3	det	_	_
+1	Not	_	_	_	_	4	advmod	_	_
+2	the	_	_	_	_	4	det	_	_
 3	least	_	_	_	_	4	amod	_	_
 4	obeisance	_	_	_	_	5	obj	_	_
 5	made	_	_	_	_	0	root	_	_
@@ -980,13 +980,13 @@
 17	's	_	_	_	_	16	case	_	_
 18	velvet	_	_	_	_	19	compound	_	_
 19	lining	_	_	_	_	13	obl	_	_
-20	that	_	_	_	_	25	obj	_	_
+20	that	_	_	_	_	25	obl	_	_
 21	the	_	_	_	_	24	det	_	_
 22	lamp	_	_	_	_	24	compound	_	_
 23	-	_	_	_	_	24	punct	_	_
 24	light	_	_	_	_	25	nsubj	_	_
 25	gloated	_	_	_	_	19	acl:relcl	_	_
-26	o'er	_	_	_	_	25	advmod	_	_
+26	o'er	_	_	_	_	20	case	_	_
 27	,	_	_	_	_	5	punct	_	_
 
 1	But	_	_	_	_	15	cc	_	_

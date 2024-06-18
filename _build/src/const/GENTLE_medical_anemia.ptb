@@ -382,7 +382,7 @@
     (NP (DT No) (JJR lower) (NN extremity) (NN edema))
     (. .)))
 
-(ROOT (NP (NN LABORATORY) (NN DATA) (: :)))
+(ROOT (NP (NN LABORATORY) (NNS DATA) (: :)))
 
 (ROOT
   (S

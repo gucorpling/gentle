@@ -13,8 +13,8 @@
 10	heard	_	_	_	_	8	acl:relcl	_	_
 11	from	_	_	_	_	12	case	_	_
 12	her	_	_	_	_	10	obl	_	_
-13	I	_	_	_	_	17	nsubj	_	_
-14	'm	_	_	_	_	17	cop	_	_
+13	I	_	_	_	_	17	nsubj:pass	_	_
+14	'm	_	_	_	_	17	aux:pass	_	_
 15	not	_	_	_	_	17	advmod	_	_
 16	to	_	_	_	_	17	advmod	_	_
 17	pleased	_	_	_	_	4	conj	_	_
@@ -139,7 +139,7 @@
 5	to	_	_	_	_	6	mark	_	_
 6	find	_	_	_	_	4	xcomp	_	_
 7	out	_	_	_	_	6	compound:prt	_	_
-8	how	_	_	_	_	9	mark	_	_
+8	how	_	_	_	_	9	advmod	_	_
 9	much	_	_	_	_	6	obj	_	_
 10	you	_	_	_	_	11	nsubj	_	_
 11	got	_	_	_	_	9	acl:relcl	_	_

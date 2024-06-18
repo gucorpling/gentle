@@ -36,7 +36,7 @@
 7	,	_	_	_	_	8	punct	_	_
 8	nixte	_	_	_	_	4	conj	_	_
 9	,	_	_	_	_	4	punct	_	_
-10	from	_	_	_	_	12	case	_	_
+10	from	_	_	_	_	13	case	_	_
 11	Old	_	_	_	_	12	amod	_	_
 12	English	_	_	_	_	13	amod	_	_
 13	nīehsta	_	_	_	_	4	nmod	_	_
@@ -697,8 +697,8 @@
 8	.	_	_	_	_	2	punct	_	_
 
 1	Next	_	_	_	_	0	root	_	_
-2	,	_	_	_	_	7	punct	_	_
-3	please	_	_	_	_	7	discourse	_	_
+2	,	_	_	_	_	3	punct	_	_
+3	please	_	_	_	_	1	discourse	_	_
 4	,	_	_	_	_	7	punct	_	_
 5	do	_	_	_	_	7	aux	_	_
 6	n't	_	_	_	_	7	advmod	_	_

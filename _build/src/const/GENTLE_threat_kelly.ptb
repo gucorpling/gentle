@@ -324,20 +324,22 @@
         (VP
           (VB do)
           (SBAR
-            (WHNP (WP what) (WHNP (RB ever)))
+            (GW what)
             (S
-              (NP (PRP it))
-              (VP
-                (VBZ takes)
-                (S
-                  (VP
-                    (TO to)
+              (WHNP (WP ever))
+              (S
+                (NP (PRP it))
+                (VP
+                  (VBZ takes)
+                  (S
                     (VP
-                      (VB have)
-                      (S
-                        (NP (PRP you))
-                        (PP (IN in) (NP (NN jail)))
-                        (PP (IN like) (NP (PRP me)))))))))))))
+                      (TO to)
+                      (VP
+                        (VB have)
+                        (S
+                          (NP (PRP you))
+                          (PP (IN in) (NP (NN jail)))
+                          (PP (IN like) (NP (PRP me))))))))))))))
     (. .)))
 
 (ROOT

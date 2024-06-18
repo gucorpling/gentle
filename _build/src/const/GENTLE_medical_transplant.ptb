@@ -55,7 +55,7 @@
           (NP (NN chemotherapy)))))
     (. .)))
 
-(ROOT (NP (NN DIAGNOSES) (: :)))
+(ROOT (NP (NNS DIAGNOSES) (: :)))
 
 (ROOT
   (NP
@@ -476,7 +476,7 @@
         (VBN noted)
         (PP
           (IN in)
-          (NP (DT the) (JJ right) (JJ lower) (NN quadrant)))
+          (NP (DT the) (JJ right) (JJR lower) (NN quadrant)))
         (PP (IN with) (NP (NP (DT a) (NN scar)) (ADJP (JJ present))))))
     (. .)))
 

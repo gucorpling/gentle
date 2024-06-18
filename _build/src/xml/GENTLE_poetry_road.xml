@@ -4,7 +4,7 @@
 <l n="1"/>
 Two	CD	two
 roads	NNS	road
-diverged	VVN	diverge
+diverged	VVD	diverge
 in	IN	in
 a	DT	a
 yellow	JJ	yellow
@@ -175,7 +175,7 @@ hence	RB	hence
 <l n="18"/>
 Two	CD	two
 roads	NNS	road
-diverged	VVN	diverge
+diverged	VVD	diverge
 in	IN	in
 a	DT	a
 wood	NN	wood
