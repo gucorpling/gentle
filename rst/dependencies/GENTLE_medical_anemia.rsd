@@ -61,7 +61,7 @@
 61	No hepatosplenomegaly .	0	_	_	pos1=DT|head_tok=hepatosplenomegaly|head_pos=NN|head_id=384|parent_pos=_|sid=45|stype=frag|len=3|head_func=root|edu_tense=None	59	joint-list_m	_	_
 62	EXT :	0	_	_	pos1=NP|head_tok=EXT|head_pos=NP|head_id=386|parent_pos=_|sid=46|stype=frag|len=2|head_func=root|edu_tense=None|subord=RIGHT|item=item	63	organization-heading_r	_	_
 63	No lower extremity edema .	3	_	_	pos1=DT|head_tok=edema|head_pos=NN|head_id=391|parent_posNP|sid=46|stype=frag|len=5|head_func=parataxis|edu_tense=None|subord=LEFT	36	joint-list_m	_	_
-64	LABORATORY DATA :	1	_	_	pos1=NN|head_tok=datum|head_pos=NN|head_id=394|parent_pos=_|sid=47|stype=frag|len=3|head_func=root|edu_tense=None|heading=heading	65	organization-heading_r	_	_
+64	LABORATORY DATA :	1	_	_	pos1=NN|head_tok=datum|head_pos=NNS|head_id=394|parent_pos=_|sid=47|stype=frag|len=3|head_func=root|edu_tense=None|heading=heading	65	organization-heading_r	_	_
 65	His white blood cell count is 4.6 ,	3	_	_	pos1=PP$|head_tok=4.6|head_pos=CD|head_id=402|parent_pos=_|sid=48|stype=decl|len=8|head_func=root|edu_tense=Pres|subord=RIGHT|para=para	8	joint-other_m	_	_
 66	hemoglobin 14.2 ,	0	_	_	pos1=NN|head_tok=hemoglobin|head_pos=NN|head_id=404|parent_posCD|sid=48|stype=decl|len=3|head_func=conj|edu_tense=None|subord=RIGHT	65	joint-list_m	_	_
 67	hematocrit 42 ,	0	_	_	pos1=NN|head_tok=hematocrit|head_pos=NN|head_id=407|parent_posCD|sid=48|stype=decl|len=3|head_func=conj|edu_tense=None|subord=RIGHT	65	joint-list_m	_	_

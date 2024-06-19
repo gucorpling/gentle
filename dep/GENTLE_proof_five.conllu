@@ -29,10 +29,10 @@
 3	proceeds	proceed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	by	by	ADP	IN	_	6	case	6:case	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(2-abstract-new-cf2-2,4,5-coref-Mathematical_induction
-6	Principle	Principle	PROPN	NNP	Number=Sing	3	obl	3:obl:by	XML=<ref target:::"https://proofwiki.org/wiki/Principle_of_Mathematical_Induction">
+6	Principle	Principle	PROPN	NNP	Number=Sing	3	obl	3:obl:by	MSeg=Princip-le|XML=<ref target:::"https://proofwiki.org/wiki/Principle_of_Mathematical_Induction">
 7	of	of	ADP	IN	_	9	case	9:case	_
-8	Mathematical	mathematical	ADJ	NNP	Degree=Pos|Number=Sing	9	amod	9:amod	Entity=(3-abstract-new-cf4-1,2-coref-Mathematical_induction|MSeg=Mathematic-al
-9	Induction	Induction	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=3)|XML=</ref>
+8	Mathematical	mathematical	ADJ	NNP	Degree=Pos	9	amod	9:amod	Entity=(3-abstract-new-cf4-1,2-coref-Mathematical_induction|MSeg=Mathematic-al
+9	Induction	Induction	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=3)|MSeg=Induct-ion|XML=</ref>
 10	on	on	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(4-abstract-new-cf3-2-sgl
 12	number	number	NOUN	NN	Number=Sing	9	nmod	9:nmod:on	_
@@ -60,7 +60,7 @@
 11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	Entity=10)
 12	be	be	AUX	VB	VerbForm=Inf	14	cop	14:cop	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(10-abstract-giv:act-cf2-2-coref
-14	proposition	proposition	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	Entity=10)|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proposition"></ref>
+14	proposition	proposition	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	Entity=10)|MSeg=propos-it-ion|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Proposition"></ref>
 15	:	:	PUNCT	:	_	19	punct	19:punct	_
 16	Gn	Gn	NOUN	NN	Number=Sing	19	nsubj:pass	19:nsubj:pass	Discourse=context-background:4->7:5:_|Entity=(11-abstract-new-cf4-1-coref)
 17	can	can	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
@@ -71,7 +71,7 @@
 22	vertex	vertex	NOUN	NN	Number=Sing	25	compound	25:compound	_
 23	k	k	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=(14-abstract-new-cf1-1-coref)
 24	-	-	PUNCT	HYPH	_	23	punct	23:punct	_
-25	coloring	coloring	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=13)|XML=</ref>
+25	coloring	coloring	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=13)|MSeg=color-ing|XML=</ref>
 26	such	such	ADJ	JJ	Degree=Pos	29	mark	29:mark	Discourse=elaboration-attribute:5->4:0:_
 27	that	that	SCONJ	IN	_	26	fixed	26:fixed	_
 28	k	k	NOUN	NN	Number=Sing	29	nsubj	29:nsubj	Entity=(14-abstract-giv:act-cf1-1-coref)
@@ -89,7 +89,7 @@
 1	Basis	basis	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:6->7:2:_|Entity=(16-abstract-new-cf2-1-coref
 2	for	for	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(17-abstract-new-cf1-2-coref
-4	Induction	induction	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	Entity=17)16)
+4	Induction	induction	NOUN	NN	Number=Sing	1	nmod	1:nmod:for	Entity=17)16)|MSeg=Induct-ion
 
 # sent_id = GENTLE_proof_five-5
 # s_prominence = 1
@@ -103,7 +103,7 @@
 3	r	reter	NOUN	NN	Number=Sing	1	nmod:npmod	1:nmod:npmod	Entity=(19-abstract-new-cf1-1-coref)|SpaceAfter=No
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	Entity=18)
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
-6	trivially	trivially	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+6	trivially	trivially	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=trivi-al-ly
 7	true	true	ADJ	JJ	Degree=Pos	0	root	0:root	_
 8	for	for	ADP	IN	_	10	case	10:case	_
 9	1	1	NUM	CD	NumForm=Digit|NumType=Card	10	obl:npmod	10:obl:npmod	Entity=(20-abstract-new-cf5-1-sgl)
@@ -114,9 +114,9 @@
 14	,	,	PUNCT	,	_	17	punct	17:punct	_
 15	as	as	SCONJ	IN	_	17	mark	17:mark	Discourse=explanation-evidence:8->7:0:_
 16	there	there	PRON	EX	PronType=Dem	17	expl	17:expl	_
-17	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:as	Cxn=Existential-There
+17	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:as	Cxn=Existential-CopPred-ThereExpl
 18	no	no	ADV	RB	Degree=Pos|Polarity=Neg	19	advmod	19:advmod	Entity=(22-abstract-new-cf4-5-sgl
-19	more	more	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	_
+19	more	more	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	ExtPos=ADV
 20	than	than	ADP	IN	_	19	fixed	19:fixed	_
 21	5	5	NUM	CD	NumForm=Digit|NumType=Card	22	nummod	22:nummod	_
 22	vertices	vertice	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=22)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vertex_of_Graph"></ref>
@@ -138,7 +138,7 @@
 4	basis	basis	NOUN	NN	Number=Sing	0	root	0:root	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Basis_for_the_Induction">
 5	for	for	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(17-abstract-giv:inact-cf2-2-coref
-7	induction	induction	NOUN	NN	Number=Sing	4	nmod	4:nmod:for	Entity=17)16)|SpaceAfter=No|XML=</ref>
+7	induction	induction	NOUN	NN	Number=Sing	4	nmod	4:nmod:for	Entity=17)16)|MSeg=induct-ion|SpaceAfter=No|XML=</ref>
 8	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_proof_five-7
@@ -148,8 +148,8 @@
 # text = Induction Hypothesis
 # newpar
 # newpar_block = head (1 s)
-1	Induction	induction	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:11->18:4:_|Entity=(24-abstract-new-cf1-2-coref
-2	Hypothesis	hypothesis	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)
+1	Induction	induction	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:11->18:4:_|Entity=(24-abstract-new-cf1-2-coref|MSeg=Induct-ion
+2	Hypothesis	hypothesis	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)|MSeg=Hypothes-is
 
 # sent_id = GENTLE_proof_five-8
 # s_prominence = 2
@@ -171,7 +171,7 @@
 11	r	reter	NOUN	NN	Number=Sing	9	nmod:npmod	9:nmod:npmod	Entity=(19-abstract-giv:inact-cf1-1-coref)|SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	Entity=18)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
-14	true	true	ADJ	JJ	Degree=Pos	24	advcl	18:obl|24:advcl:if	Cxn=Condition-Realistic|SpaceAfter=No
+14	true	true	ADJ	JJ	Degree=Pos	24	advcl	18:obl|24:advcl:if	SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	18:punct	_
 16	where	where	ADV	WRB	PronType=Rel	18	advmod	14:ref|18:advmod	Discourse=elaboration-additional:15->14:0:_
 17	r	reter	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=(19-abstract-giv:act-cf1-1-coref)
@@ -180,8 +180,8 @@
 20	,	,	PUNCT	,	_	14	punct	14:punct	_
 21	then	then	ADV	RB	PronType=Dem	24	advmod	24:advmod	Discourse=same-unit_m:16->13:0:_
 22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	24:expl	Entity=(25-abstract-new-cf5-1-sgl)
-23	logically	logically	ADV	RB	Degree=Pos	24	advmod	24:advmod	_
-24	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	MSeg=follow-s
+23	logically	logically	ADV	RB	Degree=Pos	24	advmod	24:advmod	MSeg=log-ic-al-ly
+24	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=follow-s
 25	that	that	SCONJ	IN	_	33	mark	33:mark	_
 26	P	P	NOUN	NN	Number=Sing	33	nsubj	33:nsubj	Entity=(26-abstract-new-cf6-1-coref
 27	(	(	PUNCT	-LRB-	_	28	punct	28:punct	SpaceAfter=No
@@ -204,8 +204,8 @@
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(24-abstract-giv:inact-cf3-1-ana)
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(24-abstract-giv:act-cf3-3-coref(17-abstract-giv:inact-cf5-2-coref(23-person-giv:act-cf1*-1-ana)
-5	induction	induction	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=17)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
-6	hypothesis	hypothesis	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)|SpaceAfter=No|XML=</ref>
+5	induction	induction	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=17)|MSeg=induct-ion|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
+6	hypothesis	hypothesis	NOUN	NN	Number=Sing	0	root	0:root	Entity=24)|MSeg=hypothes-is|SpaceAfter=No|XML=</ref>
 7	:	:	PUNCT	:	_	11	punct	11:punct	_
 8	Gr	Gr	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	Discourse=joint-list_m:18->7:3:_|Entity=(24-abstract-giv:act-cf3-4-disc(28-abstract-new-cf6-1-sgl)
 9	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
@@ -216,7 +216,7 @@
 14	vertex	vertex	NOUN	NN	Number=Sing	17	compound	17:compound	_
 15	k	k	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(14-abstract-giv:inact-cf2-1-coref)
 16	-	-	PUNCT	HYPH	_	15	punct	15:punct	_
-17	coloring	coloring	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=30)|XML=</ref>
+17	coloring	coloring	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=30)|MSeg=color-ing|XML=</ref>
 18	such	such	ADJ	JJ	Degree=Pos	21	mark	21:mark	Discourse=elaboration-attribute:19->18:0:_
 19	that	that	SCONJ	IN	_	18	fixed	18:fixed	_
 20	k	k	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=(14-abstract-giv:act-cf2-1-coref)
@@ -246,7 +246,7 @@
 13	vertex	vertex	NOUN	NN	Number=Sing	16	compound	16:compound	_
 14	k	k	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(14-abstract-giv:act-cf2-1-coref)
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	_
-16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=33)|XML=</ref>
+16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=33)|MSeg=color-ing|XML=</ref>
 17	such	such	ADJ	JJ	Degree=Pos	20	mark	20:mark	Discourse=elaboration-attribute:22->21:0:_
 18	that	that	SCONJ	IN	_	17	fixed	17:fixed	_
 19	k	k	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=(14-abstract-giv:act-cf2-1-coref)
@@ -261,7 +261,7 @@
 # text = Induction Step
 # newpar
 # newpar_block = head (1 s)
-1	Induction	induction	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:23->76:3:_|Entity=(34-abstract-new-cf1-2-coref
+1	Induction	induction	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=organization-heading:23->76:3:_|Entity=(34-abstract-new-cf1-2-coref|MSeg=Induct-ion
 2	Step	step	NOUN	NN	Number=Sing	0	root	0:root	Entity=34)
 
 # sent_id = GENTLE_proof_five-12
@@ -274,7 +274,7 @@
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=organization-preparation:24->76:2:_|Entity=(34-abstract-giv:act-cf1*-1-ana)
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(34-abstract-giv:act-cf1*-3-coref(23-person-giv:inact-cf2-1-ana)
-4	induction	induction	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(17-abstract-giv:inact-cf3-1-coref)|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Step">
+4	induction	induction	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(17-abstract-giv:inact-cf3-1-coref)|MSeg=induct-ion|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Step">
 5	step	step	NOUN	NN	Number=Sing	0	root	0:root	Entity=34)|SpaceAfter=No|XML=</ref>
 6	:	:	PUNCT	:	_	5	punct	5:punct	_
 
@@ -285,15 +285,15 @@
 # text = According to the Minimum Degree Bound for Simple Planar Graph, Gr+1 has at least one vertex with at most 5 edges.
 # newpar
 # newpar_block = p (6 s)
-1	According	accord	VERB	VBG	VerbForm=Ger	6	case	6:case	Discourse=explanation-evidence:25->26:0:_|MSeg=Accord-ing
+1	According	accord	VERB	VBG	Tense=Pres|VerbForm=Part	6	case	6:case	Discourse=explanation-evidence:25->26:0:_|ExtPos=ADP|MSeg=Accord-ing
 2	to	to	ADP	IN	_	1	fixed	1:fixed	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(35-abstract-new-cf3-2,3,4,6,7,8-sgl
-4	Minimum	Minimum	ADJ	NNP	Degree=Pos|Number=Sing	6	amod	6:amod	XML=<ref target:::"https://proofwiki.org/wiki/Minimum_Degree_Bound_for_Simple_Planar_Graph">
+4	Minimum	Minimum	ADJ	NNP	Degree=Pos	6	amod	6:amod	XML=<ref target:::"https://proofwiki.org/wiki/Minimum_Degree_Bound_for_Simple_Planar_Graph">
 5	Degree	Degree	PROPN	NNP	Number=Sing	6	compound	6:compound	_
 6	Bound	Bound	PROPN	NNP	Number=Sing	13	obl	13:obl:according_to	_
 7	for	for	ADP	IN	_	10	case	10:case	_
-8	Simple	simple	ADJ	NNP	Degree=Pos|Number=Sing	10	amod	10:amod	Entity=(36-abstract-new-cf4-1,2,3-sgl-Planar_graph
-9	Planar	Planar	ADJ	NNP	Degree=Pos|Number=Sing	10	amod	10:amod	_
+8	Simple	simple	ADJ	NNP	Degree=Pos	10	amod	10:amod	Entity=(36-abstract-new-cf4-1,2,3-sgl-Planar_graph
+9	Planar	Planar	ADJ	NNP	Degree=Pos	10	amod	10:amod	_
 10	Graph	Graph	PROPN	NNP	Number=Sing	6	nmod	6:nmod:for	Entity=36)35)|SpaceAfter=No|XML=</ref>
 11	,	,	PUNCT	,	_	6	punct	6:punct	_
 12	Gr+1	Gr+1	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Discourse=context-background:26->27:0:_|Entity=(31-abstract-giv:inact-cf1-1-coref)
@@ -346,14 +346,14 @@
 # text = By the induction hypothesis, G′r is five - colorable.
 1	By	by	ADP	IN	_	4	case	4:case	Discourse=explanation-evidence:30->31:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(24-abstract-giv:inact-cf2-3-coref
-3	induction	induction	NOUN	NN	Number=Sing	4	compound	4:compound	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
-4	hypothesis	hypothesis	NOUN	NN	Number=Sing	10	obl	10:obl:by	Entity=24)|SpaceAfter=No|XML=</ref>
+3	induction	induction	NOUN	NN	Number=Sing	4	compound	4:compound	MSeg=induct-ion|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
+4	hypothesis	hypothesis	NOUN	NN	Number=Sing	10	obl	10:obl:by	Entity=24)|MSeg=hypothes-is|SpaceAfter=No|XML=</ref>
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	G′r	G′r	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Discourse=causal-result:31->27:2:_|Entity=(40-abstract-giv:act-cf1*-1-coref)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	five	five	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	_
 9	-	-	PUNCT	HYPH	_	8	punct	8:punct	_
-10	colorable	colorable	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
+10	colorable	colorable	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=color-able|SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GENTLE_proof_five-17
@@ -383,7 +383,7 @@
 4	give	give	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Ditransitive
 5	x	x	NOUN	NN	Number=Sing	4	iobj	4:iobj	Entity=(37-abstract-giv:act-cf1*-1-coref)
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(42-abstract-new-cf4-3-sgl
-7	missing	miss	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=miss-ing
+7	missing	missing	ADJ	JJ	Degree=Pos	8	amod	8:amod	MSeg=miss-ing
 8	color	color	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=42)
 9	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=explanation-evidence:35->76:1:_
 10	thus	thus	ADV	RB	_	13	advmod	13:advmod	_
@@ -443,7 +443,7 @@
 10	and	and	CCONJ	CC	_	11	cc	11:cc	_
 11	y5	y5	NOUN	NN	Number=Sing	3	conj	1:xcomp|3:conj:and	Entity=(49-abstract-new-cf7-1-coref)
 12	in	in	ADP	IN	_	14	case	14:case	_
-13	clockwise	clockwise	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+13	clockwise	clockwise	ADJ	JJ	Degree=Pos	14	amod	14:amod	MSeg=clock-wise
 14	order	order	NOUN	NN	Number=Sing	1	obl	1:obl:in	_
 15	around	around	ADP	IN	_	16	case	16:case	MSeg=a-round
 16	x	x	NOUN	NN	Number=Sing	14	nmod	14:nmod:around	Entity=(37-abstract-giv:act-cf2-1-coref)|SpaceAfter=No
@@ -495,7 +495,7 @@
 6	subgraph	subgraph	NOUN	NN	Number=Sing	3	xcomp	3:xcomp	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Subgraph"></ref>
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	G′r	G′r	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=(40-abstract-giv:inact-cf2-1-coref)
-9	induced	induce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	Discourse=elaboration-attribute:43->42:0:_
+9	induced	induce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	Discourse=elaboration-attribute:43->42:0:_|MSeg=induc-ed
 10	by	by	ADP	IN	_	12	case	12:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(58-abstract-new-cf4-2-sgl
 12	vertices	vertice	NOUN	NNS	Number=Plur	9	obl:agent	9:obl:agent	_
@@ -522,7 +522,7 @@
 # text = Suppose there exists no path between y1 and y3 in H1,3.
 1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:46->47:0:_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=contingency-condition:47->48:0:_
-3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-There|MSeg=exist-s
+3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-CopPred-ThereExpl,Existential-ExistPred-NoExpl|MSeg=exist-s
 4	no	no	DET	DT	Polarity=Neg|PronType=Neg	5	det	5:det	Entity=(62-abstract-new-cf4-8-sgl
 5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
 6	between	between	ADP	IN	_	7	case	7:case	MSeg=be-tween
@@ -558,7 +558,7 @@
 3	,	,	PUNCT	,	_	2	punct	2:punct	_
 4	then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	interchange	interchange	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	interchange	interchange	VERB	VB	VerbForm=Inf	0	root	0:root	MSeg=inter-change
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_
 8	colors	color	NOUN	NNS	Number=Plur	6	obj	6:obj	MSeg=color-s
 9	c1	c1	NOUN	NN	Number=Sing	8	dep	8:dep	Entity=(51-abstract-giv:inact-cf2-1-coref)
@@ -609,7 +609,7 @@
 # newpar_block = p (6 s)
 1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:53->54:0:_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	Discourse=context-background:54->63:1:_
-3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-There|MSeg=exist-s
+3	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	Cxn=Existential-CopPred-ThereExpl,Existential-ExistPred-NoExpl|MSeg=exist-s
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(66-abstract-new-cf4-8-coref
 5	path	path	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Path"></ref>
 6	between	between	ADP	IN	_	7	case	7:case	MSeg=be-tween
@@ -625,7 +625,7 @@
 # s_type = decl
 # transition = establishment
 # text = Including the vertex x in this path we get a circuit C.
-1	Including	include	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=mode-manner:55->56:0:_
+1	Including	include	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl	Discourse=mode-manner:55->56:0:_|MSeg=Includ-ing
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(67-abstract-new-cf4-6-sgl
 3	vertex	vertex	NOUN	NN	Number=Sing	1	obj	1:obj	_
 4	x	x	NOUN	NN	Number=Sing	3	dep	3:dep	_
@@ -646,7 +646,7 @@
 # text = Since we indexed the vertices y1, y2, y3, y4 and y5 clockwise, exactly one of the vertices y2 and y4 is inside C.
 1	Since	since	SCONJ	IN	_	3	mark	3:mark	Discourse=causal-cause:57->58:0:_
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(23-person-giv:act-cf1*-1-ana)
-3	indexed	index	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	advcl	27:advcl:since	_
+3	indexed	index	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	advcl	27:advcl:since	MSeg=index-ed
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(69-object-new-cf9-2-sgl
 5	vertices	vertice	NOUN	NNS	Number=Plur	3	obj	3:obj	_
 6	y1	y1	NOUN	NN	Number=Sing	5	dep	5:dep	Entity=(45-abstract-giv:inact-cf5-1-coref)|SpaceAfter=No
@@ -658,7 +658,7 @@
 12	y4	y4	NOUN	NN	Number=Sing	6	conj	5:dep|6:conj:and	Entity=(48-abstract-giv:inact-cf3-1-coref)
 13	and	and	CCONJ	CC	_	14	cc	14:cc	_
 14	y5	y5	NOUN	NN	Number=Sing	6	conj	5:dep|6:conj:and	Entity=(49-abstract-giv:inact-cf7-1-coref)69)
-15	clockwise	clockwise	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	SpaceAfter=No
+15	clockwise	clockwise	NOUN	NN	Number=Sing	3	obl:npmod	3:obl:npmod	MSeg=clock-wise|SpaceAfter=No
 16	,	,	PUNCT	,	_	3	punct	3:punct	_
 17	exactly	exactly	ADV	RB	Degree=Pos	18	advmod	18:advmod	Discourse=explanation-evidence:58->59:0:_|Entity=(70-abstract-new-cf8-2-sgl|MSeg=exact-ly
 18	one	one	NUM	CD	NumForm=Word|NumType=Card	27	nsubj	27:nsubj	_
@@ -799,15 +799,15 @@
 # transition = null
 # text = The dotted lines represent edges and vertices that might exist, as this is simply a fairly minimal example graph that matches the conditions.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration-additional:71->64:2:_|Entity=(83-object-new-cf3-3-sgl
-2	dotted	dotted	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
+2	dotted	dotted	ADJ	JJ	Degree=Pos	3	amod	3:amod	MSeg=dott-ed
 3	lines	line	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj	Entity=83)|MSeg=line-s
-4	represent	represent	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=re-present
+4	represent	represent	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	edges	edge	NOUN	NNS	Number=Plur	4	obj	4:obj|10:nsubj	Entity=(84-object-new-cf4-1-sgl)|MSeg=edge-s
 6	and	and	CCONJ	CC	_	7	cc	7:cc	_
 7	vertices	vertice	NOUN	NNS	Number=Plur	5	conj	4:obj|5:conj:and	Entity=(85-abstract-new-cf5-4-sgl
 8	that	that	PRON	WDT	PronType=Rel	10	nsubj	5:ref	Discourse=elaboration-attribute:72->71:0:_
 9	might	might	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
-10	exist	exist	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	Cxn=Existential-Exist|Entity=85)|SpaceAfter=No
+10	exist	exist	VERB	VB	VerbForm=Inf	5	acl:relcl	5:acl:relcl	Cxn=Existential-ExistPred-NoExpl|Entity=85)|SpaceAfter=No
 11	,	,	PUNCT	,	_	20	punct	20:punct	_
 12	as	as	SCONJ	IN	_	20	mark	20:mark	Discourse=explanation-evidence:73->71:1:_
 13	this	this	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	20:nsubj	Entity=(76-abstract-giv:inact-cf1-1-ana)
@@ -849,10 +849,10 @@
 16	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:and	MSeg=follow-s
 17	by	by	ADP	IN	_	19	case	19:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(2-abstract-giv:inact-cf3-2,4,5-coref-Mathematical_induction
-19	Principle	Principle	PROPN	NNP	Number=Sing	16	obl	16:obl:by	XML=<ref target:::"https://proofwiki.org/wiki/Principle_of_Mathematical_Induction">
+19	Principle	Principle	PROPN	NNP	Number=Sing	16	obl	16:obl:by	MSeg=Princip-le|XML=<ref target:::"https://proofwiki.org/wiki/Principle_of_Mathematical_Induction">
 20	of	of	ADP	IN	_	22	case	22:case	_
-21	Mathematical	mathematical	ADJ	NNP	Degree=Pos|Number=Sing	22	amod	22:amod	Entity=(3-abstract-giv:inact-cf4-1,2-coref-Mathematical_induction|MSeg=Mathematic-al
-22	Induction	Induction	PROPN	NNP	Number=Sing	19	nmod	19:nmod:of	Entity=3)2)|SpaceAfter=No|XML=</ref>
+21	Mathematical	mathematical	ADJ	NNP	Degree=Pos	22	amod	22:amod	Entity=(3-abstract-giv:inact-cf4-1,2-coref-Mathematical_induction|MSeg=Mathematic-al
+22	Induction	Induction	PROPN	NNP	Number=Sing	19	nmod	19:nmod:of	Entity=3)2)|MSeg=Induct-ion|SpaceAfter=No|XML=</ref>
 23	.	.	PUNCT	.	_	6	punct	6:punct	_
 
 # sent_id = GENTLE_proof_five-39
@@ -862,7 +862,7 @@
 # text = Therefore:
 # newpar
 # newpar_block = p (2 s)
-1	Therefore	therefore	ADV	RB	Degree=Pos	0	root	0:root	Discourse=organization-preparation:77->78:1:_|SpaceAfter=No
+1	Therefore	therefore	ADV	RB	Degree=Pos	0	root	0:root	Discourse=organization-preparation:77->78:1:_|MSeg=There-fore|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_proof_five-40
@@ -885,7 +885,7 @@
 13	vertex	vertex	NOUN	NN	Number=Sing	16	compound	16:compound	_
 14	k	k	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(14-abstract-giv:inact-cf1-1-coref)
 15	-	-	PUNCT	HYPH	_	14	punct	14:punct	_
-16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=13)|XML=</ref>
+16	coloring	coloring	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=13)|MSeg=color-ing|XML=</ref>
 17	such	such	ADJ	JJ	Degree=Pos	20	mark	20:mark	Discourse=elaboration-attribute:79->78:0:_
 18	that	that	SCONJ	IN	_	17	fixed	17:fixed	_
 19	k	k	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	Entity=(14-abstract-giv:act-cf1-1-coref)

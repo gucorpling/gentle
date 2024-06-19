@@ -67,7 +67,7 @@ me	PP	I	PNP	PRON	obl	_
 <l n="8"/>
 Almost	RB	almost	AV0	ADV	advmod	Al-most
 a	DT	a	AT0	DET	det	_
-loneliness	NN	loneliness	NN1	NOUN	obj	_
+loneliness	NN	loneliness	NN1	NOUN	obj	lone-li-ness
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>

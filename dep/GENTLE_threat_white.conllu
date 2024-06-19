@@ -29,7 +29,7 @@
 11	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	2:ccomp|4:conj:and	_
 12	that	that	SCONJ	IN	_	20	mark	20:mark	Discourse=mode-means:5->6:0:_
 13	by	by	SCONJ	IN	_	14	mark	14:mark	_
-14	dragging	drag	VERB	VBG	VerbForm=Ger	20	advcl	20:advcl:by	_
+14	dragging	drag	VERB	VBG	Tense=Pres|VerbForm=Part	20	advcl	20:advcl:by	MSeg=dragg-ing
 15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Entity=(5-abstract-new-cf4-2-sgl
 16	process	process	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=5)
 17	out	out	ADP	RP	_	14	compound:prt	14:compound:prt	_
@@ -87,7 +87,7 @@
 13	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	obj	12:obj	Entity=(3-person-giv:act-cf2-1-ana)9)
 14	conveys	convey	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	Discourse=adversative-contrast_m:13->11:1:_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(11-abstract-new-cf5-2-sgl
-16	seriousness	seriousness	NOUN	NN	Number=Sing	14	obj	14:obj|20:obl:with	_
+16	seriousness	seriousness	NOUN	NN	Number=Sing	14	obj	14:obj|20:obl:with	MSeg=serious-ness
 17	with	with	ADP	IN	_	18	case	18:case	Discourse=elaboration-attribute:14->13:0:_
 18	which	which	PRON	WDT	PronType=Rel	20	obl	16:ref	_
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(2-person-giv:act-cf1*-1-ana)
@@ -106,15 +106,15 @@
 # newpar_block = p (1 s)
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:15->17:1:_
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
-3	resolve	resolve	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	Cxn=Condition-Realistic
+3	resolve	resolve	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:if	_
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(12-abstract-new-cf3-2-sgl
 5	issue	issue	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=12)
 6	quickly	quickly	ADV	RB	Degree=Pos	3	advmod	3:advmod	MSeg=quick-ly
 7	and	and	CCONJ	CC	_	8	cc	8:cc	_
-8	efficiently	efficiently	ADV	RB	Degree=Pos	6	conj	3:advmod|6:conj:and	_
+8	efficiently	efficiently	ADV	RB	Degree=Pos	6	conj	3:advmod|6:conj:and	MSeg=efficient-ly
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Discourse=attribution-positive:16->17:0:_|Entity=(2-person-giv:act-cf2-1-ana)
 10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-11	guarantee	guarantee	VERB	VB	VerbForm=Inf	0	root	0:root	_
+11	guarantee	guarantee	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=guarant-ee
 12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Discourse=explanation-motivation:17->22:2:_|Entity=(13-abstract-new-cf4-4-sgl
 13	will	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 14	not	not	PART	RB	Polarity=Neg	15	advmod	15:advmod	_
@@ -126,7 +126,7 @@
 20	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=contingency-condition:18->19:1:_
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)
 22-23	don't	_	_	_	_	_	_	_	SpaceAfter=No
-22	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:if	Cxn=Condition-Realistic
+22	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:if	_
 23	n't	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
 24	,	,	PUNCT	,	_	22	punct	22:punct	_
 25	well	well	INTJ	UH	_	31	discourse	31:discourse	Discourse=adversative-antithesis:19->17:2:_|SpaceAfter=No
@@ -135,7 +135,7 @@
 28	will	will	AUX	MD	VerbForm=Fin	31	aux	31:aux	_
 29	be	be	AUX	VB	VerbForm=Inf	31	aux:pass	31:aux:pass	_
 30	well	well	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
-31	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	11:parataxis	MSeg=know-n
+31	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	11:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=know-n
 32	to	to	ADP	IN	_	35	case	35:case	_
 33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	_
 34	Citibank	Citibank	PROPN	NNP	Number=Sing	35	compound	35:compound	Entity=(14-person-new-cf5-2-sgl(15-organization-new-cf8-1-coref-Citibank)
@@ -144,7 +144,7 @@
 37	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	40	cop	40:cop	_
 38	currently	currently	ADV	RB	Degree=Pos	40	advmod	40:advmod	MSeg=current-ly
 39	in	in	ADP	IN	_	40	case	40:case	_
-40	litigation	litigation	NOUN	NN	Number=Sing	35	acl:relcl	35:acl:relcl	Entity=(16-abstract-new-cf6-1-sgl)
+40	litigation	litigation	NOUN	NN	Number=Sing	35	acl:relcl	35:acl:relcl	Entity=(16-abstract-new-cf6-1-sgl)|MSeg=litig-at-ion
 41	with	with	ADP	IN	_	40	obl	40:obl	Entity=14)
 42	in	in	ADP	IN	_	46	case	46:case	_
 43	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	46:det	Entity=(17-time-new-cf7-4-sgl
@@ -192,7 +192,7 @@
 # text = PS: I took the liberty of buying the corporate phone directory and locating information on your outstanding disputed credit accounts from an internet dealer today, and can probably make you better known to your customers than the security measures you enact at your company indicate you would like.
 # newpar
 # newpar_block = p (3 s)
-1	PS	PS	X	FW	_	4	discourse	4:discourse	Discourse=organization-preparation:24->28:3:_|SpaceAfter=No
+1	PS	PS	X	FW	Abbr=Yes	4	discourse	4:discourse	Discourse=organization-preparation:24->28:3:_|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	punct	1:punct	_
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|31:nsubj	Discourse=mode-means:25->28:1:_|Entity=(2-person-giv:act-cf1*-1-ana)
 4	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -201,16 +201,16 @@
 7	of	of	SCONJ	IN	_	8	mark	8:mark	Discourse=elaboration-attribute:26->25:0:_
 8	buying	buy	VERB	VBG	VerbForm=Ger	6	acl	6:acl:of	MSeg=buy-ing
 9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=15<21|Entity=(21-object-acc:inf-cf3-4-sgl
-10	corporate	corporate	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+10	corporate	corporate	ADJ	JJ	Degree=Pos	12	amod	12:amod	MSeg=corpor-ate
 11	phone	phone	NOUN	NN	Number=Sing	12	compound	12:compound	_
-12	directory	directory	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=21)
+12	directory	directory	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=21)|MSeg=direct-or-y
 13	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-list_m:27->26:0:_
-14	locating	locate	VERB	VBG	VerbForm=Ger	8	conj	6:acl:of|8:conj:and	_
+14	locating	locate	VERB	VBG	VerbForm=Ger	8	conj	6:acl:of|8:conj:and	MSeg=loc-at-ing
 15	information	information	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(22-abstract-new-cf4-1-sgl|MSeg=in-form-ation
 16	on	on	ADP	IN	_	21	case	21:case	_
 17	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(23-abstract-new-cf7-5-sgl(3-person-giv:act-cf2-1-ana)
 18	outstanding	outstanding	ADJ	JJ	Degree=Pos	21	amod	21:amod	MSeg=out-stand-ing
-19	disputed	disputed	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
+19	disputed	disputed	ADJ	JJ	Degree=Pos	21	amod	21:amod	MSeg=disput-ed
 20	credit	credit	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(24-abstract-new-cf8-2-sgl
 21	accounts	account	NOUN	NNS	Number=Plur	15	nmod	15:nmod:on	Entity=24)23)22)|MSeg=account-s
 22	from	from	ADP	IN	_	25	case	25:case	_
@@ -258,13 +258,13 @@
 6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	sure	sure	ADJ	JJ	Degree=Pos	1	advcl	1:advcl:as	SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	13:punct	_
-9	being	be	AUX	VBG	VerbForm=Ger	13	cop	13:cop	Discourse=context-background:35->38:0:_|Entity=(31-abstract-new-cf4-5-disc|MSeg=be-ing
+9	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	13	cop	13:cop	Discourse=context-background:35->38:0:_|Entity=(31-abstract-new-cf4-5-disc|MSeg=be-ing
 10	in	in	ADP	IN	_	13	case	13:case	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(32-abstract-new-cf8-3-sgl
 12	collections	collection	NOUN	NNS	Number=Plur	13	compound	13:compound	MSeg=collect-ion-s
 13	business	business	NOUN	NN	Number=Sing	7	advcl	7:advcl	Entity=32)31)|MSeg=busi-ness
 14	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-list_m:36->35:0:_
-15	having	have	VERB	VBG	VerbForm=Ger	13	conj	7:advcl|13:conj:and	Entity=(8-abstract-giv:inact-cf5-1-coref|MSeg=hav-ing
+15	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	13	conj	7:advcl|13:conj:and	Entity=(8-abstract-giv:inact-cf5-1-coref|MSeg=hav-ing
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
 17	attitude	attitude	NOUN	NN	Number=Sing	15	obj	15:obj|22:obj	Entity=(33-abstract-new-cf7-1-sgl
 18	about	about	ADP	IN	_	19	case	19:case	_

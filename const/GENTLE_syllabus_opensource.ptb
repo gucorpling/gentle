@@ -265,7 +265,7 @@
       (VP
         (VB meet)
         (PP-LOC (IN in) (NP (NNP Sage) (CD 5510)))
-        (PP-TMP (IN on) (NP (JJ Tuesdays) (CC and) (NNS Fridays)))
+        (PP-TMP (IN on) (NP (NNPS Tuesdays) (CC and) (NNPS Fridays)))
         (PP-TMP
           (PP-TMP (IN from) (NP-TMP (CD 10:30) (NN pm)))
           (SYM -)
@@ -1140,7 +1140,7 @@
                 (NP
                   (NP
                     (NP (DT the) (NNP Dean))
-                    (PP (IN of) (NP (NNP Academic) (NNP Affairs))))
+                    (PP (IN of) (NP (NNP Academic) (NNPS Affairs))))
                   (CC and)
                   (NP
                     (CC either)

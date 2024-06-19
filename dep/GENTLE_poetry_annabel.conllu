@@ -148,11 +148,11 @@
 3	love	love	NOUN	NN	Number=Sing	0	root	0:root|10:obj	_
 4	that	that	PRON	WDT	PronType=Rel	10	obj	3:ref	Discourse=elaboration-attribute:13->12:0:_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(14-person-new-cf4-3-coref
-6	winged	winged	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+6	winged	winged	ADJ	JJ	Degree=Pos	7	amod	7:amod	MSeg=wing-ed
 7	seraphs	seraph	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	_
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	heaven	heaven	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=(15-place-new-cf5-1-coref-Heaven)14)
-10	Coveted	covet	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Cxn=Ditransitive
+10	Coveted	covet	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Cxn=Ditransitive|MSeg=Covet-ed
 11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	10:iobj	Entity=(1-person-giv:act-cf1*-1-ana)
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
 13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	conj	10:iobj|11:conj:and	Entity=(10-person-giv:act-cf2-1-ana)11)|SpaceAfter=No
@@ -190,7 +190,7 @@
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(17-object-new-cf7-2-coref
 24	cloud	cloud	NOUN	NN	Number=Sing	20	obl	20:obl:out_of	Entity=17)|SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	26:punct	_
-26	chilling	chill	VERB	VBG	VerbForm=Ger	20	advcl	20:advcl	Discourse=causal-result:16->15:0:_|MSeg=chill-ing
+26	chilling	chill	VERB	VBG	Tense=Pres|VerbForm=Part	20	advcl	20:advcl	Discourse=causal-result:16->15:0:_|MSeg=chill-ing
 27	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(1-person-giv:act-cf3-3,4-coref(10-person-giv:act-cf2-1-ana)
 28	beautiful	beautiful	ADJ	JJ	Degree=Pos	29	amod	29:amod	MSeg=beauti-ful
 29	ANNABEL	Annabel	PROPN	NNP	Number=Sing	26	obj	26:obj	_
@@ -202,7 +202,7 @@
 # s_type = decl
 # transition = smooth-shift
 # text = So that her highborn kinsman came And bore her away from me, To shut her up in a sepulchre In this kingdom by the sea.
-1	So	so	ADP	IN	_	6	advmod	6:advmod	Discourse=causal-result:17->14:1:_
+1	So	so	ADP	IN	_	6	advmod	6:advmod	Discourse=causal-result:17->14:1:_|ExtPos=ADV
 2	that	that	SCONJ	IN	_	1	fixed	1:fixed	_
 3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(18-person-new-cf5-3-sgl(1-person-giv:act-cf1*-1-ana)
 4	highborn	highborn	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
@@ -248,7 +248,7 @@
 9	heaven	heaven	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=(15-place-giv:inact-cf4-1-coref-Heaven)|SpaceAfter=No
 10	,	,	PUNCT	,	_	2	punct	2:punct	_
 11	Went	went	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-12	envying	envy	VERB	VBG	VerbForm=Ger	11	xcomp	11:xcomp	_
+12	envying	envy	VERB	VBG	VerbForm=Ger	11	xcomp	11:xcomp	MSeg=envy-ing
 13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj	Entity=(1-person-giv:act-cf1*-1-ana)
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	conj	12:obj|13:conj:and	Entity=(10-person-giv:act-cf2-1-ana)20)
@@ -290,9 +290,9 @@
 29	by	by	ADP	IN	_	30	case	30:case	_
 30	night	night	NOUN	NN	Number=Sing	24	obl	24:obl:by	Entity=(22-time-new-cf9-1-sgl)|SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	32:punct	_
-32	Chilling	chill	VERB	VBG	VerbForm=Ger	24	advcl	24:advcl	Discourse=causal-result:25->24:0:_
+32	Chilling	chill	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	24:advcl	Discourse=causal-result:25->24:0:_|MSeg=Chill-ing
 33	and	and	CCONJ	CC	_	34	cc	34:cc	_
-34	killing	kill	VERB	VBG	VerbForm=Ger	32	conj	24:advcl|32:conj:and	MSeg=kill-ing
+34	killing	kill	VERB	VBG	Tense=Pres|VerbForm=Part	32	conj	24:advcl|32:conj:and	MSeg=kill-ing
 35	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	36:nmod:poss	Entity=(1-person-giv:act-cf3-2,3-coref(10-person-giv:act-cf2-1-ana)
 36	ANNABEL	Annabel	PROPN	NNP	Number=Sing	32	obj	32:obj|34:obj	_
 37	LEE	Lee	PROPN	NNP	Number=Sing	36	flat	36:flat	Entity=1)20)|SpaceAfter=No
@@ -320,7 +320,7 @@
 13	those	this	PRON	DT	Number=Plur|PronType=Dem	11	nmod	11:nmod:of|16:nsubj	Entity=(24-person-new-cf4-1-sgl
 14	who	who	PRON	WP	PronType=Rel	16	nsubj	13:ref	Discourse=elaboration-attribute:27->26:0:_
 15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	cop	16:cop	_
-16	older	old	ADJ	JJR	Degree=Cmp	13	acl:relcl	13:acl:relcl	_
+16	older	old	ADJ	JJR	Degree=Cmp	13	acl:relcl	13:acl:relcl	MSeg=old-er
 17	than	than	ADP	IN	_	18	case	18:case	_
 18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	obl	16:obl:than	Entity=(12-person-giv:act-cf2-1-ana)24)
 19	—	—	PUNCT	:	_	6	punct	6:punct	_
@@ -333,7 +333,7 @@
 1	Of	of	ADP	IN	_	2	case	2:case	Discourse=same-unit_m:28->26:1:_
 2	many	many	ADJ	JJ	Degree=Pos	0	root	0:root	Entity=(25-person-new-cf2-1-sgl
 3	far	far	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-4	wiser	wise	ADJ	JJR	Degree=Cmp	2	amod	2:amod	_
+4	wiser	wise	ADJ	JJR	Degree=Cmp	2	amod	2:amod	MSeg=wis-er
 5	than	than	ADP	IN	_	6	case	6:case	_
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	obl	4:obl:than	Entity=(12-person-giv:act-cf1*-1-ana)25)
 7	—	—	PUNCT	:	_	2	punct	2:punct	_
@@ -359,7 +359,7 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(5-place-giv:inact-cf4-2-coref
 15	sea	sea	NOUN	NN	Number=Sing	11	nmod	11:nmod:under	Entity=5)26)|SpaceAfter=No
 16	,	,	PUNCT	,	_	4	punct	4:punct	_
-17	Can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	19	aux	19:aux	_
+17	Can	can	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
 18	ever	ever	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
 19	dissever	dissever	VERB	VB	VerbForm=Inf	0	root	0:root	_
 20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(27-abstract-new-cf6-2-sgl(10-person-giv:inact-cf1-1-ana)
@@ -388,7 +388,7 @@
 5	beams	beam	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	8:punct	_
 7	without	without	SCONJ	IN	_	8	mark	8:mark	Discourse=mode-manner:31->30:0:_
-8	bringing	bring	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:without	Cxn=Ditransitive|MSeg=bring-ing
+8	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:without	Cxn=Ditransitive|MSeg=bring-ing
 9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	iobj	8:iobj	Entity=(10-person-giv:act-cf1*-1-ana)
 10	dreams	dream	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=(30-abstract-new-cf4-1,6-sgl|MSeg=dream-s
 11	Of	of	ADP	IN	_	14	case	14:case	_
@@ -444,10 +444,10 @@
 15	side	side	NOUN	NN	Number=Sing	11	obl	11:obl:by	_
 16	Of	of	ADP	IN	_	18	case	18:case	_
 17	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(1-person-giv:act-cf2-2-coref(10-person-giv:act-cf1*-1-ana)
-18	darling	darling	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=1)35)|SpaceAfter=No|XML=<w>
+18	darling	darling	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=1)35)|MSeg=darl-ing|SpaceAfter=No|XML=<w>
 19	—	—	PUNCT	:	_	21	punct	21:punct	Discourse=restatement-partial:35->34:0:_|SpaceAfter=No
 20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(1-person-giv:act-cf2-2-appos(10-person-giv:act-cf1*-1-ana)|XML=</w>
-21	darling	darling	NOUN	NN	Number=Sing	18	appos	18:appos	Entity=1)|SpaceAfter=No|XML=<w>
+21	darling	darling	NOUN	NN	Number=Sing	18	appos	18:appos	Entity=1)|MSeg=darl-ing|SpaceAfter=No|XML=<w>
 22	—	—	PUNCT	:	_	24	punct	24:punct	SpaceAfter=No
 23	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Discourse=same-unit_m:36->34:1:_|Entity=(1-person-giv:act-cf2-2,5-coref(36-abstract-new-cf7-2-sgl(10-person-giv:act-cf1*-1-ana)|XML=</w>
 24	life	life	NOUN	NN	Number=Sing	18	appos	18:appos	Entity=36)

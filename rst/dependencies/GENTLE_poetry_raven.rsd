@@ -84,7 +84,7 @@
 84	wandering from the Nightly shore —	0	_	_	pos1=VVG|head_tok=wander|head_pos=VVG|head_id=577|parent_posNP|sid=32|stype=decl|len=6|head_func=acl|edu_tense=None|subord=LEFT	83	elaboration-attribute_r	_	_
 85	Tell me what thy lordly name is on the Night 's Plutonian shore ! "	1	_	_	pos1=VV|head_tok=tell|head_pos=VV|head_id=583|parent_pos=_|sid=33|stype=imp|len=15|head_func=root|edu_tense=None	87	topic-question_r	_	_
 86	Quoth the Raven ,	0	_	_	pos1=VVZ|head_tok=quoth|head_pos=VVZ|head_id=598|parent_pos=_|sid=34|stype=decl|len=4|head_func=root|edu_tense=Pres	87	attribution-positive_r	_	_
-87	" Nevermore . "	4	_	_	pos1=``|head_tok=Nevermore|head_pos=RB|head_id=603|parent_posVVZ|sid=34|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	183	context-background_r	_	_
+87	" Nevermore . "	4	_	_	pos1=``|head_tok=Nevermore|head_pos=NP|head_id=603|parent_posVVZ|sid=34|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	183	context-background_r	_	_
 88	Much I marvelled this ungainly fowl to hear discourse so plainly ,	2	_	_	pos1=RB|head_tok=marvel|head_pos=VVD|head_id=608|parent_pos=_|sid=35|stype=decl|len=12|head_func=root|edu_tense=PastSimp|para=para	87	evaluation-comment_r	_	_
 89	Though its answer little meaning — little relevancy bore ;	0	_	_	pos1=IN|head_tok=bear|head_pos=VVD|head_id=626|parent_pos=_|sid=36|stype=decl|len=10|head_func=root|edu_tense=PastSimp	88	adversative-concession_r	_	_
 90	For we can not help agreeing	0	_	_	pos1=IN|head_tok=help|head_pos=VV|head_id=632|parent_pos=_|sid=37|stype=sub|len=6|head_func=root|edu_tense=Modal	91	attribution-positive_r	_	_
@@ -95,13 +95,13 @@
 95	as if his soul in that one word he did outpour .	1	_	_	pos1=IN|head_tok=outpour|head_pos=VV|head_id=698|parent_posVVD|sid=38|stype=decl|len=12|head_func=advcl|edu_tense=None|subord=LEFT	92	mode-manner_r	_	_
 96	Nothing farther then he uttered ;	2	_	_	pos1=NN|head_tok=utter|head_pos=VVD|head_id=704|parent_pos=_|sid=39|stype=decl|len=6|head_func=root|edu_tense=PastSimp	92	adversative-antithesis_r	_	_
 97	not a feather then he fluttered —	0	_	_	pos1=RB|head_tok=flutter|head_pos=VVD|head_id=711|parent_pos=_|sid=40|stype=decl|len=7|head_func=root|edu_tense=PastSimp	96	joint-list_m	_	_
-98	Till I scarcely more	2	_	_	pos1=IN|head_tok=more|head_pos=RBR|head_id=716|parent_posVVN|sid=41|stype=other|len=4|head_func=advmod|edu_tense=None|subord=RIGHT	101	attribution-positive_r	_	_
-99	than muttered	0	_	_	pos1=IN|head_tok=mutter|head_pos=VVN|head_id=718|parent_pos=_|sid=41|stype=other|len=2|head_func=root|edu_tense=None|subord=LEFT	98	adversative-antithesis_r	_	_
+98	Till I scarcely more	2	_	_	pos1=IN|head_tok=more|head_pos=RBR|head_id=716|parent_posVVD|sid=41|stype=other|len=4|head_func=advmod|edu_tense=None|subord=RIGHT	101	attribution-positive_r	_	_
+99	than muttered	0	_	_	pos1=IN|head_tok=mutter|head_pos=VVD|head_id=718|parent_pos=_|sid=41|stype=other|len=2|head_func=root|edu_tense=PastSimp|subord=LEFT	98	adversative-antithesis_r	_	_
 100	" Other friends have flown before —	1	_	_	pos1=``|head_tok=flow|head_pos=VVN|head_id=723|parent_pos=_|sid=42|stype=decl|len=7|head_func=root|edu_tense=PresPerf	101	explanation-justify_r	_	_
 101	On the morrow he will leave me ,	4	_	_	pos1=IN|head_tok=leave|head_pos=VV|head_id=731|parent_pos=_|sid=43|stype=decl|len=8|head_func=root|edu_tense=Fut	87	evaluation-comment_r	_	_
 102	as my Hopes have flown before . "	0	_	_	pos1=IN|head_tok=flow|head_pos=VVN|head_id=738|parent_posVV|sid=43|stype=decl|len=8|head_func=advcl|edu_tense=PresPerf|subord=LEFT	101	mode-manner_r	_	_
 103	Then the bird said	0	_	_	pos1=RB|head_tok=say|head_pos=VVD|head_id=745|parent_pos=_|sid=44|stype=decl|len=4|head_func=root|edu_tense=PastSimp	104	attribution-positive_r	_	_
-104	" Nevermore . "	5	_	_	pos1=``|head_tok=Nevermore|head_pos=RB|head_id=747|parent_posVVD|sid=44|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	87	restatement-partial_r	_	_
+104	" Nevermore . "	5	_	_	pos1=``|head_tok=nevermore|head_pos=RB|head_id=747|parent_posVVD|sid=44|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	87	restatement-partial_r	_	_
 105	Startled at the stillness	1	_	_	pos1=VVN|head_tok=startle|head_pos=VVN|head_id=750|parent_posVVD|sid=45|stype=decl|len=4|head_func=advcl|edu_tense=None|subord=RIGHT|para=para	108	mode-manner_r	_	_
 106	broken by reply	0	_	_	pos1=VVN|head_tok=break|head_pos=VVN|head_id=754|parent_posNN|sid=45|stype=decl|len=3|head_func=acl|edu_tense=None|subord=LEFT	105	elaboration-attribute_r	_	_
 107	so aptly spoken ,	0	_	_	pos1=RB|head_tok=speak|head_pos=VVN|head_id=759|parent_posNN|sid=45|stype=decl|len=4|head_func=acl|edu_tense=None|subord=RIGHT	106	mode-manner_r	_	_
@@ -119,8 +119,8 @@
 119	upon the velvet sinking ,	0	_	_	pos1=IN|head_tok=sinking|head_pos=NN|head_id=848|parent_posVVD|sid=49|stype=decl|len=5|head_func=advcl|edu_tense=None|subord=RIGHT	120	context-circumstance_r	_	_
 120	I betook myself to linking Fancy unto fancy ,	0	_	_	pos1=PP|head_tok=betak|head_pos=VVD|head_id=851|parent_pos=_|sid=49|stype=decl|len=9|head_func=root|edu_tense=PastSimp	118	same-unit_m	_	_
 121	thinking what this ominous bird of yore — What this grim , ungainly , ghastly , gaunt , and ominous bird of yore Meant	1	_	_	pos1=VVG|head_tok=think|head_pos=VVG|head_id=859|parent_posVVG|sid=49|stype=decl|len=24|head_func=advcl|edu_tense=None|subord=LEFT	117	joint-sequence_m	_	_
-122	in croaking	0	_	_	pos1=IN|head_tok=croak|head_pos=VVG|head_id=884|parent_posVVN|sid=49|stype=decl|len=2|head_func=advcl|edu_tense=None|subord=LEFT	123	attribution-positive_r	_	_
-123	" Nevermore . "	0	_	_	pos1=``|head_tok=Nevermore|head_pos=NN|head_id=886|parent_posVVG|sid=49|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	121	mode-means_r	_	_
+122	in croaking	0	_	_	pos1=IN|head_tok=croak|head_pos=VVG|head_id=884|parent_posVVD|sid=49|stype=decl|len=2|head_func=advcl|edu_tense=None|subord=LEFT	123	attribution-positive_r	_	_
+123	" Nevermore . "	0	_	_	pos1=``|head_tok=nevermore|head_pos=RB|head_id=886|parent_posVVG|sid=49|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	121	mode-means_r	_	_
 124	This I sat	0	_	_	pos1=DT|head_tok=sit|head_pos=VVD|head_id=891|parent_pos=_|sid=50|stype=decl|len=3|head_func=root|edu_tense=PastSimp|subord=RIGHT|para=para	125	context-circumstance_r	_	_
 125	engaged in guessing ,	6	_	_	pos1=VVN|head_tok=engage|head_pos=VVN|head_id=892|parent_posVVD|sid=50|stype=decl|len=4|head_func=xcomp|edu_tense=None|subord=RIGHT	87	joint-sequence_m	_	_
 126	but no syllable expressing To the fowl	1	_	_	pos1=CC|head_tok=express|head_pos=VVG|head_id=899|parent_posVVD|sid=50|stype=decl|len=7|head_func=conj|edu_tense=None|subord=LEFT	125	adversative-contrast_m	_	_
@@ -144,7 +144,7 @@
 144	Quaff , oh quaff this kind nepenthe	0	_	_	pos1=VV|head_tok=quaff|head_pos=VV|head_id=1021|parent_pos=_|sid=55|stype=decl|len=7|head_func=root|edu_tense=None	145	mode-means_r	_	_
 145	and forget this lost Lenore ! "	2	_	_	pos1=CC|head_tok=forget|head_pos=VV|head_id=1029|parent_posVV|sid=55|stype=decl|len=7|head_func=conj|edu_tense=None|subord=LEFT	147	adversative-antithesis_r	_	_
 146	Quoth the Raven ,	0	_	_	pos1=VVZ|head_tok=quoth|head_pos=VVZ|head_id=1035|parent_pos=_|sid=56|stype=decl|len=4|head_func=root|edu_tense=Pres	147	attribution-positive_r	_	_
-147	" Nevermore . "	6	_	_	pos1=``|head_tok=Nevermore|head_pos=RB|head_id=1040|parent_posVVZ|sid=56|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	87	joint-sequence_m	_	_
+147	" Nevermore . "	6	_	_	pos1=``|head_tok=nevermore|head_pos=RB|head_id=1040|parent_posVVZ|sid=56|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	87	joint-sequence_m	_	_
 148	" Prophet ! "	1	_	_	pos1=``|head_tok=Prophet|head_pos=NN|head_id=1044|parent_pos=_|sid=57|stype=decl|len=4|head_func=parataxis|edu_tense=None|para=para	147	evaluation-comment_r	_	_
 149	said I ,	0	_	_	pos1=VVD|head_tok=say|head_pos=VVD|head_id=1047|parent_posNN|sid=57|stype=decl|len=3|head_func=parataxis|edu_tense=PastSimp|subord=LEFT	148	elaboration-attribute_r	_	_
 150	" thing of evil !	1	_	_	pos1=``|head_tok=thing|head_pos=NN|head_id=1051|parent_posNN|sid=57|stype=decl|len=5|head_func=parataxis|edu_tense=None|subord=LEFT	148	adversative-contrast_m	_	_
@@ -163,7 +163,7 @@
 163	tell me ,	0	_	_	pos1=VV|head_tok=tell|head_pos=VV|head_id=1116|parent_posVVP|sid=61|stype=multiple|len=3|head_func=ccomp|edu_tense=None|subord=RIGHT	162	restatement-repetition_m	_	_
 164	I implore ! "	1	_	_	pos1=PP|head_tok=implore|head_pos=VVP|head_id=1120|parent_posVV|sid=61|stype=multiple|len=4|head_func=parataxis|edu_tense=Pres|subord=LEFT	162	explanation-motivation_r	_	_
 165	Quoth the Raven ,	0	_	_	pos1=VVZ|head_tok=quoth|head_pos=VVZ|head_id=1123|parent_pos=_|sid=62|stype=decl|len=4|head_func=root|edu_tense=Pres	166	attribution-positive_r	_	_
-166	" Nevermore . "	4	_	_	pos1=``|head_tok=Nevermore|head_pos=RB|head_id=1128|parent_posVVZ|sid=62|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	147	restatement-partial_r	_	_
+166	" Nevermore . "	4	_	_	pos1=``|head_tok=nevermore|head_pos=RB|head_id=1128|parent_posVVZ|sid=62|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	147	restatement-partial_r	_	_
 167	" Prophet ! "	2	_	_	pos1=``|head_tok=Prophet|head_pos=NN|head_id=1132|parent_pos=_|sid=63|stype=decl|len=4|head_func=parataxis|edu_tense=None|para=para	166	evaluation-comment_r	_	_
 168	said I ,	0	_	_	pos1=VVD|head_tok=say|head_pos=VVD|head_id=1135|parent_posNN|sid=63|stype=decl|len=3|head_func=parataxis|edu_tense=PastSimp|subord=LEFT	167	attribution-positive_r	_	_
 169	" thing of evil —	1	_	_	pos1=``|head_tok=thing|head_pos=NN|head_id=1139|parent_posNN|sid=63|stype=decl|len=5|head_func=parataxis|edu_tense=None|subord=LEFT	167	adversative-contrast_m	_	_
@@ -180,7 +180,7 @@
 180	Clasp a rare and radiant maiden	1	_	_	pos1=VV|head_tok=clasp|head_pos=VV|head_id=1191|parent_pos=_|sid=68|stype=other|len=6|head_func=root|edu_tense=None	178	restatement-partial_r	_	_
 181	whom the angels name Lenore . '	0	_	_	pos1=WP|head_tok=name|head_pos=VVP|head_id=1200|parent_posNN|sid=68|stype=other|len=7|head_func=acl:relcl|edu_tense=Pres|subord=LEFT	180	elaboration-attribute_r	_	_
 182	Quoth the Raven ,	0	_	_	pos1=VVZ|head_tok=quoth|head_pos=VVZ|head_id=1204|parent_pos=_|sid=69|stype=decl|len=4|head_func=root|edu_tense=Pres	183	attribution-positive_r	_	_
-183	" Nevermore . "	0	_	_	pos1=``|head_tok=Nevermore|head_pos=RB|head_id=1209|parent_posVVZ|sid=69|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	0	ROOT	_	_
+183	" Nevermore . "	0	_	_	pos1=``|head_tok=nevermore|head_pos=RB|head_id=1209|parent_posVVZ|sid=69|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	0	ROOT	_	_
 184	" Be that word our sign	2	_	_	pos1=``|head_tok=sign|head_pos=NN|head_id=1217|parent_posVVD|sid=70|stype=decl|len=6|head_func=ccomp|edu_tense=None|subord=RIGHT|para=para	183	evaluation-comment_r	_	_
 185	of parting ,	0	_	_	pos1=IN|head_tok=parting|head_pos=NN|head_id=1219|parent_posNN|sid=70|stype=decl|len=3|head_func=nmod|edu_tense=None|subord=LEFT	184	elaboration-attribute_r	_	_
 186	bird or fiend ! "	1	_	_	pos1=NN|head_tok=bird|head_pos=NN|head_id=1221|parent_posNN|sid=70|stype=decl|len=5|head_func=vocative|edu_tense=None|subord=LEFT	184	same-unit_m	_	_
@@ -194,7 +194,7 @@
 194	Take thy beak from out my heart ,	3	_	_	pos1=VV|head_tok=take|head_pos=VV|head_id=1273|parent_pos=_|sid=75|stype=imp|len=8|head_func=root|edu_tense=None|subord=RIGHT	189	restatement-partial_r	_	_
 195	and take thy form from off my door ! "	0	_	_	pos1=CC|head_tok=take|head_pos=VV|head_id=1282|parent_posVV|sid=75|stype=imp|len=10|head_func=conj|edu_tense=None|subord=LEFT	194	joint-list_m	_	_
 196	Quoth the Raven ,	0	_	_	pos1=VVZ|head_tok=quoth|head_pos=VVZ|head_id=1291|parent_pos=_|sid=76|stype=decl|len=4|head_func=root|edu_tense=Pres	197	attribution-positive_r	_	_
-197	" Nevermore . "	3	_	_	pos1=``|head_tok=Nevermore|head_pos=RB|head_id=1296|parent_posVVZ|sid=76|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	183	restatement-partial_r	_	_
+197	" Nevermore . "	3	_	_	pos1=``|head_tok=nevermore|head_pos=RB|head_id=1296|parent_posVVZ|sid=76|stype=decl|len=4|head_func=ccomp|edu_tense=None|subord=LEFT	183	restatement-partial_r	_	_
 198	And the Raven ,	2	_	_	pos1=CC|head_tok=Raven|head_pos=NN|head_id=1301|parent_posVVG|sid=77|stype=decl|len=4|head_func=nsubj|edu_tense=None|subord=RIGHT|para=para	207	causal-cause_r	_	_
 199	never flitting ,	0	_	_	pos1=RB|head_tok=flit|head_pos=VVG|head_id=1304|parent_posVVG|sid=77|stype=decl|len=3|head_func=advcl|edu_tense=None|subord=RIGHT	198	elaboration-attribute_r	_	_
 200	still is sitting ,	1	_	_	pos1=RB|head_tok=sit|head_pos=VVG|head_id=1308|parent_pos=_|sid=77|stype=decl|len=4|head_func=root|edu_tense=PresProg|subord=RIGHT	198	same-unit_m	_	_

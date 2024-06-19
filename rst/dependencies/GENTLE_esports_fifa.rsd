@@ -61,7 +61,7 @@
 61	we need to get through Manchester City	1	_	_	pos1=PP|head_tok=need|head_pos=VVP|head_id=448|parent_posNN|sid=19|stype=decl|len=7|head_func=conj|edu_tense=Pres|subord=LEFT	59	same-unit_m	_	_
 62	and that is a poor pass by Paquetá .	3	_	_	pos1=CC|head_tok=pass|head_pos=NN|head_id=459|parent_posVVP|sid=19|stype=decl|len=9|head_func=conj|edu_tense=Pres|subord=LEFT	17	joint-sequence_m	_	_
 63	Here 's Paquetá now	1	_	_	pos1=RB|head_tok=here|head_pos=RB|head_id=463|parent_pos=_|sid=20|stype=decl|len=4|head_func=root|edu_tense=None|subord=RIGHT	64	organization-preparation_r	_	_
-64	finding Galano ,	0	_	_	pos1=VVG|head_tok=find|head_pos=VVG|head_id=467|parent_posNP|sid=20|stype=decl|len=3|head_func=acl|edu_tense=None|subord=RIGHT	62	joint-sequence_m	_	_
+64	finding Galano ,	0	_	_	pos1=VVG|head_tok=find|head_pos=VVG|head_id=467|parent_posRB|sid=20|stype=decl|len=3|head_func=advcl|edu_tense=None|subord=RIGHT	62	joint-sequence_m	_	_
 65	Galano is in behind	0	_	_	pos1=NP|head_tok=behind|head_pos=RB|head_id=473|parent_posRB|sid=20|stype=decl|len=4|head_func=parataxis|edu_tense=Pres|subord=LEFT	64	context-circumstance_r	_	_
 66	that is great stuff	2	_	_	pos1=DT|head_tok=stuff|head_pos=NN|head_id=477|parent_posRB|sid=20|stype=decl|len=4|head_func=parataxis|edu_tense=Pres|subord=LEFT	64	evaluation-comment_r	_	_
 67	Galano and maybe could have went to ground	0	_	_	pos1=NP|head_tok=go|head_pos=VVN|head_id=483|parent_posNN|sid=20|stype=decl|len=8|head_func=parataxis|edu_tense=PresPerf|subord=LEFT	62	joint-sequence_m	_	_

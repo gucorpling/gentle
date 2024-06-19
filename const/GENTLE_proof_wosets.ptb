@@ -474,7 +474,7 @@
     (, ,)
     (NP-SBJ
       (NP (DT the) (JJS smallest) (NN element))
-      (PP (IN of) (NP (NN X) (SYM ∖) (NNP T))))
+      (PP (IN of) (NP (NN X) (SYM ∖) (NN T))))
     (VP
       (VBZ is)
       (NP-PRD (NP (DT an) (NN element)) (PP (IN of) (NP (NN S)))))

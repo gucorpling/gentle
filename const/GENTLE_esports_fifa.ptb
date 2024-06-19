@@ -627,7 +627,7 @@
 
 (ROOT
   (S
-    (S
+    (S-ADV
       (ADVP-PRD (RB Here))
       (VP (VBZ 's))
       (NP-SBJ (NNP Paquetá))

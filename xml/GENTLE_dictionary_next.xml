@@ -11,7 +11,7 @@ English	NP	English	NP0	PROPN	root	Engl-ish
 </head>
 <s type="frag" transition="null">
 <hi rend="bold">
-Alternative	JJ	alternative	AJ0	ADJ	amod	_
+Alternative	JJ	alternative	AJ0	ADJ	amod	Alternat-ive
 forms	NNS	form	NN2	NOUN	root	form-s
 </hi>
 </s>
@@ -23,7 +23,7 @@ neest	FW	neest	UNC	X	root	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="italic">
-dialectal	JJ	dialectal	AJ0	ADJ	parataxis	_
+dialectal	JJ	dialectal	AJ0	ADJ	parataxis	dialect-al
 </hi>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -59,7 +59,7 @@ nex'	FW	nex'	UNC	X	root	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="italic">
-dialectal	JJ	dialectal	AJ0	ADJ	parataxis	_
+dialectal	JJ	dialectal	AJ0	ADJ	parataxis	dialect-al
 </hi>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -67,7 +67,7 @@ dialectal	JJ	dialectal	AJ0	ADJ	parataxis	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Etymology	NN	etymology	NN1	NOUN	root	_
+Etymology	NN	etymology	NN1	NOUN	root	Etymo-logy
 </hi>
 </s>
 <s type="frag" transition="null">
@@ -103,7 +103,7 @@ nīehste	FW	nīehste	UNC	X	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 etc.	FW	etc.	UNC	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
-inflected	VVN	inflect	VVN	VERB	amod	_
+inflected	VVN	inflect	VVN	VERB	amod	inflect-ed
 forms	NNS	form	NN2	NOUN	appos	form-s
 of	IN	of	PRF	ADP	case	_
 <ref target="https://en.wiktionary.org/wiki/niehst#Old_English">
@@ -147,7 +147,7 @@ closest	JJS	close	AJS	ADJ	conj	clos-est
 ”	''	''	PUQ	PUNCT	punct	_
 )	)	)	PUR	PUNCT	punct	_
 ;	,	;	PUN	PUNCT	punct	_
-equivalent	JJ	equivalent	AJ0	ADJ	parataxis	_
+equivalent	JJ	equivalent	AJ0	ADJ	parataxis	equi-val-ent
 to	IN	to	PRP	ADP	case	_
 <ref target="https://en.wiktionary.org/wiki/nigh#English">
 nigh	JJ	nigh	AJ0	ADJ	obl	_
@@ -162,7 +162,7 @@ nigh	JJ	nigh	AJ0	ADJ	obl	_
 Cognate	NN	cognate	NN1	NOUN	root	_
 with	IN	with	PRP	ADP	case	_
 <ref target="https://en.wikipedia.org/wiki/Saterland_Frisian_language">
-Saterland	NP	Saterland	NP0	PROPN	compound	_
+Saterland	NP	Saterland	NP0	PROPN	compound	Sater-land
 Frisian	NP	Frisian	NP0	ADJ	amod	_
 </ref>
 <ref target="https://en.wiktionary.org/wiki/naist#Saterland_Frisian">
@@ -326,10 +326,10 @@ position	NN	position	NN1	NOUN	conj	_
 having	VHG	have	VHG	VERB	parataxis	hav-ing
 nothing	NN	nothing	NN1	PRON	obj	_
 similar	JJ	similar	AJ0	ADJ	amod	_
-intervening	NN	intervene	NN1	NOUN	xcomp	_
+intervening	VVG	intervene	VVG	VERB	xcomp	interven-ing
 ;	:	;	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/adjoining#English">
-adjoining	VVG	adjoin	VVG	VERB	parataxis	_
+adjoining	VVG	adjoin	VVG	VERB	parataxis	adjoin-ing
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -348,7 +348,7 @@ all	DT	all	DT0	DET	det	_
 night	NN	night	NN1	NOUN	obl:tmod	_
 with	IN	with	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
-snoring	NN	snoring	NN1	NOUN	obl	_
+snoring	NN	snoring	NN1	NOUN	obl	snor-ing
 .	SENT	.	PUN	PUNCT	punct	_
 </hi>
 </s>
@@ -391,7 +391,7 @@ time	NN	time	NN1	NOUN	conj	_
 </item>
 <item>
 <s type="frag" transition="null">
-Nearest	JJ	near	AJ0	ADJ	root	_
+Nearest	JJS	near	AJS	ADJ	root	_
 in	IN	in	PRP	ADP	case	_
 order	NN	order	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -408,7 +408,7 @@ following	VVG	follow	VVG	VERB	parataxis	follow-ing
 or	CC	or	CJC	CCONJ	cc	_
 sometimes	RB	sometimes	AV0	ADV	advmod	sometime-s
 <ref target="https://en.wiktionary.org/wiki/preceding#English">
-preceding	VVG	precede	VVG	VERB	conj	_
+preceding	VVG	precede	VVG	VERB	conj	preced-ing
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 in	IN	in	PRP	ADP	case	_
@@ -429,7 +429,7 @@ page	NN	page	NN1	NOUN	obl	_
 <s type="decl" transition="null">
 <hi rend="italic">
 On	IN	on	PRP	ADP	case	_
-Wednesday	NP	Wednesday	NP0	PROPN	obl	_
+Wednesday	NP	Wednesday	NP0	PROPN	obl	Wednes-day
 next	JJ	next	ORD	ADJ	amod	_
 ,	,	,	PUN	PUNCT	punct	_
 I	PP	I	PNP	PRON	nsubj	_
@@ -476,7 +476,7 @@ become	VV	become	VVI	VERB	acl	be-come
 the	DT	the	AT0	DET	det	_
 next	JJ	next	ORD	ADJ	amod	_
 Bill	NP	Bill	NP0	PROPN	xcomp	_
-Gates	NP	Gate	NP0	PROPN	flat	_
+Gates	NP	Gates	NP0	PROPN	flat	_
 .	SENT	.	PUN	PUNCT	punct	_
 </hi>
 </s>
@@ -575,7 +575,7 @@ contexts	NNS	context	NN2	NOUN	obl	context-s
 </list>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Synonyms	NN	synonym	NN1	NOUN	root	_
+Synonyms	NNS	synonym	NN2	NOUN	root	_
 </hi>
 </s>
 <list type="unordered">
@@ -619,7 +619,7 @@ previous	JJ	previous	AJ0	ADJ	root	_
 </list>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Derived	VVN	derive	VVN	VERB	amod	_
+Derived	VVN	derive	VVN	VERB	amod	Deriv-ed
 terms	NNS	term	NN2	NOUN	root	term-s
 </hi>
 </s>
@@ -636,7 +636,7 @@ day	NN	day	NN1	NOUN	root	_
 </list>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Determiner	NN	determiner	NN1	NOUN	root	_
+Determiner	NN	determiner	NN1	NOUN	root	Determin-er
 </hi>
 </s>
 <s type="frag" transition="establishment">
@@ -899,7 +899,7 @@ cream	NN	cream	NN1	NOUN	nmod	_
 <s type="decl" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="italic">
-conjunctive	JJ	conjunctive	AJ0	ADJ	parataxis	_
+conjunctive	JJ	conjunctive	AJ0	ADJ	parataxis	conjunct-ive
 </hi>
 )	)	)	PUR	PUNCT	punct	_
 So	IN	so	PRP	SCONJ	mark	_
@@ -927,7 +927,7 @@ handles	NNS	handle	NN2	NOUN	obj	_
 next	RB	next	ORD	ADV	advmod	_
 ,	,	,	PUN	PUNCT	punct	_
 we	PP	we	PNP	PRON	nsubj	_
-stripped	VVD	strip	VVD	VERB	parataxis	_
+stripped	VVD	strip	VVD	VERB	parataxis	stripp-ed
 off	RP	off	AVP	ADP	compound:prt	_
 the	DT	the	AT0	DET	det	_
 old	JJ	old	AJ0	ADJ	amod	_
@@ -949,7 +949,7 @@ occasion	NN	occasion	NN1	NOUN	root	_
 </s>
 <hi rend="italic">
 <s type="frag" transition="null">
-Financial	JJ	Financial	AJ0	ADJ	amod	_
+Financial	JJ	Financial	AJ0	ADJ	amod	Financ-ial
 panic	NN	panic	NN1	NOUN	root	_
 ,	,	,	PUN	PUNCT	punct	_
 earthquakes	NNS	earthquake	NN2	NOUN	conj	earthquake-s
@@ -999,7 +999,7 @@ previously	RB	previously	AV0	ADV	root	previous-ly
 </list>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Preposition	NN	preposition	NN1	NOUN	root	_
+Preposition	NN	preposition	NN1	NOUN	root	Pre-pos-it-ion
 </hi>
 </s>
 <s type="frag" transition="null">
@@ -1051,7 +1051,7 @@ next	JJ	next	ORD	ADJ	root	_
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="bold">
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable">
-uncountable	JJ	uncountable	AJ0	ADJ	parataxis	_
+uncountable	JJ	uncountable	AJ0	ADJ	parataxis	un-count-able
 </ref>
 </hi>
 )	)	)	PUR	PUNCT	punct	_

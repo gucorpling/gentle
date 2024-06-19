@@ -6,25 +6,25 @@
 #Text=ANNABEL LEE .
 1-1	0-7	ANNABEL	person[1]	new[1]	nonsal[1]	_	cf1[1]	coref	2-18[8_1]	
 1-2	8-11	LEE	person[1]	new[1]	nonsal[1]	_	cf1[1]	_	_	
-1-3	12-13	.	_	_	_	_		_	_	
+1-3	12-13	.	_	_	_	_	_	_	_	
 
 #Text=IT was many and many a year ago , In a kingdom by the sea , That a maiden there lived whom you may know By the name of ANNABEL LEE ;
 2-1	14-16	IT	event[2]	new[2]	nonsal[2]	_	cf3[2]	_	_	
-2-2	17-20	was	_	_	_	_		_	_	
+2-2	17-20	was	_	_	_	_	_	_	_	
 2-3	21-25	many	time[4]	new[4]	nonsal[4]	_	cf8[4]	_	_	
 2-4	26-29	and	time[4]	new[4]	nonsal[4]	_	cf8[4]	_	_	
 2-5	30-34	many	time[4]	new[4]	nonsal[4]	_	cf8[4]	_	_	
 2-6	35-36	a	time[4]	new[4]	nonsal[4]	_	cf8[4]	_	_	
 2-7	37-41	year	time[4]	new[4]	nonsal[4]	_	cf8[4]	_	_	
 2-8	42-45	ago	time[4]	new[4]	nonsal[4]	_	cf8[4]	_	_	
-2-9	46-47	,	_	_	_	_		_	_	
-2-10	48-50	In	_	_	_	_		_	_	
+2-9	46-47	,	_	_	_	_	_	_	_	
+2-10	48-50	In	_	_	_	_	_	_	_	
 2-11	51-52	a	place[5]	new[5]	nonsal[5]	_	cf7[5]	coref	4-12[25_5]	
 2-12	53-60	kingdom	place[5]	new[5]	nonsal[5]	_	cf7[5]	_	_	
 2-13	61-63	by	place[5]	new[5]	nonsal[5]	_	cf7[5]	_	_	
 2-14	64-67	the	place[5]|place[6]	new[5]|acc:com[6]	nonsal[5]|nonsal[6]	_	cf7[5]|cf4[6]	coref	4-15[26_6]	
 2-15	68-71	sea	place[5]|place[6]	new[5]|acc:com[6]	nonsal[5]|nonsal[6]	_	cf7[5]|cf4[6]	_	_	
-2-16	72-73	,	_	_	_	_		_	_	
+2-16	72-73	,	_	_	_	_	_	_	_	
 2-17	74-78	That	event[7]	acc:com[7]	nonsal[7]	_	cf3[7]	cata	2-1[2_7]	
 2-18	79-80	a	event[7]|person[8]	acc:com[7]|giv:act[8]	nonsal[7]|nonsal[8]	_	cf3[7]|cf1*[8]	coref	3-2[13_8]	
 2-19	81-87	maiden	event[7]|person[8]	acc:com[7]|giv:act[8]	nonsal[7]|nonsal[8]	_	cf3[7]|cf1*[8]	_	_	
@@ -40,49 +40,49 @@
 2-29	130-132	of	event[7]|abstract[11]	acc:com[7]|new[11]	nonsal[7]|nonsal[11]	_	cf3[7]|cf5[11]	_	_	
 2-30	133-140	ANNABEL	event[7]|abstract[11]|abstract[12]	acc:com[7]|new[11]|new[12]	nonsal[7]|nonsal[11]|nonsal[12]	_	cf3[7]|cf5[11]|cf6[12]	_	_	
 2-31	141-144	LEE	event[7]|abstract[11]|abstract[12]	acc:com[7]|new[11]|new[12]	nonsal[7]|nonsal[11]|nonsal[12]	_	cf3[7]|cf5[11]|cf6[12]	_	_	
-2-32	145-146	;	_	_	_	_		_	_	
+2-32	145-146	;	_	_	_	_	_	_	_	
 
 #Text=And this maiden she lived with no other thought Than to love and be loved by me .
-3-1	147-150	And	_	_	_	_		_	_	
+3-1	147-150	And	_	_	_	_	_	_	_	
 3-2	151-155	this	person[13]	giv:act[13]	nonsal[13]	_	cf1*[13]	ana	3-4[14_13]	
 3-3	156-162	maiden	person[13]	giv:act[13]	nonsal[13]	_	cf1*[13]	_	_	
 3-4	163-166	she	person[14]	giv:act[14]	nonsal[14]	_	cf1*[14]	ana	4-6[22_14]	
-3-5	167-172	lived	_	_	_	_		_	_	
-3-6	173-177	with	_	_	_	_		_	_	
+3-5	167-172	lived	_	_	_	_	_	_	_	
+3-6	173-177	with	_	_	_	_	_	_	_	
 3-7	178-180	no	abstract[16]	new[16]	nonsal[16]	_	cf3[16]	_	_	
 3-8	181-186	other	abstract[16]	new[16]	nonsal[16]	_	cf3[16]	_	_	
 3-9	187-194	thought	abstract[16]	new[16]	nonsal[16]	_	cf3[16]	_	_	
-3-10	195-199	Than	_	_	_	_		_	_	
-3-11	200-202	to	_	_	_	_		_	_	
-3-12	203-207	love	_	_	_	_		_	_	
-3-13	208-211	and	_	_	_	_		_	_	
-3-14	212-214	be	_	_	_	_		_	_	
-3-15	215-220	loved	_	_	_	_		_	_	
-3-16	221-223	by	_	_	_	_		_	_	
+3-10	195-199	Than	_	_	_	_	_	_	_	
+3-11	200-202	to	_	_	_	_	_	_	_	
+3-12	203-207	love	_	_	_	_	_	_	_	
+3-13	208-211	and	_	_	_	_	_	_	_	
+3-14	212-214	be	_	_	_	_	_	_	_	
+3-15	215-220	loved	_	_	_	_	_	_	_	
+3-16	221-223	by	_	_	_	_	_	_	_	
 3-17	224-226	me	person[17]	acc:com[17]	nonsal[17]	_	cf2[17]	ana	4-1[18_17]	
-3-18	227-228	.	_	_	_	_		_	_	
+3-18	227-228	.	_	_	_	_	_	_	_	
 
 #Text=I was a child and she was a child , In this kingdom by the sea :
 4-1	229-230	I	person[18]	giv:act[18]	nonsal[18]	_	cf1*[18]	pred	4-3[21_18]	
-4-2	231-234	was	_	_	_	_		_	_	
+4-2	231-234	was	_	_	_	_	_	_	_	
 4-3	235-236	a	person[21]	giv:act[21]	nonsal[21]	_	cf1*[21]	ana	6-1[32_21]	
 4-4	237-242	child	person[21]	giv:act[21]	nonsal[21]	_	cf1*[21]	_	_	
-4-5	243-246	and	_	_	_	_		_	_	
+4-5	243-246	and	_	_	_	_	_	_	_	
 4-6	247-250	she	person[22]	giv:act[22]	nonsal[22]	_	cf2[22]	pred	4-8[24_22]	
-4-7	251-254	was	_	_	_	_		_	_	
+4-7	251-254	was	_	_	_	_	_	_	_	
 4-8	255-256	a	person[24]	giv:act[24]	nonsal[24]	_	cf2[24]	coref	6-3[35_24]	
 4-9	257-262	child	person[24]	giv:act[24]	nonsal[24]	_	cf2[24]	_	_	
-4-10	263-264	,	_	_	_	_		_	_	
-4-11	265-267	In	_	_	_	_		_	_	
+4-10	263-264	,	_	_	_	_	_	_	_	
+4-11	265-267	In	_	_	_	_	_	_	_	
 4-12	268-272	this	place[25]	giv:inact[25]	nonsal[25]	_	cf3[25]	coref	8-12[49_25]	
 4-13	273-280	kingdom	place[25]	giv:inact[25]	nonsal[25]	_	cf3[25]	_	_	
 4-14	281-283	by	place[25]	giv:inact[25]	nonsal[25]	_	cf3[25]	_	_	
 4-15	284-287	the	place[25]|place[26]	giv:inact[25]|giv:inact[26]	nonsal[25]|nonsal[26]	_	cf3[25]|cf4[26]	coref	8-15[50_26]	
 4-16	288-291	sea	place[25]|place[26]	giv:inact[25]|giv:inact[26]	nonsal[25]|nonsal[26]	_	cf3[25]|cf4[26]	_	_	
-4-17	292-293	:	_	_	_	_		_	_	
+4-17	292-293	:	_	_	_	_	_	_	_	
 
 #Text=But we loved with a love that was more than love —
-5-1	294-297	But	_	_	_	_		_	_	
+5-1	294-297	But	_	_	_	_	_	_	_	
 5-2	298-300	we	abstract[27]|person[28]	new[27]|acc:com[28]	nonsal[27]|nonsal[28]	_	cf1[27]|cf2[28]	disc|ana	5-5[30_27]|12-2[90_28]	
 5-3	301-306	loved	abstract[27]	new[27]	nonsal[27]	_	cf1[27]	_	_	
 5-4	307-311	with	abstract[27]	new[27]	nonsal[27]	_	cf1[27]	_	_	
@@ -93,18 +93,18 @@
 5-9	328-332	more	abstract[27]|abstract[30]	new[27]|giv:act[30]	nonsal[27]|nonsal[30]	_	cf1[27]|cf1[30]	_	_	
 5-10	333-337	than	abstract[27]|abstract[30]	new[27]|giv:act[30]	nonsal[27]|nonsal[30]	_	cf1[27]|cf1[30]	_	_	
 5-11	338-342	love	abstract[27]|abstract[30]|abstract[31]	new[27]|giv:act[30]|new[31]	nonsal[27]|nonsal[30]|nonsal[31]	_	cf1[27]|cf1[30]|cf3[31]	_	_	
-5-12	343-344	—	_	_	_	_		_	_	
+5-12	343-344	—	_	_	_	_	_	_	_	
 
 #Text=I and my ANNABEL LEE ;
 6-1	345-346	I	person[32]	giv:inact[32]	nonsal[32]	_	cf1[32]	ana	6-3[36_32]	
-6-2	347-350	and	_	_	_	_		_	_	
+6-2	347-350	and	_	_	_	_	_	_	_	
 6-3	351-353	my	person[35]|person[36]	giv:inact[35]|giv:act[36]	nonsal[35]|nonsal[36]	_	cf2[35]|cf1[36]	ana|ana	7-11[41_35]|7-13[42_36]	
 6-4	354-361	ANNABEL	person[35]	giv:inact[35]	nonsal[35]	_	cf2[35]	_	_	
 6-5	362-365	LEE	person[35]	giv:inact[35]	nonsal[35]	_	cf2[35]	_	_	
-6-6	366-367	;	_	_	_	_		_	_	
+6-6	366-367	;	_	_	_	_	_	_	_	
 
 #Text=With a love that the winged seraphs of heaven Coveted her and me .
-7-1	368-372	With	_	_	_	_		_	_	
+7-1	368-372	With	_	_	_	_	_	_	_	
 7-2	373-374	a	abstract[38]	giv:inact[38]	nonsal[38]	_	cf3[38]	ana	8-2[43_38]	
 7-3	375-379	love	abstract[38]	giv:inact[38]	nonsal[38]	_	cf3[38]	_	_	
 7-4	380-384	that	abstract[38]	giv:inact[38]	nonsal[38]	_	cf3[38]	_	_	
@@ -117,12 +117,12 @@
 7-11	422-425	her	abstract[38]|person[41]	giv:inact[38]|giv:act[41]	nonsal[38]|nonsal[41]	_	cf3[38]|cf1*[41]	coref	8-27[53_41]	
 7-12	426-429	and	abstract[38]	giv:inact[38]	nonsal[38]	_	cf3[38]	_	_	
 7-13	430-432	me	abstract[38]|person[42]	giv:inact[38]|giv:act[42]	nonsal[38]|nonsal[42]	_	cf3[38]|cf2[42]	ana	8-27[54_42]	
-7-14	433-434	.	_	_	_	_		_	_	
+7-14	433-434	.	_	_	_	_	_	_	_	
 
 #Text=And this was the reason that , long ago , In this kingdom by the sea , A wind blew out of a cloud , chilling My beautiful ANNABEL LEE ;
-8-1	435-438	And	_	_	_	_		_	_	
+8-1	435-438	And	_	_	_	_	_	_	_	
 8-2	439-443	this	abstract[43]	giv:act[43]	nonsal[43]	_	cf1*[43]	coref	8-4[48_43]	
-8-3	444-447	was	_	_	_	_		_	_	
+8-3	444-447	was	_	_	_	_	_	_	_	
 8-4	448-451	the	abstract[48]	giv:act[48]	nonsal[48]	_	cf1*[48]	coref	12-2[89_48]	
 8-5	452-458	reason	abstract[48]	giv:act[48]	nonsal[48]	_	cf1*[48]	_	_	
 8-6	459-463	that	abstract[48]	giv:act[48]	nonsal[48]	_	cf1*[48]	_	_	
@@ -150,36 +150,36 @@
 8-28	547-556	beautiful	abstract[48]|person[53]	giv:act[48]|giv:act[53]	nonsal[48]|nonsal[53]	_	cf1*[48]|cf3[53]	_	_	
 8-29	557-564	ANNABEL	abstract[48]|person[53]	giv:act[48]|giv:act[53]	nonsal[48]|nonsal[53]	_	cf1*[48]|cf3[53]	_	_	
 8-30	565-568	LEE	abstract[48]|person[53]	giv:act[48]|giv:act[53]	nonsal[48]|nonsal[53]	_	cf1*[48]|cf3[53]	_	_	
-8-31	569-570	;	_	_	_	_		_	_	
+8-31	569-570	;	_	_	_	_	_	_	_	
 
 #Text=So that her highborn kinsman came And bore her away from me , To shut her up in a sepulchre In this kingdom by the sea .
-9-1	571-573	So	_	_	_	_		_	_	
-9-2	574-578	that	_	_	_	_		_	_	
+9-1	571-573	So	_	_	_	_	_	_	_	
+9-2	574-578	that	_	_	_	_	_	_	_	
 9-3	579-582	her	person[56]|person[57]	new[56]|giv:act[57]	nonsal[56]|nonsal[57]	_	cf5[56]|cf1*[57]	ana	9-9[58_57]	
 9-4	583-591	highborn	person[56]	new[56]	nonsal[56]	_	cf5[56]	_	_	
 9-5	592-599	kinsman	person[56]	new[56]	nonsal[56]	_	cf5[56]	_	_	
-9-6	600-604	came	_	_	_	_		_	_	
-9-7	605-608	And	_	_	_	_		_	_	
-9-8	609-613	bore	_	_	_	_		_	_	
+9-6	600-604	came	_	_	_	_	_	_	_	
+9-7	605-608	And	_	_	_	_	_	_	_	
+9-8	609-613	bore	_	_	_	_	_	_	_	
 9-9	614-617	her	person[58]	giv:act[58]	nonsal[58]	_	cf1*[58]	ana	9-16[60_58]	
-9-10	618-622	away	_	_	_	_		_	_	
-9-11	623-627	from	_	_	_	_		_	_	
+9-10	618-622	away	_	_	_	_	_	_	_	
+9-11	623-627	from	_	_	_	_	_	_	_	
 9-12	628-630	me	person[59]	giv:act[59]	nonsal[59]	_	cf2[59]	ana	10-15[72_59]	
-9-13	631-632	,	_	_	_	_		_	_	
-9-14	633-635	To	_	_	_	_		_	_	
-9-15	636-640	shut	_	_	_	_		_	_	
+9-13	631-632	,	_	_	_	_	_	_	_	
+9-14	633-635	To	_	_	_	_	_	_	_	
+9-15	636-640	shut	_	_	_	_	_	_	_	
 9-16	641-644	her	person[60]	giv:act[60]	nonsal[60]	_	cf1*[60]	ana	10-13[71_60]	
-9-17	645-647	up	_	_	_	_		_	_	
-9-18	648-650	in	_	_	_	_		_	_	
+9-17	645-647	up	_	_	_	_	_	_	_	
+9-18	648-650	in	_	_	_	_	_	_	_	
 9-19	651-652	a	place[65]	new[65]	nonsal[65]	_	cf6[65]	coref	17-30[140_65]	
 9-20	653-662	sepulchre	place[65]	new[65]	nonsal[65]	_	cf6[65]	_	_	
-9-21	663-665	In	_	_	_	_		_	_	
+9-21	663-665	In	_	_	_	_	_	_	_	
 9-22	666-670	this	place[66]	giv:act[66]	nonsal[66]	_	cf3[66]	coref	11-15[80_66]	
 9-23	671-678	kingdom	place[66]	giv:act[66]	nonsal[66]	_	cf3[66]	_	_	
 9-24	679-681	by	place[66]	giv:act[66]	nonsal[66]	_	cf3[66]	_	_	
 9-25	682-685	the	place[66]|place[67]	giv:act[66]|giv:act[67]	nonsal[66]|nonsal[67]	_	cf3[66]|cf4[67]	coref	11-18[81_67]	
 9-26	686-689	sea	place[66]|place[67]	giv:act[66]|giv:act[67]	nonsal[66]|nonsal[67]	_	cf3[66]|cf4[67]	_	_	
-9-27	690-691	.	_	_	_	_		_	_	
+9-27	690-691	.	_	_	_	_	_	_	_	
 
 #Text=The angels , not half so happy in heaven , Went envying her and me —
 10-1	692-695	The	abstract[68]|person[69]	new[68]|giv:inact[69]	nonsal[68]|nonsal[69]	_	cf5[68]|cf3[69]	disc|coref	11-4[73_68]|14-3[101_69]	
@@ -197,14 +197,14 @@
 10-13	748-751	her	abstract[68]|person[71]	new[68]|giv:act[71]	nonsal[68]|nonsal[71]	_	cf5[68]|cf1*[71]	coref	11-35[86_71]	
 10-14	752-755	and	abstract[68]	new[68]	nonsal[68]	_	cf5[68]	_	_	
 10-15	756-758	me	abstract[68]|person[72]	new[68]|giv:act[72]	nonsal[68]|nonsal[72]	_	cf5[68]|cf2[72]	ana	11-35[87_72]	
-10-16	759-760	—	_	_	_	_		_	_	
+10-16	759-760	—	_	_	_	_	_	_	_	
 
 #Text=Yes ! — that was the reason ( as all men know , In this kingdom by the sea ) That the wind came out of the cloud by night , Chilling and killing my ANNABEL LEE .
-11-1	761-764	Yes	_	_	_	_		_	_	
-11-2	765-766	!	_	_	_	_		_	_	
-11-3	767-768	—	_	_	_	_		_	_	
+11-1	761-764	Yes	_	_	_	_	_	_	_	
+11-2	765-766	!	_	_	_	_	_	_	_	
+11-3	767-768	—	_	_	_	_	_	_	_	
 11-4	769-773	that	abstract[73]	giv:act[73]	nonsal[73]	_	cf1*[73]	coref	11-6[78_73]	
-11-5	774-777	was	_	_	_	_		_	_	
+11-5	774-777	was	_	_	_	_	_	_	_	
 11-6	778-781	the	abstract[78]	giv:act[78]	nonsal[78]	_	cf1*[78]	_	_	
 11-7	782-788	reason	abstract[78]	giv:act[78]	nonsal[78]	_	cf1*[78]	_	_	
 11-8	789-790	(	abstract[78]	giv:act[78]	nonsal[78]	_	cf1*[78]	_	_	
@@ -237,61 +237,61 @@
 11-35	906-908	my	abstract[78]|person[86]|person[87]	giv:act[78]|giv:act[86]|giv:act[87]	nonsal[78]|nonsal[86]|nonsal[87]	_	cf1*[78]|cf3[86]|cf2[87]	coref|ana	14-26[110_86]|14-20[107_87]	
 11-36	909-916	ANNABEL	abstract[78]|person[86]	giv:act[78]|giv:act[86]	nonsal[78]|nonsal[86]	_	cf1*[78]|cf3[86]	_	_	
 11-37	917-920	LEE	abstract[78]|person[86]	giv:act[78]|giv:act[86]	nonsal[78]|nonsal[86]	_	cf1*[78]|cf3[86]	_	_	
-11-38	921-922	.	_	_	_	_		_	_	
+11-38	921-922	.	_	_	_	_	_	_	_	
 
 #Text=But our love it was stronger by far than the love Of those who were older than we —
-12-1	923-926	But	_	_	_	_		_	_	
+12-1	923-926	But	_	_	_	_	_	_	_	
 12-2	927-930	our	abstract[89]|person[90]	giv:inact[89]|giv:inact[90]	nonsal[89]|nonsal[90]	_	cf1[89]|cf2[90]	ana|ana	12-4[91_89]|12-18[96_90]	
 12-3	931-935	love	abstract[89]	giv:inact[89]	nonsal[89]	_	cf1[89]	_	_	
 12-4	936-938	it	abstract[91]	giv:act[91]	nonsal[91]	_	cf1[91]	_	_	
-12-5	939-942	was	_	_	_	_		_	_	
-12-6	943-951	stronger	_	_	_	_		_	_	
-12-7	952-954	by	_	_	_	_		_	_	
-12-8	955-958	far	_	_	_	_		_	_	
-12-9	959-963	than	_	_	_	_		_	_	
+12-5	939-942	was	_	_	_	_	_	_	_	
+12-6	943-951	stronger	_	_	_	_	_	_	_	
+12-7	952-954	by	_	_	_	_	_	_	_	
+12-8	955-958	far	_	_	_	_	_	_	_	
+12-9	959-963	than	_	_	_	_	_	_	_	
 12-10	964-967	the	abstract[94]	new[94]	nonsal[94]	_	cf3[94]	_	_	
 12-11	968-972	love	abstract[94]	new[94]	nonsal[94]	_	cf3[94]	_	_	
-12-12	973-975	Of	_	_	_	_		_	_	
+12-12	973-975	Of	_	_	_	_	_	_	_	
 12-13	976-981	those	person[95]	new[95]	nonsal[95]	_	cf4[95]	_	_	
 12-14	982-985	who	person[95]	new[95]	nonsal[95]	_	cf4[95]	_	_	
 12-15	986-990	were	person[95]	new[95]	nonsal[95]	_	cf4[95]	_	_	
 12-16	991-996	older	person[95]	new[95]	nonsal[95]	_	cf4[95]	_	_	
 12-17	997-1001	than	person[95]	new[95]	nonsal[95]	_	cf4[95]	_	_	
 12-18	1002-1004	we	person[95]|person[96]	new[95]|giv:act[96]	nonsal[95]|nonsal[96]	_	cf4[95]|cf2[96]	ana	13-6[99_96]	
-12-19	1005-1006	—	_	_	_	_		_	_	
+12-19	1005-1006	—	_	_	_	_	_	_	_	
 
 #Text=Of many far wiser than we —
-13-1	1007-1009	Of	_	_	_	_		_	_	
+13-1	1007-1009	Of	_	_	_	_	_	_	_	
 13-2	1010-1014	many	person[98]	new[98]	nonsal[98]	_	cf2[98]	_	_	
 13-3	1015-1018	far	person[98]	new[98]	nonsal[98]	_	cf2[98]	_	_	
 13-4	1019-1024	wiser	person[98]	new[98]	nonsal[98]	_	cf2[98]	_	_	
 13-5	1025-1029	than	person[98]	new[98]	nonsal[98]	_	cf2[98]	_	_	
 13-6	1030-1032	we	person[98]|person[99]	new[98]|giv:act[99]	nonsal[98]|nonsal[99]	_	cf2[98]|cf1*[99]	_	_	
-13-7	1033-1034	—	_	_	_	_		_	_	
+13-7	1033-1034	—	_	_	_	_	_	_	_	
 
 #Text=And neither the angels in heaven above , Nor the demons down under the sea , Can ever dissever my soul from the soul Of the beautiful ANNABEL LEE :
-14-1	1035-1038	And	_	_	_	_		_	_	
-14-2	1039-1046	neither	_	_	_	_		_	_	
+14-1	1035-1038	And	_	_	_	_	_	_	_	
+14-2	1039-1046	neither	_	_	_	_	_	_	_	
 14-3	1047-1050	the	person[101]	giv:inact[101]	nonsal[101]	_	cf2[101]	_	_	
 14-4	1051-1057	angels	person[101]	giv:inact[101]	nonsal[101]	_	cf2[101]	_	_	
 14-5	1058-1060	in	person[101]	giv:inact[101]	nonsal[101]	_	cf2[101]	_	_	
 14-6	1061-1067	heaven	person[101]|place[102]	giv:inact[101]|giv:inact[102]	nonsal[101]|nonsal[102]	Heaven[102]	cf2[101]|cf5[102]	_	_	
-14-7	1068-1073	above	_	_	_	_		_	_	
-14-8	1074-1075	,	_	_	_	_		_	_	
-14-9	1076-1079	Nor	_	_	_	_		_	_	
+14-7	1068-1073	above	_	_	_	_	_	_	_	
+14-8	1074-1075	,	_	_	_	_	_	_	_	
+14-9	1076-1079	Nor	_	_	_	_	_	_	_	
 14-10	1080-1083	the	person[104]	new[104]	nonsal[104]	_	cf7[104]	_	_	
 14-11	1084-1090	demons	person[104]	new[104]	nonsal[104]	_	cf7[104]	_	_	
 14-12	1091-1095	down	person[104]	new[104]	nonsal[104]	_	cf7[104]	_	_	
 14-13	1096-1101	under	person[104]	new[104]	nonsal[104]	_	cf7[104]	_	_	
 14-14	1102-1105	the	person[104]|place[105]	new[104]|giv:inact[105]	nonsal[104]|nonsal[105]	_	cf7[104]|cf4[105]	coref	17-34[141_105]	
 14-15	1106-1109	sea	person[104]|place[105]	new[104]|giv:inact[105]	nonsal[104]|nonsal[105]	_	cf7[104]|cf4[105]	_	_	
-14-16	1110-1111	,	_	_	_	_		_	_	
-14-17	1112-1115	Can	_	_	_	_		_	_	
-14-18	1116-1120	ever	_	_	_	_		_	_	
-14-19	1121-1129	dissever	_	_	_	_		_	_	
+14-16	1110-1111	,	_	_	_	_	_	_	_	
+14-17	1112-1115	Can	_	_	_	_	_	_	_	
+14-18	1116-1120	ever	_	_	_	_	_	_	_	
+14-19	1121-1129	dissever	_	_	_	_	_	_	_	
 14-20	1130-1132	my	abstract[106]|person[107]	new[106]|giv:inact[107]	nonsal[106]|nonsal[107]	_	cf6[106]|cf1[107]	ana	15-9[112_107]	
 14-21	1133-1137	soul	abstract[106]	new[106]	nonsal[106]	_	cf6[106]	_	_	
-14-22	1138-1142	from	_	_	_	_		_	_	
+14-22	1138-1142	from	_	_	_	_	_	_	_	
 14-23	1143-1146	the	abstract[109]	new[109]	nonsal[109]	_	cf8[109]	_	_	
 14-24	1147-1151	soul	abstract[109]	new[109]	nonsal[109]	_	cf8[109]	_	_	
 14-25	1152-1154	Of	abstract[109]	new[109]	nonsal[109]	_	cf8[109]	_	_	
@@ -299,17 +299,17 @@
 14-27	1159-1168	beautiful	abstract[109]|person[110]	new[109]|giv:inact[110]	nonsal[109]|nonsal[110]	_	cf8[109]|cf3[110]	_	_	
 14-28	1169-1176	ANNABEL	abstract[109]|person[110]	new[109]|giv:inact[110]	nonsal[109]|nonsal[110]	_	cf8[109]|cf3[110]	_	_	
 14-29	1177-1180	LEE	abstract[109]|person[110]	new[109]|giv:inact[110]	nonsal[109]|nonsal[110]	_	cf8[109]|cf3[110]	_	_	
-14-30	1181-1182	:	_	_	_	_		_	_	
+14-30	1181-1182	:	_	_	_	_	_	_	_	
 
 #Text=For the moon never beams , without bringing me dreams Of the beautiful ANNABEL LEE ;
-15-1	1183-1186	For	_	_	_	_		_	_	
+15-1	1183-1186	For	_	_	_	_	_	_	_	
 15-2	1187-1190	the	object[111]	new[111]	nonsal[111]	_	cf3[111]	_	_	
 15-3	1191-1195	moon	object[111]	new[111]	nonsal[111]	_	cf3[111]	_	_	
-15-4	1196-1201	never	_	_	_	_		_	_	
-15-5	1202-1207	beams	_	_	_	_		_	_	
-15-6	1208-1209	,	_	_	_	_		_	_	
-15-7	1210-1217	without	_	_	_	_		_	_	
-15-8	1218-1226	bringing	_	_	_	_		_	_	
+15-4	1196-1201	never	_	_	_	_	_	_	_	
+15-5	1202-1207	beams	_	_	_	_	_	_	_	
+15-6	1208-1209	,	_	_	_	_	_	_	_	
+15-7	1210-1217	without	_	_	_	_	_	_	_	
+15-8	1218-1226	bringing	_	_	_	_	_	_	_	
 15-9	1227-1229	me	person[112]	giv:act[112]	nonsal[112]	_	cf1*[112]	ana	16-8[117_112]	
 15-10	1230-1236	dreams	abstract[114]	new[114]	nonsal[114]	_	cf4[114]	_	_	
 15-11	1237-1239	Of	abstract[114]	new[114]	nonsal[114]	_	cf4[114]	_	_	
@@ -317,18 +317,18 @@
 15-13	1244-1253	beautiful	abstract[114]|person[115]	new[114]|giv:act[115]	nonsal[114]|nonsal[115]	_	cf4[114]|cf2[115]	_	_	
 15-14	1254-1261	ANNABEL	abstract[114]|person[115]	new[114]|giv:act[115]	nonsal[114]|nonsal[115]	_	cf4[114]|cf2[115]	_	_	
 15-15	1262-1265	LEE	abstract[114]|person[115]	new[114]|giv:act[115]	nonsal[114]|nonsal[115]	_	cf4[114]|cf2[115]	_	_	
-15-16	1266-1267	;	_	_	_	_		_	_	
+15-16	1266-1267	;	_	_	_	_	_	_	_	
 
 #Text=And the stars never rise , but I feel the bright eyes Of the beautiful ANNABEL LEE ;
-16-1	1268-1271	And	_	_	_	_		_	_	
+16-1	1268-1271	And	_	_	_	_	_	_	_	
 16-2	1272-1275	the	object[116]	new[116]	nonsal[116]	_	cf3[116]	_	_	
 16-3	1276-1281	stars	object[116]	new[116]	nonsal[116]	_	cf3[116]	_	_	
-16-4	1282-1287	never	_	_	_	_		_	_	
-16-5	1288-1292	rise	_	_	_	_		_	_	
-16-6	1293-1294	,	_	_	_	_		_	_	
-16-7	1295-1298	but	_	_	_	_		_	_	
+16-4	1282-1287	never	_	_	_	_	_	_	_	
+16-5	1288-1292	rise	_	_	_	_	_	_	_	
+16-6	1293-1294	,	_	_	_	_	_	_	_	
+16-7	1295-1298	but	_	_	_	_	_	_	_	
 16-8	1299-1300	I	person[117]	giv:act[117]	nonsal[117]	_	cf1*[117]	ana	17-10[123_117]	
-16-9	1301-1305	feel	_	_	_	_		_	_	
+16-9	1301-1305	feel	_	_	_	_	_	_	_	
 16-10	1306-1309	the	object[119]	new[119]	nonsal[119]	_	cf4[119]	_	_	
 16-11	1310-1316	bright	object[119]	new[119]	nonsal[119]	_	cf4[119]	_	_	
 16-12	1317-1321	eyes	object[119]	new[119]	nonsal[119]	_	cf4[119]	_	_	
@@ -337,50 +337,50 @@
 16-15	1329-1338	beautiful	object[119]|person[120]	new[119]|giv:act[120]	nonsal[119]|nonsal[120]	_	cf4[119]|cf2[120]	_	_	
 16-16	1339-1346	ANNABEL	object[119]|person[120]	new[119]|giv:act[120]	nonsal[119]|nonsal[120]	_	cf4[119]|cf2[120]	_	_	
 16-17	1347-1350	LEE	object[119]|person[120]	new[119]|giv:act[120]	nonsal[119]|nonsal[120]	_	cf4[119]|cf2[120]	_	_	
-16-18	1351-1352	;	_	_	_	_		_	_	
+16-18	1351-1352	;	_	_	_	_	_	_	_	
 
 #Text=And so , all the night - tide , I lie down by the side Of my darling — my darling — my life and my bride , In the sepulchre there by the sea , In her tomb by the sounding sea .
-17-1	1353-1356	And	_	_	_	_		_	_	
-17-2	1357-1359	so	_	_	_	_		_	_	
-17-3	1360-1361	,	_	_	_	_		_	_	
+17-1	1353-1356	And	_	_	_	_	_	_	_	
+17-2	1357-1359	so	_	_	_	_	_	_	_	
+17-3	1360-1361	,	_	_	_	_	_	_	_	
 17-4	1362-1365	all	time[121]	new[121]	nonsal[121]	_	cf5[121]	_	_	
 17-5	1366-1369	the	time[121]	new[121]	nonsal[121]	_	cf5[121]	_	_	
 17-6	1370-1375	night	time[121]|time[122]	new[121]|new[122]	nonsal[121]|nonsal[122]	_	cf5[121]|cf8[122]	_	_	
 17-7	1376-1377	-	time[121]	new[121]	nonsal[121]	_	cf5[121]	_	_	
 17-8	1378-1382	tide	time[121]	new[121]	nonsal[121]	_	cf5[121]	_	_	
-17-9	1383-1384	,	_	_	_	_		_	_	
+17-9	1383-1384	,	_	_	_	_	_	_	_	
 17-10	1385-1386	I	person[123]	giv:act[123]	nonsal[123]	_	cf1*[123]	ana	17-17[128_123]	
-17-11	1387-1390	lie	_	_	_	_		_	_	
-17-12	1391-1395	down	_	_	_	_		_	_	
-17-13	1396-1398	by	_	_	_	_		_	_	
+17-11	1387-1390	lie	_	_	_	_	_	_	_	
+17-12	1391-1395	down	_	_	_	_	_	_	_	
+17-13	1396-1398	by	_	_	_	_	_	_	_	
 17-14	1399-1402	the	abstract[126]	new[126]	nonsal[126]	_	cf6[126]	_	_	
 17-15	1403-1407	side	abstract[126]	new[126]	nonsal[126]	_	cf6[126]	_	_	
 17-16	1408-1410	Of	abstract[126]	new[126]	nonsal[126]	_	cf6[126]	_	_	
 17-17	1411-1413	my	abstract[126]|person[127]|person[128]	new[126]|giv:act[127]|giv:act[128]	nonsal[126]|nonsal[127]|nonsal[128]	_	cf6[126]|cf2[127]|cf1*[128]	appos|ana	17-20[130_127]|17-20[131_128]	
 17-18	1414-1421	darling	abstract[126]|person[127]	new[126]|giv:act[127]	nonsal[126]|nonsal[127]	_	cf6[126]|cf2[127]	_	_	
-17-19	1422-1423	—	_	_	_	_		_	_	
+17-19	1422-1423	—	_	_	_	_	_	_	_	
 17-20	1424-1426	my	person[130]|person[131]	giv:act[130]|giv:act[131]	nonsal[130]|nonsal[131]	_	cf2[130]|cf1*[131]	coref|ana	17-23[133_130]|17-23[135_131]	
 17-21	1427-1434	darling	person[130]	giv:act[130]	nonsal[130]	_	cf2[130]	_	_	
-17-22	1435-1436	—	_	_	_	_		_	_	
+17-22	1435-1436	—	_	_	_	_	_	_	_	
 17-23	1437-1439	my	person[133]|abstract[134]|person[135]	giv:act[133]|new[134]|giv:act[135]	nonsal[133]|nonsal[134]|nonsal[135]	_	cf2[133]|cf7[134]|cf1*[135]	coref|ana	17-26[137_133]|17-26[138_135]	
 17-24	1440-1444	life	person[133]|abstract[134]	giv:act[133]|new[134]	nonsal[133]|nonsal[134]	_	cf2[133]|cf7[134]	_	_	
 17-25	1445-1448	and	person[133]	giv:act[133]	nonsal[133]	_	cf2[133]	_	_	
 17-26	1449-1451	my	person[133]|person[137]|person[138]	giv:act[133]|giv:act[137]|giv:act[138]	nonsal[133]|nonsal[137]|nonsal[138]	_	cf2[133]|cf2[137]|cf1*[138]	ana	17-38[143_137]	
 17-27	1452-1457	bride	person[133]|person[137]	giv:act[133]|giv:act[137]	nonsal[133]|nonsal[137]	_	cf2[133]|cf2[137]	_	_	
-17-28	1458-1459	,	_	_	_	_		_	_	
-17-29	1460-1462	In	_	_	_	_		_	_	
+17-28	1458-1459	,	_	_	_	_	_	_	_	
+17-29	1460-1462	In	_	_	_	_	_	_	_	
 17-30	1463-1466	the	place[140]	giv:inact[140]	nonsal[140]	_	cf4[140]	coref	17-38[142_140]	
 17-31	1467-1476	sepulchre	place[140]	giv:inact[140]	nonsal[140]	_	cf4[140]	_	_	
 17-32	1477-1482	there	place[140]	giv:inact[140]	nonsal[140]	_	cf4[140]	_	_	
 17-33	1483-1485	by	place[140]	giv:inact[140]	nonsal[140]	_	cf4[140]	_	_	
 17-34	1486-1489	the	place[140]|place[141]	giv:inact[140]|giv:inact[141]	nonsal[140]|nonsal[141]	_	cf4[140]|cf3[141]	coref	17-41[145_141]	
 17-35	1490-1493	sea	place[140]|place[141]	giv:inact[140]|giv:inact[141]	nonsal[140]|nonsal[141]	_	cf4[140]|cf3[141]	_	_	
-17-36	1494-1495	,	_	_	_	_		_	_	
-17-37	1496-1498	In	_	_	_	_		_	_	
+17-36	1494-1495	,	_	_	_	_	_	_	_	
+17-37	1496-1498	In	_	_	_	_	_	_	_	
 17-38	1499-1502	her	place[142]|person[143]	giv:act[142]|giv:act[143]	nonsal[142]|nonsal[143]	_	cf4[142]|cf2[143]	_	_	
 17-39	1503-1507	tomb	place[142]	giv:act[142]	nonsal[142]	_	cf4[142]	_	_	
-17-40	1508-1510	by	_	_	_	_		_	_	
+17-40	1508-1510	by	_	_	_	_	_	_	_	
 17-41	1511-1514	the	place[145]	giv:act[145]	nonsal[145]	_	cf3[145]	_	_	
 17-42	1515-1523	sounding	place[145]	giv:act[145]	nonsal[145]	_	cf3[145]	_	_	
 17-43	1524-1527	sea	place[145]	giv:act[145]	nonsal[145]	_	cf3[145]	_	_	
-17-44	1528-1529	.	_	_	_	_		_	_	
+17-44	1528-1529	.	_	_	_	_	_	_	_	

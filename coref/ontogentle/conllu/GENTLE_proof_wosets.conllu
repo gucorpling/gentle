@@ -32,16 +32,16 @@
 6	T	T	NOUN	NN	Number=Sing	4	conj	3:appos|4:conj:and	_
 7	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	3:acl	Discourse=elaboration-attribute:3->2:0:_|MSeg=consider-ed
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	Discourse=same-unit_m:4->2:1:_
-9	empty	empty	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:if	Cxn=Condition-Realistic|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Empty_Set"></ref>
+9	empty	empty	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:if	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Empty_Set"></ref>
 10	or	or	CCONJ	CC	_	11	cc	11:cc	_
-11	singletons	singleton	NOUN	NNS	Number=Plur	9	conj	9:conj:or|15:advcl:if	SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Singleton"></ref>
+11	singletons	singleton	NOUN	NNS	Number=Plur	9	conj	9:conj:or|15:advcl:if	MSeg=single-ton-s|SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Singleton"></ref>
 12	,	,	PUNCT	,	_	9	punct	9:punct	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Discourse=explanation-justify:5->7:1:_
 14	theorem	theorem	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
-15	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=hold-s
-16	vacuously	vacuously	ADV	RB	Degree=Pos	15	advmod	15:advmod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vacuous"></ref>
+15	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=hold-s
+16	vacuously	vacuously	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=vacu-ous-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Vacuous"></ref>
 17	or	or	CCONJ	CC	_	18	cc	18:cc	_
-18	trivially	trivially	ADV	RB	Degree=Pos	16	conj	15:advmod|16:conj:or	SpaceAfter=No
+18	trivially	trivially	ADV	RB	Degree=Pos	16	conj	15:advmod|16:conj:or	MSeg=trivi-al-ly|SpaceAfter=No
 19	.	.	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GENTLE_proof_wosets-3
@@ -161,7 +161,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_
 7	well	well	ADV	RB	Degree=Pos	9	advmod	9:advmod	SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Well-Ordering"><w>
 8	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
-9	ordering	ordering	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	SpaceAfter=No|XML=</w></ref>
+9	ordering	ordering	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	MSeg=order-ing|SpaceAfter=No|XML=</w></ref>
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
 
 # sent_id = GENTLE_proof_wosets-7
@@ -177,7 +177,7 @@
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_
 8	total	total	ADJ	JJ	Degree=Pos	9	amod	9:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Total_Ordering">
-9	ordering	ordering	NOUN	NN	Number=Sing	4	ccomp	4:ccomp	SpaceAfter=No|XML=</ref>
+9	ordering	ordering	NOUN	NN	Number=Sing	4	ccomp	4:ccomp	MSeg=order-ing|SpaceAfter=No|XML=</ref>
 10	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_proof_wosets-8
@@ -185,7 +185,7 @@
 # s_type = multiple
 # transition = zero
 # text = Checking in turn each of the criteria for a total ordering:
-1	Checking	check	VERB	VBG	VerbForm=Ger	0	root	0:root	Discourse=mode-means:22->21:1:_
+1	Checking	check	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Discourse=mode-means:22->21:1:_|MSeg=Check-ing
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	turn	turn	NOUN	NN	Number=Sing	1	obl	1:obl:in	_
 4	each	each	DET	DT	PronType=Tot	1	obj	1:obj	_
@@ -195,7 +195,7 @@
 8	for	for	ADP	IN	_	11	case	11:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_
 10	total	total	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
-11	ordering	ordering	NOUN	NN	Number=Sing	7	nmod	7:nmod:for	SpaceAfter=No
+11	ordering	ordering	NOUN	NN	Number=Sing	7	nmod	7:nmod:for	MSeg=order-ing|SpaceAfter=No
 12	:	:	PUNCT	:	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_proof_wosets-9
@@ -205,7 +205,7 @@
 # text = Reflexivity
 # newpar
 # newpar_block = head (1 s)
-1	Reflexivity	reflexivity	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:23->26:2:_|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Reflexive_Relation"></ref>
+1	Reflexivity	reflexivity	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:23->26:2:_|MSeg=Re-flex-iv-ity|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Reflexive_Relation"></ref>
 
 # sent_id = GENTLE_proof_wosets-10
 # s_prominence = 3
@@ -216,7 +216,7 @@
 # newpar_block = p (2 s)
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:24->25:0:_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
-3	=	=	SYM	SYM	_	11	advcl	11:advcl:if	Cxn=Condition-Realistic
+3	=	=	SYM	SYM	_	11	advcl	11:advcl:if	_
 4	y	y	NOUN	NN	Number=Sing	3	obj	3:obj	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	3:punct	_
 6-7	they're	_	_	_	_	_	_	_	_
@@ -225,7 +225,7 @@
 8	necessarily	necessarily	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=necessari-ly
 9	both	both	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
 10	in	in	ADP	IN	_	11	case	11:case	_
-11	S	S	NOUN	NN	Number=Sing	0	root	0:root	_
+11	S	S	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
 12	or	or	CCONJ	CC	_	13	cc	13:cc	_
 13	T	T	NOUN	NN	Number=Sing	11	conj	11:conj:or	_
 14	simultaneously	simultaneously	ADV	RB	Degree=Pos	11	advmod	11:advmod	MSeg=simultaneous-ly|SpaceAfter=No
@@ -236,7 +236,7 @@
 # s_type = decl
 # transition = establishment
 # text = Reflexivity then follows from ⪯S and x ⪯ T being reflexive, as they are both orderings.
-1	Reflexivity	reflexivity	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=explanation-evidence:26->59:1:_
+1	Reflexivity	reflexivity	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=explanation-evidence:26->59:1:_|MSeg=Re-flex-iv-ity
 2	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
 3	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=follow-s
 4	from	from	SCONJ	IN	_	12	mark	12:mark	_
@@ -246,14 +246,14 @@
 8	x	x	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
 9	⪯	⪯	SYM	SYM	_	5	conj	5:conj:and|12:csubj	_
 10	T	T	NOUN	NN	Number=Sing	9	dep	9:dep	_
-11	being	be	AUX	VBG	VerbForm=Ger	12	cop	12:cop	MSeg=be-ing
-12	reflexive	reflexive	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:from	SpaceAfter=No
+11	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	12	cop	12:cop	MSeg=be-ing
+12	reflexive	reflexive	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:from	MSeg=reflex-ive|SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	18:punct	_
 14	as	as	SCONJ	IN	_	18	mark	18:mark	Discourse=explanation-justify:27->26:0:_
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	_
 16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
 17	both	both	DET	DT	PronType=Tot	18	advmod	18:advmod	_
-18	orderings	ordering	NOUN	NNS	Number=Plur	3	advcl	3:advcl:as	SpaceAfter=No
+18	orderings	ordering	NOUN	NNS	Number=Plur	3	advcl	3:advcl:as	MSeg=order-ing-s|SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_proof_wosets-12
@@ -263,7 +263,7 @@
 # text = Transitivity
 # newpar
 # newpar_block = head (1 s)
-1	Transitivity	transitivity	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:28->46:1:_|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Transitive_Relation"></ref>
+1	Transitivity	transitivity	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:28->46:1:_|MSeg=Transitiv-ity|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Transitive_Relation"></ref>
 
 # sent_id = GENTLE_proof_wosets-13
 # s_prominence = 4
@@ -293,7 +293,7 @@
 4	y	y	NOUN	NN	Number=Sing	2	conj	2:conj|7:nsubj	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
 6	z	z	NOUN	NN	Number=Sing	2	conj	2:conj|7:nsubj	_
-7	∈	∈	SYM	SYM	_	22	advcl	22:advcl:if	Cxn=Condition-Realistic
+7	∈	∈	SYM	SYM	_	22	advcl	22:advcl:if	_
 8	S	S	NOUN	NN	Number=Sing	7	nmod:npmod	7:nmod:npmod	Entity=(3)
 9	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=joint-disjunction_m:31->30:0:_
 10	x	x	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	SpaceAfter=No
@@ -308,10 +308,10 @@
 19	then	then	ADV	RB	PronType=Dem	22	advmod	22:advmod	Discourse=explanation-evidence:32->46:0:_
 20	⪯	⪯	SYM	SYM	_	22	nsubj	22:nsubj	_
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
-22	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	_
+22	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=transit-ive
 23	by	by	ADP	IN	_	25	case	25:case	_
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	_
-25	transitivity	transitivity	NOUN	NN	Number=Sing	22	obl	22:obl:by	_
+25	transitivity	transitivity	NOUN	NN	Number=Sing	22	obl	22:obl:by	MSeg=transitiv-ity
 26	of	of	ADP	IN	_	27	case	27:case	_
 27	⪯	⪯	SYM	SYM	_	25	nmod	25:nmod:of	_
 28	S	S	NOUN	NN	Number=Sing	27	dep	27:dep	Entity=(3)
@@ -416,7 +416,7 @@
 1	Thus	thus	ADV	RB	_	4	advmod	4:advmod	Discourse=joint-list_m:46->26:3:_
 2	⪯	⪯	SYM	SYM	_	4	nsubj	4:nsubj	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
+4	transitive	transitive	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=transit-ive|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_proof_wosets-21
@@ -426,7 +426,7 @@
 # text = Antisymmetry
 # newpar
 # newpar_block = head (1 s)
-1	Antisymmetry	antisymmetry	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:47->57:2:_|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Antisymmetric_Relation"></ref>
+1	Antisymmetry	antisymmetry	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:47->57:2:_|MSeg=Anti-symmetr-y|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Antisymmetric_Relation"></ref>
 
 # sent_id = GENTLE_proof_wosets-22
 # s_prominence = 3
@@ -454,15 +454,15 @@
 2	x	x	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	y	y	NOUN	NN	Number=Sing	2	conj	2:conj|5:nsubj	_
-5	∈	∈	SYM	SYM	_	9	advcl	9:advcl:if	Cxn=Condition-Realistic
+5	∈	∈	SYM	SYM	_	9	advcl	9:advcl:if	_
 6	S	S	NOUN	NN	Number=Sing	5	nmod:npmod	5:nmod:npmod	_
 7	then	then	ADV	RB	PronType=Dem	9	advmod	9:advmod	Discourse=explanation-evidence:50->57:0:_
 8	x	x	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
-9	=	=	SYM	SYM	_	0	root	0:root	_
+9	=	=	SYM	SYM	_	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
 10	y	y	NOUN	NN	Number=Sing	9	obj	9:obj	_
 11	by	by	ADP	IN	_	13	case	13:case	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	_
-13	antisymmetry	antisymmetry	NOUN	NN	Number=Sing	9	obl	9:obl:by	_
+13	antisymmetry	antisymmetry	NOUN	NN	Number=Sing	9	obl	9:obl:by	MSeg=anti-symmetr-y
 14	of	of	ADP	IN	_	15	case	15:case	_
 15	⪯	⪯	SYM	SYM	_	13	nmod	13:nmod:of	SpaceAfter=No|XML=<w>
 16	S	S	NOUN	NN	Number=Sing	15	dep	15:dep	SpaceAfter=No|XML=</w>
@@ -489,7 +489,7 @@
 # text = If x ∈ S and y ∈ T, then y ∈ S and x ∈ T as well.
 1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=contingency-condition:53->55:1:_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
-3	∈	∈	SYM	SYM	_	12	advcl	12:advcl:if	Cxn=Condition-Realistic
+3	∈	∈	SYM	SYM	_	12	advcl	12:advcl:if	_
 4	S	S	NOUN	NN	Number=Sing	3	nmod:npmod	3:nmod:npmod	_
 5	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=joint-list_m:54->53:0:_
 6	y	y	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
@@ -498,13 +498,13 @@
 9	,	,	PUNCT	,	_	3	punct	3:punct	_
 10	then	then	ADV	RB	PronType=Dem	12	advmod	12:advmod	Discourse=joint-disjunction_m:55->50:2:_
 11	y	y	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
-12	∈	∈	SYM	SYM	_	0	root	0:root	_
+12	∈	∈	SYM	SYM	_	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
 13	S	S	NOUN	NN	Number=Sing	12	nmod:npmod	12:nmod:npmod	_
 14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:56->55:0:_
 15	x	x	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	_
 16	∈	∈	SYM	SYM	_	12	conj	12:conj:and	_
-17	T	T	NOUN	NN	Number=Sing	16	nmod:npmod	16:nmod:npmod	Entity=(4)
-18	as	as	ADV	RB	_	12	advmod	12:advmod	_
+17	T	T	NOUN	NN	Number=Sing	16	nmod:npmod	16:nmod:npmod	_
+18	as	as	ADV	RB	_	12	advmod	12:advmod	ExtPos=ADV
 19	well	well	ADV	RB	Degree=Pos	18	fixed	18:fixed	SpaceAfter=No
 20	.	.	PUNCT	.	_	12	punct	12:punct	_
 
@@ -519,7 +519,7 @@
 4	y	y	NOUN	NN	Number=Sing	3	obj	3:obj	_
 5	from	from	ADP	IN	_	7	case	7:case	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
-7	antisymmetry	antisymmetry	NOUN	NN	Number=Sing	3	obl	3:obl:from	_
+7	antisymmetry	antisymmetry	NOUN	NN	Number=Sing	3	obl	3:obl:from	MSeg=anti-symmetr-y
 8	of	of	ADP	IN	_	9	case	9:case	_
 9	⪯	⪯	SYM	SYM	_	7	nmod	7:nmod:of	SpaceAfter=No|XML=<w>
 10	S	S	NOUN	NN	Number=Sing	9	dep	9:dep	XML=</w>
@@ -539,7 +539,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 6	total	total	ADJ	JJ	Degree=Pos	7	amod	7:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Total_Ordering">
-7	ordering	ordering	NOUN	NN	Number=Sing	1	ccomp	1:ccomp	SpaceAfter=No|XML=</ref>
+7	ordering	ordering	NOUN	NN	Number=Sing	1	ccomp	1:ccomp	MSeg=order-ing|SpaceAfter=No|XML=</ref>
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_proof_wosets-28
@@ -554,7 +554,7 @@
 5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_
 6	well	well	ADV	RB	Degree=Pos	8	advmod	8:advmod	SpaceAfter=No|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Well-Ordering"><w>
 7	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
-8	ordering	ordering	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	SpaceAfter=No|XML=</w></ref>
+8	ordering	ordering	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	MSeg=order-ing|SpaceAfter=No|XML=</w></ref>
 9	,	,	PUNCT	,	_	2	punct	2:punct	_
 10	consider	consider	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-circumstance:61->62:1:_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_
@@ -575,24 +575,24 @@
 1	Then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	Discourse=context-background:62->83:1:_
 2	either	either	CCONJ	CC	_	7	cc:preconj	7:cc:preconj	SpaceAfter=No
 3	:	:	PUNCT	SYM	_	2	punct	2:punct	_
-4	X	X	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=(5(6)
+4	X	X	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=(4(5)
 5	∩	∩	SYM	SYM	_	6	cc	6:cc	_
 6	S	S	NOUN	NN	Number=Sing	4	conj	4:conj:intersection|7:nsubj	_
 7	=	=	SYM	SYM	_	0	root	0:root	_
-8	∅	∅	SYM	SYM	_	7	obj	7:obj	Entity=5)
+8	∅	∅	SYM	SYM	_	7	obj	7:obj	Entity=4)
 9	or	or	CCONJ	CC	_	14	cc	14:cc	Discourse=joint-disjunction_m:63->62:0:_|SpaceAfter=No
 10	:	:	PUNCT	:	_	9	punct	9:punct	_
-11	X	X	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(7
+11	X	X	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=(6
 12	∩	∩	SYM	SYM	_	13	cc	13:cc	_
 13	T	T	NOUN	NN	Number=Sing	11	conj	11:conj:intersection|14:nsubj	_
 14	=	=	SYM	SYM	_	7	conj	7:conj:or	_
-15	∅	∅	SYM	SYM	_	14	obj	14:obj	Entity=7)
+15	∅	∅	SYM	SYM	_	14	obj	14:obj	Entity=6)
 16	or	or	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-disjunction_m:64->62:0:_|SpaceAfter=No
 17	:	:	PUNCT	:	_	16	punct	16:punct	_
 18	X	X	NOUN	NN	Number=Sing	22	nsubj	22:nsubj	_
 19	∩	∩	SYM	SYM	_	20	case	20:case	_
 20	S	S	NOUN	NN	Number=Sing	18	conj	18:conj|22:nsubj	_
-21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	Entity=(8)
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	Entity=(7)
 22	non-empty	non-empty	ADJ	JJ	Degree=Pos|Polarity=Neg	7	conj	7:conj:or	_
 23	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint-list_m:65->64:0:_
 24	X	X	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	_
@@ -610,16 +610,16 @@
 # newpar
 # newpar_block = p (9 s)
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=explanation-evidence:66->69:1:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(5
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(4
 3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
-4	case	case	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=5)|SpaceAfter=No
+4	case	case	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=4)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	X	X	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 7	⊆	⊆	SYM	SYM	_	0	root	0:root	_
 8	T	T	NOUN	NN	Number=Sing	7	nmod:npmod	7:nmod:npmod	SpaceAfter=No
 9	,	,	PUNCT	,	_	15	punct	15:punct	_
 10	by	by	SCONJ	IN	_	15	mark	15:mark	Discourse=explanation-evidence:67->66:0:_
-11	Intersection	intersection	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	XML=<ref target:::"https://proofwiki.org/wiki/Intersection_with_Complement_is_Empty_iff_Subset">
+11	Intersection	intersection	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	MSeg=Inter-sect-ion|XML=<ref target:::"https://proofwiki.org/wiki/Intersection_with_Complement_is_Empty_iff_Subset">
 12	with	with	ADP	IN	_	13	case	13:case	_
 13	Complement	complement	NOUN	NN	Number=Sing	11	nmod	11:nmod:with	_
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
@@ -651,9 +651,9 @@
 # transition = continue
 # text = In the second case, X ⊆ S, also by Intersection with Complement is Empty iff Subset.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=explanation-evidence:71->74:1:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(7
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(6
 3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
-4	case	case	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=7)|SpaceAfter=No
+4	case	case	NOUN	NN	Number=Sing	7	obl	7:obl:in	Entity=6)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6	X	X	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 7	⊆	⊆	SYM	SYM	_	0	root	0:root	_
@@ -661,7 +661,7 @@
 9	,	,	PUNCT	,	_	16	punct	16:punct	_
 10	also	also	ADV	RB	_	16	advmod	16:advmod	Discourse=explanation-evidence:72->71:0:_
 11	by	by	SCONJ	IN	_	16	mark	16:mark	_
-12	Intersection	intersection	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	XML=<ref target:::"https://proofwiki.org/wiki/Intersection_with_Complement_is_Empty_iff_Subset">
+12	Intersection	intersection	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	MSeg=Inter-sect-ion|XML=<ref target:::"https://proofwiki.org/wiki/Intersection_with_Complement_is_Empty_iff_Subset">
 13	with	with	ADP	IN	_	14	case	14:case	_
 14	Complement	complement	NOUN	NN	Number=Sing	12	nmod	12:nmod:with	_
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
@@ -693,17 +693,17 @@
 # transition = continue
 # text = In the third case, the smallest element of X ∖ T is an element of S.
 1	In	in	ADP	IN	_	4	case	4:case	Discourse=explanation-justify:76->77:0:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(8
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(7
 3	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	4:amod	_
-4	case	case	NOUN	NN	Number=Sing	15	obl	15:obl:in	Entity=8)|SpaceAfter=No
+4	case	case	NOUN	NN	Number=Sing	15	obl	15:obl:in	Entity=7)|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
-6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(9
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(8
 7	smallest	small	ADJ	JJS	Degree=Sup	8	amod	8:amod	MSeg=small-est
 8	element	element	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
 9	of	of	ADP	IN	_	10	case	10:case	_
 10	X	X	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	_
 11	∖	∖	SYM	SYM	_	12	cc	12:cc	_
-12	T	T	PROPN	NNP	Number=Sing	10	conj	8:nmod:of|10:conj:setdiff	Entity=9)(4)
+12	T	T	NOUN	NN	Number=Sing	10	conj	8:nmod:of|10:conj:setdiff	Entity=8)
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	_
 15	element	element	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -717,12 +717,12 @@
 # transition = smooth-shift
 # text = Thus it precedes any element of T by the definition of ⪯.
 1	Thus	thus	ADV	RB	_	3	advmod	3:advmod	Discourse=context-background:77->81:1:_
-2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(9)
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(8)
 3	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	any	any	DET	DT	PronType=Ind	5	det	5:det	Entity=(9
+4	any	any	DET	DT	PronType=Ind	5	det	5:det	Entity=(8
 5	element	element	NOUN	NN	Number=Sing	3	obj	3:obj	_
 6	of	of	ADP	IN	_	7	case	7:case	_
-7	T	T	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=9)
+7	T	T	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=8)
 8	by	by	ADP	IN	_	10	case	10:case	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
 10	definition	definition	NOUN	NN	Number=Sing	3	obl	3:obl:by	MSeg=defini-tion
@@ -735,7 +735,7 @@
 # s_type = decl
 # transition = continue
 # text = The smallest element of X ∖ T, which is a subset of S, is guaranteed to exist by the well-ordering on S.
-1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-list_m:78->77:1:_|Entity=(9
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint-list_m:78->77:1:_|Entity=(8
 2	smallest	small	ADJ	JJS	Degree=Sup	3	amod	3:amod	MSeg=small-est
 3	element	element	NOUN	NN	Number=Sing	17	nsubj:pass	12:nsubj|17:nsubj:pass|19:nsubj:xsubj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
@@ -748,7 +748,7 @@
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_
 12	subset	subset	NOUN	NN	Number=Sing	3	acl:relcl	3:acl:relcl	_
 13	of	of	ADP	IN	_	14	case	14:case	_
-14	S	S	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=9)|SpaceAfter=No
+14	S	S	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=8)|SpaceAfter=No
 15	,	,	PUNCT	,	_	3	punct	3:punct	_
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	17:aux:pass	Discourse=same-unit_m:80->78:1:_
 17	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=guarante-ed
@@ -758,7 +758,7 @@
 21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	_
 22	well	well	ADV	RB	Degree=Pos	24	advmod	24:advmod	SpaceAfter=No|XML=<w>
 23	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
-24	ordering	ordering	NOUN	NN	Number=Sing	17	obl:agent	17:obl:agent	XML=</w>
+24	ordering	ordering	NOUN	NN	Number=Sing	17	obl:agent	17:obl:agent	MSeg=order-ing|XML=</w>
 25	on	on	ADP	IN	_	26	case	26:case	_
 26	S	S	NOUN	NN	Number=Sing	24	nmod	24:nmod:on	SpaceAfter=No
 27	.	.	PUNCT	.	_	17	punct	17:punct	_
@@ -768,9 +768,9 @@
 # s_type = decl
 # transition = continue
 # text = This smallest element is then also the smallest element of (X ∖ T) ∪ T = X.
-1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=joint-disjunction_m:81->69:2:_|Entity=(9
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Discourse=joint-disjunction_m:81->69:2:_|Entity=(8
 2	smallest	small	ADJ	JJS	Degree=Sup	3	amod	3:amod	MSeg=small-est
-3	element	element	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=9)
+3	element	element	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=8)
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 5	then	then	ADV	RB	PronType=Dem	9	advmod	9:advmod	_
 6	also	also	ADV	RB	_	9	advmod	9:advmod	_
@@ -800,7 +800,7 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 5	well	well	ADV	RB	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No|XML=<w>
 6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
-7	ordering	ordering	NOUN	NN	Number=Sing	0	root	0:root	XML=</w>
+7	ordering	ordering	NOUN	NN	Number=Sing	0	root	0:root	MSeg=order-ing|XML=</w>
 8	on	on	ADP	IN	_	9	case	9:case	_
 9	S	S	NOUN	NN	Number=Sing	7	nmod	7:nmod:on	_
 10	∪	∪	SYM	SYM	_	11	cc	11:cc	_
@@ -816,12 +816,12 @@
 # newpar
 # newpar_block = p (4 s)
 1	Consider	consider	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:84->86:2:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(10
-3	mapping	mapping	NOUN	NN	Number=Sing	1	obj	1:obj	SpaceAfter=No
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(9
+3	mapping	mapping	NOUN	NN	Number=Sing	1	obj	1:obj	MSeg=mapp-ing|SpaceAfter=No
 4	:	:	PUNCT	:	_	5	punct	5:punct	_
-5	k	k	NOUN	NN	Number=Sing	3	appos	3:appos	Discourse=organization-preparation:85->86:1:_|Entity=10)|SpaceAfter=No
+5	k	k	NOUN	NN	Number=Sing	3	appos	3:appos	Discourse=organization-preparation:85->86:1:_|Entity=9)|SpaceAfter=No
 6	:	:	PUNCT	:	_	8	punct	8:punct	_
-7	(	(	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=context-background:86->89:1:_|Entity=(10|SpaceAfter=No
+7	(	(	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=context-background:86->89:1:_|Entity=(9|SpaceAfter=No
 8	T	T	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	⪯	⪯	SYM	SYM	_	8	conj	8:conj|13:nsubj	SpaceAfter=No|XML=<w>
@@ -832,7 +832,7 @@
 15	U	U	NOUN	NN	Number=Sing	13	obj	13:obj	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	⪯	⪯	SYM	SYM	_	15	conj	13:obj|15:conj	SpaceAfter=No
-18	)	)	PUNCT	-RRB-	_	15	punct	15:punct	Entity=10)|SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	15	punct	15:punct	Entity=9)|SpaceAfter=No
 19	:	:	PUNCT	:	_	24	punct	24:punct	_
 20	k	k	NOUN	NN	Number=Sing	24	nsubj	24:nsubj	Discourse=joint-list_m:87->86:0:_
 21	(	(	PUNCT	-LRB-	_	22	punct	22:punct	SpaceAfter=No
@@ -866,11 +866,11 @@
 # text = Thus there is a strictly increasing mapping from T to U.
 1	Thus	thus	ADV	RB	_	3	advmod	3:advmod	Discourse=explanation-evidence:89->91:0:_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 5	strictly	strictly	ADV	RB	Degree=Pos	6	advmod	6:advmod	MSeg=strict-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Strictly_Increasing_Mapping">
 6	increasing	increase	VERB	VBG	VerbForm=Ger	7	amod	7:amod	MSeg=increas-ing
-7	mapping	mapping	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	XML=</ref>
+7	mapping	mapping	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	MSeg=mapp-ing|XML=</ref>
 8	from	from	ADP	IN	_	9	case	9:case	_
 9	T	T	NOUN	NN	Number=Sing	7	nmod	7:nmod:from	_
 10	to	to	ADP	IN	_	11	case	11:case	_
@@ -884,26 +884,26 @@
 # text = From Strictly Increasing Mapping Between Wosets Implies Order Isomorphism, T is order isomorphic to U or an initial segment of U.
 1	From	from	SCONJ	IN	_	7	mark	7:mark	Discourse=joint-list_m:90->89:2:_
 2	Strictly	strictly	ADV	RB	Degree=Pos	3	advmod	3:advmod	XML=<ref target:::"https://proofwiki.org/wiki/Strictly_Increasing_Mapping_Between_Wosets_Implies_Order_Isomorphism">
-3	Increasing	increase	VERB	VBG	VerbForm=Ger	4	amod	4:amod	_
-4	Mapping	mapping	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
+3	Increasing	increase	VERB	VBG	VerbForm=Ger	4	amod	4:amod	MSeg=In-creas-ing
+4	Mapping	mapping	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	MSeg=Mapp-ing
 5	Between	between	ADP	IN	_	6	case	6:case	MSeg=Be-tween
 6	Wosets	woset	NOUN	NNS	Number=Plur	4	nmod	4:nmod:between	_
 7	Implies	imply	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:from	_
 8	Order	order	NOUN	NN	Number=Sing	9	compound	9:compound	_
-9	Isomorphism	isomorphism	NOUN	NN	Number=Sing	7	obj	7:obj	SpaceAfter=No|XML=</ref>
+9	Isomorphism	isomorphism	NOUN	NN	Number=Sing	7	obj	7:obj	MSeg=Iso-morph-ism|SpaceAfter=No|XML=</ref>
 10	,	,	PUNCT	,	_	7	punct	7:punct	_
 11	T	T	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Discourse=explanation-evidence:91->116:1:_
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
 13	order	order	NOUN	NN	Number=Sing	14	compound	14:compound	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Order_Isomorphism">
-14	isomorphic	isomorphic	ADJ	JJ	Degree=Pos	0	root	0:root	XML=</ref>
+14	isomorphic	isomorphic	ADJ	JJ	Degree=Pos	0	root	0:root	MSeg=iso-morph-ic|XML=</ref>
 15	to	to	ADP	IN	_	16	case	16:case	_
 16	U	U	NOUN	NN	Number=Sing	14	obl	14:obl:to	_
 17	or	or	CCONJ	CC	_	20	cc	20:cc	_
-18	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(11
+18	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(10
 19	initial	initial	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
 20	segment	segment	NOUN	NN	Number=Sing	16	conj	14:obl:to|16:conj:or	_
 21	of	of	ADP	IN	_	22	case	22:case	_
-22	U	U	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=11)|SpaceAfter=No
+22	U	U	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=10)|SpaceAfter=No
 23	.	.	PUNCT	.	_	14	punct	14:punct	_
 
 # sent_id = GENTLE_proof_wosets-43
@@ -916,7 +916,7 @@
 1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=context-background:92->102:1:_
 2	Ix	Ix	NOUN	NN	Number=Sing	1	obj	1:obj|3:nsubj:xsubj	_
 3	denote	denote	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
-4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(11
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(10
 5	initial	initial	ADJ	JJ	Degree=Pos	6	amod	6:amod	XML=<ref target:::"https://proofwiki.org/wiki/Definition:Initial_Segment">
 6	segment	segment	NOUN	NN	Number=Sing	3	obj	3:obj	XML=</ref>
 7	in	in	ADP	IN	_	8	case	8:case	_
@@ -925,9 +925,9 @@
 10	by	by	ADP	IN	_	11	case	11:case	_
 11	x	x	NOUN	NN	Number=Sing	9	obl	9:obl:by	SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	15:punct	_
-13	according	accord	VERB	VBG	VerbForm=Ger	15	case	15:case	Discourse=mode-manner:94->93:0:_|MSeg=accord-ing
+13	according	accord	VERB	VBG	Tense=Pres|VerbForm=Part	15	case	15:case	Discourse=mode-manner:94->93:0:_|ExtPos=ADP|MSeg=accord-ing
 14	to	to	ADP	IN	_	13	fixed	13:fixed	_
-15	k	k	NOUN	NN	Number=Sing	9	obl	9:obl:according_to	Entity=11)|SpaceAfter=No
+15	k	k	NOUN	NN	Number=Sing	9	obl	9:obl:according_to	Entity=10)|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_proof_wosets-44
@@ -981,7 +981,7 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	_
 9	well	well	ADV	RB	Degree=Pos	11	advmod	11:advmod	SpaceAfter=No|XML=<w>
 10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
-11	ordering	ordering	NOUN	NN	Number=Sing	3	advcl	3:advcl:because	SpaceAfter=No|XML=</w>
+11	ordering	ordering	NOUN	NN	Number=Sing	3	advcl	3:advcl:because	MSeg=order-ing|SpaceAfter=No|XML=</w>
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_proof_wosets-47
@@ -991,10 +991,10 @@
 # text = Thus there is an order isomorphism from T to Ix in S.
 1	Thus	thus	ADV	RB	_	3	advmod	3:advmod	Discourse=joint-list_m:102->91:1:_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_
 5	order	order	NOUN	NN	Number=Sing	6	compound	6:compound	_
-6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
+6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	8	case	8:case	_
 8	T	T	NOUN	NN	Number=Sing	6	nmod	6:nmod:from	_
 9	to	to	ADP	IN	_	10	case	10:case	_
@@ -1011,14 +1011,14 @@
 1	Suppose	suppose	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:103->104:0:_
 2	x	x	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=contingency-condition:104->105:2:_
 3	=	=	SYM	SYM	_	1	ccomp	1:ccomp	_
-4	min	min	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(12
+4	min	min	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(11
 5	T	T	NOUN	NN	Number=Sing	4	nmod:npmod	4:nmod:npmod	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	_
 8	smallest	small	ADJ	JJS	Degree=Sup	9	amod	9:amod	MSeg=small-est|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Smallest_Element">
 9	element	element	NOUN	NN	Number=Sing	4	appos	4:appos	XML=</ref>
 10	of	of	ADP	IN	_	11	case	11:case	_
-11	T	T	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=12)|SpaceAfter=No
+11	T	T	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=11)|SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_proof_wosets-49
@@ -1027,13 +1027,13 @@
 # transition = smooth-shift
 # text = Then every element of S strictly precedes x, as x is in T.
 1	Then	then	ADV	RB	PronType=Dem	7	advmod	7:advmod	Discourse=explanation-evidence:105->109:0:_
-2	every	every	DET	DT	PronType=Ind	3	det	3:det	Entity=(13
+2	every	every	DET	DT	PronType=Ind	3	det	3:det	Entity=(12
 3	element	element	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
 4	of	of	ADP	IN	_	5	case	5:case	_
-5	S	S	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=13)(14)
+5	S	S	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=12)(13)
 6	strictly	strictly	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=strict-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Strictly_Precede">
 7	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	XML=</ref>
-8	x	x	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(12)|SpaceAfter=No
+8	x	x	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(11)|SpaceAfter=No
 9	,	,	PUNCT	,	_	14	punct	14:punct	_
 10	as	as	SCONJ	IN	_	14	mark	14:mark	Discourse=explanation-justify:106->105:0:_
 11	x	x	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_
@@ -1069,16 +1069,16 @@
 # text = Thus there is an order isomorphism from T to all of S.
 1	Thus	thus	ADV	RB	_	3	advmod	3:advmod	Discourse=joint-list_m:109->91:1:_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_
 5	order	order	NOUN	NN	Number=Sing	6	compound	6:compound	_
-6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
+6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	8	case	8:case	_
 8	T	T	NOUN	NN	Number=Sing	6	nmod	6:nmod:from	_
 9	to	to	ADP	IN	_	10	case	10:case	_
-10	all	all	DET	DT	PronType=Tot	6	nmod	6:nmod:to	Entity=(14
+10	all	all	DET	DT	PronType=Tot	6	nmod	6:nmod:to	Entity=(13
 11	of	of	ADP	IN	_	12	case	12:case	_
-12	S	S	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=14)|SpaceAfter=No
+12	S	S	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=13)|SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_proof_wosets-52
@@ -1119,10 +1119,10 @@
 # text = Also, every element of S strictly precedes x, as x is in T.
 1	Also	also	ADV	RB	_	8	advmod	8:advmod	Discourse=joint-list_m:114->113:0:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	every	every	DET	DT	PronType=Ind	4	det	4:det	Entity=(13
+3	every	every	DET	DT	PronType=Ind	4	det	4:det	Entity=(12
 4	element	element	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
 5	of	of	ADP	IN	_	6	case	6:case	_
-6	S	S	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=13)(15)
+6	S	S	NOUN	NN	Number=Sing	4	nmod	4:nmod:of	Entity=12)(14)
 7	strictly	strictly	ADV	RB	Degree=Pos	8	advmod	8:advmod	MSeg=strict-ly|XML=<ref target:::"https://proofwiki.org/wiki/Definition:Strictly_Precede">
 8	precedes	precede	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	XML=</ref>
 9	x	x	NOUN	NN	Number=Sing	8	obj	8:obj	SpaceAfter=No
@@ -1141,10 +1141,10 @@
 # text = Thus there is an order isomorphism from an initial segment of T to all of S.
 1	Thus	thus	ADV	RB	_	3	advmod	3:advmod	Discourse=joint-list_m:116->59:4:_
 2	there	there	PRON	EX	PronType=Dem	3	expl	3:expl	_
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	_
 5	order	order	NOUN	NN	Number=Sing	6	compound	6:compound	_
-6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
+6	isomorphism	isomorphism	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	MSeg=iso-morph-ism
 7	from	from	ADP	IN	_	10	case	10:case	_
 8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	_
 9	initial	initial	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
@@ -1152,9 +1152,9 @@
 11	of	of	ADP	IN	_	12	case	12:case	_
 12	T	T	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	_
 13	to	to	ADP	IN	_	14	case	14:case	_
-14	all	all	DET	DT	PronType=Tot	6	nmod	6:nmod:to	Entity=(15
+14	all	all	DET	DT	PronType=Tot	6	nmod	6:nmod:to	Entity=(14
 15	of	of	ADP	IN	_	16	case	16:case	_
-16	S	S	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=15)|SpaceAfter=No
+16	S	S	NOUN	NN	Number=Sing	14	nmod	14:nmod:of	Entity=14)|SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_proof_wosets-56
@@ -1173,7 +1173,7 @@
 9	Class	class	NOUN	NN	Number=Sing	12	obl	12:obl	_
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
-12	Isomorphic	isomorphic	ADJ	JJ	Degree=Pos	4	advcl	4:advcl:by	_
+12	Isomorphic	isomorphic	ADJ	JJ	Degree=Pos	4	advcl	4:advcl:by	MSeg=Iso-morph-ic
 13	to	to	ADP	IN	_	15	case	15:case	_
 14	Initial	initial	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	Segment	segment	NOUN	NN	Number=Sing	12	obl	12:obl:to	SpaceAfter=No|XML=</ref>

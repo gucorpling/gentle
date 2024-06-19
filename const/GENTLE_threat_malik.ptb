@@ -20,7 +20,7 @@
           (NP-SBJ (DT this) (NN Case))
           (VP
             (VBZ reverse)
-            (NP (PRP it) (PRP self))
+            (NP (GW it) (PRP self))
             (SBAR
               (IN as)
               (S

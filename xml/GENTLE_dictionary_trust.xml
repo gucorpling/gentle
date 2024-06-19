@@ -11,7 +11,7 @@ English	NP	English	NP0	PROPN	root	Engl-ish
 </head>
 <s type="frag" transition="null">
 <hi rend="bold">
-Etymology	NN	etymology	NN1	NOUN	root	_
+Etymology	NN	etymology	NN1	NOUN	root	Etymo-logy
 </hi>
 </s>
 <p>
@@ -37,7 +37,7 @@ protection	NN	protection	NN1	NOUN	appos	protect-ion
 Long	RB	long	AV0	ADV	advmod	_
 considered	VVN	consider	VVN	VERB	root	consider-ed
 a	DT	a	AT0	DET	det	_
-borrowing	NN	borrowing	NN1	NOUN	xcomp	_
+borrowing	NN	borrowing	NN1	NOUN	xcomp	borrow-ing
 from	IN	from	PRP	ADP	case	_
 <ref target="https://en.wikipedia.org/wiki/Old_Norse">
 Old	NP	Old	NP0	ADJ	amod	_
@@ -85,7 +85,7 @@ a	DT	a	AT0	DET	det	_
 reflex	NN	reflex	NN1	NOUN	xcomp	_
 of	IN	of	PRF	ADP	case	_
 an	DT	a	AT0	DET	det	_
-unattested	JJ	unattested	AJ0	ADJ	amod	_
+unattested	JJ	unattested	AJ0	ADJ	amod	un-attest-ed
 <ref target="https://en.wikipedia.org/wiki/Old_English">
 Old	NP	Old	NP0	ADJ	amod	_
 English	NP	English	NP0	PROPN	compound	Engl-ish
@@ -113,7 +113,7 @@ the	DT	the	AT0	DET	det	_
 same	JJ	same	DT0	ADJ	amod	_
 root	NN	root	NN1	NOUN	nmod	_
 also	RB	also	AV0	ADV	advmod	_
-attested	VVN	attest	VVN	VERB	acl	_
+attested	VVN	attest	VVN	VERB	acl	attest-ed
 in	IN	in	PRP	ADP	case	_
 <ref target="https://en.wikipedia.org/wiki/Middle_High_German">
 Middle	NP	Middle	NP0	ADJ	amod	_
@@ -176,7 +176,7 @@ solace	NN	solace	NN1	NOUN	conj	_
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wikipedia.org/wiki/Saterland_Frisian_language">
-Saterland	NP	Saterland	NP0	PROPN	compound	_
+Saterland	NP	Saterland	NP0	PROPN	compound	Sater-land
 Frisian	NP	Frisian	NP0	PROPN	compound	_
 </ref>
 <ref target="https://en.wiktionary.org/wiki/Traast#Saterland_Frisian">
@@ -215,7 +215,7 @@ troost	FW	troost	UNC	X	conj	_
 “	``	''	PUQ	PUNCT	punct	_
 comfort	NN	comfort	NN1	NOUN	appos	_
 ,	,	,	PUN	PUNCT	punct	_
-consolation	NN	consolation	NN1	NOUN	appos	_
+consolation	NN	consolation	NN1	NOUN	appos	consol-ation
 ”	''	''	PUQ	PUNCT	punct	_
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -229,7 +229,7 @@ Trost	FW	Trost	UNC	X	conj	_
 “	``	''	PUQ	PUNCT	punct	_
 comfort	NN	comfort	NN1	NOUN	appos	_
 ,	,	,	PUN	PUNCT	punct	_
-consolation	NN	consolation	NN1	NOUN	conj	_
+consolation	NN	consolation	NN1	NOUN	conj	consol-ation
 ”	''	''	PUQ	PUNCT	punct	_
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -359,11 +359,11 @@ trust	NN	trust	NN1	NOUN	root	_
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="italic">
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#countable">
-countable	JJ	countable	AJ0	ADJ	parataxis	_
+countable	JJ	countable	AJ0	ADJ	parataxis	count-able
 </ref>
 and	CC	and	CJC	CCONJ	cc	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable">
-uncountable	JJ	uncountable	AJ0	ADJ	conj	_
+uncountable	JJ	uncountable	AJ0	ADJ	conj	un-count-able
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 plural	JJ	plural	AJ0	ADJ	amod	_
@@ -377,7 +377,7 @@ trusts	NNS	trust	NN2	NOUN	appos	_
 <item>
 <s type="decl" transition="null">
 <ref target="https://en.wiktionary.org/wiki/confidence">
-Confidence	NN	confidence	NN1	NOUN	root	_
+Confidence	NN	confidence	NN1	NOUN	root	Confid-ence
 </ref>
 in	IN	in	PRP	ADP	nmod	_
 or	CC	or	CJC	CCONJ	cc	_
@@ -439,7 +439,7 @@ trust	NN	trust	NN1	NOUN	obl	_
 <item>
 <s type="decl" transition="null">
 <ref target="https://en.wiktionary.org/wiki/dependence">
-Dependence	NN	dependence	NN1	NOUN	root	_
+Dependence	NN	dependence	NN1	NOUN	root	Depend-ence
 </ref>
 upon	IN	upon	PRP	ADP	case	up-on
 something	NN	something	NN1	PRON	nmod	_
@@ -455,7 +455,7 @@ hope	NN	hope	NN1	NOUN	parataxis	_
 </item>
 <item>
 <s type="decl" transition="null">
-Confidence	NN	confidence	NN1	NOUN	root	_
+Confidence	NN	confidence	NN1	NOUN	root	Confid-ence
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 future	JJ	future	AJ0	ADJ	amod	_
@@ -464,7 +464,7 @@ for	IN	for	PRP	ADP	case	_
 goods	NNS	good	NN2	NOUN	nmod	good-s
 or	CC	or	CJC	CCONJ	cc	_
 services	NNS	service	NN2	NOUN	conj	service-s
-supplied	VVN	supply	VVN	VERB	acl	_
+supplied	VVN	supply	VVN	VERB	acl	suppli-ed
 ;	:	;	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/credit">
 credit	NN	credit	NN1	NOUN	parataxis	_
@@ -499,7 +499,7 @@ which	WDT	which	DTQ	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	aux:pass	_
 committed	VVN	commit	VVN	VERB	acl:relcl	committ-ed
 or	CC	or	CJC	CCONJ	cc	_
-entrusted	VVN	entrust	VVN	VERB	conj	_
+entrusted	VVN	entrust	VVN	VERB	conj	en-trust-ed
 ;	:	;	PUN	PUNCT	punct	_
 something	NN	something	NN1	PRON	parataxis	_
 received	VVN	receive	VVN	VERB	acl	receiv-ed
@@ -518,7 +518,7 @@ upon	IN	upon	PRP	ADP	case	up-on
 which	WDT	which	DTQ	PRON	obl	_
 confidence	NN	confidence	NN1	NOUN	nsubj:pass	confid-ence
 is	VBZ	be	VBZ	AUX	aux:pass	_
-reposed	VVN	repose	VVN	VERB	acl:relcl	_
+reposed	VVN	repose	VVN	VERB	acl:relcl	repos-ed
 ;	:	;	PUN	PUNCT	punct	_
 ground	NN	ground	NN1	NOUN	parataxis	_
 of	IN	of	PRF	ADP	case	_
@@ -542,7 +542,7 @@ Trustworthiness	NN	trustworthiness	NN1	NOUN	root	Trust-worth-i-ness
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/reliability">
-reliability	NN	reliability	NN1	NOUN	conj	reliabil-ity
+reliability	NN	reliability	NN1	NOUN	conj	reli-abil-ity
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -667,7 +667,7 @@ to	IN	to	PRP	ADP	case	_
 ,	,	,	PUN	PUNCT	punct	_
 a	DT	a	AT0	DET	det	_
 stated	VVN	state	VVN	VERB	amod	stat-ed
-beneficiary	NN	beneficiary	NN1	NOUN	obl	_
+beneficiary	NN	beneficiary	NN1	NOUN	obl	benefic-iary
 ;	:	;	PUN	PUNCT	punct	_
 for	IN	for	PRP	ADP	case	_
 example	NN	example	NN1	NOUN	nmod	_
@@ -684,7 +684,7 @@ he	PP	he	PNP	PRON	nsubj	_
 or	CC	or	CJC	CCONJ	cc	_
 she	PP	she	PNP	PRON	conj	_
 reaches	VVZ	reach	VVZ	VERB	advcl	reache-s
-adulthood	NN	adulthood	NN1	NOUN	obj	_
+adulthood	NN	adulthood	NN1	NOUN	obj	adult-hood
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
@@ -693,10 +693,10 @@ adulthood	NN	adulthood	NN1	NOUN	obj	_
 A	DT	a	AT0	DET	det	_
 group	NN	group	NN1	NOUN	root	_
 of	IN	of	PRF	ADP	case	_
-businessmen	NNS	businessmen	NN2	NOUN	nmod	_
+businessmen	NNS	businessmen	NN2	NOUN	nmod	busi-ness-men
 or	CC	or	CJC	CCONJ	cc	_
 traders	NNS	trader	NN2	NOUN	conj	_
-organised	VVN	organise	VVN	VERB	acl	_
+organised	VVN	organise	VVN	VERB	acl	organ-is-ed
 for	IN	for	PRP	ADP	case	_
 mutual	JJ	mutual	AJ0	ADJ	amod	_
 benefit	NN	benefit	NN1	NOUN	obl	_
@@ -705,7 +705,7 @@ produce	VV	produce	VVI	VERB	acl	_
 and	CC	and	CJC	CCONJ	cc	_
 distribute	VV	distribute	VVI	VERB	conj	_
 specific	JJ	specific	AJ0	ADJ	amod	specif-ic
-commodities	NNS	commodity	NN2	NOUN	obj	_
+commodities	NNS	commodity	NN2	NOUN	obj	commod-itie-s
 or	CC	or	CJC	CCONJ	cc	_
 services	NNS	service	NN2	NOUN	obj	service-s
 ,	,	,	PUN	PUNCT	punct	_
@@ -731,7 +731,7 @@ computing	NN	computing	NN1	NOUN	root	comput-ing
 )	)	)	PUR	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Affirmation	NN	affirmation	NN1	NOUN	root	_
+Affirmation	NN	affirmation	NN1	NOUN	root	Affirm-ation
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://en.wiktionary.org/wiki/access">
@@ -862,10 +862,10 @@ trusts	NNS	trust	NN2	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="italic">
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	compound	_
+participle	NN	participle	NN1	NOUN	compound	particip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusting#English">
-trusting	VVG	trust	VVG	VERB	dep	_
+trusting	VVG	trust	VVG	VERB	dep	trust-ing
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="italic">
@@ -873,10 +873,10 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 past	NN	past	NN1	NOUN	nsubj	_
 and	CC	and	CJC	CCONJ	cc	_
 past	JJ	past	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	conj	_
+participle	NN	participle	NN1	NOUN	conj	particip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusted#English">
-trusted	VVN	trust	VVN	VERB	dep	_
+trusted	VVN	trust	VVN	VERB	dep	trust-ed
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -885,7 +885,7 @@ trusted	VVN	trust	VVN	VERB	dep	_
 <s type="frag" transition="zero">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	root	_
+transitive	JJ	transitive	AJ0	ADJ	root	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -969,7 +969,7 @@ motto	NN	motto	NN1	NOUN	dep	_
 <s type="frag" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	root	_
+transitive	JJ	transitive	AJ0	ADJ	root	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -993,14 +993,14 @@ credit	NN	credit	NN1	NOUN	parataxis	_
 <s type="frag" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	root	_
+transitive	JJ	transitive	AJ0	ADJ	root	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
 To	TO	to	TO0	PART	mark	_
 hope	VV	hope	VVI	VERB	root	_
-confidently	RB	confidently	AV0	ADV	advmod	_
+confidently	RB	confidently	AV0	ADV	advmod	confid-ent-ly
 ;	:	;	PUN	PUNCT	punct	_
 to	TO	to	TO0	PART	mark	_
 believe	VV	believe	VVI	VERB	parataxis	_
@@ -1010,7 +1010,7 @@ with	IN	with	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 phrase	NN	phrase	NN1	NOUN	obl	_
 or	CC	or	CJC	CCONJ	cc	_
-infinitive	JJ	infinitive	AJ0	ADJ	amod	_
+infinitive	JJ	infinitive	AJ0	ADJ	amod	in-finit-ive
 clause	NN	clause	NN1	NOUN	conj	_
 as	IN	as	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -1034,7 +1034,7 @@ room	NN	room	NN1	NOUN	obj	_
 <s type="frag" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	root	_
+transitive	JJ	transitive	AJ0	ADJ	root	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -1046,7 +1046,7 @@ in	IN	in	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 person	NN	person	NN1	NOUN	nmod	_
 by	IN	by	PRP	SCONJ	mark	_
-entrusting	VVG	entrust	VVG	VERB	advcl	_
+entrusting	VVG	entrust	VVG	VERB	advcl	en-trust-ing
 them	PP	they	PNP	PRON	obj	_
 with	IN	with	PRP	ADP	case	_
 something	NN	something	NN1	PRON	obl	_
@@ -1057,7 +1057,7 @@ something	NN	something	NN1	PRON	obl	_
 <s type="frag" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	root	_
+transitive	JJ	transitive	AJ0	ADJ	root	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -1080,7 +1080,7 @@ entrust	VV	entrust	NN1	VERB	parataxis	_
 <s type="frag" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	root	_
+transitive	JJ	transitive	AJ0	ADJ	root	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -1105,7 +1105,7 @@ payment	NN	payment	NN1	NOUN	nmod	pay-ment
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Merchants	NNS	merchant	NN2	NOUN	nsubj	_
+Merchants	NNS	merchant	NN2	NOUN	nsubj	Merchant-s
 and	CC	and	CJC	CCONJ	cc	_
 manufacturers	NNS	manufacturer	NN2	NOUN	conj	manufactur-er-s
 <hi rend="bold">
@@ -1186,7 +1186,7 @@ archaic	JJ	archaic	AJ0	ADJ	root	_
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	parataxis	_
+transitive	JJ	transitive	AJ0	ADJ	parataxis	transit-ive
 </ref>
 </s>
 <s type="decl" transition="null">
@@ -1195,7 +1195,7 @@ risk	VV	risk	VVI	VERB	root	_
 ;	:	;	PUN	PUNCT	punct	_
 to	TO	to	TO0	PART	mark	_
 venture	VV	venture	VVI	VERB	parataxis	_
-confidently	RB	confidently	AV0	ADV	advmod	_
+confidently	RB	confidently	AV0	ADV	advmod	confid-ent-ly
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
@@ -1214,7 +1214,7 @@ trust	NN	trust	NN1	NOUN	obj	_
 ;	:	;	PUN	PUNCT	punct	_
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	AUX	cop	_
-credulous	JJ	credulous	AJ0	ADJ	parataxis	_
+credulous	JJ	credulous	AJ0	ADJ	parataxis	cred-ulous
 ;	:	;	PUN	PUNCT	punct	_
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	AUX	aux:pass	_
@@ -1353,7 +1353,7 @@ Faithful	JJ	Faithful	AJ0	ADJ	root	_
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/dependable">
-dependable	JJ	dependable	AJ0	ADJ	conj	_
+dependable	JJ	dependable	AJ0	ADJ	conj	depend-able
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>

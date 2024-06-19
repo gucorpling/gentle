@@ -332,20 +332,22 @@
         (VP
           (VB do)
           (SBAR
-            (WHNP (WP what) (WHNP (RB ever)))
+            (GW what)
             (S
-              (NP-SBJ (PRP it))
-              (VP
-                (VBZ takes)
-                (S-PRP
-                  (VP
-                    (TO to)
+              (WHNP (WP ever))
+              (S
+                (NP-SBJ (PRP it))
+                (VP
+                  (VBZ takes)
+                  (S-PRP
                     (VP
-                      (VB have)
-                      (S
-                        (NP-SBJ (PRP you))
-                        (PP-LOC-PRD (IN in) (NP (NN jail)))
-                        (PP (IN like) (NP (PRP me)))))))))))))
+                      (TO to)
+                      (VP
+                        (VB have)
+                        (S
+                          (NP-SBJ (PRP you))
+                          (PP-LOC-PRD (IN in) (NP (NN jail)))
+                          (PP (IN like) (NP (PRP me))))))))))))))
     (. .)))
 
 (ROOT
@@ -571,5 +573,4 @@
     (VP (VB Do) (RB n't) (VP (VB take) (NP (PRP$ your) (NN time))))
     (. .)))
 
-(ROOT
-  (S (NP-SBJ (PRP I)) (VP (VBP am) (ADJP-PRD (VBN pissed))) (. .)))
+(ROOT (S (NP-SBJ (PRP I)) (VP (VBP am) (ADJP (VBN pissed))) (. .)))

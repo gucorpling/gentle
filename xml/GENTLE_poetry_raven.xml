@@ -17,7 +17,7 @@ dreary	JJ	dreary	AJ0	ADJ	amod	_
 ,	,	,	PUN	PUNCT	punct	_
 while	IN	while	CJS	SCONJ	mark	_
 I	PP	I	PNP	PRON	nsubj	_
-pondered	VVD	ponder	VVD	VERB	advcl	_
+pondered	VVD	ponder	VVD	VERB	advcl	ponder-ed
 ,	,	,	PUN	PUNCT	punct	_
 weak	JJ	weak	AJ0	ADJ	advmod	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -43,7 +43,7 @@ I	PP	I	PNP	PRON	nsubj	_
 nodded	VVD	nod	VVD	VERB	advcl	nodd-ed
 ,	,	,	PUN	PUNCT	punct	_
 nearly	RB	nearly	AV0	ADV	advmod	near-ly
-napping	VVG	nap	VVG	VERB	advcl	_
+napping	VVG	nap	VVG	VERB	advcl	napp-ing
 ,	,	,	PUN	PUNCT	punct	_
 suddenly	RB	suddenly	AV0	ADV	advmod	sudden-ly
 there	EX	there	EX0	PRON	expl	_
@@ -57,9 +57,9 @@ of	IN	of	PRF	ADP	fixed	_
 some	DT	some	DT0	DET	det	_
 one	NN	one	NN1	NOUN	nsubj	_
 gently	RB	gently	AV0	ADV	advmod	gent-ly
-rapping	VVG	rap	VVG	VERB	acl	_
+rapping	VVG	rap	VVG	VERB	acl	rapp-ing
 ,	,	,	PUN	PUNCT	punct	_
-rapping	VVG	rap	VVG	VERB	conj	_
+rapping	VVG	rap	VVG	VERB	conj	rapp-ing
 at	IN	at	PRP	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 chamber	NN	chamber	NN1	NOUN	compound	_
@@ -78,7 +78,7 @@ visiter	NN	visiter	NN1	NOUN	root	_
 ,	,	,	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 I	PP	I	PNP	PRON	nsubj	_
-muttered	VVD	mutter	VVD	VERB	parataxis	_
+muttered	VVD	mutter	VVD	VERB	parataxis	mutter-ed
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
 tapping	VVG	tap	VVG	VERB	acl	tapp-ing
@@ -104,7 +104,7 @@ more	JJR	more	AJC	ADJ	amod	_
 <l n="7"/>
 Ah	UH	ah	ITJ	INTJ	discourse	_
 ,	,	,	PUN	PUNCT	punct	_
-distinctly	RB	distinctly	AV0	ADV	advmod	_
+distinctly	RB	distinctly	AV0	ADV	advmod	distinct-ly
 I	PP	I	PNP	PRON	nsubj	_
 remember	VVP	remember	VVB	VERB	root	_
 it	PP	it	PNP	PRON	nsubj	_
@@ -192,13 +192,13 @@ each	DT	each	DT0	DET	det	_
 purple	JJ	purple	AJ0	ADJ	amod	_
 curtain	NN	curtain	NN1	NOUN	nmod	_
 <l n="14"/>
-Thrilled	VVD	thrill	VVD	VERB	root	_
+Thrilled	VVD	thrill	VVD	VERB	root	Thrill-ed
 me	PP	I	PNP	PRON	obj	_
 —	:	—	NP0	PUNCT	punct	_
 filled	VVD	fill	VVD	VERB	parataxis	fill-ed
 me	PP	I	PNP	PRON	obj	_
 with	IN	with	PRP	ADP	case	_
-fantastic	JJ	fantastic	AJ0	ADJ	amod	_
+fantastic	JJ	fantastic	AJ0	ADJ	amod	fantas-tic
 terrors	NNS	terror	NN2	NOUN	obl	terror-s
 never	RB	never	AV0	ADV	advmod	_
 felt	VVD	feel	VVD	VERB	acl	fel-t
@@ -214,7 +214,7 @@ now	RB	now	AV0	ADV	advmod	_
 to	TO	to	TO0	PART	mark	_
 still	VV	still	AV0	VERB	advcl	_
 the	DT	the	AT0	DET	det	_
-beating	NN	beating	NN1	NOUN	obj	_
+beating	NN	beating	NN1	NOUN	obj	beat-ing
 of	IN	of	PRF	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 heart	NN	heart	NN1	NOUN	nmod	_
@@ -232,7 +232,7 @@ is	VBZ	be	VBZ	AUX	cop	_
 </w>
 some	DT	some	DT0	DET	det	_
 visiter	NN	visiter	NN1	NOUN	root	_
-entreating	VVG	entreat	VVG	VERB	acl	_
+entreating	VVG	entreat	VVG	VERB	acl	en-treat-ing
 entrance	NN	entrance	NN1	NOUN	obj	en-trance
 at	IN	at	PRP	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
@@ -245,7 +245,7 @@ door	NN	door	NN1	NOUN	obl	_
 Some	DT	some	DT0	DET	det	_
 late	JJ	late	AJ0	ADJ	amod	_
 visiter	NN	visiter	NN1	NOUN	root	_
-entreating	VVG	entreat	VVG	VERB	acl	_
+entreating	VVG	entreat	VVG	VERB	acl	en-treat-ing
 entrance	NN	entrance	NN1	NOUN	obj	en-trance
 at	IN	at	PRP	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
@@ -268,7 +268,7 @@ more	JJR	more	AJC	ADJ	amod	_
 <p>
 <s type="decl" transition="zero">
 <l n="19"/>
-Presently	RB	presently	AV0	ADV	advmod	_
+Presently	RB	presently	AV0	ADV	advmod	Present-ly
 my	PP$	my	DPS	PRON	nmod:poss	_
 soul	NN	soul	NN1	NOUN	nsubj	_
 grew	VVD	grow	VVD	VERB	root	_
@@ -276,7 +276,7 @@ stronger	JJR	strong	AJC	ADJ	xcomp	strong-er
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
-hesitating	VVG	hesitate	VVG	VERB	advcl	_
+hesitating	VVG	hesitate	VVG	VERB	advcl	hesitat-ing
 then	RB	then	AV0	ADV	advmod	_
 no	RB	no	AV0	ADV	advmod	_
 longer	RBR	long	AJC	ADV	advmod	long-er
@@ -295,7 +295,7 @@ Madam	NP	Madam	NP0	PROPN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 truly	RB	truly	AV0	ADV	advmod	tru-ly
 your	PP$	your	DPS	PRON	nmod:poss	_
-forgiveness	NN	forgiveness	NN1	NOUN	obj	_
+forgiveness	NN	forgiveness	NN1	NOUN	obj	for-give-ness
 I	PP	I	PNP	PRON	nsubj	_
 implore	VVP	implore	VVB	VERB	root	_
 ;	:	;	PUN	PUNCT	punct	_
@@ -308,14 +308,14 @@ fact	NN	fact	NN1	NOUN	csubj:outer:outer	_
 is	VBZ	be	VBZ	AUX	cop	_
 I	PP	I	PNP	PRON	nsubj	_
 was	VBD	be	VBD	AUX	aux	_
-napping	VVG	nap	VVG	VERB	root	_
+napping	VVG	nap	VVG	VERB	root	napp-ing
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 so	RB	so	AV0	ADV	advmod	_
 gently	RB	gently	AV0	ADV	advmod	gent-ly
 you	PP	you	PNP	PRON	nsubj	_
 came	VVD	come	VVD	VERB	conj	_
-rapping	VVG	rap	VVG	VERB	xcomp	_
+rapping	VVG	rap	VVG	VERB	xcomp	rapp-ing
 ,	,	,	PUN	PUNCT	punct	_
 <l n="22"/>
 And	CC	and	CJC	CCONJ	cc	_
@@ -371,7 +371,7 @@ Deep	RB	deep	AV0	ADV	advmod	_
 into	IN	into	PRP	ADP	case	in-to
 that	DT	that	DT0	DET	det	_
 darkness	NN	darkness	NN1	NOUN	obl	dark-ness
-peering	VVG	peer	VVG	VERB	advcl	_
+peering	VVG	peer	VVG	VERB	advcl	peer-ing
 ,	,	,	PUN	PUNCT	punct	_
 long	RB	long	AV0	ADV	advmod	_
 I	PP	I	PNP	PRON	nsubj	_
@@ -379,17 +379,17 @@ stood	VVD	stand	VVD	VERB	root	_
 there	RB	there	AV0	ADV	advmod	_
 wondering	VVG	wonder	VVG	VERB	advcl	wonder-ing
 ,	,	,	PUN	PUNCT	punct	_
-fearing	VVG	fear	VVG	VERB	conj	_
+fearing	VVG	fear	VVG	VERB	conj	fear-ing
 ,	,	,	PUN	PUNCT	punct	_
 <l n="26"/>
-Doubting	VVG	doubt	VVG	VERB	conj	_
+Doubting	VVG	doubt	VVG	VERB	conj	Doubt-ing
 ,	,	,	PUN	PUNCT	punct	_
-dreaming	VVG	dream	VVG	VERB	conj	_
+dreaming	VVG	dream	VVG	VERB	conj	dream-ing
 dreams	NNS	dream	NN2	NOUN	obj	dream-s
 no	DT	no	AT0	DET	det	_
 mortals	NNS	mortal	NN2	NOUN	nsubj	_
 ever	RB	ever	AV0	ADV	advmod	_
-dared	VVD	dare	VVD	VERB	acl:relcl	_
+dared	VVD	dare	VVD	VERB	acl:relcl	dar-ed
 to	TO	to	TO0	PART	mark	_
 dream	VV	dream	VVI	VERB	xcomp	_
 before	RB	before	AV0	ADV	advmod	_
@@ -405,7 +405,7 @@ unbroken	JJ	unbroken	AJ0	ADJ	root	_
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
-stillness	NN	stillness	NN1	NOUN	nsubj	_
+stillness	NN	stillness	NN1	NOUN	nsubj	still-ness
 gave	VVD	give	VVD	VERB	conj	_
 no	DT	no	AT0	DET	det	_
 token	NN	token	NN1	NOUN	obj	_
@@ -419,7 +419,7 @@ there	RB	there	AV0	ADV	advmod	_
 spoken	VVN	speak	VVN	VERB	acl	spok-en
 was	VBD	be	VBD	AUX	cop	_
 the	DT	the	AT0	DET	det	_
-whispered	VVN	whisper	VVN	VERB	amod	_
+whispered	VVN	whisper	VVN	VERB	amod	whisper-ed
 word	NN	word	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
@@ -436,7 +436,7 @@ whispered	VVD	whisper	VVD	VERB	root	whisper-ed
 and	CC	and	CJC	CCONJ	cc	_
 an	DT	a	AT0	DET	det	_
 echo	NN	echo	NN1	NOUN	nsubj	_
-murmured	VVD	murmur	VVD	VERB	conj	_
+murmured	VVD	murmur	VVD	VERB	conj	murmur-ed
 back	RB	back	AVP	ADV	advmod	_
 the	DT	the	AT0	DET	det	_
 word	NN	word	NN1	NOUN	obj	_
@@ -481,7 +481,7 @@ heard	VVD	hear	VVD	VERB	root	hear-d
 a	DT	a	AT0	DET	det	_
 tapping	NN	tapping	NN1	NOUN	obj	tapp-ing
 something	NN	something	NN1	PRON	obl:npmod	_
-louder	JJR	loud	AJC	ADJ	amod	_
+louder	JJR	loud	AJC	ADJ	amod	loud-er
 than	IN	than	CJS	ADP	case	_
 before	RB	before	AV0	ADV	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -515,7 +515,7 @@ see	VV	see	VVI	VERB	xcomp	_
 then	RB	then	AV0	ADV	advmod	_
 ,	,	,	PUN	PUNCT	punct	_
 what	WP	what	PNQ	PRON	nsubj	_
-thereat	NN	thereat	NN1	NOUN	ccomp	_
+thereat	RB	thereat	NN1	ADV	ccomp	_
 is	VBZ	be	VBZ	AUX	cop	_
 and	CC	and	CJC	CCONJ	cc	_
 this	DT	this	DT0	DET	det	_
@@ -619,14 +619,14 @@ lord	NN	lord	NN1	NOUN	nmod	_
 or	CC	or	CJC	CCONJ	cc	_
 lady	NN	lady	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
-perched	VVN	perch	VVN	VERB	root	_
+perched	VVN	perch	VVN	VERB	root	perch-ed
 above	IN	above	PRP	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 chamber	NN	chamber	NN1	NOUN	compound	_
 door	NN	door	NN1	NOUN	obl	_
 —	:	—	UNC	PUNCT	punct	_
 <l n="41"/>
-Perched	VVN	perch	VVN	VERB	advcl	_
+Perched	VVN	perch	VVN	VERB	advcl	Perch-ed
 upon	IN	upon	PRP	ADP	case	up-on
 a	DT	a	AT0	DET	det	_
 bust	NN	bust	NN1	NOUN	obl	_
@@ -641,7 +641,7 @@ door	NN	door	NN1	NOUN	obl	_
 </s>
 <s type="other" transition="null">
 <l n="42"/>
-Perched	VVD	perch	VVD	VERB	root	_
+Perched	VVD	perch	VVD	VERB	root	Perch-ed
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 sat	VVD	sit	VVD	VERB	conj	_
@@ -659,7 +659,7 @@ Then	RB	then	AV0	ADV	advmod	_
 this	DT	this	DT0	DET	det	_
 ebony	JJ	ebony	AJ0	ADJ	amod	_
 bird	NN	bird	NN1	NOUN	nsubj	_
-beguiling	VVG	beguile	VVG	VERB	advcl	_
+beguiling	VVG	beguile	VVG	VERB	advcl	be-guil-ing
 my	PP$	my	DPS	PRON	nmod:poss	_
 sad	JJ	sad	AJ0	ADJ	amod	_
 fancy	NN	fancy	NN1	NOUN	obj	_
@@ -675,7 +675,7 @@ stern	JJ	stern	AJ0	ADJ	conj	_
 decorum	NN	decorum	NN1	NOUN	obl	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
-countenance	NN	countenance	NN1	NOUN	nmod	countenance
+countenance	NN	countenance	NN1	NOUN	nmod	_
 it	PP	it	PNP	PRON	nsubj	_
 wore	VVD	wear	VVD	VERB	acl:relcl	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -727,7 +727,7 @@ on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Night	NN	Night	NN1	NOUN	nmod:poss	_
 's	POS	's	POS	PART	case	_
-Plutonian	JJ	Plutonian	AJ0	ADJ	amod	_
+Plutonian	JJ	Plutonian	AJ0	ADJ	amod	Plutoni-an
 shore	NN	shore	NN1	NOUN	obl	_
 !	SENT	!	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
@@ -739,7 +739,7 @@ the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
+Nevermore	NP	Nevermore	NP0	PROPN	ccomp	_
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -749,7 +749,7 @@ Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
 <l n="49"/>
 Much	RB	much	AV0	ADV	advmod	_
 I	PP	I	PNP	PRON	nsubj	_
-marvelled	VVD	marvel	VVD	VERB	root	_
+marvelled	VVD	marvel	VVD	VERB	root	marvell-ed
 this	DT	this	DT0	DET	det	_
 ungainly	RB	ungainly	AJ0	ADV	amod	_
 fowl	NN	fowl	NN0	NOUN	nsubj	_
@@ -769,7 +769,7 @@ little	JJ	little	AJ0	ADJ	amod	_
 meaning	NN	meaning	NN1	NOUN	obj	mean-ing
 —	:	—	UNC	PUNCT	punct	_
 little	JJ	little	AJ0	ADJ	amod	_
-relevancy	NN	relevancy	NN1	NOUN	conj	_
+relevancy	NN	relevancy	NN1	NOUN	conj	relevan-cy
 bore	VVD	bear	VVD	VERB	root	_
 ;	:	;	PUN	PUNCT	punct	_
 </s>
@@ -807,7 +807,7 @@ or	CC	or	CJC	CCONJ	cc	_
 beast	NN	beast	NN1	NOUN	conj	_
 upon	IN	upon	PRP	ADP	case	up-on
 the	DT	the	AT0	DET	det	_
-sculptured	VVN	sculpture	VVN	VERB	amod	_
+sculptured	VVN	sculpture	VVN	VERB	amod	sculpt-ur-ed
 bust	NN	bust	NN1	NOUN	nmod	_
 above	IN	above	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
@@ -820,7 +820,7 @@ such	JJ	such	DT0	ADJ	amod	_
 name	NN	name	NN1	NOUN	nmod	_
 as	IN	as	PRP	ADP	case	_
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	nmod	_
+Nevermore	NP	Nevermore	NP0	PROPN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -862,10 +862,10 @@ outpour	VV	outpour	NN1	VERB	advcl	_
 <s type="decl" transition="continue">
 <l n="57"/>
 Nothing	NN	nothing	NN1	PRON	obj	_
-farther	RBR	far	AV0	ADV	advmod	_
+farther	RBR	far	AV0	ADV	advmod	farth-er
 then	RB	then	AV0	ADV	advmod	_
 he	PP	he	PNP	PRON	nsubj	_
-uttered	VVD	utter	VVD	VERB	root	_
+uttered	VVD	utter	VVD	VERB	root	utter-ed
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -884,7 +884,7 @@ I	PP	I	PNP	PRON	nsubj	_
 scarcely	RB	scarcely	AV0	ADV	advmod	_
 more	RBR	more	AV0	ADV	advmod	_
 than	IN	than	CJS	ADP	fixed	_
-muttered	VVN	mutter	VVN	VERB	root	_
+muttered	VVD	mutter	VVD	VERB	root	mutter-ed
 </s>
 <s type="decl" transition="null">
 "	``	''	PUQ	PUNCT	punct	_
@@ -923,7 +923,7 @@ the	DT	the	AT0	DET	det	_
 bird	NN	bird	NN1	NOUN	nsubj	_
 said	VVD	say	VVD	VERB	root	sai-d
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
+Nevermore	RB	nevermore	AV0	ADV	ccomp	Never-more
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -931,10 +931,10 @@ Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
 <p>
 <s type="decl" transition="continue">
 <l n="61"/>
-Startled	VVN	startle	VVN	VERB	advcl	_
+Startled	VVN	startle	VVN	VERB	advcl	Start-l-ed
 at	IN	at	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-stillness	NN	stillness	NN1	NOUN	obl	_
+stillness	NN	stillness	NN1	NOUN	obl	still-ness
 broken	VVN	break	VVN	VERB	acl	brok-en
 by	IN	by	PRP	ADP	case	_
 reply	NN	reply	NN1	NOUN	obl	_
@@ -944,7 +944,7 @@ spoken	VVN	speak	VVN	VERB	acl	spok-en
 ,	,	,	PUN	PUNCT	punct	_
 <l n="62"/>
 "	``	''	PUQ	PUNCT	punct	_
-Doubtless	RB	doubtless	AV0	ADV	advmod	_
+Doubtless	RB	doubtless	AV0	ADV	advmod	Doubt-less
 ,	,	,	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 said	VVD	say	VVD	VERB	parataxis	sai-d
@@ -969,10 +969,10 @@ some	DT	some	DT0	DET	det	_
 unhappy	JJ	unhappy	AJ0	ADJ	amod	un-happ-y
 master	NN	master	NN1	NOUN	obl	mast-er
 whom	WP	who	PNQ	PRON	obj	_
-unmerciful	JJ	unmerciful	AJ0	ADJ	amod	_
+unmerciful	JJ	unmerciful	AJ0	ADJ	amod	un-merci-ful
 Disaster	NP	Disaster	NP0	PROPN	nsubj	_
 <l n="64"/>
-Followed	VVD	follow	VVD	VERB	acl:relcl	_
+Followed	VVD	follow	VVD	VERB	acl:relcl	Follow-ed
 fast	RB	fast	AV0	ADV	advmod	_
 and	CC	and	CJC	CCONJ	cc	_
 followed	VVD	follow	VVD	VERB	conj	follow-ed
@@ -994,7 +994,7 @@ of	IN	of	PRF	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 Hope	NN	hope	NN1	NOUN	nmod	_
 that	DT	that	CJT	DET	det	_
-melancholy	JJ	melancholy	AJ0	ADJ	amod	_
+melancholy	JJ	melancholy	AJ0	ADJ	amod	melanchol-y
 burden	NN	burden	NN1	NOUN	nsubj	_
 bore	VVD	bear	VVD	VERB	root	_
 <l n="66"/>
@@ -1002,7 +1002,7 @@ Of	IN	of	PRF	ADP	case	_
 '	``	'	PUQ	PUNCT	punct	_
 Never	RB	never	AV0	ADV	reparandum	_
 —	:	—	AJ0	PUNCT	punct	_
-nevermore	RB	nevermore	AV0	ADV	advmod	_
+nevermore	RB	nevermore	AV0	ADV	advmod	never-more
 .	SENT	.	PUN	PUNCT	punct	_
 '	''	'	PUQ	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
@@ -1015,7 +1015,7 @@ But	CC	but	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 still	RB	still	AV0	ADV	advmod	_
-beguiling	VVG	beguile	VVG	VERB	advcl	_
+beguiling	VVG	beguile	VVG	VERB	advcl	be-guil-ing
 all	IN	all	PRP	DET	det:predet	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 sad	JJ	sad	AJ0	ADJ	amod	_
@@ -1026,9 +1026,9 @@ smiling	VVG	smile	VVG	VERB	advcl	smil-ing
 <l n="68"/>
 Straight	RB	straight	AV0	ADV	advmod	_
 I	PP	I	PNP	PRON	nsubj	_
-wheeled	VVD	wheel	VVD	VERB	root	_
+wheeled	VVD	wheel	VVD	VERB	root	wheel-ed
 a	DT	a	AV0	DET	det	_
-cushioned	VVN	cushion	VVN	VERB	amod	_
+cushioned	VVN	cushion	VVN	VERB	amod	cushion-ed
 seat	NN	seat	NN1	NOUN	obj	_
 in	IN	in	PRP	ADP	case	_
 front	NN	front	NN1	NOUN	obl	_
@@ -1047,7 +1047,7 @@ Then	RB	then	AV0	ADV	advmod	_
 upon	IN	upon	PRP	ADP	case	up-on
 the	DT	the	AT0	DET	det	_
 velvet	NN	velvet	NN1	NOUN	obl	_
-sinking	NN	sinking	NN1	NOUN	advcl	_
+sinking	NN	sinking	NN1	NOUN	advcl	sink-ing
 ,	,	,	PUN	PUNCT	punct	_
 I	PP	I	PNP	PRON	nsubj	_
 betook	VVD	betak	VVD	VERB	root	_
@@ -1084,11 +1084,11 @@ bird	NN	bird	NN1	NOUN	nsubj	_
 of	IN	of	PRF	ADP	case	_
 yore	NN	yore	NN1	NOUN	nmod	_
 <l n="72"/>
-Meant	VVN	Mean	VVN	VERB	acl:relcl	_
+Meant	VVD	mean	VVD	VERB	acl:relcl	_
 in	IN	in	PRP	SCONJ	mark	_
-croaking	VVG	croak	VVG	VERB	advcl	_
+croaking	VVG	croak	VVG	VERB	advcl	croak-ing
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	NN	Nevermore	NN1	NOUN	ccomp	_
+Nevermore	RB	nevermore	AV0	ADV	ccomp	Never-more
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -1130,28 +1130,28 @@ and	CC	and	CJC	CCONJ	cc	_
 more	JJR	more	AJC	ADJ	conj	_
 I	PP	I	PNP	PRON	nsubj	_
 sat	VVD	sit	VVD	VERB	root	_
-divining	VVG	divine	VVG	VERB	xcomp	_
+divining	VVG	divine	VVG	VERB	xcomp	divin-ing
 ,	,	,	PUN	PUNCT	punct	_
 with	IN	with	PRP	SCONJ	mark	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 head	NN	head	NN1	NOUN	nsubj	_
 at	IN	at	PRP	ADP	case	_
 ease	NN	ease	NN1	NOUN	obl	_
-reclining	VVG	recline	VVG	VERB	advcl	_
+reclining	VVG	recline	VVG	VERB	advcl	reclin-ing
 <l n="76"/>
 On	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 cushion	NN	cushion	NN1	NOUN	nmod:poss	_
 's	POS	's	POS	PART	case	_
 velvet	NN	velvet	NN1	NOUN	compound	_
-lining	NN	lining	NN1	NOUN	obl	_
-that	WDT	that	CJT	PRON	obj	_
+lining	NN	lining	NN1	NOUN	obl	lin-ing
+that	WDT	that	CJT	PRON	obl	_
 the	DT	the	AT0	DET	det	_
 lamp	NN	lamp	NN1	NOUN	compound	_
 -	:	-	PUN	PUNCT	punct	_
 light	NN	light	NN1	NOUN	nsubj	_
-gloated	JJ	gloated	AJ0	ADJ	acl:relcl	_
-o'er	IN	over	PRP	ADV	advmod	_
+gloated	JJ	gloated	AJ0	ADJ	acl:relcl	gloat-ed
+o'er	IN	over	PRP	ADP	case	_
 ,	,	,	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
@@ -1160,13 +1160,13 @@ But	CC	but	CJC	CCONJ	cc	_
 whose	WDT	whose	DTQ	PRON	nmod:poss	_
 velvet	NN	velvet	NN1	NOUN	compound	_
 violet	JJ	violet	AJ0	ADJ	amod	_
-lining	NN	lining	NN1	NOUN	obj	_
+lining	NN	lining	NN1	NOUN	obj	lin-ing
 with	IN	with	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 lamp	NN	lamp	NN1	NOUN	compound	_
 -	:	-	PUN	PUNCT	punct	_
 light	NN	light	NN1	NOUN	compound	_
-gloating	VVG	gloat	VVG	VERB	acl	_
+gloating	VVG	gloat	VVG	VERB	acl	gloat-ing
 o'er	IN	over	PRP	ADV	advmod	_
 <l n="78"/>
 <hi rend="italic">
@@ -1177,7 +1177,7 @@ press	VV	press	VVI	VERB	root	_
 ,	,	,	PUN	PUNCT	punct	_
 ah	UH	ah	ITJ	INTJ	discourse	_
 ,	,	,	PUN	PUNCT	punct	_
-nevermore	RB	nevermore	AV0	ADV	advmod	_
+nevermore	RB	nevermore	AV0	ADV	advmod	never-more
 !	SENT	!	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -1192,7 +1192,7 @@ thought	VVD	think	VVD	VERB	root	_
 the	DT	the	AT0	DET	det	_
 air	NN	air	NN1	NOUN	nsubj	_
 grew	VVD	grow	VVD	VERB	ccomp	_
-denser	JJR	dense	AJC	ADJ	xcomp	_
+denser	JJR	dense	AJC	ADJ	xcomp	dens-er
 ,	,	,	PUN	PUNCT	punct	_
 perfumed	VVN	perfume	VVN	VERB	advcl	perfum-ed
 from	IN	from	PRP	ADP	case	_
@@ -1207,10 +1207,10 @@ whose	WP$	whose	DTQ	PRON	nmod:poss	_
 foot	NN	foot	NN1	NOUN	compound	_
 -	:	-	PUN	PUNCT	punct	_
 falls	NNS	fall	NN2	NOUN	nsubj	_
-tinkled	VVD	tinkle	VVD	VERB	acl:relcl	_
+tinkled	VVD	tinkle	VVD	VERB	acl:relcl	tinkl-ed
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-tufted	JJ	tufted	AJ0	ADJ	amod	_
+tufted	JJ	tufted	AJ0	ADJ	amod	tuft-ed
 floor	NN	floor	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -1262,7 +1262,7 @@ nepenthe	NN	nepenthe	NN1	NOUN	obj	_
 and	CC	and	CJC	CCONJ	cc	_
 forget	VV	forget	VVB	VERB	conj	for-get
 this	DT	this	DT0	DET	det	_
-lost	JJ	lose	AJ0	ADJ	amod	_
+lost	VVN	lose	VVN	VERB	amod	los-t
 Lenore	NP	Lenore	NP0	PROPN	obj	_
 !	SENT	!	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
@@ -1274,7 +1274,7 @@ the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
+Nevermore	RB	nevermore	AV0	ADV	ccomp	Never-more
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -1316,7 +1316,7 @@ sent	VVD	send	VVD	VERB	root	_
 or	CC	or	CJC	CCONJ	cc	_
 whether	IN	whether	CJS	SCONJ	mark	_
 tempest	NN	tempest	NN1	NOUN	nsubj	_
-tossed	VVD	toss	VVD	VERB	conj	_
+tossed	VVD	toss	VVD	VERB	conj	toss-ed
 thee	PP	thee	PNP	PRON	obj	_
 here	RB	here	AV0	ADV	advmod	_
 a	DT	a	AT0	DET	det	_
@@ -1326,13 +1326,13 @@ shore	NN	shore	NN1	NOUN	appos	_
 Desolate	JJ	Desolate	AJ0	ADJ	amod	_
 yet	CC	yet	AV0	CCONJ	cc	_
 all	DT	all	DT0	DET	advmod	_
-undaunted	JJ	undaunted	AJ0	ADJ	conj	_
+undaunted	JJ	undaunted	AJ0	ADJ	conj	un-daunt-ed
 ,	,	,	PUN	PUNCT	punct	_
 on	IN	on	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
 desert	NN	desert	NN1	NOUN	compound	_
 land	NN	land	NN1	NOUN	obl	_
-enchanted	VVN	enchant	VVN	VERB	acl	_
+enchanted	VVN	enchant	VVN	VERB	acl	en-chant-ed
 —	:	—	AJ0	PUNCT	punct	_
 <l n="88"/>
 On	IN	on	PRP	ADP	case	_
@@ -1340,7 +1340,7 @@ this	DT	this	DT0	DET	det	_
 home	NN	home	NN1	NOUN	obl	_
 by	IN	by	PRP	ADP	case	_
 Horror	NN	horror	NN1	NOUN	obl:agent	_
-haunted	VVN	haunt	VVN	VERB	acl	_
+haunted	VVN	haunt	VVN	VERB	acl	haunt-ed
 —	:	—	UNC	PUNCT	punct	_
 tell	VV	tell	VVB	VERB	ccomp	_
 me	PP	I	PNP	PRON	iobj	_
@@ -1384,7 +1384,7 @@ the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
+Nevermore	RB	nevermore	AV0	ADV	ccomp	Never-more
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -1455,7 +1455,7 @@ It	PP	it	PNP	PRON	nsubj	_
 shall	MD	shall	VM0	AUX	aux	_
 clasp	VV	clasp	VVD	VERB	advcl	_
 a	DT	a	AT0	DET	det	_
-sainted	JJ	sainted	AJ0	ADJ	amod	_
+sainted	JJ	sainted	AJ0	ADJ	amod	saint-ed
 maiden	NN	maiden	NN1	NOUN	obj	_
 whom	WP	who	PNQ	PRON	obj	_
 the	DT	the	AT0	DET	det	_
@@ -1487,7 +1487,7 @@ the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
+Nevermore	RB	nevermore	AV0	ADV	ccomp	Never-more
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -1502,7 +1502,7 @@ word	NN	word	NN1	NOUN	nsubj	_
 our	PP$	our	DPS	PRON	nmod:poss	_
 sign	NN	sign	NN1	NOUN	ccomp	_
 of	IN	of	PRF	ADP	case	_
-parting	NN	parting	NN1	NOUN	nmod	_
+parting	NN	parting	NN1	NOUN	nmod	part-ing
 ,	,	,	PUN	PUNCT	punct	_
 bird	NN	bird	NN1	NOUN	vocative	_
 or	CC	or	CJC	CCONJ	cc	_
@@ -1512,7 +1512,7 @@ fiend	NN	fiend	NN1	NOUN	conj	_
 I	PP	I	PNP	PRON	nsubj	_
 shrieked	VVD	shriek	VVD	VERB	root	shriek-ed
 ,	,	,	PUN	PUNCT	punct	_
-upstarting	VVG	upstart	VVG	VERB	advcl	_
+upstarting	VVG	upstart	VVG	VERB	advcl	up-start-ing
 —	:	—	UNC	PUNCT	punct	_
 </s>
 <s type="imp" transition="zero">
@@ -1528,7 +1528,7 @@ and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
 Night	NN	Night	NN1	NOUN	nmod:poss	_
 's	POS	's	POS	PART	case	_
-Plutonian	JJ	Plutonian	AJ0	ADJ	amod	_
+Plutonian	JJ	Plutonian	AJ0	ADJ	amod	Plutoni-an
 shore	NN	shore	NN1	NOUN	conj	_
 !	SENT	!	PUN	PUNCT	punct	_
 </s>
@@ -1554,7 +1554,7 @@ spoken	VVN	speak	VVN	VERB	acl:relcl	spok-en
 <l n="100"/>
 Leave	VV	leave	VVB	VERB	root	_
 my	PP$	my	DPS	PRON	nmod:poss	_
-loneliness	NN	loneliness	NN1	NOUN	obj	_
+loneliness	NN	loneliness	NN1	NOUN	obj	lone-li-ness
 unbroken	JJ	unbroken	AJ0	ADJ	xcomp	_
 !	SENT	!	PUN	PUNCT	punct	_
 </s>
@@ -1596,7 +1596,7 @@ the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 "	``	''	PUQ	PUNCT	punct	_
-Nevermore	RB	Nevermore	AV0	ADV	ccomp	_
+Nevermore	RB	nevermore	AV0	ADV	ccomp	Never-more
 .	SENT	.	PUN	PUNCT	punct	_
 "	''	''	PUQ	PUNCT	punct	_
 </s>
@@ -1609,7 +1609,7 @@ the	DT	the	AT0	DET	det	_
 Raven	NN	Raven	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 never	RB	never	AV0	ADV	advmod	_
-flitting	VVG	flit	VVG	VERB	advcl	_
+flitting	VVG	flit	VVG	VERB	advcl	flitt-ing
 ,	,	,	PUN	PUNCT	punct	_
 still	RB	still	AV0	ADV	advmod	_
 is	VBZ	be	VBZ	AUX	aux	_
@@ -1640,14 +1640,14 @@ eyes	NNS	eye	NN2	NOUN	nsubj	eye-s
 have	VHP	have	VHB	VERB	root	_
 all	RB	all	DT0	DET	det:predet	_
 the	DT	the	AT0	DET	det	_
-seeming	NN	seeming	NN1	NOUN	obj	_
+seeming	NN	seeming	NN1	NOUN	obj	seem-ing
 of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
 demon	NN	demon	NN1	NOUN	nmod	_
 's	POS	's	POS	PART	case	_
 that	WDT	that	DT0	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	aux	_
-dreaming	VVG	dream	VVG	VERB	acl:relcl	_
+dreaming	VVG	dream	VVG	VERB	acl:relcl	dream-ing
 </s>
 <s type="decl" transition="continue">
 <l n="106"/>
@@ -1685,9 +1685,9 @@ floor	NN	floor	NN1	NOUN	obl	_
 <l n="108"/>
 Shall	MD	shall	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	aux:pass	_
-lifted	VVN	lift	VVN	VERB	root	_
+lifted	VVN	lift	VVN	VERB	root	lift-ed
 —	:	—	NP0	PUNCT	punct	_
-nevermore	RB	nevermore	AV0	ADV	advmod	_
+nevermore	RB	nevermore	AV0	ADV	advmod	never-more
 !	SENT	!	PUN	PUNCT	punct	_
 </s>
 </p>

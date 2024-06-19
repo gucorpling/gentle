@@ -125,12 +125,12 @@ a	DT	a	AT0	DET	det	_
 love	NN	love	NN1	NOUN	root	_
 that	WDT	that	CJT	PRON	obj	_
 the	DT	the	AT0	DET	det	_
-winged	JJ	winged	AJ0	ADJ	amod	_
+winged	JJ	winged	AJ0	ADJ	amod	wing-ed
 seraphs	NNS	seraph	NN2	NOUN	nsubj	_
 of	IN	of	PRF	ADP	case	_
 heaven	NN	heaven	NN1	NOUN	nmod	_
 <l n="12"/>
-Coveted	VVD	covet	VVD	VERB	acl:relcl	_
+Coveted	VVD	covet	VVD	VERB	acl:relcl	Covet-ed
 her	PP	she	PNP	PRON	iobj	_
 and	CC	and	CJC	CCONJ	cc	_
 me	PP	I	PNP	PRON	conj	_
@@ -224,7 +224,7 @@ heaven	NN	heaven	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 <l n="22"/>
 Went	VVD	went	VVD	VERB	root	_
-envying	VVG	envy	VVG	VERB	xcomp	_
+envying	VVG	envy	VVG	VERB	xcomp	envy-ing
 her	PP	she	PNP	PRON	obj	_
 and	CC	and	CJC	CCONJ	cc	_
 me	PP	I	PNP	PRON	conj	_
@@ -266,7 +266,7 @@ by	IN	by	PRP	ADP	case	_
 night	NN	night	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 <l n="26"/>
-Chilling	VVG	chill	VVG	VERB	advcl	_
+Chilling	VVG	chill	VVG	VERB	advcl	Chill-ing
 and	CC	and	CJC	CCONJ	cc	_
 killing	VVG	kill	VVG	VERB	conj	kill-ing
 my	PP$	my	DPS	PRON	nmod:poss	_
@@ -294,7 +294,7 @@ Of	IN	of	PRF	ADP	case	_
 those	DT	this	DT0	PRON	nmod	_
 who	WP	who	PNQ	PRON	nsubj	_
 were	VBD	be	VBD	AUX	cop	_
-older	JJR	old	AJC	ADJ	acl:relcl	_
+older	JJR	old	AJC	ADJ	acl:relcl	old-er
 than	IN	than	CJS	ADP	case	_
 we	PP	we	PNP	PRON	obl	_
 —	:	—	UNC	PUNCT	punct	_
@@ -304,7 +304,7 @@ we	PP	we	PNP	PRON	obl	_
 Of	IN	of	PRF	ADP	case	_
 many	JJ	many	DT0	ADJ	root	_
 far	RB	far	AV0	ADV	advmod	_
-wiser	JJR	wise	AJC	ADJ	amod	_
+wiser	JJR	wise	AJC	ADJ	amod	wis-er
 than	IN	than	CJS	ADP	case	_
 we	PP	we	PNP	PRON	obl	_
 —	:	—	UNC	PUNCT	punct	_
@@ -410,12 +410,12 @@ side	NN	side	NN1	NOUN	obl	_
 Of	IN	of	PRF	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 <w>
-darling	NN	darling	NN1	NOUN	nmod	_
+darling	NN	darling	NN1	NOUN	nmod	darl-ing
 —	:	—	UNC	PUNCT	punct	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 </w>
 <w>
-darling	NN	darling	NN1	NOUN	appos	_
+darling	NN	darling	NN1	NOUN	appos	darl-ing
 —	:	—	UNC	PUNCT	punct	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 </w>

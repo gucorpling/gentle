@@ -3,7 +3,7 @@
     (S
       (NP-SBJ (CD Two) (NNS roads))
       (VP
-        (VBN diverged)
+        (VBD diverged)
         (PP-LOC (IN in) (NP (DT a) (JJ yellow) (NN wood)))))
     (, ,)
     (CC And)
@@ -159,7 +159,7 @@
       (S
         (S
           (NP-SBJ (CD Two) (NNS roads))
-          (VP (VBN diverged) (PP-LOC (IN in) (NP (DT a) (NN wood)))))
+          (VP (VBD diverged) (PP-LOC (IN in) (NP (DT a) (NN wood)))))
         (, ,)
         (CC and)
         (S

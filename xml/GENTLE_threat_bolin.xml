@@ -21,11 +21,13 @@ I	PP	I	PNP	PRON	nsubj	_
 heard	VVD	hear	VVD	VERB	acl:relcl	hear-d
 from	IN	from	PRP	ADP	case	_
 her	PP	she	PNP	PRON	obl	_
-I	PP	I	PNP	PRON	nsubj:outer	_
-'m	VBP	be	VBB	AUX	cop	_
+I	PP	I	PNP	PRON	nsubj:pass	_
+'m	VBP	be	VBB	AUX	aux:pass	_
 not	RB	not	XX0	PART	advmod	_
+<sic ana="too">
 to	RB	too	PRP	ADV	advmod	_
-pleased	VVN	please	VVN	VERB	conj	_
+</sic>
+pleased	VVN	please	VVN	VERB	conj	pleas-ed
 with	IN	with	PRP	ADP	case	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -167,7 +169,7 @@ going	VVG	go	VVG	VERB	root	go-ing
 to	TO	to	TO0	PART	mark	_
 find	VV	find	VVI	VERB	xcomp	_
 out	RP	out	AVP	ADP	compound:prt	_
-how	WRB	how	AVQ	ADV	mark	_
+how	WRB	how	AVQ	ADV	advmod	_
 much	JJ	much	AJ0	ADJ	obj	_
 you	PP	you	PNP	PRON	nsubj	_
 got	VVD	get	VVD	VERB	acl:relcl	_
@@ -283,7 +285,7 @@ to	IN	to	PRP	ADP	case	_
 some	DT	some	DT0	DET	det	_
 friends	NNS	friend	NN2	NOUN	obl	friend-s
 of	IN	of	PRF	ADP	case	_
-mine	PP	mine	PNP	PRON	nmod	_
+mine	PP	my	PNP	PRON	nmod	_
 and	CC	and	CJC	CCONJ	cc	_
 <sic ana="they">
 the	PP	they	PNP	PRON	nsubj	_
@@ -326,9 +328,9 @@ done	VVN	do	VDN	VERB	conj	_
 Everything	NN	everything	NN1	PRON	dislocated	_
 that	WDT	that	CJT	PRON	nsubj	_
 's	VBZ	be	VBZ	AUX	cop	_
-mine	PP	mine	PNP	PRON	acl:relcl	_
+mine	PP	my	PNP	PRON	acl:relcl	_
 or	CC	or	CJC	CCONJ	cc	_
-hers	PP	hers	PNP	PRON	conj	_
+hers	PP	her	PNP	PRON	conj	_
 tools	NNS	tool	NN2	NOUN	appos	tool-s
 ,	,	,	PUN	PUNCT	punct	_
 clothes	NNS	clothes	NN2	NOUN	conj	clothe-s

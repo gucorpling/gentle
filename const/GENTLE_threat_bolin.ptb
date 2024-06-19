@@ -18,7 +18,7 @@
       (VP
         (VBP 'm)
         (RB not)
-        (ADJP-PRD (RB to) (VBN pleased) (PP (IN with)))))
+        (ADJP (RB to) (VBN pleased) (PP (IN with)))))
     (. .)))
 
 (ROOT

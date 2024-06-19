@@ -1,7 +1,7 @@
 <text id="GENTLE_medical_screw" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="screw" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2082-Followup%20Screw%20Fixation" speakerCount="0" speakerList="none" title="Followup Screw Fixation" type="medical">
 <head rend="bold red">
 <s type="frag" transition="establishment">
-Description	NN	description	NN1	NOUN	root	_
+Description	NN	description	NN1	NOUN	root	Descrip-tion
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -12,7 +12,7 @@ Followup	NN	followup	NN1	NOUN	nmod	_
 months	NNS	month	NN2	NOUN	nmod:npmod	mon-th-s
 status	NN	status	NN1	NOUN	root	_
 post	IN	post	PRP	ADP	case	_
-percutaneous	JJ	percutaneous	AJ0	ADJ	amod	_
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
 screw	NN	screw	NN1	NOUN	compound	_
 fixation	NN	fixation	NN1	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
@@ -27,9 +27,9 @@ and	CC	and	CJC	CCONJ	cc	_
 second	JJ	second	AJ0	ADJ	amod	_
 through	IN	through	PRP	ADP	case	_
 fifth	JJ	fifth	ORD	ADJ	obl	fif-th
-metatarsal	JJ	metatarsal	AJ0	ADJ	amod	_
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod	meta-tars-al
 head	NN	head	NN1	NOUN	compound	_
-fractures	NNS	fracture	NN2	NOUN	conj	_
+fractures	NNS	fracture	NN2	NOUN	conj	fract-ure-s
 treated	VVN	treat	VVN	VERB	acl	treat-ed
 nonoperatively	RB	nonoperatively	AV0	ADV	advmod	non-operat-ive-ly
 .	SENT	.	PUN	PUNCT	punct	_
@@ -50,7 +50,7 @@ Followup	NN	followup	NN1	NOUN	dep	_
 months	NNS	month	NN2	NOUN	nmod:npmod	mon-th-s
 status	NN	status	NN1	NOUN	root	_
 post	IN	post	PRP	ADP	case	_
-percutaneous	JJ	percutaneous	AJ0	ADJ	amod	_
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
 screw	NN	screw	NN1	NOUN	compound	_
 fixation	NN	fixation	NN1	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
@@ -65,9 +65,9 @@ and	CC	and	CJC	CCONJ	cc	_
 second	JJ	second	AJ0	ADJ	amod	_
 through	IN	through	PRP	ADP	case	_
 fifth	JJ	fifth	ORD	ADJ	obl	fif-th
-metatarsal	JJ	metatarsal	AJ0	ADJ	amod	_
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod	meta-tars-al
 head	NN	head	NN1	NOUN	compound	_
-fractures	NNS	fracture	NN2	NOUN	conj	_
+fractures	NNS	fracture	NN2	NOUN	conj	fract-ure-s
 treated	VVN	treat	VVN	VERB	acl	treat-ed
 nonoperatively	RB	nonoperatively	AV0	ADV	advmod	non-operat-ive-ly
 .	SENT	.	PUN	PUNCT	punct	_
@@ -104,7 +104,7 @@ approximately	RB	approximately	AV0	ADV	advmod	approximate-ly
 months	NNS	month	NN2	NOUN	obl:npmod	mon-th-s
 status	NN	status	NN1	NOUN	acl:relcl	_
 post	NN	post	NN1	NOUN	case	_
-percutaneous	JJ	percutaneous	AJ0	ADJ	amod	_
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
 screw	NN	screw	NN1	NOUN	compound	_
 fixation	NN	fixation	NN1	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
@@ -120,9 +120,9 @@ of	IN	of	PRF	ADP	case	_
 second	JJ	second	AJ0	ADJ	amod	_
 through	IN	through	PRP	ADP	case	_
 fifth	JJ	fifth	ORD	ADJ	obl	fif-th
-metatarsal	JJ	metatarsal	AJ0	ADJ	amod	_
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod	meta-tars-al
 head	NN	head	NN1	NOUN	compound	_
-fractures	NNS	fracture	NN2	NOUN	nmod	_
+fractures	NNS	fracture	NN2	NOUN	nmod	fract-ure-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -134,7 +134,7 @@ home	NN	home	NN1	NOUN	root	_
 and	CC	and	CJC	CCONJ	cc	_
 has	VHZ	have	VHZ	AUX	aux	ha-s
 left	VVN	leave	VVN	VERB	conj	_
-nursing	NN	nursing	NN1	NOUN	compound	_
+nursing	NN	nursing	NN1	NOUN	compound	nurs-ing
 home	NN	home	NN1	NOUN	compound	_
 facility	NN	facility	NN1	NOUN	obj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -182,7 +182,7 @@ has	VHZ	have	VHZ	AUX	aux	ha-s
 noticed	VVN	notice	VVN	VERB	root	notic-ed
 some	DT	some	DT0	DET	det	_
 increasing	VVG	increase	VVG	VERB	amod	increas-ing
-paresthesias	NN	paresthesia	NN1	NOUN	obj	_
+paresthesias	NNS	paresthesia	NN2	NOUN	obj	_
 in	IN	in	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 bilateral	JJ	bilateral	AJ0	ADJ	amod	bi-lateral
@@ -196,8 +196,8 @@ spinal	JJ	spinal	AJ0	ADJ	amod	spin-al
 stenosis	NN	stenosis	NN1	NOUN	nmod	_
 with	IN	with	PRP	ADP	case	_
 lower	JJR	low	AJC	ADJ	amod	low-er
-extremity	NN	extremity	NN1	NOUN	compound	_
-neuropathy	NN	neuropathy	NN1	NOUN	nmod	_
+extremity	NN	extremity	NN1	NOUN	compound	extrem-ity
+neuropathy	NN	neuropathy	NN1	NOUN	nmod	neuro-path-y
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -218,7 +218,7 @@ incision	NN	incision	NN1	NOUN	nsubj:pass	_
 is	VBZ	be	VBZ	AUX	aux:pass	_
 near	RB	near	AV0	ADV	advmod	_
 well	RB	well	AV0	ADV	advmod	_
-healed	VVN	heal	VVN	VERB	root	_
+healed	VVN	heal	VVN	VERB	root	heal-ed
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -247,7 +247,7 @@ has	VHZ	have	VHZ	VERB	root	ha-s
 no	DT	no	AT0	DET	det	_
 pain	NN	pain	NN1	NOUN	obj	_
 or	CC	or	CJC	CCONJ	cc	_
-crepitance	NN	crepitance	NN1	NOUN	conj	_
+crepitance	NN	crepitance	NN1	NOUN	conj	crepit-ance
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -260,12 +260,12 @@ foot	NN	foot	NN1	NOUN	nmod	_
 ,	,	,	PUN	PUNCT	punct	_
 he	PP	he	PNP	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
-nontender	JJ	nontender	AJ0	ADJ	root	_
+nontender	JJ	nontender	AJ0	ADJ	root	non-tender
 to	IN	to	PRP	ADP	case	_
-palpation	NN	palpation	NN1	NOUN	obl	_
+palpation	NN	palpation	NN1	NOUN	obl	palpat-ion
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
-metatarsal	JJ	metatarsal	AJ0	ADJ	amod	_
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod	meta-tars-al
 heads	NNS	head	NN2	NOUN	nmod	head-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -313,7 +313,7 @@ distribution	NN	distribution	NN1	NOUN	nmod	distribut-ion
 of	IN	of	PRF	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 feet	NNS	foot	NN2	NOUN	nmod	_
-bilaterally	RB	bilaterally	AV0	ADV	advmod	_
+bilaterally	RB	bilaterally	AV0	ADV	advmod	bi-lateral-ly
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -333,22 +333,22 @@ of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 right	JJ	right	AJ0	ADJ	amod	_
 knee	NN	knee	NN1	NOUN	nmod	_
-demonstrate	VVP	demonstrate	VVB	VERB	root	demonstrate
+demonstrate	VVP	demonstrate	VVB	VERB	root	_
 a	DT	a	AV0	DET	det	_
-healed	VVN	heal	VVN	VERB	amod	_
+healed	VVN	heal	VVN	VERB	amod	heal-ed
 medial	JJ	medial	AJ0	ADJ	amod	medi-al
 tibial	JJ	tibial	AJ0	ADJ	amod	_
 plateau	NN	plateau	NN1	NOUN	compound	_
 fracture	NN	fracture	NN1	NOUN	compound	_
 status	NN	status	NN1	NOUN	obj	_
 post	NN	post	NN1	NOUN	case	_
-percutaneous	JJ	percutaneous	AJ0	ADJ	amod	_
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
 screw	NN	screw	NN1	NOUN	compound	_
 fixation	NN	fixation	NN1	NOUN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Examination	NN	examination	NN1	NOUN	nsubj	_
+Examination	NN	examination	NN1	NOUN	nsubj	Examin-ation
 of	IN	of	PRF	ADP	case	_
 three	CD	three	CRD	NUM	nummod	_
 views	NNS	view	NN2	NOUN	nmod	view-s
@@ -361,9 +361,9 @@ the	DT	the	AT0	DET	det	_
 second	JJ	second	ORD	ADJ	amod	_
 through	IN	through	PRP	ADP	case	_
 fifth	JJ	fifth	ORD	ADJ	obl	fif-th
-metatarsal	JJ	metatarsal	AJ0	ADJ	amod	_
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod	meta-tars-al
 head	NN	head	NN1	NOUN	compound	_
-fractures	NNS	fracture	NN2	NOUN	obj	_
+fractures	NNS	fracture	NN2	NOUN	obj	fract-ure-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -388,7 +388,7 @@ there	EX	there	EX0	PRON	expl	_
 appears	VVZ	appear	VVZ	VERB	conj	appear-s
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	VERB	xcomp	_
-bridging	VVG	bridge	VVG	VERB	amod	_
+bridging	VVG	bridge	VVG	VERB	amod	bridg-ing
 callus	NN	callus	NN1	NOUN	nsubj	_
 between	IN	between	PRP	ADP	case	be-tween
 the	DT	the	AT0	DET	det	_
@@ -402,7 +402,7 @@ film	NN	film	NN1	NOUN	nmod	_
 </p>
 <head rend="bold red caps">
 <s type="frag" transition="zero">
-ASSESSMENT	NN	assessment	NN1	NOUN	root	_
+ASSESSMENT	NN	assessment	NN1	NOUN	root	ASSESS-MENT
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -412,7 +412,7 @@ Four	CD	four	CRD	NUM	nummod	_
 months	NNS	month	NN2	NOUN	nmod	mon-th-s
 status	NN	status	NN1	NOUN	root	_
 post	IN	post	PRP	ADP	case	_
-percutaneous	JJ	percutaneous	AJ0	ADJ	amod	_
+percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
 screw	NN	screw	NN1	NOUN	compound	_
 fixation	NN	fixation	NN1	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
@@ -425,9 +425,9 @@ and	CC	and	CJC	CCONJ	cc	_
 second	JJ	second	AJ0	ADJ	amod	_
 through	IN	through	PRP	ADP	case	_
 fifth	JJ	fifth	ORD	ADJ	obl	fif-th
-metatarsal	JJ	metatarsal	AJ0	ADJ	amod	_
+metatarsal	JJ	metatarsal	AJ0	ADJ	amod	meta-tars-al
 head	NN	head	NN1	NOUN	compound	_
-fractures	NNS	fracture	NN2	NOUN	conj	_
+fractures	NNS	fracture	NN2	NOUN	conj	fract-ure-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -457,9 +457,9 @@ He	PP	he	PNP	PRON	nsubj:outer	_
 may	MD	may	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	cop	_
 weight	NN	weight	NN1	NOUN	compound	weigh-t
-bearing	VVG	bear	VVG	VERB	root	_
+bearing	VVG	bear	VVG	VERB	root	bear-ing
 as	IN	as	PRP	SCONJ	mark	_
-tolerated	VVN	tolerate	VVN	VERB	advcl	_
+tolerated	VVN	tolerate	VVN	VERB	advcl	tolerat-ed
 on	IN	on	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 right	JJ	right	AJ0	ADJ	amod	_
@@ -480,7 +480,7 @@ work	VV	work	VVI	VERB	xcomp	_
 to	TO	to	TO0	PART	mark	_
 gain	VV	gain	VVI	VERB	advcl	_
 full	JJ	full	AJ0	ADJ	amod	_
-extension	NN	extension	NN1	NOUN	obj	_
+extension	NN	extension	NN1	NOUN	obj	extens-ion
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 right	JJ	right	AJ0	ADJ	amod	_
@@ -501,7 +501,7 @@ him	PP	he	PNP	PRON	obj	_
 to	TO	to	TO0	PART	mark	_
 work	VV	work	VVI	VERB	xcomp	_
 on	IN	on	PRP	ADP	case	_
-ambulation	NN	ambulation	NN1	NOUN	obl	_
+ambulation	NN	ambulation	NN1	NOUN	obl	ambul-at-ion
 and	CC	and	CJC	CCONJ	cc	_
 strengthening	NN	strengthening	NN1	NOUN	conj	streng-th-en-ing
 .	SENT	.	PUN	PUNCT	punct	_
@@ -518,7 +518,7 @@ his	PP$	his	DPS	PRON	nmod:poss	_
 concerning	VVG	concern	VVG	VERB	amod	concern-ing
 symptoms	NNS	symptom	NN2	NOUN	obj	symptom-s
 of	IN	of	PRF	ADP	case	_
-paresthesias	NN	paresthesia	NN1	NOUN	nmod	_
+paresthesias	NNS	paresthesia	NN2	NOUN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
@@ -541,7 +541,7 @@ been	VBN	be	VBN	AUX	aux:pass	_
 followed	VVN	follow	VVN	VERB	conj	follow-ed
 by	IN	by	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
-neurologist	NN	neurologist	NN1	NOUN	obl:agent	_
+neurologist	NN	neurologist	NN1	NOUN	obl:agent	neuro-log-ist
 for	IN	for	PRP	ADP	case	_
 this	DT	this	DT0	PRON	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -557,9 +557,9 @@ some	DT	some	DT0	DET	det	_
 <w>
 right	NN	right	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-sided	VVN	side	VVN	VERB	amod	_
+sided	VVN	side	VVN	VERB	amod	sid-ed
 </w>
-paresthesias	NN	paresthesia	NN1	NOUN	obj	_
+paresthesias	NNS	paresthesia	NN2	NOUN	obj	_
 now	RB	now	AV0	ADV	advmod	_
 for	IN	for	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
@@ -578,7 +578,7 @@ other	JJ	other	AJ0	ADJ	amod	_
 symptoms	NNS	symptom	NN2	NOUN	obj	symptom-s
 of	IN	of	PRF	ADP	case	_
 any	DT	any	DT0	DET	det	_
-worsening	VVG	worsen	VVG	VERB	amod	_
+worsening	VVG	worsen	VVG	VERB	amod	wors-en-ing
 stenosis	NN	stenosis	NN1	NOUN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -591,7 +591,7 @@ I	PP	I	PNP	PRON	nsubj	_
 would	MD	would	VM0	AUX	aux	_
 see	VV	see	VVI	VERB	ccomp	_
 his	PP$	his	DPS	PRON	nmod:poss	_
-neurologist	NN	neurologist	NN1	NOUN	obj	_
+neurologist	NN	neurologist	NN1	NOUN	obj	neuro-log-ist
 for	IN	for	PRP	ADP	case	_
 evaluation	NN	evaluation	NN1	NOUN	obl	e-valu-at-ion
 or	CC	or	CJC	CCONJ	cc	_

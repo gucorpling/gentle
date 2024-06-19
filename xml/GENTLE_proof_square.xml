@@ -93,7 +93,7 @@ line	NN	line	NN1	NOUN	ccomp	_
 <s type="other" transition="zero">
 From	IN	from	PRP	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Square_of_Sum">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 4	CD	4	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -120,7 +120,7 @@ CB	NN	CB	NN1	NOUN	nmod	_
 Let	VV	let	VVB	VERB	root	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Rectangle">
-rectangle	NN	rectangle	NN1	NOUN	obj	_
+rectangle	NN	rectangle	NN1	NOUN	obj	rect-angle
 </ref>
 DH	NN	DH	NN1	NOUN	dep	_
 be	VB	be	VBI	AUX	aux:pass	_
@@ -138,7 +138,7 @@ AC2	NN	AC2	NN1	NOUN	obj	_
 Let	VV	let	VVB	VERB	root	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Rectangle">
-rectangle	NN	rectangle	NN1	NOUN	obj	_
+rectangle	NN	rectangle	NN1	NOUN	obj	rect-angle
 </ref>
 KL	NN	KL	NN1	NOUN	dep	_
 be	VB	be	VBI	AUX	aux:pass	_
@@ -156,7 +156,7 @@ BC2	NN	BC2	NN1	NOUN	obj	_
 Then	RB	then	AV0	ADV	advmod	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Rectangle">
-rectangle	NN	rectangle	NN1	NOUN	nsubj	_
+rectangle	NN	rectangle	NN1	NOUN	nsubj	rect-angle
 </ref>
 MF	NN	MF	NN1	NOUN	dep	_
 is	VBZ	be	VBZ	AUX	cop	_
@@ -174,7 +174,7 @@ Let	VV	let	VVB	VERB	root	_
 MG	NN	MG	NN0	NOUN	obj	_
 be	VB	be	VBI	AUX	aux:pass	_
 <ref target="https://proofwiki.org/wiki/Definition:Bisection">
-bisected	VVN	bisect	VVN	VERB	xcomp	_
+bisected	VVN	bisect	VVN	VERB	xcomp	bi-sect-ed
 </ref>
 at	IN	at	PRP	ADP	case	_
 N	NN	N	NN1	NOUN	obl	_
@@ -203,12 +203,12 @@ thing	NN	thing	NN1	NOUN	acl:relcl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 each	DT	each	DT0	DET	nsubj	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Rectangle">
-rectangles	NNS	rectangle	NN2	NOUN	nmod	_
+rectangles	NNS	rectangle	NN2	NOUN	nmod	rect-angle-s
 </ref>
 MO	NN	MO	NN1	NOUN	appos	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -246,7 +246,7 @@ C	NN	C	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 ,	,	,	PUN	PUNCT	punct	_
 by	IN	by	PRP	ADP	case	_
 definition	NN	definition	NN1	NOUN	obl	defini-tion
@@ -279,7 +279,7 @@ a	DT	a	AT0	DET	det	_
 medial	JJ	medial	AJ0	ADJ	amod	medi-al
 </ref>
 <ref target="https://proofwiki.org/wiki/Definition:Rectangle">
-rectangle	NN	rectangle	NN1	NOUN	advcl	_
+rectangle	NN	rectangle	NN1	NOUN	advcl	rect-angle
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -303,7 +303,7 @@ medial	JJ	medial	AJ0	ADJ	root	medi-al
 From	IN	from	PRP	ADP	case	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Sum_of_Commensurable_Magnitudes">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 15	CD	15	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -314,14 +314,14 @@ of	IN	of	PRF	ADP	case	_
 Sum	NN	sum	NN1	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
 Commensurable	JJ	commensurable	AJ0	ADJ	amod	Commensur-able
-Magnitudes	NNS	magnitude	NN2	NOUN	nmod	_
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod	Magni-tude-s
 </ref>
 and	CC	and	CJC	CCONJ	cc	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Straight_Line_Commensurable_with_Medial_Straight_Line_is_Medial/Porism">
 Porism	NP	Porism	NP0	PROPN	conj	_
 to	IN	to	PRP	ADP	case	_
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 23	CD	23	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -367,10 +367,10 @@ DE	NN	DE	NN1	NOUN	dep	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="rough-shift">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 from	IN	from	PRP	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Square_on_Medial_Straight_Line">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 22	CD	22	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -429,7 +429,7 @@ DE	NN	DE	NN1	NOUN	obj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 each	DT	each	DT0	DET	nsubj	_
 of	IN	of	PRF	ADP	case	_
 DM	NN	DM	NN1	NOUN	nmod	_
@@ -482,10 +482,10 @@ AC	NN	AC	NN1	NOUN	nmod	_
 CB	NN	CB	NN1	NOUN	nmod	_
 </s>
 <s type="decl" transition="smooth-shift">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 by	IN	by	PRP	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 11	CD	11	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -495,8 +495,8 @@ Commensurability	NN	commensurability	NN1	NOUN	appos	Commensur-abil-ity
 of	IN	of	PRF	ADP	case	_
 Elements	NNS	element	NN2	NOUN	nmod	Element-s
 of	IN	of	PRF	ADP	case	_
-Proportional	JJ	proportional	AJ0	ADJ	amod	_
-Magnitudes	NNS	magnitude	NN2	NOUN	nmod	_
+Proportional	JJ	proportional	AJ0	ADJ	amod	Proportion-al
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod	Magni-tude-s
 </ref>
 :	:	:	PUN	PUNCT	punct	_
 AC2	NN	AC2	NN1	NOUN	nsubj	_
@@ -515,7 +515,7 @@ Hence	RB	hence	AV0	ADV	advmod	_
 by	IN	by	PRP	ADP	case	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Commensurability_is_Transitive_Relation">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 12	CD	12	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -523,25 +523,25 @@ X	CD	X	ZZ0	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
 Commensurability	NN	commensurability	NN1	NOUN	nsubj	Commensur-abil-ity
 is	VBZ	be	VBZ	AUX	cop	_
-Transitive	JJ	transitive	AJ0	ADJ	amod	_
+Transitive	JJ	transitive	AJ0	ADJ	amod	Transit-ive
 Relation	NN	relation	NN1	NOUN	appos	_
 </ref>
 and	CC	and	CJC	CCONJ	cc	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Commensurable_Magnitudes_are_Incommensurable_with_Same_Magnitude">
-Proposition	NP	Proposition	NP0	PROPN	conj	_
+Proposition	NP	Proposition	NP0	PROPN	conj	Propos-it-ion
 13	CD	13	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
 X	CD	X	ZZ0	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
 Commensurable	JJ	commensurable	AJ0	ADJ	amod	Commensur-able
-Magnitudes	NNS	magnitude	NN2	NOUN	nsubj	_
+Magnitudes	NNS	magnitude	NN2	NOUN	nsubj	Magni-tude-s
 are	VBP	be	VBB	AUX	cop	_
 Incommensurable	JJ	incommensurable	AJ0	ADJ	appos	In-commensur-able
 with	IN	with	PRP	ADP	case	_
 Same	JJ	same	DT0	ADJ	amod	_
-Magnitude	NN	magnitude	NN1	NOUN	obl	_
+Magnitude	NN	magnitude	NN1	NOUN	obl	Magni-tude
 </ref>
 it	PP	it	PNP	PRON	expl	_
 follows	VVZ	follow	VVZ	VERB	root	follow-s
@@ -580,7 +580,7 @@ So	RB	so	AV0	ADV	advmod	_
 from	IN	from	PRP	ADP	case	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Areas_of_Triangles_and_Parallelograms_Proportional_to_Base">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 1	CD	1	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -588,17 +588,17 @@ VI	CD	VI	CRD	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
 Areas	NNS	area	NN2	NOUN	appos	_
 of	IN	of	PRF	ADP	case	_
-Triangles	NNS	triangle	NN2	NOUN	nmod	_
+Triangles	NNS	triangle	NN2	NOUN	nmod	Tri-angle-s
 and	CC	and	CJC	CCONJ	cc	_
 Parallelograms	NNS	parallelogram	NN2	NOUN	conj	Parallelo-gram-s
-Proportional	JJ	proportional	AJ0	ADJ	acl	_
+Proportional	JJ	proportional	AJ0	ADJ	acl	Proportion-al
 to	IN	to	PRP	ADP	case	_
 Base	NN	base	NN1	NOUN	obl	_
 </ref>
 and	CC	and	CJC	CCONJ	cc	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
-Proposition	NP	Proposition	NP0	PROPN	conj	_
+Proposition	NP	Proposition	NP0	PROPN	conj	Propos-it-ion
 11	CD	11	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -608,8 +608,8 @@ Commensurability	NN	commensurability	NN1	NOUN	appos	Commensur-abil-ity
 of	IN	of	PRF	ADP	case	_
 Elements	NNS	element	NN2	NOUN	nmod	Element-s
 of	IN	of	PRF	ADP	case	_
-Proportional	JJ	proportional	AJ0	ADJ	amod	_
-Magnitudes	NNS	magnitude	NN2	NOUN	nmod	_
+Proportional	JJ	proportional	AJ0	ADJ	amod	Proportion-al
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod	Magni-tude-s
 </ref>
 it	PP	it	PNP	PRON	expl	_
 follows	VVZ	follow	VVZ	VERB	root	follow-s
@@ -650,7 +650,7 @@ other	JJ	other	AJ0	ADJ	fixed	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="zero">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 by	IN	by	PRP	ADP	case	_
 definition	NN	definition	NN1	NOUN	obl	defini-tion
 DG	NN	DG	NN1	NOUN	nsubj	_
@@ -667,7 +667,7 @@ It	PP	it	PNP	PRON	expl	_
 remains	VVZ	remain	VVZ	VERB	root	remain-s
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	AUX	aux:pass	_
-proved	VVN	prove	VVN	VERB	csubj	_
+proved	VVN	prove	VVN	VERB	csubj	prov-ed
 that	IN/that	that	CJT	SCONJ	mark	_
 DG	NN	DG	NN1	NOUN	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
@@ -687,7 +687,7 @@ From	IN	from	PRP	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
 Lemma	NP	Lemma	NP0	PROPN	obl	_
 to	IN	to	PRP	ADP	case	_
-Proposition	NP	Proposition	NP0	PROPN	nmod	_
+Proposition	NP	Proposition	NP0	PROPN	nmod	Propos-it-ion
 60	CD	60	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -714,7 +714,7 @@ CB2	NN	CB2	NN1	NOUN	conj	_
 AC	NN	AC	NN1	NOUN	nmod	_
 ⋅	SYM	⋅	UNC	SYM	case	_
 CB	NN	CB	NN1	NOUN	nmod	_
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 DL	NN	DL	NN1	NOUN	nsubj	_
 &gt;	SYM	&gt;	UNC	SYM	parataxis	_
 MF	NN	MF	NN1	NOUN	obl:npmod	_
@@ -723,7 +723,7 @@ MF	NN	MF	NN1	NOUN	obl:npmod	_
 <s type="decl" transition="null">
 From	IN	from	PRP	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Square_on_Binomial_Straight_Line_applied_to_Rational_Straight_Line/Lemma">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 1	CD	1	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -731,10 +731,10 @@ VI	CD	VI	CRD	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
 Areas	NNS	area	NN2	NOUN	appos	_
 of	IN	of	PRF	ADP	case	_
-Triangles	NNS	triangle	NN2	NOUN	nmod	_
+Triangles	NNS	triangle	NN2	NOUN	nmod	Tri-angle-s
 and	CC	and	CJC	CCONJ	cc	_
 Parallelograms	NNS	parallelogram	NN2	NOUN	conj	Parallelo-gram-s
-Proportional	JJ	proportional	AJ0	ADJ	acl	_
+Proportional	JJ	proportional	AJ0	ADJ	acl	Proportion-al
 to	IN	to	PRP	ADP	case	_
 Base	NN	base	NN1	NOUN	obl	_
 </ref>
@@ -771,7 +771,7 @@ So	RB	so	AV0	ADV	advmod	_
 from	IN	from	PRP	ADP	case	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Areas_of_Triangles_and_Parallelograms_Proportional_to_Base">
-Proposition	NP	Proposition	NP0	PROPN	obl	_
+Proposition	NP	Proposition	NP0	PROPN	obl	Propos-it-ion
 1	CD	1	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -779,17 +779,17 @@ VI	CD	VI	CRD	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
 Areas	NNS	area	NN2	NOUN	appos	_
 of	IN	of	PRF	ADP	case	_
-Triangles	NNS	triangle	NN2	NOUN	nmod	_
+Triangles	NNS	triangle	NN2	NOUN	nmod	Tri-angle-s
 and	CC	and	CJC	CCONJ	cc	_
 Parallelograms	NNS	parallelogram	NN2	NOUN	conj	Parallelo-gram-s
-Proportional	JJ	proportional	AJ0	ADJ	acl	_
+Proportional	JJ	proportional	AJ0	ADJ	acl	Proportion-al
 to	IN	to	PRP	ADP	case	_
 Base	NN	base	NN1	NOUN	obl	_
 </ref>
 and	CC	and	CJC	CCONJ	cc	_
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://proofwiki.org/wiki/Commensurability_of_Elements_of_Proportional_Magnitudes">
-Proposition	NN	Proposition	NN1	NOUN	conj	_
+Proposition	NN	Proposition	NN1	NOUN	conj	Propos-it-ion
 11	CD	11	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -799,8 +799,8 @@ Commensurability	NN	commensurability	NN1	NOUN	appos	Commensur-abil-ity
 of	IN	of	PRF	ADP	case	_
 Elements	NNS	element	NN2	NOUN	nmod	Element-s
 of	IN	of	PRF	ADP	case	_
-Proportional	JJ	proportional	AJ0	ADJ	amod	_
-Magnitudes	NNS	magnitude	NN2	NOUN	nmod	_
+Proportional	JJ	proportional	AJ0	ADJ	amod	Proportion-al
+Magnitudes	NNS	magnitude	NN2	NOUN	nmod	Magni-tude-s
 </ref>
 it	PP	it	PNP	PRON	expl	_
 follows	VVZ	follow	VVZ	VERB	root	follow-s
@@ -832,7 +832,7 @@ from	IN	from	PRP	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Condition_for_Commensurability_of_Roots_of_Quadratic_Equation/Lemma">
 Lemma	NP	Lemma	NP0	PROPN	obl	_
 to	IN	to	PRP	ADP	case	_
-Proposition	NP	Proposition	NP0	PROPN	nmod	_
+Proposition	NP	Proposition	NP0	PROPN	nmod	Propos-it-ion
 17	CD	17	CRD	NUM	dep	_
 of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
@@ -844,7 +844,7 @@ Commensurability	NN	commensurability	NN1	NOUN	nmod	Commensur-abil-ity
 of	IN	of	PRF	ADP	case	_
 Roots	NNS	root	NN2	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
-Quadratic	JJ	quadratic	AJ0	ADJ	amod	_
+Quadratic	JJ	quadratic	AJ0	ADJ	amod	Quadr-at-ic
 Equation	NN	equation	NN1	NOUN	nmod	_
 </ref>
 :	:	:	PUN	PUNCT	punct	_
@@ -893,7 +893,7 @@ DE	NN	DE	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Therefore	RB	therefore	AV0	ADV	advmod	_
+Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 DG	NN	DG	NN1	NOUN	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 a	DT	a	AT0	DET	det	_

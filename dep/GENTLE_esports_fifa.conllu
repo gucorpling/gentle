@@ -32,7 +32,7 @@
 16	leg	leg	NOUN	NN	Number=Sing	11	obl	11:obl:in	_
 17	of	of	ADP	IN	_	21	case	21:case	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(6-event-new-cf11-2,4-sgl
-19	Champions	Champion	PROPN	NNPS	Number=Plur	20	compound	20:compound	Entity=(7-event-new-cf24-1,2-coref-UEFA_Champions_League
+19	Champions	Champion	PROPN	NNPS	Number=Plur	20	compound	20:compound	Entity=(7-event-new-cf24-1,2-coref-UEFA_Champions_League|MSeg=Champion-s
 20	League	League	PROPN	NNP	Number=Sing	21	compound	21:compound	Entity=7)
 21	quarter-finals	quarter-final	NOUN	NNS	Number=Plur	16	nmod	16:nmod:of	Entity=6)5)
 22	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=joint-sequence_m:3->2:0:_
@@ -49,7 +49,7 @@
 33	,	,	PUNCT	,	_	36	punct	36:punct	_
 34	and	and	CCONJ	CC	_	36	cc	36:cc	Discourse=joint-sequence_m:4->2:0:_
 35	now	now	ADV	RB	_	36	advmod	36:advmod	_
-36	advancing	advance	VERB	VBG	VerbForm=Ger	11	conj	7:acl:relcl|11:conj:and	MSeg=advanc-ing
+36	advancing	advance	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	7:acl:relcl|11:conj:and	MSeg=advanc-ing
 37	into	into	ADP	IN	_	39	case	39:case	MSeg=in-to
 38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	39:det	Entity=(9-event-new-cf13-2,4-coref
 39	semi-finals	semi-final	NOUN	NNS	Number=Plur	36	obl	36:obl:into	_
@@ -63,7 +63,7 @@
 46	episode	episode	NOUN	NN	Number=Sing	48	nsubj	48:nsubj|50:nsubj:xsubj	Entity=12)
 47	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux	_
 48-49	gonna	_	_	_	_	_	_	_	_
-48	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
+48	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 49	na	to	PART	TO	_	50	mark	50:mark	XML=</w>
 50	start	start	VERB	VB	VerbForm=Inf	48	xcomp	48:xcomp	_
 51	off	off	ADP	RP	_	50	compound:prt	50:compound:prt	_
@@ -124,7 +124,7 @@
 103	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	105	nsubj	105:nsubj|108:nsubj:xsubj	Discourse=elaboration-attribute:12->11:0:_|Entity=(22-person-acc:com-cf2-1-ana)
 104	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	105	aux	105:aux	_
 105-106	gonna	_	_	_	_	_	_	_	_
-105	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	102	advcl:relcl	102:advcl:relcl	XML=<w>
+105	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	102	advcl:relcl	102:advcl:relcl	XML=<w>
 106	na	to	PART	TO	_	108	mark	108:mark	XML=</w>
 107	be	be	AUX	VB	VerbForm=Inf	108	aux	108:aux	_
 108	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	105	xcomp	105:xcomp	Entity=21)|MSeg=play-ing
@@ -164,14 +164,14 @@
 3	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 4	just	just	ADV	RB	_	5	advmod	5:advmod	_
 5-6	gonna	_	_	_	_	_	_	_	_
-5	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
+5	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 6	na	to	PART	TO	_	7	reparandum	7:reparandum	XML=</w>
 7	start	start	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	off	off	ADP	RP	_	7	compound:prt	7:compound:prt	_
-9	straightaway	straightaway	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+9	straightaway	straightaway	ADV	RB	Degree=Pos	7	advmod	7:advmod	MSeg=straight-a-way
 10	with	with	ADP	IN	_	13	case	13:case	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(25-event-new-cf3-3-sgl
-12	simulated	simulate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	13:amod	_
+12	simulated	simulate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	13:amod	MSeg=simulat-ed
 13	match	match	NOUN	NN	Number=Sing	7	obl	7:obl:with	_
 14	against	against	ADP	IN	_	15	case	15:case	MSeg=a-gainst
 15	Benevento	Benevento	PROPN	NNP	Number=Sing	13	nmod	13:nmod:against	Entity=(26-organization-new-cf2-1-sgl-Benevento_Calcio)25)|SpaceAfter=No
@@ -186,7 +186,7 @@
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=elaboration-additional:18->17:0:_|Entity=(4-person-giv:act-cf1*-1-ana)
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3-4	gonna	_	_	_	_	_	_	_	_
-3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
+3	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 4	na	to	PART	TO	_	5	mark	5:mark	XML=</w>
 5	play	play	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	obj	5:obj	Entity=(27-event-new-cf5-1-sgl
@@ -221,14 +221,14 @@
 6	rotated	rotate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	amod	7:amod	MSeg=rotat-ed
 7	lineup	lineup	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=30)
 8	Jović	Jović	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Discourse=elaboration-additional:23->17:1:_|Entity=(31-person-new-cf2-1-coref-Luka_Jović)
-9	scoring	score	VERB	VBG	VerbForm=Ger	3	parataxis	3:parataxis	MSeg=scor-ing|SpaceAfter=No
+9	scoring	score	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	3:parataxis	MSeg=scor-ing|SpaceAfter=No
 10	,	,	PUNCT	,	_	16	punct	16:punct	_
 11	van	van	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Discourse=joint-list_m:24->23:0:_|Entity=(32-person-new-cf3-1,2,3-coref-Donny_van_de_Beek
 12	de	de	PROPN	NNP	Number=Sing	11	flat	11:flat	_
 13	Beek	Beek	PROPN	NNP	Number=Sing	11	flat	11:flat	Entity=32)
 14	and	and	CCONJ	CC	_	15	cc	15:cc	_
 15	Ibrahimovic	Ibrahimovic	PROPN	NNP	Number=Sing	11	conj	11:conj:and|16:nsubj	Entity=(33-person-new-cf5-1-coref-Zlatan_Ibrahimović)
-16	coming	come	VERB	VBG	VerbForm=Ger	9	parataxis	9:parataxis	MSeg=com-ing
+16	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	9	parataxis	9:parataxis	MSeg=com-ing
 17	on	on	ADP	IN	_	21	case	21:case	_
 18	3	3	NUM	CD	NumForm=Digit|NumType=Card	21	compound	21:compound	Entity=(34-event-new-cf6-4-sgl|SpaceAfter=No|XML=<w>
 19	-	-	SYM	SYM	_	20	case	20:case	SpaceAfter=No
@@ -242,7 +242,7 @@
 # transition = zero
 # text = Bakayoko getting himself a red card.
 1	Bakayoko	Bakayoko	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-list_m:25->23:0:_|Entity=(35-person-new-cf1-1-coref-Tiémoué_Bakayoko)
-2	getting	get	VERB	VBG	VerbForm=Ger	0	root	0:root	Cxn=Ditransitive|MSeg=gett-ing
+2	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Cxn=Ditransitive|MSeg=gett-ing
 3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	iobj	2:iobj	Entity=(35-person-giv:act-cf1-1-ana-Tiémoué_Bakayoko)|MSeg=him-self
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(36-object-new-cf2-3-sgl
 5	red	red	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
@@ -295,7 +295,7 @@
 2	Scudetto	Scudetto	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj|7:nsubj:xsubj	Entity=39)
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
 4-5	gonna	_	_	_	_	_	_	_	_
-4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
+4	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 5	na	to	PART	TO	_	7	mark	7:mark	XML=</w>
 6	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
 7	tough	tough	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	_
@@ -380,7 +380,7 @@
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj	Entity=(22-person-giv:act-cf1*-1-ana)
 9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 10-11	gonna	_	_	_	_	_	_	_	_
-10	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	5:parataxis	XML=<w>
+10	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	5	parataxis	5:parataxis	XML=<w>
 11	na	to	PART	TO	_	12	mark	12:mark	XML=</w>
 12	continue	continue	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
 13	hopefully	hopefully	ADV	RB	Degree=Pos	12	advmod	12:advmod	MSeg=hope-ful-ly
@@ -447,7 +447,7 @@
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj|12:nsubj:xsubj	Discourse=evaluation-comment:44->39:2:_|Entity=(49-person-giv:inact-cf2-1-ana-Cristian_Galano)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
 5-6	gonna	_	_	_	_	_	_	_	_
-5	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	XML=<w>
+5	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	XML=<w>
 6	na	to	PART	TO	_	12	mark	12:mark	XML=</w>
 7	be	be	AUX	VB	VerbForm=Inf	12	cop	12:cop	_
 8	such	such	DET	PDT	PronType=Dem	12	det:predet	12:det:predet	Entity=(49-person-giv:act-cf2-5-coref-Cristian_Galano
@@ -480,7 +480,7 @@
 1	Paquetá	Paquetá	PROPN	NNP	Number=Sing	4	reparandum	4:reparandum	Discourse=organization-phatic:47->48:0:_|Entity=(53-person-new-cf1-1-coref-Lucas_Paquetá)
 2	and	and	CCONJ	CC	_	1	conj	1:conj|4:reparandum	_
 3	almost	almost	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=joint-other_m:48->37:3:_|MSeg=al-most
-4	starting	start	VERB	VBG	VerbForm=Ger	0	root	0:root	MSeg=start-ing
+4	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=start-ing
 5	Paquetá	Paquetá	PROPN	NNP	Number=Sing	4	parataxis	4:parataxis	Entity=(53-person-giv:act-cf1-1-coref-Lucas_Paquetá)
 6	over	over	ADP	IN	_	7	case	7:case	_
 7	Bennacer	Bennacer	PROPN	NNP	Number=Sing	5	nmod	5:nmod:over	Entity=(54-person-new-cf3-1-sgl-Ismaël_Bennacer)
@@ -500,7 +500,7 @@
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	Todibo	Todibo	PROPN	NNP	Number=Sing	2	obj	2:obj	Entity=(56-person-new-cf2-1-coref-Jean%2DClair_Todibo)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
-5	Alderweireld	Alderweireld	PROPN	NNP	Number=Sing	3	conj	2:obj|3:conj	Entity=(57-person-new-cf4-1-coref-Toby_Alderweireld)|MSeg=Alderweireld
+5	Alderweireld	Alderweireld	PROPN	NNP	Number=Sing	3	conj	2:obj|3:conj	Entity=(57-person-new-cf4-1-coref-Toby_Alderweireld)
 6	in	in	ADP	IN	_	7	case	7:case	_
 7	defense	defense	NOUN	NN	Number=Sing	2	obl	2:obl:in	Entity=(58-abstract-new-cf5-1-sgl)
 8	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:50->48:1:_
@@ -529,7 +529,7 @@
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
 10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
 11-12	gonna	_	_	_	_	_	_	_	_
-11	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	19	advcl	19:advcl:if	Cxn=Condition-Realistic|XML=<w>
+11	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	19	advcl	19:advcl:if	XML=<w>
 12	na	to	PART	TO	_	15	mark	15:mark	XML=</w>
 13	be	be	AUX	VB	VerbForm=Inf	15	cop	15:cop	_
 14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	15:det	Entity=(61-time-new-cf5-2-coref
@@ -538,14 +538,14 @@
 17-18	I'm	_	_	_	_	_	_	_	_
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=same-unit_m:54->52:0:_|Entity=(22-person-giv:act-cf1-1-ana)
 18	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
-19	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=push-ing
+19	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=push-ing
 20	all	all	DET	DT	PronType=Tot	19	obj	19:obj	Entity=(62-abstract-new-cf4-1-sgl)
 21	for	for	ADP	IN	_	23	case	23:case	_
 22	next	next	ADJ	JJ	Degree=Pos	23	amod	23:amod	Entity=(63-time-new-cf6-2-sgl
 23	season	season	NOUN	NN	Number=Sing	19	obl	19:obl:for	Entity=63)
 24	in	in	ADP	IN	_	27	case	27:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(7-event-giv:inact-cf3-2,3-coref-UEFA_Champions_League
-26	Champions	Champion	PROPN	NNPS	Number=Plur	27	compound	27:compound	_
+26	Champions	Champion	PROPN	NNPS	Number=Plur	27	compound	27:compound	MSeg=Champion-s
 27	League	League	PROPN	NNP	Number=Sing	23	nmod	23:nmod:in	Entity=7)|SpaceAfter=No
 28	.	.	PUNCT	.	_	19	punct	19:punct	_
 
@@ -560,7 +560,7 @@
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj|10:nsubj:xsubj	Discourse=adversative-concession:56->59:0:_|Entity=(4-person-giv:inact-cf3-1-ana)
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5-6	gonna	_	_	_	_	_	_	_	_
-5	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	XML=<w>
+5	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	XML=<w>
 6	na	to	PART	TO	_	7	mark	7:mark	XML=</w>
 7	have	have	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	to	to	PART	TO	_	10	mark	10:mark	_
@@ -625,7 +625,7 @@
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_
 3	Paquetá	Paquetá	PROPN	NNP	Number=Sing	1	nsubj	1:nsubj	Entity=(53-person-giv:act-cf2*-1-coref-Lucas_Paquetá)
 4	now	now	ADV	RB	_	5	advmod	5:advmod	_
-5	finding	find	VERB	VBG	VerbForm=Ger	3	acl	3:acl	Discourse=joint-sequence_m:64->62:0:_|MSeg=find-ing
+5	finding	find	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl	Discourse=joint-sequence_m:64->62:0:_|MSeg=find-ing
 6	Galano	Galano	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(49-person-giv:inact-cf1-1-coref-Cristian_Galano)|SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	Galano	Galano	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj	Discourse=context-circumstance:65->64:0:_|Entity=(49-person-giv:act-cf1-1-coref-Cristian_Galano)
@@ -668,7 +668,7 @@
 7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj|11:nsubj:xsubj|14:nsubj:xsubj	Discourse=joint-sequence_m:71->62:0:_|Entity=(31-person-giv:act-cf1-1-ana-Luka_Jović)
 8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9-10	gonna	_	_	_	_	_	_	_	_
-9	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	XML=<w>
+9	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	XML=<w>
 10	na	to	PART	TO	_	11	mark	11:mark	XML=</w>
 11	touch	touch	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj	Entity=(69-object-new-cf3-1-cata)
@@ -737,7 +737,7 @@
 6	de	de	PROPN	NNP	Number=Sing	5	flat	5:flat	_
 7	Beek	Beek	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=32)|SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	5:punct	_
-9	looking	look	VERB	VBG	VerbForm=Ger	3	parataxis	3:parataxis	MSeg=look-ing
+9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	3:parataxis	MSeg=look-ing
 10	for	for	ADP	IN	_	11	case	11:case	_
 11	something	something	PRON	NN	Number=Sing|PronType=Ind	9	obl	9:obl:for	Entity=(76-abstract-new-cf3-1-sgl)|SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -783,7 +783,7 @@
 4	sorry	sorry	ADJ	JJ	Degree=Pos	5	discourse	5:discourse	MSeg=sorr-y
 5	what	what	PRON	WP	PronType=Int	6	reparandum	6:reparandum	_
 6	how	how	ADV	WRB	PronType=Int	7	advmod	7:advmod	_
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-There
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl,Interrogative-WHInfo-Direct
 8	there	there	PRON	EX	PronType=Dem	7	expl	7:expl	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(81-event-new-cf1-2-coref
 10	penalty	penalty	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=81)
@@ -805,7 +805,7 @@
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|12:nsubj:xsubj	Entity=(79-event-giv:act-cf1-1-ana)
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
 8-9	gonna	_	_	_	_	_	_	_	_
-8	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:like	XML=<w>
+8	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	4	advcl	4:advcl:like	XML=<w>
 9	na	to	PART	TO	_	12	mark	12:mark	XML=</w>
 10	be	be	AUX	VB	VerbForm=Inf	12	cop	12:cop	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(83-event-new-cf7-2-sgl
@@ -840,8 +840,8 @@
 6	all	all	DET	GW	PronType=Tot|Typo=Yes	10	discourse	10:discourse	_
 7	right	_	X	DT	_	6	goeswith	6:goeswith	_
 8	apparently	apparently	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=apparent-ly
-9	Alderweireld	Alderweireld	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(57-person-giv:inact-cf2-1-coref-Toby_Alderweireld)|MSeg=Alderweireld
-10	clipped	clip	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	_
+9	Alderweireld	Alderweireld	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	Entity=(57-person-giv:inact-cf2-1-coref-Toby_Alderweireld)
+10	clipped	clip	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	MSeg=clipp-ed
 11	Favilli	Favilli	PROPN	NNP	Number=Sing	10	obj	10:obj	Entity=(80-person-giv:act-cf1*-1-coref)|SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -857,7 +857,7 @@
 5	one	one	NUM	CD	NumForm=Word|NumType=Card	2	obl:npmod	2:obl:npmod	_
 6	nil	nil	NUM	CD	NumForm=Word|NumType=Card	5	dep	5:dep	_
 7	after	after	SCONJ	IN	_	8	mark	8:mark	Discourse=context-circumstance:93->92:0:_
-8	doing	do	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl:after	MSeg=do-ing
+8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl:after	MSeg=do-ing
 9	absolutely	absolutely	ADV	RB	Degree=Pos	10	advmod	10:advmod	Entity=(86-abstract-new-cf4-2-sgl|MSeg=absolute-ly
 10	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	8	obj	8:obj	Entity=86)
 11	all	all	DET	DT	PronType=Ind	12	det	12:det	Entity=(43-event-giv:inact-cf1-2-coref-Genoa_C.F.C.
@@ -879,7 +879,7 @@
 8	Theo	Theo	PROPN	NNP	Number=Sing	10	reparandum	10:reparandum	Entity=(87-person-new-cf1-1-coref-Theo_Hernandez)|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	Theo	Theo	PROPN	NNP	Number=Sing	13	nsubj	13:nsubj	Discourse=adversative-concession:96->97:1:_|Entity=(87-person-giv:act-cf1-1-coref-Theo_Hernandez)
-11	can	can	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	13	aux	13:aux	_
+11	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
 12	finally	finally	ADV	RB	Degree=Pos	13	advmod	13:advmod	MSeg=final-ly
 13	cross	cross	VERB	VB	VerbForm=Inf	5	parataxis	5:parataxis	_
 14	to	to	ADP	IN	_	17	case	17:case	_
@@ -899,7 +899,7 @@
 28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	30:aux	_
 29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	30:nsubj|32:nsubj:xsubj|37:nsubj:xsubj	Entity=(87-person-giv:act-cf1-1-ana-Theo_Hernandez)
 30-31	gonna	_	_	_	_	_	_	_	_
-30	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	conj	13:conj:but	XML=<w>
+30	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	13	conj	13:conj:but	XML=<w>
 31	na	to	PART	TO	_	32	mark	32:mark	XML=</w>
 32	get	get	VERB	VB	VerbForm=Inf	30	xcomp	30:xcomp	_
 33	an	a	DET	DT	Definite=Ind|PronType=Art	35	det	35:det	Entity=(89-event-new-cf4-3-coref
@@ -944,7 +944,7 @@
 26	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
 27	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	4:parataxis	MSeg=go-ing
 28	to	to	PART	TO	_	29	mark	29:mark	_
-29	release	release	VERB	VB	VerbForm=Inf	27	xcomp	27:xcomp	MSeg=release
+29	release	release	VERB	VB	VerbForm=Inf	27	xcomp	27:xcomp	_
 30	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	29	obj	29:obj	Entity=(87-person-giv:act-cf2*-1-ana-Theo_Hernandez)|SpaceAfter=No
 31	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -957,9 +957,9 @@
 2	to	to	SCONJ	IN	_	4	mark	4:mark	_
 3	Adam	Adam	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj|5:nsubj:xsubj	Entity=(22-person-giv:act-cf2*-1-coref)
 4	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl:to	MSeg=get-s
-5	frustrated	frustrated	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	_
+5	frustrated	frustrated	ADJ	JJ	Degree=Pos	4	xcomp	4:xcomp	MSeg=frustrat-ed
 6	about	about	SCONJ	IN	_	7	mark	7:mark	_
-7	losing	lose	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:about	MSeg=los-ing
+7	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:about	MSeg=los-ing
 8	against	against	ADP	IN	_	9	case	9:case	MSeg=a-gainst
 9	Genoa	Genoa	PROPN	NNP	Number=Sing	7	obl	7:obl:against	Entity=(42-organization-giv:inact-cf3-1-coref-Genoa_C.F.C.)|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
@@ -1021,7 +1021,7 @@
 62	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	64	nsubj	64:nsubj|66:nsubj:xsubj	Entity=(22-person-giv:act-cf2*-1-ana)
 63	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	64	aux	64:aux	_
 64-65	gonna	_	_	_	_	_	_	_	_
-64	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	71	advcl	71:advcl:because	XML=<w>
+64	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	71	advcl	71:advcl:because	XML=<w>
 65	na	to	PART	TO	_	66	mark	66:mark	XML=</w>
 66	simulate	simulate	VERB	VB	VerbForm=Inf	64	xcomp	64:xcomp	_
 67	this	this	PRON	DT	Number=Sing|PronType=Dem	66	obj	66:obj	Entity=(96-event-acc:com-cf8-1-sgl)|SpaceAfter=No
@@ -1030,7 +1030,7 @@
 69	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	71	nsubj	71:nsubj|73:nsubj:xsubj|75:nsubj:xsubj	Discourse=same-unit_m:111->109:0:_
 70	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	aux	71:aux	_
 71-72	gonna	_	_	_	_	_	_	_	_
-71	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	33	conj	33:conj:but	XML=<w>
+71	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	33	conj	33:conj:but	XML=<w>
 72	na	to	PART	TO	_	73	mark	73:mark	XML=</w>
 73	make	make	VERB	VB	VerbForm=Inf	71	xcomp	71:xcomp	_
 74	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	73	obj	73:obj|75:nsubj:xsubj	Entity=(22-person-giv:act-cf2*-1-ana)
@@ -1045,7 +1045,7 @@
 # transition = retain
 # text = No remark on Conti, Todibo, Musacchio, Bakker, probably not the best back line but that's what I'm going with.
 1	No	no	DET	DT	Polarity=Neg|PronType=Neg	2	det	2:det	Discourse=adversative-concession:112->109:2:_|Entity=(97-abstract-new-cf7-2-sgl
-2	remark	remark	NOUN	NN	Number=Sing	0	root	0:root	MSeg=re-mark
+2	remark	remark	NOUN	NN	Number=Sing	0	root	0:root	_
 3	on	on	ADP	IN	_	4	case	4:case	_
 4	Conti	Conti	PROPN	NNP	Number=Sing	2	nmod	2:nmod:on	Entity=(98-person-new-cf1-1,3,5,7-coref-Andrea_Conti_%28footballer%2C_born_1994%29(98-person-acc:inf-cf1-1-coref-Andrea_Conti_%28footballer%2C_born_1994%29)|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -1079,10 +1079,10 @@
 # transition = zero
 # text = Paquetá scoring one Jović scoring two very happy they took Leão off but they brought on Ibrahimovic so he's gonna be tired.
 1	Paquetá	Paquetá	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-sequence_m:115->17:3:_|Entity=(53-person-giv:inact-cf3-1-coref-Lucas_Paquetá)
-2	scoring	score	VERB	VBG	VerbForm=Ger	0	root	0:root	MSeg=scor-ing
+2	scoring	score	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=scor-ing
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	obj	2:obj	_
 4	Jović	Jović	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=joint-sequence_m:116->115:0:_|Entity=(31-person-giv:inact-cf4-1-coref-Luka_Jović)
-5	scoring	score	VERB	VBG	VerbForm=Ger	2	parataxis	2:parataxis	MSeg=scor-ing
+5	scoring	score	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	2:parataxis	MSeg=scor-ing
 6	two	two	NUM	CD	NumForm=Word|NumType=Card	5	obj	5:obj	Entity=(102-abstract-new-cf6-1-sgl)
 7	very	very	ADV	RB	_	8	advmod	8:advmod	Discourse=evaluation-comment:117->118:0:_
 8	happy	happy	ADJ	JJ	Degree=Pos	5	parataxis	5:parataxis	MSeg=happ-y
@@ -1100,7 +1100,7 @@
 19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj|24:nsubj:xsubj	Entity=(33-person-giv:act-cf1-1-ana-Zlatan_Ibrahimović)
 20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
 21-22	gonna	_	_	_	_	_	_	_	_
-21	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	15	parataxis	15:parataxis	XML=<w>
+21	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	15	parataxis	15:parataxis	XML=<w>
 22	na	to	PART	TO	_	24	mark	24:mark	XML=</w>
 23	be	be	AUX	VB	VerbForm=Inf	24	cop	24:cop	_
 24	tired	tired	ADJ	JJ	Degree=Pos	21	xcomp	21:xcomp	MSeg=tir-ed|SpaceAfter=No
@@ -1163,7 +1163,7 @@
 12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
 13	for	for	ADP	IN	_	16	case	16:case	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(7-event-giv:inact-cf6-2,3-coref-UEFA_Champions_League
-15	Champions	Champion	PROPN	NNPS	Number=Plur	16	compound	16:compound	_
+15	Champions	Champion	PROPN	NNPS	Number=Plur	16	compound	16:compound	MSeg=Champion-s
 16	League	League	PROPN	NNP	Number=Sing	8	obl	8:obl:for	Entity=7)
 17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	18:det	Entity=(61-time-giv:inact-cf7-2-coref
 18	season	season	NOUN	NN	Number=Sing	8	obl:tmod	8:obl:tmod	Entity=61)

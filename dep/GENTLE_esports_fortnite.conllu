@@ -69,7 +69,7 @@
 19	thus	thus	ADV	RB	_	20	advmod	20:advmod	_
 20	far	far	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Discourse=evaluation-comment:5->4:0:_|Entity=(13-abstract-new-cf6-3-sgl
-22	commanding	command	VERB	VBG	VerbForm=Ger	23	amod	23:amod	_
+22	commanding	command	VERB	VBG	VerbForm=Ger	23	amod	23:amod	MSeg=command-ing
 23	lead	lead	NOUN	NN	Number=Sing	9	parataxis	9:parataxis	Entity=13)|SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -91,7 +91,7 @@
 9	in	in	ADP	IN	_	10	case	10:case	_
 10	there	there	ADV	RB	PronType=Dem	8	obl	8:obl:in	Entity=(16-place-new-cf2-1-coref)
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(16-place-giv:act-cf2-3-coref
-12	northeast	northeast	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+12	northeast	northeast	ADJ	JJ	Degree=Pos	13	amod	13:amod	MSeg=north-east
 13	corner	corner	NOUN	NN	Number=Sing	8	obl:npmod	8:obl:npmod	_
 14	of	of	ADP	IN	_	16	case	16:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=1<17|Entity=(17-object-acc:inf-cf4-2-coref
@@ -114,7 +114,7 @@
 7	,	,	PUNCT	,	_	9	punct	9:punct	_
 8-9	there's	_	_	_	_	_	_	_	_
 8	there	there	PRON	EX	PronType=Dem	9	expl	9:expl	Discourse=restatement-partial:9->3:2:_
-9	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	Cxn=Existential-There
+9	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	Cxn=Existential-CopPred-ThereExpl
 10	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(18-person-new-cf1-3-coref(10-person-giv:inact-cf2-1-ana)
 11	top	top	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	ten	ten	NUM	CD	NumForm=Word|NumType=Card	9	nsubj	9:nsubj	Entity=18)
@@ -149,7 +149,7 @@
 # transition = establishment
 # text = Average placements thus far of 25th for Kreo, only 8 eliminations but 30 points enough to put him in third place thus far.
 1	Average	average	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration-additional:10->3:3:_|Entity=(27-abstract-new-cf2-2-sgl
-2	placements	placement	NOUN	NNS	Number=Plur	0	root	0:root	_
+2	placements	placement	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=place-ment-s
 3	thus	thus	ADV	RB	_	4	advmod	4:advmod	_
 4	far	far	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
 5	of	of	ADP	IN	_	6	case	6:case	_
@@ -159,7 +159,7 @@
 9	,	,	PUNCT	,	_	12	punct	12:punct	_
 10	only	only	ADV	RB	_	12	advmod	12:advmod	Entity=(29-event-new-cf3-3-sgl
 11	8	8	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	12:nummod	_
-12	eliminations	elimination	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	Entity=29)
+12	eliminations	elimination	NOUN	NNS	Number=Plur	2	parataxis	2:parataxis	Entity=29)|MSeg=eliminat-ion-s
 13	but	but	CCONJ	CC	_	15	cc	15:cc	_
 14	30	30	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	15:nummod	Entity=(30-abstract-new-cf4-2-sgl
 15	points	point	NOUN	NNS	Number=Plur	12	conj	12:conj:but	Entity=30)|MSeg=point-s
@@ -254,7 +254,7 @@
 # text = Will he suffer the same fate or can he close it out right here to remain our Fortnite world champ?
 1	Will	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	Discourse=joint-other_m:18->3:4:_
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
-3	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar
+3	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(37-abstract-giv:inact-cf3-3-coref
 5	same	same	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	fate	fate	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=37)
@@ -290,15 +290,15 @@
 5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|12:nsubj|14:nsubj|16:nsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 7	from	from	ADP	IN	_	8	case	8:case	_
-8	Pennsylvania	Pennsylvania	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(42-place-new-cf4-1-sgl-Pennsylvania)|MSeg=Pennsylvania
+8	Pennsylvania	Pennsylvania	PROPN	NNP	Number=Sing	0	root	0:root	Entity=(42-place-new-cf4-1-sgl-Pennsylvania)
 9	16	16	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(12-person-giv:act-cf1*-4-coref-Bugha_%28gamer%29(43-time-new-cf6-2-sgl
 10	year	year	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=43)
 11	old	old	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
 12	player	player	NOUN	NN	Number=Sing	8	conj	8:conj	Entity=12)|MSeg=play-er|SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	14:punct	_
-14	Sentinels	Sentinel	PROPN	NNPS	Number=Plur	8	conj	8:conj	Entity=(44-organization-new-cf5-1-sgl-Sentinels_%28esports%29)|SpaceAfter=No
+14	Sentinels	Sentinel	PROPN	NNPS	Number=Plur	8	conj	8:conj	Entity=(44-organization-new-cf5-1-sgl-Sentinels_%28esports%29)|MSeg=Sentinel-s|SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
-16	qualified	qualify	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	8:conj	Discourse=joint-other_m:22->21:0:_
+16	qualified	qualify	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	8:conj	Discourse=joint-other_m:22->21:0:_|MSeg=qual-ifi-ed
 17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(45-time-new-cf3-4-sgl
 18	very	very	ADV	RB	_	19	advmod	19:advmod	_
 19	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	20	amod	20:amod	_
@@ -364,7 +364,7 @@
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj|17:nsubj:xsubj|21:nsubj:xsubj	Discourse=causal-result:27->26:0:_|Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
 14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15-16	gonna	_	_	_	_	_	_	_	_
-15	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	parataxis	6:parataxis	XML=<w>
+15	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	6	parataxis	6:parataxis	XML=<w>
 16	na	to	PART	TO	_	17	mark	17:mark	XML=</w>
 17	walk	walk	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
 18	on	on	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
@@ -398,7 +398,7 @@
 45	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	nmod:poss	46:nmod:poss	Discourse=topic-solutionhood:34->37:2:_|Entity=(53-person-new-cf7-2-sgl(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
 46	parents	parent	NOUN	NNS	Number=Plur	47	nsubj	47:nsubj|49:nsubj:xsubj|52:nsubj:xsubj	Entity=53)|MSeg=parent-s
 47-48	gonna	_	_	_	_	_	_	_	_
-47	gon	go	VERB	VBG	VerbForm=Ger	37	parataxis	37:parataxis	XML=<w>
+47	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	37	parataxis	37:parataxis	XML=<w>
 48	na	to	PART	TO	_	49	mark	49:mark	XML=</w>
 49	ask	ask	VERB	VB	VerbForm=Inf	47	xcomp	47:xcomp	_
 50	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	iobj	49:iobj|52:nsubj:xsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
@@ -412,7 +412,7 @@
 57	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	nsubj	59:nsubj|61:nsubj:xsubj	Entity=(12-person-giv:act-cf1*-1-ana-Bugha_%28gamer%29)
 58	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	aux	59:aux	_
 59-60	gonna	_	_	_	_	_	_	_	_
-59	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	47	conj	47:conj:and	XML=<w>
+59	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	47	conj	47:conj:and	XML=<w>
 60	na	to	PART	TO	_	61	mark	61:mark	XML=</w>
 61	laugh	laugh	VERB	VB	VerbForm=Inf	59	xcomp	59:xcomp	SpaceAfter=No
 62	.	.	PUNCT	.	_	6	punct	6:punct	_
@@ -477,7 +477,7 @@
 15	,	,	PUNCT	,	_	16	punct	16:punct	_
 16	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	14:parataxis	Discourse=elaboration-additional:42->40:1:_|MSeg=see-s
 17	those	this	PRON	DT	Number=Plur|PronType=Dem	16	obj	16:obj	Entity=(59-abstract-giv:act-cf1-1-ana)
-18	as	as	ADV	RB	_	16	advmod	16:advmod	_
+18	as	as	ADV	RB	_	16	advmod	16:advmod	ExtPos=ADV
 19	well	well	ADV	RB	Degree=Pos	18	fixed	18:fixed	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	3:punct	_
 
@@ -567,7 +567,7 @@
 10	,	,	PUNCT	,	_	7	punct	7:punct	_
 11	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	Discourse=elaboration-additional:52->45:3:_
 12	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(51-person-giv:inact-cf3-1-ana)
-13	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar
+13	see	see	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct
 14	all	all	DET	PDT	PronType=Tot	16	det:predet	16:det:predet	Entity=(70-person-new-cf6-3-sgl
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	_
 16	players	player	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=70)|MSeg=play-er-s
@@ -605,7 +605,7 @@
 15	,	,	PUNCT	,	_	13	punct	13:punct	_
 16	will	will	AUX	MD	VerbForm=Fin	18	aux	18:aux	Discourse=same-unit_m:58->56:1:_
 17	get	get	AUX	VB	VerbForm=Inf	18	aux:pass	18:aux:pass	_
-18	solved	solve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	3:parataxis	_
+18	solved	solve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	3:parataxis	MSeg=solv-ed
 19	at	at	ADP	IN	_	21	case	21:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(75-time-acc:com-cf2-2-sgl
 21	end	end	NOUN	NN	Number=Sing	18	obl	18:obl:at	Entity=75)|SpaceAfter=No
@@ -651,10 +651,10 @@
 12	Loot	Loot	PROPN	NNP	Number=Sing	13	compound	13:compound	Entity=(81-place-new-cf1-1,2-coref
 13	Lake	Lake	PROPN	NNP	Number=Sing	10	obl	10:obl:of	Entity=81)
 14	just	just	ADV	RB	_	15	advmod	15:advmod	Discourse=elaboration-additional:63->62:0:_
-15	fighting	fight	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	MSeg=fight-ing
+15	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	MSeg=fight-ing
 16	on	on	ADP	IN	_	18	case	18:case	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(82-place-new-cf4-2-sgl
-18	outskirts	outskirt	NOUN	NNS	Number=Plur	15	obl	15:obl:on	_
+18	outskirts	outskirt	NOUN	NNS	Number=Plur	15	obl	15:obl:on	MSeg=out-skirt-s
 19	of	of	ADP	IN	_	20	case	20:case	_
 20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nmod	18:nmod:of	Entity=(81-place-giv:act-cf1-1-ana)82)|SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	5:punct	_
@@ -672,10 +672,10 @@
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=elaboration-additional:64->62:1:_|Entity=(79-person-giv:act-cf1*-1-ana)
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 3	just	just	ADV	RB	_	6	advmod	6:advmod	_
-4	kind	kind	NOUN	NN	Number=Sing	6	advmod	6:advmod	_
+4	kind	kind	NOUN	NN	Number=Sing	6	advmod	6:advmod	ExtPos=ADV
 5	of	of	ADP	IN	_	4	fixed	4:fixed	_
 6	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=build-ing
-7	walling	walling	NOUN	NN	Number=Sing	6	obj	6:obj	_
+7	walling	walling	NOUN	NN	Number=Sing	6	obj	6:obj	MSeg=wall-ing
 8	against	against	ADP	IN	_	10	case	10:case	MSeg=a-gainst
 9	any	any	DET	DT	PronType=Ind	10	det	10:det	Entity=(83-abstract-new-cf3-2-sgl
 10	pressure	pressure	NOUN	NN	Number=Sing	6	obl	6:obl:against	_
@@ -730,8 +730,8 @@
 10	match	match	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=4)|SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	14:punct	_
 12	single	single	ADJ	JJ	Degree=Pos	13	amod	13:amod	Discourse=elaboration-additional:69->62:3:_|Entity=(87-object-new-cf3-2-sgl
-13	shockwave	shockwave	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=87)
-14	remaining	remain	VERB	VBG	VerbForm=Ger	6	parataxis	6:parataxis	MSeg=remain-ing|SpaceAfter=No
+13	shockwave	shockwave	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=87)|MSeg=shock-wave
+14	remaining	remain	VERB	VBG	Tense=Pres|VerbForm=Part	6	parataxis	6:parataxis	MSeg=remain-ing|SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	18:punct	_
 16	legendary	legendary	ADJ	JJ	Degree=Pos	18	amod	18:amod	Discourse=joint-list_m:70->69:0:_|Entity=(88-object-new-cf4-3-sgl|MSeg=legend-ary
 17	grenade	grenade	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(89-object-new-cf6-1-sgl)
@@ -739,7 +739,7 @@
 19	drop	drop	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(90-object-new-cf5-2-sgl
 20	gun	gun	NOUN	NN	Number=Sing	14	conj	14:conj	Entity=90)
 21	and	and	CCONJ	CC	_	22	reparandum	22:reparandum	_
-22	as	as	ADV	RB	_	20	advmod	20:advmod	_
+22	as	as	ADV	RB	_	20	advmod	20:advmod	ExtPos=ADV
 23	well	well	ADV	RB	Degree=Pos	22	fixed	22:fixed	SpaceAfter=No
 24	.	.	PUNCT	.	_	6	punct	6:punct	_
 
@@ -786,14 +786,14 @@
 32	tournament	tournament	NOUN	NN	Number=Sing	29	obl	29:obl:to	Entity=4)|SpaceAfter=No
 33	,	,	PUNCT	,	_	37	punct	37:punct	_
 34	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	37	nsubj	37:nsubj|38:nsubj:xsubj	Discourse=evaluation-comment:75->72:0:_|Entity=(51-person-giv:act-cf1-1-ana)
-35	kind	kind	NOUN	NN	Number=Sing	37	advmod	37:advmod	_
+35	kind	kind	NOUN	NN	Number=Sing	37	advmod	37:advmod	ExtPos=ADV
 36	of	of	ADP	IN	_	35	fixed	35:fixed	_
 37	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	parataxis	9:parataxis	_
 38	simpler	simple	ADJ	JJR	Degree=Cmp	37	xcomp	37:xcomp	MSeg=simpl-er|SpaceAfter=No
 39	,	,	PUNCT	,	_	44	punct	44:punct	_
 40	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	44	nsubj	44:nsubj	Discourse=restatement-partial:76->75:0:_
 41	just	just	ADV	RB	_	44	advmod	44:advmod	_
-42	kind	kind	NOUN	NN	Number=Sing	44	advmod	44:advmod	_
+42	kind	kind	NOUN	NN	Number=Sing	44	advmod	44:advmod	ExtPos=ADV
 43	of	of	ADP	IN	_	42	fixed	42:fixed	_
 44	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	37	parataxis	37:parataxis	_
 45	for	for	ADP	IN	_	46	case	46:case	_
@@ -818,7 +818,7 @@
 1-2	What's	_	_	_	_	_	_	_	_
 1	What	what	PRON	WP	PronType=Int	3	nsubj	3:nsubj	Discourse=topic-question:78->80:1:_
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-Wh|SpaceAfter=No
+3	up	up	ADV	RB	Degree=Pos	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-27
@@ -829,7 +829,7 @@
 # transition = zero
 # text = Shot comes on through, not able to get it done as of yet.
 1	Shot	shot	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=adversative-concession:79->80:0:_|Entity=(95-object-new-cf2-1-sgl)
-2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Wh|MSeg=come-s
+2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|MSeg=come-s
 3	on	on	ADV	RB	Degree=Pos	2	advmod	2:advmod	_
 4	through	through	ADP	RP	_	2	compound:prt	2:compound:prt	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
@@ -853,7 +853,7 @@
 # text = BlastR still healing up, will have bandages to get back up to take 75 HP.
 1	BlastR	BlastR	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-sequence_m:81->55:1:_|Entity=(51-person-giv:inact-cf1-1-coref)
 2	still	still	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
-3	healing	heal	VERB	VBG	VerbForm=Ger	0	root	0:root	MSeg=heal-ing
+3	healing	heal	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=heal-ing
 4	up	up	ADP	RP	_	3	compound:prt	3:compound:prt	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
 6	will	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	Discourse=elaboration-additional:82->81:0:_
@@ -879,10 +879,10 @@
 1	Looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:85->86:0:_|MSeg=Look-s
 2	like	like	SCONJ	IN	_	4	mark	4:mark	_
 3	Tfue	Tfue	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=joint-sequence_m:86->55:1:_|Entity=(99-person-new-cf1-1-sgl-Tfue)
-4	picking	pick	VERB	VBG	VerbForm=Ger	1	advcl	1:advcl:like	MSeg=pick-ing
+4	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	1:advcl:like	MSeg=pick-ing
 5	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	_
 6	in	in	ADP	IN	_	7	case	7:case	_
-7	elimination	elimination	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=(100-event-new-cf2-1-sgl)|SpaceAfter=No
+7	elimination	elimination	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=(100-event-new-cf2-1-sgl)|MSeg=eliminat-ion|SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_esports_fortnite-30
@@ -909,7 +909,7 @@
 # text = 90 players remaining.
 1	90	90	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=context-background:88->86:1:_|Entity=(102-person-new-cf1-2-sgl
 2	players	player	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=102)|MSeg=play-er-s
-3	remaining	remain	VERB	VBG	VerbForm=Ger	0	root	0:root	MSeg=remain-ing|SpaceAfter=No
+3	remaining	remain	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=remain-ing|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_esports_fortnite-32
@@ -937,7 +937,7 @@
 # speaker = Jack
 # transition = null
 # text = Bandaging on the egg BlastR is just hanging out here.
-1	Bandaging	bandage	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=context-circumstance:90->91:0:_
+1	Bandaging	bandage	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=context-circumstance:90->91:0:_|MSeg=Bandag-ing
 2	on	on	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(105-object-new-cf2-2-sgl
 4	egg	egg	NOUN	NN	Number=Sing	1	obl	1:obl:on	Entity=105)
@@ -961,13 +961,13 @@
 3	down	down	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
 4	below	below	ADV	RB	Degree=Pos	2	advmod	2:advmod	Entity=107)|MSeg=be-low
 5-6	gonna	_	_	_	_	_	_	_	_
-5	gon	go	VERB	VBG	VerbForm=Ger	0	root	0:root	XML=<w>
+5	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 6	na	to	PART	TO	_	7	mark	7:mark	XML=</w>
 7	see	see	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
 8	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=adversative-contrast_m:93->91:1:_
 9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(51-person-giv:act-cf1*-1-ana)
 10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
-11	take	take	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	_
+11	take	take	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	Cxn=Interrogative-Polar-Indirect
 12	shots	shot	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=(108-object-new-cf3-1-sgl)|MSeg=shot-s
 13	here	here	ADV	RB	PronType=Dem	11	advmod	11:advmod	Entity=(106-place-giv:act-cf2-1-coref)
 14	in	in	ADP	IN	_	16	case	16:case	_
@@ -985,7 +985,7 @@
 1	Tchub	Tchub	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=joint-sequence_m:94->55:1:_|Entity=(110-person-new-cf1-1-sgl)
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
 3-4	gonna	_	_	_	_	_	_	_	_
-3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
+3	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 4	na	to	PART	TO	_	5	mark	5:mark	XML=</w>
 5	roll	roll	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	all	all	DET	PDT	PronType=Tot	8	det:predet	8:det:predet	_
@@ -997,7 +997,7 @@
 12	no	no	DET	DT	Polarity=Neg|PronType=Neg	13	det	13:det	Entity=(111-event-new-cf2-2-sgl
 13	engagement	engagement	NOUN	NN	Number=Sing	14	nsubj	14:nsubj|16:nsubj:xsubj	Entity=111)|MSeg=en-gage-ment
 14-15	gonna	_	_	_	_	_	_	_	_
-14	gon	go	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl:like	XML=<w>
+14	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	10	advcl	10:advcl:like	XML=<w>
 15	na	to	PART	TO	_	16	mark	16:mark	XML=</w>
 16	happen	happen	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	MSeg=happ-en|SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -1022,7 +1022,7 @@
 11	faced	face	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	8:acl:relcl	MSeg=fac-ed
 12	off	off	ADP	RP	_	11	compound:prt	11:compound:prt	_
 13	against	against	ADP	IN	_	14	case	14:case	MSeg=a-gainst
-14	each	each	DET	DT	PronType=Rcp	11	parataxis	11:parataxis	Entity=(112-person-giv:act-cf1-1-ana
+14	each	each	DET	DT	PronType=Rcp	11	parataxis	11:parataxis	Entity=(112-person-giv:act-cf1-1-ana|ExtPos=PRON
 15	other	other	ADJ	JJ	Degree=Pos	14	fixed	14:fixed	Entity=112)
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(115-time-new-cf5-2-sgl
 17	number	number	NOUN	NN	Number=Sing	11	obl:tmod	11:obl:tmod	_
@@ -1030,13 +1030,13 @@
 19	times	time	NOUN	NNS	Number=Plur	17	nmod	17:nmod:of	Entity=115)112)|MSeg=time-s|SpaceAfter=No
 20	,	,	PUNCT	,	_	3	punct	3:punct	_
 21-22	gonna	_	_	_	_	_	_	_	_
-21	gon	go	VERB	VBG	VerbForm=Ger	0	root	0:root	Discourse=same-unit_m:98->96:1:_|XML=<w>
+21	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	Discourse=same-unit_m:98->96:1:_|XML=<w>
 22	na	to	PART	TO	_	23	mark	23:mark	XML=</w>
 23	go	go	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	_
 24	for	for	ADP	IN	_	26	case	26:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(116-object-new-cf3-2-sgl
 26	wall	wall	NOUN	NN	Number=Sing	23	obl	23:obl:for	Entity=116)|SpaceAfter=No
-27	.	,	PUNCT	,	_	21	punct	21:punct	_
+27	.	.	PUNCT	.	_	21	punct	21:punct	_
 
 # sent_id = GENTLE_esports_fortnite-37
 # addressee = Aud,Speaker1
@@ -1072,7 +1072,7 @@
 3	up	up	ADP	RP	_	2	compound:prt	2:compound:prt	_
 4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(119-event-new-cf3-3-coref(114-person-giv:act-cf1-1-ana)
 5	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	6:amod	_
-6	elimination	elimination	NOUN	NN	Number=Sing	2	obj	2:obj	_
+6	elimination	elimination	NOUN	NN	Number=Sing	2	obj	2:obj	MSeg=eliminat-ion
 7	of	of	ADP	IN	_	8	case	8:case	_
 8	Game	Game	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=(38-event-giv:inact-cf2-1-coref
 9	six	six	NUM	CD	NumForm=Word|NumType=Card	8	dep	8:dep	Entity=38)119)|SpaceAfter=No
@@ -1198,14 +1198,14 @@
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	16:cop	_
 15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(126-person-giv:act-cf2-2-coref(10-person-giv:act-cf1-1-ana)
 16	player	player	NOUN	NN	Number=Sing	5	ccomp	5:ccomp	Entity=126)|MSeg=play-er
-17	as	as	ADV	RB	_	16	advmod	16:advmod	_
+17	as	as	ADV	RB	_	16	advmod	16:advmod	ExtPos=ADV
 18	well	well	ADV	RB	Degree=Pos	17	fixed	17:fixed	_
 19	near	near	ADP	IN	_	21	case	21:case	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(127-abstract-new-cf5-2-sgl
 21	top	top	NOUN	NN	Number=Sing	16	obl	16:obl:near	_
 22	of	of	ADP	IN	_	24	case	24:case	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(128-abstract-acc:com-cf4-2-sgl
-24	leaderboards	leaderboard	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	Entity=128)127)|SpaceAfter=No
+24	leaderboards	leaderboard	NOUN	NNS	Number=Plur	21	nmod	21:nmod:of	Entity=128)127)|MSeg=lead-er-board-s|SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_esports_fortnite-44
@@ -1218,7 +1218,7 @@
 1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	Discourse=evaluation-comment:115->55:3:_
 2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(126-person-giv:act-cf1*-1-ana)
-4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Wh
+4	do	do	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-WHInfo-Direct
 5	in	in	ADP	IN	_	8	case	8:case	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(4-event-giv:inact-cf2-3-coref
 7	last	last	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
@@ -1269,7 +1269,7 @@
 3	v.	versus	ADP	IN	_	4	case	4:case	_
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	2	nmod	2:nmod:versus	Entity=(132-person-new-cf5-1-coref)
 5	and	and	CCONJ	CC	_	6	cc	6:cc	Discourse=context-circumstance:120->119:0:_
-6	angled	angle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	1:appos|2:conj:and	_
+6	angled	angle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	1:appos|2:conj:and	MSeg=angl-ed
 7	down	down	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
 8	through	through	ADP	IN	_	10	case	10:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(133-abstract-new-cf4-2-sgl
@@ -1281,7 +1281,7 @@
 15	Megamall	Megamall	PROPN	NNP	Number=Sing	10	obl	10:obl:at	Entity=(134-place-giv:act-cf2-1-coref)
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	Discourse=same-unit_m:121->119:1:_
 17-18	gonna	_	_	_	_	_	_	_	_
-17	gon	go	VERB	VBG	VerbForm=Ger	0	root	0:root	XML=<w>
+17	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 18	na	to	PART	TO	_	19	mark	19:mark	XML=</w>
 19	push	push	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
 20	around	around	ADP	IN	_	22	case	22:case	MSeg=a-round
@@ -1347,14 +1347,14 @@
 8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	9:det	Entity=(4-event-giv:inact-cf3-2-coref
 9	game	game	NOUN	NN	Number=Sing	6	obl	6:obl:into	Entity=4)
 10	Pika	Pika	PROPN	NNP	Number=Sing	11	nsubj	11:nsubj|13:nsubj:xsubj	Discourse=same-unit_m:128->126:1:_|Entity=(20-person-giv:act-cf1*-1-coref)
-11	trying	try	VERB	VBG	VerbForm=Ger	0	root	0:root	MSeg=try-ing
+11	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=try-ing
 12	to	to	PART	TO	_	13	mark	13:mark	_
 13	find	find	VERB	VB	VerbForm=Inf	11	xcomp	11:xcomp	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(140-abstract-new-cf5-2-sgl
 15	way	way	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=140)
 16	inside	inside	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=in-side|SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
-18	pushing	push	VERB	VBG	VerbForm=Ger	11	parataxis	11:parataxis	Discourse=mode-means:129->126:2:_|MSeg=push-ing
+18	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part	11	parataxis	11:parataxis	Discourse=mode-means:129->126:2:_|MSeg=push-ing
 19	down	down	ADV	RB	Degree=Pos	18	advmod	18:advmod	_
 20	through	through	ADP	IN	_	22	case	22:case	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Bridge=134<141|Entity=(141-place-acc:inf-cf4-2-coref
@@ -1380,7 +1380,7 @@
 10	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(144-person-acc:com-cf2-1-sgl)
 11	kidding	kid	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	4:parataxis	MSeg=kidd-ing
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	11:obj	Entity=(57-person-giv:inact-cf1-1-ana)|SpaceAfter=No
-13	?	,	PUNCT	,	_	4	punct	4:punct	_
+13	?	?	PUNCT	.	_	4	punct	4:punct	_
 
 # sent_id = GENTLE_esports_fortnite-50
 # addressee = Aud,Jack
@@ -1391,7 +1391,7 @@
 # text = Used the shockwave to get down the wall.
 1	Used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=mode-manner:132->130:1:_|Entity=(145-event-new-cf3-1-disc|MSeg=Us-ed
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(146-object-new-cf2-2-sgl
-3	shockwave	shockwave	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=146)
+3	shockwave	shockwave	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=146)|MSeg=shock-wave
 4	to	to	PART	TO	_	5	mark	5:mark	Discourse=purpose-goal:133->132:0:_
 5	get	get	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:to	_
 6	down	down	ADP	IN	_	8	case	8:case	_
@@ -1570,9 +1570,9 @@
 8	box	box	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(156-object-new-cf6-1-sgl)
 9	fights	fight	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=155)
 10	by	by	SCONJ	IN	_	11	mark	11:mark	Discourse=mode-means:148->147:0:_
-11	using	use	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl:by	Entity=(157-event-new-cf5-1-disc|MSeg=us-ing
+11	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl:by	Entity=(157-event-new-cf5-1-disc|MSeg=us-ing
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(158-object-new-cf4-2-sgl
-13	shockwave	shockwave	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=158)
+13	shockwave	shockwave	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=158)|MSeg=shock-wave
 14	to	to	PART	TO	_	15	mark	15:mark	Discourse=purpose-goal:149->148:0:_
 15	try	try	VERB	VB	VerbForm=Inf	11	advcl	11:advcl:to	_
 16	to	to	PART	TO	_	17	mark	17:mark	_
@@ -1641,11 +1641,11 @@
 4	blame	blame	VERB	VB	VerbForm=Inf	0	root	0:root	_
 5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	Entity=(20-person-giv:inact-cf2-1-ana)
 6	for	for	SCONJ	IN	_	8	mark	8:mark	_
-7	being	be	AUX	VBG	VerbForm=Ger	8	cop	8:cop	MSeg=be-ing
+7	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	8	cop	8:cop	MSeg=be-ing
 8	aggressive	aggressive	ADJ	JJ	Degree=Pos	4	advcl	4:advcl:for	MSeg=aggress-ive
 9	here	here	ADV	RB	PronType=Dem	8	advmod	8:advmod	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
-11	knowing	know	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl	Discourse=attribution-positive:155->156:0:_|MSeg=know-ing
+11	knowing	know	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl	Discourse=attribution-positive:155->156:0:_|MSeg=know-ing
 12	that	that	SCONJ	IN	_	18	mark	18:mark	Discourse=explanation-justify:156->154:0:_
 13	players	player	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj	Entity=(163-person-new-cf3-1-sgl)|MSeg=play-er-s
 14	may	may	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
@@ -1676,7 +1676,7 @@
 7	on	on	ADP	IN	_	9	case	9:case	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(141-place-giv:inact-cf2-2-coref
 9	outside	outside	NOUN	NN	Number=Sing	5	obl	5:obl:on	Entity=141)|MSeg=out-side
-10	rotating	rotate	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	Discourse=mode-manner:158->157:0:_|MSeg=rotat-ing
+10	rotating	rotate	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl	Discourse=mode-manner:158->157:0:_|MSeg=rotat-ing
 11	around	around	ADP	IN	_	13	case	13:case	MSeg=a-round
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(166-place-new-cf5-2-sgl
 13	edge	edge	NOUN	NN	Number=Sing	10	obl	10:obl:around	_
@@ -1695,14 +1695,14 @@
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
 3	players	player	NOUN	NNS	Number=Plur	4	nsubj	4:nsubj|6:nsubj:xsubj	Entity=167)|MSeg=play-er-s
 4-5	gonna	_	_	_	_	_	_	_	_
-4	gon	go	VERB	VBG	VerbForm=Ger	0	root	0:root	XML=<w>
+4	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	0:root	XML=<w>
 5	na	to	PART	TO	_	6	mark	6:mark	XML=</w>
 6	end	end	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
 7	up	up	ADP	RP	_	6	compound:prt	6:compound:prt	_
 8	on	on	ADP	IN	_	9	case	9:case	_
 9	top	top	NOUN	NN	Number=Sing	6	obl	6:obl:on	_
 10	of	of	ADP	IN	_	11	case	11:case	_
-11	each	each	DET	DT	PronType=Rcp	9	nmod	9:nmod:of	Entity=(167-person-giv:act-cf1-1-ana
+11	each	each	DET	DT	PronType=Rcp	9	nmod	9:nmod:of	Entity=(167-person-giv:act-cf1-1-ana|ExtPos=PRON
 12	other	other	ADJ	JJ	Degree=Pos	11	fixed	11:fixed	Entity=167)
 13	before	before	SCONJ	IN	_	15	mark	15:mark	Discourse=context-circumstance:160->159:0:_
 14	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(10-person-giv:inact-cf2-1-ana)
@@ -1824,7 +1824,7 @@
 10	down	down	ADP	RP	_	9	compound:prt	9:compound:prt	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(175-person-new-cf1-2-sgl
 12	opponent	opponent	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=175)
-13	underneath	underneath	ADV	IN	_	12	advmod	12:advmod	_
+13	underneath	underneath	ADV	IN	_	12	advmod	12:advmod	MSeg=under-neath
 14	opts	opt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Discourse=joint-sequence_m:172->166:2:_
 15	to	to	PART	TO	_	16	mark	16:mark	_
 16	back	back	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
@@ -1855,7 +1855,7 @@
 8	Megamall	Megamall	PROPN	NNP	Number=Sing	6	nmod	6:nmod:inside	Entity=(134-place-giv:inact-cf2-1-coref)179)
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 10	insane	insane	ADJ	JJ	Degree=Pos	1	advcl	1:advcl:because	MSeg=in-sane
-11	knowing	know	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	Discourse=context-circumstance:175->173:1:_|MSeg=know-ing
+11	knowing	know	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	Discourse=context-circumstance:175->173:1:_|MSeg=know-ing
 12	exactly	exactly	ADV	RB	Degree=Pos	13	advmod	13:advmod	MSeg=exact-ly
 13	where	where	ADV	WRB	PronType=Rel	11	obj	11:obj	_
 14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(180-person-new-cf3-2-sgl(20-person-giv:inact-cf1-1-ana)

@@ -40,7 +40,7 @@
 40	Week 9 - Eventonica Project	0	_	_	pos1=NN|head_tok=week|head_pos=NN|head_id=294|parent_pos=_|sid=21|stype=frag|len=5|head_func=root|edu_tense=None|item=item	30	joint-list_m	_	_
 41	Week 10 - More PERN & Review	0	_	_	pos1=NN|head_tok=week|head_pos=NN|head_id=299|parent_pos=_|sid=22|stype=frag|len=7|head_func=root|edu_tense=None|item=item	30	joint-list_m	_	_
 42	Week 11 - Data Structures & Algorithms	0	_	_	pos1=NN|head_tok=week|head_pos=NN|head_id=306|parent_pos=_|sid=23|stype=frag|len=7|head_func=root|edu_tense=None|item=item	30	joint-list_m	_	_
-43	Data Structures	0	_	_	pos1=NN|head_tok=structure|head_pos=NNS|head_id=314|parent_pos=_|sid=24|stype=frag|len=2|head_func=root|edu_tense=None	42	elaboration-additional_r	_	_
+43	Data Structures	0	_	_	pos1=NNS|head_tok=structure|head_pos=NNS|head_id=314|parent_pos=_|sid=24|stype=frag|len=2|head_func=root|edu_tense=None	42	elaboration-additional_r	_	_
 44	Algorithms	0	_	_	pos1=NNS|head_tok=algorithm|head_pos=NNS|head_id=315|parent_pos=_|sid=25|stype=frag|len=1|head_func=root|edu_tense=None	43	joint-list_m	_	_
 45	Week 12 - Final Assessments	0	_	_	pos1=NN|head_tok=week|head_pos=NN|head_id=316|parent_pos=_|sid=26|stype=frag|len=5|head_func=root|edu_tense=None|item=item	30	joint-list_m	_	_
 46	Week 13 - Career Week !	0	_	_	pos1=NN|head_tok=week|head_pos=NN|head_id=321|parent_pos=_|sid=27|stype=frag|len=6|head_func=root|edu_tense=None|item=item	30	joint-list_m	_	_
@@ -165,7 +165,7 @@
 165	9. Data Modeling 1	0	_	_	pos1=LS|head_tok=modeling|head_pos=NN|head_id=840|parent_pos=_|sid=123|stype=frag|len=4|head_func=root|edu_tense=None	156	joint-list_m	_	_
 166	( Single tables )	0	_	_	pos1=(|head_tok=table|head_pos=NNS|head_id=844|parent_posNN|sid=123|stype=frag|len=4|head_func=appos|edu_tense=None|subord=LEFT	165	elaboration-additional_r	_	_
 167	10. SQL 1	0	_	_	pos1=LS|head_tok=SQL|head_pos=NP|head_id=847|parent_pos=_|sid=124|stype=frag|len=3|head_func=root|edu_tense=None	156	joint-list_m	_	_
-168	( Single tables )	0	_	_	pos1=(|head_tok=table|head_pos=NN|head_id=851|parent_posNP|sid=124|stype=frag|len=4|head_func=appos|edu_tense=None|subord=LEFT	167	elaboration-additional_r	_	_
+168	( Single tables )	0	_	_	pos1=(|head_tok=table|head_pos=NNS|head_id=851|parent_posNP|sid=124|stype=frag|len=4|head_func=appos|edu_tense=None|subord=LEFT	167	elaboration-additional_r	_	_
 169	11. Data Modeling 2	0	_	_	pos1=LS|head_tok=modeling|head_pos=NN|head_id=855|parent_pos=_|sid=125|stype=frag|len=4|head_func=root|edu_tense=None	156	joint-list_m	_	_
 170	( Multiple tables )	0	_	_	pos1=(|head_tok=table|head_pos=NNS|head_id=859|parent_posNN|sid=125|stype=frag|len=4|head_func=appos|edu_tense=None|subord=LEFT	169	elaboration-additional_r	_	_
 171	12. SQL 2	0	_	_	pos1=LS|head_tok=SQL|head_pos=NP|head_id=862|parent_pos=_|sid=126|stype=frag|len=3|head_func=root|edu_tense=None	156	joint-list_m	_	_
@@ -189,7 +189,7 @@
 189	2. Optimizing your React / NodeJS Project	0	_	_	pos1=LS|head_tok=optimize|head_pos=VVG|head_id=961|parent_pos=_|sid=143|stype=ger|len=7|head_func=root|edu_tense=None	188	joint-list_m	_	_
 190	3. Enzyme Testing	0	_	_	pos1=LS|head_tok=test|head_pos=VVG|head_id=969|parent_pos=_|sid=144|stype=frag|len=3|head_func=root|edu_tense=None	188	joint-list_m	_	_
 191	Week 11 - Data Structures & Algorithms	4	_	_	pos1=NN|head_tok=week|head_pos=NN|head_id=970|parent_pos=_|sid=145|stype=frag|len=7|head_func=root|edu_tense=None|heading=heading	51	joint-list_m	_	_
-192	Data Structures	1	_	_	pos1=NN|head_tok=structure|head_pos=NNS|head_id=978|parent_pos=_|sid=146|stype=frag|len=2|head_func=root|edu_tense=None|heading=heading	193	organization-heading_r	_	_
+192	Data Structures	1	_	_	pos1=NNS|head_tok=structure|head_pos=NNS|head_id=978|parent_pos=_|sid=146|stype=frag|len=2|head_func=root|edu_tense=None|heading=heading	193	organization-heading_r	_	_
 193	1. Intro to Data Structures	0	_	_	pos1=LS|head_tok=intro|head_pos=NN|head_id=980|parent_pos=_|sid=147|stype=frag|len=5|head_func=root|edu_tense=None	191	elaboration-additional_r	_	_
 194	2. Sprint Plan for Data Structures & Algorithms Week	0	_	_	pos1=LS|head_tok=plan|head_pos=NN|head_id=986|parent_pos=_|sid=148|stype=frag|len=9|head_func=root|edu_tense=None	193	joint-list_m	_	_
 195	3. Data Structures :	0	_	_	pos1=LS|head_tok=structure|head_pos=NNS|head_id=995|parent_pos=_|sid=149|stype=frag|len=4|head_func=root|edu_tense=None|subord=RIGHT	196	organization-preparation_r	_	_
@@ -223,7 +223,7 @@
 223	6. Career Week :	0	_	_	pos1=LS|head_tok=Week|head_pos=NP|head_id=1094|parent_pos=_|sid=168|stype=frag|len=4|head_func=root|edu_tense=None|subord=RIGHT	224	organization-preparation_r	_	_
 224	Entrepreneurship	0	_	_	pos1=NN|head_tok=entrepreneurship|head_pos=NN|head_id=1096|parent_posNP|sid=168|stype=frag|len=1|head_func=appos|edu_tense=None|subord=LEFT	216	joint-list_m	_	_
 225	7. Career Week :	0	_	_	pos1=LS|head_tok=Week|head_pos=NP|head_id=1099|parent_pos=_|sid=169|stype=frag|len=4|head_func=root|edu_tense=None|subord=RIGHT	226	organization-preparation_r	_	_
-226	Data Science	0	_	_	pos1=NP|head_tok=Science|head_pos=NP|head_id=1102|parent_posNP|sid=169|stype=frag|len=2|head_func=appos|edu_tense=None|subord=LEFT	216	joint-list_m	_	_
+226	Data Science	0	_	_	pos1=NPS|head_tok=Science|head_pos=NP|head_id=1102|parent_posNP|sid=169|stype=frag|len=2|head_func=appos|edu_tense=None|subord=LEFT	216	joint-list_m	_	_
 227	8. Career Week :	0	_	_	pos1=LS|head_tok=Week|head_pos=NP|head_id=1105|parent_pos=_|sid=170|stype=frag|len=4|head_func=root|edu_tense=None|subord=RIGHT	228	organization-preparation_r	_	_
 228	Security	0	_	_	pos1=NN|head_tok=security|head_pos=NN|head_id=1107|parent_posNP|sid=170|stype=frag|len=1|head_func=appos|edu_tense=None|subord=LEFT	216	joint-list_m	_	_
 229	9. Career Week :	0	_	_	pos1=LS|head_tok=Week|head_pos=NP|head_id=1110|parent_pos=_|sid=171|stype=frag|len=4|head_func=root|edu_tense=None|subord=RIGHT	230	organization-preparation_r	_	_

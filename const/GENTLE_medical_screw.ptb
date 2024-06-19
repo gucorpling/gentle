@@ -180,7 +180,7 @@
         (VP
           (VBN noticed)
           (NP
-            (NP (DT some) (VBG increasing) (NN paresthesias))
+            (NP (DT some) (VBG increasing) (NNS paresthesias))
             (PP (IN in) (NP (PRP$ his) (JJ bilateral) (NNS feet))))))
       (CC but)
       (VP
@@ -507,7 +507,7 @@
       (PP (IN with) (NP (DT the) (NN patient)))
       (NP
         (NP (PRP$ his) (VBG concerning) (NNS symptoms))
-        (PP (IN of) (NP (NN paresthesias)))))
+        (PP (IN of) (NP (NNS paresthesias)))))
     (. .)))
 
 (ROOT
@@ -556,7 +556,7 @@
               (NP
                 (DT some)
                 (ADJP (NN right) (HYPH -) (VBN sided))
-                (NN paresthesias))
+                (NNS paresthesias))
               (ADVP-TMP (RB now))
               (PP-TMP
                 (IN for)

@@ -18,7 +18,7 @@
         (NP
           (DT the)
           (NNP United)
-          (NNP States)
+          (NNPS States)
           (NNP District)
           (NNP Court))
         (PP-LOC
@@ -546,7 +546,7 @@
         (NP (NP (DT those)) (VP (VBN involved) (ADVP (RB here)))))
       (, ,)
       (SBAR
-        (IN that)
+        (NP-SBJ (WDT that))
         (S
           (PP (IN except) (PP (IN from) (NP (NN criminality))))
           (NP
@@ -755,7 +755,7 @@
               (S
                 (VP
                   (VBP are)
-                  (ADJP-PRD
+                  (ADJP
                     (RB reasonably)
                     (VBN related)
                     (PP (IN to) (NP (JJ maternal) (NN health)))))))))))
@@ -868,7 +868,7 @@
                       (NP-PRD (DT a) (NN physician))
                       (SBAR-ADV
                         (IN as)
-                        (S (VP (ADVP (RB so)) (JJ defined)))))))))))))
+                        (S (VP (ADVP (RB so)) (VBN defined)))))))))))))
     (. .)))
 
 (ROOT (NP (NN P.) (CD 165) (. .)))

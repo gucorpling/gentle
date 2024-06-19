@@ -31,7 +31,7 @@
 # s_type = frag
 # transition = null
 # text = Alternative forms
-1	Alternative	alternative	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:3->4:2:_|Entity=(3-abstract-new-cf1-2-sgl|XML=<hi rend:::"bold">
+1	Alternative	alternative	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:3->4:2:_|Entity=(3-abstract-new-cf1-2-sgl|MSeg=Alternat-ive|XML=<hi rend:::"bold">
 2	forms	form	NOUN	NNS	Number=Plur	0	root	0:root	Entity=3)|MSeg=form-s|XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-4
@@ -43,7 +43,7 @@
 # newpar_block = list type:::"unordered" (4 s) | item (1 s)
 1	neest	neest	X	FW	_	0	root	0:root	Discourse=ROOT:4:0|Entity=(4-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/w/index.php?title:::neest&amp;action:::edit&amp;redlink:::1"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:5->4:0:_|SpaceAfter=No
-3	dialectal	dialectal	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"italic"></hi>
+3	dialectal	dialectal	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=dialect-al|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_dictionary_next-5
@@ -79,7 +79,7 @@
 # newpar_block = item (1 s)
 1	nex'	nex'	X	FW	_	0	root	0:root	Discourse=joint-list_m:10->4:1:_|Entity=(8-abstract-new-cf1-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/nex%27#English"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:11->10:0:_|SpaceAfter=No
-3	dialectal	dialectal	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"italic"></hi>
+3	dialectal	dialectal	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=dialect-al|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_dictionary_next-8
@@ -87,7 +87,7 @@
 # s_type = frag
 # transition = null
 # text = Etymology
-1	Etymology	etymology	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:12->13:3:_|Entity=(9-abstract-new-cf1-1-sgl)|XML=<hi rend:::"bold"></hi>
+1	Etymology	etymology	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:12->13:3:_|Entity=(9-abstract-new-cf1-1-sgl)|MSeg=Etymo-logy|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-9
 # s_prominence = 1
@@ -95,7 +95,7 @@
 # transition = null
 # text = From Middle English nexte, nexste, nixte, from Old English nīehsta, nīehste, etc., inflected forms of nīehst (“nearest, next”), superlative form of nēah (“nigh, near”), corresponding to Proto-Germanic *nēhwist (“nearest, closest”); equivalent to nigh + -est.
 1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:13->4:3:_
-2	Middle	Middle	ADJ	NNP	Degree=Pos|Number=Sing	3	amod	3:amod	Entity=(10-abstract-new-cf2-1,2-sgl-Middle_English|XML=<ref target:::"https://en.wikipedia.org/wiki/Middle_English">
+2	Middle	Middle	ADJ	NNP	Degree=Pos	3	amod	3:amod	Entity=(10-abstract-new-cf2-1,2-sgl-Middle_English|XML=<ref target:::"https://en.wikipedia.org/wiki/Middle_English">
 3	English	English	PROPN	NNP	Number=Sing	4	nmod	4:nmod:from	Entity=10)|MSeg=Engl-ish|XML=</ref>
 4	nexte	nexte	X	FW	_	0	root	0:root	Entity=(11-abstract-new-cf6-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/nexte#Middle_English"></ref>
 5	,	,	PUNCT	,	_	6	punct	6:punct	_
@@ -103,16 +103,16 @@
 7	,	,	PUNCT	,	_	8	punct	8:punct	_
 8	nixte	nixte	X	FW	_	4	conj	4:conj	Entity=(13-abstract-new-cf8-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/w/index.php?title:::nixte&amp;action:::edit&amp;redlink:::1"></ref>
 9	,	,	PUNCT	,	_	13	punct	13:punct	_
-10	from	from	ADP	IN	_	12	case	12:case	_
-11	Old	Old	ADJ	NNP	Degree=Pos|Number=Sing	12	amod	12:amod	Entity=(14-abstract-new-cf1-1,3,5,7-coref(15-abstract-new-cf3-1,2-sgl-Old_English|XML=<ref target:::"https://en.wikipedia.org/wiki/Old_English">
-12	English	English	ADJ	NNP	Degree=Pos|Number=Sing	13	amod	13:amod	Entity=15)|MSeg=Engl-ish|XML=</ref>
-13	nīehsta	nīehsta	X	FW	_	4	nmod	4:nmod	Entity=(16-abstract-new-cf9-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/niehsta#Old_English"></ref>
+10	from	from	ADP	IN	_	13	case	13:case	_
+11	Old	Old	ADJ	NNP	Degree=Pos	12	amod	12:amod	Entity=(14-abstract-new-cf1-1,3,5,7-coref(15-abstract-new-cf3-1,2-sgl-Old_English|XML=<ref target:::"https://en.wikipedia.org/wiki/Old_English">
+12	English	English	ADJ	NNP	Degree=Pos	13	amod	13:amod	Entity=15)|MSeg=Engl-ish|XML=</ref>
+13	nīehsta	nīehsta	X	FW	_	4	nmod	4:nmod:from	Entity=(16-abstract-new-cf9-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/niehsta#Old_English"></ref>
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	nīehste	nīehste	X	FW	_	13	conj	4:nmod|13:conj	Entity=(17-abstract-new-cf10-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/w/index.php?title:::niehste&amp;action:::edit&amp;redlink:::1"></ref>
+15	nīehste	nīehste	X	FW	_	13	conj	4:nmod:from|13:conj	Entity=(17-abstract-new-cf10-1-sgl)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/w/index.php?title:::niehste&amp;action:::edit&amp;redlink:::1"></ref>
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	13	conj	4:nmod|13:conj	Entity=14)|SpaceAfter=No
+17	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	13	conj	4:nmod:from|13:conj	Entity=14)|SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	20:punct	_
-19	inflected	inflect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	20:amod	Entity=(14-abstract-giv:act-cf1-2-coref
+19	inflected	inflect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	20:amod	Entity=(14-abstract-giv:act-cf1-2-coref|MSeg=inflect-ed
 20	forms	form	NOUN	NNS	Number=Plur	4	appos	4:appos	MSeg=form-s
 21	of	of	ADP	IN	_	22	case	22:case	_
 22	nīehst	nīehst	X	FW	_	20	nmod	20:nmod:of	Entity=(18-abstract-new-cf11-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/niehst#Old_English"></ref>
@@ -138,7 +138,7 @@
 42	,	,	PUNCT	,	_	43	punct	43:punct	_
 43	corresponding	correspond	VERB	VBG	VerbForm=Ger	4	acl	4:acl	Discourse=joint-list_m:17->13:2:_|MSeg=correspond-ing
 44	to	to	ADP	IN	_	46	case	46:case	_
-45	Proto-Germanic	Proto-Germanic	ADJ	NNP	Degree=Pos|Number=Sing	46	amod	46:amod	Entity=(24-abstract-new-cf17-2-sgl(25-abstract-new-cf4-1-sgl-Proto%2DGermanic_language)|XML=<ref target:::"https://en.wikipedia.org/wiki/Proto-Germanic_language"></ref>
+45	Proto-Germanic	Proto-Germanic	ADJ	NNP	Degree=Pos	46	amod	46:amod	Entity=(24-abstract-new-cf17-2-sgl(25-abstract-new-cf4-1-sgl-Proto%2DGermanic_language)|XML=<ref target:::"https://en.wikipedia.org/wiki/Proto-Germanic_language"></ref>
 46	*nēhwist	*nēhwist	X	FW	_	43	obl	43:obl:to	Entity=(26-abstract-new-cf18-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/n%C4%93hwist"></ref>
 47	(	(	PUNCT	-LRB-	_	49	punct	49:punct	Discourse=elaboration-attribute:18->17:0:_|SpaceAfter=No
 48	“	''	PUNCT	``	_	49	punct	49:punct	SpaceAfter=No
@@ -148,7 +148,7 @@
 52	”	''	PUNCT	''	_	49	punct	49:punct	SpaceAfter=No
 53	)	)	PUNCT	-RRB-	_	49	punct	49:punct	Entity=24)21)|SpaceAfter=No
 54	;	;	PUNCT	,	_	55	punct	55:punct	_
-55	equivalent	equivalent	ADJ	JJ	Degree=Pos	4	parataxis	4:parataxis	Discourse=joint-list_m:19->13:2:_
+55	equivalent	equivalent	ADJ	JJ	Degree=Pos	4	parataxis	4:parataxis	Discourse=joint-list_m:19->13:2:_|MSeg=equi-val-ent
 56	to	to	ADP	IN	_	57	case	57:case	_
 57	nigh	nigh	ADJ	JJ	Degree=Pos	55	obl	55:obl:to	Entity=(29-abstract-new-cf21-1,3-sgl(30-abstract-new-cf22-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/nigh#English"></ref>
 58	+	+	CCONJ	CC	_	59	cc	59:cc	_
@@ -162,8 +162,8 @@
 # text = Cognate with Saterland Frisian naist (“next”), Dutch naast (“next”), German nächst (“next”), Danish næste (“next”), Swedish näst (“next”), Icelandic næst (“next”), Persian نزد (nazd, “near, with”).
 1	Cognate	cognate	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:20->13:2:_
 2	with	with	ADP	IN	_	5	case	5:case	_
-3	Saterland	Saterland	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(32-abstract-new-cf11-1,3-sgl(33-abstract-new-cf4-1,2-sgl-Saterland_Frisian_language|XML=<ref target:::"https://en.wikipedia.org/wiki/Saterland_Frisian_language">
-4	Frisian	Frisian	ADJ	NNP	Degree=Pos|Number=Sing	5	amod	5:amod	Entity=33)|XML=</ref>
+3	Saterland	Saterland	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(32-abstract-new-cf11-1,3-sgl(33-abstract-new-cf4-1,2-sgl-Saterland_Frisian_language|MSeg=Sater-land|XML=<ref target:::"https://en.wikipedia.org/wiki/Saterland_Frisian_language">
+4	Frisian	Frisian	ADJ	NNP	Degree=Pos	5	amod	5:amod	Entity=33)|XML=</ref>
 5	naist	naist	X	FW	_	1	nmod	1:nmod:with	Entity=(34-abstract-new-cf12-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/naist#Saterland_Frisian"></ref>
 6	(	(	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=elaboration-attribute:21->20:0:_|SpaceAfter=No
 7	“	''	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No
@@ -171,7 +171,7 @@
 9	”	''	PUNCT	''	_	8	punct	8:punct	SpaceAfter=No
 10	)	)	PUNCT	-RRB-	_	8	punct	8:punct	Entity=32)|SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	13:punct	_
-12	Dutch	Dutch	ADJ	NNP	Degree=Pos|Number=Sing	13	amod	13:amod	Discourse=same-unit_m:22->20:1:_|Entity=(35-abstract-new-cf13-2-sgl(36-abstract-new-cf5-1-sgl-Dutch_language)|XML=<ref target:::"https://en.wikipedia.org/wiki/Dutch_language"></ref>
+12	Dutch	Dutch	ADJ	NNP	Degree=Pos	13	amod	13:amod	Discourse=same-unit_m:22->20:1:_|Entity=(35-abstract-new-cf13-2-sgl(36-abstract-new-cf5-1-sgl-Dutch_language)|XML=<ref target:::"https://en.wikipedia.org/wiki/Dutch_language"></ref>
 13	naast	naast	X	FW	_	5	conj	1:nmod:with|5:conj	Entity=(37-abstract-new-cf14-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/naast#Dutch"></ref>
 14	(	(	PUNCT	-LRB-	_	16	punct	16:punct	Discourse=elaboration-additional:23->22:0:_|SpaceAfter=No
 15	“	''	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No
@@ -179,7 +179,7 @@
 17	”	''	PUNCT	''	_	16	punct	16:punct	SpaceAfter=No
 18	)	)	PUNCT	-RRB-	_	16	punct	16:punct	Entity=35)|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	21:punct	_
-20	German	German	ADJ	NNP	Degree=Pos|Number=Sing	21	amod	21:amod	Discourse=same-unit_m:24->20:1:_|Entity=(38-abstract-new-cf15-2-sgl(39-abstract-new-cf6-1-sgl)|XML=<ref target:::"https://en.wikipedia.org/wiki/German_language"></ref>
+20	German	German	ADJ	NNP	Degree=Pos	21	amod	21:amod	Discourse=same-unit_m:24->20:1:_|Entity=(38-abstract-new-cf15-2-sgl(39-abstract-new-cf6-1-sgl)|XML=<ref target:::"https://en.wikipedia.org/wiki/German_language"></ref>
 21	nächst	nächst	X	FW	_	5	conj	1:nmod:with|5:conj	Entity=(40-abstract-new-cf16-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/n%C3%A4chst#German"></ref>
 22	(	(	PUNCT	-LRB-	_	24	punct	24:punct	Discourse=elaboration-additional:25->24:0:_|SpaceAfter=No
 23	“	''	PUNCT	``	_	24	punct	24:punct	SpaceAfter=No
@@ -187,7 +187,7 @@
 25	”	''	PUNCT	''	_	24	punct	24:punct	SpaceAfter=No
 26	)	)	PUNCT	-RRB-	_	24	punct	24:punct	Entity=38)|SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	29:punct	_
-28	Danish	Danish	ADJ	NNP	Degree=Pos|Number=Sing	29	amod	29:amod	Discourse=same-unit_m:26->20:1:_|Entity=(41-abstract-new-cf17-2-sgl(42-abstract-new-cf7-1-sgl)|MSeg=Dan-ish|XML=<ref target:::"https://en.wikipedia.org/wiki/Danish_language"></ref>
+28	Danish	Danish	ADJ	NNP	Degree=Pos	29	amod	29:amod	Discourse=same-unit_m:26->20:1:_|Entity=(41-abstract-new-cf17-2-sgl(42-abstract-new-cf7-1-sgl)|MSeg=Dan-ish|XML=<ref target:::"https://en.wikipedia.org/wiki/Danish_language"></ref>
 29	næste	næste	X	FW	_	5	conj	1:nmod:with|5:conj	Entity=(43-abstract-new-cf18-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/n%C3%A6ste#Danish"></ref>
 30	(	(	PUNCT	-LRB-	_	32	punct	32:punct	Discourse=elaboration-additional:27->26:0:_|SpaceAfter=No
 31	“	''	PUNCT	``	_	32	punct	32:punct	SpaceAfter=No
@@ -195,7 +195,7 @@
 33	”	''	PUNCT	''	_	32	punct	32:punct	SpaceAfter=No
 34	)	)	PUNCT	-RRB-	_	32	punct	32:punct	Entity=41)|SpaceAfter=No
 35	,	,	PUNCT	,	_	37	punct	37:punct	_
-36	Swedish	Swedish	ADJ	NNP	Degree=Pos|Number=Sing	37	amod	37:amod	Discourse=same-unit_m:28->20:1:_|Entity=(44-abstract-new-cf19-7-sgl(45-abstract-new-cf8-1-sgl)|XML=<ref target:::"https://en.wikipedia.org/wiki/Swedish_language"></ref>
+36	Swedish	Swedish	ADJ	NNP	Degree=Pos	37	amod	37:amod	Discourse=same-unit_m:28->20:1:_|Entity=(44-abstract-new-cf19-7-sgl(45-abstract-new-cf8-1-sgl)|XML=<ref target:::"https://en.wikipedia.org/wiki/Swedish_language"></ref>
 37	näst	näst	X	FW	_	5	conj	1:nmod:with|5:conj	Entity=(46-abstract-new-cf20-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/n%C3%A4st#Swedish"></ref>
 38	(	(	PUNCT	-LRB-	_	40	punct	40:punct	Discourse=elaboration-additional:29->28:0:_|SpaceAfter=No
 39	“	''	PUNCT	``	_	40	punct	40:punct	SpaceAfter=No
@@ -203,7 +203,7 @@
 41	”	''	PUNCT	''	_	40	punct	40:punct	SpaceAfter=No
 42	)	)	PUNCT	-RRB-	_	40	punct	40:punct	Entity=44)|SpaceAfter=No
 43	,	,	PUNCT	,	_	45	punct	45:punct	_
-44	Icelandic	Icelandic	ADJ	NNP	Degree=Pos|Number=Sing	45	amod	45:amod	Discourse=same-unit_m:30->20:1:_|Entity=(47-abstract-new-cf21-2-sgl(48-abstract-new-cf9-1-sgl)|MSeg=Iceland-ic|XML=<ref target:::"https://en.wikipedia.org/wiki/Icelandic_language"></ref>
+44	Icelandic	Icelandic	ADJ	NNP	Degree=Pos	45	amod	45:amod	Discourse=same-unit_m:30->20:1:_|Entity=(47-abstract-new-cf21-2-sgl(48-abstract-new-cf9-1-sgl)|MSeg=Iceland-ic|XML=<ref target:::"https://en.wikipedia.org/wiki/Icelandic_language"></ref>
 45	næst	næst	X	FW	_	5	conj	1:nmod:with|5:conj	Entity=(49-abstract-new-cf22-1-sgl)|XML=<ref target:::"https://en.wiktionary.org/wiki/n%C3%A6st#Icelandic"></ref>
 46	(	(	PUNCT	-LRB-	_	48	punct	48:punct	Discourse=elaboration-additional:31->30:0:_|SpaceAfter=No
 47	“	''	PUNCT	``	_	48	punct	48:punct	SpaceAfter=No
@@ -211,7 +211,7 @@
 49	”	''	PUNCT	''	_	48	punct	48:punct	SpaceAfter=No
 50	)	)	PUNCT	-RRB-	_	48	punct	48:punct	Entity=47)|SpaceAfter=No
 51	,	,	PUNCT	,	_	53	punct	53:punct	_
-52	Persian	Persian	ADJ	NNP	Degree=Pos|Number=Sing	53	amod	53:amod	Discourse=same-unit_m:32->20:1:_|Entity=(50-abstract-new-cf23-2-sgl(51-abstract-new-cf10-1-sgl-Persian_language)|MSeg=Persi-an|XML=<ref target:::"https://en.wikipedia.org/wiki/Persian_language"></ref>
+52	Persian	Persian	ADJ	NNP	Degree=Pos	53	amod	53:amod	Discourse=same-unit_m:32->20:1:_|Entity=(50-abstract-new-cf23-2-sgl(51-abstract-new-cf10-1-sgl-Persian_language)|MSeg=Persi-an|XML=<ref target:::"https://en.wikipedia.org/wiki/Persian_language"></ref>
 53	نزد	نزد	X	FW	_	5	conj	1:nmod:with|5:conj	Entity=(52-abstract-new-cf2-1-coref)|XML=<ref target:::"https://en.wiktionary.org/wiki/%D9%86%D8%B2%D8%AF#Persian"></ref>
 54	(	(	PUNCT	-LRB-	_	55	punct	55:punct	Discourse=elaboration-additional:33->32:0:_|SpaceAfter=No
 55	nazd	nazd	X	FW	_	53	appos	53:appos	Entity=(52-abstract-giv:act-cf2-1-appos)|SpaceAfter=No
@@ -306,12 +306,12 @@
 4	or	or	CCONJ	CC	_	5	cc	5:cc	_
 5	position	position	NOUN	NN	Number=Sing	3	conj	1:obl:in|3:conj:or	Entity=(66-place-new-cf3-1-sgl)|SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	7:punct	_
-7	having	have	VERB	VBG	VerbForm=Ger	1	parataxis	1:parataxis	Discourse=restatement-repetition_m:47->46:0:_|MSeg=hav-ing
+7	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	Discourse=restatement-repetition_m:47->46:0:_|MSeg=hav-ing
 8	nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	7	obj	7:obj|10:nsubj:xsubj	Entity=(67-object-new-cf1-1-sgl
 9	similar	similar	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=67)
-10	intervening	intervene	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	Discourse=elaboration-attribute:48->47:0:_|SpaceAfter=No
+10	intervening	intervene	VERB	VBG	VerbForm=Ger	7	xcomp	7:xcomp	Discourse=elaboration-attribute:48->47:0:_|MSeg=interven-ing|SpaceAfter=No
 11	;	;	PUNCT	:	_	12	punct	12:punct	_
-12	adjoining	adjoin	VERB	VBG	VerbForm=Ger	7	parataxis	7:parataxis	Discourse=restatement-repetition_m:49->46:0:_|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/adjoining#English"></ref>
+12	adjoining	adjoin	VERB	VBG	Tense=Pres|VerbForm=Part	7	parataxis	7:parataxis	Discourse=restatement-repetition_m:49->46:0:_|MSeg=adjoin-ing|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/adjoining#English"></ref>
 13	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_dictionary_next-18
@@ -332,7 +332,7 @@
 11	night	night	NOUN	NN	Number=Sing	7	obl:tmod	7:obl:tmod	Entity=71)
 12	with	with	ADP	IN	_	14	case	14:case	_
 13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(72-event-new-cf5-2-sgl(68-person-giv:act-cf1-1-ana)
-14	snoring	snoring	NOUN	NN	Number=Sing	7	obl	7:obl:with	Entity=72)|SpaceAfter=No
+14	snoring	snoring	NOUN	NN	Number=Sing	7	obl	7:obl:with	Entity=72)|MSeg=snor-ing|SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	7:punct	XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-19
@@ -382,7 +382,7 @@
 # text = Nearest in order, succession, or rank; immediately following (or sometimes preceding) in order.
 # newpar
 # newpar_block = item (5 s)
-1	Nearest	near	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=joint-disjunction_m:54->46:3:_
+1	Nearest	near	ADJ	JJS	Degree=Sup	0	root	0:root	Discourse=joint-disjunction_m:54->46:3:_
 2	in	in	ADP	IN	_	3	case	3:case	_
 3	order	order	NOUN	NN	Number=Sing	1	obl	1:obl:in	Entity=(79-abstract-new-cf1-1-coref)|SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
@@ -392,11 +392,11 @@
 8	rank	rank	NOUN	NN	Number=Sing	3	conj	1:obl:in|3:conj:or	Entity=(81-abstract-new-cf3-1-sgl)|SpaceAfter=No
 9	;	;	PUNCT	:	_	11	punct	11:punct	_
 10	immediately	immediately	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=restatement-repetition_m:55->54:0:_|MSeg=im-mediate-ly
-11	following	follow	VERB	VBG	VerbForm=Ger	1	parataxis	1:parataxis	MSeg=follow-ing|XML=<ref target:::"https://en.wiktionary.org/wiki/following#English"></ref>
+11	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	MSeg=follow-ing|XML=<ref target:::"https://en.wiktionary.org/wiki/following#English"></ref>
 12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=adversative-concession:56->55:0:_|SpaceAfter=No
 13	or	or	CCONJ	CC	_	15	cc	15:cc	_
 14	sometimes	sometimes	ADV	RB	_	15	advmod	15:advmod	MSeg=sometime-s
-15	preceding	precede	VERB	VBG	VerbForm=Ger	11	conj	11:conj:or	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/preceding#English"></ref>
+15	preceding	precede	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	11:conj:or	MSeg=preced-ing|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/preceding#English"></ref>
 16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
 17	in	in	ADP	IN	_	18	case	18:case	Discourse=same-unit_m:57->55:1:_
 18	order	order	NOUN	NN	Number=Sing	11	obl	11:obl:in	Entity=(79-abstract-giv:act-cf1-1-coref)|SpaceAfter=No
@@ -421,7 +421,7 @@
 # transition = null
 # text = On Wednesday next, I'm going to Spain.
 1	On	on	ADP	IN	_	2	case	2:case	Discourse=joint-list_m:59->58:0:_|XML=<hi rend:::"italic">
-2	Wednesday	Wednesday	PROPN	NNP	Number=Sing	7	obl	7:obl:on	Entity=(83-time-acc:com-cf2-1-sgl
+2	Wednesday	Wednesday	PROPN	NNP	Number=Sing	7	obl	7:obl:on	Entity=(83-time-acc:com-cf2-1-sgl|MSeg=Wednes-day
 3	next	next	ADJ	JJ	Degree=Pos	2	amod	2:amod	Entity=83)|SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
 5-6	I'm	_	_	_	_	_	_	_	_
@@ -473,7 +473,7 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(94-person-new-cf2-3,4-sgl
 16	next	next	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
 17	Bill	Bill	PROPN	NNP	Number=Sing	14	xcomp	14:xcomp	Entity=(95-person-new-cf3-1,2-sgl-Bill_Gates
-18	Gates	Gate	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=95)94)93)|SpaceAfter=No
+18	Gates	Gates	PROPN	NNP	Number=Sing	17	flat	17:flat	Entity=95)94)93)|SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	4:punct	XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-26
@@ -570,7 +570,7 @@
 # s_type = frag
 # transition = zero
 # text = Synonyms
-1	Synonyms	synonym	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:71->73:1:_|Entity=(105-abstract-new-cf1-1-sgl)|XML=<hi rend:::"bold"></hi>
+1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:71->73:1:_|Entity=(105-abstract-new-cf1-1-sgl)|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-33
 # s_prominence = 2
@@ -616,7 +616,7 @@
 # s_type = frag
 # transition = zero
 # text = Derived terms
-1	Derived	derive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	amod	2:amod	Discourse=organization-heading:76->77:0:_|Entity=(110-abstract-new-cf1-2-coref|XML=<hi rend:::"bold">
+1	Derived	derive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	amod	2:amod	Discourse=organization-heading:76->77:0:_|Entity=(110-abstract-new-cf1-2-coref|MSeg=Deriv-ed|XML=<hi rend:::"bold">
 2	terms	term	NOUN	NNS	Number=Plur	0	root	0:root	Entity=110)|MSeg=term-s|XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-37
@@ -635,7 +635,7 @@
 # s_type = frag
 # transition = zero
 # text = Determiner
-1	Determiner	determiner	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:78->80:5:_|Entity=(111-abstract-new-cf1-1-coref-Determiner)|XML=<hi rend:::"bold"></hi>
+1	Determiner	determiner	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:78->80:5:_|Entity=(111-abstract-new-cf1-1-coref-Determiner)|MSeg=Determin-er|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-39
 # s_prominence = 2
@@ -719,7 +719,7 @@
 16	future	future	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=121)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/future"></ref>
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	or	or	CCONJ	CC	_	19	cc	19:cc	_
-19	closest	close	ADJ	JJS	Degree=Sup	13	conj	13:conj:or	MSeg=clos-est
+19	closest	close	ADJ	JJS	Degree=Sup	13	conj	13:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=clos-est
 20	but	but	ADP	IN	_	21	case	21:case	_
 21	one	one	NUM	CD	NumForm=Word|NumType=Card	19	obl	19:obl:but	Entity=(122-abstract-new-cf11-1-sgl)
 22	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=contingency-condition:87->86:0:_
@@ -727,7 +727,7 @@
 24	closest	close	ADJ	JJS	Degree=Sup	27	nsubj	27:nsubj	Entity=123)|MSeg=clos-est
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 26	very	very	ADV	RB	_	27	advmod	27:advmod	_
-27	soon	soon	ADV	RB	Degree=Pos	19	advcl	19:advcl:if	Cxn=Condition-Realistic|SpaceAfter=No
+27	soon	soon	ADV	RB	Degree=Pos	19	advcl	19:advcl:if	SpaceAfter=No
 28	;	;	PUNCT	:	_	30	punct	30:punct	_
 29	of	of	ADP	IN	_	30	case	30:case	Discourse=joint-disjunction_m:88->86:2:_
 30	days	day	NOUN	NNS	Number=Plur	33	obl	33:obl:of	Entity=(124-time-new-cf10-1-sgl)|MSeg=day-s|SpaceAfter=No
@@ -764,7 +764,7 @@
 4	next	next	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(129-time-acc:com-cf1-2-sgl
 5	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	Entity=129)|SpaceAfter=No
 6	;	;	PUNCT	:	_	7	punct	7:punct	_
-7	that	that	PRON	DT	Number=Sing|PronType=Dem	11	advmod	11:advmod	Discourse=explanation-justify:92->91:0:_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	11	advmod	11:advmod	Discourse=explanation-justify:92->91:0:_|ExtPos=ADV
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	7:fixed	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	7:punct	_
 10	not	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	Discourse=adversative-antithesis:93->94:0:_
@@ -790,7 +790,7 @@
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
 7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	Discourse=joint-list_m:96->91:1:_
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(133-person-giv:act-cf1-1-ana)
-9	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar
+9	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct
 10	Thursday	Thursday	PROPN	NNP	Number=Sing	9	obj	9:obj	Entity=(135-time-new-cf5-1-sgl
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(136-time-acc:com-cf3-2-coref
 12	week	week	NOUN	NN	Number=Sing	10	nmod:tmod	10:nmod:tmod	Entity=136)135)
@@ -834,7 +834,7 @@
 # newpar
 # newpar_block = item (1 s)
 1	this	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=joint-list_m:100->98:0:_|Entity=(141-time-new-cf1-2-sgl|XML=<ref target:::"https://en.wiktionary.org/wiki/this_coming">
-2	coming	come	VERB	VBG	VerbForm=Ger	0	root	0:root	Entity=141)|MSeg=com-ing|XML=</ref>
+2	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Entity=141)|MSeg=com-ing|XML=</ref>
 
 # sent_id = GENTLE_dictionary_next-50
 # s_prominence = 2
@@ -886,7 +886,7 @@
 9	sequence	sequence	NOUN	NN	Number=Sing	3	conj	3:conj:or|10:obl:in	Entity=(150-abstract-new-cf4-1-coref)
 10	closest	close	ADJ	JJS	Degree=Sup	0	root	0:root	MSeg=clos-est
 11	or	or	CCONJ	CC	_	12	cc	12:cc	_
-12	following	follow	VERB	VBG	VerbForm=Ger	10	conj	10:conj:or	MSeg=follow-ing|SpaceAfter=No
+12	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	10	conj	10:conj:or	MSeg=follow-ing|SpaceAfter=No
 13	.	.	PUNCT	.	_	10	punct	10:punct	_
 
 # sent_id = GENTLE_dictionary_next-54
@@ -926,7 +926,7 @@
 # transition = null
 # text = (conjunctive) So as to follow in time or sequence something previously mentioned.
 1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=context-circumstance:109->110:1:_|SpaceAfter=No
-2	conjunctive	conjunctive	ADJ	JJ	Degree=Pos	7	parataxis	7:parataxis	Entity=(154-abstract-new-cf4-1-sgl)|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
+2	conjunctive	conjunctive	ADJ	JJ	Degree=Pos	7	parataxis	7:parataxis	Entity=(154-abstract-new-cf4-1-sgl)|MSeg=conjunct-ive|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
 4	So	so	SCONJ	IN	_	7	mark	7:mark	Discourse=elaboration-additional:110->106:1:_
 5	as	as	ADP	IN	_	4	fixed	4:fixed	_
@@ -956,7 +956,7 @@
 8	next	next	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=joint-list_m:113->112:0:_|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(156-person-giv:act-cf1-1-ana)
-11	stripped	strip	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	_
+11	stripped	strip	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	MSeg=stripp-ed
 12	off	off	ADP	RP	_	11	compound:prt	11:compound:prt	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(158-substance-acc:com-cf3-3-sgl
 14	old	old	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
@@ -984,7 +984,7 @@
 # text = Financial panic, earthquakes, oil spills, riots.
 # newpar
 # newpar_block = hi rend:::"italic" (2 s)
-1	Financial	Financial	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=context-background:115->116:0:_|Entity=(160-event-new-cf1-2-sgl
+1	Financial	Financial	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=context-background:115->116:0:_|Entity=(160-event-new-cf1-2-sgl|MSeg=Financ-ial
 2	panic	panic	NOUN	NN	Number=Sing	0	root	0:root	Entity=160)|SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	4:punct	_
 4	earthquakes	earthquake	NOUN	NNS	Number=Plur	2	conj	2:conj	Entity=(161-event-new-cf2-1-sgl)|MSeg=earthquake-s|SpaceAfter=No
@@ -1043,7 +1043,7 @@
 # s_type = frag
 # transition = zero
 # text = Preposition
-1	Preposition	preposition	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:121->124:2:_|Entity=(168-abstract-new-cf1-1-sgl)|XML=<hi rend:::"bold"></hi>
+1	Preposition	preposition	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:121->124:2:_|Entity=(168-abstract-new-cf1-1-sgl)|MSeg=Pre-pos-it-ion|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-65
 # s_prominence = 2
@@ -1092,7 +1092,7 @@
 # text = next (uncountable)
 1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:126->128:2:_|Entity=(172-abstract-new-cf1-1-sgl)|XML=<hi rend:::"bold"></hi>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:127->126:0:_|SpaceAfter=No
-3	uncountable	uncountable	ADJ	JJ	Degree=Pos|Polarity=Neg	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"bold"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable"></ref></hi>
+3	uncountable	uncountable	ADJ	JJ	Degree=Pos|Polarity=Neg	1	parataxis	1:parataxis	MSeg=un-count-able|SpaceAfter=No|XML=<hi rend:::"bold"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable"></ref></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_dictionary_next-69
@@ -1118,8 +1118,8 @@
 # text = Next, please, don't hold up the queue!
 1	Next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=explanation-evidence:130->128:1:_|SpaceAfter=No|XML=<hi rend:::"italic">
 2	,	,	PUNCT	,	_	3	punct	3:punct	_
-3	please	please	INTJ	UH	_	7	discourse	7:discourse	SpaceAfter=No
-4	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	please	please	INTJ	UH	_	1	discourse	1:discourse	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
 5-6	don't	_	_	_	_	_	_	_	_
 5	do	do	AUX	VB	VerbForm=Inf	7	aux	7:aux	Discourse=joint-list_m:131->130:0:_
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_

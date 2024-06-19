@@ -34,7 +34,7 @@
 6	,	,	PUNCT	,	_	9	punct	9:punct	_
 7	while	while	SCONJ	IN	_	9	mark	9:mark	Discourse=context-circumstance:3->6:1:_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(2)
-9	pondered	ponder	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	advcl	4:advcl:while	SpaceAfter=No
+9	pondered	ponder	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	advcl	4:advcl:while	MSeg=ponder-ed|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	weak	weak	ADJ	JJ	Degree=Pos	9	advmod	9:advmod	_
 12	and	and	CCONJ	CC	_	13	cc	13:cc	_
@@ -62,7 +62,7 @@
 3	nodded	nod	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	advcl	10:advcl:while	MSeg=nodd-ed|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	nearly	nearly	ADV	RB	Degree=Pos	6	advmod	6:advmod	Discourse=mode-manner:5->4:0:_|MSeg=near-ly
-6	napping	nap	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl	SpaceAfter=No
+6	napping	nap	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	3:advcl	MSeg=napp-ing|SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	3:punct	_
 8	suddenly	suddenly	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=same-unit_m:6->2:0:_|MSeg=sudden-ly
 9	there	there	PRON	EX	PronType=Dem	10	expl	10:expl	_
@@ -75,9 +75,9 @@
 16	some	some	DET	DT	PronType=Ind	17	det	17:det	_
 17	one	one	NOUN	NN	Number=Sing	19	nsubj	19:nsubj|21:nsubj	_
 18	gently	gently	ADV	RB	Degree=Pos	19	advmod	19:advmod	MSeg=gent-ly
-19	rapping	rap	VERB	VBG	VerbForm=Ger	12	acl	12:acl	SpaceAfter=No
+19	rapping	rap	VERB	VBG	VerbForm=Ger	12	acl	12:acl	MSeg=rapp-ing|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	21:punct	_
-21	rapping	rap	VERB	VBG	VerbForm=Ger	19	conj	12:acl|19:conj	Discourse=elaboration-additional:8->7:0:_
+21	rapping	rap	VERB	VBG	VerbForm=Ger	19	conj	12:acl|19:conj	Discourse=elaboration-additional:8->7:0:_|MSeg=rapp-ing
 22	at	at	ADP	IN	_	25	case	25:case	_
 23	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	Entity=(4(2)
 24	chamber	chamber	NOUN	NN	Number=Sing	25	compound	25:compound	_
@@ -91,14 +91,14 @@
 # text = "'Tis some visiter," I muttered, "tapping at my chamber door —
 1	"	''	PUNCT	``	_	5	punct	5:punct	Discourse=evaluation-comment:9->2:1:_|SpaceAfter=No
 2-3	'Tis	_	_	_	_	_	_	_	_
-2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	XML=<w>
+2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs|Style=Arch	5	nsubj	5:nsubj	XML=<w>
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	XML=</w>
 4	some	some	DET	DT	PronType=Ind	5	det	5:det	_
 5	visiter	visiter	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	SpaceAfter=No
 7	"	''	PUNCT	''	_	5	punct	5:punct	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Discourse=attribution-positive:10->9:0:_|Entity=(2)
-9	muttered	mutter	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	SpaceAfter=No
+9	muttered	mutter	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	MSeg=mutter-ed|SpaceAfter=No
 10	,	,	PUNCT	,	_	5	punct	5:punct	_
 11	"	''	PUNCT	``	_	12	punct	12:punct	Discourse=elaboration-attribute:11->9:1:_|SpaceAfter=No
 12	tapping	tap	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Entity=(5)|MSeg=tapp-ing
@@ -130,7 +130,7 @@
 # newpar_block = p (2 s)
 1	Ah	ah	INTJ	UH	_	5	discourse	5:discourse	Discourse=attribution-positive:13->15:1:_|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	1:punct	_
-3	distinctly	distinctly	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+3	distinctly	distinctly	ADV	RB	Degree=Pos	5	advmod	5:advmod	MSeg=distinct-ly
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(2)
 5	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=context-circumstance:14->15:0:_
@@ -219,13 +219,13 @@
 8	each	each	DET	DT	PronType=Ind	10	det	10:det	_
 9	purple	purple	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
 10	curtain	curtain	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	_
-11	Thrilled	thrill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+11	Thrilled	thrill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=Thrill-ed
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	11:obj	Entity=(2)
 13	—	—	PUNCT	:	_	14	punct	14:punct	_
 14	filled	fill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	11:parataxis	Discourse=joint-list_m:20->19:0:_|MSeg=fill-ed
 15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	14:obj	Entity=(2)
 16	with	with	ADP	IN	_	18	case	18:case	_
-17	fantastic	fantastic	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
+17	fantastic	fantastic	ADJ	JJ	Degree=Pos	18	amod	18:amod	MSeg=fantas-tic
 18	terrors	terror	NOUN	NNS	Number=Plur	14	obl	14:obl:with	MSeg=terror-s
 19	never	never	ADV	RB	Polarity=Neg	20	advmod	20:advmod	Discourse=elaboration-attribute:21->20:0:_
 20	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl	18:acl	MSeg=fel-t
@@ -244,7 +244,7 @@
 5	to	to	PART	TO	_	6	mark	6:mark	Discourse=purpose-goal:23->24:0:_
 6	still	still	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:to	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	_
-8	beating	beating	NOUN	NN	Number=Sing	6	obj	6:obj	_
+8	beating	beating	NOUN	NN	Number=Sing	6	obj	6:obj	MSeg=beat-ing
 9	of	of	ADP	IN	_	11	case	11:case	_
 10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(12(2)
 11	heart	heart	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=12)|SpaceAfter=No
@@ -260,11 +260,11 @@
 # text = "'Tis some visiter entreating entrance at my chamber door —
 1	"	''	PUNCT	``	_	5	punct	5:punct	Discourse=joint-sequence_m:25->2:3:_|SpaceAfter=No
 2-3	'Tis	_	_	_	_	_	_	_	_
-2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	XML=<w>
+2	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs|Style=Arch	5	nsubj	5:nsubj	XML=<w>
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	XML=</w>
 4	some	some	DET	DT	PronType=Ind	5	det	5:det	_
 5	visiter	visiter	NOUN	NN	Number=Sing	0	root	0:root	_
-6	entreating	entreat	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Discourse=elaboration-attribute:26->25:0:_
+6	entreating	entreat	VERB	VBG	VerbForm=Ger	5	acl	5:acl	Discourse=elaboration-attribute:26->25:0:_|MSeg=en-treat-ing
 7	entrance	entrance	NOUN	NN	Number=Sing	6	obj	6:obj	MSeg=en-trance
 8	at	at	ADP	IN	_	11	case	11:case	_
 9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(4(2)
@@ -280,7 +280,7 @@
 1	Some	some	DET	DT	PronType=Ind	3	det	3:det	Discourse=restatement-repetition_m:27->25:1:_|Entity=(13(14
 2	late	late	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
 3	visiter	visiter	NOUN	NN	Number=Sing	0	root	0:root	_
-4	entreating	entreat	VERB	VBG	VerbForm=Ger	3	acl	3:acl	Discourse=elaboration-attribute:28->27:0:_
+4	entreating	entreat	VERB	VBG	VerbForm=Ger	3	acl	3:acl	Discourse=elaboration-attribute:28->27:0:_|MSeg=en-treat-ing
 5	entrance	entrance	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=en-trance
 6	at	at	ADP	IN	_	9	case	9:case	_
 7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(4(2)
@@ -309,7 +309,7 @@
 # text = Presently my soul grew stronger;
 # newpar
 # newpar_block = p (5 s)
-1	Presently	presently	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=causal-cause:30->31:0:_
+1	Presently	presently	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=causal-cause:30->31:0:_|MSeg=Present-ly
 2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(2)
 3	soul	soul	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|5:nsubj:xsubj	_
 4	grew	grow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -321,7 +321,7 @@
 # s_type = decl
 # transition = establishment
 # text = hesitating then no longer, "Sir," said I, "or Madam, truly your forgiveness I implore;
-1	hesitating	hesitate	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	Discourse=mode-manner:31->36:4:_
+1	hesitating	hesitate	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	Discourse=mode-manner:31->36:4:_|MSeg=hesitat-ing
 2	then	then	ADV	RB	PronType=Dem	1	advmod	1:advmod	_
 3	no	no	ADV	RB	Degree=Pos|Polarity=Neg	4	advmod	4:advmod	_
 4	longer	long	ADV	RBR	Degree=Cmp	1	advmod	1:advmod	MSeg=long-er|SpaceAfter=No
@@ -339,7 +339,7 @@
 16	,	,	PUNCT	,	_	15	punct	15:punct	_
 17	truly	truly	ADV	RB	Degree=Pos	21	advmod	21:advmod	MSeg=tru-ly
 18	your	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(14)
-19	forgiveness	forgiveness	NOUN	NN	Number=Sing	21	obj	21:obj	_
+19	forgiveness	forgiveness	NOUN	NN	Number=Sing	21	obj	21:obj	MSeg=for-give-ness
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	Entity=(2)
 21	implore	implore	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 22	;	;	PUNCT	:	_	21	punct	21:punct	_
@@ -355,14 +355,14 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(2)
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
-7	napping	nap	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	SpaceAfter=No
+7	napping	nap	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	MSeg=napp-ing|SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	13:punct	_
 9	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-sequence_m:36->2:3:_
 10	so	so	ADV	RB	_	11	advmod	11:advmod	_
 11	gently	gently	ADV	RB	Degree=Pos	13	advmod	13:advmod	MSeg=gent-ly
 12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj|14:nsubj:xsubj	Entity=(14)
 13	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	conj	7:conj:and	_
-14	rapping	rap	VERB	VBG	VerbForm=Ger	13	xcomp	13:xcomp	SpaceAfter=No
+14	rapping	rap	VERB	VBG	VerbForm=Ger	13	xcomp	13:xcomp	MSeg=rapp-ing|SpaceAfter=No
 15	,	,	PUNCT	,	_	20	punct	20:punct	_
 16	And	and	CCONJ	CC	_	20	cc	20:cc	Discourse=restatement-repetition_m:37->36:0:_
 17	so	so	ADV	RB	_	18	advmod	18:advmod	_
@@ -371,7 +371,7 @@
 20	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	conj	7:conj:and	_
 21	tapping	tap	VERB	VBG	VerbForm=Ger	20	xcomp	20:xcomp	MSeg=tapp-ing|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	23:punct	_
-23	tapping	tap	VERB	VBG	VerbForm=Ger	21	advcl	21:advcl	Discourse=elaboration-additional:38->37:0:_|MSeg=tapp-ing
+23	tapping	tap	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	21:advcl	Discourse=elaboration-additional:38->37:0:_|MSeg=tapp-ing
 24	at	at	ADP	IN	_	27	case	27:case	_
 25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(4(2)
 26	chamber	chamber	NOUN	NN	Number=Sing	27	compound	27:compound	_
@@ -426,24 +426,24 @@
 2	into	into	ADP	IN	_	4	case	4:case	MSeg=in-to
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(15
 4	darkness	darkness	NOUN	NN	Number=Sing	5	obl	5:obl:into	Entity=15)|MSeg=dark-ness
-5	peering	peer	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	SpaceAfter=No
+5	peering	peer	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl	MSeg=peer-ing|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	long	long	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=adversative-concession:44->52:4:_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Entity=(2)
 9	stood	stand	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	there	there	ADV	RB	PronType=Dem	9	advmod	9:advmod	_
-11	wondering	wonder	VERB	VBG	VerbForm=Ger	9	advcl	9:advcl	Discourse=elaboration-additional:45->44:1:_|MSeg=wonder-ing|SpaceAfter=No
+11	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	9:advcl	Discourse=elaboration-additional:45->44:1:_|MSeg=wonder-ing|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	13:punct	_
-13	fearing	fear	VERB	VBG	VerbForm=Ger	11	conj	9:advcl|11:conj	Discourse=joint-list_m:46->45:0:_|SpaceAfter=No
+13	fearing	fear	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	9:advcl|11:conj	Discourse=joint-list_m:46->45:0:_|MSeg=fear-ing|SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	15:punct	_
-15	Doubting	doubt	VERB	VBG	VerbForm=Ger	11	conj	9:advcl|11:conj	Discourse=joint-list_m:47->45:0:_|SpaceAfter=No
+15	Doubting	doubt	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	9:advcl|11:conj	Discourse=joint-list_m:47->45:0:_|MSeg=Doubt-ing|SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	dreaming	dream	VERB	VBG	VerbForm=Ger	11	conj	9:advcl|11:conj	Discourse=joint-list_m:48->45:0:_
+17	dreaming	dream	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	9:advcl|11:conj	Discourse=joint-list_m:48->45:0:_|MSeg=dream-ing
 18	dreams	dream	NOUN	NNS	Number=Plur	17	obj	17:obj	MSeg=dream-s
 19	no	no	DET	DT	Polarity=Neg|PronType=Neg	20	det	20:det	Discourse=elaboration-attribute:49->48:0:_
 20	mortals	mortal	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj|24:nsubj:xsubj	_
 21	ever	ever	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
-22	dared	dare	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
+22	dared	dare	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	MSeg=dar-ed
 23	to	to	PART	TO	_	24	mark	24:mark	_
 24	dream	dream	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	_
 25	before	before	ADV	RB	Degree=Pos	24	advmod	24:advmod	SpaceAfter=No
@@ -462,7 +462,7 @@
 6	,	,	PUNCT	,	_	10	punct	10:punct	_
 7	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=restatement-repetition_m:51->50:0:_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	_
-9	stillness	stillness	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
+9	stillness	stillness	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	MSeg=still-ness
 10	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj:and	_
 11	no	no	DET	DT	Polarity=Neg|PronType=Neg	12	det	12:det	_
 12	token	token	NOUN	NN	Number=Sing	10	obj	10:obj	SpaceAfter=No
@@ -475,7 +475,7 @@
 19	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl	17:acl	Entity=16)|MSeg=spok-en
 20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	23:cop	Discourse=same-unit_m:54->52:1:_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	_
-22	whispered	whisper	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	amod	23:amod	_
+22	whispered	whisper	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	amod	23:amod	MSeg=whisper-ed
 23	word	word	NOUN	NN	Number=Sing	5	conj	5:conj:and	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	26:punct	_
 25	"	''	PUNCT	``	_	26	punct	26:punct	SpaceAfter=No
@@ -495,7 +495,7 @@
 5	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=causal-result:56->52:5:_
 6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	_
 7	echo	echo	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	_
-8	murmured	murmur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
+8	murmured	murmur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	MSeg=murmur-ed
 9	back	back	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_
 11	word	word	NOUN	NN	Number=Sing	8	obj	8:obj	SpaceAfter=No
@@ -529,14 +529,14 @@
 2	into	into	ADP	IN	_	4	case	4:case	MSeg=in-to
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(4
 4	chamber	chamber	NOUN	NN	Number=Sing	5	obl	5:obl:into	Entity=4)
-5	turning	turn	VERB	VBG	VerbForm=Ger	17	advcl	17:advcl	MSeg=turn-ing|SpaceAfter=No
+5	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	17:advcl	MSeg=turn-ing|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	all	all	DET	PDT	PronType=Tot	9	det:predet	9:det:predet	Discourse=joint-list_m:59->58:0:_
 8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(2)
 9	soul	soul	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
 10	within	within	ADP	IN	_	11	case	11:case	_
 11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	12:obl:within	Entity=(2)
-12	burning	burn	VERB	VBG	VerbForm=Ger	17	advcl	17:advcl	MSeg=burn-ing|SpaceAfter=No
+12	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	17:advcl	MSeg=burn-ing|SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	Soon	soon	ADV	RB	Degree=Pos	17	advmod	17:advmod	Discourse=explanation-evidence:60->61:1:_
 15	again	again	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
@@ -545,7 +545,7 @@
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(17
 19	tapping	tapping	NOUN	NN	Number=Sing	17	obj	17:obj	MSeg=tapp-ing
 20	something	something	PRON	NN	Number=Sing|PronType=Ind	21	obl:npmod	21:obl:npmod	Entity=17)
-21	louder	loud	ADJ	JJR	Degree=Cmp	19	amod	19:amod	_
+21	louder	loud	ADJ	JJR	Degree=Cmp	19	amod	19:amod	MSeg=loud-er
 22	than	than	ADP	IN	_	23	case	23:case	_
 23	before	before	ADV	RB	Degree=Pos	21	obl	21:obl:than	SpaceAfter=No
 24	.	.	PUNCT	.	_	17	punct	17:punct	_
@@ -585,7 +585,7 @@
 5	then	then	ADV	RB	PronType=Dem	1	advmod	1:advmod	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	5:punct	_
 7	what	what	PRON	WP	PronType=Int	8	nsubj	8:nsubj	_
-8	thereat	thereat	NOUN	NN	Number=Sing	3	ccomp	3:ccomp	_
+8	thereat	thereat	ADV	RB	Degree=Pos	3	ccomp	3:ccomp	Cxn=Interrogative-WHInfo-Indirect
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 10	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-list_m:65->64:0:_
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(18
@@ -618,7 +618,7 @@
 # transition = zero
 # text = 'Tis the wind and nothing more."
 1-2	'Tis	_	_	_	_	_	_	_	_
-1	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj	Discourse=evaluation-comment:68->64:3:_|XML=<w>
+1	'T	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs|Style=Arch	4	nsubj	4:nsubj|6:nsubj	Discourse=evaluation-comment:68->64:3:_|XML=<w>
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	XML=</w>
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 4	wind	wind	NOUN	NN	Number=Sing	0	root	0:root	_
@@ -670,8 +670,8 @@
 # s_type = decl
 # transition = establishment
 # text = Not the least obeisance made he;
-1	Not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	Discourse=adversative-antithesis:71->73:2:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
+1	Not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Discourse=adversative-antithesis:71->73:2:_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
 3	least	least	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	obeisance	obeisance	NOUN	NN	Number=Sing	5	obj	5:obj	_
 5	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -706,13 +706,13 @@
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
 8	lady	lady	NOUN	NN	Number=Sing	6	conj	4:nmod:of|6:conj:or	SpaceAfter=No
 9	,	,	PUNCT	,	_	4	punct	4:punct	_
-10	perched	perch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+10	perched	perch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=perch-ed
 11	above	above	ADP	IN	_	14	case	14:case	_
 12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(4(2)
 13	chamber	chamber	NOUN	NN	Number=Sing	14	compound	14:compound	_
 14	door	door	NOUN	NN	Number=Sing	10	obl	10:obl:above	Entity=4)
 15	—	—	PUNCT	:	_	16	punct	16:punct	Discourse=elaboration-additional:74->73:0:_
-16	Perched	perch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl	_
+16	Perched	perch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	10:advcl	MSeg=Perch-ed
 17	upon	upon	ADP	IN	_	19	case	19:case	MSeg=up-on
 18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(19
 19	bust	bust	NOUN	NN	Number=Sing	16	obl	16:obl:upon	_
@@ -730,7 +730,7 @@
 # s_type = other
 # transition = null
 # text = Perched, and sat, and nothing more.
-1	Perched	perch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=restatement-partial:75->73:1:_|SpaceAfter=No
+1	Perched	perch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=restatement-partial:75->73:1:_|MSeg=Perch-ed|SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	4:punct	_
 3	and	and	CCONJ	CC	_	4	cc	4:cc	Discourse=restatement-repetition_m:76->75:0:_
 4	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	1:conj:and	SpaceAfter=No
@@ -751,12 +751,12 @@
 2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(1
 3	ebony	ebony	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
 4	bird	bird	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=1)
-5	beguiling	beguile	VERB	VBG	VerbForm=Ger	37	advcl	37:advcl	_
+5	beguiling	beguile	VERB	VBG	Tense=Pres|VerbForm=Part	37	advcl	37:advcl	MSeg=be-guil-ing
 6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(2)
 7	sad	sad	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
 8	fancy	fancy	NOUN	NN	Number=Sing	5	obj	5:obj	_
 9	into	into	SCONJ	IN	_	10	mark	10:mark	MSeg=in-to
-10	smiling	smile	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:into	MSeg=smil-ing|SpaceAfter=No
+10	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:into	MSeg=smil-ing|SpaceAfter=No
 11	,	,	PUNCT	,	_	17	punct	17:punct	_
 12	By	by	ADP	IN	_	17	case	17:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
@@ -766,27 +766,27 @@
 17	decorum	decorum	NOUN	NN	Number=Sing	5	obl	5:obl:by	_
 18	of	of	ADP	IN	_	20	case	20:case	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	_
-20	countenance	countenance	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	MSeg=countenance
+20	countenance	countenance	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	_
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Discourse=elaboration-attribute:79->78:0:_|Entity=(1)
 22	wore	wear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	SpaceAfter=No
 23	,	,	PUNCT	,	_	5	punct	5:punct	_
 24	"	''	PUNCT	``	_	29	punct	29:punct	Discourse=adversative-concession:80->81:1:_|SpaceAfter=No
 25	Though	though	SCONJ	IN	_	29	mark	29:mark	_
-26	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	27	nmod:poss	27:nmod:poss	Entity=(1)
+26	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	27	nmod:poss	27:nmod:poss	Entity=(1)
 27	crest	crest	NOUN	NN	Number=Sing	29	nsubj	29:nsubj|31:nsubj	_
 28	be	be	AUX	VB	VerbForm=Inf	29	cop	29:cop	_
 29	shorn	shorn	ADJ	JJ	Degree=Pos	0	root	0:root	_
 30	and	and	CCONJ	CC	_	31	cc	31:cc	_
 31	shaven	shaven	ADJ	JJ	Degree=Pos	29	conj	29:conj:and	SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	33:punct	_
-33	thou	thou	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	49	nsubj	49:nsubj	Discourse=evaluation-comment:81->78:1:_|Entity=(1)|SpaceAfter=No
+33	thou	thou	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs|Style=Arch	49	nsubj	49:nsubj	Discourse=evaluation-comment:81->78:1:_|Entity=(1)|SpaceAfter=No
 34	,	,	PUNCT	,	_	33	punct	33:punct	SpaceAfter=No
 35	"	''	PUNCT	''	_	33	punct	33:punct	_
 36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	37:nsubj	Discourse=attribution-positive:82->83:1:_|Entity=(2)
 37	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	parataxis	29:parataxis	MSeg=sai-d|SpaceAfter=No
-38	,	,	PUNCT	,	_	37	punct	37:punct	_
+38	,	,	PUNCT	,	_	29	punct	29:punct	_
 39	"	''	PUNCT	``	_	40	punct	40:punct	Discourse=same-unit_m:83->81:0:_|SpaceAfter=No
-40	art	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	cop	49:cop	_
+40	art	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	49	cop	49:cop	_
 41	sure	sure	ADJ	JJ	Degree=Pos	49	advmod	49:advmod	_
 42	no	no	DET	DT	Polarity=Neg|PronType=Neg	49	det	49:det	Entity=(1
 43	craven	craven	ADJ	JJ	Degree=Pos	49	amod	49:amod	Entity=1)|SpaceAfter=No
@@ -811,7 +811,7 @@
 1	Tell	tell	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Ditransitive|Discourse=topic-question:85->87:1:_
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	Entity=(2)
 3	what	what	PRON	WP	PronType=Int	1	ccomp	1:ccomp	_
-4	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(22(21)
+4	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	6	nmod:poss	6:nmod:poss	Entity=(22(21)
 5	lordly	lordly	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	name	name	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=22)
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
@@ -820,7 +820,7 @@
 10-11	Night's	_	_	_	_	_	_	_	_
 10	Night	Night	NOUN	NN	Number=Sing	13	nmod:poss	13:nmod:poss	_
 11	's	's	PART	POS	_	10	case	10:case	_
-12	Plutonian	Plutonian	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+12	Plutonian	Plutonian	ADJ	JJ	Degree=Pos	13	amod	13:amod	MSeg=Plutoni-an
 13	shore	shore	NOUN	NN	Number=Sing	3	obl	3:obl:on	SpaceAfter=No
 14	!	!	PUNCT	.	_	1	punct	1:punct	SpaceAfter=No
 15	"	''	PUNCT	''	_	1	punct	1:punct	_
@@ -830,12 +830,12 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Quoth the Raven, "Nevermore."
-1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:86->87:0:_
+1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:86->87:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(21
 3	Raven	Raven	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=21)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=context-background:87->183:4:_|SpaceAfter=No
-6	Nevermore	Nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	SpaceAfter=No
+6	Nevermore	Nevermore	PROPN	NNP	Number=Sing	1	ccomp	1:ccomp	Entity=(23)|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 8	"	''	PUNCT	''	_	6	punct	6:punct	_
 
@@ -848,7 +848,7 @@
 # newpar_block = p (3 s)
 1	Much	much	ADV	RB	Degree=Pos	3	advmod	3:advmod	Discourse=evaluation-comment:88->87:2:_
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|8:nsubj:xsubj	Entity=(2)
-3	marvelled	marvel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	marvelled	marvel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=marvell-ed
 4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(21
 5	ungainly	ungainly	ADV	RB	Degree=Pos|Polarity=Neg	6	amod	6:amod	_
 6	fowl	fowl	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=21)
@@ -871,7 +871,7 @@
 5	meaning	meaning	NOUN	NN	Number=Sing	9	obj	9:obj	MSeg=mean-ing
 6	—	—	PUNCT	:	_	8	punct	8:punct	_
 7	little	little	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
-8	relevancy	relevancy	NOUN	NN	Number=Sing	5	conj	5:conj|9:obj	_
+8	relevancy	relevancy	NOUN	NN	Number=Sing	5	conj	5:conj|9:obj	MSeg=relevan-cy
 9	bore	bear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 10	;	;	PUNCT	:	_	9	punct	9:punct	_
 
@@ -888,40 +888,40 @@
 5	help	help	VERB	VB	VerbForm=Inf	0	root	0:root	_
 6	agreeing	agree	VERB	VBG	VerbForm=Ger	5	xcomp	5:xcomp	MSeg=agree-ing
 7	that	that	SCONJ	IN	_	15	mark	15:mark	Discourse=explanation-evidence:91->89:0:_
-8	no	no	DET	DT	Polarity=Neg|PronType=Neg	11	det	11:det	Entity=(23
+8	no	no	DET	DT	Polarity=Neg|PronType=Neg	11	det	11:det	Entity=(24
 9	living	live	VERB	VBG	VerbForm=Ger	11	amod	11:amod	MSeg=liv-ing
 10	human	human	NOUN	NN	Number=Sing	11	compound	11:compound	_
-11	being	being	NOUN	NN	Number=Sing	15	nsubj:pass	15:nsubj:pass	Entity=23)|MSeg=be-ing
+11	being	being	NOUN	NN	Number=Sing	15	nsubj:pass	15:nsubj:pass	Entity=24)|MSeg=be-ing
 12	Ever	ever	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
 13	yet	yet	ADV	RB	_	15	advmod	15:advmod	_
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	15:aux:pass	_
 15	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	6:ccomp	MSeg=bless-ed
 16	with	with	SCONJ	IN	_	17	mark	17:mark	_
-17	seeing	see	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl:with	MSeg=see-ing
-18	bird	bird	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=(24)
+17	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl:with	MSeg=see-ing
+18	bird	bird	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=(25)
 19	above	above	ADP	IN	_	22	case	22:case	_
-20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(25(23)
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(26(24)
 21	chamber	chamber	NOUN	NN	Number=Sing	22	compound	22:compound	_
-22	door	door	NOUN	NN	Number=Sing	18	nmod	18:nmod:above	Entity=25)
+22	door	door	NOUN	NN	Number=Sing	18	nmod	18:nmod:above	Entity=26)
 23	—	—	PUNCT	:	_	24	punct	24:punct	_
 24	Bird	Bird	NOUN	NN	Number=Sing	18	parataxis	18:parataxis	_
 25	or	or	CCONJ	CC	_	26	cc	26:cc	_
 26	beast	beast	NOUN	NN	Number=Sing	24	conj	24:conj:or	_
 27	upon	upon	ADP	IN	_	30	case	30:case	MSeg=up-on
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	_
-29	sculptured	sculpture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	amod	30:amod	_
+29	sculptured	sculpture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	amod	30:amod	MSeg=sculpt-ur-ed
 30	bust	bust	NOUN	NN	Number=Sing	24	nmod	24:nmod:upon	_
 31	above	above	ADP	IN	_	34	case	34:case	_
-32	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	34:nmod:poss	Entity=(25(23)
+32	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	34:nmod:poss	Entity=(26(24)
 33	chamber	chamber	NOUN	NN	Number=Sing	34	compound	34:compound	_
-34	door	door	NOUN	NN	Number=Sing	30	nmod	30:nmod:above	Entity=25)|SpaceAfter=No
+34	door	door	NOUN	NN	Number=Sing	30	nmod	30:nmod:above	Entity=26)|SpaceAfter=No
 35	,	,	PUNCT	,	_	38	punct	38:punct	_
 36	With	with	ADP	IN	_	38	case	38:case	_
 37	such	such	ADJ	JJ	Degree=Pos	38	amod	38:amod	Entity=(22
 38	name	name	NOUN	NN	Number=Sing	18	nmod	18:nmod:with	_
 39	as	as	ADP	IN	_	41	case	41:case	_
 40	"	''	PUNCT	``	_	41	punct	41:punct	SpaceAfter=No
-41	Nevermore	Nevermore	ADV	RB	Degree=Pos	38	nmod	38:nmod:as	Entity=(26)|SpaceAfter=No
+41	Nevermore	Nevermore	PROPN	NNP	Number=Sing	38	nmod	38:nmod:as	Entity=(23)|SpaceAfter=No
 42	.	.	PUNCT	.	_	41	punct	41:punct	SpaceAfter=No
 43	"	''	PUNCT	''	_	41	punct	41:punct	Entity=22)
 
@@ -933,7 +933,7 @@
 # newpar
 # newpar_block = p (7 s)
 1	But	but	CCONJ	CC	_	12	cc	12:cc	Discourse=adversative-concession:92->87:3:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(24
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(25
 3	Raven	Raven	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	5:punct	_
 5	sitting	sit	VERB	VBG	VerbForm=Ger	3	acl	3:acl	Discourse=context-circumstance:93->94:0:_|MSeg=sitt-ing
@@ -941,25 +941,25 @@
 7	on	on	ADP	IN	_	10	case	10:case	_
 8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Entity=(19
 9	placid	placid	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
-10	bust	bust	NOUN	NN	Number=Sing	5	obl	5:obl:on	Entity=24)19)|SpaceAfter=No
+10	bust	bust	NOUN	NN	Number=Sing	5	obl	5:obl:on	Entity=25)19)|SpaceAfter=No
 11	,	,	PUNCT	,	_	3	punct	3:punct	_
-12	spoke	speak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:94->92:0:_
+12	spoke	speak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|Discourse=same-unit_m:94->92:0:_
 13	only	only	ADV	RB	_	16	advmod	16:advmod	_
-14	That	that	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Entity=(26
+14	That	that	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Entity=(23
 15	one	one	NUM	CD	NumForm=Word|NumType=Card	16	nummod	16:nummod	_
-16	word	word	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=26)|SpaceAfter=No
+16	word	word	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=23)|SpaceAfter=No
 17	,	,	PUNCT	,	_	28	punct	28:punct	_
 18	as	as	SCONJ	IN	_	28	mark	28:mark	Discourse=mode-manner:95->92:1:_
 19	if	if	SCONJ	IN	_	28	mark	28:mark	_
-20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(24)
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(25)
 21	soul	soul	NOUN	NN	Number=Sing	28	obj	28:obj	_
 22	in	in	ADP	IN	_	25	case	25:case	_
-23	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	25:det	Entity=(26
+23	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	25:det	Entity=(23
 24	one	one	NUM	CD	NumForm=Word|NumType=Card	25	nummod	25:nummod	_
-25	word	word	NOUN	NN	Number=Sing	28	obl	28:obl:in	Entity=26)
-26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj	Entity=(24)
+25	word	word	NOUN	NN	Number=Sing	28	obl	28:obl:in	Entity=23)
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj	Entity=(25)
 27	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	28:aux	_
-28	outpour	outpour	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:as_if	Cxn=Condition-Realistic|SpaceAfter=No
+28	outpour	outpour	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:as_if	SpaceAfter=No
 29	.	.	PUNCT	.	_	12	punct	12:punct	_
 
 # sent_id = GENTLE_poetry_raven-39
@@ -968,10 +968,10 @@
 # transition = continue
 # text = Nothing farther then he uttered;
 1	Nothing	nothing	PRON	NN	Number=Sing|Polarity=Neg|PronType=Neg	5	obj	5:obj	Discourse=adversative-antithesis:96->92:2:_
-2	farther	far	ADV	RBR	Degree=Cmp	1	advmod	1:advmod	_
+2	farther	far	ADV	RBR	Degree=Cmp	1	advmod	1:advmod	MSeg=farth-er
 3	then	then	ADV	RB	PronType=Dem	5	advmod	5:advmod	_
-4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(24)
-5	uttered	utter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(25)
+5	uttered	utter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=utter-ed|SpaceAfter=No
 6	;	;	PUNCT	:	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_poetry_raven-40
@@ -983,7 +983,7 @@
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
 3	feather	feather	NOUN	NN	Number=Sing	6	obj	6:obj	_
 4	then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	_
-5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(24)
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(25)
 6	fluttered	flutter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=flutter-ed
 7	—	—	PUNCT	:	_	6	punct	6:punct	_
 
@@ -995,9 +995,9 @@
 1	Till	till	SCONJ	IN	_	6	mark	6:mark	Discourse=attribution-positive:98->101:2:_
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(2)
 3	scarcely	scarcely	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-4	more	more	ADV	RBR	Degree=Cmp	6	advmod	6:advmod	_
+4	more	more	ADV	RBR	Degree=Cmp	6	advmod	6:advmod	ExtPos=ADV
 5	than	than	ADP	IN	_	4	fixed	4:fixed	Discourse=adversative-antithesis:99->98:0:_
-6	muttered	mutter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+6	muttered	mutter	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=mutter-ed
 
 # sent_id = GENTLE_poetry_raven-42
 # s_prominence = 4
@@ -1020,7 +1020,7 @@
 1	On	on	ADP	IN	_	3	case	3:case	Discourse=evaluation-comment:101->87:4:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(8
 3	morrow	morrow	NOUN	NN	Number=Sing	6	obl	6:obl:on	Entity=8)
-4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(24)|XML=<hi rend:::"italic"></hi>
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(25)|XML=<hi rend:::"italic"></hi>
 5	will	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
 6	leave	leave	VERB	VB	VerbForm=Inf	0	root	0:root	_
 7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	6:obj	Entity=(2)|SpaceAfter=No
@@ -1040,11 +1040,11 @@
 # transition = establishment
 # text = Then the bird said "Nevermore."
 1	Then	then	ADV	RB	PronType=Dem	4	advmod	4:advmod	Discourse=attribution-positive:103->104:0:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(24
-3	bird	bird	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=24)
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(25
+3	bird	bird	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=25)
 4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=sai-d
 5	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=restatement-partial:104->87:5:_|SpaceAfter=No
-6	Nevermore	Nevermore	ADV	RB	Degree=Pos	4	ccomp	4:ccomp	SpaceAfter=No
+6	Nevermore	nevermore	ADV	RB	Degree=Pos	4	ccomp	4:ccomp	MSeg=Never-more|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 8	"	''	PUNCT	''	_	6	punct	6:punct	_
 
@@ -1055,10 +1055,10 @@
 # text = Startled at the stillness broken by reply so aptly spoken, "Doubtless," said I, "what it utters is its only stock and store
 # newpar
 # newpar_block = p (3 s)
-1	Startled	startle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	16:advcl	Discourse=mode-manner:105->108:1:_
+1	Startled	startle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	16:advcl	Discourse=mode-manner:105->108:1:_|MSeg=Start-l-ed
 2	at	at	ADP	IN	_	4	case	4:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	_
-4	stillness	stillness	NOUN	NN	Number=Sing	1	obl	1:obl:at	_
+4	stillness	stillness	NOUN	NN	Number=Sing	1	obl	1:obl:at	MSeg=still-ness
 5	broken	break	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	Discourse=elaboration-attribute:106->105:0:_|MSeg=brok-en
 6	by	by	ADP	IN	_	7	case	7:case	_
 7	reply	reply	NOUN	NN	Number=Sing	5	obl	5:obl:by	_
@@ -1067,7 +1067,7 @@
 10	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	MSeg=spok-en|SpaceAfter=No
 11	,	,	PUNCT	,	_	1	punct	1:punct	_
 12	"	''	PUNCT	``	_	13	punct	13:punct	Discourse=evaluation-comment:108->104:1:_|SpaceAfter=No
-13	Doubtless	doubtless	ADV	RB	Degree=Pos	26	advmod	26:advmod	SpaceAfter=No
+13	Doubtless	doubtless	ADV	RB	Degree=Pos	26	advmod	26:advmod	MSeg=Doubt-less|SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	13:punct	SpaceAfter=No
 15	"	''	PUNCT	''	_	13	punct	13:punct	_
 16	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	26	parataxis	26:parataxis	Discourse=attribution-positive:109->110:1:_|MSeg=sai-d
@@ -1075,10 +1075,10 @@
 18	,	,	PUNCT	,	_	16	punct	16:punct	_
 19	"	''	PUNCT	``	_	16	punct	16:punct	Discourse=same-unit_m:110->108:0:_|SpaceAfter=No
 20	what	what	PRON	WP	PronType=Rel	26	nsubj	26:nsubj|28:nsubj	_
-21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(24)
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(25)
 22	utters	utter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	20:acl:relcl	MSeg=utter-s
 23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
-24	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(24)|MSeg=it-s
+24	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	26:nmod:poss	Entity=(25)|MSeg=it-s
 25	only	only	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
 26	stock	stock	NOUN	NN	Number=Sing	0	root	0:root	_
 27	and	and	CCONJ	CC	_	28	cc	28:cc	_
@@ -1095,15 +1095,15 @@
 4	unhappy	unhappy	ADJ	JJ	Degree=Pos|Polarity=Neg	5	amod	5:amod	MSeg=un-happ-y
 5	master	master	NOUN	NN	Number=Sing	1	obl	1:obl:from|9:obj	MSeg=mast-er
 6	whom	who	PRON	WP	PronType=Rel	9	obj	5:ref	Discourse=elaboration-attribute:112->111:0:_
-7	unmerciful	unmerciful	ADJ	JJ	Degree=Pos|Polarity=Neg	8	amod	8:amod	_
+7	unmerciful	unmerciful	ADJ	JJ	Degree=Pos|Polarity=Neg	8	amod	8:amod	MSeg=un-merci-ful
 8	Disaster	Disaster	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj|12:nsubj	_
-9	Followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
+9	Followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	MSeg=Follow-ed
 10	fast	fast	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
 11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint-sequence_m:113->112:0:_
 12	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	5:acl:relcl|9:conj:and	MSeg=follow-ed
 13	faster	fast	ADV	RBR	Degree=Cmp	12	advmod	12:advmod	MSeg=fast-er
 14	till	till	SCONJ	IN	_	19	mark	19:mark	Discourse=causal-result:114->112:1:_
-15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(24)
+15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(25)
 16	songs	song	NOUN	NNS	Number=Plur	19	nsubj	19:nsubj	_
 17	one	one	NUM	CD	NumForm=Word|NumType=Card	18	nummod	18:nummod	Entity=(27
 18	burden	burden	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=27)
@@ -1119,17 +1119,17 @@
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	dirges	dirge	NOUN	NNS	Number=Plur	10	obj	10:obj	_
 4	of	of	ADP	IN	_	6	case	6:case	_
-5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(24)
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(25)
 6	Hope	hope	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	_
 7	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	9:det	Entity=(27
-8	melancholy	melancholy	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+8	melancholy	melancholy	ADJ	JJ	Degree=Pos	9	amod	9:amod	MSeg=melanchol-y
 9	burden	burden	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=27)
 10	bore	bear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	Of	of	ADP	IN	_	13	case	13:case	_
 12	'	'	PUNCT	``	_	13	punct	13:punct	SpaceAfter=No
 13	Never	never	ADV	RB	Polarity=Neg	15	reparandum	15:reparandum	_
 14	—	—	PUNCT	:	_	13	punct	13:punct	_
-15	nevermore	nevermore	ADV	RB	Degree=Pos	10	advmod	10:advmod	SpaceAfter=No
+15	nevermore	nevermore	ADV	RB	Degree=Pos	10	advmod	10:advmod	MSeg=never-more|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	15:punct	SpaceAfter=No
 17	'	'	PUNCT	''	_	15	punct	15:punct	SpaceAfter=No
 18	"	''	PUNCT	''	_	10	punct	10:punct	_
@@ -1142,22 +1142,22 @@
 # newpar
 # newpar_block = p (2 s)
 1	But	but	CCONJ	CC	_	15	cc	15:cc	Discourse=context-circumstance:116->117:0:_
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(24
-3	Raven	Raven	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=24)
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(25
+3	Raven	Raven	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=25)
 4	still	still	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
-5	beguiling	beguile	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl	_
+5	beguiling	beguile	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	15:advcl	MSeg=be-guil-ing
 6	all	all	DET	IN	PronType=Tot	9	det:predet	9:det:predet	Entity=(28
 7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(2)
 8	sad	sad	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	soul	soul	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=28)
 10	into	into	SCONJ	IN	_	11	mark	11:mark	MSeg=in-to
-11	smiling	smile	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:into	MSeg=smil-ing|SpaceAfter=No
+11	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	5:advcl:into	MSeg=smil-ing|SpaceAfter=No
 12	,	,	PUNCT	,	_	5	punct	5:punct	_
 13	Straight	straight	ADV	RB	Degree=Pos	15	advmod	15:advmod	Discourse=context-circumstance:117->125:3:_
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(2)
-15	wheeled	wheel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+15	wheeled	wheel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=wheel-ed
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	_
-17	cushioned	cushion	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	amod	18:amod	_
+17	cushioned	cushion	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	amod	18:amod	MSeg=cushion-ed
 18	seat	seat	NOUN	NN	Number=Sing	15	obj	15:obj	_
 19	in	in	ADP	IN	_	20	case	20:case	_
 20	front	front	NOUN	NN	Number=Sing	15	obl	15:obl:in	_
@@ -1179,7 +1179,7 @@
 3	upon	upon	ADP	IN	_	5	case	5:case	Discourse=context-circumstance:119->120:0:_|MSeg=up-on
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(32
 5	velvet	velvet	NOUN	NN	Number=Sing	6	obl	6:obl:upon	_
-6	sinking	sinking	NOUN	NN	Number=Sing	9	advcl	9:advcl	Entity=32)|SpaceAfter=No
+6	sinking	sinking	NOUN	NN	Number=Sing	9	advcl	9:advcl	Entity=32)|MSeg=sink-ing|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Discourse=same-unit_m:120->118:0:_|Entity=(2)
 9	betook	betak	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -1190,7 +1190,7 @@
 14	unto	unto	ADP	IN	_	15	case	15:case	MSeg=un-to
 15	fancy	fancy	NOUN	NN	Number=Sing	12	obl	12:obl:unto	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
-17	thinking	think	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl	Discourse=joint-sequence_m:121->117:1:_|MSeg=think-ing
+17	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	12:advcl	Discourse=joint-sequence_m:121->117:1:_|MSeg=think-ing
 18	what	what	PRON	WP	PronType=Rel	25	reparandum	25:reparandum	_
 19	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	21:det	Entity=(29
 20	ominous	ominous	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
@@ -1213,11 +1213,11 @@
 37	bird	bird	NOUN	NN	Number=Sing	40	nsubj	40:nsubj	_
 38	of	of	ADP	IN	_	39	case	39:case	_
 39	yore	yore	NOUN	NN	Number=Sing	37	nmod	37:nmod:of	Entity=29)
-40	Meant	Mean	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	acl:relcl	25:acl:relcl	_
+40	Meant	mean	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	25:acl:relcl	_
 41	in	in	SCONJ	IN	_	42	mark	42:mark	Discourse=attribution-positive:122->123:0:_
-42	croaking	croak	VERB	VBG	VerbForm=Ger	40	advcl	40:advcl:in	_
+42	croaking	croak	VERB	VBG	Tense=Pres|VerbForm=Part	40	advcl	40:advcl:in	MSeg=croak-ing
 43	"	''	PUNCT	``	_	44	punct	44:punct	Discourse=mode-means:123->121:0:_|SpaceAfter=No
-44	Nevermore	Nevermore	NOUN	NN	Number=Sing	42	ccomp	42:ccomp	SpaceAfter=No
+44	Nevermore	nevermore	ADV	RB	Degree=Pos	42	ccomp	42:ccomp	MSeg=Never-more|SpaceAfter=No
 45	.	.	PUNCT	.	_	44	punct	44:punct	SpaceAfter=No
 46	"	''	PUNCT	''	_	44	punct	44:punct	_
 
@@ -1233,12 +1233,12 @@
 3	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp	Discourse=joint-sequence_m:125->87:6:_|MSeg=en-gag-ed
 5	in	in	SCONJ	IN	_	6	mark	6:mark	_
-6	guessing	guess	VERB	VBG	VerbForm=Ger	4	advcl	4:advcl:in	MSeg=guess-ing|SpaceAfter=No
+6	guessing	guess	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	4:advcl:in	MSeg=guess-ing|SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	11:punct	_
 8	but	but	CCONJ	CC	_	11	cc	11:cc	Discourse=adversative-contrast_m:126->125:1:_
 9	no	no	DET	DT	Polarity=Neg|PronType=Neg	10	det	10:det	_
 10	syllable	syllable	NOUN	NN	Number=Sing	11	obj	11:obj	_
-11	expressing	express	VERB	VBG	VerbForm=Ger	3	conj	3:conj:but	MSeg=express-ing
+11	expressing	express	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	3:conj:but	MSeg=express-ing
 12	To	to	ADP	IN	_	14	case	14:case	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(29
 14	fowl	fowl	NOUN	NN	Number=Sing	11	obl	11:obl:to	_
@@ -1265,28 +1265,28 @@
 3	more	more	ADJ	JJR	Degree=Cmp	1	conj	1:conj:and|5:obj|6:nsubj:xsubj	_
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(2)
 5	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
-6	divining	divine	VERB	VBG	VerbForm=Ger	5	xcomp	5:xcomp	SpaceAfter=No
+6	divining	divine	VERB	VBG	VerbForm=Ger	5	xcomp	5:xcomp	MSeg=divin-ing|SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	13:punct	_
 8	with	with	SCONJ	IN	_	13	mark	13:mark	Discourse=mode-manner:129->128:0:_
 9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(2)
 10	head	head	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
 11	at	at	ADP	IN	_	12	case	12:case	_
 12	ease	ease	NOUN	NN	Number=Sing	13	obl	13:obl:at	_
-13	reclining	recline	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl:with	Discourse=joint-list_m:130->129:0:_
+13	reclining	recline	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	6:advcl:with	Discourse=joint-list_m:130->129:0:_|MSeg=reclin-ing
 14	On	on	ADP	IN	_	19	case	19:case	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(32
 16-17	cushion's	_	_	_	_	_	_	_	_
 16	cushion	cushion	NOUN	NN	Number=Sing	19	nmod:poss	19:nmod:poss	_
 17	's	's	PART	POS	_	16	case	16:case	Entity=32)
 18	velvet	velvet	NOUN	NN	Number=Sing	19	compound	19:compound	_
-19	lining	lining	NOUN	NN	Number=Sing	13	obl	13:obl:on|25:obj	_
-20	that	that	PRON	WDT	PronType=Rel	25	obj	19:ref	Discourse=elaboration-attribute:131->130:0:_
+19	lining	lining	NOUN	NN	Number=Sing	13	obl	13:obl:on|25:obl:over	MSeg=lin-ing
+20	that	that	PRON	WDT	PronType=Rel	25	obl	19:ref	Discourse=elaboration-attribute:131->130:0:_
 21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	_
 22	lamp	lamp	NOUN	NN	Number=Sing	24	compound	24:compound	_
 23	-	-	PUNCT	:	_	22	punct	22:punct	_
 24	light	light	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	_
-25	gloated	gloated	ADJ	JJ	Degree=Pos	19	acl:relcl	19:acl:relcl	_
-26	o'er	over	ADV	IN	_	25	advmod	25:advmod	SpaceAfter=No
+25	gloated	gloated	ADJ	JJ	Degree=Pos	19	acl:relcl	19:acl:relcl	MSeg=gloat-ed
+26	o'er	over	ADP	IN	Style=Arch	20	case	20:case	SpaceAfter=No
 27	,	,	PUNCT	,	_	5	punct	5:punct	_
 
 # sent_id = GENTLE_poetry_raven-52
@@ -1298,21 +1298,21 @@
 2	whose	whose	PRON	WDT	PronType=Int	5	nmod:poss	5:nmod:poss	_
 3	velvet	velvet	NOUN	NN	Number=Sing	5	compound	5:compound	_
 4	violet	violet	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
-5	lining	lining	NOUN	NN	Number=Sing	15	obj	15:obj	_
+5	lining	lining	NOUN	NN	Number=Sing	15	obj	15:obj	MSeg=lin-ing
 6	with	with	ADP	IN	_	10	case	10:case	Discourse=elaboration-attribute:133->132:0:_
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	_
 8	lamp	lamp	NOUN	NN	Number=Sing	10	compound	10:compound	_
 9	-	-	PUNCT	:	_	8	punct	8:punct	_
 10	light	light	NOUN	NN	Number=Sing	11	compound	11:compound	_
-11	gloating	gloat	VERB	VBG	VerbForm=Ger	5	acl	5:acl	_
-12	o'er	over	ADV	IN	_	11	advmod	11:advmod	_
+11	gloating	gloat	VERB	VBG	VerbForm=Ger	5	acl	5:acl	MSeg=gloat-ing
+12	o'er	over	ADV	IN	Style=Arch	11	advmod	11:advmod	_
 13	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Discourse=same-unit_m:134->132:1:_|Entity=(9)|XML=<hi rend:::"italic"></hi>
 14	shall	shall	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
 15	press	press	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	17:punct	_
 17	ah	ah	INTJ	UH	_	15	discourse	15:discourse	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	19:punct	_
-19	nevermore	nevermore	ADV	RB	Degree=Pos	15	advmod	15:advmod	SpaceAfter=No
+19	nevermore	nevermore	ADV	RB	Degree=Pos	15	advmod	15:advmod	MSeg=never-more|SpaceAfter=No
 20	!	!	PUNCT	.	_	15	punct	15:punct	_
 
 # sent_id = GENTLE_poetry_raven-53
@@ -1330,7 +1330,7 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Discourse=same-unit_m:137->135:0:_
 7	air	air	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|9:nsubj:xsubj	_
 8	grew	grow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	4:ccomp	_
-9	denser	dense	ADJ	JJR	Degree=Cmp	8	xcomp	8:xcomp	SpaceAfter=No
+9	denser	dense	ADJ	JJR	Degree=Cmp	8	xcomp	8:xcomp	MSeg=dens-er|SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	11:punct	_
 11	perfumed	perfume	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	8:advcl	Discourse=causal-cause:138->135:1:_|MSeg=perfum-ed
 12	from	from	ADP	IN	_	15	case	15:case	_
@@ -1344,10 +1344,10 @@
 20	foot	foot	NOUN	NN	Number=Sing	22	compound	22:compound	_
 21	-	-	PUNCT	:	_	20	punct	20:punct	_
 22	falls	fall	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	_
-23	tinkled	tinkle	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
+23	tinkled	tinkle	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	MSeg=tinkl-ed
 24	on	on	ADP	IN	_	27	case	27:case	_
 25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	_
-26	tufted	tufted	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
+26	tufted	tufted	ADJ	JJ	Degree=Pos	27	amod	27:amod	MSeg=tuft-ed
 27	floor	floor	NOUN	NN	Number=Sing	23	obl	23:obl:on	Entity=10)|SpaceAfter=No
 28	.	.	PUNCT	.	_	4	punct	4:punct	_
 
@@ -1364,9 +1364,9 @@
 6	cried	cry	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	parataxis	12:parataxis	MSeg=cri-ed|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=same-unit_m:143->141:0:_|SpaceAfter=No
-9	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(33(29)
+9	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	10	nmod:poss	10:nmod:poss	Entity=(33(29)
 10	God	God	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Entity=33)
-11	hath	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
+11	hath	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	lent	lent	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
 13	thee	thee	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj	Entity=(29)
 14	—	—	PUNCT	:	_	20	punct	20:punct	_
@@ -1374,7 +1374,7 @@
 16	these	this	DET	DT	Number=Plur|PronType=Dem	17	det	17:det	Entity=(10
 17	angels	angel	NOUN	NNS	Number=Plur	20	obl	20:obl:by	Entity=10)|MSeg=angel-s
 18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Entity=(33)
-19	hath	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
+19	hath	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 20	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	12	parataxis	12:parataxis	Cxn=Ditransitive
 21	thee	thee	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	iobj	20:iobj	_
 22	Respite	respite	NOUN	NN	Number=Sing	20	obj	20:obj	_
@@ -1383,7 +1383,7 @@
 25	and	and	CCONJ	CC	_	26	cc	26:cc	_
 26	nepenthe	nepenthe	NOUN	NN	Number=Sing	24	conj	22:appos|24:conj:and	Entity=(34)
 27	from	from	ADP	IN	_	29	case	29:case	_
-28	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(35)
+28	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	29	nmod:poss	29:nmod:poss	Entity=(35)
 29	memories	memory	NOUN	NNS	Number=Plur	24	nmod	24:nmod:from	MSeg=memorie-s
 30	of	of	ADP	IN	_	31	case	31:case	_
 31	Lenore	Lenore	PROPN	NNP	Number=Sing	29	nmod	29:nmod:of	Entity=(9)|SpaceAfter=No
@@ -1404,7 +1404,7 @@
 8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=adversative-antithesis:145->147:2:_
 9	forget	forget	VERB	VB	Person=2|VerbForm=Inf	4	conj	4:conj:and	MSeg=for-get
 10	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(9
-11	lost	lose	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+11	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	amod	12:amod	MSeg=los-t
 12	Lenore	Lenore	PROPN	NNP	Number=Sing	9	obj	9:obj	Entity=9)|SpaceAfter=No
 13	!	!	PUNCT	.	_	1	punct	1:punct	SpaceAfter=No
 14	"	''	PUNCT	''	_	1	punct	1:punct	_
@@ -1414,12 +1414,12 @@
 # s_type = decl
 # transition = zero
 # text = Quoth the Raven, "Nevermore."
-1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:146->147:0:_
+1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:146->147:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(35
 3	Raven	Raven	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=35)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=joint-sequence_m:147->87:6:_|SpaceAfter=No
-6	Nevermore	Nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	SpaceAfter=No
+6	Nevermore	nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	MSeg=Never-more|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 8	"	''	PUNCT	''	_	6	punct	6:punct	_
 
@@ -1449,11 +1449,11 @@
 # transition = establishment
 # text = — prophet still, if bird or devil! —
 1	—	—	PUNCT	:	_	2	punct	2:punct	Discourse=adversative-concession:151->150:0:_
-2	prophet	prophet	NOUN	NN	Number=Sing	0	root	0:root	_
+2	prophet	prophet	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced
 3	still	still	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	if	if	SCONJ	IN	_	6	mark	6:mark	Discourse=adversative-concession:152->151:0:_
-6	bird	bird	NOUN	NN	Number=Sing	2	advcl	2:advcl:if	Cxn=Condition-Reduced
+6	bird	bird	NOUN	NN	Number=Sing	2	advcl	2:advcl:if	_
 7	or	or	CCONJ	CC	_	8	cc	8:cc	_
 8	devil	devil	NOUN	NN	Number=Sing	6	conj	2:advcl:if|6:conj:or	SpaceAfter=No
 9	!	!	PUNCT	.	_	2	punct	2:punct	_
@@ -1471,7 +1471,7 @@
 5	or	or	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-disjunction_m:154->153:0:_
 6	whether	whether	SCONJ	IN	_	8	mark	8:mark	_
 7	tempest	tempest	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=(36)
-8	tossed	toss	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:or	_
+8	tossed	toss	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:or	MSeg=toss-ed
 9	thee	thee	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj|8:obj	Entity=(35)
 10	here	here	ADV	RB	PronType=Dem	3	advmod	3:advmod	Entity=(37
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_
@@ -1480,20 +1480,20 @@
 14	Desolate	Desolate	ADJ	JJ	Degree=Pos	9	amod	9:amod	Discourse=context-circumstance:155->158:1:_
 15	yet	yet	CCONJ	CC	_	17	cc	17:cc	_
 16	all	all	DET	DT	PronType=Tot	17	advmod	17:advmod	_
-17	undaunted	undaunted	ADJ	JJ	Degree=Pos|Polarity=Neg	14	conj	9:amod|14:conj:yet	SpaceAfter=No
+17	undaunted	undaunted	ADJ	JJ	Degree=Pos|Polarity=Neg	14	conj	9:amod|14:conj:yet	MSeg=un-daunt-ed|SpaceAfter=No
 18	,	,	PUNCT	,	_	14	punct	14:punct	_
 19	on	on	ADP	IN	_	22	case	22:case	_
 20	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	22:det	Entity=(37
 21	desert	desert	NOUN	NN	Number=Sing	22	compound	22:compound	_
 22	land	land	NOUN	NN	Number=Sing	8	obl	8:obl:on	Entity=37)
-23	enchanted	enchant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	22:acl	Discourse=elaboration-attribute:156->155:0:_
+23	enchanted	enchant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	22:acl	Discourse=elaboration-attribute:156->155:0:_|MSeg=en-chant-ed
 24	—	—	PUNCT	:	_	22	punct	22:punct	_
 25	On	on	ADP	IN	_	27	case	27:case	Discourse=joint-list_m:157->155:1:_
 26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	27:det	_
 27	home	home	NOUN	NN	Number=Sing	8	obl	8:obl:on	_
 28	by	by	ADP	IN	_	29	case	29:case	_
 29	Horror	horror	NOUN	NN	Number=Sing	30	obl:agent	30:obl:agent	_
-30	haunted	haunt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	acl	27:acl	_
+30	haunted	haunt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	acl	27:acl	MSeg=haunt-ed
 31	—	—	PUNCT	:	_	32	punct	32:punct	_
 32	tell	tell	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	37	ccomp	37:ccomp	Discourse=attribution-positive:158->161:1:_
 33	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	32	iobj	32:iobj	Entity=(2)
@@ -1511,7 +1511,7 @@
 1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	4:reparandum	Discourse=organization-phatic:160->161:0:_
 2	there	there	PRON	EX	PronType=Dem	1	expl	1:expl	_
 3	—	—	PUNCT	:	_	1	punct	1:punct	_
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-There|Discourse=topic-question:161->166:1:_|XML=<hi rend:::"italic"></hi>
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl,Interrogative-Polar-Direct|Discourse=topic-question:161->166:1:_|XML=<hi rend:::"italic"></hi>
 5	there	there	PRON	EX	PronType=Dem	4	expl	4:expl	_
 6	balm	balm	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_
 7	in	in	ADP	IN	_	8	case	8:case	_
@@ -1540,12 +1540,12 @@
 # s_type = decl
 # transition = null
 # text = Quoth the Raven, "Nevermore."
-1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:165->166:0:_
+1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:165->166:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(35
 3	Raven	Raven	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=35)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=restatement-partial:166->147:4:_|SpaceAfter=No
-6	Nevermore	Nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	SpaceAfter=No
+6	Nevermore	nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	MSeg=Never-more|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 8	"	''	PUNCT	''	_	6	punct	6:punct	_
 
@@ -1574,11 +1574,11 @@
 # s_type = frag
 # transition = establishment
 # text = prophet still, if bird or devil!
-1	prophet	prophet	NOUN	NN	Number=Sing	0	root	0:root	Discourse=adversative-concession:170->169:0:_
+1	prophet	prophet	NOUN	NN	Number=Sing	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-Reduced|Discourse=adversative-concession:170->169:0:_
 2	still	still	ADV	RB	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	5:punct	_
 4	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=adversative-concession:171->170:0:_
-5	bird	bird	NOUN	NN	Number=Sing	1	advcl	1:advcl:if	Cxn=Condition-Reduced
+5	bird	bird	NOUN	NN	Number=Sing	1	advcl	1:advcl:if	_
 6	or	or	CCONJ	CC	_	7	cc	7:cc	_
 7	devil	devil	NOUN	NN	Number=Sing	5	conj	1:advcl:if|5:conj:or	SpaceAfter=No
 8	!	!	PUNCT	.	_	1	punct	1:punct	_
@@ -1615,7 +1615,7 @@
 # s_type = imp
 # transition = zero
 # text = Tell this soul with sorrow laden if, within the distant Aidenn, It shall clasp a sainted maiden whom the angels name Lenore —
-1	Tell	tell	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:176->172:1:_
+1	Tell	tell	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|Discourse=same-unit_m:176->172:1:_
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	Entity=(28
 3	soul	soul	NOUN	NN	Number=Sing	1	obj	1:obj	_
 4	with	with	ADP	IN	_	5	case	5:case	Discourse=elaboration-attribute:177->176:0:_
@@ -1630,9 +1630,9 @@
 13	,	,	PUNCT	,	_	12	punct	12:punct	_
 14	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(28)
 15	shall	shall	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
-16	clasp	clasp	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:if	Cxn=Condition-Realistic
+16	clasp	clasp	VERB	VB	VerbForm=Inf	1	advcl	1:advcl:if	_
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	_
-18	sainted	sainted	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
+18	sainted	sainted	ADJ	JJ	Degree=Pos	19	amod	19:amod	MSeg=saint-ed
 19	maiden	maiden	NOUN	NN	Number=Sing	16	obj	16:obj|23:obj	_
 20	whom	who	PRON	WP	PronType=Rel	23	obj	19:ref	Discourse=elaboration-attribute:179->178:0:_
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(10
@@ -1665,12 +1665,12 @@
 # s_type = decl
 # transition = zero
 # text = Quoth the Raven, "Nevermore."
-1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:182->183:0:_
+1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:182->183:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(35
 3	Raven	Raven	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=35)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=ROOT:183:0|SpaceAfter=No
-6	Nevermore	Nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	Entity=(39)|SpaceAfter=No
+6	Nevermore	nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	Entity=(39)|MSeg=Never-more|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 8	"	''	PUNCT	''	_	6	punct	6:punct	_
 
@@ -1688,7 +1688,7 @@
 5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(38)
 6	sign	sign	NOUN	NN	Number=Sing	16	ccomp	16:ccomp	_
 7	of	of	ADP	IN	_	8	case	8:case	Discourse=elaboration-attribute:185->184:0:_
-8	parting	parting	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	SpaceAfter=No
+8	parting	parting	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	MSeg=part-ing|SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	10:punct	_
 10	bird	bird	NOUN	NN	Number=Sing	6	vocative	6:vocative	Discourse=same-unit_m:186->184:1:_
 11	or	or	CCONJ	CC	_	12	cc	12:cc	_
@@ -1698,7 +1698,7 @@
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Discourse=attribution-positive:187->184:2:_|Entity=(2)
 16	shrieked	shriek	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=shriek-ed|SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	18:punct	_
-18	upstarting	upstart	VERB	VBG	VerbForm=Ger	16	advcl	16:advcl	Discourse=mode-manner:188->187:0:_
+18	upstarting	upstart	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	16:advcl	Discourse=mode-manner:188->187:0:_|MSeg=up-start-ing
 19	—	—	PUNCT	:	_	16	punct	16:punct	_
 
 # sent_id = GENTLE_poetry_raven-71
@@ -1718,7 +1718,7 @@
 10-11	Night's	_	_	_	_	_	_	_	_
 10	Night	Night	NOUN	NN	Number=Sing	13	nmod:poss	13:nmod:poss	_
 11	's	's	PART	POS	_	10	case	10:case	_
-12	Plutonian	Plutonian	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+12	Plutonian	Plutonian	ADJ	JJ	Degree=Pos	13	amod	13:amod	MSeg=Plutoni-an
 13	shore	shore	NOUN	NN	Number=Sing	7	conj	2:obl:into|7:conj:and	SpaceAfter=No
 14	!	!	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1737,9 +1737,9 @@
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	_
 10	lie	lie	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	_
-11	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	12	nmod:poss	12:nmod:poss	Discourse=elaboration-attribute:191->190:0:_|Entity=(35)
+11	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	12	nmod:poss	12:nmod:poss	Discourse=elaboration-attribute:191->190:0:_|Entity=(35)
 12	soul	soul	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	_
-13	hath	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
+13	hath	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 14	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	10:acl:relcl	MSeg=spok-en|SpaceAfter=No
 15	!	!	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1750,7 +1750,7 @@
 # text = Leave my loneliness unbroken!
 1	Leave	leave	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=purpose-goal:192->189:1:_
 2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(2)
-3	loneliness	loneliness	NOUN	NN	Number=Sing	1	obj	1:obj|4:nsubj:xsubj	_
+3	loneliness	loneliness	NOUN	NN	Number=Sing	1	obj	1:obj|4:nsubj:xsubj	MSeg=lone-li-ness
 4	unbroken	unbroken	ADJ	JJ	Degree=Pos|Polarity=Neg	1	xcomp	1:xcomp	SpaceAfter=No
 5	!	!	PUNCT	.	_	1	punct	1:punct	_
 
@@ -1774,7 +1774,7 @@
 # transition = continue
 # text = Take thy beak from out my heart, and take thy form from off my door!"
 1	Take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement-partial:194->189:3:_
-2	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(35)
+2	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	3	nmod:poss	3:nmod:poss	Entity=(35)
 3	beak	beak	NOUN	NN	Number=Sing	1	obj	1:obj	_
 4	from	from	ADP	IN	_	7	case	7:case	_
 5	out	out	ADP	RP	_	1	compound:prt	1:compound:prt	_
@@ -1783,7 +1783,7 @@
 8	,	,	PUNCT	,	_	10	punct	10:punct	_
 9	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint-list_m:195->194:0:_
 10	take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and	_
-11	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(35)
+11	thy	thy	PRON	PRP$	Number=Sing|Person=3|PronType=Prs|Style=Arch	12	nmod:poss	12:nmod:poss	Entity=(35)
 12	form	form	NOUN	NN	Number=Sing	10	obj	10:obj	_
 13	from	from	ADP	IN	_	16	case	16:case	_
 14	off	off	ADP	RP	_	10	compound:prt	10:compound:prt	_
@@ -1797,12 +1797,12 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Quoth the Raven, "Nevermore."
-1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:196->197:0:_
+1	Quoth	quoth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=attribution-positive:196->197:0:_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(35
 3	Raven	Raven	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=35)|SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	6:punct	_
 5	"	''	PUNCT	``	_	6	punct	6:punct	Discourse=restatement-partial:197->183:3:_|SpaceAfter=No
-6	Nevermore	Nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	SpaceAfter=No
+6	Nevermore	nevermore	ADV	RB	Degree=Pos	1	ccomp	1:ccomp	MSeg=Never-more|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
 8	"	''	PUNCT	''	_	6	punct	6:punct	_
 
@@ -1818,7 +1818,7 @@
 3	Raven	Raven	NOUN	NN	Number=Sing	10	nsubj	10:nsubj|14:nsubj	Entity=35)|SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	3:punct	_
 5	never	never	ADV	RB	Polarity=Neg	6	advmod	6:advmod	Discourse=elaboration-attribute:199->198:0:_
-6	flitting	flit	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl	SpaceAfter=No
+6	flitting	flit	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	10:advcl	MSeg=flitt-ing|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	6:punct	_
 8	still	still	ADV	RB	Degree=Pos	10	advmod	10:advmod	Discourse=same-unit_m:200->198:1:_
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
@@ -1851,7 +1851,7 @@
 4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	all	all	DET	RB	Degree=Pos|PronType=Tot	7	det:predet	7:det:predet	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
-7	seeming	seeming	NOUN	NN	Number=Sing	4	obj	4:obj	_
+7	seeming	seeming	NOUN	NN	Number=Sing	4	obj	4:obj	MSeg=seem-ing
 8	of	of	ADP	IN	_	10	case	10:case	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	_
 10-11	demon's	_	_	_	_	_	_	_	_
@@ -1859,7 +1859,7 @@
 11	's	's	PART	POS	_	10	case	10:case	_
 12	that	that	PRON	WDT	PronType=Rel	14	nsubj	10:ref	Discourse=elaboration-attribute:203->202:0:_
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
-14	dreaming	dream	VERB	VBG	Tense=Pres|VerbForm=Part	10	acl:relcl	10:acl:relcl	_
+14	dreaming	dream	VERB	VBG	Tense=Pres|VerbForm=Part	10	acl:relcl	10:acl:relcl	MSeg=dream-ing
 
 # sent_id = GENTLE_poetry_raven-79
 # s_prominence = 4
@@ -1871,7 +1871,7 @@
 3	lamp	lamp	NOUN	NN	Number=Sing	5	compound	5:compound	_
 4	-	-	PUNCT	:	_	3	punct	3:punct	_
 5	light	light	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
-6	o'er	over	ADP	IN	_	7	case	7:case	Discourse=elaboration-attribute:205->204:0:_
+6	o'er	over	ADP	IN	Style=Arch	7	case	7:case	Discourse=elaboration-attribute:205->204:0:_
 7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	8:obl:over	Entity=(35)
 8	streaming	stream	VERB	VBG	VerbForm=Ger	5	acl	5:acl	MSeg=stream-ing
 9	throws	throw	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:206->204:1:_|MSeg=throw-s
@@ -1902,8 +1902,8 @@
 13	floor	floor	NOUN	NN	Number=Sing	10	obl	10:obl:on	Entity=7)40)
 14	Shall	shall	AUX	MD	VerbForm=Fin	16	aux	16:aux	Discourse=same-unit_m:209->207:1:_
 15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	16:aux:pass	_
-16	lifted	lift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+16	lifted	lift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=lift-ed
 17	—	—	PUNCT	:	_	18	punct	18:punct	_
-18	nevermore	nevermore	ADV	RB	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
+18	nevermore	nevermore	ADV	RB	Degree=Pos	16	advmod	16:advmod	MSeg=never-more|SpaceAfter=No
 19	!	!	PUNCT	.	_	16	punct	16:punct	_
 

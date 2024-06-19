@@ -12,10 +12,10 @@ proceeds	VVZ	proceed	VVZ	VERB	root	_
 by	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Principle_of_Mathematical_Induction">
-Principle	NP	Principle	NP0	PROPN	obl	_
+Principle	NP	Principle	NP0	PROPN	obl	Princip-le
 of	IN	of	PRF	ADP	case	_
 Mathematical	NP	mathematical	NP0	ADJ	amod	Mathematic-al
-Induction	NP	Induction	NP0	PROPN	nmod	_
+Induction	NP	Induction	NP0	PROPN	nmod	Induct-ion
 </ref>
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -43,7 +43,7 @@ n	NN	n	NN1	NOUN	nmod:npmod	_
 be	VB	be	VBI	AUX	cop	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Proposition">
-proposition	NN	proposition	NN1	NOUN	xcomp	_
+proposition	NN	proposition	NN1	NOUN	xcomp	propos-it-ion
 </ref>
 :	:	:	PUN	PUNCT	punct	_
 Gn	NN	Gn	NN1	NOUN	nsubj:pass	_
@@ -56,7 +56,7 @@ proper	JJ	proper	AJ0	ADJ	amod	_
 vertex	NN	vertex	NN1	NOUN	compound	_
 k	NN	k	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-coloring	NN	coloring	NN1	NOUN	obj	_
+coloring	NN	coloring	NN1	NOUN	obj	color-ing
 </ref>
 such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
@@ -71,7 +71,7 @@ k	NN	k	NN1	NOUN	nsubj	_
 Basis	NN	basis	NN1	NOUN	root	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-Induction	NN	induction	NN1	NOUN	nmod	_
+Induction	NN	induction	NN1	NOUN	nmod	Induct-ion
 </s>
 </head>
 <p>
@@ -81,7 +81,7 @@ P	NN	P	NN1	NOUN	nsubj	_
 r	NN	reter	NN1	NOUN	nmod:npmod	_
 )	)	)	PUR	PUNCT	punct	_
 is	VBZ	be	VBZ	AUX	cop	_
-trivially	RB	trivially	AV0	ADV	advmod	_
+trivially	RB	trivially	AV0	ADV	advmod	trivi-al-ly
 true	JJ	true	AJ0	ADJ	root	_
 for	IN	for	PRP	ADP	case	_
 1	CD	1	CRD	NUM	obl:npmod	_
@@ -115,15 +115,15 @@ our	PP$	our	DPS	PRON	nmod:poss	_
 basis	NN	basis	NN1	NOUN	root	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-induction	NN	induction	NN1	NOUN	nmod	_
+induction	NN	induction	NN1	NOUN	nmod	induct-ion
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <head>
 <s type="frag" transition="zero">
-Induction	NN	induction	NN1	NOUN	compound	_
-Hypothesis	NN	hypothesis	NN1	NOUN	root	_
+Induction	NN	induction	NN1	NOUN	compound	Induct-ion
+Hypothesis	NN	hypothesis	NN1	NOUN	root	Hypothes-is
 </s>
 </head>
 <p>
@@ -150,7 +150,7 @@ r	NN	reter	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 then	RB	then	AV0	ADV	advmod	_
 it	PP	it	PNP	PRON	expl	_
-logically	RB	logically	AV0	ADV	advmod	_
+logically	RB	logically	AV0	ADV	advmod	log-ic-al-ly
 follows	VVZ	follow	VVZ	VERB	ccomp	follow-s
 that	IN/that	that	CJT	SCONJ	mark	_
 P	NN	P	NN1	NOUN	nsubj	_
@@ -171,8 +171,8 @@ this	DT	this	DT0	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 our	PP$	our	DPS	PRON	nmod:poss	_
 <ref target="https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
-induction	NN	induction	NN1	NOUN	compound	_
-hypothesis	NN	hypothesis	NN1	NOUN	root	_
+induction	NN	induction	NN1	NOUN	compound	induct-ion
+hypothesis	NN	hypothesis	NN1	NOUN	root	hypothes-is
 </ref>
 :	:	:	PUN	PUNCT	punct	_
 Gr	NN	Gr	NN1	NOUN	nsubj:pass	_
@@ -185,7 +185,7 @@ proper	JJ	proper	AJ0	ADJ	amod	_
 vertex	NN	vertex	NN1	NOUN	compound	_
 k	NN	k	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-coloring	NN	coloring	NN1	NOUN	obj	_
+coloring	NN	coloring	NN1	NOUN	obj	color-ing
 </ref>
 such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
@@ -213,7 +213,7 @@ proper	JJ	proper	AJ0	ADJ	amod	_
 vertex	NN	vertex	NN1	NOUN	compound	_
 k	NN	k	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-coloring	NN	coloring	NN1	NOUN	obj	_
+coloring	NN	coloring	NN1	NOUN	obj	color-ing
 </ref>
 such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
@@ -225,7 +225,7 @@ k	NN	k	NN1	NOUN	nsubj	_
 </p>
 <head>
 <s type="frag" transition="zero">
-Induction	NN	induction	NN1	NOUN	compound	_
+Induction	NN	induction	NN1	NOUN	compound	Induct-ion
 Step	NN	step	NN1	NOUN	root	_
 </s>
 </head>
@@ -235,7 +235,7 @@ This	DT	this	DT0	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 our	PP$	our	DPS	PRON	nmod:poss	_
 <ref target="https://proofwiki.org/wiki/Definition:Induction_Step">
-induction	NN	induction	NN1	NOUN	compound	_
+induction	NN	induction	NN1	NOUN	compound	induct-ion
 step	NN	step	NN1	NOUN	root	_
 </ref>
 :	:	:	PUN	PUNCT	punct	_
@@ -299,15 +299,15 @@ G′r.	NN	G′r.	NN1	NOUN	appos	_
 By	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Induction_Hypothesis">
-induction	NN	induction	NN1	NOUN	compound	_
-hypothesis	NN	hypothesis	NN1	NOUN	obl	_
+induction	NN	induction	NN1	NOUN	compound	induct-ion
+hypothesis	NN	hypothesis	NN1	NOUN	obl	hypothes-is
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 G′r	NN	G′r	NN1	NOUN	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 five	CD	five	CRD	NUM	nummod	_
 -	HYPH	-	PUN	PUNCT	punct	_
-colorable	JJ	colorable	AJ0	ADJ	root	_
+colorable	JJ	colorable	AJ0	ADJ	root	color-able
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="zero">
@@ -329,7 +329,7 @@ can	MD	can	VM0	AUX	aux	_
 give	VV	give	VVI	VERB	root	_
 x	NN	x	NN1	NOUN	iobj	_
 the	DT	the	AT0	DET	det	_
-missing	JJ	miss	AJ0	ADJ	amod	miss-ing
+missing	JJ	missing	AJ0	ADJ	amod	miss-ing
 color	NN	color	NN1	NOUN	obj	_
 and	CC	and	CJC	CCONJ	cc	_
 thus	RB	thus	AV0	ADV	advmod	_
@@ -379,7 +379,7 @@ y4	NN	y4	NN0	NOUN	conj	_
 and	CC	and	CJC	CCONJ	cc	_
 y5	NN	y5	NN0	NOUN	conj	_
 in	IN	in	PRP	ADP	case	_
-clockwise	JJ	clockwise	AJ0	ADJ	amod	_
+clockwise	JJ	clockwise	AJ0	ADJ	amod	clock-wise
 order	NN	order	NN1	NOUN	obl	_
 around	IN	around	PRP	ADP	case	a-round
 x	NN	x	NN1	NOUN	nmod	_
@@ -425,7 +425,7 @@ subgraph	NN	subgraph	NN1	NOUN	xcomp	_
 </ref>
 of	IN	of	PRF	ADP	case	_
 G′r	NN	G′r	NN1	NOUN	nmod	_
-induced	VVN	induce	VVN	VERB	acl	_
+induced	VVN	induce	VVN	VERB	acl	induc-ed
 by	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 vertices	NNS	vertice	NN2	NOUN	obl:agent	_
@@ -474,7 +474,7 @@ can	MD	can	VM0	AUX	aux	_
 ,	,	,	PUN	PUNCT	punct	_
 then	RB	then	AV0	ADV	advmod	_
 ,	,	,	PUN	PUNCT	punct	_
-interchange	VV	interchange	NN1	VERB	root	_
+interchange	VV	interchange	NN1	VERB	root	inter-change
 the	DT	the	AT0	DET	det	_
 colors	NNS	color	NN2	NOUN	obj	color-s
 c1	NN	c1	NN0	NOUN	dep	_
@@ -531,7 +531,7 @@ H1,3	NN	H1,3	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
-Including	VVG	include	VVG	VERB	advcl	_
+Including	VVG	include	VVG	VERB	advcl	Includ-ing
 the	DT	the	AT0	DET	det	_
 vertex	NN	vertex	NN1	NOUN	obj	_
 x	NN	x	NN1	NOUN	dep	_
@@ -548,7 +548,7 @@ C	NN	C	NN1	NOUN	dep	_
 <s type="decl" transition="smooth-shift">
 Since	IN	since	CJS	SCONJ	mark	_
 we	PP	we	PNP	PRON	nsubj	_
-indexed	VVD	index	VVD	VERB	advcl	_
+indexed	VVD	index	VVD	VERB	advcl	index-ed
 the	DT	the	AT0	DET	det	_
 vertices	NNS	vertice	NN2	NOUN	obj	_
 y1	NN	y1	NN1	NOUN	dep	_
@@ -560,7 +560,7 @@ y3	NN	y3	NN1	NOUN	conj	_
 y4	NN	y4	NN1	NOUN	conj	_
 and	CC	and	CJC	CCONJ	cc	_
 y5	NN	y5	NN1	NOUN	conj	_
-clockwise	NN	clockwise	NN1	NOUN	obl:npmod	_
+clockwise	NN	clockwise	NN1	NOUN	obl:npmod	clock-wise
 ,	,	,	PUN	PUNCT	punct	_
 exactly	RB	exactly	AV0	ADV	advmod	exact-ly
 one	CD	one	CRD	NUM	nsubj	_
@@ -679,9 +679,9 @@ c5	NN	c5	NN0	NOUN	obj	_
 </s>
 <s type="decl" transition="null">
 The	DT	the	AT0	DET	det	_
-dotted	JJ	dotted	AJ0	ADJ	amod	_
+dotted	JJ	dotted	AJ0	ADJ	amod	dott-ed
 lines	NNS	line	NN2	NOUN	nsubj	line-s
-represent	VVP	represent	VVB	VERB	root	re-present
+represent	VVP	represent	VVB	VERB	root	_
 edges	NNS	edge	NN2	NOUN	obj	edge-s
 and	CC	and	CJC	CCONJ	cc	_
 vertices	NNS	vertice	NN2	NOUN	conj	_
@@ -726,17 +726,17 @@ follows	VVZ	follow	VVZ	VERB	conj	follow-s
 by	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Principle_of_Mathematical_Induction">
-Principle	NP	Principle	NP0	PROPN	obl	_
+Principle	NP	Principle	NP0	PROPN	obl	Princip-le
 of	IN	of	PRF	ADP	case	_
 Mathematical	NP	mathematical	NP0	ADJ	amod	Mathematic-al
-Induction	NP	Induction	NP0	PROPN	nmod	_
+Induction	NP	Induction	NP0	PROPN	nmod	Induct-ion
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <p>
 <s type="other" transition="null">
-Therefore	RB	therefore	AV0	ADV	root	_
+Therefore	RB	therefore	AV0	ADV	root	There-fore
 :	:	:	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
@@ -756,7 +756,7 @@ proper	JJ	proper	AJ0	ADJ	amod	_
 vertex	NN	vertex	NN1	NOUN	compound	_
 k	NN	k	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-coloring	NN	coloring	NN1	NOUN	obj	_
+coloring	NN	coloring	NN1	NOUN	obj	color-ing
 </ref>
 such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_

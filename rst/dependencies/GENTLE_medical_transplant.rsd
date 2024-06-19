@@ -3,7 +3,7 @@
 3	The patient is here for followup visit and chemotherapy .	0	_	_	pos1=DT|head_tok=here|head_pos=RB|head_id=33|parent_pos=_|sid=3|stype=decl|len=10|head_func=root|edu_tense=Pres	2	joint-list_m	_	_
 4	CHIEF COMPLAINT :	0	_	_	pos1=JJ|head_tok=complaint|head_pos=NN|head_id=41|parent_pos=_|sid=4|stype=frag|len=3|head_func=root|edu_tense=None|heading=heading	5	organization-heading_r	_	_
 5	The patient is here for followup visit and chemotherapy .	0	_	_	pos1=DT|head_tok=here|head_pos=RB|head_id=46|parent_pos=_|sid=5|stype=decl|len=10|head_func=root|edu_tense=Pres|para=para	0	ROOT	_	_
-6	DIAGNOSES :	1	_	_	pos1=NN|head_tok=diagnosis|head_pos=NN|head_id=53|parent_pos=_|sid=6|stype=frag|len=2|head_func=root|edu_tense=None|heading=heading	7	organization-heading_r	_	_
+6	DIAGNOSES :	1	_	_	pos1=NNS|head_tok=diagnosis|head_pos=NNS|head_id=53|parent_pos=_|sid=6|stype=frag|len=2|head_func=root|edu_tense=None|heading=heading	7	organization-heading_r	_	_
 7	1. Posttransplant lymphoproliferative disorder .	1	_	_	pos1=LS|head_tok=disorder|head_pos=NN|head_id=58|parent_pos=_|sid=7|stype=frag|len=5|head_func=root|edu_tense=None	5	joint-list_m	_	_
 8	2. Chronic renal insufficiency .	0	_	_	pos1=LS|head_tok=insufficiency|head_pos=NN|head_id=63|parent_pos=_|sid=8|stype=frag|len=5|head_func=root|edu_tense=None	7	joint-list_m	_	_
 9	3. Squamous cell carcinoma of the skin .	0	_	_	pos1=LS|head_tok=carcinoma|head_pos=NN|head_id=68|parent_pos=_|sid=9|stype=frag|len=8|head_func=root|edu_tense=None	7	joint-list_m	_	_
@@ -55,7 +55,7 @@
 55	Renal transplant is noted in the right lower quadrant with a scar present .	0	_	_	pos1=JJ|head_tok=note|head_pos=VVN|head_id=417|parent_pos=_|sid=40|stype=decl|len=14|head_func=root|edu_tense=None	54	joint-list_m	_	_
 56	EXTREMITIES :	0	_	_	pos1=NNS|head_tok=extremity|head_pos=NNS|head_id=428|parent_pos=_|sid=41|stype=decl|len=2|head_func=root|edu_tense=None	57	organization-heading_r	_	_
 57	Reveal no edema .	2	_	_	pos1=VV|head_tok=reveal|head_pos=VV|head_id=430|parent_posNNS|sid=41|stype=decl|len=4|head_func=dep|edu_tense=None|subord=LEFT	39	joint-list_m	_	_
-58	LABORATORY DATA :	0	_	_	pos1=NN|head_tok=data|head_pos=NNS|head_id=435|parent_pos=_|sid=42|stype=frag|len=3|head_func=root|edu_tense=None|heading=heading	59	organization-heading_r	_	_
+58	LABORATORY DATA :	0	_	_	pos1=NN|head_tok=datum|head_pos=NNS|head_id=435|parent_pos=_|sid=42|stype=frag|len=3|head_func=root|edu_tense=None|heading=heading	59	organization-heading_r	_	_
 59	CBC from today shows white count of 9.6 with a normal differential , ANC of 7400 , hemoglobin 8.9 , hematocrit 26.5 with an MCV of 109 , and platelet count of 220,000 .	1	_	_	pos1=NP|head_tok=show|head_pos=VVZ|head_id=440|parent_pos=_|sid=43|stype=decl|len=34|head_func=root|edu_tense=Pres|para=para	5	joint-list_m	_	_
 60	ASSESSMENT AND PLAN :	3	_	_	pos1=NN|head_tok=assessment|head_pos=NN|head_id=471|parent_pos=_|sid=44|stype=frag|len=4|head_func=root|edu_tense=None|heading=heading	63	organization-heading_r	_	_
 61	1. Diffuse large B - cell lymphoma	1	_	_	pos1=LS|head_tok=diffuse|head_pos=VV|head_id=476|parent_pos=_|sid=45|stype=frag|len=7|head_func=root|edu_tense=None	63	organization-preparation_r	_	_

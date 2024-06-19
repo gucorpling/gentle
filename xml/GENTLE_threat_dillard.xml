@@ -20,7 +20,7 @@ are	VBP	be	VBB	AUX	aux	_
 planning	VVG	plan	VVG	VERB	csubj	plann-ing
 to	TO	to	TO0	PART	mark	_
 do	VV	do	VDI	VERB	xcomp	_
-abortions	NNS	abortion	NN2	NOUN	obj	_
+abortions	NNS	abortion	NN2	NOUN	obj	abort-ion-s
 at	IN	at	PRP	ADP	case	_
 your	PP$	your	DPS	PRON	nmod:poss	_
 Harry	NP	Harry	NP0	PROPN	compound	_
@@ -31,7 +31,7 @@ location	NN	location	NN1	NOUN	obl	locat-ion
 <s type="decl" transition="continue">
 I	PP	I	PNP	PRON	nsubj	_
 am	VBP	be	VBB	AUX	cop	_
-stunned	JJ	stunned	AJ0	ADJ	root	_
+stunned	JJ	stunned	AJ0	ADJ	root	stunn-ed
 that	IN/that	that	CJT	SCONJ	mark	_
 you	PP	you	PNP	PRON	nsubj	_
 would	MD	would	VM0	AUX	aux	_
@@ -44,7 +44,7 @@ direction	NN	direction	NN1	NOUN	obl	direct-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="zero">
-Fewer	JJR	Few	DT0	ADJ	amod	_
+Fewer	JJR	Few	DT0	ADJ	amod	Few-er
 people	NNS	person	NN0	NOUN	nsubj	_
 than	IN	than	CJS	ADP	case	_
 ever	RB	ever	AV0	ADV	advmod	_
@@ -66,7 +66,7 @@ it	PP	it	PNP	PRON	obl	_
 and	CC	and	CJC	CCONJ	cc	_
 more	JJR	more	DT0	ADJ	amod	_
 Americans	NPS	American	NP0	PROPN	nsubj	America-n-s
-than	IN	than	CJS	SCONJ	mark	_
+than	IN	than	CJS	ADP	case	_
 ever	RB	ever	AV0	ADV	advmod	_
 before	RB	before	AV0	ADV	nmod	_
 are	VBP	be	VBB	AUX	cop	_
@@ -78,7 +78,7 @@ blind	JJ	blind	AJ0	ADJ	amod	_
 eye	NN	eye	NN1	NOUN	obj	_
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-killing	NN	killing	NN1	NOUN	obl	_
+killing	NN	killing	NN1	NOUN	obl	kill-ing
 of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
 baby	NN	baby	NN1	NOUN	nmod	bab-y
@@ -149,7 +149,7 @@ already	RB	already	AV0	ADV	advmod	al-ready
 looking	VVG	look	VVG	VERB	root	look-ing
 into	IN	into	PRP	ADP	case	in-to
 your	PP$	your	DPS	PRON	nmod:poss	_
-background	NN	background	NN1	NOUN	obl	_
+background	NN	background	NN1	NOUN	obl	back-ground
 ,	,	,	PUN	PUNCT	punct	_
 not	RB	not	XX0	PART	advmod	_
 just	RB	just	AV0	ADV	advmod	_
@@ -214,7 +214,7 @@ day	NN	day	NN1	NOUN	advcl	_
 someone	NN	someone	NN1	PRON	nsubj	_
 places	VVZ	place	VVZ	VERB	acl:relcl	place-s
 an	DT	a	AT0	DET	det	_
-explosive	NN	explosive	NN1	NOUN	obj	_
+explosive	NN	explosive	NN1	NOUN	obj	ex-plos-ive
 under	IN	under	PRP	ADP	case	_
 it	PP	it	PNP	PRON	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -223,7 +223,7 @@ it	PP	it	PNP	PRON	obl	_
 People	NNS	person	NN0	NOUN	nsubj	_
 will	MD	will	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	aux	_
-picketing	VVG	picket	VVG	VERB	root	_
+picketing	VVG	picket	VVG	VERB	root	picket-ing
 your	PP$	your	DPS	PRON	nmod:poss	_
 home	NN	home	NN1	NOUN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -254,7 +254,7 @@ Much	RB	much	AV0	ADV	advmod	_
 worse	JJR	bad	AJC	ADJ	root	_
 than	IN	than	CJS	ADP	case	_
 the	DT	the	AT0	DET	det	_
-disciplinary	JJ	disciplinary	AJ0	ADJ	amod	_
+disciplinary	JJ	disciplinary	AJ0	ADJ	amod	disciplin-ary
 actions	NNS	action	NN2	NOUN	obl	act-ion-s
 and	CC	and	CJC	CCONJ	cc	_
 ethical	JJ	ethical	AJ0	ADJ	amod	ethic-al
@@ -295,10 +295,10 @@ other	JJ	other	AJ0	ADJ	amod	_
 hacks	NNS	hack	NN2	NOUN	obl	_
 that	WDT	that	CJT	PRON	nsubj	_
 have	VHP	have	VHB	AUX	aux	_
-stooped	VVN	stoop	VVN	VERB	acl:relcl	_
+stooped	VVN	stoop	VVN	VERB	acl:relcl	stoop-ed
 to	IN	to	PRP	SCONJ	mark	_
 doing	VVG	do	VDG	VERB	advcl	do-ing
-abortions	NNS	abortion	NN2	NOUN	obj	_
+abortions	NNS	abortion	NN2	NOUN	obj	abort-ion-s
 when	WRB	when	CJS	ADV	advmod	_
 they	PP	they	PNP	PRON	nsubj	_
 were	VBD	be	VBD	AUX	cop	_
@@ -317,8 +317,8 @@ You	PP	you	PNP	PRON	nsubj	_
 will	MD	will	VM0	AUX	aux	_
 lose	VV	lose	VVI	VERB	root	_
 your	PP$	your	DPS	PRON	nmod:poss	_
-legitimate	JJ	legitimate	AJ0	ADJ	amod	_
-clientele	NN	clientele	NN1	NOUN	obj	_
+legitimate	JJ	legitimate	AJ0	ADJ	amod	legit-im-ate
+clientele	NN	clientele	NN1	NOUN	obj	client-ele
 ,	,	,	PUN	PUNCT	punct	_
 as	IN	as	CJS	SCONJ	mark	_
 no	DT	no	AT0	DET	det	_
@@ -355,12 +355,12 @@ who	WP	who	PNQ	PRON	nsubj	_
 are	VBP	be	VBB	AUX	cop	_
 willing	JJ	willing	AJ0	ADJ	acl:relcl	will-ing
 to	TO	to	TO0	PART	mark	_
-participate	VV	participate	VVI	VERB	xcomp	participate
+participate	VV	participate	VVI	VERB	xcomp	_
 in	IN	in	PRP	ADP	case	_
 innocent	JJ	innocent	AJ0	ADJ	amod	_
 blood	NN	blood	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-shedding	NN	shedding	NN1	NOUN	obl	_
+shedding	NN	shedding	NN1	NOUN	obl	shedd-ing
 and	CC	and	CJC	CCONJ	cc	_
 wo	MD	will	VM0	AUX	aux	_
 n't	RB	not	XX0	PART	advmod	_
@@ -371,7 +371,7 @@ keep	VV	keep	VVI	VERB	xcomp	_
 the	DT	the	AT0	DET	det	_
 sanitary	JJ	sanitary	AJ0	ADJ	amod	_
 conditions	NNS	condition	NN2	NOUN	obj	condition-s
-necessary	JJ	necessary	AJ0	ADJ	acl	_
+necessary	JJ	necessary	AJ0	ADJ	acl	necess-ary
 to	TO	to	TO0	PART	mark	_
 maintain	VV	maintain	VVI	VERB	advcl	_
 a	DT	a	AT0	DET	det	_
@@ -392,7 +392,7 @@ kind	NN	kind	NN1	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
 rat	NN	rat	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-infested	VVN	infest	VVN	VERB	amod	_
+infested	VVN	infest	VVN	VERB	amod	infest-ed
 ,	,	,	PUN	PUNCT	punct	_
 dirty	JJ	dirty	AJ0	ADJ	amod	dirt-y
 facility	NN	facility	NN1	NOUN	nmod	_
@@ -429,13 +429,13 @@ that	IN/that	that	CJT	SCONJ	mark	_
 you	PP	you	PNP	PRON	nsubj:pass	_
 will	MD	will	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	aux:pass	_
-haunted	VVN	haunt	VVN	VERB	acl	_
+haunted	VVN	haunt	VVN	VERB	acl	haunt-ed
 by	IN	by	PRP	ADP	case	_
 bloody	JJ	bloody	AJ0	ADJ	amod	blood-y
 ,	,	,	PUN	PUNCT	punct	_
-squirming	VVG	squirm	VVG	VERB	amod	_
+squirming	VVG	squirm	VVG	VERB	amod	squirm-ing
 ,	,	,	PUN	PUNCT	punct	_
-dismembered	VVN	dismember	VVN	VERB	amod	_
+dismembered	VVN	dismember	VVN	VERB	amod	dis-member-ed
 babies	NNS	baby	NN2	NOUN	obl:agent	bab-ie-s
 in	IN	in	PRP	ADP	case	_
 your	PP$	your	DPS	PRON	nmod:poss	_
@@ -609,7 +609,7 @@ will	MD	will	VM0	AUX	aux	_
 not	RB	not	XX0	PART	advmod	_
 let	VV	let	VVI	VERB	root	_
 this	DT	this	DT0	DET	det	_
-abomination	NN	abomination	NN1	NOUN	obj	_
+abomination	NN	abomination	NN1	NOUN	obj	abomin-ation
 continue	VV	continue	VVI	VERB	xcomp	_
 without	IN	without	PRP	SCONJ	mark	_
 doing	VVG	do	VDG	VERB	advcl	do-ing
@@ -646,7 +646,7 @@ or	CC	or	CJC	CCONJ	cc	_
 that	IN/that	that	CJT	SCONJ	mark	_
 God	NP	God	NP0	PROPN	nsubj	_
 will	MD	will	VM0	AUX	aux	_
-bring	VV	bring	VVI	VERB	conj	bring
+bring	VV	bring	VVI	VERB	conj	_
 judgment	NN	judgment	NN1	NOUN	obj	judg-ment
 on	IN	on	PRP	ADP	case	_
 you	PP	you	PNP	PRON	obl	_
@@ -709,7 +709,7 @@ this	DT	this	DT0	DET	det	_
 stupid	JJ	stupid	AJ0	ADJ	amod	_
 plan	NN	plan	NN1	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
-yours	PP$	yours	DPS	PRON	nmod	_
+yours	PP	your	PNP	PRON	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">

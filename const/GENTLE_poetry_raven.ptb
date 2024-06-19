@@ -482,7 +482,7 @@
             (, ,)
             (SBAR
               (NP-SBJ (WP what))
-              (S (ADVP-PRD (NN thereat)) (VP (VBZ is))))))
+              (S (ADVP-PRD (RB thereat)) (VP (VBZ is))))))
         (CC and)
         (S (NP (DT this) (NN mystery)) (VP (VB explore)))))
     (: —)))
@@ -670,7 +670,7 @@
     (NP-SBJ (DT the) (NN Raven))
     (, ,)
     (`` ")
-    (ADVP-TMP (RB Nevermore))
+    (ADVP (NNP Nevermore))
     (. .)
     ('' ")))
 
@@ -761,7 +761,7 @@
                                 (PP
                                   (IN as)
                                   (`` ")
-                                  (ADVP-TMP (RB Nevermore)))))))))))))))))
+                                  (ADVP (NNP Nevermore)))))))))))))))))
     (. .)
     ('' ")))
 
@@ -811,7 +811,7 @@
     (IN Till)
     (S
       (NP-SBJ (PRP I))
-      (VP (ADVP (RB scarcely) (RBR more) (IN than)) (VBN muttered)))))
+      (VP (ADVP (RB scarcely) (RBR more) (IN than)) (VBD muttered)))))
 
 (ROOT
   (S
@@ -993,14 +993,14 @@
                       (NN bird))
                     (PP-TMP (IN of) (NP (NN yore))))
                   (VP
-                    (VBN Meant)
+                    (VBD Meant)
                     (PP
                       (IN in)
                       (S-NOM
                         (VP
                           (VBG croaking)
                           (`` ")
-                          (NP (NN Nevermore)))))))))))))
+                          (ADVP-TMP (RB Nevermore)))))))))))))
     (. .)
     ('' ")))
 
@@ -1168,7 +1168,7 @@
     (VP
       (VP (VB quaff) (NP (DT this) (JJ kind) (NN nepenthe)))
       (CC and)
-      (VP (VB forget) (NP (DT this) (JJ lost) (NNP Lenore))))
+      (VP (VB forget) (NP (DT this) (VBN lost) (NNP Lenore))))
     (. !)
     ('' ")))
 

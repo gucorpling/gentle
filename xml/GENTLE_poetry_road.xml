@@ -4,7 +4,7 @@
 <l n="1"/>
 Two	CD	two	CRD	NUM	nummod	_
 roads	NNS	road	NN2	NOUN	nsubj	road-s
-diverged	VVN	diverge	VVN	VERB	root	_
+diverged	VVD	diverge	VVD	VERB	root	diverg-ed
 in	IN	in	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 yellow	JJ	yellow	AJ0	ADJ	amod	_
@@ -44,7 +44,7 @@ it	PP	it	PNP	PRON	nsubj	_
 bent	VVD	bend	VVD	VERB	advcl:relcl	be-n-t
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-undergrowth	NN	undergrowth	NN1	NOUN	obl	_
+undergrowth	NN	undergrowth	NN1	NOUN	obl	under-grow-th
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -166,7 +166,7 @@ with	IN	with	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 sigh	NN	sigh	NN1	NOUN	obl	_
 <l n="17"/>
-Somewhere	RB	somewhere	AV0	ADV	advmod	_
+Somewhere	RB	somewhere	AV0	ADV	advmod	Some-where
 ages	NNS	age	NN2	NOUN	obl:tmod	_
 and	CC	and	CJC	CCONJ	cc	_
 ages	NNS	age	NN2	NOUN	conj	_
@@ -175,7 +175,7 @@ hence	RB	hence	AV0	ADV	advmod	_
 <l n="18"/>
 Two	CD	two	CRD	NUM	nummod	_
 roads	NNS	road	NN2	NOUN	nsubj	road-s
-diverged	VVN	diverge	VVN	VERB	parataxis	_
+diverged	VVD	diverge	VVD	VERB	parataxis	diverg-ed
 in	IN	in	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 wood	NN	wood	NN1	NOUN	obl	_
@@ -189,7 +189,7 @@ took	VVD	take	VVD	VERB	conj	_
 the	DT	the	AT0	DET	det	_
 one	NN	one	NN1	NOUN	obj	_
 less	RBR	less	AV0	ADV	advmod	_
-travelled	VVN	travel	VVN	VERB	acl	_
+travelled	VVN	travel	VVN	VERB	acl	travell-ed
 by	IN	by	PRP	ADP	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 <l n="20"/>

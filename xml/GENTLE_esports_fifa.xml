@@ -18,7 +18,7 @@ first	JJ	first	ORD	ADJ	amod	_
 leg	NN	leg	NN1	NOUN	obl	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
-Champions	NPS	Champion	NP0	PROPN	compound	_
+Champions	NPS	Champion	NP0	PROPN	compound	Champion-s
 League	NP	League	NP0	PROPN	compound	_
 quarter-finals	NNS	quarter-final	NN2	NOUN	nmod	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -149,10 +149,10 @@ na	TO	to	TO0	PART	reparandum	_
 </w>
 start	VV	start	VVI	VERB	xcomp	_
 off	RP	off	AVP	ADP	compound:prt	_
-straightaway	RB	straightaway	AV0	ADV	advmod	_
+straightaway	RB	straightaway	AV0	ADV	advmod	straight-a-way
 with	IN	with	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
-simulated	VVN	simulate	VVN	VERB	amod	_
+simulated	VVN	simulate	VVN	VERB	amod	simulat-ed
 match	NN	match	NN1	NOUN	obl	_
 against	IN	against	PRP	ADP	case	a-gainst
 Benevento	NP	Benevento	NP0	PROPN	nmod	_
@@ -421,7 +421,7 @@ We	PP	we	PNP	PRON	nsubj	_
 have	VHP	have	VHB	VERB	root	_
 Todibo	NP	Todibo	NP0	PROPN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
-Alderweireld	NP	Alderweireld	NP0	PROPN	conj	Alderweireld
+Alderweireld	NP	Alderweireld	NP0	PROPN	conj	_
 in	IN	in	PRP	ADP	case	_
 defense	NN	defense	NN1	NOUN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -461,7 +461,7 @@ next	JJ	next	ORD	ADJ	amod	_
 season	NN	season	NN1	NOUN	obl	_
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-Champions	NPS	Champion	NP0	PROPN	compound	_
+Champions	NPS	Champion	NP0	PROPN	compound	Champion-s
 League	NP	League	NP0	PROPN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -530,7 +530,7 @@ Here	RB	here	AV0	ADV	root	_
 's	VBZ	be	POS	AUX	cop	_
 Paquetá	NP	Paquetá	NP0	PROPN	nsubj	_
 now	RB	now	AV0	ADV	advmod	_
-finding	VVG	find	VVG	VERB	acl	find-ing
+finding	VVG	find	VVG	VERB	advcl	find-ing
 Galano	NP	Galano	NP0	PROPN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
 Galano	NP	Galano	NP0	PROPN	nsubj	_
@@ -714,8 +714,8 @@ uh	UH	uh	ITJ	INTJ	discourse	_
 all	GW	all	DT0	DET	discourse	_
 right	DT	_	NN1	X	goeswith	_
 apparently	RB	apparently	AV0	ADV	advmod	apparent-ly
-Alderweireld	NP	Alderweireld	NP0	PROPN	nsubj	Alderweireld
-clipped	VVD	clip	VVD	VERB	parataxis	_
+Alderweireld	NP	Alderweireld	NP0	PROPN	nsubj	_
+clipped	VVD	clip	VVD	VERB	parataxis	clipp-ed
 Favilli	NP	Favilli	NP0	PROPN	obj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -756,7 +756,7 @@ deep	JJ	deep	AJ0	ADJ	advmod	_
 ,	,	,	PUN	PUNCT	punct	_
 but	CC	but	CJC	CCONJ	cc	_
 uh	UH	uh	ITJ	INTJ	discourse	_
-how	WRB	how	AVQ	ADV	mark	_
+how	WRB	how	AVQ	ADV	advmod	_
 many	JJ	many	DT0	ADJ	amod	_
 times	NNS	time	NN2	NOUN	reparandum	time-s
 how	WRB	how	AVQ	ADV	advmod	_
@@ -807,7 +807,7 @@ I	PP	I	PNP	PRON	nsubj	_
 'm	VBP	be	VBB	AUX	aux	_
 going	VVG	go	VVG	VERB	parataxis	go-ing
 to	TO	to	TO0	PART	mark	_
-release	VV	release	VVI	VERB	xcomp	release
+release	VV	release	VVI	VERB	xcomp	_
 you	PP	you	PNP	PRON	obj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -816,7 +816,7 @@ Welcome	UH	welcome	ITJ	INTJ	root	_
 to	IN	to	PRP	SCONJ	mark	_
 Adam	NP	Adam	NP0	PROPN	nsubj	_
 gets	VVZ	get	VVZ	VERB	advcl	get-s
-frustrated	JJ	frustrated	AJ0	ADJ	xcomp	_
+frustrated	JJ	frustrated	AJ0	ADJ	xcomp	frustrat-ed
 about	IN	about	PRP	SCONJ	mark	_
 losing	VVG	lose	VVG	VERB	advcl	los-ing
 against	IN	against	PRP	ADP	case	a-gainst
@@ -897,7 +897,7 @@ sure	JJ	sure	AJ0	ADJ	obl	_
 </s>
 <s type="multiple" transition="retain">
 No	DT	no	AT0	DET	det	_
-remark	NN	remark	NN1	NOUN	root	re-mark
+remark	NN	remark	NN1	NOUN	root	_
 on	IN	on	PRP	ADP	case	_
 Conti	NP	Conti	NP0	PROPN	nmod	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -998,7 +998,7 @@ objective	NN	objective	NN1	NOUN	nsubj	object-ive
 was	VBD	be	VBD	AUX	cop	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-Champions	NPS	Champion	NP0	PROPN	compound	_
+Champions	NPS	Champion	NP0	PROPN	compound	Champion-s
 League	NP	League	NP0	PROPN	obl	_
 this	DT	this	DT0	DET	det	_
 season	NN	season	NN1	NOUN	obl:tmod	_

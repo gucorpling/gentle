@@ -1,7 +1,7 @@
 <text id="GENTLE_medical_hiv" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-09" dateModified="2022-11-09"  shortTitle="hiv" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2275-HIV%20Followup" speakerCount="0" speakerList="none" title="HIV Followup" type="medical">
 <head rend="bold red">
 <s type="frag" transition="establishment">
-Description	NN	description	NN1	NOUN	root	_
+Description	NN	description	NN1	NOUN	root	Descrip-tion
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -19,7 +19,7 @@ Atripla	NP	Atripla	NP0	PROPN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="other" transition="null">
-Resolving	VVG	resolve	VVG	VERB	root	_
+Resolving	VVG	resolve	VVG	VERB	root	Resolv-ing
 left	JJ	left	AJ0	ADJ	amod	_
 gluteal	JJ	gluteal	AJ0	ADJ	amod	_
 abscess	NN	abscess	NN1	NOUN	obj	_
@@ -39,7 +39,7 @@ therapy	NN	therapy	NN1	NOUN	parataxis	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="frag" transition="null">
-Hypertension	NN	hypertension	NN1	NOUN	root	_
+Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 ,	,	,	PUN	PUNCT	punct	_
 depression	NN	depression	NN1	NOUN	conj	de-press-ion
 ,	,	,	PUN	PUNCT	punct	_
@@ -120,7 +120,7 @@ abscess	NN	abscess	NN1	NOUN	obl	_
 for	IN	for	PRP	ADP	case	_
 which	WDT	which	DTQ	PRON	obl	_
 he	PP	he	PNP	PRON	nsubj	_
-underwent	VVD	undergo	VVD	VERB	acl:relcl	_
+underwent	VVD	undergo	VVD	VERB	acl:relcl	under-went
 <w>
 I	NP	I	NP0	PROPN	obj	_
 &amp;	CC	&amp;	CJC	CCONJ	cc	_
@@ -130,7 +130,7 @@ and	CC	and	CJC	CCONJ	cc	_
 he	PP	he	PNP	PRON	nsubj	_
 has	VHZ	have	VHZ	VERB	conj	ha-s
 newly	RB	newly	AV0	ADV	advmod	new-ly
-diagnosed	VVN	diagnose	VVN	VERB	amod	_
+diagnosed	VVN	diagnose	VVN	VERB	amod	diagnos-ed
 diabetes	NN	diabetes	NN1	NOUN	obj	_
 mellitus	NN	mellitus	NN1	NOUN	flat	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -142,7 +142,7 @@ has	VHZ	have	VHZ	VERB	root	ha-s
 a	DT	a	AT0	DET	det	_
 history	NN	history	NN1	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
-hypertension	NN	hypertension	NN1	NOUN	nmod	_
+hypertension	NN	hypertension	NN1	NOUN	nmod	hyper-tens-ion
 and	CC	and	CJC	CCONJ	cc	_
 hypertriglyceridemia	NN	hypertriglyceridemia	NN1	NOUN	conj	hyper-tri-glycer-id-emia
 .	SENT	.	PUN	PUNCT	punct	_
@@ -153,7 +153,7 @@ had	VHD	have	VHD	AUX	aux	_
 been	VBN	be	VBN	AUX	aux	_
 having	VHG	have	VHG	VERB	root	hav-ing
 increased	VVN	increase	VVN	VERB	amod	increas-ed
-urination	NN	urination	NN1	NOUN	obj	_
+urination	NN	urination	NN1	NOUN	obj	urin-at-ion
 and	CC	and	CJC	CCONJ	cc	_
 thirst	NN	thirst	NN1	NOUN	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -180,7 +180,7 @@ getting	VVG	get	VVG	VERB	conj	gett-ing
 treatment	NN	treatment	NN1	NOUN	obj	treat-ment
 for	IN	for	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
-perirectal	JJ	perirectal	AJ0	ADJ	amod	_
+perirectal	JJ	perirectal	AJ0	ADJ	amod	peri-rect-al
 abscess	NN	abscess	NN1	NOUN	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -210,7 +210,7 @@ to	TO	to	TO0	PART	mark	_
 place	VV	place	VVI	VERB	xcomp	_
 him	PP	he	PNP	PRON	obj	_
 on	IN	on	PRP	ADP	case	_
-Glucophage	NP	Glucophage	NP0	PROPN	obl	_
+Glucophage	NP	Glucophage	NP0	PROPN	obl	Gluco-phage
 and	CC	and	CJC	CCONJ	cc	_
 glyburide	NN	glyburide	NN1	NOUN	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -218,21 +218,21 @@ glyburide	NN	glyburide	NN1	NOUN	conj	_
 <s type="decl" transition="continue">
 The	DT	the	AT0	DET	det	_
 patient	NN	patient	NN1	NOUN	nsubj	_
-reports	VVZ	report	VVZ	VERB	root	re-port-s
+reports	VVZ	report	VVZ	VERB	root	report-s
 that	IN/that	that	CJT	SCONJ	mark	_
 he	PP	he	PNP	PRON	nsubj	_
 has	VHZ	have	VHZ	AUX	aux	ha-s
 been	VBN	be	VBN	AUX	aux	_
 taking	VVG	take	VVG	VERB	ccomp	tak-ing
 the	DT	the	AT0	DET	det	_
-medication	NN	medication	NN1	NOUN	obj	_
+medication	NN	medication	NN1	NOUN	obj	med-ic-at-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
 He	PP	he	PNP	PRON	nsubj:outer	_
 is	VBZ	be	VBZ	AUX	cop	_
 in	IN	in	PRP	ADP	case	_
-general	JJ	general	AJ0	ADJ	obl	general
+general	JJ	general	AJ0	ADJ	obl	_
 feeling	VVG	feel	VVG	VERB	root	feel-ing
 better	RBR	well	AV0	ADV	xcomp	bett-er
 .	SENT	.	PUN	PUNCT	punct	_
@@ -261,7 +261,7 @@ today	NN	today	NN1	NOUN	obl:tmod	to-day
 <head rend="bold red caps">
 <s type="frag" transition="zero">
 CURRENT	JJ	current	AJ0	ADJ	amod	_
-MEDICATIONS	NNS	medication	NN2	NOUN	root	_
+MEDICATIONS	NNS	medication	NN2	NOUN	root	MED-IC-AT-ION-S
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -395,7 +395,7 @@ systems	NNS	system	NN2	NOUN	nmod	system-s
 <head rend="bold red caps">
 <s type="frag" transition="zero">
 PHYSICAL	JJ	physical	AJ0	ADJ	amod	_
-EXAMINATION	NN	examination	NN1	NOUN	root	_
+EXAMINATION	NN	examination	NN1	NOUN	root	EXAMIN-ATION
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -406,7 +406,7 @@ VITAL	JJ	vital	AJ0	ADJ	amod	_
 SIGNS	NNS	sign	NN2	NOUN	dep	_
 :	:	:	PUN	PUNCT	punct	_
 </hi>
-Temperature	NN	temperature	NN1	NOUN	nsubj	_
+Temperature	NN	temperature	NN1	NOUN	nsubj	Temperat-ure
 36.6	CD	36.6	CRD	NUM	root	_
 ,	,	,	PUN	PUNCT	punct	_
 blood	NN	blood	NN1	NOUN	compound	_
@@ -420,7 +420,7 @@ pressure	NN	pressure	NN1	NOUN	nsubj	_
 pulse	NN	pulse	NN1	NOUN	nsubj	_
 123	CD	123	CRD	NUM	conj	_
 ,	,	,	PUN	PUNCT	punct	_
-respirations	NNS	respiration	NN2	NOUN	nsubj	_
+respirations	NNS	respiration	NN2	NOUN	nsubj	respir-at-ion-s
 20	CD	20	CRD	NUM	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -470,9 +470,9 @@ LUNGS	NNS	lung	NN2	NOUN	dep	_
 </hi>
 Clear	JJ	clear	AJ0	ADJ	root	_
 to	IN	to	PRP	ADP	case	_
-auscultation	NN	auscultation	NN1	NOUN	obl	_
+auscultation	NN	auscultation	NN1	NOUN	obl	auscultat-ion
 and	CC	and	CJC	CCONJ	cc	_
-percussion	NN	percussion	NN1	NOUN	conj	_
+percussion	NN	percussion	NN1	NOUN	conj	percuss-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="other" transition="null">
@@ -500,23 +500,23 @@ ABDOMEN	NN	abdomen	NN1	NOUN	dep	_
 </hi>
 Soft	JJ	soft	AJ0	ADJ	root	_
 and	CC	and	CJC	CCONJ	cc	_
-nontender	NN	nontender	NN1	NOUN	conj	_
+nontender	NN	nontender	NN1	NOUN	conj	non-tender
 without	IN	without	PRP	ADP	case	_
-organomegaly	NN	organomegaly	NN1	NOUN	obl	_
+organomegaly	NN	organomegaly	NN1	NOUN	obl	organo-mega-ly
 or	CC	or	CJC	CCONJ	cc	_
 mass	NN	mass	NN1	NOUN	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="other" transition="null">
 <hi rend="caps">
-EXTREMITIES	NNS	extremity	NN2	NOUN	nsubj	_
+EXTREMITIES	NNS	extremity	NN2	NOUN	nsubj	EXTREMIT-IES
 :	:	:	PUN	PUNCT	punct	_
 </hi>
 Show	VVP	show	VVB	VERB	root	_
 no	DT	no	AT0	DET	det	_
 cyanosis	NN	cyanosis	NN1	NOUN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
-clubbing	NN	clubbing	NN1	NOUN	conj	_
+clubbing	NN	clubbing	NN1	NOUN	conj	clubb-ing
 or	CC	or	CJC	CCONJ	cc	_
 edema	NN	edema	NN1	NOUN	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -526,7 +526,7 @@ edema	NN	edema	NN1	NOUN	conj	_
 GU	JJ	GU	AJ0	ADJ	dep	_
 :	:	:	PUN	PUNCT	punct	_
 </hi>
-Examination	NN	examination	NN1	NOUN	nsubj	_
+Examination	NN	examination	NN1	NOUN	nsubj	Examin-ation
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 perineum	NN	perineum	NN1	NOUN	nmod	_
@@ -535,19 +535,19 @@ an	DT	a	AT0	DET	det	_
 open	JJ	open	AJ0	ADJ	amod	_
 left	JJ	left	AJ0	ADJ	amod	_
 gluteal	JJ	gluteal	AJ0	ADJ	amod	_
-wound	NN	wind	NN1	NOUN	obj	_
+wound	NN	wound	NN1	NOUN	obj	_
 that	WDT	that	CJT	PRON	nsubj	_
 appears	VVZ	appear	VVZ	VERB	acl:relcl	appear-s
 clear	JJ	clear	AJ0	ADJ	xcomp	_
 with	IN	with	PRP	ADP	case	_
 no	DT	no	AT0	DET	det	_
-secretions	NNS	secretion	NN2	NOUN	obl	_
+secretions	NNS	secretion	NN2	NOUN	obl	secret-ion-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <head rend="bold red caps">
 <s type="frag" transition="null">
-IMPRESSION	NN	impression	NN1	NOUN	root	_
+IMPRESSION	NN	impression	NN1	NOUN	root	IMPRESS-ION
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -570,7 +570,7 @@ Atripla	NP	Atripla	NP0	PROPN	nmod	_
 <item n="2">
 <s type="ger" transition="null">
 2.	LS	2.	CRD	X	dep	_
-Resolving	VVG	resolve	VVG	VERB	amod	_
+Resolving	VVG	resolve	VVG	VERB	amod	Resolv-ing
 left	JJ	left	AJ0	ADJ	amod	_
 gluteal	JJ	gluteal	AJ0	ADJ	amod	_
 abscess	NN	abscess	NN1	NOUN	root	_
@@ -596,14 +596,14 @@ therapy	NN	therapy	NN1	NOUN	nmod	_
 <item n="4">
 <s type="frag" transition="null">
 4.	LS	4.	CRD	X	dep	_
-Hypertension	NN	hypertension	NN1	NOUN	root	_
+Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="5">
 <s type="frag" transition="null">
 5.	LS	5.	CRD	X	dep	_
-Depression	NN	depression	NN1	NOUN	root	_
+Depression	NN	depression	NN1	NOUN	root	Depress-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
@@ -634,7 +634,7 @@ will	MD	will	VM0	AUX	aux	_
 continue	VV	continue	VVI	VERB	root	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 current	JJ	current	AJ0	ADJ	amod	_
-medications	NNS	medication	NN2	NOUN	obj	_
+medications	NNS	medication	NN2	NOUN	obj	med-ic-at-ion-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -660,7 +660,7 @@ him	PP	he	PNP	PRON	obj	_
 a	DT	a	AT0	DET	det	_
 few	JJ	few	DT0	ADJ	amod	_
 weeks	NNS	week	NN2	NOUN	obl:tmod	week-s
-thereafter	RB	thereafter	AV0	ADV	advmod	_
+thereafter	RB	thereafter	AV0	ADV	advmod	there-after
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">

@@ -29,7 +29,7 @@ Ourselves	PP	ourselves	PNP	PRON	obj	_
 —	:	—	AJ0	PUNCT	punct	_
 <l n="4"/>
 And	CC	and	CJC	CCONJ	cc	_
-Immortality	NN	immortality	NN1	NOUN	conj	_
+Immortality	NN	immortality	NN1	NOUN	conj	Im-mort-al-ity
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -97,7 +97,7 @@ passed	VVD	pass	VVD	VERB	root	pass-ed
 the	DT	the	AT0	DET	det	_
 Fields	NNS	field	NN2	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
-Gazing	VVG	gaze	VVG	VERB	amod	_
+Gazing	VVG	gaze	VVG	VERB	amod	Gaz-ing
 Grain	NP	Grain	NP0	PROPN	nmod	_
 —	:	—	UNC	PUNCT	punct	_
 </s>
@@ -106,7 +106,7 @@ Grain	NP	Grain	NP0	PROPN	nmod	_
 We	PP	we	PNP	PRON	nsubj	_
 passed	VVD	pass	VVD	VERB	root	pass-ed
 the	DT	the	AT0	DET	det	_
-Setting	VVG	set	VVG	VERB	amod	_
+Setting	VVG	set	VVG	VERB	amod	Sett-ing
 Sun	NP	Sun	NP0	PROPN	obj	_
 —	:	—	UNC	PUNCT	punct	_
 </s>
@@ -127,7 +127,7 @@ Us	PP	we	PNP	PRON	obj	_
 The	DT	the	AT0	DET	det	_
 Dews	NNS	dew	NN2	NOUN	nsubj	_
 drew	VVD	draw	VVD	VERB	root	_
-quivering	VVG	quiver	VVG	VERB	xcomp	_
+quivering	VVG	quiver	VVG	VERB	xcomp	quiver-ing
 and	CC	and	CJC	CCONJ	cc	_
 chill	NN	chill	NN1	NOUN	conj	ch-ill
 —	:	—	AJ0	PUNCT	punct	_
@@ -162,7 +162,7 @@ that	WDT	that	CJT	PRON	nsubj	_
 seemed	VVD	seem	VVD	VERB	acl:relcl	seem-ed
 <l n="18"/>
 A	DT	a	AT0	DET	det	_
-Swelling	NN	swelling	NN1	NOUN	xcomp	_
+Swelling	NN	swelling	NN1	NOUN	xcomp	Swell-ing
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Ground	NP	Ground	NP0	PROPN	nmod	_
@@ -211,7 +211,7 @@ Day	NN	day	NN1	NOUN	obl	_
 <l n="23"/>
 I	PP	I	PNP	PRON	nsubj	_
 first	RB	first	ORD	ADV	advmod	_
-surmised	VVD	surmise	VVD	VERB	acl:relcl	_
+surmised	VVD	surmise	VVD	VERB	acl:relcl	surmis-ed
 the	DT	the	AT0	DET	det	_
 Horses	NNS	horse	NN2	NOUN	nmod:poss	_
 '	POS	's	POS	PART	case	_

@@ -9,7 +9,7 @@ CSCI-4470-01	NP	CSCI-4470-01	NP0	PROPN	root	_
 Open	NP	Open	NP0	ADJ	amod	_
 Source	NP	Source	NP0	PROPN	compound	_
 Software	NP	Software	NP0	PROPN	root	_
-Spring	NN	spring	NN1	NOUN	compound	Spring
+Spring	NN	spring	NN1	NOUN	compound	_
 Semester	NN	semester	NN1	NOUN	nmod:tmod	_
 <date when="2022">
 2022	CD	2022	CRD	NUM	nmod:tmod	_
@@ -51,7 +51,7 @@ and	CC	and	CJC	CCONJ	cc	_
 then	RB	then	AV0	ADV	advmod	_
 by	IN	by	PRP	ADP	case	_
 Mukkai	NP	Mukkai	NP0	PROPN	conj	_
-Krishnamoorthy	NP	Krishnamoorthy	NP0	PROPN	flat	Krishnamoorthy
+Krishnamoorthy	NP	Krishnamoorthy	NP0	PROPN	flat	_
 as	IN	as	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 <date when="2000">
@@ -105,7 +105,7 @@ https://github.com/rcos/CSCI-4470-OpenSource	NP	https://github.com/rcos/CSCI-447
 </p>
 <head>
 <s type="frag" transition="zero">
-Licensing	NN	licensing	NN1	NOUN	root	_
+Licensing	NN	licensing	NN1	NOUN	root	Licens-ing
 And	CC	and	CJC	CCONJ	cc	_
 Credit	NN	credit	NN1	NOUN	conj	_
 </s>
@@ -113,7 +113,7 @@ Credit	NN	credit	NN1	NOUN	conj	_
 <list type="unordered">
 <item>
 <s type="other" transition="null">
-Licensed	VVN	license	VVN	VERB	root	_
+Licensed	VVN	license	VVN	VERB	root	Licens-ed
 under	IN	under	PRP	ADP	case	_
 :	:	:	PUN	PUNCT	punct	_
 CC	NP	CC	NP0	PROPN	obl	_
@@ -134,7 +134,7 @@ Lecture	NN	lecture	NN1	NOUN	compound	_
 Slides	NNS	slide	NN2	NOUN	nsubj	_
 have	VHP	have	VHB	AUX	aux	_
 greatly	RB	greatly	AV0	ADV	advmod	great-ly
-benefited	VVN	benefit	VVN	VERB	root	_
+benefited	VVN	benefit	VVN	VERB	root	benef-it-ed
 from	IN	from	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 previous	JJ	previous	AJ0	ADJ	amod	_
@@ -159,9 +159,9 @@ And	CC	and	CJC	CCONJ	cc	_
 by	IN	by	PRP	ADP	case	_
 Professor	NP	Professor	NP0	PROPN	root	Profess-or
 Mukkai	NP	Mukkai	NP0	PROPN	flat	_
-Krishnamoorthy	NP	Krishnamoorthy	NP0	PROPN	flat	Krishnamoorthy
+Krishnamoorthy	NP	Krishnamoorthy	NP0	PROPN	flat	_
 who	WP	who	PNQ	PRON	nsubj	_
-succeeded	VVD	succeed	VVD	VERB	acl:relcl	_
+succeeded	VVD	succeed	VVD	VERB	acl:relcl	succeed-ed
 them	PP	they	PNP	PRON	obj	_
 in	IN	in	PRP	SCONJ	mark	_
 teaching	VVG	teach	VVG	VERB	advcl	teach-ing
@@ -298,7 +298,7 @@ TAs	UH	tas	ITJ	INTJ	root	_
 </head>
 <p>
 <s type="frag" transition="null">
-Mohammed	NP	Mohammed	NP0	PROPN	root	Mohammed
+Mohammed	NP	Mohammed	NP0	PROPN	root	_
 Shahid	NP	Shahid	NP0	PROPN	flat	_
 Modi	NP	Modi	NP0	PROPN	flat	_
 </s>
@@ -442,9 +442,9 @@ Sage	NP	Sage	NP0	PROPN	obl	_
 5510	CD	5510	CRD	NUM	dep	_
 </hi>
 on	IN	on	PRP	ADP	case	_
-Tuesdays	JJ	Tuesday	AJ0	ADJ	obl	_
+Tuesdays	NPS	Tuesday	NP0	PROPN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
-Fridays	NNS	friday	NN2	NOUN	conj	_
+Fridays	NPS	Friday	NP0	PROPN	conj	_
 from	IN	from	PRP	ADP	case	_
 <time when="22:30">
 10:30	CD	10:30	CRD	NUM	obl	_
@@ -498,7 +498,7 @@ Prof.	NP	Prof.	NP0	PROPN	obj	_
 Turner	NP	Turner	NP0	PROPN	flat	Turn-er
 and	CC	and	CJC	CCONJ	cc	_
 make	VV	make	VVB	VERB	conj	_
-alternate	JJ	alternate	AJ0	ADJ	amod	_
+alternate	JJ	alternate	AJ0	ADJ	amod	alter-nate
 arrangements	NNS	arrangement	NN2	NOUN	obj	arrange-ment-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -525,7 +525,7 @@ not	RB	not	XX0	PART	advmod	_
 use	VV	use	VVI	VERB	root	_
 the	DT	the	AT0	DET	det	_
 RPI	NP	RPI	NP0	PROPN	compound	_
-Blackboard	NP	Blackboard	NP0	PROPN	compound	_
+Blackboard	NP	Blackboard	NP0	PROPN	compound	Black-board
 LMS	NN	LMS	NN1	NOUN	obj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -545,7 +545,7 @@ tool	NN	tool	NN1	NOUN	appos	_
 developed	VVN	develop	VVN	VERB	acl	develop-ed
 as	IN	as	PRP	ADP	case	_
 an	DT	a	AT0	DET	det	_
-opensource	NN	opensource	NN1	NOUN	compound	_
+opensource	NN	opensource	NN1	NOUN	compound	open-source
 project	NN	project	NN1	NOUN	obl	_
 under	IN	under	PRP	ADP	case	_
 <hi rend="bold">
@@ -555,7 +555,7 @@ and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
 creative	JJ	creative	AJ0	ADJ	amod	creat-ive
 and	CC	and	CJC	CCONJ	cc	_
-technical	JJ	technical	AJ0	ADJ	conj	_
+technical	JJ	technical	AJ0	ADJ	conj	techn-ic-al
 auspices	NNS	auspice	NN2	NOUN	conj	_
 of	IN	of	PRF	ADP	case	_
 Prof.	NP	Prof.	NP0	PROPN	nmod	_
@@ -611,7 +611,7 @@ Class	NN	class	NN1	NOUN	nmod	_
 <list type="unordered">
 <item>
 <s type="inf" transition="null">
-Familiarize	VV	familiarize	AJ0	VERB	root	_
+Familiarize	VV	familiarize	AJ0	VERB	root	Familiar-ize
 students	NNS	student	NN2	NOUN	obj	stud-ent-s
 with	IN	with	PRP	ADP	case	_
 open	JJ	open	AJ0	ADJ	amod	_
@@ -779,7 +779,7 @@ of	IN	of	PRF	ADP	case	_
 community	NN	community	NN1	NOUN	nmod	commun-ity
 in	IN	in	PRP	SCONJ	mark	_
 generating	VVG	generate	VVG	VERB	acl	generat-ing
-understanding	NN	understand	NN1	NOUN	obj	under-stand-ing
+understanding	NN	understanding	NN1	NOUN	obj	under-stand-ing
 of	IN	of	PRF	ADP	case	_
 Open	NP	Open	NP0	ADJ	amod	_
 Source	NP	Source	NP0	PROPN	compound	_
@@ -791,27 +791,27 @@ Community	NP	Community	NP0	PROPN	conj	Commun-ity
 </item>
 <item>
 <s type="inf" transition="establishment">
-Effectively	RB	effectively	AJ0	ADV	advmod	_
+Effectively	RB	effectively	AJ0	ADV	advmod	Effect-ive-ly
 use	VV	use	NN1	VERB	root	_
 and	CC	and	CJC	CCONJ	cc	_
 communicate	VV	communicate	VVB	VERB	conj	communic-ate
 the	DT	the	AT0	DET	det	_
 different	JJ	different	AJ0	ADJ	amod	differ-ent
-varieties	NNS	variety	NN2	NOUN	obj	_
+varieties	NNS	variety	NN2	NOUN	obj	vari-etie-s
 of	IN	of	PRF	ADP	case	_
 Open	NP	Open	NP0	ADJ	amod	_
 Source	NP	Source	NP0	PROPN	compound	_
-Licensing	NN	licensing	NN1	NOUN	nmod	_
+Licensing	NN	licensing	NN1	NOUN	nmod	Licens-ing
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item>
 <s type="inf" transition="continue">
-Effectively	RB	effectively	AV0	ADV	advmod	_
+Effectively	RB	effectively	AV0	ADV	advmod	Effect-ive-ly
 establish	VV	establish	VVB	VERB	root	_
 and	CC	and	CJC	CCONJ	cc	_
 use	VV	use	VVB	VERB	conj	_
-Testing	NN	testing	NN1	NOUN	obj	_
+Testing	NN	testing	NN1	NOUN	obj	Test-ing
 and	CC	and	CJC	CCONJ	cc	_
 Version	NN	version	NN1	NOUN	compound	_
 Control	NN	control	NN1	NOUN	conj	_
@@ -865,7 +865,7 @@ Source	NP	Source	NP0	PROPN	nmod	_
 </item>
 <item>
 <s type="frag" transition="null">
-Licensing	NN	licensing	NN1	NOUN	root	_
+Licensing	NN	licensing	NN1	NOUN	root	Licens-ing
 </s>
 </item>
 </list>
@@ -874,7 +874,7 @@ Licensing	NN	licensing	NN1	NOUN	root	_
 <s type="frag" transition="null">
 2.	LS	2.	CRD	X	dep	_
 Software	NN	software	NN1	NOUN	compound	_
-Management	NN	Management	NN1	NOUN	compound	_
+Management	NN	Management	NN1	NOUN	compound	Manage-ment
 Tools	NNS	tool	NN2	NOUN	root	_
 </s>
 </item>
@@ -902,7 +902,7 @@ Build	NN	build	NN1	NOUN	root	_
 <s type="frag" transition="null">
 Specification	NN	specification	NN1	NOUN	root	Specific-ation
 and	CC	and	CJC	CCONJ	cc	_
-Testing	NN	testing	NN1	NOUN	conj	_
+Testing	NN	testing	NN1	NOUN	conj	Test-ing
 </s>
 </item>
 <item>
@@ -917,29 +917,29 @@ Development	NN	development	NN1	NOUN	root	Develop-ment
 <s type="frag" transition="null">
 3.	LS	3.	CRD	X	dep	_
 Software	NN	software	NN1	NOUN	compound	_
-Development	NNS	development	NN2	NOUN	compound	_
+Development	NNS	development	NN2	NOUN	compound	Develop-ment
 Tools	NNS	tool	NN2	NOUN	root	_
 and	CC	and	CJC	CCONJ	cc	_
-Paradigms	NNS	paradigm	NN2	NOUN	conj	_
+Paradigms	NNS	paradigm	NN2	NOUN	conj	Paradigm-s
 </s>
 </item>
 </list>
 <list type="unordered">
 <item>
 <s type="frag" transition="null">
-Scientific	JJ	scientific	AJ0	ADJ	amod	_
-Computing	NN	computing	NN1	NOUN	root	_
+Scientific	JJ	scientific	AJ0	ADJ	amod	Scient-if-ic
+Computing	NN	computing	NN1	NOUN	root	Comput-ing
 </s>
 </item>
 <item>
 <s type="frag" transition="establishment">
-Statistical	JJ	statistical	AJ0	ADJ	amod	_
-Computing	NN	computing	NN1	NOUN	root	_
+Statistical	JJ	statistical	AJ0	ADJ	amod	Stat-istic-al
+Computing	NN	computing	NN1	NOUN	root	Comput-ing
 </s>
 </item>
 <item>
 <s type="frag" transition="zero">
-Databases	NNS	database	NN2	NOUN	root	_
+Databases	NNS	database	NN2	NOUN	root	Data-base-s
 </s>
 </item>
 </list>
@@ -948,7 +948,7 @@ Databases	NNS	database	NN2	NOUN	root	_
 <s type="frag" transition="null">
 4.	LS	4.	CRD	X	dep	_
 Software	NN	software	NN1	NOUN	compound	_
-Applications	NNS	application	NN2	NOUN	root	_
+Applications	NNS	application	NN2	NOUN	root	Appli-cat-ion-s
 </s>
 </item>
 </list>
@@ -962,14 +962,14 @@ Development	NN	development	NN1	NOUN	root	Develop-ment
 <item>
 <s type="frag" transition="null">
 Cloud	NN	cloud	NN1	NOUN	compound	_
-Computing	NN	computing	NN1	NOUN	compound	_
+Computing	NN	computing	NN1	NOUN	compound	Comput-ing
 Platform	NN	platform	NN1	NOUN	root	_
 </s>
 </item>
 <item>
 <s type="frag" transition="null">
 Mobile	JJ	mobile	AJ0	ADJ	amod	_
-Applications	NNS	application	NN2	NOUN	root	_
+Applications	NNS	application	NN2	NOUN	root	Appli-cat-ion-s
 </s>
 </item>
 </list>
@@ -1002,7 +1002,7 @@ Projects	NNS	project	NN2	NOUN	root	_
 </list>
 <head>
 <s type="ger" transition="null">
-Grading	NN	grading	NN1	NOUN	compound	_
+Grading	NN	grading	NN1	NOUN	compound	Grad-ing
 Criteria	NNS	criterion	NN2	NOUN	root	_
 :	:	:	PUN	PUNCT	punct	_
 </s>
@@ -1109,7 +1109,7 @@ June	NP	June	NP0	PROPN	compound	_
 <head>
 <s type="frag" transition="null">
 Grade	NN	grade	NN1	NOUN	compound	_
-Distribution	NN	distribution	NN1	NOUN	root	_
+Distribution	NN	distribution	NN1	NOUN	root	Dis-tribut-ion
 </s>
 </head>
 <list type="unordered">
@@ -1196,7 +1196,7 @@ D	NP	D	NP0	PROPN	root	_
 </list>
 <head>
 <s type="frag" transition="null">
-Community	NN	Community	NN1	NOUN	root	_
+Community	NN	Community	NN1	NOUN	root	Commun-ity
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -1257,7 +1257,7 @@ Lateness	NN	lateness	NN1	NOUN	root	_
 <p>
 <s type="decl" transition="null">
 Late	JJ	late	AJ0	ADJ	amod	_
-submissions	NNS	submission	NN2	NOUN	nsubj	_
+submissions	NNS	submission	NN2	NOUN	nsubj	submiss-ion-s
 receive	VVP	receive	VVB	VERB	root	_
 a	DT	a	AT0	DET	det	_
 penalty	NN	penalty	NN1	NOUN	obj	_
@@ -1284,7 +1284,7 @@ late	RB	late	AV0	ADV	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Assignments	NNS	Assignment	NN2	NOUN	nsubj:pass	_
+Assignments	NNS	Assignment	NN2	NOUN	nsubj:pass	Assign-ment-s
 are	VBP	be	VBB	AUX	aux:pass	_
 not	RB	not	XX0	PART	advmod	_
 generally	RB	generally	AV0	ADV	advmod	general-ly
@@ -1316,7 +1316,7 @@ expected	VVN	expect	VVN	VERB	root	expect-ed
 </p>
 <head>
 <s type="frag" transition="smooth-shift">
-Attendance	NN	attendance	NN1	NOUN	root	_
+Attendance	NN	attendance	NN1	NOUN	root	Attend-ance
 </s>
 </head>
 <p>
@@ -1332,10 +1332,10 @@ expected	VVN	expect	VVN	VERB	root	expect-ed
 </p>
 <head>
 <s type="frag" transition="zero">
-Missed	VVN	miss	VVN	VERB	amod	_
+Missed	VVN	miss	VVN	VERB	amod	Miss-ed
 exams	NNS	exam	NN2	NOUN	root	exam-s
 or	CC	or	CJC	CCONJ	cc	_
-assignments	NNS	assignment	NN2	NOUN	conj	_
+assignments	NNS	assignment	NN2	NOUN	conj	assign-ment-s
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -1343,7 +1343,7 @@ assignments	NNS	assignment	NN2	NOUN	conj	_
 <s type="decl" transition="null">
 A	DT	a	AT0	DET	det	_
 formal	JJ	formal	AJ0	ADJ	amod	_
-excused	VVN	excuse	VVN	VERB	amod	_
+excused	VVN	excuse	VVN	VERB	amod	excus-ed
 absence	NN	absence	NN1	NOUN	nsubj:pass	abs-ence
 is	VBZ	be	VBZ	AUX	aux:pass	_
 required	VVN	require	VVN	VERB	root	requir-ed
@@ -1352,13 +1352,13 @@ make	VV	make	VVI	VERB	advcl	_
 up	RP	up	AVP	ADP	compound:prt	_
 a	DT	a	AT0	DET	det	_
 missed	VVN	miss	VVN	VERB	amod	miss-ed
-assignment	NN	assignment	NN1	NOUN	obj	_
+assignment	NN	assignment	NN1	NOUN	obj	assign-ment
 or	CC	or	CJC	CCONJ	cc	_
 to	TO	to	TO0	PART	mark	_
 turn	VV	turn	VVI	VERB	conj	_
 in	RP	in	AVP	ADP	compound:prt	_
 an	DT	a	AT0	DET	det	_
-assignment	NN	assignment	NN1	NOUN	obj	_
+assignment	NN	assignment	NN1	NOUN	obj	assign-ment
 after	IN	after	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 due	JJ	due	AJ0	ADJ	compound	_
@@ -1368,7 +1368,7 @@ date	NN	date	NN1	NOUN	obl	_
 </p>
 <head>
 <s type="frag" transition="null">
-Integrity	NN	integrity	NN1	NOUN	root	_
+Integrity	NN	integrity	NN1	NOUN	root	Integr-ity
 </s>
 </head>
 <p>
@@ -1396,11 +1396,11 @@ that	IN/that	that	CJT	SCONJ	mark	_
 teachers	NNS	teacher	NN2	NOUN	nsubj	teach-er-s
 have	VHP	have	VHB	AUX	aux	_
 made	VVN	make	VVN	VERB	ccomp	_
-appropriate	JJ	appropriate	AJ0	ADJ	amod	appropriate
+appropriate	JJ	appropriate	AJ0	ADJ	amod	_
 decisions	NNS	decision	NN2	NOUN	obj	decis-ion-s
 about	IN	about	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-structure	NN	structure	NN1	NOUN	nmod	_
+structure	NN	structure	NN1	NOUN	nmod	struct-ure
 and	CC	and	CJC	CCONJ	cc	_
 content	NN	content	NN1	NOUN	conj	_
 of	IN	of	PRF	ADP	case	_
@@ -1415,7 +1415,7 @@ must	MD	must	VM0	AUX	aux	_
 trust	VV	trust	VVI	VERB	conj	_
 that	IN/that	that	CJT	SCONJ	mark	_
 the	DT	the	AT0	DET	det	_
-assignments	NNS	assignment	NN2	NOUN	nsubj	_
+assignments	NNS	assignment	NN2	NOUN	nsubj	assign-ment-s
 that	WDT	that	CJT	PRON	obj	_
 students	NNS	student	NN2	NOUN	nsubj	stud-ent-s
 turn	VVP	turn	VVB	VERB	acl:relcl	_
@@ -1431,7 +1431,7 @@ that	WDT	that	DT0	PRON	nsubj	_
 violate	VVP	violate	VVB	VERB	acl:relcl	_
 this	DT	this	DT0	DET	det	_
 trust	NN	trust	NN1	NOUN	obj	_
-undermine	VVP	undermine	VVB	VERB	root	_
+undermine	VVP	undermine	VVB	VERB	root	under-mine
 the	DT	the	AT0	DET	det	_
 educational	JJ	educational	AJ0	ADJ	amod	educat-ion-al
 process	NN	process	NN1	NOUN	obj	_
@@ -1478,7 +1478,7 @@ and	CC	and	CJC	CCONJ	cc	_
 Quizzes	NNS	quiz	NN2	NOUN	conj	_
 should	MD	should	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	aux:pass	_
-solved	VVN	solve	VVN	VERB	root	_
+solved	VVN	solve	VVN	VERB	root	solv-ed
 and	CC	and	CJC	CCONJ	cc	_
 written	VVN	write	VVN	VERB	conj	writt-en
 by	IN	by	PRP	ADP	case	_
@@ -1491,7 +1491,7 @@ If	IN	if	CJS	SCONJ	mark	_
 anyone	NN	anyone	NN1	PRON	nsubj:pass	any-one
 is	VBZ	be	VBZ	AUX	aux:pass	_
 caught	VVN	catch	VVN	VERB	advcl	_
-cheating	VVG	cheat	VVG	VERB	advcl	_
+cheating	VVG	cheat	VVG	VERB	advcl	cheat-ing
 ,	,	,	PUN	PUNCT	punct	_
 severe	JJ	severe	AJ0	ADJ	amod	_
 measures	NNS	measure	NN2	NOUN	nsubj:pass	measure-s
@@ -1510,10 +1510,10 @@ the	DT	the	AT0	DET	det	_
 event	NN	event	NN1	NOUN	nsubj:pass	_
 will	MD	will	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	aux:pass	_
-reported	VVN	report	VVN	VERB	conj	re-port-ed
+reported	VVN	report	VVN	VERB	conj	report-ed
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-appropriate	JJ	appropriate	AJ0	ADJ	amod	appropriate
+appropriate	JJ	appropriate	AJ0	ADJ	amod	_
 authorities	NNS	authority	NN2	NOUN	obl	authoritie-s
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -1549,7 +1549,7 @@ various	JJ	various	AJ0	ADJ	amod	_
 forms	NNS	form	NN2	NOUN	obj	form-s
 of	IN	of	PRF	ADP	case	_
 Academic	NP	Academic	NP0	ADJ	amod	_
-Dishonesty	NP	Dishonesty	NP0	PROPN	nmod	_
+Dishonesty	NP	Dishonesty	NP0	PROPN	nmod	Dis-honest-y
 and	CC	and	CJC	CCONJ	cc	_
 you	PP	you	PNP	PRON	nsubj	_
 should	MD	should	VM0	AUX	aux	_
@@ -1562,7 +1562,7 @@ these	DT	this	DT0	PRON	obl	_
 </s>
 <s type="sub" transition="null">
 All	DT	all	DT0	DET	det	_
-assignments	NNS	assignment	NN2	NOUN	nsubj	_
+assignments	NNS	assignment	NN2	NOUN	nsubj	assign-ment-s
 that	WDT	that	CJT	PRON	nsubj:pass	_
 are	VBP	be	VBB	AUX	aux:pass	_
 turned	VVN	turn	VVN	VERB	acl:relcl	turn-ed
@@ -1571,7 +1571,7 @@ for	IN	for	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 grade	NN	grade	NN1	NOUN	obl	_
 must	MD	must	VM0	AUX	aux	_
-represent	VV	represent	VVI	VERB	root	re-present
+represent	VV	represent	VVI	VERB	root	_
 the	DT	the	AT0	DET	det	_
 student	NN	student	NN1	NOUN	nmod:poss	stud-ent
 ’s	POS	's	POS	PART	case	_
@@ -1596,7 +1596,7 @@ a	DT	a	AT0	DET	det	_
 notation	NN	notation	NN1	NOUN	nsubj	_
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-assignment	NN	assignment	NN1	NOUN	nmod	_
+assignment	NN	assignment	NN1	NOUN	nmod	assign-ment
 should	MD	should	VM0	AUX	aux	_
 indicate	VV	indicate	VVI	VERB	root	_
 your	PP$	your	DPS	PRON	nmod:poss	_
@@ -1604,10 +1604,10 @@ collaboration	NN	collaboration	NN1	NOUN	obj	collaborat-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
-Submission	NN	submission	NN1	NOUN	nsubj	_
+Submission	NN	submission	NN1	NOUN	nsubj	Submiss-ion
 of	IN	of	PRF	ADP	case	_
 any	DT	any	DT0	DET	det	_
-assignment	NN	assignment	NN1	NOUN	nmod	_
+assignment	NN	assignment	NN1	NOUN	nmod	assign-ment
 that	WDT	that	CJT	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 in	IN	in	PRP	ADP	case	_
@@ -1627,13 +1627,13 @@ grade	NN	grade	NN1	NOUN	compound	_
 penalty	NN	penalty	NN1	NOUN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
 (2)	LS	(2)	AJ0	X	dep	_
-reporting	VVG	report	VVG	VERB	conj	re-port-ing
+reporting	VVG	report	VVG	VERB	conj	report-ing
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Dean	NP	Dean	NP0	PROPN	obl	_
 of	IN	of	PRF	ADP	case	_
 Academic	NP	Academic	NP0	ADJ	amod	_
-Affairs	NP	Affair	NP0	PROPN	nmod	_
+Affairs	NPS	Affair	NP0	PROPN	nmod	Affair-s
 and	CC	and	CJC	CCONJ	cc	_
 either	CC	either	AV0	CCONJ	cc:preconj	_
 the	DT	the	AT0	DET	det	_
@@ -1702,9 +1702,9 @@ concerning	VVG	concern	VVG	VERB	case	concern-ing
 this	DT	this	DT0	DET	det	_
 policy	NN	policy	NN1	NOUN	nmod	_
 before	IN	before	PRP	SCONJ	mark	_
-submitting	VVG	submit	VVG	VERB	advcl	_
+submitting	VVG	submit	VVG	VERB	advcl	sub-mitt-ing
 an	DT	a	AT0	DET	det	_
-assignment	NN	assignment	NN1	NOUN	obj	_
+assignment	NN	assignment	NN1	NOUN	obj	assign-ment
 ,	,	,	PUN	PUNCT	punct	_
 please	UH	please	ITJ	INTJ	discourse	_
 ask	VV	ask	VVB	VERB	root	_

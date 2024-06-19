@@ -41,7 +41,7 @@ skuːl	NN	skuːl	NN1	NOUN	parataxis	_
 <s type="frag" transition="null">
 Audio	NN	audio	NN1	NOUN	root	_
 (	(	(	PUL	PUNCT	punct	_
-Received	NP	Received	NP0	ADJ	amod	_
+Received	NP	Received	NP0	ADJ	amod	Receiv-ed
 Pronunciation	NP	Pronunciation	NP0	PROPN	parataxis	Pronunc-iation
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -58,7 +58,7 @@ Rhymes	NNS	rhyme	NN2	NOUN	dep	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Etymology	NN	etymology	NN1	NOUN	root	_
+Etymology	NN	etymology	NN1	NOUN	root	Etymo-logy
 1	CD	1	CRD	NUM	dep	_
 </hi>
 </s>
@@ -82,7 +82,7 @@ group	NN	group	NN1	NOUN	appos	_
 of	IN	of	PRF	ADP	case	_
 persons	NNS	person	NN2	NOUN	nmod	person-s
 ,	,	,	PUN	PUNCT	punct	_
-multitude	NN	multitude	NN1	NOUN	conj	_
+multitude	NN	multitude	NN1	NOUN	conj	multi-tude
 ,	,	,	PUN	PUNCT	punct	_
 host	NN	host	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -102,7 +102,7 @@ scole	FW	scole	UNC	X	nmod	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 “	``	''	PUQ	PUNCT	punct	_
-multitude	NN	multitude	NN1	NOUN	appos	_
+multitude	NN	multitude	NN1	NOUN	appos	multi-tude
 ,	,	,	PUN	PUNCT	punct	_
 troop	NN	troop	NN1	NOUN	conj	_
 of	IN	of	PRF	ADP	case	_
@@ -130,7 +130,7 @@ Dutch	NP	Dutch	NP0	PROPN	compound	_
 “	``	''	PUQ	PUNCT	punct	_
 troop	NN	troop	NN1	NOUN	appos	_
 ,	,	,	PUN	PUNCT	punct	_
-multitude	NN	multitude	NN1	NOUN	conj	_
+multitude	NN	multitude	NN1	NOUN	conj	multi-tude
 ”	''	''	PUQ	PUNCT	punct	_
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -176,7 +176,7 @@ schōle	FW	schōle	UNC	X	obl	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 “	``	''	PUQ	PUNCT	punct	_
-multitude	NN	multitude	NN1	NOUN	appos	_
+multitude	NN	multitude	NN1	NOUN	appos	multi-tude
 ,	,	,	PUN	PUNCT	punct	_
 troop	NN	troop	NN1	NOUN	conj	_
 ”	''	''	PUQ	PUNCT	punct	_
@@ -199,7 +199,7 @@ people	NNS	person	NN0	NOUN	nmod	_
 ,	,	,	PUN	PUNCT	punct	_
 host	NN	host	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
-multitude	NN	multitude	NN1	NOUN	conj	_
+multitude	NN	multitude	NN1	NOUN	conj	multi-tude
 ,	,	,	PUN	PUNCT	punct	_
 school	NN	school	NN1	NOUN	conj	_
 of	IN	of	PRF	ADP	case	_
@@ -219,7 +219,7 @@ shoal	NN	shoal	NN1	NOUN	nmod	_
 </p>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Alternative	JJ	alternative	AJ0	ADJ	amod	_
+Alternative	JJ	alternative	AJ0	ADJ	amod	Alternat-ive
 forms	NNS	form	NN2	NOUN	root	form-s
 </hi>
 </s>
@@ -295,7 +295,7 @@ mammals	NNS	mammal	NN2	NOUN	nmod	mamm-al-s
 such	JJ	such	DT0	ADJ	case	_
 as	IN	as	CJS	ADP	fixed	_
 <ref target="https://en.wiktionary.org/wiki/porpoise">
-porpoises	NNS	porpoise	NN2	NOUN	nmod	_
+porpoises	NNS	porpoise	NN2	NOUN	nmod	porpoise-s
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/dolphin">
@@ -313,7 +313,7 @@ whales	NNS	whale	NN2	NOUN	conj	whale-s
 <s type="decl" transition="zero">
 The	DT	the	AT0	DET	det	_
 divers	NNS	diver	NN2	NOUN	nsubj	div-er-s
-encountered	VVD	encounter	VVD	VERB	root	_
+encountered	VVD	encounter	VVD	VERB	root	encounter-ed
 a	DT	a	AT0	DET	det	_
 huge	JJ	huge	AJ0	ADJ	amod	_
 school	NN	school	NN1	NOUN	obj	_
@@ -326,7 +326,7 @@ mackerel	NN	mackerel	NN0	NOUN	nmod	_
 <s type="frag" transition="null">
 A	DT	a	AT0	DET	det	_
 <ref target="https://en.wiktionary.org/wiki/multitude">
-multitude	NN	multitude	NN1	NOUN	root	_
+multitude	NN	multitude	NN1	NOUN	root	multi-tude
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -378,7 +378,7 @@ schools	NNS	school	NN2	NOUN	parataxis	school-s
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="bold">
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	dep	_
+participle	NN	participle	NN1	NOUN	dep	particip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/schooling#English">
 schooling	VVG	school	VVG	VERB	conj	school-ing
@@ -389,10 +389,10 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 past	NN	past	NN1	NOUN	dep	_
 and	CC	and	CJC	CCONJ	cc	_
 past	NN	past	NN1	NOUN	compound	_
-participle	NN	participle	NN1	NOUN	conj	_
+participle	NN	participle	NN1	NOUN	conj	particip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/schooled#English">
-schooled	VVD	school	VVD	VERB	conj	_
+schooled	VVD	school	VVD	VERB	conj	school-ed
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -431,14 +431,14 @@ school	NN	school	NN1	NOUN	obl	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Etymology	NN	etymology	NN1	NOUN	root	_
+Etymology	NN	etymology	NN1	NOUN	root	Etymo-logy
 2	CD	2	CRD	NUM	dep	_
 </hi>
 </s>
 <figure rend="Elementary school">
 <caption>
 <s type="frag" transition="null">
-Elementary	JJ	elementary	AJ0	ADJ	amod	_
+Elementary	JJ	elementary	AJ0	ADJ	amod	Element-ary
 school	NN	school	NN1	NOUN	root	_
 </s>
 </caption>
@@ -496,7 +496,7 @@ scola	FW	scola	UNC	X	conj	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 “	``	''	PUQ	PUNCT	punct	_
-learned	JJ	learned	AJ0	ADJ	amod	_
+learned	JJ	learned	AJ0	ADJ	amod	learn-ed
 discussion	NN	discussion	NN1	NOUN	appos	discuss-ion
 or	CC	or	CJC	CCONJ	cc	_
 dissertation	NN	dissertation	NN1	NOUN	conj	dissertat-ion
@@ -535,7 +535,7 @@ leisure	NN	leisure	NN1	NOUN	conj	_
 conversations	NNS	conversation	NN2	NOUN	conj	convers-ation-s
 and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
-knowledge	NN	knowledge	NN1	NOUN	conj	_
+knowledge	NN	knowledge	NN1	NOUN	conj	know-ledge
 gained	VVN	gain	VVN	VERB	acl	gain-ed
 through	IN	through	PRP	ADP	case	_
 them	PP	they	PNP	PRON	obl	_
@@ -614,7 +614,7 @@ skoalle	FW	skoalle	UNC	X	conj	_
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wikipedia.org/wiki/Saterland_Frisian_language">
-Saterland	NP	Saterland	NP0	PROPN	compound	_
+Saterland	NP	Saterland	NP0	PROPN	compound	Sater-land
 Frisian	NP	Frisian	NP0	PROPN	compound	_
 </ref>
 <ref target="https://en.wiktionary.org/wiki/Skoule#Saterland_Frisian">
@@ -677,7 +677,7 @@ school	NN	school	NN1	NOUN	appos	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="other" transition="null">
-Influenced	VVN	influence	VVN	VERB	root	_
+Influenced	VVN	influence	VVN	VERB	root	Influenc-ed
 in	IN	in	PRP	ADP	case	_
 some	DT	some	DT0	DET	det	_
 senses	NNS	sense	NN2	NOUN	obl	sense-s
@@ -709,7 +709,7 @@ scole	FW	scole	UNC	X	nmod	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 “	``	''	PUQ	PUNCT	punct	_
-multitude	NN	multitude	NN1	NOUN	appos	_
+multitude	NN	multitude	NN1	NOUN	appos	multi-tude
 ,	,	,	PUN	PUNCT	punct	_
 troop	NN	troop	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -729,7 +729,7 @@ school	NN	school	NN1	NOUN	obj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="other" transition="null">
-Related	VVN	relate	VVN	VERB	root	_
+Related	VVN	relate	VVN	VERB	root	Relat-ed
 also	RB	also	AV0	ADV	advmod	_
 to	IN	to	PRP	ADP	case	_
 <ref target="https://en.wikipedia.org/wiki/Old_High_German">
@@ -773,7 +773,7 @@ victory	NN	victory	NN1	NOUN	appos	victor-y
 </s>
 <s type="frag" transition="null">
 <hi rend="bold">
-Alternative	JJ	alternative	AJ0	ADJ	amod	_
+Alternative	JJ	alternative	AJ0	ADJ	amod	Alternat-ive
 forms	NNS	form	NN2	NOUN	root	form-s
 </hi>
 </s>
@@ -796,11 +796,11 @@ Noun	NN	noun	NN1	NOUN	root	_
 school	NN	school	NN1	NOUN	root	_
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#countable">
-countable	JJ	countable	AJ0	ADJ	parataxis	_
+countable	JJ	countable	AJ0	ADJ	parataxis	count-able
 </ref>
 and	CC	and	CJC	CCONJ	cc	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable">
-uncountable	JJ	uncountable	AJ0	ADJ	conj	_
+uncountable	JJ	uncountable	AJ0	ADJ	conj	un-count-able
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 plural	NNS	plural	NN2	NOUN	dep	_
@@ -856,7 +856,7 @@ neighborhood	NN	neighborhood	NN1	NOUN	nmod	neighbor-hood
 </s>
 <s type="decl" transition="null">
 Harvard	NP	Harvard	NP0	PROPN	compound	_
-University	NP	University	NP0	PROPN	nsubj	_
+University	NP	University	NP0	PROPN	nsubj	Univers-ity
 is	VBZ	be	VBZ	AUX	cop	_
 a	DT	a	AT0	DET	det	_
 famous	JJ	famous	AJ0	ADJ	amod	fam-ous
@@ -900,7 +900,7 @@ college	NN	college	NN1	NOUN	parataxis	_
 </ref>
 or	CC	or	CJC	CCONJ	cc	_
 <ref target="https://en.wiktionary.org/wiki/university">
-university	NN	university	NN1	NOUN	conj	_
+university	NN	university	NN1	NOUN	conj	univers-ity
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -934,7 +934,7 @@ Divinity	NN	divinity	NN1	NOUN	nsubj:pass	_
 ,	,	,	PUN	PUNCT	punct	_
 history	NN	history	NN1	NOUN	conj	_
 and	CC	and	CJC	CCONJ	cc	_
-geography	NN	geography	NN1	NOUN	conj	_
+geography	NN	geography	NN1	NOUN	conj	geo-graph-y
 are	VBP	be	VBB	AUX	aux:pass	_
 studied	VVN	study	VVN	VERB	root	studi-ed
 for	IN	for	PRP	ADP	case	_
@@ -981,11 +981,11 @@ area	NN	area	NN1	NOUN	obl	_
 <s type="decl" transition="null">
 We	PP	we	PNP	PRON	nsubj:pass	_
 are	VBP	be	VBB	AUX	aux:pass	_
-enrolled	VVN	enroll	VVN	VERB	root	_
+enrolled	VVN	enroll	VVN	VERB	root	enroll-ed
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 same	JJ	same	DT0	ADJ	amod	_
-university	NN	university	NN1	NOUN	obl	_
+university	NN	university	NN1	NOUN	obl	univers-ity
 ,	,	,	PUN	PUNCT	punct	_
 but	CC	but	CJC	CCONJ	cc	_
 I	PP	I	PNP	PRON	nsubj	_
@@ -1085,11 +1085,11 @@ thought	NN	thought	NN1	NOUN	nmod	_
 </s>
 <s type="decl" transition="null">
 These	DT	this	DT0	DET	det	_
-economists	NNS	economist	NN2	NOUN	nsubj	_
+economists	NNS	economist	NN2	NOUN	nsubj	econom-ist-s
 belong	VVP	belong	VVB	VERB	root	be-long
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-monetarist	JJ	monetarist	AJ0	ADJ	amod	_
+monetarist	JJ	monetarist	AJ0	ADJ	amod	mone-tar-ist
 school	NN	school	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -1133,7 +1133,7 @@ English	JJ	English	AJ0	ADJ	amod	Engl-ish
 universities	NNS	university	NN2	NOUN	nmod	universitie-s
 where	WRB	where	AVQ	ADV	mark	_
 the	DT	the	AT0	DET	det	_
-examinations	NNS	examination	NN2	NOUN	nsubj:pass	_
+examinations	NNS	examination	NN2	NOUN	nsubj:pass	examin-ation-s
 for	IN	for	PRP	ADP	case	_
 degrees	NNS	degree	NN2	NOUN	nmod	degree-s
 and	CC	and	CJC	CCONJ	cc	_
@@ -1157,10 +1157,10 @@ opinion	NN	opinion	NN1	NOUN	nmod	_
 or	CC	or	CJC	CCONJ	cc	_
 practice	NN	practice	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
-sanctioned	VVN	sanction	VVN	VERB	acl	_
+sanctioned	VVN	sanction	VVN	VERB	acl	sanct-ion-ed
 by	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-authority	NN	authority	NN1	NOUN	obl:agent	_
+authority	NN	authority	NN1	NOUN	obl:agent	author-ity
 of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
 particular	JJ	particular	AJ0	ADJ	amod	particul-ar
@@ -1195,7 +1195,7 @@ driving	VVG	drive	VVG	VERB	advcl	driv-ing
 ,	,	,	PUN	PUNCT	punct	_
 cooking	VVG	cook	VVG	VERB	conj	cook-ing
 ,	,	,	PUN	PUNCT	punct	_
-typing	VVG	type	VVG	VERB	conj	_
+typing	VVG	type	VVG	VERB	conj	typ-ing
 ,	,	,	PUN	PUNCT	punct	_
 coding	VVG	code	VVG	VERB	conj	cod-ing
 ,	,	,	PUN	PUNCT	punct	_
@@ -1229,7 +1229,7 @@ college	NN	college	NN1	NOUN	conj	_
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/university">
-university	NN	university	NN1	NOUN	conj	_
+university	NN	university	NN1	NOUN	conj	univers-ity
 </ref>
 </s>
 </item>
@@ -1278,7 +1278,7 @@ school	NN	school	NN1	NOUN	obj	_
 </s>
 <s type="frag" transition="null">
 <hi rend="bold">
-Coordinate	JJ	coordinate	AJ0	ADJ	amod	_
+Coordinate	JJ	coordinate	AJ0	ADJ	amod	Co-ordinate
 terms	NNS	term	NN2	NOUN	root	term-s
 </hi>
 </s>
@@ -1306,11 +1306,11 @@ college	NN	college	NN1	NOUN	conj	_
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/polytechnic">
-polytechnic	NN	polytechnic	NN1	NOUN	conj	_
+polytechnic	NN	polytechnic	NN1	NOUN	conj	poly-techn-ic
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/university">
-university	NN	university	NN1	NOUN	conj	_
+university	NN	university	NN1	NOUN	conj	univers-ity
 </ref>
 </s>
 <s type="frag" transition="null">
@@ -1332,7 +1332,7 @@ schools	NNS	school	NN2	NOUN	parataxis	school-s
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	dep	_
+participle	NN	participle	NN1	NOUN	dep	particip-le
 <ref target="https://en.wiktionary.org/wiki/schooling#English">
 schooling	VVG	school	VVG	VERB	conj	school-ing
 </ref>
@@ -1341,9 +1341,9 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 past	NN	past	NN1	NOUN	dep	_
 and	CC	and	CJC	CCONJ	cc	_
 past	JJ	past	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	conj	_
+participle	NN	participle	NN1	NOUN	conj	particip-le
 <ref target="https://en.wiktionary.org/wiki/schooled#English">
-schooled	VVD	school	VVD	VERB	conj	_
+schooled	VVD	school	VVD	VERB	conj	school-ed
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -1352,7 +1352,7 @@ schooled	VVD	school	VVD	VERB	conj	_
 <s type="inf" transition="zero">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	parataxis	_
+transitive	JJ	transitive	AJ0	ADJ	parataxis	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 To	TO	to	TO0	PART	mark	_
@@ -1387,9 +1387,9 @@ school	NN	school	NN1	NOUN	obl	_
 Many	JJ	many	DT0	ADJ	amod	_
 future	JJ	future	AJ0	ADJ	amod	_
 prime	JJ	prime	AJ0	ADJ	amod	_
-ministers	NNS	minister	NN2	NOUN	nsubj:pass	_
+ministers	NNS	minister	NN2	NOUN	nsubj:pass	minister-s
 were	VBD	be	VBD	AUX	aux:pass	_
-schooled	VVN	school	VVN	VERB	root	_
+schooled	VVN	school	VVN	VERB	root	school-ed
 in	IN	in	PRP	ADP	case	_
 Eton	NP	Eton	NP0	PROPN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -1399,7 +1399,7 @@ Eton	NP	Eton	NP0	PROPN	obl	_
 <s type="inf" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	parataxis	_
+transitive	JJ	transitive	AJ0	ADJ	parataxis	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 To	TO	to	TO0	PART	mark	_
@@ -1407,7 +1407,7 @@ To	TO	to	TO0	PART	mark	_
 defeat	VV	defeat	VVI	VERB	root	_
 </ref>
 <ref target="https://en.wiktionary.org/wiki/emphatically">
-emphatically	RB	emphatically	AV0	ADV	advmod	_
+emphatically	RB	emphatically	AV0	ADV	advmod	emphatic-ally
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 to	TO	to	TO0	PART	mark	_
@@ -1430,7 +1430,7 @@ lesson	NN	lesson	NN1	NOUN	obj	_
 <s type="inf" transition="null">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#transitive">
-transitive	JJ	transitive	AJ0	ADJ	parataxis	_
+transitive	JJ	transitive	AJ0	ADJ	parataxis	transit-ive
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 To	TO	to	TO0	PART	mark	_

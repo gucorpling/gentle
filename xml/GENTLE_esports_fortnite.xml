@@ -47,7 +47,7 @@ everyone	NN	everyone	NN1	PRON	nmod	every-one
 thus	RB	thus	AV0	ADV	advmod	_
 far	RB	far	AV0	ADV	advmod	_
 a	DT	a	AT0	DET	det	_
-commanding	VVG	command	VVG	VERB	amod	_
+commanding	VVG	command	VVG	VERB	amod	command-ing
 lead	NN	lead	NN1	NOUN	parataxis	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -63,7 +63,7 @@ flying	VVG	fly	VVG	VERB	acl	fly-ing
 in	IN	in	PRP	ADP	case	_
 there	RB	there	AV0	ADV	obl	_
 the	DT	the	AT0	DET	det	_
-northeast	JJ	northeast	AJ0	ADJ	amod	_
+northeast	JJ	northeast	AJ0	ADJ	amod	north-east
 corner	NN	corner	NN1	NOUN	obl:npmod	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -108,7 +108,7 @@ rest	NN	rest	NN1	NOUN	conj	_
 </s>
 <s type="frag" transition="establishment">
 Average	JJ	average	AJ0	ADJ	amod	_
-placements	NNS	placement	NN2	NOUN	root	_
+placements	NNS	placement	NN2	NOUN	root	place-ment-s
 thus	RB	thus	AV0	ADV	advmod	_
 far	RB	far	AV0	ADV	advmod	_
 of	IN	of	PRF	ADP	case	_
@@ -118,7 +118,7 @@ Kreo	NP	Kreo	NP0	PROPN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 only	RB	only	AV0	ADV	advmod	_
 8	CD	8	CRD	NUM	nummod	_
-eliminations	NNS	elimination	NN2	NOUN	parataxis	_
+eliminations	NNS	elimination	NN2	NOUN	parataxis	eliminat-ion-s
 but	CC	but	CJC	CCONJ	cc	_
 30	CD	30	CRD	NUM	nummod	_
 points	NNS	point	NN2	NOUN	conj	point-s
@@ -221,15 +221,15 @@ way	NN	way	NN1	NOUN	obl	_
 he	PP	he	PNP	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 from	IN	from	PRP	ADP	case	_
-Pennsylvania	NP	Pennsylvania	NP0	PROPN	root	Pennsylvania
+Pennsylvania	NP	Pennsylvania	NP0	PROPN	root	_
 16	CD	16	CRD	NUM	nummod	_
 year	NN	year	NN1	NOUN	compound	_
 old	JJ	old	AJ0	ADJ	amod	_
 player	NN	player	NN1	NOUN	conj	play-er
 ,	,	,	PUN	PUNCT	punct	_
-Sentinels	NPS	Sentinel	NP0	PROPN	conj	_
+Sentinels	NPS	Sentinel	NP0	PROPN	conj	Sentinel-s
 ,	,	,	PUN	PUNCT	punct	_
-qualified	VVD	qualify	VVD	VERB	conj	_
+qualified	VVD	qualify	VVD	VERB	conj	qual-ifi-ed
 the	DT	the	AT0	DET	det	_
 very	RB	very	AV0	ADV	advmod	_
 first	JJ	first	ORD	ADJ	amod	_
@@ -484,7 +484,7 @@ left	VVN	leave	VVN	VERB	acl	_
 ,	,	,	PUN	PUNCT	punct	_
 will	MD	will	VM0	AUX	aux	_
 get	VV	get	VVI	AUX	aux:pass	_
-solved	VVN	solve	VVN	VERB	parataxis	_
+solved	VVN	solve	VVN	VERB	parataxis	solv-ed
 at	IN	at	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 end	NN	end	NN1	NOUN	obl	_
@@ -520,7 +520,7 @@ just	RB	just	AV0	ADV	advmod	_
 fighting	VVG	fight	VVG	VERB	advcl	fight-ing
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-outskirts	NNS	outskirt	NN2	NOUN	obl	_
+outskirts	NNS	outskirt	NN2	NOUN	obl	out-skirt-s
 of	IN	of	PRF	ADP	case	_
 it	PP	it	PNP	PRON	nmod	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -534,7 +534,7 @@ just	RB	just	AV0	ADV	advmod	_
 kind	NN	kind	NN1	NOUN	advmod	_
 of	IN	of	PRF	ADP	fixed	_
 building	VVG	build	VVG	VERB	root	build-ing
-walling	NN	walling	NN1	NOUN	obj	_
+walling	NN	walling	NN1	NOUN	obj	wall-ing
 against	IN	against	PRP	ADP	case	a-gainst
 any	DT	any	DT0	DET	det	_
 pressure	NN	pressure	NN1	NOUN	obl	_
@@ -575,7 +575,7 @@ this	DT	this	DT0	DET	det	_
 match	NN	match	NN1	NOUN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
 single	JJ	single	AJ0	ADJ	amod	_
-shockwave	NN	shockwave	NN1	NOUN	nsubj	_
+shockwave	NN	shockwave	NN1	NOUN	nsubj	shock-wave
 remaining	VVG	remain	VVG	VERB	parataxis	remain-ing
 ,	,	,	PUN	PUNCT	punct	_
 legendary	JJ	legendary	AJ0	ADJ	amod	legend-ary
@@ -694,7 +694,7 @@ Tfue	NP	Tfue	NP0	PROPN	nsubj	_
 picking	VVG	pick	VVG	VERB	advcl	pick-ing
 up	RP	up	AVP	ADP	compound:prt	_
 in	IN	in	PRP	ADP	case	_
-elimination	NN	elimination	NN1	NOUN	obl	_
+elimination	NN	elimination	NN1	NOUN	obl	eliminat-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="inf" transition="null">
@@ -725,7 +725,7 @@ seconds	NNS	second	NN2	NOUN	obl	second-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Bandaging	VVG	bandage	VVG	VERB	advcl	_
+Bandaging	VVG	bandage	VVG	VERB	advcl	Bandag-ing
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 egg	NN	egg	NN1	NOUN	obl	_
@@ -810,7 +810,7 @@ go	VV	go	VVI	VERB	xcomp	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 wall	NN	wall	NN1	NOUN	obl	_
-.	,	,	PUN	PUNCT	punct	_
+.	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="multiple" transition="null">
 Yes	UH	yes	ITJ	INTJ	discourse	_
@@ -836,7 +836,7 @@ pick	VVP	pick	VVB	VERB	root	_
 up	RP	up	AVP	ADP	compound:prt	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 first	JJ	first	ORD	ADJ	amod	_
-elimination	NN	elimination	NN1	NOUN	obj	_
+elimination	NN	elimination	NN1	NOUN	obj	eliminat-ion
 of	IN	of	PRF	ADP	case	_
 Game	NP	Game	NP0	PROPN	nmod	_
 six	CD	six	CRD	NUM	dep	_
@@ -935,7 +935,7 @@ the	DT	the	AT0	DET	det	_
 top	NN	top	NN1	NOUN	obl	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
-leaderboards	NNS	leaderboard	NN2	NOUN	nmod	_
+leaderboards	NNS	leaderboard	NN2	NOUN	nmod	lead-er-board-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="wh" transition="establishment">
@@ -981,7 +981,7 @@ one	CD	one	CRD	NUM	appos	_
 v.	IN	versus	PRP	ADP	case	_
 one	CD	one	CRD	NUM	nmod	_
 and	CC	and	CJC	CCONJ	cc	_
-angled	VVN	angle	VVN	VERB	conj	_
+angled	VVN	angle	VVN	VERB	conj	angl-ed
 down	RB	down	AVP	ADV	advmod	_
 through	IN	through	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
@@ -1075,12 +1075,12 @@ are	VBP	be	VBB	AUX	aux	_
 you	PP	you	PNP	PRON	nsubj	_
 kidding	VVG	kid	VVG	VERB	parataxis	kidd-ing
 me	PP	I	PNP	PRON	obj	_
-?	,	,	PUN	PUNCT	punct	_
+?	SENT	?	PUN	PUNCT	punct	_
 </s>
 <s type="other" transition="establishment">
 Used	VVD	use	VVD	VERB	root	Us-ed
 the	DT	the	AT0	DET	det	_
-shockwave	NN	shockwave	NN1	NOUN	obj	_
+shockwave	NN	shockwave	NN1	NOUN	obj	shock-wave
 to	TO	to	TO0	PART	mark	_
 get	VV	get	VVI	VERB	advcl	_
 down	IN	down	PRP	ADP	case	_
@@ -1212,7 +1212,7 @@ fights	NNS	fight	NN2	NOUN	obj	_
 by	IN	by	PRP	SCONJ	mark	_
 using	VVG	use	VVG	VERB	advcl	us-ing
 the	DT	the	AT0	DET	det	_
-shockwave	NN	shockwave	NN1	NOUN	obj	_
+shockwave	NN	shockwave	NN1	NOUN	obj	shock-wave
 to	TO	to	TO0	PART	mark	_
 try	VV	try	VVI	VERB	advcl	_
 to	TO	to	TO0	PART	mark	_
@@ -1389,7 +1389,7 @@ track	VV	track	VVI	VERB	conj	_
 down	RP	down	AVP	ADP	compound:prt	_
 the	DT	the	AT0	DET	det	_
 opponent	NN	opponent	NN1	NOUN	obj	_
-underneath	IN	underneath	PRP	ADV	advmod	_
+underneath	IN	underneath	PRP	ADV	advmod	under-neath
 opts	VVZ	opt	VVZ	VERB	parataxis	_
 to	TO	to	TO0	PART	mark	_
 back	VV	back	VVI	VERB	xcomp	_
