@@ -454,8 +454,12 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum"):
 
     no_conn_deped = DepEdit(config_file=utils_abs_path + "non_connectives.ini")
 
-    dev_set = gum_dev
-    test_set = gum_test
+    if "gentle" in corpus.lower():
+        dev_set = []
+        test_set = ["GENTLE_dictionary_next","GENTLE_dictionary_school","GENTLE_dictionary_trust","GENTLE_esports_fifa","GENTLE_esports_fortnite","GENTLE_legal_abortion","GENTLE_legal_service","GENTLE_medical_anemia","GENTLE_medical_hiv","GENTLE_medical_screw","GENTLE_medical_transplant","GENTLE_poetry_annabel","GENTLE_poetry_death","GENTLE_poetry_flower","GENTLE_poetry_raven","GENTLE_poetry_road","GENTLE_proof_five","GENTLE_proof_square","GENTLE_proof_wosets","GENTLE_syllabus_opensource","GENTLE_syllabus_techtonica","GENTLE_threat_bolin","GENTLE_threat_dillard","GENTLE_threat_kelly","GENTLE_threat_malik","GENTLE_threat_white"]
+    else:
+        dev_set = gum_dev
+        test_set = gum_test
 
     corpus = "eng.rst." + corpus
     target_dir = os.path.dirname(os.path.realpath(__file__)) + os.sep + ".." +os.sep + "target" + os.sep

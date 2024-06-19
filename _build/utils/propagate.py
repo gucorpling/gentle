@@ -5,9 +5,14 @@
 # v1.0.2
 
 from glob import glob
-from .nlp_helper import get_claws, adjudicate_claws, ud_morph
-from .add_xml_annotations import add_xml
-from .depedit import DepEdit
+try:
+	from .nlp_helper import get_claws, adjudicate_claws, ud_morph
+	from .add_xml_annotations import add_xml
+	from .depedit import DepEdit
+except:
+	from nlp_helper import get_claws, adjudicate_claws, ud_morph
+	from add_xml_annotations import add_xml
+	from depedit import DepEdit
 import os, re, sys, io
 import ntpath
 from collections import defaultdict, OrderedDict
@@ -202,6 +207,8 @@ def validate_upos(conllu, docname):
 def validate_cxn(conllu, docname):
 	for l, line in enumerate(conllu.split("\n")):
 		if "Cxn=" in line:
+			if line.count("Cxn=") > 1:
+				sys.stderr.write("! WARN: multiple Cxn= entries on line " + str(l) + " in doc " + docname + ": " + line + "\n")
 			misc = line.split("\t")[-1]
 			cxn = [m for m in misc.split("|") if m.startswith("Cxn=")][0]
 			constructions = cxn.split("=")[1].split(",")
