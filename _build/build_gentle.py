@@ -309,10 +309,10 @@ else:
 			if not reddit and "reddit_" in file_:
 				continue
 			files.append(file_)
-		if not os.path.exists(pepper_tmp + out_dir_name + os.sep + "GUM" + os.sep):
-			os.makedirs(pepper_tmp + out_dir_name + os.sep + "GUM" + os.sep)
+		if not os.path.exists(pepper_tmp + out_dir_name + os.sep + corpus_name + os.sep):
+			os.makedirs(pepper_tmp + out_dir_name + os.sep + corpus_name + os.sep)
 		for file_ in files:
-			shutil.copy(file_, pepper_tmp + out_dir_name + os.sep + "GUM" + os.sep)
+			shutil.copy(file_, pepper_tmp + out_dir_name + os.sep + corpus_name + os.sep)
 	if not os.path.exists(gum_target + "coref" + os.sep + "conll" + os.sep):
 		os.makedirs(gum_target + "coref" + os.sep + "conll" + os.sep)
 
@@ -335,7 +335,7 @@ else:
 	meta = io.open(pepper_home + "meta_template.meta", encoding="utf8").read().replace("\r","")
 	meta = meta.replace("**gum_version**",options.increment_version)
 	meta = meta.replace("**build_date**",build_date)
-	meta_out = io.open(pepper_tmp + "xml" + os.sep + "GUM" + os.sep + "GUM.meta",'w')
+	meta_out = io.open(pepper_tmp + "xml" + os.sep + "GENTLE" + os.sep + "GENTLE.meta",'w')
 	meta_out.write(meta)
 	meta_out.close()
 
