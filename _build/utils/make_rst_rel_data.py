@@ -34,17 +34,15 @@ def make_plain(conllu):
     return output
 
 
-outmode = "standoff"
 ellipsis_marker = "<*>"
-if outmode == "standoff":
-    header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks","s2_toks","unit1_sent","unit2_sent","dir", "orig_label","label"]
-else:
-    header = ["doc","start_toks","pre","arg1","mid","arg2","post","dir","label"]
 
 rel_mapping = defaultdict(dict)
 rel_mapping["eng.rst.rstdt"] = {"attribution":"attribution","attribution-e":"attribution","attribution-n":"attribution","attribution-negative":"attribution","background":"background","background-e":"background","circumstance":"background","circumstance-e":"background","cause":"cause","cause-result":"cause","result":"cause","result-e":"cause","consequence":"cause","consequence-n-e":"cause","consequence-n":"cause","consequence-s-e":"cause","consequence-s":"cause","comparison":"comparison","comparison-e":"comparison","preference":"comparison","preference-e":"comparison","analogy":"comparison","analogy-e":"comparison","proportion":"comparison","condition":"condition","condition-e":"condition","hypothetical":"condition","contingency":"condition","otherwise":"condition","contrast":"contrast","concession":"contrast","concession-e":"contrast","antithesis":"contrast","antithesis-e":"contrast","elaboration-additional":"elaboration","elaboration-additional-e":"elaboration","elaboration-general-specific-e":"elaboration","elaboration-general-specific":"elaboration","elaboration-part-whole":"elaboration","elaboration-part-whole-e":"elaboration","elaboration-process-step":"elaboration","elaboration-process-step-e":"elaboration","elaboration-object-attribute-e":"elaboration","elaboration-object-attribute":"elaboration","elaboration-set-member":"elaboration","elaboration-set-member-e":"elaboration","example":"elaboration","example-e":"elaboration","definition":"elaboration","definition-e":"elaboration","purpose":"enablement","purpose-e":"enablement","enablement":"enablement","enablement-e":"enablement","evaluation":"evaluation","evaluation-n":"evaluation","evaluation-s-e":"evaluation","evaluation-s":"evaluation","interpretation-n":"evaluation","interpretation-s-e":"evaluation","interpretation-s":"evaluation","interpretation":"evaluation","conclusion":"evaluation","comment":"evaluation","comment-e":"evaluation","evidence":"explanation","evidence-e":"explanation","explanation-argumentative":"explanation","explanation-argumentative-e":"explanation","reason":"explanation","reason-e":"explanation","list":"joint","disjunction":"joint","manner":"manner-means","manner-e":"manner-means","means":"manner-means","means-e":"manner-means","problem-solution":"topic-comment","problem-solution-n":"topic-comment","problem-solution-s":"topic-comment","question-answer":"topic-comment","question-answer-n":"topic-comment","question-answer-s":"topic-comment","statement-response":"topic-comment","statement-response-n":"topic-comment","statement-response-s":"topic-comment","topic-comment":"topic-comment","comment-topic":"topic-comment","rhetorical-question":"topic-comment","summary":"summary","summary-n":"summary","summary-s":"summary","restatement":"summary","restatement-e":"summary","temporal-before":"temporal","temporal-before-e":"temporal","temporal-after":"temporal","temporal-after-e":"temporal","temporal-same-time":"temporal","temporal-same-time-e":"temporal","sequence":"temporal","inverted-sequence":"temporal","topic-shift":"topic-change","topic-drift":"topic-change","textualorganization":"textual-organization"}
 
-from .propagate import ud_test as gum_test, ud_dev as gum_dev
+try:
+    from .propagate import ud_test as gum_test, ud_dev as gum_dev
+except ImportError:
+    from propagate import ud_test as gum_test, ud_dev as gum_dev
 
 
 def get_rsd(dir_path, chars2toks, toks_by_doc, conll_data, add_missing_tokens=False, reddit=True):
@@ -182,7 +180,19 @@ def format_sent(arg1_sid, sents):
     return " ".join(output)
 
 
-def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.rst.gum"):
+def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", include_secedges=True, outmode="standoff", coarse_rels=False):
+    if outmode == "standoff":
+        header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks", "s2_toks", "unit1_sent",
+                  "unit2_sent", "dir", "orig_label", "label"]
+    elif outmode == "standoff_reltype":
+        header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks", "s2_toks", "unit1_sent",
+                    "unit2_sent", "dir", "rel_type", "orig_label", "label"]
+    elif outmode == "standoff_key":
+        header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks", "s2_toks", "unit1_sent",
+                  "unit2_sent", "dir", "rel_key", "label"]
+    else:
+        header = ["doc", "start_toks", "pre", "arg1", "mid", "arg2", "post", "dir", "label"]
+
     err_docs = set()
     dev = ["\t".join(header)]
     test = ["\t".join(header)]
@@ -215,11 +225,12 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.rst.gum"):
 
         rsd_lines = rsd_data[docname].split("\n")
 
-        parents = {}
+        parents = defaultdict(list)
         texts = {}
         tok_map = {}
         offset = 0
-        rels = {}
+        rels = defaultdict(list)
+        rel_sigtypes = defaultdict(list)
         for line in rsd_lines:
             if "\t" in line:
                 fields = line.split("\t")
@@ -232,16 +243,37 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.rst.gum"):
                 offset += len(text.split())
                 if edu_parent == "0":  # Ignore root
                     continue
-                parents[edu_id] = edu_parent
-                rels[edu_id] = relname
+                parents[edu_id].append(edu_parent)
+                rels[edu_id].append(relname)
+                if 'dm-' in fields[-1]:
+                    rel_sigtypes[edu_id].append("explicit")
+                else:
+                    rel_sigtypes[edu_id].append("implicit")
+                if fields[8] != "_" and include_secedges:
+                    secedges = fields[8].split("|")
+                    for edge in secedges:
+                        sec_parent, sec_rel = edge.split(":")[:2]
+                        parents[edu_id].append(sec_parent)
+                        rels[edu_id].append(sec_rel)
+                        if "orphan-" in edge:
+                            rel_sigtypes[edu_id].append("explicit")  # orphan DM secedge
+                        else:
+                            rel_sigtypes[edu_id].append("implicit")  # e.g. syntactic secedge
+
+        # reattach all children of a parent which is itself same-unit to that parent's primary parent
+        for edu_id in parents:
+            for i, parent in enumerate(parents[edu_id]):
+                if parent in parents:
+                    if any([r.lower().startswith("same") for r in rels[parent]]):
+                        parents[edu_id][i] = parents[parent][0]
 
         same_unit_components = defaultdict(set)
         same_unit_data = {}
         # set up same-unit storage
         for edu_id in parents:
-            if rels[edu_id].lower().startswith("same"):
+            if rels[edu_id][0].lower().startswith("same"):
                 # collect all intervening text inside same-unit children
-                parent = parents[edu_id]
+                parent = parents[edu_id][0]
                 start = int(parent)
                 end = int(edu_id)
                 unit_ids = [str(x) for x in range(start,end+1)]
@@ -259,133 +291,142 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.rst.gum"):
 
         output = []
         for edu_id in parents:
-            if rels[edu_id].lower().startswith("same"):
-                continue  # Skip the actual same-unit relation
-            child_text = texts[edu_id]
-            parent_id = parents[edu_id]
-            if int(edu_id) < int(parent_id):
-                direction = "1>2"
-                arg1_start, arg1_end = tok_map[edu_id]
-                arg2_start, arg2_end = tok_map[parent_id]
-            else:
-                direction = "1<2"
-                arg1_start, arg1_end = tok_map[parent_id]
-                arg2_start, arg2_end = tok_map[edu_id]
-
-            parent_text = texts[parent_id]
-            if parent_id in same_unit_data:
-                start, end, text = same_unit_data[parent_id]
-                if int(edu_id) < start or int(edu_id)> end:
-                    parent_text = text
-                    if int(edu_id) < int(parent_id):
-                        arg2_start, _ = tok_map[str(start)]
-                        _, arg2_end = tok_map[str(end)]
-                    else:
-                        arg1_start, _ = tok_map[str(start)]
-                        _, arg1_end = tok_map[str(end)]
-
-            if edu_id in same_unit_data:
-                start, end, text = same_unit_data[edu_id]
-                if int(parent_id) < start or int(parent_id)> end:
-                    child_text = text
-                    if int(edu_id) < int(parent_id):
-                        arg1_start, _ = tok_map[str(start)]
-                        _, arg1_end = tok_map[str(end)]
-                    else:
-                        arg2_start, _ = tok_map[str(start)]
-                        _, arg2_end = tok_map[str(end)]
-
-            arg1_sid = sent_map[arg1_start]
-            arg2_sid = sent_map[arg2_start]
-
-            s1_start = s_starts[arg1_sid]
-            s1_end = s_ends[arg1_sid]
-            s2_start = s_starts[arg2_sid]
-            s2_end = s_ends[arg2_sid]
-
-            pre = []
-            pre_toks = []
-            arg1 = []
-            arg1_toks = []
-            mid = []
-            mid_toks = []
-            arg2 = []
-            arg2_toks = []
-            post = []
-            post_toks = []
-            for i in sorted(list(set(list(range(s1_start,s1_end+1)) + list(range(s2_start, s2_end+1))))):
-                tok = toks[i]
-                if i < arg1_start:
-                    pre.append(tok)
-                    pre_toks.append(i)
-                elif i >= arg1_start and i <= arg1_end:
-                    arg1.append(tok)
-                    arg1_toks.append(i)
-                elif i > arg1_end and i < arg2_start:
-                    mid.append(tok)
-                    mid_toks.append(i)
-                elif i >= arg2_start and i <= arg2_end:
-                    arg2.append(tok)
-                    arg2_toks.append(i)
+            for i, parent_id in enumerate(parents[edu_id]):
+                rel = rels[edu_id][i]
+                rel_type = rel_sigtypes[edu_id][i]
+                rel_key = edu_id + "-" + parent_id + "-" + rel
+                if rel.lower().startswith("same"):
+                    continue  # Skip the actual same-unit relation
+                child_text = texts[edu_id]
+                if int(edu_id) < int(parent_id):
+                    direction = "1>2"
+                    arg1_start, arg1_end = tok_map[edu_id]
+                    arg2_start, arg2_end = tok_map[parent_id]
                 else:
-                    post.append(tok)
-                    post_toks.append(i)
+                    direction = "1<2"
+                    arg1_start, arg1_end = tok_map[parent_id]
+                    arg2_start, arg2_end = tok_map[edu_id]
 
-            if outmode == "standoff":
-                comp1 = edu_id if int(edu_id) < int(parent_id) else parent_id
-                comp2 = parent_id if int(edu_id) < int(parent_id) else edu_id
-                # Reduce EDUs to minimal span in standoff mode
-                arg1_toks = list(range(tok_map[comp1][0], tok_map[comp1][1]+1))
-                arg2_toks = list(range(tok_map[comp2][0], tok_map[comp2][1]+1))
-                # Add explicit discontinuous spans
-                if comp1 in same_unit_components:
-                    for component in same_unit_components[comp1]:
-                        component_toks = list(range(tok_map[component][0], tok_map[component][1]+1))
-                        arg1_toks += component_toks
-                if comp2 in same_unit_components:
-                    for component in same_unit_components[comp2]:
-                        component_toks = list(range(tok_map[component][0], tok_map[component][1]+1))
-                        arg2_toks += component_toks
-                arg1_txt = format_text(arg1_toks,toks)
-                arg1_sent = format_sent(arg1_sid,sents)
-                arg2_txt = format_text(arg2_toks,toks)
-                arg2_sent = format_sent(arg2_sid,sents)
-                arg1_toks = format_range(arg1_toks)
-                arg2_toks = format_range(arg2_toks)
-                s1_toks = format_range(list(range(s1_start,s1_end+1)))
-                s2_toks = format_range(list(range(s2_start,s2_end+1)))
+                parent_text = texts[parent_id]
+                if parent_id in same_unit_data:
+                    start, end, text = same_unit_data[parent_id]
+                    if int(edu_id) < start or int(edu_id)> end:
+                        parent_text = text
+                        if int(edu_id) < int(parent_id):
+                            arg2_start, _ = tok_map[str(start)]
+                            _, arg2_end = tok_map[str(end)]
+                        else:
+                            arg1_start, _ = tok_map[str(start)]
+                            _, arg1_end = tok_map[str(end)]
 
-                mapped_rel = rels[edu_id]
-                if corpus in rel_mapping:
-                    if mapped_rel in rel_mapping[corpus]:
-                        mapped_rel = rel_mapping[corpus][mapped_rel]
-                    elif mapped_rel.lower() in rel_mapping[corpus]:
-                        mapped_rel = rel_mapping[corpus][mapped_rel.lower()]
+                if edu_id in same_unit_data:
+                    start, end, text = same_unit_data[edu_id]
+                    if int(parent_id) < start or int(parent_id)> end:
+                        child_text = text
+                        if int(edu_id) < int(parent_id):
+                            arg1_start, _ = tok_map[str(start)]
+                            _, arg1_end = tok_map[str(end)]
+                        else:
+                            arg2_start, _ = tok_map[str(start)]
+                            _, arg2_end = tok_map[str(end)]
+
+                arg1_sid = sent_map[arg1_start]
+                arg2_sid = sent_map[arg2_start]
+
+                s1_start = s_starts[arg1_sid]
+                s1_end = s_ends[arg1_sid]
+                s2_start = s_starts[arg2_sid]
+                s2_end = s_ends[arg2_sid]
+
+                pre = []
+                pre_toks = []
+                arg1 = []
+                arg1_toks = []
+                mid = []
+                mid_toks = []
+                arg2 = []
+                arg2_toks = []
+                post = []
+                post_toks = []
+                for i in sorted(list(set(list(range(s1_start,s1_end+1)) + list(range(s2_start, s2_end+1))))):
+                    tok = toks[i]
+                    if i < arg1_start:
+                        pre.append(tok)
+                        pre_toks.append(i)
+                    elif i >= arg2_start and i <= arg2_end:
+                        arg2.append(tok)
+                        arg2_toks.append(i)
+                    elif i >= arg1_start and i <= arg1_end:
+                        arg1.append(tok)
+                        arg1_toks.append(i)
+                    elif i > arg1_end and i < arg2_start:
+                        mid.append(tok)
+                        mid_toks.append(i)
                     else:
-                        if mapped_rel!="ROOT":
-                            #mapped_rel = mapped_rel.lower()
-                            raise IOError("no rel map "+mapped_rel)
-                        elif mapped_rel == "ROOT":
-                            raise IOError("found ROOT entry in " +corpus + ": "+docname)
-                elif "-" in mapped_rel and "same-unit" not in mapped_rel.lower():
-                    mapped_rel = mapped_rel.split("-")[0]
-                if corpus.startswith("fas."):
-                    mapped_rel = mapped_rel.lower()
-                output.append("\t".join([docname,arg1_toks,arg2_toks,arg1_txt,arg2_txt,s1_toks,s2_toks,arg1_sent,arg2_sent,direction,rels[edu_id],mapped_rel]))
-            else:
-                pre = " ".join(pre) if len(pre) > 0 else "NULL"
-                pre_toks = str(min(pre_toks)) if len(pre_toks) > 0 else "NA"
-                arg1 = " ".join(arg1)
-                arg1_toks = str(min(arg1_toks))
-                mid = " ".join(mid) if len(mid) > 0 else "NULL"
-                mid_toks = str(min(mid_toks)) if len(mid_toks) > 0 else "NA"
-                arg2 = " ".join(arg2)
-                arg2_toks = str(min(arg2_toks))
-                post = " ".join(post) if len(post) > 0 else "NULL"
-                post_toks = str(min(post_toks)) if len(post_toks) > 0 else "NA"
+                        post.append(tok)
+                        post_toks.append(i)
 
-                indices = ";".join([pre_toks, arg1_toks, mid_toks, arg2_toks, post_toks])
-                output.append("\t".join([docname,indices,pre,arg1,mid,arg2,post,direction,rels[edu_id]]))
+                if outmode.startswith("standoff"):
+                    comp1 = edu_id if int(edu_id) < int(parent_id) else parent_id
+                    comp2 = parent_id if int(edu_id) < int(parent_id) else edu_id
+                    # Reduce EDUs to minimal span in standoff mode
+                    arg1_toks = list(range(tok_map[comp1][0], tok_map[comp1][1]+1))
+                    arg2_toks = list(range(tok_map[comp2][0], tok_map[comp2][1]+1))
+                    # Add explicit discontinuous spans
+                    if comp1 in same_unit_components:
+                        for component in same_unit_components[comp1]:
+                            component_toks = list(range(tok_map[component][0], tok_map[component][1]+1))
+                            arg1_toks += component_toks
+                    if comp2 in same_unit_components:
+                        for component in same_unit_components[comp2]:
+                            component_toks = list(range(tok_map[component][0], tok_map[component][1]+1))
+                            arg2_toks += component_toks
+                    arg1_txt = format_text(arg1_toks,toks)
+                    arg1_sent = format_sent(arg1_sid,sents)
+                    arg2_txt = format_text(arg2_toks,toks)
+                    arg2_sent = format_sent(arg2_sid,sents)
+                    arg1_toks = format_range(arg1_toks)
+                    arg2_toks = format_range(arg2_toks)
+                    s1_toks = format_range(list(range(s1_start,s1_end+1)))
+                    s2_toks = format_range(list(range(s2_start,s2_end+1)))
+
+                    mapped_rel = rel
+                    if corpus in rel_mapping:
+                        if mapped_rel in rel_mapping[corpus]:
+                            mapped_rel = rel_mapping[corpus][mapped_rel]
+                        elif mapped_rel.lower() in rel_mapping[corpus]:
+                            mapped_rel = rel_mapping[corpus][mapped_rel.lower()]
+                        else:
+                            if mapped_rel!="ROOT":
+                                raise IOError("no rel map "+mapped_rel)
+                            elif mapped_rel == "ROOT":
+                                raise IOError("found ROOT entry in " +corpus + ": "+docname)
+                    elif "-" in mapped_rel and "same-unit" not in mapped_rel.lower():
+                        mapped_rel = mapped_rel.split("-")[0]
+                    if corpus.startswith("fas."):
+                        mapped_rel = mapped_rel.lower()
+                    if not coarse_rels:
+                        mapped_rel = rel
+                    if outmode == "standoff_key":
+                        output.append("\t".join([docname, arg1_toks, arg2_toks, arg1_txt, arg2_txt, s1_toks, s2_toks, arg1_sent, arg2_sent, direction, rel_key, mapped_rel]))
+                    elif outmode == "standoff_reltype":
+                        output.append("\t".join([docname, arg1_toks, arg2_toks, arg1_txt, arg2_txt, s1_toks, s2_toks, arg1_sent, arg2_sent, direction, rel_type, rel, mapped_rel]))
+                    else:
+                        output.append("\t".join([docname,arg1_toks,arg2_toks,arg1_txt,arg2_txt,s1_toks,s2_toks,arg1_sent,arg2_sent,direction,rel,mapped_rel]))
+                else:
+                    pre = " ".join(pre) if len(pre) > 0 else "NULL"
+                    pre_toks = str(min(pre_toks)) if len(pre_toks) > 0 else "NA"
+                    arg1 = " ".join(arg1)
+                    arg1_toks = str(min(arg1_toks))
+                    mid = " ".join(mid) if len(mid) > 0 else "NULL"
+                    mid_toks = str(min(mid_toks)) if len(mid_toks) > 0 else "NA"
+                    arg2 = " ".join(arg2)
+                    arg2_toks = str(min(arg2_toks))
+                    post = " ".join(post) if len(post) > 0 else "NULL"
+                    post_toks = str(min(post_toks)) if len(post_toks) > 0 else "NA"
+
+                    indices = ";".join([pre_toks, arg1_toks, mid_toks, arg2_toks, post_toks])
+                    output.append("\t".join([docname,indices,pre,arg1,mid,arg2,post,direction,rel]))
 
         if docname in dev_set:
             dev += output
@@ -418,18 +459,12 @@ def infuse_conns(non_conned, conns_bio, all_dms=False):
     output = []
     in_conn = False
     for line in non_conned.split("\n"):
-        if "Dillard" in line:
-            a=4
-        if "soon" in line:
-            a=4
         if "\t" in line:
             fields = line.split("\t")
             if "-" in fields[0] or "." in fields[0]:
                 output.append(line)
                 continue
             toknum += 1
-            if fields[1]== "rather":
-                a=4
             if "Conn=No" in fields[-1] and (not all_dms or toknum not in conns_bio):
                 if not all_dms:
                     in_conn = False
@@ -449,7 +484,32 @@ def infuse_conns(non_conned, conns_bio, all_dms=False):
             output.append(line)
     return "\n".join(output) + "\n"
 
-def main(conn_data, make_tok_files=True, reddit=False, corpus="gum"):
+
+def disrpt_conllu(conllu):
+    def add_misc(misc, feat):
+        if misc == "_":
+            return feat
+        else:
+            featname = feat.split("=")[0]
+            attrs = misc.split("|")
+            attrs = [a for a in attrs if not a.startswith(featname + "=")]
+            attrs.append(feat)
+            return "|".join(sorted(list(set(attrs))))
+
+    lines = conllu.split("\n")
+    output = []
+    for line in lines:
+        if "\t" in line and 'Discourse=' in line:
+            fields = line.split("\t")
+            fields[-1] = add_misc(fields[-1], "Seg=B-Seg")
+            line = "\t".join(fields)
+
+        output.append(line)
+
+    return "\n".join(output)
+
+
+def main(conn_data, make_tok_files=True, reddit=False, corpus="gum", outmode="standoff", make_conllu=True):
     utils_abs_path = os.path.dirname(os.path.realpath(__file__)) + os.sep
 
     no_conn_deped = DepEdit(config_file=utils_abs_path + "non_connectives.ini")
@@ -461,8 +521,8 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum"):
         dev_set = gum_dev
         test_set = gum_test
 
-    corpus = "eng.rst." + corpus
-    target_dir = os.path.dirname(os.path.realpath(__file__)) + os.sep + ".." +os.sep + "target" + os.sep
+    corpus = "eng.erst." + corpus if corpus == "gum" else "eng.rst." + corpus
+    target_dir = os.path.dirname(os.path.realpath(__file__)) + os.sep + ".." + os.sep + "target" + os.sep
     conllu_dir = target_dir + "dep" + os.sep + "not-to-release" + os.sep
     rsd_dir = target_dir + "rst" + os.sep + "dependencies" + os.sep
     disrpt_dir = target_dir + "rst" + os.sep + "disrpt" + os.sep
@@ -473,26 +533,37 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum"):
     add_missing = False  # True if corpus == "eng.rst.rstdt" else False
     rsd_data = get_rsd(rsd_dir, chars2toks, toks_by_doc, conll_data, add_missing_tokens=add_missing, reddit=reddit)
 
-    dev, train, test = make_rels(rsd_data, conll_data, dev_set, test_set, corpus=corpus)
+    dev, train, test = make_rels(rsd_data, conll_data, dev_set, test_set, corpus=corpus, outmode=outmode)
+
 
     if make_tok_files:
-        plain_dev = ""
-        plain_test = ""
-        plain_train = ""
+        plain_dev = plain_test = plain_train = ""
+        conllu_dev = conllu_test = conllu_train = ""
         for docname in conll_data:
             if docname in dev_set:
                 plain_dev += make_plain(conll_data[docname].strip() + "\n\n")
+                conllu_dev += disrpt_conllu(conll_data[docname].strip())
             elif docname in test_set or "gentle" in corpus:
                 plain_test += make_plain(conll_data[docname].strip() + "\n\n")
+                conllu_test += disrpt_conllu(conll_data[docname].strip())
             else:
                 plain_train += make_plain(conll_data[docname].strip() + "\n\n")
+                conllu_train += disrpt_conllu(conll_data[docname].strip())
         if "gentle" not in corpus:
             with io.open(disrpt_dir + corpus + "_dev.tok", 'w', encoding="utf8", newline="\n") as f:
                 f.write(plain_dev)
             with io.open(disrpt_dir + corpus + "_train.tok", 'w', encoding="utf8", newline="\n") as f:
                 f.write(plain_train)
+            if make_conllu:
+                with io.open(disrpt_dir + corpus + "_dev.conllu", 'w', encoding="utf8", newline="\n") as f:
+                    f.write(conllu_dev)
+                with io.open(disrpt_dir + corpus + "_train.conllu", 'w', encoding="utf8", newline="\n") as f:
+                    f.write(conllu_train)
         with io.open(disrpt_dir + corpus + "_test.tok", 'w', encoding="utf8", newline="\n") as f:
             f.write(plain_test)
+        if make_conllu:
+            with io.open(disrpt_dir + corpus + "_test.conllu", 'w', encoding="utf8", newline="\n") as f:
+                f.write(conllu_test)
 
     if "gentle" not in corpus:
         with io.open(disrpt_dir + corpus + "_dev.rels",'w',encoding="utf8",newline="\n") as f:
@@ -516,23 +587,24 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum"):
             else:
                 pdtb_train += non_conned.strip() + "\n\n"
 
-        with io.open(disrpt_dir + corpus.replace("rst","pdtb") + "_dev.conllu",'w',encoding="utf8",newline="\n") as f:
+        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_dev.conllu",'w',encoding="utf8",newline="\n") as f:
             f.write(pdtb_dev)
-        with io.open(disrpt_dir + corpus.replace("rst","pdtb") + "_test.conllu",'w',encoding="utf8",newline="\n") as f:
+        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_test.conllu",'w',encoding="utf8",newline="\n") as f:
             f.write(pdtb_test)
-        with io.open(disrpt_dir + corpus.replace("rst","pdtb") + "_train.conllu", 'w', encoding="utf8", newline="\n") as f:
+        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_train.conllu", 'w', encoding="utf8", newline="\n") as f:
             f.write(pdtb_train)
 
         if make_tok_files:
             plain_dev = make_plain(pdtb_dev.strip() + "\n\n")
             plain_test = make_plain(pdtb_test.strip() + "\n\n")
             plain_train = make_plain(pdtb_train.strip() + "\n\n")
-            with io.open(disrpt_dir + corpus.replace("rst","pdtb") + "_dev.tok", 'w', encoding="utf8", newline="\n") as f:
+            with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_dev.tok", 'w', encoding="utf8", newline="\n") as f:
                 f.write(plain_dev)
-            with io.open(disrpt_dir + corpus.replace("rst","pdtb") + "_test.tok", 'w', encoding="utf8", newline="\n") as f:
+            with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_test.tok", 'w', encoding="utf8", newline="\n") as f:
                 f.write(plain_test)
-            with io.open(disrpt_dir + corpus.replace("rst","pdtb") + "_train.tok", 'w', encoding="utf8", newline="\n") as f:
+            with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_train.tok", 'w', encoding="utf8", newline="\n") as f:
                 f.write(plain_train)
+
 
 if __name__ == "__main__":
 
@@ -542,4 +614,4 @@ if __name__ == "__main__":
     p.add_argument("-c","--corpus",action="store",default="gum",choices=["gum","gentle"],help="corpus name")
     opts = p.parse_args()
 
-    main(make_tok_files=opts.plain,reddit=opts.reddit,corpus=opts.corpus)
+    main(defaultdict(list),make_tok_files=opts.plain,reddit=opts.reddit,corpus=opts.corpus)
