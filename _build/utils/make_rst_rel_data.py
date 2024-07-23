@@ -156,7 +156,7 @@ def format_range(tok_ids):
     return ",".join(formatted)
 
 
-def format_text(arg1_toks, toks):
+def format_text(arg1_toks, toks, mwts=None):
     last = arg1_toks[0] - 1
     output = []
     for tid in sorted(arg1_toks):
@@ -164,7 +164,24 @@ def format_text(arg1_toks, toks):
             output.append(ellipsis_marker)
         output.append(toks[tid])
         last = tid
-    return " ".join(output)
+    output = " ".join(output)
+    if mwts is not None:  # remove space after MWT internal tokens
+        tok_strings = output.split()
+        output = ""
+        idx = 0
+        for tok in tok_strings:
+            if tok == "<*>":
+                output += "<*> "
+            else:
+                output += tok
+                argtok = arg1_toks[idx]
+                is_in_mwt = False
+                if argtok in mwts:
+                    is_in_mwt = mwts[argtok]
+                if not is_in_mwt:
+                    output += " "
+                idx += 1
+    return output.strip()
 
 
 def format_sent(arg1_sid, sents):
@@ -180,12 +197,13 @@ def format_sent(arg1_sid, sents):
     return " ".join(output)
 
 
-def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", include_secedges=True, outmode="standoff", coarse_rels=False):
+def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", include_secedges=True, outmode="standoff",
+              coarse_rels=False, dedup=True):
     if outmode == "standoff":
         header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks", "s2_toks", "unit1_sent",
                   "unit2_sent", "dir", "orig_label", "label"]
     elif outmode == "standoff_reltype":
-        header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks", "s2_toks", "unit1_sent",
+        header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "u1_raw", "u2_raw", "s1_toks", "s2_toks", "unit1_sent",
                     "unit2_sent", "dir", "rel_type", "orig_label", "label"]
     elif outmode == "standoff_key":
         header = ["doc", "unit1_toks", "unit2_toks", "unit1_txt", "unit2_txt", "s1_toks", "s2_toks", "unit1_sent",
@@ -199,6 +217,8 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", in
     train = ["\t".join(header)]
 
     for i, docname in enumerate(rsd_data):
+        seen_keys = set([])
+
         sent_map = {}
         toks = {}
         sents = conll_data[docname].split("\n\n")
@@ -207,13 +227,21 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", in
         toknum = 0
         s_starts = {}
         s_ends = {}
+        mwts = {}  # Track MWT internal tokens (excluding last)
 
         for sent in sents:
             lines = sent.split("\n")
             for line in lines:
                 if "\t" in line:
                     fields = line.split("\t")
+                    if toknum not in mwts:
+                        mwts[toknum] = False
                     if "-" in fields[0] or "." in fields[0]:
+                        if "-" in fields[0]:
+                            start, end = fields[0].split("-")
+                            length = int(end) - int(start)
+                            for i in range(length):
+                                mwts[toknum+i] = True
                         continue
                     if fields[0] == "1":
                         s_starts[snum] = toknum
@@ -382,8 +410,10 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", in
                             component_toks = list(range(tok_map[component][0], tok_map[component][1]+1))
                             arg2_toks += component_toks
                     arg1_txt = format_text(arg1_toks,toks)
+                    arg1_raw_txt = format_text(arg1_toks,toks,mwts)
                     arg1_sent = format_sent(arg1_sid,sents)
                     arg2_txt = format_text(arg2_toks,toks)
+                    arg2_raw_txt = format_text(arg2_toks,toks,mwts)
                     arg2_sent = format_sent(arg2_sid,sents)
                     arg1_toks = format_range(arg1_toks)
                     arg2_toks = format_range(arg2_toks)
@@ -407,10 +437,15 @@ def make_rels(rsd_data, conll_data, dev_set, test_set, corpus="eng.erst.gum", in
                         mapped_rel = mapped_rel.lower()
                     if not coarse_rels:
                         mapped_rel = rel
+                    disrpt_key = docname + "-" + arg1_toks + "-" + arg2_toks
+                    if dedup and disrpt_key in seen_keys:
+                        continue
+                    else:
+                        seen_keys.add(disrpt_key)
                     if outmode == "standoff_key":
                         output.append("\t".join([docname, arg1_toks, arg2_toks, arg1_txt, arg2_txt, s1_toks, s2_toks, arg1_sent, arg2_sent, direction, rel_key, mapped_rel]))
                     elif outmode == "standoff_reltype":
-                        output.append("\t".join([docname, arg1_toks, arg2_toks, arg1_txt, arg2_txt, s1_toks, s2_toks, arg1_sent, arg2_sent, direction, rel_type, rel, mapped_rel]))
+                        output.append("\t".join([docname, arg1_toks, arg2_toks, arg1_txt, arg2_txt, arg1_raw_txt, arg2_raw_txt, s1_toks, s2_toks, arg1_sent, arg2_sent, direction, rel_type, rel, mapped_rel]))
                     else:
                         output.append("\t".join([docname,arg1_toks,arg2_toks,arg1_txt,arg2_txt,s1_toks,s2_toks,arg1_sent,arg2_sent,direction,rel,mapped_rel]))
                 else:
@@ -478,6 +513,8 @@ def infuse_conns(non_conned, conns_bio, all_dms=False):
                         in_conn = True
                 else:
                     in_conn = False
+            if fields[-1] == "":
+                fields[-1] = "_"
             line = "\t".join(fields)
             output.append(line)
         else:
@@ -521,7 +558,7 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum", outmode="st
         dev_set = gum_dev
         test_set = gum_test
 
-    corpus = "eng.erst." + corpus if corpus == "gum" else "eng.rst." + corpus
+    corpus = "eng.erst." + corpus if corpus in ["gum","gentle"] else "eng.rst." + corpus
     target_dir = os.path.dirname(os.path.realpath(__file__)) + os.sep + ".." + os.sep + "target" + os.sep
     conllu_dir = target_dir + "dep" + os.sep + "not-to-release" + os.sep
     rsd_dir = target_dir + "rst" + os.sep + "dependencies" + os.sep
@@ -573,37 +610,36 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum", outmode="st
     with io.open(disrpt_dir + corpus + "_test.rels",'w',encoding="utf8",newline="\n") as f:
         f.write(test)
 
-    if "gentle" not in corpus:
-        # Make PDTB style connective files
-        pdtb_dev = pdtb_test = pdtb_train = ""
+    # Make PDTB style connective files
+    pdtb_dev = pdtb_test = pdtb_train = ""
 
-        for docname in sorted(conll_data):
-            non_conned = no_conn_deped.run_depedit(conll_data[docname].strip() + "\n\n")
-            non_conned = infuse_conns(non_conned, conn_data[docname], all_dms=False)
-            if docname in dev_set:
-                pdtb_dev += non_conned.strip() + "\n\n"
-            elif docname in test_set:
-                pdtb_test += non_conned.strip() + "\n\n"
-            else:
-                pdtb_train += non_conned.strip() + "\n\n"
+    for docname in sorted(conll_data):
+        non_conned = no_conn_deped.run_depedit(conll_data[docname].strip() + "\n\n")
+        non_conned = infuse_conns(non_conned, conn_data[docname], all_dms=False)
+        if docname in dev_set:
+            pdtb_dev += non_conned.strip() + "\n\n"
+        elif docname in test_set:
+            pdtb_test += non_conned.strip() + "\n\n"
+        else:
+            pdtb_train += non_conned.strip() + "\n\n"
 
-        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_dev.conllu",'w',encoding="utf8",newline="\n") as f:
-            f.write(pdtb_dev)
-        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_test.conllu",'w',encoding="utf8",newline="\n") as f:
-            f.write(pdtb_test)
-        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_train.conllu", 'w', encoding="utf8", newline="\n") as f:
-            f.write(pdtb_train)
+    with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_dev.conllu",'w',encoding="utf8",newline="\n") as f:
+        f.write(pdtb_dev)
+    with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_test.conllu",'w',encoding="utf8",newline="\n") as f:
+        f.write(pdtb_test)
+    with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_train.conllu", 'w', encoding="utf8", newline="\n") as f:
+        f.write(pdtb_train)
 
-        if make_tok_files:
-            plain_dev = make_plain(pdtb_dev.strip() + "\n\n")
-            plain_test = make_plain(pdtb_test.strip() + "\n\n")
-            plain_train = make_plain(pdtb_train.strip() + "\n\n")
-            with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_dev.tok", 'w', encoding="utf8", newline="\n") as f:
-                f.write(plain_dev)
-            with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_test.tok", 'w', encoding="utf8", newline="\n") as f:
-                f.write(plain_test)
-            with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_train.tok", 'w', encoding="utf8", newline="\n") as f:
-                f.write(plain_train)
+    if make_tok_files:
+        plain_dev = make_plain(pdtb_dev.strip() + "\n\n")
+        plain_test = make_plain(pdtb_test.strip() + "\n\n")
+        plain_train = make_plain(pdtb_train.strip() + "\n\n")
+        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_dev.tok", 'w', encoding="utf8", newline="\n") as f:
+            f.write(plain_dev)
+        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_test.tok", 'w', encoding="utf8", newline="\n") as f:
+            f.write(plain_test)
+        with io.open(disrpt_dir + corpus.replace("erst.","rst.").replace("rst","pdtb") + "_train.tok", 'w', encoding="utf8", newline="\n") as f:
+            f.write(plain_train)
 
 
 if __name__ == "__main__":
