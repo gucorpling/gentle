@@ -231,7 +231,7 @@
 2	MEDICATIONS	_	_	_	_	0	root	_	_
 3	:	_	_	_	_	2	punct	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Gabapentin	_	_	_	_	0	root	_	_
 3	600	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	orphan	_	_
@@ -239,7 +239,7 @@
 6	night	_	_	_	_	4	obl	_	_
 7	.	_	_	_	_	2	punct	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Metformin	_	_	_	_	0	root	_	_
 3	1000	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	orphan	_	_
@@ -248,7 +248,7 @@
 7	day	_	_	_	_	5	obl:tmod	_	_
 8	.	_	_	_	_	2	punct	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	Glipizide	_	_	_	_	0	root	_	_
 3	5	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
@@ -256,7 +256,7 @@
 6	day	_	_	_	_	4	obl:tmod	_	_
 7	.	_	_	_	_	2	punct	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	Flagyl	_	_	_	_	0	root	_	_
 3	500	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
@@ -266,7 +266,7 @@
 8	day	_	_	_	_	6	obl:tmod	_	_
 9	.	_	_	_	_	2	punct	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	Flexeril	_	_	_	_	0	root	_	_
 3	10	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
@@ -275,7 +275,7 @@
 7	day	_	_	_	_	5	obl:tmod	_	_
 8	.	_	_	_	_	2	punct	_	_
 
-1	6.	_	_	_	_	2	dep	_	_
+1	6.	_	_	_	_	2	discourse	_	_
 2	Paroxetine	_	_	_	_	0	root	_	_
 3	20	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
@@ -283,14 +283,14 @@
 6	day	_	_	_	_	4	obl:tmod	_	_
 7	.	_	_	_	_	2	punct	_	_
 
-1	7.	_	_	_	_	2	dep	_	_
+1	7.	_	_	_	_	2	discourse	_	_
 2	Atripla	_	_	_	_	0	root	_	_
 3	one	_	_	_	_	2	appos	_	_
 4	at	_	_	_	_	5	case	_	_
 5	night	_	_	_	_	3	obl	_	_
 6	.	_	_	_	_	2	punct	_	_
 
-1	8.	_	_	_	_	2	dep	_	_
+1	8.	_	_	_	_	2	discourse	_	_
 2	Clonazepam	_	_	_	_	0	root	_	_
 3	1	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
@@ -299,7 +299,7 @@
 7	day	_	_	_	_	5	obl:tmod	_	_
 8	.	_	_	_	_	2	punct	_	_
 
-1	9.	_	_	_	_	4	dep	_	_
+1	9.	_	_	_	_	4	discourse	_	_
 2	Blood	_	_	_	_	3	compound	_	_
 3	pressure	_	_	_	_	4	compound	_	_
 4	medicine	_	_	_	_	0	root	_	_
@@ -447,7 +447,7 @@
 1	IMPRESSION	_	_	_	_	0	root	_	_
 2	:	_	_	_	_	1	punct	_	_
 
-1	1.	_	_	_	_	5	dep	_	_
+1	1.	_	_	_	_	5	discourse	_	_
 2	Human	_	_	_	_	4	amod	_	_
 3	immunodeficiency	_	_	_	_	4	compound	_	_
 4	virus	_	_	_	_	5	compound	_	_
@@ -459,7 +459,7 @@
 10	Atripla	_	_	_	_	8	nmod	_	_
 11	.	_	_	_	_	5	punct	_	_
 
-1	2.	_	_	_	_	5	dep	_	_
+1	2.	_	_	_	_	5	discourse	_	_
 2	Resolving	_	_	_	_	5	amod	_	_
 3	left	_	_	_	_	4	amod	_	_
 4	gluteal	_	_	_	_	5	amod	_	_
@@ -469,7 +469,7 @@
 8	Flagyl	_	_	_	_	7	obj	_	_
 9	.	_	_	_	_	5	punct	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	Diabetes	_	_	_	_	0	root	_	_
 3	mellitus	_	_	_	_	2	flat	_	_
 4	,	_	_	_	_	3	punct	_	_
@@ -479,15 +479,15 @@
 8	therapy	_	_	_	_	2	nmod	_	_
 9	.	_	_	_	_	2	punct	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	Hypertension	_	_	_	_	0	root	_	_
 3	.	_	_	_	_	2	punct	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	Depression	_	_	_	_	0	root	_	_
 3	.	_	_	_	_	2	punct	_	_
 
-1	6.	_	_	_	_	4	dep	_	_
+1	6.	_	_	_	_	4	discourse	_	_
 2	Chronic	_	_	_	_	4	amod	_	_
 3	musculoskeletal	_	_	_	_	4	amod	_	_
 4	pain	_	_	_	_	0	root	_	_

@@ -244,13 +244,13 @@
 2	case	_	_	_	_	3	nsubj	_	_
 3	has	_	_	_	_	0	root	_	_
 4	merit	_	_	_	_	3	obj	_	_
-5	so	_	_	_	_	34	advmod	_	_
+5	so	_	_	_	_	33	advmod	_	_
 6	unless	_	_	_	_	11	mark	_	_
 7	a	_	_	_	_	9	det	_	_
 8	just	_	_	_	_	9	amod	_	_
 9	treatment	_	_	_	_	11	nsubj:pass	_	_
 10	is	_	_	_	_	11	aux:pass	_	_
-11	done	_	_	_	_	34	advcl	_	_
+11	done	_	_	_	_	33	advcl	_	_
 12	by	_	_	_	_	14	case	_	_
 13	this	_	_	_	_	14	det	_	_
 14	Court	_	_	_	_	11	obl:agent	_	_

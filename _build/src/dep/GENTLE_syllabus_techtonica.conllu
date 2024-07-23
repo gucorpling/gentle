@@ -414,7 +414,7 @@
 6	Developer	_	_	_	_	7	compound	_	_
 7	Tools	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Welcome	_	_	_	_	0	root	_	_
 3	,	_	_	_	_	4	punct	_	_
 4	Tips	_	_	_	_	2	conj	_	_
@@ -422,26 +422,26 @@
 6	and	_	_	_	_	7	cc	_	_
 7	Rules	_	_	_	_	2	conj	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Expectations	_	_	_	_	0	root	_	_
 3	While	_	_	_	_	5	mark	_	_
 4	at	_	_	_	_	5	case	_	_
 5	Techtonica	_	_	_	_	2	advcl	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	How	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	mark	_	_
 4	Learn	_	_	_	_	2	acl	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	Professionalism	_	_	_	_	0	root	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	Roles	_	_	_	_	0	root	_	_
 3	in	_	_	_	_	4	case	_	_
 4	Tech	_	_	_	_	2	nmod	_	_
 
-1	6.	_	_	_	_	2	dep	_	_
+1	6.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	7	case	_	_
 4	Command	_	_	_	_	5	compound	_	_
@@ -449,29 +449,29 @@
 6	Interface	_	_	_	_	7	compound	_	_
 7	Tools	_	_	_	_	2	nmod	_	_
 
-1	7.	_	_	_	_	4	dep	_	_
+1	7.	_	_	_	_	4	discourse	_	_
 2	Advanced	_	_	_	_	4	amod	_	_
 3	Command	_	_	_	_	4	compound	_	_
 4	Line	_	_	_	_	0	root	_	_
 
-1	8.	_	_	_	_	3	dep	_	_
+1	8.	_	_	_	_	3	discourse	_	_
 2	Bash	_	_	_	_	3	compound	_	_
 3	Profile	_	_	_	_	0	root	_	_
 
-1	9.	_	_	_	_	2	dep	_	_
+1	9.	_	_	_	_	2	discourse	_	_
 2	Vim	_	_	_	_	0	root	_	_
 
-1	10.	_	_	_	_	3	dep	_	_
+1	10.	_	_	_	_	3	discourse	_	_
 2	Home	_	_	_	_	3	compound	_	_
 3	brew	_	_	_	_	0	root	_	_
 
-1	11.	_	_	_	_	2	dep	_	_
+1	11.	_	_	_	_	2	discourse	_	_
 2	How	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	mark	_	_
 4	Pair	_	_	_	_	2	acl	_	_
 5	Program	_	_	_	_	4	obj	_	_
 
-1	12.	_	_	_	_	2	dep	_	_
+1	12.	_	_	_	_	2	discourse	_	_
 2	Project	_	_	_	_	0	root	_	_
 3	0	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	7	punct	_	_
@@ -479,40 +479,40 @@
 6	1	_	_	_	_	5	nummod	_	_
 7	Review	_	_	_	_	2	appos	_	_
 
-1	13.	_	_	_	_	3	dep	_	_
+1	13.	_	_	_	_	3	discourse	_	_
 2	Operating	_	_	_	_	3	compound	_	_
 3	Systems	_	_	_	_	0	root	_	_
 
-1	14.	_	_	_	_	3	dep	_	_
+1	14.	_	_	_	_	3	discourse	_	_
 2	Keyboard	_	_	_	_	3	compound	_	_
 3	Shortcuts	_	_	_	_	0	root	_	_
 
-1	15.	_	_	_	_	2	dep	_	_
+1	15.	_	_	_	_	2	discourse	_	_
 2	Ergonomics	_	_	_	_	0	root	_	_
 
-1	16.	_	_	_	_	3	dep	_	_
+1	16.	_	_	_	_	3	discourse	_	_
 2	Growth	_	_	_	_	3	compound	_	_
 3	Mindset	_	_	_	_	0	root	_	_
 
-1	17.	_	_	_	_	2	dep	_	_
+1	17.	_	_	_	_	2	discourse	_	_
 2	Asking	_	_	_	_	0	root	_	_
 3	Good	_	_	_	_	4	amod	_	_
 4	Questions	_	_	_	_	2	obj	_	_
 
-1	18.	_	_	_	_	2	dep	_	_
+1	18.	_	_	_	_	2	discourse	_	_
 2	Networking	_	_	_	_	0	root	_	_
 3	(	_	_	_	_	4	punct	_	_
 4	Career	_	_	_	_	2	appos	_	_
 5	)	_	_	_	_	4	punct	_	_
 
-1	19.	_	_	_	_	4	dep	_	_
+1	19.	_	_	_	_	4	discourse	_	_
 2	Chrome	_	_	_	_	4	compound	_	_
 3	Developer	_	_	_	_	4	compound	_	_
 4	Tools	_	_	_	_	0	root	_	_
 5	:	_	_	_	_	6	punct	_	_
 6	Setup	_	_	_	_	4	parataxis	_	_
 
-1	20.	_	_	_	_	2	dep	_	_
+1	20.	_	_	_	_	2	discourse	_	_
 2	One	_	_	_	_	0	root	_	_
 3	of	_	_	_	_	4	case	_	_
 4	either	_	_	_	_	2	nmod	_	_
@@ -530,24 +530,24 @@
 16	status	_	_	_	_	6	obl	_	_
 17	.	_	_	_	_	2	punct	_	_
 
-1	21.	_	_	_	_	2	dep	_	_
+1	21.	_	_	_	_	2	discourse	_	_
 2	HTML	_	_	_	_	0	root	_	_
 
-1	22.	_	_	_	_	2	dep	_	_
+1	22.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	CSS	_	_	_	_	2	nmod	_	_
 
-1	23.	_	_	_	_	5	dep	_	_
+1	23.	_	_	_	_	5	discourse	_	_
 2	JS	_	_	_	_	5	dep	_	_
 3	HTML	_	_	_	_	4	compound	_	_
 4	DOM	_	_	_	_	5	compound	_	_
 5	Methods	_	_	_	_	0	root	_	_
 
-1	24.	_	_	_	_	2	dep	_	_
+1	24.	_	_	_	_	2	discourse	_	_
 2	Debugging	_	_	_	_	0	root	_	_
 
-1	25.	_	_	_	_	4	dep	_	_
+1	25.	_	_	_	_	4	discourse	_	_
 2	Recipe	_	_	_	_	3	compound	_	_
 3	Page	_	_	_	_	4	compound	_	_
 4	Project	_	_	_	_	0	root	_	_
@@ -563,37 +563,37 @@
 7	&	_	_	_	_	8	cc	_	_
 8	CSS	_	_	_	_	6	conj	_	_
 
-1	1.	_	_	_	_	4	dep	_	_
+1	1.	_	_	_	_	4	discourse	_	_
 2	Git	_	_	_	_	4	compound	_	_
 3	Version	_	_	_	_	4	compound	_	_
 4	Control	_	_	_	_	0	root	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	.gitignore	_	_	_	_	0	root	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	Using	_	_	_	_	0	root	_	_
 3	GitHub	_	_	_	_	2	obj	_	_
 4	for	_	_	_	_	6	case	_	_
 5	Code	_	_	_	_	6	compound	_	_
 6	Storage	_	_	_	_	2	obl	_	_
 
-1	4.	_	_	_	_	3	dep	_	_
+1	4.	_	_	_	_	3	discourse	_	_
 2	GitHub	_	_	_	_	3	compound	_	_
 3	Collaboration	_	_	_	_	0	root	_	_
 
-1	5.	_	_	_	_	3	dep	_	_
+1	5.	_	_	_	_	3	discourse	_	_
 2	Operating	_	_	_	_	3	compound	_	_
 3	Systems	_	_	_	_	0	root	_	_
 
-1	6.	_	_	_	_	3	dep	_	_
+1	6.	_	_	_	_	3	discourse	_	_
 2	Local	_	_	_	_	3	amod	_	_
 3	Development	_	_	_	_	0	root	_	_
 4	with	_	_	_	_	6	case	_	_
 5	VS	_	_	_	_	6	compound	_	_
 6	Code	_	_	_	_	3	nmod	_	_
 
-1	7.	_	_	_	_	2	dep	_	_
+1	7.	_	_	_	_	2	discourse	_	_
 2	Article	_	_	_	_	0	root	_	_
 3	:	_	_	_	_	8	punct	_	_
 4	What	_	_	_	_	8	nsubj	_	_
@@ -603,7 +603,7 @@
 8	DOM	_	_	_	_	2	appos	_	_
 9	?	_	_	_	_	2	punct	_	_
 
-1	8.	_	_	_	_	2	reparandum	_	_
+1	8.	_	_	_	_	2	discourse	_	_
 2	How	_	_	_	_	0	root	_	_
 3	the	_	_	_	_	4	det	_	_
 4	Internet	_	_	_	_	5	nsubj	_	_
@@ -616,47 +616,47 @@
 11	Networking	_	_	_	_	9	nmod	_	_
 12	)	_	_	_	_	9	punct	_	_
 
-1	9.	_	_	_	_	2	dep	_	_
+1	9.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	DNS	_	_	_	_	2	nmod	_	_
 
-1	10.	_	_	_	_	4	dep	_	_
+1	10.	_	_	_	_	4	discourse	_	_
 2	Recipe	_	_	_	_	3	compound	_	_
 3	Page	_	_	_	_	4	compound	_	_
 4	Project	_	_	_	_	0	root	_	_
 5	:	_	_	_	_	6	punct	_	_
 6	CSS	_	_	_	_	4	appos	_	_
 
-1	11.	_	_	_	_	3	dep	_	_
+1	11.	_	_	_	_	3	discourse	_	_
 2	Media	_	_	_	_	3	compound	_	_
 3	Queries	_	_	_	_	0	root	_	_
 
-1	12.	_	_	_	_	2	dep	_	_
+1	12.	_	_	_	_	2	discourse	_	_
 2	UI	_	_	_	_	0	root	_	_
 3	/	_	_	_	_	4	cc	_	_
 4	UX	_	_	_	_	2	conj	_	_
 
-1	13.	_	_	_	_	2	dep	_	_
+1	13.	_	_	_	_	2	discourse	_	_
 2	Bootstrap	_	_	_	_	0	root	_	_
 
-1	14.	_	_	_	_	2	dep	_	_
+1	14.	_	_	_	_	2	discourse	_	_
 2	Building	_	_	_	_	0	root	_	_
 3	Confidence	_	_	_	_	2	obj	_	_
 
-1	15.	_	_	_	_	4	dep	_	_
+1	15.	_	_	_	_	4	discourse	_	_
 2	Recipe	_	_	_	_	3	compound	_	_
 3	Page	_	_	_	_	4	compound	_	_
 4	Project	_	_	_	_	0	root	_	_
 5	:	_	_	_	_	6	punct	_	_
 6	Bootstrap	_	_	_	_	4	parataxis	_	_
 
-1	16.	_	_	_	_	2	dep	_	_
+1	16.	_	_	_	_	2	discourse	_	_
 2	Solving	_	_	_	_	0	root	_	_
 3	Code	_	_	_	_	4	compound	_	_
 4	Challenges	_	_	_	_	2	obj	_	_
 
-1	17.	_	_	_	_	3	dep	_	_
+1	17.	_	_	_	_	3	discourse	_	_
 2	Git	_	_	_	_	3	compound	_	_
 3	Part	_	_	_	_	0	root	_	_
 4	2	_	_	_	_	3	nummod	_	_
@@ -664,7 +664,7 @@
 6	Study	_	_	_	_	7	compound	_	_
 7	Guide	_	_	_	_	3	appos	_	_
 
-1	18.	_	_	_	_	3	dep	_	_
+1	18.	_	_	_	_	3	discourse	_	_
 2	Portfolio	_	_	_	_	3	compound	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
@@ -674,32 +674,32 @@
 8	&	_	_	_	_	9	cc	_	_
 9	Bootstrap	_	_	_	_	5	conj	_	_
 
-1	19.	_	_	_	_	2	dep	_	_
+1	19.	_	_	_	_	2	discourse	_	_
 2	Using	_	_	_	_	0	root	_	_
 3	GitHub	_	_	_	_	2	obj	_	_
 4	for	_	_	_	_	6	case	_	_
 5	Project	_	_	_	_	6	compound	_	_
 6	Collaboration	_	_	_	_	2	obl	_	_
 
-1	20.	_	_	_	_	3	dep	_	_
+1	20.	_	_	_	_	3	discourse	_	_
 2	Portfolio	_	_	_	_	3	compound	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	Personal	_	_	_	_	6	amod	_	_
 6	Branding	_	_	_	_	3	parataxis	_	_
 
-1	21.	_	_	_	_	2	dep	_	_
+1	21.	_	_	_	_	2	discourse	_	_
 2	Reading	_	_	_	_	0	root	_	_
 3	/	_	_	_	_	4	cc	_	_
 4	Writing	_	_	_	_	2	conj	_	_
 5	Documentation	_	_	_	_	2	obj	_	_
 
-1	22.	_	_	_	_	2	dep	_	_
+1	22.	_	_	_	_	2	discourse	_	_
 2	Writing	_	_	_	_	0	root	_	_
 3	Readable	_	_	_	_	4	amod	_	_
 4	Code	_	_	_	_	2	obj	_	_
 
-1	23.	_	_	_	_	2	dep	_	_
+1	23.	_	_	_	_	2	discourse	_	_
 2	Deploy	_	_	_	_	0	root	_	_
 3	your	_	_	_	_	5	nmod:poss	_	_
 4	Portfolio	_	_	_	_	5	compound	_	_
@@ -713,7 +713,7 @@
 12	with	_	_	_	_	13	case	_	_
 13	Netlify	_	_	_	_	7	obl	_	_
 
-1	24.	_	_	_	_	3	dep	_	_
+1	24.	_	_	_	_	3	discourse	_	_
 2	Portfolio	_	_	_	_	3	compound	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
@@ -727,7 +727,7 @@
 4	JavaScript	_	_	_	_	5	compound	_	_
 5	Fundamentals	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	1	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	5	punct	_	_
@@ -737,7 +737,7 @@
 8	,	_	_	_	_	9	punct	_	_
 9	Numbers	_	_	_	_	2	appos	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	2	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	5	punct	_	_
@@ -745,7 +745,7 @@
 6	,	_	_	_	_	7	punct	_	_
 7	Functions	_	_	_	_	5	conj	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	3	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	5	punct	_	_
@@ -755,40 +755,40 @@
 8	,	_	_	_	_	9	punct	_	_
 9	Booleans	_	_	_	_	2	appos	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	4	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	3	punct	_	_
 5	Loops	_	_	_	_	2	appos	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	5	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	3	punct	_	_
 5	Switch	_	_	_	_	6	compound	_	_
 6	Statements	_	_	_	_	2	appos	_	_
 
-1	6.	_	_	_	_	2	dep	_	_
+1	6.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	6	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	6	punct	_	_
 5	Object	_	_	_	_	6	compound	_	_
 6	Literals	_	_	_	_	2	appos	_	_
 
-1	7.	_	_	_	_	2	dep	_	_
+1	7.	_	_	_	_	2	discourse	_	_
 2	Datetime	_	_	_	_	0	root	_	_
 
-1	8.	_	_	_	_	4	dep	_	_
+1	8.	_	_	_	_	4	discourse	_	_
 2	Basic	_	_	_	_	4	amod	_	_
 3	JavaScript	_	_	_	_	4	compound	_	_
 4	Practice	_	_	_	_	0	root	_	_
 
-1	9.	_	_	_	_	2	dep	_	_
+1	9.	_	_	_	_	2	discourse	_	_
 2	Testing	_	_	_	_	0	root	_	_
 3	&	_	_	_	_	4	cc	_	_
 4	TDD	_	_	_	_	2	conj	_	_
 
-1	10.	_	_	_	_	3	dep	_	_
+1	10.	_	_	_	_	3	discourse	_	_
 2	Assigned	_	_	_	_	3	amod	_	_
 3	Reading	_	_	_	_	0	root	_	_
 4	-	_	_	_	_	6	punct	_	_
@@ -803,7 +803,7 @@
 6	and	_	_	_	_	7	cc	_	_
 7	React	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	4	dep	_	_
+1	1.	_	_	_	_	4	discourse	_	_
 2	JavaScript	_	_	_	_	4	compound	_	_
 3	DOM	_	_	_	_	4	compound	_	_
 4	Manipulation	_	_	_	_	0	root	_	_
@@ -811,22 +811,22 @@
 6	formerly	_	_	_	_	7	advmod	_	_
 7	jQuery	_	_	_	_	4	appos	_	_
 
-1	2.	_	_	_	_	6	dep	_	_
+1	2.	_	_	_	_	6	discourse	_	_
 2	HTML	_	_	_	_	6	compound	_	_
 3	/	_	_	_	_	4	cc	_	_
 4	JS	_	_	_	_	2	conj	_	_
 5	Game	_	_	_	_	6	compound	_	_
 6	Project	_	_	_	_	0	root	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	a11y	_	_	_	_	0	root	_	_
 3	:	_	_	_	_	4	punct	_	_
 4	Accessibility	_	_	_	_	2	appos	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	SEO	_	_	_	_	0	root	_	_
 
-1	5.	_	_	_	_	3	dep	_	_
+1	5.	_	_	_	_	3	discourse	_	_
 2	Portfolio	_	_	_	_	3	compound	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
@@ -835,7 +835,7 @@
 7	&	_	_	_	_	8	cc	_	_
 8	a11y	_	_	_	_	5	obj	_	_
 
-1	6.	_	_	_	_	2	dep	_	_
+1	6.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	7	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	5	punct	_	_
@@ -844,7 +844,7 @@
 7	Oriented	_	_	_	_	8	amod	_	_
 8	Programming	_	_	_	_	2	appos	_	_
 
-1	7.	_	_	_	_	3	dep	_	_
+1	7.	_	_	_	_	3	discourse	_	_
 2	Mini	_	_	_	_	3	compound	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	7	punct	_	_
@@ -854,11 +854,11 @@
 8	in	_	_	_	_	9	case	_	_
 9	JS	_	_	_	_	7	nmod	_	_
 
-1	8.	_	_	_	_	3	dep	_	_
+1	8.	_	_	_	_	3	discourse	_	_
 2	Functional	_	_	_	_	3	amod	_	_
 3	Programming	_	_	_	_	0	root	_	_
 
-1	9.	_	_	_	_	4	dep	_	_
+1	9.	_	_	_	_	4	discourse	_	_
 2	All	_	_	_	_	4	det	_	_
 3	React	_	_	_	_	4	compound	_	_
 4	Lessons	_	_	_	_	0	root	_	_
@@ -869,10 +869,10 @@
 4	Web	_	_	_	_	5	compound	_	_
 5	APIs	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Node	_	_	_	_	0	root	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	8	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	6	punct	_	_
@@ -881,29 +881,29 @@
 7	/	_	_	_	_	8	cc	_	_
 8	RegEx	_	_	_	_	6	conj	_	_
 
-1	3.	_	_	_	_	3	dep	_	_
+1	3.	_	_	_	_	3	discourse	_	_
 2	Runtime	_	_	_	_	3	compound	_	_
 3	Complexity	_	_	_	_	0	root	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	HTTP	_	_	_	_	2	nmod	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	APIs	_	_	_	_	0	root	_	_
 3	&	_	_	_	_	4	cc	_	_
 4	JSON	_	_	_	_	2	conj	_	_
 
-1	6.	_	_	_	_	4	dep	_	_
+1	6.	_	_	_	_	4	discourse	_	_
 2	HTTP	_	_	_	_	3	compound	_	_
 3	Requests	_	_	_	_	4	compound	_	_
 4	Practice	_	_	_	_	0	root	_	_
 
-1	7.	_	_	_	_	2	dep	_	_
+1	7.	_	_	_	_	2	discourse	_	_
 2	Express	_	_	_	_	0	root	_	_
 
-1	8.	_	_	_	_	3	dep	_	_
+1	8.	_	_	_	_	3	discourse	_	_
 2	REST	_	_	_	_	3	compound	_	_
 3	APIs	_	_	_	_	0	root	_	_
 
@@ -912,7 +912,7 @@
 3	-	_	_	_	_	4	punct	_	_
 4	Databases	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
 3	9	_	_	_	_	2	nummod	_	_
 4	-	_	_	_	_	5	punct	_	_
@@ -922,7 +922,7 @@
 8	,	_	_	_	_	9	punct	_	_
 9	Promises	_	_	_	_	2	appos	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	JSON	_	_	_	_	2	nmod	_	_
@@ -930,34 +930,34 @@
 6	DigitalOcean	_	_	_	_	4	appos	_	_
 7	)	_	_	_	_	6	punct	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	AJAX	_	_	_	_	0	root	_	_
 
-1	4.	_	_	_	_	5	dep	_	_
+1	4.	_	_	_	_	5	discourse	_	_
 2	.env	_	_	_	_	5	compound	_	_
 3	&	_	_	_	_	4	cc	_	_
 4	config	_	_	_	_	2	conj	_	_
 5	files	_	_	_	_	0	root	_	_
 
-1	5.	_	_	_	_	3	dep	_	_
+1	5.	_	_	_	_	3	discourse	_	_
 2	TwilioQuest	_	_	_	_	3	compound	_	_
 3	Exercise	_	_	_	_	0	root	_	_
 
-1	6.	_	_	_	_	2	dep	_	_
+1	6.	_	_	_	_	2	discourse	_	_
 2	import	_	_	_	_	0	root	_	_
 3	&	_	_	_	_	4	cc	_	_
 4	require	_	_	_	_	2	conj	_	_
 
-1	7.	_	_	_	_	2	dep	_	_
+1	7.	_	_	_	_	2	discourse	_	_
 2	Install	_	_	_	_	0	root	_	_
 3	Postgres	_	_	_	_	2	obj	_	_
 
-1	8.	_	_	_	_	2	dep	_	_
+1	8.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	Databases	_	_	_	_	2	nmod	_	_
 
-1	9.	_	_	_	_	3	dep	_	_
+1	9.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Modeling	_	_	_	_	0	root	_	_
 4	1	_	_	_	_	3	nummod	_	_
@@ -966,7 +966,7 @@
 7	tables	_	_	_	_	3	appos	_	_
 8	)	_	_	_	_	7	punct	_	_
 
-1	10.	_	_	_	_	2	dep	_	_
+1	10.	_	_	_	_	2	discourse	_	_
 2	SQL	_	_	_	_	0	root	_	_
 3	1	_	_	_	_	2	nummod	_	_
 4	(	_	_	_	_	6	punct	_	_
@@ -974,7 +974,7 @@
 6	tables	_	_	_	_	2	appos	_	_
 7	)	_	_	_	_	6	punct	_	_
 
-1	11.	_	_	_	_	3	dep	_	_
+1	11.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Modeling	_	_	_	_	0	root	_	_
 4	2	_	_	_	_	3	nummod	_	_
@@ -983,7 +983,7 @@
 7	tables	_	_	_	_	3	appos	_	_
 8	)	_	_	_	_	7	punct	_	_
 
-1	12.	_	_	_	_	2	dep	_	_
+1	12.	_	_	_	_	2	discourse	_	_
 2	SQL	_	_	_	_	0	root	_	_
 3	2	_	_	_	_	2	nummod	_	_
 4	(	_	_	_	_	6	punct	_	_
@@ -991,12 +991,12 @@
 6	tables	_	_	_	_	2	appos	_	_
 7	)	_	_	_	_	6	punct	_	_
 
-1	13.	_	_	_	_	2	dep	_	_
+1	13.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	Docker	_	_	_	_	2	nmod	_	_
 
-1	14.	_	_	_	_	2	dep	_	_
+1	14.	_	_	_	_	2	discourse	_	_
 2	Install	_	_	_	_	0	root	_	_
 3	and	_	_	_	_	4	cc	_	_
 4	Run	_	_	_	_	2	conj	_	_
@@ -1012,7 +1012,7 @@
 6	and	_	_	_	_	7	cc	_	_
 7	React	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	6	dep	_	_
+1	1.	_	_	_	_	6	discourse	_	_
 2	Full	_	_	_	_	4	amod	_	_
 3	-	_	_	_	_	2	punct	_	_
 4	Stack	_	_	_	_	6	compound	_	_
@@ -1023,10 +1023,10 @@
 9	and	_	_	_	_	10	cc	_	_
 10	Express	_	_	_	_	7	obj	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Recursion	_	_	_	_	0	root	_	_
 
-1	3.	_	_	_	_	4	dep	_	_
+1	3.	_	_	_	_	4	discourse	_	_
 2	JavaScript	_	_	_	_	3	compound	_	_
 3	Set	_	_	_	_	4	compound	_	_
 4	object	_	_	_	_	0	root	_	_
@@ -1036,7 +1036,7 @@
 3	-	_	_	_	_	4	punct	_	_
 4	Testing	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Adding	_	_	_	_	0	root	_	_
 3	Tests	_	_	_	_	2	obj	_	_
 4	to	_	_	_	_	7	case	_	_
@@ -1044,12 +1044,12 @@
 6	NodeJS	_	_	_	_	7	compound	_	_
 7	project	_	_	_	_	2	obl	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Testing	_	_	_	_	0	root	_	_
 3	with	_	_	_	_	4	case	_	_
 4	Jest	_	_	_	_	2	obl	_	_
 
-1	3.	_	_	_	_	3	dep	_	_
+1	3.	_	_	_	_	3	discourse	_	_
 2	Rithm	_	_	_	_	3	compound	_	_
 3	School	_	_	_	_	0	root	_	_
 4	-	_	_	_	_	3	punct	_	_
@@ -1057,13 +1057,13 @@
 6	with	_	_	_	_	7	case	_	_
 7	Jest	_	_	_	_	5	obl	_	_
 
-1	4.	_	_	_	_	3	dep	_	_
+1	4.	_	_	_	_	3	discourse	_	_
 2	API	_	_	_	_	3	compound	_	_
 3	testing	_	_	_	_	0	root	_	_
 4	with	_	_	_	_	5	case	_	_
 5	Jest	_	_	_	_	3	obl	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	Testing	_	_	_	_	0	root	_	_
 3	React	_	_	_	_	4	compound	_	_
 4	Components	_	_	_	_	2	obj	_	_
@@ -1079,7 +1079,7 @@
 3	-	_	_	_	_	4	punct	_	_
 4	Eventonica	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	3	dep	_	_
+1	1.	_	_	_	_	3	discourse	_	_
 2	Eventonica	_	_	_	_	3	compound	_	_
 3	Project	_	_	_	_	0	root	_	_
 
@@ -1090,7 +1090,7 @@
 5	Stack	_	_	_	_	6	compound	_	_
 6	Practice	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Deploying	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	Heroku	_	_	_	_	2	obl	_	_
@@ -1099,7 +1099,7 @@
 7	and	_	_	_	_	8	cc	_	_
 8	Node	_	_	_	_	6	conj	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Optimizing	_	_	_	_	0	root	_	_
 3	your	_	_	_	_	7	nmod:poss	_	_
 4	React	_	_	_	_	7	compound	_	_
@@ -1107,7 +1107,7 @@
 6	NodeJS	_	_	_	_	4	conj	_	_
 7	Project	_	_	_	_	2	obj	_	_
 
-1	3.	_	_	_	_	3	dep	_	_
+1	3.	_	_	_	_	3	discourse	_	_
 2	Enzyme	_	_	_	_	3	compound	_	_
 3	Testing	_	_	_	_	0	root	_	_
 
@@ -1122,13 +1122,13 @@
 1	Data	_	_	_	_	2	compound	_	_
 2	Structures	_	_	_	_	0	root	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	5	case	_	_
 4	Data	_	_	_	_	5	compound	_	_
 5	Structures	_	_	_	_	2	nmod	_	_
 
-1	2.	_	_	_	_	3	dep	_	_
+1	2.	_	_	_	_	3	discourse	_	_
 2	Sprint	_	_	_	_	3	compound	_	_
 3	Plan	_	_	_	_	0	root	_	_
 4	for	_	_	_	_	9	case	_	_
@@ -1138,37 +1138,37 @@
 8	Algorithms	_	_	_	_	6	conj	_	_
 9	Week	_	_	_	_	3	nmod	_	_
 
-1	3.	_	_	_	_	3	dep	_	_
+1	3.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Structures	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
 5	Stacks	_	_	_	_	3	appos	_	_
 
-1	4.	_	_	_	_	3	dep	_	_
+1	4.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Structures	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
 5	Queues	_	_	_	_	3	appos	_	_
 
-1	5.	_	_	_	_	3	dep	_	_
+1	5.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Structures	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	Linked	_	_	_	_	6	amod	_	_
 6	Lists	_	_	_	_	3	appos	_	_
 
-1	6.	_	_	_	_	3	dep	_	_
+1	6.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Structures	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	Hash	_	_	_	_	6	compound	_	_
 6	Tables	_	_	_	_	3	appos	_	_
 
-1	7.	_	_	_	_	3	dep	_	_
+1	7.	_	_	_	_	3	discourse	_	_
 2	JavaScript	_	_	_	_	3	compound	_	_
 3	Map	_	_	_	_	0	root	_	_
 
-1	8.	_	_	_	_	3	dep	_	_
+1	8.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Structures	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
@@ -1176,17 +1176,17 @@
 
 1	Algorithms	_	_	_	_	0	root	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	Algorithms	_	_	_	_	2	nmod	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Algorithms	_	_	_	_	0	root	_	_
 3	:	_	_	_	_	4	punct	_	_
 4	Searching	_	_	_	_	2	appos	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	Algorithms	_	_	_	_	0	root	_	_
 3	:	_	_	_	_	4	punct	_	_
 4	Sorting	_	_	_	_	2	appos	_	_
@@ -1197,12 +1197,12 @@
 4	Final	_	_	_	_	5	amod	_	_
 5	Assessments	_	_	_	_	1	appos	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Navigating	_	_	_	_	0	root	_	_
 3	New	_	_	_	_	4	amod	_	_
 4	Codebases	_	_	_	_	2	obj	_	_
 
-1	2.	_	_	_	_	5	dep	_	_
+1	2.	_	_	_	_	5	discourse	_	_
 2	Open	_	_	_	_	4	amod	_	_
 3	-	_	_	_	_	2	punct	_	_
 4	source	_	_	_	_	5	compound	_	_
@@ -1215,21 +1215,21 @@
 5	Week	_	_	_	_	1	appos	_	_
 6	!	_	_	_	_	1	punct	_	_
 
-1	1.	_	_	_	_	3	dep	_	_
+1	1.	_	_	_	_	3	discourse	_	_
 2	Technical	_	_	_	_	3	amod	_	_
 3	Interviewing	_	_	_	_	0	root	_	_
 
-1	2.	_	_	_	_	5	dep	_	_
+1	2.	_	_	_	_	5	discourse	_	_
 2	Take	_	_	_	_	5	compound	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	home	_	_	_	_	2	compound	_	_
 5	Problems	_	_	_	_	0	root	_	_
 
-1	3.	_	_	_	_	3	dep	_	_
+1	3.	_	_	_	_	3	discourse	_	_
 2	Non-Tech	_	_	_	_	3	amod	_	_
 3	Interviews	_	_	_	_	0	root	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	Article	_	_	_	_	0	root	_	_
 3	by	_	_	_	_	5	case	_	_
 4	Techtonica	_	_	_	_	5	compound	_	_
@@ -1248,7 +1248,7 @@
 17	of	_	_	_	_	16	fixed	_	_
 18	Bootcamp	_	_	_	_	7	obl	_	_
 
-1	5.	_	_	_	_	3	dep	_	_
+1	5.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	7	punct	_	_
@@ -1256,47 +1256,47 @@
 6	Learning	_	_	_	_	7	compound	_	_
 7	Engineer	_	_	_	_	3	appos	_	_
 
-1	6.	_	_	_	_	3	dep	_	_
+1	6.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
 5	Entrepreneurship	_	_	_	_	3	appos	_	_
 
-1	7.	_	_	_	_	3	dep	_	_
+1	7.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	Data	_	_	_	_	6	compound	_	_
 6	Science	_	_	_	_	3	appos	_	_
 
-1	8.	_	_	_	_	3	dep	_	_
+1	8.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
 5	Security	_	_	_	_	3	appos	_	_
 
-1	9.	_	_	_	_	3	dep	_	_
+1	9.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	QA	_	_	_	_	6	compound	_	_
 6	Engineer	_	_	_	_	3	appos	_	_
 
-1	10.	_	_	_	_	3	dep	_	_
+1	10.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	Developer	_	_	_	_	6	compound	_	_
 6	Advocate	_	_	_	_	3	appos	_	_
 
-1	11.	_	_	_	_	3	dep	_	_
+1	11.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	Sales	_	_	_	_	6	compound	_	_
 6	Engineering	_	_	_	_	3	appos	_	_
 
-1	12.	_	_	_	_	3	dep	_	_
+1	12.	_	_	_	_	3	discourse	_	_
 2	Career	_	_	_	_	3	compound	_	_
 3	Week	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	3	punct	_	_
@@ -1313,7 +1313,7 @@
 7	&	_	_	_	_	8	cc	_	_
 8	Electives	_	_	_	_	6	conj	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Intro	_	_	_	_	0	root	_	_
 3	to	_	_	_	_	4	case	_	_
 4	Security	_	_	_	_	2	nmod	_	_
@@ -1321,17 +1321,17 @@
 6	Web	_	_	_	_	7	compound	_	_
 7	Development	_	_	_	_	4	nmod	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Refactoring	_	_	_	_	0	root	_	_
 
-1	3.	_	_	_	_	2	dep	_	_
+1	3.	_	_	_	_	2	discourse	_	_
 2	Interviewing	_	_	_	_	0	root	_	_
 
-1	4.	_	_	_	_	3	dep	_	_
+1	4.	_	_	_	_	3	discourse	_	_
 2	Resume	_	_	_	_	3	compound	_	_
 3	Writing	_	_	_	_	0	root	_	_
 
-1	5.	_	_	_	_	7	dep	_	_
+1	5.	_	_	_	_	7	discourse	_	_
 2	Front	_	_	_	_	3	amod	_	_
 3	End	_	_	_	_	7	compound	_	_
 4	Take	_	_	_	_	7	compound	_	_
@@ -1339,7 +1339,7 @@
 6	home	_	_	_	_	4	flat	_	_
 7	Challenge	_	_	_	_	0	root	_	_
 
-1	6.	_	_	_	_	7	dep	_	_
+1	6.	_	_	_	_	7	discourse	_	_
 2	Back	_	_	_	_	3	compound	_	_
 3	End	_	_	_	_	7	compound	_	_
 4	Take	_	_	_	_	7	compound	_	_
@@ -1347,11 +1347,11 @@
 6	home	_	_	_	_	4	flat	_	_
 7	Challenge	_	_	_	_	0	root	_	_
 
-1	7.	_	_	_	_	3	dep	_	_
+1	7.	_	_	_	_	3	discourse	_	_
 2	Technical	_	_	_	_	3	amod	_	_
 3	Writing	_	_	_	_	0	root	_	_
 
-1	8.	_	_	_	_	3	dep	_	_
+1	8.	_	_	_	_	3	discourse	_	_
 2	Final	_	_	_	_	3	amod	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	5	punct	_	_
@@ -1360,33 +1360,33 @@
 7	Final	_	_	_	_	8	amod	_	_
 8	Project	_	_	_	_	5	obj	_	_
 
-1	9.	_	_	_	_	3	dep	_	_
+1	9.	_	_	_	_	3	discourse	_	_
 2	Final	_	_	_	_	3	amod	_	_
 3	Project	_	_	_	_	0	root	_	_
 4	:	_	_	_	_	6	punct	_	_
 5	5	_	_	_	_	6	nummod	_	_
 6	weeks	_	_	_	_	3	appos	_	_
 
-1	10.	_	_	_	_	2	dep	_	_
+1	10.	_	_	_	_	2	discourse	_	_
 2	Resources	_	_	_	_	0	root	_	_
 3	:	_	_	_	_	4	punct	_	_
 4	Underrepresented	_	_	_	_	2	appos	_	_
 5	in	_	_	_	_	6	case	_	_
 6	Tech	_	_	_	_	4	obl	_	_
 
-1	11.	_	_	_	_	4	dep	_	_
+1	11.	_	_	_	_	4	discourse	_	_
 2	Difficult	_	_	_	_	4	amod	_	_
 3	Workplace	_	_	_	_	4	compound	_	_
 4	Situations	_	_	_	_	0	root	_	_
 
-1	12.	_	_	_	_	3	dep	_	_
+1	12.	_	_	_	_	3	discourse	_	_
 2	Financial	_	_	_	_	3	amod	_	_
 3	Literacy	_	_	_	_	0	root	_	_
 
-1	13.	_	_	_	_	2	dep	_	_
+1	13.	_	_	_	_	2	discourse	_	_
 2	Negotiating	_	_	_	_	0	root	_	_
 
-1	14.	_	_	_	_	2	dep	_	_
+1	14.	_	_	_	_	2	discourse	_	_
 2	Ethics	_	_	_	_	0	root	_	_
 3	in	_	_	_	_	5	case	_	_
 4	Software	_	_	_	_	5	compound	_	_

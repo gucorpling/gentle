@@ -68,7 +68,7 @@
 62	)	_	_	_	_	56	punct	_	_
 63	.	_	_	_	_	15	punct	_	_
 
-1	1.	_	_	_	_	2	dep	_	_
+1	1.	_	_	_	_	2	discourse	_	_
 2	Services	_	_	_	_	0	root	_	_
 
 1	Company	_	_	_	_	2	nsubj	_	_
@@ -174,12 +174,12 @@
 23	website	_	_	_	_	18	nmod	_	_
 24	.	_	_	_	_	5	punct	_	_
 
-1	2.	_	_	_	_	2	dep	_	_
+1	2.	_	_	_	_	2	discourse	_	_
 2	Fees	_	_	_	_	0	root	_	_
 3	and	_	_	_	_	4	cc	_	_
 4	expenses	_	_	_	_	2	conj	_	_
 
-1	a)	_	_	_	_	11	dep	_	_
+1	a)	_	_	_	_	11	discourse	_	_
 2	Generally	_	_	_	_	11	dep	_	_
 3	In	_	_	_	_	4	case	_	_
 4	exchange	_	_	_	_	11	obl	_	_
@@ -302,7 +302,7 @@
 6	contact@startengine.com	_	_	_	_	4	obl	_	_
 7	.	_	_	_	_	4	punct	_	_
 
-1	b)	_	_	_	_	3	dep	_	_
+1	b)	_	_	_	_	3	discourse	_	_
 2	Monthly	_	_	_	_	3	amod	_	_
 3	Fees	_	_	_	_	0	root	_	_
 4	and	_	_	_	_	5	cc	_	_
@@ -447,7 +447,7 @@
 21	income	_	_	_	_	15	obl	_	_
 22	.	_	_	_	_	4	punct	_	_
 
-1	c)	_	_	_	_	3	dep	_	_
+1	c)	_	_	_	_	3	discourse	_	_
 2	Transaction	_	_	_	_	3	compound	_	_
 3	Fees	_	_	_	_	0	root	_	_
 
@@ -484,7 +484,7 @@
 3	$	_	_	_	_	0	root	_	_
 4	15	_	_	_	_	3	nummod	_	_
 
-1	d)	_	_	_	_	3	dep	_	_
+1	d)	_	_	_	_	3	discourse	_	_
 2	AML	_	_	_	_	3	dep	_	_
 3	Fees	_	_	_	_	0	root	_	_
 
@@ -510,7 +510,7 @@
 4	$	_	_	_	_	0	root	_	_
 5	5	_	_	_	_	4	nummod	_	_
 
-1	e)	_	_	_	_	3	dep	_	_
+1	e)	_	_	_	_	3	discourse	_	_
 2	Reimbursable	_	_	_	_	3	amod	_	_
 3	expenses	_	_	_	_	0	root	_	_
 
@@ -525,7 +525,7 @@
 9	expenses	_	_	_	_	3	obl	_	_
 10	:	_	_	_	_	3	punct	_	_
 
-1	(i)	_	_	_	_	5	dep	_	_
+1	(i)	_	_	_	_	5	discourse	_	_
 2	All	_	_	_	_	5	det	_	_
 3	credit	_	_	_	_	4	compound	_	_
 4	card	_	_	_	_	5	compound	_	_
@@ -544,7 +544,7 @@
 17	processor	_	_	_	_	6	obl:agent	_	_
 18	.	_	_	_	_	5	punct	_	_
 
-1	(ii)	_	_	_	_	4	dep	_	_
+1	(ii)	_	_	_	_	4	discourse	_	_
 2	All	_	_	_	_	4	det	_	_
 3	transaction	_	_	_	_	4	compound	_	_
 4	fees	_	_	_	_	0	root	_	_
@@ -564,7 +564,7 @@
 18	processor	_	_	_	_	5	obl:agent	_	_
 19	.	_	_	_	_	4	punct	_	_
 
-1	(iii)	_	_	_	_	4	dep	_	_
+1	(iii)	_	_	_	_	4	discourse	_	_
 2	Escrow	_	_	_	_	3	compound	_	_
 3	agent	_	_	_	_	4	compound	_	_
 4	fees	_	_	_	_	0	root	_	_
@@ -583,7 +583,7 @@
 17	agents	_	_	_	_	5	obl:agent	_	_
 18	.	_	_	_	_	4	punct	_	_
 
-1	(iv)	_	_	_	_	3	dep	_	_
+1	(iv)	_	_	_	_	3	discourse	_	_
 2	Return	_	_	_	_	3	compound	_	_
 3	fees	_	_	_	_	0	root	_	_
 4	as	_	_	_	_	5	mark	_	_
@@ -631,7 +631,7 @@
 25	vendor	_	_	_	_	20	obl:agent	_	_
 26	)	_	_	_	_	9	punct	_	_
 
-1	2.	_	_	_	_	3	dep	_	_
+1	2.	_	_	_	_	3	discourse	_	_
 2	Customer	_	_	_	_	3	compound	_	_
 3	Representations	_	_	_	_	0	root	_	_
 4	and	_	_	_	_	5	cc	_	_
@@ -676,12 +676,12 @@
 37	terms	_	_	_	_	34	nmod	_	_
 38	.	_	_	_	_	2	punct	_	_
 
-1	4.	_	_	_	_	2	dep	_	_
+1	4.	_	_	_	_	2	discourse	_	_
 2	Returns	_	_	_	_	0	root	_	_
 3	and	_	_	_	_	4	cc	_	_
 4	Reversals	_	_	_	_	2	conj	_	_
 
-1	a)	_	_	_	_	2	dep	_	_
+1	a)	_	_	_	_	2	discourse	_	_
 2	Returns	_	_	_	_	0	root	_	_
 3	and	_	_	_	_	4	cc	_	_
 4	Reversals	_	_	_	_	2	conj	_	_
@@ -776,7 +776,7 @@
 22	that	_	_	_	_	19	mark	_	_
 23	:	_	_	_	_	19	punct	_	_
 
-1	i)	_	_	_	_	4	dep	_	_
+1	i)	_	_	_	_	4	discourse	_	_
 2	Customer	_	_	_	_	4	nsubj	_	_
 3	is	_	_	_	_	4	cop	_	_
 4	liable	_	_	_	_	0	root	_	_
@@ -792,7 +792,7 @@
 14	Activity	_	_	_	_	11	obl	_	_
 15	;	_	_	_	_	4	punct	_	_
 
-1	ii)	_	_	_	_	17	dep	_	_
+1	ii)	_	_	_	_	17	discourse	_	_
 2	If	_	_	_	_	6	mark	_	_
 3	Company	_	_	_	_	5	nmod:poss	_	_
 4	's	_	_	_	_	3	case	_	_
@@ -844,7 +844,7 @@
 50	)	_	_	_	_	48	punct	_	_
 51	;	_	_	_	_	17	punct	_	_
 
-1	iii)	_	_	_	_	4	dep	_	_
+1	iii)	_	_	_	_	4	discourse	_	_
 2	The	_	_	_	_	3	det	_	_
 3	Company	_	_	_	_	4	nsubj	_	_
 4	has	_	_	_	_	0	root	_	_
@@ -867,7 +867,7 @@
 21	Fee	_	_	_	_	18	conj	_	_
 22	;	_	_	_	_	4	punct	_	_
 
-1	iv)	_	_	_	_	3	dep	_	_
+1	iv)	_	_	_	_	3	discourse	_	_
 2	Customer	_	_	_	_	3	nsubj	_	_
 3	authorizes	_	_	_	_	0	root	_	_
 4	the	_	_	_	_	5	det	_	_
@@ -887,7 +887,7 @@
 18	)	_	_	_	_	17	punct	_	_
 19	:	_	_	_	_	3	punct	_	_
 
-1	(i)	_	_	_	_	2	dep	_	_
+1	(i)	_	_	_	_	2	discourse	_	_
 2	collect	_	_	_	_	0	root	_	_
 3	the	_	_	_	_	5	det	_	_
 4	unpaid	_	_	_	_	5	amod	_	_
@@ -907,7 +907,7 @@
 18	account	_	_	_	_	12	obl	_	_
 19	;	_	_	_	_	2	punct	_	_
 
-1	(ii)	_	_	_	_	2	dep	_	_
+1	(ii)	_	_	_	_	2	discourse	_	_
 2	debit	_	_	_	_	0	root	_	_
 3	your	_	_	_	_	5	nmod:poss	_	_
 4	bank	_	_	_	_	5	compound	_	_
@@ -925,7 +925,7 @@
 16	Liability	_	_	_	_	12	nmod	_	_
 17	;	_	_	_	_	2	punct	_	_
 
-1	(iv)	_	_	_	_	2	dep	_	_
+1	(iv)	_	_	_	_	2	discourse	_	_
 2	engage	_	_	_	_	0	root	_	_
 3	in	_	_	_	_	5	case	_	_
 4	collection	_	_	_	_	5	compound	_	_
@@ -943,7 +943,7 @@
 16	/	_	_	_	_	17	cc	_	_
 17	or	_	_	_	_	15	conj	_	_
 
-1	(v)	_	_	_	_	2	dep	_	_
+1	(v)	_	_	_	_	2	discourse	_	_
 2	take	_	_	_	_	0	root	_	_
 3	legal	_	_	_	_	4	amod	_	_
 4	action	_	_	_	_	2	obj	_	_
@@ -957,12 +957,12 @@
 12	Agreement	_	_	_	_	2	obl	_	_
 13	.	_	_	_	_	2	punct	_	_
 
-1	5.	_	_	_	_	2	dep	_	_
+1	5.	_	_	_	_	2	discourse	_	_
 2	Term	_	_	_	_	0	root	_	_
 3	and	_	_	_	_	4	cc	_	_
 4	Survival	_	_	_	_	2	conj	_	_
 
-1	a)	_	_	_	_	17	dep	_	_
+1	a)	_	_	_	_	17	discourse	_	_
 2	Subject	_	_	_	_	17	acl	_	_
 3	to	_	_	_	_	5	case	_	_
 4	earlier	_	_	_	_	5	amod	_	_
@@ -1012,7 +1012,7 @@
 48	term	_	_	_	_	42	nmod	_	_
 49	.	_	_	_	_	17	punct	_	_
 
-1	b)	_	_	_	_	7	dep	_	_
+1	b)	_	_	_	_	7	discourse	_	_
 2	Additionally	_	_	_	_	7	advmod	_	_
 3	,	_	_	_	_	2	punct	_	_
 4	either	_	_	_	_	5	det	_	_
@@ -1027,7 +1027,7 @@
 13	event	_	_	_	_	7	obl	_	_
 14	:	_	_	_	_	7	punct	_	_
 
-1	i)	_	_	_	_	7	dep	_	_
+1	i)	_	_	_	_	7	discourse	_	_
 2	The	_	_	_	_	4	det	_	_
 3	other	_	_	_	_	4	amod	_	_
 4	party	_	_	_	_	7	nmod:poss	_	_
@@ -1044,7 +1044,7 @@
 15	a	_	_	_	_	16	det	_	_
 16	period	_	_	_	_	13	obl	_	_
 17	of	_	_	_	_	36	case	_	_
-18	(A)	_	_	_	_	36	dep	_	_
+18	(A)	_	_	_	_	36	discourse	_	_
 19	in	_	_	_	_	21	case	_	_
 20	the	_	_	_	_	21	det	_	_
 21	case	_	_	_	_	36	obl	_	_
@@ -1064,7 +1064,7 @@
 35	15	_	_	_	_	36	nummod	_	_
 36	days	_	_	_	_	16	nmod	_	_
 37	and	_	_	_	_	48	cc	_	_
-38	(B)	_	_	_	_	48	dep	_	_
+38	(B)	_	_	_	_	48	discourse	_	_
 39	in	_	_	_	_	41	case	_	_
 40	the	_	_	_	_	41	det	_	_
 41	case	_	_	_	_	48	obl	_	_
@@ -1091,7 +1091,7 @@
 62	failure	_	_	_	_	60	obj	_	_
 63	;	_	_	_	_	13	punct	_	_
 
-1	ii)	_	_	_	_	13	dep	_	_
+1	ii)	_	_	_	_	13	discourse	_	_
 2	Any	_	_	_	_	3	det	_	_
 3	statement	_	_	_	_	13	nsubj	_	_
 4	,	_	_	_	_	5	punct	_	_
@@ -1116,11 +1116,11 @@
 23	information	_	_	_	_	21	obj	_	_
 24	;	_	_	_	_	13	punct	_	_
 
-1	iii)	_	_	_	_	10	dep	_	_
+1	iii)	_	_	_	_	10	discourse	_	_
 2	The	_	_	_	_	4	det	_	_
 3	other	_	_	_	_	4	amod	_	_
 4	party	_	_	_	_	10	nsubj	_	_
-5	(A)	_	_	_	_	10	dep	_	_
+5	(A)	_	_	_	_	10	discourse	_	_
 6	voluntarily	_	_	_	_	10	advmod	_	_
 7	or	_	_	_	_	8	cc	_	_
 8	involuntarily	_	_	_	_	6	conj	_	_
@@ -1130,7 +1130,7 @@
 12	bankruptcy	_	_	_	_	13	compound	_	_
 13	proceedings	_	_	_	_	10	obl	_	_
 14	,	_	_	_	_	16	punct	_	_
-15	(B)	_	_	_	_	16	dep	_	_
+15	(B)	_	_	_	_	16	discourse	_	_
 16	applies	_	_	_	_	10	conj	_	_
 17	for	_	_	_	_	16	obl	_	_
 18	or	_	_	_	_	19	cc	_	_
@@ -1152,7 +1152,7 @@
 34	similar	_	_	_	_	35	amod	_	_
 35	official	_	_	_	_	25	conj	_	_
 36	,	_	_	_	_	38	punct	_	_
-37	(C)	_	_	_	_	38	dep	_	_
+37	(C)	_	_	_	_	38	discourse	_	_
 38	makes	_	_	_	_	10	conj	_	_
 39	a	_	_	_	_	41	det	_	_
 40	general	_	_	_	_	41	amod	_	_
@@ -1160,7 +1160,7 @@
 42	to	_	_	_	_	43	case	_	_
 43	creditors	_	_	_	_	41	nmod	_	_
 44	,	_	_	_	_	46	punct	_	_
-45	(D)	_	_	_	_	46	dep	_	_
+45	(D)	_	_	_	_	46	discourse	_	_
 46	commences	_	_	_	_	10	conj	_	_
 47	winding	_	_	_	_	46	obj	_	_
 48	down	_	_	_	_	47	advmod	_	_
@@ -1171,7 +1171,7 @@
 53	business	_	_	_	_	54	compound	_	_
 54	affairs	_	_	_	_	50	nmod	_	_
 55	,	_	_	_	_	58	punct	_	_
-56	(E)	_	_	_	_	58	dep	_	_
+56	(E)	_	_	_	_	58	discourse	_	_
 57	otherwise	_	_	_	_	58	advmod	_	_
 58	takes	_	_	_	_	38	conj	_	_
 59	corporate	_	_	_	_	60	amod	_	_
@@ -1187,7 +1187,7 @@
 69	foregoing	_	_	_	_	66	nmod	_	_
 70	,	_	_	_	_	73	punct	_	_
 71	or	_	_	_	_	73	cc	_	_
-72	(F)	_	_	_	_	73	dep	_	_
+72	(F)	_	_	_	_	73	discourse	_	_
 73	ceases	_	_	_	_	46	conj	_	_
 74	operating	_	_	_	_	73	xcomp	_	_
 75	in	_	_	_	_	78	case	_	_
@@ -1198,7 +1198,7 @@
 80	business	_	_	_	_	78	nmod	_	_
 81	;	_	_	_	_	10	punct	_	_
 
-1	iv)	_	_	_	_	19	dep	_	_
+1	iv)	_	_	_	_	19	discourse	_	_
 2	If	_	_	_	_	19	mark	_	_
 3	any	_	_	_	_	4	det	_	_
 4	change	_	_	_	_	19	nsubj	_	_
@@ -1255,7 +1255,7 @@
 55	Agreement	_	_	_	_	51	nmod	_	_
 56	;	_	_	_	_	19	punct	_	_
 
-1	v)	_	_	_	_	3	dep	_	_
+1	v)	_	_	_	_	3	discourse	_	_
 2	Upon	_	_	_	_	3	case	_	_
 3	direction	_	_	_	_	0	root	_	_
 4	to	_	_	_	_	6	case	_	_
@@ -1293,7 +1293,7 @@
 36	Agreement	_	_	_	_	30	nmod	_	_
 37	;	_	_	_	_	3	punct	_	_
 
-1	vi)	_	_	_	_	6	dep	_	_
+1	vi)	_	_	_	_	6	discourse	_	_
 2	If	_	_	_	_	6	mark	_	_
 3	there	_	_	_	_	6	expl	_	_
 4	shall	_	_	_	_	6	aux	_	_
@@ -1314,7 +1314,7 @@
 19	;	_	_	_	_	20	punct	_	_
 20	or	_	_	_	_	6	dep	_	_
 
-1	vii)	_	_	_	_	6	dep	_	_
+1	vii)	_	_	_	_	6	discourse	_	_
 2	Upon	_	_	_	_	6	case	_	_
 3	a	_	_	_	_	6	det	_	_
 4	force	_	_	_	_	6	compound	_	_
@@ -1350,7 +1350,7 @@
 
 1	By	_	_	_	_	4	case	_	_
 2	:	_	_	_	_	1	punct	_	_
-3	/s/	_	_	_	_	4	dep	_	_
+3	/s/	_	_	_	_	4	discourse	_	_
 4	Dawn	_	_	_	_	0	root	_	_
 5	Dickson	_	_	_	_	4	flat	_	_
 6	,	_	_	_	_	4	punct	_	_
@@ -1371,7 +1371,7 @@
 2	:	_	_	_	_	3	punct	_	_
 3	08/19/2019	_	_	_	_	0	root	_	_
 
-1	/s/	_	_	_	_	2	dep	_	_
+1	/s/	_	_	_	_	2	discourse	_	_
 2	Howard	_	_	_	_	6	dep	_	_
 3	Marks	_	_	_	_	2	flat	_	_
 4	Howard	_	_	_	_	6	dep	_	_

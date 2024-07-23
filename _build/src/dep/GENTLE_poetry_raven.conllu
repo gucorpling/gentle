@@ -43,8 +43,8 @@
 13	,	_	_	_	_	12	punct	_	_
 14	As	_	_	_	_	17	case	_	_
 15	of	_	_	_	_	14	fixed	_	_
-16	some	_	_	_	_	17	det	_	_
-17	one	_	_	_	_	19	nsubj	_	_
+16	some	_	_	_	_	19	nsubj	_	_
+17	one	_	_	_	_	16	goeswith	_	_
 18	gently	_	_	_	_	19	advmod	_	_
 19	rapping	_	_	_	_	12	acl	_	_
 20	,	_	_	_	_	21	punct	_	_
@@ -456,8 +456,8 @@
 7	moment	_	_	_	_	5	obl:npmod	_	_
 8	and	_	_	_	_	11	cc	_	_
 9	this	_	_	_	_	10	det	_	_
-10	mystery	_	_	_	_	11	nsubj	_	_
-11	explore	_	_	_	_	1	conj	_	_
+10	mystery	_	_	_	_	11	obj	_	_
+11	explore	_	_	_	_	5	conj	_	_
 12	;	_	_	_	_	1	punct	_	_
 13	—	_	_	_	_	1	punct	_	_
 

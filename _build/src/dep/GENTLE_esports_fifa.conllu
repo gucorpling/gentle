@@ -242,14 +242,13 @@
 8	all	_	_	_	_	10	det:predet	_	_
 9	the	_	_	_	_	10	det	_	_
 10	time	_	_	_	_	7	obl:npmod	_	_
-11	you	_	_	_	_	12	nsubj	_	_
-12	've	_	_	_	_	17	reparandum	_	_
-13	as	_	_	_	_	17	reparandum	_	_
-14	just	_	_	_	_	17	advmod	_	_
-15	way	_	_	_	_	16	advmod	_	_
-16	too	_	_	_	_	17	advmod	_	_
-17	strong	_	_	_	_	4	parataxis	_	_
-18	.	_	_	_	_	4	punct	_	_
+11	UVA	_	_	_	_	16	nsubj	_	_
+12	's	_	_	_	_	16	cop	_	_
+13	just	_	_	_	_	16	advmod	_	_
+14	way	_	_	_	_	16	advmod	_	_
+15	too	_	_	_	_	16	advmod	_	_
+16	strong	_	_	_	_	4	parataxis	_	_
+17	.	_	_	_	_	4	punct	_	_
 
 1	Genoa	_	_	_	_	5	nsubj	_	_
 2	is	_	_	_	_	5	cop	_	_
@@ -589,18 +588,19 @@
 5	some	_	_	_	_	6	det	_	_
 6	space	_	_	_	_	2	obl	_	_
 7	,	_	_	_	_	9	punct	_	_
-8	somebody	_	_	_	_	9	nsubj	_	_
+8	somebody	_	_	_	_	9	vocative	_	_
 9	take	_	_	_	_	2	parataxis	_	_
 10	a	_	_	_	_	11	det	_	_
 11	shot	_	_	_	_	9	obj	_	_
 12	.	_	_	_	_	2	punct	_	_
 
-1	Ok	_	_	_	_	2	discourse	_	_
-2	Favilli	_	_	_	_	0	root	_	_
-3	and	_	_	_	_	5	cc	_	_
-4	of	_	_	_	_	5	reparandum	_	_
-5	what	_	_	_	_	2	conj	_	_
-6	?	_	_	_	_	2	punct	_	_
+1	Ok	_	_	_	_	6	discourse	_	_
+2	Favilli	_	_	_	_	6	reparandum	_	_
+3	and	_	_	_	_	4	cc	_	_
+4	of	_	_	_	_	2	conj	_	_
+5	—	_	_	_	_	6	punct	_	_
+6	what	_	_	_	_	0	root	_	_
+7	?	_	_	_	_	6	punct	_	_
 
 1	How	_	_	_	_	6	reparandum	_	_
 2	...	_	_	_	_	1	punct	_	_

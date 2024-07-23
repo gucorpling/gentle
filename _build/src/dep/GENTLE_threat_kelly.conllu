@@ -383,11 +383,12 @@
 7	I	_	_	_	_	9	nsubj	_	_
 8	had	_	_	_	_	9	aux	_	_
 9	saved	_	_	_	_	6	acl:relcl	_	_
-10	too	_	_	_	_	9	mark	_	_
-11	Go	_	_	_	_	2	parataxis	_	_
+10	too	_	_	_	_	11	mark	_	_
+11	Go	_	_	_	_	9	advcl	_	_
 12	see	_	_	_	_	11	xcomp	_	_
 13	the	_	_	_	_	14	det	_	_
-14	Bitch.	_	_	_	_	12	obj	_	_
+14	Bitch	_	_	_	_	12	obj	_	_
+15	.	_	_	_	_	12	punct	_	_
 
 1	I	_	_	_	_	4	nsubj	_	_
 2	ca	_	_	_	_	4	aux	_	_
