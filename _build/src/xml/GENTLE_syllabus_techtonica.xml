@@ -1,4 +1,4 @@
-<text id="GENTLE_syllabus_techtonica" author="Techtonica" dateCollected="2022-11-10" dateCreated="2020-01-02" dateModified="2022-05-18"  shortTitle="techtonica" sourceURL="https://github.com/Techtonica/curriculum/blob/main/README.md" speakerCount="0" speakerList="none" title="Welcome to the Techtonica curriculum!" type="syllabus">
+<text id="GENTLE_syllabus_techtonica" author="Techtonica" dateCollected="2022-11-10" dateCreated="2020-01-02" dateModified="2022-05-18"  shortTitle="techtonica" sourceURL="https://github.com/Techtonica/curriculum/blob/main/README.md" speakerCount="0" speakerList="none" title="Welcome to the Techtonica curriculum!" type="syllabus" summary="This curriculum for Techtonica, a non-profit project offering hands on tech training, details a 15 week syllabus covering developer tools, webpages (HTML, CSS), JavaScript at React, Web APIs, databases, testing, data structures and algorithms, an Eventonica project and full stack practice, as well as a career week and assessments.">
 <head>
 <s type="frag">
 Welcome	UH	welcome
@@ -2379,7 +2379,7 @@ Career	NP	Career
 Week	NP	Week
 :	:	:
 Sales	NNS	sale
-Engineering	NN	Engineering
+Engineering	NN	engineering
 </ref>
 </s>
 </item>
@@ -2452,7 +2452,7 @@ Interviewing	VVG	interview
 <ref target="/career/resume-writing.md">
 4.	LS	4.
 Resume	NN	resume
-Writing	NN	Writing
+Writing	NN	writing
 </ref>
 </s>
 </item>
@@ -2462,7 +2462,7 @@ Writing	NN	Writing
 <s type="frag">
 <ref target="/projects/take-home-problems/frontend.md">
 5.	LS	5.
-Front	JJ	Front
+Front	JJ	front
 End	NN	end
 Take	NN	take
 -	HYPH	-
@@ -2493,7 +2493,7 @@ Challenge	NN	challenge
 <ref target="/career/roles-in-tech/technical-writing.md">
 7.	LS	7.
 Technical	JJ	technical
-Writing	NN	Writing
+Writing	NN	writing
 </ref>
 </s>
 </item>
@@ -2535,7 +2535,7 @@ weeks	NNS	week
 10.	LS	10.
 Resources	NNS	resource
 :	:	:
-Underrepresented	JJ	Underrepresented
+Underrepresented	VVN	underrepresent
 in	IN	in
 Tech	NP	Tech
 </ref>
@@ -2580,10 +2580,10 @@ Negotiating	VVG	negotiate
 <s type="frag">
 <ref target="/program-prep/ethics.md">
 14.	LS	14.
-Ethics	NN	Ethics
+Ethics	NN	ethics
 in	IN	in
 Software	NN	software
-Engineering	NN	Engineering
+Engineering	NN	engineering
 </ref>
 </s>
 </item>
@@ -2648,7 +2648,7 @@ frames	NNS	frame
 </item>
 <item>
 <s type="ger">
-Planning	VVG	Plann
+Planning	VVG	plan
 out	RP	out
 <w>
 must	NN	must
@@ -2663,7 +2663,7 @@ MVP	NP	MVP
 </item>
 <item>
 <s type="ger">
-Updating	VVG	Update
+Updating	VVG	update
 status	NN	status
 on	IN	on
 their	PP$	their

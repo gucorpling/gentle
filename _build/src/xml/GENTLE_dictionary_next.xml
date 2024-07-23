@@ -1,4 +1,4 @@
-<text id="GENTLE_dictionary_next" author="Wiktionary" dateCollected="2022-11-14" dateCreated="2003-03-18" dateModified="2022-10-02" shortTitle="next" sourceURL="https://en.wiktionary.org/wiki/next" speakerCount="0" speakerList="none" title="next" type="dictionary">
+<text id="GENTLE_dictionary_next" author="Wiktionary" dateCollected="2022-11-14" dateCreated="2003-03-18" dateModified="2022-10-02" shortTitle="next" sourceURL="https://en.wiktionary.org/wiki/next" speakerCount="0" speakerList="none" title="next" type="dictionary" summary="This dictionary entry for the word 'next' gives its dialectal forms, etymology as a superlative of 'near' from Middle and Old English nexte and nīehsta from Proto-Germanic *nēhwist, its cognates (e.g. Dutch naast, Danish næste), pronunciation /nεkst/ and related synonyms and antonyms, accompanied by usage examples as an adjective, determiner, adverb, preposition and noun.">
 <head>
 <s type="frag">
 next	JJ	next
@@ -825,7 +825,8 @@ coming	VVG	come
 <ref target="https://en.wiktionary.org/wiki/week">
 week	NN	week
 </ref>
-(as	(	(as
+(	(	(
+as	IN	as
 in	IN	in
 <hi rend="italic">
 Saturday	NP	Saturday

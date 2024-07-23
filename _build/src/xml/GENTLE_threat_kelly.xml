@@ -1,4 +1,4 @@
-<text id="GENTLE_threat_kelly" author="Kelly, William Albert" dateCollected="2022-11-14" dateCreated="2012-01-01" dateModified="2012-01-01" shortTitle="kelly" sourceURL="https://casetext.com/case/state-v-kelly-473" speakerCount="0" speakerList="none" title="State v. Kelly, 2013 Tenn. Crim. App. LEXIS 890, *4-5, 2013 WL 5657672 (Tenn. Crim. App. October 16, 2013)" type="threat">
+<text id="GENTLE_threat_kelly" author="Kelly, William Albert" dateCollected="2022-11-14" dateCreated="2012-01-01" dateModified="2012-01-01" shortTitle="kelly" sourceURL="https://casetext.com/case/state-v-kelly-473" speakerCount="0" speakerList="none" title="State v. Kelly, 2013 Tenn. Crim. App. LEXIS 890, *4-5, 2013 WL 5657672 (Tenn. Crim. App. October 16, 2013)" type="threat" summary="In this letter, an inmate in jail threatens a woman, who works at Walgreens and has perpetrated an insurance scam and stolen some things, that they will reveal this to the police and testify against her unless the woman drops the charges that put the author of the letter in jail, resulting in 3-5 years in jail for a class E felony.">
 <p>
 <s type="intj">
 Hello	UH	hello
@@ -254,7 +254,9 @@ you	PP	you
 <s type="decl">
 I	PP	I
 will	MD	will
-testified	VVN	testify
+<sic ana="testify">
+testified	VV	testify
+</sic>
 .	SENT	.
 </s>
 <s type="decl">
@@ -423,11 +425,14 @@ money	NN	money
 I	PP	I
 had	VHD	have
 saved	VVN	save
-too	RB	too
+<sic ana="to">
+too	TO	to
+</sic>
 Go	VV	go
 see	VV	see
 the	DT	the
-Bitch.	NN	bitch
+Bitch	NN	bitch
+.	SENT	.
 </s>
 <s type="decl">
 I	PP	I
@@ -518,7 +523,7 @@ Bitch	NN	bitch
 .	SENT	.
 </s>
 <s type="decl">
-Jail	NN	Jail
+Jail	NN	jail
 is	VBZ	be
 no	DT	no
 fucking	UH	fucking

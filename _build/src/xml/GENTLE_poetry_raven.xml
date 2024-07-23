@@ -1,4 +1,4 @@
-<text id="GENTLE_poetry_raven" author="Edgar Allan Poe" dateCollected="2022-11-12" dateCreated="2019-01-17" dateModified="2019-01-17"  shortTitle="raven" sourceURL="https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe/Volume_2/The_Raven" speakerCount="0" speakerList="none" title="The Raven" type="poetry">
+<text id="GENTLE_poetry_raven" author="Edgar Allan Poe" dateCollected="2022-11-12" dateCreated="2019-01-17" dateModified="2019-01-17"  shortTitle="raven" sourceURL="https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe/Volume_2/The_Raven" speakerCount="0" speakerList="none" title="The Raven" type="poetry" summary="After reading and napping on a bleak December night to forget the sorrow of losing Lenore, a rare and radiant maiden, a raven comes in through the window and perches above the chamber door, repeatedly saying 'Nevermore' when asked for its name and about whether the narrator will again clasp Lenore, upsetting the narrator greatly.">
 <head>
 <s type="frag">
 THE	DT	the
@@ -32,7 +32,7 @@ and	CC	and
 curious	JJ	curious
 volume	NN	volume
 of	IN	of
-forgotten	VVN	forgotten
+forgotten	VVN	forget
 lore	NN	lore
 —	:	—
 </s>
@@ -54,8 +54,10 @@ tapping	NN	tapping
 <l n="4"/>
 As	IN	as
 of	IN	of
-some	DT	some
+<sic ana="someone">
+some	GW	some
 one	NN	one
+</sic>
 gently	RB	gently
 rapping	VVG	rap
 ,	,	,
@@ -74,7 +76,9 @@ door	NN	door
 is	VBZ	be
 </w>
 some	DT	some
-visiter	NN	visiter
+<sic ana="visitor">
+visiter	NN	visitor
+</sic>
 ,	,	,
 "	''	''
 I	PP	I
@@ -120,7 +124,7 @@ each	DT	each
 separate	JJ	separate
 dying	VVG	die
 ember	NN	ember
-wrought	VVD	wring
+wrought	VVD	work
 its	PP$	its
 ghost	NN	ghost
 upon	IN	upon
@@ -171,7 +175,7 @@ name	VVP	name
 Lenore	NP	Lenore
 —	:	—
 <l n="12"/>
-Nameless	JJ	Nameless
+Nameless	JJ	nameless
 here	RB	here
 for	IN	for
 evermore	RB	evermore
@@ -201,13 +205,13 @@ with	IN	with
 fantastic	JJ	fantastic
 terrors	NNS	terror
 never	RB	never
-felt	VVD	feel
+felt	VVN	feel
 before	RB	before
 ;	:	;
 </s>
 <s type="decl">
 <l n="15"/>
-So	RB	so
+So	IN	so
 that	IN/that	that
 now	RB	now
 ,	,	,
@@ -231,7 +235,9 @@ repeating	VVG	repeat
 is	VBZ	be
 </w>
 some	DT	some
-visiter	NN	visiter
+<sic ana="visitor">
+visiter	NN	visitor
+</sic>
 entreating	VVG	entreat
 entrance	NN	entrance
 at	IN	at
@@ -244,7 +250,9 @@ door	NN	door
 <l n="17"/>
 Some	DT	some
 late	JJ	late
-visiter	NN	visiter
+<sic ana="visitor">
+visiter	NN	visitor
+</sic>
 entreating	VVG	entreat
 entrance	NN	entrance
 at	IN	at
@@ -579,7 +587,7 @@ there	RB	there
 stepped	VVD	step
 a	DT	a
 stately	JJ	stately
-Raven	NN	Raven
+Raven	NN	raven
 of	IN	of
 the	DT	the
 saintly	JJ	saintly
@@ -706,7 +714,7 @@ Ghastly	JJ	ghastly
 grim	JJ	grim
 and	CC	and
 ancient	JJ	ancient
-Raven	NP	Raven
+Raven	NN	raven
 wandering	VVG	wander
 from	IN	from
 the	DT	the
@@ -725,7 +733,7 @@ name	NN	name
 is	VBZ	be
 on	IN	on
 the	DT	the
-Night	NN	Night
+Night	NN	night
 's	POS	's
 Plutonian	JJ	Plutonian
 shore	NN	shore
@@ -736,7 +744,7 @@ shore	NN	shore
 <l n="48"/>
 Quoth	VVZ	quoth
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 "	``	''
 Nevermore	NP	Nevermore
@@ -802,7 +810,7 @@ chamber	NN	chamber
 door	NN	door
 —	:	—
 <l n="53"/>
-Bird	NN	Bird
+Bird	NN	bird
 or	CC	or
 beast	NN	beast
 upon	IN	upon
@@ -830,7 +838,7 @@ Nevermore	NP	Nevermore
 <l n="55"/>
 But	CC	but
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 sitting	VVG	sit
 lonely	JJ	lonely
@@ -970,7 +978,7 @@ unhappy	JJ	unhappy
 master	NN	master
 whom	WP	who
 unmerciful	JJ	unmerciful
-Disaster	NP	Disaster
+Disaster	NN	disaster
 <l n="64"/>
 Followed	VVD	follow
 fast	RB	fast
@@ -1013,7 +1021,7 @@ nevermore	RB	nevermore
 <l n="67"/>
 But	CC	but
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 still	RB	still
 beguiling	VVG	beguile
 all	IN	all
@@ -1055,7 +1063,7 @@ myself	PP	myself
 to	IN	to
 linking	VVG	link
 <l n="70"/>
-Fancy	NP	Fancy
+Fancy	NN	fancy
 unto	IN	unto
 fancy	NN	fancy
 ,	,	,
@@ -1217,7 +1225,7 @@ floor	NN	floor
 <s type="decl">
 <l n="81"/>
 "	``	''
-Wretch	NP	Wretch
+Wretch	NN	wretch
 ,	,	,
 "	''	''
 I	PP	I
@@ -1271,7 +1279,7 @@ Lenore	NP	Lenore
 <l n="84"/>
 Quoth	VVZ	quoth
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 "	``	''
 Nevermore	RB	nevermore
@@ -1283,7 +1291,7 @@ Nevermore	RB	nevermore
 <s type="decl">
 <l n="85"/>
 "	``	''
-Prophet	NN	Prophet
+Prophet	NN	prophet
 !	SENT	!
 "	''	''
 said	VVD	say
@@ -1323,7 +1331,7 @@ a	DT	a
 shore	NN	shore
 ,	,	,
 <l n="87"/>
-Desolate	JJ	Desolate
+Desolate	JJ	desolate
 yet	CC	yet
 all	DT	all
 undaunted	JJ	undaunted
@@ -1381,7 +1389,7 @@ implore	VVP	implore
 <l n="90"/>
 Quoth	VVZ	quoth
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 "	``	''
 Nevermore	RB	nevermore
@@ -1393,7 +1401,7 @@ Nevermore	RB	nevermore
 <s type="decl">
 <l n="91"/>
 "	``	''
-Prophet	NN	Prophet
+Prophet	NN	prophet
 !	SENT	!
 "	''	''
 said	VVD	say
@@ -1484,7 +1492,7 @@ Lenore	NP	Lenore
 <l n="96"/>
 Quoth	VVZ	quoth
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 "	``	''
 Nevermore	RB	nevermore
@@ -1526,7 +1534,7 @@ the	DT	the
 tempest	NN	tempest
 and	CC	and
 the	DT	the
-Night	NN	Night
+Night	NN	night
 's	POS	's
 Plutonian	JJ	Plutonian
 shore	NN	shore
@@ -1593,7 +1601,7 @@ door	NN	door
 <l n="102"/>
 Quoth	VVZ	quoth
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 "	``	''
 Nevermore	RB	nevermore
@@ -1606,7 +1614,7 @@ Nevermore	RB	nevermore
 <l n="103"/>
 And	CC	and
 the	DT	the
-Raven	NN	Raven
+Raven	NN	raven
 ,	,	,
 never	RB	never
 flitting	VVG	flit

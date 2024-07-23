@@ -1,4 +1,4 @@
-<text id="GENTLE_esports_fifa" author="The Nobz" dateCollected="2022-11-14" dateCreated="2020-02-01" dateModified="2020-02-01"  shortTitle="fifa" sourceURL="https://www.youtube.com/watch?v=afGtqs-_LBo" speakerCount="1" speakerList="#Adam" title="CHAMPIONS LEAGUE SEMI-FINAL!!! FIFA 20 AC MILAN CAREER MODE #16" type="esports">
+<text id="GENTLE_esports_fifa" author="The Nobz" dateCollected="2022-11-14" dateCreated="2020-02-01" dateModified="2020-02-01"  shortTitle="fifa" sourceURL="https://www.youtube.com/watch?v=afGtqs-_LBo" speakerCount="1" speakerList="#Adam" title="CHAMPIONS LEAGUE SEMI-FINAL!!! FIFA 20 AC MILAN CAREER MODE #16" type="esports" summary="This episode features three games towards winning the Scudetto, where the player wins a simulated game against Benevento 3:1, then plays and loses a game to Genoa 0:1 due to a penalty goal from Favilli, but wins a simulation against Manchester 3:1 with Paquetá and Jović scoring, making the semi-finals and fulfilling the club's objective for the Champions League this season.">
 <s type="decl">
 Now	RB	now
 after	IN	after
@@ -266,9 +266,8 @@ tough	JJ	tough
 all	PDT	all
 the	DT	the
 time	NN	time
-you	PP	you
-'ve	VHP	have
-as	IN	as
+UVA	NP	UVA
+'s	VBZ	be
 just	RB	just
 way	RB	way
 too	RB	too
@@ -655,6 +654,7 @@ Ok	UH	ok
 Favilli	NP	Favilli
 and	CC	and
 of	IN	of
+—	:	—
 what	WP	what
 ?	SENT	?
 </s>

@@ -1,4 +1,4 @@
-<text id="GENTLE_poetry_road" author="Robert Frost" dateCollected="2022-11-12" dateCreated="2021-05-30" dateModified="2021-05-30"  shortTitle="road" sourceURL="https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken" speakerCount="0" speakerList="none" title="The Road Not Taken" type="poetry">
+<text id="GENTLE_poetry_road" author="Robert Frost" dateCollected="2022-11-12" dateCreated="2021-05-30" dateModified="2021-05-30"  shortTitle="road" sourceURL="https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken" speakerCount="0" speakerList="none" title="The Road Not Taken" type="poetry" summary="In this poem, a traveller recounts deliberating which of two roads diverging in a yellow wood to take, finally choosing the one less travelled by, because it was grassy and wanted wear, and predicts one day telling somewhere that this choice had made all the difference.">
 <p>
 <s type="decl">
 <l n="1"/>
@@ -110,7 +110,7 @@ equally	RB	equally
 lay	VVD	lie
 <l n="12"/>
 In	IN	in
-leaves	NNS	leave
+leaves	NNS	leaf
 no	DT	no
 step	NN	step
 had	VHD	have
@@ -138,7 +138,7 @@ knowing	VVG	know
 how	WRB	how
 way	NN	way
 leads	VVZ	lead
-on	RP	on
+on	RB	on
 to	IN	to
 way	NN	way
 ,	,	,
