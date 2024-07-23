@@ -8,42 +8,42 @@
 1-2	12-13	:	_	_	_	_	_	_	
 
 #Text=Posttransplant lymphoproliferative disorder , chronic renal insufficiency , squamous cell carcinoma of the skin , anemia secondary to chronic renal insufficiency and chemotherapy , and hypertension .
-2-1	14-28	Posttransplant	abstract[2]	new[2]	nonsal[2]	_	coref	7-2[21_2]	
-2-2	29-48	lymphoproliferative	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-3	49-57	disorder	abstract[2]	new[2]	nonsal[2]	_	_	_	
+2-1	14-28	Posttransplant	abstract[2]	new[2]	sal[2]	_	coref	7-2[21_2]	
+2-2	29-48	lymphoproliferative	abstract[2]	new[2]	sal[2]	_	_	_	
+2-3	49-57	disorder	abstract[2]	new[2]	sal[2]	_	_	_	
 2-4	58-59	,	_	_	_	_	_	_	
-2-5	60-67	chronic	abstract[3]	new[3]	nonsal[3]	_	coref	2-19[9_3]	
-2-6	68-73	renal	abstract[3]|object[4]	new[3]|new[4]	nonsal[3]|nonsal[4]	_	coref	2-20[10_4]	
-2-7	74-87	insufficiency	abstract[3]	new[3]	nonsal[3]	_	_	_	
+2-5	60-67	chronic	abstract[3]	new[3]	sal[3]	_	coref	2-19[9_3]	
+2-6	68-73	renal	abstract[3]|object[4]	new[3]|new[4]	sal[3]|sal[4]	_	coref	2-20[10_4]	
+2-7	74-87	insufficiency	abstract[3]	new[3]	sal[3]	_	_	_	
 2-8	88-89	,	_	_	_	_	_	_	
-2-9	90-98	squamous	abstract[5]|animal[6]	new[5]|new[6]	nonsal[5]|nonsal[6]	_	coref|coref	9-2[24_5]|9-2[25_6]	
-2-10	99-103	cell	abstract[5]|animal[6]	new[5]|new[6]	nonsal[5]|nonsal[6]	_	_	_	
-2-11	104-113	carcinoma	abstract[5]	new[5]	nonsal[5]	_	_	_	
-2-12	114-116	of	abstract[5]	new[5]	nonsal[5]	_	_	_	
-2-13	117-120	the	abstract[5]|object[7]	new[5]|new[7]	nonsal[5]|nonsal[7]	_	coref	9-6[26_7]	
-2-14	121-125	skin	abstract[5]|object[7]	new[5]|new[7]	nonsal[5]|nonsal[7]	_	_	_	
+2-9	90-98	squamous	abstract[5]|animal[6]	new[5]|new[6]	sal[5]|sal[6]	_	coref|coref	9-2[24_5]|9-2[25_6]	
+2-10	99-103	cell	abstract[5]|animal[6]	new[5]|new[6]	sal[5]|sal[6]	_	_	_	
+2-11	104-113	carcinoma	abstract[5]	new[5]	sal[5]	_	_	_	
+2-12	114-116	of	abstract[5]	new[5]	sal[5]	_	_	_	
+2-13	117-120	the	abstract[5]|object[7]	new[5]|new[7]	sal[5]|sal[7]	_	coref	9-6[26_7]	
+2-14	121-125	skin	abstract[5]|object[7]	new[5]|new[7]	sal[5]|sal[7]	_	_	_	
 2-15	126-127	,	_	_	_	_	_	_	
-2-16	128-134	anemia	abstract[8]	new[8]	nonsal[8]	_	coref	10-2[27_8]	
-2-17	135-144	secondary	abstract[8]	new[8]	nonsal[8]	_	_	_	
-2-18	145-147	to	abstract[8]	new[8]	nonsal[8]	_	_	_	
-2-19	148-155	chronic	abstract[8]|abstract[9]	new[8]|giv[9]	nonsal[8]|nonsal[9]	_	coref	8-2[22_9]	
-2-20	156-161	renal	abstract[8]|abstract[9]|object[10]	new[8]|giv[9]|giv[10]	nonsal[8]|nonsal[9]|nonsal[10]	_	coref	10-6[29_10]	
-2-21	162-175	insufficiency	abstract[8]|abstract[9]	new[8]|giv[9]	nonsal[8]|nonsal[9]	_	_	_	
-2-22	176-179	and	abstract[8]	new[8]	nonsal[8]	_	_	_	
-2-23	180-192	chemotherapy	abstract[8]|event[11]	new[8]|new[11]	nonsal[8]|nonsal[11]	_	coref	3-9[15_11]	
+2-16	128-134	anemia	abstract[8]	new[8]	sal[8]	_	coref	10-2[27_8]	
+2-17	135-144	secondary	abstract[8]	new[8]	sal[8]	_	_	_	
+2-18	145-147	to	abstract[8]	new[8]	sal[8]	_	_	_	
+2-19	148-155	chronic	abstract[8]|abstract[9]	new[8]|giv[9]	sal[8]|nonsal[9]	_	coref	8-2[22_9]	
+2-20	156-161	renal	abstract[8]|abstract[9]|object[10]	new[8]|giv[9]|giv[10]	sal[8]|nonsal[9]|nonsal[10]	_	coref	10-6[29_10]	
+2-21	162-175	insufficiency	abstract[8]|abstract[9]	new[8]|giv[9]	sal[8]|nonsal[9]	_	_	_	
+2-22	176-179	and	abstract[8]	new[8]	sal[8]	_	_	_	
+2-23	180-192	chemotherapy	abstract[8]|event[11]	new[8]|new[11]	sal[8]|sal[11]	_	coref	3-9[15_11]	
 2-24	193-194	,	_	_	_	_	_	_	
 2-25	195-198	and	_	_	_	_	_	_	
-2-26	199-211	hypertension	abstract[12]	new[12]	nonsal[12]	_	coref	11-2[31_12]	
+2-26	199-211	hypertension	abstract[12]	new[12]	sal[12]	_	coref	11-2[31_12]	
 2-27	212-213	.	_	_	_	_	_	_	
 
 #Text=The patient is here for followup visit and chemotherapy .
-3-1	214-217	The	person[13]	new[13]	nonsal[13]	_	coref	5-1[17_13]	
-3-2	218-225	patient	person[13]	new[13]	nonsal[13]	_	_	_	
+3-1	214-217	The	person[13]	new[13]	sal[13]	_	coref	5-1[17_13]	
+3-2	218-225	patient	person[13]	new[13]	sal[13]	_	_	_	
 3-3	226-228	is	_	_	_	_	_	_	
 3-4	229-233	here	_	_	_	_	_	_	
 3-5	234-237	for	_	_	_	_	_	_	
-3-6	238-246	followup	event[14]	new[14]	nonsal[14]	_	coref	5-6[18_14]	
-3-7	247-252	visit	event[14]	new[14]	nonsal[14]	_	_	_	
+3-6	238-246	followup	event[14]	new[14]	sal[14]	_	coref	5-6[18_14]	
+3-7	247-252	visit	event[14]	new[14]	sal[14]	_	_	_	
 3-8	253-256	and	_	_	_	_	_	_	
 3-9	257-269	chemotherapy	event[15]	giv[15]	nonsal[15]	_	coref	5-9[19_15]	
 3-10	270-271	.	_	_	_	_	_	_	
@@ -133,7 +133,7 @@
 13-13	652-658	latter	person[34]|time[36]	new[34]|giv[36]	nonsal[34]|nonsal[36]	_	_	_	
 13-14	659-663	half	person[34]|time[36]	new[34]|giv[36]	nonsal[34]|nonsal[36]	_	_	_	
 13-15	664-666	of	person[34]|time[36]	new[34]|giv[36]	nonsal[34]|nonsal[36]	_	_	_	
-13-16	667-671	2007	person[34]|time[36]|time[37]	new[34]|giv[36]|new[37]	nonsal[34]|nonsal[36]|nonsal[37]	_	_	_	
+13-16	667-671	2007	person[34]|time[36]|time[37]	new[34]|giv[36]|new[37]	nonsal[34]|nonsal[36]|sal[37]	_	_	_	
 13-17	672-673	.	_	_	_	_	_	_	
 
 #Text=He presented with symptoms of increasing adenopathy , abdominal pain , weight loss , and anorexia .
@@ -189,9 +189,9 @@
 16-21	937-943	showed	event[51]	new[51]	nonsal[51]	_	_	_	
 16-22	944-953	diagnosis	event[51]|abstract[54]	new[51]|new[54]	nonsal[51]|nonsal[54]	_	_	_	
 16-23	954-956	of	event[51]|abstract[54]	new[51]|new[54]	nonsal[51]|nonsal[54]	_	_	_	
-16-24	957-962	large	event[51]|abstract[54]|object[55]	new[51]|new[54]|new[55]	nonsal[51]|nonsal[54]|nonsal[55]	_	coref	45-3[170_55]	
-16-25	963-967	cell	event[51]|abstract[54]|object[55]	new[51]|new[54]|new[55]	nonsal[51]|nonsal[54]|nonsal[55]	_	_	_	
-16-26	968-976	lymphoma	event[51]|abstract[54]|object[55]	new[51]|new[54]|new[55]	nonsal[51]|nonsal[54]|nonsal[55]	_	_	_	
+16-24	957-962	large	event[51]|abstract[54]|object[55]	new[51]|new[54]|new[55]	nonsal[51]|nonsal[54]|sal[55]	_	coref	45-3[170_55]	
+16-25	963-967	cell	event[51]|abstract[54]|object[55]	new[51]|new[54]|new[55]	nonsal[51]|nonsal[54]|sal[55]	_	_	_	
+16-26	968-976	lymphoma	event[51]|abstract[54]|object[55]	new[51]|new[54]|new[55]	nonsal[51]|nonsal[54]|sal[55]	_	_	_	
 16-27	977-978	.	_	_	_	_	_	_	
 
 #Text=He was discussed at the hematopathology conference .
@@ -569,12 +569,12 @@
 45-1	2710-2712	1.	_	_	_	_	_	_	
 45-2	2713-2720	Diffuse	_	_	_	_	_	_	
 45-3	2721-2726	large	object[170]	new[170]	nonsal[170]	_	_	_	
-45-4	2727-2728	B	object[170]|object[171]	new[170]|new[171]	nonsal[170]|nonsal[171]	_	_	_	
-45-5	2729-2730	-	object[170]|object[171]	new[170]|new[171]	nonsal[170]|nonsal[171]	_	_	_	
-45-6	2731-2735	cell	object[170]|object[171]	new[170]|new[171]	nonsal[170]|nonsal[171]	_	_	_	
+45-4	2727-2728	B	object[170]|object[171]	new[170]|new[171]	nonsal[170]|sal[171]	_	_	_	
+45-5	2729-2730	-	object[170]|object[171]	new[170]|new[171]	nonsal[170]|sal[171]	_	_	_	
+45-6	2731-2735	cell	object[170]|object[171]	new[170]|new[171]	nonsal[170]|sal[171]	_	_	_	
 45-7	2736-2744	lymphoma	object[170]	new[170]	nonsal[170]	_	_	_	
 45-8	2745-2754	following	_	_	_	_	_	_	
-45-9	2755-2770	transplantation	event[172]	new[172]	nonsal[172]	_	_	_	
+45-9	2755-2770	transplantation	event[172]	new[172]	sal[172]	_	_	_	
 45-10	2771-2772	.	_	_	_	_	_	_	
 
 #Text=The patient is to receive his sixth and final cycle of chemotherapy today .
@@ -614,11 +614,11 @@
 48-4	2915-2917	me	person[182]	acc[182]	nonsal[182]	_	_	_	
 48-5	2918-2922	back	_	_	_	_	_	_	
 48-6	2923-2926	for	_	_	_	_	_	_	
-48-7	2927-2930	the	event[183]	giv[183]	nonsal[183]	_	_	_	
-48-8	2931-2936	visit	event[183]	giv[183]	nonsal[183]	_	_	_	
-48-9	2937-2939	in	event[183]	giv[183]	nonsal[183]	_	_	_	
-48-10	2940-2941	3	event[183]|time[184]	giv[183]|new[184]	nonsal[183]|nonsal[184]	_	_	_	
-48-11	2942-2947	weeks	event[183]|time[184]	giv[183]|new[184]	nonsal[183]|nonsal[184]	_	_	_	
+48-7	2927-2930	the	event[183]	giv[183]	sal[183]	_	_	_	
+48-8	2931-2936	visit	event[183]	giv[183]	sal[183]	_	_	_	
+48-9	2937-2939	in	event[183]	giv[183]	sal[183]	_	_	_	
+48-10	2940-2941	3	event[183]|time[184]	giv[183]|new[184]	sal[183]|sal[184]	_	_	_	
+48-11	2942-2947	weeks	event[183]|time[184]	giv[183]|new[184]	sal[183]|sal[184]	_	_	_	
 48-12	2948-2952	with	_	_	_	_	_	_	
 48-13	2953-2956	CBC	abstract[185]	giv[185]	nonsal[185]	Complete_blood_count[185]	_	_	
 48-14	2957-2958	,	_	_	_	_	_	_	

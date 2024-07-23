@@ -12,9 +12,9 @@
 2-2	21-30	AGREEMENT	abstract[2]	new[2]	nonsal[2]	_	_	_	
 
 #Text=This Services Agreement ( " Services Agreement " or " Agreement " ) is entered into as of the date noted below ( the " Effective Date " ) between StartEngine Crowdfunding , Inc. , a Delaware corporation ( " Company " ) , and Solutions Vending International , Inc a ___DE corporation ( " Customer " or " you " ) .
-3-1	31-35	This	abstract[3]	giv[3]	nonsal[3]	_	coref	3-6[5_3]	
-3-2	36-44	Services	abstract[3]|abstract[4]	giv[3]|new[4]	nonsal[3]|nonsal[4]	Service_(business)[4]	coref	3-6[6_4]	
-3-3	45-54	Agreement	abstract[3]	giv[3]	nonsal[3]	_	_	_	
+3-1	31-35	This	abstract[3]	giv[3]	sal[3]	_	coref	3-6[5_3]	
+3-2	36-44	Services	abstract[3]|abstract[4]	giv[3]|new[4]	sal[3]|sal[4]	Service_(business)[4]	coref	3-6[6_4]	
+3-3	45-54	Agreement	abstract[3]	giv[3]	sal[3]	_	_	_	
 3-4	55-56	(	_	_	_	_	_	_	
 3-5	57-58	"	_	_	_	_	_	_	
 3-6	59-67	Services	abstract[5]|abstract[6]	giv[5]|giv[6]	nonsal[5]|nonsal[6]	Service_(business)[6]	coref|coref	3-11[7_5]|4-2[17_6]	
@@ -42,10 +42,10 @@
 3-28	165-166	"	time[9]	giv[9]	nonsal[9]	_	_	_	
 3-29	167-168	)	_	_	_	_	_	_	
 3-30	169-176	between	_	_	_	_	_	_	
-3-31	177-188	StartEngine	organization[10]	new[10]	nonsal[10]	_	coref	3-36[11_10]	
-3-32	189-201	Crowdfunding	organization[10]	new[10]	nonsal[10]	_	_	_	
-3-33	202-203	,	organization[10]	new[10]	nonsal[10]	_	_	_	
-3-34	204-208	Inc.	organization[10]	new[10]	nonsal[10]	_	_	_	
+3-31	177-188	StartEngine	organization[10]	new[10]	sal[10]	_	coref	3-36[11_10]	
+3-32	189-201	Crowdfunding	organization[10]	new[10]	sal[10]	_	_	_	
+3-33	202-203	,	organization[10]	new[10]	sal[10]	_	_	_	
+3-34	204-208	Inc.	organization[10]	new[10]	sal[10]	_	_	_	
 3-35	209-210	,	_	_	_	_	_	_	
 3-36	211-212	a	organization[11]	new[11]	nonsal[11]	_	coref	3-41[13_11]	
 3-37	213-221	Delaware	organization[11]|place[12]	new[11]|new[12]	nonsal[11]|nonsal[12]	Delaware[12]	_	_	
@@ -57,14 +57,14 @@
 3-43	248-249	)	_	_	_	_	_	_	
 3-44	250-251	,	_	_	_	_	_	_	
 3-45	252-255	and	_	_	_	_	_	_	
-3-46	256-265	Solutions	organization[14]	new[14]	nonsal[14]	_	coref	3-56[15_14]	
-3-47	266-273	Vending	organization[14]	new[14]	nonsal[14]	_	_	_	
-3-48	274-287	International	organization[14]	new[14]	nonsal[14]	_	_	_	
-3-49	288-289	,	organization[14]	new[14]	nonsal[14]	_	_	_	
-3-50	290-293	Inc	organization[14]	new[14]	nonsal[14]	_	_	_	
-3-51	294-295	a	organization[14]	new[14]	nonsal[14]	_	_	_	
-3-52	296-301	___DE	organization[14]	new[14]	nonsal[14]	_	_	_	
-3-53	302-313	corporation	organization[14]	new[14]	nonsal[14]	_	_	_	
+3-46	256-265	Solutions	organization[14]	new[14]	sal[14]	_	coref	3-56[15_14]	
+3-47	266-273	Vending	organization[14]	new[14]	sal[14]	_	_	_	
+3-48	274-287	International	organization[14]	new[14]	sal[14]	_	_	_	
+3-49	288-289	,	organization[14]	new[14]	sal[14]	_	_	_	
+3-50	290-293	Inc	organization[14]	new[14]	sal[14]	_	_	_	
+3-51	294-295	a	organization[14]	new[14]	sal[14]	_	_	_	
+3-52	296-301	___DE	organization[14]	new[14]	sal[14]	_	_	_	
+3-53	302-313	corporation	organization[14]	new[14]	sal[14]	_	_	_	
 3-54	314-315	(	_	_	_	_	_	_	
 3-55	316-317	"	_	_	_	_	_	_	
 3-56	318-326	Customer	organization[15]	new[15]	nonsal[15]	_	coref	3-60[16_15]	
@@ -96,9 +96,9 @@
 5-13	436-440	with	abstract[20]	new[20]	nonsal[20]	_	_	_	
 5-14	441-448	respect	abstract[20]	new[20]	nonsal[20]	_	_	_	
 5-15	449-451	to	abstract[20]	new[20]	nonsal[20]	_	_	_	
-5-16	452-455	its	abstract[20]|abstract[22]|organization[23]	new[20]|new[22]|giv[23]	nonsal[20]|nonsal[22]|nonsal[23]	_	coref|coref	5-20[26_22]|6-20[49_23]	
-5-17	456-466	securities	abstract[20]|abstract[22]|abstract[24]	new[20]|new[22]|new[24]	nonsal[20]|nonsal[22]|nonsal[24]	_	_	_	
-5-18	467-475	offering	abstract[20]|abstract[22]	new[20]|new[22]	nonsal[20]|nonsal[22]	_	_	_	
+5-16	452-455	its	abstract[20]|abstract[22]|organization[23]	new[20]|new[22]|giv[23]	nonsal[20]|sal[22]|nonsal[23]	_	coref|coref	5-20[26_22]|6-20[49_23]	
+5-17	456-466	securities	abstract[20]|abstract[22]|abstract[24]	new[20]|new[22]|new[24]	nonsal[20]|sal[22]|sal[24]	_	_	_	
+5-18	467-475	offering	abstract[20]|abstract[22]	new[20]|new[22]	nonsal[20]|sal[22]	_	_	_	
 5-19	476-477	(	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-20	478-481	the	abstract[25]|abstract[26]	giv[25]|giv[26]	nonsal[25]|nonsal[26]	_	coref	5-48[34_26]	
 5-21	482-483	"	abstract[25]|abstract[26]	giv[25]|giv[26]	nonsal[25]|nonsal[26]	_	_	_	
@@ -106,7 +106,7 @@
 5-23	493-494	"	abstract[25]|abstract[26]	giv[25]|giv[26]	nonsal[25]|nonsal[26]	_	_	_	
 5-24	495-496	)	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-25	497-499	to	abstract[25]	giv[25]	nonsal[25]	_	_	_	
-5-26	500-505	Users	abstract[25]|person[27]	giv[25]|new[27]	nonsal[25]|nonsal[27]	_	coref	5-31[28_27]	
+5-26	500-505	Users	abstract[25]|person[27]	giv[25]|new[27]	nonsal[25]|sal[27]	_	coref	5-31[28_27]	
 5-27	506-507	,	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-28	508-511	and	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-29	512-514	to	abstract[25]	giv[25]	nonsal[25]	_	_	_	
@@ -116,8 +116,8 @@
 5-33	531-537	create	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-34	538-541	and	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-35	542-548	manage	abstract[25]	giv[25]	nonsal[25]	_	_	_	
-5-36	549-555	online	abstract[25]|abstract[29]	giv[25]|new[29]	nonsal[25]|nonsal[29]	_	_	_	
-5-37	556-564	accounts	abstract[25]|abstract[29]	giv[25]|new[29]	nonsal[25]|nonsal[29]	_	_	_	
+5-36	549-555	online	abstract[25]|abstract[29]	giv[25]|new[29]	nonsal[25]|sal[29]	_	_	_	
+5-37	556-564	accounts	abstract[25]|abstract[29]	giv[25]|new[29]	nonsal[25]|sal[29]	_	_	_	
 5-38	565-566	,	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-39	567-571	view	abstract[25]	giv[25]	nonsal[25]	_	_	_	
 5-40	572-583	information	abstract[25]|abstract[30]	giv[25]|new[30]	nonsal[25]|nonsal[30]	_	_	_	
@@ -187,9 +187,9 @@
 
 #Text=2. Fees and expenses
 7-1	932-934	2.	_	_	_	_	_	_	
-7-2	935-939	Fees	abstract[50]	new[50]	nonsal[50]	_	coref	21-3[137_50]	
+7-2	935-939	Fees	abstract[50]	new[50]	sal[50]	_	coref	21-3[137_50]	
 7-3	940-943	and	_	_	_	_	_	_	
-7-4	944-952	expenses	abstract[51]	new[51]	nonsal[51]	_	coref	8-19[56_51]	
+7-4	944-952	expenses	abstract[51]	new[51]	sal[51]	_	coref	8-19[56_51]	
 
 #Text=a) Generally In exchange for the Services , you shall pay the Company the then applicable fees and expenses set out below .
 8-1	953-955	a)	_	_	_	_	_	_	
@@ -323,7 +323,7 @@
 12-2	1607-1614	Monthly	abstract[82]	giv[82]	nonsal[82]	_	_	_	
 12-3	1615-1619	Fees	abstract[82]	giv[82]	nonsal[82]	_	_	_	
 12-4	1620-1623	and	_	_	_	_	_	_	
-12-5	1624-1631	Billing	event[83]	new[83]	nonsal[83]	_	_	_	
+12-5	1624-1631	Billing	event[83]	new[83]	sal[83]	_	_	_	
 
 #Text=The Company will bill you monthly for the Services .
 13-1	1632-1635	The	organization[84]	giv[84]	nonsal[84]	_	coref	14-3[88_84]	
@@ -672,7 +672,7 @@
 32-2	3232-3240	Customer	abstract[186]|abstract[187]|organization[188]	new[186]|new[187]|new[188]	nonsal[186]|nonsal[187]|nonsal[188]	_	coref	33-1[190_188]	
 32-3	3241-3256	Representations	abstract[186]|abstract[187]	new[186]|new[187]	nonsal[186]|nonsal[187]	_	_	_	
 32-4	3257-3260	and	abstract[186]	new[186]	nonsal[186]	_	_	_	
-32-5	3261-3271	Warranties	abstract[186]|abstract[189]	new[186]|new[189]	nonsal[186]|nonsal[189]	_	_	_	
+32-5	3261-3271	Warranties	abstract[186]|abstract[189]	new[186]|new[189]	nonsal[186]|sal[189]	_	_	_	
 
 #Text=Customer represents and warrants to the Company that then executed and delivered by Customer , this Service Agreement will constitute the legal , valid , and binding obligation of Customer , enforceable in accordance with its terms .
 33-1	3272-3280	Customer	organization[190]	giv[190]	nonsal[190]	_	coref	33-14[192_190]	
@@ -1009,7 +1009,7 @@
 
 #Text=5. Term and Survival
 46-1	5009-5011	5.	_	_	_	_	_	_	
-46-2	5012-5016	Term	abstract[276]	new[276]	nonsal[276]	Contractual_term[276]	_	_	
+46-2	5012-5016	Term	abstract[276]	new[276]	sal[276]	Contractual_term[276]	_	_	
 46-3	5017-5020	and	_	_	_	_	_	_	
 46-4	5021-5029	Survival	abstract[277]	new[277]	nonsal[277]	_	_	_	
 
@@ -1047,7 +1047,7 @@
 47-31	5192-5198	either	organization[284]	giv[284]	nonsal[284]	_	coref	48-4[289_284]	
 47-32	5199-5204	party	organization[284]	giv[284]	nonsal[284]	_	_	_	
 47-33	5205-5213	requests	_	_	_	_	_	_	
-47-34	5214-5225	termination	event[285]	giv[285]	nonsal[285]	_	_	_	
+47-34	5214-5225	termination	event[285]	giv[285]	sal[285]	_	_	_	
 47-35	5226-5228	at	time[286]	new[286]	nonsal[286]	_	_	_	
 47-36	5229-5234	least	time[286]	new[286]	nonsal[286]	_	_	_	
 47-37	5235-5237	30	time[286]	new[286]	nonsal[286]	_	_	_	
@@ -1412,9 +1412,9 @@
 #Text=By : /s/ Dawn Dickson ,
 57-1	7189-7191	By	_	_	_	_	_	_	
 57-2	7192-7193	:	_	_	_	_	_	_	
-57-3	7194-7197	/s/	person[368]	new[368]	nonsal[368]	_	coref	59-3[370_368]	
-57-4	7198-7202	Dawn	person[368]	new[368]	nonsal[368]	_	_	_	
-57-5	7203-7210	Dickson	person[368]	new[368]	nonsal[368]	_	_	_	
+57-3	7194-7197	/s/	person[368]	new[368]	sal[368]	_	coref	59-3[370_368]	
+57-4	7198-7202	Dawn	person[368]	new[368]	sal[368]	_	_	_	
+57-5	7203-7210	Dickson	person[368]	new[368]	sal[368]	_	_	_	
 57-6	7211-7212	,	_	_	_	_	_	_	
 
 #Text=Customer :
@@ -1434,12 +1434,12 @@
 #Text=Date : 08/19/2019
 60-1	7260-7264	Date	_	_	_	_	_	_	
 60-2	7265-7266	:	_	_	_	_	_	_	
-60-3	7267-7277	08/19/2019	time[373]	new[373]	nonsal[373]	_	_	_	
+60-3	7267-7277	08/19/2019	time[373]	new[373]	sal[373]	_	_	_	
 
 #Text=/s/ Howard Marks Howard Marks CEO
-61-1	7278-7281	/s/	person[374]	new[374]	nonsal[374]	_	coref	61-4[375_374]	
-61-2	7282-7288	Howard	person[374]	new[374]	nonsal[374]	_	_	_	
-61-3	7289-7294	Marks	person[374]	new[374]	nonsal[374]	_	_	_	
+61-1	7278-7281	/s/	person[374]	new[374]	sal[374]	_	coref	61-4[375_374]	
+61-2	7282-7288	Howard	person[374]	new[374]	sal[374]	_	_	_	
+61-3	7289-7294	Marks	person[374]	new[374]	sal[374]	_	_	_	
 61-4	7295-7301	Howard	person[375]	giv[375]	nonsal[375]	_	coref	61-6[376_375]	
 61-5	7302-7307	Marks	person[375]	giv[375]	nonsal[375]	_	_	_	
 61-6	7308-7311	CEO	person[376]	giv[376]	nonsal[376]	_	_	_	

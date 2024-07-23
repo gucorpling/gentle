@@ -4,19 +4,19 @@
 
 
 #Text=trust
-1-1	0-5	trust	abstract[1]	new[1]	nonsal[1]	_	_	_	
+1-1	0-5	trust	abstract[1]	new[1]	sal[1]	_	_	_	
 
 #Text=English
 2-1	6-13	English	abstract[2]	new[2]	nonsal[2]	English[2]	_	_	
 
 #Text=Etymology
-3-1	14-23	Etymology	abstract[3]	new[3]	nonsal[3]	_	coref	5-35[20_3]	
+3-1	14-23	Etymology	abstract[3]	new[3]	sal[3]	_	coref	5-35[20_3]	
 
 #Text=From Middle English trust ( “ trust , protection ” ) .
 4-1	24-28	From	_	_	_	_	_	_	
-4-2	29-35	Middle	abstract[4]|abstract[5]|abstract[6]	giv[4]|new[5]|new[6]	nonsal[4]|nonsal[5]|nonsal[6]	Middle_English[6]	coref	5-41[22_4]	
-4-3	36-43	English	abstract[4]|abstract[5]|abstract[6]	giv[4]|new[5]|new[6]	nonsal[4]|nonsal[5]|nonsal[6]	Middle_English[6]	_	_	
-4-4	44-49	trust	abstract[4]|abstract[5]	giv[4]|new[5]	nonsal[4]|nonsal[5]	_	_	_	
+4-2	29-35	Middle	abstract[4]|abstract[5]|abstract[6]	giv[4]|new[5]|new[6]	nonsal[4]|sal[5]|sal[6]	Middle_English[6]	coref	5-41[22_4]	
+4-3	36-43	English	abstract[4]|abstract[5]|abstract[6]	giv[4]|new[5]|new[6]	nonsal[4]|sal[5]|sal[6]	Middle_English[6]	_	_	
+4-4	44-49	trust	abstract[4]|abstract[5]	giv[4]|new[5]	nonsal[4]|sal[5]	_	_	_	
 4-5	50-51	(	abstract[4]	giv[4]	nonsal[4]	_	_	_	
 4-6	52-53	“	abstract[4]	giv[4]	nonsal[4]	_	_	_	
 4-7	54-59	trust	abstract[4]|abstract[7]	giv[4]|giv[7]	nonsal[4]|nonsal[7]	_	coref	11-3[67_7]	
@@ -104,12 +104,12 @@
 #Text=Ultimately from Proto - Indo - European *deru- ( be firm , hard , solid ” ) .
 6-1	449-459	Ultimately	_	_	_	_	_	_	
 6-2	460-464	from	_	_	_	_	_	_	
-6-3	465-470	Proto	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	Proto-Indo-European_language[33]	_	_	
-6-4	471-472	-	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	Proto-Indo-European_language[33]	_	_	
-6-5	473-477	Indo	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	Proto-Indo-European_language[33]	_	_	
-6-6	478-479	-	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	Proto-Indo-European_language[33]	_	_	
-6-7	480-488	European	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	Proto-Indo-European_language[33]	_	_	
-6-8	489-495	*deru-	abstract[32]	new[32]	nonsal[32]	_	_	_	
+6-3	465-470	Proto	abstract[32]|abstract[33]	new[32]|new[33]	sal[32]|sal[33]	Proto-Indo-European_language[33]	_	_	
+6-4	471-472	-	abstract[32]|abstract[33]	new[32]|new[33]	sal[32]|sal[33]	Proto-Indo-European_language[33]	_	_	
+6-5	473-477	Indo	abstract[32]|abstract[33]	new[32]|new[33]	sal[32]|sal[33]	Proto-Indo-European_language[33]	_	_	
+6-6	478-479	-	abstract[32]|abstract[33]	new[32]|new[33]	sal[32]|sal[33]	Proto-Indo-European_language[33]	_	_	
+6-7	480-488	European	abstract[32]|abstract[33]	new[32]|new[33]	sal[32]|sal[33]	Proto-Indo-European_language[33]	_	_	
+6-8	489-495	*deru-	abstract[32]	new[32]	sal[32]	_	_	_	
 6-9	496-497	(	_	_	_	_	_	_	
 6-10	498-500	be	_	_	_	_	_	_	
 6-11	501-505	firm	_	_	_	_	_	_	
@@ -124,8 +124,8 @@
 #Text=Akin to Danish trøst ( “ comfort , solace ” ) , Saterland Frisian Traast ( “ comfort , solace ” ) , West Frisian treast ( “ comfort , solace ” ) , Dutch troost ( “ comfort , consolation ” ) , German Trost ( “ comfort , consolation ” ) , Gothic trausti ( trausti , “ alliance , pact ” ) .
 7-1	527-531	Akin	_	_	_	_	_	_	
 7-2	532-534	to	_	_	_	_	_	_	
-7-3	535-541	Danish	abstract[34]|abstract[35]	new[34]|new[35]	nonsal[34]|nonsal[35]	_	_	_	
-7-4	542-547	trøst	abstract[34]	new[34]	nonsal[34]	_	_	_	
+7-3	535-541	Danish	abstract[34]|abstract[35]	new[34]|new[35]	sal[34]|sal[35]	_	_	_	
+7-4	542-547	trøst	abstract[34]	new[34]	sal[34]	_	_	_	
 7-5	548-549	(	_	_	_	_	_	_	
 7-6	550-551	“	_	_	_	_	_	_	
 7-7	552-559	comfort	abstract[36]	new[36]	nonsal[36]	_	coref	7-18[41_36]	
@@ -204,7 +204,7 @@
 9-6	854-855	.	_	_	_	_	_	_	
 
 #Text=Pronunciation
-10-1	856-869	Pronunciation	abstract[65]	new[65]	nonsal[65]	_	_	_	
+10-1	856-869	Pronunciation	abstract[65]	new[65]	sal[65]	_	_	_	
 
 #Text=enPR : trŭst , IPA ( key ) : /trʌst/ , [tɹʌst] , [tɹɐst] , [t͡ʃɹ-]
 11-1	870-874	enPR	abstract[66]	new[66]	nonsal[66]	_	_	_	
@@ -216,7 +216,7 @@
 11-7	891-894	key	abstract[69]	new[69]	nonsal[69]	_	coref	12-7[76_69]	
 11-8	895-896	)	_	_	_	_	_	_	
 11-9	897-898	:	_	_	_	_	_	_	
-11-10	899-906	/trʌst/	abstract[70]	new[70]	nonsal[70]	_	coref	11-12[71_70]	
+11-10	899-906	/trʌst/	abstract[70]	new[70]	sal[70]	_	coref	11-12[71_70]	
 11-11	907-908	,	_	_	_	_	_	_	
 11-12	909-916	[tɹʌst]	abstract[71]	new[71]	nonsal[71]	_	coref	11-14[72_71]	
 11-13	917-918	,	_	_	_	_	_	_	
@@ -234,7 +234,7 @@
 12-7	964-967	key	abstract[76]	giv[76]	nonsal[76]	_	_	_	
 12-8	968-969	)	_	_	_	_	_	_	
 12-9	970-971	:	_	_	_	_	_	_	
-12-10	972-979	/trʊst/	abstract[77]	new[77]	nonsal[77]	_	coref	20-3[96_77]	
+12-10	972-979	/trʊst/	abstract[77]	new[77]	sal[77]	_	coref	20-3[96_77]	
 
 #Text=Audio ( GA )
 13-1	980-985	Audio	abstract[78]	new[78]	nonsal[78]	_	_	_	
@@ -248,7 +248,7 @@
 14-3	1002-1006	-ʌst	abstract[81]	new[81]	nonsal[81]	_	_	_	
 
 #Text=Noun
-15-1	1007-1011	Noun	abstract[82]	new[82]	nonsal[82]	_	_	_	
+15-1	1007-1011	Noun	abstract[82]	new[82]	sal[82]	_	coref	16-1[83_82]	
 
 #Text=trust ( countable and uncountable , plural trusts )
 16-1	1012-1017	trust	abstract[83]	new[83]	nonsal[83]	_	bridge	16-7[84_83]	
@@ -262,15 +262,15 @@
 16-9	1062-1063	)	_	_	_	_	_	_	
 
 #Text=Confidence in or reliance on some person or quality .
-17-1	1064-1074	Confidence	abstract[86]	new[86]	nonsal[86]	_	_	_	
-17-2	1075-1077	in	abstract[86]	new[86]	nonsal[86]	_	_	_	
-17-3	1078-1080	or	abstract[86]	new[86]	nonsal[86]	_	_	_	
-17-4	1081-1089	reliance	abstract[86]	new[86]	nonsal[86]	_	_	_	
-17-5	1090-1092	on	abstract[86]	new[86]	nonsal[86]	_	_	_	
-17-6	1093-1097	some	abstract[86]|person[87]	new[86]|new[87]	nonsal[86]|nonsal[87]	_	_	_	
-17-7	1098-1104	person	abstract[86]|person[87]	new[86]|new[87]	nonsal[86]|nonsal[87]	_	_	_	
-17-8	1105-1107	or	abstract[86]	new[86]	nonsal[86]	_	_	_	
-17-9	1108-1115	quality	abstract[86]|abstract[88]	new[86]|new[88]	nonsal[86]|nonsal[88]	_	_	_	
+17-1	1064-1074	Confidence	abstract[86]	new[86]	sal[86]	_	_	_	
+17-2	1075-1077	in	abstract[86]	new[86]	sal[86]	_	_	_	
+17-3	1078-1080	or	abstract[86]	new[86]	sal[86]	_	_	_	
+17-4	1081-1089	reliance	abstract[86]	new[86]	sal[86]	_	_	_	
+17-5	1090-1092	on	abstract[86]	new[86]	sal[86]	_	_	_	
+17-6	1093-1097	some	abstract[86]|person[87]	new[86]|new[87]	sal[86]|nonsal[87]	_	_	_	
+17-7	1098-1104	person	abstract[86]|person[87]	new[86]|new[87]	sal[86]|nonsal[87]	_	_	_	
+17-8	1105-1107	or	abstract[86]	new[86]	sal[86]	_	_	_	
+17-9	1108-1115	quality	abstract[86]|abstract[88]	new[86]|new[88]	sal[86]|nonsal[88]	_	_	_	
 17-10	1116-1117	.	_	_	_	_	_	_	
 
 #Text=He needs to regain her trust if he is ever going to win her back .
@@ -319,22 +319,22 @@
 22-5	1291-1294	the	abstract[99]|time[101]	new[99]|new[101]	nonsal[99]|nonsal[101]	_	_	_	
 22-6	1295-1301	future	abstract[99]|time[101]	new[99]|new[101]	nonsal[99]|nonsal[101]	_	_	_	
 22-7	1302-1303	;	_	_	_	_	_	_	
-22-8	1304-1308	hope	abstract[102]	new[102]	nonsal[102]	_	coref	26-12[122_102]	
+22-8	1304-1308	hope	abstract[102]	new[102]	sal[102]	_	coref	26-12[122_102]	
 22-9	1309-1310	.	_	_	_	_	_	_	
 
 #Text=Confidence in the future payment for goods or services supplied ; credit .
-23-1	1311-1321	Confidence	abstract[103]	giv[103]	nonsal[103]	_	coref	64-14[218_103]	
-23-2	1322-1324	in	abstract[103]	giv[103]	nonsal[103]	_	_	_	
-23-3	1325-1328	the	abstract[103]|event[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	_	coref	64-16[219_104]	
-23-4	1329-1335	future	abstract[103]|event[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	_	_	_	
-23-5	1336-1343	payment	abstract[103]|event[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	_	_	_	
-23-6	1344-1347	for	abstract[103]|event[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	_	_	_	
-23-7	1348-1353	goods	abstract[103]|event[104]|object[105]	giv[103]|giv[104]|new[105]	nonsal[103]|nonsal[104]|nonsal[105]	_	_	_	
-23-8	1354-1356	or	abstract[103]|event[104]	giv[103]|giv[104]	nonsal[103]|nonsal[104]	_	_	_	
-23-9	1357-1365	services	abstract[103]|event[104]|abstract[106]	giv[103]|giv[104]|new[106]	nonsal[103]|nonsal[104]|nonsal[106]	_	_	_	
-23-10	1366-1374	supplied	abstract[103]|event[104]|abstract[106]	giv[103]|giv[104]|new[106]	nonsal[103]|nonsal[104]|nonsal[106]	_	_	_	
-23-11	1375-1376	;	abstract[103]	giv[103]	nonsal[103]	_	_	_	
-23-12	1377-1383	credit	abstract[103]|abstract[107]	giv[103]|new[107]	nonsal[103]|nonsal[107]	_	coref	64-3[216_107]	
+23-1	1311-1321	Confidence	abstract[103]	giv[103]	sal[103]	_	coref	64-14[218_103]	
+23-2	1322-1324	in	abstract[103]	giv[103]	sal[103]	_	_	_	
+23-3	1325-1328	the	abstract[103]|event[104]	giv[103]|giv[104]	sal[103]|nonsal[104]	_	coref	64-16[219_104]	
+23-4	1329-1335	future	abstract[103]|event[104]	giv[103]|giv[104]	sal[103]|nonsal[104]	_	_	_	
+23-5	1336-1343	payment	abstract[103]|event[104]	giv[103]|giv[104]	sal[103]|nonsal[104]	_	_	_	
+23-6	1344-1347	for	abstract[103]|event[104]	giv[103]|giv[104]	sal[103]|nonsal[104]	_	_	_	
+23-7	1348-1353	goods	abstract[103]|event[104]|object[105]	giv[103]|giv[104]|new[105]	sal[103]|nonsal[104]|nonsal[105]	_	_	_	
+23-8	1354-1356	or	abstract[103]|event[104]	giv[103]|giv[104]	sal[103]|nonsal[104]	_	_	_	
+23-9	1357-1365	services	abstract[103]|event[104]|abstract[106]	giv[103]|giv[104]|new[106]	sal[103]|nonsal[104]|nonsal[106]	_	_	_	
+23-10	1366-1374	supplied	abstract[103]|event[104]|abstract[106]	giv[103]|giv[104]|new[106]	sal[103]|nonsal[104]|nonsal[106]	_	_	_	
+23-11	1375-1376	;	abstract[103]	giv[103]	sal[103]	_	_	_	
+23-12	1377-1383	credit	abstract[103]|abstract[107]	giv[103]|new[107]	sal[103]|nonsal[107]	_	coref	64-3[216_107]	
 23-13	1384-1385	.	_	_	_	_	_	_	
 
 #Text=I was out of cash , but the landlady let me have it on trust .
@@ -419,7 +419,7 @@
 
 #Text=( law )
 30-1	1740-1741	(	_	_	_	_	_	_	
-30-2	1742-1745	law	abstract[129]	new[129]	nonsal[129]	_	coref	33-2[140_129]	
+30-2	1742-1745	law	abstract[129]	new[129]	sal[129]	_	coref	33-2[140_129]	
 30-3	1746-1747	)	_	_	_	_	_	_	
 
 #Text=The confidence vested in a person who has legal ownership of a property to manage for the benefit of another .
@@ -555,7 +555,7 @@
 
 #Text=( computing )
 36-1	2361-2362	(	_	_	_	_	_	_	
-36-2	2363-2372	computing	abstract[164]	new[164]	nonsal[164]	_	_	_	
+36-2	2363-2372	computing	abstract[164]	new[164]	sal[164]	_	_	_	
 36-3	2373-2374	)	_	_	_	_	_	_	
 
 #Text=Affirmation of the access rights of a user of a computer system .
@@ -574,7 +574,7 @@
 37-13	2439-2440	.	_	_	_	_	_	_	
 
 #Text=Synonyms
-38-1	2441-2449	Synonyms	abstract[169]	new[169]	nonsal[169]	_	_	_	
+38-1	2441-2449	Synonyms	abstract[169]	new[169]	sal[169]	_	_	_	
 
 #Text=( confidence in a person or quality ) belief , confidence , faith
 39-1	2450-2451	(	_	_	_	_	_	_	
@@ -600,7 +600,7 @@
 40-6	2539-2543	hope	abstract[178]	giv[178]	nonsal[178]	_	_	_	
 
 #Text=Antonyms
-41-1	2544-2552	Antonyms	abstract[179]	new[179]	nonsal[179]	Opposite_(semantics)[179]	_	_	
+41-1	2544-2552	Antonyms	abstract[179]	new[179]	sal[179]	Opposite_(semantics)[179]	_	_	
 
 #Text=distrust
 42-1	2553-2561	distrust	abstract[180]	new[180]	nonsal[180]	_	_	_	
@@ -615,7 +615,7 @@
 45-1	2579-2587	wantrust	abstract[183]	new[183]	nonsal[183]	_	_	_	
 
 #Text=Verb
-46-1	2588-2592	Verb	abstract[184]	new[184]	nonsal[184]	_	coref	47-1[185_184]	
+46-1	2588-2592	Verb	abstract[184]	new[184]	sal[184]	_	coref	47-1[185_184]	
 
 #Text=trust ( third - person singular simple present trusts , present participle trusting , simple past and past participle trusted )
 47-1	2593-2598	trust	abstract[185]	giv[185]	nonsal[185]	_	bridge	57-16[205_185]	
@@ -682,7 +682,7 @@
 #Text=To have faith in ; to rely on for continuing support or aid .
 52-1	2859-2861	To	_	_	_	_	_	_	
 52-2	2862-2866	have	_	_	_	_	_	_	
-52-3	2867-2872	faith	abstract[196]	giv[196]	nonsal[196]	_	_	_	
+52-3	2867-2872	faith	abstract[196]	giv[196]	sal[196]	_	_	_	
 52-4	2873-2875	in	_	_	_	_	_	_	
 52-5	2876-2877	;	_	_	_	_	_	_	
 52-6	2878-2880	to	_	_	_	_	_	_	

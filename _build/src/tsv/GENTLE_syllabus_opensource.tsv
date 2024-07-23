@@ -4,17 +4,17 @@
 
 
 #Text=CSCI-4470-01
-1-1	0-12	CSCI-4470-01	abstract[1]	new[1]	nonsal[1]	_	coref	2-1[2_1]	
+1-1	0-12	CSCI-4470-01	abstract[1]	new[1]	sal[1]	_	coref	2-1[2_1]	
 
 #Text=Open Source Software
-2-1	13-17	Open	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	coref|coref	4-25[15_2]|4-1[7_3]	
-2-2	18-24	Source	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	_	_	
+2-1	13-17	Open	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|sal[3]	_	coref|coref	4-25[15_2]|4-1[7_3]	
+2-2	18-24	Source	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|sal[3]	_	_	_	
 2-3	25-33	Software	abstract[2]	new[2]	nonsal[2]	_	_	_	
 
 #Text=Spring Semester 2022
-3-1	34-40	Spring	time[4]|time[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	_	bridge	54-7[166_4]	
+3-1	34-40	Spring	time[4]|time[5]	new[4]|new[5]	nonsal[4]|sal[5]	_	bridge	54-7[166_4]	
 3-2	41-49	Semester	time[4]	new[4]	nonsal[4]	_	_	_	
-3-3	50-54	2022	time[4]|time[6]	new[4]|new[6]	nonsal[4]|nonsal[6]	_	coref	104-9[295_6]	
+3-3	50-54	2022	time[4]|time[6]	new[4]|new[6]	nonsal[4]|sal[6]	_	coref	104-9[295_6]	
 
 #Text=Open Source has been taught at RPI since Fall of 2007 ( taught jointly by Dr. William Shroeder and Dr. Luis Ibanez ) as a 4000 level class , and then by Mukkai Krishnamoorthy as a 2000 level class .
 4-1	55-59	Open	abstract[7]	giv[7]	nonsal[7]	_	coref	6-5[26_7]	
@@ -23,7 +23,7 @@
 4-4	71-75	been	_	_	_	_	_	_	
 4-5	76-82	taught	abstract[8]	new[8]	nonsal[8]	_	coref	5-4[21_8]	
 4-6	83-85	at	abstract[8]	new[8]	nonsal[8]	_	_	_	
-4-7	86-89	RPI	abstract[8]|organization[9]	new[8]|new[9]	nonsal[8]|nonsal[9]	Rensselaer_Polytechnic_Institute[9]	coref	9-21[42_9]	
+4-7	86-89	RPI	abstract[8]|organization[9]	new[8]|new[9]	nonsal[8]|sal[9]	Rensselaer_Polytechnic_Institute[9]	coref	9-21[42_9]	
 4-8	90-95	since	abstract[8]	new[8]	nonsal[8]	_	_	_	
 4-9	96-100	Fall	abstract[8]|time[10]	new[8]|new[10]	nonsal[8]|nonsal[10]	_	_	_	
 4-10	101-103	of	abstract[8]|time[10]	new[8]|new[10]	nonsal[8]|nonsal[10]	_	_	_	
@@ -185,7 +185,7 @@
 13-1	928-934	People	person[55]	new[55]	nonsal[55]	_	_	_	
 
 #Text=Professor
-14-1	935-944	Professor	person[56]	giv[56]	nonsal[56]	_	coref	15-1[57_56]	
+14-1	935-944	Professor	person[56]	giv[56]	sal[56]	_	coref	15-1[57_56]	
 
 #Text=Wesley Turner
 15-1	945-951	Wesley	person[57]	giv[57]	nonsal[57]	_	coref	20-17[70_57]	
@@ -240,7 +240,7 @@
 20-25	1167-1178	appointment	event[71]	new[71]	nonsal[71]	_	_	_	
 
 #Text=TAs
-21-1	1179-1182	TAs	person[72]	new[72]	nonsal[72]	_	_	_	
+21-1	1179-1182	TAs	person[72]	new[72]	sal[72]	_	_	_	
 
 #Text=Mohammed Shahid Modi
 22-1	1183-1191	Mohammed	person[73]	new[73]	nonsal[73]	_	_	_	
@@ -335,9 +335,9 @@
 39-6	1645-1649	Sage	place[103]	new[103]	nonsal[103]	_	_	_	
 39-7	1650-1654	5510	place[103]	new[103]	nonsal[103]	_	_	_	
 39-8	1655-1657	on	_	_	_	_	_	_	
-39-9	1658-1666	Tuesdays	time[104]	new[104]	nonsal[104]	_	_	_	
+39-9	1658-1666	Tuesdays	time[104]	new[104]	sal[104]	_	_	_	
 39-10	1667-1670	and	_	_	_	_	_	_	
-39-11	1671-1678	Fridays	time[105]	new[105]	nonsal[105]	_	_	_	
+39-11	1671-1678	Fridays	time[105]	new[105]	sal[105]	_	_	_	
 39-12	1679-1683	from	_	_	_	_	_	_	
 39-13	1684-1689	10:30	time[106]	new[106]	nonsal[106]	_	_	_	
 39-14	1690-1692	pm	time[106]	new[106]	nonsal[106]	_	_	_	
@@ -429,7 +429,7 @@
 44-14	2108-2118	opensource	abstract[129]|abstract[131]|abstract[132]	new[129]|new[131]|new[132]	nonsal[129]|nonsal[131]|nonsal[132]	_	coref	48-4[150_132]	
 44-15	2119-2126	project	abstract[129]|abstract[131]	new[129]|new[131]	nonsal[129]|nonsal[131]	_	_	_	
 44-16	2127-2132	under	abstract[129]	new[129]	nonsal[129]	_	_	_	
-44-17	2133-2137	RCOS	abstract[129]|organization[133]	new[129]|new[133]	nonsal[129]|nonsal[133]	rCOS_(computer_sciences)[133]	coref	54-4[165_133]	
+44-17	2133-2137	RCOS	abstract[129]|organization[133]	new[129]|new[133]	nonsal[129]|sal[133]	rCOS_(computer_sciences)[133]	coref	54-4[165_133]	
 44-18	2138-2141	and	abstract[129]	new[129]	nonsal[129]	_	_	_	
 44-19	2142-2145	the	abstract[129]|abstract[134]	new[129]|new[134]	nonsal[129]|nonsal[134]	_	_	_	
 44-20	2146-2154	creative	abstract[129]|abstract[134]	new[129]|new[134]	nonsal[129]|nonsal[134]	_	_	_	
@@ -501,9 +501,9 @@
 49-7	2491-2496	eager	_	_	_	_	_	_	
 49-8	2497-2499	to	_	_	_	_	_	_	
 49-9	2500-2505	learn	_	_	_	_	_	_	
-49-10	2506-2509	new	abstract[152]	new[152]	nonsal[152]	_	coref	61-4[201_152]	
-49-11	2510-2520	technology	abstract[152]|abstract[153]	new[152]|new[153]	nonsal[152]|nonsal[153]	_	coref	58-11[185_153]	
-49-12	2521-2527	stacks	abstract[152]	new[152]	nonsal[152]	_	_	_	
+49-10	2506-2509	new	abstract[152]	new[152]	sal[152]	_	coref	61-4[201_152]	
+49-11	2510-2520	technology	abstract[152]|abstract[153]	new[152]|new[153]	sal[152]|sal[153]	_	coref	58-11[185_153]	
+49-12	2521-2527	stacks	abstract[152]	new[152]	sal[152]	_	_	_	
 
 #Text=Able to Read and Understand Good Code .
 50-1	2528-2532	Able	_	_	_	_	_	_	
@@ -511,17 +511,17 @@
 50-3	2536-2540	Read	_	_	_	_	_	_	
 50-4	2541-2544	and	_	_	_	_	_	_	
 50-5	2545-2555	Understand	_	_	_	_	_	_	
-50-6	2556-2560	Good	abstract[154]	new[154]	nonsal[154]	_	_	_	
-50-7	2561-2565	Code	abstract[154]	new[154]	nonsal[154]	_	_	_	
+50-6	2556-2560	Good	abstract[154]	new[154]	sal[154]	_	_	_	
+50-7	2561-2565	Code	abstract[154]	new[154]	sal[154]	_	_	_	
 50-8	2566-2567	.	_	_	_	_	_	_	
 
 #Text=Patch an existing open source project .
 51-1	2568-2573	Patch	_	_	_	_	_	_	
-51-2	2574-2576	an	abstract[155]	giv[155]	nonsal[155]	_	_	_	
-51-3	2577-2585	existing	abstract[155]	giv[155]	nonsal[155]	_	_	_	
-51-4	2586-2590	open	abstract[155]|abstract[156]	giv[155]|giv[156]	nonsal[155]|nonsal[156]	_	coref	56-13[173_156]	
-51-5	2591-2597	source	abstract[155]|abstract[156]	giv[155]|giv[156]	nonsal[155]|nonsal[156]	_	_	_	
-51-6	2598-2605	project	abstract[155]	giv[155]	nonsal[155]	_	_	_	
+51-2	2574-2576	an	abstract[155]	giv[155]	sal[155]	_	_	_	
+51-3	2577-2585	existing	abstract[155]	giv[155]	sal[155]	_	_	_	
+51-4	2586-2590	open	abstract[155]|abstract[156]	giv[155]|giv[156]	sal[155]|nonsal[156]	_	coref	56-13[173_156]	
+51-5	2591-2597	source	abstract[155]|abstract[156]	giv[155]|giv[156]	sal[155]|nonsal[156]	_	_	_	
+51-6	2598-2605	project	abstract[155]	giv[155]	sal[155]	_	_	_	
 51-7	2606-2607	.	_	_	_	_	_	_	
 
 #Text=Work on a team collaborative project .
@@ -543,16 +543,16 @@
 53-7	2681-2685	team	abstract[159]|abstract[160]|organization[161]	giv[159]|giv[160]|new[161]	nonsal[159]|nonsal[160]|nonsal[161]	_	_	_	
 53-8	2686-2693	project	abstract[159]|abstract[160]	giv[159]|giv[160]	nonsal[159]|nonsal[160]	_	_	_	
 53-9	2694-2697	and	abstract[159]	giv[159]	nonsal[159]	_	_	_	
-53-10	2698-2707	diversity	abstract[159]|abstract[162]|abstract[163]	giv[159]|giv[162]|new[163]	nonsal[159]|nonsal[162]|nonsal[163]	_	_	_	
-53-11	2708-2714	issues	abstract[159]|abstract[162]	giv[159]|giv[162]	nonsal[159]|nonsal[162]	_	_	_	
+53-10	2698-2707	diversity	abstract[159]|abstract[162]|abstract[163]	giv[159]|giv[162]|new[163]	nonsal[159]|sal[162]|sal[163]	_	_	_	
+53-11	2708-2714	issues	abstract[159]|abstract[162]	giv[159]|giv[162]	nonsal[159]|sal[162]	_	_	_	
 53-12	2715-2716	.	_	_	_	_	_	_	
 
 #Text=Prepare a new RCOS project for the following semester .
 54-1	2717-2724	Prepare	_	_	_	_	_	_	
-54-2	2725-2726	a	abstract[164]	giv[164]	nonsal[164]	_	_	_	
-54-3	2727-2730	new	abstract[164]	giv[164]	nonsal[164]	_	_	_	
-54-4	2731-2735	RCOS	abstract[164]|organization[165]	giv[164]|giv[165]	nonsal[164]|nonsal[165]	rCOS_(computer_sciences)[165]	_	_	
-54-5	2736-2743	project	abstract[164]	giv[164]	nonsal[164]	_	_	_	
+54-2	2725-2726	a	abstract[164]	giv[164]	sal[164]	_	_	_	
+54-3	2727-2730	new	abstract[164]	giv[164]	sal[164]	_	_	_	
+54-4	2731-2735	RCOS	abstract[164]|organization[165]	giv[164]|giv[165]	sal[164]|nonsal[165]	rCOS_(computer_sciences)[165]	_	_	
+54-5	2736-2743	project	abstract[164]	giv[164]	sal[164]	_	_	_	
 54-6	2744-2747	for	_	_	_	_	_	_	
 54-7	2748-2751	the	time[166]	acc[166]	nonsal[166]	_	_	_	
 54-8	2752-2761	following	time[166]	acc[166]	nonsal[166]	_	_	_	
@@ -647,9 +647,9 @@
 59-6	3236-3245	different	abstract[192]	new[192]	nonsal[192]	_	_	_	
 59-7	3246-3255	varieties	abstract[192]	new[192]	nonsal[192]	_	_	_	
 59-8	3256-3258	of	abstract[192]	new[192]	nonsal[192]	_	_	_	
-59-9	3259-3263	Open	abstract[192]|abstract[193]|abstract[194]	new[192]|new[193]|giv[194]	nonsal[192]|nonsal[193]|nonsal[194]	_	coref|coref	65-1[208_193]|60-11[199_194]	
-59-10	3264-3270	Source	abstract[192]|abstract[193]|abstract[194]	new[192]|new[193]|giv[194]	nonsal[192]|nonsal[193]|nonsal[194]	_	_	_	
-59-11	3271-3280	Licensing	abstract[192]|abstract[193]	new[192]|new[193]	nonsal[192]|nonsal[193]	_	_	_	
+59-9	3259-3263	Open	abstract[192]|abstract[193]|abstract[194]	new[192]|new[193]|giv[194]	nonsal[192]|sal[193]|nonsal[194]	_	coref|coref	65-1[208_193]|60-11[199_194]	
+59-10	3264-3270	Source	abstract[192]|abstract[193]|abstract[194]	new[192]|new[193]|giv[194]	nonsal[192]|sal[193]|nonsal[194]	_	_	_	
+59-11	3271-3280	Licensing	abstract[192]|abstract[193]	new[192]|new[193]	nonsal[192]|sal[193]	_	_	_	
 59-12	3281-3282	.	_	_	_	_	_	_	
 
 #Text=Effectively establish and use Testing and Version Control in an open source project .
@@ -659,8 +659,8 @@
 60-4	3309-3312	use	_	_	_	_	_	_	
 60-5	3313-3320	Testing	abstract[195]	new[195]	nonsal[195]	_	coref	70-3[217_195]	
 60-6	3321-3324	and	_	_	_	_	_	_	
-60-7	3325-3332	Version	abstract[196]|abstract[197]	new[196]|new[197]	nonsal[196]|nonsal[197]	_	coref|coref	67-1[211_196]|67-1[212_197]	
-60-8	3333-3340	Control	abstract[196]	new[196]	nonsal[196]	_	_	_	
+60-7	3325-3332	Version	abstract[196]|abstract[197]	new[196]|new[197]	sal[196]|sal[197]	_	coref|coref	67-1[211_196]|67-1[212_197]	
+60-8	3333-3340	Control	abstract[196]	new[196]	sal[196]	_	_	_	
 60-9	3341-3343	in	_	_	_	_	_	_	
 60-10	3344-3346	an	abstract[198]	giv[198]	nonsal[198]	_	_	_	
 60-11	3347-3351	open	abstract[198]|abstract[199]	giv[198]|giv[199]	nonsal[198]|nonsal[199]	_	coref	61-5[202_199]	
@@ -678,8 +678,8 @@
 61-7	3416-3424	Software	abstract[200]|abstract[201]	new[200]|giv[201]	nonsal[200]|nonsal[201]	_	_	_	
 61-8	3425-3431	Stacks	abstract[200]|abstract[201]	new[200]|giv[201]	nonsal[200]|nonsal[201]	_	_	_	
 61-9	3432-3435	and	abstract[200]	new[200]	nonsal[200]	_	_	_	
-61-10	3436-3442	common	abstract[200]|abstract[203]	new[200]|giv[203]	nonsal[200]|nonsal[203]	_	_	_	
-61-11	3443-3448	tools	abstract[200]|abstract[203]	new[200]|giv[203]	nonsal[200]|nonsal[203]	_	_	_	
+61-10	3436-3442	common	abstract[200]|abstract[203]	new[200]|giv[203]	nonsal[200]|sal[203]	_	_	_	
+61-11	3443-3448	tools	abstract[200]|abstract[203]	new[200]|giv[203]	nonsal[200]|sal[203]	_	_	_	
 61-12	3449-3450	.	_	_	_	_	_	_	
 
 #Text=Syllabus :

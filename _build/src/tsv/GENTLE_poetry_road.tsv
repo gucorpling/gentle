@@ -4,17 +4,17 @@
 
 
 #Text=Two roads diverged in a yellow wood , And sorry I could not travel both And be one traveler , long I stood And looked down one as far as I could To where it bent in the undergrowth ;
-1-1	0-3	Two	place[1]	new[1]	nonsal[1]	_	coref	1-15[4_1]	
-1-2	4-9	roads	place[1]	new[1]	nonsal[1]	_	_	_	
+1-1	0-3	Two	place[1]	new[1]	sal[1]	_	coref	1-15[4_1]	
+1-2	4-9	roads	place[1]	new[1]	sal[1]	_	_	_	
 1-3	10-18	diverged	_	_	_	_	_	_	
 1-4	19-21	in	_	_	_	_	_	_	
-1-5	22-23	a	place[2]	new[2]	nonsal[2]	_	coref	7-19[36_2]	
-1-6	24-30	yellow	place[2]	new[2]	nonsal[2]	_	_	_	
-1-7	31-35	wood	place[2]	new[2]	nonsal[2]	_	_	_	
+1-5	22-23	a	place[2]	new[2]	sal[2]	_	coref	7-19[36_2]	
+1-6	24-30	yellow	place[2]	new[2]	sal[2]	_	_	_	
+1-7	31-35	wood	place[2]	new[2]	sal[2]	_	_	_	
 1-8	36-37	,	_	_	_	_	_	_	
 1-9	38-41	And	_	_	_	_	_	_	
 1-10	42-47	sorry	_	_	_	_	_	_	
-1-11	48-49	I	person[3]	acc[3]	nonsal[3]	_	coref	1-18[5_3]	
+1-11	48-49	I	person[3]	acc[3]	sal[3]	_	coref	1-18[5_3]	
 1-12	50-55	could	_	_	_	_	_	_	
 1-13	56-59	not	_	_	_	_	_	_	
 1-14	60-66	travel	_	_	_	_	_	_	
@@ -48,8 +48,8 @@
 #Text=Then took the other , as just as fair , And having perhaps the better claim , Because it was grassy and wanted wear ;
 2-1	183-187	Then	_	_	_	_	_	_	
 2-2	188-192	took	_	_	_	_	_	_	
-2-3	193-196	the	place[11]	acc[11]	nonsal[11]	_	coref	2-19[13_11]	
-2-4	197-202	other	place[11]	acc[11]	nonsal[11]	_	_	_	
+2-3	193-196	the	place[11]	acc[11]	sal[11]	_	coref	2-19[13_11]	
+2-4	197-202	other	place[11]	acc[11]	sal[11]	_	_	_	
 2-5	203-204	,	_	_	_	_	_	_	
 2-6	205-207	as	_	_	_	_	_	_	
 2-7	208-212	just	_	_	_	_	_	_	
@@ -69,7 +69,7 @@
 2-21	276-282	grassy	_	_	_	_	_	_	
 2-22	283-286	and	_	_	_	_	_	_	
 2-23	287-293	wanted	_	_	_	_	_	_	
-2-24	294-298	wear	abstract[14]	new[14]	nonsal[14]	_	_	_	
+2-24	294-298	wear	abstract[14]	new[14]	sal[14]	_	_	_	
 2-25	299-300	;	_	_	_	_	_	_	
 
 #Text=Though as for that the passing there Had worn them really about the same ,
@@ -142,7 +142,7 @@
 7-2	567-572	shall	_	_	_	_	_	_	
 7-3	573-575	be	_	_	_	_	_	_	
 7-4	576-583	telling	_	_	_	_	_	_	
-7-5	584-588	this	abstract[30]	giv[30]	nonsal[30]	_	coref	7-25[38_30]	
+7-5	584-588	this	abstract[30]	giv[30]	sal[30]	_	coref	7-25[38_30]	
 7-6	589-593	with	_	_	_	_	_	_	
 7-7	594-595	a	abstract[31]	new[31]	nonsal[31]	_	_	_	
 7-8	596-600	sigh	abstract[31]	new[31]	nonsal[31]	_	_	_	
@@ -174,7 +174,7 @@
 7-34	711-715	that	abstract[41]	giv[41]	nonsal[41]	_	_	_	
 7-35	716-719	has	_	_	_	_	_	_	
 7-36	720-724	made	_	_	_	_	_	_	
-7-37	725-728	all	abstract[42]	new[42]	nonsal[42]	_	_	_	
-7-38	729-732	the	abstract[42]	new[42]	nonsal[42]	_	_	_	
-7-39	733-743	difference	abstract[42]	new[42]	nonsal[42]	_	_	_	
+7-37	725-728	all	abstract[42]	new[42]	sal[42]	_	_	_	
+7-38	729-732	the	abstract[42]	new[42]	sal[42]	_	_	_	
+7-39	733-743	difference	abstract[42]	new[42]	sal[42]	_	_	_	
 7-40	744-745	.	_	_	_	_	_	_	

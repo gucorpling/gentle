@@ -8,49 +8,49 @@
 1-2	12-13	:	_	_	_	_	_	_	
 
 #Text=Human immunodeficiency virus disease with stable control on Atripla .
-2-1	14-19	Human	abstract[2]|animal[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	coref|coref	6-3[14_2]|7-16[19_3]	
-2-2	20-36	immunodeficiency	abstract[2]|animal[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	_	_	
-2-3	37-42	virus	abstract[2]|animal[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	_	_	
-2-4	43-50	disease	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-5	51-55	with	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-6	56-62	stable	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-7	63-70	control	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-8	71-73	on	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-9	74-81	Atripla	abstract[2]|substance[4]	new[2]|new[4]	nonsal[2]|nonsal[4]	Efavirenz/emtricitabine/tenofovir[4]	coref	24-2[84_4]	
+2-1	14-19	Human	abstract[2]|animal[3]	new[2]|new[3]	sal[2]|nonsal[3]	_	coref|coref	6-3[14_2]|7-16[19_3]	
+2-2	20-36	immunodeficiency	abstract[2]|animal[3]	new[2]|new[3]	sal[2]|nonsal[3]	_	_	_	
+2-3	37-42	virus	abstract[2]|animal[3]	new[2]|new[3]	sal[2]|nonsal[3]	_	_	_	
+2-4	43-50	disease	abstract[2]	new[2]	sal[2]	_	_	_	
+2-5	51-55	with	abstract[2]	new[2]	sal[2]	_	_	_	
+2-6	56-62	stable	abstract[2]	new[2]	sal[2]	_	_	_	
+2-7	63-70	control	abstract[2]	new[2]	sal[2]	_	_	_	
+2-8	71-73	on	abstract[2]	new[2]	sal[2]	_	_	_	
+2-9	74-81	Atripla	abstract[2]|substance[4]	new[2]|new[4]	sal[2]|sal[4]	Efavirenz/emtricitabine/tenofovir[4]	coref	24-2[84_4]	
 2-10	82-83	.	_	_	_	_	_	_	
 
 #Text=Resolving left gluteal abscess , completing Flagyl .
 3-1	84-93	Resolving	_	_	_	_	_	_	
-3-2	94-98	left	object[5]	new[5]	nonsal[5]	_	coref	9-6[28_5]	
-3-3	99-106	gluteal	object[5]	new[5]	nonsal[5]	_	_	_	
-3-4	107-114	abscess	object[5]	new[5]	nonsal[5]	_	_	_	
+3-2	94-98	left	object[5]	new[5]	sal[5]	_	coref	9-6[28_5]	
+3-3	99-106	gluteal	object[5]	new[5]	sal[5]	_	_	_	
+3-4	107-114	abscess	object[5]	new[5]	sal[5]	_	_	_	
 3-5	115-116	,	_	_	_	_	_	_	
 3-6	117-127	completing	_	_	_	_	_	_	
 3-7	128-134	Flagyl	substance[6]	new[6]	nonsal[6]	Metronidazole[6]	coref	21-2[75_6]	
 3-8	135-136	.	_	_	_	_	_	_	
 
 #Text=Diabetes mellitus , currently on oral therapy .
-4-1	137-145	Diabetes	abstract[7]	new[7]	nonsal[7]	Diabetes[7]	coref	9-22[32_7]	
-4-2	146-154	mellitus	abstract[7]	new[7]	nonsal[7]	Diabetes[7]	_	_	
+4-1	137-145	Diabetes	abstract[7]	new[7]	sal[7]	Diabetes[7]	coref	9-22[32_7]	
+4-2	146-154	mellitus	abstract[7]	new[7]	sal[7]	Diabetes[7]	_	_	
 4-3	155-156	,	_	_	_	_	_	_	
 4-4	157-166	currently	_	_	_	_	_	_	
 4-5	167-169	on	_	_	_	_	_	_	
-4-6	170-174	oral	abstract[8]	new[8]	nonsal[8]	_	coref	42-7[144_8]	
-4-7	175-182	therapy	abstract[8]	new[8]	nonsal[8]	_	_	_	
+4-6	170-174	oral	abstract[8]	new[8]	sal[8]	_	coref	42-7[144_8]	
+4-7	175-182	therapy	abstract[8]	new[8]	sal[8]	_	_	_	
 4-8	183-184	.	_	_	_	_	_	_	
 
 #Text=Hypertension , depression , and chronic musculoskeletal pain of unclear etiology .
-5-1	185-197	Hypertension	abstract[9]	new[9]	nonsal[9]	_	coref	10-7[35_9]	
+5-1	185-197	Hypertension	abstract[9]	new[9]	sal[9]	_	coref	10-7[35_9]	
 5-2	198-199	,	_	_	_	_	_	_	
-5-3	200-210	depression	abstract[10]	new[10]	nonsal[10]	_	coref	44-2[146_10]	
+5-3	200-210	depression	abstract[10]	new[10]	sal[10]	_	coref	44-2[146_10]	
 5-4	211-212	,	_	_	_	_	_	_	
 5-5	213-216	and	_	_	_	_	_	_	
-5-6	217-224	chronic	abstract[11]	new[11]	nonsal[11]	_	coref	45-2[147_11]	
-5-7	225-240	musculoskeletal	abstract[11]	new[11]	nonsal[11]	_	_	_	
-5-8	241-245	pain	abstract[11]	new[11]	nonsal[11]	_	_	_	
-5-9	246-248	of	abstract[11]	new[11]	nonsal[11]	_	_	_	
-5-10	249-256	unclear	abstract[11]|abstract[12]	new[11]|new[12]	nonsal[11]|nonsal[12]	_	coref	45-6[148_12]	
-5-11	257-265	etiology	abstract[11]|abstract[12]	new[11]|new[12]	nonsal[11]|nonsal[12]	_	_	_	
+5-6	217-224	chronic	abstract[11]	new[11]	sal[11]	_	coref	45-2[147_11]	
+5-7	225-240	musculoskeletal	abstract[11]	new[11]	sal[11]	_	_	_	
+5-8	241-245	pain	abstract[11]	new[11]	sal[11]	_	_	_	
+5-9	246-248	of	abstract[11]	new[11]	sal[11]	_	_	_	
+5-10	249-256	unclear	abstract[11]|abstract[12]	new[11]|new[12]	sal[11]|nonsal[12]	_	coref	45-6[148_12]	
+5-11	257-265	etiology	abstract[11]|abstract[12]	new[11]|new[12]	sal[11]|nonsal[12]	_	_	_	
 5-12	266-267	.	_	_	_	_	_	_	
 
 #Text=HISTORY OF PRESENT ILLNESS :
@@ -61,8 +61,8 @@
 6-5	295-296	:	_	_	_	_	_	_	
 
 #Text=The patient is a 41 - year - old white male with a history of HIV disease .
-7-1	297-300	The	person[15]	new[15]	nonsal[15]	_	coref	7-4[16_15]	
-7-2	301-308	patient	person[15]	new[15]	nonsal[15]	_	_	_	
+7-1	297-300	The	person[15]	new[15]	sal[15]	_	coref	7-4[16_15]	
+7-2	301-308	patient	person[15]	new[15]	sal[15]	_	_	_	
 7-3	309-311	is	_	_	_	_	_	_	
 7-4	312-313	a	person[16]	giv[16]	nonsal[16]	_	coref	8-1[21_16]	
 7-5	314-316	41	person[16]	giv[16]	nonsal[16]	_	_	_	
@@ -249,13 +249,13 @@
 16-18	1196-1197	.	_	_	_	_	_	_	
 
 #Text=CURRENT MEDICATIONS :
-17-1	1198-1205	CURRENT	abstract[65]	new[65]	nonsal[65]	_	coref	46-7[151_65]	
-17-2	1206-1217	MEDICATIONS	abstract[65]	new[65]	nonsal[65]	_	_	_	
+17-1	1198-1205	CURRENT	abstract[65]	new[65]	sal[65]	_	coref	46-7[151_65]	
+17-2	1206-1217	MEDICATIONS	abstract[65]	new[65]	sal[65]	_	_	_	
 17-3	1218-1219	:	_	_	_	_	_	_	
 
 #Text=1. Gabapentin 600 mg at night .
 18-1	1220-1222	1.	_	_	_	_	_	_	
-18-2	1223-1233	Gabapentin	substance[66]	new[66]	nonsal[66]	Gabapentin[66]	_	_	
+18-2	1223-1233	Gabapentin	substance[66]	new[66]	sal[66]	Gabapentin[66]	_	_	
 18-3	1234-1237	600	substance[67]	new[67]	nonsal[67]	_	_	_	
 18-4	1238-1240	mg	substance[67]	new[67]	nonsal[67]	_	_	_	
 18-5	1241-1243	at	_	_	_	_	_	_	
@@ -264,7 +264,7 @@
 
 #Text=2. Metformin 1000 mg twice a day .
 19-1	1252-1254	2.	_	_	_	_	_	_	
-19-2	1255-1264	Metformin	substance[69]	new[69]	nonsal[69]	Metformin[69]	_	_	
+19-2	1255-1264	Metformin	substance[69]	new[69]	sal[69]	Metformin[69]	_	_	
 19-3	1265-1269	1000	substance[70]	new[70]	nonsal[70]	_	_	_	
 19-4	1270-1272	mg	substance[70]	new[70]	nonsal[70]	_	_	_	
 19-5	1273-1278	twice	_	_	_	_	_	_	
@@ -274,7 +274,7 @@
 
 #Text=3. Glipizide 5 mg a day .
 20-1	1287-1289	3.	_	_	_	_	_	_	
-20-2	1290-1299	Glipizide	substance[72]	new[72]	nonsal[72]	Glipizide[72]	_	_	
+20-2	1290-1299	Glipizide	substance[72]	new[72]	sal[72]	Glipizide[72]	_	_	
 20-3	1300-1301	5	substance[73]	new[73]	nonsal[73]	_	_	_	
 20-4	1302-1304	mg	substance[73]	new[73]	nonsal[73]	_	_	_	
 20-5	1305-1306	a	time[74]	giv[74]	nonsal[74]	_	coref	21-7[77_74]	
@@ -547,7 +547,7 @@
 45-8	2458-2459	.	_	_	_	_	_	_	
 
 #Text=PLAN : The patient will continue his current medications .
-46-1	2460-2464	PLAN	abstract[149]	new[149]	nonsal[149]	_	_	_	
+46-1	2460-2464	PLAN	abstract[149]	new[149]	sal[149]	_	_	_	
 46-2	2465-2466	:	_	_	_	_	_	_	
 46-3	2467-2470	The	person[150]	new[150]	nonsal[150]	_	coref	46-7[152_150]	
 46-4	2471-2478	patient	person[150]	new[150]	nonsal[150]	_	_	_	
@@ -562,14 +562,14 @@
 47-1	2519-2521	He	person[153]	giv[153]	nonsal[153]	_	coref	47-17[157_153]	
 47-2	2522-2526	will	_	_	_	_	_	_	
 47-3	2527-2531	have	_	_	_	_	_	_	
-47-4	2532-2542	laboratory	abstract[154]	new[154]	nonsal[154]	_	_	_	
-47-5	2543-2550	studies	abstract[154]	new[154]	nonsal[154]	_	_	_	
+47-4	2532-2542	laboratory	abstract[154]	new[154]	sal[154]	_	_	_	
+47-5	2543-2550	studies	abstract[154]	new[154]	sal[154]	_	_	_	
 47-6	2551-2555	done	_	_	_	_	_	_	
 47-7	2556-2558	in	_	_	_	_	_	_	
-47-8	2559-2560	3	time[155]	new[155]	nonsal[155]	_	coref	47-18[158_155]	
-47-9	2561-2563	to	time[155]	new[155]	nonsal[155]	_	_	_	
-47-10	2564-2565	4	time[155]	new[155]	nonsal[155]	_	_	_	
-47-11	2566-2571	weeks	time[155]	new[155]	nonsal[155]	_	_	_	
+47-8	2559-2560	3	time[155]	new[155]	sal[155]	_	coref	47-18[158_155]	
+47-9	2561-2563	to	time[155]	new[155]	sal[155]	_	_	_	
+47-10	2564-2565	4	time[155]	new[155]	sal[155]	_	_	_	
+47-11	2566-2571	weeks	time[155]	new[155]	sal[155]	_	_	_	
 47-12	2572-2573	,	_	_	_	_	_	_	
 47-13	2574-2577	and	_	_	_	_	_	_	
 47-14	2578-2580	we	person[156]	acc[156]	nonsal[156]	_	_	_	

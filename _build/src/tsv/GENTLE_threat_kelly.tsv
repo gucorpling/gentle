@@ -9,7 +9,7 @@
 
 #Text=Do you remember . . . when you did the insurance scam ?
 2-1	8-10	Do	_	_	_	_	_	_	
-2-2	11-14	you	person[1]	acc[1]	nonsal[1]	_	coref	2-8[2_1]	
+2-2	11-14	you	person[1]	acc[1]	sal[1]	_	coref	2-8[2_1]	
 2-3	15-23	remember	_	_	_	_	_	_	
 2-4	24-25	.	_	_	_	_	_	_	
 2-5	26-27	.	_	_	_	_	_	_	
@@ -17,9 +17,9 @@
 2-7	30-34	when	_	_	_	_	_	_	
 2-8	35-38	you	person[2]	giv[2]	nonsal[2]	_	coref	3-3[8_2]	
 2-9	39-42	did	_	_	_	_	_	_	
-2-10	43-46	the	event[3]	new[3]	nonsal[3]	_	coref	3-1[5_3]	
-2-11	47-56	insurance	event[3]|abstract[4]	new[3]|new[4]	nonsal[3]|nonsal[4]	_	_	_	
-2-12	57-61	scam	event[3]	new[3]	nonsal[3]	_	_	_	
+2-10	43-46	the	event[3]	new[3]	sal[3]	_	coref	3-1[5_3]	
+2-11	47-56	insurance	event[3]|abstract[4]	new[3]|new[4]	sal[3]|sal[4]	_	_	_	
+2-12	57-61	scam	event[3]	new[3]	sal[3]	_	_	_	
 2-13	62-63	?	_	_	_	_	_	_	
 
 #Text=It was your house and your police report and you cashed the check .
@@ -47,7 +47,7 @@
 4-6	152-153	.	_	_	_	_	_	_	
 
 #Text=That is 3 to 5 years .
-5-1	154-158	That	time[15]	acc[15]	nonsal[15]	_	coref	5-3[16_15]	
+5-1	154-158	That	time[15]	acc[15]	sal[15]	_	coref	5-3[16_15]	
 5-2	159-161	is	_	_	_	_	_	_	
 5-3	162-163	3	time[16]	new[16]	nonsal[16]	_	_	_	
 5-4	164-166	to	time[16]	new[16]	nonsal[16]	_	_	_	
@@ -56,7 +56,7 @@
 5-7	175-176	.	_	_	_	_	_	_	
 
 #Text=I will tell a fucking detective .
-6-1	177-178	I	person[17]	acc[17]	nonsal[17]	_	coref	7-12[22_17]	
+6-1	177-178	I	person[17]	acc[17]	sal[17]	_	coref	7-12[22_17]	
 6-2	179-183	will	_	_	_	_	_	_	
 6-3	184-188	tell	_	_	_	_	_	_	
 6-4	189-190	a	person[18]	new[18]	nonsal[18]	_	bridge	7-3[19_18]	
@@ -137,7 +137,7 @@
 11-9	487-491	your	time[38]|event[39]|person[40]	new[38]|new[39]|giv[40]	nonsal[38]|nonsal[39]|nonsal[40]	_	coref	12-1[42_40]	
 11-10	492-497	shift	time[38]|event[39]	new[38]|new[39]	nonsal[38]|nonsal[39]	_	_	_	
 11-11	498-500	at	time[38]|event[39]	new[38]|new[39]	nonsal[38]|nonsal[39]	_	_	_	
-11-12	501-511	Wal-Greens	time[38]|event[39]|organization[41]	new[38]|new[39]|new[41]	nonsal[38]|nonsal[39]|nonsal[41]	Walgreens[41]	_	_	
+11-12	501-511	Wal-Greens	time[38]|event[39]|organization[41]	new[38]|new[39]|new[41]	nonsal[38]|nonsal[39]|sal[41]	Walgreens[41]	_	_	
 11-13	512-513	.	_	_	_	_	_	_	
 
 #Text=You will not like it in here .
@@ -147,7 +147,7 @@
 12-4	527-531	like	_	_	_	_	_	_	
 12-5	532-534	it	_	_	_	_	_	_	
 12-6	535-537	in	_	_	_	_	_	_	
-12-7	538-542	here	place[43]	new[43]	nonsal[43]	_	coref	26-19[93_43]	
+12-7	538-542	here	place[43]	new[43]	sal[43]	_	coref	26-19[93_43]	
 12-8	543-544	.	_	_	_	_	_	_	
 
 #Text=So do yourself a favor drop the charges on me or else I will tell them all about your scam .
@@ -157,8 +157,8 @@
 13-4	560-561	a	abstract[45]	new[45]	nonsal[45]	_	_	_	
 13-5	562-567	favor	abstract[45]	new[45]	nonsal[45]	_	_	_	
 13-6	568-572	drop	_	_	_	_	_	_	
-13-7	573-576	the	abstract[46]	acc[46]	nonsal[46]	_	coref	36-3[132_46]	
-13-8	577-584	charges	abstract[46]	acc[46]	nonsal[46]	_	_	_	
+13-7	573-576	the	abstract[46]	acc[46]	sal[46]	_	coref	36-3[132_46]	
+13-8	577-584	charges	abstract[46]	acc[46]	sal[46]	_	_	_	
 13-9	585-587	on	_	_	_	_	_	_	
 13-10	588-590	me	person[47]	giv[47]	nonsal[47]	_	coref	13-13[48_47]	
 13-11	591-593	or	_	_	_	_	_	_	

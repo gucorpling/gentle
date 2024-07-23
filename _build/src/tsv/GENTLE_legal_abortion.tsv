@@ -4,17 +4,17 @@
 
 
 #Text=Roe v. Wade
-1-1	0-3	Roe	abstract[1]|person[2]	new[1]|new[2]	nonsal[1]|nonsal[2]	Roe_v._Wade[1]|Norma_McCorvey[2]	coref|coref	3-1[6_1]|4-1[9_2]	
-1-2	4-6	v.	abstract[1]	new[1]	nonsal[1]	Roe_v._Wade[1]	_	_	
-1-3	7-11	Wade	abstract[1]|person[3]	new[1]|new[3]	nonsal[1]|nonsal[3]	Roe_v._Wade[1]|Henry_Wade[3]	coref	4-3[10_3]	
+1-1	0-3	Roe	abstract[1]|person[2]	new[1]|new[2]	sal[1]|sal[2]	Roe_v._Wade[1]|Norma_McCorvey[2]	coref|coref	3-1[6_1]|4-1[9_2]	
+1-2	4-6	v.	abstract[1]	new[1]	sal[1]	Roe_v._Wade[1]	_	_	
+1-3	7-11	Wade	abstract[1]|person[3]	new[1]|new[3]	sal[1]|nonsal[3]	Roe_v._Wade[1]|Henry_Wade[3]	coref	4-3[10_3]	
 
 #Text=Supreme Court of the United States
-2-1	12-19	Supreme	organization[4]	new[4]	nonsal[4]	Supreme_Court_of_the_United_States[4]	_	_	
-2-2	20-25	Court	organization[4]	new[4]	nonsal[4]	Supreme_Court_of_the_United_States[4]	_	_	
-2-3	26-28	of	organization[4]	new[4]	nonsal[4]	Supreme_Court_of_the_United_States[4]	_	_	
-2-4	29-32	the	organization[4]|place[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	Supreme_Court_of_the_United_States[4]|United_States[5]	coref	3-2[7_5]	
-2-5	33-39	United	organization[4]|place[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	Supreme_Court_of_the_United_States[4]|United_States[5]	_	_	
-2-6	40-46	States	organization[4]|place[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	Supreme_Court_of_the_United_States[4]|United_States[5]	_	_	
+2-1	12-19	Supreme	organization[4]	new[4]	sal[4]	Supreme_Court_of_the_United_States[4]	_	_	
+2-2	20-25	Court	organization[4]	new[4]	sal[4]	Supreme_Court_of_the_United_States[4]	_	_	
+2-3	26-28	of	organization[4]	new[4]	sal[4]	Supreme_Court_of_the_United_States[4]	_	_	
+2-4	29-32	the	organization[4]|place[5]	new[4]|new[5]	sal[4]|nonsal[5]	Supreme_Court_of_the_United_States[4]|United_States[5]	coref	3-2[7_5]	
+2-5	33-39	United	organization[4]|place[5]	new[4]|new[5]	sal[4]|nonsal[5]	Supreme_Court_of_the_United_States[4]|United_States[5]	_	_	
+2-6	40-46	States	organization[4]|place[5]	new[4]|new[5]	sal[4]|nonsal[5]	Supreme_Court_of_the_United_States[4]|United_States[5]	_	_	
 
 #Text=410 U.S. 113
 3-1	47-50	410	abstract[6]	new[6]	nonsal[6]	_	coref	4-1[8_6]	
@@ -39,7 +39,7 @@
 5-10	125-133	Northern	abstract[11]|organization[12]|place[14]	new[11]|new[12]|new[14]	nonsal[11]|nonsal[12]|nonsal[14]	United_States_District_Court_for_the_Northern_District_of_Texas[12]|United_States_District_Court_for_the_Northern_District_of_Texas[14]	_	_	
 5-11	134-142	District	abstract[11]|organization[12]|place[14]	new[11]|new[12]|new[14]	nonsal[11]|nonsal[12]|nonsal[14]	United_States_District_Court_for_the_Northern_District_of_Texas[12]|United_States_District_Court_for_the_Northern_District_of_Texas[14]	_	_	
 5-12	143-145	of	abstract[11]|organization[12]|place[14]	new[11]|new[12]|new[14]	nonsal[11]|nonsal[12]|nonsal[14]	United_States_District_Court_for_the_Northern_District_of_Texas[12]|United_States_District_Court_for_the_Northern_District_of_Texas[14]	_	_	
-5-13	146-151	Texas	abstract[11]|organization[12]|place[14]|place[15]	new[11]|new[12]|new[14]|new[15]	nonsal[11]|nonsal[12]|nonsal[14]|nonsal[15]	United_States_District_Court_for_the_Northern_District_of_Texas[12]|United_States_District_Court_for_the_Northern_District_of_Texas[14]|Texas[15]	coref	9-17[25_15]	
+5-13	146-151	Texas	abstract[11]|organization[12]|place[14]|place[15]	new[11]|new[12]|new[14]|new[15]	nonsal[11]|nonsal[12]|nonsal[14]|sal[15]	United_States_District_Court_for_the_Northern_District_of_Texas[12]|United_States_District_Court_for_the_Northern_District_of_Texas[14]|Texas[15]	coref	9-17[25_15]	
 
 #Text=No. 70 - 18
 6-1	152-155	No.	abstract[16]	giv[16]	nonsal[16]	_	_	_	
@@ -53,7 +53,7 @@
 7-3	173-181	December	time[17]	new[17]	nonsal[17]	_	_	_	
 7-4	182-184	13	time[17]	new[17]	nonsal[17]	_	_	_	
 7-5	185-186	,	time[17]	new[17]	nonsal[17]	_	_	_	
-7-6	187-191	1971	time[17]|time[18]	new[17]|new[18]	nonsal[17]|nonsal[18]	_	_	_	
+7-6	187-191	1971	time[17]|time[18]	new[17]|new[18]	nonsal[17]|sal[18]	_	_	_	
 7-7	192-195	---	_	_	_	_	_	_	
 
 #Text=Decided : January 22 , 1973
@@ -62,7 +62,7 @@
 8-3	206-213	January	time[19]	new[19]	nonsal[19]	_	_	_	
 8-4	214-216	22	time[19]	new[19]	nonsal[19]	_	_	_	
 8-5	217-218	,	time[19]	new[19]	nonsal[19]	_	_	_	
-8-6	219-223	1973	time[19]|time[20]	new[19]|new[20]	nonsal[19]|nonsal[20]	_	_	_	
+8-6	219-223	1973	time[19]|time[20]	new[19]|new[20]	nonsal[19]|sal[20]	_	_	_	
 
 #Text=A pregnant single woman ( Roe ) brought a class action challenging the constitutionality of the Texas criminal abortion laws , which proscribe procuring or attempting an abortion except on medical advice for the purpose of saving the mother 's life .
 9-1	224-225	A	person[21]	new[21]	nonsal[21]	_	coref	9-6[22_21]	
@@ -73,39 +73,39 @@
 9-6	250-253	Roe	person[22]	giv[22]	nonsal[22]	Norma_McCorvey[22]	coref	12-15[55_22]	
 9-7	254-255	)	_	_	_	_	_	_	
 9-8	256-263	brought	_	_	_	_	_	_	
-9-9	264-265	a	event[23]	new[23]	nonsal[23]	_	coref|bridge	11-1[38_23]|12-10[52_23]	
-9-10	266-271	class	event[23]	new[23]	nonsal[23]	_	_	_	
-9-11	272-278	action	event[23]	new[23]	nonsal[23]	_	_	_	
-9-12	279-290	challenging	event[23]	new[23]	nonsal[23]	_	_	_	
-9-13	291-294	the	event[23]	new[23]	nonsal[23]	_	_	_	
-9-14	295-312	constitutionality	event[23]	new[23]	nonsal[23]	_	_	_	
-9-15	313-315	of	event[23]	new[23]	nonsal[23]	_	_	_	
-9-16	316-319	the	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	coref	11-18[42_24]	
-9-17	320-325	Texas	event[23]|abstract[24]|place[25]	new[23]|new[24]|giv[25]	nonsal[23]|nonsal[24]|nonsal[25]	Texas[25]	coref	10-11[35_25]	
-9-18	326-334	criminal	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-19	335-343	abortion	event[23]|abstract[24]|event[26]	new[23]|new[24]|new[26]	nonsal[23]|nonsal[24]|nonsal[26]	_	coref	9-27[27_26]	
-9-20	344-348	laws	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-21	349-350	,	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-22	351-356	which	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-23	357-366	proscribe	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-24	367-376	procuring	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-25	377-379	or	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-26	380-390	attempting	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-27	391-393	an	event[23]|abstract[24]|event[27]	new[23]|new[24]|giv[27]	nonsal[23]|nonsal[24]|nonsal[27]	_	coref|bridge	10-12[36_27]|9-38[31_27]	
-9-28	394-402	abortion	event[23]|abstract[24]|event[27]	new[23]|new[24]|giv[27]	nonsal[23]|nonsal[24]|nonsal[27]	_	_	_	
-9-29	403-409	except	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-30	410-412	on	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-31	413-420	medical	event[23]|abstract[24]|abstract[28]	new[23]|new[24]|new[28]	nonsal[23]|nonsal[24]|nonsal[28]	_	_	_	
-9-32	421-427	advice	event[23]|abstract[24]|abstract[28]	new[23]|new[24]|new[28]	nonsal[23]|nonsal[24]|nonsal[28]	_	_	_	
-9-33	428-431	for	event[23]|abstract[24]	new[23]|new[24]	nonsal[23]|nonsal[24]	_	_	_	
-9-34	432-435	the	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	nonsal[23]|nonsal[24]|nonsal[29]	_	_	_	
-9-35	436-443	purpose	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	nonsal[23]|nonsal[24]|nonsal[29]	_	_	_	
-9-36	444-446	of	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	nonsal[23]|nonsal[24]|nonsal[29]	_	_	_	
-9-37	447-453	saving	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	nonsal[23]|nonsal[24]|nonsal[29]	_	_	_	
-9-38	454-457	the	event[23]|abstract[24]|abstract[29]|abstract[30]|person[31]	new[23]|new[24]|new[29]|new[30]|acc[31]	nonsal[23]|nonsal[24]|nonsal[29]|nonsal[30]|nonsal[31]	_	_	_	
-9-39	458-464	mother	event[23]|abstract[24]|abstract[29]|abstract[30]|person[31]	new[23]|new[24]|new[29]|new[30]|acc[31]	nonsal[23]|nonsal[24]|nonsal[29]|nonsal[30]|nonsal[31]	_	_	_	
-9-40	465-467	's	event[23]|abstract[24]|abstract[29]|abstract[30]|person[31]	new[23]|new[24]|new[29]|new[30]|acc[31]	nonsal[23]|nonsal[24]|nonsal[29]|nonsal[30]|nonsal[31]	_	_	_	
-9-41	468-472	life	event[23]|abstract[24]|abstract[29]|abstract[30]	new[23]|new[24]|new[29]|new[30]	nonsal[23]|nonsal[24]|nonsal[29]|nonsal[30]	_	_	_	
+9-9	264-265	a	event[23]	new[23]	sal[23]	_	coref|bridge	11-1[38_23]|12-10[52_23]	
+9-10	266-271	class	event[23]	new[23]	sal[23]	_	_	_	
+9-11	272-278	action	event[23]	new[23]	sal[23]	_	_	_	
+9-12	279-290	challenging	event[23]	new[23]	sal[23]	_	_	_	
+9-13	291-294	the	event[23]	new[23]	sal[23]	_	_	_	
+9-14	295-312	constitutionality	event[23]	new[23]	sal[23]	_	_	_	
+9-15	313-315	of	event[23]	new[23]	sal[23]	_	_	_	
+9-16	316-319	the	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	coref	11-18[42_24]	
+9-17	320-325	Texas	event[23]|abstract[24]|place[25]	new[23]|new[24]|giv[25]	sal[23]|sal[24]|nonsal[25]	Texas[25]	coref	10-11[35_25]	
+9-18	326-334	criminal	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-19	335-343	abortion	event[23]|abstract[24]|event[26]	new[23]|new[24]|new[26]	sal[23]|sal[24]|sal[26]	_	coref	9-27[27_26]	
+9-20	344-348	laws	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-21	349-350	,	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-22	351-356	which	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-23	357-366	proscribe	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-24	367-376	procuring	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-25	377-379	or	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-26	380-390	attempting	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-27	391-393	an	event[23]|abstract[24]|event[27]	new[23]|new[24]|giv[27]	sal[23]|sal[24]|nonsal[27]	_	coref|bridge	10-12[36_27]|9-38[31_27]	
+9-28	394-402	abortion	event[23]|abstract[24]|event[27]	new[23]|new[24]|giv[27]	sal[23]|sal[24]|nonsal[27]	_	_	_	
+9-29	403-409	except	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-30	410-412	on	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-31	413-420	medical	event[23]|abstract[24]|abstract[28]	new[23]|new[24]|new[28]	sal[23]|sal[24]|nonsal[28]	_	_	_	
+9-32	421-427	advice	event[23]|abstract[24]|abstract[28]	new[23]|new[24]|new[28]	sal[23]|sal[24]|nonsal[28]	_	_	_	
+9-33	428-431	for	event[23]|abstract[24]	new[23]|new[24]	sal[23]|sal[24]	_	_	_	
+9-34	432-435	the	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	sal[23]|sal[24]|nonsal[29]	_	_	_	
+9-35	436-443	purpose	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	sal[23]|sal[24]|nonsal[29]	_	_	_	
+9-36	444-446	of	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	sal[23]|sal[24]|nonsal[29]	_	_	_	
+9-37	447-453	saving	event[23]|abstract[24]|abstract[29]	new[23]|new[24]|new[29]	sal[23]|sal[24]|nonsal[29]	_	_	_	
+9-38	454-457	the	event[23]|abstract[24]|abstract[29]|abstract[30]|person[31]	new[23]|new[24]|new[29]|new[30]|acc[31]	sal[23]|sal[24]|nonsal[29]|sal[30]|sal[31]	_	_	_	
+9-39	458-464	mother	event[23]|abstract[24]|abstract[29]|abstract[30]|person[31]	new[23]|new[24]|new[29]|new[30]|acc[31]	sal[23]|sal[24]|nonsal[29]|sal[30]|sal[31]	_	_	_	
+9-40	465-467	's	event[23]|abstract[24]|abstract[29]|abstract[30]|person[31]	new[23]|new[24]|new[29]|new[30]|acc[31]	sal[23]|sal[24]|nonsal[29]|sal[30]|sal[31]	_	_	_	
+9-41	468-472	life	event[23]|abstract[24]|abstract[29]|abstract[30]	new[23]|new[24]|new[29]|new[30]	sal[23]|sal[24]|nonsal[29]|sal[30]	_	_	_	
 9-42	473-474	.	_	_	_	_	_	_	
 
 #Text=A licensed physician ( Hallford ) , who had two state abortion prosecutions pending against him , was permitted to intervene .
@@ -194,15 +194,15 @@
 12-12	929-930	,	_	_	_	_	_	_	
 12-13	931-935	held	_	_	_	_	_	_	
 12-14	936-940	that	_	_	_	_	_	_	
-12-15	941-944	Roe	person[53]|person[54]|person[55]	new[53]|new[54]|giv[55]	nonsal[53]|nonsal[54]|nonsal[55]	Norma_McCorvey[55]	coref|coref|coref	13-25[67_53]|12-22[58_54]|15-27[82_55]	
-12-16	945-948	and	person[53]|person[54]	new[53]|new[54]	nonsal[53]|nonsal[54]	_	_	_	
-12-17	949-957	Hallford	person[53]|person[54]|person[56]	new[53]|new[54]|giv[56]	nonsal[53]|nonsal[54]|nonsal[56]	_	coref	15-29[83_56]	
-12-18	958-959	,	person[53]	new[53]	nonsal[53]	_	_	_	
-12-19	960-963	and	person[53]	new[53]	nonsal[53]	_	_	_	
-12-20	964-971	members	person[53]|person[57]	new[53]|new[57]	nonsal[53]|nonsal[57]	_	_	_	
-12-21	972-974	of	person[53]|person[57]	new[53]|new[57]	nonsal[53]|nonsal[57]	_	_	_	
-12-22	975-980	their	person[53]|person[57]|person[58]	new[53]|new[57]|giv[58]	nonsal[53]|nonsal[57]|nonsal[58]	_	coref	15-27[81_58]	
-12-23	981-988	classes	person[53]|person[57]	new[53]|new[57]	nonsal[53]|nonsal[57]	_	_	_	
+12-15	941-944	Roe	person[53]|person[54]|person[55]	new[53]|new[54]|giv[55]	sal[53]|nonsal[54]|nonsal[55]	Norma_McCorvey[55]	coref|coref|coref	13-25[67_53]|12-22[58_54]|15-27[82_55]	
+12-16	945-948	and	person[53]|person[54]	new[53]|new[54]	sal[53]|nonsal[54]	_	_	_	
+12-17	949-957	Hallford	person[53]|person[54]|person[56]	new[53]|new[54]|giv[56]	sal[53]|nonsal[54]|nonsal[56]	_	coref	15-29[83_56]	
+12-18	958-959	,	person[53]	new[53]	sal[53]	_	_	_	
+12-19	960-963	and	person[53]	new[53]	sal[53]	_	_	_	
+12-20	964-971	members	person[53]|person[57]	new[53]|new[57]	sal[53]|nonsal[57]	_	_	_	
+12-21	972-974	of	person[53]|person[57]	new[53]|new[57]	sal[53]|nonsal[57]	_	_	_	
+12-22	975-980	their	person[53]|person[57]|person[58]	new[53]|new[57]|giv[58]	sal[53]|nonsal[57]|nonsal[58]	_	coref	15-27[81_58]	
+12-23	981-988	classes	person[53]|person[57]	new[53]|new[57]	sal[53]|nonsal[57]	_	_	_	
 12-24	989-990	,	_	_	_	_	_	_	
 12-25	991-994	had	_	_	_	_	_	_	
 12-26	995-1003	standing	abstract[59]	new[59]	nonsal[59]	_	_	_	
@@ -242,10 +242,10 @@
 13-25	1208-1213	those	abstract[66]|person[67]	giv[66]|new[67]	nonsal[66]|nonsal[67]	_	_	_	
 13-26	1214-1224	plaintiffs	abstract[66]|person[67]	giv[66]|new[67]	nonsal[66]|nonsal[67]	_	_	_	
 13-27	1225-1226	'	abstract[66]|person[67]	giv[66]|new[67]	nonsal[66]|nonsal[67]	_	_	_	
-13-28	1227-1232	Ninth	abstract[66]|abstract[68]	giv[66]|new[68]	nonsal[66]|nonsal[68]	_	_	_	
-13-29	1233-1236	and	abstract[66]|abstract[68]	giv[66]|new[68]	nonsal[66]|nonsal[68]	_	_	_	
-13-30	1237-1247	Fourteenth	abstract[66]|abstract[68]|abstract[69]	giv[66]|new[68]|new[69]	nonsal[66]|nonsal[68]|nonsal[69]	Fourteenth_Amendment_to_the_United_States_Constitution[69]	coref	29-45[158_69]	
-13-31	1248-1257	Amendment	abstract[66]|abstract[68]|abstract[69]	giv[66]|new[68]|new[69]	nonsal[66]|nonsal[68]|nonsal[69]	Fourteenth_Amendment_to_the_United_States_Constitution[69]	_	_	
+13-28	1227-1232	Ninth	abstract[66]|abstract[68]	giv[66]|new[68]	nonsal[66]|sal[68]	_	_	_	
+13-29	1233-1236	and	abstract[66]|abstract[68]	giv[66]|new[68]	nonsal[66]|sal[68]	_	_	_	
+13-30	1237-1247	Fourteenth	abstract[66]|abstract[68]|abstract[69]	giv[66]|new[68]|new[69]	nonsal[66]|sal[68]|nonsal[69]	Fourteenth_Amendment_to_the_United_States_Constitution[69]	coref	29-45[158_69]	
+13-31	1248-1257	Amendment	abstract[66]|abstract[68]|abstract[69]	giv[66]|new[68]|new[69]	nonsal[66]|sal[68]|nonsal[69]	Fourteenth_Amendment_to_the_United_States_Constitution[69]	_	_	
 13-32	1258-1264	rights	abstract[66]	giv[66]	nonsal[66]	_	_	_	
 13-33	1265-1266	.	_	_	_	_	_	_	
 

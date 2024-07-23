@@ -16,28 +16,28 @@
 1-10	43-47	more	time[3]	new[3]	nonsal[3]	_	_	_	
 1-11	48-52	time	time[3]	new[3]	nonsal[3]	_	_	_	
 1-12	53-54	,	_	_	_	_	_	_	
-1-13	55-58	the	event[4]	new[4]	nonsal[4]	_	bridge|coref	3-5[17_4]|12-4[79_4]	
-1-14	59-67	Fortnite	event[4]|event[5]|abstract[6]	new[4]|new[5]|new[6]	nonsal[4]|nonsal[5]|nonsal[6]	Fortnite[6]	coref|coref	10-22[72_5]|9-18[64_6]	
-1-15	68-73	World	event[4]|event[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	_	_	_	
-1-16	74-77	Cup	event[4]|event[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	_	_	_	
-1-17	78-84	Finals	event[4]	new[4]	nonsal[4]	_	_	_	
+1-13	55-58	the	event[4]	new[4]	sal[4]	_	bridge|coref	3-5[17_4]|12-4[79_4]	
+1-14	59-67	Fortnite	event[4]|event[5]|abstract[6]	new[4]|new[5]|new[6]	sal[4]|sal[5]|sal[6]	Fortnite[6]	coref|coref	10-22[72_5]|9-18[64_6]	
+1-15	68-73	World	event[4]|event[5]	new[4]|new[5]	sal[4]|sal[5]	_	_	_	
+1-16	74-77	Cup	event[4]|event[5]	new[4]|new[5]	sal[4]|sal[5]	_	_	_	
+1-17	78-84	Finals	event[4]	new[4]	sal[4]	_	_	_	
 1-18	85-89	ends	_	_	_	_	_	_	
 1-19	90-95	right	_	_	_	_	_	_	
-1-20	96-100	here	place[7]	new[7]	nonsal[7]	_	coref	9-14[61_7]	
+1-20	96-100	here	place[7]	acc[7]	nonsal[7]	_	coref	9-14[61_7]	
 1-21	101-102	.	_	_	_	_	_	_	
 
 #Text=All 100 players on your screen there , Jack , Bugha , sitting out in front of everyone thus far a commanding lead .
-2-1	103-106	All	person[8]	new[8]	nonsal[8]	_	coref	2-18[13_8]	
-2-2	107-110	100	person[8]	new[8]	nonsal[8]	_	_	_	
-2-3	111-118	players	person[8]	new[8]	nonsal[8]	_	_	_	
-2-4	119-121	on	person[8]	new[8]	nonsal[8]	_	_	_	
-2-5	122-126	your	person[8]|object[9]|person[10]	new[8]|new[9]|acc[10]	nonsal[8]|nonsal[9]|nonsal[10]	_	coref|coref	4-5[22_9]|4-10[24_10]	
-2-6	127-133	screen	person[8]|object[9]	new[8]|new[9]	nonsal[8]|nonsal[9]	_	_	_	
+2-1	103-106	All	person[8]	new[8]	sal[8]	_	coref	2-18[13_8]	
+2-2	107-110	100	person[8]	new[8]	sal[8]	_	_	_	
+2-3	111-118	players	person[8]	new[8]	sal[8]	_	_	_	
+2-4	119-121	on	person[8]	new[8]	sal[8]	_	_	_	
+2-5	122-126	your	person[8]|object[9]|person[10]	new[8]|new[9]|acc[10]	sal[8]|sal[9]|nonsal[10]	_	coref|coref	4-5[22_9]|4-10[24_10]	
+2-6	127-133	screen	person[8]|object[9]	new[8]|new[9]	sal[8]|sal[9]	_	_	_	
 2-7	134-139	there	_	_	_	_	_	_	
 2-8	140-141	,	_	_	_	_	_	_	
-2-9	142-146	Jack	person[11]	giv[11]	nonsal[11]	_	_	_	
+2-9	142-146	Jack	person[11]	giv[11]	sal[11]	_	coref	14-8[99_11]	
 2-10	147-148	,	_	_	_	_	_	_	
-2-11	149-154	Bugha	person[12]	giv[12]	nonsal[12]	Bugha_(gamer)[12]	coref	4-18[27_12]	
+2-11	149-154	Bugha	person[12]	giv[12]	sal[12]	Bugha_(gamer)[12]	coref	4-18[27_12]	
 2-12	155-156	,	_	_	_	_	_	_	
 2-13	157-164	sitting	_	_	_	_	_	_	
 2-14	165-168	out	_	_	_	_	_	_	
@@ -91,7 +91,7 @@
 4-17	383-384	,	_	_	_	_	_	_	
 4-18	385-390	Bugha	person[26]|person[27]	giv[26]|giv[27]	nonsal[26]|nonsal[27]	Bugha_(gamer)[27]	coref	7-1[51_27]	
 4-19	391-392	,	person[26]	giv[26]	nonsal[26]	_	_	_	
-4-20	393-398	Psalm	person[26]|person[28]	giv[26]|new[28]	nonsal[26]|nonsal[28]	_	coref	46-1[234_28]	
+4-20	393-398	Psalm	person[26]|person[28]	giv[26]|new[28]	nonsal[26]|nonsal[28]	_	coref	43-13[221_28]	
 4-21	399-400	,	person[26]	giv[26]	nonsal[26]	_	_	_	
 4-22	401-405	Kreo	person[26]|person[29]	giv[26]|new[29]	nonsal[26]|nonsal[29]	_	coref	5-8[37_29]	
 4-23	406-407	,	person[26]	giv[26]	nonsal[26]	_	_	_	
@@ -224,7 +224,7 @@
 10-11	946-949	old	person[68]	giv[68]	nonsal[68]	_	_	_	
 10-12	950-956	player	person[68]	giv[68]	nonsal[68]	_	_	_	
 10-13	957-958	,	_	_	_	_	_	_	
-10-14	959-968	Sentinels	organization[70]	new[70]	nonsal[70]	Sentinels_(esports)[70]	_	_	
+10-14	959-968	Sentinels	organization[70]	new[70]	sal[70]	Sentinels_(esports)[70]	_	_	
 10-15	969-970	,	_	_	_	_	_	_	
 10-16	971-980	qualified	_	_	_	_	_	_	
 10-17	981-984	the	time[71]	new[71]	nonsal[71]	_	_	_	
@@ -270,9 +270,9 @@
 12-6	1144-1148	walk	_	_	_	_	_	_	
 12-7	1149-1153	away	_	_	_	_	_	_	
 12-8	1154-1158	with	_	_	_	_	_	_	
-12-9	1159-1164	three	abstract[80]	new[80]	nonsal[80]	_	coref	12-40[88_80]	
-12-10	1165-1172	million	abstract[80]	new[80]	nonsal[80]	_	_	_	
-12-11	1173-1180	dollars	abstract[80]	new[80]	nonsal[80]	_	_	_	
+12-9	1159-1164	three	abstract[80]	new[80]	sal[80]	_	coref	12-40[88_80]	
+12-10	1165-1172	million	abstract[80]	new[80]	sal[80]	_	_	_	
+12-11	1173-1180	dollars	abstract[80]	new[80]	sal[80]	_	_	_	
 12-12	1181-1182	,	_	_	_	_	_	_	
 12-13	1183-1185	he	person[81]	giv[81]	nonsal[81]	_	coref	12-22[82_81]	
 12-14	1186-1188	's	_	_	_	_	_	_	
@@ -338,7 +338,7 @@
 14-5	1419-1421	do	_	_	_	_	_	_	
 14-6	1422-1426	that	event[98]	giv[98]	nonsal[98]	_	_	_	
 14-7	1427-1428	,	_	_	_	_	_	_	
-14-8	1429-1430	I	person[99]	acc[99]	nonsal[99]	_	coref	17-1[112_99]	
+14-8	1429-1430	I	person[99]	giv[99]	nonsal[99]	_	coref	17-1[112_99]	
 14-9	1431-1436	guess	_	_	_	_	_	_	
 14-10	1437-1439	at	_	_	_	_	_	_	
 14-11	1440-1444	that	event[100]	new[100]	nonsal[100]	_	_	_	
@@ -388,7 +388,7 @@
 16-18	1630-1631	.	_	_	_	_	_	_	
 
 #Text=Jack , one of the first four to go down in this match is Skite , who was in the old place already , already gone from that top spot .
-17-1	1632-1636	Jack	person[112]	giv[112]	nonsal[112]	_	coref	18-2[119_112]	
+17-1	1632-1636	Jack	person[112]	giv[112]	nonsal[112]	_	coref	61-1[305_112]	
 17-2	1637-1638	,	_	_	_	_	_	_	
 17-3	1639-1642	one	person[113]	new[113]	nonsal[113]	_	coref	17-15[116_113]	
 17-4	1643-1645	of	person[113]	new[113]	nonsal[113]	_	_	_	
@@ -402,7 +402,7 @@
 17-12	1675-1679	this	event[115]	new[115]	nonsal[115]	_	coref	24-9[149_115]	
 17-13	1680-1685	match	event[115]	new[115]	nonsal[115]	_	_	_	
 17-14	1686-1688	is	_	_	_	_	_	_	
-17-15	1689-1694	Skite	person[116]	giv[116]	nonsal[116]	_	_	_	
+17-15	1689-1694	Skite	person[116]	giv[116]	sal[116]	_	_	_	
 17-16	1695-1696	,	_	_	_	_	_	_	
 17-17	1697-1700	who	_	_	_	_	_	_	
 17-18	1701-1704	was	_	_	_	_	_	_	
@@ -422,7 +422,7 @@
 
 #Text=If I do – as he throws them down , can you see all the players surrounded outside the sunny side of the map ?
 18-1	1766-1768	If	_	_	_	_	_	_	
-18-2	1769-1770	I	person[119]	giv[119]	nonsal[119]	_	coref	43-3[219_119]	
+18-2	1769-1770	I	person[119]	acc[119]	sal[119]	_	coref	43-3[219_119]	
 18-3	1771-1773	do	_	_	_	_	_	_	
 18-4	1774-1775	–	_	_	_	_	_	_	
 18-5	1776-1778	as	_	_	_	_	_	_	
@@ -432,7 +432,7 @@
 18-9	1794-1798	down	_	_	_	_	_	_	
 18-10	1799-1800	,	_	_	_	_	_	_	
 18-11	1801-1804	can	_	_	_	_	_	_	
-18-12	1805-1808	you	person[122]	giv[122]	nonsal[122]	_	coref	25-9[156_122]	
+18-12	1805-1808	you	person[122]	giv[122]	nonsal[122]	_	_	_	
 18-13	1809-1812	see	_	_	_	_	_	_	
 18-14	1813-1816	all	person[123]	new[123]	nonsal[123]	_	_	_	
 18-15	1817-1820	the	person[123]	new[123]	nonsal[123]	_	_	_	
@@ -490,13 +490,13 @@
 21-4	2038-2043	stone	abstract[133]|substance[134]	new[133]|new[134]	nonsal[133]|nonsal[134]	_	_	_	
 21-5	2044-2053	continues	_	_	_	_	_	_	
 21-6	2054-2055	,	_	_	_	_	_	_	
-21-7	2056-2062	Maufin	person[135]	new[135]	nonsal[135]	_	coref	22-1[140_135]	
+21-7	2056-2062	Maufin	person[135]	new[135]	sal[135]	_	coref	22-1[140_135]	
 21-8	2063-2066	and	_	_	_	_	_	_	
-21-9	2067-2071	Zayt	person[136]	new[136]	nonsal[136]	_	coref	22-12[142_136]	
+21-9	2067-2071	Zayt	person[136]	new[136]	sal[136]	_	coref	22-12[142_136]	
 21-10	2072-2079	outside	_	_	_	_	_	_	
 21-11	2080-2082	of	_	_	_	_	_	_	
-21-12	2083-2087	Loot	place[137]	new[137]	nonsal[137]	_	coref	21-20[139_137]	
-21-13	2088-2092	Lake	place[137]	new[137]	nonsal[137]	_	_	_	
+21-12	2083-2087	Loot	place[137]	new[137]	sal[137]	_	coref	21-20[139_137]	
+21-13	2088-2092	Lake	place[137]	new[137]	sal[137]	_	_	_	
 21-14	2093-2097	just	_	_	_	_	_	_	
 21-15	2098-2106	fighting	_	_	_	_	_	_	
 21-16	2107-2109	on	_	_	_	_	_	_	
@@ -576,14 +576,14 @@
 25-6	2443-2451	starting	abstract[155]	new[155]	nonsal[155]	_	_	_	
 25-7	2452-2461	inventory	abstract[155]	new[155]	nonsal[155]	_	_	_	
 25-8	2462-2463	,	_	_	_	_	_	_	
-25-9	2464-2470	BlastR	person[156]	giv[156]	nonsal[156]	_	coref	25-18[159_156]	
+25-9	2464-2470	BlastR	person[156]	giv[156]	sal[156]	_	coref	25-18[159_156]	
 25-10	2471-2473	in	_	_	_	_	_	_	
-25-11	2474-2475	a	event[157]	new[157]	nonsal[157]	_	_	_	
-25-12	2476-2481	fight	event[157]	new[157]	nonsal[157]	_	_	_	
+25-11	2474-2475	a	event[157]	new[157]	sal[157]	_	_	_	
+25-12	2476-2481	fight	event[157]	new[157]	sal[157]	_	_	_	
 25-13	2482-2483	,	_	_	_	_	_	_	
 25-14	2484-2491	outside	_	_	_	_	_	_	
-25-15	2492-2500	Pressure	place[158]	new[158]	nonsal[158]	_	_	_	
-25-16	2501-2506	Plant	place[158]	new[158]	nonsal[158]	_	_	_	
+25-15	2492-2500	Pressure	place[158]	new[158]	sal[158]	_	_	_	
+25-16	2501-2506	Plant	place[158]	new[158]	sal[158]	_	_	_	
 25-17	2507-2510	but	_	_	_	_	_	_	
 25-18	2511-2514	you	person[159]	giv[159]	nonsal[159]	_	coref	25-26[161_159]	
 25-19	2515-2518	're	_	_	_	_	_	_	
@@ -757,9 +757,9 @@
 #Text=Here , JarkoS , letw1k3 , two players that have faced off against each other a number of times , gon na go for the wall .
 36-1	3172-3176	Here	_	_	_	_	_	_	
 36-2	3177-3178	,	_	_	_	_	_	_	
-36-3	3179-3185	JarkoS	person[186]|person[187]	new[186]|new[187]	nonsal[186]|nonsal[187]	_	coref|coref	36-7[189_186]|39-7[201_187]	
+36-3	3179-3185	JarkoS	person[186]|person[187]	new[186]|new[187]	nonsal[186]|sal[187]	_	coref|coref	36-7[189_186]|39-7[201_187]	
 36-4	3186-3187	,	person[186]	new[186]	nonsal[186]	_	_	_	
-36-5	3188-3195	letw1k3	person[186]|person[188]	new[186]|new[188]	nonsal[186]|nonsal[188]	_	coref	38-1[195_188]	
+36-5	3188-3195	letw1k3	person[186]|person[188]	new[186]|new[188]	nonsal[186]|sal[188]	_	coref	38-1[195_188]	
 36-6	3196-3197	,	_	_	_	_	_	_	
 36-7	3198-3201	two	person[189]	giv[189]	nonsal[189]	_	coref	36-14[190_189]	
 36-8	3202-3209	players	person[189]	giv[189]	nonsal[189]	_	_	_	
@@ -943,7 +943,7 @@
 45-24	3977-3978	.	_	_	_	_	_	_	
 
 #Text=Pika one v. one and angled down through a handful of edits here at Megamall is gon na push around the side and try and make his way inside mall itself .
-46-1	3979-3983	Pika	person[234]	new[234]	nonsal[234]	_	coref	46-2[235_234]	
+46-1	3979-3983	Pika	person[234]	new[234]	sal[234]	_	coref	46-2[235_234]	
 46-2	3984-3987	one	person[235]	giv[235]	nonsal[235]	_	coref	46-27[241_235]	
 46-3	3988-3990	v.	_	_	_	_	_	_	
 46-4	3991-3994	one	person[236]	new[236]	nonsal[236]	_	coref	51-1[264_236]	
@@ -955,9 +955,9 @@
 46-10	4021-4028	handful	abstract[237]	new[237]	nonsal[237]	_	_	_	
 46-11	4029-4031	of	abstract[237]	new[237]	nonsal[237]	_	_	_	
 46-12	4032-4037	edits	abstract[237]	new[237]	nonsal[237]	_	_	_	
-46-13	4038-4042	here	place[238]	new[238]	nonsal[238]	_	coref	46-15[239_238]	
+46-13	4038-4042	here	place[238]	acc[238]	nonsal[238]	_	coref	46-15[239_238]	
 46-14	4043-4045	at	_	_	_	_	_	_	
-46-15	4046-4054	Megamall	place[239]	new[239]	nonsal[239]	_	bridge|coref	46-21[240_239]|46-30[242_239]	
+46-15	4046-4054	Megamall	place[239]	new[239]	sal[239]	_	bridge|coref	46-21[240_239]|46-30[242_239]	
 46-16	4055-4057	is	_	_	_	_	_	_	
 46-17	4058-4061	gon	_	_	_	_	_	_	
 46-18	4062-4064	na	_	_	_	_	_	_	
@@ -1039,7 +1039,7 @@
 49-9	4393-4396	are	_	_	_	_	_	_	
 49-10	4397-4400	you	person[259]	acc[259]	nonsal[259]	_	_	_	
 49-11	4401-4408	kidding	_	_	_	_	_	_	
-49-12	4409-4411	me	person[260]	giv[260]	nonsal[260]	_	coref	61-1[305_260]	
+49-12	4409-4411	me	person[260]	giv[260]	nonsal[260]	_	_	_	
 49-13	4412-4413	?	_	_	_	_	_	_	
 
 #Text=Used the shockwave to get down the wall .
@@ -1054,9 +1054,9 @@
 50-9	4454-4455	.	event[261]	new[261]	nonsal[261]	_	_	_	
 
 #Text=The player inside was smacking out of it .
-51-1	4456-4459	The	person[264]	giv[264]	nonsal[264]	_	coref	54-1[272_264]	
-51-2	4460-4466	player	person[264]	giv[264]	nonsal[264]	_	_	_	
-51-3	4467-4473	inside	person[264]	giv[264]	nonsal[264]	_	_	_	
+51-1	4456-4459	The	person[264]	giv[264]	sal[264]	_	coref	54-1[272_264]	
+51-2	4460-4466	player	person[264]	giv[264]	sal[264]	_	_	_	
+51-3	4467-4473	inside	person[264]	giv[264]	sal[264]	_	_	_	
 51-4	4474-4477	was	_	_	_	_	_	_	
 51-5	4478-4486	smacking	_	_	_	_	_	_	
 51-6	4487-4490	out	_	_	_	_	_	_	
@@ -1247,7 +1247,7 @@
 62-3	5206-5212	trying	_	_	_	_	_	_	
 62-4	5213-5215	to	_	_	_	_	_	_	
 62-5	5216-5221	track	_	_	_	_	_	_	
-62-6	5222-5230	Kinstaar	person[310]	new[310]	nonsal[310]	_	bridge	63-1[314_310]	
+62-6	5222-5230	Kinstaar	person[310]	new[310]	sal[310]	_	bridge	63-1[314_310]	
 62-7	5231-5233	on	_	_	_	_	_	_	
 62-8	5234-5237	the	place[311]	giv[311]	nonsal[311]	_	_	_	
 62-9	5238-5245	outside	place[311]	giv[311]	nonsal[311]	_	_	_	

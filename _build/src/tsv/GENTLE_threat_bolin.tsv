@@ -4,16 +4,16 @@
 
 
 #Text=Jerry 6/25/90
-1-1	0-5	Jerry	person[1]	new[1]	nonsal[1]	_	coref	3-13[12_1]	
-1-2	6-13	6/25/90	time[2]	new[2]	nonsal[2]	_	_	_	
+1-1	0-5	Jerry	person[1]	new[1]	sal[1]	_	coref	3-13[12_1]	
+1-2	6-13	6/25/90	time[2]	new[2]	sal[2]	_	_	_	
 
 #Text=Well I finally heard from Paula and what I heard from her I 'm not to pleased with .
 2-1	14-18	Well	_	_	_	_	_	_	
-2-2	19-20	I	person[3]	acc[3]	nonsal[3]	_	coref	2-9[5_3]	
+2-2	19-20	I	person[3]	acc[3]	sal[3]	_	coref	2-9[5_3]	
 2-3	21-28	finally	_	_	_	_	_	_	
 2-4	29-34	heard	_	_	_	_	_	_	
 2-5	35-39	from	_	_	_	_	_	_	
-2-6	40-45	Paula	person[4]	new[4]	nonsal[4]	_	coref	2-12[6_4]	
+2-6	40-45	Paula	person[4]	new[4]	sal[4]	_	coref	2-12[6_4]	
 2-7	46-49	and	_	_	_	_	_	_	
 2-8	50-54	what	_	_	_	_	_	_	
 2-9	55-56	I	person[5]	giv[5]	nonsal[5]	_	coref	2-13[7_5]	
@@ -123,8 +123,8 @@
 7-9	497-500	the	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	_	_	_	
 7-10	501-506	money	abstract[32]|abstract[33]	new[32]|new[33]	nonsal[32]|nonsal[33]	_	_	_	
 7-11	507-511	from	abstract[32]	new[32]	nonsal[32]	_	_	_	
-7-12	512-515	the	abstract[32]|object[34]	new[32]|new[34]	nonsal[32]|nonsal[34]	_	coref	7-24[38_34]	
-7-13	516-519	van	abstract[32]|object[34]	new[32]|new[34]	nonsal[32]|nonsal[34]	_	_	_	
+7-12	512-515	the	abstract[32]|object[34]	new[32]|new[34]	nonsal[32]|sal[34]	_	coref	7-24[38_34]	
+7-13	516-519	van	abstract[32]|object[34]	new[32]|new[34]	nonsal[32]|sal[34]	_	_	_	
 7-14	520-521	,	_	_	_	_	_	_	
 7-15	522-525	and	_	_	_	_	_	_	
 7-16	526-527	I	person[35]	giv[35]	nonsal[35]	_	coref	8-1[41_35]	
@@ -157,8 +157,8 @@
 8-10	633-636	you	person[42]	giv[42]	nonsal[42]	_	coref	8-23[47_42]	
 8-11	637-640	got	_	_	_	_	_	_	
 8-12	641-644	for	_	_	_	_	_	_	
-8-13	645-648	the	object[43]	new[43]	nonsal[43]	Buick[43]	coref	8-17[44_43]	
-8-14	649-654	Buick	object[43]	new[43]	nonsal[43]	Buick[43]	_	_	
+8-13	645-648	the	object[43]	new[43]	sal[43]	Buick[43]	coref	8-17[44_43]	
+8-14	649-654	Buick	object[43]	new[43]	sal[43]	Buick[43]	_	_	
 8-15	655-658	and	_	_	_	_	_	_	
 8-16	659-661	if	_	_	_	_	_	_	
 8-17	662-664	it	object[44]	giv[44]	nonsal[44]	_	coref	9-5[51_44]	
@@ -302,43 +302,43 @@
 14-10	1250-1251	.	_	_	_	_	_	_	
 
 #Text=Everything that 's mine or hers tools , clothes , books , gun , TV , VCR , I do n't fucking care if it 's a bobby pin , you better give it to Paula .
-15-1	1252-1262	Everything	event[82]|object[83]	new[82]|new[83]	nonsal[82]|nonsal[83]	_	coref|coref	16-1[99_82]|15-7[86_83]	
-15-2	1263-1267	that	event[82]|object[83]	new[82]|new[83]	nonsal[82]|nonsal[83]	_	_	_	
-15-3	1268-1270	's	event[82]|object[83]	new[82]|new[83]	nonsal[82]|nonsal[83]	_	_	_	
-15-4	1271-1275	mine	event[82]|object[83]|person[84]	new[82]|new[83]|giv[84]	nonsal[82]|nonsal[83]|nonsal[84]	_	coref	15-19[93_84]	
-15-5	1276-1278	or	event[82]|object[83]	new[82]|new[83]	nonsal[82]|nonsal[83]	_	_	_	
-15-6	1279-1283	hers	event[82]|object[83]|person[85]	new[82]|new[83]|giv[85]	nonsal[82]|nonsal[83]|nonsal[85]	_	coref	15-36[98_85]	
-15-7	1284-1289	tools	event[82]|object[86]|object[87]	new[82]|giv[86]|new[87]	nonsal[82]|nonsal[86]|nonsal[87]	_	_	_	
-15-8	1290-1291	,	event[82]|object[86]	new[82]|giv[86]	nonsal[82]|nonsal[86]	_	_	_	
-15-9	1292-1299	clothes	event[82]|object[86]|object[88]	new[82]|giv[86]|new[88]	nonsal[82]|nonsal[86]|nonsal[88]	_	_	_	
-15-10	1300-1301	,	event[82]|object[86]	new[82]|giv[86]	nonsal[82]|nonsal[86]	_	_	_	
-15-11	1302-1307	books	event[82]|object[86]|object[89]	new[82]|giv[86]|new[89]	nonsal[82]|nonsal[86]|nonsal[89]	_	_	_	
-15-12	1308-1309	,	event[82]|object[86]	new[82]|giv[86]	nonsal[82]|nonsal[86]	_	_	_	
-15-13	1310-1313	gun	event[82]|object[86]|object[90]	new[82]|giv[86]|new[90]	nonsal[82]|nonsal[86]|nonsal[90]	_	_	_	
-15-14	1314-1315	,	event[82]|object[86]	new[82]|giv[86]	nonsal[82]|nonsal[86]	_	_	_	
-15-15	1316-1318	TV	event[82]|object[86]|object[91]	new[82]|giv[86]|new[91]	nonsal[82]|nonsal[86]|nonsal[91]	_	_	_	
-15-16	1319-1320	,	event[82]|object[86]	new[82]|giv[86]	nonsal[82]|nonsal[86]	_	_	_	
-15-17	1321-1324	VCR	event[82]|object[86]|object[92]	new[82]|giv[86]|new[92]	nonsal[82]|nonsal[86]|nonsal[92]	_	_	_	
-15-18	1325-1326	,	event[82]	new[82]	nonsal[82]	_	_	_	
-15-19	1327-1328	I	event[82]|person[93]	new[82]|giv[93]	nonsal[82]|nonsal[93]	_	coref	16-1[100_93]	
-15-20	1329-1331	do	event[82]	new[82]	nonsal[82]	_	_	_	
-15-21	1332-1335	n't	event[82]	new[82]	nonsal[82]	_	_	_	
-15-22	1336-1343	fucking	event[82]	new[82]	nonsal[82]	_	_	_	
-15-23	1344-1348	care	event[82]	new[82]	nonsal[82]	_	_	_	
-15-24	1349-1351	if	event[82]	new[82]	nonsal[82]	_	_	_	
-15-25	1352-1354	it	event[82]|object[94]	new[82]|giv[94]	nonsal[82]|nonsal[94]	_	coref	15-27[95_94]	
-15-26	1355-1357	's	event[82]	new[82]	nonsal[82]	_	_	_	
-15-27	1358-1359	a	event[82]|object[95]	new[82]|giv[95]	nonsal[82]|nonsal[95]	_	_	_	
-15-28	1360-1365	bobby	event[82]|object[95]	new[82]|giv[95]	nonsal[82]|nonsal[95]	_	_	_	
-15-29	1366-1369	pin	event[82]|object[95]	new[82]|giv[95]	nonsal[82]|nonsal[95]	_	_	_	
-15-30	1370-1371	,	event[82]	new[82]	nonsal[82]	_	_	_	
-15-31	1372-1375	you	event[82]|person[96]	new[82]|giv[96]	nonsal[82]|nonsal[96]	_	coref	17-1[106_96]	
-15-32	1376-1382	better	event[82]	new[82]	nonsal[82]	_	_	_	
-15-33	1383-1387	give	event[82]	new[82]	nonsal[82]	_	_	_	
-15-34	1388-1390	it	event[82]|object[97]	new[82]|giv[97]	nonsal[82]|nonsal[97]	_	_	_	
-15-35	1391-1393	to	event[82]	new[82]	nonsal[82]	_	_	_	
-15-36	1394-1399	Paula	event[82]|person[98]	new[82]|giv[98]	nonsal[82]|nonsal[98]	_	coref	16-8[103_98]	
-15-37	1400-1401	.	event[82]	new[82]	nonsal[82]	_	_	_	
+15-1	1252-1262	Everything	event[82]|object[83]	new[82]|new[83]	sal[82]|sal[83]	_	coref|coref	16-1[99_82]|15-7[86_83]	
+15-2	1263-1267	that	event[82]|object[83]	new[82]|new[83]	sal[82]|sal[83]	_	_	_	
+15-3	1268-1270	's	event[82]|object[83]	new[82]|new[83]	sal[82]|sal[83]	_	_	_	
+15-4	1271-1275	mine	event[82]|object[83]|person[84]	new[82]|new[83]|giv[84]	sal[82]|sal[83]|nonsal[84]	_	coref	15-19[93_84]	
+15-5	1276-1278	or	event[82]|object[83]	new[82]|new[83]	sal[82]|sal[83]	_	_	_	
+15-6	1279-1283	hers	event[82]|object[83]|person[85]	new[82]|new[83]|giv[85]	sal[82]|sal[83]|nonsal[85]	_	coref	15-36[98_85]	
+15-7	1284-1289	tools	event[82]|object[86]|object[87]	new[82]|giv[86]|new[87]	sal[82]|nonsal[86]|nonsal[87]	_	_	_	
+15-8	1290-1291	,	event[82]|object[86]	new[82]|giv[86]	sal[82]|nonsal[86]	_	_	_	
+15-9	1292-1299	clothes	event[82]|object[86]|object[88]	new[82]|giv[86]|new[88]	sal[82]|nonsal[86]|sal[88]	_	_	_	
+15-10	1300-1301	,	event[82]|object[86]	new[82]|giv[86]	sal[82]|nonsal[86]	_	_	_	
+15-11	1302-1307	books	event[82]|object[86]|object[89]	new[82]|giv[86]|new[89]	sal[82]|nonsal[86]|sal[89]	_	_	_	
+15-12	1308-1309	,	event[82]|object[86]	new[82]|giv[86]	sal[82]|nonsal[86]	_	_	_	
+15-13	1310-1313	gun	event[82]|object[86]|object[90]	new[82]|giv[86]|new[90]	sal[82]|nonsal[86]|sal[90]	_	_	_	
+15-14	1314-1315	,	event[82]|object[86]	new[82]|giv[86]	sal[82]|nonsal[86]	_	_	_	
+15-15	1316-1318	TV	event[82]|object[86]|object[91]	new[82]|giv[86]|new[91]	sal[82]|nonsal[86]|sal[91]	_	_	_	
+15-16	1319-1320	,	event[82]|object[86]	new[82]|giv[86]	sal[82]|nonsal[86]	_	_	_	
+15-17	1321-1324	VCR	event[82]|object[86]|object[92]	new[82]|giv[86]|new[92]	sal[82]|nonsal[86]|sal[92]	_	_	_	
+15-18	1325-1326	,	event[82]	new[82]	sal[82]	_	_	_	
+15-19	1327-1328	I	event[82]|person[93]	new[82]|giv[93]	sal[82]|nonsal[93]	_	coref	16-1[100_93]	
+15-20	1329-1331	do	event[82]	new[82]	sal[82]	_	_	_	
+15-21	1332-1335	n't	event[82]	new[82]	sal[82]	_	_	_	
+15-22	1336-1343	fucking	event[82]	new[82]	sal[82]	_	_	_	
+15-23	1344-1348	care	event[82]	new[82]	sal[82]	_	_	_	
+15-24	1349-1351	if	event[82]	new[82]	sal[82]	_	_	_	
+15-25	1352-1354	it	event[82]|object[94]	new[82]|giv[94]	sal[82]|nonsal[94]	_	coref	15-27[95_94]	
+15-26	1355-1357	's	event[82]	new[82]	sal[82]	_	_	_	
+15-27	1358-1359	a	event[82]|object[95]	new[82]|giv[95]	sal[82]|nonsal[95]	_	_	_	
+15-28	1360-1365	bobby	event[82]|object[95]	new[82]|giv[95]	sal[82]|nonsal[95]	_	_	_	
+15-29	1366-1369	pin	event[82]|object[95]	new[82]|giv[95]	sal[82]|nonsal[95]	_	_	_	
+15-30	1370-1371	,	event[82]	new[82]	sal[82]	_	_	_	
+15-31	1372-1375	you	event[82]|person[96]	new[82]|giv[96]	sal[82]|nonsal[96]	_	coref	17-1[106_96]	
+15-32	1376-1382	better	event[82]	new[82]	sal[82]	_	_	_	
+15-33	1383-1387	give	event[82]	new[82]	sal[82]	_	_	_	
+15-34	1388-1390	it	event[82]|object[97]	new[82]|giv[97]	sal[82]|nonsal[97]	_	_	_	
+15-35	1391-1393	to	event[82]	new[82]	sal[82]	_	_	_	
+15-36	1394-1399	Paula	event[82]|person[98]	new[82]|giv[98]	sal[82]|nonsal[98]	_	coref	16-8[103_98]	
+15-37	1400-1401	.	event[82]	new[82]	sal[82]	_	_	_	
 
 #Text=I want all my shit given to her and I mean every fucking thing .
 16-1	1402-1403	I	event[99]|person[100]	giv[99]|giv[100]	nonsal[99]|nonsal[100]	_	coref|coref	17-7[108_99]|16-4[102_100]	
@@ -360,8 +360,8 @@
 #Text=You have a week to do it or I make another phone call .
 17-1	1467-1470	You	person[106]	giv[106]	nonsal[106]	_	coref	18-3[112_106]	
 17-2	1471-1475	have	_	_	_	_	_	_	
-17-3	1476-1477	a	time[107]	new[107]	nonsal[107]	_	coref	20-1[118_107]	
-17-4	1478-1482	week	time[107]	new[107]	nonsal[107]	_	_	_	
+17-3	1476-1477	a	time[107]	new[107]	sal[107]	_	coref	20-1[118_107]	
+17-4	1478-1482	week	time[107]	new[107]	sal[107]	_	_	_	
 17-5	1483-1485	to	_	_	_	_	_	_	
 17-6	1486-1488	do	_	_	_	_	_	_	
 17-7	1489-1491	it	event[108]	giv[108]	nonsal[108]	_	_	_	

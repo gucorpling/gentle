@@ -4,16 +4,16 @@
 
 
 #Text=Proof
-1-1	0-5	Proof	abstract[1]	new[1]	nonsal[1]	_	bridge	2-13[6_1]	
+1-1	0-5	Proof	abstract[1]	new[1]	sal[1]	_	bridge	2-13[6_1]	
 
 #Text=If the sets S and T considered are empty or singletons , the theorem holds vacuously or trivially .
 2-1	6-8	If	_	_	_	_	_	_	
-2-2	9-12	the	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-3	13-17	sets	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-4	18-19	S	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	coref	3-3[7_3]	
-2-5	20-23	and	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-6	24-25	T	abstract[2]|abstract[4]	new[2]|new[4]	nonsal[2]|nonsal[4]	_	coref	3-5[8_4]	
-2-7	26-36	considered	abstract[2]	new[2]	nonsal[2]	_	_	_	
+2-2	9-12	the	abstract[2]	new[2]	sal[2]	_	_	_	
+2-3	13-17	sets	abstract[2]	new[2]	sal[2]	_	_	_	
+2-4	18-19	S	abstract[2]|abstract[3]	new[2]|new[3]	sal[2]|sal[3]	_	coref	3-3[7_3]	
+2-5	20-23	and	abstract[2]	new[2]	sal[2]	_	_	_	
+2-6	24-25	T	abstract[2]|abstract[4]	new[2]|new[4]	sal[2]|sal[4]	_	coref	3-5[8_4]	
+2-7	26-36	considered	abstract[2]	new[2]	sal[2]	_	_	_	
 2-8	37-40	are	_	_	_	_	_	_	
 2-9	41-46	empty	_	_	_	_	_	_	
 2-10	47-49	or	_	_	_	_	_	_	
@@ -61,9 +61,9 @@
 
 #Text=Define the following relation ⪯ on U : ∀ x , y ∈ U : x ⪯ y if and only if : x , y ∈ S : x ⪯ S y or : x , y ∈ T : x ⪯ T y or : x ∈ S , y ∈ T
 5-1	197-203	Define	_	_	_	_	_	_	
-5-2	204-207	the	abstract[15]	new[15]	nonsal[15]	_	coref	5-5[16_15]	
-5-3	208-217	following	abstract[15]	new[15]	nonsal[15]	_	_	_	
-5-4	218-226	relation	abstract[15]	new[15]	nonsal[15]	_	_	_	
+5-2	204-207	the	abstract[15]	new[15]	sal[15]	_	coref	5-5[16_15]	
+5-3	208-217	following	abstract[15]	new[15]	sal[15]	_	_	_	
+5-4	218-226	relation	abstract[15]	new[15]	sal[15]	_	_	_	
 5-5	227-228	⪯	abstract[16]	new[16]	nonsal[16]	_	coref	6-4[46_16]	
 5-6	229-231	on	_	_	_	_	_	_	
 5-7	232-233	U	abstract[17]	new[17]	nonsal[17]	_	coref	5-14[20_17]	
@@ -154,7 +154,7 @@
 8-12	476-477	:	_	_	_	_	_	_	
 
 #Text=Reflexivity
-9-1	478-489	Reflexivity	abstract[54]	new[54]	nonsal[54]	_	coref	11-1[60_54]	
+9-1	478-489	Reflexivity	abstract[54]	new[54]	sal[54]	_	coref	11-1[60_54]	
 
 #Text=If x = y , they 're necessarily both in S or T simultaneously .
 10-1	490-492	If	_	_	_	_	_	_	
@@ -195,7 +195,7 @@
 11-19	643-644	.	_	_	_	_	_	_	
 
 #Text=Transitivity
-12-1	645-657	Transitivity	abstract[68]	new[68]	nonsal[68]	_	_	_	
+12-1	645-657	Transitivity	abstract[68]	new[68]	sal[68]	_	_	_	
 
 #Text=Let x , y , z ∈ U .
 13-1	658-661	Let	_	_	_	_	_	_	
@@ -318,7 +318,7 @@
 20-5	969-970	.	_	_	_	_	_	_	
 
 #Text=Antisymmetry
-21-1	971-983	Antisymmetry	abstract[130]	new[130]	nonsal[130]	_	_	_	
+21-1	971-983	Antisymmetry	abstract[130]	new[130]	sal[130]	_	_	_	
 
 #Text=Let x ⪯ y and y ⪯ x .
 22-1	984-987	Let	_	_	_	_	_	_	
@@ -689,8 +689,8 @@
 42-5	2215-2222	Between	abstract[262]|abstract[263]	new[262]|new[263]	nonsal[262]|nonsal[263]	_	_	_	
 42-6	2223-2229	Wosets	abstract[262]|abstract[263]|abstract[264]	new[262]|new[263]|new[264]	nonsal[262]|nonsal[263]|nonsal[264]	_	_	_	
 42-7	2230-2237	Implies	abstract[262]	new[262]	nonsal[262]	_	_	_	
-42-8	2238-2243	Order	abstract[262]|abstract[265]|abstract[266]	new[262]|new[265]|new[266]	nonsal[262]|nonsal[265]|nonsal[266]	_	coref	42-13[268_266]	
-42-9	2244-2255	Isomorphism	abstract[262]|abstract[265]	new[262]|new[265]	nonsal[262]|nonsal[265]	_	_	_	
+42-8	2238-2243	Order	abstract[262]|abstract[265]|abstract[266]	new[262]|new[265]|new[266]	nonsal[262]|sal[265]|sal[266]	_	coref	42-13[268_266]	
+42-9	2244-2255	Isomorphism	abstract[262]|abstract[265]	new[262]|new[265]	nonsal[262]|sal[265]	_	_	_	
 42-10	2256-2257	,	_	_	_	_	_	_	
 42-11	2258-2259	T	abstract[267]	giv[267]	nonsal[267]	_	coref	47-8[294_267]	
 42-12	2260-2262	is	_	_	_	_	_	_	
@@ -699,11 +699,11 @@
 42-15	2280-2282	to	_	_	_	_	_	_	
 42-16	2283-2284	U	abstract[269]	giv[269]	nonsal[269]	_	coref	43-8[274_269]	
 42-17	2285-2287	or	_	_	_	_	_	_	
-42-18	2288-2290	an	abstract[270]	new[270]	nonsal[270]	_	coref	43-4[273_270]	
-42-19	2291-2298	initial	abstract[270]	new[270]	nonsal[270]	_	_	_	
-42-20	2299-2306	segment	abstract[270]	new[270]	nonsal[270]	_	_	_	
-42-21	2307-2309	of	abstract[270]	new[270]	nonsal[270]	_	_	_	
-42-22	2310-2311	U	abstract[270]|abstract[271]	new[270]|giv[271]	nonsal[270]|nonsal[271]	_	_	_	
+42-18	2288-2290	an	abstract[270]	new[270]	sal[270]	_	coref	43-4[273_270]	
+42-19	2291-2298	initial	abstract[270]	new[270]	sal[270]	_	_	_	
+42-20	2299-2306	segment	abstract[270]	new[270]	sal[270]	_	_	_	
+42-21	2307-2309	of	abstract[270]	new[270]	sal[270]	_	_	_	
+42-22	2310-2311	U	abstract[270]|abstract[271]	new[270]|giv[271]	sal[270]|nonsal[271]	_	_	_	
 42-23	2312-2313	.	_	_	_	_	_	_	
 
 #Text=Let Ix denote the initial segment in U determined by x , according to k .

@@ -8,25 +8,25 @@
 1-2	12-13	:	_	_	_	_	_	_	
 
 #Text=Chronic lymphocytic leukemia ( CLL ) , autoimmune hemolytic anemia , and oral ulcer .
-2-1	14-21	Chronic	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	coref	2-5[4_3]	
-2-2	22-33	lymphocytic	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	_	_	
-2-3	34-42	leukemia	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|nonsal[3]	_	_	_	
+2-1	14-21	Chronic	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|sal[3]	_	coref	2-5[4_3]	
+2-2	22-33	lymphocytic	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|sal[3]	_	_	_	
+2-3	34-42	leukemia	abstract[2]|abstract[3]	new[2]|new[3]	nonsal[2]|sal[3]	_	_	_	
 2-4	43-44	(	abstract[2]	new[2]	nonsal[2]	_	_	_	
 2-5	45-48	CLL	abstract[2]|abstract[4]	new[2]|giv[4]	nonsal[2]|nonsal[4]	Chronic_lymphocytic_leukemia[4]	coref	3-6[8_4]	
 2-6	49-50	)	abstract[2]	new[2]	nonsal[2]	_	_	_	
 2-7	51-52	,	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-8	53-63	autoimmune	abstract[2]|abstract[5]	new[2]|new[5]	nonsal[2]|nonsal[5]	_	coref	3-14[9_5]	
-2-9	64-73	hemolytic	abstract[2]|abstract[5]	new[2]|new[5]	nonsal[2]|nonsal[5]	_	_	_	
-2-10	74-80	anemia	abstract[2]|abstract[5]	new[2]|new[5]	nonsal[2]|nonsal[5]	_	_	_	
+2-8	53-63	autoimmune	abstract[2]|abstract[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	coref	3-14[9_5]	
+2-9	64-73	hemolytic	abstract[2]|abstract[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	_	_	
+2-10	74-80	anemia	abstract[2]|abstract[5]	new[2]|new[5]	nonsal[2]|sal[5]	_	_	_	
 2-11	81-82	,	abstract[2]	new[2]	nonsal[2]	_	_	_	
 2-12	83-86	and	abstract[2]	new[2]	nonsal[2]	_	_	_	
-2-13	87-91	oral	abstract[2]|abstract[6]	new[2]|new[6]	nonsal[2]|nonsal[6]	_	coref	7-2[18_6]	
-2-14	92-97	ulcer	abstract[2]|abstract[6]	new[2]|new[6]	nonsal[2]|nonsal[6]	_	_	_	
+2-13	87-91	oral	abstract[2]|abstract[6]	new[2]|new[6]	nonsal[2]|sal[6]	_	coref	7-2[18_6]	
+2-14	92-97	ulcer	abstract[2]|abstract[6]	new[2]|new[6]	nonsal[2]|sal[6]	_	_	_	
 2-15	98-99	.	_	_	_	_	_	_	
 
 #Text=The patient was diagnosed with chronic lymphocytic leukemia and was noted to have autoimmune hemolytic anemia at the time of his CLL diagnosis .
-3-1	100-103	The	person[7]	new[7]	nonsal[7]	_	coref	3-21[12_7]	
-3-2	104-111	patient	person[7]	new[7]	nonsal[7]	_	_	_	
+3-1	100-103	The	person[7]	new[7]	sal[7]	_	coref	3-21[12_7]	
+3-2	104-111	patient	person[7]	new[7]	sal[7]	_	_	_	
 3-3	112-115	was	_	_	_	_	_	_	
 3-4	116-125	diagnosed	_	_	_	_	_	_	
 3-5	126-130	with	_	_	_	_	_	_	
@@ -104,8 +104,8 @@
 9-16	457-468	lymphocytic	person[22]|abstract[23]	giv[22]|giv[23]	nonsal[22]|nonsal[23]	_	_	_	
 9-17	469-477	leukemia	person[22]|abstract[23]	giv[22]|giv[23]	nonsal[22]|nonsal[23]	_	_	_	
 9-18	478-480	in	person[22]	giv[22]	nonsal[22]	_	_	_	
-9-19	481-484	May	person[22]|time[24]	giv[22]|new[24]	nonsal[22]|nonsal[24]	_	_	_	
-9-20	485-489	2008	person[22]|time[24]|time[25]	giv[22]|new[24]|new[25]	nonsal[22]|nonsal[24]|nonsal[25]	_	_	_	
+9-19	481-484	May	person[22]|time[24]	giv[22]|new[24]	nonsal[22]|sal[24]	_	_	_	
+9-20	485-489	2008	person[22]|time[24]|time[25]	giv[22]|new[24]|new[25]	nonsal[22]|sal[24]|sal[25]	_	_	_	
 9-21	490-491	.	_	_	_	_	_	_	
 
 #Text=He was noted to have autoimmune hemolytic anemia at the time of his CLL diagnosis .
@@ -141,12 +141,12 @@
 11-12	637-639	is	_	_	_	_	_	_	
 11-13	640-649	currently	_	_	_	_	_	_	
 11-14	650-652	on	_	_	_	_	_	_	
-11-15	653-663	prednisone	substance[35]	new[35]	nonsal[35]	_	coref	15-31[59_35]	
-11-16	664-665	5	substance[36]	new[36]	nonsal[36]	_	coref	15-32[60_36]	
-11-17	666-668	mg	substance[36]	new[36]	nonsal[36]	_	_	_	
-11-18	669-674	every	time[37]	new[37]	nonsal[37]	_	coref	50-12[159_37]	
-11-19	675-680	other	time[37]	new[37]	nonsal[37]	_	_	_	
-11-20	681-684	day	time[37]	new[37]	nonsal[37]	_	_	_	
+11-15	653-663	prednisone	substance[35]	new[35]	sal[35]	_	coref	15-31[59_35]	
+11-16	664-665	5	substance[36]	new[36]	sal[36]	_	coref	15-32[60_36]	
+11-17	666-668	mg	substance[36]	new[36]	sal[36]	_	_	_	
+11-18	669-674	every	time[37]	new[37]	sal[37]	_	coref	50-12[159_37]	
+11-19	675-680	other	time[37]	new[37]	sal[37]	_	_	_	
+11-20	681-684	day	time[37]	new[37]	sal[37]	_	_	_	
 11-21	685-686	.	_	_	_	_	_	_	
 
 #Text=He comes in to clinic today for follow - up and complete blood count .
@@ -154,7 +154,7 @@
 12-2	690-695	comes	_	_	_	_	_	_	
 12-3	696-698	in	_	_	_	_	_	_	
 12-4	699-701	to	_	_	_	_	_	_	
-12-5	702-708	clinic	place[39]	new[39]	nonsal[39]	_	coref	52-7[168_39]	
+12-5	702-708	clinic	place[39]	new[39]	sal[39]	_	coref	52-7[168_39]	
 12-6	709-714	today	time[40]	new[40]	nonsal[40]	_	_	_	
 12-7	715-718	for	_	_	_	_	_	_	
 12-8	719-725	follow	event[41]	new[41]	nonsal[41]	_	_	_	
@@ -225,7 +225,7 @@
 #Text=ALLERGIES : Vicodin .
 16-1	1041-1050	ALLERGIES	abstract[61]	new[61]	nonsal[61]	_	_	_	
 16-2	1051-1052	:	_	_	_	_	_	_	
-16-3	1053-1060	Vicodin	substance[62]	new[62]	nonsal[62]	Hydrocodone/paracetamol[62]	_	_	
+16-3	1053-1060	Vicodin	substance[62]	new[62]	sal[62]	Hydrocodone/paracetamol[62]	_	_	
 16-4	1061-1062	.	_	_	_	_	_	_	
 
 #Text=REVIEW OF SYSTEMS :
@@ -240,11 +240,11 @@
 18-3	1095-1102	reports	_	_	_	_	_	_	
 18-4	1103-1108	ulcer	abstract[65]	giv[65]	nonsal[65]	_	coref	35-6[114_65]	
 18-5	1109-1111	on	abstract[65]	giv[65]	nonsal[65]	_	_	_	
-18-6	1112-1115	his	abstract[65]|object[66]|person[67]	giv[65]|new[66]|giv[67]	nonsal[65]|nonsal[66]|nonsal[67]	_	coref|coref	35-8[115_66]|18-9[69_67]	
-18-7	1116-1122	tongue	abstract[65]|object[66]	giv[65]|new[66]	nonsal[65]|nonsal[66]	_	_	_	
+18-6	1112-1115	his	abstract[65]|object[66]|person[67]	giv[65]|new[66]|giv[67]	nonsal[65]|sal[66]|nonsal[67]	_	coref|coref	35-8[115_66]|18-9[69_67]	
+18-7	1116-1122	tongue	abstract[65]|object[66]	giv[65]|new[66]	nonsal[65]|sal[66]	_	_	_	
 18-8	1123-1126	and	abstract[65]	giv[65]	nonsal[65]	_	_	_	
-18-9	1127-1130	his	abstract[65]|object[68]|person[69]	giv[65]|new[68]|giv[69]	nonsal[65]|nonsal[68]|nonsal[69]	_	coref	19-1[70_69]	
-18-10	1131-1134	lip	abstract[65]|object[68]	giv[65]|new[68]	nonsal[65]|nonsal[68]	_	_	_	
+18-9	1127-1130	his	abstract[65]|object[68]|person[69]	giv[65]|new[68]|giv[69]	nonsal[65]|sal[68]|nonsal[69]	_	coref	19-1[70_69]	
+18-10	1131-1134	lip	abstract[65]|object[68]	giv[65]|new[68]	nonsal[65]|sal[68]	_	_	_	
 18-11	1135-1136	.	_	_	_	_	_	_	
 
 #Text=He has been off of Valtrex for five days .
@@ -253,7 +253,7 @@
 19-3	1144-1148	been	_	_	_	_	_	_	
 19-4	1149-1152	off	_	_	_	_	_	_	
 19-5	1153-1155	of	_	_	_	_	_	_	
-19-6	1156-1163	Valtrex	substance[71]	new[71]	nonsal[71]	_	coref	51-9[162_71]	
+19-6	1156-1163	Valtrex	substance[71]	new[71]	sal[71]	_	coref	51-9[162_71]	
 19-7	1164-1167	for	_	_	_	_	_	_	
 19-8	1168-1172	five	time[72]	new[72]	nonsal[72]	_	_	_	
 19-9	1173-1177	days	time[72]	new[72]	nonsal[72]	_	_	_	
@@ -531,8 +531,8 @@
 49-12	2181-2192	lymphocytic	person[150]|abstract[151]	new[150]|new[151]	nonsal[150]|nonsal[151]	_	_	_	
 49-13	2193-2201	leukemia	person[150]|abstract[151]	new[150]|new[151]	nonsal[150]|nonsal[151]	_	_	_	
 49-14	2202-2204	on	person[150]	new[150]	nonsal[150]	_	_	_	
-49-15	2205-2212	chronic	person[150]|substance[152]	new[150]|new[152]	nonsal[150]|nonsal[152]	_	coref	51-13[163_152]	
-49-16	2213-2221	steroids	person[150]|substance[152]	new[150]|new[152]	nonsal[150]|nonsal[152]	_	_	_	
+49-15	2205-2212	chronic	person[150]|substance[152]	new[150]|new[152]	nonsal[150]|sal[152]	_	coref	51-13[163_152]	
+49-16	2213-2221	steroids	person[150]|substance[152]	new[150]|new[152]	nonsal[150]|sal[152]	_	_	_	
 49-17	2222-2225	for	person[150]	new[150]	nonsal[150]	_	_	_	
 49-18	2226-2236	autoimmune	person[150]|abstract[153]	new[150]|new[153]	nonsal[150]|nonsal[153]	_	_	_	
 49-19	2237-2246	hemolytic	person[150]|abstract[153]	new[150]|new[153]	nonsal[150]|nonsal[153]	_	_	_	
@@ -572,13 +572,13 @@
 51-13	2398-2401	his	substance[163]|person[164]	giv[163]|giv[164]	nonsal[163]|nonsal[164]	_	coref	52-4[167_164]	
 51-14	2402-2410	steroids	substance[163]	giv[163]	nonsal[163]	_	_	_	
 51-15	2411-2413	to	_	_	_	_	_	_	
-51-16	2414-2415	1	substance[165]	new[165]	nonsal[165]	_	_	_	
-51-17	2416-2418	mg	substance[165]	new[165]	nonsal[165]	_	_	_	
+51-16	2414-2415	1	substance[165]	new[165]	sal[165]	_	_	_	
+51-17	2416-2418	mg	substance[165]	new[165]	sal[165]	_	_	_	
 51-18	2419-2424	daily	_	_	_	_	_	_	
 51-19	2425-2426	.	_	_	_	_	_	_	
 
 #Text=I will see him back in clinic in a week .
-52-1	2427-2428	I	person[166]	acc[166]	nonsal[166]	_	_	_	
+52-1	2427-2428	I	person[166]	acc[166]	sal[166]	_	_	_	
 52-2	2429-2433	will	_	_	_	_	_	_	
 52-3	2434-2437	see	_	_	_	_	_	_	
 52-4	2438-2441	him	person[167]	giv[167]	nonsal[167]	_	_	_	

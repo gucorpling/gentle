@@ -4,23 +4,23 @@
 
 
 #Text=Proof
-1-1	0-5	Proof	abstract[1]	new[1]	nonsal[1]	_	_	_	
+1-1	0-5	Proof	abstract[1]	new[1]	sal[1]	_	_	_	
 
 #Text=Let AB be a second bimedial straight line divided into its medials at C .
 2-1	6-9	Let	_	_	_	_	_	_	
-2-2	10-12	AB	abstract[2]	new[2]	nonsal[2]	_	coref	2-11[5_2]	
+2-2	10-12	AB	abstract[2]	new[2]	sal[2]	_	coref	2-11[5_2]	
 2-3	13-15	be	_	_	_	_	_	_	
-2-4	16-17	a	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-5	18-24	second	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-6	25-33	bimedial	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-7	34-42	straight	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-8	43-47	line	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-9	48-55	divided	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-10	56-60	into	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-11	61-64	its	abstract[3]|abstract[4]|abstract[5]	new[3]|new[4]|giv[5]	nonsal[3]|nonsal[4]|nonsal[5]	_	coref|coref	14-14[63_4]|14-4[61_5]	
-2-12	65-72	medials	abstract[3]|abstract[4]	new[3]|new[4]	nonsal[3]|nonsal[4]	_	_	_	
-2-13	73-75	at	abstract[3]	new[3]	nonsal[3]	_	_	_	
-2-14	76-77	C	abstract[3]|abstract[6]	new[3]|new[6]	nonsal[3]|nonsal[6]	_	coref	14-17[65_6]	
+2-4	16-17	a	abstract[3]	new[3]	sal[3]	_	_	_	
+2-5	18-24	second	abstract[3]	new[3]	sal[3]	_	_	_	
+2-6	25-33	bimedial	abstract[3]	new[3]	sal[3]	_	_	_	
+2-7	34-42	straight	abstract[3]	new[3]	sal[3]	_	_	_	
+2-8	43-47	line	abstract[3]	new[3]	sal[3]	_	_	_	
+2-9	48-55	divided	abstract[3]	new[3]	sal[3]	_	_	_	
+2-10	56-60	into	abstract[3]	new[3]	sal[3]	_	_	_	
+2-11	61-64	its	abstract[3]|abstract[4]|abstract[5]	new[3]|new[4]|giv[5]	sal[3]|sal[4]|nonsal[5]	_	coref|coref	14-14[63_4]|14-4[61_5]	
+2-12	65-72	medials	abstract[3]|abstract[4]	new[3]|new[4]	sal[3]|sal[4]	_	_	_	
+2-13	73-75	at	abstract[3]	new[3]	sal[3]	_	_	_	
+2-14	76-77	C	abstract[3]|abstract[6]	new[3]|new[6]	sal[3]|sal[6]	_	coref	14-17[65_6]	
 2-15	78-79	.	_	_	_	_	_	_	
 
 #Text=Let AC > CB .
@@ -32,33 +32,33 @@
 
 #Text=Let DE be a rational straight line .
 4-1	94-97	Let	_	_	_	_	_	_	
-4-2	98-100	DE	abstract[9]	new[9]	nonsal[9]	_	coref	5-9[13_9]	
+4-2	98-100	DE	abstract[9]	new[9]	sal[9]	_	coref	5-9[13_9]	
 4-3	101-103	be	_	_	_	_	_	_	
-4-4	104-105	a	abstract[10]	giv[10]	nonsal[10]	_	_	_	
-4-5	106-114	rational	abstract[10]	giv[10]	nonsal[10]	_	_	_	
-4-6	115-123	straight	abstract[10]	giv[10]	nonsal[10]	_	_	_	
-4-7	124-128	line	abstract[10]	giv[10]	nonsal[10]	_	_	_	
+4-4	104-105	a	abstract[10]	giv[10]	sal[10]	_	_	_	
+4-5	106-114	rational	abstract[10]	giv[10]	sal[10]	_	_	_	
+4-6	115-123	straight	abstract[10]	giv[10]	sal[10]	_	_	_	
+4-7	124-128	line	abstract[10]	giv[10]	sal[10]	_	_	_	
 4-8	129-130	.	_	_	_	_	_	_	
 
 #Text=Let DEFG equal to AB2 be applied to DE producing DG as its breadth .
 5-1	131-134	Let	_	_	_	_	_	_	
-5-2	135-139	DEFG	abstract[11]	new[11]	nonsal[11]	_	coref	5-13[16_11]	
+5-2	135-139	DEFG	abstract[11]	new[11]	sal[11]	_	coref	5-13[16_11]	
 5-3	140-145	equal	_	_	_	_	_	_	
 5-4	146-148	to	_	_	_	_	_	_	
-5-5	149-152	AB2	abstract[12]	new[12]	nonsal[12]	_	coref	7-12[25_12]	
+5-5	149-152	AB2	abstract[12]	new[12]	sal[12]	_	coref	7-12[25_12]	
 5-6	153-155	be	_	_	_	_	_	_	
 5-7	156-163	applied	_	_	_	_	_	_	
 5-8	164-166	to	_	_	_	_	_	_	
 5-9	167-169	DE	abstract[13]	giv[13]	nonsal[13]	_	coref	8-8[34_13]	
 5-10	170-179	producing	_	_	_	_	_	_	
-5-11	180-182	DG	abstract[14]	new[14]	nonsal[14]	_	coref	6-7[19_14]	
+5-11	180-182	DG	abstract[14]	new[14]	sal[14]	_	coref	6-7[19_14]	
 5-12	183-185	as	_	_	_	_	_	_	
-5-13	186-189	its	abstract[15]|abstract[16]	new[15]|giv[16]	nonsal[15]|nonsal[16]	_	_	_	
-5-14	190-197	breadth	abstract[15]	new[15]	nonsal[15]	_	_	_	
+5-13	186-189	its	abstract[15]|abstract[16]	new[15]|giv[16]	sal[15]|nonsal[16]	_	_	_	
+5-14	190-197	breadth	abstract[15]	new[15]	sal[15]	_	_	_	
 5-15	198-199	.	_	_	_	_	_	_	
 
 #Text=It is to be demonstrated that DG is a third binomial straight line .
-6-1	200-202	It	abstract[17]	giv[17]	nonsal[17]	_	coref	6-6[18_17]	
+6-1	200-202	It	abstract[17]	giv[17]	sal[17]	_	coref	6-6[18_17]	
 6-2	203-205	is	_	_	_	_	_	_	
 6-3	206-208	to	_	_	_	_	_	_	
 6-4	209-211	be	_	_	_	_	_	_	
