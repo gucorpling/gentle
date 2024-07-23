@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="298" relname="organization-heading">trust</segment>
@@ -281,7 +293,7 @@
 		<group id="243" type="multinuc" parent="245" relname="elaboration-additional"/>
 		<group id="244" type="span" parent="246" relname="span"/>
 		<group id="245" type="span" parent="244" relname="span"/>
-		<group id="246" type="span" parent="294" relname="joint-other"/>
+		<group id="246" type="span" parent="300" relname="joint-list"/>
 		<group id="247" type="multinuc" parent="105" relname="elaboration-additional"/>
 		<group id="248" type="span" parent="264" relname="organization-heading"/>
 		<group id="249" type="multinuc" parent="250" relname="span"/>
@@ -328,12 +340,25 @@
 		<group id="290" type="span" parent="291" relname="joint-disjunction"/>
 		<group id="291" type="multinuc" parent="292" relname="span"/>
 		<group id="292" type="span" parent="293" relname="span"/>
-		<group id="293" type="span" parent="294" relname="joint-other"/>
+		<group id="293" type="span" parent="300" relname="joint-list"/>
 		<group id="294" type="multinuc" parent="298" relname="span"/>
 		<group id="295" type="span" parent="296" relname="span"/>
 		<group id="296" type="span" parent="297" relname="span"/>
-		<group id="297" type="span" parent="294" relname="joint-other"/>
+		<group id="297" type="span" parent="300" relname="joint-list"/>
 		<group id="298" type="span" parent="299" relname="span"/>
 		<group id="299" type="span" />
+		<group id="300" type="multinuc" parent="294" relname="joint-other"/>
+		<signals>
+			<signal source="9" type="dm" subtype="dm" tokens="41"/>
+			<signal source="48" type="dm" subtype="dm" tokens="243"/>
+			<signal source="57" type="dm" subtype="dm" tokens="295"/>
+			<signal source="87" type="dm" subtype="dm" tokens="446"/>
+			<signal source="91" type="dm" subtype="dm" tokens="472"/>
+			<signal source="132" type="dm" subtype="dm" tokens="650"/>
+			<signal source="176" type="dm" subtype="dm" tokens="76"/>
+			<signal source="179" type="dm" subtype="dm" tokens="48"/>
+			<signal source="180" type="dm" subtype="dm" tokens="89"/>
+			<signal source="272" type="dm" subtype="dm" tokens="714,715"/>
+		</signals>
 	</body>
 </rst>

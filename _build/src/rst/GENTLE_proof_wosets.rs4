@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="229" relname="organization-heading">Proof</segment>
@@ -266,5 +278,71 @@
 		<group id="228" type="span" parent="226" relname="organization-preparation"/>
 		<group id="229" type="span" parent="230" relname="span"/>
 		<group id="230" type="span" />
+		<secedges>
+			<secedge id="144-36" source="144" target="36" relname="causal-result"/>
+			<secedge id="149-147" source="149" target="147" relname="causal-result"/>
+			<secedge id="148-146" source="148" target="146" relname="joint-list"/>
+			<secedge id="172-171" source="172" target="171" relname="causal-result"/>
+			<secedge id="180-175" source="180" target="175" relname="restatement-partial"/>
+			<secedge id="187-188" source="187" target="188" relname="elaboration-additional"/>
+			<secedge id="196-194" source="196" target="194" relname="causal-result"/>
+		</secedges>
+		<signals>
+			<signal source="17" type="dm" subtype="dm" tokens="94"/>
+			<signal source="24" type="dm" subtype="dm" tokens="136"/>
+			<signal source="27" type="dm" subtype="dm" tokens="164"/>
+			<signal source="31" type="dm" subtype="dm" tokens="188"/>
+			<signal source="35" type="dm" subtype="dm" tokens="218"/>
+			<signal source="39" type="dm" subtype="dm" tokens="240"/>
+			<signal source="42" type="dm" subtype="dm" tokens="249"/>
+			<signal source="45" type="dm" subtype="dm" tokens="265"/>
+			<signal source="49" type="dm" subtype="dm" tokens="285,291"/>
+			<signal source="52" type="dm" subtype="dm" tokens="303"/>
+			<signal source="56" type="dm" subtype="dm" tokens="323"/>
+			<signal source="63" type="dm" subtype="dm" tokens="377"/>
+			<signal source="65" type="dm" subtype="dm" tokens="391"/>
+			<signal source="68" type="dm" subtype="dm" tokens="413"/>
+			<signal source="73" type="dm" subtype="dm" tokens="443"/>
+			<signal source="76" type="dm" subtype="dm" tokens="475"/>
+			<signal source="88" type="dm" subtype="dm" tokens="585"/>
+			<signal source="97" type="dm" subtype="dm" tokens="645"/>
+			<signal source="101" type="dm" subtype="dm" tokens="662"/>
+			<signal source="106" type="dm" subtype="dm" tokens="704"/>
+			<signal source="108" type="dm" subtype="dm" tokens="719"/>
+			<signal source="112" type="dm" subtype="dm" tokens="741"/>
+			<signal source="115" type="dm" subtype="dm" tokens="766"/>
+			<signal source="118" type="dm" subtype="dm" tokens="793"/>
+			<signal source="120" type="dm" subtype="dm" tokens="2"/>
+			<signal source="121" type="dm" subtype="dm" tokens="21"/>
+			<signal source="128" type="dm" subtype="dm" tokens="82"/>
+			<signal source="129" type="dm" subtype="dm" tokens="67,68,69,70"/>
+			<signal source="135" type="dm" subtype="dm" tokens="152"/>
+			<signal source="139" type="dm" subtype="dm" tokens="180,198"/>
+			<signal source="143" type="dm" subtype="dm" tokens="236"/>
+			<signal source="148" type="dm" subtype="dm" tokens="261"/>
+			<signal source="154" type="dm" subtype="dm" tokens="270"/>
+			<signal source="162" type="dm" subtype="dm" tokens="310,319"/>
+			<signal source="165" type="dm" subtype="dm" tokens="330"/>
+			<signal source="173" type="dm" subtype="dm" tokens="384"/>
+			<signal source="175" type="dm" subtype="dm" tokens="407"/>
+			<signal source="176" type="dm" subtype="dm" tokens="416"/>
+			<signal source="179" type="dm" subtype="dm" tokens="535"/>
+			<signal source="181" type="dm" subtype="dm" tokens="446"/>
+			<signal source="204" type="dm" subtype="dm" tokens="658"/>
+			<signal source="206" type="dm" subtype="dm" tokens="670"/>
+			<signal source="209" type="dm" subtype="dm" tokens="695"/>
+			<signal source="211" type="dm" subtype="dm" tokens="724"/>
+			<signal source="213" type="dm" subtype="dm" tokens="710"/>
+			<signal source="217" type="dm" subtype="dm" tokens="747"/>
+			<signal source="218" type="dm" subtype="dm" tokens="756"/>
+			<signal source="220" type="dm" subtype="dm" tokens="772"/>
+			<signal source="144-36" type="orphan" subtype="orphan" tokens="232"/>
+			<signal source="149-147" type="orphan" subtype="orphan" tokens="256"/>
+			<signal source="148-146" type="orphan" subtype="orphan" tokens="260"/>
+			<signal source="172-171" type="orphan" subtype="orphan" tokens="369"/>
+			<signal source="180-175" type="orphan" subtype="orphan" tokens="436"/>
+			<signal source="187-188" type="orphan" subtype="orphan" tokens="520"/>
+			<signal source="196-194" type="orphan" subtype="orphan" tokens="573"/>
+		</signals>
 	</body>
 </rst>

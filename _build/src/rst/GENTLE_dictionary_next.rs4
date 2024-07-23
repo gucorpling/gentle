@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="241" relname="organization-heading">next</segment>
@@ -137,7 +149,7 @@
 		<segment id="99" parent="205" relname="joint-list">this</segment>
 		<segment id="100" parent="205" relname="joint-list">this coming</segment>
 		<segment id="101" parent="206" relname="span">week</segment>
-		<segment id="102" parent="101" relname="mode-manner">(as in Saturday week )</segment>
+		<segment id="102" parent="101" relname="mode-manner">( as in Saturday week )</segment>
 		<segment id="103" parent="227" relname="organization-heading">Adverb</segment>
 		<segment id="104" parent="212" relname="span">next</segment>
 		<segment id="105" parent="104" relname="elaboration-additional">( not comparable )</segment>
@@ -147,8 +159,8 @@
 		<segment id="109" parent="214" relname="context-circumstance">( conjunctive )</segment>
 		<segment id="110" parent="214" relname="span">So as to follow in time or sequence something</segment>
 		<segment id="111" parent="110" relname="elaboration-attribute">previously mentioned .</segment>
-		<segment id="112" parent="216" relname="joint-list">First we removed all the handles ;</segment>
-		<segment id="113" parent="216" relname="joint-list">next , we stripped off the old paint .</segment>
+		<segment id="112" parent="216" relname="joint-sequence">First we removed all the handles ;</segment>
+		<segment id="113" parent="216" relname="joint-sequence">next , we stripped off the old paint .</segment>
 		<segment id="114" parent="223" relname="span">On the first subsequent occasion .</segment>
 		<segment id="115" parent="116" relname="context-background">Financial panic , earthquakes , oil spills , riots .</segment>
 		<segment id="116" parent="220" relname="span">What comes next ?</segment>
@@ -224,7 +236,7 @@
 		<group id="186" type="span" parent="187" relname="joint-list"/>
 		<group id="187" type="multinuc" parent="178" relname="elaboration-additional"/>
 		<group id="188" type="span" parent="189" relname="span"/>
-		<group id="189" type="span" parent="239" relname="joint-other"/>
+		<group id="189" type="span" parent="243" relname="joint-list"/>
 		<group id="190" type="span" parent="193" relname="span"/>
 		<group id="191" type="span" parent="192" relname="joint-list"/>
 		<group id="192" type="multinuc" parent="190" relname="explanation-evidence"/>
@@ -246,7 +258,7 @@
 		<group id="208" type="multinuc" parent="209" relname="span"/>
 		<group id="209" type="span" parent="210" relname="span"/>
 		<group id="210" type="span" parent="211" relname="span"/>
-		<group id="211" type="span" parent="239" relname="joint-other"/>
+		<group id="211" type="span" parent="243" relname="joint-list"/>
 		<group id="212" type="span" parent="225" relname="organization-heading"/>
 		<group id="213" type="multinuc" parent="106" relname="explanation-evidence"/>
 		<group id="214" type="span" parent="215" relname="span"/>
@@ -265,7 +277,7 @@
 		<group id="227" type="span" parent="240" relname="span"/>
 		<group id="228" type="span" parent="229" relname="span"/>
 		<group id="229" type="span" parent="230" relname="span"/>
-		<group id="230" type="span" parent="239" relname="joint-other"/>
+		<group id="230" type="span" parent="243" relname="joint-list"/>
 		<group id="231" type="span" parent="236" relname="span"/>
 		<group id="232" type="span" parent="236" relname="organization-heading"/>
 		<group id="233" type="multinuc" parent="235" relname="joint-list"/>
@@ -273,10 +285,27 @@
 		<group id="235" type="multinuc" parent="231" relname="explanation-evidence"/>
 		<group id="236" type="span" parent="237" relname="span"/>
 		<group id="237" type="span" parent="238" relname="span"/>
-		<group id="238" type="span" parent="239" relname="joint-other"/>
+		<group id="238" type="span" parent="243" relname="joint-list"/>
 		<group id="239" type="multinuc" parent="241" relname="span"/>
-		<group id="240" type="span" parent="239" relname="joint-other"/>
+		<group id="240" type="span" parent="243" relname="joint-list"/>
 		<group id="241" type="span" parent="242" relname="span"/>
 		<group id="242" type="span" />
+		<group id="243" type="multinuc" parent="239" relname="joint-other"/>
+		<secedges>
+			<secedge id="73-71" source="73" target="71" relname="elaboration-additional"/>
+			<secedge id="200-91" source="200" target="91" relname="restatement-partial"/>
+		</secedges>
+		<signals>
+			<signal source="56" type="dm" subtype="dm" tokens="240"/>
+			<signal source="65" type="dm" subtype="dm" tokens="306"/>
+			<signal source="87" type="dm" subtype="dm" tokens="420"/>
+			<signal source="93" type="dm" subtype="dm" tokens="462"/>
+			<signal source="95" type="dm" subtype="dm" tokens="468"/>
+			<signal source="102" type="dm" subtype="dm" tokens="493"/>
+			<signal source="117" type="dm" subtype="dm" tokens="586"/>
+			<signal source="207" type="dm" subtype="dm" tokens="486"/>
+			<signal source="73-71" type="orphan" subtype="orphan" tokens="353"/>
+			<signal source="200-91" type="lexical" subtype="alternate_expression" tokens="456,457"/>
+		</signals>
 	</body>
 </rst>

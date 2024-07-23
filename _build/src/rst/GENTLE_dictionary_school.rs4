@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="290" relname="organization-heading">school</segment>
@@ -228,16 +240,16 @@
 		<group id="190" type="span" parent="188" relname="elaboration-additional"/>
 		<group id="191" type="span" parent="192" relname="span"/>
 		<group id="192" type="span" parent="193" relname="span"/>
-		<group id="193" type="span" parent="201" relname="joint-other"/>
+		<group id="193" type="span" parent="294" relname="joint-list"/>
 		<group id="194" type="span" parent="201" relname="joint-other"/>
 		<group id="195" type="multinuc" parent="46" relname="elaboration-additional"/>
 		<group id="196" type="span" parent="198" relname="organization-heading"/>
 		<group id="197" type="span" parent="198" relname="span"/>
 		<group id="198" type="span" parent="199" relname="span"/>
 		<group id="199" type="span" parent="200" relname="span"/>
-		<group id="200" type="span" parent="201" relname="joint-other"/>
+		<group id="200" type="span" parent="294" relname="joint-list"/>
 		<group id="201" type="multinuc" parent="202" relname="span"/>
-		<group id="202" type="span" parent="289" relname="joint-other"/>
+		<group id="202" type="span" parent="292" relname="joint-list"/>
 		<group id="203" type="span" parent="204" relname="same-unit"/>
 		<group id="204" type="multinuc" parent="213" relname="joint-other"/>
 		<group id="205" type="span" parent="204" relname="same-unit"/>
@@ -306,7 +318,7 @@
 		<group id="268" type="multinuc" parent="269" relname="elaboration-additional"/>
 		<group id="269" type="span" parent="270" relname="span"/>
 		<group id="270" type="span" parent="271" relname="span"/>
-		<group id="271" type="span" parent="274" relname="joint-other"/>
+		<group id="271" type="span" parent="293" relname="joint-list"/>
 		<group id="272" type="span" parent="273" relname="span"/>
 		<group id="273" type="span" parent="274" relname="joint-other"/>
 		<group id="274" type="multinuc" parent="288" relname="span"/>
@@ -322,10 +334,19 @@
 		<group id="284" type="span" parent="285" relname="joint-list"/>
 		<group id="285" type="multinuc" parent="286" relname="span"/>
 		<group id="286" type="span" parent="287" relname="span"/>
-		<group id="287" type="span" parent="274" relname="joint-other"/>
-		<group id="288" type="span" parent="289" relname="joint-other"/>
+		<group id="287" type="span" parent="293" relname="joint-list"/>
+		<group id="288" type="span" parent="292" relname="joint-list"/>
 		<group id="289" type="multinuc" parent="290" relname="span"/>
 		<group id="290" type="span" parent="291" relname="span"/>
 		<group id="291" type="span" />
+		<group id="292" type="multinuc" parent="289" relname="joint-other"/>
+		<group id="293" type="multinuc" parent="274" relname="joint-other"/>
+		<group id="294" type="multinuc" parent="201" relname="joint-other"/>
+		<signals>
+			<signal source="113" type="dm" subtype="dm" tokens="604"/>
+			<signal source="115" type="dm" subtype="dm" tokens="611"/>
+			<signal source="227" type="dm" subtype="dm" tokens="443"/>
+			<signal source="264" type="dm" subtype="dm" tokens="814"/>
+		</signals>
 	</body>
 </rst>

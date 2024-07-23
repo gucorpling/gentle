@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="43" relname="context-circumstance">Two roads diverged in a yellow wood ,</segment>
@@ -81,5 +93,25 @@
 		<group id="43" type="span" parent="44" relname="span"/>
 		<group id="44" type="span" parent="41" relname="context-background"/>
 		<group id="45" type="span" />
+		<secedges>
+			<secedge id="2-1" source="2" target="1" relname="elaboration-additional"/>
+			<secedge id="32-12" source="32" target="12" relname="elaboration-additional"/>
+			<secedge id="22-21" source="22" target="21" relname="elaboration-additional"/>
+		</secedges>
+		<signals>
+			<signal source="5" type="dm" subtype="dm" tokens="30"/>
+			<signal source="10" type="dm" subtype="dm" tokens="62"/>
+			<signal source="15" type="dm" subtype="dm" tokens="105"/>
+			<signal source="23" type="dm" subtype="dm" tokens="155"/>
+			<signal source="26" type="dm" subtype="dm" tokens="24"/>
+			<signal source="29" type="dm" subtype="dm" tokens="46"/>
+			<signal source="31" type="dm" subtype="dm" tokens="51"/>
+			<signal source="33" type="dm" subtype="dm" tokens="66"/>
+			<signal source="34" type="dm" subtype="dm" tokens="58"/>
+			<signal source="42" type="dm" subtype="dm" tokens="41"/>
+			<signal source="2-1" type="orphan" subtype="orphan" tokens="9"/>
+			<signal source="32-12" type="orphan" subtype="orphan" tokens="81"/>
+			<signal source="22-21" type="orphan" subtype="orphan" tokens="144"/>
+		</signals>
 	</body>
 </rst>

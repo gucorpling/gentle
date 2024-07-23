@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="83" relname="organization-heading">Description :</segment>
@@ -116,7 +128,7 @@
 		<segment id="78" parent="79" relname="adversative-concession">This has no active drainage ,</segment>
 		<segment id="79" parent="126" relname="span">but it is yet to heal .</segment>
 		<segment id="80" parent="125" relname="span">This probably will heal by secondary intention</segment>
-		<segment id="81" parent="80" relname="contingency-condition">once chemotherapy is finished .</segment>
+		<segment id="81" parent="80" relname="context-circumstance">once chemotherapy is finished .</segment>
 		<segment id="82" parent="131" relname="joint-other">Prescription for prednisone as part of his chemotherapy has been given to him .</segment>
 		<group id="83" type="multinuc" parent="84" relname="span"/>
 		<group id="84" type="span" parent="134" relname="organization-preparation"/>
@@ -177,5 +189,17 @@
 		<group id="139" type="span" parent="140" relname="span"/>
 		<group id="140" type="span" parent="134" relname="joint-list"/>
 		<group id="141" type="span" />
+		<signals>
+			<signal source="17" type="dm" subtype="dm" tokens="135"/>
+			<signal source="23" type="dm" subtype="dm" tokens="191"/>
+			<signal source="24" type="dm" subtype="dm" tokens="197"/>
+			<signal source="27" type="dm" subtype="dm" tokens="235"/>
+			<signal source="34" type="syntactic" subtype="parallel_syntactic_construction" tokens="284,285,286,302,303,304"/>
+			<signal source="72" type="dm" subtype="dm" tokens="569"/>
+			<signal source="78" type="dm" subtype="dm" tokens="624"/>
+			<signal source="81" type="dm" subtype="dm" tokens="638"/>
+			<signal source="89" type="dm" subtype="dm" tokens="142"/>
+			<signal source="121" type="dm" subtype="dm" tokens="564"/>
+		</signals>
 	</body>
 </rst>

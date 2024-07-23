@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="384" relname="organization-preparation">Welcome to the Techtonica curriculum !</segment>
@@ -413,14 +425,31 @@
 		<group id="375" type="span" parent="374" relname="organization-preparation"/>
 		<group id="376" type="span" parent="377" relname="span"/>
 		<group id="377" type="span" parent="371" relname="organization-preparation"/>
-		<group id="378" type="span" parent="383" relname="joint-other"/>
-		<group id="379" type="multinuc" parent="383" relname="joint-other"/>
+		<group id="378" type="span" parent="383" relname="joint-list"/>
+		<group id="379" type="multinuc" parent="383" relname="joint-list"/>
 		<group id="380" type="multinuc" parent="379" relname="joint-other"/>
 		<group id="381" type="span" parent="382" relname="span"/>
-		<group id="382" type="span" parent="383" relname="joint-other"/>
+		<group id="382" type="span" parent="383" relname="joint-list"/>
 		<group id="383" type="multinuc" parent="384" relname="joint-other"/>
 		<group id="384" type="multinuc" parent="385" relname="span"/>
 		<group id="385" type="span" />
 		<group id="386" type="span" parent="335" relname="joint-list"/>
+		<secedges>
+			<secedge id="281-373" source="281" target="373" relname="explanation-motivation"/>
+		</secedges>
+		<signals>
+			<signal source="11" type="dm" subtype="dm" tokens="77"/>
+			<signal source="14" type="dm" subtype="dm" tokens="105,104"/>
+			<signal source="19" type="dm" subtype="dm" tokens="148"/>
+			<signal source="26" type="dm" subtype="dm" tokens="228"/>
+			<signal source="28" type="dm" subtype="dm" tokens="231"/>
+			<signal source="50" type="dm" subtype="dm" tokens="347"/>
+			<signal source="78" type="dm" subtype="dm" tokens="472"/>
+			<signal source="79" type="dm" subtype="dm" tokens="475,476"/>
+			<signal source="263" type="dm" subtype="dm" tokens="1269"/>
+			<signal source="271" type="dm" subtype="dm" tokens="68"/>
+			<signal source="280" type="dm" subtype="dm" tokens="223"/>
+			<signal source="281-373" type="orphan" subtype="orphan" tokens="230"/>
+		</signals>
 	</body>
 </rst>
