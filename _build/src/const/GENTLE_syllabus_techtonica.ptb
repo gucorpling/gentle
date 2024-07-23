@@ -1220,7 +1220,7 @@
   (FRAG
     (NP (LS 10.) (NP (NNS Resources)))
     (: :)
-    (ADJP (JJ Underrepresented) (PP (IN in) (NP (NNP Tech))))))
+    (ADJP (VBN Underrepresented) (PP (IN in) (NP (NNP Tech))))))
 
 (ROOT (NP (LS 11.) (JJ Difficult) (NN Workplace) (NNS Situations)))
 

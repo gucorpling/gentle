@@ -123,7 +123,7 @@
           (WHADVP (WRB how))
           (S
             (NP (NN way))
-            (VP (VBZ leads) (PP (RP on) (PP (IN to) (NP (NN way)))))))))
+            (VP (VBZ leads) (PP (RB on) (PP (IN to) (NP (NN way)))))))))
     (, ,)
     (NP (PRP I))
     (VP

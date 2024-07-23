@@ -316,22 +316,16 @@
           (VP
             (TO na)
             (VP
-              (VB be)
-              (ADJP (JJ tough))
-              (NP
-                (NP (PDT all) (DT the) (NN time))
-                (SBAR
-                  (S
-                    (NP (PRP you))
-                    (VP
-                      (VBP 've)
-                      (PP
-                        (IN as)
-                        (ADJP
-                          (RB just)
-                          (RB way)
-                          (RB too)
-                          (JJ strong))))))))))))
+              (VP
+                (VB be)
+                (ADJP (JJ tough))
+                (NP (PDT all) (DT the) (NN time)))
+              (SBAR
+                (S
+                  (NP (NNP UVA))
+                  (VP
+                    (VBZ 's)
+                    (ADJP (RB just) (RB way) (RB too) (JJ strong))))))))))
     (. .)))
 
 (ROOT
@@ -745,7 +739,7 @@
     (UH Ok)
     (NP (NNP Favilli))
     (CC and)
-    (PP (IN of) (WHNP (WP what)))
+    (PP (IN of) (: —) (WHNP (WP what)))
     (. ?)))
 
 (ROOT

@@ -498,10 +498,12 @@
 (ROOT (NP (DT this) (VBG coming)))
 
 (ROOT
-  (S
+  (NP
     (NP (NN week))
-    (VP (-LRB- -LRB-as) (PP (IN in) (NP (NNP Saturday) (NN week))))
-    (-RRB- -RRB-)))
+    (PRN
+      (-LRB- -LRB-)
+      (PP (IN as) (PP (IN in) (NP (NNP Saturday) (NN week))))
+      (-RRB- -RRB-))))
 
 (ROOT (NP (NN Adverb)))
 

@@ -49,7 +49,7 @@
           (PP
             (IN of)
             (S
-              (NP (DT some) (NN one))
+              (NP (GW some) (NN one))
               (VP
                 (ADVP (RB gently))
                 (VBG rapping)
@@ -183,12 +183,12 @@
           (IN with)
           (NP
             (NP (JJ fantastic) (NNS terrors))
-            (VP (ADVP (RB never)) (VBD felt) (ADVP (RB before)))))))
+            (VP (ADVP (RB never)) (VBN felt) (ADVP (RB before)))))))
     (: ;)))
 
 (ROOT
   (SBAR
-    (RB So)
+    (IN So)
     (IN that)
     (S
       (ADVP (RB now))
@@ -616,7 +616,7 @@
             (JJ craven)
             (, ,)
             (ADJP (JJ Ghastly) (JJ grim) (CC and) (JJ ancient))
-            (NNP Raven))
+            (NN Raven))
           (VP
             (VBG wandering)
             (PP (IN from) (NP (DT the) (RB Nightly) (NN shore)))))))
@@ -861,7 +861,7 @@
           (SBAR
             (WHNP (WP whom))
             (S
-              (NP (JJ unmerciful) (NNP Disaster))
+              (NP (JJ unmerciful) (NN Disaster))
               (VP
                 (VP (VBD Followed) (ADVP (RB fast)))
                 (CC and)
@@ -936,7 +936,7 @@
         (S
           (VP
             (VBG linking)
-            (NP (NNP Fancy))
+            (NP (NN Fancy))
             (PP (IN unto) (NP (NN fancy))))))
       (, ,)
       (S
@@ -1105,7 +1105,7 @@
 (ROOT
   (S
     (`` ")
-    (NP (NNP Wretch))
+    (NP (NN Wretch))
     (PRN (, ,) ('' ") (S (NP (PRP I)) (VP (VBD cried))) (, ,) (`` "))
     (NP (PRP$ thy) (NNP God))
     (VP

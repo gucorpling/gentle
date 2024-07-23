@@ -245,7 +245,7 @@
                   (VP (MD can) (VP (VB arrest) (NP (PRP you)))))))))))
     (. .)))
 
-(ROOT (S (NP (PRP I)) (VP (MD will) (VP (VBN testified))) (. .)))
+(ROOT (S (NP (PRP I)) (VP (MD will) (VP (VB testified))) (. .)))
 
 (ROOT
   (S
@@ -441,10 +441,11 @@
                       (VBN saved)
                       (S
                         (VP
-                          (RB too)
+                          (TO too)
                           (VP
                             (VB Go)
-                            (PP (VB see) (NP (DT the) (NN Bitch.)))))))))))))))))
+                            (PP (VB see) (NP (DT the) (NN Bitch)))))))))))))))
+    (. .)))
 
 (ROOT
   (S
