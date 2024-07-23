@@ -182,7 +182,6 @@
 		<group id="132" type="span" parent="114" relname="span"/>
 		<secedges>
 			<secedge id="43-102" source="43" target="102" relname="adversative-antithesis"/>
-			<secedge id="59-131" source="59" target="131" relname="adversative-antithesis"/>
 		</secedges>
 		<signals>
 			<signal source="13" type="dm" subtype="dm" tokens="98"/>

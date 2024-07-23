@@ -1312,7 +1312,7 @@
 17	other	_	_	_	_	18	amod	_	_
 18	party	_	_	_	_	14	nmod	_	_
 19	;	_	_	_	_	20	punct	_	_
-20	or	_	_	_	_	6	dep	_	_
+20	or	_	_	_	_	6	conj	_	_
 
 1	vii)	_	_	_	_	6	discourse	_	_
 2	Upon	_	_	_	_	6	case	_	_

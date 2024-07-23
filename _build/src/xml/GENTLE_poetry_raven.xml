@@ -55,8 +55,8 @@ tapping	NN	tapping
 As	IN	as
 of	IN	of
 <sic ana="someone">
-some	GW	some
-one	NN	one
+some	GW	someone
+one	NN	_
 </sic>
 gently	RB	gently
 rapping	VVG	rap

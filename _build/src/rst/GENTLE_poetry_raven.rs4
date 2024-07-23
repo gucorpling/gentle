@@ -518,7 +518,7 @@
 			<signal source="386" type="dm" subtype="dm" tokens="1299"/>
 			<signal source="394" type="dm" subtype="dm" tokens="843"/>
 			<signal source="15-14" type="orphan" subtype="orphan" tokens="91"/>
-			<signal source="244-35" type="dm" subtype="dm" tokens="249"/>
+			<signal source="244-35" type="orphan" subtype="orphan" tokens="249"/>
 			<signal source="264-263" type="orphan" subtype="orphan" tokens="416"/>
 			<signal source="70-69" type="orphan" subtype="orphan" tokens="455"/>
 			<signal source="295-294" type="orphan" subtype="orphan" tokens="702"/>

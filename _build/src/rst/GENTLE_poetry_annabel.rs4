@@ -114,17 +114,17 @@
 		<group id="64" type="multinuc" parent="65" relname="span"/>
 		<group id="65" type="span" parent="66" relname="span"/>
 		<group id="66" type="span" />
-		<group id="67" type="multinuc" parent="4" relname="elaboration-attribute"/>
+		<group id="67" type="multinuc" parent="4" relname="purpose-attribute"/>
 		<group id="68" type="span" parent="14" relname="elaboration-attribute"/>
 		<group id="69" type="multinuc" parent="40" relname="causal-result"/>
 		<group id="70" type="span" parent="47" relname="joint-list"/>
 		<group id="71" type="span" parent="48" relname="joint-list"/>
 		<secedges>
 			<secedge id="4-67" source="4" target="67" relname="adversative-antithesis"/>
-			<secedge id="45-61" source="45" target="61" relname="adversative-concession"/>
 			<secedge id="20-53" source="20" target="53" relname="causal-cause"/>
-			<secedge id="71-51" source="71" target="51" relname="explanation-evidence"/>
+			<secedge id="45-61" source="45" target="61" relname="adversative-concession"/>
 			<secedge id="49-71" source="49" target="71" relname="causal-result"/>
+			<secedge id="71-51" source="71" target="51" relname="explanation-evidence"/>
 		</secedges>
 		<signals>
 			<signal source="6" type="dm" subtype="dm" tokens="48"/>

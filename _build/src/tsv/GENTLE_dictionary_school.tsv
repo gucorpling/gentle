@@ -185,7 +185,7 @@
 14-1	707-713	school	animal[62]	giv[62]	nonsal[62]	_	coref|bridge	15-1[65_62]|14-3[63_62]	
 14-2	714-715	(	_	_	_	_	_	_	
 14-3	716-722	plural	animal[63]	acc[63]	nonsal[63]	_	coref	14-4[64_63]	
-14-4	723-730	schools	animal[64]	new[64]	nonsal[64]	_	coref	33-7[175_64]	
+14-4	723-730	schools	animal[64]	new[64]	nonsal[64]	_	_	_	
 14-5	731-732	)	_	_	_	_	_	_	
 14-6	733-734	(	_	_	_	_	_	_	
 14-7	735-745	collective	_	_	_	_	_	_	
@@ -565,9 +565,9 @@
 34-9	2360-2362	to	organization[179]	new[179]	nonsal[179]	_	_	_	
 34-10	2363-2371	teaching	organization[179]|abstract[180]	new[179]|new[180]	nonsal[179]|nonsal[180]	_	coref	38-13[199_180]	
 34-11	2372-2375	and	organization[179]	new[179]	nonsal[179]	_	_	_	
-34-12	2376-2384	learning	organization[179]|abstract[181]	new[179]|new[181]	nonsal[179]|nonsal[181]	_	coref	53-7[264_181]	
+34-12	2376-2384	learning	organization[179]|abstract[181]	new[179]|new[181]	nonsal[179]|nonsal[181]	_	coref	53-7[265_181]	
 34-13	2385-2386	;	_	_	_	_	_	_	
-34-14	2387-2389	an	organization[182]	giv[182]	nonsal[182]	_	coref	46-12[238_182]	
+34-14	2387-2389	an	organization[182]	giv[182]	nonsal[182]	_	coref	46-12[239_182]	
 34-15	2390-2401	educational	organization[182]	giv[182]	nonsal[182]	_	_	_	
 34-16	2402-2413	institution	organization[182]	giv[182]	nonsal[182]	_	_	_	
 34-17	2414-2415	.	_	_	_	_	_	_	
@@ -613,9 +613,9 @@
 37-15	2629-2637	tertiary	organization[191]|abstract[193]	new[191]|giv[193]	nonsal[191]|nonsal[193]	_	_	_	
 37-16	2638-2647	education	organization[191]|abstract[193]	new[191]|giv[193]	nonsal[191]|nonsal[193]	_	_	_	
 37-17	2648-2649	(	organization[191]	new[191]	nonsal[191]	_	_	_	
-37-18	2650-2657	college	organization[191]|organization[194]	new[191]|giv[194]	nonsal[191]|nonsal[194]	_	coref	53-12[266_194]	
+37-18	2650-2657	college	organization[191]|organization[194]	new[191]|giv[194]	nonsal[191]|nonsal[194]	_	coref	53-12[267_194]	
 37-19	2658-2660	or	organization[191]	new[191]	nonsal[191]	_	_	_	
-37-20	2661-2671	university	organization[191]|organization[195]	new[191]|giv[195]	nonsal[191]|nonsal[195]	_	coref	53-14[267_195]	
+37-20	2661-2671	university	organization[191]|organization[195]	new[191]|giv[195]	nonsal[191]|nonsal[195]	_	coref	53-14[268_195]	
 37-21	2672-2673	)	organization[191]	new[191]	nonsal[191]	_	_	_	
 37-22	2674-2675	.	_	_	_	_	_	_	
 
@@ -624,7 +624,7 @@
 38-2	2678-2680	UK	place[196]	new[196]	nonsal[196]	United_Kingdom[196]	_	_	
 38-3	2681-2682	)	_	_	_	_	_	_	
 38-4	2683-2685	At	_	_	_	_	_	_	
-38-5	2686-2690	Eton	place[197]	new[197]	nonsal[197]	Eton_College[197]	coref	62-8[295_197]	
+38-5	2686-2690	Eton	place[197]	new[197]	nonsal[197]	Eton_College[197]	coref	62-8[296_197]	
 38-6	2691-2698	College	place[197]	new[197]	nonsal[197]	Eton_College[197]	_	_	
 38-7	2699-2700	,	_	_	_	_	_	_	
 38-8	2701-2702	a	time[198]	new[198]	nonsal[198]	_	_	_	
@@ -632,7 +632,7 @@
 38-10	2710-2712	or	time[198]	new[198]	nonsal[198]	_	_	_	
 38-11	2713-2720	session	time[198]	new[198]	nonsal[198]	_	_	_	
 38-12	2721-2723	of	time[198]	new[198]	nonsal[198]	_	_	_	
-38-13	2724-2732	teaching	time[198]|abstract[199]	new[198]|giv[199]	nonsal[198]|nonsal[199]	_	coref	53-5[263_199]	
+38-13	2724-2732	teaching	time[198]|abstract[199]	new[198]|giv[199]	nonsal[198]|nonsal[199]	_	coref	53-5[264_199]	
 38-14	2733-2734	.	_	_	_	_	_	_	
 
 #Text=Divinity , history and geography are studied for two schools per week .
@@ -717,35 +717,35 @@
 42-9	3120-3121	.	_	_	_	_	_	_	
 
 #Text=The Barbizon school of painters were part of an art movement towards Realism in art , which arose in the context of the dominant Romantic Movement of the time .
-43-1	3122-3125	The	organization[221]	new[221]	nonsal[221]	Barbizon_school[221]	bridge	43-9[223_221]	
+43-1	3122-3125	The	organization[221]	new[221]	nonsal[221]	Barbizon_school[221]	coref	43-7[223_221]	
 43-2	3126-3134	Barbizon	organization[221]	new[221]	nonsal[221]	Barbizon_school[221]	_	_	
 43-3	3135-3141	school	organization[221]	new[221]	nonsal[221]	Barbizon_school[221]	_	_	
 43-4	3142-3144	of	organization[221]	new[221]	nonsal[221]	Barbizon_school[221]	_	_	
 43-5	3145-3153	painters	organization[221]|person[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	Barbizon_school[221]	_	_	
 43-6	3154-3158	were	_	_	_	_	_	_	
-43-7	3159-3163	part	_	_	_	_	_	_	
-43-8	3164-3166	of	_	_	_	_	_	_	
-43-9	3167-3169	an	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-10	3170-3173	art	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-11	3174-3182	movement	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-12	3183-3190	towards	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-13	3191-3198	Realism	organization[223]|abstract[224]	giv[223]|new[224]	nonsal[223]|nonsal[224]	Realism_(arts)[224]	_	_	
-43-14	3199-3201	in	organization[223]|abstract[224]	giv[223]|new[224]	nonsal[223]|nonsal[224]	Realism_(arts)[224]	_	_	
-43-15	3202-3205	art	organization[223]|abstract[224]|abstract[225]	giv[223]|new[224]|new[225]	nonsal[223]|nonsal[224]|nonsal[225]	Realism_(arts)[224]	_	_	
-43-16	3206-3207	,	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-17	3208-3213	which	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-18	3214-3219	arose	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-19	3220-3222	in	organization[223]	giv[223]	nonsal[223]	_	_	_	
-43-20	3223-3226	the	organization[223]|abstract[226]	giv[223]|new[226]	nonsal[223]|nonsal[226]	_	_	_	
-43-21	3227-3234	context	organization[223]|abstract[226]	giv[223]|new[226]	nonsal[223]|nonsal[226]	_	_	_	
-43-22	3235-3237	of	organization[223]|abstract[226]	giv[223]|new[226]	nonsal[223]|nonsal[226]	_	_	_	
-43-23	3238-3241	the	organization[223]|abstract[226]|organization[227]	giv[223]|new[226]|giv[227]	nonsal[223]|nonsal[226]|nonsal[227]	_	_	_	
-43-24	3242-3250	dominant	organization[223]|abstract[226]|organization[227]	giv[223]|new[226]|giv[227]	nonsal[223]|nonsal[226]|nonsal[227]	_	_	_	
-43-25	3251-3259	Romantic	organization[223]|abstract[226]|organization[227]	giv[223]|new[226]|giv[227]	nonsal[223]|nonsal[226]|nonsal[227]	_	_	_	
-43-26	3260-3268	Movement	organization[223]|abstract[226]|organization[227]	giv[223]|new[226]|giv[227]	nonsal[223]|nonsal[226]|nonsal[227]	_	_	_	
-43-27	3269-3271	of	organization[223]|abstract[226]|organization[227]	giv[223]|new[226]|giv[227]	nonsal[223]|nonsal[226]|nonsal[227]	_	_	_	
-43-28	3272-3275	the	organization[223]|abstract[226]|organization[227]|time[228]	giv[223]|new[226]|giv[227]|acc[228]	nonsal[223]|nonsal[226]|nonsal[227]|nonsal[228]	_	_	_	
-43-29	3276-3280	time	organization[223]|abstract[226]|organization[227]|time[228]	giv[223]|new[226]|giv[227]|acc[228]	nonsal[223]|nonsal[226]|nonsal[227]|nonsal[228]	_	_	_	
+43-7	3159-3163	part	organization[223]	giv[223]	nonsal[223]	_	_	_	
+43-8	3164-3166	of	organization[223]	giv[223]	nonsal[223]	_	_	_	
+43-9	3167-3169	an	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-10	3170-3173	art	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-11	3174-3182	movement	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-12	3183-3190	towards	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-13	3191-3198	Realism	organization[223]|organization[224]|abstract[225]	giv[223]|giv[224]|new[225]	nonsal[223]|nonsal[224]|nonsal[225]	Realism_(arts)[225]	_	_	
+43-14	3199-3201	in	organization[223]|organization[224]|abstract[225]	giv[223]|giv[224]|new[225]	nonsal[223]|nonsal[224]|nonsal[225]	Realism_(arts)[225]	_	_	
+43-15	3202-3205	art	organization[223]|organization[224]|abstract[225]|abstract[226]	giv[223]|giv[224]|new[225]|new[226]	nonsal[223]|nonsal[224]|nonsal[225]|nonsal[226]	Realism_(arts)[225]	_	_	
+43-16	3206-3207	,	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-17	3208-3213	which	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-18	3214-3219	arose	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-19	3220-3222	in	organization[223]|organization[224]	giv[223]|giv[224]	nonsal[223]|nonsal[224]	_	_	_	
+43-20	3223-3226	the	organization[223]|organization[224]|abstract[227]	giv[223]|giv[224]|new[227]	nonsal[223]|nonsal[224]|nonsal[227]	_	_	_	
+43-21	3227-3234	context	organization[223]|organization[224]|abstract[227]	giv[223]|giv[224]|new[227]	nonsal[223]|nonsal[224]|nonsal[227]	_	_	_	
+43-22	3235-3237	of	organization[223]|organization[224]|abstract[227]	giv[223]|giv[224]|new[227]	nonsal[223]|nonsal[224]|nonsal[227]	_	_	_	
+43-23	3238-3241	the	organization[223]|organization[224]|abstract[227]|organization[228]	giv[223]|giv[224]|new[227]|giv[228]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]	_	_	_	
+43-24	3242-3250	dominant	organization[223]|organization[224]|abstract[227]|organization[228]	giv[223]|giv[224]|new[227]|giv[228]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]	_	_	_	
+43-25	3251-3259	Romantic	organization[223]|organization[224]|abstract[227]|organization[228]	giv[223]|giv[224]|new[227]|giv[228]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]	_	_	_	
+43-26	3260-3268	Movement	organization[223]|organization[224]|abstract[227]|organization[228]	giv[223]|giv[224]|new[227]|giv[228]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]	_	_	_	
+43-27	3269-3271	of	organization[223]|organization[224]|abstract[227]|organization[228]	giv[223]|giv[224]|new[227]|giv[228]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]	_	_	_	
+43-28	3272-3275	the	organization[223]|organization[224]|abstract[227]|organization[228]|time[229]	giv[223]|giv[224]|new[227]|giv[228]|acc[229]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]|nonsal[229]	_	_	_	
+43-29	3276-3280	time	organization[223]|organization[224]|abstract[227]|organization[228]|time[229]	giv[223]|giv[224]|new[227]|giv[228]|acc[229]	nonsal[223]|nonsal[224]|nonsal[227]|nonsal[228]|nonsal[229]	_	_	_	
 43-30	3281-3282	.	_	_	_	_	_	_	
 
 #Text=( considered collectively ) The followers of a particular doctrine ; a particular way of thinking or particular doctrine ; a school of thought .
@@ -753,234 +753,234 @@
 44-2	3285-3295	considered	_	_	_	_	_	_	
 44-3	3296-3308	collectively	_	_	_	_	_	_	
 44-4	3309-3310	)	_	_	_	_	_	_	
-44-5	3311-3314	The	person[229]	new[229]	nonsal[229]	_	_	_	
-44-6	3315-3324	followers	person[229]	new[229]	nonsal[229]	_	_	_	
-44-7	3325-3327	of	person[229]	new[229]	nonsal[229]	_	_	_	
-44-8	3328-3329	a	person[229]|abstract[230]	new[229]|new[230]	nonsal[229]|nonsal[230]	_	_	_	
-44-9	3330-3340	particular	person[229]|abstract[230]	new[229]|new[230]	nonsal[229]|nonsal[230]	_	_	_	
-44-10	3341-3349	doctrine	person[229]|abstract[230]	new[229]|new[230]	nonsal[229]|nonsal[230]	_	_	_	
+44-5	3311-3314	The	person[230]	new[230]	nonsal[230]	_	_	_	
+44-6	3315-3324	followers	person[230]	new[230]	nonsal[230]	_	_	_	
+44-7	3325-3327	of	person[230]	new[230]	nonsal[230]	_	_	_	
+44-8	3328-3329	a	person[230]|abstract[231]	new[230]|new[231]	nonsal[230]|nonsal[231]	_	_	_	
+44-9	3330-3340	particular	person[230]|abstract[231]	new[230]|new[231]	nonsal[230]|nonsal[231]	_	_	_	
+44-10	3341-3349	doctrine	person[230]|abstract[231]	new[230]|new[231]	nonsal[230]|nonsal[231]	_	_	_	
 44-11	3350-3351	;	_	_	_	_	_	_	
-44-12	3352-3353	a	abstract[231]	new[231]	nonsal[231]	_	_	_	
-44-13	3354-3364	particular	abstract[231]	new[231]	nonsal[231]	_	_	_	
-44-14	3365-3368	way	abstract[231]	new[231]	nonsal[231]	_	_	_	
-44-15	3369-3371	of	abstract[231]	new[231]	nonsal[231]	_	_	_	
-44-16	3372-3380	thinking	abstract[231]	new[231]	nonsal[231]	_	_	_	
+44-12	3352-3353	a	abstract[232]	new[232]	nonsal[232]	_	_	_	
+44-13	3354-3364	particular	abstract[232]	new[232]	nonsal[232]	_	_	_	
+44-14	3365-3368	way	abstract[232]	new[232]	nonsal[232]	_	_	_	
+44-15	3369-3371	of	abstract[232]	new[232]	nonsal[232]	_	_	_	
+44-16	3372-3380	thinking	abstract[232]	new[232]	nonsal[232]	_	_	_	
 44-17	3381-3383	or	_	_	_	_	_	_	
-44-18	3384-3394	particular	abstract[232]	new[232]	nonsal[232]	_	_	_	
-44-19	3395-3403	doctrine	abstract[232]	new[232]	nonsal[232]	_	_	_	
+44-18	3384-3394	particular	abstract[233]	new[233]	nonsal[233]	_	_	_	
+44-19	3395-3403	doctrine	abstract[233]	new[233]	nonsal[233]	_	_	_	
 44-20	3404-3405	;	_	_	_	_	_	_	
-44-21	3406-3407	a	abstract[233]	giv[233]	nonsal[233]	_	_	_	
-44-22	3408-3414	school	abstract[233]	giv[233]	nonsal[233]	_	_	_	
-44-23	3415-3417	of	abstract[233]	giv[233]	nonsal[233]	_	_	_	
-44-24	3418-3425	thought	abstract[233]	giv[233]	nonsal[233]	_	_	_	
+44-21	3406-3407	a	abstract[234]	giv[234]	nonsal[234]	_	_	_	
+44-22	3408-3414	school	abstract[234]	giv[234]	nonsal[234]	_	_	_	
+44-23	3415-3417	of	abstract[234]	giv[234]	nonsal[234]	_	_	_	
+44-24	3418-3425	thought	abstract[234]	giv[234]	nonsal[234]	_	_	_	
 44-25	3426-3427	.	_	_	_	_	_	_	
 
 #Text=These economists belong to the monetarist school .
-45-1	3428-3433	These	person[234]	new[234]	nonsal[234]	_	_	_	
-45-2	3434-3444	economists	person[234]	new[234]	nonsal[234]	_	_	_	
+45-1	3428-3433	These	person[235]	new[235]	nonsal[235]	_	_	_	
+45-2	3434-3444	economists	person[235]	new[235]	nonsal[235]	_	_	_	
 45-3	3445-3451	belong	_	_	_	_	_	_	
 45-4	3452-3454	to	_	_	_	_	_	_	
-45-5	3455-3458	the	organization[235]	giv[235]	nonsal[235]	_	_	_	
-45-6	3459-3469	monetarist	organization[235]	giv[235]	nonsal[235]	_	_	_	
-45-7	3470-3476	school	organization[235]	giv[235]	nonsal[235]	_	_	_	
+45-5	3455-3458	the	organization[236]	giv[236]	nonsal[236]	_	_	_	
+45-6	3459-3469	monetarist	organization[236]	giv[236]	nonsal[236]	_	_	_	
+45-7	3470-3476	school	organization[236]	giv[236]	nonsal[236]	_	_	_	
 45-8	3477-3478	.	_	_	_	_	_	_	
 
 #Text=The time during which classes are attended or in session in an educational institution .
-46-1	3479-3482	The	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-2	3483-3487	time	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-3	3488-3494	during	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-4	3495-3500	which	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-5	3501-3508	classes	time[236]|abstract[237]	giv[236]|new[237]	nonsal[236]|nonsal[237]	_	_	_	
-46-6	3509-3512	are	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-7	3513-3521	attended	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-8	3522-3524	or	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-9	3525-3527	in	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-10	3528-3535	session	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-11	3536-3538	in	time[236]	giv[236]	nonsal[236]	_	_	_	
-46-12	3539-3541	an	time[236]|organization[238]	giv[236]|giv[238]	nonsal[236]|nonsal[238]	_	coref	53-2[262_238]	
-46-13	3542-3553	educational	time[236]|organization[238]	giv[236]|giv[238]	nonsal[236]|nonsal[238]	_	_	_	
-46-14	3554-3565	institution	time[236]|organization[238]	giv[236]|giv[238]	nonsal[236]|nonsal[238]	_	_	_	
+46-1	3479-3482	The	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-2	3483-3487	time	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-3	3488-3494	during	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-4	3495-3500	which	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-5	3501-3508	classes	time[237]|abstract[238]	giv[237]|new[238]	nonsal[237]|nonsal[238]	_	_	_	
+46-6	3509-3512	are	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-7	3513-3521	attended	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-8	3522-3524	or	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-9	3525-3527	in	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-10	3528-3535	session	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-11	3536-3538	in	time[237]	giv[237]	nonsal[237]	_	_	_	
+46-12	3539-3541	an	time[237]|organization[239]	giv[237]|giv[239]	nonsal[237]|nonsal[239]	_	coref	53-2[263_239]	
+46-13	3542-3553	educational	time[237]|organization[239]	giv[237]|giv[239]	nonsal[237]|nonsal[239]	_	_	_	
+46-14	3554-3565	institution	time[237]|organization[239]	giv[237]|giv[239]	nonsal[237]|nonsal[239]	_	_	_	
 46-15	3566-3567	.	_	_	_	_	_	_	
 
 #Text=I 'll see you after school .
-47-1	3568-3569	I	person[239]	giv[239]	nonsal[239]	_	_	_	
+47-1	3568-3569	I	person[240]	giv[240]	nonsal[240]	_	_	_	
 47-2	3570-3573	'll	_	_	_	_	_	_	
 47-3	3574-3577	see	_	_	_	_	_	_	
-47-4	3578-3581	you	person[240]	acc[240]	nonsal[240]	_	_	_	
+47-4	3578-3581	you	person[241]	acc[241]	nonsal[241]	_	_	_	
 47-5	3582-3587	after	_	_	_	_	_	_	
-47-6	3588-3594	school	time[241]	giv[241]	nonsal[241]	_	_	_	
+47-6	3588-3594	school	time[242]	giv[242]	nonsal[242]	_	_	_	
 47-7	3595-3596	.	_	_	_	_	_	_	
 
 #Text=The room or hall in English universities where the examinations for degrees and honours are held .
-48-1	3597-3600	The	place[242]	new[242]	nonsal[242]	_	_	_	
-48-2	3601-3605	room	place[242]	new[242]	nonsal[242]	_	_	_	
-48-3	3606-3608	or	place[242]	new[242]	nonsal[242]	_	_	_	
-48-4	3609-3613	hall	place[242]	new[242]	nonsal[242]	_	_	_	
-48-5	3614-3616	in	place[242]	new[242]	nonsal[242]	_	_	_	
-48-6	3617-3624	English	place[242]|organization[243]	new[242]|new[243]	nonsal[242]|nonsal[243]	_	_	_	
-48-7	3625-3637	universities	place[242]|organization[243]	new[242]|new[243]	nonsal[242]|nonsal[243]	_	_	_	
-48-8	3638-3643	where	place[242]	new[242]	nonsal[242]	_	_	_	
-48-9	3644-3647	the	place[242]|event[244]	new[242]|new[244]	nonsal[242]|nonsal[244]	_	_	_	
-48-10	3648-3660	examinations	place[242]|event[244]	new[242]|new[244]	nonsal[242]|nonsal[244]	_	_	_	
-48-11	3661-3664	for	place[242]|event[244]	new[242]|new[244]	nonsal[242]|nonsal[244]	_	_	_	
-48-12	3665-3672	degrees	place[242]|event[244]|abstract[245]	new[242]|new[244]|new[245]	nonsal[242]|nonsal[244]|nonsal[245]	_	_	_	
-48-13	3673-3676	and	place[242]|event[244]	new[242]|new[244]	nonsal[242]|nonsal[244]	_	_	_	
-48-14	3677-3684	honours	place[242]|event[244]|abstract[246]	new[242]|new[244]|new[246]	nonsal[242]|nonsal[244]|nonsal[246]	_	_	_	
-48-15	3685-3688	are	place[242]|event[244]	new[242]|new[244]	nonsal[242]|nonsal[244]	_	_	_	
-48-16	3689-3693	held	place[242]|event[244]	new[242]|new[244]	nonsal[242]|nonsal[244]	_	_	_	
+48-1	3597-3600	The	place[243]	new[243]	nonsal[243]	_	_	_	
+48-2	3601-3605	room	place[243]	new[243]	nonsal[243]	_	_	_	
+48-3	3606-3608	or	place[243]	new[243]	nonsal[243]	_	_	_	
+48-4	3609-3613	hall	place[243]	new[243]	nonsal[243]	_	_	_	
+48-5	3614-3616	in	place[243]	new[243]	nonsal[243]	_	_	_	
+48-6	3617-3624	English	place[243]|organization[244]	new[243]|new[244]	nonsal[243]|nonsal[244]	_	_	_	
+48-7	3625-3637	universities	place[243]|organization[244]	new[243]|new[244]	nonsal[243]|nonsal[244]	_	_	_	
+48-8	3638-3643	where	place[243]	new[243]	nonsal[243]	_	_	_	
+48-9	3644-3647	the	place[243]|event[245]	new[243]|new[245]	nonsal[243]|nonsal[245]	_	_	_	
+48-10	3648-3660	examinations	place[243]|event[245]	new[243]|new[245]	nonsal[243]|nonsal[245]	_	_	_	
+48-11	3661-3664	for	place[243]|event[245]	new[243]|new[245]	nonsal[243]|nonsal[245]	_	_	_	
+48-12	3665-3672	degrees	place[243]|event[245]|abstract[246]	new[243]|new[245]|new[246]	nonsal[243]|nonsal[245]|nonsal[246]	_	_	_	
+48-13	3673-3676	and	place[243]|event[245]	new[243]|new[245]	nonsal[243]|nonsal[245]	_	_	_	
+48-14	3677-3684	honours	place[243]|event[245]|abstract[247]	new[243]|new[245]|new[247]	nonsal[243]|nonsal[245]|nonsal[247]	_	_	_	
+48-15	3685-3688	are	place[243]|event[245]	new[243]|new[245]	nonsal[243]|nonsal[245]	_	_	_	
+48-16	3689-3693	held	place[243]|event[245]	new[243]|new[245]	nonsal[243]|nonsal[245]	_	_	_	
 48-17	3694-3695	.	_	_	_	_	_	_	
 
 #Text=The canons , precepts , or body of opinion or practice , sanctioned by the authority of a particular class or age .
-49-1	3696-3699	The	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-2	3700-3706	canons	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-3	3707-3708	,	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-4	3709-3717	precepts	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-5	3718-3719	,	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-6	3720-3722	or	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-7	3723-3727	body	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-8	3728-3730	of	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-9	3731-3738	opinion	abstract[247]|abstract[248]	new[247]|new[248]	nonsal[247]|nonsal[248]	_	_	_	
-49-10	3739-3741	or	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-11	3742-3750	practice	abstract[247]|abstract[249]	new[247]|new[249]	nonsal[247]|nonsal[249]	_	_	_	
-49-12	3751-3752	,	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-13	3753-3763	sanctioned	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-14	3764-3766	by	abstract[247]	new[247]	nonsal[247]	_	_	_	
-49-15	3767-3770	the	abstract[247]|abstract[250]	new[247]|new[250]	nonsal[247]|nonsal[250]	_	_	_	
-49-16	3771-3780	authority	abstract[247]|abstract[250]	new[247]|new[250]	nonsal[247]|nonsal[250]	_	_	_	
-49-17	3781-3783	of	abstract[247]|abstract[250]	new[247]|new[250]	nonsal[247]|nonsal[250]	_	_	_	
-49-18	3784-3785	a	abstract[247]|abstract[250]|abstract[251]	new[247]|new[250]|new[251]	nonsal[247]|nonsal[250]|nonsal[251]	_	_	_	
-49-19	3786-3796	particular	abstract[247]|abstract[250]|abstract[251]	new[247]|new[250]|new[251]	nonsal[247]|nonsal[250]|nonsal[251]	_	_	_	
-49-20	3797-3802	class	abstract[247]|abstract[250]|abstract[251]	new[247]|new[250]|new[251]	nonsal[247]|nonsal[250]|nonsal[251]	_	_	_	
-49-21	3803-3805	or	abstract[247]|abstract[250]|abstract[251]	new[247]|new[250]|new[251]	nonsal[247]|nonsal[250]|nonsal[251]	_	_	_	
-49-22	3806-3809	age	abstract[247]|abstract[250]|abstract[251]	new[247]|new[250]|new[251]	nonsal[247]|nonsal[250]|nonsal[251]	_	_	_	
+49-1	3696-3699	The	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-2	3700-3706	canons	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-3	3707-3708	,	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-4	3709-3717	precepts	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-5	3718-3719	,	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-6	3720-3722	or	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-7	3723-3727	body	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-8	3728-3730	of	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-9	3731-3738	opinion	abstract[248]|abstract[249]	new[248]|new[249]	nonsal[248]|nonsal[249]	_	_	_	
+49-10	3739-3741	or	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-11	3742-3750	practice	abstract[248]|abstract[250]	new[248]|new[250]	nonsal[248]|nonsal[250]	_	_	_	
+49-12	3751-3752	,	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-13	3753-3763	sanctioned	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-14	3764-3766	by	abstract[248]	new[248]	nonsal[248]	_	_	_	
+49-15	3767-3770	the	abstract[248]|abstract[251]	new[248]|new[251]	nonsal[248]|nonsal[251]	_	_	_	
+49-16	3771-3780	authority	abstract[248]|abstract[251]	new[248]|new[251]	nonsal[248]|nonsal[251]	_	_	_	
+49-17	3781-3783	of	abstract[248]|abstract[251]	new[248]|new[251]	nonsal[248]|nonsal[251]	_	_	_	
+49-18	3784-3785	a	abstract[248]|abstract[251]|abstract[252]	new[248]|new[251]|new[252]	nonsal[248]|nonsal[251]|nonsal[252]	_	_	_	
+49-19	3786-3796	particular	abstract[248]|abstract[251]|abstract[252]	new[248]|new[251]|new[252]	nonsal[248]|nonsal[251]|nonsal[252]	_	_	_	
+49-20	3797-3802	class	abstract[248]|abstract[251]|abstract[252]	new[248]|new[251]|new[252]	nonsal[248]|nonsal[251]|nonsal[252]	_	_	_	
+49-21	3803-3805	or	abstract[248]|abstract[251]|abstract[252]	new[248]|new[251]|new[252]	nonsal[248]|nonsal[251]|nonsal[252]	_	_	_	
+49-22	3806-3809	age	abstract[248]|abstract[251]|abstract[252]	new[248]|new[251]|new[252]	nonsal[248]|nonsal[251]|nonsal[252]	_	_	_	
 49-23	3810-3811	.	_	_	_	_	_	_	
 
 #Text=He was a gentleman of the old school .
-50-1	3812-3814	He	person[252]	acc[252]	nonsal[252]	_	coref	50-3[253_252]	
+50-1	3812-3814	He	person[253]	acc[253]	nonsal[253]	_	coref	50-3[254_253]	
 50-2	3815-3818	was	_	_	_	_	_	_	
-50-3	3819-3820	a	person[253]	giv[253]	nonsal[253]	_	_	_	
-50-4	3821-3830	gentleman	person[253]	giv[253]	nonsal[253]	_	_	_	
-50-5	3831-3833	of	person[253]	giv[253]	nonsal[253]	_	_	_	
-50-6	3834-3837	the	person[253]|abstract[254]	giv[253]|giv[254]	nonsal[253]|nonsal[254]	_	_	_	
-50-7	3838-3841	old	person[253]|abstract[254]	giv[253]|giv[254]	nonsal[253]|nonsal[254]	_	_	_	
-50-8	3842-3848	school	person[253]|abstract[254]	giv[253]|giv[254]	nonsal[253]|nonsal[254]	_	_	_	
+50-3	3819-3820	a	person[254]	giv[254]	nonsal[254]	_	_	_	
+50-4	3821-3830	gentleman	person[254]	giv[254]	nonsal[254]	_	_	_	
+50-5	3831-3833	of	person[254]	giv[254]	nonsal[254]	_	_	_	
+50-6	3834-3837	the	person[254]|abstract[255]	giv[254]|giv[255]	nonsal[254]|nonsal[255]	_	_	_	
+50-7	3838-3841	old	person[254]|abstract[255]	giv[254]|giv[255]	nonsal[254]|nonsal[255]	_	_	_	
+50-8	3842-3848	school	person[254]|abstract[255]	giv[254]|giv[255]	nonsal[254]|nonsal[255]	_	_	_	
 50-9	3849-3850	.	_	_	_	_	_	_	
 
 #Text=An establishment offering specialized instruction , as for driving , cooking , typing , coding , etc.
-51-1	3851-3853	An	organization[255]	new[255]	nonsal[255]	_	_	_	
-51-2	3854-3867	establishment	organization[255]	new[255]	nonsal[255]	_	_	_	
-51-3	3868-3876	offering	organization[255]	new[255]	nonsal[255]	_	_	_	
-51-4	3877-3888	specialized	organization[255]|abstract[256]	new[255]|new[256]	nonsal[255]|nonsal[256]	_	_	_	
-51-5	3889-3900	instruction	organization[255]|abstract[256]	new[255]|new[256]	nonsal[255]|nonsal[256]	_	_	_	
+51-1	3851-3853	An	organization[256]	new[256]	nonsal[256]	_	_	_	
+51-2	3854-3867	establishment	organization[256]	new[256]	nonsal[256]	_	_	_	
+51-3	3868-3876	offering	organization[256]	new[256]	nonsal[256]	_	_	_	
+51-4	3877-3888	specialized	organization[256]|abstract[257]	new[256]|new[257]	nonsal[256]|nonsal[257]	_	_	_	
+51-5	3889-3900	instruction	organization[256]|abstract[257]	new[256]|new[257]	nonsal[256]|nonsal[257]	_	_	_	
 51-6	3901-3902	,	_	_	_	_	_	_	
 51-7	3903-3905	as	_	_	_	_	_	_	
 51-8	3906-3909	for	_	_	_	_	_	_	
-51-9	3910-3917	driving	event[257]	new[257]	nonsal[257]	_	_	_	
+51-9	3910-3917	driving	event[258]	new[258]	nonsal[258]	_	_	_	
 51-10	3918-3919	,	_	_	_	_	_	_	
-51-11	3920-3927	cooking	event[258]	new[258]	nonsal[258]	_	_	_	
+51-11	3920-3927	cooking	event[259]	new[259]	nonsal[259]	_	_	_	
 51-12	3928-3929	,	_	_	_	_	_	_	
-51-13	3930-3936	typing	event[259]	new[259]	nonsal[259]	_	_	_	
+51-13	3930-3936	typing	event[260]	new[260]	nonsal[260]	_	_	_	
 51-14	3937-3938	,	_	_	_	_	_	_	
-51-15	3939-3945	coding	event[260]	new[260]	nonsal[260]	_	_	_	
+51-15	3939-3945	coding	event[261]	new[261]	nonsal[261]	_	_	_	
 51-16	3946-3947	,	_	_	_	_	_	_	
 51-17	3948-3952	etc.	_	_	_	_	_	_	
 
 #Text=Synonyms
-52-1	3953-3961	Synonyms	organization[261]	new[261]	nonsal[261]	_	_	_	
+52-1	3953-3961	Synonyms	organization[262]	new[262]	nonsal[262]	_	_	_	
 
 #Text=( institution dedicated to teaching and learning ) : academy , college , university
 53-1	3962-3963	(	_	_	_	_	_	_	
-53-2	3964-3975	institution	organization[262]	giv[262]	nonsal[262]	_	coref	54-5[269_262]	
-53-3	3976-3985	dedicated	organization[262]	giv[262]	nonsal[262]	_	_	_	
-53-4	3986-3988	to	organization[262]	giv[262]	nonsal[262]	_	_	_	
-53-5	3989-3997	teaching	organization[262]|abstract[263]	giv[262]|giv[263]	nonsal[262]|nonsal[263]	_	_	_	
-53-6	3998-4001	and	organization[262]	giv[262]	nonsal[262]	_	_	_	
-53-7	4002-4010	learning	organization[262]|abstract[264]	giv[262]|new[264]	nonsal[262]|nonsal[264]	_	_	_	
+53-2	3964-3975	institution	organization[263]	giv[263]	nonsal[263]	_	coref	54-5[270_263]	
+53-3	3976-3985	dedicated	organization[263]	giv[263]	nonsal[263]	_	_	_	
+53-4	3986-3988	to	organization[263]	giv[263]	nonsal[263]	_	_	_	
+53-5	3989-3997	teaching	organization[263]|abstract[264]	giv[263]|giv[264]	nonsal[263]|nonsal[264]	_	_	_	
+53-6	3998-4001	and	organization[263]	giv[263]	nonsal[263]	_	_	_	
+53-7	4002-4010	learning	organization[263]|abstract[265]	giv[263]|new[265]	nonsal[263]|nonsal[265]	_	_	_	
 53-8	4011-4012	)	_	_	_	_	_	_	
 53-9	4013-4014	:	_	_	_	_	_	_	
-53-10	4015-4022	academy	organization[265]	new[265]	nonsal[265]	_	_	_	
+53-10	4015-4022	academy	organization[266]	new[266]	nonsal[266]	_	_	_	
 53-11	4023-4024	,	_	_	_	_	_	_	
-53-12	4025-4032	college	organization[266]	giv[266]	nonsal[266]	_	coref	54-10[270_266]	
+53-12	4025-4032	college	organization[267]	giv[267]	nonsal[267]	_	coref	54-10[271_267]	
 53-13	4033-4034	,	_	_	_	_	_	_	
-53-14	4035-4045	university	organization[267]	giv[267]	nonsal[267]	_	coref	58-19[284_267]	
+53-14	4035-4045	university	organization[268]	giv[268]	nonsal[268]	_	coref	58-19[285_268]	
 
 #Text=( organizational unity within an educational institution ) : college , department , faculty , institute
 54-1	4046-4047	(	_	_	_	_	_	_	
-54-2	4048-4062	organizational	organization[268]	new[268]	nonsal[268]	_	_	_	
-54-3	4063-4068	unity	organization[268]	new[268]	nonsal[268]	_	_	_	
-54-4	4069-4075	within	organization[268]	new[268]	nonsal[268]	_	_	_	
-54-5	4076-4078	an	organization[268]|organization[269]	new[268]|giv[269]	nonsal[268]|nonsal[269]	_	coref	56-5[276_269]	
-54-6	4079-4090	educational	organization[268]|organization[269]	new[268]|giv[269]	nonsal[268]|nonsal[269]	_	_	_	
-54-7	4091-4102	institution	organization[268]|organization[269]	new[268]|giv[269]	nonsal[268]|nonsal[269]	_	_	_	
+54-2	4048-4062	organizational	organization[269]	new[269]	nonsal[269]	_	_	_	
+54-3	4063-4068	unity	organization[269]	new[269]	nonsal[269]	_	_	_	
+54-4	4069-4075	within	organization[269]	new[269]	nonsal[269]	_	_	_	
+54-5	4076-4078	an	organization[269]|organization[270]	new[269]|giv[270]	nonsal[269]|nonsal[270]	_	coref	56-5[277_270]	
+54-6	4079-4090	educational	organization[269]|organization[270]	new[269]|giv[270]	nonsal[269]|nonsal[270]	_	_	_	
+54-7	4091-4102	institution	organization[269]|organization[270]	new[269]|giv[270]	nonsal[269]|nonsal[270]	_	_	_	
 54-8	4103-4104	)	_	_	_	_	_	_	
 54-9	4105-4106	:	_	_	_	_	_	_	
-54-10	4107-4114	college	organization[270]	giv[270]	nonsal[270]	_	coref	58-15[282_270]	
+54-10	4107-4114	college	organization[271]	giv[271]	nonsal[271]	_	coref	58-15[283_271]	
 54-11	4115-4116	,	_	_	_	_	_	_	
-54-12	4117-4127	department	organization[271]	giv[271]	nonsal[271]	_	_	_	
+54-12	4117-4127	department	organization[272]	giv[272]	nonsal[272]	_	_	_	
 54-13	4128-4129	,	_	_	_	_	_	_	
-54-14	4130-4137	faculty	organization[272]	new[272]	nonsal[272]	_	_	_	
+54-14	4130-4137	faculty	organization[273]	new[273]	nonsal[273]	_	_	_	
 54-15	4138-4139	,	_	_	_	_	_	_	
-54-16	4140-4149	institute	organization[273]	new[273]	nonsal[273]	_	_	_	
+54-16	4140-4149	institute	organization[274]	new[274]	nonsal[274]	_	_	_	
 
 #Text=Hyponyms
-55-1	4150-4158	Hyponyms	abstract[274]	new[274]	nonsal[274]	_	_	_	
+55-1	4150-4158	Hyponyms	abstract[275]	new[275]	nonsal[275]	_	_	_	
 
 #Text=See also Thesaurus : school
 56-1	4159-4162	See	_	_	_	_	_	_	
 56-2	4163-4167	also	_	_	_	_	_	_	
-56-3	4168-4177	Thesaurus	abstract[275]	new[275]	nonsal[275]	_	_	_	
+56-3	4168-4177	Thesaurus	abstract[276]	new[276]	nonsal[276]	_	_	_	
 56-4	4178-4179	:	_	_	_	_	_	_	
-56-5	4180-4186	school	organization[276]	giv[276]	nonsal[276]	_	coref	58-2[278_276]	
+56-5	4180-4186	school	organization[277]	giv[277]	nonsal[277]	_	coref	58-2[279_277]	
 
 #Text=Coordinate terms
-57-1	4187-4197	Coordinate	abstract[277]	new[277]	nonsal[277]	_	_	_	
-57-2	4198-4203	terms	abstract[277]	new[277]	nonsal[277]	_	_	_	
+57-1	4187-4197	Coordinate	abstract[278]	new[278]	nonsal[278]	_	_	_	
+57-2	4198-4203	terms	abstract[278]	new[278]	nonsal[278]	_	_	_	
 
 #Text=( institution providing primary and secondary education ) : nursery school , kindergarten , college , polytechnic , university
 58-1	4204-4205	(	_	_	_	_	_	_	
-58-2	4206-4217	institution	organization[278]	giv[278]	nonsal[278]	_	coref	61-19[293_278]	
-58-3	4218-4227	providing	organization[278]	giv[278]	nonsal[278]	_	_	_	
-58-4	4228-4235	primary	organization[278]|abstract[279]	giv[278]|new[279]	nonsal[278]|nonsal[279]	_	_	_	
-58-5	4236-4239	and	organization[278]|abstract[279]	giv[278]|new[279]	nonsal[278]|nonsal[279]	_	_	_	
-58-6	4240-4249	secondary	organization[278]|abstract[279]	giv[278]|new[279]	nonsal[278]|nonsal[279]	_	_	_	
-58-7	4250-4259	education	organization[278]|abstract[279]	giv[278]|new[279]	nonsal[278]|nonsal[279]	_	_	_	
+58-2	4206-4217	institution	organization[279]	giv[279]	nonsal[279]	_	coref	61-19[294_279]	
+58-3	4218-4227	providing	organization[279]	giv[279]	nonsal[279]	_	_	_	
+58-4	4228-4235	primary	organization[279]|abstract[280]	giv[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_	
+58-5	4236-4239	and	organization[279]|abstract[280]	giv[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_	
+58-6	4240-4249	secondary	organization[279]|abstract[280]	giv[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_	
+58-7	4250-4259	education	organization[279]|abstract[280]	giv[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_	
 58-8	4260-4261	)	_	_	_	_	_	_	
 58-9	4262-4263	:	_	_	_	_	_	_	
-58-10	4264-4271	nursery	organization[280]	giv[280]	nonsal[280]	_	_	_	
-58-11	4272-4278	school	organization[280]	giv[280]	nonsal[280]	_	_	_	
+58-10	4264-4271	nursery	organization[281]	giv[281]	nonsal[281]	_	_	_	
+58-11	4272-4278	school	organization[281]	giv[281]	nonsal[281]	_	_	_	
 58-12	4279-4280	,	_	_	_	_	_	_	
-58-13	4281-4293	kindergarten	organization[281]	new[281]	nonsal[281]	_	_	_	
+58-13	4281-4293	kindergarten	organization[282]	new[282]	nonsal[282]	_	_	_	
 58-14	4294-4295	,	_	_	_	_	_	_	
-58-15	4296-4303	college	organization[282]	giv[282]	nonsal[282]	_	_	_	
+58-15	4296-4303	college	organization[283]	giv[283]	nonsal[283]	_	_	_	
 58-16	4304-4305	,	_	_	_	_	_	_	
-58-17	4306-4317	polytechnic	organization[283]	new[283]	nonsal[283]	_	_	_	
+58-17	4306-4317	polytechnic	organization[284]	new[284]	nonsal[284]	_	_	_	
 58-18	4318-4319	,	_	_	_	_	_	_	
-58-19	4320-4330	university	organization[284]	giv[284]	nonsal[284]	_	_	_	
+58-19	4320-4330	university	organization[285]	giv[285]	nonsal[285]	_	_	_	
 
 #Text=Verb
-59-1	4331-4335	Verb	event[285]	giv[285]	sal[285]	_	coref	60-1[286_285]	
+59-1	4331-4335	Verb	event[286]	giv[286]	sal[286]	_	coref	60-1[287_286]	
 
 #Text=school ( third - person singular simple present schools , present participle schooling , simple past and past participle schooled )
-60-1	4336-4342	school	event[286]	giv[286]	nonsal[286]	_	_	_	
+60-1	4336-4342	school	event[287]	giv[287]	nonsal[287]	_	_	_	
 60-2	4343-4344	(	_	_	_	_	_	_	
-60-3	4345-4350	third	abstract[287]	giv[287]	nonsal[287]	_	coref	60-9[288_287]	
-60-4	4351-4352	-	abstract[287]	giv[287]	nonsal[287]	_	_	_	
-60-5	4353-4359	person	abstract[287]	giv[287]	nonsal[287]	_	_	_	
-60-6	4360-4368	singular	abstract[287]	giv[287]	nonsal[287]	_	_	_	
-60-7	4369-4375	simple	abstract[287]	giv[287]	nonsal[287]	_	_	_	
-60-8	4376-4383	present	abstract[287]	giv[287]	nonsal[287]	_	_	_	
-60-9	4384-4391	schools	abstract[288]	new[288]	nonsal[288]	_	_	_	
+60-3	4345-4350	third	abstract[288]	giv[288]	nonsal[288]	_	coref	60-9[289_288]	
+60-4	4351-4352	-	abstract[288]	giv[288]	nonsal[288]	_	_	_	
+60-5	4353-4359	person	abstract[288]	giv[288]	nonsal[288]	_	_	_	
+60-6	4360-4368	singular	abstract[288]	giv[288]	nonsal[288]	_	_	_	
+60-7	4369-4375	simple	abstract[288]	giv[288]	nonsal[288]	_	_	_	
+60-8	4376-4383	present	abstract[288]	giv[288]	nonsal[288]	_	_	_	
+60-9	4384-4391	schools	abstract[289]	new[289]	nonsal[289]	_	_	_	
 60-10	4392-4393	,	_	_	_	_	_	_	
-60-11	4394-4401	present	abstract[289]	giv[289]	nonsal[289]	_	coref	60-13[290_289]	
-60-12	4402-4412	participle	abstract[289]	giv[289]	nonsal[289]	_	_	_	
-60-13	4413-4422	schooling	abstract[290]	new[290]	nonsal[290]	_	_	_	
+60-11	4394-4401	present	abstract[290]	giv[290]	nonsal[290]	_	coref	60-13[291_290]	
+60-12	4402-4412	participle	abstract[290]	giv[290]	nonsal[290]	_	_	_	
+60-13	4413-4422	schooling	abstract[291]	new[291]	nonsal[291]	_	_	_	
 60-14	4423-4424	,	_	_	_	_	_	_	
-60-15	4425-4431	simple	abstract[291]	giv[291]	nonsal[291]	_	coref	60-20[292_291]	
-60-16	4432-4436	past	abstract[291]	giv[291]	nonsal[291]	_	_	_	
-60-17	4437-4440	and	abstract[291]	giv[291]	nonsal[291]	_	_	_	
-60-18	4441-4445	past	abstract[291]	giv[291]	nonsal[291]	_	_	_	
-60-19	4446-4456	participle	abstract[291]	giv[291]	nonsal[291]	_	_	_	
-60-20	4457-4465	schooled	abstract[292]	new[292]	nonsal[292]	_	_	_	
+60-15	4425-4431	simple	abstract[292]	giv[292]	nonsal[292]	_	coref	60-20[293_292]	
+60-16	4432-4436	past	abstract[292]	giv[292]	nonsal[292]	_	_	_	
+60-17	4437-4440	and	abstract[292]	giv[292]	nonsal[292]	_	_	_	
+60-18	4441-4445	past	abstract[292]	giv[292]	nonsal[292]	_	_	_	
+60-19	4446-4456	participle	abstract[292]	giv[292]	nonsal[292]	_	_	_	
+60-20	4457-4465	schooled	abstract[293]	new[293]	nonsal[293]	_	_	_	
 60-21	4466-4467	)	_	_	_	_	_	_	
 
 #Text=( transitive ) To educate , teach , or train ( often , but not necessarily , in a school ) .
@@ -1002,20 +1002,20 @@
 61-16	4531-4542	necessarily	_	_	_	_	_	_	
 61-17	4543-4544	,	_	_	_	_	_	_	
 61-18	4545-4547	in	_	_	_	_	_	_	
-61-19	4548-4549	a	organization[293]	giv[293]	nonsal[293]	_	_	_	
-61-20	4550-4556	school	organization[293]	giv[293]	nonsal[293]	_	_	_	
+61-19	4548-4549	a	organization[294]	giv[294]	nonsal[294]	_	_	_	
+61-20	4550-4556	school	organization[294]	giv[294]	nonsal[294]	_	_	_	
 61-21	4557-4558	)	_	_	_	_	_	_	
 61-22	4559-4560	.	_	_	_	_	_	_	
 
 #Text=Many future prime ministers were schooled in Eton .
-62-1	4561-4565	Many	person[294]	new[294]	nonsal[294]	_	_	_	
-62-2	4566-4572	future	person[294]	new[294]	nonsal[294]	_	_	_	
-62-3	4573-4578	prime	person[294]	new[294]	nonsal[294]	_	_	_	
-62-4	4579-4588	ministers	person[294]	new[294]	nonsal[294]	_	_	_	
+62-1	4561-4565	Many	person[295]	new[295]	nonsal[295]	_	_	_	
+62-2	4566-4572	future	person[295]	new[295]	nonsal[295]	_	_	_	
+62-3	4573-4578	prime	person[295]	new[295]	nonsal[295]	_	_	_	
+62-4	4579-4588	ministers	person[295]	new[295]	nonsal[295]	_	_	_	
 62-5	4589-4593	were	_	_	_	_	_	_	
 62-6	4594-4602	schooled	_	_	_	_	_	_	
 62-7	4603-4605	in	_	_	_	_	_	_	
-62-8	4606-4610	Eton	place[295]	new[295]	nonsal[295]	Eton_College[295]	_	_	
+62-8	4606-4610	Eton	place[296]	new[296]	nonsal[296]	Eton_College[296]	_	_	
 62-9	4611-4612	.	_	_	_	_	_	_	
 
 #Text=( transitive ) To defeat emphatically , to teach an opponent a harsh lesson .
@@ -1028,11 +1028,11 @@
 63-7	4651-4652	,	_	_	_	_	_	_	
 63-8	4653-4655	to	_	_	_	_	_	_	
 63-9	4656-4661	teach	_	_	_	_	_	_	
-63-10	4662-4664	an	person[296]	new[296]	nonsal[296]	_	_	_	
-63-11	4665-4673	opponent	person[296]	new[296]	nonsal[296]	_	_	_	
-63-12	4674-4675	a	abstract[297]	new[297]	nonsal[297]	_	_	_	
-63-13	4676-4681	harsh	abstract[297]	new[297]	nonsal[297]	_	_	_	
-63-14	4682-4688	lesson	abstract[297]	new[297]	nonsal[297]	_	_	_	
+63-10	4662-4664	an	person[297]	new[297]	nonsal[297]	_	_	_	
+63-11	4665-4673	opponent	person[297]	new[297]	nonsal[297]	_	_	_	
+63-12	4674-4675	a	abstract[298]	new[298]	nonsal[298]	_	_	_	
+63-13	4676-4681	harsh	abstract[298]	new[298]	nonsal[298]	_	_	_	
+63-14	4682-4688	lesson	abstract[298]	new[298]	nonsal[298]	_	_	_	
 63-15	4689-4690	.	_	_	_	_	_	_	
 
 #Text=( transitive ) To control , or compose , one 's expression .
@@ -1045,25 +1045,25 @@
 64-7	4719-4721	or	_	_	_	_	_	_	
 64-8	4722-4729	compose	_	_	_	_	_	_	
 64-9	4730-4731	,	_	_	_	_	_	_	
-64-10	4732-4735	one	abstract[298]|person[299]	new[298]|giv[299]	nonsal[298]|nonsal[299]	_	_	_	
-64-11	4736-4738	's	abstract[298]|person[299]	new[298]|giv[299]	nonsal[298]|nonsal[299]	_	_	_	
-64-12	4739-4749	expression	abstract[298]	new[298]	nonsal[298]	_	_	_	
+64-10	4732-4735	one	abstract[299]|person[300]	new[299]|giv[300]	nonsal[299]|nonsal[300]	_	_	_	
+64-11	4736-4738	's	abstract[299]|person[300]	new[299]|giv[300]	nonsal[299]|nonsal[300]	_	_	_	
+64-12	4739-4749	expression	abstract[299]	new[299]	nonsal[299]	_	_	_	
 64-13	4750-4751	.	_	_	_	_	_	_	
 
 #Text=She took care to school her expression , not giving away any of her feelings .
-65-1	4752-4755	She	person[300]	giv[300]	nonsal[300]	_	coref	65-6[302_300]	
+65-1	4752-4755	She	person[301]	giv[301]	nonsal[301]	_	coref	65-6[303_301]	
 65-2	4756-4760	took	_	_	_	_	_	_	
 65-3	4761-4765	care	_	_	_	_	_	_	
 65-4	4766-4768	to	_	_	_	_	_	_	
 65-5	4769-4775	school	_	_	_	_	_	_	
-65-6	4776-4779	her	abstract[301]|person[302]	giv[301]|giv[302]	nonsal[301]|nonsal[302]	_	coref	65-14[304_302]	
-65-7	4780-4790	expression	abstract[301]	giv[301]	nonsal[301]	_	_	_	
+65-6	4776-4779	her	abstract[302]|person[303]	giv[302]|giv[303]	nonsal[302]|nonsal[303]	_	coref	65-14[305_303]	
+65-7	4780-4790	expression	abstract[302]	giv[302]	nonsal[302]	_	_	_	
 65-8	4791-4792	,	_	_	_	_	_	_	
 65-9	4793-4796	not	_	_	_	_	_	_	
 65-10	4797-4803	giving	_	_	_	_	_	_	
 65-11	4804-4808	away	_	_	_	_	_	_	
 65-12	4809-4812	any	_	_	_	_	_	_	
 65-13	4813-4815	of	_	_	_	_	_	_	
-65-14	4816-4819	her	abstract[303]|person[304]	new[303]|giv[304]	nonsal[303]|nonsal[304]	_	_	_	
-65-15	4820-4828	feelings	abstract[303]	new[303]	nonsal[303]	_	_	_	
+65-14	4816-4819	her	abstract[304]|person[305]	new[304]|giv[305]	nonsal[304]|nonsal[305]	_	_	_	
+65-15	4820-4828	feelings	abstract[304]	new[304]	nonsal[304]	_	_	_	
 65-16	4829-4830	.	_	_	_	_	_	_	

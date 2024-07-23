@@ -203,8 +203,8 @@
 		<segment id="153" parent="152" relname="purpose-attribute">to perform its obligations under this Service Agreement or a party 's costs / revenues with respect to the services under this Service Agreement ;</segment>
 		<segment id="154" parent="289" relname="span">v) Upon direction to a party from any regulatory authority or National Automated Clearing House Association</segment>
 		<segment id="155" parent="154" relname="purpose-attribute">to cease or materially limit the exercise or performance of such party 's rights or obligations under this Service Agreement ;</segment>
-		<segment id="156" parent="284" relname="joint-disjunction">vi) If there shall have occurred a material adverse change in the financial condition of the other party ;</segment>
-		<segment id="157" parent="304" relname="span">or vii) Upon a force majeure event</segment>
+		<segment id="156" parent="284" relname="joint-disjunction">vi) If there shall have occurred a material adverse change in the financial condition of the other party ; or</segment>
+		<segment id="157" parent="304" relname="span">vii) Upon a force majeure event</segment>
 		<segment id="158" parent="157" relname="elaboration-attribute">that materially prevents or impedes a party from performing its obligations hereunder for a period of more than 10 business days .</segment>
 		<segment id="159" parent="296" relname="joint-other">StartEngine Crowdfunding , Inc.</segment>
 		<segment id="160" parent="161" relname="organization-preparation">By :</segment>
