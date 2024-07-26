@@ -8,7 +8,7 @@
 4	and	_	_	_	_	5	cc	_	_
 5	many	_	_	_	_	3	conj	_	_
 6	a	_	_	_	_	7	det	_	_
-7	year	_	_	_	_	8	obl:tmod	_	_
+7	year	_	_	_	_	8	obl:unmarked	_	_
 8	ago	_	_	_	_	0	root	_	_
 9	,	_	_	_	_	8	punct	_	_
 10	In	_	_	_	_	12	case	_	_
@@ -325,7 +325,7 @@
 5	the	_	_	_	_	8	det	_	_
 6	night	_	_	_	_	8	compound	_	_
 7	-	_	_	_	_	8	punct	_	_
-8	tide	_	_	_	_	11	obl:tmod	_	_
+8	tide	_	_	_	_	11	obl:unmarked	_	_
 9	,	_	_	_	_	11	punct	_	_
 10	I	_	_	_	_	11	nsubj	_	_
 11	lie	_	_	_	_	0	root	_	_

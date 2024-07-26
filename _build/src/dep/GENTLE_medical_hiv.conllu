@@ -224,7 +224,7 @@
 14	up	_	_	_	_	13	compound:prt	_	_
 15	with	_	_	_	_	16	case	_	_
 16	Surgery	_	_	_	_	13	obl	_	_
-17	today	_	_	_	_	13	obl:tmod	_	_
+17	today	_	_	_	_	13	obl:unmarked	_	_
 18	.	_	_	_	_	2	punct	_	_
 
 1	CURRENT	_	_	_	_	2	amod	_	_
@@ -245,7 +245,7 @@
 4	mg	_	_	_	_	2	orphan	_	_
 5	twice	_	_	_	_	4	advmod	_	_
 6	a	_	_	_	_	7	det	_	_
-7	day	_	_	_	_	5	obl:tmod	_	_
+7	day	_	_	_	_	5	obl:unmarked	_	_
 8	.	_	_	_	_	2	punct	_	_
 
 1	3.	_	_	_	_	2	discourse	_	_
@@ -253,7 +253,7 @@
 3	5	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
 5	a	_	_	_	_	6	det	_	_
-6	day	_	_	_	_	4	obl:tmod	_	_
+6	day	_	_	_	_	4	obl:unmarked	_	_
 7	.	_	_	_	_	2	punct	_	_
 
 1	4.	_	_	_	_	2	discourse	_	_
@@ -261,9 +261,9 @@
 3	500	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
 5	four	_	_	_	_	6	nummod	_	_
-6	times	_	_	_	_	4	obl:npmod	_	_
+6	times	_	_	_	_	4	obl:unmarked	_	_
 7	a	_	_	_	_	8	det	_	_
-8	day	_	_	_	_	6	obl:tmod	_	_
+8	day	_	_	_	_	6	obl:unmarked	_	_
 9	.	_	_	_	_	2	punct	_	_
 
 1	5.	_	_	_	_	2	discourse	_	_
@@ -272,7 +272,7 @@
 4	mg	_	_	_	_	2	appos	_	_
 5	twice	_	_	_	_	4	advmod	_	_
 6	a	_	_	_	_	7	det	_	_
-7	day	_	_	_	_	5	obl:tmod	_	_
+7	day	_	_	_	_	5	obl:unmarked	_	_
 8	.	_	_	_	_	2	punct	_	_
 
 1	6.	_	_	_	_	2	discourse	_	_
@@ -280,7 +280,7 @@
 3	20	_	_	_	_	4	nummod	_	_
 4	mg	_	_	_	_	2	appos	_	_
 5	a	_	_	_	_	6	det	_	_
-6	day	_	_	_	_	4	obl:tmod	_	_
+6	day	_	_	_	_	4	obl:unmarked	_	_
 7	.	_	_	_	_	2	punct	_	_
 
 1	7.	_	_	_	_	2	discourse	_	_
@@ -296,7 +296,7 @@
 4	mg	_	_	_	_	2	appos	_	_
 5	twice	_	_	_	_	4	advmod	_	_
 6	a	_	_	_	_	7	det	_	_
-7	day	_	_	_	_	5	obl:tmod	_	_
+7	day	_	_	_	_	5	obl:unmarked	_	_
 8	.	_	_	_	_	2	punct	_	_
 
 1	9.	_	_	_	_	4	discourse	_	_
@@ -527,7 +527,7 @@
 17	him	_	_	_	_	16	obj	_	_
 18	a	_	_	_	_	20	det	_	_
 19	few	_	_	_	_	20	amod	_	_
-20	weeks	_	_	_	_	21	obl:tmod	_	_
+20	weeks	_	_	_	_	21	obl:unmarked	_	_
 21	thereafter	_	_	_	_	16	advmod	_	_
 22	.	_	_	_	_	3	punct	_	_
 

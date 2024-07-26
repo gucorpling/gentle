@@ -20,12 +20,12 @@
 2	all	_	_	_	_	7	obl	_	_
 3	n	_	_	_	_	2	det	_	_
 4	∈	_	_	_	_	3	appos	_	_
-5	N>0	_	_	_	_	4	nmod:npmod	_	_
+5	N>0	_	_	_	_	4	nmod:unmarked	_	_
 6	,	_	_	_	_	2	punct	_	_
 7	let	_	_	_	_	0	root	_	_
 8	P	_	_	_	_	14	nsubj	_	_
 9	(	_	_	_	_	10	punct	_	_
-10	n	_	_	_	_	8	nmod:npmod	_	_
+10	n	_	_	_	_	8	nmod:unmarked	_	_
 11	)	_	_	_	_	10	punct	_	_
 12	be	_	_	_	_	14	cop	_	_
 13	the	_	_	_	_	14	det	_	_
@@ -45,7 +45,7 @@
 27	that	_	_	_	_	26	fixed	_	_
 28	k	_	_	_	_	29	nsubj	_	_
 29	≤	_	_	_	_	25	acl	_	_
-30	5	_	_	_	_	29	obl:npmod	_	_
+30	5	_	_	_	_	29	obl:unmarked	_	_
 31	.	_	_	_	_	7	punct	_	_
 
 1	Basis	_	_	_	_	0	root	_	_
@@ -55,17 +55,17 @@
 
 1	P	_	_	_	_	7	nsubj	_	_
 2	(	_	_	_	_	3	punct	_	_
-3	r	_	_	_	_	1	nmod:npmod	_	_
+3	r	_	_	_	_	1	nmod:unmarked	_	_
 4	)	_	_	_	_	3	punct	_	_
 5	is	_	_	_	_	7	cop	_	_
 6	trivially	_	_	_	_	7	advmod	_	_
 7	true	_	_	_	_	0	root	_	_
 8	for	_	_	_	_	10	case	_	_
-9	1	_	_	_	_	10	obl:npmod	_	_
+9	1	_	_	_	_	10	obl:unmarked	_	_
 10	≤	_	_	_	_	7	obl	_	_
 11	r	_	_	_	_	10	nsubj	_	_
 12	≤	_	_	_	_	10	conj	_	_
-13	5	_	_	_	_	12	obl:npmod	_	_
+13	5	_	_	_	_	12	obl:unmarked	_	_
 14	,	_	_	_	_	17	punct	_	_
 15	as	_	_	_	_	17	mark	_	_
 16	there	_	_	_	_	17	expl	_	_
@@ -102,7 +102,7 @@
 8	if	_	_	_	_	14	mark	_	_
 9	P	_	_	_	_	14	nsubj	_	_
 10	(	_	_	_	_	11	punct	_	_
-11	r	_	_	_	_	9	nmod:npmod	_	_
+11	r	_	_	_	_	9	nmod:unmarked	_	_
 12	)	_	_	_	_	11	punct	_	_
 13	is	_	_	_	_	14	cop	_	_
 14	true	_	_	_	_	24	advcl	_	_
@@ -110,7 +110,7 @@
 16	where	_	_	_	_	18	advmod	_	_
 17	r	_	_	_	_	18	nsubj	_	_
 18	≥	_	_	_	_	14	acl:relcl	_	_
-19	5	_	_	_	_	18	obl:npmod	_	_
+19	5	_	_	_	_	18	obl:unmarked	_	_
 20	,	_	_	_	_	14	punct	_	_
 21	then	_	_	_	_	24	advmod	_	_
 22	it	_	_	_	_	24	expl	_	_
@@ -119,7 +119,7 @@
 25	that	_	_	_	_	33	mark	_	_
 26	P	_	_	_	_	33	nsubj	_	_
 27	(	_	_	_	_	28	punct	_	_
-28	r	_	_	_	_	26	nmod:npmod	_	_
+28	r	_	_	_	_	26	nmod:unmarked	_	_
 29	+	_	_	_	_	30	cc	_	_
 30	1	_	_	_	_	28	conj	_	_
 31	)	_	_	_	_	28	punct	_	_
@@ -148,7 +148,7 @@
 19	that	_	_	_	_	18	fixed	_	_
 20	k	_	_	_	_	21	nsubj	_	_
 21	≤	_	_	_	_	17	acl	_	_
-22	5	_	_	_	_	21	obl:npmod	_	_
+22	5	_	_	_	_	21	obl:unmarked	_	_
 23	.	_	_	_	_	6	punct	_	_
 
 1	Then	_	_	_	_	3	advmod	_	_
@@ -171,7 +171,7 @@
 18	that	_	_	_	_	17	fixed	_	_
 19	k	_	_	_	_	20	nsubj	_	_
 20	≤	_	_	_	_	16	acl	_	_
-21	5	_	_	_	_	20	obl:npmod	_	_
+21	5	_	_	_	_	20	obl:unmarked	_	_
 22	.	_	_	_	_	3	punct	_	_
 
 1	Induction	_	_	_	_	2	compound	_	_
@@ -461,7 +461,7 @@
 12	y4	_	_	_	_	6	conj	_	_
 13	and	_	_	_	_	14	cc	_	_
 14	y5	_	_	_	_	6	conj	_	_
-15	clockwise	_	_	_	_	3	obl:npmod	_	_
+15	clockwise	_	_	_	_	3	obl:unmarked	_	_
 16	,	_	_	_	_	3	punct	_	_
 17	exactly	_	_	_	_	18	advmod	_	_
 18	one	_	_	_	_	27	nsubj	_	_
@@ -598,12 +598,12 @@
 1	So	_	_	_	_	6	advmod	_	_
 2	P	_	_	_	_	6	nsubj	_	_
 3	(	_	_	_	_	4	punct	_	_
-4	r	_	_	_	_	2	nmod:npmod	_	_
+4	r	_	_	_	_	2	nmod:unmarked	_	_
 5	)	_	_	_	_	4	punct	_	_
 6	⟹	_	_	_	_	0	root	_	_
 7	P	_	_	_	_	6	obj	_	_
 8	(	_	_	_	_	9	punct	_	_
-9	r	_	_	_	_	7	nmod:npmod	_	_
+9	r	_	_	_	_	7	nmod:unmarked	_	_
 10	+	_	_	_	_	11	cc	_	_
 11	1	_	_	_	_	9	conj	_	_
 12	)	_	_	_	_	9	punct	_	_
@@ -626,7 +626,7 @@
 2	all	_	_	_	_	10	obl	_	_
 3	n	_	_	_	_	2	det	_	_
 4	∈	_	_	_	_	3	appos	_	_
-5	N>0	_	_	_	_	4	nmod:npmod	_	_
+5	N>0	_	_	_	_	4	nmod:unmarked	_	_
 6	,	_	_	_	_	2	punct	_	_
 7	Gn	_	_	_	_	10	nsubj:pass	_	_
 8	can	_	_	_	_	10	aux	_	_
@@ -642,6 +642,6 @@
 18	that	_	_	_	_	17	fixed	_	_
 19	k	_	_	_	_	20	nsubj	_	_
 20	≤	_	_	_	_	16	acl	_	_
-21	5	_	_	_	_	20	obl:npmod	_	_
+21	5	_	_	_	_	20	obl:unmarked	_	_
 22	.	_	_	_	_	10	punct	_	_
 

@@ -47,7 +47,7 @@
 6	say	_	_	_	_	4	xcomp	_	_
 7	this	_	_	_	_	6	obj	_	_
 8	one	_	_	_	_	9	nummod	_	_
-9	time	_	_	_	_	6	obl:tmod	_	_
+9	time	_	_	_	_	6	obl:unmarked	_	_
 10	so	_	_	_	_	13	mark	_	_
 11	you	_	_	_	_	13	nsubj	_	_
 12	better	_	_	_	_	13	advmod	_	_
@@ -159,7 +159,7 @@
 25	kiss	_	_	_	_	4	conj	_	_
 26	your	_	_	_	_	27	nmod:poss	_	_
 27	ass	_	_	_	_	25	obj	_	_
-28	goodbye	_	_	_	_	25	obl:npmod	_	_
+28	goodbye	_	_	_	_	25	obl:unmarked	_	_
 29	.	_	_	_	_	4	punct	_	_
 
 1	PI	_	_	_	_	3	nsubj	_	_
@@ -196,7 +196,7 @@
 1	You	_	_	_	_	2	nsubj	_	_
 2	sounded	_	_	_	_	0	root	_	_
 3	a	_	_	_	_	4	det	_	_
-4	little	_	_	_	_	5	obl:npmod	_	_
+4	little	_	_	_	_	5	obl:unmarked	_	_
 5	shaky	_	_	_	_	2	xcomp	_	_
 6	over	_	_	_	_	8	case	_	_
 7	the	_	_	_	_	8	det	_	_
@@ -212,7 +212,7 @@
 3	you	_	_	_	_	2	iobj	_	_
 4	a	_	_	_	_	6	det	_	_
 5	long	_	_	_	_	6	amod	_	_
-6	time	_	_	_	_	7	obl:tmod	_	_
+6	time	_	_	_	_	7	obl:unmarked	_	_
 7	ago	_	_	_	_	2	advmod	_	_
 8	do	_	_	_	_	10	aux	_	_
 9	n't	_	_	_	_	10	advmod	_	_

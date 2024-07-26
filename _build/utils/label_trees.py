@@ -9,7 +9,7 @@ depedit_precprocess = """{$tmpadv}=/now|earlier|ago|still|recently|already|curre
 {$datverb}=/sell|give|send|pay|award|offer|owe|provide|lend|make|issue|lease|bring|allocate|pass|present|deal|grant|write|deliver|transfer|extend|tender|supply|guarantee|call|cede|deny/
 {$bnfverb}=/provide|make|buy|build|create|design|arrange|gather|leave|print|manufacture|do|fix|earn|open|pick|win|store|order|draft/
 {$gumcleftsubj}=/Burns|Barbara|noggins|girls|coyotes|Senate|Olmec/
-text=/{$gumcleftsubj}/;func=/cop/;func=/nsubj|expl/&lemma=/it/;func=/acl:relcl/\t#1>#2;#1>#3;#1>#4\t#3:func=cleft
+text=/{$gumcleftsubj}/;func=/cop/;func=/nsubj|expl/&lemma=/it/;func=/a(dv)?cl:relcl/\t#1>#2;#1>#3;#1>#4\t#3:func=cleft
 xpos=/V.G/;func=/nsubj/\t#1>#2\t#1:func2=hassubj
 xpos=/V.G/&func2=/(.*)/;func=/mark/\t#1>#2\t#1:func2=hasmark$1
 xpos=/V.G/&func=/csubj/;func2!=/.*hassubj.*/\t#1>#2\t#1:func=nomsbj
@@ -17,7 +17,7 @@ xpos=/V.G/&func2!=/.*hassubj.*/&func!=/nomsbj/;func=/mark/\t#1>#2\t#1:func=nom
 xpos=/V.G/&func=/advcl/&func2!=/.*hasmark.*/&func2!=/.*hassubj.*/\tnone\t#1:func=vbgadv
 func=/advcl|nom/;func=/mark/&lemma=/when|while/\t#1>#2\t#2:func=stmp
 text=/.*/;func=/cop/\t#1>#2\t#1:func=prd
-text=/.*/;func=/obj/;func=/xcomp/\t#1>#2;#1>#3\t#3>#2;#2:func=nsubj;#3:func=prd
+text=/.*/;func=/i?obj/;func=/xcomp/\t#1>#2;#1>#3\t#3>#2;#2:func=nsubj;#3:func=prd
 xpos=/JJ.*/&func=/xcomp/\tnone\t#1:func=prd
 func=/advcl/;xpos=/TO/\t#1>#2\t#2:func=mark_prp
 func=/advcl/;func=/mark/\t#1>#2\t#2:func=mark_adv
@@ -31,11 +31,12 @@ func=/nmod|obl/;func=/case/&lemma=/into|towards?|onto/\t#1>#2\t#2:func=ppdir
 morph=/.*place.*/&func=/nmod|obl/;func=/case/&lemma!=/of/\t#1>#2\t#2:func=pploc
 morph=/.*time.*/&func=/prd/;func=/case/\t#1>#2\t#2:func=pptmp
 morph=/.*place.*/&func=/prd/;func=/case/&lemma!=/of/\t#1>#2\t#2:func=pploc
-func=/(obl|nmod):npmod/;func=/nummod/\t#1>#2\t#1:func=ext
+func=/(obl|nmod):(npmod|unmarked)/;func=/nummod/\t#1>#2\t#1:func=ext
 lemma=/{$extverb}/&xpos=/V.*/;func=/obl/;lemma=/by/&func=/case/\t#1>#2>#3\t#3:func=ppext
 lemma=/{$datverb}/&xpos=/V.*/;func=/obl/;lemma=/to/&func=/case/\t#1>#2>#3\t#3:func=ppdat
 lemma=/{$bnfverb}/&xpos=/V.*/;func=/obl/;lemma=/for/&func=/case/\t#1>#2>#3\t#3:func=ppbnf
 lemma=/do/;lemma=/so/&func=/advmod/\t#1>#2\t#2:func=prd
+func=/(nmod|obl):unmarked/&lemma=/^([0-9]{1,4}|[12]?[0-9]:[0-5][0-9]|30th|a\.m\.|AD|afternoon|age|April|August|autumn|b\.i\.d\.|century|couple|day|decade|EDT|evening|fall|February|five|Friday|GMT|hour|hundred|January|July|June|length|life|little|lot|March|match|matter|May|minute|moment|Monday|month|morning|most|next|night|number|oclock|October|p\.m\.|period|pm|q\.d\.|q\.o\.d\.|quarter|rest|Saturday|season|second|semester|September|spring|Su|summer|Summer|Sunday|that|thing|Thursday|tide|time|today|Today|tomorrow|tonight|Tuesday|way|Wednesday|week|weekday|weekend|while|winter|year|yesterday)$/\tnone\t#1:func=/$1:tmod/
 """
 
 d = DepEdit()
@@ -49,6 +50,8 @@ mapping = {("NP","nsubj"):"NP-SBJ", ("NP","nsubj:pass"):"NP-SBJ", ("NP","obl:age
            ("NP","cleft"):"NP-CLF",
            ("NP","obl:npmod"):"NP-ADV",
            ("NP", "nmod:npmod"): "NP-ADV",
+           ("NP","obl:unmarked"):"NP-ADV",
+           ("NP", "nmod:unmarked"): "NP-ADV",
            ("NP", "ext"): "NP-EXT",
            ("PP", "ppext"): "PP-EXT",
            ("PP", "ppdat"): "PP-DTV",

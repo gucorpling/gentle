@@ -4,8 +4,8 @@
 2	Source	_	_	_	_	3	compound	_	_
 3	Software	_	_	_	_	0	root	_	_
 4	Spring	_	_	_	_	5	compound	_	_
-5	Semester	_	_	_	_	3	nmod:tmod	_	_
-6	2022	_	_	_	_	5	nmod:tmod	_	_
+5	Semester	_	_	_	_	3	nmod:unmarked	_	_
+6	2022	_	_	_	_	5	nmod:unmarked	_	_
 
 1	Open	_	_	_	_	2	amod	_	_
 2	Source	_	_	_	_	5	nsubj:pass	_	_
@@ -187,21 +187,21 @@
 7	)	_	_	_	_	4	punct	_	_
 8	:	_	_	_	_	2	punct	_	_
 
-1	Tuesday	_	_	_	_	2	obl:tmod	_	_
+1	Tuesday	_	_	_	_	2	obl:unmarked	_	_
 2	3:35	_	_	_	_	0	root	_	_
 3	-	_	_	_	_	4	case	_	_
 4	5:05	_	_	_	_	2	nmod	_	_
-5	pm	_	_	_	_	4	nmod:tmod	_	_
+5	pm	_	_	_	_	4	nmod:unmarked	_	_
 6	(	_	_	_	_	8	punct	_	_
 7	in	_	_	_	_	8	case	_	_
 8	person	_	_	_	_	2	nmod	_	_
 9	)	_	_	_	_	8	punct	_	_
 10	,	_	_	_	_	2	punct	_	_
-11	Thursday	_	_	_	_	12	nmod:tmod	_	_
+11	Thursday	_	_	_	_	12	nmod:unmarked	_	_
 12	10:00	_	_	_	_	2	conj	_	_
 13	-	_	_	_	_	14	case	_	_
 14	11:30	_	_	_	_	12	nmod	_	_
-15	am	_	_	_	_	14	nmod:tmod	_	_
+15	am	_	_	_	_	14	nmod:unmarked	_	_
 16	in	_	_	_	_	18	case	_	_
 17	my	_	_	_	_	18	nmod:poss	_	_
 18	WebEx	_	_	_	_	12	obl	_	_
@@ -295,10 +295,10 @@
 11	Fridays	_	_	_	_	9	conj	_	_
 12	from	_	_	_	_	13	case	_	_
 13	10:30	_	_	_	_	4	obl	_	_
-14	pm	_	_	_	_	13	nmod:tmod	_	_
+14	pm	_	_	_	_	13	nmod:unmarked	_	_
 15	-	_	_	_	_	16	case	_	_
 16	12:35	_	_	_	_	4	obl	_	_
-17	pm	_	_	_	_	16	nmod:tmod	_	_
+17	pm	_	_	_	_	16	nmod:unmarked	_	_
 18	.	_	_	_	_	4	punct	_	_
 
 1	Class	_	_	_	_	2	compound	_	_
@@ -704,7 +704,7 @@
 3	(	_	_	_	_	5	punct	_	_
 4	10	_	_	_	_	5	nummod	_	_
 5	points	_	_	_	_	2	parataxis	_	_
-6	each	_	_	_	_	5	obl:npmod	_	_
+6	each	_	_	_	_	5	obl:unmarked	_	_
 7	)	_	_	_	_	5	punct	_	_
 8	-	_	_	_	_	2	punct	_	_
 9	20	_	_	_	_	10	nummod	_	_
@@ -724,7 +724,7 @@
 3	(	_	_	_	_	2	punct	_	_
 4	3.75	_	_	_	_	5	nummod	_	_
 5	points	_	_	_	_	2	parataxis	_	_
-6	each	_	_	_	_	5	obl:npmod	_	_
+6	each	_	_	_	_	5	obl:unmarked	_	_
 7	/	_	_	_	_	8	cc	_	_
 8	drop	_	_	_	_	5	conj	_	_
 9	lowest	_	_	_	_	8	obj	_	_
@@ -744,12 +744,12 @@
 1	Quiz	_	_	_	_	3	dep	_	_
 2	1	_	_	_	_	1	dep	_	_
 3	1st	_	_	_	_	0	root	_	_
-4	July	_	_	_	_	3	nmod:tmod	_	_
+4	July	_	_	_	_	3	nmod:unmarked	_	_
 
 1	Quiz	_	_	_	_	3	dep	_	_
 2	2	_	_	_	_	1	dep	_	_
 3	9th	_	_	_	_	0	root	_	_
-4	August	_	_	_	_	3	nmod:tmod	_	_
+4	August	_	_	_	_	3	nmod:unmarked	_	_
 
 1	Open	_	_	_	_	2	amod	_	_
 2	Source	_	_	_	_	3	compound	_	_
@@ -822,8 +822,8 @@
 5	server	_	_	_	_	2	obj	_	_
 6	OSS	_	_	_	_	5	appos	_	_
 7	-	_	_	_	_	6	punct	_	_
-8	Summer	_	_	_	_	6	nmod:tmod	_	_
-9	2022	_	_	_	_	8	nmod:tmod	_	_
+8	Summer	_	_	_	_	6	nmod:unmarked	_	_
+9	2022	_	_	_	_	8	nmod:unmarked	_	_
 10	at	_	_	_	_	11	case	_	_
 11	https://discord.gg/5WEv84aGDz	_	_	_	_	2	obl	_	_
 12	.	_	_	_	_	2	punct	_	_
@@ -870,13 +870,13 @@
 15	(	_	_	_	_	17	punct	_	_
 16	20	_	_	_	_	17	nummod	_	_
 17	%	_	_	_	_	5	appos	_	_
-18	total	_	_	_	_	17	nmod:npmod	_	_
+18	total	_	_	_	_	17	nmod:unmarked	_	_
 19	)	_	_	_	_	17	punct	_	_
 20	for	_	_	_	_	25	case	_	_
 21	up	_	_	_	_	24	advmod	_	_
 22	to	_	_	_	_	21	fixed	_	_
 23	a	_	_	_	_	24	det	_	_
-24	week	_	_	_	_	25	obl:tmod	_	_
+24	week	_	_	_	_	25	obl:unmarked	_	_
 25	late	_	_	_	_	3	obl	_	_
 26	.	_	_	_	_	3	punct	_	_
 
@@ -888,7 +888,7 @@
 6	more	_	_	_	_	8	advmod	_	_
 7	than	_	_	_	_	6	fixed	_	_
 8	one	_	_	_	_	9	nummod	_	_
-9	week	_	_	_	_	10	obl:tmod	_	_
+9	week	_	_	_	_	10	obl:unmarked	_	_
 10	late	_	_	_	_	5	advmod	_	_
 11	.	_	_	_	_	5	punct	_	_
 

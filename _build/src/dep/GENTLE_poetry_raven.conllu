@@ -408,7 +408,7 @@
 17	heard	_	_	_	_	0	root	_	_
 18	a	_	_	_	_	19	det	_	_
 19	tapping	_	_	_	_	17	obj	_	_
-20	something	_	_	_	_	21	obl:npmod	_	_
+20	something	_	_	_	_	21	obl:unmarked	_	_
 21	louder	_	_	_	_	19	amod	_	_
 22	than	_	_	_	_	23	case	_	_
 23	before	_	_	_	_	21	obl	_	_
@@ -453,7 +453,7 @@
 4	be	_	_	_	_	5	cop	_	_
 5	still	_	_	_	_	1	xcomp	_	_
 6	a	_	_	_	_	7	det	_	_
-7	moment	_	_	_	_	5	obl:npmod	_	_
+7	moment	_	_	_	_	5	obl:unmarked	_	_
 8	and	_	_	_	_	11	cc	_	_
 9	this	_	_	_	_	10	det	_	_
 10	mystery	_	_	_	_	11	obj	_	_

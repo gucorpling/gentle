@@ -167,7 +167,7 @@
 18	playing	_	_	_	_	16	acl	_	_
 19	games	_	_	_	_	18	obj	_	_
 20	this	_	_	_	_	21	det	_	_
-21	episode	_	_	_	_	18	obl:npmod	_	_
+21	episode	_	_	_	_	18	obl:unmarked	_	_
 22	.	_	_	_	_	3	punct	_	_
 
 1	We	_	_	_	_	3	nsubj	_	_
@@ -241,7 +241,7 @@
 7	tough	_	_	_	_	4	xcomp	_	_
 8	all	_	_	_	_	10	det:predet	_	_
 9	the	_	_	_	_	10	det	_	_
-10	time	_	_	_	_	7	obl:npmod	_	_
+10	time	_	_	_	_	7	obl:unmarked	_	_
 11	UVA	_	_	_	_	16	nsubj	_	_
 12	's	_	_	_	_	16	cop	_	_
 13	just	_	_	_	_	16	advmod	_	_
@@ -291,7 +291,7 @@
 
 1	The	_	_	_	_	3	det	_	_
 2	last	_	_	_	_	3	amod	_	_
-3	match	_	_	_	_	5	obl:npmod	_	_
+3	match	_	_	_	_	5	obl:unmarked	_	_
 4	he	_	_	_	_	5	nsubj	_	_
 5	scored	_	_	_	_	0	root	_	_
 6	Jović	_	_	_	_	5	obj	_	_
@@ -438,7 +438,7 @@
 12	go	_	_	_	_	10	conj	_	_
 13	all	_	_	_	_	15	advmod	_	_
 14	-	_	_	_	_	13	punct	_	_
-15	out	_	_	_	_	12	obl:npmod	_	_
+15	out	_	_	_	_	12	obl:unmarked	_	_
 16	and	_	_	_	_	17	cc	_	_
 17	win	_	_	_	_	12	conj	_	_
 18	it	_	_	_	_	17	obj	_	_
@@ -542,7 +542,7 @@
 11	it	_	_	_	_	10	obj	_	_
 12	a	_	_	_	_	14	det	_	_
 13	little	_	_	_	_	14	amod	_	_
-14	bit	_	_	_	_	17	obl:npmod	_	_
+14	bit	_	_	_	_	17	obl:unmarked	_	_
 15	inside	_	_	_	_	17	case	_	_
 16	the	_	_	_	_	17	det	_	_
 17	box	_	_	_	_	10	obl	_	_
@@ -618,7 +618,7 @@
 14	?	_	_	_	_	7	punct	_	_
 
 1	One	_	_	_	_	2	nummod	_	_
-2	minute	_	_	_	_	4	obl:tmod	_	_
+2	minute	_	_	_	_	4	obl:unmarked	_	_
 3	it	_	_	_	_	4	nsubj	_	_
 4	looked	_	_	_	_	0	root	_	_
 5	like	_	_	_	_	8	mark	_	_
@@ -631,7 +631,7 @@
 12	corner	_	_	_	_	8	xcomp	_	_
 13	,	_	_	_	_	18	punct	_	_
 14	the	_	_	_	_	15	det	_	_
-15	next	_	_	_	_	18	obl:tmod	_	_
+15	next	_	_	_	_	18	obl:unmarked	_	_
 16	Favilli	_	_	_	_	18	nsubj	_	_
 17	is	_	_	_	_	18	aux	_	_
 18	scoring	_	_	_	_	4	parataxis	_	_
@@ -640,7 +640,7 @@
 21	and	_	_	_	_	26	cc	_	_
 22	we	_	_	_	_	26	nsubj	_	_
 23	're	_	_	_	_	26	cop	_	_
-24	one	_	_	_	_	26	obl:npmod	_	_
+24	one	_	_	_	_	26	obl:unmarked	_	_
 25	nil	_	_	_	_	24	dep	_	_
 26	down	_	_	_	_	18	conj	_	_
 27	.	_	_	_	_	4	punct	_	_
@@ -662,14 +662,14 @@
 2	take	_	_	_	_	0	root	_	_
 3	the	_	_	_	_	4	det	_	_
 4	lead	_	_	_	_	2	obj	_	_
-5	one	_	_	_	_	2	obl:npmod	_	_
+5	one	_	_	_	_	2	obl:unmarked	_	_
 6	nil	_	_	_	_	5	dep	_	_
 7	after	_	_	_	_	8	mark	_	_
 8	doing	_	_	_	_	2	advcl	_	_
 9	absolutely	_	_	_	_	10	advmod	_	_
 10	nothing	_	_	_	_	8	obj	_	_
 11	all	_	_	_	_	12	det	_	_
-12	match	_	_	_	_	8	obl:tmod	_	_
+12	match	_	_	_	_	8	obl:unmarked	_	_
 13	.	_	_	_	_	2	punct	_	_
 
 1	Van	_	_	_	_	0	root	_	_
@@ -698,7 +698,7 @@
 24	times	_	_	_	_	27	reparandum	_	_
 25	how	_	_	_	_	26	advmod	_	_
 26	many	_	_	_	_	27	amod	_	_
-27	times	_	_	_	_	30	obl:npmod	_	_
+27	times	_	_	_	_	30	obl:unmarked	_	_
 28	is	_	_	_	_	30	aux	_	_
 29	he	_	_	_	_	30	nsubj	_	_
 30	gon	_	_	_	_	13	conj	_	_
@@ -733,7 +733,7 @@
 20	Box	_	_	_	_	13	obl	_	_
 21	even	_	_	_	_	23	advmod	_	_
 22	a	_	_	_	_	23	det	_	_
-23	moment	_	_	_	_	13	obl:tmod	_	_
+23	moment	_	_	_	_	13	obl:unmarked	_	_
 24	,	_	_	_	_	27	punct	_	_
 25	I	_	_	_	_	27	nsubj	_	_
 26	'm	_	_	_	_	27	aux	_	_
@@ -753,7 +753,7 @@
 8	against	_	_	_	_	9	case	_	_
 9	Genoa	_	_	_	_	7	obl	_	_
 10	,	_	_	_	_	11	punct	_	_
-11	one	_	_	_	_	7	obl:npmod	_	_
+11	one	_	_	_	_	7	obl:unmarked	_	_
 12	nil	_	_	_	_	11	dep	_	_
 13	complete	_	_	_	_	14	amod	_	_
 14	BS	_	_	_	_	1	parataxis	_	_
@@ -782,7 +782,7 @@
 37	City	_	_	_	_	35	obj	_	_
 38	,	_	_	_	_	44	punct	_	_
 39	who	_	_	_	_	44	nsubj	_	_
-40	today	_	_	_	_	44	obl:tmod	_	_
+40	today	_	_	_	_	44	obl:unmarked	_	_
 41	's	_	_	_	_	44	reparandum	_	_
 42	ah	_	_	_	_	44	discourse	_	_
 43	is	_	_	_	_	44	cop	_	_
@@ -919,7 +919,7 @@
 15	Champions	_	_	_	_	16	compound	_	_
 16	League	_	_	_	_	8	obl	_	_
 17	this	_	_	_	_	18	det	_	_
-18	season	_	_	_	_	8	obl:tmod	_	_
+18	season	_	_	_	_	8	obl:unmarked	_	_
 19	they	_	_	_	_	20	nsubj	_	_
 20	wanted	_	_	_	_	4	parataxis	_	_
 21	us	_	_	_	_	20	obj	_	_

@@ -8,7 +8,7 @@
 8	launched	_	_	_	_	0	root	_	_
 9	one	_	_	_	_	11	nummod	_	_
 10	more	_	_	_	_	11	amod	_	_
-11	time	_	_	_	_	8	obl:tmod	_	_
+11	time	_	_	_	_	8	obl:unmarked	_	_
 12	,	_	_	_	_	18	punct	_	_
 13	the	_	_	_	_	17	det	_	_
 14	Fortnite	_	_	_	_	17	compound	_	_
@@ -57,7 +57,7 @@
 10	there	_	_	_	_	8	obl	_	_
 11	the	_	_	_	_	13	det	_	_
 12	northeast	_	_	_	_	13	amod	_	_
-13	corner	_	_	_	_	8	obl:npmod	_	_
+13	corner	_	_	_	_	8	obl:unmarked	_	_
 14	of	_	_	_	_	16	case	_	_
 15	the	_	_	_	_	16	det	_	_
 16	map	_	_	_	_	13	nmod	_	_
@@ -142,7 +142,7 @@
 16	the	_	_	_	_	19	det	_	_
 17	first	_	_	_	_	19	amod	_	_
 18	five	_	_	_	_	19	nummod	_	_
-19	games	_	_	_	_	11	obl:npmod	_	_
+19	games	_	_	_	_	11	obl:unmarked	_	_
 20	and	_	_	_	_	22	cc	_	_
 21	it	_	_	_	_	22	nsubj	_	_
 22	slipped	_	_	_	_	11	conj	_	_
@@ -215,7 +215,7 @@
 17	the	_	_	_	_	20	det	_	_
 18	very	_	_	_	_	19	advmod	_	_
 19	first	_	_	_	_	20	amod	_	_
-20	week	_	_	_	_	16	obl:tmod	_	_
+20	week	_	_	_	_	16	obl:unmarked	_	_
 21	for	_	_	_	_	24	case	_	_
 22	the	_	_	_	_	24	det	_	_
 23	World	_	_	_	_	24	compound	_	_
@@ -703,7 +703,7 @@
 5	roll	_	_	_	_	3	xcomp	_	_
 6	all	_	_	_	_	8	det:predet	_	_
 7	the	_	_	_	_	8	det	_	_
-8	way	_	_	_	_	9	obl:npmod	_	_
+8	way	_	_	_	_	9	obl:unmarked	_	_
 9	down	_	_	_	_	5	advmod	_	_
 10	looks	_	_	_	_	3	parataxis	_	_
 11	like	_	_	_	_	14	mark	_	_
@@ -730,7 +730,7 @@
 14	each	_	_	_	_	11	parataxis	_	_
 15	other	_	_	_	_	14	fixed	_	_
 16	a	_	_	_	_	17	det	_	_
-17	number	_	_	_	_	11	obl:tmod	_	_
+17	number	_	_	_	_	11	obl:unmarked	_	_
 18	of	_	_	_	_	19	case	_	_
 19	times	_	_	_	_	17	nmod	_	_
 20	,	_	_	_	_	21	punct	_	_
@@ -816,7 +816,7 @@
 5	final	_	_	_	_	6	amod	_	_
 6	game	_	_	_	_	1	parataxis	_	_
 7	here	_	_	_	_	6	advmod	_	_
-8	tonight	_	_	_	_	6	obl:tmod	_	_
+8	tonight	_	_	_	_	6	obl:unmarked	_	_
 9	.	_	_	_	_	1	punct	_	_
 
 1	Use	_	_	_	_	0	root	_	_
@@ -885,7 +885,7 @@
 16	points	_	_	_	_	20	dislocated	_	_
 17	,	_	_	_	_	20	punct	_	_
 18	15	_	_	_	_	19	nummod	_	_
-19	points	_	_	_	_	20	obl:npmod	_	_
+19	points	_	_	_	_	20	obl:unmarked	_	_
 20	ahead	_	_	_	_	12	acl:relcl	_	_
 21	,	_	_	_	_	23	punct	_	_
 22	in	_	_	_	_	23	case	_	_
@@ -922,7 +922,7 @@
 28	way	_	_	_	_	26	obj	_	_
 29	inside	_	_	_	_	30	case	_	_
 30	mall	_	_	_	_	26	obl	_	_
-31	itself	_	_	_	_	30	nmod:npmod	_	_
+31	itself	_	_	_	_	30	nmod:unmarked	_	_
 32	.	_	_	_	_	17	punct	_	_
 
 1	Pika	_	_	_	_	2	nsubj	_	_
@@ -1167,7 +1167,7 @@
 14	may	_	_	_	_	18	aux	_	_
 15	be	_	_	_	_	18	cop	_	_
 16	a	_	_	_	_	17	det	_	_
-17	little	_	_	_	_	18	obl:npmod	_	_
+17	little	_	_	_	_	18	obl:unmarked	_	_
 18	sparse	_	_	_	_	11	ccomp	_	_
 19	in	_	_	_	_	20	case	_	_
 20	terms	_	_	_	_	18	obl	_	_

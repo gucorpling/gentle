@@ -171,7 +171,7 @@
 23	an	_	_	_	_	25	det	_	_
 24	internet	_	_	_	_	25	compound	_	_
 25	dealer	_	_	_	_	14	obl	_	_
-26	today	_	_	_	_	14	obl:tmod	_	_
+26	today	_	_	_	_	14	obl:unmarked	_	_
 27	,	_	_	_	_	31	punct	_	_
 28	and	_	_	_	_	31	cc	_	_
 29	can	_	_	_	_	31	aux	_	_

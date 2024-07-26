@@ -19,7 +19,7 @@
 1	Let	_	_	_	_	0	root	_	_
 2	AC	_	_	_	_	1	obj	_	_
 3	>	_	_	_	_	1	xcomp	_	_
-4	CB	_	_	_	_	3	obl:npmod	_	_
+4	CB	_	_	_	_	3	obl:unmarked	_	_
 5	.	_	_	_	_	1	punct	_	_
 
 1	Let	_	_	_	_	0	root	_	_
@@ -567,7 +567,7 @@
 22	+	_	_	_	_	23	cc	_	_
 23	CB2	_	_	_	_	21	conj	_	_
 24	>	_	_	_	_	0	root	_	_
-25	2	_	_	_	_	24	obl:npmod	_	_
+25	2	_	_	_	_	24	obl:unmarked	_	_
 26	⋅	_	_	_	_	27	case	_	_
 27	AC	_	_	_	_	25	nmod	_	_
 28	⋅	_	_	_	_	29	case	_	_
@@ -575,7 +575,7 @@
 30	Therefore	_	_	_	_	32	advmod	_	_
 31	DL	_	_	_	_	32	nsubj	_	_
 32	>	_	_	_	_	24	parataxis	_	_
-33	MF	_	_	_	_	32	obl:npmod	_	_
+33	MF	_	_	_	_	32	obl:unmarked	_	_
 34	.	_	_	_	_	2	punct	_	_
 
 1	From	_	_	_	_	2	case	_	_
@@ -596,7 +596,7 @@
 16	:	_	_	_	_	17	punct	_	_
 17	DM	_	_	_	_	18	nsubj	_	_
 18	>	_	_	_	_	0	root	_	_
-19	MG	_	_	_	_	18	obl:npmod	_	_
+19	MG	_	_	_	_	18	obl:unmarked	_	_
 
 1	Since	_	_	_	_	5	mark	_	_
 2	:	_	_	_	_	1	punct	_	_

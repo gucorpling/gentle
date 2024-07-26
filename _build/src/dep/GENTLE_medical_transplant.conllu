@@ -103,7 +103,7 @@
 1	A	_	_	_	_	8	det	_	_
 2	51	_	_	_	_	4	nummod	_	_
 3	-	_	_	_	_	4	punct	_	_
-4	year	_	_	_	_	6	obl:tmod	_	_
+4	year	_	_	_	_	6	obl:unmarked	_	_
 5	-	_	_	_	_	6	punct	_	_
 6	old	_	_	_	_	8	amod	_	_
 7	white	_	_	_	_	8	amod	_	_
@@ -539,7 +539,7 @@
 10	cycle	_	_	_	_	5	obj	_	_
 11	of	_	_	_	_	12	case	_	_
 12	chemotherapy	_	_	_	_	10	nmod	_	_
-13	today	_	_	_	_	5	obl:tmod	_	_
+13	today	_	_	_	_	5	obl:unmarked	_	_
 14	.	_	_	_	_	5	punct	_	_
 
 1	PET	_	_	_	_	2	compound	_	_
@@ -612,7 +612,7 @@
 1	This	_	_	_	_	3	nsubj:pass	_	_
 2	is	_	_	_	_	3	aux:pass	_	_
 3	elevated	_	_	_	_	0	root	_	_
-4	today	_	_	_	_	3	obl:tmod	_	_
+4	today	_	_	_	_	3	obl:unmarked	_	_
 5	because	_	_	_	_	7	mark	_	_
 6	he	_	_	_	_	7	nsubj	_	_
 7	held	_	_	_	_	3	advcl	_	_
