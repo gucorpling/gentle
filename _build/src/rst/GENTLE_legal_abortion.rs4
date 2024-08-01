@@ -279,6 +279,7 @@
 		<group id="229" type="multinuc" parent="168" relname="span"/>
 		<signals>
 			<signal source="31" type="dm" subtype="dm" tokens="183"/>
+			<signal source="32" type="semantic" subtype="attribution_source" tokens="200,201" status="gold"/>
 			<signal source="34" type="dm" subtype="dm" tokens="192"/>
 			<signal source="39" type="dm" subtype="dm" tokens="242"/>
 			<signal source="41" type="dm" subtype="dm" tokens="264"/>

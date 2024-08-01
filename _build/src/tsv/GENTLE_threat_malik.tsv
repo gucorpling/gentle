@@ -53,7 +53,7 @@
 1-47	232-238	become	_	_	_	_	_	_	
 1-48	239-244	taken	_	_	_	_	_	_	
 1-49	245-249	from	_	_	_	_	_	_	
-1-50	250-254	them	person[13]	giv[13]	nonsal[13]	_	coref	2-116[53_13]	
+1-50	250-254	them	person[13]	giv[13]	nonsal[13]	_	coref	1-52[15_13]	
 1-51	255-258	for	_	_	_	_	_	_	
 1-52	259-262	you	abstract[14]|person[15]	new[14]|new[15]	nonsal[14]|sal[15]	_	coref	2-24[27_15]	
 1-53	263-269	Jewish	abstract[14]|person[15]	new[14]|new[15]	nonsal[14]|sal[15]	_	_	_	
@@ -140,7 +140,7 @@
 2-72	634-638	play	abstract[37]	new[37]	nonsal[37]	_	_	_	
 2-73	639-647	likewise	abstract[37]	new[37]	nonsal[37]	_	_	_	
 2-74	648-652	with	abstract[37]	new[37]	nonsal[37]	_	_	_	
-2-75	653-656	you	abstract[37]|person[39]	new[37]|giv[39]	nonsal[37]|nonsal[39]	_	coref	5-53[85_39]	
+2-75	653-656	you	abstract[37]|person[39]	new[37]|giv[39]	nonsal[37]|nonsal[39]	_	coref	2-116[53_39]	
 2-76	657-663	judges	abstract[37]|person[39]	new[37]|giv[39]	nonsal[37]|nonsal[39]	_	_	_	
 2-77	664-668	from	_	_	_	_	_	_	
 2-78	669-670	a	abstract[40]	new[40]	nonsal[40]	_	_	_	
@@ -276,7 +276,7 @@
 5-24	1293-1297	case	abstract[78]|abstract[79]	new[78]|giv[79]	nonsal[78]|nonsal[79]	_	_	_	
 5-25	1298-1300	at	abstract[78]|abstract[79]	new[78]|giv[79]	nonsal[78]|nonsal[79]	_	_	_	
 5-26	1301-1306	issue	abstract[78]|abstract[79]	new[78]|giv[79]	nonsal[78]|nonsal[79]	_	_	_	
-5-27	1307-1310	two	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	_	_	_	
+5-27	1307-1310	two	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	_	coref	5-53[85_81]	
 5-28	1311-1316	White	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	_	_	_	
 5-29	1317-1325	American	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	_	_	_	
 5-30	1326-1332	Jewish	event[80]|person[81]	new[80]|giv[81]	nonsal[80]|nonsal[81]	_	_	_	

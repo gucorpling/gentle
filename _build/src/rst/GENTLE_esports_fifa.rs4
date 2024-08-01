@@ -323,6 +323,7 @@
 			<signal source="109" type="dm" subtype="dm" tokens="775"/>
 			<signal source="112" type="dm" subtype="dm" tokens="810"/>
 			<signal source="119" type="dm" subtype="dm" tokens="836"/>
+			<signal source="140" type="numerical" subtype="same_count" tokens="53" status="gold"/>
 			<signal source="141" type="dm" subtype="dm" tokens="72"/>
 			<signal source="141" type="dm" subtype="dm" tokens="73"/>
 			<signal source="144" type="dm" subtype="dm" tokens="109"/>
@@ -341,6 +342,7 @@
 			<signal source="76-190" type="orphan" subtype="orphan" tokens="539"/>
 			<signal source="95-94" type="orphan" subtype="orphan" tokens="657"/>
 			<signal source="132-236" type="orphan" subtype="orphan" tokens="915"/>
+			<signal source="116-117" type="semantic" subtype="attribution_source" tokens="814" status="gold"/>
 		</signals>
 	</body>
 </rst>

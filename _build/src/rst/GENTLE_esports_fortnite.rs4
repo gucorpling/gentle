@@ -388,12 +388,17 @@
 		<signals>
 			<signal source="1" type="dm" subtype="dm" tokens="1"/>
 			<signal source="15" type="dm" subtype="dm" tokens="141"/>
+			<signal source="32" type="semantic" subtype="attribution_source" tokens="72" status="gold"/>
 			<signal source="73" type="dm" subtype="dm" tokens="540"/>
 			<signal source="76" type="syntactic" subtype="parallel_syntactic_construction" tokens="550,551,552,556,558,559"/>
+			<signal source="85" type="semantic" subtype="attribution_source" tokens="517" status="gold"/>
+			<signal source="92" type="semantic" subtype="attribution_source" tokens="648,649,650,651" status="gold"/>
 			<signal source="107" type="dm" subtype="dm" tokens="764"/>
 			<signal source="121" type="dm" subtype="dm" tokens="872"/>
 			<signal source="126" type="dm" subtype="dm" tokens="909"/>
 			<signal source="145" type="dm" subtype="dm" tokens="1036"/>
+			<signal source="149" type="semantic" subtype="attribution_source" tokens="895" status="gold"/>
+			<signal source="154" type="semantic" subtype="attribution_source" tokens="1098" status="gold"/>
 			<signal source="159" type="dm" subtype="dm" tokens="1145"/>
 			<signal source="173" type="dm" subtype="dm" tokens="1214"/>
 			<signal source="189" type="dm" subtype="dm" tokens="175"/>

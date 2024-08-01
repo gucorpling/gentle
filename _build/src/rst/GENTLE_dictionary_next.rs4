@@ -305,7 +305,7 @@
 			<signal source="117" type="dm" subtype="dm" tokens="586"/>
 			<signal source="207" type="dm" subtype="dm" tokens="486"/>
 			<signal source="73-71" type="orphan" subtype="orphan" tokens="353"/>
-			<signal source="200-91" type="lexical" subtype="alternate_expression" tokens="456,457"/>
+			<signal source="200-91" type="lexical" subtype="alternate_expression" tokens="456,457" status="gold"/>
 		</signals>
 	</body>
 </rst>

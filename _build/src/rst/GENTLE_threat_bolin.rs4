@@ -141,7 +141,7 @@
 		<group id="91" type="multinuc" parent="82" relname="context-background"/>
 		<group id="92" type="multinuc" parent="93" relname="span"/>
 		<group id="93" type="span" />
-		<group id="94" type="span" parent="56" relname="organization-phatic"/>
+		<group id="94" type="span" parent="56" relname="organization-preparation"/>
 		<group id="95" type="span" parent="92" relname="joint-other"/>
 		<group id="96" type="span" parent="82" relname="span"/>
 		<group id="97" type="span" parent="96" relname="explanation-motivation"/>
@@ -172,6 +172,7 @@
 			<signal source="65" type="dm" subtype="dm" tokens="167"/>
 			<signal source="69" type="dm" subtype="dm" tokens="240"/>
 			<signal source="75" type="dm" subtype="dm" tokens="369"/>
+			<signal source="94" type="numerical" subtype="same_count" tokens="46" status="gold"/>
 			<signal source="98" type="semantic" subtype="negation" tokens="122"/>
 			<signal source="99" type="dm" subtype="dm" tokens="142"/>
 			<signal source="3-2" type="orphan" subtype="orphan" tokens="9"/>

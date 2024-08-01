@@ -141,7 +141,7 @@
 			<signal source="69" type="dm" subtype="dm" tokens="134,135"/>
 			<signal source="4-67" type="orphan" subtype="orphan" tokens="45"/>
 			<signal source="45-61" type="orphan" subtype="orphan" tokens="71"/>
-			<signal source="20-53" type="lexical" subtype="alternate_expression" tokens="182,183,180,181"/>
+			<signal source="20-53" type="lexical" subtype="alternate_expression" tokens="182,183,180,181" status="gold"/>
 			<signal source="71-51" type="orphan" subtype="orphan" tokens="271"/>
 			<signal source="49-71" type="orphan" subtype="orphan" tokens="306"/>
 		</signals>

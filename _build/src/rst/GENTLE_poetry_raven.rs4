@@ -459,14 +459,14 @@
 		<group id="409" type="span" />
 		<secedges>
 			<secedge id="15-14" source="15" target="14" relname="elaboration-additional"/>
+			<secedge id="70-69" source="70" target="69" relname="joint-sequence"/>
+			<secedge id="145-144" source="145" target="144" relname="causal-result"/>
 			<secedge id="244-35" source="244" target="35" relname="joint-sequence"/>
 			<secedge id="264-263" source="264" target="263" relname="causal-result"/>
-			<secedge id="70-69" source="70" target="69" relname="joint-sequence"/>
 			<secedge id="295-294" source="295" target="294" relname="joint-sequence"/>
 			<secedge id="300-296" source="300" target="296" relname="context-circumstance"/>
 			<secedge id="301-300" source="301" target="300" relname="joint-sequence"/>
 			<secedge id="390-392" source="390" target="392" relname="adversative-concession"/>
-			<secedge id="145-144" source="145" target="144" relname="causal-result"/>
 		</secedges>
 		<signals>
 			<signal source="30" type="dm" subtype="dm" tokens="220"/>
@@ -517,6 +517,7 @@
 			<signal source="385" type="dm" subtype="dm" tokens="1354"/>
 			<signal source="386" type="dm" subtype="dm" tokens="1299"/>
 			<signal source="394" type="dm" subtype="dm" tokens="843"/>
+			<signal source="400" type="semantic" subtype="attribution_source" tokens="1073" status="gold"/>
 			<signal source="15-14" type="orphan" subtype="orphan" tokens="91"/>
 			<signal source="244-35" type="orphan" subtype="orphan" tokens="249"/>
 			<signal source="264-263" type="orphan" subtype="orphan" tokens="416"/>

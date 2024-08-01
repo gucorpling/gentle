@@ -147,8 +147,8 @@
 			<secedge id="4-3" source="4" target="3" relname="mode-manner"/>
 			<secedge id="67-92" source="67" target="92" relname="causal-result"/>
 			<secedge id="70-68" source="70" target="68" relname="joint-other"/>
-			<secedge id="82-55" source="82" target="55" relname="causal-result"/>
 			<secedge id="82-56" source="82" target="56" relname="mode-manner"/>
+			<secedge id="82-55" source="82" target="55" relname="causal-result"/>
 		</secedges>
 		<signals>
 			<signal source="1" type="dm" subtype="dm" tokens="11"/>
@@ -156,6 +156,7 @@
 			<signal source="26" type="dm" subtype="dm" tokens="223"/>
 			<signal source="28" type="dm" subtype="dm" tokens="243"/>
 			<signal source="33" type="dm" subtype="dm" tokens="278"/>
+			<signal source="34" type="semantic" subtype="attribution_source" tokens="265,266,267,268,269" status="gold"/>
 			<signal source="36" type="dm" subtype="dm" tokens="290,289"/>
 			<signal source="38" type="dm" subtype="dm" tokens="317"/>
 			<signal source="40" type="dm" subtype="dm" tokens="327"/>

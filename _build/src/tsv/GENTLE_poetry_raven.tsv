@@ -113,7 +113,7 @@
 6-19	459-462	its	abstract[21]|object[22]	new[21]|giv[22]	nonsal[21]|nonsal[22]	_	_	_	
 6-20	463-468	ghost	abstract[21]	new[21]	nonsal[21]	_	_	_	
 6-21	469-473	upon	_	_	_	_	_	_	
-6-22	474-477	the	place[23]	giv[23]	nonsal[23]	_	coref	79-13[355_23]	
+6-22	474-477	the	place[23]	giv[23]	nonsal[23]	_	coref	79-13[356_23]	
 6-23	478-483	floor	place[23]	giv[23]	nonsal[23]	_	_	_	
 6-24	484-485	.	_	_	_	_	_	_	
 
@@ -154,7 +154,7 @@
 7-34	649-652	the	person[33]|person[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	_	coref	53-18[246_34]	
 7-35	653-659	angels	person[33]|person[34]	new[33]|new[34]	nonsal[33]|nonsal[34]	_	_	_	
 7-36	660-664	name	person[33]	new[33]	nonsal[33]	_	_	_	
-7-37	665-671	Lenore	person[33]|abstract[35]	new[33]|giv[35]	nonsal[33]|sal[35]	_	coref	67-24[307_35]	
+7-37	665-671	Lenore	person[33]|abstract[35]	new[33]|giv[35]	nonsal[33]|sal[35]	_	coref	67-24[308_35]	
 7-38	672-673	—	_	_	_	_	_	_	
 7-39	674-682	Nameless	_	_	_	_	_	_	
 7-40	683-687	here	_	_	_	_	_	_	
@@ -478,7 +478,7 @@
 
 #Text=Let my heart be still a moment and this mystery explore ; —
 25-1	2052-2055	Let	_	_	_	_	_	_	
-25-2	2056-2058	my	object[110]|person[111]	giv[110]|giv[111]	nonsal[110]|nonsal[111]	_	coref|coref	75-6[334_110]|27-3[116_111]	
+25-2	2056-2058	my	object[110]|person[111]	giv[110]|giv[111]	nonsal[110]|nonsal[111]	_	coref|coref	75-6[335_110]|27-3[116_111]	
 25-3	2059-2064	heart	object[110]	giv[110]	nonsal[110]	_	_	_	
 25-4	2065-2067	be	_	_	_	_	_	_	
 25-5	2068-2073	still	_	_	_	_	_	_	
@@ -573,7 +573,7 @@
 30-18	2431-2432	a	object[129]	new[129]	nonsal[129]	_	coref	38-8[171_129]	
 30-19	2433-2437	bust	object[129]	new[129]	nonsal[129]	_	_	_	
 30-20	2438-2440	of	object[129]	new[129]	nonsal[129]	_	_	_	
-30-21	2441-2447	Pallas	object[129]|person[130]	new[129]|new[130]	nonsal[129]|nonsal[130]	Athena[130]	coref	77-20[344_130]	
+30-21	2441-2447	Pallas	object[129]|person[130]	new[129]|new[130]	nonsal[129]|nonsal[130]	Athena[130]	coref	77-20[345_130]	
 30-22	2448-2452	just	_	_	_	_	_	_	
 30-23	2453-2458	above	_	_	_	_	_	_	
 30-24	2459-2461	my	place[131]|person[132]	giv[131]|giv[132]	nonsal[131]|nonsal[132]	_	coref|coref	48-26[213_131]|32-6[135_132]	
@@ -658,7 +658,7 @@
 33-6	2807-2811	name	abstract[147]	new[147]	nonsal[147]	_	_	_	
 33-7	2812-2814	is	_	_	_	_	_	_	
 33-8	2815-2817	on	_	_	_	_	_	_	
-33-9	2818-2821	the	place[149]	giv[149]	nonsal[149]	_	coref	71-9[321_149]	
+33-9	2818-2821	the	place[149]	giv[149]	nonsal[149]	_	coref	71-9[322_149]	
 33-10	2822-2827	Night	place[149]	giv[149]	nonsal[149]	_	_	_	
 33-11	2828-2830	's	place[149]	giv[149]	nonsal[149]	_	_	_	
 33-12	2831-2840	Plutonian	place[149]	giv[149]	nonsal[149]	_	_	_	
@@ -918,7 +918,7 @@
 48-3	3945-3950	Raven	animal[206]	new[206]	nonsal[206]	_	_	_	
 48-4	3951-3956	still	_	_	_	_	_	_	
 48-5	3957-3966	beguiling	_	_	_	_	_	_	
-48-6	3967-3970	all	abstract[207]	giv[207]	nonsal[207]	_	coref	67-2[301_207]	
+48-6	3967-3970	all	abstract[207]	giv[207]	nonsal[207]	_	coref	67-2[302_207]	
 48-7	3971-3973	my	abstract[207]|person[208]	giv[207]|giv[208]	nonsal[207]|nonsal[208]	_	coref	48-14[209_208]	
 48-8	3974-3977	sad	abstract[207]	giv[207]	nonsal[207]	_	_	_	
 48-9	3978-3982	soul	abstract[207]	giv[207]	nonsal[207]	_	_	_	
@@ -936,9 +936,9 @@
 48-21	4043-4045	of	_	_	_	_	_	_	
 48-22	4046-4050	bird	animal[211]	giv[211]	nonsal[211]	_	coref	49-19[219_211]	
 48-23	4051-4054	and	_	_	_	_	_	_	
-48-24	4055-4059	bust	object[212]	giv[212]	nonsal[212]	_	coref	74-3[329_212]	
+48-24	4055-4059	bust	object[212]	giv[212]	nonsal[212]	_	coref	74-3[330_212]	
 48-25	4060-4063	and	_	_	_	_	_	_	
-48-26	4064-4068	door	place[213]	giv[213]	nonsal[213]	_	coref	74-6[330_213]	
+48-26	4064-4068	door	place[213]	giv[213]	nonsal[213]	_	coref	74-6[331_213]	
 48-27	4069-4070	;	_	_	_	_	_	_	
 
 #Text=Then , upon the velvet sinking , I betook myself to linking Fancy unto fancy , thinking what this ominous bird of yore — What this grim , ungainly , ghastly , gaunt , and ominous bird of yore Meant in croaking " Nevermore . "
@@ -1064,7 +1064,7 @@
 52-16	4635-4636	,	_	_	_	_	_	_	
 52-17	4637-4639	ah	_	_	_	_	_	_	
 52-18	4640-4641	,	_	_	_	_	_	_	
-52-19	4642-4651	nevermore	time[242]	giv[242]	nonsal[242]	_	coref	80-18[360_242]	
+52-19	4642-4651	nevermore	time[242]	giv[242]	nonsal[242]	_	coref	80-18[361_242]	
 52-20	4652-4653	!	_	_	_	_	_	_	
 
 #Text=Then , me thought , the air grew denser , perfumed from an unseen censer Swung by Seraphim whose foot - falls tinkled on the tufted floor .
@@ -1110,12 +1110,12 @@
 54-10	4823-4826	God	person[251]	new[251]	nonsal[251]	God[251]	_	_	
 54-11	4827-4831	hath	_	_	_	_	_	_	
 54-12	4832-4836	lent	_	_	_	_	_	_	
-54-13	4837-4841	thee	animal[253]	giv[253]	nonsal[253]	_	_	_	
+54-13	4837-4841	thee	animal[253]	giv[253]	nonsal[253]	_	coref	54-28[261_253]	
 54-14	4842-4843	—	_	_	_	_	_	_	
 54-15	4844-4846	by	_	_	_	_	_	_	
-54-16	4847-4852	these	person[254]	new[254]	nonsal[254]	_	coref	67-21[306_254]	
+54-16	4847-4852	these	person[254]	new[254]	nonsal[254]	_	coref	67-21[307_254]	
 54-17	4853-4859	angels	person[254]	new[254]	nonsal[254]	_	_	_	
-54-18	4860-4862	he	person[255]	giv[255]	nonsal[255]	_	coref	66-2[299_255]	
+54-18	4860-4862	he	person[255]	giv[255]	nonsal[255]	_	coref	66-2[300_255]	
 54-19	4863-4867	hath	_	_	_	_	_	_	
 54-20	4868-4872	sent	_	_	_	_	_	_	
 54-21	4873-4877	thee	_	_	_	_	_	_	
@@ -1141,7 +1141,7 @@
 55-7	4966-4974	nepenthe	abstract[263]|substance[264]	new[263]|new[264]	nonsal[263]|nonsal[264]	_	_	_	
 55-8	4975-4978	and	abstract[263]	new[263]	nonsal[263]	_	_	_	
 55-9	4979-4985	forget	abstract[263]	new[263]	nonsal[263]	_	_	_	
-55-10	4986-4990	this	abstract[263]|person[265]	new[263]|giv[265]	nonsal[263]|nonsal[265]	_	coref	67-17[305_265]	
+55-10	4986-4990	this	abstract[263]|person[265]	new[263]|giv[265]	nonsal[263]|nonsal[265]	_	coref	67-17[306_265]	
 55-11	4991-4995	lost	abstract[263]|person[265]	new[263]|giv[265]	nonsal[263]|nonsal[265]	_	_	_	
 55-12	4996-5002	Lenore	abstract[263]|person[265]	new[263]|giv[265]	nonsal[263]|nonsal[265]	_	_	_	
 55-13	5003-5004	!	_	_	_	_	_	_	
@@ -1149,53 +1149,53 @@
 
 #Text=Quoth the Raven , " Nevermore . "
 56-1	5007-5012	Quoth	_	_	_	_	_	_	
-56-2	5013-5016	the	animal[266]	new[266]	nonsal[266]	_	coref	59-9[276_266]	
+56-2	5013-5016	the	animal[266]	new[266]	nonsal[266]	_	coref	57-2[268_266]	
 56-3	5017-5022	Raven	animal[266]	new[266]	nonsal[266]	_	_	_	
 56-4	5023-5024	,	_	_	_	_	_	_	
 56-5	5025-5026	"	_	_	_	_	_	_	
-56-6	5027-5036	Nevermore	abstract[267]	giv[267]	nonsal[267]	_	coref	62-6[289_267]	
+56-6	5027-5036	Nevermore	abstract[267]	giv[267]	nonsal[267]	_	coref	62-6[290_267]	
 56-7	5037-5038	.	_	_	_	_	_	_	
 56-8	5039-5040	"	_	_	_	_	_	_	
 
 #Text=" Prophet ! " said I , " thing of evil !
 57-1	5041-5042	"	_	_	_	_	_	_	
-57-2	5043-5050	Prophet	person[268]	new[268]	nonsal[268]	_	coref	58-2[271_268]	
+57-2	5043-5050	Prophet	animal[268]	new[268]	nonsal[268]	_	coref	57-9[270_268]	
 57-3	5051-5052	!	_	_	_	_	_	_	
 57-4	5053-5054	"	_	_	_	_	_	_	
 57-5	5055-5059	said	_	_	_	_	_	_	
-57-6	5060-5061	I	person[269]	giv[269]	nonsal[269]	_	coref	59-33[281_269]	
+57-6	5060-5061	I	person[269]	giv[269]	nonsal[269]	_	coref	59-33[282_269]	
 57-7	5062-5063	,	_	_	_	_	_	_	
 57-8	5064-5065	"	_	_	_	_	_	_	
-57-9	5066-5071	thing	_	_	_	_	_	_	
-57-10	5072-5074	of	_	_	_	_	_	_	
-57-11	5075-5079	evil	abstract[270]	new[270]	nonsal[270]	_	coref	63-11[293_270]	
+57-9	5066-5071	thing	animal[270]	giv[270]	nonsal[270]	_	coref	58-2[272_270]	
+57-10	5072-5074	of	animal[270]	giv[270]	nonsal[270]	_	_	_	
+57-11	5075-5079	evil	animal[270]|abstract[271]	giv[270]|new[271]	nonsal[270]|nonsal[271]	_	coref	63-11[294_271]	
 57-12	5080-5081	!	_	_	_	_	_	_	
 
 #Text=— prophet still , if bird or devil ! —
 58-1	5082-5083	—	_	_	_	_	_	_	
-58-2	5084-5091	prophet	person[271]	giv[271]	nonsal[271]	_	coref	63-2[290_271]	
+58-2	5084-5091	prophet	animal[272]	giv[272]	nonsal[272]	_	coref	59-9[277_272]	
 58-3	5092-5097	still	_	_	_	_	_	_	
 58-4	5098-5099	,	_	_	_	_	_	_	
 58-5	5100-5102	if	_	_	_	_	_	_	
-58-6	5103-5107	bird	animal[272]	giv[272]	nonsal[272]	_	coref	64-5[295_272]	
+58-6	5103-5107	bird	animal[273]	giv[273]	nonsal[273]	_	coref	64-5[296_273]	
 58-7	5108-5110	or	_	_	_	_	_	_	
-58-8	5111-5116	devil	person[273]	new[273]	nonsal[273]	_	coref	64-7[296_273]	
+58-8	5111-5116	devil	person[274]	new[274]	nonsal[274]	_	coref	64-7[297_274]	
 58-9	5117-5118	!	_	_	_	_	_	_	
 58-10	5119-5120	—	_	_	_	_	_	_	
 
 #Text=Whether Tempter sent , or whether tempest tossed thee here a shore , Desolate yet all undaunted , on this desert land enchanted — On this home by Horror haunted — tell me truly , I implore —
 59-1	5121-5128	Whether	_	_	_	_	_	_	
-59-2	5129-5136	Tempter	abstract[274]	new[274]	nonsal[274]	_	_	_	
+59-2	5129-5136	Tempter	abstract[275]	new[275]	nonsal[275]	_	_	_	
 59-3	5137-5141	sent	_	_	_	_	_	_	
 59-4	5142-5143	,	_	_	_	_	_	_	
 59-5	5144-5146	or	_	_	_	_	_	_	
 59-6	5147-5154	whether	_	_	_	_	_	_	
-59-7	5155-5162	tempest	event[275]	new[275]	nonsal[275]	_	coref	71-6[320_275]	
+59-7	5155-5162	tempest	event[276]	new[276]	nonsal[276]	_	coref	71-6[321_276]	
 59-8	5163-5169	tossed	_	_	_	_	_	_	
-59-9	5170-5174	thee	animal[276]	giv[276]	nonsal[276]	_	coref	62-2[288_276]	
-59-10	5175-5179	here	place[277]	new[277]	nonsal[277]	_	coref	59-20[278_277]	
-59-11	5180-5181	a	place[277]	new[277]	nonsal[277]	_	_	_	
-59-12	5182-5187	shore	place[277]	new[277]	nonsal[277]	_	_	_	
+59-9	5170-5174	thee	animal[277]	giv[277]	nonsal[277]	_	coref	62-2[289_277]	
+59-10	5175-5179	here	place[278]	new[278]	nonsal[278]	_	coref	59-20[279_278]	
+59-11	5180-5181	a	place[278]	new[278]	nonsal[278]	_	_	_	
+59-12	5182-5187	shore	place[278]	new[278]	nonsal[278]	_	_	_	
 59-13	5188-5189	,	_	_	_	_	_	_	
 59-14	5190-5198	Desolate	_	_	_	_	_	_	
 59-15	5199-5202	yet	_	_	_	_	_	_	
@@ -1203,23 +1203,23 @@
 59-17	5207-5216	undaunted	_	_	_	_	_	_	
 59-18	5217-5218	,	_	_	_	_	_	_	
 59-19	5219-5221	on	_	_	_	_	_	_	
-59-20	5222-5226	this	place[278]	new[278]	nonsal[278]	_	_	_	
-59-21	5227-5233	desert	place[278]	new[278]	nonsal[278]	_	_	_	
-59-22	5234-5238	land	place[278]	new[278]	nonsal[278]	_	_	_	
+59-20	5222-5226	this	place[279]	new[279]	nonsal[279]	_	_	_	
+59-21	5227-5233	desert	place[279]	new[279]	nonsal[279]	_	_	_	
+59-22	5234-5238	land	place[279]	new[279]	nonsal[279]	_	_	_	
 59-23	5239-5248	enchanted	_	_	_	_	_	_	
 59-24	5249-5250	—	_	_	_	_	_	_	
 59-25	5251-5253	On	_	_	_	_	_	_	
-59-26	5254-5258	this	place[279]	new[279]	nonsal[279]	_	_	_	
-59-27	5259-5263	home	place[279]	new[279]	nonsal[279]	_	_	_	
-59-28	5264-5266	by	place[279]	new[279]	nonsal[279]	_	_	_	
-59-29	5267-5273	Horror	place[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	_	_	
-59-30	5274-5281	haunted	place[279]	new[279]	nonsal[279]	_	_	_	
+59-26	5254-5258	this	place[280]	new[280]	nonsal[280]	_	_	_	
+59-27	5259-5263	home	place[280]	new[280]	nonsal[280]	_	_	_	
+59-28	5264-5266	by	place[280]	new[280]	nonsal[280]	_	_	_	
+59-29	5267-5273	Horror	place[280]|abstract[281]	new[280]|new[281]	nonsal[280]|nonsal[281]	_	_	_	
+59-30	5274-5281	haunted	place[280]	new[280]	nonsal[280]	_	_	_	
 59-31	5282-5283	—	_	_	_	_	_	_	
 59-32	5284-5288	tell	_	_	_	_	_	_	
-59-33	5289-5291	me	person[281]	giv[281]	nonsal[281]	_	coref	59-36[282_281]	
+59-33	5289-5291	me	person[282]	giv[282]	nonsal[282]	_	coref	59-36[283_282]	
 59-34	5292-5297	truly	_	_	_	_	_	_	
 59-35	5298-5299	,	_	_	_	_	_	_	
-59-36	5300-5301	I	person[282]	giv[282]	nonsal[282]	_	coref	61-3[285_282]	
+59-36	5300-5301	I	person[283]	giv[283]	nonsal[283]	_	coref	61-3[286_283]	
 59-37	5302-5309	implore	_	_	_	_	_	_	
 59-38	5310-5311	—	_	_	_	_	_	_	
 
@@ -1229,145 +1229,145 @@
 60-3	5321-5322	—	_	_	_	_	_	_	
 60-4	5323-5325	is	_	_	_	_	_	_	
 60-5	5326-5331	there	_	_	_	_	_	_	
-60-6	5332-5336	balm	substance[283]	new[283]	nonsal[283]	_	_	_	
+60-6	5332-5336	balm	substance[284]	new[284]	nonsal[284]	_	_	_	
 60-7	5337-5339	in	_	_	_	_	_	_	
-60-8	5340-5346	Gilead	place[284]	new[284]	nonsal[284]	Gilead[284]	_	_	
+60-8	5340-5346	Gilead	place[285]	new[285]	nonsal[285]	Gilead[285]	_	_	
 60-9	5347-5348	?	_	_	_	_	_	_	
 
 #Text=— tell me — tell me , I implore ! "
 61-1	5349-5350	—	_	_	_	_	_	_	
 61-2	5351-5355	tell	_	_	_	_	_	_	
-61-3	5356-5358	me	person[285]	giv[285]	nonsal[285]	_	coref	61-6[286_285]	
+61-3	5356-5358	me	person[286]	giv[286]	nonsal[286]	_	coref	61-6[287_286]	
 61-4	5359-5360	—	_	_	_	_	_	_	
 61-5	5361-5365	tell	_	_	_	_	_	_	
-61-6	5366-5368	me	person[286]	giv[286]	nonsal[286]	_	coref	61-8[287_286]	
+61-6	5366-5368	me	person[287]	giv[287]	nonsal[287]	_	coref	61-8[288_287]	
 61-7	5369-5370	,	_	_	_	_	_	_	
-61-8	5371-5372	I	person[287]	giv[287]	nonsal[287]	_	coref	63-6[291_287]	
+61-8	5371-5372	I	person[288]	giv[288]	nonsal[288]	_	coref	63-6[292_288]	
 61-9	5373-5380	implore	_	_	_	_	_	_	
 61-10	5381-5382	!	_	_	_	_	_	_	
 61-11	5383-5384	"	_	_	_	_	_	_	
 
 #Text=Quoth the Raven , " Nevermore . "
 62-1	5385-5390	Quoth	_	_	_	_	_	_	
-62-2	5391-5394	the	animal[288]	new[288]	nonsal[288]	_	coref	69-2[311_288]	
-62-3	5395-5400	Raven	animal[288]	new[288]	nonsal[288]	_	_	_	
+62-2	5391-5394	the	animal[289]	new[289]	nonsal[289]	_	coref	63-2[291_289]	
+62-3	5395-5400	Raven	animal[289]	new[289]	nonsal[289]	_	_	_	
 62-4	5401-5402	,	_	_	_	_	_	_	
 62-5	5403-5404	"	_	_	_	_	_	_	
-62-6	5405-5414	Nevermore	abstract[289]	giv[289]	nonsal[289]	_	coref	69-6[312_289]	
+62-6	5405-5414	Nevermore	abstract[290]	giv[290]	nonsal[290]	_	coref	69-6[313_290]	
 62-7	5415-5416	.	_	_	_	_	_	_	
 62-8	5417-5418	"	_	_	_	_	_	_	
 
 #Text=" Prophet ! " said I , " thing of evil —
 63-1	5419-5420	"	_	_	_	_	_	_	
-63-2	5421-5428	Prophet	person[290]	giv[290]	nonsal[290]	_	coref	64-1[294_290]	
+63-2	5421-5428	Prophet	animal[291]	giv[291]	nonsal[291]	_	coref	64-1[295_291]	
 63-3	5429-5430	!	_	_	_	_	_	_	
 63-4	5431-5432	"	_	_	_	_	_	_	
 63-5	5433-5437	said	_	_	_	_	_	_	
-63-6	5438-5439	I	person[291]	giv[291]	nonsal[291]	_	coref	70-15[318_291]	
+63-6	5438-5439	I	person[292]	giv[292]	nonsal[292]	_	coref	70-15[319_292]	
 63-7	5440-5441	,	_	_	_	_	_	_	
 63-8	5442-5443	"	_	_	_	_	_	_	
-63-9	5444-5449	thing	abstract[292]	new[292]	nonsal[292]	_	_	_	
-63-10	5450-5452	of	abstract[292]	new[292]	nonsal[292]	_	_	_	
-63-11	5453-5457	evil	abstract[292]|abstract[293]	new[292]|giv[293]	nonsal[292]|nonsal[293]	_	_	_	
+63-9	5444-5449	thing	abstract[293]	new[293]	nonsal[293]	_	_	_	
+63-10	5450-5452	of	abstract[293]	new[293]	nonsal[293]	_	_	_	
+63-11	5453-5457	evil	abstract[293]|abstract[294]	new[293]|giv[294]	nonsal[293]|nonsal[294]	_	_	_	
 63-12	5458-5459	—	_	_	_	_	_	_	
 
 #Text=prophet still , if bird or devil !
-64-1	5460-5467	prophet	person[294]	giv[294]	nonsal[294]	_	_	_	
+64-1	5460-5467	prophet	animal[295]	giv[295]	nonsal[295]	_	coref	69-2[312_295]	
 64-2	5468-5473	still	_	_	_	_	_	_	
 64-3	5474-5475	,	_	_	_	_	_	_	
 64-4	5476-5478	if	_	_	_	_	_	_	
-64-5	5479-5483	bird	animal[295]	giv[295]	nonsal[295]	_	coref	70-10[316_295]	
+64-5	5479-5483	bird	animal[296]	giv[296]	nonsal[296]	_	coref	70-10[317_296]	
 64-6	5484-5486	or	_	_	_	_	_	_	
-64-7	5487-5492	devil	person[296]	giv[296]	nonsal[296]	_	_	_	
+64-7	5487-5492	devil	person[297]	giv[297]	nonsal[297]	_	_	_	
 64-8	5493-5494	!	_	_	_	_	_	_	
 
 #Text=By that Heaven that bends above us —
 65-1	5495-5497	By	_	_	_	_	_	_	
-65-2	5498-5502	that	place[297]	new[297]	nonsal[297]	Heaven[297]	_	_	
-65-3	5503-5509	Heaven	place[297]	new[297]	nonsal[297]	Heaven[297]	_	_	
-65-4	5510-5514	that	place[297]	new[297]	nonsal[297]	Heaven[297]	_	_	
-65-5	5515-5520	bends	place[297]	new[297]	nonsal[297]	Heaven[297]	_	_	
-65-6	5521-5526	above	place[297]	new[297]	nonsal[297]	Heaven[297]	_	_	
-65-7	5527-5529	us	place[297]|person[298]	new[297]|acc[298]	nonsal[297]|nonsal[298]	Heaven[297]	coref	66-4[300_298]	
+65-2	5498-5502	that	place[298]	new[298]	nonsal[298]	Heaven[298]	_	_	
+65-3	5503-5509	Heaven	place[298]	new[298]	nonsal[298]	Heaven[298]	_	_	
+65-4	5510-5514	that	place[298]	new[298]	nonsal[298]	Heaven[298]	_	_	
+65-5	5515-5520	bends	place[298]	new[298]	nonsal[298]	Heaven[298]	_	_	
+65-6	5521-5526	above	place[298]	new[298]	nonsal[298]	Heaven[298]	_	_	
+65-7	5527-5529	us	place[298]|person[299]	new[298]|acc[299]	nonsal[298]|nonsal[299]	Heaven[298]	coref	66-4[301_299]	
 65-8	5530-5531	—	_	_	_	_	_	_	
 
 #Text=by that God we both adore —
 66-1	5532-5534	by	_	_	_	_	_	_	
-66-2	5535-5539	that	person[299]	giv[299]	nonsal[299]	God[299]	_	_	
-66-3	5540-5543	God	person[299]	giv[299]	nonsal[299]	God[299]	_	_	
-66-4	5544-5546	we	person[299]|person[300]	giv[299]|giv[300]	nonsal[299]|nonsal[300]	God[299]	coref	70-5[315_300]	
-66-5	5547-5551	both	person[299]|person[300]	giv[299]|giv[300]	nonsal[299]|nonsal[300]	God[299]	_	_	
-66-6	5552-5557	adore	person[299]	giv[299]	nonsal[299]	God[299]	_	_	
+66-2	5535-5539	that	person[300]	giv[300]	nonsal[300]	God[300]	_	_	
+66-3	5540-5543	God	person[300]	giv[300]	nonsal[300]	God[300]	_	_	
+66-4	5544-5546	we	person[300]|person[301]	giv[300]|giv[301]	nonsal[300]|nonsal[301]	God[300]	coref	70-5[316_301]	
+66-5	5547-5551	both	person[300]|person[301]	giv[300]|giv[301]	nonsal[300]|nonsal[301]	God[300]	_	_	
+66-6	5552-5557	adore	person[300]	giv[300]	nonsal[300]	God[300]	_	_	
 66-7	5558-5559	—	_	_	_	_	_	_	
 
 #Text=Tell this soul with sorrow laden if , within the distant Aidenn , It shall clasp a sainted maiden whom the angels name Lenore —
 67-1	5560-5564	Tell	_	_	_	_	_	_	
-67-2	5565-5569	this	abstract[301]	new[301]	nonsal[301]	_	coref	67-14[304_301]	
-67-3	5570-5574	soul	abstract[301]	new[301]	nonsal[301]	_	_	_	
+67-2	5565-5569	this	abstract[302]	new[302]	nonsal[302]	_	coref	67-14[305_302]	
+67-3	5570-5574	soul	abstract[302]	new[302]	nonsal[302]	_	_	_	
 67-4	5575-5579	with	_	_	_	_	_	_	
-67-5	5580-5586	sorrow	abstract[302]	new[302]	nonsal[302]	_	_	_	
+67-5	5580-5586	sorrow	abstract[303]	new[303]	nonsal[303]	_	_	_	
 67-6	5587-5592	laden	_	_	_	_	_	_	
 67-7	5593-5595	if	_	_	_	_	_	_	
 67-8	5596-5597	,	_	_	_	_	_	_	
 67-9	5598-5604	within	_	_	_	_	_	_	
-67-10	5605-5608	the	place[303]	new[303]	nonsal[303]	Garden_of_Eden[303]	_	_	
-67-11	5609-5616	distant	place[303]	new[303]	nonsal[303]	Garden_of_Eden[303]	_	_	
-67-12	5617-5623	Aidenn	place[303]	new[303]	nonsal[303]	Garden_of_Eden[303]	_	_	
+67-10	5605-5608	the	place[304]	new[304]	nonsal[304]	Garden_of_Eden[304]	_	_	
+67-11	5609-5616	distant	place[304]	new[304]	nonsal[304]	Garden_of_Eden[304]	_	_	
+67-12	5617-5623	Aidenn	place[304]	new[304]	nonsal[304]	Garden_of_Eden[304]	_	_	
 67-13	5624-5625	,	_	_	_	_	_	_	
-67-14	5626-5628	It	abstract[304]	giv[304]	nonsal[304]	_	coref	80-2[356_304]	
+67-14	5626-5628	It	abstract[305]	giv[305]	nonsal[305]	_	coref	80-2[357_305]	
 67-15	5629-5634	shall	_	_	_	_	_	_	
 67-16	5635-5640	clasp	_	_	_	_	_	_	
-67-17	5641-5642	a	person[305]	new[305]	nonsal[305]	_	coref	68-2[308_305]	
-67-18	5643-5650	sainted	person[305]	new[305]	nonsal[305]	_	_	_	
-67-19	5651-5657	maiden	person[305]	new[305]	nonsal[305]	_	_	_	
-67-20	5658-5662	whom	person[305]	new[305]	nonsal[305]	_	_	_	
-67-21	5663-5666	the	person[305]|person[306]	new[305]|giv[306]	nonsal[305]|nonsal[306]	_	coref	68-8[309_306]	
-67-22	5667-5673	angels	person[305]|person[306]	new[305]|giv[306]	nonsal[305]|nonsal[306]	_	_	_	
-67-23	5674-5678	name	person[305]	new[305]	nonsal[305]	_	_	_	
-67-24	5679-5685	Lenore	person[305]|abstract[307]	new[305]|giv[307]	nonsal[305]|nonsal[307]	_	coref	68-11[310_307]	
+67-17	5641-5642	a	person[306]	new[306]	nonsal[306]	_	coref	68-2[309_306]	
+67-18	5643-5650	sainted	person[306]	new[306]	nonsal[306]	_	_	_	
+67-19	5651-5657	maiden	person[306]	new[306]	nonsal[306]	_	_	_	
+67-20	5658-5662	whom	person[306]	new[306]	nonsal[306]	_	_	_	
+67-21	5663-5666	the	person[306]|person[307]	new[306]|giv[307]	nonsal[306]|nonsal[307]	_	coref	68-8[310_307]	
+67-22	5667-5673	angels	person[306]|person[307]	new[306]|giv[307]	nonsal[306]|nonsal[307]	_	_	_	
+67-23	5674-5678	name	person[306]	new[306]	nonsal[306]	_	_	_	
+67-24	5679-5685	Lenore	person[306]|abstract[308]	new[306]|giv[308]	nonsal[306]|nonsal[308]	_	coref	68-11[311_308]	
 67-25	5686-5687	—	_	_	_	_	_	_	
 
 #Text=Clasp a rare and radiant maiden whom the angels name Lenore . '
 68-1	5688-5693	Clasp	_	_	_	_	_	_	
-68-2	5694-5695	a	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-3	5696-5700	rare	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-4	5701-5704	and	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-5	5705-5712	radiant	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-6	5713-5719	maiden	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-7	5720-5724	whom	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-8	5725-5728	the	person[308]|person[309]	giv[308]|giv[309]	nonsal[308]|nonsal[309]	_	_	_	
-68-9	5729-5735	angels	person[308]|person[309]	giv[308]|giv[309]	nonsal[308]|nonsal[309]	_	_	_	
-68-10	5736-5740	name	person[308]	giv[308]	nonsal[308]	_	_	_	
-68-11	5741-5747	Lenore	person[308]|abstract[310]	giv[308]|giv[310]	nonsal[308]|nonsal[310]	_	_	_	
+68-2	5694-5695	a	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-3	5696-5700	rare	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-4	5701-5704	and	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-5	5705-5712	radiant	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-6	5713-5719	maiden	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-7	5720-5724	whom	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-8	5725-5728	the	person[309]|person[310]	giv[309]|giv[310]	nonsal[309]|nonsal[310]	_	_	_	
+68-9	5729-5735	angels	person[309]|person[310]	giv[309]|giv[310]	nonsal[309]|nonsal[310]	_	_	_	
+68-10	5736-5740	name	person[309]	giv[309]	nonsal[309]	_	_	_	
+68-11	5741-5747	Lenore	person[309]|abstract[311]	giv[309]|giv[311]	nonsal[309]|nonsal[311]	_	_	_	
 68-12	5748-5749	.	_	_	_	_	_	_	
 68-13	5750-5751	'	_	_	_	_	_	_	
 
 #Text=Quoth the Raven , " Nevermore . "
 69-1	5752-5757	Quoth	_	_	_	_	_	_	
-69-2	5758-5761	the	animal[311]	new[311]	nonsal[311]	_	coref	71-3[319_311]	
-69-3	5762-5767	Raven	animal[311]	new[311]	nonsal[311]	_	_	_	
+69-2	5758-5761	the	animal[312]	new[312]	nonsal[312]	_	coref	71-3[320_312]	
+69-3	5762-5767	Raven	animal[312]	new[312]	nonsal[312]	_	_	_	
 69-4	5768-5769	,	_	_	_	_	_	_	
 69-5	5770-5771	"	_	_	_	_	_	_	
-69-6	5772-5781	Nevermore	abstract[312]	giv[312]	nonsal[312]	_	coref	70-3[313_312]	
+69-6	5772-5781	Nevermore	abstract[313]	giv[313]	nonsal[313]	_	coref	70-3[314_313]	
 69-7	5782-5783	.	_	_	_	_	_	_	
 69-8	5784-5785	"	_	_	_	_	_	_	
 
 #Text=" Be that word our sign of parting , bird or fiend ! " I shrieked , upstarting —
 70-1	5786-5787	"	_	_	_	_	_	_	
 70-2	5788-5790	Be	_	_	_	_	_	_	
-70-3	5791-5795	that	abstract[313]	new[313]	nonsal[313]	_	coref	76-6[341_313]	
-70-4	5796-5800	word	abstract[313]	new[313]	nonsal[313]	_	_	_	
-70-5	5801-5804	our	abstract[314]|person[315]	giv[314]|giv[315]	nonsal[314]|nonsal[315]	_	_	_	
-70-6	5805-5809	sign	abstract[314]	giv[314]	nonsal[314]	_	_	_	
-70-7	5810-5812	of	abstract[314]	giv[314]	nonsal[314]	_	_	_	
-70-8	5813-5820	parting	abstract[314]	giv[314]	nonsal[314]	_	_	_	
+70-3	5791-5795	that	abstract[314]	new[314]	nonsal[314]	_	coref	76-6[342_314]	
+70-4	5796-5800	word	abstract[314]	new[314]	nonsal[314]	_	_	_	
+70-5	5801-5804	our	abstract[315]|person[316]	giv[315]|giv[316]	nonsal[315]|nonsal[316]	_	_	_	
+70-6	5805-5809	sign	abstract[315]	giv[315]	nonsal[315]	_	_	_	
+70-7	5810-5812	of	abstract[315]	giv[315]	nonsal[315]	_	_	_	
+70-8	5813-5820	parting	abstract[315]	giv[315]	nonsal[315]	_	_	_	
 70-9	5821-5822	,	_	_	_	_	_	_	
-70-10	5823-5827	bird	animal[316]	giv[316]	nonsal[316]	_	_	_	
+70-10	5823-5827	bird	animal[317]	giv[317]	nonsal[317]	_	_	_	
 70-11	5828-5830	or	_	_	_	_	_	_	
-70-12	5831-5836	fiend	animal[317]	new[317]	nonsal[317]	_	_	_	
+70-12	5831-5836	fiend	animal[318]	new[318]	nonsal[318]	_	_	_	
 70-13	5837-5838	!	_	_	_	_	_	_	
 70-14	5839-5840	"	_	_	_	_	_	_	
-70-15	5841-5842	I	person[318]	giv[318]	nonsal[318]	_	coref	73-2[328_318]	
+70-15	5841-5842	I	person[319]	giv[319]	nonsal[319]	_	coref	73-2[329_319]	
 70-16	5843-5851	shrieked	_	_	_	_	_	_	
 70-17	5852-5853	,	_	_	_	_	_	_	
 70-18	5854-5864	upstarting	_	_	_	_	_	_	
@@ -1376,87 +1376,87 @@
 #Text=" Get thee back into the tempest and the Night 's Plutonian shore !
 71-1	5867-5868	"	_	_	_	_	_	_	
 71-2	5869-5872	Get	_	_	_	_	_	_	
-71-3	5873-5877	thee	animal[319]	giv[319]	nonsal[319]	_	coref	72-11[326_319]	
+71-3	5873-5877	thee	animal[320]	giv[320]	nonsal[320]	_	coref	72-11[327_320]	
 71-4	5878-5882	back	_	_	_	_	_	_	
 71-5	5883-5887	into	_	_	_	_	_	_	
-71-6	5888-5891	the	event[320]	giv[320]	nonsal[320]	_	_	_	
-71-7	5892-5899	tempest	event[320]	giv[320]	nonsal[320]	_	_	_	
+71-6	5888-5891	the	event[321]	giv[321]	nonsal[321]	_	_	_	
+71-7	5892-5899	tempest	event[321]	giv[321]	nonsal[321]	_	_	_	
 71-8	5900-5903	and	_	_	_	_	_	_	
-71-9	5904-5907	the	place[321]	giv[321]	nonsal[321]	_	_	_	
-71-10	5908-5913	Night	place[321]	giv[321]	nonsal[321]	_	_	_	
-71-11	5914-5916	's	place[321]	giv[321]	nonsal[321]	_	_	_	
-71-12	5917-5926	Plutonian	place[321]	giv[321]	nonsal[321]	_	_	_	
-71-13	5927-5932	shore	place[321]	giv[321]	nonsal[321]	_	_	_	
+71-9	5904-5907	the	place[322]	giv[322]	nonsal[322]	_	_	_	
+71-10	5908-5913	Night	place[322]	giv[322]	nonsal[322]	_	_	_	
+71-11	5914-5916	's	place[322]	giv[322]	nonsal[322]	_	_	_	
+71-12	5917-5926	Plutonian	place[322]	giv[322]	nonsal[322]	_	_	_	
+71-13	5927-5932	shore	place[322]	giv[322]	nonsal[322]	_	_	_	
 71-14	5933-5934	!	_	_	_	_	_	_	
 
 #Text=Leave no black plume as a token of that lie thy soul hath spoken !
 72-1	5935-5940	Leave	_	_	_	_	_	_	
-72-2	5941-5943	no	object[322]	new[322]	nonsal[322]	_	_	_	
-72-3	5944-5949	black	object[322]	new[322]	nonsal[322]	_	_	_	
-72-4	5950-5955	plume	object[322]	new[322]	nonsal[322]	_	_	_	
+72-2	5941-5943	no	object[323]	new[323]	nonsal[323]	_	_	_	
+72-3	5944-5949	black	object[323]	new[323]	nonsal[323]	_	_	_	
+72-4	5950-5955	plume	object[323]	new[323]	nonsal[323]	_	_	_	
 72-5	5956-5958	as	_	_	_	_	_	_	
-72-6	5959-5960	a	object[323]	new[323]	nonsal[323]	_	_	_	
-72-7	5961-5966	token	object[323]	new[323]	nonsal[323]	_	_	_	
-72-8	5967-5969	of	object[323]	new[323]	nonsal[323]	_	_	_	
-72-9	5970-5974	that	object[323]|abstract[324]	new[323]|new[324]	nonsal[323]|nonsal[324]	_	_	_	
-72-10	5975-5978	lie	object[323]|abstract[324]	new[323]|new[324]	nonsal[323]|nonsal[324]	_	_	_	
-72-11	5979-5982	thy	object[323]|abstract[324]|abstract[325]|animal[326]	new[323]|new[324]|giv[325]|giv[326]	nonsal[323]|nonsal[324]|nonsal[325]|nonsal[326]	_	coref	75-2[333_326]	
-72-12	5983-5987	soul	object[323]|abstract[324]|abstract[325]	new[323]|new[324]|giv[325]	nonsal[323]|nonsal[324]|nonsal[325]	_	_	_	
-72-13	5988-5992	hath	object[323]|abstract[324]	new[323]|new[324]	nonsal[323]|nonsal[324]	_	_	_	
-72-14	5993-5999	spoken	object[323]|abstract[324]	new[323]|new[324]	nonsal[323]|nonsal[324]	_	_	_	
+72-6	5959-5960	a	object[324]	new[324]	nonsal[324]	_	_	_	
+72-7	5961-5966	token	object[324]	new[324]	nonsal[324]	_	_	_	
+72-8	5967-5969	of	object[324]	new[324]	nonsal[324]	_	_	_	
+72-9	5970-5974	that	object[324]|abstract[325]	new[324]|new[325]	nonsal[324]|nonsal[325]	_	_	_	
+72-10	5975-5978	lie	object[324]|abstract[325]	new[324]|new[325]	nonsal[324]|nonsal[325]	_	_	_	
+72-11	5979-5982	thy	object[324]|abstract[325]|abstract[326]|animal[327]	new[324]|new[325]|giv[326]|giv[327]	nonsal[324]|nonsal[325]|nonsal[326]|nonsal[327]	_	coref	75-2[334_327]	
+72-12	5983-5987	soul	object[324]|abstract[325]|abstract[326]	new[324]|new[325]|giv[326]	nonsal[324]|nonsal[325]|nonsal[326]	_	_	_	
+72-13	5988-5992	hath	object[324]|abstract[325]	new[324]|new[325]	nonsal[324]|nonsal[325]	_	_	_	
+72-14	5993-5999	spoken	object[324]|abstract[325]	new[324]|new[325]	nonsal[324]|nonsal[325]	_	_	_	
 72-15	6000-6001	!	_	_	_	_	_	_	
 
 #Text=Leave my loneliness unbroken !
 73-1	6002-6007	Leave	_	_	_	_	_	_	
-73-2	6008-6010	my	abstract[327]|person[328]	new[327]|giv[328]	nonsal[327]|nonsal[328]	_	coref	74-6[331_328]	
-73-3	6011-6021	loneliness	abstract[327]	new[327]	nonsal[327]	_	_	_	
+73-2	6008-6010	my	abstract[328]|person[329]	new[328]|giv[329]	nonsal[328]|nonsal[329]	_	coref	74-6[332_329]	
+73-3	6011-6021	loneliness	abstract[328]	new[328]	nonsal[328]	_	_	_	
 73-4	6022-6030	unbroken	_	_	_	_	_	_	
 73-5	6031-6032	!	_	_	_	_	_	_	
 
 #Text=— quit the bust above my door !
 74-1	6033-6034	—	_	_	_	_	_	_	
 74-2	6035-6039	quit	_	_	_	_	_	_	
-74-3	6040-6043	the	object[329]	new[329]	nonsal[329]	_	coref	77-16[343_329]	
-74-4	6044-6048	bust	object[329]	new[329]	nonsal[329]	_	_	_	
-74-5	6049-6054	above	object[329]	new[329]	nonsal[329]	_	_	_	
-74-6	6055-6057	my	object[329]|place[330]|person[331]	new[329]|new[330]|giv[331]	nonsal[329]|nonsal[330]|nonsal[331]	_	coref|coref	75-15[338_330]|75-6[335_331]	
-74-7	6058-6062	door	object[329]|place[330]	new[329]|new[330]	nonsal[329]|nonsal[330]	_	_	_	
+74-3	6040-6043	the	object[330]	new[330]	nonsal[330]	_	coref	77-16[344_330]	
+74-4	6044-6048	bust	object[330]	new[330]	nonsal[330]	_	_	_	
+74-5	6049-6054	above	object[330]	new[330]	nonsal[330]	_	_	_	
+74-6	6055-6057	my	object[330]|place[331]|person[332]	new[330]|new[331]|giv[332]	nonsal[330]|nonsal[331]|nonsal[332]	_	coref|coref	75-15[339_331]|75-6[336_332]	
+74-7	6058-6062	door	object[330]|place[331]	new[330]|new[331]	nonsal[330]|nonsal[331]	_	_	_	
 74-8	6063-6064	!	_	_	_	_	_	_	
 
 #Text=Take thy beak from out my heart , and take thy form from off my door ! "
 75-1	6065-6069	Take	_	_	_	_	_	_	
-75-2	6070-6073	thy	object[332]|animal[333]	new[332]|giv[333]	nonsal[332]|nonsal[333]	_	coref	75-11[337_333]	
-75-3	6074-6078	beak	object[332]	new[332]	nonsal[332]	_	_	_	
+75-2	6070-6073	thy	object[333]|animal[334]	new[333]|giv[334]	nonsal[333]|nonsal[334]	_	coref	75-11[338_334]	
+75-3	6074-6078	beak	object[333]	new[333]	nonsal[333]	_	_	_	
 75-4	6079-6083	from	_	_	_	_	_	_	
 75-5	6084-6087	out	_	_	_	_	_	_	
-75-6	6088-6090	my	object[334]|person[335]	new[334]|giv[335]	nonsal[334]|nonsal[335]	_	coref	75-15[339_335]	
-75-7	6091-6096	heart	object[334]	new[334]	nonsal[334]	_	_	_	
+75-6	6088-6090	my	object[335]|person[336]	new[335]|giv[336]	nonsal[335]|nonsal[336]	_	coref	75-15[340_336]	
+75-7	6091-6096	heart	object[335]	new[335]	nonsal[335]	_	_	_	
 75-8	6097-6098	,	_	_	_	_	_	_	
 75-9	6099-6102	and	_	_	_	_	_	_	
 75-10	6103-6107	take	_	_	_	_	_	_	
-75-11	6108-6111	thy	object[336]|animal[337]	new[336]|giv[337]	nonsal[336]|nonsal[337]	_	coref	76-2[340_337]	
-75-12	6112-6116	form	object[336]	new[336]	nonsal[336]	_	_	_	
+75-11	6108-6111	thy	object[337]|animal[338]	new[337]|giv[338]	nonsal[337]|nonsal[338]	_	coref	76-2[341_338]	
+75-12	6112-6116	form	object[337]	new[337]	nonsal[337]	_	_	_	
 75-13	6117-6121	from	_	_	_	_	_	_	
 75-14	6122-6125	off	_	_	_	_	_	_	
-75-15	6126-6128	my	place[338]|person[339]	giv[338]|giv[339]	nonsal[338]|nonsal[339]	_	coref|coref	77-23[345_338]|77-23[346_339]	
-75-16	6129-6133	door	place[338]	giv[338]	nonsal[338]	_	_	_	
+75-15	6126-6128	my	place[339]|person[340]	giv[339]|giv[340]	nonsal[339]|nonsal[340]	_	coref|coref	77-23[346_339]|77-23[347_340]	
+75-16	6129-6133	door	place[339]	giv[339]	nonsal[339]	_	_	_	
 75-17	6134-6135	!	_	_	_	_	_	_	
 75-18	6136-6137	"	_	_	_	_	_	_	
 
 #Text=Quoth the Raven , " Nevermore . "
 76-1	6138-6143	Quoth	_	_	_	_	_	_	
-76-2	6144-6147	the	animal[340]	new[340]	nonsal[340]	_	coref	77-2[342_340]	
-76-3	6148-6153	Raven	animal[340]	new[340]	nonsal[340]	_	_	_	
+76-2	6144-6147	the	animal[341]	new[341]	nonsal[341]	_	coref	77-2[343_341]	
+76-3	6148-6153	Raven	animal[341]	new[341]	nonsal[341]	_	_	_	
 76-4	6154-6155	,	_	_	_	_	_	_	
 76-5	6156-6157	"	_	_	_	_	_	_	
-76-6	6158-6167	Nevermore	abstract[341]	giv[341]	nonsal[341]	_	_	_	
+76-6	6158-6167	Nevermore	abstract[342]	giv[342]	nonsal[342]	_	_	_	
 76-7	6168-6169	.	_	_	_	_	_	_	
 76-8	6170-6171	"	_	_	_	_	_	_	
 
 #Text=And the Raven , never flitting , still is sitting , still is sitting On the pallid bust of Pallas just above my chamber door ;
 77-1	6172-6175	And	_	_	_	_	_	_	
-77-2	6176-6179	the	animal[342]	new[342]	nonsal[342]	_	coref	78-2[348_342]	
-77-3	6180-6185	Raven	animal[342]	new[342]	nonsal[342]	_	_	_	
+77-2	6176-6179	the	animal[343]	new[343]	nonsal[343]	_	coref	78-2[349_343]	
+77-3	6180-6185	Raven	animal[343]	new[343]	nonsal[343]	_	_	_	
 77-4	6186-6187	,	_	_	_	_	_	_	
 77-5	6188-6193	never	_	_	_	_	_	_	
 77-6	6194-6202	flitting	_	_	_	_	_	_	
@@ -1469,68 +1469,68 @@
 77-13	6230-6232	is	_	_	_	_	_	_	
 77-14	6233-6240	sitting	_	_	_	_	_	_	
 77-15	6241-6243	On	_	_	_	_	_	_	
-77-16	6244-6247	the	object[343]	giv[343]	nonsal[343]	_	_	_	
-77-17	6248-6254	pallid	object[343]	giv[343]	nonsal[343]	_	_	_	
-77-18	6255-6259	bust	object[343]	giv[343]	nonsal[343]	_	_	_	
-77-19	6260-6262	of	object[343]	giv[343]	nonsal[343]	_	_	_	
-77-20	6263-6269	Pallas	object[343]|person[344]	giv[343]|giv[344]	nonsal[343]|nonsal[344]	Athena[344]	_	_	
+77-16	6244-6247	the	object[344]	giv[344]	nonsal[344]	_	_	_	
+77-17	6248-6254	pallid	object[344]	giv[344]	nonsal[344]	_	_	_	
+77-18	6255-6259	bust	object[344]	giv[344]	nonsal[344]	_	_	_	
+77-19	6260-6262	of	object[344]	giv[344]	nonsal[344]	_	_	_	
+77-20	6263-6269	Pallas	object[344]|person[345]	giv[344]|giv[345]	nonsal[344]|nonsal[345]	Athena[345]	_	_	
 77-21	6270-6274	just	_	_	_	_	_	_	
 77-22	6275-6280	above	_	_	_	_	_	_	
-77-23	6281-6283	my	place[345]|person[346]	giv[345]|giv[346]	nonsal[345]|nonsal[346]	_	coref	80-2[357_346]	
-77-24	6284-6291	chamber	place[345]	giv[345]	nonsal[345]	_	_	_	
-77-25	6292-6296	door	place[345]	giv[345]	nonsal[345]	_	_	_	
+77-23	6281-6283	my	place[346]|person[347]	giv[346]|giv[347]	nonsal[346]|nonsal[347]	_	coref	80-2[358_347]	
+77-24	6284-6291	chamber	place[346]	giv[346]	nonsal[346]	_	_	_	
+77-25	6292-6296	door	place[346]	giv[346]	nonsal[346]	_	_	_	
 77-26	6297-6298	;	_	_	_	_	_	_	
 
 #Text=And his eyes have all the seeming of a demon 's that is dreaming
 78-1	6299-6302	And	_	_	_	_	_	_	
-78-2	6303-6306	his	object[347]|animal[348]	new[347]|giv[348]	nonsal[347]|nonsal[348]	_	coref	79-7[352_348]	
-78-3	6307-6311	eyes	object[347]	new[347]	nonsal[347]	_	_	_	
+78-2	6303-6306	his	object[348]|animal[349]	new[348]|giv[349]	nonsal[348]|nonsal[349]	_	coref	79-7[353_349]	
+78-3	6307-6311	eyes	object[348]	new[348]	nonsal[348]	_	_	_	
 78-4	6312-6316	have	_	_	_	_	_	_	
-78-5	6317-6320	all	abstract[349]	new[349]	nonsal[349]	_	_	_	
-78-6	6321-6324	the	abstract[349]	new[349]	nonsal[349]	_	_	_	
-78-7	6325-6332	seeming	abstract[349]	new[349]	nonsal[349]	_	_	_	
-78-8	6333-6335	of	abstract[349]	new[349]	nonsal[349]	_	_	_	
-78-9	6336-6337	a	abstract[349]|person[350]	new[349]|new[350]	nonsal[349]|nonsal[350]	_	_	_	
-78-10	6338-6343	demon	abstract[349]|person[350]	new[349]|new[350]	nonsal[349]|nonsal[350]	_	_	_	
-78-11	6344-6346	's	abstract[349]|person[350]	new[349]|new[350]	nonsal[349]|nonsal[350]	_	_	_	
-78-12	6347-6351	that	abstract[349]|person[350]	new[349]|new[350]	nonsal[349]|nonsal[350]	_	_	_	
-78-13	6352-6354	is	abstract[349]|person[350]	new[349]|new[350]	nonsal[349]|nonsal[350]	_	_	_	
-78-14	6355-6363	dreaming	abstract[349]|person[350]	new[349]|new[350]	nonsal[349]|nonsal[350]	_	_	_	
+78-5	6317-6320	all	abstract[350]	new[350]	nonsal[350]	_	_	_	
+78-6	6321-6324	the	abstract[350]	new[350]	nonsal[350]	_	_	_	
+78-7	6325-6332	seeming	abstract[350]	new[350]	nonsal[350]	_	_	_	
+78-8	6333-6335	of	abstract[350]	new[350]	nonsal[350]	_	_	_	
+78-9	6336-6337	a	abstract[350]|person[351]	new[350]|new[351]	nonsal[350]|nonsal[351]	_	_	_	
+78-10	6338-6343	demon	abstract[350]|person[351]	new[350]|new[351]	nonsal[350]|nonsal[351]	_	_	_	
+78-11	6344-6346	's	abstract[350]|person[351]	new[350]|new[351]	nonsal[350]|nonsal[351]	_	_	_	
+78-12	6347-6351	that	abstract[350]|person[351]	new[350]|new[351]	nonsal[350]|nonsal[351]	_	_	_	
+78-13	6352-6354	is	abstract[350]|person[351]	new[350]|new[351]	nonsal[350]|nonsal[351]	_	_	_	
+78-14	6355-6363	dreaming	abstract[350]|person[351]	new[350]|new[351]	nonsal[350]|nonsal[351]	_	_	_	
 
 #Text=And the lamp - light o'er him streaming throws his shadow on the floor ;
 79-1	6364-6367	And	_	_	_	_	_	_	
-79-2	6368-6371	the	abstract[351]	new[351]	nonsal[351]	_	_	_	
-79-3	6372-6376	lamp	abstract[351]	new[351]	nonsal[351]	_	_	_	
-79-4	6377-6378	-	abstract[351]	new[351]	nonsal[351]	_	_	_	
-79-5	6379-6384	light	abstract[351]	new[351]	nonsal[351]	_	_	_	
-79-6	6385-6389	o'er	abstract[351]	new[351]	nonsal[351]	_	_	_	
-79-7	6390-6393	him	abstract[351]|animal[352]	new[351]|giv[352]	nonsal[351]|nonsal[352]	_	coref	79-10[354_352]	
+79-2	6368-6371	the	abstract[352]	new[352]	nonsal[352]	_	_	_	
+79-3	6372-6376	lamp	abstract[352]	new[352]	nonsal[352]	_	_	_	
+79-4	6377-6378	-	abstract[352]	new[352]	nonsal[352]	_	_	_	
+79-5	6379-6384	light	abstract[352]	new[352]	nonsal[352]	_	_	_	
+79-6	6385-6389	o'er	abstract[352]	new[352]	nonsal[352]	_	_	_	
+79-7	6390-6393	him	abstract[352]|animal[353]	new[352]|giv[353]	nonsal[352]|nonsal[353]	_	coref	79-10[355_353]	
 79-8	6394-6403	streaming	_	_	_	_	_	_	
 79-9	6404-6410	throws	_	_	_	_	_	_	
-79-10	6411-6414	his	abstract[353]|animal[354]	new[353]|giv[354]	nonsal[353]|nonsal[354]	_	coref	80-6[358_353]	
-79-11	6415-6421	shadow	abstract[353]	new[353]	nonsal[353]	_	_	_	
+79-10	6411-6414	his	abstract[354]|animal[355]	new[354]|giv[355]	nonsal[354]|nonsal[355]	_	coref	80-6[359_354]	
+79-11	6415-6421	shadow	abstract[354]	new[354]	nonsal[354]	_	_	_	
 79-12	6422-6424	on	_	_	_	_	_	_	
-79-13	6425-6428	the	place[355]	new[355]	nonsal[355]	_	coref	80-12[359_355]	
-79-14	6429-6434	floor	place[355]	new[355]	nonsal[355]	_	_	_	
+79-13	6425-6428	the	place[356]	new[356]	nonsal[356]	_	coref	80-12[360_356]	
+79-14	6429-6434	floor	place[356]	new[356]	nonsal[356]	_	_	_	
 79-15	6435-6436	;	_	_	_	_	_	_	
 
 #Text=And my soul from out that shadow that lies floating on the floor Shall be lifted — nevermore !
 80-1	6437-6440	And	_	_	_	_	_	_	
-80-2	6441-6443	my	abstract[356]|person[357]	giv[356]|giv[357]	nonsal[356]|nonsal[357]	_	_	_	
-80-3	6444-6448	soul	abstract[356]	giv[356]	nonsal[356]	_	_	_	
+80-2	6441-6443	my	abstract[357]|person[358]	giv[357]|giv[358]	nonsal[357]|nonsal[358]	_	_	_	
+80-3	6444-6448	soul	abstract[357]	giv[357]	nonsal[357]	_	_	_	
 80-4	6449-6453	from	_	_	_	_	_	_	
 80-5	6454-6457	out	_	_	_	_	_	_	
-80-6	6458-6462	that	abstract[358]	giv[358]	nonsal[358]	_	_	_	
-80-7	6463-6469	shadow	abstract[358]	giv[358]	nonsal[358]	_	_	_	
-80-8	6470-6474	that	abstract[358]	giv[358]	nonsal[358]	_	_	_	
-80-9	6475-6479	lies	abstract[358]	giv[358]	nonsal[358]	_	_	_	
-80-10	6480-6488	floating	abstract[358]	giv[358]	nonsal[358]	_	_	_	
-80-11	6489-6491	on	abstract[358]	giv[358]	nonsal[358]	_	_	_	
-80-12	6492-6495	the	abstract[358]|place[359]	giv[358]|giv[359]	nonsal[358]|nonsal[359]	_	_	_	
-80-13	6496-6501	floor	abstract[358]|place[359]	giv[358]|giv[359]	nonsal[358]|nonsal[359]	_	_	_	
+80-6	6458-6462	that	abstract[359]	giv[359]	nonsal[359]	_	_	_	
+80-7	6463-6469	shadow	abstract[359]	giv[359]	nonsal[359]	_	_	_	
+80-8	6470-6474	that	abstract[359]	giv[359]	nonsal[359]	_	_	_	
+80-9	6475-6479	lies	abstract[359]	giv[359]	nonsal[359]	_	_	_	
+80-10	6480-6488	floating	abstract[359]	giv[359]	nonsal[359]	_	_	_	
+80-11	6489-6491	on	abstract[359]	giv[359]	nonsal[359]	_	_	_	
+80-12	6492-6495	the	abstract[359]|place[360]	giv[359]|giv[360]	nonsal[359]|nonsal[360]	_	_	_	
+80-13	6496-6501	floor	abstract[359]|place[360]	giv[359]|giv[360]	nonsal[359]|nonsal[360]	_	_	_	
 80-14	6502-6507	Shall	_	_	_	_	_	_	
 80-15	6508-6510	be	_	_	_	_	_	_	
 80-16	6511-6517	lifted	_	_	_	_	_	_	
 80-17	6518-6519	—	_	_	_	_	_	_	
-80-18	6520-6529	nevermore	time[360]	giv[360]	nonsal[360]	_	_	_	
+80-18	6520-6529	nevermore	time[361]	giv[361]	nonsal[361]	_	_	_	
 80-19	6530-6531	!	_	_	_	_	_	_	
