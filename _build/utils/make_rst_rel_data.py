@@ -558,7 +558,7 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum", outmode="st
         dev_set = gum_dev
         test_set = gum_test
 
-    corpus = "eng.erst." + corpus if corpus in ["gum","gentle"] else "eng.rst." + corpus
+    corpus = "eng.erst." + corpus
     target_dir = os.path.dirname(os.path.realpath(__file__)) + os.sep + ".." + os.sep + "target" + os.sep
     conllu_dir = target_dir + "dep" + os.sep + "not-to-release" + os.sep
     rsd_dir = target_dir + "rst" + os.sep + "dependencies" + os.sep

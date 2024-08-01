@@ -384,12 +384,15 @@ if not options.discourse_only:
 else:
 	sys.__stdout__.write("\no Added discourse relations to UD parses\n")
 
+## Step 5: Refresh automatic portion of non-DM signals in RST files
+sys.__stdout__.write("\no Adding fresh non-DM signals to RST files:\n" + "=" * 37 + "\n")
+update_non_dm_signals(gum_source, gum_target, reddit=reddit)
+
+add_rsd_to_conllu(gum_target,reddit=reddit,output_signals=not options.no_signals,output_secedges=not options.no_secedges)
+if not options.skip_ontogum:
+	add_rsd_to_conllu(gum_target,reddit=reddit,ontogum=True,output_signals=not options.no_signals,output_secedges=not options.no_secedges)
+
 make_disrpt(conn_data,reddit=reddit,corpus=corpus_name.lower(),outmode=options.disrpt_outmode)
 
 sys.__stdout__.write("\no Created DISRPT shared task discourse relation formats in target rst/disrpt/\n")
-
-## Step 5: Refresh automatic portion of non-DM signals in RST files
-
-sys.__stdout__.write("\no Adding fresh non-DM signals to RST files:\n" + "=" * 37 + "\n")
-update_non_dm_signals(gum_source, gum_target, reddit=reddit)
 

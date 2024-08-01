@@ -133,6 +133,16 @@ class Entity:
 		return self.end - self.start + 1
 
 
+def abbreviate_signals(signal_string):
+	if signal_string == "_":
+		return "_"
+	parts = signal_string.replace("|", "-").split("-", 2)
+	if parts[0] not in ["dm", "orphan"]:
+		parts[1] = subtypes[parts[1]]
+	parts[0] = sigtypes[parts[0]]
+	return "-".join(parts)
+
+
 def resolve_mseg(word, pos, lemma, mseg_lookup):
 	if (word, pos) in mseg_lookup:
 		return mseg_lookup[(word, pos)]
@@ -1314,15 +1324,6 @@ def add_rsd_to_conllu(gum_target, reddit=False, ontogum=False, relation_set=8, o
 			elif "list" in rel:
 				return "joint_m"
 		return rel
-
-	def abbreviate_signals(signal_string):
-		if signal_string == "_":
-			return "_"
-		parts = signal_string.replace("|","-").split("-",2)
-		if parts[0] not in ["dm","orphan"]:
-			parts[1] = subtypes[parts[1]]
-		parts[0] = sigtypes[parts[0]]
-		return "-".join(parts)
 
 	if not gum_target.endswith(os.sep):
 		gum_target += os.sep
