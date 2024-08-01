@@ -2,7 +2,7 @@
 
 Repository for the Genre Tests for Linguistic Evaluation (GENTLE) Corpus
 
-This repository contains release versions of the Genre Tests for Linguistic Evaluation (GENTLE) corpus, an English out-of-domain test set following the same multilayer annotations found in the [GUM corpus](https://gucorpling.org/gum/). The texts are of the following 8 genres:
+This repository contains release versions of the Genre Tests for Linguistic Evaluation ([GENTLE](https://gucorpling.org/gum/gentle.html)) corpus, an English out-of-domain test set following the same multilayer annotations found in the [GUM corpus](https://gucorpling.org/gum/). The texts are of the following 8 genres:
 
   * dictionary entries
   * live esports commentary
@@ -23,7 +23,7 @@ To cite this corpus, please refer to the following article:
 
   * Aoyama, Tatsuya, Shabnam Behzad, Luke Gessler, Lauren Levine, Jessica Lin, Yang Janet Liu, Siyao Peng, Yilun Zhu and Amir Zeldes (2023) "[GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation](https://aclanthology.org/2023.law-1.17.pdf)". In: Proceedings of the Seventeenth Linguistic Annotation Workshop (LAW-XVII 2023), 166–178. Toronto, Canada.
 
-```
+```bibtex
 @inproceedings{aoyama-etal-2023-gentle,
     title = "{GENTLE}: A Genre-Diverse Multilayer Challenge Set for {E}nglish {NLP} and Linguistic Evaluation",
     author = "Aoyama, Tatsuya  and
@@ -49,7 +49,7 @@ To cite this corpus, please refer to the following article:
 
 The corpus is downloadable in multiple formats. Not all formats contain all annotations: The most accessible format is probably CoNLL-U dependencies (in `dep/`), but the most complete XML representation is in [PAULA XML](https://www.sfb632.uni-potsdam.de/en/paula.html), and the easiest way to search in the corpus is using [ANNIS](http://corpus-tools.org/annis). Here is [an example query](https://gucorpling.org/annis/#_q=ZW50aXR5IC0-YnJpZGdlIGVudGl0eSAmICMxIC0-aGVhZCBsZW1tYT0ib25lIg&_c=R0VOVExF&cl=5&cr=5&s=0&l=10) for phrases headed by 'one' bridging back to a different, previously mentioned entity. Other formats may be useful for other purposes. See website for more details.
 
-  * _build/ - The [GUM build bot](https://gucorpling.org/gum/build.html) and utilities for data merging and validation
+  * _build/ - The [build bot](https://gucorpling.org/gum/build.html) and utilities for data merging and validation
   * annis/ - The entire merged corpus, with all annotations, as a relANNIS 3.3 corpus dump, importable into [ANNIS](http://corpus-tools.org/annis)
   * const/ - Constituent trees with function labels and PTB POS tags in the PTB bracketing format (automatic parser output from gold POS with functions projected from gold dependencies)
   * coref/ - Entity and coreference annotation in two formats: 
@@ -58,8 +58,8 @@ The corpus is downloadable in multiple formats. Not all formats contain all anno
     * ontogum/ - alternative version of coreference annotation in CoNLL, tsv and CoNLL-U formats following OntoNotes guidelines (see Zhu et al. 2021)
   * dep/ - Dependency trees using Universal Dependencies, enriched with metadata, summaries, sentence types, speaker information,  enhanced dependencies, entities, information status, salience, centering, coreference, bridging, Wikification, XML markup, morphological tags/segmentation, CxG constructions, discourse relations, and Universal POS tags according to the UD standard
   * paula/ - The entire merged corpus in standoff [PAULA XML](https://github.com/korpling/paula-xml), with all annotations
-  * rst/ - Enhanced Rhetorical Structure Theory (RST++) analyses
-    * rstweb/ - full .rs3 format data as used by RSTTool and rstWeb (recommended)
+  * rst/ - Enhanced Rhetorical Structure Theory (eRST) analyses
+    * rstweb/ - full .rs4 format data as used by RSTTool and rstWeb (recommended)
     * lisp_nary/ - n-ary lisp trees (.dis format) 
     * lisp_binary/ - binarized lisp trees (.dis format) 
     * dependencies/ - a converted RST dependency representation (.rsd format)
