@@ -1,4 +1,4 @@
-<text id="GENTLE_legal_abortion" partition="test" author="Nancy Pelosi" dateCollected="2022-11-14" dateCreated="1973-01-22" dateModified="1973-01-22"  shortTitle="abortion" sourceURL="https://en.wikisource.org/wiki/Roe_v._Wade" speakerCount="0" speakerList="none" title="Roe v. Wade" type="legal">
+<text id="GENTLE_legal_abortion" partition="test" author="Nancy Pelosi" dateCollected="2022-11-14" dateCreated="1973-01-22" dateModified="1973-01-22"  shortTitle="abortion" sourceURL="https://en.wikisource.org/wiki/Roe_v._Wade" speakerCount="0" speakerList="none" title="Roe v. Wade" type="legal" summary="In Roe v. Wade, an appeal before the US Supreme Court (argued 1971, decided 1973) the Court ruled in favor of Roe, a pregnant woman who, with other plaintives, had brought a class action suit against a Texas law proscribing abortion except to save the mother's life, declaring the statute unconstitutional as infringing on the 9th and 14th amendments.">
 <head>
 <s type="frag" transition="establishment">
 Roe	NP	Roe	NP0	PROPN	root	_
@@ -73,7 +73,7 @@ Argued	VVN	argue	VVN	VERB	root	Argu-ed
 December	NP	December	NP0	PROPN	compound	_
 13	CD	13	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
-1971	CD	1971	CRD	NUM	nmod:tmod	_
+1971	CD	1971	CRD	NUM	nmod:unmarked	_
 </date>
 ---	:	-	AJ0	PUNCT	punct	_
 </s>
@@ -84,7 +84,7 @@ Decided	VVN	decide	VVN	VERB	root	Decid-ed
 January	NP	January	NP0	PROPN	compound	_
 22	CD	22	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
-1973	CD	1973	CRD	NUM	nmod:tmod	_
+1973	CD	1973	CRD	NUM	nmod:unmarked	_
 </date>
 </s>
 </p>
@@ -120,7 +120,7 @@ an	DT	a	AT0	DET	det	_
 abortion	NN	abortion	NN1	NOUN	obj	_
 except	IN	except	CJS	ADP	case	_
 on	IN	on	PRP	ADP	case	_
-medical	JJ	medical	AJ0	ADJ	amod	_
+medical	JJ	medical	AJ0	ADJ	amod	med-ic-al
 advice	NN	advice	NN1	NOUN	obl	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -269,7 +269,7 @@ infringing	VVG	infringe	VVG	VERB	conj	in-fring-ing
 those	DT	this	DT0	DET	det	_
 plaintiffs	NNS	plaintiff	NN2	NOUN	nmod:poss	plaint-iff-s
 '	POS	's	POS	PART	case	_
-Ninth	NP	Ninth	NP0	ADJ	amod	_
+Ninth	NP	Ninth	NP0	ADJ	amod	Nin-th
 and	CC	and	CJC	CCONJ	cc	_
 Fourteenth	NP	Fourteenth	NP0	PROPN	conj	Four-teen-th
 Amendment	NP	Amendment	NP0	PROPN	compound	Amend-ment
@@ -329,7 +329,7 @@ Held	VVN	hold	VVN	VERB	root	_
 </p>
 <p>
 <s type="decl" transition="zero">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 While	IN	while	CJS	SCONJ	mark	_
 <ref target="https://www.law.cornell.edu/uscode/text/28">
 28	CD	28	CRD	NUM	nummod	_
@@ -396,13 +396,13 @@ identical	JJ	identical	AJ0	ADJ	conj	identic-al
 </s>
 <s type="frag" transition="null">
 P.	NN	page	NN1	NOUN	root	_
-123	CD	123	CRD	NUM	nmod	_
+123	CD	123	CRD	NUM	dep	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <p>
 <s type="decl" transition="null">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Roe	NP	Roe	NP0	PROPN	nsubj	_
 has	VHZ	have	VHZ	VERB	root	ha-s
 standing	NN	standing	NN1	NOUN	obj	stand-ing
@@ -420,7 +420,7 @@ not	RB	not	XX0	PART	advmod	_
 <s type="frag" transition="null">
 Pp.	NNS	page	NN2	NOUN	root	_
 <w>
-123	CD	123	CRD	NUM	nmod	_
+123	CD	123	CRD	NUM	dep	_
 -	SYM	-	PUN	SYM	case	_
 129	CD	129	CRD	NUM	nmod	_
 </w>
@@ -429,7 +429,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-(a)	LS	(a)	UNC	X	dep	_
+(a)	LS	(a)	UNC	X	discourse	_
 Contrary	JJ	contrary	AJ0	ADJ	advcl	_
 to	IN	to	PRP	ADP	case	_
 appellee	NP	appellee	NP0	PROPN	nmod:poss	_
@@ -472,7 +472,7 @@ an	DT	a	AT0	DET	det	_
 exception	NN	exception	NN1	NOUN	root	except-ion
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-usual	JJ	usual	AJ0	ADJ	amod	_
+usual	JJ	usual	AJ0	ADJ	amod	us-ual
 federal	JJ	federal	AJ0	ADJ	amod	_
 rule	NN	rule	NN1	NOUN	nmod	_
 that	IN/that	that	CJT	SCONJ	mark	_
@@ -506,7 +506,7 @@ initiated	VVN	initiate	VVN	VERB	advcl:relcl	initiat-ed
 <s type="frag" transition="zero">
 Pp.	NNS	page	NN2	NOUN	root	_
 <w>
-124	CD	124	CRD	NUM	nmod	_
+124	CD	124	CRD	NUM	dep	_
 -	SYM	-	PUN	SYM	case	_
 125	CD	125	CRD	NUM	nmod	_
 </w>
@@ -515,7 +515,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-(b)	LS	(b)	UNC	X	dep	_
+(b)	LS	(b)	UNC	X	discourse	_
 The	DT	the	AT0	DET	det	_
 District	NP	District	NP0	PROPN	compound	_
 Court	NP	Court	NP0	PROPN	nsubj	_
@@ -570,7 +570,7 @@ U.S.	NP	U.S.	NP0	PROPN	compound	_
 <s type="frag" transition="null">
 Pp.	NNS	page	NN2	NOUN	root	_
 <w>
-125	CD	125	CRD	NUM	nmod	_
+125	CD	125	CRD	NUM	dep	_
 -	SYM	-	PUN	SYM	case	_
 127	CD	127	CRD	NUM	nmod	_
 </w>
@@ -579,7 +579,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-(c)	LS	(c)	UNC	X	dep	_
+(c)	LS	(c)	UNC	X	discourse	_
 The	DT	the	AT0	DET	det	_
 Does	NPS	Doe	NP0	PROPN	nmod:poss	_
 '	POS	's	POS	PART	case	_
@@ -617,7 +617,7 @@ controversy	NN	controversy	NN1	NOUN	conj	controvers-y
 <s type="frag" transition="null">
 Pp.	NNS	page	NN2	NOUN	root	_
 <w>
-127	CD	127	CRD	NUM	nmod	_
+127	CD	127	CRD	NUM	dep	_
 -	SYM	-	PUN	SYM	case	_
 129	CD	129	CRD	NUM	nmod	_
 </w>
@@ -626,7 +626,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-3.	LS	3.	CRD	X	dep	_
+3.	LS	3.	CRD	X	discourse	_
 State	NN	State	NN1	NOUN	compound	_
 criminal	JJ	criminal	AJ0	ADJ	amod	crimin-al
 abortion	NN	abortion	NN1	NOUN	compound	_
@@ -654,7 +654,7 @@ the	DT	the	AT0	DET	det	_
 mother	NN	mother	NN1	NOUN	nmod:poss	_
 's	POS	's	POS	PART	case	_
 behalf	NN	behalf	NN1	NOUN	nmod	be-half
-without	IN	without	PRP	ADP	case	_
+without	IN	without	PRP	ADP	case	with-out
 regard	NN	regard	NN1	NOUN	obl	_
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -746,7 +746,7 @@ compelling	JJ	compelling	AJ0	ADJ	amod	compel-ling
 </q>
 point	NN	point	NN1	NOUN	obj	_
 at	IN	at	PRP	ADP	case	_
-various	JJ	various	AJ0	ADJ	amod	_
+various	JJ	various	AJ0	ADJ	amod	vari-ous
 stages	NNS	stage	NN2	NOUN	obl	stage-s
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -760,7 +760,7 @@ term	NN	term	NN1	NOUN	nmod	_
 <s type="frag" transition="zero">
 Pp.	NNS	page	NN2	NOUN	root	_
 <w>
-147	CD	147	CRD	NUM	nmod	_
+147	CD	147	CRD	NUM	dep	_
 -	SYM	-	PUN	SYM	case	_
 164	CD	164	CRD	NUM	nmod	_
 </w>
@@ -769,7 +769,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-(a)	LS	(a)	UNC	X	dep	_
+(a)	LS	(a)	UNC	X	discourse	_
 For	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 stage	NN	stage	NN1	NOUN	obl	_
@@ -794,7 +794,7 @@ be	VB	be	VBI	AUX	aux:pass	_
 left	VVN	leave	VVN	VERB	root	_
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-medical	JJ	medical	AJ0	ADJ	amod	_
+medical	JJ	medical	AJ0	ADJ	amod	med-ic-al
 judgment	NN	judgment	NN1	NOUN	obl	judg-ment
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -807,7 +807,7 @@ physician	NN	physician	NN1	NOUN	nmod	physic-ian
 </s>
 <s type="frag" transition="null">
 Pp.	NNS	page	NN2	NOUN	root	_
-163	CD	163	CRD	NUM	nmod	_
+163	CD	163	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 164	CD	164	CRD	NUM	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -815,7 +815,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-(b)	LS	(b)	UNC	X	dep	_
+(b)	LS	(b)	UNC	X	discourse	_
 For	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 stage	NN	stage	NN1	NOUN	obl	_
@@ -866,7 +866,7 @@ health	NN	health	NN1	NOUN	obl	heal-th
 </s>
 <s type="frag" transition="null">
 Pp.	NNS	page	NN2	NOUN	root	_
-163	CD	163	CRD	NUM	nmod	_
+163	CD	163	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 164	CD	164	CRD	NUM	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -874,7 +874,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-(c)	LS	(c)	UNC	X	dep	_
+(c)	LS	(c)	UNC	X	discourse	_
 For	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 stage	NN	stage	NN1	NOUN	obl	_
@@ -914,7 +914,7 @@ necessary	JJ	necessary	AJ0	ADJ	advcl	necess-ary
 ,	,	,	PUN	PUNCT	punct	_
 in	IN	in	PRP	ADP	case	_
 appropriate	JJ	appropriate	AJ0	ADJ	amod	_
-medical	JJ	medical	AJ0	ADJ	amod	_
+medical	JJ	medical	AJ0	ADJ	amod	med-ic-al
 judgment	NN	judgment	NN1	NOUN	obl	judg-ment
 ,	,	,	PUN	PUNCT	punct	_
 for	IN	for	PRP	ADP	case	_
@@ -933,7 +933,7 @@ mother	NN	mother	NN1	NOUN	nmod	_
 <s type="frag" transition="null">
 Pp.	NNS	page	NN2	NOUN	root	_
 <w>
-163	CD	163	CRD	NUM	nmod	_
+163	CD	163	CRD	NUM	dep	_
 -	SYM	-	PUN	SYM	case	_
 164	CD	164	CRD	NUM	nmod	_
 </w>
@@ -948,7 +948,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 </p>
 <p>
 <s type="decl" transition="null">
-4.	LS	4.	CRD	X	dep	_
+4.	LS	4.	CRD	X	discourse	_
 The	DT	the	AT0	DET	det	_
 State	NP	State	NP0	PROPN	nsubj	_
 may	MD	may	VM0	AUX	aux	_
@@ -991,13 +991,13 @@ defined	VVN	define	VVN	VERB	advcl	defin-ed
 </s>
 <s type="frag" transition="null">
 P.	NN	page	NN1	NOUN	root	_
-165	CD	165	CRD	NUM	nmod	_
+165	CD	165	CRD	NUM	dep	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
 <p>
 <s type="decl" transition="null">
-5.	LS	5.	CRD	X	dep	_
+5.	LS	5.	CRD	X	discourse	_
 It	PP	it	PNP	PRON	expl	_
 is	VBZ	be	VBZ	AUX	cop	_
 unnecessary	JJ	unnecessary	AJ0	ADJ	root	un-necess-ary
@@ -1037,7 +1037,7 @@ unconstitutional	JJ	unconstitutional	AJ0	ADJ	acl	un-constitut-ion-al
 </s>
 <s type="frag" transition="null">
 P.	NN	page	NN1	NOUN	root	_
-166	CD	166	CRD	NUM	nmod	_
+166	CD	166	CRD	NUM	dep	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -1049,7 +1049,7 @@ J.	NP	J.	NP0	PROPN	flat	_
 ,	,	,	PUN	PUNCT	punct	_
 delivered	VVD	deliver	VVD	VERB	root	deliver-ed
 the	DT	the	AT0	DET	det	_
-opinion	NN	opinion	NN1	NOUN	obj	_
+opinion	NN	opinion	NN1	NOUN	obj	opin-ion
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Court	NP	Court	NP0	PROPN	nmod	_
@@ -1085,7 +1085,7 @@ C.J.	NP	C.J.	NP0	PROPN	flat	_
 post	NN	post	NN1	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 p.	NN	page	NN1	NOUN	dep	_
-207	CD	207	CRD	NUM	nmod	_
+207	CD	207	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 DOUGLAS	NP	Douglas	NP0	PROPN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -1094,7 +1094,7 @@ J.	NP	J.	NP0	PROPN	flat	_
 post	NN	post	NN1	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 p.	NN	page	NN1	NOUN	dep	_
-209	CD	209	CRD	NUM	nmod	_
+209	CD	209	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 STEWART	NP	Stewart	NP0	PROPN	conj	_
@@ -1104,7 +1104,7 @@ J.	NP	J.	NP0	PROPN	flat	_
 post	NN	post	NN1	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 p.	NN	page	NN1	NOUN	dep	_
-167	CD	167	CRD	NUM	nmod	_
+167	CD	167	CRD	NUM	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 filed	VVD	file	VVD	VERB	root	fil-ed
 concurring	VVG	concur	VVG	VERB	amod	concurr-ing
@@ -1119,7 +1119,7 @@ J.	NP	J.	NP0	PROPN	flat	_
 filed	VVD	file	VVD	VERB	root	fil-ed
 a	DT	a	AT0	DET	det	_
 dissenting	VVG	dissent	VVG	VERB	amod	dis-sent-ing
-opinion	NN	opinion	NN1	NOUN	obj	_
+opinion	NN	opinion	NN1	NOUN	obj	opin-ion
 ,	,	,	PUN	PUNCT	punct	_
 in	IN	in	PRP	ADP	case	_
 which	WDT	which	DTQ	PRON	obl	_
@@ -1132,7 +1132,7 @@ joined	VVD	join	VVD	VERB	acl:relcl	join-ed
 post	NN	post	NN1	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 p.	NN	page	NN1	NOUN	dep	_
-221	CD	221	CRD	NUM	nmod	_
+221	CD	221	CRD	NUM	dep	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -1143,19 +1143,19 @@ J.	NP	J.	NP0	PROPN	flat	_
 filed	VVD	file	VVD	VERB	root	fil-ed
 a	DT	a	AT0	DET	det	_
 dissenting	VVG	dissent	VVG	VERB	amod	dis-sent-ing
-opinion	NN	opinion	NN1	NOUN	obj	_
+opinion	NN	opinion	NN1	NOUN	obj	opin-ion
 ,	,	,	PUN	PUNCT	punct	_
 post	NN	post	NN1	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 p.	NN	page	NN1	NOUN	dep	_
-171	CD	171	CRD	NUM	nmod	_
+171	CD	171	CRD	NUM	dep	_
 .	SENT	.	PUN	PUNCT	punct	_
 <hi rend="bold">
 [	(	[	PUL	PUNCT	punct	_
 <sic ana="p.">
 p	NN	p	NN1	NOUN	parataxis	_
 </sic>
-116	CD	116	CRD	NUM	nmod	_
+116	CD	116	CRD	NUM	dep	_
 ]	)	]	PUR	PUNCT	punct	_
 </hi>
 </s>

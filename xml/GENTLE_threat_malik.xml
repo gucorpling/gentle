@@ -1,4 +1,4 @@
-<text id="GENTLE_threat_malik" partition="test" author="Malik, Abdel-Jabbor" dateCollected="2022-11-14" dateCreated="1990-09-03" dateModified="1990-09-03" shortTitle="malik" sourceURL="https://casetext.com/case/us-v-malik-9" speakerCount="0" speakerList="none" title="United States v. Malik, 16 F.3d 45, 48, 1994 U.S. App. LEXIS 2180, *4-6 (2d Cir. N.Y. February 7, 1994)" type="threat">
+<text id="GENTLE_threat_malik" partition="test" author="Malik, Abdel-Jabbor" dateCollected="2022-11-14" dateCreated="1990-09-03" dateModified="1990-09-03" shortTitle="malik" sourceURL="https://casetext.com/case/us-v-malik-9" speakerCount="0" speakerList="none" title="United States v. Malik, 16 F.3d 45, 48, 1994 U.S. App. LEXIS 2180, *4-6 (2d Cir. N.Y. February 7, 1994)" type="threat" summary="In this letter, the author, who is in prison, pleads for a reversal of their court case while accusing the two White Jewish judges responsible of being racially motivated, and threatening them with armed robbery of $20,000 in cash, as well as intending to submit 5 lawsuits in the Northern District Court in the next two weeks.">
 <p>
 <s type="decl" transition="establishment">
 I	PP	I	PNP	PRON	nsubj	_
@@ -111,7 +111,7 @@ act	VV	act	VVI	VERB	xcomp	_
 racially	RB	racially	AV0	ADV	advmod	_
 motivated	JJ	motivated	AJ0	ADJ	xcomp	motiv-at-ed
 with	IN	with	PRP	ADP	case	_
-justice	NN	justice	NN1	NOUN	obl	_
+justice	NN	justice	NN1	NOUN	obl	just-ice
 in	IN	in	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 double	JJ	double	AJ0	ADJ	advmod	_
@@ -330,7 +330,7 @@ an	CC	and	AV0	CCONJ	cc	_
 see	VV	see	VVI	VERB	conj	_
 wo	MD	will	VM0	AUX	aux	_
 n't	RB	not	XX0	PART	advmod	_
-justice	NN	justice	NN1	NOUN	nsubj	_
+justice	NN	justice	NN1	NOUN	nsubj	just-ice
 become	VV	become	VVB	VERB	ccomp	be-come
 done	VVN	do	VDN	VERB	xcomp	_
 even	RB	even	AV0	ADV	advmod	_
@@ -339,7 +339,7 @@ you	PP	you	PNP	PRON	dep	_
 Judges	NNS	judge	NN2	NOUN	nsubj	_
 never	RB	never	AV0	ADV	advmod	_
 <sic ana="hear">
-here	VV	hear	AV0	VERB	advcl	_
+here	VVP	hear	VVB	VERB	advcl	_
 </sic>
 of	IN	of	PRF	ADP	case	_
 it	PP	it	PNP	PRON	obl	_
@@ -367,7 +367,7 @@ the	DT	the	AT0	DET	det	_
 Northern	NP	Northern	NP0	ADJ	amod	North-ern
 District	NP	District	NP0	PROPN	compound	_
 Court	NP	Court	NP0	PROPN	obl	_
-although	IN	although	CJS	SCONJ	mark	_
+although	IN	although	CJS	SCONJ	mark	al-though
 legitimate	RB	legitimate	AJ0	ADV	advcl	legit-im-ate
 I	PP	I	PNP	PRON	nsubj	_
 really	RB	really	AV0	ADV	advmod	real-ly
@@ -396,7 +396,7 @@ General	JJ	General	AJ0	ADJ	amod	_
 Governor	NN	governor	NN1	NOUN	conj	Govern-or
 ;	:	;	PUN	PUNCT	punct	_
 Police	NN	police	NN1	NOUN	conj	_
-Whoever	WP	whoever	PNQ	PRON	conj	_
+Whoever	WP	whoever	PNQ	PRON	conj	Who-ever
 my	PP$	my	DPS	PRON	nmod:poss	_
 will	NN	will	NN1	NOUN	nsubj	_
 shall	MD	shall	VM0	AUX	aux	_

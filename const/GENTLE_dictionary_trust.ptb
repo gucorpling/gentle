@@ -627,7 +627,7 @@
           (NN present)
           (NNS trusts))
         (, ,)
-        (NP (JJ present) (NN participle))
+        (NP-SBJ (JJ present) (NN participle))
         (VP (VBG trusting))
         (, ,)
         (S

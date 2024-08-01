@@ -1,7 +1,7 @@
-<text id="GENTLE_proof_wosets" partition="test" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2018-06-26" dateModified="2022-07-09"  shortTitle="wosets" sourceURL="https://proofwiki.org/wiki/Wosets_are_Isomorphic_to_Each_Other_or_Initial_Segments/Proof_Without_Using_Choice" speakerCount="0" speakerList="none" title="Wosets are Isomorphic to Each Other or Initial Segments/Proof Without Using Choice" type="proof">
+<text id="GENTLE_proof_wosets" partition="test" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2018-06-26" dateModified="2022-07-09"  shortTitle="wosets" sourceURL="https://proofwiki.org/wiki/Wosets_are_Isomorphic_to_Each_Other_or_Initial_Segments/Proof_Without_Using_Choice" speakerCount="0" speakerList="none" title="Wosets are Isomorphic to Each Other or Initial Segments/Proof Without Using Choice" type="proof" summary="This mathematical proof shows that two wosets S and T, ordered sets with a well-ordering, must be order isomorphic to each other, or else one set is order isomorphic to an initial segment of the other, trivially if they contain less than two elements, and otherwise provably using a relation ⪯, which is shown to be a reflexive, transitive and antisymmetric total well-ordering.">
 <head>
 <s type="frag" transition="establishment">
-Proof	NN	Proof	NN1	NOUN	root	_
+Proof	NN	proof	NN1	NOUN	root	_
 </s>
 </head>
 <p>
@@ -59,7 +59,7 @@ S	NN	S	NN1	NOUN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
 <w>
 ⪯	SYM	⪯	NP0	SYM	conj	_
-S	NN	S	NN1	NOUN	obl:npmod	_
+S	NN	S	NN1	NOUN	obl:unmarked	_
 </w>
 )	)	)	PUR	PUNCT	punct	_
 ∪	SYM	∪	UNC	SYM	cc	_
@@ -68,7 +68,7 @@ T	NN	T	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 <w>
 ⪯	SYM	⪯	NP0	SYM	conj	_
-T	NN	T	NN1	NOUN	obl:npmod	_
+T	NN	T	NN1	NOUN	obl:unmarked	_
 </w>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -86,12 +86,12 @@ x	NN	x	NN1	NOUN	dislocated	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	conj	_
 ∈	SYM	∈	UNC	SYM	appos	_
-U	NN	U	NN1	NOUN	nmod:npmod	_
+U	NN	U	NN1	NOUN	nmod:unmarked	_
 :	:	:	PUN	PUNCT	punct	_
 <w>
 x	NN	x	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	UNC	SYM	parataxis	_
-y	NN	y	NN1	NOUN	obl:npmod	_
+y	NN	y	NN1	NOUN	obl:unmarked	_
 </w>
 <ref target="https://proofwiki.org/wiki/Definition:Iff">
 if	IN	if	CJS	ADP	case	_
@@ -104,35 +104,35 @@ x	NN	x	NN1	NOUN	dislocated	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	conj	_
 ∈	SYM	∈	NP0	SYM	appos	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 :	:	:	PUN	PUNCT	punct	_
 x	NN	x	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	UNC	SYM	advcl	_
 S	NN	S	NN1	NOUN	dep	_
-y	NN	y	NN1	NOUN	obl:npmod	_
+y	NN	y	NN1	NOUN	obl:unmarked	_
 or	CC	or	CJC	CCONJ	cc	_
 :	:	:	PUN	PUNCT	punct	_
 x	NN	x	NN1	NOUN	dislocated	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	conj	_
 ∈	SYM	∈	NP0	SYM	appos	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 :	:	:	PUN	PUNCT	punct	_
 <w>
 x	RB	x	ZZ0	ADV	nsubj	_
 ⪯	SYM	⪯	UNC	SYM	conj	_
 T	NN	T	NN1	NOUN	dep	_
 </w>
-y	NN	y	NN1	NOUN	obl:npmod	_
+y	NN	y	NN1	NOUN	obl:unmarked	_
 or	CC	or	CJC	CCONJ	cc	_
 :	:	:	PUN	PUNCT	punct	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	NP0	SYM	conj	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 </s>
 </p>
 <p>
@@ -246,7 +246,7 @@ y	NN	y	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 z	NN	z	NN1	NOUN	conj	_
 ∈	SYM	∈	UNC	SYM	xcomp	_
-U	NN	U	NN1	NOUN	nmod:npmod	_
+U	NN	U	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -257,7 +257,7 @@ y	NN	y	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 z	NN	z	NN1	NOUN	conj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 or	CC	or	CJC	CCONJ	cc	_
 x	NN	x	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -265,7 +265,7 @@ y	NN	y	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 z	NN	z	NN1	NOUN	conj	_
 ∈	SYM	∈	UNC	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 simultaneously	RB	simultaneously	AV0	ADV	advmod	simultaneous-ly
 ,	,	,	PUN	PUNCT	punct	_
 then	RB	then	AV0	ADV	advmod	_
@@ -289,66 +289,66 @@ x	NN	x	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	conj	_
 ∈	SYM	∈	UNC	SYM	ccomp	_
-S	NP	S	NP0	PROPN	nmod:npmod	_
+S	NP	S	NP0	PROPN	nmod:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 z	NN	z	NN1	NOUN	nsubj	_
 ∈	SYM	∈	NP0	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="inf" transition="smooth-shift">
 Let	VV	let	VVB	VERB	root	_
 x	JJ	x	AJ0	ADJ	obj	_
 ⪯	SYM	⪯	UNC	SYM	xcomp	_
-y	NN	y	NN1	NOUN	obl:npmod	_
+y	NN	y	NN1	NOUN	obl:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 y	NN	y	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	AJ0	SYM	conj	_
-z	NN	z	NN1	NOUN	obl:npmod	_
+z	NN	z	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
 Then	RB	then	AV0	ADV	advmod	_
 x	NN	x	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	AJ0	SYM	root	_
-z	NN	z	NN1	NOUN	obl:npmod	_
+z	NN	z	NN1	NOUN	obl:unmarked	_
 because	IN	because	CJS	SCONJ	mark	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
-S	NPS	S	NP0	PROPN	nmod:npmod	_
+S	NPS	S	NP0	PROPN	nmod:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 y	NN	y	NN1	NOUN	nsubj	_
 ∈	SYM	∈	NP0	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="rough-shift">
 Suppose	VV	suppose	VVB	VERB	root	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	ccomp	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 y	NN	y	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 z	NN	z	NN1	NOUN	conj	_
 ∈	SYM	∈	NP0	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
 Then	RB	then	AV0	ADV	advmod	_
 x	NN	x	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	AJ0	SYM	root	_
-z	NN	z	NN1	NOUN	obl:npmod	_
+z	NN	z	NN1	NOUN	obl:unmarked	_
 also	RB	also	AV0	ADV	advmod	_
 because	IN	because	CJS	SCONJ	mark	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
-S	NN	S	NN1	NOUN	obl:npmod	_
+S	NN	S	NN1	NOUN	obl:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 y	NN	y	NN1	NOUN	nsubj	_
 ∈	SYM	∈	NP0	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="zero">
@@ -371,11 +371,11 @@ Antisymmetry	NN	antisymmetry	NN1	NOUN	root	Anti-symmetr-y
 Let	VV	let	VVB	VERB	root	_
 x	NN	x	NN1	NOUN	obj	_
 ⪯	SYM	⪯	UNC	SYM	xcomp	_
-y	NN	y	NN1	NOUN	obl:npmod	_
+y	NN	y	NN1	NOUN	obl:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 y	NN	y	NN1	NOUN	conj	_
 ⪯	SYM	⪯	UNC	SYM	orphan	_
-x	NN	x	NN1	NOUN	obl:npmod	_
+x	NN	x	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -384,7 +384,7 @@ x	NN	x	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	conj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 then	RB	then	AV0	ADV	advmod	_
 x	NN	x	NN1	NOUN	nsubj	_
 =	SYM	=	UNC	SYM	root	_
@@ -406,27 +406,27 @@ x	NN	x	NN1	NOUN	nsubj	_
 ,	,	,	PUN	PUNCT	punct	_
 y	NN	y	NN1	NOUN	conj	_
 ∈	SYM	∈	NP0	SYM	root	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
 If	IN	if	CJS	SCONJ	mark	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 y	NN	y	NN1	NOUN	nsubj	_
 ∈	SYM	∈	NP0	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 then	RB	then	AV0	ADV	advmod	_
 y	NN	y	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	root	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	conj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 as	RB	as	CJS	ADV	advmod	_
 well	RB	well	AV0	ADV	fixed	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -485,7 +485,7 @@ set	NN	set	NN1	NOUN	obj	_
 </ref>
 X	NN	X	NN1	NOUN	appos	_
 ⊆	SYM	⊆	UNC	SYM	appos	_
-U	NN	U	NN1	NOUN	nmod:npmod	_
+U	NN	U	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -531,7 +531,7 @@ case	NN	case	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 X	NN	X	NN1	NOUN	nsubj	_
 ⊆	SYM	⊆	NP0	SYM	root	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 by	IN	by	PRP	SCONJ	mark	_
 <ref target="https://proofwiki.org/wiki/Intersection_with_Complement_is_Empty_iff_Subset">
@@ -570,7 +570,7 @@ case	NN	case	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 X	NN	X	NN1	NOUN	nsubj	_
 ⊆	SYM	⊆	NP0	SYM	root	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 also	RB	also	AV0	ADV	advmod	_
 by	IN	by	PRP	SCONJ	mark	_
@@ -729,7 +729,7 @@ U	NN	U	NN1	NOUN	obj	_
 :	:	:	PUN	PUNCT	punct	_
 k	NN	k	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-α	NN	α	NN1	NOUN	nmod:npmod	_
+α	NN	α	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 =	SYM	=	UNC	SYM	parataxis	_
 α	NN	α	NN1	NOUN	obj	_
@@ -824,13 +824,13 @@ Ix	NN	Ix	NN1	NOUN	nsubj	_
 =	SYM	=	UNC	SYM	ccomp	_
 Ik	NN	Ik	NN1	NOUN	obj	_
 (	(	(	PUL	PUNCT	punct	_
-x	NN	x	NN1	NOUN	nmod:npmod	_
+x	NN	x	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
 because	IN	because	CJS	SCONJ	mark	_
 k	NN	k	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-x	NN	x	NN1	NOUN	nmod:npmod	_
+x	NN	x	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 =	SYM	=	UNC	SYM	advcl	_
 x	NN	x	NN1	NOUN	obj	_
@@ -842,14 +842,14 @@ x	NN	x	NN1	NOUN	obj	_
 Suppose	VV	suppose	VVB	VERB	root	_
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	NP0	SYM	ccomp	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
 Then	RB	then	AV0	ADV	advmod	_
 Ix	NN	Ix	NN1	NOUN	nsubj	_
 ⊆	SYM	⊆	UNC	SYM	root	_
-S	NN	S	NN1	NOUN	nmod:npmod	_
+S	NN	S	NN1	NOUN	nmod:unmarked	_
 because	IN	because	CJS	SCONJ	mark	_
 ⪯	SYM	⪯	NP0	SYM	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
@@ -881,7 +881,7 @@ Suppose	VV	suppose	VVB	VERB	root	_
 x	NN	x	NN1	NOUN	nsubj	_
 =	SYM	=	UNC	SYM	ccomp	_
 min	NN	min	NN0	NOUN	obj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
 <ref target="https://proofwiki.org/wiki/Definition:Smallest_Element">
@@ -946,12 +946,12 @@ S	NN	S	NN1	NOUN	nmod	_
 Suppose	VV	suppose	VVB	VERB	root	_
 x	SYM	x	ZZ0	SYM	nsubj	_
 ∈	NN	∈	NN1	NOUN	ccomp	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 x	NN	x	NN1	NOUN	nsubj	_
 ≠	SYM	≠	AJ0	SYM	conj	_
 min	NN	min	NN0	NOUN	obj	_
-T	NN	T	NN1	NOUN	nmod:npmod	_
+T	NN	T	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">

@@ -476,9 +476,9 @@
 474	MG	_
 475	.	_
 476	But	_
-477	DM	_
+477	DM	(14
 478	and	_
-479	MG	_
+479	MG	14)
 480	are	_
 481	rational	_
 482	straight	_
@@ -489,8 +489,8 @@
 487	in	_
 488	length	_
 489	with	_
-490	each	_
-491	other	_
+490	each	(14
+491	other	14)
 492	.	_
 493	Therefore	_
 494	by	_

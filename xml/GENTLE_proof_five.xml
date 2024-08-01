@@ -1,7 +1,7 @@
-<text id="GENTLE_proof_five" partition="test" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2009-03-13" dateModified="2022-03-21"  shortTitle="five" sourceURL="https://proofwiki.org/wiki/Five_Color_Theorem" speakerCount="0" speakerList="none" title="Five Color Theorem" type="proof">
+<text id="GENTLE_proof_five" partition="test" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2009-03-13" dateModified="2022-03-21"  shortTitle="five" sourceURL="https://proofwiki.org/wiki/Five_Color_Theorem" speakerCount="0" speakerList="none" title="Five Color Theorem" type="proof" summary="This mathematical proof shows by induction that for any graph Gr of n vertices a proper vertex k-coloring can be assigned such that k≤5 colors, using the Minimum Degree Bound for Simple Planar Graph theorem, which states that Gr+1 has at least one vertex x with at most 5 edges, whose removal would yield a 5-colorable graph, allowing one of 5 colors for x in each condition.">
 <head>
 <s type="frag" transition="establishment">
-Proof	NN	Proof	NN1	NOUN	root	_
+Proof	NN	proof	NN1	NOUN	root	_
 </s>
 </head>
 <p>
@@ -33,12 +33,12 @@ For	IN	for	PRP	ADP	case	_
 all	DT	all	DT0	DET	obl	_
 n	NN	n	NN1	DET	det	_
 ∈	SYM	∈	UNC	SYM	appos	_
-N&gt;0	NN	N&gt;0	NN1	NOUN	nmod:npmod	_
+N&gt;0	NN	N&gt;0	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 let	VV	let	VVB	VERB	root	_
 P	NN	P	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-n	NN	n	NN1	NOUN	nmod:npmod	_
+n	NN	n	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 be	VB	be	VBI	AUX	cop	_
 the	DT	the	AT0	DET	det	_
@@ -62,7 +62,7 @@ such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
 k	NN	k	NN1	NOUN	nsubj	_
 ≤	SYM	≤	NP0	SYM	acl	_
-5	CD	5	CRD	NUM	obl:npmod	_
+5	CD	5	CRD	NUM	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -78,17 +78,17 @@ Induction	NN	induction	NN1	NOUN	nmod	Induct-ion
 <s type="decl" transition="establishment">
 P	NN	P	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-r	NN	reter	NN1	NOUN	nmod:npmod	_
+r	NN	reter	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 is	VBZ	be	VBZ	AUX	cop	_
 trivially	RB	trivially	AV0	ADV	advmod	trivi-al-ly
 true	JJ	true	AJ0	ADJ	root	_
 for	IN	for	PRP	ADP	case	_
-1	CD	1	CRD	NUM	obl:npmod	_
+1	CD	1	CRD	NUM	obl:unmarked	_
 ≤	SYM	≤	UNC	SYM	obl	_
 r	NN	reter	NN1	NOUN	nsubj	_
 ≤	SYM	≤	NP0	SYM	conj	_
-5	CD	5	CRD	NUM	obl:npmod	_
+5	CD	5	CRD	NUM	obl:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 as	IN	as	CJS	SCONJ	mark	_
 there	EX	there	EX0	PRON	expl	_
@@ -138,7 +138,7 @@ that	IN/that	that	CJT	SCONJ	mark	_
 if	IN	if	CJS	SCONJ	mark	_
 P	NN	P	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-r	NN	reter	NN1	NOUN	nmod:npmod	_
+r	NN	reter	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 is	VBZ	be	VBZ	AUX	cop	_
 true	JJ	true	AJ0	ADJ	advcl	_
@@ -146,7 +146,7 @@ true	JJ	true	AJ0	ADJ	advcl	_
 where	WRB	where	CJS	ADV	advmod	_
 r	NN	reter	NN1	NOUN	nsubj	_
 ≥	SYM	≥	NP0	SYM	acl:relcl	_
-5	CD	5	CRD	NUM	obl:npmod	_
+5	CD	5	CRD	NUM	obl:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 then	RB	then	AV0	ADV	advmod	_
 it	PP	it	PNP	PRON	expl	_
@@ -155,7 +155,7 @@ follows	VVZ	follow	VVZ	VERB	ccomp	follow-s
 that	IN/that	that	CJT	SCONJ	mark	_
 P	NN	P	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-r	NN	reter	NN1	NOUN	nmod:npmod	_
+r	NN	reter	NN1	NOUN	nmod:unmarked	_
 +	SYM	+	UNC	SYM	cc	_
 1	CD	1	CRD	NUM	conj	_
 )	)	)	PUR	PUNCT	punct	_
@@ -191,7 +191,7 @@ such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
 k	NN	k	NN1	NOUN	nsubj	_
 ≤	SYM	≤	NP0	SYM	acl	_
-5	CD	5	CRD	NUM	obl:npmod	_
+5	CD	5	CRD	NUM	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -219,7 +219,7 @@ such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
 k	NN	k	NN1	NOUN	nsubj	_
 ≤	SYM	≤	NP0	SYM	acl	_
-5	CD	5	CRD	NUM	obl:npmod	_
+5	CD	5	CRD	NUM	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -560,7 +560,7 @@ y3	NN	y3	NN1	NOUN	conj	_
 y4	NN	y4	NN1	NOUN	conj	_
 and	CC	and	CJC	CCONJ	cc	_
 y5	NN	y5	NN1	NOUN	conj	_
-clockwise	NN	clockwise	NN1	NOUN	obl:npmod	clock-wise
+clockwise	NN	clockwise	NN1	NOUN	obl:unmarked	clock-wise
 ,	,	,	PUN	PUNCT	punct	_
 exactly	RB	exactly	AV0	ADV	advmod	exact-ly
 one	CD	one	CRD	NUM	nsubj	_
@@ -710,12 +710,12 @@ conditions	NNS	condition	NN2	NOUN	obj	condition-s
 So	RB	so	CJS	ADV	advmod	_
 P	NN	P	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
-r	NN	reter	NN1	NOUN	nmod:npmod	_
+r	NN	reter	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 ⟹	NN	⟹	NN1	NOUN	root	_
 P	NN	P	NN1	NOUN	obj	_
 (	(	(	PUL	PUNCT	punct	_
-r	NN	reter	NN1	NOUN	nmod:npmod	_
+r	NN	reter	NN1	NOUN	nmod:unmarked	_
 +	SYM	+	UNC	SYM	cc	_
 1	CD	1	CRD	NUM	conj	_
 )	)	)	PUR	PUNCT	punct	_
@@ -744,7 +744,7 @@ For	IN	for	PRP	ADP	case	_
 all	DT	all	DT0	DET	obl	_
 n	NN	n	NN1	DET	det	_
 ∈	SYM	∈	UNC	SYM	appos	_
-N&gt;0	NN	N&gt;0	NN1	NOUN	nmod:npmod	_
+N&gt;0	NN	N&gt;0	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 Gn	NN	Gn	NN1	NOUN	nsubj:pass	_
 can	MD	can	VM0	AUX	aux	_
@@ -762,7 +762,7 @@ such	JJ	such	DT0	ADJ	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
 k	NN	k	NN1	NOUN	nsubj	_
 ≤	SYM	≤	NP0	SYM	acl	_
-5	CD	5	CRD	NUM	obl:npmod	_
+5	CD	5	CRD	NUM	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>

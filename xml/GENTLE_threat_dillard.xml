@@ -1,4 +1,4 @@
-<text id="GENTLE_threat_dillard" partition="test" author="Dillard, Angel" dateCollected="2022-11-14" dateCreated="2011-01-19" dateModified="2011-01-19" shortTitle="dillard" sourceURL="https://casetext.com/case/united-states-v-dillard-8" speakerCount="0" speakerList="none" title="United States v. Dillard, 835 F. Supp. 2d 1120, 1121-1122, 2011 U.S. Dist. LEXIS 148562, *2-5, 2011 WL 6719138 (D. Kan. December 21, 2011)" type="threat">
+<text id="GENTLE_threat_dillard" partition="test" author="Dillard, Angel" dateCollected="2022-11-14" dateCreated="2011-01-19" dateModified="2011-01-19" shortTitle="dillard" sourceURL="https://casetext.com/case/united-states-v-dillard-8" speakerCount="0" speakerList="none" title="United States v. Dillard, 835 F. Supp. 2d 1120, 1121-1122, 2011 U.S. Dist. LEXIS 148562, *2-5, 2011 WL 6719138 (D. Kan. December 21, 2011)" type="threat" summary="In this threat letter, Angel Dillard admonishes Dr. Means for carrying out abortions at the Harry St. clinic in Wichita, which are portrayed as killing children, arguing that other physicians will avoid associating with Dr. Means, and invoking the threat of a car bomb, picketing at home and at the office, loss of clientele and staff, as well as religious objections to abortion.">
 <p>
 <s type="other" transition="establishment">
 Dr.	NP	Dr.	NP0	PROPN	root	_
@@ -44,7 +44,7 @@ direction	NN	direction	NN1	NOUN	obl	direct-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="zero">
-Fewer	JJR	Few	DT0	ADJ	amod	Few-er
+Fewer	JJR	few	DT0	ADJ	amod	Few-er
 people	NNS	person	NN0	NOUN	nsubj	_
 than	IN	than	CJS	ADP	case	_
 ever	RB	ever	AV0	ADV	advmod	_
@@ -203,7 +203,7 @@ under	IN	under	PRP	ADP	case	_
 your	PP$	your	DPS	PRON	nmod:poss	_
 car	NN	car	NN1	NOUN	obl	_
 every	DT	every	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 —	:	—	UNC	PUNCT	punct	_
 because	IN	because	CJS	SCONJ	mark	_
 maybe	RB	maybe	AV0	ADV	advmod	may-be
@@ -211,7 +211,7 @@ today	NN	today	NN1	NOUN	nsubj	to-day
 is	VBZ	be	VBZ	AUX	cop	_
 the	DT	the	AT0	DET	det	_
 day	NN	day	NN1	NOUN	advcl	_
-someone	NN	someone	NN1	PRON	nsubj	_
+someone	NN	someone	NN1	PRON	nsubj	some-one
 places	VVZ	place	VVZ	VERB	acl:relcl	place-s
 an	DT	a	AT0	DET	det	_
 explosive	NN	explosive	NN1	NOUN	obj	ex-plos-ive
@@ -335,7 +335,7 @@ be	VB	be	VBI	AUX	cop	_
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 same	JJ	same	DT0	ADJ	amod	_
-facility	NN	facility	NN1	NOUN	xcomp	_
+facility	NN	facility	NN1	NOUN	xcomp	facil-ity
 where	WRB	where	CJS	ADV	advmod	_
 you	PP	you	PNP	PRON	nsubj	_
 are	VBP	be	VBB	AUX	aux	_
@@ -369,15 +369,15 @@ able	JJ	able	AJ0	ADJ	conj	_
 to	TO	to	TO0	PART	mark	_
 keep	VV	keep	VVI	VERB	xcomp	_
 the	DT	the	AT0	DET	det	_
-sanitary	JJ	sanitary	AJ0	ADJ	amod	_
+sanitary	JJ	sanitary	AJ0	ADJ	amod	sanit-ary
 conditions	NNS	condition	NN2	NOUN	obj	condition-s
 necessary	JJ	necessary	AJ0	ADJ	acl	necess-ary
 to	TO	to	TO0	PART	mark	_
 maintain	VV	maintain	VVI	VERB	advcl	_
 a	DT	a	AT0	DET	det	_
 healthy	JJ	healthy	AJ0	ADJ	amod	heal-th-y
-medical	JJ	medical	AJ0	ADJ	amod	_
-facility	NN	facility	NN1	NOUN	obj	_
+medical	JJ	medical	AJ0	ADJ	amod	med-ic-al
+facility	NN	facility	NN1	NOUN	obj	facil-ity
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -395,14 +395,14 @@ rat	NN	rat	NN1	NOUN	compound	_
 infested	VVN	infest	VVN	VERB	amod	infest-ed
 ,	,	,	PUN	PUNCT	punct	_
 dirty	JJ	dirty	AJ0	ADJ	amod	dirt-y
-facility	NN	facility	NN1	NOUN	nmod	_
+facility	NN	facility	NN1	NOUN	nmod	facil-ity
 that	WDT	that	CJT	PRON	obj	_
 they	PP	they	PNP	PRON	nsubj	_
 have	VHP	have	VHB	VERB	acl:relcl	_
 in	IN	in	PRP	ADP	case	_
 north	NN	north	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
-eastern	JJ	eastern	AJ0	ADJ	amod	_
+eastern	JJ	eastern	AJ0	ADJ	amod	east-ern
 Kansas	NP	Kansas	NP0	PROPN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -529,8 +529,8 @@ still	RB	still	AV0	ADV	advmod	_
 the	DT	the	AT0	DET	det	_
 unnatural	JJ	unnatural	AJ0	ADJ	amod	un-natur-al
 ,	,	,	PUN	PUNCT	punct	_
-violent	JJ	violent	AJ0	ADJ	amod	_
-death	NN	death	NN1	NOUN	parataxis	_
+violent	JJ	violent	AJ0	ADJ	amod	viol-ent
+death	NN	death	NN1	NOUN	parataxis	dea-th
 of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
 human	JJ	human	AJ0	ADJ	amod	_
@@ -586,7 +586,7 @@ There	EX	there	EX0	PRON	expl	_
 are	VBP	be	VBB	VERB	root	_
 3	CD	3	CRD	NUM	nummod	_
 churches	NNS	church	NN2	NOUN	nsubj	churche-s
-within	IN	within	PRP	ADP	case	_
+within	IN	within	PRP	ADP	case	with-in
 1	CD	1	CRD	NUM	nummod	_
 block	NN	block	NN1	NOUN	obl	_
 of	IN	of	PRF	ADP	case	_
@@ -611,9 +611,9 @@ let	VV	let	VVI	VERB	root	_
 this	DT	this	DT0	DET	det	_
 abomination	NN	abomination	NN1	NOUN	obj	abomin-ation
 continue	VV	continue	VVI	VERB	xcomp	_
-without	IN	without	PRP	SCONJ	mark	_
+without	IN	without	PRP	SCONJ	mark	with-out
 doing	VVG	do	VDG	VERB	advcl	do-ing
-everything	NN	everything	NN1	PRON	obj	_
+everything	NN	everything	NN1	PRON	obj	every-thing
 we	PP	we	PNP	PRON	nsubj	_
 can	MD	can	VM0	AUX	acl:relcl	_
 to	TO	to	TO0	PART	mark	_
@@ -634,7 +634,7 @@ choice	NN	choice	NN1	NOUN	obj	_
 and	CC	and	CJC	CCONJ	cc	_
 use	VV	use	VVB	VERB	conj	_
 your	PP$	your	DPS	PRON	nmod:poss	_
-medical	JJ	medical	AJ0	ADJ	amod	_
+medical	JJ	medical	AJ0	ADJ	amod	med-ic-al
 practice	NN	practice	NN1	NOUN	obj	_
 to	TO	to	TO0	PART	mark	_
 heal	VV	heal	VVI	VERB	advcl	_
@@ -691,7 +691,7 @@ stand	VV	stand	VVI	VERB	conj	_
 against	IN	against	PRP	ADP	case	a-gainst
 you	PP	you	PNP	PRON	obl	_
 every	DT	every	AT0	DET	det	_
-step	NN	step	NN1	NOUN	obl:npmod	_
+step	NN	step	NN1	NOUN	obl:unmarked	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 way	NN	way	NN1	NOUN	nmod	_
@@ -709,7 +709,7 @@ this	DT	this	DT0	DET	det	_
 stupid	JJ	stupid	AJ0	ADJ	amod	_
 plan	NN	plan	NN1	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
-yours	PP	your	PNP	PRON	nmod	_
+yours	PP	your	PNP	PRON	nmod	you-r-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">

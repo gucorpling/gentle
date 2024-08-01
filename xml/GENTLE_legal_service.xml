@@ -1,4 +1,4 @@
-<text id="GENTLE_legal_service" partition="test" author="Antonio Guterres" dateCollected="2022-11-14" dateCreated="2019-08-19" dateModified="2019-08-19"  shortTitle="service" sourceURL="https://zenodo.org/record/4595826#.Y3L8Q4LMKDU" speakerCount="0" speakerList="none" title="Services Agreement" type="legal">
+<text id="GENTLE_legal_service" partition="test" author="Antonio Guterres" dateCollected="2022-11-14" dateCreated="2019-08-19" dateModified="2019-08-19"  shortTitle="service" sourceURL="https://zenodo.org/record/4595826#.Y3L8Q4LMKDU" speakerCount="0" speakerList="none" title="Services Agreement" type="legal" summary="This services agreement between StartEngine Crowdfunding, Inc. and Solutions Vending Internaitonal, Inc. CEOs Dawn Dickson and Howard Marks on 08/19/2019 specifies the conditions for services to present its securities offering to users and manage user accounts and subscriptions, including fees and billing, reimbursable expenses, warranties and terms to terminate the agreement.">
 <head>
 <s type="frag" transition="establishment">
 Exhibit	NP	exhibit	NP0	PROPN	root	_
@@ -93,7 +93,7 @@ you	PP	you	PNP	PRON	conj	_
 <head>
 <s type="frag" transition="establishment">
 <hi rend="bold">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 Services	NNS	service	NN2	NOUN	root	_
 </hi>
 </s>
@@ -214,7 +214,7 @@ website	NN	website	NN1	NOUN	nmod	web-site
 <head>
 <s type="frag" transition="zero">
 <hi rend="bold">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Fees	NNS	fee	NN2	NOUN	root	_
 and	CC	and	CJC	CCONJ	cc	_
 expenses	NNS	expense	NN2	NOUN	conj	_
@@ -224,11 +224,11 @@ expenses	NNS	expense	NN2	NOUN	conj	_
 <p>
 <s type="sub" transition="establishment">
 <hi rend="bold">
-a)	LS	a)	UNC	X	dep	_
+a)	LS	a)	UNC	X	discourse	_
 Generally	RB	generally	AV0	ADV	dep	General-ly
 </hi>
 In	IN	in	PRP	ADP	case	_
-exchange	NN	exchange	NN1	NOUN	obl	_
+exchange	NN	exchange	NN1	NOUN	obl	ex-change
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Services	NPS	service	NP0	PROPN	nmod	_
@@ -287,7 +287,7 @@ term	NN	term	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 upon	IN	upon	PRP	ADP	case	up-on
 30	CD	30	CRD	NUM	nummod	_
-days	NNS	day	NN2	NOUN	nmod:npmod	day-s
+days	NNS	day	NN2	NOUN	nmod:unmarked	day-s
 prior	JJ	prior	AJ0	ADJ	amod	_
 notice	NN	notice	NN1	NOUN	obl	_
 to	IN	to	PRP	ADP	case	_
@@ -355,7 +355,7 @@ contact@startengine.com	NP	contact@startengine.com	NP0	PROPN	obl	_
 <p>
 <s type="frag" transition="null">
 <hi rend="bold">
-b)	LS	b)	UNC	X	dep	_
+b)	LS	b)	UNC	X	discourse	_
 Monthly	JJ	Monthly	AJ0	ADJ	amod	_
 Fees	NNS	fee	NN2	NOUN	root	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -406,7 +406,7 @@ liabilities	NNS	liability	NN2	NOUN	conj	liabil-itie-s
 incurred	VVN	incur	VVN	VERB	acl	incurr-ed
 under	IN	under	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
-Service	NP	Service	NP0	PROPN	compound	_
+Service	NP	Service	NP0	PROPN	compound	Serv-ice
 Agreement	NP	Agreement	NP0	PROPN	obl	Agree-ment
 ,	,	,	PUN	PUNCT	punct	_
 prior	RB	prior	AJ0	ADV	mark	_
@@ -480,7 +480,7 @@ in	IN	in	PRP	ADP	case	_
 immediate	JJ	immediate	AJ0	ADJ	amod	im-mediate
 termination	NN	termination	NN1	NOUN	obl	termin-at-ion
 of	IN	of	PRF	ADP	case	_
-Service	NN	service	NN1	NOUN	nmod	_
+Service	NN	service	NN1	NOUN	nmod	Serv-ice
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="sub" transition="continue">
@@ -511,7 +511,7 @@ income	NN	income	NN1	NOUN	obl	in-come
 <p>
 <s type="frag" transition="zero">
 <hi rend="bold">
-c)	LS	c)	UNC	X	dep	_
+c)	LS	c)	UNC	X	discourse	_
 Transaction	NN	transaction	NN1	NOUN	compound	Trans-act-ion
 Fees	NNS	fee	NN2	NOUN	root	_
 </hi>
@@ -562,7 +562,7 @@ $	SYM	$	UNC	SYM	root	_
 <p>
 <s type="frag" transition="null">
 <hi rend="bold">
-d)	LS	d)	UNC	X	dep	_
+d)	LS	d)	UNC	X	discourse	_
 AML	NP	AML	NP0	PROPN	dep	_
 Fees	NNS	fee	NN2	NOUN	root	_
 </hi>
@@ -602,7 +602,7 @@ $	SYM	$	UNC	SYM	root	_
 <p>
 <s type="frag" transition="zero">
 <hi rend="bold">
-e)	LS	e)	UNC	X	dep	_
+e)	LS	e)	UNC	X	discourse	_
 Reimbursable	JJ	Reimbursable	AJ0	ADJ	amod	Re-im-burs-able
 expenses	NNS	expense	NN2	NOUN	root	_
 </hi>
@@ -625,7 +625,7 @@ expenses	NNS	expense	NN2	NOUN	obl	_
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="establishment">
-(i)	LS	(i)	UNC	X	dep	_
+(i)	LS	(i)	UNC	X	discourse	_
 All	DT	all	DT0	DET	det	_
 credit	NN	credit	NN1	NOUN	compound	_
 card	NN	card	NN1	NOUN	compound	_
@@ -649,7 +649,7 @@ processor	NN	processor	NN1	NOUN	obl:agent	process-or
 </item>
 <item n="2">
 <s type="frag" transition="continue">
-(ii)	LS	(ii)	UNC	X	dep	_
+(ii)	LS	(ii)	UNC	X	discourse	_
 All	DT	all	DT0	DET	det	_
 transaction	NN	transaction	NN1	NOUN	compound	transact-ion
 fees	NNS	fee	NN2	NOUN	root	fee-s
@@ -674,7 +674,7 @@ processor	NN	processor	NN1	NOUN	obl:agent	process-or
 </item>
 <item n="3">
 <s type="frag" transition="continue">
-(iii)	LS	(iii)	UNC	X	dep	_
+(iii)	LS	(iii)	UNC	X	discourse	_
 Escrow	NN	escrow	NN1	NOUN	compound	_
 agent	NN	agent	NN1	NOUN	compound	_
 fees	NNS	fee	NN2	NOUN	root	fee-s
@@ -698,7 +698,7 @@ agents	NNS	agent	NN2	NOUN	obl:agent	agent-s
 </item>
 <item n="4">
 <s type="frag" transition="zero">
-(iv)	LS	(iv)	AJ0	X	dep	_
+(iv)	LS	(iv)	AJ0	X	discourse	_
 Return	NN	return	NN1	NOUN	compound	_
 fees	NNS	fee	NN2	NOUN	root	fee-s
 as	IN	as	CJS	SCONJ	mark	_
@@ -752,7 +752,7 @@ vendor	NN	vendor	NN1	NOUN	obl:agent	_
 <head>
 <s type="frag" transition="null">
 <hi rend="bold">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Customer	NN	customer	NN1	NOUN	compound	Custom-er
 Representations	NNS	representation	NN2	NOUN	root	Representation-s
 and	CC	and	CJC	CCONJ	cc	_
@@ -778,7 +778,7 @@ by	IN	by	PRP	ADP	case	_
 Customer	NP	customer	NP0	PROPN	obl:agent	_
 ,	,	,	PUN	PUNCT	punct	_
 this	DT	this	DT0	DET	det	_
-Service	NN	service	NN1	NOUN	compound	_
+Service	NN	service	NN1	NOUN	compound	Serv-ice
 Agreement	NN	agreement	NN1	NOUN	nsubj	Agree-ment
 will	MD	will	VM0	AUX	aux	_
 constitute	VV	constitute	VVI	VERB	ccomp	_
@@ -805,7 +805,7 @@ terms	NNS	term	NN2	NOUN	nmod	term-s
 <head>
 <s type="frag" transition="zero">
 <hi rend="bold">
-4.	LS	4.	CRD	X	dep	_
+4.	LS	4.	CRD	X	discourse	_
 Returns	NNS	return	NN2	NOUN	root	_
 and	CC	and	CJC	CCONJ	cc	_
 Reversals	NNS	reversal	NN2	NOUN	conj	Revers-al-s
@@ -815,7 +815,7 @@ Reversals	NNS	reversal	NN2	NOUN	conj	Revers-al-s
 <p>
 <s type="frag" transition="establishment">
 <hi rend="bold">
-a)	LS	a)	UNC	X	dep	_
+a)	LS	a)	UNC	X	discourse	_
 Returns	NNS	return	NN2	NOUN	root	_
 and	CC	and	CJC	CCONJ	cc	_
 Reversals	NNS	reversal	NN2	NOUN	conj	Revers-al-s
@@ -923,7 +923,7 @@ that	IN/that	that	CJT	SCONJ	mark	_
 <list type="ordered">
 <item n="1">
 <s type="decl" transition="establishment">
-i)	LS	i)	UNC	X	dep	_
+i)	LS	i)	UNC	X	discourse	_
 Customer	NN	customer	NN1	NOUN	nsubj	Custom-er
 is	VBZ	be	VBZ	AUX	cop	_
 liable	JJ	liable	AJ0	ADJ	root	_
@@ -942,7 +942,7 @@ Activity	NP	Activity	NP0	PROPN	obl	_
 </item>
 <item n="2">
 <s type="decl" transition="rough-shift">
-ii)	LS	ii)	UNC	X	dep	_
+ii)	LS	ii)	UNC	X	discourse	_
 If	IN	if	CJS	SCONJ	mark	_
 Company	NP	Company	NP0	PROPN	nmod:poss	_
 's	POS	's	POS	PART	case	_
@@ -1003,7 +1003,7 @@ Liability	NP	Liability	NP0	PROPN	appos	Liabil-ity
 </item>
 <item n="3">
 <s type="decl" transition="smooth-shift">
-iii)	LS	iii)	VVG	X	dep	_
+iii)	LS	iii)	VVG	X	discourse	_
 The	DT	the	AT0	DET	det	_
 Company	NP	Company	NP0	PROPN	nsubj	_
 has	VHZ	have	VHZ	VERB	root	ha-s
@@ -1029,7 +1029,7 @@ Fee	NP	Fee	NP0	PROPN	conj	_
 </item>
 <item n="4">
 <s type="decl" transition="continue">
-iv)	LS	iv)	UNC	X	dep	_
+iv)	LS	iv)	UNC	X	discourse	_
 Customer	NN	customer	NN1	NOUN	nsubj	Custom-er
 authorizes	VVZ	authorize	VVZ	VERB	root	author-ize-s
 the	DT	the	AT0	DET	det	_
@@ -1050,7 +1050,7 @@ order	NN	order	NN1	NOUN	nmod	_
 :	:	:	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="smooth-shift">
-(i)	LS	(i)	UNC	X	dep	_
+(i)	LS	(i)	UNC	X	discourse	_
 collect	VV	collect	VVB	VERB	root	_
 the	DT	the	AT0	DET	det	_
 unpaid	JJ	unpaid	AJ0	ADJ	amod	_
@@ -1071,7 +1071,7 @@ account	NN	account	NN1	NOUN	obl	_
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="continue">
-(ii)	LS	(ii)	UNC	X	dep	_
+(ii)	LS	(ii)	UNC	X	discourse	_
 debit	VV	debit	VVB	VERB	root	_
 your	PP$	your	DPS	PRON	nmod:poss	_
 bank	NN	bank	NN1	NOUN	compound	_
@@ -1090,7 +1090,7 @@ Liability	NP	Liability	NP0	PROPN	nmod	Liabil-ity
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
-(iv)	LS	(iv)	UNC	X	dep	_
+(iv)	LS	(iv)	UNC	X	discourse	_
 engage	VVP	engage	VVB	VERB	root	_
 in	IN	in	PRP	ADP	case	_
 collection	NN	collection	NN1	NOUN	compound	collect-ion
@@ -1109,7 +1109,7 @@ and	CC	and	CJC	CCONJ	dep	_
 or	CC	or	CJC	CCONJ	conj	_
 </s>
 <s type="imp" transition="zero">
-(v)	LS	(v)	UNC	X	dep	_
+(v)	LS	(v)	UNC	X	discourse	_
 take	VV	take	VVB	VERB	root	_
 legal	JJ	legal	AJ0	ADJ	amod	_
 action	NN	action	NN1	NOUN	obj	act-ion
@@ -1119,7 +1119,7 @@ other	JJ	other	AJ0	ADJ	amod	_
 action	NN	action	NN1	NOUN	obj	act-ion
 under	IN	under	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
-Service	NP	Service	NP0	PROPN	compound	_
+Service	NP	Service	NP0	PROPN	compound	Serv-ice
 Agreement	NP	Agreement	NP0	PROPN	obl	Agree-ment
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -1128,7 +1128,7 @@ Agreement	NP	Agreement	NP0	PROPN	obl	Agree-ment
 <head>
 <s type="frag" transition="null">
 <hi rend="bold">
-5.	LS	5.	CRD	X	dep	_
+5.	LS	5.	CRD	X	discourse	_
 Term	NP	Term	NP0	PROPN	root	_
 and	CC	and	CJC	CCONJ	cc	_
 Survival	NN	Survival	NN1	NOUN	conj	_
@@ -1137,7 +1137,7 @@ Survival	NN	Survival	NN1	NOUN	conj	_
 </head>
 <p>
 <s type="decl" transition="null">
-a)	LS	a)	UNC	X	dep	_
+a)	LS	a)	UNC	X	discourse	_
 Subject	JJ	Subject	AJ0	ADJ	acl	_
 to	IN	to	PRP	ADP	case	_
 earlier	JJR	early	AJC	ADJ	amod	earli-er
@@ -1147,7 +1147,7 @@ provided	VVN	provide	VVN	VERB	advcl	provid-ed
 below	RB	below	AV0	ADV	advmod	be-low
 ,	,	,	PUN	PUNCT	punct	_
 this	DT	this	DT0	DET	det	_
-Service	NN	service	NN1	NOUN	compound	_
+Service	NN	service	NN1	NOUN	compound	Serv-ice
 Agreement	NN	agreement	NN1	NOUN	nsubj	Agree-ment
 is	VBZ	be	VBZ	AUX	cop	_
 for	IN	for	PRP	ADP	case	_
@@ -1176,7 +1176,7 @@ termination	NN	termination	NN1	NOUN	obj	termin-at-ion
 at	IN	at	PRP	ADP	case	_
 least	JJS	least	AJS	ADJ	nmod	_
 30	CD	30	CRD	NUM	nummod	_
-days	NNS	day	NN2	NOUN	obl:npmod	day-s
+days	NNS	day	NN2	NOUN	obl:unmarked	day-s
 prior	RB	prior	PRP	ADV	advmod	_
 to	IN	to	PRP	ADP	fixed	_
 the	DT	the	AT0	DET	det	_
@@ -1194,7 +1194,7 @@ term	NN	term	NN1	NOUN	nmod	_
 </p>
 <p>
 <s type="decl" transition="establishment">
-b)	LS	b)	UNC	X	dep	_
+b)	LS	b)	UNC	X	discourse	_
 Additionally	RB	additionally	AV0	ADV	advmod	Add-ition-al-ly
 ,	,	,	PUN	PUNCT	punct	_
 either	DT	either	DT0	DET	det	_
@@ -1202,7 +1202,7 @@ party	NN	party	NN1	NOUN	nsubj	_
 may	MD	may	VM0	AUX	aux	_
 terminate	VV	terminate	VVI	VERB	root	termin-ate
 this	DT	this	DT0	DET	det	_
-Service	NN	service	NN1	NOUN	compound	_
+Service	NN	service	NN1	NOUN	compound	Serv-ice
 Agreement	NP	Agreement	NP0	PROPN	obj	Agree-ment
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -1213,7 +1213,7 @@ event	NN	event	NN1	NOUN	obl	_
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="zero">
-i)	LS	i)	VVG	X	dep	_
+i)	LS	i)	VVG	X	discourse	_
 The	DT	the	AT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
 party	NN	party	NN1	NOUN	nmod:poss	_
@@ -1230,7 +1230,7 @@ for	IN	for	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 period	NN	period	NN1	NOUN	obl	_
 of	IN	of	PRF	ADP	case	_
-(A)	LS	(A)	AJ0	X	dep	_
+(A)	LS	(A)	AJ0	X	discourse	_
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 case	NN	case	NN1	NOUN	obl	_
@@ -1250,7 +1250,7 @@ hereunder	RB	hereunder	AV0	ADV	advmod	here-under
 15	CD	15	CRD	NUM	nummod	_
 days	NNS	day	NN2	NOUN	nmod	day-s
 and	CC	and	CJC	CCONJ	cc	_
-(B)	LS	(B)	AJ0	X	dep	_
+(B)	LS	(B)	AJ0	X	discourse	_
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 case	NN	case	NN1	NOUN	obl	_
@@ -1263,7 +1263,7 @@ failure	NN	failure	NN1	NOUN	nmod	fail-ure
 days	NNS	day	NN2	NOUN	conj	day-s
 after	IN	after	PRP	SCONJ	mark	_
 the	DT	the	AT0	DET	det	_
-non	NN	non	NN1	NOUN	obl:npmod	_
+non	NN	non	NN1	NOUN	obl:unmarked	_
 performing	VVG	perform	VVG	VERB	amod	perform-ing
 party	NN	party	NN1	NOUN	nsubj	_
 receives	VVZ	receive	VVZ	VERB	advcl	receive-s
@@ -1280,7 +1280,7 @@ failure	NN	failure	NN1	NOUN	obj	fail-ure
 </item>
 <item n="2">
 <s type="decl" transition="null">
-ii)	LS	ii)	VVG	X	dep	_
+ii)	LS	ii)	VVG	X	discourse	_
 Any	DT	any	DT0	DET	det	_
 statement	NN	statement	NN1	NOUN	nsubj	state-ment
 ,	,	,	PUN	PUNCT	punct	_
@@ -1308,11 +1308,11 @@ information	NN	information	NN1	NOUN	obj	in-form-ation
 </item>
 <item n="3">
 <s type="other" transition="null">
-iii)	LS	iii)	VVG	X	dep	_
+iii)	LS	iii)	VVG	X	discourse	_
 The	DT	the	AT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
 party	NN	party	NN1	NOUN	nsubj	_
-(A)	LS	(A)	UNC	X	dep	_
+(A)	LS	(A)	UNC	X	discourse	_
 voluntarily	RB	voluntarily	AV0	ADV	advmod	volunt-ari-ly
 or	CC	or	CJC	CCONJ	cc	_
 involuntarily	RB	involuntarily	AV0	ADV	conj	in-volunt-ari-ly
@@ -1322,7 +1322,7 @@ to	IN	to	PRP	ADP	case	_
 bankruptcy	NN	bankruptcy	NN1	NOUN	compound	bank-rupt-cy
 proceedings	NNS	proceeding	NN2	NOUN	obl	proceed-ing-s
 ,	,	,	PUN	PUNCT	punct	_
-(B)	LS	(B)	UNC	X	dep	_
+(B)	LS	(B)	UNC	X	discourse	_
 applies	VVZ	apply	VVZ	VERB	conj	appl-ie-s
 for	IN	for	PRP	ADP	obl	_
 or	CC	or	CJC	CCONJ	cc	_
@@ -1344,7 +1344,7 @@ or	CC	or	CJC	CCONJ	cc	_
 similar	JJ	similar	AJ0	ADJ	amod	_
 official	NN	official	NN1	NOUN	conj	offic-ial
 ,	,	,	PUN	PUNCT	punct	_
-(C)	LS	(C)	UNC	X	dep	_
+(C)	LS	(C)	UNC	X	discourse	_
 makes	VVZ	make	VVZ	VERB	conj	make-s
 a	DT	a	AT0	DET	det	_
 general	JJ	general	AJ0	ADJ	amod	_
@@ -1352,7 +1352,7 @@ assignment	NN	assignment	NN1	NOUN	obj	assign-ment
 to	IN	to	PRP	ADP	case	_
 creditors	NNS	creditor	NN2	NOUN	nmod	credit-or-s
 ,	,	,	PUN	PUNCT	punct	_
-(D)	LS	(D)	AJ0	X	dep	_
+(D)	LS	(D)	AJ0	X	discourse	_
 commences	VVZ	commence	VVZ	VERB	conj	commence-s
 winding	NN	winding	NN1	NOUN	obj	wind-ing
 down	RB	down	AVP	ADV	advmod	_
@@ -1363,7 +1363,7 @@ its	PP$	its	DPS	PRON	nmod:poss	it-s
 business	NN	business	NN1	NOUN	compound	busi-ness
 affairs	NNS	affair	NN2	NOUN	nmod	affair-s
 ,	,	,	PUN	PUNCT	punct	_
-(E)	LS	(E)	UNC	X	dep	_
+(E)	LS	(E)	UNC	X	discourse	_
 otherwise	RB	otherwise	AV0	ADV	advmod	other-wise
 takes	VVZ	take	VVZ	VERB	conj	take-s
 corporate	JJ	corporate	AJ0	ADJ	amod	corpor-ate
@@ -1379,7 +1379,7 @@ the	DT	the	AT0	DET	det	_
 foregoing	NN	foregoing	NN1	NOUN	nmod	fore-go-ing
 ,	,	,	PUN	PUNCT	punct	_
 or	CC	or	CJC	CCONJ	cc	_
-(F)	LS	(F)	UNC	X	dep	_
+(F)	LS	(F)	UNC	X	discourse	_
 ceases	VVZ	cease	VVZ	VERB	conj	_
 operating	VVG	operate	VVG	VERB	xcomp	oper-at-ing
 in	IN	in	PRP	ADP	case	_
@@ -1393,7 +1393,7 @@ business	NN	business	NN1	NOUN	nmod	busi-ness
 </item>
 <item n="4">
 <s type="decl" transition="null">
-iv)	LS	iv)	UNC	X	dep	_
+iv)	LS	iv)	UNC	X	discourse	_
 If	IN	if	CJS	SCONJ	mark	_
 any	DT	any	DT0	DET	det	_
 change	NN	change	NN1	NOUN	nsubj	_
@@ -1430,7 +1430,7 @@ its	PP$	its	DPS	PRON	nmod:poss	it-s
 obligations	NNS	obligation	NN2	NOUN	obj	oblig-ation-s
 under	IN	under	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
-Service	NP	Service	NP0	PROPN	compound	_
+Service	NP	Service	NP0	PROPN	compound	Serv-ice
 Agreement	NP	Agreement	NP0	PROPN	nmod	Agree-ment
 or	CC	or	CJC	CCONJ	cc	_
 a	DT	a	AT0	DET	det	_
@@ -1448,14 +1448,14 @@ the	DT	the	AT0	DET	det	_
 services	NNS	service	NN2	NOUN	nmod	service-s
 under	IN	under	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
-Service	NP	Service	NP0	PROPN	compound	_
+Service	NP	Service	NP0	PROPN	compound	Serv-ice
 Agreement	NP	Agreement	NP0	PROPN	nmod	Agree-ment
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="5">
 <s type="frag" transition="establishment">
-v)	LS	v)	UNC	X	dep	_
+v)	LS	v)	UNC	X	discourse	_
 Upon	IN	upon	PRP	ADP	case	Up-on
 direction	NN	direction	NN1	NOUN	root	direct-ion
 to	IN	to	PRP	ADP	case	_
@@ -1489,14 +1489,14 @@ or	CC	or	CJC	CCONJ	cc	_
 obligations	NNS	obligation	NN2	NOUN	conj	oblig-ation-s
 under	IN	under	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
-Service	NN	service	NN1	NOUN	compound	_
+Service	NN	service	NN1	NOUN	compound	Serv-ice
 Agreement	NP	Agreement	NP0	PROPN	nmod	Agree-ment
 ;	:	;	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="6">
 <s type="sub" transition="zero">
-vi)	LS	vi)	UNC	X	dep	_
+vi)	LS	vi)	UNC	X	discourse	_
 If	IN	if	CJS	SCONJ	mark	_
 there	EX	there	EX0	PRON	expl	_
 shall	MD	shall	VM0	AUX	aux	_
@@ -1515,12 +1515,12 @@ the	DT	the	AT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
 party	NN	party	NN1	NOUN	nmod	_
 ;	:	;	PUN	PUNCT	punct	_
-or	CC	or	CJC	CCONJ	dep	_
+or	CC	or	CJC	CCONJ	conj	_
 </s>
 </item>
 <item n="7">
 <s type="frag" transition="null">
-vii)	LS	vii)	UNC	X	dep	_
+vii)	LS	vii)	UNC	X	discourse	_
 Upon	IN	upon	PRP	ADP	case	Up-on
 a	DT	a	AT0	DET	det	_
 force	NN	force	NN1	NOUN	compound	_
@@ -1563,7 +1563,7 @@ Inc.	NP	Inc.	NP0	PROPN	root	_
 <s type="frag" transition="null">
 By	IN	by	PRP	ADP	case	_
 :	:	:	PUN	PUNCT	punct	_
-/s/	LS	/s/	VVB	X	dep	_
+/s/	LS	/s/	VVB	X	discourse	_
 Dawn	NP	Dawn	NP0	PROPN	root	_
 Dickson	NP	Dickson	NP0	PROPN	flat	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -1600,7 +1600,7 @@ Date	NN	Date	NN1	NOUN	dep	_
 </p>
 <p>
 <s type="frag" transition="null">
-/s/	LS	/s/	VVB	X	dep	_
+/s/	LS	/s/	VVB	X	discourse	_
 Howard	NP	Howard	NP0	PROPN	dep	_
 Marks	NP	Marks	NP0	PROPN	flat	_
 Howard	NP	Howard	NP0	PROPN	dep	_

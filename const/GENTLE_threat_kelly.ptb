@@ -253,7 +253,7 @@
                   (VP (MD can) (VP (VB arrest) (NP (PRP you)))))))))))
     (. .)))
 
-(ROOT (S (NP-SBJ (PRP I)) (VP (MD will) (VP (VBN testified))) (. .)))
+(ROOT (S (NP-SBJ (PRP I)) (VP (MD will) (VP (VB testified))) (. .)))
 
 (ROOT
   (S
@@ -299,7 +299,7 @@
           (SBAR
             (S
               (NP-SBJ (PRP I))
-              (VP (VBD had) (NP-TMP (DT the) (JJ first) (NN time))))))))
+              (VP (VBD had) (NP (DT the) (JJ first) (NN time))))))))
     (. .)
     (. .)
     (. .)
@@ -415,10 +415,10 @@
                     (VP (VB go) (PP-DIR (IN to) (NP (NN jail))))))))))
         (VP
           (VB get)
-          (NP (PRP me))
+          (NP-SBJ (PRP me))
           (NP
             (NP (DT the) (NN fuck))
-            (PP (IN out) (PP (IN of) (NP (RB here)))))))
+            (PP-LOC (IN out) (PP-PRD (IN of) (NP (RB here)))))))
       (CC or)
       (S
         (ADVP (RB maybe))
@@ -447,12 +447,13 @@
                     (VBD had)
                     (VP
                       (VBN saved)
-                      (S
+                      (S-PRP
                         (VP
-                          (RB too)
+                          (TO too)
                           (VP
                             (VB Go)
-                            (PP (VB see) (NP (DT the) (NN Bitch.)))))))))))))))))
+                            (PP (VB see) (NP (DT the) (NN Bitch)))))))))))))))
+    (. .)))
 
 (ROOT
   (S
@@ -517,7 +518,7 @@
                 (MD might)
                 (VP
                   (VB get)
-                  (PP-LOC (IN out) (PP (IN of) (NP (PRP it)))))))))))
+                  (PP (IN out) (PP (IN of) (NP (PRP it)))))))))))
     (, ,)
     (CC but)
     (SQ

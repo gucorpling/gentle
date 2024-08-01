@@ -88,7 +88,7 @@
   (S
     (CC And)
     (NP-SBJ (DT both))
-    (NP-TMP (DT that) (NN morning))
+    (NP (DT that) (NN morning))
     (VP
       (ADVP (RB equally))
       (VBD lay)
@@ -125,7 +125,7 @@
           (WHADVP (WRB how))
           (S
             (NP-SBJ (NN way))
-            (VP (VBZ leads) (PP (RP on) (PP (IN to) (NP (NN way)))))))))
+            (VP (VBZ leads) (PP (RB on) (PP (IN to) (NP (NN way)))))))))
     (, ,)
     (NP-SBJ (PRP I))
     (VP
@@ -153,7 +153,7 @@
             (NP (DT this))
             (PP (IN with) (NP (DT a) (NN sigh)))
             (ADVP (RB Somewhere))
-            (ADVP (NP-TMP (NNS ages) (CC and) (NNS ages)) (RB hence))))))
+            (ADVP (NP (NNS ages) (CC and) (NNS ages)) (RB hence))))))
     (: :)
     (S
       (S

@@ -4,8 +4,8 @@
 
 
 #Text=THE RAVEN .
-1-1	0-3	THE	animal[1]	new[1]	nonsal[1]	_	cf1[1]	coref	27-20[173_1]
-1-2	4-9	RAVEN	animal[1]	new[1]	nonsal[1]	_	cf1[1]	_	_
+1-1	0-3	THE	animal[1]	new[1]	sal[1]	_	cf1[1]	coref	27-20[173_1]
+1-2	4-9	RAVEN	animal[1]	new[1]	sal[1]	_	cf1[1]	_	_
 1-3	10-11	.	_	_	_	_	_	_	_
 
 #Text=ONCE upon a midnight dreary , while I pondered , weak and weary , Over many a quaint and curious volume of forgotten lore —
@@ -16,7 +16,7 @@
 2-5	33-39	dreary	_	_	_	_	cf2[2]	_	_
 2-6	40-41	,	_	_	_	_	_	_	_
 2-7	42-47	while	_	_	_	_	_	_	_
-2-8	48-49	I	person[3]	acc:com[3]	nonsal[3]	_	cf1[3]	ana	3-2[7_3]
+2-8	48-49	I	person[3]	acc:com[3]	sal[3]	_	cf1[3]	ana	3-2[7_3]
 2-9	50-58	pondered	_	_	_	_	_	_	_
 2-10	59-60	,	_	_	_	_	_	_	_
 2-11	61-65	weak	_	_	_	_	_	_	_
@@ -37,7 +37,7 @@
 
 #Text=While I nodded , nearly napping , suddenly there came a tapping , As of some one gently rapping , rapping at my chamber door .
 3-1	136-141	While	_	_	_	_	_	_	_
-3-2	142-143	I	person[7]	giv:act[7]	nonsal[7]	_	cf1*[7]	ana	3-23[12_7]
+3-2	142-143	I	person[7]	giv:act[7]	sal[7]	_	cf1*[7]	ana	3-23[12_7]
 3-3	144-150	nodded	_	_	_	_	_	_	_
 3-4	151-152	,	_	_	_	_	_	_	_
 3-5	153-159	nearly	_	_	_	_	_	_	_
@@ -46,21 +46,21 @@
 3-8	170-178	suddenly	_	_	_	_	_	_	_
 3-9	179-184	there	_	_	_	_	_	_	_
 3-10	185-189	came	_	_	_	_	_	_	_
-3-11	190-191	a	_	_	_	_	cf3[9]	_	_
-3-12	192-199	tapping	_	_	_	_	cf3[9]	_	_
+3-11	190-191	a	_	_	_	_	cf2[9]	_	_
+3-12	192-199	tapping	_	_	_	_	cf2[9]	_	_
 3-13	200-201	,	_	_	_	_	_	_	_
 3-14	202-204	As	_	_	_	_	_	_	_
 3-15	205-207	of	_	_	_	_	_	_	_
-3-16	208-212	some	_	_	_	_	cf2[10]	_	_
-3-17	213-216	one	_	_	_	_	cf2[10]	_	_
+3-16	208-212	some	_	_	_	_	cf3[10]	_	_
+3-17	213-216	one	_	_	_	_	cf3[10]	_	_
 3-18	217-223	gently	_	_	_	_	_	_	_
 3-19	224-231	rapping	_	_	_	_	_	_	_
 3-20	232-233	,	_	_	_	_	_	_	_
 3-21	234-241	rapping	_	_	_	_	_	_	_
 3-22	242-244	at	_	_	_	_	_	_	_
-3-23	245-247	my	place[11]|person[12]	new[11]|giv:act[12]	nonsal[11]|nonsal[12]	_	cf4[11]|cf1*[12]	coref|ana	4-14[18_11]|4-8[15_12]
-3-24	248-255	chamber	place[11]	new[11]	nonsal[11]	_	cf4[11]	_	_
-3-25	256-260	door	place[11]	new[11]	nonsal[11]	_	cf4[11]	_	_
+3-23	245-247	my	place[11]|person[12]	new[11]|giv:act[12]	sal[11]|sal[12]	_	cf4[11]|cf1*[12]	ana|coref	4-8[15_12]|4-14[18_11]
+3-24	248-255	chamber	place[11]	new[11]	sal[11]	_	cf4[11]	_	_
+3-25	256-260	door	place[11]	new[11]	sal[11]	_	cf4[11]	_	_
 3-26	261-262	.	_	_	_	_	_	_	_
 
 #Text=" 'T is some visiter , " I muttered , " tapping at my chamber door —
@@ -71,15 +71,15 @@
 4-5	276-283	visiter	_	_	_	_	cf2[14]	_	_
 4-6	284-285	,	_	_	_	_	_	_	_
 4-7	286-287	"	_	_	_	_	_	_	_
-4-8	288-289	I	person[15]	giv:act[15]	nonsal[15]	_	cf1*[15]	ana	4-14[19_15]
+4-8	288-289	I	person[15]	giv:act[15]	sal[15]	_	cf1*[15]	ana	4-14[19_15]
 4-9	290-298	muttered	_	_	_	_	_	_	_
 4-10	299-300	,	_	_	_	_	_	_	_
 4-11	301-302	"	_	_	_	_	_	_	_
-4-12	303-310	tapping	event[563]	new[563]	_	_	cf4[17]	disc	5-2[20_563]
+4-12	303-310	tapping	event[564]	new[564]	_	_	cf4[17]	disc	5-2[20_564]
 4-13	311-313	at	_	_	_	_	cf4[17]	_	_
-4-14	314-316	my	place[18]|person[19]	giv:act[18]|giv:act[19]	nonsal[18]|nonsal[19]	_	cf4[17]|cf3[18]|cf1*[19]	coref|ana	10-9[67_18]|6-4[24_19]
-4-15	317-324	chamber	place[18]	giv:act[18]	nonsal[18]	_	cf4[17]|cf3[18]	_	_
-4-16	325-329	door	place[18]	giv:act[18]	nonsal[18]	_	cf4[17]|cf3[18]	_	_
+4-14	314-316	my	place[18]|person[19]	giv:act[18]|giv:act[19]	sal[18]|sal[19]	_	cf4[17]|cf3[18]|cf1*[19]	coref|ana	10-9[67_18]|6-4[24_19]
+4-15	317-324	chamber	place[18]	giv:act[18]	sal[18]	_	cf4[17]|cf3[18]	_	_
+4-16	325-329	door	place[18]	giv:act[18]	sal[18]	_	cf4[17]|cf3[18]	_	_
 4-17	330-331	—	_	_	_	_	_	_	_
 
 #Text=Only this and nothing more . "
@@ -95,7 +95,7 @@
 6-1	363-365	Ah	_	_	_	_	_	_	_
 6-2	366-367	,	_	_	_	_	_	_	_
 6-3	368-378	distinctly	_	_	_	_	_	_	_
-6-4	379-380	I	person[24]	giv:inact[24]	nonsal[24]	_	cf2[24]	ana	7-2[32_24]
+6-4	379-380	I	person[24]	giv:inact[24]	sal[24]	_	cf2[24]	ana	7-2[32_24]
 6-5	381-389	remember	_	_	_	_	_	_	_
 6-6	390-392	it	_	_	_	_	_	_	_
 6-7	393-396	was	_	_	_	_	_	_	_
@@ -113,26 +113,26 @@
 6-19	459-462	its	object[29]	giv:act[29]	nonsal[29]	_	cf4[28]|cf1[29]	_	_
 6-20	463-468	ghost	_	_	_	_	cf4[28]	_	_
 6-21	469-473	upon	_	_	_	_	_	_	_
-6-22	474-477	the	place[31]	new[31]	nonsal[31]	_	cf5[31]	coref	79-13[526_31]
+6-22	474-477	the	place[31]	new[31]	nonsal[31]	_	cf5[31]	coref	79-13[527_31]
 6-23	478-483	floor	place[31]	new[31]	nonsal[31]	_	cf5[31]	_	_
 6-24	484-485	.	_	_	_	_	_	_	_
 
 #Text=Eagerly I wished the morrow ; — vainly I had sought to borrow From my books surcease of sorrow — sorrow for the lost Lenore — For the rare and radiant maiden whom the angels name Lenore — Nameless here for evermore .
 7-1	486-493	Eagerly	_	_	_	_	_	_	_
-7-2	494-495	I	person[32]	giv:act[32]	nonsal[32]	_	cf1*[32]	ana	7-9[35_32]
+7-2	494-495	I	person[32]	giv:act[32]	sal[32]	_	cf1*[32]	ana	7-9[35_32]
 7-3	496-502	wished	_	_	_	_	_	_	_
 7-4	503-506	the	time[34]	new[34]	nonsal[34]	_	cf6[34]	coref	43-2[264_34]
 7-5	507-513	morrow	time[34]	new[34]	nonsal[34]	_	cf6[34]	_	_
 7-6	514-515	;	_	_	_	_	_	_	_
 7-7	516-517	—	_	_	_	_	_	_	_
 7-8	518-524	vainly	_	_	_	_	_	_	_
-7-9	525-526	I	person[35]	giv:act[35]	nonsal[35]	_	cf1*[35]	ana	7-15[38_35]
+7-9	525-526	I	person[35]	giv:act[35]	sal[35]	_	cf1*[35]	ana	7-15[38_35]
 7-10	527-530	had	_	_	_	_	_	_	_
 7-11	531-537	sought	_	_	_	_	_	_	_
 7-12	538-540	to	_	_	_	_	_	_	_
 7-13	541-547	borrow	_	_	_	_	_	_	_
 7-14	548-552	From	_	_	_	_	_	_	_
-7-15	553-555	my	object[37]|person[38]	giv:inact[37]|giv:act[38]	nonsal[37]|nonsal[38]	_	cf4[37]|cf1*[38]	ana	8-12[53_38]
+7-15	553-555	my	object[37]|person[38]	giv:inact[37]|giv:act[38]	nonsal[37]|sal[38]	_	cf4[37]|cf1*[38]	ana	8-12[53_38]
 7-16	556-561	books	object[37]	giv:inact[37]	nonsal[37]	_	cf4[37]	_	_
 7-17	562-570	surcease	_	_	_	_	cf7[40]	_	_
 7-18	571-573	of	_	_	_	_	cf7[40]	_	_
@@ -140,21 +140,21 @@
 7-20	581-582	—	_	_	_	_	_	_	_
 7-21	583-589	sorrow	_	_	_	_	cf3[43]	_	_
 7-22	590-593	for	_	_	_	_	cf3[43]	_	_
-7-23	594-597	the	person[44]	new[44]	nonsal[44]	_	cf3[43]|cf2[44]	coref	7-28[45_44]
-7-24	598-602	lost	person[44]	new[44]	nonsal[44]	_	cf3[43]|cf2[44]	_	_
-7-25	603-609	Lenore	person[44]	new[44]	nonsal[44]	_	cf3[43]|cf2[44]	_	_
+7-23	594-597	the	person[44]	new[44]	sal[44]	_	cf3[43]|cf2[44]	coref	7-28[45_44]
+7-24	598-602	lost	person[44]	new[44]	sal[44]	_	cf3[43]|cf2[44]	_	_
+7-25	603-609	Lenore	person[44]	new[44]	sal[44]	_	cf3[43]|cf2[44]	_	_
 7-26	610-611	—	_	_	_	_	_	_	_
 7-27	612-615	For	_	_	_	_	_	_	_
-7-28	616-619	the	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	coref	19-26[127_45]
-7-29	620-624	rare	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	_	_
-7-30	625-628	and	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	_	_
-7-31	629-636	radiant	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	_	_
-7-32	637-643	maiden	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	_	_
-7-33	644-648	whom	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	_	_
-7-34	649-652	the	person[45]|person[46]	giv:act[45]|new[46]	nonsal[45]|nonsal[46]	_	cf2[45]|cf5[46]	coref	53-18[358_46]
-7-35	653-659	angels	person[45]|person[46]	giv:act[45]|new[46]	nonsal[45]|nonsal[46]	_	cf2[45]|cf5[46]	_	_
-7-36	660-664	name	person[45]	giv:act[45]	nonsal[45]	_	cf2[45]	_	_
-7-37	665-671	Lenore	person[45]|abstract[47]	giv:act[45]|new[47]	nonsal[45]|nonsal[47]	_	cf2[45]|cf8[47]	coref	67-24[457_47]
+7-28	616-619	the	person[45]	giv:act[45]	sal[45]	_	cf2[45]	coref	19-26[127_45]
+7-29	620-624	rare	person[45]	giv:act[45]	sal[45]	_	cf2[45]	_	_
+7-30	625-628	and	person[45]	giv:act[45]	sal[45]	_	cf2[45]	_	_
+7-31	629-636	radiant	person[45]	giv:act[45]	sal[45]	_	cf2[45]	_	_
+7-32	637-643	maiden	person[45]	giv:act[45]	sal[45]	_	cf2[45]	_	_
+7-33	644-648	whom	person[45]	giv:act[45]	sal[45]	_	cf2[45]	_	_
+7-34	649-652	the	person[45]|person[46]	giv:act[45]|new[46]	sal[45]|nonsal[46]	_	cf2[45]|cf5[46]	coref	53-18[358_46]
+7-35	653-659	angels	person[45]|person[46]	giv:act[45]|new[46]	sal[45]|nonsal[46]	_	cf2[45]|cf5[46]	_	_
+7-36	660-664	name	person[45]	giv:act[45]	sal[45]	_	cf2[45]	_	_
+7-37	665-671	Lenore	person[45]|abstract[47]	giv:act[45]|new[47]	sal[45]|sal[47]	_	cf2[45]|cf8[47]	coref	67-24[458_47]
 7-38	672-673	—	_	_	_	_	_	_	_
 7-39	674-682	Nameless	_	_	_	_	_	_	_
 7-40	683-687	here	_	_	_	_	_	_	_
@@ -174,10 +174,10 @@
 8-9	749-755	purple	_	_	_	_	cf2[51]|cf3[52]	_	_
 8-10	756-763	curtain	_	_	_	_	cf2[51]|cf3[52]	_	_
 8-11	764-772	Thrilled	_	_	_	_	_	_	_
-8-12	773-775	me	person[53]	giv:act[53]	nonsal[53]	_	cf1*[53]	ana	8-15[54_53]
+8-12	773-775	me	person[53]	giv:act[53]	sal[53]	_	cf1*[53]	ana	8-15[54_53]
 8-13	776-777	—	_	_	_	_	_	_	_
 8-14	778-784	filled	_	_	_	_	_	_	_
-8-15	785-787	me	person[54]	giv:act[54]	nonsal[54]	_	cf1*[54]	ana	9-10[60_54]
+8-15	785-787	me	person[54]	giv:act[54]	sal[54]	_	cf1*[54]	ana	9-10[60_54]
 8-16	788-792	with	_	_	_	_	_	_	_
 8-17	793-802	fantastic	_	_	_	_	cf4[57]	_	_
 8-18	803-810	terrors	_	_	_	_	cf4[57]	_	_
@@ -196,10 +196,10 @@
 9-7	854-857	the	_	_	_	_	cf2[58]	_	_
 9-8	858-865	beating	_	_	_	_	cf2[58]	_	_
 9-9	866-868	of	_	_	_	_	cf2[58]	_	_
-9-10	869-871	my	object[59]|person[60]	new[59]|giv:act[60]	nonsal[59]|nonsal[60]	_	cf2[58]|cf3[59]|cf1*[60]	coref|ana	25-2[162_59]|9-13[61_60]
+9-10	869-871	my	object[59]|person[60]	new[59]|giv:act[60]	nonsal[59]|sal[60]	_	cf2[58]|cf3[59]|cf1*[60]	coref|ana	25-2[162_59]|9-13[61_60]
 9-11	872-877	heart	object[59]	new[59]	nonsal[59]	_	cf2[58]|cf3[59]	_	_
 9-12	878-879	,	_	_	_	_	_	_	_
-9-13	880-881	I	person[61]	giv:act[61]	nonsal[61]	_	cf1*[61]	ana	10-9[68_61]
+9-13	880-881	I	person[61]	giv:act[61]	sal[61]	_	cf1*[61]	ana	10-9[68_61]
 9-14	882-887	stood	_	_	_	_	_	_	_
 9-15	888-897	repeating	_	_	_	_	_	_	_
 
@@ -212,21 +212,21 @@
 10-6	919-929	entreating	_	_	_	_	_	_	_
 10-7	930-938	entrance	_	_	_	_	cf4[65]	_	_
 10-8	939-941	at	_	_	_	_	_	_	_
-10-9	942-944	my	place[67]|person[68]	giv:inact[67]|giv:act[68]	nonsal[67]|nonsal[68]	_	cf3[67]|cf1*[68]	ana|coref	11-7[74_68]|11-7[73_67]
-10-10	945-952	chamber	place[67]	giv:inact[67]	nonsal[67]	_	cf3[67]	_	_
-10-11	953-957	door	place[67]	giv:inact[67]	nonsal[67]	_	cf3[67]	_	_
+10-9	942-944	my	place[67]|person[68]	giv:inact[67]|giv:act[68]	sal[67]|sal[68]	_	cf3[67]|cf1*[68]	ana|coref	11-7[74_68]|11-7[73_67]
+10-10	945-952	chamber	place[67]	giv:inact[67]	sal[67]	_	cf3[67]	_	_
+10-11	953-957	door	place[67]	giv:inact[67]	sal[67]	_	cf3[67]	_	_
 10-12	958-959	—	_	_	_	_	_	_	_
 
 #Text=Some late visiter entreating entrance at my chamber door ;
-11-1	960-964	Some	event[70]|person[71]	new[70]|giv:act[71]	nonsal[70]|nonsal[71]	_	cf5[70]|cf2[71]	ana|coref	12-2[75_70]|14-7[81_71]
+11-1	960-964	Some	event[70]|person[71]	new[70]|giv:act[71]	nonsal[70]|nonsal[71]	_	cf5[70]|cf2[71]	coref|ana	14-7[81_71]|12-2[75_70]
 11-2	965-969	late	event[70]|person[71]	new[70]|giv:act[71]	nonsal[70]|nonsal[71]	_	cf5[70]|cf2[71]	_	_
 11-3	970-977	visiter	event[70]|person[71]	new[70]|giv:act[71]	nonsal[70]|nonsal[71]	_	cf5[70]|cf2[71]	_	_
 11-4	978-988	entreating	event[70]|person[71]	new[70]|new[71]	nonsal[70]	_	cf5[70]	_	_
 11-5	989-997	entrance	event[70]|person[71]	new[70]|new[71]	nonsal[70]	_	cf5[70]|cf3[72]	_	_
 11-6	998-1000	at	event[70]|person[71]	new[70]|new[71]	nonsal[70]	_	cf5[70]|cf3[72]	_	_
-11-7	1001-1003	my	event[70]|place[73]|person[74]|person[71]	new[70]|giv:act[73]|giv:act[74]|new[71]	nonsal[70]|nonsal[73]|nonsal[74]	_	cf5[70]|cf3[72]|cf4[73]|cf1*[74]	ana|coref	13-2[80_74]|15-25[100_73]
-11-8	1004-1011	chamber	event[70]|place[73]|person[71]	new[70]|giv:act[73]|new[71]	nonsal[70]|nonsal[73]	_	cf5[70]|cf3[72]|cf4[73]	_	_
-11-9	1012-1016	door	event[70]|place[73]|person[71]	new[70]|giv:act[73]|new[71]	nonsal[70]|nonsal[73]	_	cf5[70]|cf3[72]|cf4[73]	_	_
+11-7	1001-1003	my	event[70]|place[73]|person[74]|person[71]	new[70]|giv:act[73]|giv:act[74]|new[71]	nonsal[70]|sal[73]|sal[74]	_	cf5[70]|cf3[72]|cf4[73]|cf1*[74]	ana|coref	13-2[80_74]|15-25[100_73]
+11-8	1004-1011	chamber	event[70]|place[73]|person[71]	new[70]|giv:act[73]|new[71]	nonsal[70]|sal[73]	_	cf5[70]|cf3[72]|cf4[73]	_	_
+11-9	1012-1016	door	event[70]|place[73]|person[71]	new[70]|giv:act[73]|new[71]	nonsal[70]|sal[73]	_	cf5[70]|cf3[72]|cf4[73]	_	_
 11-10	1017-1018	;	_	_	_	_	_	_	_
 
 #Text=This it is and nothing more . "
@@ -241,7 +241,7 @@
 
 #Text=Presently my soul grew stronger ;
 13-1	1051-1060	Presently	_	_	_	_	_	_	_
-13-2	1061-1063	my	person[80]	giv:inact[80]	nonsal[80]	_	cf2[79]|cf1[80]	ana	14-11[82_80]
+13-2	1061-1063	my	person[80]	giv:inact[80]	sal[80]	_	cf2[79]|cf1[80]	ana	14-11[82_80]
 13-3	1064-1068	soul	_	_	_	_	cf2[79]	_	_
 13-4	1069-1073	grew	_	_	_	_	_	_	_
 13-5	1074-1082	stronger	_	_	_	_	_	_	_
@@ -258,7 +258,7 @@
 14-8	1119-1120	,	_	_	_	_	_	_	_
 14-9	1121-1122	"	_	_	_	_	_	_	_
 14-10	1123-1127	said	_	_	_	_	_	_	_
-14-11	1128-1129	I	person[82]	giv:act[82]	nonsal[82]	_	cf1*[82]	ana	14-20[90_82]
+14-11	1128-1129	I	person[82]	giv:act[82]	sal[82]	_	cf1*[82]	ana	14-20[90_82]
 14-12	1130-1131	,	_	_	_	_	_	_	_
 14-13	1132-1133	"	_	_	_	_	_	_	_
 14-14	1134-1136	or	_	_	_	_	_	_	_
@@ -267,7 +267,7 @@
 14-17	1145-1150	truly	_	_	_	_	_	_	_
 14-18	1151-1155	your	person[89]	giv:act[89]	nonsal[89]	_	cf3[88]|cf2[89]	ana	15-12[95_89]
 14-19	1156-1167	forgiveness	_	_	_	_	cf3[88]	_	_
-14-20	1168-1169	I	person[90]	giv:act[90]	nonsal[90]	_	cf1*[90]	ana	15-5[94_90]
+14-20	1168-1169	I	person[90]	giv:act[90]	sal[90]	_	cf1*[90]	ana	15-5[94_90]
 14-21	1170-1177	implore	_	_	_	_	_	_	_
 14-22	1178-1179	;	_	_	_	_	_	_	_
 
@@ -276,7 +276,7 @@
 15-2	1184-1187	the	_	_	_	_	cf4[93]	_	_
 15-3	1188-1192	fact	_	_	_	_	cf4[93]	_	_
 15-4	1193-1195	is	_	_	_	_	_	_	_
-15-5	1196-1197	I	person[94]	giv:act[94]	nonsal[94]	_	cf1*[94]	ana	15-25[101_94]
+15-5	1196-1197	I	person[94]	giv:act[94]	sal[94]	_	cf1*[94]	ana	15-25[101_94]
 15-6	1198-1201	was	_	_	_	_	_	_	_
 15-7	1202-1209	napping	_	_	_	_	_	_	_
 15-8	1210-1211	,	_	_	_	_	_	_	_
@@ -296,16 +296,16 @@
 15-22	1277-1278	,	_	_	_	_	_	_	_
 15-23	1279-1286	tapping	_	_	_	_	_	_	_
 15-24	1287-1289	at	_	_	_	_	_	_	_
-15-25	1290-1292	my	place[100]|person[101]	giv:inact[100]|giv:act[101]	nonsal[100]|nonsal[101]	_	cf3[100]|cf1*[101]	coref|ana	16-5[111_100]|15-30[102_101]
-15-26	1293-1300	chamber	place[100]	giv:inact[100]	nonsal[100]	_	cf3[100]	_	_
-15-27	1301-1305	door	place[100]	giv:inact[100]	nonsal[100]	_	cf3[100]	_	_
+15-25	1290-1292	my	place[100]|person[101]	giv:inact[100]|giv:act[101]	sal[100]|sal[101]	_	cf3[100]|cf1*[101]	coref|ana	16-5[111_100]|15-30[102_101]
+15-26	1293-1300	chamber	place[100]	giv:inact[100]	sal[100]	_	cf3[100]	_	_
+15-27	1301-1305	door	place[100]	giv:inact[100]	sal[100]	_	cf3[100]	_	_
 15-28	1306-1307	,	_	_	_	_	_	_	_
 15-29	1308-1312	That	_	_	_	_	_	_	_
-15-30	1313-1314	I	person[102]	giv:act[102]	nonsal[102]	_	cf1*[102]	ana	15-34[103_102]
+15-30	1313-1314	I	person[102]	giv:act[102]	sal[102]	_	cf1*[102]	ana	15-34[103_102]
 15-31	1315-1321	scarce	_	_	_	_	_	_	_
 15-32	1322-1325	was	_	_	_	_	_	_	_
 15-33	1326-1330	sure	_	_	_	_	_	_	_
-15-34	1331-1332	I	person[103]	giv:act[103]	nonsal[103]	_	cf1*[103]	ana	16-2[105_103]
+15-34	1331-1332	I	person[103]	giv:act[103]	sal[103]	_	cf1*[103]	ana	16-2[105_103]
 15-35	1333-1338	heard	_	_	_	_	_	_	_
 15-36	1339-1342	you	person[104]	giv:act[104]	nonsal[104]	_	cf2[104]	_	_
 15-37	1343-1344	"	_	_	_	_	_	_	_
@@ -313,11 +313,11 @@
 
 #Text=here I opened wide the door ; — —
 16-1	1347-1351	here	_	_	_	_	_	_	_
-16-2	1352-1353	I	person[105]	giv:act[105]	nonsal[105]	_	cf1*[105]	ana	18-8[117_105]
+16-2	1352-1353	I	person[105]	giv:act[105]	sal[105]	_	cf1*[105]	ana	18-8[117_105]
 16-3	1354-1360	opened	_	_	_	_	_	_	_
 16-4	1361-1365	wide	_	_	_	_	_	_	_
-16-5	1366-1369	the	place[111]	giv:act[111]	nonsal[111]	_	cf2[111]	coref	22-3[142_111]
-16-6	1370-1374	door	place[111]	giv:act[111]	nonsal[111]	_	cf2[111]	_	_
+16-5	1366-1369	the	place[111]	giv:act[111]	sal[111]	_	cf2[111]	coref	22-3[142_111]
+16-6	1370-1374	door	place[111]	giv:act[111]	sal[111]	_	cf2[111]	_	_
 16-7	1375-1376	;	_	_	_	_	_	_	_
 16-8	1377-1378	—	_	_	_	_	_	_	_
 16-9	1379-1380	—	_	_	_	_	_	_	_
@@ -338,7 +338,7 @@
 18-5	1439-1446	peering	_	_	_	_	_	_	_
 18-6	1447-1448	,	_	_	_	_	_	_	_
 18-7	1449-1453	long	_	_	_	_	_	_	_
-18-8	1454-1455	I	person[117]	giv:inact[117]	nonsal[117]	_	cf2[117]	ana	20-2[129_117]
+18-8	1454-1455	I	person[117]	giv:inact[117]	sal[117]	_	cf2[117]	ana	20-2[129_117]
 18-9	1456-1461	stood	_	_	_	_	_	_	_
 18-10	1462-1467	there	_	_	_	_	_	_	_
 18-11	1468-1477	wondering	_	_	_	_	_	_	_
@@ -384,13 +384,13 @@
 19-23	1671-1675	word	_	_	_	_	cf1[125]	_	_
 19-24	1676-1677	,	_	_	_	_	_	_	_
 19-25	1678-1679	"	_	_	_	_	cf1[126]	_	_
-19-26	1680-1686	Lenore	person[127]	giv:inact[127]	nonsal[127]	_	cf1[126]|cf2[127]	coref	20-14[136_127]
+19-26	1680-1686	Lenore	person[127]	giv:inact[127]	sal[127]	_	cf1[126]|cf2[127]	coref	20-14[136_127]
 19-27	1687-1688	?	_	_	_	_	cf1[126]	_	_
 19-28	1689-1690	"	_	_	_	_	cf1[126]	_	_
 
 #Text=This I whispered , and an echo murmured back the word , " Lenore ! " —
 20-1	1691-1695	This	abstract[128]	giv:act[128]	nonsal[128]	_	cf1*[128]	ana	21-2[137_128]
-20-2	1696-1697	I	person[129]	giv:inact[129]	nonsal[129]	_	cf4[129]	ana	22-8[144_129]
+20-2	1696-1697	I	person[129]	giv:inact[129]	sal[129]	_	cf4[129]	ana	22-8[144_129]
 20-3	1698-1707	whispered	_	_	_	_	_	_	_
 20-4	1708-1709	,	_	_	_	_	_	_	_
 20-5	1710-1713	and	_	_	_	_	_	_	_
@@ -402,7 +402,7 @@
 20-11	1740-1744	word	_	_	_	_	cf3[134]	_	_
 20-12	1745-1746	,	_	_	_	_	_	_	_
 20-13	1747-1748	"	_	_	_	_	cf3[135]	_	_
-20-14	1749-1755	Lenore	person[136]	giv:act[136]	nonsal[136]	_	cf3[135]|cf2[136]	ana	52-13[350_136]
+20-14	1749-1755	Lenore	person[136]	giv:act[136]	sal[136]	_	cf3[135]|cf2[136]	ana	52-13[350_136]
 20-15	1756-1757	!	_	_	_	_	cf3[135]	_	_
 20-16	1758-1759	"	_	_	_	_	cf3[135]	_	_
 20-17	1760-1761	—	_	_	_	_	_	_	_
@@ -418,20 +418,20 @@
 #Text=Back into the chamber turning , all my soul within me burning , Soon again I heard a tapping something louder than before .
 22-1	1793-1797	Back	_	_	_	_	_	_	_
 22-2	1798-1802	into	_	_	_	_	_	_	_
-22-3	1803-1806	the	place[142]	giv:inact[142]	nonsal[142]	_	cf3[142]	coref	30-12[183_142]
-22-4	1807-1814	chamber	place[142]	giv:inact[142]	nonsal[142]	_	cf3[142]	_	_
+22-3	1803-1806	the	place[142]	giv:inact[142]	sal[142]	_	cf3[142]	coref	30-12[183_142]
+22-4	1807-1814	chamber	place[142]	giv:inact[142]	sal[142]	_	cf3[142]	_	_
 22-5	1815-1822	turning	_	_	_	_	_	_	_
 22-6	1823-1824	,	_	_	_	_	_	_	_
 22-7	1825-1828	all	_	_	_	_	cf2[143]	_	_
-22-8	1829-1831	my	person[144]	giv:inact[144]	nonsal[144]	_	cf2[143]|cf1[144]	ana	22-11[145_144]
+22-8	1829-1831	my	person[144]	giv:inact[144]	sal[144]	_	cf2[143]|cf1[144]	ana	22-11[145_144]
 22-9	1832-1836	soul	_	_	_	_	cf2[143]	_	_
 22-10	1837-1843	within	_	_	_	_	_	_	_
-22-11	1844-1846	me	person[145]	giv:act[145]	nonsal[145]	_	cf1[145]	ana	22-16[146_145]
+22-11	1844-1846	me	person[145]	giv:act[145]	sal[145]	_	cf1[145]	ana	22-16[146_145]
 22-12	1847-1854	burning	_	_	_	_	_	_	_
 22-13	1855-1856	,	_	_	_	_	_	_	_
 22-14	1857-1861	Soon	_	_	_	_	_	_	_
 22-15	1862-1867	again	_	_	_	_	_	_	_
-22-16	1868-1869	I	person[146]	giv:act[146]	nonsal[146]	_	cf1[146]	ana	23-6[151_146]
+22-16	1868-1869	I	person[146]	giv:act[146]	sal[146]	_	cf1[146]	ana	23-6[151_146]
 22-17	1870-1875	heard	_	_	_	_	_	_	_
 22-18	1876-1877	a	object[150]	new[150]	nonsal[150]	_	cf4[150]	ana	23-10[152_150]
 22-19	1878-1885	tapping	object[150]	new[150]	nonsal[150]	_	cf4[150]	_	_
@@ -447,7 +447,7 @@
 23-3	1926-1927	,	_	_	_	_	_	_	_
 23-4	1928-1929	"	_	_	_	_	_	_	_
 23-5	1930-1934	said	_	_	_	_	_	_	_
-23-6	1935-1936	I	person[151]	giv:act[151]	nonsal[151]	_	cf1*[151]	ana	23-14[157_151]
+23-6	1935-1936	I	person[151]	giv:act[151]	sal[151]	_	cf1*[151]	ana	23-14[157_151]
 23-7	1937-1938	,	_	_	_	_	_	_	_
 23-8	1939-1940	"	_	_	_	_	_	_	_
 23-9	1941-1947	surely	_	_	_	_	_	_	_
@@ -455,14 +455,14 @@
 23-11	1953-1955	is	_	_	_	_	_	_	_
 23-12	1956-1965	something	_	_	_	_	cf2[155]	_	_
 23-13	1966-1968	at	_	_	_	_	cf2[155]	_	_
-23-14	1969-1971	my	person[157]	giv:act[157]	nonsal[157]	_	cf2[155]|cf3[156]|cf1*[157]	ana	24-2[158_157]
+23-14	1969-1971	my	person[157]	giv:act[157]	sal[157]	_	cf2[155]|cf3[156]|cf1*[157]	ana	24-2[158_157]
 23-15	1972-1978	window	_	_	_	_	cf2[155]|cf3[156]	_	_
 23-16	1979-1986	lattice	_	_	_	_	cf2[155]|cf3[156]	_	_
 23-17	1987-1988	;	_	_	_	_	_	_	_
 
 #Text=Let me see , then , what thereat is and this mystery explore —
 24-1	1989-1992	Let	_	_	_	_	_	_	_
-24-2	1993-1995	me	person[158]	giv:act[158]	nonsal[158]	_	cf1*[158]	ana	25-2[163_158]
+24-2	1993-1995	me	person[158]	giv:act[158]	sal[158]	_	cf1*[158]	ana	25-2[163_158]
 24-3	1996-1999	see	_	_	_	_	_	_	_
 24-4	2000-2001	,	_	_	_	_	_	_	_
 24-5	2002-2006	then	_	_	_	_	_	_	_
@@ -478,7 +478,7 @@
 
 #Text=Let my heart be still a moment and this mystery explore ; —
 25-1	2052-2055	Let	_	_	_	_	_	_	_
-25-2	2056-2058	my	object[162]|person[163]	giv:inact[162]|giv:act[163]	nonsal[162]|nonsal[163]	_	cf3[162]|cf1*[163]	coref|ana	75-6[496_162]|27-3[169_163]
+25-2	2056-2058	my	object[162]|person[163]	giv:inact[162]|giv:act[163]	nonsal[162]|sal[163]	_	cf3[162]|cf1*[163]	ana|coref	27-3[169_163]|75-6[497_162]
 25-3	2059-2064	heart	object[162]	giv:inact[162]	nonsal[162]	_	cf3[162]	_	_
 25-4	2065-2067	be	_	_	_	_	_	_	_
 25-5	2068-2073	still	_	_	_	_	_	_	_
@@ -505,7 +505,7 @@
 #Text=Open here I flung the shutter , when , with many a flirt and flutter , In there stepped a stately Raven of the saintly days of yore .
 27-1	2148-2152	Open	_	_	_	_	_	_	_
 27-2	2153-2157	here	_	_	_	_	_	_	_
-27-3	2158-2159	I	person[169]	giv:inact[169]	nonsal[169]	_	cf1[169]	ana	30-12[184_169]
+27-3	2158-2159	I	person[169]	giv:inact[169]	sal[169]	_	cf1[169]	ana	30-12[184_169]
 27-4	2160-2165	flung	_	_	_	_	_	_	_
 27-5	2166-2169	the	_	_	_	_	cf3[171]	_	_
 27-6	2170-2177	shutter	_	_	_	_	cf3[171]	_	_
@@ -522,15 +522,15 @@
 27-17	2219-2221	In	_	_	_	_	_	_	_
 27-18	2222-2227	there	_	_	_	_	_	_	_
 27-19	2228-2235	stepped	_	_	_	_	_	_	_
-27-20	2236-2237	a	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]	ana	28-6[176_173]
-27-21	2238-2245	stately	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]	_	_
-27-22	2246-2251	Raven	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]	_	_
-27-23	2252-2254	of	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]	_	_
-27-24	2255-2258	the	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]|cf4[174]	_	_
-27-25	2259-2266	saintly	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]|cf4[174]	_	_
-27-26	2267-2271	days	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]|cf4[174]	_	_
-27-27	2272-2274	of	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]|cf4[174]	_	_
-27-28	2275-2279	yore	animal[173]	giv:inact[173]	nonsal[173]	_	cf2[173]|cf4[174]	_	_
+27-20	2236-2237	a	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]	ana	28-6[176_173]
+27-21	2238-2245	stately	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]	_	_
+27-22	2246-2251	Raven	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]	_	_
+27-23	2252-2254	of	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]	_	_
+27-24	2255-2258	the	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]|cf4[174]	_	_
+27-25	2259-2266	saintly	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]|cf4[174]	_	_
+27-26	2267-2271	days	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]|cf4[174]	_	_
+27-27	2272-2274	of	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]|cf4[174]	_	_
+27-28	2275-2279	yore	animal[173]	giv:inact[173]	sal[173]	_	cf2[173]|cf4[174]	_	_
 27-29	2280-2281	.	_	_	_	_	_	_	_
 
 #Text=Not the least obeisance made he ;
@@ -539,7 +539,7 @@
 28-3	2290-2295	least	_	_	_	_	cf2[175]	_	_
 28-4	2296-2305	obeisance	_	_	_	_	cf2[175]	_	_
 28-5	2306-2310	made	_	_	_	_	_	_	_
-28-6	2311-2313	he	animal[176]	giv:act[176]	nonsal[176]	_	cf1*[176]	ana	29-7[179_176]
+28-6	2311-2313	he	animal[176]	giv:act[176]	sal[176]	_	cf1*[176]	ana	29-7[179_176]
 28-7	2314-2315	;	_	_	_	_	_	_	_
 
 #Text=not a minute stopped or stayed he ;
@@ -549,7 +549,7 @@
 29-4	2329-2336	stopped	_	_	_	_	_	_	_
 29-5	2337-2339	or	_	_	_	_	_	_	_
 29-6	2340-2346	stayed	_	_	_	_	_	_	_
-29-7	2347-2349	he	animal[179]	giv:act[179]	nonsal[179]	_	cf1*[179]	coref	32-2[192_179]
+29-7	2347-2349	he	animal[179]	giv:act[179]	sal[179]	_	cf1*[179]	coref	32-2[192_179]
 29-8	2350-2351	;	_	_	_	_	_	_	_
 
 #Text=But , with mien of lord or lady , perched above my chamber door — Perched upon a bust of Pallas just above my chamber door —
@@ -564,21 +564,21 @@
 30-9	2384-2385	,	_	_	_	_	_	_	_
 30-10	2386-2393	perched	_	_	_	_	_	_	_
 30-11	2394-2399	above	_	_	_	_	_	_	_
-30-12	2400-2402	my	place[183]|person[184]	giv:inact[183]|giv:inact[184]	nonsal[183]|nonsal[184]	_	cf2[183]|cf1[184]	coref|ana	30-24[189_183]|30-24[190_184]
-30-13	2403-2410	chamber	place[183]	giv:inact[183]	nonsal[183]	_	cf2[183]	_	_
-30-14	2411-2415	door	place[183]	giv:inact[183]	nonsal[183]	_	cf2[183]	_	_
+30-12	2400-2402	my	place[183]|person[184]	giv:inact[183]|giv:inact[184]	sal[183]|sal[184]	_	cf2[183]|cf1[184]	coref|ana	30-24[189_183]|30-24[190_184]
+30-13	2403-2410	chamber	place[183]	giv:inact[183]	sal[183]	_	cf2[183]	_	_
+30-14	2411-2415	door	place[183]	giv:inact[183]	sal[183]	_	cf2[183]	_	_
 30-15	2416-2417	—	_	_	_	_	_	_	_
 30-16	2418-2425	Perched	_	_	_	_	_	_	_
 30-17	2426-2430	upon	_	_	_	_	_	_	_
 30-18	2431-2432	a	object[186]	new[186]	nonsal[186]	_	cf6[186]	coref	38-8[247_186]
 30-19	2433-2437	bust	object[186]	new[186]	nonsal[186]	_	cf6[186]	_	_
 30-20	2438-2440	of	object[186]	new[186]	nonsal[186]	_	cf6[186]	_	_
-30-21	2441-2447	Pallas	object[186]|person[187]	new[186]|new[187]	nonsal[186]|nonsal[187]	Athena[187]	cf6[186]|cf3[187]	coref	77-20[510_187]
+30-21	2441-2447	Pallas	object[186]|person[187]	new[186]|new[187]	nonsal[186]|nonsal[187]	Athena[187]	cf6[186]|cf3[187]	coref	77-20[511_187]
 30-22	2448-2452	just	_	_	_	_	_	_	_
 30-23	2453-2458	above	_	_	_	_	_	_	_
-30-24	2459-2461	my	place[189]|person[190]	giv:act[189]|giv:act[190]	nonsal[189]|nonsal[190]	_	cf2[189]|cf1[190]	ana	32-6[194_190]
-30-25	2462-2469	chamber	place[189]	giv:act[189]	nonsal[189]	_	cf2[189]	_	_
-30-26	2470-2474	door	place[189]	giv:act[189]	nonsal[189]	_	cf2[189]	_	_
+30-24	2459-2461	my	place[189]|person[190]	giv:act[189]|giv:act[190]	sal[189]|sal[190]	_	cf2[189]|cf1[190]	ana	32-6[194_190]
+30-25	2462-2469	chamber	place[189]	giv:act[189]	sal[189]	_	cf2[189]	_	_
+30-26	2470-2474	door	place[189]	giv:act[189]	sal[189]	_	cf2[189]	_	_
 30-27	2475-2476	—	_	_	_	_	_	_	_
 
 #Text=Perched , and sat , and nothing more .
@@ -594,11 +594,11 @@
 
 #Text=Then this ebony bird beguiling my sad fancy into smiling , By the grave and stern decorum of the countenance it wore , " Though thy crest be shorn and shaven , thou , " I said , " art sure no craven , Ghastly grim and ancient Raven wandering from the Nightly shore —
 32-1	2516-2520	Then	_	_	_	_	_	_	_
-32-2	2521-2525	this	animal[192]	giv:inact[192]	nonsal[192]	_	cf2[192]	ana	32-21[198_192]
-32-3	2526-2531	ebony	animal[192]	giv:inact[192]	nonsal[192]	_	cf2[192]	_	_
-32-4	2532-2536	bird	animal[192]	giv:inact[192]	nonsal[192]	_	cf2[192]	_	_
+32-2	2521-2525	this	animal[192]	giv:inact[192]	sal[192]	_	cf2[192]	ana	32-21[198_192]
+32-3	2526-2531	ebony	animal[192]	giv:inact[192]	sal[192]	_	cf2[192]	_	_
+32-4	2532-2536	bird	animal[192]	giv:inact[192]	sal[192]	_	cf2[192]	_	_
 32-5	2537-2546	beguiling	_	_	_	_	_	_	_
-32-6	2547-2549	my	person[194]	giv:inact[194]	nonsal[194]	_	cf4[193]|cf1[194]	ana	32-36[203_194]
+32-6	2547-2549	my	person[194]	giv:inact[194]	sal[194]	_	cf4[193]|cf1[194]	ana	32-36[203_194]
 32-7	2550-2553	sad	_	_	_	_	cf4[193]	_	_
 32-8	2554-2559	fancy	_	_	_	_	cf4[193]	_	_
 32-9	2560-2564	into	_	_	_	_	_	_	_
@@ -613,35 +613,35 @@
 32-18	2606-2608	of	_	_	_	_	cf5[196]	_	_
 32-19	2609-2612	the	_	_	_	_	cf5[196]|cf6[197]	_	_
 32-20	2613-2624	countenance	_	_	_	_	cf5[196]|cf6[197]	_	_
-32-21	2625-2627	it	animal[198]	giv:act[198]	nonsal[198]	_	cf5[196]|cf6[197]|cf2[198]	ana	32-26[201_198]
+32-21	2625-2627	it	animal[198]	giv:act[198]	sal[198]	_	cf5[196]|cf6[197]|cf2[198]	ana	32-26[201_198]
 32-22	2628-2632	wore	_	_	_	_	cf5[196]|cf6[197]	_	_
 32-23	2633-2634	,	_	_	_	_	_	_	_
 32-24	2635-2636	"	_	_	_	_	_	_	_
 32-25	2637-2643	Though	_	_	_	_	_	_	_
-32-26	2644-2647	thy	animal[201]	giv:act[201]	nonsal[201]	_	cf3[200]|cf2[201]	ana	32-33[202_201]
+32-26	2644-2647	thy	animal[201]	giv:act[201]	sal[201]	_	cf3[200]|cf2[201]	ana	32-33[202_201]
 32-27	2648-2653	crest	_	_	_	_	cf3[200]	_	_
 32-28	2654-2656	be	_	_	_	_	_	_	_
 32-29	2657-2662	shorn	_	_	_	_	_	_	_
 32-30	2663-2666	and	_	_	_	_	_	_	_
 32-31	2667-2673	shaven	_	_	_	_	_	_	_
 32-32	2674-2675	,	_	_	_	_	_	_	_
-32-33	2676-2680	thou	animal[202]	giv:act[202]	nonsal[202]	_	cf2[202]	coref	32-42[207_202]
+32-33	2676-2680	thou	animal[202]	giv:act[202]	sal[202]	_	cf2[202]	coref	32-42[207_202]
 32-34	2681-2682	,	_	_	_	_	_	_	_
 32-35	2683-2684	"	_	_	_	_	_	_	_
-32-36	2685-2686	I	person[203]	giv:act[203]	nonsal[203]	_	cf1[203]	ana	33-2[210_203]
+32-36	2685-2686	I	person[203]	giv:act[203]	sal[203]	_	cf1[203]	ana	33-2[210_203]
 32-37	2687-2691	said	_	_	_	_	_	_	_
 32-38	2692-2693	,	_	_	_	_	_	_	_
 32-39	2694-2695	"	_	_	_	_	_	_	_
 32-40	2696-2699	art	_	_	_	_	_	_	_
 32-41	2700-2704	sure	_	_	_	_	_	_	_
-32-42	2705-2707	no	animal[207]	giv:act[207]	nonsal[207]	_	cf2[207]	_	_
-32-43	2708-2714	craven	animal[207]	giv:act[207]	nonsal[207]	_	cf2[207]	_	_
+32-42	2705-2707	no	animal[207]	giv:act[207]	sal[207]	_	cf2[207]	_	_
+32-43	2708-2714	craven	animal[207]	giv:act[207]	sal[207]	_	cf2[207]	_	_
 32-44	2715-2716	,	_	_	_	_	_	_	_
-32-45	2717-2724	Ghastly	animal[208]	giv:act[208]	nonsal[208]	_	cf2[208]	ana	33-4[213_208]
-32-46	2725-2729	grim	animal[208]	giv:act[208]	nonsal[208]	_	cf2[208]	_	_
-32-47	2730-2733	and	animal[208]	giv:act[208]	nonsal[208]	_	cf2[208]	_	_
-32-48	2734-2741	ancient	animal[208]	giv:act[208]	nonsal[208]	_	cf2[208]	_	_
-32-49	2742-2747	Raven	animal[208]	giv:act[208]	nonsal[208]	_	cf2[208]	_	_
+32-45	2717-2724	Ghastly	animal[208]	giv:act[208]	sal[208]	_	cf2[208]	ana	33-4[213_208]
+32-46	2725-2729	grim	animal[208]	giv:act[208]	sal[208]	_	cf2[208]	_	_
+32-47	2730-2733	and	animal[208]	giv:act[208]	sal[208]	_	cf2[208]	_	_
+32-48	2734-2741	ancient	animal[208]	giv:act[208]	sal[208]	_	cf2[208]	_	_
+32-49	2742-2747	Raven	animal[208]	giv:act[208]	sal[208]	_	cf2[208]	_	_
 32-50	2748-2757	wandering	_	_	_	_	_	_	_
 32-51	2758-2762	from	_	_	_	_	_	_	_
 32-52	2763-2766	the	_	_	_	_	cf7[209]	_	_
@@ -651,9 +651,9 @@
 
 #Text=Tell me what thy lordly name is on the Night 's Plutonian shore ! "
 33-1	2783-2787	Tell	_	_	_	_	_	_	_
-33-2	2788-2790	me	person[210]	giv:act[210]	nonsal[210]	_	cf1*[210]	ana	35-2[218_210]
+33-2	2788-2790	me	person[210]	giv:act[210]	sal[210]	_	cf1*[210]	ana	35-2[218_210]
 33-3	2791-2795	what	_	_	_	_	_	_	_
-33-4	2796-2799	thy	abstract[212]|animal[213]	new[212]|giv:act[213]	nonsal[212]|nonsal[213]	_	cf4[212]|cf2[213]	coref|coref	34-2[216_213]|37-37[243_212]
+33-4	2796-2799	thy	abstract[212]|animal[213]	new[212]|giv:act[213]	nonsal[212]|sal[213]	_	cf4[212]|cf2[213]	coref|coref	34-2[216_213]|37-37[243_212]
 33-5	2800-2806	lordly	abstract[212]	new[212]	nonsal[212]	_	cf4[212]	_	_
 33-6	2807-2811	name	abstract[212]	new[212]	nonsal[212]	_	cf4[212]	_	_
 33-7	2812-2814	is	_	_	_	_	_	_	_
@@ -668,21 +668,21 @@
 
 #Text=Quoth the Raven , " Nevermore . "
 34-1	2851-2856	Quoth	_	_	_	_	_	_	_
-34-2	2857-2860	the	animal[216]	giv:act[216]	nonsal[216]	_	cf1*[216]	coref	35-4[221_216]
-34-3	2861-2866	Raven	animal[216]	giv:act[216]	nonsal[216]	_	cf1*[216]	_	_
+34-2	2857-2860	the	animal[216]	giv:act[216]	sal[216]	_	cf1*[216]	coref	35-4[221_216]
+34-3	2861-2866	Raven	animal[216]	giv:act[216]	sal[216]	_	cf1*[216]	_	_
 34-4	2867-2868	,	_	_	_	_	_	_	_
 34-5	2869-2870	"	_	_	_	_	_	_	_
-34-6	2871-2880	Nevermore	abstract[217]	new[217]	nonsal[217]	_	cf2[217]	coref	37-41[244_217]
+34-6	2871-2880	Nevermore	abstract[217]	new[217]	sal[217]	_	cf2[217]	coref	37-41[244_217]
 34-7	2881-2882	.	_	_	_	_	_	_	_
 34-8	2883-2884	"	_	_	_	_	_	_	_
 
 #Text=Much I marvelled this ungainly fowl to hear discourse so plainly ,
 35-1	2885-2889	Much	_	_	_	_	_	_	_
-35-2	2890-2891	I	person[218]	giv:inact[218]	nonsal[218]	_	cf2[218]	ana	41-2[260_218]
+35-2	2890-2891	I	person[218]	giv:inact[218]	sal[218]	_	cf2[218]	ana	41-2[260_218]
 35-3	2892-2901	marvelled	_	_	_	_	_	_	_
-35-4	2902-2906	this	animal[221]	giv:act[221]	nonsal[221]	_	cf1*[221]	ana	36-2[223_221]
-35-5	2907-2915	ungainly	animal[221]	giv:act[221]	nonsal[221]	_	cf1*[221]	_	_
-35-6	2916-2920	fowl	animal[221]	giv:act[221]	nonsal[221]	_	cf1*[221]	_	_
+35-4	2902-2906	this	animal[221]	giv:act[221]	sal[221]	_	cf1*[221]	ana	36-2[223_221]
+35-5	2907-2915	ungainly	animal[221]	giv:act[221]	sal[221]	_	cf1*[221]	_	_
+35-6	2916-2920	fowl	animal[221]	giv:act[221]	sal[221]	_	cf1*[221]	_	_
 35-7	2921-2923	to	_	_	_	_	_	_	_
 35-8	2924-2928	hear	_	_	_	_	_	_	_
 35-9	2929-2938	discourse	_	_	_	_	_	_	_
@@ -692,7 +692,7 @@
 
 #Text=Though its answer little meaning — little relevancy bore ;
 36-1	2952-2958	Though	_	_	_	_	_	_	_
-36-2	2959-2962	its	animal[223]	giv:act[223]	nonsal[223]	_	cf2[222]|cf1*[223]	_	_
+36-2	2959-2962	its	animal[223]	giv:act[223]	sal[223]	_	cf2[222]|cf1*[223]	_	_
 36-3	2963-2969	answer	_	_	_	_	cf2[222]	_	_
 36-4	2970-2976	little	_	_	_	_	cf3[225]	_	_
 36-5	2977-2984	meaning	_	_	_	_	cf3[225]	_	_
@@ -720,9 +720,9 @@
 37-15	3080-3087	blessed	_	_	_	_	_	_	_
 37-16	3088-3092	with	_	_	_	_	_	_	_
 37-17	3093-3099	seeing	_	_	_	_	_	_	_
-37-18	3100-3104	bird	animal[230]	giv:act[230]	nonsal[230]	_	cf2*[230]	coref	38-2[246_230]
+37-18	3100-3104	bird	animal[230]	giv:act[230]	sal[230]	_	cf2*[230]	coref	38-2[246_230]
 37-19	3105-3110	above	_	_	_	_	_	_	_
-37-20	3111-3114	his	object[232]|person[233]	new[232]|giv:act[233]	nonsal[232]|nonsal[233]	_	cf3[232]|cf1[233]	coref|ana	37-32[240_232]|37-32[241_233]
+37-20	3111-3114	his	object[232]|person[233]	new[232]|giv:act[233]	nonsal[232]|nonsal[233]	_	cf3[232]|cf1[233]	ana|coref	37-32[241_233]|37-32[240_232]
 37-21	3115-3122	chamber	object[232]	new[232]	nonsal[232]	_	cf3[232]	_	_
 37-22	3123-3127	door	object[232]	new[232]	nonsal[232]	_	cf3[232]	_	_
 37-23	3128-3129	—	_	_	_	_	_	_	_
@@ -743,14 +743,14 @@
 37-38	3204-3208	name	abstract[243]	giv:inact[243]	nonsal[243]	_	cf5[243]	_	_
 37-39	3209-3211	as	abstract[243]	giv:inact[243]	nonsal[243]	_	cf5[243]	_	_
 37-40	3212-3213	"	abstract[243]	giv:inact[243]	nonsal[243]	_	cf5[243]	_	_
-37-41	3214-3223	Nevermore	abstract[243]|abstract[244]	giv:inact[243]|giv:inact[244]	nonsal[243]|nonsal[244]	_	cf5[243]|cf4[244]	coref	38-14[248_244]
+37-41	3214-3223	Nevermore	abstract[243]|abstract[244]	giv:inact[243]|giv:inact[244]	nonsal[243]|sal[244]	_	cf5[243]|cf4[244]	coref	38-14[248_244]
 37-42	3224-3225	.	abstract[243]	giv:inact[243]	nonsal[243]	_	cf5[243]	_	_
 37-43	3226-3227	"	abstract[243]	giv:inact[243]	nonsal[243]	_	cf5[243]	_	_
 
 #Text=But the Raven , sitting lonely on that placid bust , spoke only That one word , as if his soul in that one word he did outpour .
 38-1	3228-3231	But	_	_	_	_	_	_	_
-38-2	3232-3235	the	animal[246]	giv:act[246]	nonsal[246]	_	cf1*[246]	ana	38-20[250_246]
-38-3	3236-3241	Raven	animal[246]	giv:act[246]	nonsal[246]	_	cf1*[246]	_	_
+38-2	3232-3235	the	animal[246]	giv:act[246]	sal[246]	_	cf1*[246]	ana	38-20[250_246]
+38-3	3236-3241	Raven	animal[246]	giv:act[246]	sal[246]	_	cf1*[246]	_	_
 38-4	3242-3243	,	animal[246]	giv:act[246]	_	_	_	_	_
 38-5	3244-3251	sitting	animal[246]	giv:act[246]	_	_	_	_	_
 38-6	3252-3258	lonely	animal[246]	giv:act[246]	_	_	_	_	_
@@ -761,19 +761,19 @@
 38-11	3279-3280	,	_	_	_	_	_	_	_
 38-12	3281-3286	spoke	_	_	_	_	_	_	_
 38-13	3287-3291	only	_	_	_	_	_	_	_
-38-14	3292-3296	That	abstract[248]	giv:act[248]	nonsal[248]	_	cf2[248]	coref	38-23[252_248]
-38-15	3297-3300	one	abstract[248]	giv:act[248]	nonsal[248]	_	cf2[248]	_	_
-38-16	3301-3305	word	abstract[248]	giv:act[248]	nonsal[248]	_	cf2[248]	_	_
+38-14	3292-3296	That	abstract[248]	giv:act[248]	sal[248]	_	cf2[248]	coref	38-23[252_248]
+38-15	3297-3300	one	abstract[248]	giv:act[248]	sal[248]	_	cf2[248]	_	_
+38-16	3301-3305	word	abstract[248]	giv:act[248]	sal[248]	_	cf2[248]	_	_
 38-17	3306-3307	,	_	_	_	_	_	_	_
 38-18	3308-3310	as	_	_	_	_	_	_	_
 38-19	3311-3313	if	_	_	_	_	_	_	_
-38-20	3314-3317	his	animal[250]	giv:act[250]	nonsal[250]	_	cf4[249]|cf1*[250]	ana	38-26[253_250]
+38-20	3314-3317	his	animal[250]	giv:act[250]	sal[250]	_	cf4[249]|cf1*[250]	ana	38-26[253_250]
 38-21	3318-3322	soul	_	_	_	_	cf4[249]	_	_
 38-22	3323-3325	in	_	_	_	_	_	_	_
-38-23	3326-3330	that	abstract[252]	giv:act[252]	nonsal[252]	_	cf2[252]	_	_
-38-24	3331-3334	one	abstract[252]	giv:act[252]	nonsal[252]	_	cf2[252]	_	_
-38-25	3335-3339	word	abstract[252]	giv:act[252]	nonsal[252]	_	cf2[252]	_	_
-38-26	3340-3342	he	animal[253]	giv:act[253]	nonsal[253]	_	cf1*[253]	ana	39-4[256_253]
+38-23	3326-3330	that	abstract[252]	giv:act[252]	sal[252]	_	cf2[252]	_	_
+38-24	3331-3334	one	abstract[252]	giv:act[252]	sal[252]	_	cf2[252]	_	_
+38-25	3335-3339	word	abstract[252]	giv:act[252]	sal[252]	_	cf2[252]	_	_
+38-26	3340-3342	he	animal[253]	giv:act[253]	sal[253]	_	cf1*[253]	ana	39-4[256_253]
 38-27	3343-3346	did	_	_	_	_	_	_	_
 38-28	3347-3354	outpour	_	_	_	_	_	_	_
 38-29	3355-3356	.	_	_	_	_	_	_	_
@@ -782,7 +782,7 @@
 39-1	3357-3364	Nothing	_	_	_	_	cf2[255]	_	_
 39-2	3365-3372	farther	_	_	_	_	cf2[255]	_	_
 39-3	3373-3377	then	_	_	_	_	_	_	_
-39-4	3378-3380	he	animal[256]	giv:act[256]	nonsal[256]	_	cf1*[256]	ana	40-5[259_256]
+39-4	3378-3380	he	animal[256]	giv:act[256]	sal[256]	_	cf1*[256]	ana	40-5[259_256]
 39-5	3381-3388	uttered	_	_	_	_	_	_	_
 39-6	3389-3390	;	_	_	_	_	_	_	_
 
@@ -791,13 +791,13 @@
 40-2	3395-3396	a	_	_	_	_	cf2[258]	_	_
 40-3	3397-3404	feather	_	_	_	_	cf2[258]	_	_
 40-4	3405-3409	then	_	_	_	_	_	_	_
-40-5	3410-3412	he	animal[259]	giv:act[259]	nonsal[259]	_	cf1*[259]	ana	43-4[265_259]
+40-5	3410-3412	he	animal[259]	giv:act[259]	sal[259]	_	cf1*[259]	ana	43-4[265_259]
 40-6	3413-3422	fluttered	_	_	_	_	_	_	_
 40-7	3423-3424	—	_	_	_	_	_	_	_
 
 #Text=Till I scarcely more than muttered
 41-1	3425-3429	Till	_	_	_	_	_	_	_
-41-2	3430-3431	I	person[260]	giv:inact[260]	nonsal[260]	_	cf1[260]	ana	43-7[266_260]
+41-2	3430-3431	I	person[260]	giv:inact[260]	sal[260]	_	cf1[260]	ana	43-7[266_260]
 41-3	3432-3440	scarcely	_	_	_	_	_	_	_
 41-4	3441-3445	more	_	_	_	_	_	_	_
 41-5	3446-3450	than	_	_	_	_	_	_	_
@@ -816,13 +816,13 @@
 43-1	3496-3498	On	_	_	_	_	_	_	_
 43-2	3499-3502	the	time[264]	giv:inact[264]	nonsal[264]	_	cf3[264]	_	_
 43-3	3503-3509	morrow	time[264]	giv:inact[264]	nonsal[264]	_	cf3[264]	_	_
-43-4	3510-3512	he	animal[265]	giv:inact[265]	nonsal[265]	_	cf2[265]	coref	44-2[272_265]
+43-4	3510-3512	he	animal[265]	giv:inact[265]	sal[265]	_	cf2[265]	coref	44-2[272_265]
 43-5	3513-3517	will	_	_	_	_	_	_	_
 43-6	3518-3523	leave	_	_	_	_	_	_	_
-43-7	3524-3526	me	person[266]	giv:inact[266]	nonsal[266]	_	cf1[266]	ana	43-10[270_266]
+43-7	3524-3526	me	person[266]	giv:inact[266]	sal[266]	_	cf1[266]	ana	43-10[270_266]
 43-8	3527-3528	,	_	_	_	_	_	_	_
 43-9	3529-3531	as	_	_	_	_	_	_	_
-43-10	3532-3534	my	person[270]	giv:act[270]	nonsal[270]	_	cf4[269]|cf1[270]	ana	45-17[277_270]
+43-10	3532-3534	my	person[270]	giv:act[270]	sal[270]	_	cf4[269]|cf1[270]	ana	45-17[277_270]
 43-11	3535-3540	Hopes	_	_	_	_	cf4[269]	_	_
 43-12	3541-3545	have	_	_	_	_	_	_	_
 43-13	3546-3551	flown	_	_	_	_	_	_	_
@@ -832,8 +832,8 @@
 
 #Text=Then the bird said " Nevermore . "
 44-1	3563-3567	Then	_	_	_	_	_	_	_
-44-2	3568-3571	the	animal[272]	giv:act[272]	nonsal[272]	_	cf1*[272]	ana	45-21[278_272]
-44-3	3572-3576	bird	animal[272]	giv:act[272]	nonsal[272]	_	cf1*[272]	_	_
+44-2	3568-3571	the	animal[272]	giv:act[272]	sal[272]	_	cf1*[272]	ana	45-21[278_272]
+44-3	3572-3576	bird	animal[272]	giv:act[272]	sal[272]	_	cf1*[272]	_	_
 44-4	3577-3581	said	_	_	_	_	_	_	_
 44-5	3582-3583	"	_	_	_	_	_	_	_
 44-6	3584-3593	Nevermore	_	_	_	_	cf2[273]	_	_
@@ -857,14 +857,14 @@
 45-14	3670-3671	,	_	_	_	_	_	_	_
 45-15	3672-3673	"	_	_	_	_	_	_	_
 45-16	3674-3678	said	_	_	_	_	_	_	_
-45-17	3679-3680	I	person[277]	giv:inact[277]	nonsal[277]	_	cf2[277]	ana	48-7[299_277]
+45-17	3679-3680	I	person[277]	giv:inact[277]	sal[277]	_	cf2[277]	ana	48-7[299_277]
 45-18	3681-3682	,	_	_	_	_	_	_	_
 45-19	3683-3684	"	_	_	_	_	_	_	_
 45-20	3685-3689	what	_	_	_	_	_	_	_
-45-21	3690-3692	it	animal[278]	giv:act[278]	nonsal[278]	_	cf1*[278]	ana	45-24[282_278]
+45-21	3690-3692	it	animal[278]	giv:act[278]	sal[278]	_	cf1*[278]	ana	45-24[282_278]
 45-22	3693-3699	utters	_	_	_	_	_	_	_
 45-23	3700-3702	is	_	_	_	_	_	_	_
-45-24	3703-3706	its	animal[282]	giv:act[282]	nonsal[282]	_	cf5[281]|cf1*[282]	ana	46-15[287_282]
+45-24	3703-3706	its	animal[282]	giv:act[282]	sal[282]	_	cf5[281]|cf1*[282]	ana	46-15[287_282]
 45-25	3707-3711	only	_	_	_	_	cf5[281]	_	_
 45-26	3712-3717	stock	_	_	_	_	cf5[281]	_	_
 45-27	3718-3721	and	_	_	_	_	cf5[281]	_	_
@@ -885,7 +885,7 @@
 46-12	3803-3811	followed	_	_	_	_	cf5[284]	_	_
 46-13	3812-3818	faster	_	_	_	_	cf5[284]	_	_
 46-14	3819-3823	till	_	_	_	_	cf5[284]	_	_
-46-15	3824-3827	his	animal[287]	giv:act[287]	nonsal[287]	_	cf5[284]|cf3[286]|cf1*[287]	ana	47-5[292_287]
+46-15	3824-3827	his	animal[287]	giv:act[287]	sal[287]	_	cf5[284]|cf3[286]|cf1*[287]	ana	47-5[292_287]
 46-16	3828-3833	songs	_	_	_	_	cf5[284]|cf3[286]	_	_
 46-17	3834-3837	one	abstract[289]	new[289]	nonsal[289]	_	cf5[284]|cf4[289]	coref	47-7[294_289]
 46-18	3838-3844	burden	abstract[289]	new[289]	nonsal[289]	_	cf5[284]|cf4[289]	_	_
@@ -897,7 +897,7 @@
 47-2	3857-3860	the	_	_	_	_	cf3[290]	_	_
 47-3	3861-3867	dirges	_	_	_	_	cf3[290]	_	_
 47-4	3868-3870	of	_	_	_	_	cf3[290]	_	_
-47-5	3871-3874	his	animal[292]	giv:act[292]	nonsal[292]	_	cf3[290]|cf4[291]|cf1*[292]	coref	48-2[297_292]
+47-5	3871-3874	his	animal[292]	giv:act[292]	sal[292]	_	cf3[290]|cf4[291]|cf1*[292]	coref	48-2[297_292]
 47-6	3875-3879	Hope	_	_	_	_	cf3[290]|cf4[291]	_	_
 47-7	3880-3884	that	abstract[294]	giv:act[294]	nonsal[294]	_	cf2[294]	_	_
 47-8	3885-3895	melancholy	abstract[294]	giv:act[294]	nonsal[294]	_	cf2[294]	_	_
@@ -914,19 +914,19 @@
 
 #Text=But the Raven still beguiling all my sad soul into smiling , Straight I wheeled a cushioned seat in front of bird and bust and door ;
 48-1	3937-3940	But	_	_	_	_	_	_	_
-48-2	3941-3944	the	animal[297]	giv:act[297]	nonsal[297]	_	cf2*[297]	_	_
-48-3	3945-3950	Raven	animal[297]	giv:act[297]	nonsal[297]	_	cf2*[297]	_	_
+48-2	3941-3944	the	animal[297]	giv:act[297]	sal[297]	_	cf2*[297]	_	_
+48-3	3945-3950	Raven	animal[297]	giv:act[297]	sal[297]	_	cf2*[297]	_	_
 48-4	3951-3956	still	_	_	_	_	_	_	_
 48-5	3957-3966	beguiling	_	_	_	_	_	_	_
-48-6	3967-3970	all	abstract[298]	giv:inact[298]	nonsal[298]	_	cf3[298]	coref	67-2[449_298]
-48-7	3971-3973	my	abstract[298]|person[299]	giv:inact[298]|giv:inact[299]	nonsal[298]|nonsal[299]	_	cf3[298]|cf1[299]	ana	48-14[300_299]
+48-6	3967-3970	all	abstract[298]	giv:inact[298]	nonsal[298]	_	cf3[298]	coref	67-2[450_298]
+48-7	3971-3973	my	abstract[298]|person[299]	giv:inact[298]|giv:inact[299]	nonsal[298]|sal[299]	_	cf3[298]|cf1[299]	ana	48-14[300_299]
 48-8	3974-3977	sad	abstract[298]	giv:inact[298]	nonsal[298]	_	cf3[298]	_	_
 48-9	3978-3982	soul	abstract[298]	giv:inact[298]	nonsal[298]	_	cf3[298]	_	_
 48-10	3983-3987	into	_	_	_	_	_	_	_
 48-11	3988-3995	smiling	_	_	_	_	_	_	_
 48-12	3996-3997	,	_	_	_	_	_	_	_
 48-13	3998-4006	Straight	_	_	_	_	_	_	_
-48-14	4007-4008	I	person[300]	giv:act[300]	nonsal[300]	_	cf1[300]	ana	49-8[311_300]
+48-14	4007-4008	I	person[300]	giv:act[300]	sal[300]	_	cf1[300]	ana	49-8[311_300]
 48-15	4009-4016	wheeled	_	_	_	_	_	_	_
 48-16	4017-4018	a	_	_	_	_	cf6[303]	_	_
 48-17	4019-4028	cushioned	_	_	_	_	cf6[303]	_	_
@@ -934,11 +934,11 @@
 48-19	4034-4036	in	_	_	_	_	_	_	_
 48-20	4037-4042	front	_	_	_	_	_	_	_
 48-21	4043-4045	of	_	_	_	_	_	_	_
-48-22	4046-4050	bird	animal[304]	giv:act[304]	nonsal[304]	_	cf2*[304]	coref	49-19[319_304]
+48-22	4046-4050	bird	animal[304]	giv:act[304]	sal[304]	_	cf2*[304]	coref	49-19[319_304]
 48-23	4051-4054	and	_	_	_	_	_	_	_
-48-24	4055-4059	bust	object[305]	giv:inact[305]	nonsal[305]	_	cf4[305]	coref	74-3[489_305]
+48-24	4055-4059	bust	object[305]	giv:inact[305]	nonsal[305]	_	cf4[305]	coref	74-3[490_305]
 48-25	4060-4063	and	_	_	_	_	_	_	_
-48-26	4064-4068	door	place[306]	giv:inact[306]	nonsal[306]	_	cf5[306]	coref	74-6[490_306]
+48-26	4064-4068	door	place[306]	giv:inact[306]	sal[306]	_	cf5[306]	coref	74-6[491_306]
 48-27	4069-4070	;	_	_	_	_	_	_	_
 
 #Text=Then , upon the velvet sinking , I betook myself to linking Fancy unto fancy , thinking what this ominous bird of yore — What this grim , ungainly , ghastly , gaunt , and ominous bird of yore Meant in croaking " Nevermore . "
@@ -949,9 +949,9 @@
 49-5	4087-4093	velvet	object[310]	giv:act[310]	nonsal[310]	_	cf3[310]	_	_
 49-6	4094-4101	sinking	object[310]	giv:act[310]	nonsal[310]	_	cf3[310]	_	_
 49-7	4102-4103	,	_	_	_	_	_	_	_
-49-8	4104-4105	I	person[311]	giv:act[311]	nonsal[311]	_	cf1*[311]	ana	49-10[312_311]
+49-8	4104-4105	I	person[311]	giv:act[311]	sal[311]	_	cf1*[311]	ana	49-10[312_311]
 49-9	4106-4112	betook	_	_	_	_	_	_	_
-49-10	4113-4119	myself	person[312]	giv:act[312]	nonsal[312]	_	cf1*[312]	ana	50-2[326_312]
+49-10	4113-4119	myself	person[312]	giv:act[312]	sal[312]	_	cf1*[312]	ana	50-2[326_312]
 49-11	4120-4122	to	_	_	_	_	_	_	_
 49-12	4123-4130	linking	_	_	_	_	_	_	_
 49-13	4131-4136	Fancy	_	_	_	_	cf4[313]	_	_
@@ -960,27 +960,27 @@
 49-16	4148-4149	,	_	_	_	_	_	_	_
 49-17	4150-4158	thinking	_	_	_	_	_	_	_
 49-18	4159-4163	what	_	_	_	_	_	_	_
-49-19	4164-4168	this	animal[319]	giv:act[319]	nonsal[319]	_	cf2[319]	coref	49-26[323_319]
-49-20	4169-4176	ominous	animal[319]	giv:act[319]	nonsal[319]	_	cf2[319]	_	_
-49-21	4177-4181	bird	animal[319]	giv:act[319]	nonsal[319]	_	cf2[319]	_	_
-49-22	4182-4184	of	animal[319]	giv:act[319]	nonsal[319]	_	cf2[319]	_	_
-49-23	4185-4189	yore	animal[319]	giv:act[319]	nonsal[319]	_	cf2[319]|cf5[320]	_	_
+49-19	4164-4168	this	animal[319]	giv:act[319]	sal[319]	_	cf2[319]	coref	49-26[323_319]
+49-20	4169-4176	ominous	animal[319]	giv:act[319]	sal[319]	_	cf2[319]	_	_
+49-21	4177-4181	bird	animal[319]	giv:act[319]	sal[319]	_	cf2[319]	_	_
+49-22	4182-4184	of	animal[319]	giv:act[319]	sal[319]	_	cf2[319]	_	_
+49-23	4185-4189	yore	animal[319]	giv:act[319]	sal[319]	_	cf2[319]|cf5[320]	_	_
 49-24	4190-4191	—	_	_	_	_	_	_	_
 49-25	4192-4196	What	_	_	_	_	cf7[322]	_	_
-49-26	4197-4201	this	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	coref	50-13[331_323]
-49-27	4202-4206	grim	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-28	4207-4208	,	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-29	4209-4217	ungainly	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-30	4218-4219	,	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-31	4220-4227	ghastly	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-32	4228-4229	,	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-33	4230-4235	gaunt	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-34	4236-4237	,	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-35	4238-4241	and	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-36	4242-4249	ominous	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-37	4250-4254	bird	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-38	4255-4257	of	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]	_	_
-49-39	4258-4262	yore	animal[323]	giv:act[323]	nonsal[323]	_	cf7[322]|cf2[323]|cf5[324]	_	_
+49-26	4197-4201	this	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	coref	50-13[331_323]
+49-27	4202-4206	grim	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-28	4207-4208	,	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-29	4209-4217	ungainly	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-30	4218-4219	,	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-31	4220-4227	ghastly	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-32	4228-4229	,	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-33	4230-4235	gaunt	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-34	4236-4237	,	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-35	4238-4241	and	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-36	4242-4249	ominous	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-37	4250-4254	bird	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-38	4255-4257	of	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]	_	_
+49-39	4258-4262	yore	animal[323]	giv:act[323]	sal[323]	_	cf7[322]|cf2[323]|cf5[324]	_	_
 49-40	4263-4268	Meant	_	_	_	_	cf7[322]	_	_
 49-41	4269-4271	in	_	_	_	_	_	_	_
 49-42	4272-4280	croaking	_	_	_	_	_	_	_
@@ -991,7 +991,7 @@
 
 #Text=This I sat engaged in guessing , but no syllable expressing To the fowl whose fiery eyes now burned into my bosom 's core ;
 50-1	4297-4301	This	_	_	_	_	_	_	_
-50-2	4302-4303	I	person[326]	giv:act[326]	nonsal[326]	_	cf1*[326]	ana	50-21[334_326]
+50-2	4302-4303	I	person[326]	giv:act[326]	sal[326]	_	cf1*[326]	ana	50-21[334_326]
 50-3	4304-4307	sat	_	_	_	_	_	_	_
 50-4	4308-4315	engaged	_	_	_	_	_	_	_
 50-5	4316-4318	in	_	_	_	_	_	_	_
@@ -1002,30 +1002,30 @@
 50-10	4337-4345	syllable	_	_	_	_	cf3[330]	_	_
 50-11	4346-4356	expressing	_	_	_	_	_	_	_
 50-12	4357-4359	To	_	_	_	_	_	_	_
-50-13	4360-4363	the	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	coref	54-2[361_331]
-50-14	4364-4368	fowl	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-15	4369-4374	whose	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-16	4375-4380	fiery	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-17	4381-4385	eyes	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-18	4386-4389	now	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-19	4390-4396	burned	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-20	4397-4401	into	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]	_	_
-50-21	4402-4404	my	animal[331]|person[334]	giv:act[331]|giv:act[334]	nonsal[331]|nonsal[334]	_	cf2[331]|cf4[332]|cf5[333]|cf1*[334]	ana	51-4[336_334]
-50-22	4405-4410	bosom	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]|cf4[332]|cf5[333]	_	_
-50-23	4411-4413	's	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]|cf4[332]|cf5[333]	_	_
-50-24	4414-4418	core	animal[331]	giv:act[331]	nonsal[331]	_	cf2[331]|cf4[332]	_	_
+50-13	4360-4363	the	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-14	4364-4368	fowl	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-15	4369-4374	whose	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-16	4375-4380	fiery	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-17	4381-4385	eyes	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-18	4386-4389	now	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-19	4390-4396	burned	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-20	4397-4401	into	animal[331]	giv:act[331]	sal[331]	_	cf2[331]	_	_
+50-21	4402-4404	my	animal[331]|person[334]	giv:act[331]|giv:act[334]	sal[331]|sal[334]	_	cf2[331]|cf4[332]|cf5[333]|cf1*[334]	ana	51-4[336_334]
+50-22	4405-4410	bosom	animal[331]	giv:act[331]	sal[331]	_	cf2[331]|cf4[332]|cf5[333]	_	_
+50-23	4411-4413	's	animal[331]	giv:act[331]	sal[331]	_	cf2[331]|cf4[332]|cf5[333]	_	_
+50-24	4414-4418	core	animal[331]	giv:act[331]	sal[331]	_	cf2[331]|cf4[332]	_	_
 50-25	4419-4420	;	_	_	_	_	_	_	_
 
 #Text=This and more I sat divining , with my head at ease reclining On the cushion 's velvet lining that the lamp - light gloated o'er ,
 51-1	4421-4425	This	_	_	_	_	cf3[335]	_	_
 51-2	4426-4429	and	_	_	_	_	_	_	_
 51-3	4430-4434	more	_	_	_	_	_	_	_
-51-4	4435-4436	I	person[336]	giv:act[336]	nonsal[336]	_	cf1*[336]	ana	51-9[341_336]
+51-4	4435-4436	I	person[336]	giv:act[336]	sal[336]	_	cf1*[336]	ana	51-9[341_336]
 51-5	4437-4440	sat	_	_	_	_	_	_	_
 51-6	4441-4449	divining	_	_	_	_	_	_	_
 51-7	4450-4451	,	_	_	_	_	_	_	_
 51-8	4452-4456	with	_	_	_	_	_	_	_
-51-9	4457-4459	my	person[341]	giv:act[341]	nonsal[341]	_	cf5[340]|cf1*[341]	ana	53-3[352_341]
+51-9	4457-4459	my	person[341]	giv:act[341]	sal[341]	_	cf5[340]|cf1*[341]	ana	53-3[352_341]
 51-10	4460-4464	head	_	_	_	_	cf5[340]	_	_
 51-11	4465-4467	at	_	_	_	_	_	_	_
 51-12	4468-4472	ease	_	_	_	_	_	_	_
@@ -1058,7 +1058,7 @@
 52-10	4599-4604	light	_	_	_	_	cf5[346]|cf2[349]	_	_
 52-11	4605-4613	gloating	_	_	_	_	cf5[346]	_	_
 52-12	4614-4618	o'er	_	_	_	_	cf5[346]	_	_
-52-13	4619-4622	She	person[350]	acc:com[350]	nonsal[350]	_	cf4[350]	coref	54-31[382_350]
+52-13	4619-4622	She	person[350]	acc:com[350]	sal[350]	_	cf4[350]	coref	54-31[382_350]
 52-14	4623-4628	shall	_	_	_	_	_	_	_
 52-15	4629-4634	press	_	_	_	_	_	_	_
 52-16	4635-4636	,	_	_	_	_	_	_	_
@@ -1070,7 +1070,7 @@
 #Text=Then , me thought , the air grew denser , perfumed from an unseen censer Swung by Seraphim whose foot - falls tinkled on the tufted floor .
 53-1	4654-4658	Then	_	_	_	_	_	_	_
 53-2	4659-4660	,	_	_	_	_	_	_	_
-53-3	4661-4663	me	person[352]	giv:inact[352]	nonsal[352]	_	cf1[352]	ana	54-5[362_352]
+53-3	4661-4663	me	person[352]	giv:inact[352]	sal[352]	_	cf1[352]	ana	54-5[362_352]
 53-4	4664-4671	thought	_	_	_	_	_	_	_
 53-5	4672-4673	,	_	_	_	_	_	_	_
 53-6	4674-4677	the	_	_	_	_	cf3[356]	_	_
@@ -1099,21 +1099,21 @@
 
 #Text=" Wretch , " I cried , " thy God hath lent thee — by these angels he hath sent thee Respite — respite and nepenthe from thy memories of Lenore !
 54-1	4794-4795	"	_	_	_	_	_	_	_
-54-2	4796-4802	Wretch	animal[361]	giv:inact[361]	nonsal[361]	_	cf3[361]	ana	54-9[366_361]
+54-2	4796-4802	Wretch	animal[361]	giv:inact[361]	sal[361]	_	cf3[361]	ana	54-9[366_361]
 54-3	4803-4804	,	_	_	_	_	_	_	_
 54-4	4805-4806	"	_	_	_	_	_	_	_
-54-5	4807-4808	I	person[362]	giv:act[362]	nonsal[362]	_	cf1*[362]	ana	57-6[391_362]
+54-5	4807-4808	I	person[362]	giv:act[362]	sal[362]	_	cf1*[362]	ana	57-6[391_362]
 54-6	4809-4814	cried	_	_	_	_	_	_	_
 54-7	4815-4816	,	_	_	_	_	_	_	_
 54-8	4817-4818	"	_	_	_	_	_	_	_
-54-9	4819-4822	thy	person[365]|animal[366]	new[365]|giv:act[366]	nonsal[365]|nonsal[366]	God[365]	cf2[365]|cf3[366]	ana|ana	54-13[367_366]|54-18[371_365]
+54-9	4819-4822	thy	person[365]|animal[366]	new[365]|giv:act[366]	nonsal[365]|sal[366]	God[365]	cf2[365]|cf3[366]	ana|ana	54-13[367_366]|54-18[371_365]
 54-10	4823-4826	God	person[365]	new[365]	nonsal[365]	God[365]	cf2[365]	_	_
 54-11	4827-4831	hath	_	_	_	_	_	_	_
 54-12	4832-4836	lent	_	_	_	_	_	_	_
-54-13	4837-4841	thee	animal[367]	giv:act[367]	nonsal[367]	_	cf3[367]	_	_
+54-13	4837-4841	thee	animal[367]	giv:act[367]	sal[367]	_	cf3[367]	ana	54-28[381_367]
 54-14	4842-4843	—	_	_	_	_	_	_	_
 54-15	4844-4846	by	_	_	_	_	_	_	_
-54-16	4847-4852	these	person[370]	giv:act[370]	nonsal[370]	_	cf4[370]	coref	67-21[456_370]
+54-16	4847-4852	these	person[370]	giv:act[370]	nonsal[370]	_	cf4[370]	coref	67-21[457_370]
 54-17	4853-4859	angels	person[370]	giv:act[370]	nonsal[370]	_	cf4[370]	_	_
 54-18	4860-4862	he	person[371]	giv:act[371]	nonsal[371]	God[371]	cf2[371]	_	_
 54-19	4863-4867	hath	_	_	_	_	_	_	_
@@ -1121,14 +1121,14 @@
 54-21	4873-4877	thee	_	_	_	_	_	_	_
 54-22	4878-4885	Respite	_	_	_	_	cf5[372]	_	_
 54-23	4886-4887	—	_	_	_	_	_	_	_
-54-24	4888-4895	respite	_	_	_	_	cf8[375]|cf5[376]	_	_
-54-25	4896-4899	and	_	_	_	_	cf8[375]	_	_
-54-26	4900-4908	nepenthe	substance[377]	new[377]	nonsal[377]	_	cf8[375]|cf9[377]	coref	55-5[386_377]
-54-27	4909-4913	from	_	_	_	_	cf8[375]	_	_
-54-28	4914-4917	thy	animal[381]	new[381]	nonsal[381]	_	cf8[375]|cf10[380]|cf7[381]	coref	56-2[388_381]
-54-29	4918-4926	memories	_	_	_	_	cf8[375]|cf10[380]	_	_
-54-30	4927-4929	of	_	_	_	_	cf8[375]|cf10[380]	_	_
-54-31	4930-4936	Lenore	person[382]	giv:inact[382]	nonsal[382]	_	cf8[375]|cf10[380]|cf6[382]	coref	55-10[387_382]
+54-24	4888-4895	respite	_	_	_	_	cf7[375]|cf5[376]	_	_
+54-25	4896-4899	and	_	_	_	_	cf7[375]	_	_
+54-26	4900-4908	nepenthe	substance[377]	new[377]	nonsal[377]	_	cf7[375]|cf8[377]	coref	55-5[386_377]
+54-27	4909-4913	from	_	_	_	_	cf7[375]	_	_
+54-28	4914-4917	thy	animal[381]	giv:act[381]	sal[381]	_	cf7[375]|cf9[380]|cf3[381]	coref	56-2[388_381]
+54-29	4918-4926	memories	_	_	_	_	cf7[375]|cf9[380]	_	_
+54-30	4927-4929	of	_	_	_	_	cf7[375]|cf9[380]	_	_
+54-31	4930-4936	Lenore	person[382]	giv:inact[382]	sal[382]	_	cf7[375]|cf9[380]|cf6[382]	coref	55-10[387_382]
 54-32	4937-4938	!	_	_	_	_	_	_	_
 
 #Text=Quaff , oh quaff this kind nepenthe and forget this lost Lenore ! "
@@ -1141,16 +1141,16 @@
 55-7	4966-4974	nepenthe	substance[386]	giv:act[386]	nonsal[386]	_	cf3[385]|cf2[386]	_	_
 55-8	4975-4978	and	_	_	_	_	cf3[385]	_	_
 55-9	4979-4985	forget	_	_	_	_	cf3[385]	_	_
-55-10	4986-4990	this	person[387]	giv:act[387]	nonsal[387]	_	cf3[385]|cf1*[387]	_	_
-55-11	4991-4995	lost	person[387]	giv:act[387]	nonsal[387]	_	cf3[385]|cf1*[387]	_	_
-55-12	4996-5002	Lenore	person[387]	giv:act[387]	nonsal[387]	_	cf3[385]|cf1*[387]	_	_
+55-10	4986-4990	this	person[387]	giv:act[387]	sal[387]	_	cf3[385]|cf1*[387]	_	_
+55-11	4991-4995	lost	person[387]	giv:act[387]	sal[387]	_	cf3[385]|cf1*[387]	_	_
+55-12	4996-5002	Lenore	person[387]	giv:act[387]	sal[387]	_	cf3[385]|cf1*[387]	_	_
 55-13	5003-5004	!	_	_	_	_	_	_	_
 55-14	5005-5006	"	_	_	_	_	_	_	_
 
 #Text=Quoth the Raven , " Nevermore . "
 56-1	5007-5012	Quoth	_	_	_	_	_	_	_
-56-2	5013-5016	the	animal[388]	giv:inact[388]	nonsal[388]	_	cf1[388]	ana	59-9[398_388]
-56-3	5017-5022	Raven	animal[388]	giv:inact[388]	nonsal[388]	_	cf1[388]	_	_
+56-2	5013-5016	the	animal[388]	giv:inact[388]	sal[388]	_	cf1[388]	_	_
+56-3	5017-5022	Raven	animal[388]	giv:inact[388]	sal[388]	_	cf1[388]	_	_
 56-4	5023-5024	,	_	_	_	_	_	_	_
 56-5	5025-5026	"	_	_	_	_	_	_	_
 56-6	5027-5036	Nevermore	_	_	_	_	cf2[389]	_	_
@@ -1159,43 +1159,43 @@
 
 #Text=" Prophet ! " said I , " thing of evil !
 57-1	5041-5042	"	_	_	_	_	_	_	_
-57-2	5043-5050	Prophet	_	_	_	_	cf2[390]	_	_
+57-2	5043-5050	Prophet	_	_	_	_	cf1*[390]	_	_
 57-3	5051-5052	!	_	_	_	_	_	_	_
 57-4	5053-5054	"	_	_	_	_	_	_	_
 57-5	5055-5059	said	_	_	_	_	_	_	_
-57-6	5060-5061	I	person[391]	giv:inact[391]	nonsal[391]	_	cf1[391]	ana	59-33[413_391]
+57-6	5060-5061	I	person[391]	giv:inact[391]	sal[391]	_	cf2[391]	ana	59-33[414_391]
 57-7	5062-5063	,	_	_	_	_	_	_	_
 57-8	5064-5065	"	_	_	_	_	_	_	_
-57-9	5066-5071	thing	_	_	_	_	_	_	_
-57-10	5072-5074	of	_	_	_	_	_	_	_
-57-11	5075-5079	evil	_	_	_	_	cf3[392]	_	_
+57-9	5066-5071	thing	_	_	_	_	cf1*[395]	_	_
+57-10	5072-5074	of	_	_	_	_	cf1*[395]	_	_
+57-11	5075-5079	evil	_	_	_	_	cf1*[395]|cf3[396]	_	_
 57-12	5080-5081	!	_	_	_	_	_	_	_
 
 #Text=— prophet still , if bird or devil ! —
 58-1	5082-5083	—	_	_	_	_	_	_	_
-58-2	5084-5091	prophet	_	_	_	_	cf1*[393]	_	_
+58-2	5084-5091	prophet	animal[397]	giv:act[397]	sal[397]	_	cf1*[397]	ana	59-9[402_397]
 58-3	5092-5097	still	_	_	_	_	_	_	_
 58-4	5098-5099	,	_	_	_	_	_	_	_
 58-5	5100-5102	if	_	_	_	_	_	_	_
-58-6	5103-5107	bird	_	_	_	_	cf3[394]	_	_
+58-6	5103-5107	bird	_	_	_	_	cf3[398]	_	_
 58-7	5108-5110	or	_	_	_	_	_	_	_
-58-8	5111-5116	devil	_	_	_	_	cf2[395]	_	_
+58-8	5111-5116	devil	_	_	_	_	cf2[399]	_	_
 58-9	5117-5118	!	_	_	_	_	_	_	_
 58-10	5119-5120	—	_	_	_	_	_	_	_
 
 #Text=Whether Tempter sent , or whether tempest tossed thee here a shore , Desolate yet all undaunted , on this desert land enchanted — On this home by Horror haunted — tell me truly , I implore —
 59-1	5121-5128	Whether	_	_	_	_	_	_	_
-59-2	5129-5136	Tempter	_	_	_	_	cf4[396]	_	_
+59-2	5129-5136	Tempter	_	_	_	_	cf4[400]	_	_
 59-3	5137-5141	sent	_	_	_	_	_	_	_
 59-4	5142-5143	,	_	_	_	_	_	_	_
 59-5	5144-5146	or	_	_	_	_	_	_	_
 59-6	5147-5154	whether	_	_	_	_	_	_	_
-59-7	5155-5162	tempest	event[397]	new[397]	nonsal[397]	_	cf5[397]	coref	71-6[478_397]
+59-7	5155-5162	tempest	event[401]	new[401]	nonsal[401]	_	cf5[401]	coref	71-6[479_401]
 59-8	5163-5169	tossed	_	_	_	_	_	_	_
-59-9	5170-5174	thee	animal[398]	giv:inact[398]	nonsal[398]	_	cf3[398]	coref	62-2[428_398]
-59-10	5175-5179	here	place[409]	new[409]	nonsal[409]	_	cf2[409]	coref	59-20[410_409]
-59-11	5180-5181	a	place[409]	new[409]	nonsal[409]	_	cf2[409]	_	_
-59-12	5182-5187	shore	place[409]	new[409]	nonsal[409]	_	cf2[409]	_	_
+59-9	5170-5174	thee	animal[402]	giv:act[402]	sal[402]	_	cf2*[402]	coref	62-2[429_402]
+59-10	5175-5179	here	place[410]	new[410]	nonsal[410]	_	cf3[410]	coref	59-20[411_410]
+59-11	5180-5181	a	place[410]	new[410]	nonsal[410]	_	cf3[410]	_	_
+59-12	5182-5187	shore	place[410]	new[410]	nonsal[410]	_	cf3[410]	_	_
 59-13	5188-5189	,	_	_	_	_	_	_	_
 59-14	5190-5198	Desolate	_	_	_	_	_	_	_
 59-15	5199-5202	yet	_	_	_	_	_	_	_
@@ -1203,23 +1203,23 @@
 59-17	5207-5216	undaunted	_	_	_	_	_	_	_
 59-18	5217-5218	,	_	_	_	_	_	_	_
 59-19	5219-5221	on	_	_	_	_	_	_	_
-59-20	5222-5226	this	place[410]	giv:act[410]	nonsal[410]	_	cf2[410]	_	_
-59-21	5227-5233	desert	place[410]	giv:act[410]	nonsal[410]	_	cf2[410]	_	_
-59-22	5234-5238	land	place[410]	giv:act[410]	nonsal[410]	_	cf2[410]	_	_
+59-20	5222-5226	this	place[411]	giv:act[411]	nonsal[411]	_	cf3[411]	_	_
+59-21	5227-5233	desert	place[411]	giv:act[411]	nonsal[411]	_	cf3[411]	_	_
+59-22	5234-5238	land	place[411]	giv:act[411]	nonsal[411]	_	cf3[411]	_	_
 59-23	5239-5248	enchanted	_	_	_	_	_	_	_
 59-24	5249-5250	—	_	_	_	_	_	_	_
 59-25	5251-5253	On	_	_	_	_	_	_	_
-59-26	5254-5258	this	_	_	_	_	cf6[411]	_	_
-59-27	5259-5263	home	_	_	_	_	cf6[411]	_	_
-59-28	5264-5266	by	_	_	_	_	cf6[411]	_	_
-59-29	5267-5273	Horror	_	_	_	_	cf6[411]|cf7[412]	_	_
-59-30	5274-5281	haunted	_	_	_	_	cf6[411]	_	_
+59-26	5254-5258	this	_	_	_	_	cf6[412]	_	_
+59-27	5259-5263	home	_	_	_	_	cf6[412]	_	_
+59-28	5264-5266	by	_	_	_	_	cf6[412]	_	_
+59-29	5267-5273	Horror	_	_	_	_	cf6[412]|cf7[413]	_	_
+59-30	5274-5281	haunted	_	_	_	_	cf6[412]	_	_
 59-31	5282-5283	—	_	_	_	_	_	_	_
 59-32	5284-5288	tell	_	_	_	_	_	_	_
-59-33	5289-5291	me	person[413]	giv:inact[413]	nonsal[413]	_	cf1[413]	ana	59-36[414_413]
+59-33	5289-5291	me	person[414]	giv:inact[414]	sal[414]	_	cf1[414]	ana	59-36[415_414]
 59-34	5292-5297	truly	_	_	_	_	_	_	_
 59-35	5298-5299	,	_	_	_	_	_	_	_
-59-36	5300-5301	I	person[414]	giv:act[414]	nonsal[414]	_	cf1[414]	ana	61-3[417_414]
+59-36	5300-5301	I	person[415]	giv:act[415]	sal[415]	_	cf1[415]	ana	61-3[418_415]
 59-37	5302-5309	implore	_	_	_	_	_	_	_
 59-38	5310-5311	—	_	_	_	_	_	_	_
 
@@ -1229,145 +1229,145 @@
 60-3	5321-5322	—	_	_	_	_	_	_	_
 60-4	5323-5325	is	_	_	_	_	_	_	_
 60-5	5326-5331	there	_	_	_	_	_	_	_
-60-6	5332-5336	balm	_	_	_	_	cf1[415]	_	_
+60-6	5332-5336	balm	_	_	_	_	cf1[416]	_	_
 60-7	5337-5339	in	_	_	_	_	_	_	_
-60-8	5340-5346	Gilead	_	_	_	Gilead[416]	cf2[416]	_	_
+60-8	5340-5346	Gilead	_	_	_	Gilead[417]	cf2[417]	_	_
 60-9	5347-5348	?	_	_	_	_	_	_	_
 
 #Text=— tell me — tell me , I implore ! "
 61-1	5349-5350	—	_	_	_	_	_	_	_
 61-2	5351-5355	tell	_	_	_	_	_	_	_
-61-3	5356-5358	me	person[417]	giv:inact[417]	nonsal[417]	_	cf1[417]	ana	61-6[418_417]
+61-3	5356-5358	me	person[418]	giv:inact[418]	sal[418]	_	cf1[418]	ana	61-6[419_418]
 61-4	5359-5360	—	_	_	_	_	_	_	_
 61-5	5361-5365	tell	_	_	_	_	_	_	_
-61-6	5366-5368	me	person[418]	giv:act[418]	nonsal[418]	_	cf1[418]	ana	61-8[419_418]
+61-6	5366-5368	me	person[419]	giv:act[419]	sal[419]	_	cf1[419]	ana	61-8[420_419]
 61-7	5369-5370	,	_	_	_	_	_	_	_
-61-8	5371-5372	I	person[419]	giv:act[419]	nonsal[419]	_	cf1[419]	ana	63-6[431_419]
+61-8	5371-5372	I	person[420]	giv:act[420]	sal[420]	_	cf1[420]	ana	63-6[432_420]
 61-9	5373-5380	implore	_	_	_	_	_	_	_
 61-10	5381-5382	!	_	_	_	_	_	_	_
 61-11	5383-5384	"	_	_	_	_	_	_	_
 
 #Text=Quoth the Raven , " Nevermore . "
 62-1	5385-5390	Quoth	_	_	_	_	_	_	_
-62-2	5391-5394	the	animal[428]	giv:inact[428]	nonsal[428]	_	cf1[428]	coref	69-2[463_428]
-62-3	5395-5400	Raven	animal[428]	giv:inact[428]	nonsal[428]	_	cf1[428]	_	_
+62-2	5391-5394	the	animal[429]	giv:inact[429]	sal[429]	_	cf1[429]	_	_
+62-3	5395-5400	Raven	animal[429]	giv:inact[429]	sal[429]	_	cf1[429]	_	_
 62-4	5401-5402	,	_	_	_	_	_	_	_
 62-5	5403-5404	"	_	_	_	_	_	_	_
-62-6	5405-5414	Nevermore	_	_	_	_	cf2[429]	_	_
+62-6	5405-5414	Nevermore	_	_	_	_	cf2[430]	_	_
 62-7	5415-5416	.	_	_	_	_	_	_	_
 62-8	5417-5418	"	_	_	_	_	_	_	_
 
 #Text=" Prophet ! " said I , " thing of evil —
 63-1	5419-5420	"	_	_	_	_	_	_	_
-63-2	5421-5428	Prophet	_	_	_	_	cf2[430]	_	_
+63-2	5421-5428	Prophet	_	_	_	_	cf1*[431]	_	_
 63-3	5429-5430	!	_	_	_	_	_	_	_
 63-4	5431-5432	"	_	_	_	_	_	_	_
 63-5	5433-5437	said	_	_	_	_	_	_	_
-63-6	5438-5439	I	person[431]	giv:inact[431]	nonsal[431]	_	cf1[431]	ana	70-15[471_431]
+63-6	5438-5439	I	person[432]	giv:inact[432]	sal[432]	_	cf2[432]	ana	70-15[472_432]
 63-7	5440-5441	,	_	_	_	_	_	_	_
 63-8	5442-5443	"	_	_	_	_	_	_	_
-63-9	5444-5449	thing	_	_	_	_	cf4[435]	_	_
-63-10	5450-5452	of	_	_	_	_	cf4[435]	_	_
-63-11	5453-5457	evil	_	_	_	_	cf4[435]|cf3[436]	_	_
+63-9	5444-5449	thing	_	_	_	_	cf4[436]	_	_
+63-10	5450-5452	of	_	_	_	_	cf4[436]	_	_
+63-11	5453-5457	evil	_	_	_	_	cf4[436]|cf3[437]	_	_
 63-12	5458-5459	—	_	_	_	_	_	_	_
 
 #Text=prophet still , if bird or devil !
-64-1	5460-5467	prophet	_	_	_	_	cf1*[437]	_	_
+64-1	5460-5467	prophet	animal[438]	giv:act[438]	sal[438]	_	cf1*[438]	coref	69-2[464_438]
 64-2	5468-5473	still	_	_	_	_	_	_	_
 64-3	5474-5475	,	_	_	_	_	_	_	_
 64-4	5476-5478	if	_	_	_	_	_	_	_
-64-5	5479-5483	bird	_	_	_	_	cf3[438]	_	_
+64-5	5479-5483	bird	_	_	_	_	cf3[439]	_	_
 64-6	5484-5486	or	_	_	_	_	_	_	_
-64-7	5487-5492	devil	_	_	_	_	cf2[439]	_	_
+64-7	5487-5492	devil	_	_	_	_	cf2[440]	_	_
 64-8	5493-5494	!	_	_	_	_	_	_	_
 
 #Text=By that Heaven that bends above us —
 65-1	5495-5497	By	_	_	_	_	_	_	_
-65-2	5498-5502	that	_	_	_	Heaven[444]	cf2[444]	_	_
-65-3	5503-5509	Heaven	_	_	_	Heaven[444]	cf2[444]	_	_
-65-4	5510-5514	that	_	_	_	Heaven[444]	cf2[444]	_	_
-65-5	5515-5520	bends	_	_	_	Heaven[444]	cf2[444]	_	_
-65-6	5521-5526	above	_	_	_	Heaven[444]	cf2[444]	_	_
-65-7	5527-5529	us	person[445]	acc:com[445]	nonsal[445]	Heaven[444]	cf2[444]|cf1[445]	ana	66-4[448_445]
+65-2	5498-5502	that	_	_	_	Heaven[445]	cf2[445]	_	_
+65-3	5503-5509	Heaven	_	_	_	Heaven[445]	cf2[445]	_	_
+65-4	5510-5514	that	_	_	_	Heaven[445]	cf2[445]	_	_
+65-5	5515-5520	bends	_	_	_	Heaven[445]	cf2[445]	_	_
+65-6	5521-5526	above	_	_	_	Heaven[445]	cf2[445]	_	_
+65-7	5527-5529	us	person[446]	acc:com[446]	nonsal[446]	Heaven[445]	cf2[445]|cf1[446]	ana	66-4[449_446]
 65-8	5530-5531	—	_	_	_	_	_	_	_
 
 #Text=by that God we both adore —
 66-1	5532-5534	by	_	_	_	_	_	_	_
-66-2	5535-5539	that	_	_	_	God[447]	cf2[447]	_	_
-66-3	5540-5543	God	_	_	_	God[447]	cf2[447]	_	_
-66-4	5544-5546	we	person[448]	giv:act[448]	nonsal[448]	God[447]	cf2[447]|cf1*[448]	ana	70-5[468_448]
-66-5	5547-5551	both	person[448]	giv:act[448]	nonsal[448]	God[447]	cf2[447]|cf1*[448]	_	_
-66-6	5552-5557	adore	_	_	_	God[447]	cf2[447]	_	_
+66-2	5535-5539	that	_	_	_	God[448]	cf2[448]	_	_
+66-3	5540-5543	God	_	_	_	God[448]	cf2[448]	_	_
+66-4	5544-5546	we	person[449]	giv:act[449]	nonsal[449]	God[448]	cf2[448]|cf1*[449]	ana	70-5[469_449]
+66-5	5547-5551	both	person[449]	giv:act[449]	nonsal[449]	God[448]	cf2[448]|cf1*[449]	_	_
+66-6	5552-5557	adore	_	_	_	God[448]	cf2[448]	_	_
 66-7	5558-5559	—	_	_	_	_	_	_	_
 
 #Text=Tell this soul with sorrow laden if , within the distant Aidenn , It shall clasp a sainted maiden whom the angels name Lenore —
 67-1	5560-5564	Tell	_	_	_	_	_	_	_
-67-2	5565-5569	this	abstract[449]	giv:inact[449]	nonsal[449]	_	cf1[449]	ana	67-14[453_449]
-67-3	5570-5574	soul	abstract[449]	giv:inact[449]	nonsal[449]	_	cf1[449]	_	_
-67-4	5575-5579	with	abstract[449]	giv:inact[449]	_	_	_	_	_
-67-5	5580-5586	sorrow	abstract[449]	giv:inact[449]	_	_	cf6[450]	_	_
-67-6	5587-5592	laden	abstract[449]	giv:inact[449]	_	_	_	_	_
+67-2	5565-5569	this	abstract[450]	giv:inact[450]	nonsal[450]	_	cf1[450]	ana	67-14[454_450]
+67-3	5570-5574	soul	abstract[450]	giv:inact[450]	nonsal[450]	_	cf1[450]	_	_
+67-4	5575-5579	with	abstract[450]	giv:inact[450]	_	_	_	_	_
+67-5	5580-5586	sorrow	abstract[450]	giv:inact[450]	_	_	cf6[451]	_	_
+67-6	5587-5592	laden	abstract[450]	giv:inact[450]	_	_	_	_	_
 67-7	5593-5595	if	_	_	_	_	_	_	_
 67-8	5596-5597	,	_	_	_	_	_	_	_
 67-9	5598-5604	within	_	_	_	_	_	_	_
-67-10	5605-5608	the	_	_	_	Garden_of_Eden[452]	cf5[452]	_	_
-67-11	5609-5616	distant	_	_	_	Garden_of_Eden[452]	cf5[452]	_	_
-67-12	5617-5623	Aidenn	_	_	_	Garden_of_Eden[452]	cf5[452]	_	_
+67-10	5605-5608	the	_	_	_	Garden_of_Eden[453]	cf5[453]	_	_
+67-11	5609-5616	distant	_	_	_	Garden_of_Eden[453]	cf5[453]	_	_
+67-12	5617-5623	Aidenn	_	_	_	Garden_of_Eden[453]	cf5[453]	_	_
 67-13	5624-5625	,	_	_	_	_	_	_	_
-67-14	5626-5628	It	abstract[453]	giv:act[453]	nonsal[453]	_	cf1[453]	coref	80-2[527_453]
+67-14	5626-5628	It	abstract[454]	giv:act[454]	nonsal[454]	_	cf1[454]	coref	80-2[528_454]
 67-15	5629-5634	shall	_	_	_	_	_	_	_
 67-16	5635-5640	clasp	_	_	_	_	_	_	_
-67-17	5641-5642	a	_	_	_	_	cf3[455]	_	_
-67-18	5643-5650	sainted	_	_	_	_	cf3[455]	_	_
-67-19	5651-5657	maiden	_	_	_	_	cf3[455]	_	_
-67-20	5658-5662	whom	_	_	_	_	cf3[455]	_	_
-67-21	5663-5666	the	person[456]	giv:inact[456]	nonsal[456]	_	cf3[455]|cf2[456]	coref	68-8[460_456]
-67-22	5667-5673	angels	person[456]	giv:inact[456]	nonsal[456]	_	cf3[455]|cf2[456]	_	_
-67-23	5674-5678	name	_	_	_	_	cf3[455]	_	_
-67-24	5679-5685	Lenore	abstract[457]	giv:inact[457]	nonsal[457]	_	cf3[455]|cf4[457]	coref	68-11[461_457]
+67-17	5641-5642	a	_	_	_	_	cf3[456]	_	_
+67-18	5643-5650	sainted	_	_	_	_	cf3[456]	_	_
+67-19	5651-5657	maiden	_	_	_	_	cf3[456]	_	_
+67-20	5658-5662	whom	_	_	_	_	cf3[456]	_	_
+67-21	5663-5666	the	person[457]	giv:inact[457]	nonsal[457]	_	cf3[456]|cf2[457]	coref	68-8[461_457]
+67-22	5667-5673	angels	person[457]	giv:inact[457]	nonsal[457]	_	cf3[456]|cf2[457]	_	_
+67-23	5674-5678	name	_	_	_	_	cf3[456]	_	_
+67-24	5679-5685	Lenore	abstract[458]	giv:inact[458]	sal[458]	_	cf3[456]|cf4[458]	coref	68-11[462_458]
 67-25	5686-5687	—	_	_	_	_	_	_	_
 
 #Text=Clasp a rare and radiant maiden whom the angels name Lenore . '
 68-1	5688-5693	Clasp	_	_	_	_	_	_	_
-68-2	5694-5695	a	_	_	_	_	cf2[459]	_	_
-68-3	5696-5700	rare	_	_	_	_	cf2[459]	_	_
-68-4	5701-5704	and	_	_	_	_	cf2[459]	_	_
-68-5	5705-5712	radiant	_	_	_	_	cf2[459]	_	_
-68-6	5713-5719	maiden	_	_	_	_	cf2[459]	_	_
-68-7	5720-5724	whom	_	_	_	_	cf2[459]	_	_
-68-8	5725-5728	the	person[460]	giv:act[460]	nonsal[460]	_	cf2[459]|cf1*[460]	_	_
-68-9	5729-5735	angels	person[460]	giv:act[460]	nonsal[460]	_	cf2[459]|cf1*[460]	_	_
-68-10	5736-5740	name	_	_	_	_	cf2[459]	_	_
-68-11	5741-5747	Lenore	abstract[461]	giv:act[461]	nonsal[461]	_	cf2[459]|cf3[461]	_	_
+68-2	5694-5695	a	_	_	_	_	cf2[460]	_	_
+68-3	5696-5700	rare	_	_	_	_	cf2[460]	_	_
+68-4	5701-5704	and	_	_	_	_	cf2[460]	_	_
+68-5	5705-5712	radiant	_	_	_	_	cf2[460]	_	_
+68-6	5713-5719	maiden	_	_	_	_	cf2[460]	_	_
+68-7	5720-5724	whom	_	_	_	_	cf2[460]	_	_
+68-8	5725-5728	the	person[461]	giv:act[461]	nonsal[461]	_	cf2[460]|cf1*[461]	_	_
+68-9	5729-5735	angels	person[461]	giv:act[461]	nonsal[461]	_	cf2[460]|cf1*[461]	_	_
+68-10	5736-5740	name	_	_	_	_	cf2[460]	_	_
+68-11	5741-5747	Lenore	abstract[462]	giv:act[462]	sal[462]	_	cf2[460]|cf3[462]	_	_
 68-12	5748-5749	.	_	_	_	_	_	_	_
 68-13	5750-5751	'	_	_	_	_	_	_	_
 
 #Text=Quoth the Raven , " Nevermore . "
 69-1	5752-5757	Quoth	_	_	_	_	_	_	_
-69-2	5758-5761	the	animal[463]	giv:inact[463]	nonsal[463]	_	cf1[463]	ana	71-3[472_463]
-69-3	5762-5767	Raven	animal[463]	giv:inact[463]	nonsal[463]	_	cf1[463]	_	_
+69-2	5758-5761	the	animal[464]	giv:inact[464]	sal[464]	_	cf1[464]	ana	71-3[473_464]
+69-3	5762-5767	Raven	animal[464]	giv:inact[464]	sal[464]	_	cf1[464]	_	_
 69-4	5768-5769	,	_	_	_	_	_	_	_
 69-5	5770-5771	"	_	_	_	_	_	_	_
-69-6	5772-5781	Nevermore	abstract[464]	giv:inact[464]	nonsal[464]	_	cf2[464]	coref	70-3[466_464]
+69-6	5772-5781	Nevermore	abstract[465]	giv:inact[465]	sal[465]	_	cf2[465]	coref	70-3[467_465]
 69-7	5782-5783	.	_	_	_	_	_	_	_
 69-8	5784-5785	"	_	_	_	_	_	_	_
 
 #Text=" Be that word our sign of parting , bird or fiend ! " I shrieked , upstarting —
 70-1	5786-5787	"	_	_	_	_	_	_	_
 70-2	5788-5790	Be	_	_	_	_	_	_	_
-70-3	5791-5795	that	abstract[466]	giv:act[466]	nonsal[466]	_	cf1*[466]	_	_
-70-4	5796-5800	word	abstract[466]	giv:act[466]	nonsal[466]	_	cf1*[466]	_	_
-70-5	5801-5804	our	person[468]	giv:inact[468]	nonsal[468]	_	cf5[467]|cf3[468]	_	_
-70-6	5805-5809	sign	_	_	_	_	cf5[467]	_	_
-70-7	5810-5812	of	_	_	_	_	cf5[467]	_	_
-70-8	5813-5820	parting	_	_	_	_	cf5[467]	_	_
+70-3	5791-5795	that	abstract[467]	giv:act[467]	sal[467]	_	cf1*[467]	_	_
+70-4	5796-5800	word	abstract[467]	giv:act[467]	sal[467]	_	cf1*[467]	_	_
+70-5	5801-5804	our	person[469]	giv:inact[469]	nonsal[469]	_	cf5[468]|cf3[469]	_	_
+70-6	5805-5809	sign	_	_	_	_	cf5[468]	_	_
+70-7	5810-5812	of	_	_	_	_	cf5[468]	_	_
+70-8	5813-5820	parting	_	_	_	_	cf5[468]	_	_
 70-9	5821-5822	,	_	_	_	_	_	_	_
-70-10	5823-5827	bird	_	_	_	_	cf4[469]	_	_
+70-10	5823-5827	bird	_	_	_	_	cf4[470]	_	_
 70-11	5828-5830	or	_	_	_	_	_	_	_
-70-12	5831-5836	fiend	_	_	_	_	cf6[470]	_	_
+70-12	5831-5836	fiend	_	_	_	_	cf6[471]	_	_
 70-13	5837-5838	!	_	_	_	_	_	_	_
 70-14	5839-5840	"	_	_	_	_	_	_	_
-70-15	5841-5842	I	person[471]	giv:inact[471]	nonsal[471]	_	cf2[471]	ana	73-2[487_471]
+70-15	5841-5842	I	person[472]	giv:inact[472]	sal[472]	_	cf2[472]	ana	73-2[488_472]
 70-16	5843-5851	shrieked	_	_	_	_	_	_	_
 70-17	5852-5853	,	_	_	_	_	_	_	_
 70-18	5854-5864	upstarting	_	_	_	_	_	_	_
@@ -1376,87 +1376,87 @@
 #Text=" Get thee back into the tempest and the Night 's Plutonian shore !
 71-1	5867-5868	"	_	_	_	_	_	_	_
 71-2	5869-5872	Get	_	_	_	_	_	_	_
-71-3	5873-5877	thee	animal[472]	giv:inact[472]	nonsal[472]	_	cf1[472]	ana	72-11[484_472]
+71-3	5873-5877	thee	animal[473]	giv:inact[473]	sal[473]	_	cf1[473]	ana	72-11[485_473]
 71-4	5878-5882	back	_	_	_	_	_	_	_
 71-5	5883-5887	into	_	_	_	_	_	_	_
-71-6	5888-5891	the	event[478]	giv:inact[478]	nonsal[478]	_	cf2[478]	_	_
-71-7	5892-5899	tempest	event[478]	giv:inact[478]	nonsal[478]	_	cf2[478]	_	_
+71-6	5888-5891	the	event[479]	giv:inact[479]	nonsal[479]	_	cf2[479]	_	_
+71-7	5892-5899	tempest	event[479]	giv:inact[479]	nonsal[479]	_	cf2[479]	_	_
 71-8	5900-5903	and	_	_	_	_	_	_	_
-71-9	5904-5907	the	_	_	_	_	cf3[479]	_	_
-71-10	5908-5913	Night	_	_	_	_	cf3[479]	_	_
-71-11	5914-5916	's	_	_	_	_	cf3[479]	_	_
-71-12	5917-5926	Plutonian	_	_	_	_	cf3[479]	_	_
-71-13	5927-5932	shore	_	_	_	_	cf3[479]	_	_
+71-9	5904-5907	the	_	_	_	_	cf3[480]	_	_
+71-10	5908-5913	Night	_	_	_	_	cf3[480]	_	_
+71-11	5914-5916	's	_	_	_	_	cf3[480]	_	_
+71-12	5917-5926	Plutonian	_	_	_	_	cf3[480]	_	_
+71-13	5927-5932	shore	_	_	_	_	cf3[480]	_	_
 71-14	5933-5934	!	_	_	_	_	_	_	_
 
 #Text=Leave no black plume as a token of that lie thy soul hath spoken !
 72-1	5935-5940	Leave	_	_	_	_	_	_	_
-72-2	5941-5943	no	_	_	_	_	cf3[480]	_	_
-72-3	5944-5949	black	_	_	_	_	cf3[480]	_	_
-72-4	5950-5955	plume	_	_	_	_	cf3[480]	_	_
+72-2	5941-5943	no	_	_	_	_	cf3[481]	_	_
+72-3	5944-5949	black	_	_	_	_	cf3[481]	_	_
+72-4	5950-5955	plume	_	_	_	_	cf3[481]	_	_
 72-5	5956-5958	as	_	_	_	_	_	_	_
-72-6	5959-5960	a	_	_	_	_	cf5[481]	_	_
-72-7	5961-5966	token	_	_	_	_	cf5[481]	_	_
-72-8	5967-5969	of	_	_	_	_	cf5[481]	_	_
-72-9	5970-5974	that	_	_	_	_	cf5[481]|cf4[482]	_	_
-72-10	5975-5978	lie	_	_	_	_	cf5[481]|cf4[482]	_	_
-72-11	5979-5982	thy	animal[484]	giv:act[484]	nonsal[484]	_	cf5[481]|cf4[482]|cf2[483]|cf1*[484]	ana	75-2[494_484]
-72-12	5983-5987	soul	_	_	_	_	cf5[481]|cf4[482]|cf2[483]	_	_
-72-13	5988-5992	hath	_	_	_	_	cf5[481]|cf4[482]	_	_
-72-14	5993-5999	spoken	_	_	_	_	cf5[481]|cf4[482]	_	_
+72-6	5959-5960	a	_	_	_	_	cf5[482]	_	_
+72-7	5961-5966	token	_	_	_	_	cf5[482]	_	_
+72-8	5967-5969	of	_	_	_	_	cf5[482]	_	_
+72-9	5970-5974	that	_	_	_	_	cf5[482]|cf4[483]	_	_
+72-10	5975-5978	lie	_	_	_	_	cf5[482]|cf4[483]	_	_
+72-11	5979-5982	thy	animal[485]	giv:act[485]	sal[485]	_	cf5[482]|cf4[483]|cf2[484]|cf1*[485]	ana	75-2[495_485]
+72-12	5983-5987	soul	_	_	_	_	cf5[482]|cf4[483]|cf2[484]	_	_
+72-13	5988-5992	hath	_	_	_	_	cf5[482]|cf4[483]	_	_
+72-14	5993-5999	spoken	_	_	_	_	cf5[482]|cf4[483]	_	_
 72-15	6000-6001	!	_	_	_	_	_	_	_
 
 #Text=Leave my loneliness unbroken !
 73-1	6002-6007	Leave	_	_	_	_	_	_	_
-73-2	6008-6010	my	person[487]	giv:inact[487]	nonsal[487]	_	cf2[486]|cf1[487]	ana	74-6[491_487]
-73-3	6011-6021	loneliness	_	_	_	_	cf2[486]	_	_
+73-2	6008-6010	my	person[488]	giv:inact[488]	sal[488]	_	cf2[487]|cf1[488]	ana	74-6[492_488]
+73-3	6011-6021	loneliness	_	_	_	_	cf2[487]	_	_
 73-4	6022-6030	unbroken	_	_	_	_	_	_	_
 73-5	6031-6032	!	_	_	_	_	_	_	_
 
 #Text=— quit the bust above my door !
 74-1	6033-6034	—	_	_	_	_	_	_	_
 74-2	6035-6039	quit	_	_	_	_	_	_	_
-74-3	6040-6043	the	object[489]	giv:inact[489]	nonsal[489]	_	cf2[489]	coref	77-16[509_489]
-74-4	6044-6048	bust	object[489]	giv:inact[489]	nonsal[489]	_	cf2[489]	_	_
-74-5	6049-6054	above	object[489]	giv:inact[489]	nonsal[489]	_	cf2[489]	_	_
-74-6	6055-6057	my	object[489]|place[490]|person[491]	giv:inact[489]|giv:inact[490]|giv:act[491]	nonsal[489]|nonsal[490]|nonsal[491]	_	cf2[489]|cf3[490]|cf1*[491]	coref|ana	75-15[502_490]|75-6[497_491]
-74-7	6058-6062	door	object[489]|place[490]	giv:inact[489]|giv:inact[490]	nonsal[489]|nonsal[490]	_	cf2[489]|cf3[490]	_	_
+74-3	6040-6043	the	object[490]	giv:inact[490]	nonsal[490]	_	cf2[490]	coref	77-16[510_490]
+74-4	6044-6048	bust	object[490]	giv:inact[490]	nonsal[490]	_	cf2[490]	_	_
+74-5	6049-6054	above	object[490]	giv:inact[490]	nonsal[490]	_	cf2[490]	_	_
+74-6	6055-6057	my	object[490]|place[491]|person[492]	giv:inact[490]|giv:inact[491]|giv:act[492]	nonsal[490]|sal[491]|sal[492]	_	cf2[490]|cf3[491]|cf1*[492]	ana|coref	75-6[498_492]|75-15[503_491]
+74-7	6058-6062	door	object[490]|place[491]	giv:inact[490]|giv:inact[491]	nonsal[490]|sal[491]	_	cf2[490]|cf3[491]	_	_
 74-8	6063-6064	!	_	_	_	_	_	_	_
 
 #Text=Take thy beak from out my heart , and take thy form from off my door ! "
 75-1	6065-6069	Take	_	_	_	_	_	_	_
-75-2	6070-6073	thy	animal[494]	giv:inact[494]	nonsal[494]	_	cf5[493]|cf2[494]	ana	75-11[500_494]
-75-3	6074-6078	beak	_	_	_	_	cf5[493]	_	_
+75-2	6070-6073	thy	animal[495]	giv:inact[495]	sal[495]	_	cf5[494]|cf2[495]	ana	75-11[501_495]
+75-3	6074-6078	beak	_	_	_	_	cf5[494]	_	_
 75-4	6079-6083	from	_	_	_	_	_	_	_
 75-5	6084-6087	out	_	_	_	_	_	_	_
-75-6	6088-6090	my	object[496]|person[497]	giv:inact[496]|giv:act[497]	nonsal[496]|nonsal[497]	_	cf4[496]|cf1*[497]	ana	75-15[503_497]
-75-7	6091-6096	heart	object[496]	giv:inact[496]	nonsal[496]	_	cf4[496]	_	_
+75-6	6088-6090	my	object[497]|person[498]	giv:inact[497]|giv:act[498]	nonsal[497]|sal[498]	_	cf4[497]|cf1*[498]	ana	75-15[504_498]
+75-7	6091-6096	heart	object[497]	giv:inact[497]	nonsal[497]	_	cf4[497]	_	_
 75-8	6097-6098	,	_	_	_	_	_	_	_
 75-9	6099-6102	and	_	_	_	_	_	_	_
 75-10	6103-6107	take	_	_	_	_	_	_	_
-75-11	6108-6111	thy	animal[500]	giv:act[500]	nonsal[500]	_	cf6[499]|cf2[500]	coref	76-2[505_500]
-75-12	6112-6116	form	_	_	_	_	cf6[499]	_	_
+75-11	6108-6111	thy	animal[501]	giv:act[501]	sal[501]	_	cf6[500]|cf2[501]	coref	76-2[506_501]
+75-12	6112-6116	form	_	_	_	_	cf6[500]	_	_
 75-13	6117-6121	from	_	_	_	_	_	_	_
 75-14	6122-6125	off	_	_	_	_	_	_	_
-75-15	6126-6128	my	place[502]|person[503]	giv:act[502]|giv:act[503]	nonsal[502]|nonsal[503]	_	cf3[502]|cf1*[503]	coref|ana	77-23[512_502]|77-23[513_503]
-75-16	6129-6133	door	place[502]	giv:act[502]	nonsal[502]	_	cf3[502]	_	_
+75-15	6126-6128	my	place[503]|person[504]	giv:act[503]|giv:act[504]	sal[503]|sal[504]	_	cf3[503]|cf1*[504]	coref|ana	77-23[513_503]|77-23[514_504]
+75-16	6129-6133	door	place[503]	giv:act[503]	sal[503]	_	cf3[503]	_	_
 75-17	6134-6135	!	_	_	_	_	_	_	_
 75-18	6136-6137	"	_	_	_	_	_	_	_
 
 #Text=Quoth the Raven , " Nevermore . "
 76-1	6138-6143	Quoth	_	_	_	_	_	_	_
-76-2	6144-6147	the	animal[505]	giv:act[505]	nonsal[505]	_	cf1*[505]	coref	77-2[508_505]
-76-3	6148-6153	Raven	animal[505]	giv:act[505]	nonsal[505]	_	cf1*[505]	_	_
+76-2	6144-6147	the	animal[506]	giv:act[506]	sal[506]	_	cf1*[506]	coref	77-2[509_506]
+76-3	6148-6153	Raven	animal[506]	giv:act[506]	sal[506]	_	cf1*[506]	_	_
 76-4	6154-6155	,	_	_	_	_	_	_	_
 76-5	6156-6157	"	_	_	_	_	_	_	_
-76-6	6158-6167	Nevermore	_	_	_	_	cf2[506]	_	_
+76-6	6158-6167	Nevermore	_	_	_	_	cf2[507]	_	_
 76-7	6168-6169	.	_	_	_	_	_	_	_
 76-8	6170-6171	"	_	_	_	_	_	_	_
 
 #Text=And the Raven , never flitting , still is sitting , still is sitting On the pallid bust of Pallas just above my chamber door ;
 77-1	6172-6175	And	_	_	_	_	_	_	_
-77-2	6176-6179	the	animal[508]	giv:act[508]	nonsal[508]	_	cf1*[508]	ana	78-2[516_508]
-77-3	6180-6185	Raven	animal[508]	giv:act[508]	nonsal[508]	_	cf1*[508]	_	_
+77-2	6176-6179	the	animal[509]	giv:act[509]	sal[509]	_	cf1*[509]	ana	78-2[517_509]
+77-3	6180-6185	Raven	animal[509]	giv:act[509]	sal[509]	_	cf1*[509]	_	_
 77-4	6186-6187	,	_	_	_	_	_	_	_
 77-5	6188-6193	never	_	_	_	_	_	_	_
 77-6	6194-6202	flitting	_	_	_	_	_	_	_
@@ -1469,69 +1469,69 @@
 77-13	6230-6232	is	_	_	_	_	_	_	_
 77-14	6233-6240	sitting	_	_	_	_	_	_	_
 77-15	6241-6243	On	_	_	_	_	_	_	_
-77-16	6244-6247	the	object[509]	giv:inact[509]	nonsal[509]	_	cf3[509]	_	_
-77-17	6248-6254	pallid	object[509]	giv:inact[509]	nonsal[509]	_	cf3[509]	_	_
-77-18	6255-6259	bust	object[509]	giv:inact[509]	nonsal[509]	_	cf3[509]	_	_
-77-19	6260-6262	of	object[509]	giv:inact[509]	nonsal[509]	_	cf3[509]	_	_
-77-20	6263-6269	Pallas	object[509]|person[510]	giv:inact[509]|giv:inact[510]	nonsal[509]|nonsal[510]	Athena[510]	cf3[509]|cf4[510]	_	_
+77-16	6244-6247	the	object[510]	giv:inact[510]	nonsal[510]	_	cf3[510]	_	_
+77-17	6248-6254	pallid	object[510]	giv:inact[510]	nonsal[510]	_	cf3[510]	_	_
+77-18	6255-6259	bust	object[510]	giv:inact[510]	nonsal[510]	_	cf3[510]	_	_
+77-19	6260-6262	of	object[510]	giv:inact[510]	nonsal[510]	_	cf3[510]	_	_
+77-20	6263-6269	Pallas	object[510]|person[511]	giv:inact[510]|giv:inact[511]	nonsal[510]|nonsal[511]	Athena[511]	cf3[510]|cf4[511]	_	_
 77-21	6270-6274	just	_	_	_	_	_	_	_
 77-22	6275-6280	above	_	_	_	_	_	_	_
-77-23	6281-6283	my	place[512]|person[513]	giv:inact[512]|giv:inact[513]	nonsal[512]|nonsal[513]	_	cf5[512]|cf2[513]	ana	80-2[528_513]
-77-24	6284-6291	chamber	place[512]	giv:inact[512]	nonsal[512]	_	cf5[512]	_	_
-77-25	6292-6296	door	place[512]	giv:inact[512]	nonsal[512]	_	cf5[512]	_	_
+77-23	6281-6283	my	place[513]|person[514]	giv:inact[513]|giv:inact[514]	sal[513]|sal[514]	_	cf5[513]|cf2[514]	ana	80-2[529_514]
+77-24	6284-6291	chamber	place[513]	giv:inact[513]	sal[513]	_	cf5[513]	_	_
+77-25	6292-6296	door	place[513]	giv:inact[513]	sal[513]	_	cf5[513]	_	_
 77-26	6297-6298	;	_	_	_	_	_	_	_
 
 #Text=And his eyes have all the seeming of a demon 's that is dreaming
 78-1	6299-6302	And	_	_	_	_	_	_	_
-78-2	6303-6306	his	animal[516]	giv:act[516]	nonsal[516]	_	cf2[515]|cf1*[516]	ana	79-7[521_516]
-78-3	6307-6311	eyes	_	_	_	_	cf2[515]	_	_
+78-2	6303-6306	his	animal[517]	giv:act[517]	sal[517]	_	cf2[516]|cf1*[517]	ana	79-7[522_517]
+78-3	6307-6311	eyes	_	_	_	_	cf2[516]	_	_
 78-4	6312-6316	have	_	_	_	_	_	_	_
-78-5	6317-6320	all	_	_	_	_	cf3[518]	_	_
-78-6	6321-6324	the	_	_	_	_	cf3[518]	_	_
-78-7	6325-6332	seeming	_	_	_	_	cf3[518]	_	_
-78-8	6333-6335	of	_	_	_	_	cf3[518]	_	_
-78-9	6336-6337	a	_	_	_	_	cf3[518]|cf4[519]	_	_
-78-10	6338-6343	demon	_	_	_	_	cf3[518]|cf4[519]	_	_
-78-11	6344-6346	's	_	_	_	_	cf3[518]|cf4[519]	_	_
-78-12	6347-6351	that	_	_	_	_	cf3[518]|cf4[519]	_	_
-78-13	6352-6354	is	_	_	_	_	cf3[518]|cf4[519]	_	_
-78-14	6355-6363	dreaming	_	_	_	_	cf3[518]|cf4[519]	_	_
+78-5	6317-6320	all	_	_	_	_	cf3[519]	_	_
+78-6	6321-6324	the	_	_	_	_	cf3[519]	_	_
+78-7	6325-6332	seeming	_	_	_	_	cf3[519]	_	_
+78-8	6333-6335	of	_	_	_	_	cf3[519]	_	_
+78-9	6336-6337	a	_	_	_	_	cf3[519]|cf4[520]	_	_
+78-10	6338-6343	demon	_	_	_	_	cf3[519]|cf4[520]	_	_
+78-11	6344-6346	's	_	_	_	_	cf3[519]|cf4[520]	_	_
+78-12	6347-6351	that	_	_	_	_	cf3[519]|cf4[520]	_	_
+78-13	6352-6354	is	_	_	_	_	cf3[519]|cf4[520]	_	_
+78-14	6355-6363	dreaming	_	_	_	_	cf3[519]|cf4[520]	_	_
 
 #Text=And the lamp - light o'er him streaming throws his shadow on the floor ;
 79-1	6364-6367	And	_	_	_	_	_	_	_
-79-2	6368-6371	the	_	_	_	_	cf3[520]	_	_
-79-3	6372-6376	lamp	_	_	_	_	cf3[520]	_	_
-79-4	6377-6378	-	_	_	_	_	cf3[520]	_	_
-79-5	6379-6384	light	_	_	_	_	cf3[520]	_	_
-79-6	6385-6389	o'er	_	_	_	_	cf3[520]	_	_
-79-7	6390-6393	him	animal[521]	giv:act[521]	nonsal[521]	_	cf3[520]|cf1*[521]	ana	79-10[524_521]
+79-2	6368-6371	the	_	_	_	_	cf3[521]	_	_
+79-3	6372-6376	lamp	_	_	_	_	cf3[521]	_	_
+79-4	6377-6378	-	_	_	_	_	cf3[521]	_	_
+79-5	6379-6384	light	_	_	_	_	cf3[521]	_	_
+79-6	6385-6389	o'er	_	_	_	_	cf3[521]	_	_
+79-7	6390-6393	him	animal[522]	giv:act[522]	sal[522]	_	cf3[521]|cf1*[522]	ana	79-10[525_522]
 79-8	6394-6403	streaming	_	_	_	_	_	_	_
 79-9	6404-6410	throws	_	_	_	_	_	_	_
-79-10	6411-6414	his	abstract[523]|animal[524]	new[523]|giv:act[524]	nonsal[523]|nonsal[524]	_	cf4[523]|cf1*[524]	coref	80-6[530_523]
-79-11	6415-6421	shadow	abstract[523]	new[523]	nonsal[523]	_	cf4[523]	_	_
+79-10	6411-6414	his	abstract[524]|animal[525]	new[524]|giv:act[525]	nonsal[524]|sal[525]	_	cf4[524]|cf1*[525]	coref	80-6[531_524]
+79-11	6415-6421	shadow	abstract[524]	new[524]	nonsal[524]	_	cf4[524]	_	_
 79-12	6422-6424	on	_	_	_	_	_	_	_
-79-13	6425-6428	the	place[526]	giv:inact[526]	nonsal[526]	_	cf2[526]	coref	80-12[531_526]
-79-14	6429-6434	floor	place[526]	giv:inact[526]	nonsal[526]	_	cf2[526]	_	_
+79-13	6425-6428	the	place[527]	giv:inact[527]	nonsal[527]	_	cf2[527]	coref	80-12[532_527]
+79-14	6429-6434	floor	place[527]	giv:inact[527]	nonsal[527]	_	cf2[527]	_	_
 79-15	6435-6436	;	_	_	_	_	_	_	_
 
 #Text=And my soul from out that shadow that lies floating on the floor Shall be lifted — nevermore !
 80-1	6437-6440	And	_	_	_	_	_	_	_
-80-2	6441-6443	my	abstract[527]|person[528]	giv:inact[527]|giv:inact[528]	nonsal[527]|nonsal[528]	_	cf4[527]|cf3[528]	_	_
-80-3	6444-6448	soul	abstract[527]	giv:inact[527]	nonsal[527]	_	cf4[527]	_	_
+80-2	6441-6443	my	abstract[528]|person[529]	giv:inact[528]|giv:inact[529]	nonsal[528]|sal[529]	_	cf4[528]|cf3[529]	_	_
+80-3	6444-6448	soul	abstract[528]	giv:inact[528]	nonsal[528]	_	cf4[528]	_	_
 80-4	6449-6453	from	_	_	_	_	_	_	_
 80-5	6454-6457	out	_	_	_	_	_	_	_
-80-6	6458-6462	that	abstract[530]	giv:act[530]	nonsal[530]	_	cf1*[530]	_	_
-80-7	6463-6469	shadow	abstract[530]	giv:act[530]	nonsal[530]	_	cf1*[530]	_	_
-80-8	6470-6474	that	abstract[530]	giv:act[530]	nonsal[530]	_	cf1*[530]	_	_
-80-9	6475-6479	lies	abstract[530]	giv:act[530]	nonsal[530]	_	cf1*[530]	_	_
-80-10	6480-6488	floating	abstract[530]	giv:act[530]	nonsal[530]	_	cf1*[530]	_	_
-80-11	6489-6491	on	abstract[530]	giv:act[530]	nonsal[530]	_	cf1*[530]	_	_
-80-12	6492-6495	the	abstract[530]|place[531]	giv:act[530]|giv:act[531]	nonsal[530]|nonsal[531]	_	cf1*[530]|cf2[531]	_	_
-80-13	6496-6501	floor	abstract[530]|place[531]	giv:act[530]|giv:act[531]	nonsal[530]|nonsal[531]	_	cf1*[530]|cf2[531]	_	_
+80-6	6458-6462	that	abstract[531]	giv:act[531]	nonsal[531]	_	cf1*[531]	_	_
+80-7	6463-6469	shadow	abstract[531]	giv:act[531]	nonsal[531]	_	cf1*[531]	_	_
+80-8	6470-6474	that	abstract[531]	giv:act[531]	nonsal[531]	_	cf1*[531]	_	_
+80-9	6475-6479	lies	abstract[531]	giv:act[531]	nonsal[531]	_	cf1*[531]	_	_
+80-10	6480-6488	floating	abstract[531]	giv:act[531]	nonsal[531]	_	cf1*[531]	_	_
+80-11	6489-6491	on	abstract[531]	giv:act[531]	nonsal[531]	_	cf1*[531]	_	_
+80-12	6492-6495	the	abstract[531]|place[532]	giv:act[531]|giv:act[532]	nonsal[531]|nonsal[532]	_	cf1*[531]|cf2[532]	_	_
+80-13	6496-6501	floor	abstract[531]|place[532]	giv:act[531]|giv:act[532]	nonsal[531]|nonsal[532]	_	cf1*[531]|cf2[532]	_	_
 80-14	6502-6507	Shall	_	_	_	_	_	_	_
 80-15	6508-6510	be	_	_	_	_	_	_	_
 80-16	6511-6517	lifted	_	_	_	_	_	_	_
 80-17	6518-6519	—	_	_	_	_	_	_	_
-80-18	6520-6529	nevermore	_	_	_	_	cf5[532]	_	_
+80-18	6520-6529	nevermore	_	_	_	_	cf5[533]	_	_
 80-19	6530-6531	!	_	_	_	_	_	_	_
 

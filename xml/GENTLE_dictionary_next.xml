@@ -1,4 +1,4 @@
-<text id="GENTLE_dictionary_next" partition="test" author="Wiktionary" dateCollected="2022-11-14" dateCreated="2003-03-18" dateModified="2022-10-02" shortTitle="next" sourceURL="https://en.wiktionary.org/wiki/next" speakerCount="0" speakerList="none" title="next" type="dictionary">
+<text id="GENTLE_dictionary_next" partition="test" author="Wiktionary" dateCollected="2022-11-14" dateCreated="2003-03-18" dateModified="2022-10-02" shortTitle="next" sourceURL="https://en.wiktionary.org/wiki/next" speakerCount="0" speakerList="none" title="next" type="dictionary" summary="This dictionary entry for the word 'next' gives its dialectal forms, etymology as a superlative of 'near' from Middle and Old English nexte and nīehsta from Proto-Germanic *nēhwist, its cognates (e.g. Dutch naast, Danish næste), pronunciation /nεkst/ and related synonyms and antonyms, accompanied by usage examples as an adjective, determiner, adverb, preposition and noun.">
 <head>
 <s type="frag" transition="establishment">
 next	JJ	next	ORD	ADJ	root	_
@@ -321,10 +321,10 @@ Nearest	JJS	near	AJS	ADJ	root	_
 in	IN	in	PRP	ADP	case	_
 place	NN	place	NN1	NOUN	obl	_
 or	CC	or	CJC	CCONJ	cc	_
-position	NN	position	NN1	NOUN	conj	_
+position	NN	position	NN1	NOUN	conj	pos-it-ion
 ,	,	,	PUN	PUNCT	punct	_
 having	VHG	have	VHG	VERB	parataxis	hav-ing
-nothing	NN	nothing	NN1	PRON	obj	_
+nothing	NN	nothing	NN1	PRON	obj	no-thing
 similar	JJ	similar	AJ0	ADJ	amod	_
 intervening	VVG	intervene	VVG	VERB	xcomp	interven-ing
 ;	:	;	PUN	PUNCT	punct	_
@@ -345,7 +345,7 @@ kept	VVD	keep	VVD	VERB	root	_
 me	PP	I	PNP	PRON	obj	_
 awake	JJ	awake	AJ0	ADJ	xcomp	a-wake
 all	DT	all	DT0	DET	det	_
-night	NN	night	NN1	NOUN	obl:tmod	_
+night	NN	night	NN1	NOUN	obl:unmarked	_
 with	IN	with	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 snoring	NN	snoring	NN1	NOUN	obl	snor-ing
@@ -357,7 +357,7 @@ snoring	NN	snoring	NN1	NOUN	obl	snor-ing
 She	PP	she	PNP	PRON	nsubj	_
 lives	VVZ	life	VVZ	VERB	root	_
 a	DT	a	AT0	DET	det	_
-mile	NN	mile	NN1	NOUN	obl:npmod	_
+mile	NN	mile	NN1	NOUN	obl:unmarked	_
 or	CC	or	CJC	CCONJ	cc	_
 two	CD	two	CRD	NUM	conj	_
 away	RB	away	AV0	ADV	advmod	a-way
@@ -559,7 +559,7 @@ next	JJ	next	ORD	ADJ	parataxis	_
 Nigh	JJ	nigh	AJ0	ADJ	nsubj:pass	_
 is	VBZ	be	VBZ	AUX	aux:pass	_
 used	VVN	use	VVN	VERB	root	us-ed
-today	NN	today	NN1	NOUN	obl:tmod	to-day
+today	NN	today	NN1	NOUN	obl:unmarked	to-day
 mostly	RB	mostly	AV0	ADV	advmod	most-ly
 in	IN	in	PRP	ADP	case	_
 archaic	JJ	archaic	AJ0	ADJ	amod	_
@@ -683,7 +683,7 @@ I	PP	I	PNP	PRON	nsubj	_
 know	VV	know	VVI	VERB	root	_
 better	RBR	well	AV0	ADV	advmod	bett-er
 next	JJ	next	ORD	ADJ	amod	_
-time	NN	time	NN1	NOUN	obl:tmod	_
+time	NN	time	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </hi>
 </s>
@@ -732,7 +732,7 @@ specifically	RB	specifically	AV0	ADV	advmod	specif-ic-ally
 refer	VV	refer	VVI	VERB	xcomp	_
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-instance	NN	instance	NN1	NOUN	obl	_
+instance	NN	instance	NN1	NOUN	obl	instan-ce
 closest	JJS	close	AJS	ADJ	amod	clos-est
 to	IN	to	PRP	ADP	case	_
 seven	CD	seven	CRD	NUM	nummod	_
@@ -781,11 +781,11 @@ you	PP	you	PNP	PRON	nsubj	_
 mean	VV	mean	VVI	VERB	root	_
 Thursday	NP	Thursday	NP0	PROPN	obj	_
 this	DT	this	DT0	DET	det	_
-week	NN	week	NN1	NOUN	nmod:tmod	_
+week	NN	week	NN1	NOUN	nmod:unmarked	_
 or	CC	or	CJC	CCONJ	cc	_
 Thursday	NP	Thursday	NP0	PROPN	conj	_
 next	JJ	next	ORD	ADJ	amod	_
-week	NN	week	NN1	NOUN	nmod:tmod	_
+week	NN	week	NN1	NOUN	nmod:unmarked	_
 ?	SENT	?	PUN	PUNCT	punct	_
 </hi>
 </s>
@@ -825,7 +825,8 @@ coming	VVG	come	VVG	VERB	root	com-ing
 <ref target="https://en.wiktionary.org/wiki/week">
 week	NN	week	NN1	NOUN	root	_
 </ref>
-(as	(	(as	PUL	PUNCT	case	_
+(	(	(	PUL	PUNCT	punct	_
+as	IN	as	CJS	ADP	case	_
 in	IN	in	PRP	ADP	case	_
 <hi rend="italic">
 Saturday	NP	Saturday	NP0	PROPN	compound	_
@@ -840,7 +841,7 @@ week	NN	week	NN1	NOUN	parataxis	_
 Adverb	NN	adverb	NN1	NOUN	root	_
 </hi>
 </s>
-<s type="frag" transition="null">
+<s type="frag" transition="establishment">
 <hi rend="bold">
 next	RB	next	ORD	ADV	root	_
 </hi>
@@ -855,7 +856,7 @@ comparable	JJ	comparable	AJ0	ADJ	parataxis	compar-able
 </s>
 <list type="ordered">
 <item>
-<s type="frag" transition="null">
+<s type="frag" transition="zero">
 In	IN	in	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 time	NN	time	NN1	NOUN	obl	_
@@ -864,7 +865,7 @@ place	NN	place	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 rank	NN	rank	NN1	NOUN	conj	_
 or	CC	or	CJC	CCONJ	cc	_
-sequence	NN	sequence	NN1	NOUN	conj	_
+sequence	NN	sequence	NN1	NOUN	conj	sequen-ce
 closest	JJS	close	AJS	ADJ	root	clos-est
 or	CC	or	CJC	CCONJ	cc	_
 following	VVG	follow	VVG	VERB	conj	follow-ing
@@ -909,8 +910,8 @@ follow	VV	follow	VVI	VERB	root	_
 in	IN	in	PRP	ADP	case	_
 time	NN	time	NN1	NOUN	obl	_
 or	CC	or	CJC	CCONJ	cc	_
-sequence	NN	sequence	NN1	NOUN	conj	_
-something	NN	something	NN1	PRON	obj	_
+sequence	NN	sequence	NN1	NOUN	conj	sequen-ce
+something	NN	something	NN1	PRON	obj	some-thing
 previously	RB	previously	AV0	ADV	advmod	previous-ly
 mentioned	VVN	mention	VVN	VERB	acl	mention-ed
 .	SENT	.	PUN	PUNCT	punct	_
@@ -1002,14 +1003,14 @@ previously	RB	previously	AV0	ADV	root	previous-ly
 Preposition	NN	preposition	NN1	NOUN	root	Pre-pos-it-ion
 </hi>
 </s>
-<s type="frag" transition="null">
+<s type="frag" transition="establishment">
 <hi rend="bold">
 next	JJ	next	ORD	ADJ	root	_
 </hi>
 </s>
 <list type="ordered">
 <item>
-<s type="frag" transition="null">
+<s type="frag" transition="zero">
 <hi rend="italic">
 (	(	(	PUL	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Appendix:Glossary#obsolete">
@@ -1044,7 +1045,7 @@ to	IN	to	PRP	ADP	obl	_
 Noun	NN	noun	NN1	NOUN	root	_
 </hi>
 </s>
-<s type="frag" transition="null">
+<s type="frag" transition="establishment">
 <hi rend="bold">
 next	JJ	next	ORD	ADJ	root	_
 </hi>
@@ -1058,7 +1059,7 @@ uncountable	JJ	uncountable	AJ0	ADJ	parataxis	un-count-able
 </s>
 <list type="ordered">
 <item>
-<s type="frag" transition="null">
+<s type="frag" transition="zero">
 The	DT	the	AT0	DET	det	_
 one	NN	one	NN1	NOUN	root	_
 that	WDT	that	CJT	PRON	nsubj	_
@@ -1086,13 +1087,13 @@ queue	NN	queue	NN1	NOUN	obj	_
 <s type="decl" transition="null">
 <hi rend="italic">
 One	CD	one	CRD	NUM	nummod	_
-moment	NN	moment	NN1	NOUN	obl:npmod	_
+moment	NN	moment	NN1	NOUN	obl:unmarked	_
 she	PP	she	PNP	PRON	nsubj	_
 was	VBD	be	VBD	AUX	cop	_
 there	RB	there	AV0	ADV	root	_
 ,	,	,	PUN	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
-next	JJ	next	ORD	ADJ	obl:tmod	_
+next	JJ	next	ORD	ADJ	obl:unmarked	_
 she	PP	she	PNP	PRON	nsubj	_
 was	VBD	be	VBD	AUX	parataxis	_
 n't	RB	not	XX0	PART	advmod	_

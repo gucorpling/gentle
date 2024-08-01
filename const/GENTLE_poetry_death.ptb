@@ -67,7 +67,7 @@
               (VBD strove)
               (PP (IN At) (NP (NN recess)))
               (: —)
-              (PP (IN in) (NP (DT the) (NN ring))))))))
+              (PP-LOC (IN in) (NP (DT the) (NN ring))))))))
     (: —)))
 
 (ROOT

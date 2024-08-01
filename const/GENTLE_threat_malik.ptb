@@ -378,7 +378,7 @@
                       (S
                         (NP-SBJ (PRP you) (NNS Judges))
                         (ADVP-TMP (RB never))
-                        (VP (VB here) (PP (IN of) (NP (PRP it))))))))))))))
+                        (VP (VBP here) (PP (IN of) (NP (PRP it))))))))))))))
     (. .)))
 
 (ROOT

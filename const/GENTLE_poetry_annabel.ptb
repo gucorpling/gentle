@@ -6,9 +6,7 @@
     (VP
       (VBD was)
       (ADVP-TMP
-        (NP
-          (QP (JJ many) (CC and) (JJ many))
-          (NP-TMP (DT a) (NN year)))
+        (NP (QP (JJ many) (CC and) (JJ many)) (NP (DT a) (NN year)))
         (RB ago))
       (, ,)
       (PP-LOC
@@ -352,7 +350,7 @@
     (CC And)
     (ADVP (RB so))
     (, ,)
-    (NP-TMP (RB all) (DT the) (NN night) (: -) (NN tide))
+    (NP (RB all) (DT the) (NN night) (: -) (NN tide))
     (, ,)
     (NP-SBJ (PRP I))
     (VP

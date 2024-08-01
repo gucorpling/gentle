@@ -223,7 +223,7 @@
                                 )
                                 ( Nucleus (span 80 81) (rel2par joint-other)
                                   ( Nucleus (leaf 80) (rel2par span) (text _!This probably will heal by secondary intention_!) )
-                                  ( Satellite (leaf 81) (rel2par contingency-condition) (text _!once chemotherapy is finished ._!) )
+                                  ( Satellite (leaf 81) (rel2par context-circumstance) (text _!once chemotherapy is finished ._!) )
                                 )
                               )
                             )

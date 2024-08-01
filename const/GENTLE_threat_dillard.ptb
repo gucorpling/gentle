@@ -219,7 +219,7 @@
         (VP
           (VBG checking)
           (PP (IN under) (NP (PRP$ your) (NN car)))
-          (NP-TMP (DT every) (NN day))
+          (NP (DT every) (NN day))
           (: —)
           (SBAR
             (IN because)

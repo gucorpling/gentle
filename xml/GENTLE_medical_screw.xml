@@ -1,4 +1,4 @@
-<text id="GENTLE_medical_screw" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="screw" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2082-Followup%20Screw%20Fixation" speakerCount="0" speakerList="none" title="Followup Screw Fixation" type="medical">
+<text id="GENTLE_medical_screw" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="screw" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2082-Followup%20Screw%20Fixation" speakerCount="0" speakerList="none" title="Followup Screw Fixation" type="medical" summary="A 59-year-old man's followup 4 months post percutaneous screw fixation of a right Schatzker IV tibial plateau fracture and 2nd-5th metatarsal head fractures shows good pain control and incision and fracture healing, but decreased foot sensation (L4-L5 distribution bilaterally) and bridging callus, recommending physical therapy and neurologist/surgeon if paresthesias worsen.">
 <head rend="bold red">
 <s type="frag" transition="establishment">
 Description	NN	description	NN1	NOUN	root	Descrip-tion
@@ -9,7 +9,7 @@ Description	NN	description	NN1	NOUN	root	Descrip-tion
 <s type="frag" transition="null">
 Followup	NN	followup	NN1	NOUN	nmod	_
 4	CD	4	CRD	NUM	nummod	_
-months	NNS	month	NN2	NOUN	nmod:npmod	mon-th-s
+months	NNS	month	NN2	NOUN	nmod:unmarked	mon-th-s
 status	NN	status	NN1	NOUN	root	_
 post	IN	post	PRP	ADP	case	_
 percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
@@ -19,7 +19,7 @@ of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
 right	JJ	right	AJ0	ADJ	amod	_
 Schatzker	NP	Schatzker	NP0	PROPN	compound	_
-IV	NP	IV	NP0	PROPN	nmod:npmod	_
+IV	NP	IV	NP0	PROPN	nmod:unmarked	_
 tibial	JJ	tibial	AJ0	ADJ	amod	_
 plateau	NN	plateau	NN1	NOUN	compound	_
 fracture	NN	fracture	NN1	NOUN	nmod	_
@@ -47,7 +47,7 @@ VISIT	NN	visit	NN1	NOUN	nmod	_
 <s type="frag" transition="null">
 Followup	NN	followup	NN1	NOUN	dep	_
 4	CD	4	CRD	NUM	nummod	_
-months	NNS	month	NN2	NOUN	nmod:npmod	mon-th-s
+months	NNS	month	NN2	NOUN	nmod:unmarked	mon-th-s
 status	NN	status	NN1	NOUN	root	_
 post	IN	post	PRP	ADP	case	_
 percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
@@ -57,7 +57,7 @@ of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
 right	JJ	right	AJ0	ADJ	amod	_
 Schatzker	NP	Schatzker	NP0	PROPN	compound	_
-IV	NP	IV	NP0	PROPN	nmod:npmod	_
+IV	NP	IV	NP0	PROPN	nmod:unmarked	_
 tibial	JJ	tibial	AJ0	ADJ	amod	_
 plateau	NN	plateau	NN1	NOUN	compound	_
 fracture	NN	fracture	NN1	NOUN	nmod	_
@@ -101,7 +101,7 @@ is	VBZ	be	VBZ	AUX	cop	_
 now	RB	now	AV0	ADV	advmod	_
 approximately	RB	approximately	AV0	ADV	advmod	approximate-ly
 4	CD	4	CRD	NUM	nummod	_
-months	NNS	month	NN2	NOUN	obl:npmod	mon-th-s
+months	NNS	month	NN2	NOUN	obl:unmarked	mon-th-s
 status	NN	status	NN1	NOUN	acl:relcl	_
 post	NN	post	NN1	NOUN	case	_
 percutaneous	JJ	percutaneous	AJ0	ADJ	amod	per-cutan-eous
@@ -136,7 +136,7 @@ has	VHZ	have	VHZ	AUX	aux	ha-s
 left	VVN	leave	VVN	VERB	conj	_
 nursing	NN	nursing	NN1	NOUN	compound	nurs-ing
 home	NN	home	NN1	NOUN	compound	_
-facility	NN	facility	NN1	NOUN	obj	_
+facility	NN	facility	NN1	NOUN	obj	facil-ity
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -163,7 +163,7 @@ to	IN	to	PRP	ADP	case	_
 three	CD	three	CRD	NUM	nmod	_
 times	NNS	time	NN2	NOUN	advmod	time-s
 a	DT	a	AT0	DET	det	_
-week	NN	week	NN1	NOUN	nmod:npmod	_
+week	NN	week	NN1	NOUN	nmod:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">

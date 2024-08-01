@@ -160,7 +160,7 @@
           (PP (IN with) (NP (JJ physical) (NN therapy)))
           (NP
             (NP (QP (CD two) (IN to) (CD three)) (NNS times))
-            (NP-ADV (DT a) (NN week))))))
+            (NP (DT a) (NN week))))))
     (. .)))
 
 (ROOT

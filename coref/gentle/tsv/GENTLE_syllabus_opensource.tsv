@@ -4,24 +4,24 @@
 
 
 #Text=CSCI-4470-01
-1-1	0-12	CSCI-4470-01	abstract[1]	new[1]	nonsal[1]	_	cf1[1]	coref	2-1[3_1]	
+1-1	0-12	CSCI-4470-01	abstract[1]	new[1]	sal[1]	_	cf1[1]	coref	2-1[3_1]	
 
 #Text=Open Source Software Spring Semester 2022
-2-1	13-17	Open	abstract[3]|abstract[4]	giv:act[3]|new[4]	nonsal[3]|nonsal[4]	_	cf1*[3]|cf4[4]	pred|coref	3-25[20_3]|3-1[10_4]	
-2-2	18-24	Source	abstract[3]|abstract[4]	giv:act[3]|new[4]	nonsal[3]|nonsal[4]	_	cf1*[3]|cf4[4]	_	_	
-2-3	25-33	Software	abstract[3]	giv:act[3]	nonsal[3]	_	cf1*[3]	_	_	
-2-4	34-40	Spring	time[5]|time[6]	new[5]|new[6]	nonsal[5]|nonsal[6]	_	cf2[5]|cf5[6]	bridge:def	53-7[245_5]	
+2-1	13-17	Open	abstract[3]|abstract[4]	giv:act[3]|new[4]	sal[3]|sal[4]	_	cf1*[3]|cf4[4]	pred|coref	3-25[20_3]|3-1[10_4]	
+2-2	18-24	Source	abstract[3]|abstract[4]	giv:act[3]|new[4]	sal[3]|sal[4]	_	cf1*[3]|cf4[4]	_	_	
+2-3	25-33	Software	abstract[3]	giv:act[3]	sal[3]	_	cf1*[3]	_	_	
+2-4	34-40	Spring	time[5]|time[6]	new[5]|new[6]	nonsal[5]|sal[6]	_	cf2[5]|cf5[6]	bridge:def	53-7[245_5]	
 2-5	41-49	Semester	time[5]	new[5]	nonsal[5]	_	cf2[5]	_	_	
-2-6	50-54	2022	time[5]|time[7]	new[5]|new[7]	nonsal[5]|nonsal[7]	_	cf2[5]|cf3[7]	coref	103-9[414_7]	
+2-6	50-54	2022	time[5]|time[7]	new[5]|new[7]	nonsal[5]|sal[7]	_	cf2[5]|cf3[7]	coref	103-9[414_7]	
 
 #Text=Open Source has been taught at RPI since Fall of 2007 ( taught jointly by Dr. William Shroeder and Dr. Luis Ibanez ) as a 4000 level class , and then by Mukkai Krishnamoorthy as a 2000 level class .
-3-1	55-59	Open	abstract[10]	giv:act[10]	nonsal[10]	_	cf1*[10]	coref	5-5[33_10]	
-3-2	60-66	Source	abstract[10]	giv:act[10]	nonsal[10]	_	cf1*[10]	_	_	
+3-1	55-59	Open	abstract[10]	giv:act[10]	sal[10]	_	cf1*[10]	coref	5-5[33_10]	
+3-2	60-66	Source	abstract[10]	giv:act[10]	sal[10]	_	cf1*[10]	_	_	
 3-3	67-70	has	_	_	_	_	_	_	_	
 3-4	71-75	been	_	_	_	_	_	_	_	
 3-5	76-82	taught	abstract[11]	new[11]	nonsal[11]	_	cf9[11]	disc	4-4[27_11]	
 3-6	83-85	at	abstract[11]	new[11]	nonsal[11]	_	cf9[11]	_	_	
-3-7	86-89	RPI	abstract[11]|organization[12]	new[11]|new[12]	nonsal[11]|nonsal[12]	Rensselaer_Polytechnic_Institute[12]	cf9[11]|cf6[12]	coref	8-21[57_12]	
+3-7	86-89	RPI	abstract[11]|organization[12]	new[11]|new[12]	nonsal[11]|sal[12]	Rensselaer_Polytechnic_Institute[12]	cf9[11]|cf6[12]	coref	8-21[57_12]	
 3-8	90-95	since	abstract[11]	new[11]	nonsal[11]	_	cf9[11]	_	_	
 3-9	96-100	Fall	abstract[11]|time[14]	new[11]|new[14]	nonsal[11]|nonsal[14]	_	cf9[11]|cf7[14]	_	_	
 3-10	101-103	of	abstract[11]|time[14]	new[11]|new[14]	nonsal[11]|nonsal[14]	_	cf9[11]|cf7[14]	_	_	
@@ -39,10 +39,10 @@
 3-22	163-169	Ibanez	abstract[11]|person[17]|person[19]	new[11]|new[17]|giv:act[19]	nonsal[11]|nonsal[17]|nonsal[19]	_	cf9[11]|cf4[17]|cf2[19]	_	_	
 3-23	170-171	)	abstract[11]	new[11]	nonsal[11]	_	cf9[11]	_	_	
 3-24	172-174	as	abstract[11]	new[11]	nonsal[11]	_	cf9[11]	_	_	
-3-25	175-176	a	abstract[11]|abstract[20]	new[11]|giv:act[20]	nonsal[11]|nonsal[20]	_	cf9[11]|cf3[20]	ana	4-8[28_20]	
-3-26	177-181	4000	abstract[11]|abstract[20]|abstract[21]	new[11]|giv:act[20]|new[21]	nonsal[11]|nonsal[20]|nonsal[21]	_	cf9[11]|cf3[20]|cf11[21]	_	_	
-3-27	182-187	level	abstract[11]|abstract[20]|abstract[21]	new[11]|giv:act[20]|new[21]	nonsal[11]|nonsal[20]|nonsal[21]	_	cf9[11]|cf3[20]|cf11[21]	_	_	
-3-28	188-193	class	abstract[11]|abstract[20]	new[11]|giv:act[20]	nonsal[11]|nonsal[20]	_	cf9[11]|cf3[20]	_	_	
+3-25	175-176	a	abstract[11]|abstract[20]	new[11]|giv:act[20]	nonsal[11]|sal[20]	_	cf9[11]|cf3[20]	ana	4-8[28_20]	
+3-26	177-181	4000	abstract[11]|abstract[20]|abstract[21]	new[11]|giv:act[20]|new[21]	nonsal[11]|sal[20]|nonsal[21]	_	cf9[11]|cf3[20]|cf11[21]	_	_	
+3-27	182-187	level	abstract[11]|abstract[20]|abstract[21]	new[11]|giv:act[20]|new[21]	nonsal[11]|sal[20]|nonsal[21]	_	cf9[11]|cf3[20]|cf11[21]	_	_	
+3-28	188-193	class	abstract[11]|abstract[20]	new[11]|giv:act[20]	nonsal[11]|sal[20]	_	cf9[11]|cf3[20]	_	_	
 3-29	194-195	,	_	_	_	_	_	_	_	
 3-30	196-199	and	_	_	_	_	_	_	_	
 3-31	200-204	then	_	_	_	_	_	_	_	
@@ -64,12 +64,12 @@
 4-5	276-285	tradition	abstract[27]	giv:act[27]	nonsal[27]	_	cf2[27]	_	_	
 4-6	286-288	by	_	_	_	_	_	_	_	
 4-7	289-297	offering	_	_	_	_	_	_	_	
-4-8	298-300	it	abstract[28]	giv:act[28]	nonsal[28]	_	cf1*[28]	pred	4-10[30_28]	
+4-8	298-300	it	abstract[28]	giv:act[28]	sal[28]	_	cf1*[28]	pred	4-10[30_28]	
 4-9	301-303	as	_	_	_	_	_	_	_	
-4-10	304-305	a	abstract[30]	giv:act[30]	nonsal[30]	_	cf1*[30]	coref	5-11[35_30]	
-4-11	306-310	4000	abstract[30]|abstract[31]	giv:act[30]|new[31]	nonsal[30]|nonsal[31]	_	cf1*[30]|cf4[31]	_	_	
-4-12	311-316	level	abstract[30]|abstract[31]	giv:act[30]|new[31]	nonsal[30]|nonsal[31]	_	cf1*[30]|cf4[31]	_	_	
-4-13	317-323	course	abstract[30]	giv:act[30]	nonsal[30]	_	cf1*[30]	_	_	
+4-10	304-305	a	abstract[30]	giv:act[30]	sal[30]	_	cf1*[30]	coref	5-11[35_30]	
+4-11	306-310	4000	abstract[30]|abstract[31]	giv:act[30]|new[31]	sal[30]|nonsal[31]	_	cf1*[30]|cf4[31]	_	_	
+4-12	311-316	level	abstract[30]|abstract[31]	giv:act[30]|new[31]	sal[30]|nonsal[31]	_	cf1*[30]|cf4[31]	_	_	
+4-13	317-323	course	abstract[30]	giv:act[30]	sal[30]	_	cf1*[30]	_	_	
 4-14	324-325	.	_	_	_	_	_	_	_	
 
 #Text=In the spirit of Open Source , all of the course notes are available online in Github : https://github.com/rcos/CSCI-4470-OpenSource
@@ -77,13 +77,13 @@
 5-2	329-332	the	abstract[32]	new[32]	nonsal[32]	_	cf5[32]	_	_	
 5-3	333-339	spirit	abstract[32]	new[32]	nonsal[32]	_	cf5[32]	_	_	
 5-4	340-342	of	abstract[32]	new[32]	nonsal[32]	_	cf5[32]	_	_	
-5-5	343-347	Open	abstract[32]|abstract[33]	new[32]|giv:inact[33]	nonsal[32]|nonsal[33]	_	cf5[32]|cf3[33]	coref	43-14[196_33]	
-5-6	348-354	Source	abstract[32]|abstract[33]	new[32]|giv:inact[33]	nonsal[32]|nonsal[33]	_	cf5[32]|cf3[33]	_	_	
+5-5	343-347	Open	abstract[32]|abstract[33]	new[32]|giv:inact[33]	nonsal[32]|sal[33]	_	cf5[32]|cf3[33]	coref	43-14[196_33]	
+5-6	348-354	Source	abstract[32]|abstract[33]	new[32]|giv:inact[33]	nonsal[32]|sal[33]	_	cf5[32]|cf3[33]	_	_	
 5-7	355-356	,	_	_	_	_	_	_	_	
 5-8	357-360	all	abstract[34]	new[34]	nonsal[34]	_	cf4[34]	_	_	
 5-9	361-363	of	abstract[34]	new[34]	nonsal[34]	_	cf4[34]	_	_	
 5-10	364-367	the	abstract[34]	new[34]	nonsal[34]	_	cf4[34]	_	_	
-5-11	368-374	course	abstract[34]|abstract[35]	new[34]|giv:act[35]	nonsal[34]|nonsal[35]	_	cf4[34]|cf2*[35]	coref	38-1[154_35]	
+5-11	368-374	course	abstract[34]|abstract[35]	new[34]|giv:act[35]	nonsal[34]|sal[35]	_	cf4[34]|cf2*[35]	coref	38-1[154_35]	
 5-12	375-380	notes	abstract[34]	new[34]	nonsal[34]	_	cf4[34]	_	_	
 5-13	381-384	are	_	_	_	_	_	_	_	
 5-14	385-394	available	_	_	_	_	_	_	_	
@@ -131,7 +131,7 @@
 8-18	670-674	Luis	abstract[53]|person[54]|person[56]	new[53]|giv:inact[54]|giv:act[56]	nonsal[53]|nonsal[54]|nonsal[56]	_	cf6[53]|cf3[54]|cf1[56]	_	_	
 8-19	675-681	Ibanez	abstract[53]|person[54]|person[56]	new[53]|giv:inact[54]|giv:act[56]	nonsal[53]|nonsal[54]|nonsal[56]	_	cf6[53]|cf3[54]|cf1[56]	_	_	
 8-20	682-684	at	abstract[53]	new[53]	nonsal[53]	_	cf6[53]	_	_	
-8-21	685-688	RPI	abstract[53]|organization[57]	new[53]|giv:inact[57]	nonsal[53]|nonsal[57]	Rensselaer_Polytechnic_Institute[57]	cf6[53]|cf4[57]	coref	42-7[184_57]	
+8-21	685-688	RPI	abstract[53]|organization[57]	new[53]|giv:inact[57]	nonsal[53]|sal[57]	Rensselaer_Polytechnic_Institute[57]	cf6[53]|cf4[57]	coref	42-7[184_57]	
 8-22	689-690	,	_	_	_	_	_	_	_	
 
 #Text=And by Professor Mukkai Krishnamoorthy who succeeded them in teaching the course
@@ -183,11 +183,11 @@
 12-1	928-934	People	person[75]	new[75]	nonsal[75]	_	cf1[75]	_	_	
 
 #Text=Professor
-13-1	935-944	Professor	person[76]	new[76]	nonsal[76]	_	cf1[76]	coref	14-1[80_76]	
+13-1	935-944	Professor	person[76]	new[76]	sal[76]	_	cf1[76]	coref	14-1[80_76]	
 
 #Text=Wesley Turner
-14-1	945-951	Wesley	person[80]	giv:act[80]	nonsal[80]	_	cf1*[80]	ana	19-17[98_80]	
-14-2	952-958	Turner	person[80]	giv:act[80]	nonsal[80]	_	cf1*[80]	_	_	
+14-1	945-951	Wesley	person[80]	giv:act[80]	sal[80]	_	cf1*[80]	ana	19-17[98_80]	
+14-2	952-958	Turner	person[80]	giv:act[80]	sal[80]	_	cf1*[80]	_	_	
 
 #Text=Amos Eaton 207
 15-1	959-963	Amos	place[81]	new[81]	nonsal[81]	_	cf1[81]	_	_	
@@ -227,7 +227,7 @@
 19-14	1128-1133	11:30	time[93]|time[96]	new[93]|new[96]	nonsal[93]|nonsal[96]	_	cf6[93]|cf8[96]	_	_	
 19-15	1134-1136	am	time[93]|time[96]	new[93]|new[96]	nonsal[93]|nonsal[96]	_	cf6[93]|cf8[96]	_	_	
 19-16	1137-1139	in	_	_	_	_	_	_	_	
-19-17	1140-1142	my	abstract[97]|person[98]	giv:inact[97]|giv:inact[98]	nonsal[97]|nonsal[98]	_	cf2[97]|cf1[98]	coref	40-18[176_98]	
+19-17	1140-1142	my	abstract[97]|person[98]	giv:inact[97]|giv:inact[98]	nonsal[97]|sal[98]	_	cf2[97]|cf1[98]	coref	40-18[176_98]	
 19-18	1143-1148	WebEx	abstract[97]	giv:inact[97]	nonsal[97]	_	cf2[97]	_	_	
 19-19	1149-1150	(	_	_	_	_	_	_	_	
 19-20	1151-1156	above	_	_	_	_	_	_	_	
@@ -238,7 +238,7 @@
 19-25	1167-1178	appointment	event[99]	new[99]	nonsal[99]	_	cf3[99]	_	_	
 
 #Text=TAs
-20-1	1179-1182	TAs	person[100]	new[100]	nonsal[100]	_	cf1[100]	_	_	
+20-1	1179-1182	TAs	person[100]	new[100]	sal[100]	_	cf1[100]	_	_	
 
 #Text=Mohammed Shahid Modi
 21-1	1183-1191	Mohammed	person[104]	new[104]	nonsal[104]	_	cf1[104]	_	_	
@@ -325,17 +325,17 @@
 37-4	1617-1620	TBD	_	_	_	_	_	_	_	
 
 #Text=The course will meet in Sage 5510 on Tuesdays and Fridays from 10:30 pm - 12:35 pm .
-38-1	1621-1624	The	abstract[154]	giv:inact[154]	nonsal[154]	_	cf1[154]	coref	39-1[163_154]	
-38-2	1625-1631	course	abstract[154]	giv:inact[154]	nonsal[154]	_	cf1[154]	_	_	
+38-1	1621-1624	The	abstract[154]	giv:inact[154]	sal[154]	_	cf1[154]	coref	39-1[163_154]	
+38-2	1625-1631	course	abstract[154]	giv:inact[154]	sal[154]	_	cf1[154]	_	_	
 38-3	1632-1636	will	_	_	_	_	_	_	_	
 38-4	1637-1641	meet	_	_	_	_	_	_	_	
 38-5	1642-1644	in	_	_	_	_	_	_	_	
 38-6	1645-1649	Sage	place[155]	new[155]	nonsal[155]	_	cf2[155]	_	_	
 38-7	1650-1654	5510	place[155]	new[155]	nonsal[155]	_	cf2[155]	_	_	
 38-8	1655-1657	on	_	_	_	_	_	_	_	
-38-9	1658-1666	Tuesdays	time[156]	new[156]	nonsal[156]	_	cf3[156]	_	_	
+38-9	1658-1666	Tuesdays	time[156]	new[156]	sal[156]	_	cf3[156]	_	_	
 38-10	1667-1670	and	_	_	_	_	_	_	_	
-38-11	1671-1678	Fridays	time[157]	new[157]	nonsal[157]	_	cf4[157]	_	_	
+38-11	1671-1678	Fridays	time[157]	new[157]	sal[157]	_	cf4[157]	_	_	
 38-12	1679-1683	from	_	_	_	_	_	_	_	
 38-13	1684-1689	10:30	time[160]	new[160]	nonsal[160]	_	cf5[160]	_	_	
 38-14	1690-1692	pm	time[160]	new[160]	nonsal[160]	_	cf5[160]	_	_	
@@ -345,7 +345,7 @@
 38-18	1704-1705	.	_	_	_	_	_	_	_	
 
 #Text=Class discussions are an important part of the lecture and the labs so attendance is required .
-39-1	1706-1711	Class	event[162]|abstract[163]	new[162]|giv:act[163]	nonsal[162]|nonsal[163]	_	cf1[162]|cf2*[163]	pred|coref	39-4[165_162]|42-1[182_163]	
+39-1	1706-1711	Class	event[162]|abstract[163]	new[162]|giv:act[163]	nonsal[162]|sal[163]	_	cf1[162]|cf2*[163]	pred|coref	39-4[165_162]|42-1[182_163]	
 39-2	1712-1723	discussions	event[162]	new[162]	nonsal[162]	_	cf1[162]	_	_	
 39-3	1724-1727	are	_	_	_	_	_	_	_	
 39-4	1728-1730	an	event[165]	giv:act[165]	nonsal[165]	_	cf1[165]	_	_	
@@ -381,8 +381,8 @@
 40-15	1887-1888	,	_	_	_	_	_	_	_	
 40-16	1889-1895	please	_	_	_	_	_	_	_	
 40-17	1896-1903	contact	_	_	_	_	_	_	_	
-40-18	1904-1909	Prof.	person[176]	giv:inact[176]	nonsal[176]	_	cf1[176]	coref	105-6[422_176]	
-40-19	1910-1916	Turner	person[176]	giv:inact[176]	nonsal[176]	_	cf1[176]	_	_	
+40-18	1904-1909	Prof.	person[176]	giv:inact[176]	sal[176]	_	cf1[176]	coref	105-6[422_176]	
+40-19	1910-1916	Turner	person[176]	giv:inact[176]	sal[176]	_	cf1[176]	_	_	
 40-20	1917-1920	and	_	_	_	_	_	_	_	
 40-21	1921-1925	make	_	_	_	_	_	_	_	
 40-22	1926-1935	alternate	abstract[177]	new[177]	nonsal[177]	_	cf3[177]	_	_	
@@ -399,13 +399,13 @@
 41-7	1977-1985	Submitty	event[179]|abstract[180]	new[179]|giv:act[180]	nonsal[179]|nonsal[180]	_	cf2[179]|cf1[180]	coref	43-6[187_180]	
 
 #Text=This course will not use the RPI Blackboard LMS .
-42-1	1986-1990	This	abstract[182]	giv:inact[182]	nonsal[182]	_	cf1[182]	coref	44-6[204_182]	
-42-2	1991-1997	course	abstract[182]	giv:inact[182]	nonsal[182]	_	cf1[182]	_	_	
+42-1	1986-1990	This	abstract[182]	giv:inact[182]	sal[182]	_	cf1[182]	coref	44-6[204_182]	
+42-2	1991-1997	course	abstract[182]	giv:inact[182]	sal[182]	_	cf1[182]	_	_	
 42-3	1998-2002	will	_	_	_	_	_	_	_	
 42-4	2003-2006	not	_	_	_	_	_	_	_	
 42-5	2007-2010	use	_	_	_	_	_	_	_	
 42-6	2011-2014	the	abstract[183]	new[183]	nonsal[183]	_	cf3[183]	_	_	
-42-7	2015-2018	RPI	abstract[183]|organization[184]	new[183]|giv:inact[184]	nonsal[183]|nonsal[184]	Rensselaer_Polytechnic_Institute[184]	cf3[183]|cf2[184]	coref	123-2[506_184]	
+42-7	2015-2018	RPI	abstract[183]|organization[184]	new[183]|giv:inact[184]	nonsal[183]|sal[184]	Rensselaer_Polytechnic_Institute[184]	cf3[183]|cf2[184]	coref	123-2[506_184]	
 42-8	2019-2029	Blackboard	abstract[183]|organization[185]	new[183]|new[185]	nonsal[183]|nonsal[185]	Blackboard_Inc.[185]	cf3[183]|cf4[185]	_	_	
 42-9	2030-2033	LMS	abstract[183]	new[183]	nonsal[183]	_	cf3[183]	_	_	
 42-10	2034-2035	.	_	_	_	_	_	_	_	
@@ -424,10 +424,10 @@
 43-11	2092-2101	developed	abstract[192]	giv:act[192]	nonsal[192]	_	cf1[192]	_	_	
 43-12	2102-2104	as	abstract[192]	giv:act[192]	nonsal[192]	_	cf1[192]	_	_	
 43-13	2105-2107	an	abstract[192]|abstract[195]	giv:act[192]|new[195]	nonsal[192]|nonsal[195]	_	cf1[192]|cf7[195]	_	_	
-43-14	2108-2118	opensource	abstract[192]|abstract[195]|abstract[196]	giv:act[192]|new[195]|giv:inact[196]	nonsal[192]|nonsal[195]|nonsal[196]	_	cf1[192]|cf7[195]|cf3[196]	coref	47-4[223_196]	
+43-14	2108-2118	opensource	abstract[192]|abstract[195]|abstract[196]	giv:act[192]|new[195]|giv:inact[196]	nonsal[192]|nonsal[195]|sal[196]	_	cf1[192]|cf7[195]|cf3[196]	coref	47-4[223_196]	
 43-15	2119-2126	project	abstract[192]|abstract[195]	giv:act[192]|new[195]	nonsal[192]|nonsal[195]	_	cf1[192]|cf7[195]	_	_	
 43-16	2127-2132	under	abstract[192]	giv:act[192]	nonsal[192]	_	cf1[192]	_	_	
-43-17	2133-2137	RCOS	abstract[192]|organization[197]	giv:act[192]|new[197]	nonsal[192]|nonsal[197]	rCOS_%28computer_sciences%29[197]	cf1[192]|cf6[197]	coref	53-4[243_197]	
+43-17	2133-2137	RCOS	abstract[192]|organization[197]	giv:act[192]|new[197]	nonsal[192]|sal[197]	rCOS_%28computer_sciences%29[197]	cf1[192]|cf6[197]	coref	53-4[243_197]	
 43-18	2138-2141	and	abstract[192]	giv:act[192]	nonsal[192]	_	cf1[192]	_	_	
 43-19	2142-2145	the	abstract[192]|abstract[200]	giv:act[192]|new[200]	nonsal[192]|nonsal[200]	_	cf1[192]|cf4[200]	_	_	
 43-20	2146-2154	creative	abstract[192]|abstract[200]	giv:act[192]|new[200]	nonsal[192]|nonsal[200]	_	cf1[192]|cf4[200]	_	_	
@@ -446,13 +446,13 @@
 44-3	2211-2214	are	_	_	_	_	_	_	_	
 44-4	2215-2225	registered	_	_	_	_	_	_	_	
 44-5	2226-2228	in	_	_	_	_	_	_	_	
-44-6	2229-2232	the	abstract[204]	giv:inact[204]	nonsal[204]	_	cf2[204]	ana	44-12[206_204]	
-44-7	2233-2239	course	abstract[204]	giv:inact[204]	nonsal[204]	_	cf2[204]	_	_	
+44-6	2229-2232	the	abstract[204]	giv:inact[204]	sal[204]	_	cf2[204]	ana	44-12[206_204]	
+44-7	2233-2239	course	abstract[204]	giv:inact[204]	sal[204]	_	cf2[204]	_	_	
 44-8	2240-2241	,	_	_	_	_	_	_	_	
 44-9	2242-2245	you	person[205]	giv:act[205]	nonsal[205]	_	cf1[205]	ana	45-2[208_205]	
 44-10	2246-2249	may	_	_	_	_	_	_	_	
 44-11	2250-2256	access	_	_	_	_	_	_	_	
-44-12	2257-2259	it	abstract[206]	giv:act[206]	nonsal[206]	_	cf2[206]	coref	46-3[218_206]	
+44-12	2257-2259	it	abstract[206]	giv:act[206]	sal[206]	_	cf2[206]	coref	46-3[218_206]	
 44-13	2260-2262	at	_	_	_	_	_	_	_	
 44-14	2263-2312	https://submitty.cs.rpi.edu/courses/u22/csci4470.	place[207]	new[207]	nonsal[207]	_	cf3[207]	_	_	
 
@@ -476,16 +476,16 @@
 #Text=Goal of this Class :
 46-1	2380-2384	Goal	abstract[217]	new[217]	nonsal[217]	_	cf2[217]	_	_	
 46-2	2385-2387	of	abstract[217]	new[217]	nonsal[217]	_	cf2[217]	_	_	
-46-3	2388-2392	this	abstract[217]|abstract[218]	new[217]|giv:inact[218]	nonsal[217]|nonsal[218]	_	cf2[217]|cf1[218]	coref	55-4[248_218]	
-46-4	2393-2398	Class	abstract[217]|abstract[218]	new[217]|giv:inact[218]	nonsal[217]|nonsal[218]	_	cf2[217]|cf1[218]	_	_	
+46-3	2388-2392	this	abstract[217]|abstract[218]	new[217]|giv:inact[218]	nonsal[217]|sal[218]	_	cf2[217]|cf1[218]	coref	55-4[248_218]	
+46-4	2393-2398	Class	abstract[217]|abstract[218]	new[217]|giv:inact[218]	nonsal[217]|sal[218]	_	cf2[217]|cf1[218]	_	_	
 46-5	2399-2400	:	_	_	_	_	_	_	_	
 
 #Text=Familiarize students with open source software development
 47-1	2401-2412	Familiarize	_	_	_	_	_	_	_	
 47-2	2413-2421	students	person[219]	new[219]	nonsal[219]	_	cf2[219]	ana	48-2[224_219]	
 47-3	2422-2426	with	_	_	_	_	_	_	_	
-47-4	2427-2431	open	abstract[221]|abstract[222]|abstract[223]	new[221]|new[222]|giv:inact[223]	nonsal[221]|nonsal[222]|nonsal[223]	_	cf3[221]|cf4[222]|cf1[223]	coref|coref|coref	55-13[250_221]|55-13[251_222]|50-4[231_223]	
-47-5	2432-2438	source	abstract[221]|abstract[222]|abstract[223]	new[221]|new[222]|giv:inact[223]	nonsal[221]|nonsal[222]|nonsal[223]	_	cf3[221]|cf4[222]|cf1[223]	_	_	
+47-4	2427-2431	open	abstract[221]|abstract[222]|abstract[223]	new[221]|new[222]|giv:inact[223]	nonsal[221]|nonsal[222]|sal[223]	_	cf3[221]|cf4[222]|cf1[223]	coref|coref|coref	55-13[250_221]|55-13[251_222]|50-4[231_223]	
+47-5	2432-2438	source	abstract[221]|abstract[222]|abstract[223]	new[221]|new[222]|giv:inact[223]	nonsal[221]|nonsal[222]|sal[223]	_	cf3[221]|cf4[222]|cf1[223]	_	_	
 47-6	2439-2447	software	abstract[221]|abstract[222]	new[221]|new[222]	nonsal[221]|nonsal[222]	_	cf3[221]|cf4[222]	_	_	
 47-7	2448-2459	development	abstract[221]	new[221]	nonsal[221]	_	cf3[221]	_	_	
 
@@ -499,9 +499,9 @@
 48-7	2491-2496	eager	_	_	_	_	_	_	_	
 48-8	2497-2499	to	_	_	_	_	_	_	_	
 48-9	2500-2505	learn	_	_	_	_	_	_	_	
-48-10	2506-2509	new	abstract[226]	new[226]	nonsal[226]	_	cf2[226]	coref	60-4[285_226]	
-48-11	2510-2520	technology	abstract[226]|abstract[227]	new[226]|new[227]	nonsal[226]|nonsal[227]	_	cf2[226]|cf3[227]	coref	57-11[265_227]	
-48-12	2521-2527	stacks	abstract[226]	new[226]	nonsal[226]	_	cf2[226]	_	_	
+48-10	2506-2509	new	abstract[226]	new[226]	sal[226]	_	cf2[226]	coref	60-4[285_226]	
+48-11	2510-2520	technology	abstract[226]|abstract[227]	new[226]|new[227]	sal[226]|sal[227]	_	cf2[226]|cf3[227]	coref	57-11[265_227]	
+48-12	2521-2527	stacks	abstract[226]	new[226]	sal[226]	_	cf2[226]	_	_	
 
 #Text=Able to Read and Understand Good Code .
 49-1	2528-2532	Able	_	_	_	_	_	_	_	
@@ -509,17 +509,17 @@
 49-3	2536-2540	Read	_	_	_	_	_	_	_	
 49-4	2541-2544	and	_	_	_	_	_	_	_	
 49-5	2545-2555	Understand	_	_	_	_	_	_	_	
-49-6	2556-2560	Good	abstract[229]	new[229]	nonsal[229]	_	cf1[229]	_	_	
-49-7	2561-2565	Code	abstract[229]	new[229]	nonsal[229]	_	cf1[229]	_	_	
+49-6	2556-2560	Good	abstract[229]	new[229]	sal[229]	_	cf1[229]	_	_	
+49-7	2561-2565	Code	abstract[229]	new[229]	sal[229]	_	cf1[229]	_	_	
 49-8	2566-2567	.	_	_	_	_	_	_	_	
 
 #Text=Patch an existing open source project .
 50-1	2568-2573	Patch	_	_	_	_	_	_	_	
-50-2	2574-2576	an	abstract[230]	new[230]	nonsal[230]	_	cf2[230]	_	_	
-50-3	2577-2585	existing	abstract[230]	new[230]	nonsal[230]	_	cf2[230]	_	_	
-50-4	2586-2590	open	abstract[230]|abstract[231]	new[230]|giv:inact[231]	nonsal[230]|nonsal[231]	_	cf2[230]|cf1[231]	coref	55-13[252_231]	
-50-5	2591-2597	source	abstract[230]|abstract[231]	new[230]|giv:inact[231]	nonsal[230]|nonsal[231]	_	cf2[230]|cf1[231]	_	_	
-50-6	2598-2605	project	abstract[230]	new[230]	nonsal[230]	_	cf2[230]	_	_	
+50-2	2574-2576	an	abstract[230]	new[230]	sal[230]	_	cf2[230]	_	_	
+50-3	2577-2585	existing	abstract[230]	new[230]	sal[230]	_	cf2[230]	_	_	
+50-4	2586-2590	open	abstract[230]|abstract[231]	new[230]|giv:inact[231]	sal[230]|sal[231]	_	cf2[230]|cf1[231]	coref	55-13[252_231]	
+50-5	2591-2597	source	abstract[230]|abstract[231]	new[230]|giv:inact[231]	sal[230]|sal[231]	_	cf2[230]|cf1[231]	_	_	
+50-6	2598-2605	project	abstract[230]	new[230]	sal[230]	_	cf2[230]	_	_	
 50-7	2606-2607	.	_	_	_	_	_	_	_	
 
 #Text=Work on a team collaborative project .
@@ -541,16 +541,16 @@
 52-7	2681-2685	team	abstract[235]|abstract[236]|organization[237]	new[235]|new[236]|new[237]	nonsal[235]|nonsal[236]|nonsal[237]	_	cf1[235]|cf4[236]|cf5[237]	_	_	
 52-8	2686-2693	project	abstract[235]|abstract[236]	new[235]|new[236]	nonsal[235]|nonsal[236]	_	cf1[235]|cf4[236]	_	_	
 52-9	2694-2697	and	abstract[235]	new[235]	nonsal[235]	_	cf1[235]	_	_	
-52-10	2698-2707	diversity	abstract[235]|abstract[239]|abstract[240]	new[235]|new[239]|new[240]	nonsal[235]|nonsal[239]|nonsal[240]	_	cf1[235]|cf2[239]|cf3[240]	_	_	
-52-11	2708-2714	issues	abstract[235]|abstract[239]	new[235]|new[239]	nonsal[235]|nonsal[239]	_	cf1[235]|cf2[239]	_	_	
+52-10	2698-2707	diversity	abstract[235]|abstract[239]|abstract[240]	new[235]|new[239]|new[240]	nonsal[235]|sal[239]|sal[240]	_	cf1[235]|cf2[239]|cf3[240]	_	_	
+52-11	2708-2714	issues	abstract[235]|abstract[239]	new[235]|new[239]	nonsal[235]|sal[239]	_	cf1[235]|cf2[239]	_	_	
 52-12	2715-2716	.	_	_	_	_	_	_	_	
 
 #Text=Prepare a new RCOS project for the following semester .
 53-1	2717-2724	Prepare	_	_	_	_	_	_	_	
-53-2	2725-2726	a	abstract[242]	new[242]	nonsal[242]	_	cf3[242]	_	_	
-53-3	2727-2730	new	abstract[242]	new[242]	nonsal[242]	_	cf3[242]	_	_	
-53-4	2731-2735	RCOS	abstract[242]|organization[243]	new[242]|giv:inact[243]	nonsal[242]|nonsal[243]	rCOS_%28computer_sciences%29[243]	cf3[242]|cf1[243]	_	_	
-53-5	2736-2743	project	abstract[242]	new[242]	nonsal[242]	_	cf3[242]	_	_	
+53-2	2725-2726	a	abstract[242]	new[242]	sal[242]	_	cf3[242]	_	_	
+53-3	2727-2730	new	abstract[242]	new[242]	sal[242]	_	cf3[242]	_	_	
+53-4	2731-2735	RCOS	abstract[242]|organization[243]	new[242]|giv:inact[243]	sal[242]|sal[243]	rCOS_%28computer_sciences%29[243]	cf3[242]|cf1[243]	_	_	
+53-5	2736-2743	project	abstract[242]	new[242]	sal[242]	_	cf3[242]	_	_	
 53-6	2744-2747	for	_	_	_	_	_	_	_	
 53-7	2748-2751	the	time[245]	acc:inf[245]	nonsal[245]	_	cf2[245]	_	_	
 53-8	2752-2761	following	time[245]	acc:inf[245]	nonsal[245]	_	cf2[245]	_	_	
@@ -566,8 +566,8 @@
 55-1	2793-2796	The	abstract[247]	new[247]	nonsal[247]	_	cf6[247]	_	_	
 55-2	2797-2801	goal	abstract[247]	new[247]	nonsal[247]	_	cf6[247]	_	_	
 55-3	2802-2804	of	abstract[247]	new[247]	nonsal[247]	_	cf6[247]	_	_	
-55-4	2805-2809	this	abstract[247]|abstract[248]	new[247]|giv:inact[248]	nonsal[247]|nonsal[248]	_	cf6[247]|cf1[248]	coref|bridge:other	56-3[258_248]|55-25[257_248]	
-55-5	2810-2816	course	abstract[247]|abstract[248]	new[247]|giv:inact[248]	nonsal[247]|nonsal[248]	_	cf6[247]|cf1[248]	_	_	
+55-4	2805-2809	this	abstract[247]|abstract[248]	new[247]|giv:inact[248]	nonsal[247]|sal[248]	_	cf6[247]|cf1[248]	coref|bridge:other	56-3[258_248]|55-25[257_248]	
+55-5	2810-2816	course	abstract[247]|abstract[248]	new[247]|giv:inact[248]	nonsal[247]|sal[248]	_	cf6[247]|cf1[248]	_	_	
 55-6	2817-2819	is	_	_	_	_	_	_	_	
 55-7	2820-2822	to	_	_	_	_	_	_	_	
 55-8	2823-2830	provide	_	_	_	_	_	_	_	
@@ -575,8 +575,8 @@
 55-10	2833-2839	strong	abstract[249]	new[249]	nonsal[249]	_	cf7[249]	_	_	
 55-11	2840-2850	foundation	abstract[249]	new[249]	nonsal[249]	_	cf7[249]	_	_	
 55-12	2851-2853	in	abstract[249]	new[249]	nonsal[249]	_	cf7[249]	_	_	
-55-13	2854-2858	open	abstract[249]|abstract[250]|abstract[251]|abstract[252]	new[249]|giv:inact[250]|giv:inact[251]|giv:inact[252]	nonsal[249]|nonsal[250]|nonsal[251]|nonsal[252]	_	cf7[249]|cf2[250]|cf3[251]|cf4[252]	coref|coref	57-23[270_251]|57-5[263_252]	
-55-14	2859-2865	source	abstract[249]|abstract[250]|abstract[251]|abstract[252]	new[249]|giv:inact[250]|giv:inact[251]|giv:inact[252]	nonsal[249]|nonsal[250]|nonsal[251]|nonsal[252]	_	cf7[249]|cf2[250]|cf3[251]|cf4[252]	_	_	
+55-13	2854-2858	open	abstract[249]|abstract[250]|abstract[251]|abstract[252]	new[249]|giv:inact[250]|giv:inact[251]|giv:inact[252]	nonsal[249]|nonsal[250]|nonsal[251]|sal[252]	_	cf7[249]|cf2[250]|cf3[251]|cf4[252]	coref|coref	57-23[270_251]|57-5[263_252]	
+55-14	2859-2865	source	abstract[249]|abstract[250]|abstract[251]|abstract[252]	new[249]|giv:inact[250]|giv:inact[251]|giv:inact[252]	nonsal[249]|nonsal[250]|nonsal[251]|sal[252]	_	cf7[249]|cf2[250]|cf3[251]|cf4[252]	_	_	
 55-15	2866-2874	software	abstract[249]|abstract[250]|abstract[251]	new[249]|giv:inact[250]|giv:inact[251]	nonsal[249]|nonsal[250]|nonsal[251]	_	cf7[249]|cf2[250]|cf3[251]	_	_	
 55-16	2875-2886	development	abstract[249]|abstract[250]	new[249]|giv:inact[250]	nonsal[249]|nonsal[250]	_	cf7[249]|cf2[250]	_	_	
 55-17	2887-2889	in	_	_	_	_	_	_	_	
@@ -595,8 +595,8 @@
 #Text=After completing this course , the student will be able to :
 56-1	2954-2959	After	_	_	_	_	_	_	_	
 56-2	2960-2970	completing	_	_	_	_	_	_	_	
-56-3	2971-2975	this	abstract[258]	giv:act[258]	nonsal[258]	_	cf1*[258]	coref	109-1[436_258]	
-56-4	2976-2982	course	abstract[258]	giv:act[258]	nonsal[258]	_	cf1*[258]	_	_	
+56-3	2971-2975	this	abstract[258]	giv:act[258]	sal[258]	_	cf1*[258]	coref	109-1[436_258]	
+56-4	2976-2982	course	abstract[258]	giv:act[258]	sal[258]	_	cf1*[258]	_	_	
 56-5	2983-2984	,	_	_	_	_	_	_	_	
 56-6	2985-2988	the	person[259]	new[259]	nonsal[259]	_	cf2[259]	coref	105-11[423_259]	
 56-7	2989-2996	student	person[259]	new[259]	nonsal[259]	_	cf2[259]	_	_	
@@ -611,13 +611,13 @@
 57-2	3026-3029	the	abstract[260]	new[260]	nonsal[260]	_	cf4[260]	_	_	
 57-3	3030-3040	importance	abstract[260]	new[260]	nonsal[260]	_	cf4[260]	_	_	
 57-4	3041-3043	of	abstract[260]	new[260]	nonsal[260]	_	cf4[260]	_	_	
-57-5	3044-3048	open	abstract[260]|abstract[261]|abstract[262]|abstract[263]	new[260]|new[261]|new[262]|giv:inact[263]	nonsal[260]|nonsal[261]|nonsal[262]|nonsal[263]	_	cf4[260]|cf10[261]|cf11[262]|cf1[263]	coref	57-23[271_263]	
-57-6	3049-3050	-	abstract[260]|abstract[261]|abstract[262]|abstract[263]	new[260]|new[261]|new[262]|giv:inact[263]	nonsal[260]|nonsal[261]|nonsal[262]|nonsal[263]	_	cf4[260]|cf10[261]|cf11[262]|cf1[263]	_	_	
-57-7	3051-3057	source	abstract[260]|abstract[261]|abstract[262]|abstract[263]	new[260]|new[261]|new[262]|giv:inact[263]	nonsal[260]|nonsal[261]|nonsal[262]|nonsal[263]	_	cf4[260]|cf10[261]|cf11[262]|cf1[263]	_	_	
+57-5	3044-3048	open	abstract[260]|abstract[261]|abstract[262]|abstract[263]	new[260]|new[261]|new[262]|giv:inact[263]	nonsal[260]|nonsal[261]|nonsal[262]|sal[263]	_	cf4[260]|cf10[261]|cf11[262]|cf1[263]	coref	57-23[271_263]	
+57-6	3049-3050	-	abstract[260]|abstract[261]|abstract[262]|abstract[263]	new[260]|new[261]|new[262]|giv:inact[263]	nonsal[260]|nonsal[261]|nonsal[262]|sal[263]	_	cf4[260]|cf10[261]|cf11[262]|cf1[263]	_	_	
+57-7	3051-3057	source	abstract[260]|abstract[261]|abstract[262]|abstract[263]	new[260]|new[261]|new[262]|giv:inact[263]	nonsal[260]|nonsal[261]|nonsal[262]|sal[263]	_	cf4[260]|cf10[261]|cf11[262]|cf1[263]	_	_	
 57-8	3058-3063	tools	abstract[260]|abstract[261]|abstract[262]	new[260]|new[261]|new[262]	nonsal[260]|nonsal[261]|nonsal[262]	_	cf4[260]|cf10[261]|cf11[262]	_	_	
 57-9	3064-3066	in	abstract[260]|abstract[261]	new[260]|new[261]	nonsal[260]|nonsal[261]	_	cf4[260]|cf10[261]	_	_	
 57-10	3067-3070	the	abstract[260]|abstract[261]|abstract[264]	new[260]|new[261]|new[264]	nonsal[260]|nonsal[261]|nonsal[264]	_	cf4[260]|cf10[261]|cf6[264]	_	_	
-57-11	3071-3081	technology	abstract[260]|abstract[261]|abstract[264]|abstract[265]	new[260]|new[261]|new[264]|giv:inact[265]	nonsal[260]|nonsal[261]|nonsal[264]|nonsal[265]	_	cf4[260]|cf10[261]|cf6[264]|cf3[265]	_	_	
+57-11	3071-3081	technology	abstract[260]|abstract[261]|abstract[264]|abstract[265]	new[260]|new[261]|new[264]|giv:inact[265]	nonsal[260]|nonsal[261]|nonsal[264]|sal[265]	_	cf4[260]|cf10[261]|cf6[264]|cf3[265]	_	_	
 57-12	3082-3088	sphere	abstract[260]|abstract[261]|abstract[264]	new[260]|new[261]|new[264]	nonsal[260]|nonsal[261]|nonsal[264]	_	cf4[260]|cf10[261]|cf6[264]	_	_	
 57-13	3089-3094	along	_	_	_	_	_	_	_	
 57-14	3095-3099	with	_	_	_	_	_	_	_	
@@ -629,8 +629,8 @@
 57-20	3131-3141	generating	abstract[267]	new[267]	nonsal[267]	_	cf7[267]	_	_	
 57-21	3142-3155	understanding	abstract[267]|abstract[268]	new[267]|new[268]	nonsal[267]|nonsal[268]	_	cf7[267]|cf5[268]	_	_	
 57-22	3156-3158	of	abstract[267]|abstract[268]	new[267]|new[268]	nonsal[267]|nonsal[268]	_	cf7[267]|cf5[268]	_	_	
-57-23	3159-3163	Open	abstract[267]|abstract[268]|abstract[269]|abstract[270]|abstract[271]	new[267]|new[268]|new[269]|giv:inact[270]|giv:act[271]	nonsal[267]|nonsal[268]|nonsal[269]|nonsal[270]|nonsal[271]	_	cf7[267]|cf5[268]|cf8[269]|cf2[270]|cf1[271]	coref|coref	65-2[297_270]|58-9[276_271]	
-57-24	3164-3170	Source	abstract[267]|abstract[268]|abstract[269]|abstract[270]|abstract[271]	new[267]|new[268]|new[269]|giv:inact[270]|giv:act[271]	nonsal[267]|nonsal[268]|nonsal[269]|nonsal[270]|nonsal[271]	_	cf7[267]|cf5[268]|cf8[269]|cf2[270]|cf1[271]	_	_	
+57-23	3159-3163	Open	abstract[267]|abstract[268]|abstract[269]|abstract[270]|abstract[271]	new[267]|new[268]|new[269]|giv:inact[270]|giv:act[271]	nonsal[267]|nonsal[268]|nonsal[269]|nonsal[270]|sal[271]	_	cf7[267]|cf5[268]|cf8[269]|cf2[270]|cf1[271]	coref|coref	65-2[297_270]|58-9[276_271]	
+57-24	3164-3170	Source	abstract[267]|abstract[268]|abstract[269]|abstract[270]|abstract[271]	new[267]|new[268]|new[269]|giv:inact[270]|giv:act[271]	nonsal[267]|nonsal[268]|nonsal[269]|nonsal[270]|sal[271]	_	cf7[267]|cf5[268]|cf8[269]|cf2[270]|cf1[271]	_	_	
 57-25	3171-3179	Software	abstract[267]|abstract[268]|abstract[269]|abstract[270]	new[267]|new[268]|new[269]|giv:inact[270]	nonsal[267]|nonsal[268]|nonsal[269]|nonsal[270]	_	cf7[267]|cf5[268]|cf8[269]|cf2[270]	_	_	
 57-26	3180-3185	Tools	abstract[267]|abstract[268]|abstract[269]	new[267]|new[268]|new[269]	nonsal[267]|nonsal[268]|nonsal[269]	_	cf7[267]|cf5[268]|cf8[269]	_	_	
 57-27	3186-3189	and	abstract[267]|abstract[268]	new[267]|new[268]	nonsal[267]|nonsal[268]	_	cf7[267]|cf5[268]	_	_	
@@ -645,9 +645,9 @@
 58-6	3236-3245	different	abstract[274]	new[274]	nonsal[274]	_	cf2[274]	_	_	
 58-7	3246-3255	varieties	abstract[274]	new[274]	nonsal[274]	_	cf2[274]	_	_	
 58-8	3256-3258	of	abstract[274]	new[274]	nonsal[274]	_	cf2[274]	_	_	
-58-9	3259-3263	Open	abstract[274]|abstract[275]|abstract[276]	new[274]|new[275]|giv:act[276]	nonsal[274]|nonsal[275]|nonsal[276]	_	cf2[274]|cf3[275]|cf1*[276]	coref|coref	64-1[294_275]|59-11[283_276]	
-58-10	3264-3270	Source	abstract[274]|abstract[275]|abstract[276]	new[274]|new[275]|giv:act[276]	nonsal[274]|nonsal[275]|nonsal[276]	_	cf2[274]|cf3[275]|cf1*[276]	_	_	
-58-11	3271-3280	Licensing	abstract[274]|abstract[275]	new[274]|new[275]	nonsal[274]|nonsal[275]	_	cf2[274]|cf3[275]	_	_	
+58-9	3259-3263	Open	abstract[274]|abstract[275]|abstract[276]	new[274]|new[275]|giv:act[276]	nonsal[274]|sal[275]|sal[276]	_	cf2[274]|cf3[275]|cf1*[276]	coref|coref	64-1[294_275]|59-11[283_276]	
+58-10	3264-3270	Source	abstract[274]|abstract[275]|abstract[276]	new[274]|new[275]|giv:act[276]	nonsal[274]|sal[275]|sal[276]	_	cf2[274]|cf3[275]|cf1*[276]	_	_	
+58-11	3271-3280	Licensing	abstract[274]|abstract[275]	new[274]|new[275]	nonsal[274]|sal[275]	_	cf2[274]|cf3[275]	_	_	
 58-12	3281-3282	.	_	_	_	_	_	_	_	
 
 #Text=Effectively establish and use Testing and Version Control in an open source project .
@@ -657,12 +657,12 @@
 59-4	3309-3312	use	_	_	_	_	_	_	_	
 59-5	3313-3320	Testing	abstract[277]	new[277]	nonsal[277]	_	cf2[277]	coref	69-3[307_277]	
 59-6	3321-3324	and	_	_	_	_	_	_	_	
-59-7	3325-3332	Version	abstract[279]|abstract[280]	new[279]|new[280]	nonsal[279]|nonsal[280]	_	cf3[279]|cf5[280]	coref|coref	66-1[299_279]|66-1[300_280]	
-59-8	3333-3340	Control	abstract[279]	new[279]	nonsal[279]	_	cf3[279]	_	_	
+59-7	3325-3332	Version	abstract[279]|abstract[280]	new[279]|new[280]	sal[279]|sal[280]	_	cf3[279]|cf5[280]	coref|coref	66-1[299_279]|66-1[300_280]	
+59-8	3333-3340	Control	abstract[279]	new[279]	sal[279]	_	cf3[279]	_	_	
 59-9	3341-3343	in	_	_	_	_	_	_	_	
 59-10	3344-3346	an	abstract[282]	new[282]	nonsal[282]	_	cf4[282]	_	_	
-59-11	3347-3351	open	abstract[282]|abstract[283]	new[282]|giv:act[283]	nonsal[282]|nonsal[283]	_	cf4[282]|cf1*[283]	coref	60-5[286_283]	
-59-12	3352-3358	source	abstract[282]|abstract[283]	new[282]|giv:act[283]	nonsal[282]|nonsal[283]	_	cf4[282]|cf1*[283]	_	_	
+59-11	3347-3351	open	abstract[282]|abstract[283]	new[282]|giv:act[283]	nonsal[282]|sal[283]	_	cf4[282]|cf1*[283]	coref	60-5[286_283]	
+59-12	3352-3358	source	abstract[282]|abstract[283]	new[282]|giv:act[283]	nonsal[282]|sal[283]	_	cf4[282]|cf1*[283]	_	_	
 59-13	3359-3366	project	abstract[282]	new[282]	nonsal[282]	_	cf4[282]	_	_	
 59-14	3367-3368	.	_	_	_	_	_	_	_	
 
@@ -670,14 +670,14 @@
 60-1	3369-3380	Demonstrate	_	_	_	_	_	_	_	
 60-2	3381-3391	competence	abstract[284]	new[284]	nonsal[284]	_	cf3[284]	_	_	
 60-3	3392-3396	with	abstract[284]	new[284]	nonsal[284]	_	cf3[284]	_	_	
-60-4	3397-3403	Common	abstract[284]|abstract[285]	new[284]|giv:inact[285]	nonsal[284]|nonsal[285]	_	cf3[284]|cf2[285]	_	_	
-60-5	3404-3408	Open	abstract[284]|abstract[285]|abstract[286]	new[284]|giv:inact[285]|giv:act[286]	nonsal[284]|nonsal[285]|nonsal[286]	_	cf3[284]|cf2[285]|cf1*[286]	coref	63-3[293_286]	
-60-6	3409-3415	Source	abstract[284]|abstract[285]|abstract[286]	new[284]|giv:inact[285]|giv:act[286]	nonsal[284]|nonsal[285]|nonsal[286]	_	cf3[284]|cf2[285]|cf1*[286]	_	_	
-60-7	3416-3424	Software	abstract[284]|abstract[285]	new[284]|giv:inact[285]	nonsal[284]|nonsal[285]	_	cf3[284]|cf2[285]	_	_	
-60-8	3425-3431	Stacks	abstract[284]|abstract[285]	new[284]|giv:inact[285]	nonsal[284]|nonsal[285]	_	cf3[284]|cf2[285]	_	_	
+60-4	3397-3403	Common	abstract[284]|abstract[285]	new[284]|giv:inact[285]	nonsal[284]|sal[285]	_	cf3[284]|cf2[285]	_	_	
+60-5	3404-3408	Open	abstract[284]|abstract[285]|abstract[286]	new[284]|giv:inact[285]|giv:act[286]	nonsal[284]|sal[285]|sal[286]	_	cf3[284]|cf2[285]|cf1*[286]	coref	63-3[293_286]	
+60-6	3409-3415	Source	abstract[284]|abstract[285]|abstract[286]	new[284]|giv:inact[285]|giv:act[286]	nonsal[284]|sal[285]|sal[286]	_	cf3[284]|cf2[285]|cf1*[286]	_	_	
+60-7	3416-3424	Software	abstract[284]|abstract[285]	new[284]|giv:inact[285]	nonsal[284]|sal[285]	_	cf3[284]|cf2[285]	_	_	
+60-8	3425-3431	Stacks	abstract[284]|abstract[285]	new[284]|giv:inact[285]	nonsal[284]|sal[285]	_	cf3[284]|cf2[285]	_	_	
 60-9	3432-3435	and	abstract[284]	new[284]	nonsal[284]	_	cf3[284]	_	_	
-60-10	3436-3442	common	abstract[284]|abstract[287]	new[284]|new[287]	nonsal[284]|nonsal[287]	_	cf3[284]|cf4[287]	_	_	
-60-11	3443-3448	tools	abstract[284]|abstract[287]	new[284]|new[287]	nonsal[284]|nonsal[287]	_	cf3[284]|cf4[287]	_	_	
+60-10	3436-3442	common	abstract[284]|abstract[287]	new[284]|new[287]	nonsal[284]|sal[287]	_	cf3[284]|cf4[287]	_	_	
+60-11	3443-3448	tools	abstract[284]|abstract[287]	new[284]|new[287]	nonsal[284]|sal[287]	_	cf3[284]|cf4[287]	_	_	
 60-12	3449-3450	.	_	_	_	_	_	_	_	
 
 #Text=Syllabus :
@@ -691,11 +691,11 @@
 #Text=History of Open Source
 63-1	3477-3484	History	abstract[292]	new[292]	nonsal[292]	_	cf2[292]	_	_	
 63-2	3485-3487	of	abstract[292]	new[292]	nonsal[292]	_	cf2[292]	_	_	
-63-3	3488-3492	Open	abstract[292]|abstract[293]	new[292]|giv:inact[293]	nonsal[292]|nonsal[293]	_	cf2[292]|cf1[293]	coref	83-1[347_293]	
-63-4	3493-3499	Source	abstract[292]|abstract[293]	new[292]|giv:inact[293]	nonsal[292]|nonsal[293]	_	cf2[292]|cf1[293]	_	_	
+63-3	3488-3492	Open	abstract[292]|abstract[293]	new[292]|giv:inact[293]	nonsal[292]|sal[293]	_	cf2[292]|cf1[293]	coref	83-1[347_293]	
+63-4	3493-3499	Source	abstract[292]|abstract[293]	new[292]|giv:inact[293]	nonsal[292]|sal[293]	_	cf2[292]|cf1[293]	_	_	
 
 #Text=Licensing
-64-1	3500-3509	Licensing	abstract[294]	giv:inact[294]	nonsal[294]	_	cf1[294]	_	_	
+64-1	3500-3509	Licensing	abstract[294]	giv:inact[294]	sal[294]	_	cf1[294]	_	_	
 
 #Text=2. Software Management Tools
 65-1	3510-3512	2.	_	_	_	_	_	_	_	
@@ -704,8 +704,8 @@
 65-4	3533-3538	Tools	abstract[296]	new[296]	nonsal[296]	_	cf2[296]	_	_	
 
 #Text=Version Control
-66-1	3539-3546	Version	abstract[299]|abstract[300]	giv:inact[299]|giv:inact[300]	nonsal[299]|nonsal[300]	_	cf1[299]|cf2[300]	_	_	
-66-2	3547-3554	Control	abstract[299]	giv:inact[299]	nonsal[299]	_	cf1[299]	_	_	
+66-1	3539-3546	Version	abstract[299]|abstract[300]	giv:inact[299]|giv:inact[300]	sal[299]|sal[300]	_	cf1[299]|cf2[300]	_	_	
+66-2	3547-3554	Control	abstract[299]	giv:inact[299]	sal[299]	_	cf1[299]	_	_	
 
 #Text=Documentation Tools
 67-1	3555-3568	Documentation	abstract[302]|abstract[303]	new[302]|new[303]	nonsal[302]|nonsal[303]	_	cf1[302]|cf2[303]	_	_	
@@ -798,8 +798,8 @@
 82-10	3949-3950	%	abstract[343]	new[343]	nonsal[343]	_	cf3[343]	_	_	
 
 #Text=Open Source Project Analysis Paper - 10 %
-83-1	3951-3955	Open	abstract[344]|abstract[345]|abstract[346]|abstract[347]	new[344]|new[345]|new[346]|giv:inact[347]	nonsal[344]|nonsal[345]|nonsal[346]|nonsal[347]	_	cf2[344]|cf4[345]|cf5[346]|cf1[347]	coref|coref	89-1[370_344]|89-1[371_347]	
-83-2	3956-3962	Source	abstract[344]|abstract[345]|abstract[346]|abstract[347]	new[344]|new[345]|new[346]|giv:inact[347]	nonsal[344]|nonsal[345]|nonsal[346]|nonsal[347]	_	cf2[344]|cf4[345]|cf5[346]|cf1[347]	_	_	
+83-1	3951-3955	Open	abstract[344]|abstract[345]|abstract[346]|abstract[347]	new[344]|new[345]|new[346]|giv:inact[347]	nonsal[344]|nonsal[345]|nonsal[346]|sal[347]	_	cf2[344]|cf4[345]|cf5[346]|cf1[347]	coref|coref	89-1[370_344]|89-1[371_347]	
+83-2	3956-3962	Source	abstract[344]|abstract[345]|abstract[346]|abstract[347]	new[344]|new[345]|new[346]|giv:inact[347]	nonsal[344]|nonsal[345]|nonsal[346]|sal[347]	_	cf2[344]|cf4[345]|cf5[346]|cf1[347]	_	_	
 83-3	3963-3970	Project	abstract[344]|abstract[345]|abstract[346]	new[344]|new[345]|new[346]	nonsal[344]|nonsal[345]|nonsal[346]	_	cf2[344]|cf4[345]|cf5[346]	_	_	
 83-4	3971-3979	Analysis	abstract[344]|abstract[345]	new[344]|new[345]	nonsal[344]|nonsal[345]	_	cf2[344]|cf4[345]	_	_	
 83-5	3980-3985	Paper	abstract[344]	new[344]	nonsal[344]	_	cf2[344]	_	_	
@@ -845,8 +845,8 @@
 88-4	4095-4101	August	time[367]|time[368]	new[367]|new[368]	nonsal[367]|nonsal[368]	_	cf3[367]|cf2[368]	_	_	
 
 #Text=Open Source Paper Due
-89-1	4102-4106	Open	abstract[370]|abstract[371]	giv:inact[370]|giv:inact[371]	nonsal[370]|nonsal[371]	_	cf1[370]|cf2[371]	_	_	
-89-2	4107-4113	Source	abstract[370]|abstract[371]	giv:inact[370]|giv:inact[371]	nonsal[370]|nonsal[371]	_	cf1[370]|cf2[371]	_	_	
+89-1	4102-4106	Open	abstract[370]|abstract[371]	giv:inact[370]|giv:inact[371]	nonsal[370]|sal[371]	_	cf1[370]|cf2[371]	_	_	
+89-2	4107-4113	Source	abstract[370]|abstract[371]	giv:inact[370]|giv:inact[371]	nonsal[370]|sal[371]	_	cf1[370]|cf2[371]	_	_	
 89-3	4114-4119	Paper	abstract[370]	giv:inact[370]	nonsal[370]	_	cf1[370]	_	_	
 89-4	4120-4123	Due	_	_	_	_	_	_	_	
 
@@ -931,7 +931,7 @@
 103-6	4352-4355	OSS	abstract[412]	new[412]	nonsal[412]	_	cf5[412]	_	_	
 103-7	4356-4357	-	abstract[412]	new[412]	nonsal[412]	_	cf5[412]	_	_	
 103-8	4358-4364	Summer	abstract[412]|time[413]	new[412]|new[413]	nonsal[412]|nonsal[413]	_	cf5[412]|cf6[413]	_	_	
-103-9	4365-4369	2022	abstract[412]|time[413]|time[414]	new[412]|new[413]|giv:inact[414]	nonsal[412]|nonsal[413]|nonsal[414]	_	cf5[412]|cf6[413]|cf1[414]	_	_	
+103-9	4365-4369	2022	abstract[412]|time[413]|time[414]	new[412]|new[413]|giv:inact[414]	nonsal[412]|nonsal[413]|sal[414]	_	cf5[412]|cf6[413]|cf1[414]	_	_	
 103-10	4370-4372	at	_	_	_	_	_	_	_	
 103-11	4373-4402	https://discord.gg/5WEv84aGDz	place[415]	new[415]	nonsal[415]	_	cf7[415]	_	_	
 103-12	4403-4404	.	_	_	_	_	_	_	_	
@@ -945,8 +945,8 @@
 105-3	4425-4427	be	_	_	_	_	_	_	_	
 105-4	4428-4438	designated	_	_	_	_	_	_	_	
 105-5	4439-4441	by	_	_	_	_	_	_	_	
-105-6	4442-4445	the	person[422]	giv:inact[422]	nonsal[422]	_	cf2[422]	_	_	
-105-7	4446-4456	instructor	person[422]	giv:inact[422]	nonsal[422]	_	cf2[422]	_	_	
+105-6	4442-4445	the	person[422]	giv:inact[422]	sal[422]	_	cf2[422]	_	_	
+105-7	4446-4456	instructor	person[422]	giv:inact[422]	sal[422]	_	cf2[422]	_	_	
 105-8	4457-4459	in	_	_	_	_	_	_	_	
 105-9	4460-4467	advance	_	_	_	_	_	_	_	
 105-10	4468-4470	to	_	_	_	_	_	_	_	
@@ -1006,7 +1006,7 @@
 108-11	4711-4712	.	_	_	_	_	_	_	_	
 
 #Text=Class participation
-109-1	4713-4718	Class	abstract[435]|abstract[436]	new[435]|giv:inact[436]	nonsal[435]|nonsal[436]	_	cf2[435]|cf1[436]	coref|coref	110-4[439_435]|119-2[483_436]	
+109-1	4713-4718	Class	abstract[435]|abstract[436]	new[435]|giv:inact[436]	nonsal[435]|sal[436]	_	cf2[435]|cf1[436]	coref|coref	110-4[439_435]|119-2[483_436]	
 109-2	4719-4732	participation	abstract[435]	new[435]	nonsal[435]	_	cf2[435]	_	_	
 
 #Text=Regular attendance and participation is expected .
@@ -1130,8 +1130,8 @@
 
 #Text=In this course , collaboration in your project group ( 3 or 4 students ) is allowed , but should not be abused .
 119-1	5344-5346	In	_	_	_	_	_	_	_	
-119-2	5347-5351	this	abstract[483]	giv:inact[483]	nonsal[483]	_	cf3[483]	coref|bridge:def	127-2[554_483]|122-15[501_483]	
-119-3	5352-5358	course	abstract[483]	giv:inact[483]	nonsal[483]	_	cf3[483]	_	_	
+119-2	5347-5351	this	abstract[483]	giv:inact[483]	sal[483]	_	cf3[483]	coref|bridge:def	127-2[554_483]|122-15[501_483]	
+119-3	5352-5358	course	abstract[483]	giv:inact[483]	sal[483]	_	cf3[483]	_	_	
 119-4	5359-5360	,	_	_	_	_	_	_	_	
 119-5	5361-5374	collaboration	abstract[484]	new[484]	nonsal[484]	_	cf4[484]	_	_	
 119-6	5375-5377	in	abstract[484]	new[484]	nonsal[484]	_	cf4[484]	_	_	
@@ -1211,7 +1211,7 @@
 
 #Text=The Rensselaer Handbook of Student Rights and Responsibilities and the Graduate Student Supplement ( For 6000 level and above courses ) define various forms of Academic Dishonesty and you should make yourself familiar with these .
 123-1	5722-5725	The	object[505]	new[505]	nonsal[505]	_	cf4[505]	_	_	
-123-2	5726-5736	Rensselaer	object[505]|organization[506]	new[505]|giv:inact[506]	nonsal[505]|nonsal[506]	Rensselaer_Polytechnic_Institute[506]	cf4[505]|cf3[506]	_	_	
+123-2	5726-5736	Rensselaer	object[505]|organization[506]	new[505]|giv:inact[506]	nonsal[505]|sal[506]	Rensselaer_Polytechnic_Institute[506]	cf4[505]|cf3[506]	_	_	
 123-3	5737-5745	Handbook	object[505]	new[505]	nonsal[505]	_	cf4[505]	_	_	
 123-4	5746-5748	of	object[505]	new[505]	nonsal[505]	_	cf4[505]	_	_	
 123-5	5749-5756	Student	object[505]|abstract[508]|person[509]	new[505]|new[508]|new[509]	nonsal[505]|nonsal[508]|nonsal[509]	_	cf4[505]|cf6[508]|cf8[509]	_	_	
@@ -1346,8 +1346,8 @@
 
 #Text=In this course , the academic penalty for a first offense is loss of a letter grade .
 127-1	6449-6451	In	_	_	_	_	_	_	_	
-127-2	6452-6456	this	abstract[554]	giv:inact[554]	nonsal[554]	_	cf1[554]	coref	128-9[563_554]	
-127-3	6457-6463	course	abstract[554]	giv:inact[554]	nonsal[554]	_	cf1[554]	_	_	
+127-2	6452-6456	this	abstract[554]	giv:inact[554]	sal[554]	_	cf1[554]	coref	128-9[563_554]	
+127-3	6457-6463	course	abstract[554]	giv:inact[554]	sal[554]	_	cf1[554]	_	_	
 127-4	6464-6465	,	_	_	_	_	_	_	_	
 127-5	6466-6469	the	abstract[555]|abstract[556]	new[555]|new[556]	nonsal[555]|nonsal[556]	_	cf3[555]|cf2[556]	bridge:aggr	129-7[567_555]	
 127-6	6470-6478	academic	abstract[555]|abstract[556]	new[555]|new[556]	nonsal[555]|nonsal[556]	_	cf3[555]|cf2[556]	_	_	
@@ -1373,8 +1373,8 @@
 128-6	6564-6566	in	abstract[560]	acc:com[560]	nonsal[560]	_	cf2[560]	_	_	
 128-7	6567-6574	failure	abstract[560]|event[562]	acc:com[560]|new[562]	nonsal[560]|nonsal[562]	_	cf2[560]|cf4[562]	_	_	
 128-8	6575-6577	of	abstract[560]|event[562]	acc:com[560]|new[562]	nonsal[560]|nonsal[562]	_	cf2[560]|cf4[562]	_	_	
-128-9	6578-6581	the	abstract[560]|event[562]|abstract[563]	acc:com[560]|new[562]|giv:act[563]	nonsal[560]|nonsal[562]|nonsal[563]	_	cf2[560]|cf4[562]|cf1*[563]	_	_	
-128-10	6582-6588	course	abstract[560]|event[562]|abstract[563]	acc:com[560]|new[562]|giv:act[563]	nonsal[560]|nonsal[562]|nonsal[563]	_	cf2[560]|cf4[562]|cf1*[563]	_	_	
+128-9	6578-6581	the	abstract[560]|event[562]|abstract[563]	acc:com[560]|new[562]|giv:act[563]	nonsal[560]|nonsal[562]|sal[563]	_	cf2[560]|cf4[562]|cf1*[563]	_	_	
+128-10	6582-6588	course	abstract[560]|event[562]|abstract[563]	acc:com[560]|new[562]|giv:act[563]	nonsal[560]|nonsal[562]|sal[563]	_	cf2[560]|cf4[562]|cf1*[563]	_	_	
 128-11	6589-6590	.	abstract[560]	acc:com[560]	nonsal[560]	_	cf2[560]	_	_	
 
 #Text=If you have any questions concerning this policy before submitting an assignment , please ask for clarification .

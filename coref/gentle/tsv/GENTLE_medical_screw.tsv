@@ -9,28 +9,28 @@
 
 #Text=Followup 4 months status post percutaneous screw fixation of a right Schatzker IV tibial plateau fracture and second through fifth metatarsal head fractures treated nonoperatively .
 2-1	14-22	Followup	_	_	_	_	_	_	_	
-2-2	23-24	4	event[3]|time[4]	new[3]|new[4]	nonsal[3]|nonsal[4]	_	cf1[3]|cf2[4]	coref|coref	4-2[12_3]|4-2[13_4]	
-2-3	25-31	months	event[3]|time[4]	new[3]|new[4]	nonsal[3]|nonsal[4]	_	cf1[3]|cf2[4]	_	_	
-2-4	32-38	status	event[3]	new[3]	nonsal[3]	_	cf1[3]	_	_	
-2-5	39-43	post	event[3]	new[3]	nonsal[3]	_	cf1[3]	_	_	
-2-6	44-56	percutaneous	event[3]|event[5]|object[6]	new[3]|new[5]|new[6]	nonsal[3]|nonsal[5]|nonsal[6]	_	cf1[3]|cf3[5]|cf7[6]	coref|coref	4-6[14_5]|4-6[15_6]	
-2-7	57-62	screw	event[3]|event[5]|object[6]	new[3]|new[5]|new[6]	nonsal[3]|nonsal[5]|nonsal[6]	_	cf1[3]|cf3[5]|cf7[6]	_	_	
-2-8	63-71	fixation	event[3]|event[5]	new[3]|new[5]	nonsal[3]|nonsal[5]	_	cf1[3]|cf3[5]	_	_	
-2-9	72-74	of	event[3]|event[5]	new[3]|new[5]	nonsal[3]|nonsal[5]	_	cf1[3]|cf3[5]	_	_	
-2-10	75-76	a	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	nonsal[3]|nonsal[5]|nonsal[7]	_	cf1[3]|cf3[5]|cf4[7]	coref	4-10[16_7]	
-2-11	77-82	right	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	nonsal[3]|nonsal[5]|nonsal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
-2-12	83-92	Schatzker	event[3]|event[5]|event[7]|person[8]	new[3]|new[5]|new[7]|new[8]	nonsal[3]|nonsal[5]|nonsal[7]|nonsal[8]	_	cf1[3]|cf3[5]|cf4[7]|cf6[8]	coref	4-12[17_8]	
-2-13	93-95	IV	event[3]|event[5]|event[7]|person[8]	new[3]|new[5]|new[7]|new[8]	nonsal[3]|nonsal[5]|nonsal[7]|nonsal[8]	_	cf1[3]|cf3[5]|cf4[7]|cf6[8]	_	_	
-2-14	96-102	tibial	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	nonsal[3]|nonsal[5]|nonsal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
-2-15	103-110	plateau	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	nonsal[3]|nonsal[5]|nonsal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
-2-16	111-119	fracture	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	nonsal[3]|nonsal[5]|nonsal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
+2-2	23-24	4	event[3]|time[4]	new[3]|new[4]	sal[3]|sal[4]	_	cf1[3]|cf2[4]	coref|coref	4-2[12_3]|4-2[13_4]	
+2-3	25-31	months	event[3]|time[4]	new[3]|new[4]	sal[3]|sal[4]	_	cf1[3]|cf2[4]	_	_	
+2-4	32-38	status	event[3]	new[3]	sal[3]	_	cf1[3]	_	_	
+2-5	39-43	post	event[3]	new[3]	sal[3]	_	cf1[3]	_	_	
+2-6	44-56	percutaneous	event[3]|event[5]|object[6]	new[3]|new[5]|new[6]	sal[3]|sal[5]|sal[6]	_	cf1[3]|cf3[5]|cf7[6]	coref|coref	4-6[14_5]|4-6[15_6]	
+2-7	57-62	screw	event[3]|event[5]|object[6]	new[3]|new[5]|new[6]	sal[3]|sal[5]|sal[6]	_	cf1[3]|cf3[5]|cf7[6]	_	_	
+2-8	63-71	fixation	event[3]|event[5]	new[3]|new[5]	sal[3]|sal[5]	_	cf1[3]|cf3[5]	_	_	
+2-9	72-74	of	event[3]|event[5]	new[3]|new[5]	sal[3]|sal[5]	_	cf1[3]|cf3[5]	_	_	
+2-10	75-76	a	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	sal[3]|sal[5]|sal[7]	_	cf1[3]|cf3[5]|cf4[7]	coref	4-10[16_7]	
+2-11	77-82	right	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	sal[3]|sal[5]|sal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
+2-12	83-92	Schatzker	event[3]|event[5]|event[7]|person[8]	new[3]|new[5]|new[7]|new[8]	sal[3]|sal[5]|sal[7]|sal[8]	_	cf1[3]|cf3[5]|cf4[7]|cf6[8]	coref	4-12[17_8]	
+2-13	93-95	IV	event[3]|event[5]|event[7]|person[8]	new[3]|new[5]|new[7]|new[8]	sal[3]|sal[5]|sal[7]|sal[8]	_	cf1[3]|cf3[5]|cf4[7]|cf6[8]	_	_	
+2-14	96-102	tibial	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	sal[3]|sal[5]|sal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
+2-15	103-110	plateau	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	sal[3]|sal[5]|sal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
+2-16	111-119	fracture	event[3]|event[5]|event[7]	new[3]|new[5]|new[7]	sal[3]|sal[5]|sal[7]	_	cf1[3]|cf3[5]|cf4[7]	_	_	
 2-17	120-123	and	_	_	_	_	_	_	_	
-2-18	124-130	second	event[9]	new[9]	nonsal[9]	_	cf5[9]	coref	4-18[18_9]	
-2-19	131-138	through	event[9]	new[9]	nonsal[9]	_	cf5[9]	_	_	
-2-20	139-144	fifth	event[9]|object[10]	new[9]|new[10]	nonsal[9]|nonsal[10]	_	cf5[9]|cf8[10]	coref	4-20[19_10]	
-2-21	145-155	metatarsal	event[9]|object[10]	new[9]|new[10]	nonsal[9]|nonsal[10]	_	cf5[9]|cf8[10]	_	_	
-2-22	156-160	head	event[9]|object[10]	new[9]|new[10]	nonsal[9]|nonsal[10]	_	cf5[9]|cf8[10]	_	_	
-2-23	161-170	fractures	event[9]	new[9]	nonsal[9]	_	cf5[9]	_	_	
+2-18	124-130	second	event[9]	new[9]	sal[9]	_	cf5[9]	coref	4-18[18_9]	
+2-19	131-138	through	event[9]	new[9]	sal[9]	_	cf5[9]	_	_	
+2-20	139-144	fifth	event[9]|object[10]	new[9]|new[10]	sal[9]|sal[10]	_	cf5[9]|cf8[10]	coref	4-20[19_10]	
+2-21	145-155	metatarsal	event[9]|object[10]	new[9]|new[10]	sal[9]|sal[10]	_	cf5[9]|cf8[10]	_	_	
+2-22	156-160	head	event[9]|object[10]	new[9]|new[10]	sal[9]|sal[10]	_	cf5[9]|cf8[10]	_	_	
+2-23	161-170	fractures	event[9]	new[9]	sal[9]	_	cf5[9]	_	_	
 2-24	171-178	treated	_	_	_	_	_	_	_	
 2-25	179-193	nonoperatively	_	_	_	_	_	_	_	
 2-26	194-195	.	_	_	_	_	_	_	_	
@@ -43,28 +43,28 @@
 
 #Text=Followup 4 months status post percutaneous screw fixation of a right Schatzker IV tibial plateau fracture and second through fifth metatarsal head fractures treated nonoperatively .
 4-1	215-223	Followup	_	_	_	_	_	_	_	
-4-2	224-225	4	event[12]|time[13]	giv:inact[12]|giv:inact[13]	nonsal[12]|nonsal[13]	_	cf1[12]|cf2[13]	pred|coref	6-14[24_12]|6-14[26_13]	
-4-3	226-232	months	event[12]|time[13]	giv:inact[12]|giv:inact[13]	nonsal[12]|nonsal[13]	_	cf1[12]|cf2[13]	_	_	
-4-4	233-239	status	event[12]	giv:inact[12]	nonsal[12]	_	cf1[12]	_	_	
-4-5	240-244	post	event[12]	giv:inact[12]	nonsal[12]	_	cf1[12]	_	_	
-4-6	245-257	percutaneous	event[12]|event[14]|object[15]	giv:inact[12]|giv:inact[14]|giv:inact[15]	nonsal[12]|nonsal[14]|nonsal[15]	_	cf1[12]|cf3[14]|cf7[15]	coref|coref	6-19[27_14]|6-19[28_15]	
-4-7	258-263	screw	event[12]|event[14]|object[15]	giv:inact[12]|giv:inact[14]|giv:inact[15]	nonsal[12]|nonsal[14]|nonsal[15]	_	cf1[12]|cf3[14]|cf7[15]	_	_	
-4-8	264-272	fixation	event[12]|event[14]	giv:inact[12]|giv:inact[14]	nonsal[12]|nonsal[14]	_	cf1[12]|cf3[14]	_	_	
-4-9	273-275	of	event[12]|event[14]	giv:inact[12]|giv:inact[14]	nonsal[12]|nonsal[14]	_	cf1[12]|cf3[14]	_	_	
-4-10	276-277	a	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	nonsal[12]|nonsal[14]|nonsal[16]	_	cf1[12]|cf3[14]|cf4[16]	coref	6-23[29_16]	
-4-11	278-283	right	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	nonsal[12]|nonsal[14]|nonsal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
-4-12	284-293	Schatzker	event[12]|event[14]|event[16]|person[17]	giv:inact[12]|giv:inact[14]|giv:inact[16]|giv:inact[17]	nonsal[12]|nonsal[14]|nonsal[16]|nonsal[17]	_	cf1[12]|cf3[14]|cf4[16]|cf6[17]	coref	6-23[30_17]	
-4-13	294-296	IV	event[12]|event[14]|event[16]|person[17]	giv:inact[12]|giv:inact[14]|giv:inact[16]|giv:inact[17]	nonsal[12]|nonsal[14]|nonsal[16]|nonsal[17]	_	cf1[12]|cf3[14]|cf4[16]|cf6[17]	_	_	
-4-14	297-303	tibial	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	nonsal[12]|nonsal[14]|nonsal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
-4-15	304-311	plateau	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	nonsal[12]|nonsal[14]|nonsal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
-4-16	312-320	fracture	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	nonsal[12]|nonsal[14]|nonsal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
+4-2	224-225	4	event[12]|time[13]	giv:inact[12]|giv:inact[13]	sal[12]|sal[13]	_	cf1[12]|cf2[13]	pred|coref	6-14[24_12]|6-14[26_13]	
+4-3	226-232	months	event[12]|time[13]	giv:inact[12]|giv:inact[13]	sal[12]|sal[13]	_	cf1[12]|cf2[13]	_	_	
+4-4	233-239	status	event[12]	giv:inact[12]	sal[12]	_	cf1[12]	_	_	
+4-5	240-244	post	event[12]	giv:inact[12]	sal[12]	_	cf1[12]	_	_	
+4-6	245-257	percutaneous	event[12]|event[14]|object[15]	giv:inact[12]|giv:inact[14]|giv:inact[15]	sal[12]|sal[14]|sal[15]	_	cf1[12]|cf3[14]|cf7[15]	coref|coref	6-19[27_14]|6-19[28_15]	
+4-7	258-263	screw	event[12]|event[14]|object[15]	giv:inact[12]|giv:inact[14]|giv:inact[15]	sal[12]|sal[14]|sal[15]	_	cf1[12]|cf3[14]|cf7[15]	_	_	
+4-8	264-272	fixation	event[12]|event[14]	giv:inact[12]|giv:inact[14]	sal[12]|sal[14]	_	cf1[12]|cf3[14]	_	_	
+4-9	273-275	of	event[12]|event[14]	giv:inact[12]|giv:inact[14]	sal[12]|sal[14]	_	cf1[12]|cf3[14]	_	_	
+4-10	276-277	a	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	sal[12]|sal[14]|sal[16]	_	cf1[12]|cf3[14]|cf4[16]	coref	6-23[29_16]	
+4-11	278-283	right	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	sal[12]|sal[14]|sal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
+4-12	284-293	Schatzker	event[12]|event[14]|event[16]|person[17]	giv:inact[12]|giv:inact[14]|giv:inact[16]|giv:inact[17]	sal[12]|sal[14]|sal[16]|sal[17]	_	cf1[12]|cf3[14]|cf4[16]|cf6[17]	coref	6-23[30_17]	
+4-13	294-296	IV	event[12]|event[14]|event[16]|person[17]	giv:inact[12]|giv:inact[14]|giv:inact[16]|giv:inact[17]	sal[12]|sal[14]|sal[16]|sal[17]	_	cf1[12]|cf3[14]|cf4[16]|cf6[17]	_	_	
+4-14	297-303	tibial	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	sal[12]|sal[14]|sal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
+4-15	304-311	plateau	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	sal[12]|sal[14]|sal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
+4-16	312-320	fracture	event[12]|event[14]|event[16]	giv:inact[12]|giv:inact[14]|giv:inact[16]	sal[12]|sal[14]|sal[16]	_	cf1[12]|cf3[14]|cf4[16]	_	_	
 4-17	321-324	and	_	_	_	_	_	_	_	
-4-18	325-331	second	event[18]	giv:inact[18]	nonsal[18]	_	cf5[18]	coref	6-32[32_18]	
-4-19	332-339	through	event[18]	giv:inact[18]	nonsal[18]	_	cf5[18]	_	_	
-4-20	340-345	fifth	event[18]|object[19]	giv:inact[18]|giv:inact[19]	nonsal[18]|nonsal[19]	_	cf5[18]|cf8[19]	coref	6-34[34_19]	
-4-21	346-356	metatarsal	event[18]|object[19]	giv:inact[18]|giv:inact[19]	nonsal[18]|nonsal[19]	_	cf5[18]|cf8[19]	_	_	
-4-22	357-361	head	event[18]|object[19]	giv:inact[18]|giv:inact[19]	nonsal[18]|nonsal[19]	_	cf5[18]|cf8[19]	_	_	
-4-23	362-371	fractures	event[18]	giv:inact[18]	nonsal[18]	_	cf5[18]	_	_	
+4-18	325-331	second	event[18]	giv:inact[18]	sal[18]	_	cf5[18]	coref	6-32[32_18]	
+4-19	332-339	through	event[18]	giv:inact[18]	sal[18]	_	cf5[18]	_	_	
+4-20	340-345	fifth	event[18]|object[19]	giv:inact[18]|giv:inact[19]	sal[18]|sal[19]	_	cf5[18]|cf8[19]	coref	6-34[34_19]	
+4-21	346-356	metatarsal	event[18]|object[19]	giv:inact[18]|giv:inact[19]	sal[18]|sal[19]	_	cf5[18]|cf8[19]	_	_	
+4-22	357-361	head	event[18]|object[19]	giv:inact[18]|giv:inact[19]	sal[18]|sal[19]	_	cf5[18]|cf8[19]	_	_	
+4-23	362-371	fractures	event[18]	giv:inact[18]	sal[18]	_	cf5[18]	_	_	
 4-24	372-379	treated	_	_	_	_	_	_	_	
 4-25	380-394	nonoperatively	_	_	_	_	_	_	_	
 4-26	395-396	.	_	_	_	_	_	_	_	
@@ -77,47 +77,47 @@
 5-5	424-425	:	_	_	_	_	_	_	_	
 
 #Text=The patient is a 59 - year - old gentleman who is now approximately 4 months status post percutaneous screw fixation of Schatzker IV tibial plateau fracture and nonoperative management of second through fifth metatarsal head fractures .
-6-1	426-429	The	person[22]	new[22]	nonsal[22]	_	cf1[22]	pred	6-4[23_22]	
-6-2	430-437	patient	person[22]	new[22]	nonsal[22]	_	cf1[22]	_	_	
+6-1	426-429	The	person[22]	new[22]	sal[22]	_	cf1[22]	pred	6-4[23_22]	
+6-2	430-437	patient	person[22]	new[22]	sal[22]	_	cf1[22]	_	_	
 6-3	438-440	is	_	_	_	_	_	_	_	
-6-4	441-442	a	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	ana	7-1[35_23]	
-6-5	443-445	59	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-6	446-447	-	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-7	448-452	year	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-8	453-454	-	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-9	455-458	old	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-10	459-468	gentleman	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-11	469-472	who	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-12	473-475	is	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-13	476-479	now	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-14	480-493	approximately	person[23]|event[24]|event[25]|time[26]	giv:act[23]|giv:inact[24]|new[25]|giv:inact[26]	nonsal[23]|nonsal[24]|nonsal[25]|nonsal[26]	_	cf1[23]|cf2[24]|cf10[25]|cf3[26]	coref	25-1[139_26]	
-6-15	494-495	4	person[23]|event[24]|event[25]|time[26]	giv:act[23]|giv:inact[24]|new[25]|giv:inact[26]	nonsal[23]|nonsal[24]|nonsal[25]|nonsal[26]	_	cf1[23]|cf2[24]|cf10[25]|cf3[26]	_	_	
-6-16	496-502	months	person[23]|event[24]|event[25]|time[26]	giv:act[23]|giv:inact[24]|new[25]|giv:inact[26]	nonsal[23]|nonsal[24]|nonsal[25]|nonsal[26]	_	cf1[23]|cf2[24]|cf10[25]|cf3[26]	_	_	
-6-17	503-509	status	person[23]|event[24]|event[25]	giv:act[23]|giv:inact[24]|new[25]	nonsal[23]|nonsal[24]|nonsal[25]	_	cf1[23]|cf2[24]|cf10[25]	_	_	
-6-18	510-514	post	person[23]|event[24]	giv:act[23]|giv:inact[24]	nonsal[23]|nonsal[24]	_	cf1[23]|cf2[24]	_	_	
-6-19	515-527	percutaneous	person[23]|event[24]|event[27]|object[28]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[28]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[28]	_	cf1[23]|cf2[24]|cf4[27]|cf8[28]	coref|coref	20-22[120_27]|20-22[121_28]	
-6-20	528-533	screw	person[23]|event[24]|event[27]|object[28]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[28]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[28]	_	cf1[23]|cf2[24]|cf4[27]|cf8[28]	_	_	
-6-21	534-542	fixation	person[23]|event[24]|event[27]	giv:act[23]|giv:inact[24]|giv:inact[27]	nonsal[23]|nonsal[24]|nonsal[27]	_	cf1[23]|cf2[24]|cf4[27]	_	_	
-6-22	543-545	of	person[23]|event[24]|event[27]	giv:act[23]|giv:inact[24]|giv:inact[27]	nonsal[23]|nonsal[24]|nonsal[27]	_	cf1[23]|cf2[24]|cf4[27]	_	_	
-6-23	546-555	Schatzker	person[23]|event[24]|event[27]|event[29]|person[30]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]|giv:inact[30]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[29]|nonsal[30]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]|cf7[30]	_	_	
-6-24	556-558	IV	person[23]|event[24]|event[27]|event[29]|person[30]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]|giv:inact[30]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[29]|nonsal[30]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]|cf7[30]	_	_	
-6-25	559-565	tibial	person[23]|event[24]|event[27]|event[29]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[29]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]	_	_	
-6-26	566-573	plateau	person[23]|event[24]|event[27]|event[29]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[29]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]	_	_	
-6-27	574-582	fracture	person[23]|event[24]|event[27]|event[29]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]	nonsal[23]|nonsal[24]|nonsal[27]|nonsal[29]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]	_	_	
-6-28	583-586	and	person[23]	giv:act[23]	nonsal[23]	_	cf1[23]	_	_	
-6-29	587-599	nonoperative	person[23]|event[31]	giv:act[23]|new[31]	nonsal[23]|nonsal[31]	_	cf1[23]|cf11[31]	_	_	
-6-30	600-610	management	person[23]|event[31]	giv:act[23]|new[31]	nonsal[23]|nonsal[31]	_	cf1[23]|cf11[31]	_	_	
-6-31	611-613	of	person[23]|event[31]	giv:act[23]|new[31]	nonsal[23]|nonsal[31]	_	cf1[23]|cf11[31]	_	_	
-6-32	614-620	second	person[23]|event[31]|event[32]	giv:act[23]|new[31]|giv:inact[32]	nonsal[23]|nonsal[31]|nonsal[32]	_	cf1[23]|cf11[31]|cf6[32]	coref	21-10[125_32]	
-6-33	621-628	through	person[23]|event[31]|event[32]	giv:act[23]|new[31]|giv:inact[32]	nonsal[23]|nonsal[31]|nonsal[32]	_	cf1[23]|cf11[31]|cf6[32]	_	_	
-6-34	629-634	fifth	person[23]|event[31]|event[32]|object[33]|object[34]	giv:act[23]|new[31]|giv:inact[32]|new[33]|giv:inact[34]	nonsal[23]|nonsal[31]|nonsal[32]|nonsal[33]|nonsal[34]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]|cf9[34]	coref	21-13[126_33]	
-6-35	635-645	metatarsal	person[23]|event[31]|event[32]|object[33]|object[34]	giv:act[23]|new[31]|giv:inact[32]|new[33]|giv:inact[34]	nonsal[23]|nonsal[31]|nonsal[32]|nonsal[33]|nonsal[34]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]|cf9[34]	_	_	
-6-36	646-650	head	person[23]|event[31]|event[32]|object[33]|object[34]	giv:act[23]|new[31]|giv:inact[32]|new[33]|giv:inact[34]	nonsal[23]|nonsal[31]|nonsal[32]|nonsal[33]|nonsal[34]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]|cf9[34]	_	_	
-6-37	651-660	fractures	person[23]|event[31]|event[32]|object[33]	giv:act[23]|new[31]|giv:inact[32]|new[33]	nonsal[23]|nonsal[31]|nonsal[32]|nonsal[33]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]	_	_	
+6-4	441-442	a	person[23]	giv:act[23]	sal[23]	_	cf1[23]	ana	7-1[35_23]	
+6-5	443-445	59	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-6	446-447	-	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-7	448-452	year	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-8	453-454	-	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-9	455-458	old	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-10	459-468	gentleman	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-11	469-472	who	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-12	473-475	is	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-13	476-479	now	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-14	480-493	approximately	person[23]|event[24]|event[25]|time[26]	giv:act[23]|giv:inact[24]|new[25]|giv:inact[26]	sal[23]|sal[24]|nonsal[25]|sal[26]	_	cf1[23]|cf2[24]|cf10[25]|cf3[26]	coref	25-1[139_26]	
+6-15	494-495	4	person[23]|event[24]|event[25]|time[26]	giv:act[23]|giv:inact[24]|new[25]|giv:inact[26]	sal[23]|sal[24]|nonsal[25]|sal[26]	_	cf1[23]|cf2[24]|cf10[25]|cf3[26]	_	_	
+6-16	496-502	months	person[23]|event[24]|event[25]|time[26]	giv:act[23]|giv:inact[24]|new[25]|giv:inact[26]	sal[23]|sal[24]|nonsal[25]|sal[26]	_	cf1[23]|cf2[24]|cf10[25]|cf3[26]	_	_	
+6-17	503-509	status	person[23]|event[24]|event[25]	giv:act[23]|giv:inact[24]|new[25]	sal[23]|sal[24]|nonsal[25]	_	cf1[23]|cf2[24]|cf10[25]	_	_	
+6-18	510-514	post	person[23]|event[24]	giv:act[23]|giv:inact[24]	sal[23]|sal[24]	_	cf1[23]|cf2[24]	_	_	
+6-19	515-527	percutaneous	person[23]|event[24]|event[27]|object[28]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[28]	sal[23]|sal[24]|sal[27]|sal[28]	_	cf1[23]|cf2[24]|cf4[27]|cf8[28]	coref|coref	20-22[120_27]|20-22[121_28]	
+6-20	528-533	screw	person[23]|event[24]|event[27]|object[28]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[28]	sal[23]|sal[24]|sal[27]|sal[28]	_	cf1[23]|cf2[24]|cf4[27]|cf8[28]	_	_	
+6-21	534-542	fixation	person[23]|event[24]|event[27]	giv:act[23]|giv:inact[24]|giv:inact[27]	sal[23]|sal[24]|sal[27]	_	cf1[23]|cf2[24]|cf4[27]	_	_	
+6-22	543-545	of	person[23]|event[24]|event[27]	giv:act[23]|giv:inact[24]|giv:inact[27]	sal[23]|sal[24]|sal[27]	_	cf1[23]|cf2[24]|cf4[27]	_	_	
+6-23	546-555	Schatzker	person[23]|event[24]|event[27]|event[29]|person[30]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]|giv:inact[30]	sal[23]|sal[24]|sal[27]|sal[29]|sal[30]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]|cf7[30]	_	_	
+6-24	556-558	IV	person[23]|event[24]|event[27]|event[29]|person[30]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]|giv:inact[30]	sal[23]|sal[24]|sal[27]|sal[29]|sal[30]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]|cf7[30]	_	_	
+6-25	559-565	tibial	person[23]|event[24]|event[27]|event[29]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]	sal[23]|sal[24]|sal[27]|sal[29]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]	_	_	
+6-26	566-573	plateau	person[23]|event[24]|event[27]|event[29]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]	sal[23]|sal[24]|sal[27]|sal[29]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]	_	_	
+6-27	574-582	fracture	person[23]|event[24]|event[27]|event[29]	giv:act[23]|giv:inact[24]|giv:inact[27]|giv:inact[29]	sal[23]|sal[24]|sal[27]|sal[29]	_	cf1[23]|cf2[24]|cf4[27]|cf5[29]	_	_	
+6-28	583-586	and	person[23]	giv:act[23]	sal[23]	_	cf1[23]	_	_	
+6-29	587-599	nonoperative	person[23]|event[31]	giv:act[23]|new[31]	sal[23]|nonsal[31]	_	cf1[23]|cf11[31]	_	_	
+6-30	600-610	management	person[23]|event[31]	giv:act[23]|new[31]	sal[23]|nonsal[31]	_	cf1[23]|cf11[31]	_	_	
+6-31	611-613	of	person[23]|event[31]	giv:act[23]|new[31]	sal[23]|nonsal[31]	_	cf1[23]|cf11[31]	_	_	
+6-32	614-620	second	person[23]|event[31]|event[32]	giv:act[23]|new[31]|giv:inact[32]	sal[23]|nonsal[31]|sal[32]	_	cf1[23]|cf11[31]|cf6[32]	coref	21-10[125_32]	
+6-33	621-628	through	person[23]|event[31]|event[32]	giv:act[23]|new[31]|giv:inact[32]	sal[23]|nonsal[31]|sal[32]	_	cf1[23]|cf11[31]|cf6[32]	_	_	
+6-34	629-634	fifth	person[23]|event[31]|event[32]|object[33]|object[34]	giv:act[23]|new[31]|giv:inact[32]|new[33]|giv:inact[34]	sal[23]|nonsal[31]|sal[32]|nonsal[33]|sal[34]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]|cf9[34]	coref	21-13[126_33]	
+6-35	635-645	metatarsal	person[23]|event[31]|event[32]|object[33]|object[34]	giv:act[23]|new[31]|giv:inact[32]|new[33]|giv:inact[34]	sal[23]|nonsal[31]|sal[32]|nonsal[33]|sal[34]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]|cf9[34]	_	_	
+6-36	646-650	head	person[23]|event[31]|event[32]|object[33]|object[34]	giv:act[23]|new[31]|giv:inact[32]|new[33]|giv:inact[34]	sal[23]|nonsal[31]|sal[32]|nonsal[33]|sal[34]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]|cf9[34]	_	_	
+6-37	651-660	fractures	person[23]|event[31]|event[32]|object[33]	giv:act[23]|new[31]|giv:inact[32]|new[33]	sal[23]|nonsal[31]|sal[32]|nonsal[33]	_	cf1[23]|cf11[31]|cf6[32]|cf12[33]	_	_	
 6-38	661-662	.	_	_	_	_	_	_	_	
 
 #Text=He is currently at home and has left nursing home facility .
-7-1	663-665	He	person[35]	giv:act[35]	nonsal[35]	_	cf1*[35]	ana	8-1[41_35]	
+7-1	663-665	He	person[35]	giv:act[35]	sal[35]	_	cf1*[35]	ana	8-1[41_35]	
 7-2	666-668	is	_	_	_	_	_	_	_	
 7-3	669-678	currently	_	_	_	_	_	_	_	
 7-4	679-681	at	_	_	_	_	_	_	_	
@@ -131,24 +131,24 @@
 7-12	722-723	.	_	_	_	_	_	_	_	
 
 #Text=He states that his pain is well controlled .
-8-1	724-726	He	person[41]	giv:act[41]	nonsal[41]	_	cf1*[41]	ana	8-4[44_41]	
+8-1	724-726	He	person[41]	giv:act[41]	sal[41]	_	cf1*[41]	ana	8-4[44_41]	
 8-2	727-733	states	_	_	_	_	_	_	_	
 8-3	734-738	that	_	_	_	_	_	_	_	
-8-4	739-742	his	abstract[43]|person[44]	new[43]|giv:act[44]	nonsal[43]|nonsal[44]	_	cf2[43]|cf1*[44]	ana	9-1[45_44]	
-8-5	743-747	pain	abstract[43]	new[43]	nonsal[43]	_	cf2[43]	_	_	
+8-4	739-742	his	abstract[43]|person[44]	new[43]|giv:act[44]	sal[43]|sal[44]	_	cf2[43]|cf1*[44]	ana	9-1[45_44]	
+8-5	743-747	pain	abstract[43]	new[43]	sal[43]	_	cf2[43]	_	_	
 8-6	748-750	is	_	_	_	_	_	_	_	
 8-7	751-755	well	_	_	_	_	_	_	_	
 8-8	756-766	controlled	_	_	_	_	_	_	_	
 8-9	767-768	.	_	_	_	_	_	_	_	
 
 #Text=He has been working with physical therapy two to three times a week .
-9-1	769-771	He	person[45]	giv:act[45]	nonsal[45]	_	cf1*[45]	ana	10-1[51_45]	
+9-1	769-771	He	person[45]	giv:act[45]	sal[45]	_	cf1*[45]	ana	10-1[51_45]	
 9-2	772-775	has	_	_	_	_	_	_	_	
 9-3	776-780	been	_	_	_	_	_	_	_	
 9-4	781-788	working	_	_	_	_	_	_	_	
 9-5	789-793	with	_	_	_	_	_	_	_	
-9-6	794-802	physical	abstract[48]	new[48]	nonsal[48]	_	cf2[48]	coref	27-10[150_48]	
-9-7	803-810	therapy	abstract[48]	new[48]	nonsal[48]	_	cf2[48]	_	_	
+9-6	794-802	physical	abstract[48]	new[48]	sal[48]	_	cf2[48]	coref	27-10[150_48]	
+9-7	803-810	therapy	abstract[48]	new[48]	sal[48]	_	cf2[48]	_	_	
 9-8	811-814	two	time[49]	new[49]	nonsal[49]	_	cf3[49]	_	_	
 9-9	815-817	to	time[49]	new[49]	nonsal[49]	_	cf3[49]	_	_	
 9-10	818-823	three	time[49]	new[49]	nonsal[49]	_	cf3[49]	_	_	
@@ -158,7 +158,7 @@
 9-14	837-838	.	_	_	_	_	_	_	_	
 
 #Text=He has had no drainage or fever .
-10-1	839-841	He	person[51]	giv:act[51]	nonsal[51]	_	cf1*[51]	ana	11-1[54_51]	
+10-1	839-841	He	person[51]	giv:act[51]	sal[51]	_	cf1*[51]	ana	11-1[54_51]	
 10-2	842-845	has	_	_	_	_	_	_	_	
 10-3	846-849	had	_	_	_	_	_	_	_	
 10-4	850-852	no	_	_	_	_	_	_	_	
@@ -168,16 +168,16 @@
 10-8	871-872	.	_	_	_	_	_	_	_	
 
 #Text=He has noticed some increasing paresthesias in his bilateral feet but has a history of spinal stenosis with lower extremity neuropathy .
-11-1	873-875	He	person[54]	giv:act[54]	nonsal[54]	_	cf1*[54]	ana	11-8[61_54]	
+11-1	873-875	He	person[54]	giv:act[54]	sal[54]	_	cf1*[54]	ana	11-8[61_54]	
 11-2	876-879	has	_	_	_	_	_	_	_	
 11-3	880-887	noticed	_	_	_	_	_	_	_	
-11-4	888-892	some	abstract[59]	new[59]	nonsal[59]	_	cf3[59]	coref	31-10[183_59]	
-11-5	893-903	increasing	abstract[59]	new[59]	nonsal[59]	_	cf3[59]	_	_	
-11-6	904-916	paresthesias	abstract[59]	new[59]	nonsal[59]	_	cf3[59]	_	_	
-11-7	917-919	in	abstract[59]	new[59]	nonsal[59]	_	cf3[59]	_	_	
-11-8	920-923	his	abstract[59]|object[60]|person[61]	new[59]|new[60]|giv:act[61]	nonsal[59]|nonsal[60]|nonsal[61]	_	cf3[59]|cf4[60]|cf1*[61]	coref|ana	19-16[109_60]|13-5[70_61]	
-11-9	924-933	bilateral	abstract[59]|object[60]	new[59]|new[60]	nonsal[59]|nonsal[60]	_	cf3[59]|cf4[60]	_	_	
-11-10	934-938	feet	abstract[59]|object[60]	new[59]|new[60]	nonsal[59]|nonsal[60]	_	cf3[59]|cf4[60]	_	_	
+11-4	888-892	some	abstract[59]	new[59]	sal[59]	_	cf3[59]	coref	31-10[183_59]	
+11-5	893-903	increasing	abstract[59]	new[59]	sal[59]	_	cf3[59]	_	_	
+11-6	904-916	paresthesias	abstract[59]	new[59]	sal[59]	_	cf3[59]	_	_	
+11-7	917-919	in	abstract[59]	new[59]	sal[59]	_	cf3[59]	_	_	
+11-8	920-923	his	abstract[59]|object[60]|person[61]	new[59]|new[60]|giv:act[61]	sal[59]|nonsal[60]|sal[61]	_	cf3[59]|cf4[60]|cf1*[61]	coref|ana	19-16[109_60]|13-5[70_61]	
+11-9	924-933	bilateral	abstract[59]|object[60]	new[59]|new[60]	sal[59]|nonsal[60]	_	cf3[59]|cf4[60]	_	_	
+11-10	934-938	feet	abstract[59]|object[60]	new[59]|new[60]	sal[59]|nonsal[60]	_	cf3[59]|cf4[60]	_	_	
 11-11	939-942	but	_	_	_	_	_	_	_	
 11-12	943-946	has	_	_	_	_	_	_	_	
 11-13	947-948	a	abstract[63]	new[63]	nonsal[63]	_	cf2[63]	_	_	
@@ -200,8 +200,8 @@
 13-2	1024-1032	physical	event[68]	new[68]	nonsal[68]	_	cf3[68]	_	_	
 13-3	1033-1037	exam	event[68]	new[68]	nonsal[68]	_	cf3[68]	_	_	
 13-4	1038-1039	,	_	_	_	_	_	_	_	
-13-5	1040-1043	his	object[69]|person[70]	new[69]|giv:inact[70]	nonsal[69]|nonsal[70]	_	cf2[69]|cf1[70]	ana	14-1[71_70]	
-13-6	1044-1052	incision	object[69]	new[69]	nonsal[69]	_	cf2[69]	_	_	
+13-5	1040-1043	his	object[69]|person[70]	new[69]|giv:inact[70]	sal[69]|sal[70]	_	cf2[69]|cf1[70]	ana	14-1[71_70]	
+13-6	1044-1052	incision	object[69]	new[69]	sal[69]	_	cf2[69]	_	_	
 13-7	1053-1055	is	_	_	_	_	_	_	_	
 13-8	1056-1060	near	_	_	_	_	_	_	_	
 13-9	1061-1065	well	_	_	_	_	_	_	_	
@@ -209,7 +209,7 @@
 13-11	1073-1074	.	_	_	_	_	_	_	_	
 
 #Text=He has no effusion noted .
-14-1	1075-1077	He	person[71]	giv:act[71]	nonsal[71]	_	cf1*[71]	ana	15-1[76_71]	
+14-1	1075-1077	He	person[71]	giv:act[71]	sal[71]	_	cf1*[71]	ana	15-1[76_71]	
 14-2	1078-1081	has	_	_	_	_	_	_	_	
 14-3	1082-1084	no	abstract[74]	new[74]	nonsal[74]	_	cf2[74]	_	_	
 14-4	1085-1093	effusion	abstract[74]	new[74]	nonsal[74]	_	cf2[74]	_	_	
@@ -217,7 +217,7 @@
 14-6	1100-1101	.	_	_	_	_	_	_	_	
 
 #Text=His range of motion is 10 to 105 degrees .
-15-1	1102-1105	His	abstract[75]|person[76]	new[75]|giv:act[76]	nonsal[75]|nonsal[76]	_	cf2[75]|cf1*[76]	ana	16-1[81_76]	
+15-1	1102-1105	His	abstract[75]|person[76]	new[75]|giv:act[76]	nonsal[75]|sal[76]	_	cf2[75]|cf1*[76]	ana	16-1[81_76]	
 15-2	1106-1111	range	abstract[75]	new[75]	nonsal[75]	_	cf2[75]	_	_	
 15-3	1112-1114	of	abstract[75]	new[75]	nonsal[75]	_	cf2[75]	_	_	
 15-4	1115-1121	motion	abstract[75]|abstract[77]	new[75]|new[77]	nonsal[75]|nonsal[77]	_	cf2[75]|cf3[77]	_	_	
@@ -229,7 +229,7 @@
 15-10	1143-1144	.	_	_	_	_	_	_	_	
 
 #Text=He has no pain or crepitance .
-16-1	1145-1147	He	person[81]	giv:act[81]	nonsal[81]	_	cf1*[81]	ana	17-4[88_81]	
+16-1	1145-1147	He	person[81]	giv:act[81]	sal[81]	_	cf1*[81]	ana	17-4[88_81]	
 16-2	1148-1151	has	_	_	_	_	_	_	_	
 16-3	1152-1154	no	abstract[83]	new[83]	nonsal[83]	_	cf2[83]	_	_	
 16-4	1155-1159	pain	abstract[83]	new[83]	nonsal[83]	_	cf2[83]	_	_	
@@ -241,11 +241,11 @@
 17-1	1176-1178	On	_	_	_	_	_	_	_	
 17-2	1179-1190	examination	abstract[86]	new[86]	nonsal[86]	_	cf3[86]	coref	21-1[122_86]	
 17-3	1191-1193	of	abstract[86]	new[86]	nonsal[86]	_	cf3[86]	_	_	
-17-4	1194-1197	his	abstract[86]|object[87]|person[88]	new[86]|new[87]|giv:act[88]	nonsal[86]|nonsal[87]|nonsal[88]	_	cf3[86]|cf4[87]|cf1*[88]	coref|ana	21-6[124_87]|17-8[89_88]	
+17-4	1194-1197	his	abstract[86]|object[87]|person[88]	new[86]|new[87]|giv:act[88]	nonsal[86]|nonsal[87]|sal[88]	_	cf3[86]|cf4[87]|cf1*[88]	coref|ana	21-6[124_87]|17-8[89_88]	
 17-5	1198-1203	right	abstract[86]|object[87]	new[86]|new[87]	nonsal[86]|nonsal[87]	_	cf3[86]|cf4[87]	_	_	
 17-6	1204-1208	foot	abstract[86]|object[87]	new[86]|new[87]	nonsal[86]|nonsal[87]	_	cf3[86]|cf4[87]	_	_	
 17-7	1209-1210	,	_	_	_	_	_	_	_	
-17-8	1211-1213	he	person[89]	giv:act[89]	nonsal[89]	_	cf1*[89]	ana	18-1[94_89]	
+17-8	1211-1213	he	person[89]	giv:act[89]	sal[89]	_	cf1*[89]	ana	18-1[94_89]	
 17-9	1214-1216	is	_	_	_	_	_	_	_	
 17-10	1217-1226	nontender	_	_	_	_	_	_	_	
 17-11	1227-1229	to	_	_	_	_	_	_	_	
@@ -257,7 +257,7 @@
 17-17	1264-1265	.	_	_	_	_	_	_	_	
 
 #Text=He has 4 out of 5 strength in EHL , FHL , tibialis , and gastroc - soleus complex .
-18-1	1266-1268	He	person[94]	giv:act[94]	nonsal[94]	_	cf1*[94]	ana	19-1[104_94]	
+18-1	1266-1268	He	person[94]	giv:act[94]	sal[94]	_	cf1*[94]	ana	19-1[104_94]	
 18-2	1269-1272	has	_	_	_	_	_	_	_	
 18-3	1273-1274	4	abstract[96]	new[96]	nonsal[96]	_	cf2[96]	_	_	
 18-4	1275-1278	out	abstract[96]	new[96]	nonsal[96]	_	cf2[96]	_	_	
@@ -279,23 +279,23 @@
 18-20	1348-1349	.	_	_	_	_	_	_	_	
 
 #Text=He does have decreased sensation to light touch in the L4 - L5 distribution of his feet bilaterally .
-19-1	1350-1352	He	person[104]	giv:act[104]	nonsal[104]	_	cf1*[104]	ana	19-16[110_104]	
+19-1	1350-1352	He	person[104]	giv:act[104]	sal[104]	_	cf1*[104]	ana	19-16[110_104]	
 19-2	1353-1357	does	_	_	_	_	_	_	_	
 19-3	1358-1362	have	_	_	_	_	_	_	_	
-19-4	1363-1372	decreased	abstract[106]	new[106]	nonsal[106]	_	cf3[106]	_	_	
-19-5	1373-1382	sensation	abstract[106]	new[106]	nonsal[106]	_	cf3[106]	_	_	
-19-6	1383-1385	to	abstract[106]	new[106]	nonsal[106]	_	cf3[106]	_	_	
-19-7	1386-1391	light	abstract[106]|abstract[107]	new[106]|new[107]	nonsal[106]|nonsal[107]	_	cf3[106]|cf5[107]	_	_	
-19-8	1392-1397	touch	abstract[106]|abstract[107]	new[106]|new[107]	nonsal[106]|nonsal[107]	_	cf3[106]|cf5[107]	_	_	
+19-4	1363-1372	decreased	abstract[106]	new[106]	sal[106]	_	cf3[106]	_	_	
+19-5	1373-1382	sensation	abstract[106]	new[106]	sal[106]	_	cf3[106]	_	_	
+19-6	1383-1385	to	abstract[106]	new[106]	sal[106]	_	cf3[106]	_	_	
+19-7	1386-1391	light	abstract[106]|abstract[107]	new[106]|new[107]	sal[106]|nonsal[107]	_	cf3[106]|cf5[107]	_	_	
+19-8	1392-1397	touch	abstract[106]|abstract[107]	new[106]|new[107]	sal[106]|nonsal[107]	_	cf3[106]|cf5[107]	_	_	
 19-9	1398-1400	in	_	_	_	_	_	_	_	
-19-10	1401-1404	the	abstract[108]	new[108]	nonsal[108]	_	cf4[108]	_	_	
-19-11	1405-1407	L4	abstract[108]	new[108]	nonsal[108]	_	cf4[108]	_	_	
-19-12	1408-1409	-	abstract[108]	new[108]	nonsal[108]	_	cf4[108]	_	_	
-19-13	1410-1412	L5	abstract[108]	new[108]	nonsal[108]	_	cf4[108]	_	_	
-19-14	1413-1425	distribution	abstract[108]	new[108]	nonsal[108]	_	cf4[108]	_	_	
-19-15	1426-1428	of	abstract[108]	new[108]	nonsal[108]	_	cf4[108]	_	_	
-19-16	1429-1432	his	abstract[108]|object[109]|person[110]	new[108]|giv:inact[109]|giv:act[110]	nonsal[108]|nonsal[109]|nonsal[110]	_	cf4[108]|cf2[109]|cf1*[110]	coref	27-4[149_110]	
-19-17	1433-1437	feet	abstract[108]|object[109]	new[108]|giv:inact[109]	nonsal[108]|nonsal[109]	_	cf4[108]|cf2[109]	_	_	
+19-10	1401-1404	the	abstract[108]	new[108]	sal[108]	_	cf4[108]	_	_	
+19-11	1405-1407	L4	abstract[108]	new[108]	sal[108]	_	cf4[108]	_	_	
+19-12	1408-1409	-	abstract[108]	new[108]	sal[108]	_	cf4[108]	_	_	
+19-13	1410-1412	L5	abstract[108]	new[108]	sal[108]	_	cf4[108]	_	_	
+19-14	1413-1425	distribution	abstract[108]	new[108]	sal[108]	_	cf4[108]	_	_	
+19-15	1426-1428	of	abstract[108]	new[108]	sal[108]	_	cf4[108]	_	_	
+19-16	1429-1432	his	abstract[108]|object[109]|person[110]	new[108]|giv:inact[109]|giv:act[110]	sal[108]|nonsal[109]|sal[110]	_	cf4[108]|cf2[109]|cf1*[110]	coref	27-4[149_110]	
+19-17	1433-1437	feet	abstract[108]|object[109]	new[108]|giv:inact[109]	sal[108]|nonsal[109]	_	cf4[108]|cf2[109]	_	_	
 19-18	1438-1449	bilaterally	_	_	_	_	_	_	_	
 19-19	1450-1451	.	_	_	_	_	_	_	_	
 
@@ -321,9 +321,9 @@
 20-19	1553-1561	fracture	event[117]|event[118]	new[117]|new[118]	nonsal[117]|nonsal[118]	_	cf4[117]|cf8[118]	_	_	
 20-20	1562-1568	status	event[117]	new[117]	nonsal[117]	_	cf4[117]	_	_	
 20-21	1569-1573	post	event[117]	new[117]	nonsal[117]	_	cf4[117]	_	_	
-20-22	1574-1586	percutaneous	event[117]|event[120]|object[121]	new[117]|giv:inact[120]|giv:inact[121]	nonsal[117]|nonsal[120]|nonsal[121]	_	cf4[117]|cf1[120]|cf2[121]	coref|coref	25-5[140_120]|25-5[141_121]	
-20-23	1587-1592	screw	event[117]|event[120]|object[121]	new[117]|giv:inact[120]|giv:inact[121]	nonsal[117]|nonsal[120]|nonsal[121]	_	cf4[117]|cf1[120]|cf2[121]	_	_	
-20-24	1593-1601	fixation	event[117]|event[120]	new[117]|giv:inact[120]	nonsal[117]|nonsal[120]	_	cf4[117]|cf1[120]	_	_	
+20-22	1574-1586	percutaneous	event[117]|event[120]|object[121]	new[117]|giv:inact[120]|giv:inact[121]	nonsal[117]|sal[120]|sal[121]	_	cf4[117]|cf1[120]|cf2[121]	coref|coref	25-5[140_120]|25-5[141_121]	
+20-23	1587-1592	screw	event[117]|event[120]|object[121]	new[117]|giv:inact[120]|giv:inact[121]	nonsal[117]|sal[120]|sal[121]	_	cf4[117]|cf1[120]|cf2[121]	_	_	
+20-24	1593-1601	fixation	event[117]|event[120]	new[117]|giv:inact[120]	nonsal[117]|sal[120]	_	cf4[117]|cf1[120]	_	_	
 20-25	1602-1603	.	_	_	_	_	_	_	_	
 
 #Text=Examination of three views of the right foot demonstrates the second through fifth metatarsal head fractures .
@@ -336,17 +336,17 @@
 21-7	1638-1643	right	abstract[122]|abstract[123]|object[124]	giv:inact[122]|new[123]|giv:inact[124]	nonsal[122]|nonsal[123]|nonsal[124]	_	cf1[122]|cf5[123]|cf3[124]	_	_	
 21-8	1644-1648	foot	abstract[122]|abstract[123]|object[124]	giv:inact[122]|new[123]|giv:inact[124]	nonsal[122]|nonsal[123]|nonsal[124]	_	cf1[122]|cf5[123]|cf3[124]	_	_	
 21-9	1649-1661	demonstrates	_	_	_	_	_	_	_	
-21-10	1662-1665	the	event[125]	giv:inact[125]	nonsal[125]	_	cf2[125]	ana	22-1[127_125]	
-21-11	1666-1672	second	event[125]	giv:inact[125]	nonsal[125]	_	cf2[125]	_	_	
-21-12	1673-1680	through	event[125]	giv:inact[125]	nonsal[125]	_	cf2[125]	_	_	
-21-13	1681-1686	fifth	event[125]|object[126]	giv:inact[125]|giv:inact[126]	nonsal[125]|nonsal[126]	_	cf2[125]|cf4[126]	coref	25-17[144_126]	
-21-14	1687-1697	metatarsal	event[125]|object[126]	giv:inact[125]|giv:inact[126]	nonsal[125]|nonsal[126]	_	cf2[125]|cf4[126]	_	_	
-21-15	1698-1702	head	event[125]|object[126]	giv:inact[125]|giv:inact[126]	nonsal[125]|nonsal[126]	_	cf2[125]|cf4[126]	_	_	
-21-16	1703-1712	fractures	event[125]	giv:inact[125]	nonsal[125]	_	cf2[125]	_	_	
+21-10	1662-1665	the	event[125]	giv:inact[125]	sal[125]	_	cf2[125]	ana	22-1[127_125]	
+21-11	1666-1672	second	event[125]	giv:inact[125]	sal[125]	_	cf2[125]	_	_	
+21-12	1673-1680	through	event[125]	giv:inact[125]	sal[125]	_	cf2[125]	_	_	
+21-13	1681-1686	fifth	event[125]|object[126]	giv:inact[125]|giv:inact[126]	sal[125]|nonsal[126]	_	cf2[125]|cf4[126]	coref	25-17[144_126]	
+21-14	1687-1697	metatarsal	event[125]|object[126]	giv:inact[125]|giv:inact[126]	sal[125]|nonsal[126]	_	cf2[125]|cf4[126]	_	_	
+21-15	1698-1702	head	event[125]|object[126]	giv:inact[125]|giv:inact[126]	sal[125]|nonsal[126]	_	cf2[125]|cf4[126]	_	_	
+21-16	1703-1712	fractures	event[125]	giv:inact[125]	sal[125]	_	cf2[125]	_	_	
 21-17	1713-1714	.	_	_	_	_	_	_	_	
 
 #Text=These appear to be extraarticular .
-22-1	1715-1720	These	event[127]	giv:act[127]	nonsal[127]	_	cf1*[127]	ana	23-1[128_127]	
+22-1	1715-1720	These	event[127]	giv:act[127]	sal[127]	_	cf1*[127]	ana	23-1[128_127]	
 22-2	1721-1727	appear	_	_	_	_	_	_	_	
 22-3	1728-1730	to	_	_	_	_	_	_	_	
 22-4	1731-1733	be	_	_	_	_	_	_	_	
@@ -354,7 +354,7 @@
 22-6	1749-1750	.	_	_	_	_	_	_	_	
 
 #Text=They are all in a bayonet arrangement , but there appears to be bridging callus between the fragments on the oblique film .
-23-1	1751-1755	They	event[128]	giv:act[128]	nonsal[128]	_	cf1*[128]	coref	25-15[143_128]	
+23-1	1751-1755	They	event[128]	giv:act[128]	sal[128]	_	cf1*[128]	coref	25-15[143_128]	
 23-2	1756-1759	are	_	_	_	_	_	_	_	
 23-3	1760-1763	all	_	_	_	_	_	_	_	
 23-4	1764-1766	in	_	_	_	_	_	_	_	
@@ -367,8 +367,8 @@
 23-11	1801-1808	appears	_	_	_	_	_	_	_	
 23-12	1809-1811	to	_	_	_	_	_	_	_	
 23-13	1812-1814	be	_	_	_	_	_	_	_	
-23-14	1815-1823	bridging	object[134]	new[134]	nonsal[134]	_	cf2[134]	_	_	
-23-15	1824-1830	callus	object[134]	new[134]	nonsal[134]	_	cf2[134]	_	_	
+23-14	1815-1823	bridging	object[134]	new[134]	sal[134]	_	cf2[134]	_	_	
+23-15	1824-1830	callus	object[134]	new[134]	sal[134]	_	cf2[134]	_	_	
 23-16	1831-1838	between	_	_	_	_	_	_	_	
 23-17	1839-1842	the	object[135]	new[135]	nonsal[135]	_	cf3[135]	_	_	
 23-18	1843-1852	fragments	object[135]	new[135]	nonsal[135]	_	cf3[135]	_	_	
@@ -383,26 +383,26 @@
 24-2	1886-1887	:	_	_	_	_	_	_	_	
 
 #Text=Four months status post percutaneous screw fixation of the right medial tibial plateau and second through fifth metatarsal head fractures .
-25-1	1888-1892	Four	time[139]	giv:inact[139]	nonsal[139]	_	cf2[139]	_	_	
-25-2	1893-1899	months	time[139]	giv:inact[139]	nonsal[139]	_	cf2[139]	_	_	
+25-1	1888-1892	Four	time[139]	giv:inact[139]	sal[139]	_	cf2[139]	_	_	
+25-2	1893-1899	months	time[139]	giv:inact[139]	sal[139]	_	cf2[139]	_	_	
 25-3	1900-1906	status	_	_	_	_	_	_	_	
 25-4	1907-1911	post	_	_	_	_	_	_	_	
-25-5	1912-1924	percutaneous	event[140]|object[141]	giv:inact[140]|giv:inact[141]	nonsal[140]|nonsal[141]	_	cf3[140]|cf5[141]	_	_	
-25-6	1925-1930	screw	event[140]|object[141]	giv:inact[140]|giv:inact[141]	nonsal[140]|nonsal[141]	_	cf3[140]|cf5[141]	_	_	
-25-7	1931-1939	fixation	event[140]	giv:inact[140]	nonsal[140]	_	cf3[140]	_	_	
-25-8	1940-1942	of	event[140]	giv:inact[140]	nonsal[140]	_	cf3[140]	_	_	
-25-9	1943-1946	the	event[140]|object[142]	giv:inact[140]|giv:inact[142]	nonsal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
-25-10	1947-1952	right	event[140]|object[142]	giv:inact[140]|giv:inact[142]	nonsal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
-25-11	1953-1959	medial	event[140]|object[142]	giv:inact[140]|giv:inact[142]	nonsal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
-25-12	1960-1966	tibial	event[140]|object[142]	giv:inact[140]|giv:inact[142]	nonsal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
-25-13	1967-1974	plateau	event[140]|object[142]	giv:inact[140]|giv:inact[142]	nonsal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
+25-5	1912-1924	percutaneous	event[140]|object[141]	giv:inact[140]|giv:inact[141]	sal[140]|sal[141]	_	cf3[140]|cf5[141]	_	_	
+25-6	1925-1930	screw	event[140]|object[141]	giv:inact[140]|giv:inact[141]	sal[140]|sal[141]	_	cf3[140]|cf5[141]	_	_	
+25-7	1931-1939	fixation	event[140]	giv:inact[140]	sal[140]	_	cf3[140]	_	_	
+25-8	1940-1942	of	event[140]	giv:inact[140]	sal[140]	_	cf3[140]	_	_	
+25-9	1943-1946	the	event[140]|object[142]	giv:inact[140]|giv:inact[142]	sal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
+25-10	1947-1952	right	event[140]|object[142]	giv:inact[140]|giv:inact[142]	sal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
+25-11	1953-1959	medial	event[140]|object[142]	giv:inact[140]|giv:inact[142]	sal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
+25-12	1960-1966	tibial	event[140]|object[142]	giv:inact[140]|giv:inact[142]	sal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
+25-13	1967-1974	plateau	event[140]|object[142]	giv:inact[140]|giv:inact[142]	sal[140]|nonsal[142]	_	cf3[140]|cf1[142]	_	_	
 25-14	1975-1978	and	_	_	_	_	_	_	_	
-25-15	1979-1985	second	event[143]	giv:inact[143]	nonsal[143]	_	cf4[143]	_	_	
-25-16	1986-1993	through	event[143]	giv:inact[143]	nonsal[143]	_	cf4[143]	_	_	
-25-17	1994-1999	fifth	event[143]|object[144]	giv:inact[143]|giv:inact[144]	nonsal[143]|nonsal[144]	_	cf4[143]|cf6[144]	_	_	
-25-18	2000-2010	metatarsal	event[143]|object[144]	giv:inact[143]|giv:inact[144]	nonsal[143]|nonsal[144]	_	cf4[143]|cf6[144]	_	_	
-25-19	2011-2015	head	event[143]|object[144]	giv:inact[143]|giv:inact[144]	nonsal[143]|nonsal[144]	_	cf4[143]|cf6[144]	_	_	
-25-20	2016-2025	fractures	event[143]	giv:inact[143]	nonsal[143]	_	cf4[143]	_	_	
+25-15	1979-1985	second	event[143]	giv:inact[143]	sal[143]	_	cf4[143]	_	_	
+25-16	1986-1993	through	event[143]	giv:inact[143]	sal[143]	_	cf4[143]	_	_	
+25-17	1994-1999	fifth	event[143]|object[144]	giv:inact[143]|giv:inact[144]	sal[143]|nonsal[144]	_	cf4[143]|cf6[144]	_	_	
+25-18	2000-2010	metatarsal	event[143]|object[144]	giv:inact[143]|giv:inact[144]	sal[143]|nonsal[144]	_	cf4[143]|cf6[144]	_	_	
+25-19	2011-2015	head	event[143]|object[144]	giv:inact[143]|giv:inact[144]	sal[143]|nonsal[144]	_	cf4[143]|cf6[144]	_	_	
+25-20	2016-2025	fractures	event[143]	giv:inact[143]	sal[143]	_	cf4[143]	_	_	
 25-21	2026-2027	.	_	_	_	_	_	_	_	
 
 #Text=PLANS :
@@ -413,18 +413,18 @@
 27-1	2036-2037	I	person[146]	acc:com[146]	nonsal[146]	_	cf3[146]	ana	29-1[158_146]	
 27-2	2038-2043	would	_	_	_	_	_	_	_	
 27-3	2044-2048	like	_	_	_	_	_	_	_	
-27-4	2049-2052	the	person[149]	giv:inact[149]	nonsal[149]	_	cf1[149]	ana	28-1[151_149]	
-27-5	2053-2060	patient	person[149]	giv:inact[149]	nonsal[149]	_	cf1[149]	_	_	
+27-4	2049-2052	the	person[149]	giv:inact[149]	sal[149]	_	cf1[149]	ana	28-1[151_149]	
+27-5	2053-2060	patient	person[149]	giv:inact[149]	sal[149]	_	cf1[149]	_	_	
 27-6	2061-2063	to	_	_	_	_	_	_	_	
 27-7	2064-2072	continue	_	_	_	_	_	_	_	
 27-8	2073-2080	working	_	_	_	_	_	_	_	
 27-9	2081-2085	with	_	_	_	_	_	_	_	
-27-10	2086-2094	physical	abstract[150]	giv:inact[150]	nonsal[150]	_	cf2[150]	_	_	
-27-11	2095-2102	therapy	abstract[150]	giv:inact[150]	nonsal[150]	_	cf2[150]	_	_	
+27-10	2086-2094	physical	abstract[150]	giv:inact[150]	sal[150]	_	cf2[150]	_	_	
+27-11	2095-2102	therapy	abstract[150]	giv:inact[150]	sal[150]	_	cf2[150]	_	_	
 27-12	2103-2104	.	_	_	_	_	_	_	_	
 
 #Text=He may be weight bearing as tolerated on his right side .
-28-1	2105-2107	He	person[151]	giv:act[151]	nonsal[151]	_	cf1*[151]	ana	28-9[157_151]	
+28-1	2105-2107	He	person[151]	giv:act[151]	sal[151]	_	cf1*[151]	ana	28-9[157_151]	
 28-2	2108-2111	may	_	_	_	_	_	_	_	
 28-3	2112-2114	be	_	_	_	_	_	_	_	
 28-4	2115-2121	weight	abstract[153]|abstract[154]	new[153]|new[154]	nonsal[153]|nonsal[154]	_	cf3[153]|cf4[154]	_	_	
@@ -432,7 +432,7 @@
 28-6	2130-2132	as	_	_	_	_	_	_	_	
 28-7	2133-2142	tolerated	_	_	_	_	_	_	_	
 28-8	2143-2145	on	_	_	_	_	_	_	_	
-28-9	2146-2149	his	object[156]|person[157]	new[156]|giv:act[157]	nonsal[156]|nonsal[157]	_	cf2[156]|cf1*[157]	ana	29-4[159_157]	
+28-9	2146-2149	his	object[156]|person[157]	new[156]|giv:act[157]	nonsal[156]|sal[157]	_	cf2[156]|cf1*[157]	ana	29-4[159_157]	
 28-10	2150-2155	right	object[156]	new[156]	nonsal[156]	_	cf2[156]	_	_	
 28-11	2156-2160	side	object[156]	new[156]	nonsal[156]	_	cf2[156]	_	_	
 28-12	2161-2162	.	_	_	_	_	_	_	_	
@@ -441,7 +441,7 @@
 29-1	2163-2164	I	person[158]	giv:inact[158]	nonsal[158]	_	cf3[158]	ana	30-1[168_158]	
 29-2	2165-2170	would	_	_	_	_	_	_	_	
 29-3	2171-2175	like	_	_	_	_	_	_	_	
-29-4	2176-2179	him	person[159]	giv:act[159]	nonsal[159]	_	cf1*[159]	ana	29-21[167_159]	
+29-4	2176-2179	him	person[159]	giv:act[159]	sal[159]	_	cf1*[159]	ana	29-21[167_159]	
 29-5	2180-2182	to	_	_	_	_	_	_	_	
 29-6	2183-2186	try	_	_	_	_	_	_	_	
 29-7	2187-2189	to	_	_	_	_	_	_	_	
@@ -458,7 +458,7 @@
 29-18	2243-2247	knee	abstract[163]|object[164]	new[163]|giv:inact[164]	nonsal[163]|nonsal[164]	_	cf4[163]|cf2[164]	_	_	
 29-19	2248-2251	and	_	_	_	_	_	_	_	
 29-20	2252-2260	increase	_	_	_	_	_	_	_	
-29-21	2261-2264	his	abstract[165]|object[166]|person[167]	new[165]|giv:act[166]|giv:act[167]	nonsal[165]|nonsal[166]|nonsal[167]	_	cf5[165]|cf2[166]|cf1*[167]	coref|ana	36-19[229_166]|30-5[169_167]	
+29-21	2261-2264	his	abstract[165]|object[166]|person[167]	new[165]|giv:act[166]|giv:act[167]	nonsal[165]|nonsal[166]|sal[167]	_	cf5[165]|cf2[166]|cf1*[167]	coref|ana	36-19[229_166]|30-5[169_167]	
 29-22	2265-2269	knee	abstract[165]|object[166]	new[165]|giv:act[166]	nonsal[165]|nonsal[166]	_	cf5[165]|cf2[166]	_	_	
 29-23	2270-2277	flexion	abstract[165]	new[165]	nonsal[165]	_	cf5[165]	_	_	
 29-24	2278-2279	.	_	_	_	_	_	_	_	
@@ -468,7 +468,7 @@
 30-2	2282-2286	also	_	_	_	_	_	_	_	
 30-3	2287-2292	would	_	_	_	_	_	_	_	
 30-4	2293-2297	like	_	_	_	_	_	_	_	
-30-5	2298-2301	him	person[169]	giv:act[169]	nonsal[169]	_	cf2[169]	coref	31-4[179_169]	
+30-5	2298-2301	him	person[169]	giv:act[169]	sal[169]	_	cf2[169]	coref	31-4[179_169]	
 30-6	2302-2304	to	_	_	_	_	_	_	_	
 30-7	2305-2309	work	_	_	_	_	_	_	_	
 30-8	2310-2312	on	_	_	_	_	_	_	_	
@@ -481,19 +481,19 @@
 31-1	2344-2345	I	person[172]	giv:act[172]	nonsal[172]	_	cf1*[172]	ana	35-1[206_172]	
 31-2	2346-2355	discussed	_	_	_	_	_	_	_	
 31-3	2356-2360	with	_	_	_	_	_	_	_	
-31-4	2361-2364	the	person[179]	giv:act[179]	nonsal[179]	_	cf2[179]	ana	31-6[180_179]	
-31-5	2365-2372	patient	person[179]	giv:act[179]	nonsal[179]	_	cf2[179]	_	_	
-31-6	2373-2376	his	person[180]	giv:act[180]	nonsal[180]	_	cf2[180]	ana	32-1[184_180]	
+31-4	2361-2364	the	person[179]	giv:act[179]	sal[179]	_	cf2[179]	ana	31-6[180_179]	
+31-5	2365-2372	patient	person[179]	giv:act[179]	sal[179]	_	cf2[179]	_	_	
+31-6	2373-2376	his	person[180]	giv:act[180]	sal[180]	_	cf2[180]	ana	32-1[184_180]	
 31-7	2377-2387	concerning	abstract[182]	new[182]	nonsal[182]	_	cf4[182]	_	_	
 31-8	2388-2396	symptoms	abstract[182]	new[182]	nonsal[182]	_	cf4[182]	_	_	
 31-9	2397-2399	of	abstract[182]	new[182]	nonsal[182]	_	cf4[182]	_	_	
-31-10	2400-2412	paresthesias	abstract[182]|abstract[183]	new[182]|giv:inact[183]	nonsal[182]|nonsal[183]	_	cf4[182]|cf3[183]	ana	32-22[192_183]	
+31-10	2400-2412	paresthesias	abstract[182]|abstract[183]	new[182]|giv:inact[183]	nonsal[182]|sal[183]	_	cf4[182]|cf3[183]	ana	32-22[192_183]	
 31-11	2413-2414	.	_	_	_	_	_	_	_	
 
 #Text=He said he has had the left thigh for a number of years and has been followed by a neurologist for this .
-32-1	2415-2417	He	person[184]	giv:act[184]	nonsal[184]	_	cf1*[184]	ana	32-3[185_184]	
+32-1	2415-2417	He	person[184]	giv:act[184]	sal[184]	_	cf1*[184]	ana	32-3[185_184]	
 32-2	2418-2422	said	_	_	_	_	_	_	_	
-32-3	2423-2425	he	person[185]	giv:act[185]	nonsal[185]	_	cf1*[185]	ana	33-1[193_185]	
+32-3	2423-2425	he	person[185]	giv:act[185]	sal[185]	_	cf1*[185]	ana	33-1[193_185]	
 32-4	2426-2429	has	_	_	_	_	_	_	_	
 32-5	2430-2433	had	_	_	_	_	_	_	_	
 32-6	2434-2437	the	object[189]	new[189]	nonsal[189]	_	cf3[189]	_	_	
@@ -509,17 +509,17 @@
 32-16	2479-2483	been	_	_	_	_	_	_	_	
 32-17	2484-2492	followed	_	_	_	_	_	_	_	
 32-18	2493-2495	by	_	_	_	_	_	_	_	
-32-19	2496-2497	a	person[191]	new[191]	nonsal[191]	_	cf5[191]	coref	35-8[212_191]	
-32-20	2498-2509	neurologist	person[191]	new[191]	nonsal[191]	_	cf5[191]	_	_	
-32-21	2510-2513	for	person[191]	new[191]	nonsal[191]	_	cf5[191]	_	_	
-32-22	2514-2518	this	person[191]|abstract[192]	new[191]|giv:act[192]	nonsal[191]|nonsal[192]	_	cf5[191]|cf2[192]	_	_	
+32-19	2496-2497	a	person[191]	new[191]	sal[191]	_	cf5[191]	coref	35-8[212_191]	
+32-20	2498-2509	neurologist	person[191]	new[191]	sal[191]	_	cf5[191]	_	_	
+32-21	2510-2513	for	person[191]	new[191]	sal[191]	_	cf5[191]	_	_	
+32-22	2514-2518	this	person[191]|abstract[192]	new[191]|giv:act[192]	sal[191]|sal[192]	_	cf5[191]|cf2[192]	_	_	
 32-23	2519-2520	.	_	_	_	_	_	_	_	
 
 #Text=He states that he has had some right - sided paresthesias now for a number of weeks .
-33-1	2521-2523	He	person[193]	giv:act[193]	nonsal[193]	_	cf1*[193]	ana	33-4[194_193]	
+33-1	2521-2523	He	person[193]	giv:act[193]	sal[193]	_	cf1*[193]	ana	33-4[194_193]	
 33-2	2524-2530	states	_	_	_	_	_	_	_	
 33-3	2531-2535	that	_	_	_	_	_	_	_	
-33-4	2536-2538	he	person[194]	giv:act[194]	nonsal[194]	_	cf1*[194]	ana	34-1[200_194]	
+33-4	2536-2538	he	person[194]	giv:act[194]	sal[194]	_	cf1*[194]	ana	34-1[200_194]	
 33-5	2539-2542	has	_	_	_	_	_	_	_	
 33-6	2543-2546	had	_	_	_	_	_	_	_	
 33-7	2547-2551	some	abstract[198]	new[198]	nonsal[198]	_	cf2[198]	_	_	
@@ -536,9 +536,9 @@
 33-18	2605-2606	.	_	_	_	_	_	_	_	
 
 #Text=He claims he has no other symptoms of any worsening stenosis .
-34-1	2607-2609	He	person[200]	giv:act[200]	nonsal[200]	_	cf1*[200]	ana	34-3[201_200]	
+34-1	2607-2609	He	person[200]	giv:act[200]	sal[200]	_	cf1*[200]	ana	34-3[201_200]	
 34-2	2610-2616	claims	_	_	_	_	_	_	_	
-34-3	2617-2619	he	person[201]	giv:act[201]	nonsal[201]	_	cf1*[201]	ana	35-3[207_201]	
+34-3	2617-2619	he	person[201]	giv:act[201]	sal[201]	_	cf1*[201]	ana	35-3[207_201]	
 34-4	2620-2623	has	_	_	_	_	_	_	_	
 34-5	2624-2626	no	abstract[204]	new[204]	nonsal[204]	_	cf2[204]	coref	35-18[218_204]	
 34-6	2627-2632	other	abstract[204]	new[204]	nonsal[204]	_	cf2[204]	_	_	
@@ -552,13 +552,13 @@
 #Text=I told him that I would see his neurologist for evaluation or possibly a spinal surgeon if his symptoms progress .
 35-1	2670-2671	I	person[206]	giv:inact[206]	nonsal[206]	_	cf1[206]	ana	35-5[208_206]	
 35-2	2672-2676	told	_	_	_	_	_	_	_	
-35-3	2677-2680	him	person[207]	giv:act[207]	nonsal[207]	_	cf2*[207]	ana	35-8[213_207]	
+35-3	2677-2680	him	person[207]	giv:act[207]	sal[207]	_	cf2*[207]	ana	35-8[213_207]	
 35-4	2681-2685	that	_	_	_	_	_	_	_	
 35-5	2686-2687	I	person[208]	giv:act[208]	nonsal[208]	_	cf1[208]	_	_	
 35-6	2688-2693	would	_	_	_	_	_	_	_	
 35-7	2694-2697	see	_	_	_	_	_	_	_	
-35-8	2698-2701	his	person[212]|person[213]	giv:inact[212]|giv:act[213]	nonsal[212]|nonsal[213]	_	cf4[212]|cf2*[213]	ana	35-18[219_213]	
-35-9	2702-2713	neurologist	person[212]	giv:inact[212]	nonsal[212]	_	cf4[212]	_	_	
+35-8	2698-2701	his	person[212]|person[213]	giv:inact[212]|giv:act[213]	sal[212]|sal[213]	_	cf4[212]|cf2*[213]	ana	35-18[219_213]	
+35-9	2702-2713	neurologist	person[212]	giv:inact[212]	sal[212]	_	cf4[212]	_	_	
 35-10	2714-2717	for	_	_	_	_	_	_	_	
 35-11	2718-2728	evaluation	event[214]	new[214]	nonsal[214]	_	cf6[214]	_	_	
 35-12	2729-2731	or	_	_	_	_	_	_	_	
@@ -567,14 +567,14 @@
 35-15	2743-2749	spinal	person[217]	new[217]	nonsal[217]	_	cf5[217]	_	_	
 35-16	2750-2757	surgeon	person[217]	new[217]	nonsal[217]	_	cf5[217]	_	_	
 35-17	2758-2760	if	_	_	_	_	_	_	_	
-35-18	2761-2764	his	abstract[218]|person[219]	giv:act[218]|giv:act[219]	nonsal[218]|nonsal[219]	_	cf3[218]|cf2*[219]	coref	36-1[221_219]	
+35-18	2761-2764	his	abstract[218]|person[219]	giv:act[218]|giv:act[219]	nonsal[218]|sal[219]	_	cf3[218]|cf2*[219]	coref	36-1[221_219]	
 35-19	2765-2773	symptoms	abstract[218]	giv:act[218]	nonsal[218]	_	cf3[218]	_	_	
 35-20	2774-2782	progress	_	_	_	_	_	_	_	
 35-21	2783-2784	.	_	_	_	_	_	_	_	
 
 #Text=The patient should follow up in 2 months at which time he should have AP and lateral of the right knee and three views of the right foot .
-36-1	2785-2788	The	person[221]	giv:act[221]	nonsal[221]	_	cf1*[221]	ana	36-12[224_221]	
-36-2	2789-2796	patient	person[221]	giv:act[221]	nonsal[221]	_	cf1*[221]	_	_	
+36-1	2785-2788	The	person[221]	giv:act[221]	sal[221]	_	cf1*[221]	ana	36-12[224_221]	
+36-2	2789-2796	patient	person[221]	giv:act[221]	sal[221]	_	cf1*[221]	_	_	
 36-3	2797-2803	should	_	_	_	_	_	_	_	
 36-4	2804-2810	follow	_	_	_	_	_	_	_	
 36-5	2811-2813	up	_	_	_	_	_	_	_	
@@ -584,7 +584,7 @@
 36-9	2826-2828	at	_	_	_	_	_	_	_	
 36-10	2829-2834	which	time[223]	new[223]	nonsal[223]	_	cf8[223]	_	_	
 36-11	2835-2839	time	time[223]	new[223]	nonsal[223]	_	cf8[223]	_	_	
-36-12	2840-2842	he	person[224]	giv:act[224]	nonsal[224]	_	cf1*[224]	_	_	
+36-12	2840-2842	he	person[224]	giv:act[224]	sal[224]	_	cf1*[224]	_	_	
 36-13	2843-2849	should	_	_	_	_	_	_	_	
 36-14	2850-2854	have	_	_	_	_	_	_	_	
 36-15	2855-2857	AP	abstract[225]	giv:inact[225]	nonsal[225]	_	cf2[225]	_	_	

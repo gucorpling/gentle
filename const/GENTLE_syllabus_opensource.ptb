@@ -1,7 +1,7 @@
 (ROOT (NP (NNP CSCI-4470-01)))
 
 (ROOT
-  (NP-TMP
+  (NP
     (NNP Open)
     (NNP Source)
     (NNP Software)
@@ -188,14 +188,14 @@
 
 (ROOT
   (NP
-    (NP-TMP
+    (NP
       (NNP Tuesday)
       (FRAG (WHNP (CD 3:35) (SYM -) (CD 5:05) (NN pm))))
     (PRN (-LRB- -LRB-) (PP (IN in) (NP (NN person))) (-RRB- -RRB-))
     (, ,)
     (NP
-      (NP-TMP (NNP Thursday))
-      (NP-TMP (CD 10:00) (SYM -) (CD 11:30) (NN am)))
+      (NP (NNP Thursday))
+      (NP (CD 10:00) (SYM -) (CD 11:30) (NN am)))
     (PP
       (IN in)
       (NP
@@ -267,9 +267,9 @@
         (PP-LOC (IN in) (NP (NNP Sage) (CD 5510)))
         (PP-TMP (IN on) (NP (NNPS Tuesdays) (CC and) (NNPS Fridays)))
         (PP-TMP
-          (PP-TMP (IN from) (NP-TMP (CD 10:30) (NN pm)))
+          (PP-TMP (IN from) (NP (CD 10:30) (NN pm)))
           (SYM -)
-          (NP-TMP (CD 12:35) (NN pm)))))
+          (NP (CD 12:35) (NN pm)))))
     (. .)))
 
 (ROOT
@@ -702,9 +702,9 @@
 
 (ROOT (NP (NN Test) (NNS Dates)))
 
-(ROOT (NP (NP (NN Quiz) (CD 1)) (NP-TMP (JJ 1st) (NNP July))))
+(ROOT (NP (NP (NN Quiz) (CD 1)) (NP (JJ 1st) (NNP July))))
 
-(ROOT (NP (NP (NNP Quiz)) (NP-TMP (CD 2) (JJ 9th) (NNP August))))
+(ROOT (NP (NP (NNP Quiz)) (NP (CD 2) (JJ 9th) (NNP August))))
 
 (ROOT (NP-SBJ (JJ Open) (NN Source) (NN Paper) (JJ Due)))
 
@@ -742,7 +742,7 @@
       (NP
         (NP (PRP$ our) (NN discord) (NN server) (NNP OSS))
         (HYPH -)
-        (NP-TMP (NNP Summer) (CD 2022)))
+        (NP (NNP Summer) (CD 2022)))
       (PP-LOC (IN at) (NP (NNP https://discord.gg/5WEv84aGDz))))
     (. .)))
 
@@ -798,7 +798,7 @@
       (PP
         (IN for)
         (ADVP-TMP
-          (NP-TMP (QP (IN up) (IN to) (DT a)) (NN week))
+          (NP (QP (IN up) (IN to) (DT a)) (NN week))
           (RB late))))
     (. .)))
 
@@ -812,7 +812,7 @@
       (VP
         (VBN accepted)
         (ADVP-TMP
-          (NP-TMP (QP (RBR more) (IN than) (CD one)) (NN week))
+          (NP-EXT (QP (RBR more) (IN than) (CD one)) (NN week))
           (RB late))))
     (. .)))
 

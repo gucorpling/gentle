@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="23" relname="span">I HIDE myself within my flower ,</segment>
@@ -53,14 +65,25 @@
 		<group id="15" type="span" parent="14" relname="same-unit"/>
 		<group id="16" type="span" parent="17" relname="same-unit"/>
 		<group id="17" type="multinuc" parent="8" relname="elaboration-attribute"/>
-		<group id="18" type="span" parent="25" relname="joint-sequence"/>
+		<group id="18" type="span" parent="25" relname="joint-list"/>
 		<group id="19" type="multinuc" parent="21" relname="span"/>
 		<group id="20" type="span" parent="19" relname="same-unit"/>
 		<group id="21" type="span" parent="22" relname="same-unit"/>
 		<group id="22" type="multinuc" parent="1" relname="elaboration-attribute"/>
 		<group id="23" type="span" parent="24" relname="span"/>
-		<group id="24" type="span" parent="25" relname="joint-sequence"/>
-		<group id="25" type="multinuc" />
+		<group id="24" type="span" parent="25" relname="joint-list"/>
+		<group id="25" type="multinuc"/>
+		<secedges>
+			<secedge id="7-23" source="7" target="23" relname="joint-list"/>
+		</secedges>
+		<signals>
+			<signal source="3" type="syntactic" subtype="present_participial_clause" tokens="9"/>
+			<signal source="7-23" type="orphan" subtype="orphan" tokens="22" status="gold"/>
+			<signal source="10" type="syntactic" subtype="present_participial_clause" tokens="37"/>
+			<signal source="17" type="syntactic" subtype="modified_head" tokens="33"/>
+			<signal source="18" type="lexical" subtype="indicative_word" tokens="20"/>
+			<signal source="18" type="syntactic" subtype="parallel_syntactic_construction" tokens="1,2,3,4,5,6,7,8,9,14,16,18,28,29,30,31,32,33,34,35,36,37,42,44,46" status="gold"/>
+			<signal source="22" type="syntactic" subtype="modified_head" tokens="6"/>
+		</signals>
 	</body>
 </rst>
-

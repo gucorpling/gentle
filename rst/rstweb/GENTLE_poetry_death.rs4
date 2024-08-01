@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="2" relname="causal-cause">Because I could not stop for Death —</segment>
@@ -90,7 +102,34 @@
 		<group id="52" type="span" parent="54" relname="span"/>
 		<group id="53" type="span" parent="38" relname="joint-sequence"/>
 		<group id="54" type="span" parent="55" relname="span"/>
-		<group id="55" type="span" />
+		<group id="55" type="span"/>
+		<secedges>
+			<secedge id="49-48" source="49" target="48" relname="elaboration-additional"/>
+		</secedges>
+		<signals>
+			<signal source="1" type="dm" subtype="dm" tokens="1" status="gold"/>
+			<signal source="4" type="dm" subtype="dm" tokens="22" status="gold"/>
+			<signal source="7" type="dm" subtype="dm" tokens="34" status="gold"/>
+			<signal source="7" type="lexical" subtype="indicative_word" tokens="44"/>
+			<signal source="13" type="graphical" subtype="dash" tokens="81"/>
+			<signal source="17" type="graphical" subtype="dash" tokens="102"/>
+			<signal source="22" type="graphical" subtype="dash" tokens="127"/>
+			<signal source="24" type="graphical" subtype="dash" tokens="134"/>
+			<signal source="28" type="semantic" subtype="attribution_source" tokens="135"/>
+			<signal source="31" type="graphical" subtype="dash" tokens="8,14"/>
+			<signal source="31" type="semantic" subtype="lexical_chain" tokens="11,16" status="gold"/>
+			<signal source="35" type="syntactic" subtype="modified_head" tokens="53"/>
+			<signal source="35" type="syntactic" subtype="relative_clause" tokens="55,57"/>
+			<signal source="36" type="dm" subtype="dm" tokens="79,80" status="gold"/>
+			<signal source="40" type="dm" subtype="dm" tokens="93" status="gold"/>
+			<signal source="42" type="syntactic" subtype="modified_head" tokens="110"/>
+			<signal source="42" type="syntactic" subtype="relative_clause" tokens="111,112"/>
+			<signal source="46" type="syntactic" subtype="modified_head" tokens="145"/>
+			<signal source="47" type="dm" subtype="dm" tokens="143" status="gold"/>
+			<signal source="48" type="dm" subtype="dm" tokens="140" status="gold"/>
+			<signal source="49-48" type="graphical" subtype="dash" tokens="138"/>
+			<signal source="49-48" type="orphan" subtype="orphan" tokens="139" status="gold"/>
+			<signal source="50" type="lexical" subtype="indicative_word" tokens="141"/>
+		</signals>
 	</body>
 </rst>
-

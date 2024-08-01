@@ -119,7 +119,7 @@
 6-1	337-339	We	person[76]	acc:com[76]	nonsal[76]	_	cf2[76]	ana	7-3[82_76]
 6-2	340-345	claim	_	_	_	_	_	_	_
 6-3	346-350	that	_	_	_	_	_	_	_
-6-4	351-352	⪯	abstract[77]	giv:act[77]	nonsal[77]	_	cf1*[77]	ana	7-5[83_77]
+6-4	351-352	⪯	abstract[77]	giv:act[77]	sal[77]	_	cf1*[77]	ana	7-5[83_77]
 6-5	353-355	is	_	_	_	_	_	_	_
 6-6	356-357	a	_	_	_	_	cf1*[81]	_	_
 6-7	358-362	well	_	_	_	_	cf1*[81]	_	_
@@ -132,7 +132,7 @@
 7-2	382-383	,	_	_	_	_	_	_	_
 7-3	384-386	we	person[82]	giv:act[82]	nonsal[82]	_	cf1*[82]	_	_
 7-4	387-391	show	_	_	_	_	_	_	_
-7-5	392-394	it	abstract[83]	giv:act[83]	nonsal[83]	_	cf2[83]	_	_
+7-5	392-394	it	abstract[83]	giv:act[83]	sal[83]	_	cf2[83]	_	_
 7-6	395-397	is	_	_	_	_	_	_	_
 7-7	398-399	a	_	_	_	_	cf2[86]	_	_
 7-8	400-405	total	_	_	_	_	cf2[86]	_	_
@@ -216,7 +216,7 @@
 14-5	687-688	,	_	_	_	_	cf6[127]	_	_
 14-6	689-690	z	_	_	_	_	cf6[127]|cf3[130]	_	_
 14-7	691-692	∈	_	_	_	_	cf6[134]	_	_
-14-8	693-694	S	abstract[135]	giv:inact[135]	nonsal[135]	_	cf6[134]|cf4[135]	coref	14-28[151_135]
+14-8	693-694	S	abstract[135]	giv:inact[135]	sal[135]	_	cf6[134]|cf4[135]	coref	14-28[151_135]
 14-9	695-697	or	_	_	_	_	_	_	_
 14-10	698-699	x	_	_	_	_	cf7[137]|cf1*[138]	_	_
 14-11	700-701	,	_	_	_	_	cf7[137]	_	_
@@ -236,7 +236,7 @@
 14-25	757-769	transitivity	_	_	_	_	cf11[149]	_	_
 14-26	770-772	of	_	_	_	_	cf11[149]	_	_
 14-27	773-774	⪯	_	_	_	_	cf11[149]|cf9[150]	_	_
-14-28	775-776	S	abstract[151]	giv:act[151]	nonsal[151]	_	cf11[149]|cf9[150]|cf4[151]	coref	15-6[162_151]
+14-28	775-776	S	abstract[151]	giv:act[151]	sal[151]	_	cf11[149]|cf9[150]|cf4[151]	coref	15-6[162_151]
 14-29	777-780	and	_	_	_	_	cf11[149]	_	_
 14-30	781-782	⪯	_	_	_	_	cf11[149]|cf10[153]	_	_
 14-31	783-784	T	_	_	_	_	cf11[149]|cf10[153]|cf5[154]	_	_
@@ -248,7 +248,7 @@
 15-3	797-798	,	_	_	_	_	cf1[156]	_	_
 15-4	799-800	y	_	_	_	_	cf1[156]|cf6[158]	_	_
 15-5	801-802	∈	_	_	_	_	cf1[161]	_	_
-15-6	803-804	S	abstract[162]	giv:act[162]	nonsal[162]	_	cf1[161]|cf2*[162]	coref	17-8[184_162]
+15-6	803-804	S	abstract[162]	giv:act[162]	sal[162]	_	cf1[161]|cf2*[162]	coref	17-8[184_162]
 15-7	805-808	and	_	_	_	_	_	_	_
 15-8	809-810	z	_	_	_	_	cf4[163]	_	_
 15-9	811-812	∈	_	_	_	_	cf4[166]	_	_
@@ -274,7 +274,7 @@
 17-5	850-857	because	_	_	_	_	_	_	_
 17-6	858-859	x	_	_	_	_	cf1*[174]	_	_
 17-7	860-861	∈	_	_	_	_	cf1*[183]	_	_
-17-8	862-863	S	abstract[184]	giv:inact[184]	nonsal[184]	_	cf1*[183]|cf4[184]	_	_
+17-8	862-863	S	abstract[184]	giv:inact[184]	sal[184]	_	cf1*[183]|cf4[184]	_	_
 17-9	864-867	and	_	_	_	_	_	_	_
 17-10	868-869	y	_	_	_	_	cf2[185]	_	_
 17-11	870-871	∈	_	_	_	_	cf2[188]	_	_
@@ -699,22 +699,22 @@
 42-15	2280-2282	to	_	_	_	_	_	_	_
 42-16	2283-2284	U	_	_	_	_	cf4[440]	_	_
 42-17	2285-2287	or	_	_	_	_	_	_	_
-42-18	2288-2290	an	abstract[445]	new[445]	nonsal[445]	_	cf8[445]	coref	43-4[450_445]
-42-19	2291-2298	initial	abstract[445]	new[445]	nonsal[445]	_	cf8[445]	_	_
-42-20	2299-2306	segment	abstract[445]	new[445]	nonsal[445]	_	cf8[445]	_	_
-42-21	2307-2309	of	abstract[445]	new[445]	nonsal[445]	_	cf8[445]	_	_
-42-22	2310-2311	U	abstract[445]	new[445]	nonsal[445]	_	cf8[445]|cf2[446]	_	_
+42-18	2288-2290	an	abstract[445]	new[445]	sal[445]	_	cf8[445]	coref	43-4[450_445]
+42-19	2291-2298	initial	abstract[445]	new[445]	sal[445]	_	cf8[445]	_	_
+42-20	2299-2306	segment	abstract[445]	new[445]	sal[445]	_	cf8[445]	_	_
+42-21	2307-2309	of	abstract[445]	new[445]	sal[445]	_	cf8[445]	_	_
+42-22	2310-2311	U	abstract[445]	new[445]	sal[445]	_	cf8[445]|cf2[446]	_	_
 42-23	2312-2313	.	_	_	_	_	_	_	_
 
 #Text=Let Ix denote the initial segment in U determined by x , according to k .
 43-1	2314-2317	Let	_	_	_	_	_	_	_
 43-2	2318-2320	Ix	_	_	_	_	cf4[447]	_	_
 43-3	2321-2327	denote	_	_	_	_	_	_	_
-43-4	2328-2331	the	abstract[450]	giv:act[450]	nonsal[450]	_	cf1*[450]	_	_
-43-5	2332-2339	initial	abstract[450]	giv:act[450]	nonsal[450]	_	cf1*[450]	_	_
-43-6	2340-2347	segment	abstract[450]	giv:act[450]	nonsal[450]	_	cf1*[450]	_	_
-43-7	2348-2350	in	abstract[450]	giv:act[450]	nonsal[450]	_	cf1*[450]	_	_
-43-8	2351-2352	U	abstract[450]	giv:act[450]	nonsal[450]	_	cf1*[450]|cf2[451]	_	_
+43-4	2328-2331	the	abstract[450]	giv:act[450]	sal[450]	_	cf1*[450]	_	_
+43-5	2332-2339	initial	abstract[450]	giv:act[450]	sal[450]	_	cf1*[450]	_	_
+43-6	2340-2347	segment	abstract[450]	giv:act[450]	sal[450]	_	cf1*[450]	_	_
+43-7	2348-2350	in	abstract[450]	giv:act[450]	sal[450]	_	cf1*[450]	_	_
+43-8	2351-2352	U	abstract[450]	giv:act[450]	sal[450]	_	cf1*[450]|cf2[451]	_	_
 43-9	2353-2363	determined	abstract[450]	giv:act[450]	_	_	_	_	_
 43-10	2364-2366	by	abstract[450]	giv:act[450]	_	_	_	_	_
 43-11	2367-2368	x	abstract[450]	giv:act[450]	_	_	cf5[452]	_	_
@@ -798,7 +798,7 @@
 49-2	2605-2610	every	abstract[497]	new[497]	nonsal[497]	_	cf4[496]|cf5[497]	coref	54-3[535_497]
 49-3	2611-2618	element	abstract[497]	new[497]	nonsal[497]	_	cf4[496]|cf5[497]	_	_
 49-4	2619-2621	of	abstract[497]	new[497]	nonsal[497]	_	cf4[496]|cf5[497]	_	_
-49-5	2622-2623	S	abstract[497]|abstract[498]	new[497]|giv:inact[498]	nonsal[497]|nonsal[498]	_	cf4[496]|cf5[497]|cf3[498]	ana	51-10[520_498]
+49-5	2622-2623	S	abstract[497]|abstract[498]	new[497]|giv:inact[498]	nonsal[497]|sal[498]	_	cf4[496]|cf5[497]|cf3[498]	ana	51-10[520_498]
 49-6	2624-2632	strictly	_	_	_	_	cf4[496]	_	_
 49-7	2633-2641	precedes	_	_	_	_	cf4[496]	_	_
 49-8	2642-2643	x	abstract[499]	giv:act[499]	nonsal[499]	_	cf4[496]|cf1*[499]	_	_
@@ -836,9 +836,9 @@
 51-7	2747-2751	from	_	_	_	_	cf4[515]	_	_
 51-8	2752-2753	T	_	_	_	_	cf4[515]|cf1*[517]	_	_
 51-9	2754-2756	to	_	_	_	_	cf4[515]	_	_
-51-10	2757-2760	all	abstract[520]	giv:inact[520]	nonsal[520]	_	cf4[515]|cf2[520]	_	_
-51-11	2761-2763	of	abstract[520]	giv:inact[520]	nonsal[520]	_	cf4[515]|cf2[520]	_	_
-51-12	2764-2765	S	abstract[520]	giv:inact[520]	nonsal[520]	_	cf4[515]|cf2[520]	_	_
+51-10	2757-2760	all	abstract[520]	giv:inact[520]	sal[520]	_	cf4[515]|cf2[520]	_	_
+51-11	2761-2763	of	abstract[520]	giv:inact[520]	sal[520]	_	cf4[515]|cf2[520]	_	_
+51-12	2764-2765	S	abstract[520]	giv:inact[520]	sal[520]	_	cf4[515]|cf2[520]	_	_
 51-13	2766-2767	.	_	_	_	_	_	_	_
 
 #Text=Suppose x ∈ T and x ≠ min T .
@@ -870,7 +870,7 @@
 54-3	2847-2852	every	abstract[535]	giv:inact[535]	nonsal[535]	_	cf3[535]	_	_
 54-4	2853-2860	element	abstract[535]	giv:inact[535]	nonsal[535]	_	cf3[535]	_	_
 54-5	2861-2863	of	abstract[535]	giv:inact[535]	nonsal[535]	_	cf3[535]	_	_
-54-6	2864-2865	S	abstract[535]|abstract[536]	giv:inact[535]|giv:inact[536]	nonsal[535]|nonsal[536]	_	cf3[535]|cf4[536]	ana	55-14[550_536]
+54-6	2864-2865	S	abstract[535]|abstract[536]	giv:inact[535]|giv:inact[536]	nonsal[535]|sal[536]	_	cf3[535]|cf4[536]	ana	55-14[550_536]
 54-7	2866-2874	strictly	_	_	_	_	_	_	_
 54-8	2875-2883	precedes	_	_	_	_	_	_	_
 54-9	2884-2885	x	_	_	_	_	cf1[537]	_	_
@@ -896,9 +896,9 @@
 55-11	2962-2964	of	_	_	_	_	cf4[544]|cf5[547]	_	_
 55-12	2965-2966	T	_	_	_	_	cf4[544]|cf5[547]|cf1*[548]	_	_
 55-13	2967-2969	to	_	_	_	_	cf4[544]	_	_
-55-14	2970-2973	all	abstract[550]	giv:act[550]	nonsal[550]	_	cf4[544]|cf2[550]	_	_
-55-15	2974-2976	of	abstract[550]	giv:act[550]	nonsal[550]	_	cf4[544]|cf2[550]	_	_
-55-16	2977-2978	S	abstract[550]	giv:act[550]	nonsal[550]	_	cf4[544]|cf2[550]	_	_
+55-14	2970-2973	all	abstract[550]	giv:act[550]	sal[550]	_	cf4[544]|cf2[550]	_	_
+55-15	2974-2976	of	abstract[550]	giv:act[550]	sal[550]	_	cf4[544]|cf2[550]	_	_
+55-16	2977-2978	S	abstract[550]	giv:act[550]	sal[550]	_	cf4[544]|cf2[550]	_	_
 55-17	2979-2980	.	_	_	_	_	_	_	_
 
 #Text=The cases are distinct by Well - Ordered Class is not Isomorphic to Initial Segment . ■

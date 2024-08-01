@@ -1,4 +1,4 @@
-<text id="GENTLE_poetry_flower" partition="test" author="Emily Dickinson" dateCollected="2022-11-12" dateCreated="2021-12-30" dateModified="2021-12-30"  shortTitle="flower" sourceURL="https://en.wikisource.org/wiki/With_a_Flower" speakerCount="0" speakerList="none" title="With a Flower" type="poetry">
+<text id="GENTLE_poetry_flower" partition="test" author="Emily Dickinson" dateCollected="2022-11-12" dateCreated="2021-12-30" dateModified="2021-12-30"  shortTitle="flower" sourceURL="https://en.wikisource.org/wiki/With_a_Flower" speakerCount="0" speakerList="none" title="With a Flower" type="poetry" summary="In this poem, the narrator tells of hiding inside their flower, which the poem's addressee, unsuspecting, wears, while feeling almost a loneliness for the narrator.">
 <p>
 <s type="decl" transition="establishment">
 <l n="1"/>
@@ -7,7 +7,7 @@ I	PP	I	PNP	PRON	nsubj	_
 HIDE	VVP	hide	VVB	VERB	root	_
 </hi>
 myself	PP	myself	PNP	PRON	obj	my-self
-within	IN	within	PRP	ADP	case	_
+within	IN	within	PRP	ADP	case	with-in
 my	PP$	my	DPS	PRON	nmod:poss	_
 flower	NN	flower	NN1	NOUN	obl	flow-er
 ,	,	,	PUN	PUNCT	punct	_
@@ -44,7 +44,7 @@ rest	NN	rest	NN1	NOUN	obj	_
 I	PP	I	PNP	PRON	nsubj	_
 hide	VVP	hide	VVB	VERB	root	_
 myself	PP	myself	PNP	PRON	obj	my-self
-within	IN	within	PRP	ADP	case	_
+within	IN	within	PRP	ADP	case	with-in
 my	PP$	my	DPS	PRON	nmod:poss	_
 flower	NN	flower	NN1	NOUN	obl	flow-er
 ,	,	,	PUN	PUNCT	punct	_

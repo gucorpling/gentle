@@ -1,4 +1,4 @@
-<text id="GENTLE_medical_transplant" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="transplant" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder" speakerCount="0" speakerList="none" title="Posttransplant Lymphoproliferative Disorder" type="medical">
+<text id="GENTLE_medical_transplant" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-12" dateModified="2022-11-12"  shortTitle="transplant" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2283-Posttransplant%20Lymphoproliferative%20Disorder" speakerCount="0" speakerList="none" title="Posttransplant Lymphoproliferative Disorder" type="medical" summary="This report on a followup and chemotherapy visit for 51-year-old white male patient with posttransplant lymphoproliferative disorder (diagonosed 2007) documents chronic renal insufficiency, squamous cell carcinoma of the skin, anemia and hypertension, as well as diffuse large B-cell lymphoma following transplantaiton and suggests followup in 3 weeks.">
 <head rend="bold red">
 <s type="frag" transition="establishment">
 Description	NN	description	NN1	NOUN	root	Descrip-tion
@@ -9,7 +9,7 @@ Description	NN	description	NN1	NOUN	root	Descrip-tion
 <s type="frag" transition="null">
 Posttransplant	JJ	posttransplant	AJ0	ADJ	compound	Post-trans-plant
 lymphoproliferative	JJ	lymphoproliferative	AJ0	ADJ	compound	lympho-proliferat-ive
-disorder	NN	disorder	NN1	NOUN	root	_
+disorder	NN	disorder	NN1	NOUN	root	dis-ord-er
 ,	,	,	PUN	PUNCT	punct	_
 chronic	JJ	chronic	AJ0	ADJ	amod	_
 renal	JJ	renal	AJ0	ADJ	amod	_
@@ -78,16 +78,16 @@ DIAGNOSES	NNS	diagnosis	NN2	NOUN	root	_
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="null">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 Posttransplant	JJ	posttransplant	AJ0	ADJ	compound	Post-trans-plant
 lymphoproliferative	JJ	lymphoproliferative	AJ0	ADJ	compound	lympho-proliferat-ive
-disorder	NN	disorder	NN1	NOUN	root	_
+disorder	NN	disorder	NN1	NOUN	root	dis-ord-er
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="2">
 <s type="frag" transition="null">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Chronic	JJ	chronic	AJ0	ADJ	amod	_
 renal	JJ	renal	AJ0	ADJ	amod	_
 insufficiency	NN	insufficiency	NN1	NOUN	root	in-sufficien-cy
@@ -96,7 +96,7 @@ insufficiency	NN	insufficiency	NN1	NOUN	root	in-sufficien-cy
 </item>
 <item n="3">
 <s type="frag" transition="null">
-3.	LS	3.	CRD	X	dep	_
+3.	LS	3.	CRD	X	discourse	_
 Squamous	JJ	Squamous	AJ0	ADJ	amod	_
 cell	NN	cell	NN1	NOUN	compound	_
 carcinoma	NN	carcinoma	NN1	NOUN	root	_
@@ -108,7 +108,7 @@ skin	NN	skin	NN1	NOUN	nmod	_
 </item>
 <item n="4">
 <s type="frag" transition="null">
-4.	LS	4.	CRD	X	dep	_
+4.	LS	4.	CRD	X	discourse	_
 Anemia	NN	anemia	NN1	NOUN	root	_
 secondary	JJ	secondary	AJ0	ADJ	amod	second-ary
 to	IN	to	PRP	ADP	case	_
@@ -122,7 +122,7 @@ chemotherapy	NN	chemotherapy	NN1	NOUN	conj	chemo-therap-y
 </item>
 <item n="5">
 <s type="frag" transition="null">
-5.	LS	5.	CRD	X	dep	_
+5.	LS	5.	CRD	X	discourse	_
 Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -143,7 +143,7 @@ A	DT	a	AT0	DET	det	_
 <w>
 51	CD	51	CRD	NUM	nummod	_
 -	:	-	PUN	PUNCT	punct	_
-year	NN	year	NN1	NOUN	obl:tmod	_
+year	NN	year	NN1	NOUN	obl:unmarked	_
 -	:	-	PUN	PUNCT	punct	_
 old	JJ	old	AJ0	ADJ	amod	_
 </w>
@@ -185,7 +185,7 @@ He	PP	he	PNP	PRON	nsubj	_
 did	VVD	do	VDD	AUX	aux	_
 not	RB	not	XX0	PART	advmod	_
 seek	VV	seek	VVI	VERB	root	_
-medical	JJ	medical	AJ0	ADJ	amod	_
+medical	JJ	medical	AJ0	ADJ	amod	med-ic-al
 attention	NN	attention	NN1	NOUN	obj	atten-tion
 immediately	RB	immediately	AV0	ADV	advmod	im-mediate-ly
 .	SENT	.	PUN	PUNCT	punct	_
@@ -199,7 +199,7 @@ by	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 renal	JJ	renal	AJ0	ADJ	amod	_
 transplant	NN	transplant	NN1	NOUN	compound	trans-plant
-service	NN	service	NN1	NOUN	obl:agent	_
+service	NN	service	NN1	NOUN	obl:agent	serv-ice
 and	CC	and	CJC	CCONJ	cc	_
 underwent	VVD	undergo	VVD	VERB	conj	under-went
 a	DT	a	AT0	DET	det	_
@@ -330,7 +330,7 @@ cell	NN	cell	NN1	NOUN	compound	_
 cancer	NN	cancer	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 skin	NN	skin	NN1	NOUN	compound	_
-surgery	NN	surgery	NN1	NOUN	conj	_
+surgery	NN	surgery	NN1	NOUN	conj	surge-ry
 as	RB	as	CJS	ADV	cc	_
 well	RB	well	AV0	ADV	fixed	_
 as	IN	as	CJS	ADP	fixed	_
@@ -404,7 +404,7 @@ systems	NNS	system	NN2	NOUN	nmod	system-s
 is	VBZ	be	VBZ	AUX	cop	_
 otherwise	RB	otherwise	AV0	ADV	advmod	other-wise
 entirely	RB	entirely	AV0	ADV	advmod	entire-ly
-negative	JJ	negative	AJ0	ADJ	root	_
+negative	JJ	negative	AJ0	ADJ	root	neg-at-ive
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -443,7 +443,7 @@ afebrile	JJ	afebrile	AJ0	ADJ	root	_
 </s>
 <s type="decl" transition="establishment">
 Blood	NN	blood	NN1	NOUN	compound	_
-pressure	NN	pressure	NN1	NOUN	nsubj	_
+pressure	NN	pressure	NN1	NOUN	nsubj	press-ure
 <w>
 161	CD	161	CRD	NUM	root	_
 /	SYM	/	UNC	PUNCT	punct	_
@@ -622,7 +622,7 @@ PLAN	NN	plan	NN1	NOUN	conj	_
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="null">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 Diffuse	VV	diffuse	AJ0	VERB	root	_
 large	JJ	large	AJ0	ADJ	amod	_
 <w>
@@ -648,7 +648,7 @@ final	JJ	final	AJ0	ADJ	conj	_
 cycle	NN	cycle	NN1	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
 chemotherapy	NN	chemotherapy	NN1	NOUN	nmod	chemo-therap-y
-today	NN	today	NN1	NOUN	obl:tmod	to-day
+today	NN	today	NN1	NOUN	obl:unmarked	to-day
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
@@ -660,7 +660,7 @@ ordered	VVN	order	VVN	VERB	root	order-ed
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	AUX	aux:pass	_
 done	VVN	do	VDN	VERB	advcl	_
-within	IN	within	PRP	ADP	case	_
+within	IN	within	PRP	ADP	case	with-in
 2	CD	2	CRD	NUM	nummod	_
 weeks	NNS	week	NN2	NOUN	obl	week-s
 .	SENT	.	PUN	PUNCT	punct	_
@@ -689,7 +689,7 @@ LDH	NP	LDH	NP0	PROPN	conj	_
 </item>
 <item n="2">
 <s type="frag" transition="null">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Chronic	JJ	chronic	AJ0	ADJ	amod	_
 renal	JJ	renal	AJ0	ADJ	amod	_
 insufficiency	NN	insufficiency	NN1	NOUN	root	in-sufficien-cy
@@ -698,7 +698,7 @@ insufficiency	NN	insufficiency	NN1	NOUN	root	in-sufficien-cy
 </item>
 <item n="3">
 <s type="frag" transition="null">
-3.	LS	3.	CRD	X	dep	_
+3.	LS	3.	CRD	X	discourse	_
 Anemia	NN	anemia	NN1	NOUN	root	_
 secondary	JJ	secondary	AJ0	ADJ	amod	second-ary
 to	IN	to	PRP	ADP	case	_
@@ -710,8 +710,8 @@ chemotherapy	NN	chemotherapy	NN1	NOUN	conj	chemo-therap-y
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-He	PP	he	PNP	PRON	nsubj	_
-is	VBZ	be	VBZ	AUX	aux	_
+He	PP	he	PNP	PRON	nsubj:outer	_
+is	VBZ	be	VBZ	AUX	cop	_
 to	TO	to	TO0	PART	mark	_
 continue	VV	continue	VVI	VERB	root	_
 on	IN	on	PRP	ADP	case	_
@@ -726,7 +726,7 @@ support	NN	support	NN1	NOUN	nmod	_
 </item>
 <item n="4">
 <s type="frag" transition="null">
-4.	LS	4.	CRD	X	dep	_
+4.	LS	4.	CRD	X	discourse	_
 Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -734,7 +734,7 @@ Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 This	DT	this	DT0	PRON	nsubj:pass	_
 is	VBZ	be	VBZ	AUX	aux:pass	_
 elevated	VVN	elevate	VVN	VERB	root	elevat-ed
-today	NN	today	NN1	NOUN	obl:tmod	to-day
+today	NN	today	NN1	NOUN	obl:unmarked	to-day
 because	IN	because	CJS	SCONJ	mark	_
 he	PP	he	PNP	PRON	nsubj	_
 held	VVD	hold	VVD	VERB	advcl	_
@@ -766,7 +766,7 @@ today	NN	today	NN1	NOUN	obl	to-day
 </item>
 <item n="5">
 <s type="frag" transition="zero">
-5.	LS	5.	CRD	X	dep	_
+5.	LS	5.	CRD	X	discourse	_
 Squamous	JJ	Squamous	AJ0	ADJ	amod	_
 cell	NN	cell	NN1	NOUN	compound	_
 carcinoma	NN	carcinoma	NN1	NOUN	root	_

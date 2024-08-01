@@ -1,4 +1,4 @@
-<text id="GENTLE_poetry_road" partition="test" author="Robert Frost" dateCollected="2022-11-12" dateCreated="2021-05-30" dateModified="2021-05-30"  shortTitle="road" sourceURL="https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken" speakerCount="0" speakerList="none" title="The Road Not Taken" type="poetry">
+<text id="GENTLE_poetry_road" partition="test" author="Robert Frost" dateCollected="2022-11-12" dateCreated="2021-05-30" dateModified="2021-05-30"  shortTitle="road" sourceURL="https://en.wikisource.org/wiki/Mountain_Interval/The_Road_Not_Taken" speakerCount="0" speakerList="none" title="The Road Not Taken" type="poetry" summary="In this poem, a traveller recounts deliberating which of two roads diverging in a yellow wood to take, finally choosing the one less travelled by, because it was grassy and wanted wear, and predicts one day telling somewhere that this choice had made all the difference.">
 <p>
 <s type="decl" transition="establishment">
 <l n="1"/>
@@ -64,7 +64,7 @@ fair	JJ	fair	AJ0	ADJ	obl	_
 <l n="7"/>
 And	CC	and	CJC	CCONJ	cc	_
 having	VHG	have	VHG	VERB	conj	hav-ing
-perhaps	RB	perhaps	AV0	ADV	advmod	_
+perhaps	RB	perhaps	AV0	ADV	advmod	per-hap-s
 the	DT	the	AT0	DET	det	_
 better	JJR	good	AJC	ADJ	amod	bett-er
 claim	NN	claim	NN1	NOUN	obj	_
@@ -95,7 +95,7 @@ them	PP	they	PNP	PRON	obj	_
 really	RB	really	AV0	ADV	advmod	real-ly
 about	RB	about	PRP	ADV	advmod	_
 the	DT	the	AT0	DET	det	_
-same	JJ	same	DT0	ADJ	obl:npmod	_
+same	JJ	same	DT0	ADJ	obl:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -105,12 +105,12 @@ same	JJ	same	DT0	ADJ	obl:npmod	_
 And	CC	and	CJC	CCONJ	cc	_
 both	DT	both	AV0	DET	nsubj	_
 that	DT	that	DT0	DET	det	_
-morning	NN	morning	NN1	NOUN	obl:tmod	morn-ing
+morning	NN	morning	NN1	NOUN	obl:unmarked	morn-ing
 equally	RB	equally	AV0	ADV	advmod	equal-ly
 lay	VVD	lie	VVD	VERB	root	_
 <l n="12"/>
 In	IN	in	PRP	ADP	case	_
-leaves	NNS	leave	NN2	NOUN	obl	leave-s
+leaves	NNS	leaf	NN2	NOUN	obl	leave-s
 no	DT	no	AT0	DET	det	_
 step	NN	step	NN1	NOUN	nsubj	_
 had	VHD	have	VHD	AUX	aux	_
@@ -138,7 +138,7 @@ knowing	VVG	know	VVG	VERB	advcl	know-ing
 how	WRB	how	AVQ	ADV	obj	_
 way	NN	way	NN1	NOUN	nsubj	_
 leads	VVZ	lead	VVZ	VERB	acl:relcl	lead-s
-on	RP	on	AVP	ADP	compound:prt	_
+on	RB	on	AVP	ADV	advmod	_
 to	IN	to	PRP	ADP	case	_
 way	NN	way	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -167,7 +167,7 @@ a	DT	a	AT0	DET	det	_
 sigh	NN	sigh	NN1	NOUN	obl	_
 <l n="17"/>
 Somewhere	RB	somewhere	AV0	ADV	advmod	Some-where
-ages	NNS	age	NN2	NOUN	obl:tmod	_
+ages	NNS	age	NN2	NOUN	obl:unmarked	_
 and	CC	and	CJC	CCONJ	cc	_
 ages	NNS	age	NN2	NOUN	conj	_
 hence	RB	hence	AV0	ADV	advmod	_

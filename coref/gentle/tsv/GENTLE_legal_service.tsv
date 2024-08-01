@@ -12,17 +12,17 @@
 2-2	21-30	AGREEMENT	abstract[2]	new[2]	nonsal[2]	_	cf1[2]	_	_	
 
 #Text=This Services Agreement ( " Services Agreement " or " Agreement " ) is entered into as of the date noted below ( the " Effective Date " ) between StartEngine Crowdfunding , Inc. , a Delaware corporation ( " Company " ) , and Solutions Vending International , Inc a ___DE corporation ( " Customer " or " you " ) .
-3-1	31-35	This	abstract[3]	new[3]	nonsal[3]	Contract[3]	cf3[3]	appos	3-6[6_3]	
-3-2	36-44	Services	abstract[3]|abstract[4]	new[3]|new[4]	nonsal[3]|nonsal[4]	Contract[3]|Service_%28business%29[4]	cf3[3]|cf5[4]	coref	3-6[7_4]	
-3-3	45-54	Agreement	abstract[3]	new[3]	nonsal[3]	Contract[3]	cf3[3]	_	_	
+3-1	31-35	This	abstract[3]	new[3]	sal[3]	Contract[3]	cf3[3]	appos	3-6[6_3]	
+3-2	36-44	Services	abstract[3]|abstract[4]	new[3]|new[4]	sal[3]|sal[4]	Contract[3]|Service_%28business%29[4]	cf3[3]|cf5[4]	coref	3-6[7_4]	
+3-3	45-54	Agreement	abstract[3]	new[3]	sal[3]	Contract[3]	cf3[3]	_	_	
 3-4	55-56	(	_	_	_	_	_	_	_	
 3-5	57-58	"	_	_	_	_	_	_	_	
-3-6	59-67	Services	abstract[6]|abstract[7]	giv:act[6]|giv:act[7]	nonsal[6]|nonsal[7]	Contract[6]|Service_%28business%29[7]	cf3[6]|cf5[7]	coref|coref	3-11[8_6]|4-2[22_7]	
-3-7	68-77	Agreement	abstract[6]	giv:act[6]	nonsal[6]	Contract[6]	cf3[6]	_	_	
+3-6	59-67	Services	abstract[6]|abstract[7]	giv:act[6]|giv:act[7]	sal[6]|sal[7]	Contract[6]|Service_%28business%29[7]	cf3[6]|cf5[7]	coref|coref	3-11[8_6]|4-2[22_7]	
+3-7	68-77	Agreement	abstract[6]	giv:act[6]	sal[6]	Contract[6]	cf3[6]	_	_	
 3-8	78-79	"	_	_	_	_	_	_	_	
 3-9	80-82	or	_	_	_	_	_	_	_	
 3-10	83-84	"	_	_	_	_	_	_	_	
-3-11	85-94	Agreement	abstract[8]	giv:act[8]	nonsal[8]	Contract[8]	cf3[8]	coref	14-29[131_8]	
+3-11	85-94	Agreement	abstract[8]	giv:act[8]	sal[8]	Contract[8]	cf3[8]	coref	14-29[131_8]	
 3-12	95-96	"	_	_	_	_	_	_	_	
 3-13	97-98	)	_	_	_	_	_	_	_	
 3-14	99-101	is	_	_	_	_	_	_	_	
@@ -42,52 +42,52 @@
 3-28	165-166	"	time[12]	giv:act[12]	nonsal[12]	_	cf2[12]	_	_	
 3-29	167-168	)	_	_	_	_	_	_	_	
 3-30	169-176	between	_	_	_	_	_	_	_	
-3-31	177-188	StartEngine	organization[13]	new[13]	nonsal[13]	_	cf4[13]	appos	3-36[14_13]	
-3-32	189-201	Crowdfunding	organization[13]	new[13]	nonsal[13]	_	cf4[13]	_	_	
-3-33	202-203	,	organization[13]	new[13]	nonsal[13]	_	cf4[13]	_	_	
-3-34	204-208	Inc.	organization[13]	new[13]	nonsal[13]	_	cf4[13]	_	_	
+3-31	177-188	StartEngine	organization[13]	new[13]	sal[13]	_	cf4[13]	appos	3-36[14_13]	
+3-32	189-201	Crowdfunding	organization[13]	new[13]	sal[13]	_	cf4[13]	_	_	
+3-33	202-203	,	organization[13]	new[13]	sal[13]	_	cf4[13]	_	_	
+3-34	204-208	Inc.	organization[13]	new[13]	sal[13]	_	cf4[13]	_	_	
 3-35	209-210	,	_	_	_	_	_	_	_	
-3-36	211-212	a	organization[14]	giv:act[14]	nonsal[14]	_	cf4[14]	coref	3-41[16_14]	
-3-37	213-221	Delaware	organization[14]|place[15]	giv:act[14]|new[15]	nonsal[14]|nonsal[15]	Delaware[15]	cf4[14]|cf6[15]	_	_	
-3-38	222-233	corporation	organization[14]	giv:act[14]	nonsal[14]	_	cf4[14]	_	_	
+3-36	211-212	a	organization[14]	giv:act[14]	sal[14]	_	cf4[14]	coref	3-41[16_14]	
+3-37	213-221	Delaware	organization[14]|place[15]	giv:act[14]|new[15]	sal[14]|nonsal[15]	Delaware[15]	cf4[14]|cf6[15]	_	_	
+3-38	222-233	corporation	organization[14]	giv:act[14]	sal[14]	_	cf4[14]	_	_	
 3-39	234-235	(	_	_	_	_	_	_	_	
 3-40	236-237	"	_	_	_	_	_	_	_	
-3-41	238-245	Company	organization[16]	giv:act[16]	nonsal[16]	_	cf4[16]	coref	5-1[23_16]	
+3-41	238-245	Company	organization[16]	giv:act[16]	sal[16]	_	cf4[16]	coref	5-1[23_16]	
 3-42	246-247	"	_	_	_	_	_	_	_	
 3-43	248-249	)	_	_	_	_	_	_	_	
 3-44	250-251	,	_	_	_	_	_	_	_	
 3-45	252-255	and	_	_	_	_	_	_	_	
-3-46	256-265	Solutions	organization[19]	new[19]	nonsal[19]	_	cf1[19]	appos	3-56[20_19]	
-3-47	266-273	Vending	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
-3-48	274-287	International	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
-3-49	288-289	,	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
-3-50	290-293	Inc	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
-3-51	294-295	a	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
-3-52	296-301	___DE	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
-3-53	302-313	corporation	organization[19]	new[19]	nonsal[19]	_	cf1[19]	_	_	
+3-46	256-265	Solutions	organization[19]	new[19]	sal[19]	_	cf1[19]	appos	3-56[20_19]	
+3-47	266-273	Vending	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
+3-48	274-287	International	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
+3-49	288-289	,	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
+3-50	290-293	Inc	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
+3-51	294-295	a	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
+3-52	296-301	___DE	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
+3-53	302-313	corporation	organization[19]	new[19]	sal[19]	_	cf1[19]	_	_	
 3-54	314-315	(	_	_	_	_	_	_	_	
 3-55	316-317	"	_	_	_	_	_	_	_	
-3-56	318-326	Customer	organization[20]	giv:act[20]	nonsal[20]	_	cf1[20]	ana	3-60[21_20]	
+3-56	318-326	Customer	organization[20]	giv:act[20]	sal[20]	_	cf1[20]	ana	3-60[21_20]	
 3-57	327-328	"	_	_	_	_	_	_	_	
 3-58	329-331	or	_	_	_	_	_	_	_	
 3-59	332-333	"	_	_	_	_	_	_	_	
-3-60	334-337	you	organization[21]	giv:act[21]	nonsal[21]	_	cf1[21]	coref	5-7[24_21]	
+3-60	334-337	you	organization[21]	giv:act[21]	sal[21]	_	cf1[21]	coref	5-7[24_21]	
 3-61	338-339	"	_	_	_	_	_	_	_	
 3-62	340-341	)	_	_	_	_	_	_	_	
 3-63	342-343	.	_	_	_	_	_	_	_	
 
 #Text=1. Services
 4-1	344-346	1.	_	_	_	_	_	_	_	
-4-2	347-355	Services	abstract[22]	giv:act[22]	nonsal[22]	Service_%28business%29[22]	cf1*[22]	coref	5-72[57_22]	
+4-2	347-355	Services	abstract[22]	giv:act[22]	sal[22]	Service_%28business%29[22]	cf1*[22]	coref	5-72[57_22]	
 
 #Text=Company agrees to make available to Customer the ability to present information with respect to its securities offering ( the " Offering " ) to Users , and to permit Users to create and manage online accounts , view information regarding the Customer , indicate interest in the Offering , and to subscribe to the Offering by signing a subscription agreement or similar instrument and transmitting payment instructions ( together , the " Services " ) .
-5-1	356-363	Company	organization[23]	giv:inact[23]	nonsal[23]	_	cf1[23]	ana	5-16[34_23]	
+5-1	356-363	Company	organization[23]	giv:inact[23]	sal[23]	_	cf1[23]	ana	5-16[34_23]	
 5-2	364-370	agrees	_	_	_	_	_	_	_	
 5-3	371-373	to	_	_	_	_	_	_	_	
 5-4	374-378	make	_	_	_	_	_	_	_	
 5-5	379-388	available	_	_	_	_	_	_	_	
 5-6	389-391	to	_	_	_	_	_	_	_	
-5-7	392-400	Customer	organization[24]	giv:inact[24]	nonsal[24]	_	cf4[24]	coref	5-42[46_24]	
+5-7	392-400	Customer	organization[24]	giv:inact[24]	sal[24]	_	cf4[24]	coref	5-42[46_24]	
 5-8	401-404	the	abstract[30]	new[30]	nonsal[30]	_	cf6[30]	_	_	
 5-9	405-412	ability	abstract[30]	new[30]	nonsal[30]	_	cf6[30]	_	_	
 5-10	413-415	to	abstract[30]	new[30]	nonsal[30]	_	cf6[30]	_	_	
@@ -96,47 +96,47 @@
 5-13	436-440	with	abstract[30]	new[30]	nonsal[30]	_	cf6[30]	_	_	
 5-14	441-448	respect	abstract[30]	new[30]	nonsal[30]	_	cf6[30]	_	_	
 5-15	449-451	to	abstract[30]	new[30]	nonsal[30]	_	cf6[30]	_	_	
-5-16	452-455	its	abstract[30]|abstract[33]|organization[34]	new[30]|new[33]|giv:act[34]	nonsal[30]|nonsal[33]|nonsal[34]	_	cf6[30]|cf3[33]|cf1[34]	appos|coref	5-20[39_33]|6-20[66_34]	
-5-17	456-466	securities	abstract[30]|abstract[33]|abstract[35]	new[30]|new[33]|new[35]	nonsal[30]|nonsal[33]|nonsal[35]	_	cf6[30]|cf3[33]|cf17[35]	_	_	
-5-18	467-475	offering	abstract[30]|abstract[33]	new[30]|new[33]	nonsal[30]|nonsal[33]	_	cf6[30]|cf3[33]	_	_	
+5-16	452-455	its	abstract[30]|abstract[33]|organization[34]	new[30]|new[33]|giv:act[34]	nonsal[30]|sal[33]|sal[34]	_	cf6[30]|cf3[33]|cf1[34]	appos|coref	5-20[39_33]|6-20[66_34]	
+5-17	456-466	securities	abstract[30]|abstract[33]|abstract[35]	new[30]|new[33]|new[35]	nonsal[30]|sal[33]|sal[35]	_	cf6[30]|cf3[33]|cf17[35]	_	_	
+5-18	467-475	offering	abstract[30]|abstract[33]	new[30]|new[33]	nonsal[30]|sal[33]	_	cf6[30]|cf3[33]	_	_	
 5-19	476-477	(	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
-5-20	478-481	the	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|nonsal[39]	_	cf14[38]|cf3[39]	coref	5-48[49_39]	
-5-21	482-483	"	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|nonsal[39]	_	cf14[38]|cf3[39]	_	_	
-5-22	484-492	Offering	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|nonsal[39]	_	cf14[38]|cf3[39]	_	_	
-5-23	493-494	"	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|nonsal[39]	_	cf14[38]|cf3[39]	_	_	
+5-20	478-481	the	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|sal[39]	_	cf14[38]|cf3[39]	coref	5-48[49_39]	
+5-21	482-483	"	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|sal[39]	_	cf14[38]|cf3[39]	_	_	
+5-22	484-492	Offering	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|sal[39]	_	cf14[38]|cf3[39]	_	_	
+5-23	493-494	"	abstract[38]|abstract[39]	new[38]|giv:act[39]	nonsal[38]|sal[39]	_	cf14[38]|cf3[39]	_	_	
 5-24	495-496	)	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-25	497-499	to	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
-5-26	500-505	Users	abstract[38]|person[40]	new[38]|new[40]	nonsal[38]|nonsal[40]	_	cf14[38]|cf2[40]	coref	5-31[41_40]	
+5-26	500-505	Users	abstract[38]|person[40]	new[38]|new[40]	nonsal[38]|sal[40]	_	cf14[38]|cf2[40]	coref	5-31[41_40]	
 5-27	506-507	,	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-28	508-511	and	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-29	512-514	to	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-30	515-521	permit	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
-5-31	522-527	Users	abstract[38]|person[41]	new[38]|giv:act[41]	nonsal[38]|nonsal[41]	_	cf14[38]|cf2[41]	_	_	
+5-31	522-527	Users	abstract[38]|person[41]	new[38]|giv:act[41]	nonsal[38]|sal[41]	_	cf14[38]|cf2[41]	_	_	
 5-32	528-530	to	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-33	531-537	create	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-34	538-541	and	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-35	542-548	manage	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
-5-36	549-555	online	abstract[38]|abstract[44]	new[38]|new[44]	nonsal[38]|nonsal[44]	_	cf14[38]|cf8[44]	_	_	
-5-37	556-564	accounts	abstract[38]|abstract[44]	new[38]|new[44]	nonsal[38]|nonsal[44]	_	cf14[38]|cf8[44]	_	_	
+5-36	549-555	online	abstract[38]|abstract[44]	new[38]|new[44]	nonsal[38]|sal[44]	_	cf14[38]|cf8[44]	_	_	
+5-37	556-564	accounts	abstract[38]|abstract[44]	new[38]|new[44]	nonsal[38]|sal[44]	_	cf14[38]|cf8[44]	_	_	
 5-38	565-566	,	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-39	567-571	view	abstract[38]	new[38]	nonsal[38]	_	cf14[38]	_	_	
 5-40	572-583	information	abstract[38]|abstract[45]	new[38]|new[45]	nonsal[38]|nonsal[45]	_	cf14[38]|cf9[45]	_	_	
 5-41	584-593	regarding	abstract[38]|abstract[45]	new[38]|new[45]	nonsal[38]|nonsal[45]	_	cf14[38]|cf9[45]	_	_	
-5-42	594-597	the	abstract[38]|abstract[45]|organization[46]	new[38]|new[45]|giv:act[46]	nonsal[38]|nonsal[45]|nonsal[46]	_	cf14[38]|cf9[45]|cf4[46]	ana	8-9[72_46]	
-5-43	598-606	Customer	abstract[38]|abstract[45]|organization[46]	new[38]|new[45]|giv:act[46]	nonsal[38]|nonsal[45]|nonsal[46]	_	cf14[38]|cf9[45]|cf4[46]	_	_	
+5-42	594-597	the	abstract[38]|abstract[45]|organization[46]	new[38]|new[45]|giv:act[46]	nonsal[38]|nonsal[45]|sal[46]	_	cf14[38]|cf9[45]|cf4[46]	ana	8-9[72_46]	
+5-43	598-606	Customer	abstract[38]|abstract[45]|organization[46]	new[38]|new[45]|giv:act[46]	nonsal[38]|nonsal[45]|sal[46]	_	cf14[38]|cf9[45]|cf4[46]	_	_	
 5-44	607-608	,	_	_	_	_	_	_	_	
 5-45	609-617	indicate	_	_	_	_	_	_	_	
 5-46	618-626	interest	abstract[47]|abstract[48]	new[47]|new[48]	nonsal[47]|nonsal[48]	_	cf15[47]|cf10[48]	_	_	
 5-47	627-629	in	abstract[47]|abstract[48]	new[47]|new[48]	nonsal[47]|nonsal[48]	_	cf15[47]|cf10[48]	_	_	
-5-48	630-633	the	abstract[47]|abstract[48]|abstract[49]	new[47]|new[48]|giv:act[49]	nonsal[47]|nonsal[48]|nonsal[49]	_	cf15[47]|cf10[48]|cf3[49]	coref	5-55[50_49]	
-5-49	634-642	Offering	abstract[47]|abstract[48]|abstract[49]	new[47]|new[48]|giv:act[49]	nonsal[47]|nonsal[48]|nonsal[49]	_	cf15[47]|cf10[48]|cf3[49]	_	_	
+5-48	630-633	the	abstract[47]|abstract[48]|abstract[49]	new[47]|new[48]|giv:act[49]	nonsal[47]|nonsal[48]|sal[49]	_	cf15[47]|cf10[48]|cf3[49]	coref	5-55[50_49]	
+5-49	634-642	Offering	abstract[47]|abstract[48]|abstract[49]	new[47]|new[48]|giv:act[49]	nonsal[47]|nonsal[48]|sal[49]	_	cf15[47]|cf10[48]|cf3[49]	_	_	
 5-50	643-644	,	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-51	645-648	and	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-52	649-651	to	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-53	652-661	subscribe	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-54	662-664	to	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
-5-55	665-668	the	abstract[47]|abstract[50]	new[47]|giv:act[50]	nonsal[47]|nonsal[50]	_	cf15[47]|cf3[50]	_	_	
-5-56	669-677	Offering	abstract[47]|abstract[50]	new[47]|giv:act[50]	nonsal[47]|nonsal[50]	_	cf15[47]|cf3[50]	_	_	
+5-55	665-668	the	abstract[47]|abstract[50]	new[47]|giv:act[50]	nonsal[47]|sal[50]	_	cf15[47]|cf3[50]	_	_	
+5-56	669-677	Offering	abstract[47]|abstract[50]	new[47]|giv:act[50]	nonsal[47]|sal[50]	_	cf15[47]|cf3[50]	_	_	
 5-57	678-680	by	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-58	681-688	signing	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-59	689-690	a	abstract[47]|abstract[51]|abstract[52]	new[47]|new[51]|new[52]	nonsal[47]|nonsal[51]|nonsal[52]	_	cf15[47]|cf16[51]|cf11[52]	_	_	
@@ -152,10 +152,10 @@
 5-69	774-775	(	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-70	776-784	together	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-71	785-786	,	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
-5-72	787-790	the	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|nonsal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	coref	8-6[71_57]	
-5-73	791-792	"	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|nonsal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	_	_	
-5-74	793-801	Services	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|nonsal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	_	_	
-5-75	802-803	"	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|nonsal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	_	_	
+5-72	787-790	the	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|sal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	coref	8-6[71_57]	
+5-73	791-792	"	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|sal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	_	_	
+5-74	793-801	Services	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|sal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	_	_	
+5-75	802-803	"	abstract[47]|abstract[57]	new[47]|giv:act[57]	nonsal[47]|sal[57]	Service_%28business%29[57]	cf15[47]|cf5*[57]	_	_	
 5-76	804-805	)	abstract[47]	new[47]	nonsal[47]	_	cf15[47]	_	_	
 5-77	806-807	.	_	_	_	_	_	_	_	
 
@@ -179,17 +179,17 @@
 6-17	893-895	an	person[59]|abstract[64]	giv:act[59]|new[64]	nonsal[59]|nonsal[64]	_	cf1[59]|cf4[64]	_	_	
 6-18	896-903	account	person[59]|abstract[64]	giv:act[59]|new[64]	nonsal[59]|nonsal[64]	_	cf1[59]|cf4[64]	_	_	
 6-19	904-906	on	person[59]	giv:act[59]	nonsal[59]	_	cf1[59]	_	_	
-6-20	907-910	the	person[59]|place[65]|organization[66]	giv:act[59]|new[65]|giv:act[66]	nonsal[59]|nonsal[65]|nonsal[66]	_	cf1[59]|cf5[65]|cf2*[66]	coref	8-12[74_66]	
-6-21	911-918	Company	person[59]|place[65]|organization[66]	giv:act[59]|new[65]|giv:act[66]	nonsal[59]|nonsal[65]|nonsal[66]	_	cf1[59]|cf5[65]|cf2*[66]	_	_	
-6-22	919-921	's	person[59]|place[65]|organization[66]	giv:act[59]|new[65]|giv:act[66]	nonsal[59]|nonsal[65]|nonsal[66]	_	cf1[59]|cf5[65]|cf2*[66]	_	_	
+6-20	907-910	the	person[59]|place[65]|organization[66]	giv:act[59]|new[65]|giv:act[66]	nonsal[59]|nonsal[65]|sal[66]	_	cf1[59]|cf5[65]|cf2*[66]	coref	8-12[74_66]	
+6-21	911-918	Company	person[59]|place[65]|organization[66]	giv:act[59]|new[65]|giv:act[66]	nonsal[59]|nonsal[65]|sal[66]	_	cf1[59]|cf5[65]|cf2*[66]	_	_	
+6-22	919-921	's	person[59]|place[65]|organization[66]	giv:act[59]|new[65]|giv:act[66]	nonsal[59]|nonsal[65]|sal[66]	_	cf1[59]|cf5[65]|cf2*[66]	_	_	
 6-23	922-929	website	person[59]|place[65]	giv:act[59]|new[65]	nonsal[59]|nonsal[65]	_	cf1[59]|cf5[65]	_	_	
 6-24	930-931	.	_	_	_	_	_	_	_	
 
 #Text=2. Fees and expenses
 7-1	932-934	2.	_	_	_	_	_	_	_	
-7-2	935-939	Fees	abstract[67]	new[67]	nonsal[67]	_	cf1[67]	coref	21-3[189_67]	
+7-2	935-939	Fees	abstract[67]	new[67]	sal[67]	_	cf1[67]	coref	21-3[189_67]	
 7-3	940-943	and	_	_	_	_	_	_	_	
-7-4	944-952	expenses	abstract[68]	new[68]	nonsal[68]	_	cf2[68]	coref	8-19[76_68]	
+7-4	944-952	expenses	abstract[68]	new[68]	sal[68]	_	cf2[68]	coref	8-19[76_68]	
 
 #Text=a) Generally In exchange for the Services , you shall pay the Company the then applicable fees and expenses set out below .
 8-1	953-955	a)	_	_	_	_	_	_	_	
@@ -197,28 +197,28 @@
 8-3	966-968	In	_	_	_	_	_	_	_	
 8-4	969-977	exchange	_	_	_	_	_	_	_	
 8-5	978-981	for	_	_	_	_	_	_	_	
-8-6	982-985	the	abstract[71]	giv:inact[71]	nonsal[71]	Service_%28business%29[71]	cf3[71]	coref	13-8[119_71]	
-8-7	986-994	Services	abstract[71]	giv:inact[71]	nonsal[71]	Service_%28business%29[71]	cf3[71]	_	_	
+8-6	982-985	the	abstract[71]	giv:inact[71]	sal[71]	Service_%28business%29[71]	cf3[71]	coref	13-8[119_71]	
+8-7	986-994	Services	abstract[71]	giv:inact[71]	sal[71]	Service_%28business%29[71]	cf3[71]	_	_	
 8-8	995-996	,	_	_	_	_	_	_	_	
-8-9	997-1000	you	organization[72]	giv:inact[72]	nonsal[72]	_	cf2[72]	ana	9-42[91_72]	
+8-9	997-1000	you	organization[72]	giv:inact[72]	sal[72]	_	cf2[72]	ana	9-42[91_72]	
 8-10	1001-1006	shall	_	_	_	_	_	_	_	
 8-11	1007-1010	pay	_	_	_	_	_	_	_	
-8-12	1011-1014	the	organization[74]	giv:inact[74]	nonsal[74]	_	cf4[74]	coref	9-1[78_74]	
-8-13	1015-1022	Company	organization[74]	giv:inact[74]	nonsal[74]	_	cf4[74]	_	_	
+8-12	1011-1014	the	organization[74]	giv:inact[74]	sal[74]	_	cf4[74]	coref	9-1[78_74]	
+8-13	1015-1022	Company	organization[74]	giv:inact[74]	sal[74]	_	cf4[74]	_	_	
 8-14	1023-1026	the	abstract[75]	new[75]	nonsal[75]	_	cf5[75]	_	_	
 8-15	1027-1031	then	abstract[75]	new[75]	nonsal[75]	_	cf5[75]	_	_	
 8-16	1032-1042	applicable	abstract[75]	new[75]	nonsal[75]	_	cf5[75]	_	_	
 8-17	1043-1047	fees	abstract[75]	new[75]	nonsal[75]	_	cf5[75]	_	_	
 8-18	1048-1051	and	_	_	_	_	_	_	_	
-8-19	1052-1060	expenses	abstract[76]	giv:act[76]	nonsal[76]	_	cf1*[76]	_	_	
+8-19	1052-1060	expenses	abstract[76]	giv:act[76]	sal[76]	_	cf1*[76]	_	_	
 8-20	1061-1064	set	_	_	_	_	_	_	_	
 8-21	1065-1068	out	_	_	_	_	_	_	_	
 8-22	1069-1074	below	_	_	_	_	_	_	_	
 8-23	1075-1076	.	_	_	_	_	_	_	_	
 
 #Text=The Company reserves the right to change the applicable charges and to institute new charges and fees at the end of the Initial Term ( as defined below ) or then current renewal term , upon 30 days prior notice to you .
-9-1	1077-1080	The	organization[78]	giv:act[78]	nonsal[78]	_	cf2[78]	coref	10-5[95_78]	
-9-2	1081-1088	Company	organization[78]	giv:act[78]	nonsal[78]	_	cf2[78]	_	_	
+9-1	1077-1080	The	organization[78]	giv:act[78]	sal[78]	_	cf2[78]	coref	10-5[95_78]	
+9-2	1081-1088	Company	organization[78]	giv:act[78]	sal[78]	_	cf2[78]	_	_	
 9-3	1089-1097	reserves	_	_	_	_	_	_	_	
 9-4	1098-1101	the	abstract[79]	new[79]	nonsal[79]	_	cf3[79]	_	_	
 9-5	1102-1107	right	abstract[79]	new[79]	nonsal[79]	_	cf3[79]	_	_	
@@ -258,25 +258,25 @@
 9-39	1275-1280	prior	time[89]|time[90]	new[89]|new[90]	nonsal[89]|nonsal[90]	_	cf10[89]|cf11[90]	_	_	
 9-40	1281-1287	notice	time[89]|time[90]	new[89]|new[90]	nonsal[89]|nonsal[90]	_	cf10[89]|cf11[90]	_	_	
 9-41	1288-1290	to	time[89]	new[89]	nonsal[89]	_	cf10[89]	_	_	
-9-42	1291-1294	you	time[89]|organization[91]	new[89]|giv:act[91]	nonsal[89]|nonsal[91]	_	cf10[89]|cf1*[91]	ana	10-2[92_91]	
+9-42	1291-1294	you	time[89]|organization[91]	new[89]|giv:act[91]	nonsal[89]|sal[91]	_	cf10[89]|cf1*[91]	ana	10-2[92_91]	
 9-43	1295-1296	.	_	_	_	_	_	_	_	
 
 #Text=If you believe that the Company has billed you incorrectly , you must contact Company no later than 60 days after the closing date on the first billing statement in which the error or problem appeared , in order to receive an adjustment or credit .
 10-1	1297-1299	If	_	_	_	_	_	_	_	
-10-2	1300-1303	you	organization[92]	giv:act[92]	nonsal[92]	_	cf1*[92]	ana	10-9[96_92]	
+10-2	1300-1303	you	organization[92]	giv:act[92]	sal[92]	_	cf1*[92]	ana	10-9[96_92]	
 10-3	1304-1311	believe	_	_	_	_	_	_	_	
 10-4	1312-1316	that	_	_	_	_	_	_	_	
-10-5	1317-1320	the	organization[95]	giv:act[95]	nonsal[95]	_	cf2[95]	coref	10-15[98_95]	
-10-6	1321-1328	Company	organization[95]	giv:act[95]	nonsal[95]	_	cf2[95]	_	_	
+10-5	1317-1320	the	organization[95]	giv:act[95]	sal[95]	_	cf2[95]	coref	10-15[98_95]	
+10-6	1321-1328	Company	organization[95]	giv:act[95]	sal[95]	_	cf2[95]	_	_	
 10-7	1329-1332	has	_	_	_	_	_	_	_	
 10-8	1333-1339	billed	_	_	_	_	_	_	_	
-10-9	1340-1343	you	organization[96]	giv:act[96]	nonsal[96]	_	cf1*[96]	ana	10-12[97_96]	
+10-9	1340-1343	you	organization[96]	giv:act[96]	sal[96]	_	cf1*[96]	ana	10-12[97_96]	
 10-10	1344-1355	incorrectly	_	_	_	_	_	_	_	
 10-11	1356-1357	,	_	_	_	_	_	_	_	
-10-12	1358-1361	you	organization[97]	giv:act[97]	nonsal[97]	_	cf1*[97]	ana	13-5[117_97]	
+10-12	1358-1361	you	organization[97]	giv:act[97]	sal[97]	_	cf1*[97]	ana	13-5[117_97]	
 10-13	1362-1366	must	_	_	_	_	_	_	_	
 10-14	1367-1374	contact	_	_	_	_	_	_	_	
-10-15	1375-1382	Company	organization[98]	giv:act[98]	nonsal[98]	_	cf2[98]	coref	13-1[116_98]	
+10-15	1375-1382	Company	organization[98]	giv:act[98]	sal[98]	_	cf2[98]	coref	13-1[116_98]	
 10-16	1383-1385	no	_	_	_	_	_	_	_	
 10-17	1386-1391	later	_	_	_	_	_	_	_	
 10-18	1392-1396	than	_	_	_	_	_	_	_	
@@ -323,25 +323,25 @@
 12-2	1607-1614	Monthly	abstract[113]	new[113]	nonsal[113]	_	cf1[113]	_	_	
 12-3	1615-1619	Fees	abstract[113]	new[113]	nonsal[113]	_	cf1[113]	_	_	
 12-4	1620-1623	and	_	_	_	_	_	_	_	
-12-5	1624-1631	Billing	event[114]	new[114]	nonsal[114]	_	cf2[114]	_	_	
+12-5	1624-1631	Billing	event[114]	new[114]	sal[114]	_	cf2[114]	_	_	
 
 #Text=The Company will bill you monthly for the Services .
-13-1	1632-1635	The	organization[116]	giv:inact[116]	nonsal[116]	_	cf2[116]	coref	14-3[122_116]	
-13-2	1636-1643	Company	organization[116]	giv:inact[116]	nonsal[116]	_	cf2[116]	_	_	
+13-1	1632-1635	The	organization[116]	giv:inact[116]	sal[116]	_	cf2[116]	coref	14-3[122_116]	
+13-2	1636-1643	Company	organization[116]	giv:inact[116]	sal[116]	_	cf2[116]	_	_	
 13-3	1644-1648	will	_	_	_	_	_	_	_	
 13-4	1649-1653	bill	_	_	_	_	_	_	_	
-13-5	1654-1657	you	organization[117]	giv:inact[117]	nonsal[117]	_	cf1[117]	ana	14-1[120_117]	
+13-5	1654-1657	you	organization[117]	giv:inact[117]	sal[117]	_	cf1[117]	ana	14-1[120_117]	
 13-6	1658-1665	monthly	_	_	_	_	_	_	_	
 13-7	1666-1669	for	_	_	_	_	_	_	_	
-13-8	1670-1673	the	abstract[119]	giv:inact[119]	nonsal[119]	Service_%28business%29[119]	cf3[119]	coref	14-30[132_119]	
-13-9	1674-1682	Services	abstract[119]	giv:inact[119]	nonsal[119]	Service_%28business%29[119]	cf3[119]	_	_	
+13-8	1670-1673	the	abstract[119]	giv:inact[119]	sal[119]	Service_%28business%29[119]	cf3[119]	coref	14-30[132_119]	
+13-9	1674-1682	Services	abstract[119]	giv:inact[119]	sal[119]	Service_%28business%29[119]	cf3[119]	_	_	
 13-10	1683-1684	.	_	_	_	_	_	_	_	
 
 #Text=You authorize the Company to instruct Prime Trust or any escrow agent used by Company to deduct such fees , debts and any other amounts liabilities incurred under this Service Agreement , prior to releasing any amounts due to you or to any other person ( including another escrow agent ) from escrow .
-14-1	1685-1688	You	organization[120]	giv:act[120]	nonsal[120]	_	cf1*[120]	ana	14-40[135_120]	
+14-1	1685-1688	You	organization[120]	giv:act[120]	sal[120]	_	cf1*[120]	ana	14-40[135_120]	
 14-2	1689-1698	authorize	_	_	_	_	_	_	_	
-14-3	1699-1702	the	organization[122]	giv:act[122]	nonsal[122]	_	cf2[122]	coref	14-15[125_122]	
-14-4	1703-1710	Company	organization[122]	giv:act[122]	nonsal[122]	_	cf2[122]	_	_	
+14-3	1699-1702	the	organization[122]	giv:act[122]	sal[122]	_	cf2[122]	coref	14-15[125_122]	
+14-4	1703-1710	Company	organization[122]	giv:act[122]	sal[122]	_	cf2[122]	_	_	
 14-5	1711-1713	to	_	_	_	_	_	_	_	
 14-6	1714-1722	instruct	_	_	_	_	_	_	_	
 14-7	1723-1728	Prime	organization[123]	new[123]	nonsal[123]	_	cf5[123]	_	_	
@@ -352,7 +352,7 @@
 14-12	1749-1754	agent	person[124]	new[124]	nonsal[124]	_	cf8[124]	_	_	
 14-13	1755-1759	used	person[124]	new[124]	nonsal[124]	_	cf8[124]	_	_	
 14-14	1760-1762	by	person[124]	new[124]	nonsal[124]	_	cf8[124]	_	_	
-14-15	1763-1770	Company	person[124]|organization[125]	new[124]|giv:act[125]	nonsal[124]|nonsal[125]	_	cf8[124]|cf2[125]	coref	16-17[168_125]	
+14-15	1763-1770	Company	person[124]|organization[125]	new[124]|giv:act[125]	nonsal[124]|sal[125]	_	cf8[124]|cf2[125]	coref	16-17[168_125]	
 14-16	1771-1773	to	_	_	_	_	_	_	_	
 14-17	1774-1780	deduct	_	_	_	_	_	_	_	
 14-18	1781-1785	such	abstract[127]	new[127]	nonsal[127]	_	cf6[127]	_	_	
@@ -366,9 +366,9 @@
 14-26	1821-1832	liabilities	abstract[130]	new[130]	nonsal[130]	_	cf12[130]	_	_	
 14-27	1833-1841	incurred	abstract[130]	new[130]	nonsal[130]	_	cf12[130]	_	_	
 14-28	1842-1847	under	abstract[130]	new[130]	nonsal[130]	_	cf12[130]	_	_	
-14-29	1848-1852	this	abstract[130]|abstract[131]	new[130]|giv:inact[131]	nonsal[130]|nonsal[131]	Contract[131]	cf12[130]|cf4[131]	coref	33-16[269_131]	
-14-30	1853-1860	Service	abstract[130]|abstract[131]|abstract[132]	new[130]|giv:inact[131]|giv:act[132]	nonsal[130]|nonsal[131]|nonsal[132]	Contract[131]|Service_%28business%29[132]	cf12[130]|cf4[131]|cf3[132]	coref	15-48[157_132]	
-14-31	1861-1870	Agreement	abstract[130]|abstract[131]	new[130]|giv:inact[131]	nonsal[130]|nonsal[131]	Contract[131]	cf12[130]|cf4[131]	_	_	
+14-29	1848-1852	this	abstract[130]|abstract[131]	new[130]|giv:inact[131]	nonsal[130]|sal[131]	Contract[131]	cf12[130]|cf4[131]	coref	33-16[269_131]	
+14-30	1853-1860	Service	abstract[130]|abstract[131]|abstract[132]	new[130]|giv:inact[131]|giv:act[132]	nonsal[130]|sal[131]|sal[132]	Contract[131]|Service_%28business%29[132]	cf12[130]|cf4[131]|cf3[132]	coref	15-48[157_132]	
+14-31	1861-1870	Agreement	abstract[130]|abstract[131]	new[130]|giv:inact[131]	nonsal[130]|sal[131]	Contract[131]	cf12[130]|cf4[131]	_	_	
 14-32	1871-1872	,	_	_	_	_	_	_	_	
 14-33	1873-1878	prior	_	_	_	_	_	_	_	
 14-34	1879-1881	to	_	_	_	_	_	_	_	
@@ -377,7 +377,7 @@
 14-37	1896-1903	amounts	abstract[134]	new[134]	nonsal[134]	_	cf7[134]	_	_	
 14-38	1904-1907	due	abstract[134]	new[134]	nonsal[134]	_	cf7[134]	_	_	
 14-39	1908-1910	to	abstract[134]	new[134]	nonsal[134]	_	cf7[134]	_	_	
-14-40	1911-1914	you	abstract[134]|organization[135]	new[134]|giv:act[135]	nonsal[134]|nonsal[135]	_	cf7[134]|cf1*[135]	ana	16-1[158_135]	
+14-40	1911-1914	you	abstract[134]|organization[135]	new[134]|giv:act[135]	nonsal[134]|sal[135]	_	cf7[134]|cf1*[135]	ana	16-1[158_135]	
 14-41	1915-1917	or	abstract[134]	new[134]	nonsal[134]	_	cf7[134]	_	_	
 14-42	1918-1920	to	abstract[134]	new[134]	nonsal[134]	_	cf7[134]	_	_	
 14-43	1921-1924	any	abstract[134]|person[137]	new[134]|new[137]	nonsal[134]|nonsal[137]	_	cf7[134]|cf9[137]	_	_	
@@ -441,11 +441,11 @@
 15-45	2213-2222	immediate	abstract[153]|event[156]	new[153]|new[156]	nonsal[153]|nonsal[156]	_	cf12[153]|cf10[156]	_	_	
 15-46	2223-2234	termination	abstract[153]|event[156]	new[153]|new[156]	nonsal[153]|nonsal[156]	_	cf12[153]|cf10[156]	_	_	
 15-47	2235-2237	of	abstract[153]|event[156]	new[153]|new[156]	nonsal[153]|nonsal[156]	_	cf12[153]|cf10[156]	_	_	
-15-48	2238-2245	Service	abstract[153]|event[156]|abstract[157]	new[153]|new[156]|giv:act[157]	nonsal[153]|nonsal[156]|nonsal[157]	Service_%28business%29[157]	cf12[153]|cf10[156]|cf1*[157]	coref	16-10[162_157]	
+15-48	2238-2245	Service	abstract[153]|event[156]|abstract[157]	new[153]|new[156]|giv:act[157]	nonsal[153]|nonsal[156]|sal[157]	Service_%28business%29[157]	cf12[153]|cf10[156]|cf1*[157]	coref	16-10[162_157]	
 15-49	2246-2247	.	_	_	_	_	_	_	_	
 
 #Text=You shall be responsible for all taxes associated with Services other than U.S. taxes based on the Company 's net income .
-16-1	2248-2251	You	organization[158]	giv:inact[158]	nonsal[158]	_	cf2[158]	ana	26-1[208_158]	
+16-1	2248-2251	You	organization[158]	giv:inact[158]	sal[158]	_	cf2[158]	ana	26-1[208_158]	
 16-2	2252-2257	shall	_	_	_	_	_	_	_	
 16-3	2258-2260	be	_	_	_	_	_	_	_	
 16-4	2261-2272	responsible	_	_	_	_	_	_	_	
@@ -454,16 +454,16 @@
 16-7	2281-2286	taxes	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
 16-8	2287-2297	associated	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
 16-9	2298-2302	with	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
-16-10	2303-2311	Services	abstract[161]|abstract[162]	new[161]|giv:act[162]	nonsal[161]|nonsal[162]	Service_%28business%29[162]	cf4[161]|cf1*[162]	coref	45-11[377_162]	
+16-10	2303-2311	Services	abstract[161]|abstract[162]	new[161]|giv:act[162]	nonsal[161]|sal[162]	Service_%28business%29[162]	cf4[161]|cf1*[162]	coref	45-11[377_162]	
 16-11	2312-2317	other	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
 16-12	2318-2322	than	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
 16-13	2323-2327	U.S.	abstract[161]|abstract[164]|place[165]	new[161]|new[164]|new[165]	nonsal[161]|nonsal[164]|nonsal[165]	United_States[165]	cf4[161]|cf7[164]|cf6[165]	coref	18-15[176_165]	
 16-14	2328-2333	taxes	abstract[161]|abstract[164]	new[161]|new[164]	nonsal[161]|nonsal[164]	_	cf4[161]|cf7[164]	_	_	
 16-15	2334-2339	based	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
 16-16	2340-2342	on	abstract[161]	new[161]	nonsal[161]	_	cf4[161]	_	_	
-16-17	2343-2346	the	abstract[161]|abstract[167]|organization[168]	new[161]|new[167]|giv:inact[168]	nonsal[161]|nonsal[167]|nonsal[168]	_	cf4[161]|cf5[167]|cf3[168]	coref	18-1[170_168]	
-16-18	2347-2354	Company	abstract[161]|abstract[167]|organization[168]	new[161]|new[167]|giv:inact[168]	nonsal[161]|nonsal[167]|nonsal[168]	_	cf4[161]|cf5[167]|cf3[168]	_	_	
-16-19	2355-2357	's	abstract[161]|abstract[167]|organization[168]	new[161]|new[167]|giv:inact[168]	nonsal[161]|nonsal[167]|nonsal[168]	_	cf4[161]|cf5[167]|cf3[168]	_	_	
+16-17	2343-2346	the	abstract[161]|abstract[167]|organization[168]	new[161]|new[167]|giv:inact[168]	nonsal[161]|nonsal[167]|sal[168]	_	cf4[161]|cf5[167]|cf3[168]	coref	18-1[170_168]	
+16-18	2347-2354	Company	abstract[161]|abstract[167]|organization[168]	new[161]|new[167]|giv:inact[168]	nonsal[161]|nonsal[167]|sal[168]	_	cf4[161]|cf5[167]|cf3[168]	_	_	
+16-19	2355-2357	's	abstract[161]|abstract[167]|organization[168]	new[161]|new[167]|giv:inact[168]	nonsal[161]|nonsal[167]|sal[168]	_	cf4[161]|cf5[167]|cf3[168]	_	_	
 16-20	2358-2361	net	abstract[161]|abstract[167]	new[161]|new[167]	nonsal[161]|nonsal[167]	_	cf4[161]|cf5[167]	_	_	
 16-21	2362-2368	income	abstract[161]|abstract[167]	new[161]|new[167]	nonsal[161]|nonsal[167]	_	cf4[161]|cf5[167]	_	_	
 16-22	2369-2370	.	_	_	_	_	_	_	_	
@@ -474,8 +474,8 @@
 17-3	2386-2390	Fees	abstract[169]	new[169]	nonsal[169]	_	cf1[169]	_	_	
 
 #Text=Company 's transaction fees depend on the method of payment ( e.g. ACH - US or WIRE - US ) .
-18-1	2391-2398	Company	organization[170]	giv:inact[170]	nonsal[170]	_	cf3[170]	coref	26-4[211_170]	
-18-2	2399-2401	's	organization[170]	giv:inact[170]	nonsal[170]	_	cf3[170]	_	_	
+18-1	2391-2398	Company	organization[170]	giv:inact[170]	sal[170]	_	cf3[170]	coref	26-4[211_170]	
+18-2	2399-2401	's	organization[170]	giv:inact[170]	sal[170]	_	cf3[170]	_	_	
 18-3	2402-2413	transaction	abstract[171]	giv:act[171]	nonsal[171]	_	cf1*[171]	_	_	
 18-4	2414-2418	fees	abstract[171]	giv:act[171]	nonsal[171]	_	cf1*[171]	_	_	
 18-5	2419-2425	depend	_	_	_	_	_	_	_	
@@ -512,11 +512,11 @@
 #Text=d) AML Fees
 21-1	2518-2520	d)	_	_	_	_	_	_	_	
 21-2	2521-2524	AML	abstract[188]	new[188]	nonsal[188]	Money_laundering[188]	cf2[188]	coref	22-1[194_188]	
-21-3	2525-2529	Fees	abstract[189]	giv:inact[189]	nonsal[189]	_	cf1[189]	coref	22-1[193_189]	
+21-3	2525-2529	Fees	abstract[189]	giv:inact[189]	sal[189]	_	cf1[189]	coref	22-1[193_189]	
 
 #Text=AML fees are charged per User per initial transaction .
-22-1	2530-2533	AML	abstract[192]|abstract[193]|abstract[194]	new[192]|giv:act[193]|giv:act[194]	nonsal[192]|nonsal[193]|nonsal[194]	Money_laundering[194]	cf5[192]|cf1*[193]|cf2[194]	coref	23-1[199_194]	
-22-2	2534-2538	fees	abstract[192]|abstract[193]	new[192]|giv:act[193]	nonsal[192]|nonsal[193]	_	cf5[192]|cf1*[193]	_	_	
+22-1	2530-2533	AML	abstract[192]|abstract[193]|abstract[194]	new[192]|giv:act[193]|giv:act[194]	nonsal[192]|sal[193]|nonsal[194]	Money_laundering[194]	cf5[192]|cf1*[193]|cf2[194]	coref	23-1[199_194]	
+22-2	2534-2538	fees	abstract[192]|abstract[193]	new[192]|giv:act[193]	nonsal[192]|sal[193]	_	cf5[192]|cf1*[193]	_	_	
 22-3	2539-2542	are	abstract[192]	new[192]	nonsal[192]	_	cf5[192]	_	_	
 22-4	2543-2550	charged	abstract[192]	new[192]	nonsal[192]	_	cf5[192]	_	_	
 22-5	2551-2554	per	abstract[192]	new[192]	nonsal[192]	_	cf5[192]	_	_	
@@ -545,11 +545,11 @@
 25-3	2625-2633	expenses	abstract[207]	new[207]	nonsal[207]	_	cf1[207]	_	_	
 
 #Text=You shall reimburse the Company for the following expenses :
-26-1	2634-2637	You	organization[208]	giv:inact[208]	nonsal[208]	_	cf1[208]	coref	32-2[260_208]	
+26-1	2634-2637	You	organization[208]	giv:inact[208]	sal[208]	_	cf1[208]	coref	32-2[260_208]	
 26-2	2638-2643	shall	_	_	_	_	_	_	_	
 26-3	2644-2653	reimburse	_	_	_	_	_	_	_	
-26-4	2654-2657	the	organization[211]	giv:inact[211]	nonsal[211]	_	cf2[211]	coref	27-8[215_211]	
-26-5	2658-2665	Company	organization[211]	giv:inact[211]	nonsal[211]	_	cf2[211]	_	_	
+26-4	2654-2657	the	organization[211]	giv:inact[211]	sal[211]	_	cf2[211]	coref	27-8[215_211]	
+26-5	2658-2665	Company	organization[211]	giv:inact[211]	sal[211]	_	cf2[211]	_	_	
 26-6	2666-2669	for	_	_	_	_	_	_	_	
 26-7	2670-2673	the	abstract[212]	new[212]	nonsal[212]	_	cf3[212]	_	_	
 26-8	2674-2683	following	abstract[212]	new[212]	nonsal[212]	_	cf3[212]	_	_	
@@ -564,10 +564,10 @@
 27-5	2715-2722	charges	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
 27-6	2723-2730	charged	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
 27-7	2731-2733	to	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
-27-8	2734-2737	the	abstract[213]|organization[215]	new[213]|giv:act[215]	nonsal[213]|nonsal[215]	_	cf3[213]|cf1*[215]	ana	27-11[216_215]	
-27-9	2738-2745	Company	abstract[213]|organization[215]	new[213]|giv:act[215]	nonsal[213]|nonsal[215]	_	cf3[213]|cf1*[215]	_	_	
+27-8	2734-2737	the	abstract[213]|organization[215]	new[213]|giv:act[215]	nonsal[213]|sal[215]	_	cf3[213]|cf1*[215]	ana	27-11[216_215]	
+27-9	2738-2745	Company	abstract[213]|organization[215]	new[213]|giv:act[215]	nonsal[213]|sal[215]	_	cf3[213]|cf1*[215]	_	_	
 27-10	2746-2748	by	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
-27-11	2749-2752	its	abstract[213]|organization[216]	new[213]|giv:act[216]	nonsal[213]|nonsal[216]	_	cf3[213]|cf1*[216]	coref	28-7[223_216]	
+27-11	2749-2752	its	abstract[213]|organization[216]	new[213]|giv:act[216]	nonsal[213]|sal[216]	_	cf3[213]|cf1*[216]	coref	28-7[223_216]	
 27-12	2753-2758	third	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
 27-13	2759-2760	-	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
 27-14	2761-2766	party	abstract[213]	new[213]	nonsal[213]	_	cf3[213]	_	_	
@@ -583,13 +583,13 @@
 28-4	2812-2816	fees	abstract[220]	new[220]	nonsal[220]	_	cf2[220]	_	_	
 28-5	2817-2824	charged	abstract[220]	new[220]	nonsal[220]	_	cf2[220]	_	_	
 28-6	2825-2827	to	abstract[220]	new[220]	nonsal[220]	_	cf2[220]	_	_	
-28-7	2828-2831	the	abstract[220]|organization[223]	new[220]|giv:act[223]	nonsal[220]|nonsal[223]	_	cf2[220]|cf1*[223]	ana	28-10[225_223]	
-28-8	2832-2839	Company	abstract[220]|organization[223]	new[220]|giv:act[223]	nonsal[220]|nonsal[223]	_	cf2[220]|cf1*[223]	_	_	
+28-7	2828-2831	the	abstract[220]|organization[223]	new[220]|giv:act[223]	nonsal[220]|sal[223]	_	cf2[220]|cf1*[223]	ana	28-10[225_223]	
+28-8	2832-2839	Company	abstract[220]|organization[223]	new[220]|giv:act[223]	nonsal[220]|sal[223]	_	cf2[220]|cf1*[223]	_	_	
 28-9	2840-2842	or	abstract[220]	new[220]	nonsal[220]	_	cf2[220]	_	_	
-28-10	2843-2846	its	abstract[220]|organization[224]|organization[225]	new[220]|new[224]|giv:act[225]	nonsal[220]|nonsal[224]|nonsal[225]	_	cf2[220]|cf3[224]|cf1*[225]	coref|ana	29-10[233_224]|28-13[226_225]	
+28-10	2843-2846	its	abstract[220]|organization[224]|organization[225]	new[220]|new[224]|giv:act[225]	nonsal[220]|nonsal[224]|sal[225]	_	cf2[220]|cf3[224]|cf1*[225]	coref|ana	29-10[233_224]|28-13[226_225]	
 28-11	2847-2857	affiliates	abstract[220]|organization[224]	new[220]|new[224]	nonsal[220]|nonsal[224]	_	cf2[220]|cf3[224]	_	_	
 28-12	2858-2860	by	abstract[220]	new[220]	nonsal[220]	_	cf2[220]	_	_	
-28-13	2861-2864	its	abstract[220]|organization[226]	new[220]|giv:act[226]	nonsal[220]|nonsal[226]	_	cf2[220]|cf1*[226]	coref	29-7[232_226]	
+28-13	2861-2864	its	abstract[220]|organization[226]	new[220]|giv:act[226]	nonsal[220]|sal[226]	_	cf2[220]|cf1*[226]	coref	29-7[232_226]	
 28-14	2865-2870	third	abstract[220]|organization[229]	new[220]|new[229]	nonsal[220]|nonsal[229]	_	cf2[220]|cf4[229]	_	_	
 28-15	2871-2872	-	abstract[220]|organization[229]	new[220]|new[229]	nonsal[220]|nonsal[229]	_	cf2[220]|cf4[229]	_	_	
 28-16	2873-2878	party	abstract[220]|organization[229]	new[220]|new[229]	nonsal[220]|nonsal[229]	_	cf2[220]|cf4[229]	_	_	
@@ -604,10 +604,10 @@
 29-4	2922-2926	fees	abstract[230]	new[230]	nonsal[230]	_	cf4[230]	_	_	
 29-5	2927-2934	charged	abstract[230]	new[230]	nonsal[230]	_	cf4[230]	_	_	
 29-6	2935-2937	to	abstract[230]	new[230]	nonsal[230]	_	cf4[230]	_	_	
-29-7	2938-2941	the	abstract[230]|organization[232]	new[230]|giv:act[232]	nonsal[230]|nonsal[232]	_	cf4[230]|cf1*[232]	ana	29-10[234_232]	
-29-8	2942-2949	Company	abstract[230]|organization[232]	new[230]|giv:act[232]	nonsal[230]|nonsal[232]	_	cf4[230]|cf1*[232]	_	_	
+29-7	2938-2941	the	abstract[230]|organization[232]	new[230]|giv:act[232]	nonsal[230]|sal[232]	_	cf4[230]|cf1*[232]	ana	29-10[234_232]	
+29-8	2942-2949	Company	abstract[230]|organization[232]	new[230]|giv:act[232]	nonsal[230]|sal[232]	_	cf4[230]|cf1*[232]	_	_	
 29-9	2950-2952	or	abstract[230]	new[230]	nonsal[230]	_	cf4[230]	_	_	
-29-10	2953-2956	its	abstract[230]|organization[233]|organization[234]	new[230]|giv:act[233]|giv:act[234]	nonsal[230]|nonsal[233]|nonsal[234]	_	cf4[230]|cf2[233]|cf1*[234]	coref	37-1[310_234]	
+29-10	2953-2956	its	abstract[230]|organization[233]|organization[234]	new[230]|giv:act[233]|giv:act[234]	nonsal[230]|nonsal[233]|sal[234]	_	cf4[230]|cf2[233]|cf1*[234]	coref	37-1[310_234]	
 29-11	2957-2967	affiliates	abstract[230]|organization[233]	new[230]|giv:act[233]	nonsal[230]|nonsal[233]	_	cf4[230]|cf2[233]	_	_	
 29-12	2968-2970	by	abstract[230]	new[230]	nonsal[230]	_	cf4[230]	_	_	
 29-13	2971-2976	third	abstract[230]|person[236]	new[230]|new[236]	nonsal[230]|nonsal[236]	_	cf4[230]|cf3[236]	_	_	
@@ -669,13 +669,13 @@
 
 #Text=2. Customer Representations and Warranties
 32-1	3229-3231	2.	_	_	_	_	_	_	_	
-32-2	3232-3240	Customer	abstract[258]|abstract[259]|organization[260]	new[258]|new[259]|giv:inact[260]	nonsal[258]|nonsal[259]|nonsal[260]	_	cf2[258]|cf3[259]|cf1[260]	coref	33-1[262_260]	
+32-2	3232-3240	Customer	abstract[258]|abstract[259]|organization[260]	new[258]|new[259]|giv:inact[260]	nonsal[258]|nonsal[259]|sal[260]	_	cf2[258]|cf3[259]|cf1[260]	coref	33-1[262_260]	
 32-3	3241-3256	Representations	abstract[258]|abstract[259]	new[258]|new[259]	nonsal[258]|nonsal[259]	_	cf2[258]|cf3[259]	_	_	
 32-4	3257-3260	and	abstract[258]	new[258]	nonsal[258]	_	cf2[258]	_	_	
-32-5	3261-3271	Warranties	abstract[258]|abstract[261]	new[258]|new[261]	nonsal[258]|nonsal[261]	_	cf2[258]|cf4[261]	_	_	
+32-5	3261-3271	Warranties	abstract[258]|abstract[261]	new[258]|new[261]	nonsal[258]|sal[261]	_	cf2[258]|cf4[261]	_	_	
 
 #Text=Customer represents and warrants to the Company that then executed and delivered by Customer , this Service Agreement will constitute the legal , valid , and binding obligation of Customer , enforceable in accordance with its terms .
-33-1	3272-3280	Customer	organization[262]	giv:act[262]	nonsal[262]	_	cf1*[262]	coref	33-14[267_262]	
+33-1	3272-3280	Customer	organization[262]	giv:act[262]	sal[262]	_	cf1*[262]	coref	33-14[267_262]	
 33-2	3281-3291	represents	_	_	_	_	_	_	_	
 33-3	3292-3295	and	_	_	_	_	_	_	_	
 33-4	3296-3304	warrants	_	_	_	_	_	_	_	
@@ -688,11 +688,11 @@
 33-11	3339-3342	and	organization[266]	new[266]	nonsal[266]	_	cf5[266]	_	_	
 33-12	3343-3352	delivered	organization[266]	new[266]	nonsal[266]	_	cf5[266]	_	_	
 33-13	3353-3355	by	organization[266]	new[266]	nonsal[266]	_	cf5[266]	_	_	
-33-14	3356-3364	Customer	organization[266]|organization[267]	new[266]|giv:act[267]	nonsal[266]|nonsal[267]	_	cf5[266]|cf1*[267]	coref	33-30[273_267]	
+33-14	3356-3364	Customer	organization[266]|organization[267]	new[266]|giv:act[267]	nonsal[266]|sal[267]	_	cf5[266]|cf1*[267]	coref	33-30[273_267]	
 33-15	3365-3366	,	_	_	_	_	_	_	_	
-33-16	3367-3371	this	abstract[269]	giv:inact[269]	nonsal[269]	Contract[269]	cf2[269]	coref	45-10[376_269]	
-33-17	3372-3379	Service	abstract[269]|abstract[270]	giv:inact[269]|new[270]	nonsal[269]|nonsal[270]	Contract[269]|Service_%28business%29[270]	cf2[269]|cf6[270]	_	_	
-33-18	3380-3389	Agreement	abstract[269]	giv:inact[269]	nonsal[269]	Contract[269]	cf2[269]	_	_	
+33-16	3367-3371	this	abstract[269]	giv:inact[269]	sal[269]	Contract[269]	cf2[269]	coref	45-10[376_269]	
+33-17	3372-3379	Service	abstract[269]|abstract[270]	giv:inact[269]|new[270]	sal[269]|nonsal[270]	Contract[269]|Service_%28business%29[270]	cf2[269]|cf6[270]	_	_	
+33-18	3380-3389	Agreement	abstract[269]	giv:inact[269]	sal[269]	Contract[269]	cf2[269]	_	_	
 33-19	3390-3394	will	_	_	_	_	_	_	_	
 33-20	3395-3405	constitute	_	_	_	_	_	_	_	
 33-21	3406-3409	the	abstract[272]	new[272]	nonsal[272]	_	cf3[272]	_	_	
@@ -704,13 +704,13 @@
 33-27	3430-3437	binding	abstract[272]	new[272]	nonsal[272]	_	cf3[272]	_	_	
 33-28	3438-3448	obligation	abstract[272]	new[272]	nonsal[272]	_	cf3[272]	_	_	
 33-29	3449-3451	of	abstract[272]	new[272]	nonsal[272]	_	cf3[272]	_	_	
-33-30	3452-3460	Customer	abstract[272]|organization[273]	new[272]|giv:act[273]	nonsal[272]|nonsal[273]	_	cf3[272]|cf1*[273]	ana	33-36[276_273]	
+33-30	3452-3460	Customer	abstract[272]|organization[273]	new[272]|giv:act[273]	nonsal[272]|sal[273]	_	cf3[272]|cf1*[273]	ana	33-36[276_273]	
 33-31	3461-3462	,	_	_	_	_	_	_	_	
 33-32	3463-3474	enforceable	_	_	_	_	_	_	_	
 33-33	3475-3477	in	_	_	_	_	_	_	_	
 33-34	3478-3488	accordance	_	_	_	_	_	_	_	
 33-35	3489-3493	with	_	_	_	_	_	_	_	
-33-36	3494-3497	its	time[275]|organization[276]	new[275]|giv:act[276]	nonsal[275]|nonsal[276]	_	cf4[275]|cf1*[276]	coref	37-7[311_276]	
+33-36	3494-3497	its	time[275]|organization[276]	new[275]|giv:act[276]	nonsal[275]|sal[276]	_	cf4[275]|cf1*[276]	coref	37-7[311_276]	
 33-37	3498-3503	terms	time[275]	new[275]	nonsal[275]	_	cf4[275]	_	_	
 33-38	3504-3505	.	_	_	_	_	_	_	_	
 
@@ -794,13 +794,13 @@
 36-65	3912-3913	.	_	_	_	_	_	_	_	
 
 #Text=The Company will work to protect Customer and the receiving Users from unwarranted Reversals ; however , Customer acknowledges and agrees that :
-37-1	3914-3917	The	organization[310]	giv:inact[310]	nonsal[310]	_	cf2[310]	coref	39-3[330_310]	
-37-2	3918-3925	Company	organization[310]	giv:inact[310]	nonsal[310]	_	cf2[310]	_	_	
+37-1	3914-3917	The	organization[310]	giv:inact[310]	sal[310]	_	cf2[310]	coref	39-3[330_310]	
+37-2	3918-3925	Company	organization[310]	giv:inact[310]	sal[310]	_	cf2[310]	_	_	
 37-3	3926-3930	will	_	_	_	_	_	_	_	
 37-4	3931-3935	work	_	_	_	_	_	_	_	
 37-5	3936-3938	to	_	_	_	_	_	_	_	
 37-6	3939-3946	protect	_	_	_	_	_	_	_	
-37-7	3947-3955	Customer	organization[311]	giv:inact[311]	nonsal[311]	_	cf1[311]	coref	37-18[315_311]	
+37-7	3947-3955	Customer	organization[311]	giv:inact[311]	sal[311]	_	cf1[311]	coref	37-18[315_311]	
 37-8	3956-3959	and	_	_	_	_	_	_	_	
 37-9	3960-3963	the	person[313]	new[313]	nonsal[313]	_	cf3[313]	_	_	
 37-10	3964-3973	receiving	person[313]	new[313]	nonsal[313]	_	cf3[313]	_	_	
@@ -811,7 +811,7 @@
 37-15	4007-4008	;	_	_	_	_	_	_	_	
 37-16	4009-4016	however	_	_	_	_	_	_	_	
 37-17	4017-4018	,	_	_	_	_	_	_	_	
-37-18	4019-4027	Customer	organization[315]	giv:act[315]	nonsal[315]	_	cf1[315]	coref	38-2[316_315]	
+37-18	4019-4027	Customer	organization[315]	giv:act[315]	sal[315]	_	cf1[315]	coref	38-2[316_315]	
 37-19	4028-4040	acknowledges	_	_	_	_	_	_	_	
 37-20	4041-4044	and	_	_	_	_	_	_	_	
 37-21	4045-4051	agrees	_	_	_	_	_	_	_	
@@ -820,7 +820,7 @@
 
 #Text=i) Customer is liable for all User Activity and Reversals associated with User Activity ;
 38-1	4059-4061	i)	_	_	_	_	_	_	_	
-38-2	4062-4070	Customer	organization[316]	giv:act[316]	nonsal[316]	_	cf1*[316]	coref	39-18[335_316]	
+38-2	4062-4070	Customer	organization[316]	giv:act[316]	sal[316]	_	cf1*[316]	coref	39-18[335_316]	
 38-3	4071-4073	is	_	_	_	_	_	_	_	
 38-4	4074-4080	liable	_	_	_	_	_	_	_	
 38-5	4081-4084	for	_	_	_	_	_	_	_	
@@ -838,22 +838,22 @@
 #Text=ii) If Company 's agent receives a Reversal , the Company may in its sole discretion charge Customer the full amount of the Reversal ( " Reversed Payment " ) plus an additional $ 7 reversal fee ( " Reversal Fee " and collectively the " Reversal Liability " ) ;
 39-1	4149-4152	ii)	_	_	_	_	_	_	_	
 39-2	4153-4155	If	_	_	_	_	_	_	_	
-39-3	4156-4163	Company	person[329]|organization[330]	new[329]|giv:inact[330]	nonsal[329]|nonsal[330]	_	cf6[329]|cf1[330]	coref	39-10[332_330]	
-39-4	4164-4166	's	person[329]|organization[330]	new[329]|giv:inact[330]	nonsal[329]|nonsal[330]	_	cf6[329]|cf1[330]	_	_	
+39-3	4156-4163	Company	person[329]|organization[330]	new[329]|giv:inact[330]	nonsal[329]|sal[330]	_	cf6[329]|cf1[330]	coref	39-10[332_330]	
+39-4	4164-4166	's	person[329]|organization[330]	new[329]|giv:inact[330]	nonsal[329]|sal[330]	_	cf6[329]|cf1[330]	_	_	
 39-5	4167-4172	agent	person[329]	new[329]	nonsal[329]	_	cf6[329]	_	_	
 39-6	4173-4181	receives	_	_	_	_	_	_	_	
 39-7	4182-4183	a	abstract[331]	giv:act[331]	nonsal[331]	_	cf2*[331]	coref	39-23[339_331]	
 39-8	4184-4192	Reversal	abstract[331]	giv:act[331]	nonsal[331]	_	cf2*[331]	_	_	
 39-9	4193-4194	,	_	_	_	_	_	_	_	
-39-10	4195-4198	the	organization[332]	giv:act[332]	nonsal[332]	_	cf1[332]	ana	39-14[334_332]	
-39-11	4199-4206	Company	organization[332]	giv:act[332]	nonsal[332]	_	cf1[332]	_	_	
+39-10	4195-4198	the	organization[332]	giv:act[332]	sal[332]	_	cf1[332]	ana	39-14[334_332]	
+39-11	4199-4206	Company	organization[332]	giv:act[332]	sal[332]	_	cf1[332]	_	_	
 39-12	4207-4210	may	_	_	_	_	_	_	_	
 39-13	4211-4213	in	_	_	_	_	_	_	_	
-39-14	4214-4217	its	abstract[333]|organization[334]	new[333]|giv:act[334]	nonsal[333]|nonsal[334]	_	cf7[333]|cf1[334]	coref	40-2[346_334]	
+39-14	4214-4217	its	abstract[333]|organization[334]	new[333]|giv:act[334]	nonsal[333]|sal[334]	_	cf7[333]|cf1[334]	coref	40-2[346_334]	
 39-15	4218-4222	sole	abstract[333]	new[333]	nonsal[333]	_	cf7[333]	_	_	
 39-16	4223-4233	discretion	abstract[333]	new[333]	nonsal[333]	_	cf7[333]	_	_	
 39-17	4234-4240	charge	_	_	_	_	_	_	_	
-39-18	4241-4249	Customer	organization[335]	giv:act[335]	nonsal[335]	_	cf5[335]	coref	41-2[350_335]	
+39-18	4241-4249	Customer	organization[335]	giv:act[335]	sal[335]	_	cf5[335]	coref	41-2[350_335]	
 39-19	4250-4253	the	abstract[338]	new[338]	nonsal[338]	_	cf4[338]	coref	39-27[340_338]	
 39-20	4254-4258	full	abstract[338]	new[338]	nonsal[338]	_	cf4[338]	_	_	
 39-21	4259-4265	amount	abstract[338]	new[338]	nonsal[338]	_	cf4[338]	_	_	
@@ -890,8 +890,8 @@
 
 #Text=iii) The Company has sole discretion to determine who is at fault and liable for the Reversed Payment and Reversal Fee ;
 40-1	4410-4414	iii)	_	_	_	_	_	_	_	
-40-2	4415-4418	The	organization[346]	giv:act[346]	nonsal[346]	_	cf1*[346]	coref	41-4[352_346]	
-40-3	4419-4426	Company	organization[346]	giv:act[346]	nonsal[346]	_	cf1*[346]	_	_	
+40-2	4415-4418	The	organization[346]	giv:act[346]	sal[346]	_	cf1*[346]	coref	41-4[352_346]	
+40-3	4419-4426	Company	organization[346]	giv:act[346]	sal[346]	_	cf1*[346]	_	_	
 40-4	4427-4430	has	_	_	_	_	_	_	_	
 40-5	4431-4435	sole	abstract[347]	new[347]	nonsal[347]	_	cf4[347]	_	_	
 40-6	4436-4446	discretion	abstract[347]	new[347]	nonsal[347]	_	cf4[347]	_	_	
@@ -914,10 +914,10 @@
 
 #Text=iv) Customer authorizes the Company to take any of the following actions ( in any particular order ) :
 41-1	4531-4534	iv)	_	_	_	_	_	_	_	
-41-2	4535-4543	Customer	organization[350]	giv:inact[350]	nonsal[350]	_	cf2[350]	ana	42-14[361_350]	
+41-2	4535-4543	Customer	organization[350]	giv:inact[350]	sal[350]	_	cf2[350]	ana	42-14[361_350]	
 41-3	4544-4554	authorizes	_	_	_	_	_	_	_	
-41-4	4555-4558	the	organization[352]	giv:act[352]	nonsal[352]	_	cf1*[352]	coref	47-19[388_352]	
-41-5	4559-4566	Company	organization[352]	giv:act[352]	nonsal[352]	_	cf1*[352]	_	_	
+41-4	4555-4558	the	organization[352]	giv:act[352]	sal[352]	_	cf1*[352]	coref	47-19[388_352]	
+41-5	4559-4566	Company	organization[352]	giv:act[352]	sal[352]	_	cf1*[352]	_	_	
 41-6	4567-4569	to	_	_	_	_	_	_	_	
 41-7	4570-4574	take	_	_	_	_	_	_	_	
 41-8	4575-4578	any	abstract[353]	new[353]	nonsal[353]	_	cf3[353]	_	_	
@@ -947,7 +947,7 @@
 42-11	4696-4701	funds	abstract[358]	new[358]	nonsal[358]	_	cf4[358]	_	_	
 42-12	4702-4706	sent	abstract[358]	new[358]	nonsal[358]	_	cf4[358]	_	_	
 42-13	4707-4709	to	abstract[358]	new[358]	nonsal[358]	_	cf4[358]	_	_	
-42-14	4710-4714	your	abstract[358]|abstract[359]|organization[360]|organization[361]	new[358]|new[359]|new[360]|giv:act[361]	nonsal[358]|nonsal[359]|nonsal[360]|nonsal[361]	_	cf4[358]|cf5[359]|cf6[360]|cf1*[361]	ana	43-3[364_361]	
+42-14	4710-4714	your	abstract[358]|abstract[359]|organization[360]|organization[361]	new[358]|new[359]|new[360]|giv:act[361]	nonsal[358]|nonsal[359]|nonsal[360]|sal[361]	_	cf4[358]|cf5[359]|cf6[360]|cf1*[361]	ana	43-3[364_361]	
 42-15	4715-4720	third	abstract[358]|abstract[359]|organization[360]	new[358]|new[359]|new[360]	nonsal[358]|nonsal[359]|nonsal[360]	_	cf4[358]|cf5[359]|cf6[360]	_	_	
 42-16	4721-4726	party	abstract[358]|abstract[359]|organization[360]	new[358]|new[359]|new[360]	nonsal[358]|nonsal[359]|nonsal[360]	_	cf4[358]|cf5[359]|cf6[360]	_	_	
 42-17	4727-4733	escrow	abstract[358]|abstract[359]	new[358]|new[359]	nonsal[358]|nonsal[359]	_	cf4[358]|cf5[359]	_	_	
@@ -957,7 +957,7 @@
 #Text=(ii) debit your bank account in the amount of the unpaid portion of the Reversal Liability ;
 43-1	4744-4748	(ii)	_	_	_	_	_	_	_	
 43-2	4749-4754	debit	_	_	_	_	_	_	_	
-43-3	4755-4759	your	abstract[363]|organization[364]	new[363]|giv:act[364]	nonsal[363]|nonsal[364]	_	cf4[363]|cf1*[364]	coref	58-1[490_364]	
+43-3	4755-4759	your	abstract[363]|organization[364]	new[363]|giv:act[364]	nonsal[363]|sal[364]	_	cf4[363]|cf1*[364]	coref	58-1[490_364]	
 43-4	4760-4764	bank	abstract[363]|organization[365]	new[363]|new[365]	nonsal[363]|nonsal[365]	_	cf4[363]|cf6[365]	_	_	
 43-5	4765-4772	account	abstract[363]	new[363]	nonsal[363]	_	cf4[363]	_	_	
 43-6	4773-4775	in	_	_	_	_	_	_	_	
@@ -1002,14 +1002,14 @@
 45-7	4965-4970	other	event[374]	new[374]	nonsal[374]	_	cf4[374]	_	_	
 45-8	4971-4977	action	event[374]	new[374]	nonsal[374]	_	cf4[374]	_	_	
 45-9	4978-4983	under	event[374]	new[374]	nonsal[374]	_	cf4[374]	_	_	
-45-10	4984-4988	this	event[374]|abstract[376]	new[374]|giv:inact[376]	nonsal[374]|nonsal[376]	Contract[376]	cf4[374]|cf1[376]	coref	47-10[384_376]	
-45-11	4989-4996	Service	event[374]|abstract[376]|abstract[377]	new[374]|giv:inact[376]|giv:inact[377]	nonsal[374]|nonsal[376]|nonsal[377]	Contract[376]|Service_%28business%29[377]	cf4[374]|cf1[376]|cf2[377]	coref	47-11[385_377]	
-45-12	4997-5006	Agreement	event[374]|abstract[376]	new[374]|giv:inact[376]	nonsal[374]|nonsal[376]	Contract[376]	cf4[374]|cf1[376]	_	_	
+45-10	4984-4988	this	event[374]|abstract[376]	new[374]|giv:inact[376]	nonsal[374]|sal[376]	Contract[376]	cf4[374]|cf1[376]	coref	47-10[384_376]	
+45-11	4989-4996	Service	event[374]|abstract[376]|abstract[377]	new[374]|giv:inact[376]|giv:inact[377]	nonsal[374]|sal[376]|sal[377]	Contract[376]|Service_%28business%29[377]	cf4[374]|cf1[376]|cf2[377]	coref	47-11[385_377]	
+45-12	4997-5006	Agreement	event[374]|abstract[376]	new[374]|giv:inact[376]	nonsal[374]|sal[376]	Contract[376]	cf4[374]|cf1[376]	_	_	
 45-13	5007-5008	.	_	_	_	_	_	_	_	
 
 #Text=5. Term and Survival
 46-1	5009-5011	5.	_	_	_	_	_	_	_	
-46-2	5012-5016	Term	abstract[378]	new[378]	nonsal[378]	Contractual_term[378]	cf1[378]	_	_	
+46-2	5012-5016	Term	abstract[378]	new[378]	sal[378]	Contractual_term[378]	cf1[378]	_	_	
 46-3	5017-5020	and	_	_	_	_	_	_	_	
 46-4	5021-5029	Survival	abstract[379]	new[379]	nonsal[379]	_	cf2[379]	_	_	
 
@@ -1023,18 +1023,18 @@
 47-7	5067-5075	provided	_	_	_	_	_	_	_	
 47-8	5076-5081	below	_	_	_	_	_	_	_	
 47-9	5082-5083	,	_	_	_	_	_	_	_	
-47-10	5084-5088	this	abstract[384]	giv:inact[384]	nonsal[384]	Contract[384]	cf2[384]	coref	48-8[397_384]	
-47-11	5089-5096	Service	abstract[384]|abstract[385]	giv:inact[384]|giv:inact[385]	nonsal[384]|nonsal[385]	Contract[384]|Service_%28business%29[385]	cf2[384]|cf4[385]	coref	48-9[398_385]	
-47-12	5097-5106	Agreement	abstract[384]	giv:inact[384]	nonsal[384]	Contract[384]	cf2[384]	_	_	
+47-10	5084-5088	this	abstract[384]	giv:inact[384]	sal[384]	Contract[384]	cf2[384]	coref	48-8[397_384]	
+47-11	5089-5096	Service	abstract[384]|abstract[385]	giv:inact[384]|giv:inact[385]	sal[384]|sal[385]	Contract[384]|Service_%28business%29[385]	cf2[384]|cf4[385]	coref	48-9[398_385]	
+47-12	5097-5106	Agreement	abstract[384]	giv:inact[384]	sal[384]	Contract[384]	cf2[384]	_	_	
 47-13	5107-5109	is	_	_	_	_	_	_	_	
 47-14	5110-5113	for	_	_	_	_	_	_	_	
 47-15	5114-5117	the	time[387]	new[387]	nonsal[387]	_	cf1[387]	appos	47-24[389_387]	
 47-16	5118-5123	total	time[387]	new[387]	nonsal[387]	_	cf1[387]	_	_	
 47-17	5124-5132	duration	time[387]	new[387]	nonsal[387]	_	cf1[387]	_	_	
 47-18	5133-5135	of	time[387]	new[387]	nonsal[387]	_	cf1[387]	_	_	
-47-19	5136-5139	the	time[387]|organization[388]	new[387]|giv:inact[388]	nonsal[387]|nonsal[388]	_	cf1[387]|cf3[388]	coref	56-1[488_388]	
-47-20	5140-5147	Company	time[387]|organization[388]	new[387]|giv:inact[388]	nonsal[387]|nonsal[388]	_	cf1[387]|cf3[388]	_	_	
-47-21	5148-5150	's	time[387]|organization[388]	new[387]|giv:inact[388]	nonsal[387]|nonsal[388]	_	cf1[387]|cf3[388]	_	_	
+47-19	5136-5139	the	time[387]|organization[388]	new[387]|giv:inact[388]	nonsal[387]|sal[388]	_	cf1[387]|cf3[388]	coref	56-1[488_388]	
+47-20	5140-5147	Company	time[387]|organization[388]	new[387]|giv:inact[388]	nonsal[387]|sal[388]	_	cf1[387]|cf3[388]	_	_	
+47-21	5148-5150	's	time[387]|organization[388]	new[387]|giv:inact[388]	nonsal[387]|sal[388]	_	cf1[387]|cf3[388]	_	_	
 47-22	5151-5159	Offering	time[387]	new[387]	nonsal[387]	_	cf1[387]	_	_	
 47-23	5160-5161	(	_	_	_	_	_	_	_	
 47-24	5162-5165	the	time[389]	giv:act[389]	nonsal[389]	_	cf1[389]	_	_	
@@ -1047,7 +1047,7 @@
 47-31	5192-5198	either	organization[390]	new[390]	nonsal[390]	_	cf5[390]	coref	48-4[396_390]	
 47-32	5199-5204	party	organization[390]	new[390]	nonsal[390]	_	cf5[390]	_	_	
 47-33	5205-5213	requests	_	_	_	_	_	_	_	
-47-34	5214-5225	termination	event[391]	new[391]	nonsal[391]	_	cf6[391]	_	_	
+47-34	5214-5225	termination	event[391]	new[391]	sal[391]	_	cf6[391]	_	_	
 47-35	5226-5228	at	time[393]	new[393]	nonsal[393]	_	cf10[393]	_	_	
 47-36	5229-5234	least	time[393]	new[393]	nonsal[393]	_	cf10[393]	_	_	
 47-37	5235-5237	30	time[393]	new[393]	nonsal[393]	_	cf10[393]	_	_	
@@ -1072,9 +1072,9 @@
 48-5	5314-5319	party	organization[396]	giv:act[396]	nonsal[396]	_	cf1*[396]	_	_	
 48-6	5320-5323	may	_	_	_	_	_	_	_	
 48-7	5324-5333	terminate	_	_	_	_	_	_	_	
-48-8	5334-5338	this	abstract[397]	giv:act[397]	nonsal[397]	Contract[397]	cf2[397]	coref	52-37[454_397]	
-48-9	5339-5346	Service	abstract[397]|abstract[398]	giv:act[397]|giv:act[398]	nonsal[397]|nonsal[398]	Contract[397]|Service_%28business%29[398]	cf2[397]|cf3[398]	coref	52-38[455_398]	
-48-10	5347-5356	Agreement	abstract[397]	giv:act[397]	nonsal[397]	Contract[397]	cf2[397]	_	_	
+48-8	5334-5338	this	abstract[397]	giv:act[397]	sal[397]	Contract[397]	cf2[397]	coref	52-37[454_397]	
+48-9	5339-5346	Service	abstract[397]|abstract[398]	giv:act[397]|giv:act[398]	sal[397]|sal[398]	Contract[397]|Service_%28business%29[398]	cf2[397]|cf3[398]	coref	52-38[455_398]	
+48-10	5347-5356	Agreement	abstract[397]	giv:act[397]	sal[397]	Contract[397]	cf2[397]	_	_	
 48-11	5357-5359	in	_	_	_	_	_	_	_	
 48-12	5360-5363	the	event[400]	new[400]	nonsal[400]	_	cf4[400]	_	_	
 48-13	5364-5369	event	event[400]	new[400]	nonsal[400]	_	cf4[400]	_	_	
@@ -1291,9 +1291,9 @@
 52-34	6513-6516	its	abstract[447]|abstract[448]|abstract[450]|organization[451]	new[447]|new[448]|new[450]|giv:act[451]	nonsal[447]|nonsal[448]|nonsal[450]|nonsal[451]	_	cf5[447]|cf10[448]|cf6[450]|cf1[451]	_	_	
 52-35	6517-6528	obligations	abstract[447]|abstract[448]|abstract[450]	new[447]|new[448]|new[450]	nonsal[447]|nonsal[448]|nonsal[450]	_	cf5[447]|cf10[448]|cf6[450]	_	_	
 52-36	6529-6534	under	abstract[447]	new[447]	nonsal[447]	_	cf5[447]	_	_	
-52-37	6535-6539	this	abstract[447]|abstract[453]|abstract[454]	new[447]|new[453]|giv:inact[454]	nonsal[447]|nonsal[453]|nonsal[454]	Contract[454]	cf5[447]|cf7[453]|cf2[454]	coref	52-53[461_454]	
-52-38	6540-6547	Service	abstract[447]|abstract[453]|abstract[454]|abstract[455]	new[447]|new[453]|giv:inact[454]|giv:inact[455]	nonsal[447]|nonsal[453]|nonsal[454]|nonsal[455]	Contract[454]|Service_%28business%29[455]	cf5[447]|cf7[453]|cf2[454]|cf3[455]	coref	52-54[462_455]	
-52-39	6548-6557	Agreement	abstract[447]|abstract[453]|abstract[454]	new[447]|new[453]|giv:inact[454]	nonsal[447]|nonsal[453]|nonsal[454]	Contract[454]	cf5[447]|cf7[453]|cf2[454]	_	_	
+52-37	6535-6539	this	abstract[447]|abstract[453]|abstract[454]	new[447]|new[453]|giv:inact[454]	nonsal[447]|nonsal[453]|sal[454]	Contract[454]	cf5[447]|cf7[453]|cf2[454]	coref	52-53[461_454]	
+52-38	6540-6547	Service	abstract[447]|abstract[453]|abstract[454]|abstract[455]	new[447]|new[453]|giv:inact[454]|giv:inact[455]	nonsal[447]|nonsal[453]|sal[454]|sal[455]	Contract[454]|Service_%28business%29[455]	cf5[447]|cf7[453]|cf2[454]|cf3[455]	coref	52-54[462_455]	
+52-39	6548-6557	Agreement	abstract[447]|abstract[453]|abstract[454]	new[447]|new[453]|giv:inact[454]	nonsal[447]|nonsal[453]|sal[454]	Contract[454]	cf5[447]|cf7[453]|cf2[454]	_	_	
 52-40	6558-6560	or	abstract[447]|abstract[453]	new[447]|new[453]	nonsal[447]|nonsal[453]	_	cf5[447]|cf7[453]	_	_	
 52-41	6561-6562	a	abstract[447]|abstract[453]|abstract[457]|abstract[458]|organization[459]	new[447]|new[453]|new[457]|new[458]|new[459]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[458]|nonsal[459]	_	cf5[447]|cf7[453]|cf11[457]|cf12[458]|cf13[459]	_	_	
 52-42	6563-6568	party	abstract[447]|abstract[453]|abstract[457]|abstract[458]|organization[459]	new[447]|new[453]|new[457]|new[458]|new[459]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[458]|nonsal[459]	_	cf5[447]|cf7[453]|cf11[457]|cf12[458]|cf13[459]	_	_	
@@ -1307,9 +1307,9 @@
 52-50	6605-6608	the	abstract[447]|abstract[453]|abstract[457]|abstract[460]	new[447]|new[453]|new[457]|new[460]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]	_	cf5[447]|cf7[453]|cf11[457]|cf8[460]	_	_	
 52-51	6609-6617	services	abstract[447]|abstract[453]|abstract[457]|abstract[460]	new[447]|new[453]|new[457]|new[460]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]	_	cf5[447]|cf7[453]|cf11[457]|cf8[460]	_	_	
 52-52	6618-6623	under	abstract[447]|abstract[453]|abstract[457]|abstract[460]	new[447]|new[453]|new[457]|new[460]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]	_	cf5[447]|cf7[453]|cf11[457]|cf8[460]	_	_	
-52-53	6624-6628	this	abstract[447]|abstract[453]|abstract[457]|abstract[460]|abstract[461]	new[447]|new[453]|new[457]|new[460]|giv:act[461]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]|nonsal[461]	Contract[461]	cf5[447]|cf7[453]|cf11[457]|cf8[460]|cf2[461]	coref	53-34[473_461]	
-52-54	6629-6636	Service	abstract[447]|abstract[453]|abstract[457]|abstract[460]|abstract[461]|abstract[462]	new[447]|new[453]|new[457]|new[460]|giv:act[461]|giv:act[462]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]|nonsal[461]|nonsal[462]	Contract[461]|Service_%28business%29[462]	cf5[447]|cf7[453]|cf11[457]|cf8[460]|cf2[461]|cf3[462]	coref	53-35[474_462]	
-52-55	6637-6646	Agreement	abstract[447]|abstract[453]|abstract[457]|abstract[460]|abstract[461]	new[447]|new[453]|new[457]|new[460]|giv:act[461]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]|nonsal[461]	Contract[461]	cf5[447]|cf7[453]|cf11[457]|cf8[460]|cf2[461]	_	_	
+52-53	6624-6628	this	abstract[447]|abstract[453]|abstract[457]|abstract[460]|abstract[461]	new[447]|new[453]|new[457]|new[460]|giv:act[461]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]|sal[461]	Contract[461]	cf5[447]|cf7[453]|cf11[457]|cf8[460]|cf2[461]	coref	53-34[473_461]	
+52-54	6629-6636	Service	abstract[447]|abstract[453]|abstract[457]|abstract[460]|abstract[461]|abstract[462]	new[447]|new[453]|new[457]|new[460]|giv:act[461]|giv:act[462]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]|sal[461]|sal[462]	Contract[461]|Service_%28business%29[462]	cf5[447]|cf7[453]|cf11[457]|cf8[460]|cf2[461]|cf3[462]	coref	53-35[474_462]	
+52-55	6637-6646	Agreement	abstract[447]|abstract[453]|abstract[457]|abstract[460]|abstract[461]	new[447]|new[453]|new[457]|new[460]|giv:act[461]	nonsal[447]|nonsal[453]|nonsal[457]|nonsal[460]|sal[461]	Contract[461]	cf5[447]|cf7[453]|cf11[457]|cf8[460]|cf2[461]	_	_	
 52-56	6647-6648	;	_	_	_	_	_	_	_	
 
 #Text=v) Upon direction to a party from any regulatory authority or National Automated Clearing House Association to cease or materially limit the exercise or performance of such party 's rights or obligations under this Service Agreement ;
@@ -1346,9 +1346,9 @@
 53-31	6838-6840	or	abstract[464]|abstract[470]	new[464]|new[470]	nonsal[464]|nonsal[470]	_	cf7[464]|cf5[470]	_	_	
 53-32	6841-6852	obligations	abstract[464]|abstract[470]	new[464]|new[470]	nonsal[464]|nonsal[470]	_	cf7[464]|cf5[470]	_	_	
 53-33	6853-6858	under	abstract[464]|abstract[470]	new[464]|new[470]	nonsal[464]|nonsal[470]	_	cf7[464]|cf5[470]	_	_	
-53-34	6859-6863	this	abstract[464]|abstract[470]|abstract[473]	new[464]|new[470]|giv:act[473]	nonsal[464]|nonsal[470]|nonsal[473]	Contract[473]	cf7[464]|cf5[470]|cf1*[473]	_	_	
-53-35	6864-6871	Service	abstract[464]|abstract[470]|abstract[473]|abstract[474]	new[464]|new[470]|giv:act[473]|giv:act[474]	nonsal[464]|nonsal[470]|nonsal[473]|nonsal[474]	Contract[473]|Service_%28business%29[474]	cf7[464]|cf5[470]|cf1*[473]|cf3[474]	_	_	
-53-36	6872-6881	Agreement	abstract[464]|abstract[470]|abstract[473]	new[464]|new[470]|giv:act[473]	nonsal[464]|nonsal[470]|nonsal[473]	Contract[473]	cf7[464]|cf5[470]|cf1*[473]	_	_	
+53-34	6859-6863	this	abstract[464]|abstract[470]|abstract[473]	new[464]|new[470]|giv:act[473]	nonsal[464]|nonsal[470]|sal[473]	Contract[473]	cf7[464]|cf5[470]|cf1*[473]	_	_	
+53-35	6864-6871	Service	abstract[464]|abstract[470]|abstract[473]|abstract[474]	new[464]|new[470]|giv:act[473]|giv:act[474]	nonsal[464]|nonsal[470]|sal[473]|sal[474]	Contract[473]|Service_%28business%29[474]	cf7[464]|cf5[470]|cf1*[473]|cf3[474]	_	_	
+53-36	6872-6881	Agreement	abstract[464]|abstract[470]|abstract[473]	new[464]|new[470]|giv:act[473]	nonsal[464]|nonsal[470]|sal[473]	Contract[473]	cf7[464]|cf5[470]|cf1*[473]	_	_	
 53-37	6882-6883	;	_	_	_	_	_	_	_	
 
 #Text=vi) If there shall have occurred a material adverse change in the financial condition of the other party ; or
@@ -1404,42 +1404,42 @@
 55-28	7155-7156	.	_	_	_	_	_	_	_	
 
 #Text=StartEngine Crowdfunding , Inc.
-56-1	7157-7168	StartEngine	organization[488]	giv:inact[488]	nonsal[488]	_	cf1[488]	_	_	
-56-2	7169-7181	Crowdfunding	organization[488]	giv:inact[488]	nonsal[488]	_	cf1[488]	_	_	
-56-3	7182-7183	,	organization[488]	giv:inact[488]	nonsal[488]	_	cf1[488]	_	_	
-56-4	7184-7188	Inc.	organization[488]	giv:inact[488]	nonsal[488]	_	cf1[488]	_	_	
+56-1	7157-7168	StartEngine	organization[488]	giv:inact[488]	sal[488]	_	cf1[488]	_	_	
+56-2	7169-7181	Crowdfunding	organization[488]	giv:inact[488]	sal[488]	_	cf1[488]	_	_	
+56-3	7182-7183	,	organization[488]	giv:inact[488]	sal[488]	_	cf1[488]	_	_	
+56-4	7184-7188	Inc.	organization[488]	giv:inact[488]	sal[488]	_	cf1[488]	_	_	
 
 #Text=By : /s/ Dawn Dickson ,
 57-1	7189-7191	By	_	_	_	_	_	_	_	
 57-2	7192-7193	:	_	_	_	_	_	_	_	
-57-3	7194-7197	/s/	person[489]	new[489]	nonsal[489]	_	cf1[489]	coref	59-3[492_489]	
-57-4	7198-7202	Dawn	person[489]	new[489]	nonsal[489]	_	cf1[489]	_	_	
-57-5	7203-7210	Dickson	person[489]	new[489]	nonsal[489]	_	cf1[489]	_	_	
+57-3	7194-7197	/s/	person[489]	new[489]	sal[489]	_	cf1[489]	coref	59-3[492_489]	
+57-4	7198-7202	Dawn	person[489]	new[489]	sal[489]	_	cf1[489]	_	_	
+57-5	7203-7210	Dickson	person[489]	new[489]	sal[489]	_	cf1[489]	_	_	
 57-6	7211-7212	,	_	_	_	_	_	_	_	
 
 #Text=Customer :
-58-1	7213-7221	Customer	organization[490]	giv:inact[490]	nonsal[490]	_	cf1[490]	_	_	
+58-1	7213-7221	Customer	organization[490]	giv:inact[490]	sal[490]	_	cf1[490]	_	_	
 58-2	7222-7223	:	_	_	_	_	_	_	_	
 
 #Text=By : Dawn Dickson , CEO and Founder
 59-1	7224-7226	By	_	_	_	_	_	_	_	
 59-2	7227-7228	:	_	_	_	_	_	_	_	
-59-3	7229-7233	Dawn	person[492]	giv:inact[492]	nonsal[492]	_	cf1[492]	appos	59-6[493_492]	
-59-4	7234-7241	Dickson	person[492]	giv:inact[492]	nonsal[492]	_	cf1[492]	_	_	
+59-3	7229-7233	Dawn	person[492]	giv:inact[492]	sal[492]	_	cf1[492]	appos	59-6[493_492]	
+59-4	7234-7241	Dickson	person[492]	giv:inact[492]	sal[492]	_	cf1[492]	_	_	
 59-5	7242-7243	,	_	_	_	_	_	_	_	
-59-6	7244-7247	CEO	person[493]	giv:act[493]	nonsal[493]	_	cf1[493]	coref	59-8[494_493]	
+59-6	7244-7247	CEO	person[493]	giv:act[493]	sal[493]	_	cf1[493]	coref	59-8[494_493]	
 59-7	7248-7251	and	_	_	_	_	_	_	_	
-59-8	7252-7259	Founder	person[494]	giv:act[494]	nonsal[494]	_	cf1[494]	_	_	
+59-8	7252-7259	Founder	person[494]	giv:act[494]	sal[494]	_	cf1[494]	_	_	
 
 #Text=Date : 08/19/2019
 60-1	7260-7264	Date	_	_	_	_	_	_	_	
 60-2	7265-7266	:	_	_	_	_	_	_	_	
-60-3	7267-7277	08/19/2019	time[495]	new[495]	nonsal[495]	_	cf1[495]	_	_	
+60-3	7267-7277	08/19/2019	time[495]	new[495]	sal[495]	_	cf1[495]	_	_	
 
 #Text=/s/ Howard Marks Howard Marks CEO
-61-1	7278-7281	/s/	person[499]	new[499]	nonsal[499]	_	cf1[499]	coref	61-4[500_499]	
-61-2	7282-7288	Howard	person[499]	new[499]	nonsal[499]	_	cf1[499]	_	_	
-61-3	7289-7294	Marks	person[499]	new[499]	nonsal[499]	_	cf1[499]	_	_	
-61-4	7295-7301	Howard	person[500]	giv:act[500]	nonsal[500]	_	cf1[500]	coref	61-6[501_500]	
-61-5	7302-7307	Marks	person[500]	giv:act[500]	nonsal[500]	_	cf1[500]	_	_	
-61-6	7308-7311	CEO	person[501]	giv:act[501]	nonsal[501]	_	cf1[501]	_	_	
+61-1	7278-7281	/s/	person[499]	new[499]	sal[499]	_	cf1[499]	coref	61-4[500_499]	
+61-2	7282-7288	Howard	person[499]	new[499]	sal[499]	_	cf1[499]	_	_	
+61-3	7289-7294	Marks	person[499]	new[499]	sal[499]	_	cf1[499]	_	_	
+61-4	7295-7301	Howard	person[500]	giv:act[500]	sal[500]	_	cf1[500]	coref	61-6[501_500]	
+61-5	7302-7307	Marks	person[500]	giv:act[500]	sal[500]	_	cf1[500]	_	_	
+61-6	7308-7311	CEO	person[501]	giv:act[501]	sal[501]	_	cf1[501]	_	_	

@@ -4,18 +4,18 @@
 
 
 #Text=Proof
-1-1	0-5	Proof	abstract[1]	new[1]	nonsal[1]	_	cf1[1]	coref	2-1[3_1]
+1-1	0-5	Proof	abstract[1]	new[1]	sal[1]	_	cf1[1]	coref	2-1[3_1]
 
 #Text=The proof proceeds by the Principle of Mathematical Induction on the number of vertices .
-2-1	6-9	The	abstract[3]	giv:act[3]	nonsal[3]	_	cf1*[3]	_	_
-2-2	10-15	proof	abstract[3]	giv:act[3]	nonsal[3]	_	cf1*[3]	_	_
+2-1	6-9	The	abstract[3]	giv:act[3]	sal[3]	_	cf1*[3]	_	_
+2-2	10-15	proof	abstract[3]	giv:act[3]	sal[3]	_	cf1*[3]	_	_
 2-3	16-24	proceeds	_	_	_	_	_	_	_
 2-4	25-27	by	_	_	_	_	_	_	_
 2-5	28-31	the	abstract[4]	new[4]	nonsal[4]	Mathematical_induction[4]	cf2[4]	coref	38-18[310_4]
 2-6	32-41	Principle	abstract[4]	new[4]	nonsal[4]	Mathematical_induction[4]	cf2[4]	_	_
 2-7	42-44	of	abstract[4]	new[4]	nonsal[4]	Mathematical_induction[4]	cf2[4]	_	_
-2-8	45-57	Mathematical	abstract[4]|abstract[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	Mathematical_induction[4]|Mathematical_induction[5]	cf2[4]|cf4[5]	coref	38-21[311_5]
-2-9	58-67	Induction	abstract[4]|abstract[5]	new[4]|new[5]	nonsal[4]|nonsal[5]	Mathematical_induction[4]|Mathematical_induction[5]	cf2[4]|cf4[5]	_	_
+2-8	45-57	Mathematical	abstract[4]|abstract[5]	new[4]|new[5]	nonsal[4]|sal[5]	Mathematical_induction[4]|Mathematical_induction[5]	cf2[4]|cf4[5]	coref	38-21[311_5]
+2-9	58-67	Induction	abstract[4]|abstract[5]	new[4]|new[5]	nonsal[4]|sal[5]	Mathematical_induction[4]|Mathematical_induction[5]	cf2[4]|cf4[5]	_	_
 2-10	68-70	on	abstract[4]	new[4]	nonsal[4]	Mathematical_induction[4]	cf2[4]	_	_
 2-11	71-74	the	abstract[4]	new[4]	nonsal[4]	Mathematical_induction[4]	cf2[4]|cf3[6]	_	_
 2-12	75-81	number	abstract[4]	new[4]	nonsal[4]	Mathematical_induction[4]	cf2[4]|cf3[6]	_	_
@@ -59,8 +59,8 @@
 #Text=Basis for the Induction
 4-1	213-218	Basis	_	_	_	_	cf2[28]	_	_
 4-2	219-222	for	_	_	_	_	cf2[28]	_	_
-4-3	223-226	the	abstract[29]	new[29]	nonsal[29]	_	cf2[28]|cf1[29]	coref	6-6[46_29]
-4-4	227-236	Induction	abstract[29]	new[29]	nonsal[29]	_	cf2[28]|cf1[29]	_	_
+4-3	223-226	the	abstract[29]	new[29]	sal[29]	_	cf2[28]|cf1[29]	coref	6-6[46_29]
+4-4	227-236	Induction	abstract[29]	new[29]	sal[29]	_	cf2[28]|cf1[29]	_	_
 
 #Text=P ( r ) is trivially true for 1 ≤ r ≤ 5 , as there are no more than 5 vertices to be colored .
 5-1	237-238	P	_	_	_	_	cf2*[30]|cf3[31]	_	_
@@ -96,8 +96,8 @@
 6-3	340-343	our	person[44]	acc:com[44]	nonsal[44]	_	cf1*[43]|cf3[44]	ana	8-2[48_44]
 6-4	344-349	basis	_	_	_	_	cf1*[43]	_	_
 6-5	350-353	for	_	_	_	_	cf1*[43]	_	_
-6-6	354-357	the	abstract[46]	giv:inact[46]	nonsal[46]	_	cf1*[43]|cf2[46]	coref	9-4[64_46]
-6-7	358-367	induction	abstract[46]	giv:inact[46]	nonsal[46]	_	cf1*[43]|cf2[46]	_	_
+6-6	354-357	the	abstract[46]	giv:inact[46]	sal[46]	_	cf1*[43]|cf2[46]	coref	9-4[64_46]
+6-7	358-367	induction	abstract[46]	giv:inact[46]	sal[46]	_	cf1*[43]|cf2[46]	_	_
 6-8	368-369	.	_	_	_	_	_	_	_
 
 #Text=Induction Hypothesis
@@ -144,8 +144,8 @@
 9-1	506-508	So	_	_	_	_	_	_	_
 9-2	509-513	this	abstract[61]	giv:inact[61]	nonsal[61]	_	cf3[61]	_	_
 9-3	514-516	is	_	_	_	_	_	_	_
-9-4	517-520	our	abstract[64]|person[65]	giv:inact[64]|giv:act[65]	nonsal[64]|nonsal[65]	_	cf3[63]|cf5[64]|cf1*[65]	ana	10-2[77_65]
-9-5	521-530	induction	abstract[64]	giv:inact[64]	nonsal[64]	_	cf3[63]|cf5[64]	_	_
+9-4	517-520	our	abstract[64]|person[65]	giv:inact[64]|giv:act[65]	sal[64]|nonsal[65]	_	cf3[63]|cf5[64]|cf1*[65]	ana	10-2[77_65]
+9-5	521-530	induction	abstract[64]	giv:inact[64]	sal[64]	_	cf3[63]|cf5[64]	_	_
 9-6	531-541	hypothesis	_	_	_	_	cf3[63]	_	_
 9-7	542-543	:	_	_	_	_	_	_	_
 9-8	544-546	Gr	_	_	_	_	cf3[67]|cf6[68]	_	_
@@ -215,21 +215,21 @@
 13-11	807-808	,	_	_	_	_	_	_	_
 13-12	809-813	Gr+1	_	_	_	_	cf1[98]	_	_
 13-13	814-817	has	_	_	_	_	_	_	_
-13-14	818-820	at	abstract[100]	new[100]	nonsal[100]	_	cf2[100]	coref	14-2[102_100]
-13-15	821-826	least	abstract[100]	new[100]	nonsal[100]	_	cf2[100]	_	_
-13-16	827-830	one	abstract[100]	new[100]	nonsal[100]	_	cf2[100]	_	_
-13-17	831-837	vertex	abstract[100]	new[100]	nonsal[100]	_	cf2[100]	_	_
-13-18	838-842	with	abstract[100]	new[100]	nonsal[100]	_	cf2[100]	_	_
-13-19	843-845	at	abstract[100]	new[100]	nonsal[100]	_	cf2[100]|cf5[101]	_	_
-13-20	846-850	most	abstract[100]	new[100]	nonsal[100]	_	cf2[100]|cf5[101]	_	_
-13-21	851-852	5	abstract[100]	new[100]	nonsal[100]	_	cf2[100]|cf5[101]	_	_
-13-22	853-858	edges	abstract[100]	new[100]	nonsal[100]	_	cf2[100]|cf5[101]	_	_
+13-14	818-820	at	abstract[100]	new[100]	sal[100]	_	cf2[100]	coref	14-2[102_100]
+13-15	821-826	least	abstract[100]	new[100]	sal[100]	_	cf2[100]	_	_
+13-16	827-830	one	abstract[100]	new[100]	sal[100]	_	cf2[100]	_	_
+13-17	831-837	vertex	abstract[100]	new[100]	sal[100]	_	cf2[100]	_	_
+13-18	838-842	with	abstract[100]	new[100]	sal[100]	_	cf2[100]	_	_
+13-19	843-845	at	abstract[100]	new[100]	sal[100]	_	cf2[100]|cf5[101]	_	_
+13-20	846-850	most	abstract[100]	new[100]	sal[100]	_	cf2[100]|cf5[101]	_	_
+13-21	851-852	5	abstract[100]	new[100]	sal[100]	_	cf2[100]|cf5[101]	_	_
+13-22	853-858	edges	abstract[100]	new[100]	sal[100]	_	cf2[100]|cf5[101]	_	_
 13-23	859-860	.	_	_	_	_	_	_	_
 
 #Text=Let this vertex be labeled x .
 14-1	861-864	Let	_	_	_	_	_	_	_
-14-2	865-869	this	abstract[102]	giv:act[102]	nonsal[102]	_	cf1*[102]	_	_
-14-3	870-876	vertex	abstract[102]	giv:act[102]	nonsal[102]	_	cf1*[102]	_	_
+14-2	865-869	this	abstract[102]	giv:act[102]	sal[102]	_	cf1*[102]	_	_
+14-3	870-876	vertex	abstract[102]	giv:act[102]	sal[102]	_	cf1*[102]	_	_
 14-4	877-879	be	_	_	_	_	_	_	_
 14-5	880-887	labeled	_	_	_	_	_	_	_
 14-6	888-889	x	_	_	_	_	cf1*[103]	_	_
@@ -549,7 +549,7 @@
 
 #Text=Now x is no longer adjacent to a vertex of color c2 , so we can color it c2 .
 34-1	2136-2139	Now	_	_	_	_	_	_	_
-34-2	2140-2141	x	abstract[257]	giv:inact[257]	nonsal[257]	_	cf2[257]	ana	34-18[264_257]
+34-2	2140-2141	x	abstract[257]	giv:inact[257]	sal[257]	_	cf2[257]	ana	34-18[264_257]
 34-3	2142-2144	is	_	_	_	_	_	_	_
 34-4	2145-2147	no	_	_	_	_	_	_	_
 34-5	2148-2154	longer	_	_	_	_	_	_	_
@@ -565,7 +565,7 @@
 34-15	2193-2195	we	person[263]	giv:act[263]	nonsal[263]	_	cf1*[263]	_	_
 34-16	2196-2199	can	_	_	_	_	_	_	_
 34-17	2200-2205	color	_	_	_	_	_	_	_
-34-18	2206-2208	it	abstract[264]	giv:act[264]	nonsal[264]	_	cf2[264]	_	_
+34-18	2206-2208	it	abstract[264]	giv:act[264]	sal[264]	_	cf2[264]	_	_
 34-19	2209-2211	c2	_	_	_	_	cf3[265]	_	_
 34-20	2212-2213	.	_	_	_	_	_	_	_
 
@@ -658,8 +658,8 @@
 38-18	2559-2562	the	abstract[310]	giv:inact[310]	nonsal[310]	Mathematical_induction[310]	cf3[310]	_	_
 38-19	2563-2572	Principle	abstract[310]	giv:inact[310]	nonsal[310]	Mathematical_induction[310]	cf3[310]	_	_
 38-20	2573-2575	of	abstract[310]	giv:inact[310]	nonsal[310]	Mathematical_induction[310]	cf3[310]	_	_
-38-21	2576-2588	Mathematical	abstract[310]|abstract[311]	giv:inact[310]|giv:inact[311]	nonsal[310]|nonsal[311]	Mathematical_induction[310]|Mathematical_induction[311]	cf3[310]|cf4[311]	_	_
-38-22	2589-2598	Induction	abstract[310]|abstract[311]	giv:inact[310]|giv:inact[311]	nonsal[310]|nonsal[311]	Mathematical_induction[310]|Mathematical_induction[311]	cf3[310]|cf4[311]	_	_
+38-21	2576-2588	Mathematical	abstract[310]|abstract[311]	giv:inact[310]|giv:inact[311]	nonsal[310]|sal[311]	Mathematical_induction[310]|Mathematical_induction[311]	cf3[310]|cf4[311]	_	_
+38-22	2589-2598	Induction	abstract[310]|abstract[311]	giv:inact[310]|giv:inact[311]	nonsal[310]|sal[311]	Mathematical_induction[310]|Mathematical_induction[311]	cf3[310]|cf4[311]	_	_
 38-23	2599-2600	.	_	_	_	_	_	_	_
 
 #Text=Therefore :

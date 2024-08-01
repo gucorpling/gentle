@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="298" relname="organization-heading">trust</segment>
@@ -281,7 +293,7 @@
 		<group id="243" type="multinuc" parent="245" relname="elaboration-additional"/>
 		<group id="244" type="span" parent="246" relname="span"/>
 		<group id="245" type="span" parent="244" relname="span"/>
-		<group id="246" type="span" parent="294" relname="joint-other"/>
+		<group id="246" type="span" parent="300" relname="joint-list"/>
 		<group id="247" type="multinuc" parent="105" relname="elaboration-additional"/>
 		<group id="248" type="span" parent="264" relname="organization-heading"/>
 		<group id="249" type="multinuc" parent="250" relname="span"/>
@@ -328,13 +340,139 @@
 		<group id="290" type="span" parent="291" relname="joint-disjunction"/>
 		<group id="291" type="multinuc" parent="292" relname="span"/>
 		<group id="292" type="span" parent="293" relname="span"/>
-		<group id="293" type="span" parent="294" relname="joint-other"/>
+		<group id="293" type="span" parent="300" relname="joint-list"/>
 		<group id="294" type="multinuc" parent="298" relname="span"/>
 		<group id="295" type="span" parent="296" relname="span"/>
 		<group id="296" type="span" parent="297" relname="span"/>
-		<group id="297" type="span" parent="294" relname="joint-other"/>
+		<group id="297" type="span" parent="300" relname="joint-list"/>
 		<group id="298" type="span" parent="299" relname="span"/>
-		<group id="299" type="span" />
+		<group id="299" type="span"/>
+		<group id="300" type="multinuc" parent="294" relname="joint-other"/>
+		<signals>
+			<signal source="1" type="graphical" subtype="layout" tokens=""/>
+			<signal source="1" type="semantic" subtype="lexical_chain" tokens="1,7"/>
+			<signal source="2" type="graphical" subtype="layout" tokens=""/>
+			<signal source="3" type="graphical" subtype="layout" tokens=""/>
+			<signal source="5" type="graphical" subtype="parentheses" tokens="8,14"/>
+			<signal source="7" type="graphical" subtype="parentheses" tokens="24,32"/>
+			<signal source="9" type="semantic" subtype="meronymy" tokens="34,42,43,44"/>
+			<signal source="9" type="dm" subtype="dm" tokens="41" status="gold"/>
+			<signal source="12" type="graphical" subtype="parentheses" tokens="83,87"/>
+			<signal source="14" type="graphical" subtype="parentheses" tokens="97,105"/>
+			<signal source="16" type="graphical" subtype="parentheses" tokens="111,117"/>
+			<signal source="18" type="graphical" subtype="parentheses" tokens="122,128"/>
+			<signal source="20" type="graphical" subtype="parentheses" tokens="133,139"/>
+			<signal source="22" type="graphical" subtype="parentheses" tokens="143,149"/>
+			<signal source="24" type="graphical" subtype="parentheses" tokens="153,159"/>
+			<signal source="26" type="semantic" subtype="repetition" tokens="161,162,164"/>
+			<signal source="26" type="graphical" subtype="parentheses" tokens="163,171"/>
+			<signal source="29" type="graphical" subtype="layout" tokens=""/>
+			<signal source="30" type="graphical" subtype="colon" tokens="185"/>
+			<signal source="33" type="graphical" subtype="parentheses" tokens="189,191"/>
+			<signal source="37" type="graphical" subtype="parentheses" tokens="205,207"/>
+			<signal source="40" type="graphical" subtype="parentheses" tokens="211,213"/>
+			<signal source="41" type="graphical" subtype="colon" tokens="215"/>
+			<signal source="43" type="graphical" subtype="layout" tokens=""/>
+			<signal source="45" type="semantic" subtype="meronymy" tokens="218,224"/>
+			<signal source="45" type="graphical" subtype="parentheses" tokens="219,226"/>
+			<signal source="48" type="dm" subtype="dm" tokens="243" status="gold"/>
+			<signal source="49" type="semantic" subtype="lexical_chain" tokens="240,254" status="gold"/>
+			<signal source="52" type="syntactic" subtype="modified_head" tokens="262"/>
+			<signal source="52" type="syntactic" subtype="nominal_modifier" tokens="263"/>
+			<signal source="53" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="55" type="syntactic" subtype="modified_head" tokens="282"/>
+			<signal source="55" type="syntactic" subtype="nominal_modifier" tokens="285"/>
+			<signal source="57" type="semantic" subtype="meronymy" tokens="289,296,297"/>
+			<signal source="57" type="dm" subtype="dm" tokens="295" status="gold"/>
+			<signal source="60" type="syntactic" subtype="modified_head" tokens="305"/>
+			<signal source="60" type="syntactic" subtype="relative_clause" tokens="306,308"/>
+			<signal source="62" type="syntactic" subtype="modified_head" tokens="312"/>
+			<signal source="62" type="syntactic" subtype="nominal_modifier" tokens="313"/>
+			<signal source="65" type="syntactic" subtype="modified_head" tokens="320"/>
+			<signal source="65" type="syntactic" subtype="relative_clause" tokens="322,325"/>
+			<signal source="67" type="lexical" subtype="indicative_word" tokens="334"/>
+			<signal source="70" type="syntactic" subtype="modified_head" tokens="345"/>
+			<signal source="70" type="syntactic" subtype="relative_clause" tokens="347,350"/>
+			<signal source="76" type="syntactic" subtype="infinitival_clause" tokens="373"/>
+			<signal source="82" type="graphical" subtype="parentheses" tokens="409,412"/>
+			<signal source="84" type="syntactic" subtype="modified_head" tokens="416"/>
+			<signal source="84" type="syntactic" subtype="nominal_modifier" tokens="417,421"/>
+			<signal source="87" type="dm" subtype="dm" tokens="446" status="gold"/>
+			<signal source="90" type="syntactic" subtype="infinitival_clause" tokens="463"/>
+			<signal source="91" type="dm" subtype="dm" tokens="472" status="gold"/>
+			<signal source="94" type="graphical" subtype="layout" tokens=""/>
+			<signal source="99" type="graphical" subtype="layout" tokens=""/>
+			<signal source="101" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="102" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="103" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="104" type="graphical" subtype="layout" tokens=""/>
+			<signal source="112" type="semantic" subtype="lexical_chain" tokens="549,557"/>
+			<signal source="114" type="syntactic" subtype="modified_head" tokens="564"/>
+			<signal source="114" type="syntactic" subtype="relative_clause" tokens="565,566"/>
+			<signal source="117" type="graphical" subtype="semicolon" tokens="579"/>
+			<signal source="119" type="reference" subtype="propositional_reference" tokens="590,591,592,594,595,596"/>
+			<signal source="119" type="graphical" subtype="parentheses" tokens="593,597"/>
+			<signal source="128" type="semantic" subtype="attribution_source" tokens="633"/>
+			<signal source="128" type="lexical" subtype="indicative_word" tokens="634"/>
+			<signal source="132" type="dm" subtype="dm" tokens="650" status="gold"/>
+			<signal source="132" type="syntactic" subtype="present_participial_clause" tokens="651"/>
+			<signal source="138" type="graphical" subtype="semicolon" tokens="678"/>
+			<signal source="143" type="graphical" subtype="parentheses" tokens="718,721"/>
+			<signal source="149" type="graphical" subtype="semicolon" tokens="749"/>
+			<signal source="154" type="semantic" subtype="lexical_chain" tokens="769,772"/>
+			<signal source="157" type="graphical" subtype="semicolon" tokens="790"/>
+			<signal source="158" type="graphical" subtype="layout" tokens=""/>
+			<signal source="160" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="161" type="graphical" subtype="layout" tokens=""/>
+			<signal source="174" type="reference" subtype="personal_reference" tokens="21,22,23,34"/>
+			<signal source="176" type="syntactic" subtype="modified_head" tokens="71"/>
+			<signal source="176" type="dm" subtype="dm" tokens="76" status="gold"/>
+			<signal source="176" type="syntactic" subtype="nominal_modifier" tokens="77"/>
+			<signal source="177" type="semantic" subtype="repetition" tokens="12,30"/>
+			<signal source="179" type="dm" subtype="dm" tokens="48" status="gold"/>
+			<signal source="180" type="dm" subtype="dm" tokens="89" status="gold"/>
+			<signal source="190" type="graphical" subtype="colon" tokens="192"/>
+			<signal source="191" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="194" type="graphical" subtype="colon" tokens="208"/>
+			<signal source="196" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="197" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="199" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="201" type="graphical" subtype="layout" tokens=""/>
+			<signal source="209" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="209" type="graphical" subtype="semicolon" tokens="286"/>
+			<signal source="213" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="213" type="graphical" subtype="semicolon" tokens="311,316"/>
+			<signal source="215" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="215" type="graphical" subtype="semicolon" tokens="326"/>
+			<signal source="218" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="218" type="graphical" subtype="semicolon" tokens="351"/>
+			<signal source="220" type="syntactic" subtype="modified_head" tokens="361"/>
+			<signal source="220" type="syntactic" subtype="nominal_modifier" tokens="362"/>
+			<signal source="221" type="syntactic" subtype="modified_head" tokens="365"/>
+			<signal source="221" type="syntactic" subtype="relative_clause" tokens="366,367"/>
+			<signal source="225" type="syntactic" subtype="modified_head" tokens="395"/>
+			<signal source="225" type="syntactic" subtype="nominal_modifier" tokens="401"/>
+			<signal source="225" type="syntactic" subtype="past_participial_clause" tokens="404"/>
+			<signal source="226" type="syntactic" subtype="infinitival_clause" tokens="402"/>
+			<signal source="229" type="syntactic" subtype="modified_head" tokens="439"/>
+			<signal source="229" type="syntactic" subtype="infinitival_clause" tokens="440"/>
+			<signal source="232" type="graphical" subtype="semicolon" tokens="435"/>
+			<signal source="233" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="235" type="syntactic" subtype="modified_head" tokens="456"/>
+			<signal source="235" type="syntactic" subtype="nominal_modifier" tokens="459"/>
+			<signal source="235" type="syntactic" subtype="past_participial_clause" tokens="473"/>
+			<signal source="238" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="243" type="graphical" subtype="parentheses" tokens="498,505"/>
+			<signal source="247" type="graphical" subtype="parentheses" tokens="524,543"/>
+			<signal source="248" type="graphical" subtype="layout" tokens=""/>
+			<signal source="258" type="graphical" subtype="semicolon" tokens="605,608"/>
+			<signal source="263" type="graphical" subtype="semicolon" tokens="618"/>
+			<signal source="268" type="graphical" subtype="semicolon" tokens="667"/>
+			<signal source="272" type="dm" subtype="dm" tokens="714,715" status="gold"/>
+			<signal source="272" type="syntactic" subtype="present_participial_clause" tokens="716"/>
+			<signal source="281" type="graphical" subtype="semicolon" tokens="760,764,770"/>
+			<signal source="286" type="graphical" subtype="parentheses" tokens="800,808"/>
+			<signal source="287" type="graphical" subtype="layout" tokens=""/>
+		</signals>
 	</body>
 </rst>
-

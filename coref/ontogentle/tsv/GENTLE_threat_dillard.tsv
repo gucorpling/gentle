@@ -4,8 +4,8 @@
 
 
 #Text=Dr. Means ,
-1-1	0-3	Dr.	person[1]	new[1]	nonsal[1]	_	cf1[1]	ana	2-8[9_1]
-1-2	4-9	Means	person[1]	new[1]	nonsal[1]	_	cf1[1]	_	_
+1-1	0-3	Dr.	person[1]	new[1]	sal[1]	_	cf1[1]	ana	2-8[9_1]
+1-2	4-9	Means	person[1]	new[1]	sal[1]	_	cf1[1]	_	_
 1-3	10-11	,	_	_	_	_	_	_	_
 
 #Text=It has come to our attention that you are planning to do abortions at your Harry St. location .
@@ -16,17 +16,17 @@
 2-5	27-30	our	person[5]	acc:com[5]	nonsal[5]	_	cf7[4]|cf2[5]	ana	27-1[213_5]
 2-6	31-40	attention	_	_	_	_	cf7[4]	_	_
 2-7	41-45	that	_	_	_	_	cf4[7]	_	_
-2-8	46-49	you	person[9]	acc:com[9]	nonsal[9]	_	cf4[7]|cf5[8]|cf1*[9]	ana	2-15[14_9]
+2-8	46-49	you	person[9]	acc:com[9]	sal[9]	_	cf4[7]|cf5[8]|cf1*[9]	ana	2-15[14_9]
 2-9	50-53	are	_	_	_	_	cf4[7]|cf5[8]	_	_
 2-10	54-62	planning	_	_	_	_	cf4[7]|cf5[8]	_	_
 2-11	63-65	to	_	_	_	_	cf4[7]|cf5[8]	_	_
 2-12	66-68	do	_	_	_	_	cf4[7]|cf5[8]	_	_
 2-13	69-78	abortions	_	_	_	_	cf4[7]|cf5[8]|cf6[10]	_	_
 2-14	79-81	at	_	_	_	_	cf4[7]|cf5[8]	_	_
-2-15	82-86	your	place[13]|person[14]	new[13]|giv:act[14]	nonsal[13]|nonsal[14]	_	cf4[7]|cf5[8]|cf8[13]|cf1*[14]	coref|ana	26-9[208_13]|3-5[18_14]
-2-16	87-92	Harry	place[13]	new[13]	nonsal[13]	_	cf4[7]|cf5[8]|cf8[13]|cf9[16]	_	_
-2-17	93-96	St.	place[13]	new[13]	nonsal[13]	_	cf4[7]|cf5[8]|cf8[13]|cf9[16]	_	_
-2-18	97-105	location	place[13]	new[13]	nonsal[13]	_	cf4[7]|cf5[8]|cf8[13]	_	_
+2-15	82-86	your	place[13]|person[14]	new[13]|giv:act[14]	sal[13]|sal[14]	_	cf4[7]|cf5[8]|cf8[13]|cf1*[14]	coref|ana	26-9[208_13]|3-5[18_14]
+2-16	87-92	Harry	place[13]	new[13]	sal[13]	_	cf4[7]|cf5[8]|cf8[13]|cf9[16]	_	_
+2-17	93-96	St.	place[13]	new[13]	sal[13]	_	cf4[7]|cf5[8]|cf8[13]|cf9[16]	_	_
+2-18	97-105	location	place[13]	new[13]	sal[13]	_	cf4[7]|cf5[8]|cf8[13]	_	_
 2-19	106-107	.	_	_	_	_	_	_	_
 
 #Text=I am stunned that you would take your career in this direction .
@@ -34,10 +34,10 @@
 3-2	110-112	am	_	_	_	_	_	_	_
 3-3	113-120	stunned	_	_	_	_	_	_	_
 3-4	121-125	that	_	_	_	_	_	_	_
-3-5	126-129	you	person[18]	giv:act[18]	nonsal[18]	_	cf1*[18]	ana	3-8[22_18]
+3-5	126-129	you	person[18]	giv:act[18]	sal[18]	_	cf1*[18]	ana	3-8[22_18]
 3-6	130-135	would	_	_	_	_	_	_	_
 3-7	136-140	take	_	_	_	_	_	_	_
-3-8	141-145	your	person[22]	giv:act[22]	nonsal[22]	_	cf3[21]|cf1*[22]	ana	5-2[38_22]
+3-8	141-145	your	person[22]	giv:act[22]	sal[22]	_	cf3[21]|cf1*[22]	ana	5-2[38_22]
 3-9	146-152	career	_	_	_	_	cf3[21]	_	_
 3-10	153-155	in	_	_	_	_	_	_	_
 3-11	156-160	this	_	_	_	_	cf4[24]	_	_
@@ -98,7 +98,7 @@
 
 #Text=Maybe you do n't realize the consequences of killing the innocent .
 5-1	447-452	Maybe	_	_	_	_	_	_	_
-5-2	453-456	you	person[38]	giv:inact[38]	nonsal[38]	_	cf1[38]	ana	6-11[45_38]
+5-2	453-456	you	person[38]	giv:inact[38]	sal[38]	_	cf1[38]	ana	6-11[45_38]
 5-3	457-459	do	_	_	_	_	_	_	_
 5-4	460-463	n't	_	_	_	_	_	_	_
 5-5	464-471	realize	_	_	_	_	_	_	_
@@ -121,12 +121,12 @@
 6-8	549-551	he	person[44]	giv:act[44]	nonsal[44]	_	cf1[44]	_	_
 6-9	552-557	would	_	_	_	_	_	_	_
 6-10	558-562	tell	_	_	_	_	_	_	_
-6-11	563-566	you	person[45]	giv:act[45]	nonsal[45]	_	cf2*[45]	ana	6-16[51_45]
+6-11	563-566	you	person[45]	giv:act[45]	sal[45]	_	cf2*[45]	ana	6-16[51_45]
 6-12	567-571	what	_	_	_	_	_	_	_
 6-13	572-573	a	_	_	_	_	cf3[50]	_	_
 6-14	574-582	soulless	_	_	_	_	cf3[50]	_	_
 6-15	583-592	existence	_	_	_	_	cf3[50]	_	_
-6-16	593-596	you	person[51]	giv:act[51]	nonsal[51]	_	cf2*[51]	ana	7-8[57_51]
+6-16	593-596	you	person[51]	giv:act[51]	sal[51]	_	cf2*[51]	ana	7-8[57_51]
 6-17	597-600	are	_	_	_	_	_	_	_
 6-18	601-613	purposefully	_	_	_	_	_	_	_
 6-19	614-625	considering	_	_	_	_	_	_	_
@@ -147,7 +147,7 @@
 7-5	679-686	already	_	_	_	_	_	_	_
 7-6	687-694	looking	_	_	_	_	_	_	_
 7-7	695-699	into	_	_	_	_	_	_	_
-7-8	700-704	your	person[57]	giv:act[57]	nonsal[57]	_	cf5[56]|cf1*[57]	ana	8-4[65_57]
+7-8	700-704	your	person[57]	giv:act[57]	sal[57]	_	cf5[56]|cf1*[57]	ana	8-4[65_57]
 7-9	705-715	background	_	_	_	_	cf5[56]	_	_
 7-10	716-717	,	_	_	_	_	_	_	_
 7-11	718-721	not	_	_	_	_	_	_	_
@@ -166,7 +166,7 @@
 8-1	767-771	They	person[62]	giv:act[62]	nonsal[62]	_	cf1*[62]	ana	9-1[66_62]
 8-2	772-776	will	_	_	_	_	_	_	_
 8-3	777-781	know	_	_	_	_	_	_	_
-8-4	782-786	your	person[65]	giv:act[65]	nonsal[65]	_	cf3[64]|cf2[65]	ana	9-4[67_65]
+8-4	782-786	your	person[65]	giv:act[65]	sal[65]	_	cf3[64]|cf2[65]	ana	9-4[67_65]
 8-5	787-793	habits	_	_	_	_	cf3[64]	_	_
 8-6	794-797	and	_	_	_	_	cf3[64]	_	_
 8-7	798-806	routines	_	_	_	_	cf3[64]	_	_
@@ -176,31 +176,31 @@
 9-1	809-813	They	person[66]	giv:act[66]	nonsal[66]	_	cf1*[66]	_	_
 9-2	814-818	know	_	_	_	_	_	_	_
 9-3	819-824	where	_	_	_	_	_	_	_
-9-4	825-828	you	person[67]	giv:act[67]	nonsal[67]	_	cf2[67]	ana	9-8[72_67]
+9-4	825-828	you	person[67]	giv:act[67]	sal[67]	_	cf2[67]	ana	9-8[72_67]
 9-5	829-833	shop	_	_	_	_	_	_	_
 9-6	834-835	,	_	_	_	_	_	_	_
 9-7	836-839	who	_	_	_	_	_	_	_
-9-8	840-844	your	person[72]	giv:act[72]	nonsal[72]	_	cf3[71]|cf2[72]	ana	9-13[73_72]
+9-8	840-844	your	person[72]	giv:act[72]	sal[72]	_	cf3[71]|cf2[72]	ana	9-13[73_72]
 9-9	845-852	friends	_	_	_	_	cf3[71]	_	_
 9-10	853-856	are	_	_	_	_	_	_	_
 9-11	857-858	,	_	_	_	_	_	_	_
 9-12	859-863	what	_	_	_	_	_	_	_
-9-13	864-867	you	person[73]	giv:act[73]	nonsal[73]	_	cf2[73]	ana	9-17[74_73]
+9-13	864-867	you	person[73]	giv:act[73]	sal[73]	_	cf2[73]	ana	9-17[74_73]
 9-14	868-873	drive	_	_	_	_	_	_	_
 9-15	874-875	,	_	_	_	_	_	_	_
 9-16	876-881	where	_	_	_	_	_	_	_
-9-17	882-885	you	person[74]	giv:act[74]	nonsal[74]	_	cf2[74]	ana	10-1[75_74]
+9-17	882-885	you	person[74]	giv:act[74]	sal[74]	_	cf2[74]	ana	10-1[75_74]
 9-18	886-890	live	_	_	_	_	_	_	_
 9-19	891-892	.	_	_	_	_	_	_	_
 
 #Text=You will be checking under your car every day — because maybe today is the day someone places an explosive under it .
-10-1	893-896	You	person[75]	giv:act[75]	nonsal[75]	_	cf1*[75]	ana	10-6[81_75]
+10-1	893-896	You	person[75]	giv:act[75]	sal[75]	_	cf1*[75]	ana	10-6[81_75]
 10-2	897-901	will	_	_	_	_	_	_	_
 10-3	902-904	be	_	_	_	_	_	_	_
 10-4	905-913	checking	_	_	_	_	_	_	_
 10-5	914-919	under	_	_	_	_	_	_	_
-10-6	920-924	your	object[80]|person[81]	new[80]|giv:act[81]	nonsal[80]|nonsal[81]	_	cf2[80]|cf1*[81]	ana|ana	11-5[95_81]|10-22[90_80]
-10-7	925-928	car	object[80]	new[80]	nonsal[80]	_	cf2[80]	_	_
+10-6	920-924	your	object[80]|person[81]	new[80]|giv:act[81]	sal[80]|sal[81]	_	cf2[80]|cf1*[81]	ana|ana	11-5[95_81]|10-22[90_80]
+10-7	925-928	car	object[80]	new[80]	sal[80]	_	cf2[80]	_	_
 10-8	929-934	every	_	_	_	_	cf3[83]	_	_
 10-9	935-938	day	_	_	_	_	cf3[83]	_	_
 10-10	939-940	—	_	_	_	_	_	_	_
@@ -215,7 +215,7 @@
 10-19	987-989	an	_	_	_	_	cf6[86]|cf5[89]	_	_
 10-20	990-999	explosive	_	_	_	_	cf6[86]|cf5[89]	_	_
 10-21	1000-1005	under	_	_	_	_	cf6[86]	_	_
-10-22	1006-1008	it	object[90]	giv:act[90]	nonsal[90]	_	cf6[86]|cf2[90]	_	_
+10-22	1006-1008	it	object[90]	giv:act[90]	sal[90]	_	cf6[86]|cf2[90]	_	_
 10-23	1009-1010	.	_	_	_	_	_	_	_
 
 #Text=People will be picketing your home , your office .
@@ -223,22 +223,22 @@
 11-2	1018-1022	will	_	_	_	_	_	_	_
 11-3	1023-1025	be	_	_	_	_	_	_	_
 11-4	1026-1035	picketing	_	_	_	_	_	_	_
-11-5	1036-1040	your	person[95]	giv:act[95]	nonsal[95]	_	cf3[94]|cf1*[95]	ana	11-8[98_95]
+11-5	1036-1040	your	person[95]	giv:act[95]	sal[95]	_	cf3[94]|cf1*[95]	ana	11-8[98_95]
 11-6	1041-1045	home	_	_	_	_	cf3[94]	_	_
 11-7	1046-1047	,	_	_	_	_	_	_	_
-11-8	1048-1052	your	person[98]	giv:act[98]	nonsal[98]	_	cf4[97]|cf1*[98]	ana	12-1[99_98]
+11-8	1048-1052	your	person[98]	giv:act[98]	sal[98]	_	cf4[97]|cf1*[98]	ana	12-1[99_98]
 11-9	1053-1059	office	_	_	_	_	cf4[97]	_	_
 11-10	1060-1061	.	_	_	_	_	_	_	_
 
 #Text=You will come under greater scrutiny than you 've ever known , legally and professionally .
-12-1	1062-1065	You	person[99]	giv:act[99]	nonsal[99]	_	cf1*[99]	ana	12-8[103_99]
+12-1	1062-1065	You	person[99]	giv:act[99]	sal[99]	_	cf1*[99]	ana	12-8[103_99]
 12-2	1066-1070	will	_	_	_	_	_	_	_
 12-3	1071-1075	come	_	_	_	_	_	_	_
 12-4	1076-1081	under	_	_	_	_	_	_	_
 12-5	1082-1089	greater	_	_	_	_	cf2[102]	_	_
 12-6	1090-1098	scrutiny	_	_	_	_	cf2[102]	_	_
 12-7	1099-1103	than	_	_	_	_	cf2[102]	_	_
-12-8	1104-1107	you	person[103]	giv:act[103]	nonsal[103]	_	cf2[102]|cf1*[103]	ana	13-11[107_103]
+12-8	1104-1107	you	person[103]	giv:act[103]	sal[103]	_	cf2[102]|cf1*[103]	ana	13-11[107_103]
 12-9	1108-1111	've	_	_	_	_	cf2[102]	_	_
 12-10	1112-1116	ever	_	_	_	_	cf2[102]	_	_
 12-11	1117-1122	known	_	_	_	_	cf2[102]	_	_
@@ -259,14 +259,14 @@
 13-8	1199-1206	ethical	_	_	_	_	cf3[106]	_	_
 13-9	1207-1215	concerns	_	_	_	_	cf3[106]	_	_
 13-10	1216-1220	that	_	_	_	_	cf3[106]	_	_
-13-11	1221-1224	you	person[107]	giv:act[107]	nonsal[107]	_	cf3[106]|cf1*[107]	ana	14-1[108_107]
+13-11	1221-1224	you	person[107]	giv:act[107]	sal[107]	_	cf3[106]|cf1*[107]	ana	14-1[108_107]
 13-12	1225-1228	've	_	_	_	_	cf3[106]	_	_
 13-13	1229-1233	been	_	_	_	_	cf3[106]	_	_
 13-14	1234-1240	facing	_	_	_	_	cf3[106]	_	_
 13-15	1241-1242	.	_	_	_	_	_	_	_
 
 #Text=You will become a pariah — no physician will want to associate with you .
-14-1	1243-1246	You	person[108]	giv:act[108]	nonsal[108]	_	cf1*[108]	ana	14-14[113_108]
+14-1	1243-1246	You	person[108]	giv:act[108]	sal[108]	_	cf1*[108]	ana	14-14[113_108]
 14-2	1247-1251	will	_	_	_	_	_	_	_
 14-3	1252-1258	become	_	_	_	_	_	_	_
 14-4	1259-1260	a	_	_	_	_	cf3[111]	_	_
@@ -279,11 +279,11 @@
 14-11	1293-1295	to	_	_	_	_	_	_	_
 14-12	1296-1305	associate	_	_	_	_	_	_	_
 14-13	1306-1310	with	_	_	_	_	_	_	_
-14-14	1311-1314	you	person[113]	giv:act[113]	nonsal[113]	_	cf1*[113]	ana	15-1[114_113]
+14-14	1311-1314	you	person[113]	giv:act[113]	sal[113]	_	cf1*[113]	ana	15-1[114_113]
 14-15	1315-1316	.	_	_	_	_	_	_	_
 
 #Text=You will be seen like all the other hacks that have stooped to doing abortions when they were n't good enough to maintain a real practice .
-15-1	1317-1320	You	person[114]	giv:act[114]	nonsal[114]	_	cf1*[114]	ana	16-1[123_114]
+15-1	1317-1320	You	person[114]	giv:act[114]	sal[114]	_	cf1*[114]	ana	16-1[123_114]
 15-2	1321-1325	will	_	_	_	_	_	_	_
 15-3	1326-1328	be	_	_	_	_	_	_	_
 15-4	1329-1333	seen	_	_	_	_	_	_	_
@@ -312,10 +312,10 @@
 15-27	1455-1456	.	_	_	_	_	_	_	_
 
 #Text=You will lose your legitimate clientele , as no one bringing a baby into this world wants to be in the same facility where you are also killing them .
-16-1	1457-1460	You	person[123]	giv:act[123]	nonsal[123]	_	cf1*[123]	ana	16-4[126_123]
+16-1	1457-1460	You	person[123]	giv:act[123]	sal[123]	_	cf1*[123]	ana	16-4[126_123]
 16-2	1461-1465	will	_	_	_	_	_	_	_
 16-3	1466-1470	lose	_	_	_	_	_	_	_
-16-4	1471-1475	your	person[126]	giv:act[126]	nonsal[126]	_	cf5[125]|cf1*[126]	ana	16-25[132_126]
+16-4	1471-1475	your	person[126]	giv:act[126]	sal[126]	_	cf5[125]|cf1*[126]	ana	16-25[132_126]
 16-5	1476-1486	legitimate	_	_	_	_	cf5[125]	_	_
 16-6	1487-1496	clientele	_	_	_	_	cf5[125]	_	_
 16-7	1497-1498	,	_	_	_	_	_	_	_
@@ -336,7 +336,7 @@
 16-22	1560-1564	same	_	_	_	_	cf7[131]	_	_
 16-23	1565-1573	facility	_	_	_	_	cf7[131]	_	_
 16-24	1574-1579	where	_	_	_	_	cf7[131]	_	_
-16-25	1580-1583	you	person[132]	giv:act[132]	nonsal[132]	_	cf7[131]|cf1*[132]	ana	17-1[134_132]
+16-25	1580-1583	you	person[132]	giv:act[132]	sal[132]	_	cf7[131]|cf1*[132]	ana	17-1[134_132]
 16-26	1584-1587	are	_	_	_	_	cf7[131]	_	_
 16-27	1588-1592	also	_	_	_	_	cf7[131]	_	_
 16-28	1593-1600	killing	_	_	_	_	cf7[131]	_	_
@@ -344,7 +344,7 @@
 16-30	1606-1607	.	_	_	_	_	_	_	_
 
 #Text=You will have trouble keeping staff who are willing to participate in innocent blood - shedding and wo n't be able to keep the sanitary conditions necessary to maintain a healthy medical facility .
-17-1	1608-1611	You	person[134]	giv:act[134]	nonsal[134]	_	cf1*[134]	ana	18-1[142_134]
+17-1	1608-1611	You	person[134]	giv:act[134]	sal[134]	_	cf1*[134]	ana	18-1[142_134]
 17-2	1612-1616	will	_	_	_	_	_	_	_
 17-3	1617-1621	have	_	_	_	_	_	_	_
 17-4	1622-1629	trouble	_	_	_	_	_	_	_
@@ -380,7 +380,7 @@
 17-34	1804-1805	.	_	_	_	_	_	_	_
 
 #Text=You will end up having the same kind of rat - infested , dirty facility that they have in north - eastern Kansas .
-18-1	1806-1809	You	person[142]	giv:act[142]	nonsal[142]	_	cf1*[142]	ana	19-5[151_142]
+18-1	1806-1809	You	person[142]	giv:act[142]	sal[142]	_	cf1*[142]	ana	19-5[151_142]
 18-2	1810-1814	will	_	_	_	_	_	_	_
 18-3	1815-1818	end	_	_	_	_	_	_	_
 18-4	1819-1821	up	_	_	_	_	_	_	_
@@ -410,7 +410,7 @@
 19-2	1928-1931	who	_	_	_	_	cf2[150]	_	_
 19-3	1932-1940	partners	_	_	_	_	cf2[150]	_	_
 19-4	1941-1945	with	_	_	_	_	cf2[150]	_	_
-19-5	1946-1949	you	person[151]	giv:act[151]	nonsal[151]	_	cf2[150]|cf1*[151]	ana	20-7[155_151]
+19-5	1946-1949	you	person[151]	giv:act[151]	sal[151]	_	cf2[150]|cf1*[151]	ana	20-7[155_151]
 19-6	1950-1954	will	_	_	_	_	_	_	_
 19-7	1955-1965	experience	_	_	_	_	_	_	_
 19-8	1966-1969	the	_	_	_	_	cf3[153]	_	_
@@ -425,7 +425,7 @@
 20-4	2002-2005	the	_	_	_	_	cf2[154]	_	_
 20-5	2006-2010	fact	_	_	_	_	cf2[154]	_	_
 20-6	2011-2015	that	_	_	_	_	cf2[154]	_	_
-20-7	2016-2019	you	person[155]	giv:act[155]	nonsal[155]	_	cf2[154]|cf1*[155]	ana	20-19[159_155]
+20-7	2016-2019	you	person[155]	giv:act[155]	sal[155]	_	cf2[154]|cf1*[155]	ana	20-19[159_155]
 20-8	2020-2024	will	_	_	_	_	cf2[154]	_	_
 20-9	2025-2027	be	_	_	_	_	cf2[154]	_	_
 20-10	2028-2035	haunted	_	_	_	_	cf2[154]	_	_
@@ -437,12 +437,12 @@
 20-16	2060-2071	dismembered	_	_	_	_	cf2[154]|cf3[157]	_	_
 20-17	2072-2078	babies	_	_	_	_	cf2[154]|cf3[157]	_	_
 20-18	2079-2081	in	_	_	_	_	cf2[154]	_	_
-20-19	2082-2086	your	person[159]	giv:act[159]	nonsal[159]	_	cf2[154]|cf4[158]|cf1*[159]	ana	21-1[160_159]
+20-19	2082-2086	your	person[159]	giv:act[159]	sal[159]	_	cf2[154]|cf4[158]|cf1*[159]	ana	21-1[160_159]
 20-20	2087-2092	sleep	_	_	_	_	cf2[154]|cf4[158]	_	_
 20-21	2093-2094	.	_	_	_	_	_	_	_
 
 #Text=You ca n't do what is morally reprehensible and enjoy peace of mind .
-21-1	2095-2098	You	person[160]	giv:act[160]	nonsal[160]	_	cf1*[160]	ana	23-10[181_160]
+21-1	2095-2098	You	person[160]	giv:act[160]	sal[160]	_	cf1*[160]	ana	23-10[181_160]
 21-2	2099-2101	ca	_	_	_	_	_	_	_
 21-3	2102-2105	n't	_	_	_	_	_	_	_
 21-4	2106-2108	do	_	_	_	_	_	_	_
@@ -502,7 +502,7 @@
 22-42	2354-2355	.	_	_	_	_	_	_	_
 
 #Text=Abortion kills human life - it matters not if you kill it at 6 weeks or at 26 weeks , it 's still the unnatural , violent death of a human baby for the sake of convenience .
-23-1	2356-2364	Abortion	event[176]	giv:inact[176]	nonsal[176]	_	cf1[176]	ana	23-21[188_176]
+23-1	2356-2364	Abortion	event[176]	giv:inact[176]	sal[176]	_	cf1[176]	ana	23-21[188_176]
 23-2	2365-2370	kills	_	_	_	_	_	_	_
 23-3	2371-2376	human	person[179]	new[179]	nonsal[179]	_	cf2[179]	ana	23-12[182_179]
 23-4	2377-2381	life	person[179]	new[179]	nonsal[179]	_	cf2[179]	_	_
@@ -511,7 +511,7 @@
 23-7	2387-2394	matters	_	_	_	_	_	_	_
 23-8	2395-2398	not	_	_	_	_	_	_	_
 23-9	2399-2401	if	_	_	_	_	_	_	_
-23-10	2402-2405	you	person[181]	giv:inact[181]	nonsal[181]	_	cf3[181]	ana	24-1[194_181]
+23-10	2402-2405	you	person[181]	giv:inact[181]	sal[181]	_	cf3[181]	ana	24-1[194_181]
 23-11	2406-2410	kill	_	_	_	_	_	_	_
 23-12	2411-2413	it	person[182]	giv:act[182]	nonsal[182]	_	cf2[182]	_	_
 23-13	2414-2416	at	_	_	_	_	_	_	_
@@ -522,7 +522,7 @@
 23-18	2431-2433	26	_	_	_	_	cf8[187]	_	_
 23-19	2434-2439	weeks	_	_	_	_	cf8[187]	_	_
 23-20	2440-2441	,	_	_	_	_	_	_	_
-23-21	2442-2444	it	event[188]	giv:act[188]	nonsal[188]	_	cf1[188]	_	_
+23-21	2442-2444	it	event[188]	giv:act[188]	sal[188]	_	cf1[188]	_	_
 23-22	2445-2447	's	_	_	_	_	_	_	_
 23-23	2448-2453	still	_	_	_	_	_	_	_
 23-24	2454-2457	the	_	_	_	_	cf1[190]	_	_
@@ -542,7 +542,7 @@
 23-38	2528-2529	.	_	_	_	_	_	_	_
 
 #Text=You are doing what the Humane Society would n't allow to happen to a pregnant dog or cat .
-24-1	2530-2533	You	person[194]	giv:act[194]	nonsal[194]	_	cf1*[194]	ana	25-3[200_194]
+24-1	2530-2533	You	person[194]	giv:act[194]	sal[194]	_	cf1*[194]	ana	25-3[200_194]
 24-2	2534-2537	are	_	_	_	_	_	_	_
 24-3	2538-2543	doing	_	_	_	_	_	_	_
 24-4	2544-2548	what	_	_	_	_	_	_	_
@@ -563,9 +563,9 @@
 24-19	2619-2620	.	_	_	_	_	_	_	_
 
 #Text=I urge you to think very carefully about the choices you are making .
-25-1	2621-2622	I	person[199]	acc:com[199]	nonsal[199]	_	cf2[199]	coref	33-1[262_199]
+25-1	2621-2622	I	person[199]	acc:com[199]	sal[199]	_	cf2[199]	coref	33-1[262_199]
 25-2	2623-2627	urge	_	_	_	_	_	_	_
-25-3	2628-2631	you	person[200]	giv:act[200]	nonsal[200]	_	cf1*[200]	ana	25-11[204_200]
+25-3	2628-2631	you	person[200]	giv:act[200]	sal[200]	_	cf1*[200]	ana	25-11[204_200]
 25-4	2632-2634	to	_	_	_	_	_	_	_
 25-5	2635-2640	think	_	_	_	_	_	_	_
 25-6	2641-2645	very	_	_	_	_	_	_	_
@@ -573,7 +573,7 @@
 25-8	2656-2661	about	_	_	_	_	_	_	_
 25-9	2662-2665	the	_	_	_	_	cf3[203]	_	_
 25-10	2666-2673	choices	_	_	_	_	cf3[203]	_	_
-25-11	2674-2677	you	person[204]	giv:act[204]	nonsal[204]	_	cf3[203]|cf1*[204]	ana	26-9[209_204]
+25-11	2674-2677	you	person[204]	giv:act[204]	sal[204]	_	cf3[203]|cf1*[204]	ana	26-9[209_204]
 25-12	2678-2681	are	_	_	_	_	cf3[203]	_	_
 25-13	2682-2688	making	_	_	_	_	cf3[203]	_	_
 25-14	2689-2690	.	_	_	_	_	_	_	_
@@ -587,8 +587,8 @@
 26-6	2719-2720	1	_	_	_	_	cf4[206]|cf5[207]	_	_
 26-7	2721-2726	block	_	_	_	_	cf4[206]|cf5[207]	_	_
 26-8	2727-2729	of	_	_	_	_	cf4[206]|cf5[207]	_	_
-26-9	2730-2734	your	place[208]|person[209]	giv:inact[208]|giv:act[209]	nonsal[208]|nonsal[209]	_	cf4[206]|cf5[207]|cf2[208]|cf1*[209]	ana|coref	28-3[220_209]|28-12[226_208]
-26-10	2735-2743	practice	place[208]	giv:inact[208]	nonsal[208]	_	cf4[206]|cf5[207]|cf2[208]	_	_
+26-9	2730-2734	your	place[208]|person[209]	giv:inact[208]|giv:act[209]	sal[208]|sal[209]	_	cf4[206]|cf5[207]|cf2[208]|cf1*[209]	coref|ana	28-12[226_208]|28-3[220_209]
+26-10	2735-2743	practice	place[208]	giv:inact[208]	sal[208]	_	cf4[206]|cf5[207]|cf2[208]	_	_
 26-11	2744-2745	,	_	_	_	_	_	_	_
 26-12	2746-2749	and	_	_	_	_	_	_	_
 26-13	2750-2754	many	_	_	_	_	cf6[211]	_	_
@@ -621,7 +621,7 @@
 #Text=We pray you will either make the right choice and use your medical practice to heal instead of kill , or that God will bring judgment on you , the likes of which you can not imagine .
 28-1	2873-2875	We	person[219]	giv:act[219]	nonsal[219]	_	cf1*[219]	ana	29-1[236_219]
 28-2	2876-2880	pray	_	_	_	_	_	_	_
-28-3	2881-2884	you	person[220]	giv:inact[220]	nonsal[220]	_	cf2[220]	ana	28-12[227_220]
+28-3	2881-2884	you	person[220]	giv:inact[220]	sal[220]	_	cf2[220]	ana	28-12[227_220]
 28-4	2885-2889	will	_	_	_	_	_	_	_
 28-5	2890-2896	either	_	_	_	_	_	_	_
 28-6	2897-2901	make	_	_	_	_	_	_	_
@@ -630,9 +630,9 @@
 28-9	2912-2918	choice	_	_	_	_	cf5[225]	_	_
 28-10	2919-2922	and	_	_	_	_	_	_	_
 28-11	2923-2926	use	_	_	_	_	_	_	_
-28-12	2927-2931	your	place[226]|person[227]	giv:inact[226]|giv:act[227]	nonsal[226]|nonsal[227]	_	cf4[226]|cf2[227]	ana	28-28[232_227]
-28-13	2932-2939	medical	place[226]	giv:inact[226]	nonsal[226]	_	cf4[226]	_	_
-28-14	2940-2948	practice	place[226]	giv:inact[226]	nonsal[226]	_	cf4[226]	_	_
+28-12	2927-2931	your	place[226]|person[227]	giv:inact[226]|giv:act[227]	sal[226]|sal[227]	_	cf4[226]|cf2[227]	ana	28-28[232_227]
+28-13	2932-2939	medical	place[226]	giv:inact[226]	sal[226]	_	cf4[226]	_	_
+28-14	2940-2948	practice	place[226]	giv:inact[226]	sal[226]	_	cf4[226]	_	_
 28-15	2949-2951	to	_	_	_	_	_	_	_
 28-16	2952-2956	heal	_	_	_	_	_	_	_
 28-17	2957-2964	instead	_	_	_	_	_	_	_
@@ -646,13 +646,13 @@
 28-25	2992-2997	bring	_	_	_	_	_	_	_
 28-26	2998-3006	judgment	_	_	_	_	cf7[231]	_	_
 28-27	3007-3009	on	_	_	_	_	cf7[231]	_	_
-28-28	3010-3013	you	person[232]	giv:act[232]	nonsal[232]	_	cf7[231]|cf2[232]	ana	28-34[235_232]
+28-28	3010-3013	you	person[232]	giv:act[232]	sal[232]	_	cf7[231]|cf2[232]	ana	28-34[235_232]
 28-29	3014-3015	,	_	_	_	_	cf7[231]	_	_
 28-30	3016-3019	the	_	_	_	_	cf7[231]|cf6[234]	_	_
 28-31	3020-3025	likes	_	_	_	_	cf7[231]|cf6[234]	_	_
 28-32	3026-3028	of	_	_	_	_	cf7[231]|cf6[234]	_	_
 28-33	3029-3034	which	_	_	_	_	cf7[231]|cf6[234]	_	_
-28-34	3035-3038	you	person[235]	giv:act[235]	nonsal[235]	_	cf7[231]|cf2[235]	ana	29-5[237_235]
+28-34	3035-3038	you	person[235]	giv:act[235]	sal[235]	_	cf7[231]|cf2[235]	ana	29-5[237_235]
 28-35	3039-3042	can	_	_	_	_	cf7[231]	_	_
 28-36	3043-3046	not	_	_	_	_	cf7[231]	_	_
 28-37	3047-3054	imagine	_	_	_	_	cf7[231]	_	_
@@ -663,7 +663,7 @@
 29-2	3060-3062	do	_	_	_	_	_	_	_
 29-3	3063-3066	n't	_	_	_	_	_	_	_
 29-4	3067-3071	want	_	_	_	_	_	_	_
-29-5	3072-3075	you	person[237]	giv:act[237]	nonsal[237]	_	cf2[237]	ana	30-14[249_237]
+29-5	3072-3075	you	person[237]	giv:act[237]	sal[237]	_	cf2[237]	ana	30-14[249_237]
 29-6	3076-3083	killing	_	_	_	_	_	_	_
 29-7	3084-3087	our	person[242]	giv:act[242]	nonsal[242]	_	cf3[241]|cf1*[242]	ana	29-10[245_242]
 29-8	3088-3096	children	_	_	_	_	cf3[241]	_	_
@@ -686,7 +686,7 @@
 30-11	3165-3169	will	_	_	_	_	_	_	_
 30-12	3170-3175	stand	_	_	_	_	_	_	_
 30-13	3176-3183	against	_	_	_	_	_	_	_
-30-14	3184-3187	you	person[249]	giv:act[249]	nonsal[249]	_	cf1*[249]	ana	31-12[255_249]
+30-14	3184-3187	you	person[249]	giv:act[249]	sal[249]	_	cf1*[249]	ana	31-12[255_249]
 30-15	3188-3193	every	_	_	_	_	cf4[251]	_	_
 30-16	3194-3198	step	_	_	_	_	cf4[251]	_	_
 30-17	3199-3201	of	_	_	_	_	cf4[251]	_	_
@@ -706,7 +706,7 @@
 31-9	3248-3254	stupid	_	_	_	_	cf3[254]	_	_
 31-10	3255-3259	plan	_	_	_	_	cf3[254]	_	_
 31-11	3260-3262	of	_	_	_	_	cf3[254]	_	_
-31-12	3263-3268	yours	person[255]	giv:act[255]	nonsal[255]	_	cf3[254]|cf1*[255]	ana	32-8[260_255]
+31-12	3263-3268	yours	person[255]	giv:act[255]	sal[255]	_	cf3[254]|cf1*[255]	ana	32-8[260_255]
 31-13	3269-3270	.	_	_	_	_	_	_	_
 
 #Text=It 's not too late to change your mind .
@@ -717,11 +717,11 @@
 32-5	3285-3289	late	_	_	_	_	_	_	_
 32-6	3290-3292	to	_	_	_	_	_	_	_
 32-7	3293-3299	change	_	_	_	_	_	_	_
-32-8	3300-3304	your	person[260]	giv:act[260]	nonsal[260]	_	cf3[259]|cf1*[260]	_	_
+32-8	3300-3304	your	person[260]	giv:act[260]	sal[260]	_	cf3[259]|cf1*[260]	_	_
 32-9	3305-3309	mind	_	_	_	_	cf3[259]	_	_
 32-10	3310-3311	.	_	_	_	_	_	_	_
 
 #Text=Angel Dillard
-33-1	3312-3317	Angel	person[262]	giv:inact[262]	nonsal[262]	_	cf1[262]	_	_
-33-2	3318-3325	Dillard	person[262]	giv:inact[262]	nonsal[262]	_	cf1[262]	_	_
+33-1	3312-3317	Angel	person[262]	giv:inact[262]	sal[262]	_	cf1[262]	_	_
+33-2	3318-3325	Dillard	person[262]	giv:inact[262]	sal[262]	_	cf1[262]	_	_
 

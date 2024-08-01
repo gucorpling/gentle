@@ -11,7 +11,7 @@
               (VBZ has)
               (VP
                 (VBN launched)
-                (NP-TMP (ADJP (CD one) (JJR more)) (NN time))))))))
+                (NP-EXT (ADJP (CD one) (JJR more)) (NN time))))))))
     (, ,)
     (NP-SBJ
       (DT the)
@@ -207,7 +207,7 @@
         (, ,)))
     (VP
       (VBD qualified)
-      (NP-TMP (DT the) (RB very) (JJ first) (NN week))
+      (NP (DT the) (RB very) (JJ first) (NN week))
       (PP (IN for) (NP (DT the) (NNP World) (NNP Cup))))
     (. .)))
 
@@ -321,7 +321,7 @@
                 (TO na)
                 (VP
                   (VB ask)
-                  (NP (PRP him))
+                  (NP-SBJ (PRP him))
                   (S
                     (VP
                       (TO to)
@@ -344,7 +344,7 @@
     (S
       (VP
         (VB Pay)
-        (NP (PRP$ his) (NN butler))
+        (NP-SBJ (PRP$ his) (NN butler))
         (S (VP (TO to) (VP (VB do) (NP (DT that)))))))
     (. ,)
     (NP-SBJ (PRP I))
@@ -742,7 +742,7 @@
 
 (ROOT
   (S
-    (NP (NP (DT That) (NN player)) (ADVP (RB down) (RB below)))
+    (NP-SBJ (NP (DT That) (NN player)) (ADVP (RB down) (RB below)))
     (VP
       (VBG gon)
       (S
@@ -776,7 +776,7 @@
               (TO na)
               (VP
                 (VB roll)
-                (ADVP (NP-ADV (PDT all) (DT the) (NN way)) (RB down))))))))
+                (ADVP (NP (PDT all) (DT the) (NN way)) (RB down))))))))
     (VP
       (VBZ looks)
       (PP
@@ -805,7 +805,7 @@
                 (PRT (RP off))
                 (PP (IN against) (NP (DT each) (JJ other)))
                 (NP
-                  (NP-TMP (DT a) (NN number))
+                  (NP (DT a) (NN number))
                   (PP (IN of) (NP (NNS times))))))))))
     (, ,)
     (VP
@@ -904,7 +904,7 @@
             (NP-PRD
               (NP (PRP$ our) (JJ final) (NN game))
               (ADVP (RB here))
-              (NP-TMP (NN tonight)))))))
+              (NP (NN tonight)))))))
     (. .)))
 
 (ROOT
@@ -933,7 +933,7 @@
         (VBN said)
         (SBAR
           (S
-            (NP
+            (NP-SBJ
               (NP (DT the) (NNS millions))
               (PP
                 (IN of)
@@ -1306,9 +1306,7 @@
                   (MD may)
                   (VP
                     (VB be)
-                    (ADJP-PRD
-                      (NP-ADV (DT a) (JJ little))
-                      (JJ sparse))
+                    (ADJP-PRD (NP (DT a) (JJ little)) (JJ sparse))
                     (PP
                       (IN in)
                       (NP

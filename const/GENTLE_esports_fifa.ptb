@@ -321,22 +321,20 @@
           (VP
             (TO na)
             (VP
-              (VB be)
-              (ADJP-PRD (JJ tough))
-              (NP
-                (NP-ADV (PDT all) (DT the) (NN time))
-                (SBAR
-                  (S
-                    (NP-SBJ (PRP you))
-                    (VP
-                      (VBP 've)
-                      (PP
-                        (IN as)
-                        (ADJP
-                          (RB just)
-                          (RB way)
-                          (RB too)
-                          (JJ strong))))))))))))
+              (VP
+                (VB be)
+                (ADJP-PRD (JJ tough))
+                (NP (PDT all) (DT the) (NN time)))
+              (SBAR
+                (S
+                  (NP-SBJ (NNP UVA))
+                  (VP
+                    (VBZ 's)
+                    (ADJP-PRD
+                      (RB just)
+                      (RB way)
+                      (RB too)
+                      (JJ strong))))))))))
     (. .)))
 
 (ROOT
@@ -396,7 +394,7 @@
 (ROOT
   (S
     (S
-      (NP-ADV (DT The) (JJ last) (NN match))
+      (NP (DT The) (JJ last) (NN match))
       (NP-SBJ (PRP he))
       (VP (VBD scored) (NP (NNP Jović))))
     (RB so)
@@ -753,7 +751,7 @@
         (NP (NNP Galano))
         (PP-LOC (IN in) (NP (DT some) (NN space)))))
     (, ,)
-    (S (NP-SBJ (NN somebody)) (VP (VB take) (NP (DT a) (NN shot))))
+    (S (NP-VOC (NN somebody)) (VP (VB take) (NP (DT a) (NN shot))))
     (. .)))
 
 (ROOT
@@ -761,7 +759,7 @@
     (UH Ok)
     (NP (NNP Favilli))
     (CC and)
-    (PP (IN of) (WHNP (WP what)))
+    (PP (IN of) (: —) (WHNP (WP what)))
     (. ?)))
 
 (ROOT
@@ -782,7 +780,7 @@
 (ROOT
   (S
     (S
-      (NP-TMP (CD One) (NN minute))
+      (NP-EXT (CD One) (NN minute))
       (NP-SBJ (PRP it))
       (VP
         (VBD looked)
@@ -801,7 +799,7 @@
     (, ,)
     (S
       (S
-        (NP-TMP (DT the) (JJ next))
+        (NP (DT the) (JJ next))
         (S
           (NP-SBJ (NNP Favilli))
           (VP (VBZ is) (VP (VBG scoring) (NP (DT a) (NN penalty))))))
@@ -843,7 +841,7 @@
           (VP
             (VBG doing)
             (NP (RB absolutely) (NN nothing))
-            (NP-TMP (DT all) (NN match))))))
+            (NP (DT all) (NN match))))))
     (. .)))
 
 (ROOT
@@ -907,7 +905,7 @@
             (NP
               (NP (DT a) (JJ simple) (NN bicycle) (NN kick))
               (PP-LOC (IN in) (NP (DT the) (NN Box))))
-            (NP-TMP (RB even) (DT a) (NN moment))))))
+            (NP (RB even) (DT a) (NN moment))))))
     (, ,)
     (S
       (NP-SBJ (PRP I))
@@ -927,14 +925,13 @@
         (NP-SBJ (NNP Adam))
         (VBZ gets)
         (ADJP
-          (ADJP-PRD
-            (JJ frustrated)
-            (PP
-              (IN about)
-              (S-NOM
-                (VP (VBG losing) (PP (IN against) (NP (NNP Genoa)))))))
-          (, ,)
-          (NP (ADJP (CD one) (NN nil)) (JJ complete) (NN BS)))
+          (VBN frustrated)
+          (PP
+            (IN about)
+            (S-NOM
+              (VP (VBG losing) (PP (IN against) (NP (NNP Genoa)))))))
+        (, ,)
+        (NP (ADJP (CD one) (NN nil)) (JJ complete) (NN BS))
         (, ,)
         (SBAR
           (WHADVP (WRB how))
@@ -971,7 +968,7 @@
                     (NP-SBJ (WP who))
                     (S
                       (S
-                        (NP (NP-TMP (NN today) (VBZ 's)) (UH ah))
+                        (NP (NP (NN today) (VBZ 's)) (UH ah))
                         (VP
                           (VBZ is)
                           (ADVP
@@ -1140,7 +1137,7 @@
                     (PP
                       (IN for)
                       (NP (DT the) (NNPS Champions) (NNP League)))
-                    (NP-TMP (DT this) (NN season)))))
+                    (NP (DT this) (NN season)))))
               (S
                 (NP-SBJ (PRP they))
                 (VP

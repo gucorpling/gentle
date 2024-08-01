@@ -1,4 +1,4 @@
-<text id="GENTLE_medical_hiv" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-09" dateModified="2022-11-09"  shortTitle="hiv" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2275-HIV%20Followup" speakerCount="0" speakerList="none" title="HIV Followup" type="medical">
+<text id="GENTLE_medical_hiv" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-12" dateCreated="2022-11-09" dateModified="2022-11-09"  shortTitle="hiv" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=2275-HIV%20Followup" speakerCount="0" speakerList="none" title="HIV Followup" type="medical" summary="A physician report on examining a 41-year-old white male with HIV disease (stable control on Atripla), resolving left gluteal abscess, diabetes on oral therapy, hypertension, depression and chronic pain, and plans to continue medication (Gabapentin, Metformin, Glipizide, Atripla etc.) and psychological treatment, order lab work in 3-4 weeks and then see him a few weeks later.">
 <head rend="bold red">
 <s type="frag" transition="establishment">
 Description	NN	description	NN1	NOUN	root	Descrip-tion
@@ -254,7 +254,7 @@ following	VVG	follow	VVG	VERB	conj	follow-ing
 up	RP	up	AVP	ADP	compound:prt	_
 with	IN	with	PRP	ADP	case	_
 Surgery	NP	Surgery	NP0	PROPN	obl	_
-today	NN	today	NN1	NOUN	obl:tmod	to-day
+today	NN	today	NN1	NOUN	obl:unmarked	to-day
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -268,7 +268,7 @@ MEDICATIONS	NNS	medication	NN2	NOUN	root	MED-IC-AT-ION-S
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="null">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 Gabapentin	NP	Gabapentin	NP0	PROPN	root	_
 600	CD	600	CRD	NUM	nummod	_
 mg	NNS	milligram	NN2	NOUN	orphan	_
@@ -279,66 +279,66 @@ night	NN	night	NN1	NOUN	obl	_
 </item>
 <item n="2">
 <s type="frag" transition="null">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Metformin	NP	Metformin	NP0	PROPN	root	_
 1000	CD	1000	CRD	NUM	nummod	_
 mg	NNS	milligram	NN2	NOUN	orphan	_
 twice	RB	twice	AV0	ADV	advmod	_
 a	DT	a	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="3">
 <s type="frag" transition="establishment">
-3.	LS	3.	CRD	X	dep	_
+3.	LS	3.	CRD	X	discourse	_
 Glipizide	NP	Glipizide	NP0	PROPN	root	_
 5	CD	5	CRD	NUM	nummod	_
 mg	NNS	milligram	NN2	NOUN	appos	_
 a	DT	a	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="4">
 <s type="frag" transition="continue">
-4.	LS	4.	CRD	X	dep	_
+4.	LS	4.	CRD	X	discourse	_
 Flagyl	NP	Flagyl	NP0	PROPN	root	_
 500	CD	500	CRD	NUM	nummod	_
 mg	NNS	milligram	NN2	NOUN	appos	_
 four	CD	four	CRD	NUM	nummod	_
-times	NNS	time	NN2	NOUN	obl:npmod	time-s
+times	NNS	time	NN2	NOUN	obl:unmarked	time-s
 a	DT	a	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="5">
 <s type="frag" transition="continue">
-5.	LS	5.	CRD	X	dep	_
+5.	LS	5.	CRD	X	discourse	_
 Flexeril	NP	Flexeril	NP0	PROPN	root	_
 10	CD	10	CRD	NUM	nummod	_
 mg	NN	milligram	NN1	NOUN	appos	_
 twice	RB	twice	AV0	ADV	advmod	_
 a	DT	a	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="6">
 <s type="frag" transition="continue">
-6.	LS	6.	CRD	X	dep	_
+6.	LS	6.	CRD	X	discourse	_
 Paroxetine	NP	Paroxetine	NP0	PROPN	root	_
 20	CD	20	CRD	NUM	nummod	_
 mg	NN	milligram	NN1	NOUN	appos	_
 a	DT	a	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="7">
 <s type="frag" transition="zero">
-7.	LS	7.	CRD	X	dep	_
+7.	LS	7.	CRD	X	discourse	_
 Atripla	NP	Atripla	NP0	PROPN	root	_
 one	CD	one	CRD	NUM	appos	_
 at	IN	at	PRP	ADP	case	_
@@ -348,21 +348,21 @@ night	NN	night	NN1	NOUN	obl	_
 </item>
 <item n="8">
 <s type="frag" transition="null">
-8.	LS	8.	CRD	X	dep	_
+8.	LS	8.	CRD	X	discourse	_
 Clonazepam	NP	Clonazepam	NP0	PROPN	root	_
 1	CD	1	CRD	NUM	nummod	_
 mg	NN	milligram	NN1	NOUN	appos	_
 twice	RB	twice	AV0	ADV	advmod	_
 a	DT	a	AT0	DET	det	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="9">
 <s type="frag" transition="null">
-9.	LS	9.	CRD	X	dep	_
+9.	LS	9.	CRD	X	discourse	_
 Blood	NN	blood	NN1	NOUN	compound	_
-pressure	NN	pressure	NN1	NOUN	compound	_
+pressure	NN	pressure	NN1	NOUN	compound	press-ure
 medicine	NN	medicine	NN1	NOUN	root	medic-ine
 ,	,	,	PUN	PUNCT	punct	_
 name	NN	name	NN1	NOUN	nsubj	_
@@ -385,7 +385,7 @@ He	PP	he	PNP	PRON	nsubj	_
 otherwise	RB	otherwise	AV0	ADV	advmod	other-wise
 has	VHZ	have	VHZ	VERB	root	ha-s
 a	DT	a	AT0	DET	det	_
-negative	JJ	negative	AJ0	ADJ	amod	_
+negative	JJ	negative	AJ0	ADJ	amod	neg-at-ive
 review	NN	review	NN1	NOUN	obj	re-view
 of	IN	of	PRF	ADP	case	_
 systems	NNS	system	NN2	NOUN	nmod	system-s
@@ -410,7 +410,7 @@ Temperature	NN	temperature	NN1	NOUN	nsubj	Temperat-ure
 36.6	CD	36.6	CRD	NUM	root	_
 ,	,	,	PUN	PUNCT	punct	_
 blood	NN	blood	NN1	NOUN	compound	_
-pressure	NN	pressure	NN1	NOUN	nsubj	_
+pressure	NN	pressure	NN1	NOUN	nsubj	press-ure
 <w>
 145	CD	145	CRD	NUM	conj	_
 /	SYM	/	UNC	SYM	case	_
@@ -485,7 +485,7 @@ regular	JJ	regular	AJ0	ADJ	amod	_
 rate	NN	rate	NN1	NOUN	obj	_
 and	CC	and	CJC	CCONJ	cc	_
 rhythm	NN	rhythm	NN1	NOUN	conj	_
-without	IN	without	PRP	ADP	case	_
+without	IN	without	PRP	ADP	case	with-out
 murmur	NN	murmur	NN1	NOUN	nmod	_
 ,	,	,	PUN	PUNCT	punct	_
 rub	NN	rub	NN1	NOUN	conj	_
@@ -501,7 +501,7 @@ ABDOMEN	NN	abdomen	NN1	NOUN	dep	_
 Soft	JJ	soft	AJ0	ADJ	root	_
 and	CC	and	CJC	CCONJ	cc	_
 nontender	NN	nontender	NN1	NOUN	conj	non-tender
-without	IN	without	PRP	ADP	case	_
+without	IN	without	PRP	ADP	case	with-out
 organomegaly	NN	organomegaly	NN1	NOUN	obl	organo-mega-ly
 or	CC	or	CJC	CCONJ	cc	_
 mass	NN	mass	NN1	NOUN	conj	_
@@ -554,7 +554,7 @@ IMPRESSION	NN	impression	NN1	NOUN	root	IMPRESS-ION
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="null">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 Human	JJ	human	AJ0	ADJ	amod	_
 immunodeficiency	NN	immunodeficiency	NN1	NOUN	compound	immuno-defic-ien-cy
 virus	NN	virus	NN1	NOUN	compound	_
@@ -569,7 +569,7 @@ Atripla	NP	Atripla	NP0	PROPN	nmod	_
 </item>
 <item n="2">
 <s type="ger" transition="null">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Resolving	VVG	resolve	VVG	VERB	amod	Resolv-ing
 left	JJ	left	AJ0	ADJ	amod	_
 gluteal	JJ	gluteal	AJ0	ADJ	amod	_
@@ -582,7 +582,7 @@ Flagyl	NP	Flagyl	NP0	PROPN	obj	_
 </item>
 <item n="3">
 <s type="frag" transition="null">
-3.	LS	3.	CRD	X	dep	_
+3.	LS	3.	CRD	X	discourse	_
 Diabetes	NP	diabetes	NP0	PROPN	root	_
 mellitus	NP	mellitus	NP0	PROPN	flat	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -595,21 +595,21 @@ therapy	NN	therapy	NN1	NOUN	nmod	_
 </item>
 <item n="4">
 <s type="frag" transition="null">
-4.	LS	4.	CRD	X	dep	_
+4.	LS	4.	CRD	X	discourse	_
 Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="5">
 <s type="frag" transition="null">
-5.	LS	5.	CRD	X	dep	_
+5.	LS	5.	CRD	X	discourse	_
 Depression	NN	depression	NN1	NOUN	root	Depress-ion
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
 <item n="6">
 <s type="frag" transition="null">
-6.	LS	6.	CRD	X	dep	_
+6.	LS	6.	CRD	X	discourse	_
 Chronic	JJ	chronic	AJ0	ADJ	amod	_
 musculoskeletal	JJ	musculoskeletal	AJ0	ADJ	amod	musculo-skelet-al
 pain	NN	pain	NN1	NOUN	root	_
@@ -659,7 +659,7 @@ see	VV	see	VVI	VERB	conj	_
 him	PP	he	PNP	PRON	obj	_
 a	DT	a	AT0	DET	det	_
 few	JJ	few	DT0	ADJ	amod	_
-weeks	NNS	week	NN2	NOUN	obl:tmod	week-s
+weeks	NNS	week	NN2	NOUN	obl:unmarked	week-s
 thereafter	RB	thereafter	AV0	ADV	advmod	there-after
 .	SENT	.	PUN	PUNCT	punct	_
 </s>

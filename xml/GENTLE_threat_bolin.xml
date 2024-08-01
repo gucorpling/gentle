@@ -1,4 +1,4 @@
-<text id="GENTLE_threat_bolin" partition="test" author="Bolin, Paul" dateCollected="2022-11-14" dateCreated="1990-06-25" dateModified="1990-06-25" shortTitle="bolin" sourceURL="https://casetext.com/case/people-v-bolin" speakerCount="0" speakerList="none" title="People v. Bolin, 18 Cal. 4th 297, 336, 956 P.2d 374, 401, 75 Cal. Rptr. 2d 412, 439, 1998 Cal. LEXIS 3645, *65, 98 Daily Journal DAR 6653, 98 Cal. Daily Op. Service 4680 (Cal. June 18, 1998)" type="threat">
+<text id="GENTLE_threat_bolin" partition="test" author="Paul Bolin" dateCollected="2022-11-14" dateCreated="1990-06-25" dateModified="1990-06-25" shortTitle="bolin" sourceURL="https://casetext.com/case/people-v-bolin" speakerCount="0" speakerList="none" title="People v. Bolin, 18 Cal. 4th 297, 336, 956 P.2d 374, 401, 75 Cal. Rptr. 2d 412, 439, 1998 Cal. LEXIS 3645, *65, 98 Daily Journal DAR 6653, 98 Cal. Daily Op. Service 4680 (Cal. June 18, 1998)" type="threat" summary="In a letter to Jerry on 6/25/90, the author threatens Jerry for hitting their daughter Paula and underreporting how much he got for some vehicles, and then demands that Jerry return the author and Paula's things such as clothes, books, a gun, TV and VCR to Paula within a week or suffer the consequences.">
 <p>
 <s type="frag" transition="establishment">
 Jerry	NP	Jerry	NP0	PROPN	root	_
@@ -61,7 +61,7 @@ to	TO	to	TO0	PART	mark	_
 say	VV	say	VVI	VERB	xcomp	_
 this	DT	this	DT0	PRON	obj	_
 one	CD	one	CRD	NUM	nummod	_
-time	NN	time	NN1	NOUN	obl:tmod	_
+time	NN	time	NN1	NOUN	obl:unmarked	_
 so	IN	so	CJS	SCONJ	mark	_
 you	PP	you	PNP	PRON	nsubj	_
 better	RBR	well	AV0	ADV	advmod	bett-er
@@ -191,7 +191,7 @@ can	MD	can	VM0	AUX	aux	_
 kiss	VV	kiss	VVI	VERB	conj	_
 your	PP$	your	DPS	PRON	nmod:poss	_
 ass	NN	ass	NN1	NOUN	obj	_
-goodbye	NN	goodbye	NN1	NOUN	obl:npmod	_
+goodbye	NN	goodbye	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -230,7 +230,7 @@ place	NN	place	NN1	NOUN	obl	_
 You	PP	you	PNP	PRON	nsubj	_
 sounded	VVD	sound	VVD	VERB	root	sound-ed
 a	DT	a	AT0	DET	det	_
-little	JJ	little	AJ0	ADJ	obl:npmod	_
+little	JJ	little	AJ0	ADJ	obl:unmarked	_
 shaky	JJ	shaky	AJ0	ADJ	xcomp	_
 over	IN	over	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
@@ -247,7 +247,7 @@ told	VVD	tell	VVD	VERB	root	tol-d
 you	PP	you	PNP	PRON	iobj	_
 a	DT	a	AT0	DET	det	_
 long	JJ	long	AJ0	ADJ	amod	_
-time	NN	time	NN1	NOUN	obl:tmod	_
+time	NN	time	NN1	NOUN	obl:unmarked	_
 ago	RB	ago	AV0	ADV	advmod	a-go
 do	VVP	do	VD	AUX	aux	_
 n't	RB	not	XX0	PART	advmod	_
@@ -325,7 +325,7 @@ done	VVN	do	VDN	VERB	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="multiple" transition="continue">
-Everything	NN	everything	NN1	PRON	dislocated	_
+Everything	NN	everything	NN1	PRON	dislocated	Every-thing
 that	WDT	that	CJT	PRON	nsubj	_
 's	VBZ	be	VBZ	AUX	cop	_
 mine	PP	my	PNP	PRON	acl:relcl	_
@@ -433,7 +433,7 @@ handle	VV	handle	VVI	VERB	acl	hand-le
 <s type="frag" transition="continue">
 1	CD	1	CRD	NUM	nummod	_
 week	NN	week	NN1	NOUN	root	_
-asshole	NN	asshole	NN1	NOUN	vocative	_
+asshole	NN	asshole	NN1	NOUN	vocative	ass-hole
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>

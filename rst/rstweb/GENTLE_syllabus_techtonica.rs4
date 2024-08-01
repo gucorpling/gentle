@@ -34,6 +34,18 @@
 			<rel name="topic-question" type="rst"/>
 			<rel name="topic-solutionhood" type="rst"/>
 		</relations>
+		<sigtypes>
+			<sig type="dm" subtypes="dm"/>
+			<sig type="graphical" subtypes="colon;dash;items_in_sequence;layout;parentheses;question_mark;quotation_marks;semicolon"/>
+			<sig type="lexical" subtypes="alternate_expression;indicative_phrase;indicative_word"/>
+			<sig type="morphological" subtypes="mood;tense"/>
+			<sig type="numerical" subtypes="same_count"/>
+			<sig type="orphan" subtypes="orphan"/>
+			<sig type="reference" subtypes="comparative_reference;demonstrative_reference;personal_reference;propositional_reference"/>
+			<sig type="semantic" subtypes="antonymy;attribution_source;lexical_chain;meronymy;negation;repetition;synonymy"/>
+			<sig type="syntactic" subtypes="infinitival_clause;interrupted_matrix_clause;modified_head;nominal_modifier;parallel_syntactic_construction;past_participial_clause;present_participial_clause;relative_clause;reported_speech;subject_auxiliary_inversion"/>
+			<sig type="unsure" subtypes="unsure"/>
+		</sigtypes>
 	</header>
 	<body>
 		<segment id="1" parent="384" relname="organization-preparation">Welcome to the Techtonica curriculum !</segment>
@@ -413,15 +425,272 @@
 		<group id="375" type="span" parent="374" relname="organization-preparation"/>
 		<group id="376" type="span" parent="377" relname="span"/>
 		<group id="377" type="span" parent="371" relname="organization-preparation"/>
-		<group id="378" type="span" parent="383" relname="joint-other"/>
-		<group id="379" type="multinuc" parent="383" relname="joint-other"/>
+		<group id="378" type="span" parent="383" relname="joint-list"/>
+		<group id="379" type="multinuc" parent="383" relname="joint-list"/>
 		<group id="380" type="multinuc" parent="379" relname="joint-other"/>
 		<group id="381" type="span" parent="382" relname="span"/>
-		<group id="382" type="span" parent="383" relname="joint-other"/>
+		<group id="382" type="span" parent="383" relname="joint-list"/>
 		<group id="383" type="multinuc" parent="384" relname="joint-other"/>
 		<group id="384" type="multinuc" parent="385" relname="span"/>
-		<group id="385" type="span" />
+		<group id="385" type="span"/>
 		<group id="386" type="span" parent="335" relname="joint-list"/>
+		<secedges>
+			<secedge id="281-373" source="281" target="373" relname="explanation-motivation"/>
+		</secedges>
+		<signals>
+			<signal source="1" type="semantic" subtype="repetition" tokens="4,7"/>
+			<signal source="3" type="syntactic" subtype="modified_head" tokens="11"/>
+			<signal source="3" type="syntactic" subtype="relative_clause" tokens="14,15"/>
+			<signal source="4" type="semantic" subtype="synonymy" tokens="34,35,37"/>
+			<signal source="4" type="graphical" subtype="colon" tokens="36"/>
+			<signal source="7" type="syntactic" subtype="present_participial_clause" tokens="49"/>
+			<signal source="9" type="syntactic" subtype="modified_head" tokens="61"/>
+			<signal source="9" type="syntactic" subtype="nominal_modifier" tokens="62,66"/>
+			<signal source="11" type="semantic" subtype="lexical_chain" tokens="75,76,85" status="gold"/>
+			<signal source="11" type="dm" subtype="dm" tokens="77" status="gold"/>
+			<signal source="14" type="dm" subtype="dm" tokens="104,105" status="gold"/>
+			<signal source="15" type="reference" subtype="personal_reference" tokens="111,114"/>
+			<signal source="15" type="graphical" subtype="parentheses" tokens="112,123"/>
+			<signal source="15" type="syntactic" subtype="relative_clause" tokens="113,117"/>
+			<signal source="18" type="graphical" subtype="parentheses" tokens="135,147"/>
+			<signal source="18" type="syntactic" subtype="modified_head" tokens="145"/>
+			<signal source="18" type="syntactic" subtype="nominal_modifier" tokens="146"/>
+			<signal source="19" type="dm" subtype="dm" tokens="148" status="gold"/>
+			<signal source="21" type="syntactic" subtype="infinitival_clause" tokens="192"/>
+			<signal source="22" type="semantic" subtype="repetition" tokens="203,204,205,206,208,209,210"/>
+			<signal source="22" type="semantic" subtype="repetition" tokens="206,210"/>
+			<signal source="26" type="dm" subtype="dm" tokens="228" status="gold"/>
+			<signal source="28" type="dm" subtype="dm" tokens="231" status="gold"/>
+			<signal source="31" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="33" type="graphical" subtype="colon" tokens="258"/>
+			<signal source="34" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="35" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="36" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="37" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="38" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="39" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="40" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="41" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="45" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="46" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="47" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="48" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="49" type="graphical" subtype="layout" tokens=""/>
+			<signal source="49" type="semantic" subtype="lexical_chain" tokens="341,354"/>
+			<signal source="50" type="dm" subtype="dm" tokens="347" status="gold"/>
+			<signal source="50" type="syntactic" subtype="present_participial_clause" tokens="348"/>
+			<signal source="52" type="syntactic" subtype="infinitival_clause" tokens="358"/>
+			<signal source="56" type="graphical" subtype="items_in_sequence" tokens="391"/>
+			<signal source="57" type="graphical" subtype="items_in_sequence" tokens="396"/>
+			<signal source="58" type="graphical" subtype="items_in_sequence" tokens="400"/>
+			<signal source="59" type="graphical" subtype="items_in_sequence" tokens="402"/>
+			<signal source="60" type="graphical" subtype="items_in_sequence" tokens="406"/>
+			<signal source="61" type="graphical" subtype="items_in_sequence" tokens="413"/>
+			<signal source="62" type="graphical" subtype="items_in_sequence" tokens="417"/>
+			<signal source="63" type="graphical" subtype="items_in_sequence" tokens="420"/>
+			<signal source="64" type="graphical" subtype="items_in_sequence" tokens="422"/>
+			<signal source="65" type="graphical" subtype="items_in_sequence" tokens="425"/>
+			<signal source="66" type="graphical" subtype="items_in_sequence" tokens="430"/>
+			<signal source="67" type="graphical" subtype="items_in_sequence" tokens="437"/>
+			<signal source="68" type="graphical" subtype="items_in_sequence" tokens="440"/>
+			<signal source="69" type="graphical" subtype="items_in_sequence" tokens="443"/>
+			<signal source="70" type="graphical" subtype="items_in_sequence" tokens="445"/>
+			<signal source="71" type="graphical" subtype="items_in_sequence" tokens="448"/>
+			<signal source="73" type="graphical" subtype="parentheses" tokens="454,456"/>
+			<signal source="75" type="graphical" subtype="colon" tokens="461"/>
+			<signal source="76" type="graphical" subtype="colon" tokens="467"/>
+			<signal source="78" type="dm" subtype="dm" tokens="472" status="gold"/>
+			<signal source="79" type="dm" subtype="dm" tokens="475,476" status="gold"/>
+			<signal source="80" type="graphical" subtype="items_in_sequence" tokens="480"/>
+			<signal source="81" type="graphical" subtype="items_in_sequence" tokens="482"/>
+			<signal source="82" type="graphical" subtype="items_in_sequence" tokens="486"/>
+			<signal source="83" type="graphical" subtype="items_in_sequence" tokens="491"/>
+			<signal source="85" type="graphical" subtype="colon" tokens="497"/>
+			<signal source="87" type="graphical" subtype="colon" tokens="503"/>
+			<signal source="89" type="graphical" subtype="items_in_sequence" tokens="511"/>
+			<signal source="90" type="graphical" subtype="items_in_sequence" tokens="513"/>
+			<signal source="91" type="graphical" subtype="items_in_sequence" tokens="519"/>
+			<signal source="92" type="graphical" subtype="items_in_sequence" tokens="522"/>
+			<signal source="93" type="graphical" subtype="items_in_sequence" tokens="525"/>
+			<signal source="94" type="semantic" subtype="synonymy" tokens="532,534,535,536,537,538"/>
+			<signal source="94" type="graphical" subtype="colon" tokens="533"/>
+			<signal source="97" type="graphical" subtype="parentheses" tokens="545,551"/>
+			<signal source="98" type="graphical" subtype="items_in_sequence" tokens="552"/>
+			<signal source="100" type="graphical" subtype="colon" tokens="560"/>
+			<signal source="101" type="graphical" subtype="items_in_sequence" tokens="507,562"/>
+			<signal source="102" type="graphical" subtype="items_in_sequence" tokens="565"/>
+			<signal source="103" type="graphical" subtype="items_in_sequence" tokens="569"/>
+			<signal source="104" type="graphical" subtype="items_in_sequence" tokens="571"/>
+			<signal source="106" type="graphical" subtype="colon" tokens="578"/>
+			<signal source="107" type="graphical" subtype="items_in_sequence" tokens="580"/>
+			<signal source="109" type="graphical" subtype="colon" tokens="588"/>
+			<signal source="111" type="graphical" subtype="colon" tokens="594"/>
+			<signal source="112" type="graphical" subtype="items_in_sequence" tokens="600"/>
+			<signal source="114" type="graphical" subtype="colon" tokens="609"/>
+			<signal source="115" type="graphical" subtype="items_in_sequence" tokens="612"/>
+			<signal source="116" type="graphical" subtype="items_in_sequence" tokens="617"/>
+			<signal source="118" type="graphical" subtype="colon" tokens="626"/>
+			<signal source="120" type="graphical" subtype="colon" tokens="637"/>
+			<signal source="123" type="graphical" subtype="items_in_sequence" tokens="646,655"/>
+			<signal source="123" type="semantic" subtype="lexical_chain" tokens="650,659" status="gold"/>
+			<signal source="124" type="graphical" subtype="items_in_sequence" tokens="662"/>
+			<signal source="125" type="graphical" subtype="items_in_sequence" tokens="671"/>
+			<signal source="126" type="graphical" subtype="items_in_sequence" tokens="676"/>
+			<signal source="127" type="graphical" subtype="items_in_sequence" tokens="682"/>
+			<signal source="128" type="graphical" subtype="items_in_sequence" tokens="688"/>
+			<signal source="129" type="graphical" subtype="items_in_sequence" tokens="690"/>
+			<signal source="130" type="graphical" subtype="items_in_sequence" tokens="694"/>
+			<signal source="131" type="graphical" subtype="items_in_sequence" tokens="698"/>
+			<signal source="135" type="graphical" subtype="items_in_sequence" tokens="711,718"/>
+			<signal source="137" type="graphical" subtype="colon" tokens="726"/>
+			<signal source="138" type="graphical" subtype="items_in_sequence" tokens="728"/>
+			<signal source="140" type="graphical" subtype="colon" tokens="733"/>
+			<signal source="141" type="graphical" subtype="items_in_sequence" tokens="738"/>
+			<signal source="143" type="graphical" subtype="colon" tokens="749"/>
+			<signal source="144" type="graphical" subtype="items_in_sequence" tokens="755"/>
+			<signal source="145" type="graphical" subtype="items_in_sequence" tokens="758"/>
+			<signal source="148" type="graphical" subtype="items_in_sequence" tokens="767,769"/>
+			<signal source="149" type="graphical" subtype="items_in_sequence" tokens="777"/>
+			<signal source="150" type="graphical" subtype="items_in_sequence" tokens="780"/>
+			<signal source="151" type="graphical" subtype="items_in_sequence" tokens="784"/>
+			<signal source="152" type="graphical" subtype="items_in_sequence" tokens="788"/>
+			<signal source="153" type="graphical" subtype="items_in_sequence" tokens="792"/>
+			<signal source="154" type="graphical" subtype="items_in_sequence" tokens="794"/>
+			<signal source="158" type="graphical" subtype="parentheses" tokens="814,816"/>
+			<signal source="159" type="graphical" subtype="items_in_sequence" tokens="801,817"/>
+			<signal source="160" type="graphical" subtype="items_in_sequence" tokens="819"/>
+			<signal source="161" type="graphical" subtype="items_in_sequence" tokens="824"/>
+			<signal source="162" type="graphical" subtype="items_in_sequence" tokens="827"/>
+			<signal source="163" type="graphical" subtype="items_in_sequence" tokens="831"/>
+			<signal source="164" type="graphical" subtype="items_in_sequence" tokens="834"/>
+			<signal source="166" type="graphical" subtype="parentheses" tokens="842,845"/>
+			<signal source="168" type="graphical" subtype="parentheses" tokens="849,852"/>
+			<signal source="170" type="graphical" subtype="parentheses" tokens="857,860"/>
+			<signal source="172" type="graphical" subtype="parentheses" tokens="864,867"/>
+			<signal source="173" type="graphical" subtype="items_in_sequence" tokens="868"/>
+			<signal source="174" type="graphical" subtype="items_in_sequence" tokens="872"/>
+			<signal source="177" type="graphical" subtype="items_in_sequence" tokens="886,896"/>
+			<signal source="178" type="graphical" subtype="items_in_sequence" tokens="898"/>
+			<signal source="181" type="graphical" subtype="items_in_sequence" tokens="906,913"/>
+			<signal source="182" type="graphical" subtype="items_in_sequence" tokens="917"/>
+			<signal source="183" type="semantic" subtype="lexical_chain" tokens="908,926" status="gold"/>
+			<signal source="183" type="graphical" subtype="items_in_sequence" tokens="924"/>
+			<signal source="184" type="graphical" subtype="items_in_sequence" tokens="929"/>
+			<signal source="186" type="semantic" subtype="repetition" tokens="942,944"/>
+			<signal source="189" type="graphical" subtype="items_in_sequence" tokens="952,960"/>
+			<signal source="190" type="graphical" subtype="items_in_sequence" tokens="967"/>
+			<signal source="192" type="graphical" subtype="layout" tokens=""/>
+			<signal source="192" type="semantic" subtype="repetition" tokens="977,978,982,983"/>
+			<signal source="194" type="graphical" subtype="items_in_sequence" tokens="979,984"/>
+			<signal source="195" type="graphical" subtype="colon" tokens="996"/>
+			<signal source="197" type="graphical" subtype="colon" tokens="1001"/>
+			<signal source="199" type="graphical" subtype="colon" tokens="1006"/>
+			<signal source="201" type="graphical" subtype="colon" tokens="1012"/>
+			<signal source="203" type="graphical" subtype="items_in_sequence" tokens="1015"/>
+			<signal source="204" type="graphical" subtype="colon" tokens="1021"/>
+			<signal source="206" type="graphical" subtype="layout" tokens=""/>
+			<signal source="206" type="semantic" subtype="repetition" tokens="1023,1029"/>
+			<signal source="207" type="graphical" subtype="layout" tokens=""/>
+			<signal source="207" type="graphical" subtype="items_in_sequence" tokens="1024"/>
+			<signal source="207" type="semantic" subtype="repetition" tokens="1027,1029"/>
+			<signal source="208" type="graphical" subtype="colon" tokens="1030"/>
+			<signal source="210" type="graphical" subtype="colon" tokens="1034"/>
+			<signal source="214" type="graphical" subtype="items_in_sequence" tokens="1041,1045"/>
+			<signal source="217" type="graphical" subtype="items_in_sequence" tokens="1056,1059"/>
+			<signal source="218" type="graphical" subtype="items_in_sequence" tokens="1064"/>
+			<signal source="219" type="semantic" subtype="synonymy" tokens="1068,1069,1070,1071,1073,1074,1075,1076,1077,1078,1079,1080,1081,1082,1083,1084"/>
+			<signal source="219" type="graphical" subtype="colon" tokens="1072"/>
+			<signal source="221" type="graphical" subtype="colon" tokens="1088"/>
+			<signal source="223" type="graphical" subtype="colon" tokens="1095"/>
+			<signal source="225" type="graphical" subtype="colon" tokens="1100"/>
+			<signal source="227" type="graphical" subtype="colon" tokens="1106"/>
+			<signal source="229" type="graphical" subtype="colon" tokens="1111"/>
+			<signal source="231" type="graphical" subtype="colon" tokens="1117"/>
+			<signal source="233" type="graphical" subtype="colon" tokens="1123"/>
+			<signal source="235" type="graphical" subtype="colon" tokens="1129"/>
+			<signal source="239" type="graphical" subtype="items_in_sequence" tokens="1141,1148"/>
+			<signal source="240" type="graphical" subtype="items_in_sequence" tokens="1150"/>
+			<signal source="241" type="graphical" subtype="items_in_sequence" tokens="1152"/>
+			<signal source="242" type="graphical" subtype="items_in_sequence" tokens="1155"/>
+			<signal source="243" type="graphical" subtype="items_in_sequence" tokens="1162"/>
+			<signal source="244" type="graphical" subtype="items_in_sequence" tokens="1169"/>
+			<signal source="246" type="semantic" subtype="repetition" tokens="1173,1174,1177,1178,1179"/>
+			<signal source="246" type="graphical" subtype="colon" tokens="1175"/>
+			<signal source="248" type="graphical" subtype="colon" tokens="1183"/>
+			<signal source="250" type="graphical" subtype="colon" tokens="1188"/>
+			<signal source="251" type="graphical" subtype="items_in_sequence" tokens="1192"/>
+			<signal source="252" type="graphical" subtype="items_in_sequence" tokens="1196"/>
+			<signal source="253" type="graphical" subtype="items_in_sequence" tokens="1199"/>
+			<signal source="254" type="graphical" subtype="items_in_sequence" tokens="1201"/>
+			<signal source="257" type="graphical" subtype="colon" tokens="1237"/>
+			<signal source="259" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="261" type="syntactic" subtype="infinitival_clause" tokens="1260"/>
+			<signal source="263" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="263" type="dm" subtype="dm" tokens="1269" status="gold"/>
+			<signal source="264" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="265" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="271" type="dm" subtype="dm" tokens="68" status="gold"/>
+			<signal source="276" type="syntactic" subtype="infinitival_clause" tokens="95"/>
+			<signal source="277" type="reference" subtype="personal_reference" tokens="111,125"/>
+			<signal source="278" type="semantic" subtype="repetition" tokens="87,179,180"/>
+			<signal source="278" type="reference" subtype="personal_reference" tokens="111,195"/>
+			<signal source="278" type="reference" subtype="personal_reference" tokens="137,176"/>
+			<signal source="279" type="graphical" subtype="layout" tokens=""/>
+			<signal source="280" type="dm" subtype="dm" tokens="223" status="gold"/>
+			<signal source="281-373" type="orphan" subtype="orphan" tokens="230" status="gold"/>
+			<signal source="282" type="semantic" subtype="repetition" tokens="309,310,313,314"/>
+			<signal source="283" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="284" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="289" type="semantic" subtype="lexical_chain" tokens="383,412" status="gold"/>
+			<signal source="290" type="graphical" subtype="items_in_sequence" tokens="384,452"/>
+			<signal source="291" type="graphical" subtype="items_in_sequence" tokens="457"/>
+			<signal source="294" type="graphical" subtype="items_in_sequence" tokens="463"/>
+			<signal source="295" type="graphical" subtype="items_in_sequence" tokens="493"/>
+			<signal source="298" type="graphical" subtype="items_in_sequence" tokens="540"/>
+			<signal source="299" type="graphical" subtype="items_in_sequence" tokens="531"/>
+			<signal source="300" type="graphical" subtype="items_in_sequence" tokens="584"/>
+			<signal source="305" type="graphical" subtype="items_in_sequence" tokens="810"/>
+			<signal source="306" type="graphical" subtype="items_in_sequence" tokens="838"/>
+			<signal source="307" type="graphical" subtype="items_in_sequence" tokens="846"/>
+			<signal source="308" type="graphical" subtype="items_in_sequence" tokens="853"/>
+			<signal source="309" type="graphical" subtype="items_in_sequence" tokens="861"/>
+			<signal source="310" type="graphical" subtype="items_in_sequence" tokens="556"/>
+			<signal source="311" type="graphical" subtype="items_in_sequence" tokens="574"/>
+			<signal source="312" type="graphical" subtype="items_in_sequence" tokens="591"/>
+			<signal source="313" type="graphical" subtype="items_in_sequence" tokens="606"/>
+			<signal source="314" type="graphical" subtype="items_in_sequence" tokens="621"/>
+			<signal source="315" type="graphical" subtype="items_in_sequence" tokens="634"/>
+			<signal source="316" type="graphical" subtype="items_in_sequence" tokens="724"/>
+			<signal source="317" type="semantic" subtype="repetition" tokens="708,712"/>
+			<signal source="318" type="graphical" subtype="items_in_sequence" tokens="730"/>
+			<signal source="319" type="graphical" subtype="items_in_sequence" tokens="746"/>
+			<signal source="320" type="semantic" subtype="repetition" tokens="885,893"/>
+			<signal source="321" type="lexical" subtype="indicative_word" tokens="907"/>
+			<signal source="325" type="graphical" subtype="items_in_sequence" tokens="993"/>
+			<signal source="326" type="graphical" subtype="items_in_sequence" tokens="998"/>
+			<signal source="327" type="graphical" subtype="items_in_sequence" tokens="1003"/>
+			<signal source="328" type="semantic" subtype="lexical_chain" tokens="983,1014" status="gold"/>
+			<signal source="328" type="graphical" subtype="items_in_sequence" tokens="1009"/>
+			<signal source="329" type="graphical" subtype="items_in_sequence" tokens="1018"/>
+			<signal source="331" type="graphical" subtype="items_in_sequence" tokens="1028,1032"/>
+			<signal source="335" type="semantic" subtype="repetition" tokens="973,974,982,983"/>
+			<signal source="338" type="graphical" subtype="items_in_sequence" tokens="1067"/>
+			<signal source="339" type="graphical" subtype="items_in_sequence" tokens="1085"/>
+			<signal source="340" type="graphical" subtype="items_in_sequence" tokens="1092"/>
+			<signal source="341" type="graphical" subtype="items_in_sequence" tokens="1097"/>
+			<signal source="342" type="graphical" subtype="items_in_sequence" tokens="1103"/>
+			<signal source="343" type="graphical" subtype="items_in_sequence" tokens="1108"/>
+			<signal source="344" type="graphical" subtype="items_in_sequence" tokens="1114"/>
+			<signal source="345" type="semantic" subtype="lexical_chain" tokens="1058,1121" status="gold"/>
+			<signal source="345" type="graphical" subtype="items_in_sequence" tokens="1120"/>
+			<signal source="346" type="graphical" subtype="items_in_sequence" tokens="1126"/>
+			<signal source="349" type="graphical" subtype="items_in_sequence" tokens="1172"/>
+			<signal source="350" type="graphical" subtype="items_in_sequence" tokens="1180"/>
+			<signal source="351" type="graphical" subtype="items_in_sequence" tokens="1186"/>
+			<signal source="353" type="graphical" subtype="items_in_sequence" tokens=""/>
+			<signal source="355" type="semantic" subtype="lexical_chain" tokens="1233,1238" status="gold"/>
+			<signal source="357" type="semantic" subtype="lexical_chain" tokens="1206,1207,1208,1211,1212,1213" status="gold"/>
+			<signal source="375" type="lexical" subtype="indicative_phrase" tokens="211,212"/>
+		</signals>
 	</body>
 </rst>
-

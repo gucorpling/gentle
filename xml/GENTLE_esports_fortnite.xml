@@ -1,4 +1,4 @@
-<text id="GENTLE_esports_fortnite" partition="test" author="youtube.com" dateCollected="2022-11-14" dateCreated="2019-07-28" dateModified="2019-07-28"  shortTitle="fortnite" sourceURL="https://www.youtube.com/watch?v=_zRaMRXCMrQ" speakerCount="2" speakerList="#Speaker1, #Jack" title="WORLD CUP SOLO'S FINAL MATCH | Fortnite World Cup Game 6 | Live commentary" type="esports">
+<text id="GENTLE_esports_fortnite" partition="test" author="youtube.com" dateCollected="2022-11-14" dateCreated="2019-07-28" dateModified="2019-07-28"  shortTitle="fortnite" sourceURL="https://www.youtube.com/watch?v=_zRaMRXCMrQ" speakerCount="2" speakerList="#Speaker1, #Jack" title="WORLD CUP SOLO'S FINAL MATCH | Fortnite World Cup Game 6 | Live commentary" type="esports" summary="In the Fortnite World Cup finals with 100 players on screen, Jack and another person discuss 16 year old Sentinels player Bugha, the current world champ who may win $3 million, while Skite is defeated, Maufin and Zayt fight by Loot Lake, BlastR fights outside Pressure Plant, letw1k3 beats JarkoS, and Pika, ranked 11th, takes down a player in Megamall, then tracks Kinstaar.">
 <sp who="#Speaker1" whom="#Aud,#Jack">
 <s type="decl" transition="establishment">
 As	IN	as	CJS	ADP	case	_
@@ -11,7 +11,7 @@ has	VHZ	have	VHZ	AUX	aux	ha-s
 launched	VVN	launch	VVN	VERB	root	launch-ed
 one	CD	one	PNI	NUM	nummod	_
 more	JJR	more	DT0	ADJ	amod	_
-time	NN	time	NN1	NOUN	obl:tmod	_
+time	NN	time	NN1	NOUN	obl:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
 Fortnite	NP	Fortnite	NP0	PROPN	compound	_
@@ -64,7 +64,7 @@ in	IN	in	PRP	ADP	case	_
 there	RB	there	AV0	ADV	obl	_
 the	DT	the	AT0	DET	det	_
 northeast	JJ	northeast	AJ0	ADJ	amod	north-east
-corner	NN	corner	NN1	NOUN	obl:npmod	_
+corner	NN	corner	NN1	NOUN	obl:unmarked	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
 map	NN	map	NN1	NOUN	nmod	_
@@ -154,7 +154,7 @@ lead	NN	lead	NN1	NOUN	obl	_
 the	DT	the	AT0	DET	det	_
 first	JJ	first	ORD	ADJ	amod	_
 five	CD	five	CRD	NUM	nummod	_
-games	NNS	game	NN2	NOUN	obl:npmod	game-s
+games	NNS	game	NN2	NOUN	obl:unmarked	game-s
 and	CC	and	CJC	CCONJ	cc	_
 it	PP	it	PNP	PRON	nsubj	_
 slipped	VVD	slip	VVD	VERB	conj	slipp-ed
@@ -233,7 +233,7 @@ qualified	VVD	qualify	VVD	VERB	conj	qual-ifi-ed
 the	DT	the	AT0	DET	det	_
 very	RB	very	AV0	ADV	advmod	_
 first	JJ	first	ORD	ADJ	amod	_
-week	NN	week	NN1	NOUN	obl:tmod	_
+week	NN	week	NN1	NOUN	obl:unmarked	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 World	NP	World	NP0	PROPN	compound	_
@@ -439,7 +439,7 @@ top	JJ	top	AJ0	ADJ	amod	_
 spot	NN	spot	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
-<s type="q" transition="establishment">
+<s type="q" transition="null">
 If	IN	if	CJS	SCONJ	mark	_
 I	PP	I	PNP	PRON	nsubj	_
 do	VVP	do	VD	AUX	reparandum	_
@@ -466,7 +466,7 @@ the	DT	the	AT0	DET	det	_
 map	NN	map	NN1	NOUN	nmod	_
 ?	SENT	?	PUN	PUNCT	punct	_
 </s>
-<s type="multiple" transition="smooth-shift">
+<s type="multiple" transition="establishment">
 Celce	NP	Celce	NP0	PROPN	dislocated	_
 he	PP	he	PNP	PRON	nsubj	_
 continues	VVZ	continue	VVZ	VERB	root	continue-s
@@ -497,7 +497,7 @@ Which	WDT	which	DTQ	PRON	nsubj	_
 's	VBZ	be	VBZ	AUX	cop	_
 good	JJ	good	AJ0	ADJ	root	_
 ,	,	,	PUN	PUNCT	punct	_
-anything	NN	anything	NN1	PRON	nsubj	_
+anything	NN	anything	NN1	PRON	nsubj	any-thing
 good	JJ	good	AJ0	ADJ	amod	_
 counts	VVZ	count	VVZ	VERB	parataxis	count-s
 .	SENT	.	PUN	PUNCT	punct	_
@@ -537,7 +537,7 @@ building	VVG	build	VVG	VERB	root	build-ing
 walling	NN	walling	NN1	NOUN	obj	wall-ing
 against	IN	against	PRP	ADP	case	a-gainst
 any	DT	any	DT0	DET	det	_
-pressure	NN	pressure	NN1	NOUN	obl	_
+pressure	NN	pressure	NN1	NOUN	obl	press-ure
 from	IN	from	PRP	ADP	case	_
 Zayt	NP	Zayt	NP0	PROPN	nmod	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -739,7 +739,7 @@ here	RB	here	AV0	ADV	advmod	_
 </s>
 <s type="decl" transition="establishment">
 That	DT	that	DT0	DET	det	_
-player	NN	player	NN1	NOUN	dislocated	play-er
+player	NN	player	NN1	NOUN	nsubj	play-er
 down	RB	down	AVP	ADV	advmod	_
 below	RB	below	PRP	ADV	advmod	be-low
 <w>
@@ -768,7 +768,7 @@ na	TO	to	TO0	PART	mark	_
 roll	VV	roll	VVI	VERB	xcomp	_
 all	PDT	all	DT0	DET	det:predet	_
 the	DT	the	AT0	DET	det	_
-way	NN	way	NN1	NOUN	obl:npmod	_
+way	NN	way	NN1	NOUN	obl:unmarked	_
 down	RB	down	AVP	ADV	advmod	_
 looks	VVZ	look	VVZ	VERB	parataxis	look-s
 like	IN	like	PRP	SCONJ	mark	_
@@ -798,7 +798,7 @@ against	IN	against	PRP	ADP	case	a-gainst
 each	DT	each	PNX	DET	parataxis	_
 other	JJ	other	AJ0	ADJ	fixed	_
 a	DT	a	AT0	DET	det	_
-number	NN	number	NN1	NOUN	obl:tmod	_
+number	NN	number	NN1	NOUN	obl:unmarked	_
 of	IN	of	PRF	ADP	case	_
 times	NNS	time	NN2	NOUN	nmod	time-s
 ,	,	,	PUN	PUNCT	punct	_
@@ -895,7 +895,7 @@ our	PP$	our	DPS	PRON	nmod:poss	_
 final	JJ	final	AJ0	ADJ	amod	_
 game	NN	game	NN1	NOUN	parataxis	_
 here	RB	here	AV0	ADV	advmod	_
-tonight	NN	tonight	NN1	NOUN	obl:tmod	to-night
+tonight	NN	tonight	NN1	NOUN	obl:unmarked	to-night
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="zero">
@@ -918,10 +918,10 @@ I	PP	I	PNP	PRON	nsubj	_
 've	VHP	have	VHB	AUX	aux	_
 said	VVN	say	VVN	VERB	root	sai-d
 the	DT	the	AT0	DET	det	_
-millions	NNS	million	NN2	NOUN	iobj	million-s
+millions	NNS	million	NN2	NOUN	nsubj	million-s
 of	IN	of	PRF	ADP	case	_
 people	NNS	person	NN0	NOUN	nmod	_
-watching	VVG	watch	VVG	VERB	acl	watch-ing
+watching	VVG	watch	VVG	VERB	advcl	watch-ing
 online	RB	online	NN1	ADV	advmod	on-line
 ,	,	,	PUN	PUNCT	punct	_
 Psalm	NP	Psalm	NP0	PROPN	nsubj	_
@@ -968,7 +968,7 @@ was	VBD	be	VBD	AUX	cop	_
 points	NNS	point	NN2	NOUN	dislocated	point-s
 ,	,	,	PUN	PUNCT	punct	_
 15	CD	15	CRD	NUM	nummod	_
-points	NNS	point	NN2	NOUN	obl:npmod	point-s
+points	NNS	point	NN2	NOUN	obl:unmarked	point-s
 ahead	RB	ahead	AV0	ADV	acl:relcl	a-head
 ,	,	,	PUN	PUNCT	punct	_
 in	IN	in	PRP	ADP	case	_
@@ -1008,7 +1008,7 @@ his	PP$	his	DPS	PRON	nmod:poss	_
 way	NN	way	NN1	NOUN	obj	_
 inside	IN	inside	PRP	ADP	case	in-side
 mall	NN	mall	NN1	NOUN	obl	_
-itself	PP	itself	PNP	PRON	nmod:npmod	it-self
+itself	PP	itself	PNP	PRON	nmod:unmarked	it-self
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -1219,7 +1219,7 @@ to	TO	to	TO0	PART	mark	_
 chomp	VV	chomp	VVI	VERB	xcomp	_
 down	RP	down	AVP	ADP	compound:prt	_
 this	DT	this	DT0	DET	det	_
-opponent	NN	opponent	NN1	NOUN	obj	_
+opponent	NN	opponent	NN1	NOUN	obj	oppon-ent
 again	RB	again	AV0	ADV	advmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -1272,7 +1272,7 @@ players	NNS	player	NN2	NOUN	nsubj	play-er-s
 may	MD	may	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	cop	_
 a	DT	a	AT0	DET	det	_
-little	JJ	little	AJ0	ADJ	obl:npmod	_
+little	JJ	little	AJ0	ADJ	obl:unmarked	_
 sparse	JJ	sparse	AJ0	ADJ	ccomp	_
 in	IN	in	PRP	ADP	case	_
 terms	NNS	term	NN2	NOUN	obl	term-s
@@ -1388,7 +1388,7 @@ and	CC	and	CJC	CCONJ	cc	_
 track	VV	track	VVI	VERB	conj	_
 down	RP	down	AVP	ADP	compound:prt	_
 the	DT	the	AT0	DET	det	_
-opponent	NN	opponent	NN1	NOUN	obj	_
+opponent	NN	opponent	NN1	NOUN	obj	oppon-ent
 underneath	IN	underneath	PRP	ADV	advmod	under-neath
 opts	VVZ	opt	VVZ	VERB	parataxis	_
 to	TO	to	TO0	PART	mark	_

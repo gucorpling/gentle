@@ -1,4 +1,4 @@
-<text id="GENTLE_medical_anemia" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-08" dateCreated="2022-11-08" dateModified="2022-11-08"  shortTitle="anemia" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=1873-Anemia%20&amp;%20Leukemia%20Followup" speakerCount="0" speakerList="none" title="Anemia &amp; Leukemia Followup" type="medical">
+<text id="GENTLE_medical_anemia" partition="test" author="MTSAMPLES.COM" dateCollected="2022-11-08" dateCreated="2022-11-08" dateModified="2022-11-08"  shortTitle="anemia" sourceURL="https://mtsamples.com/site/pages/sample.asp?Type=91-SOAP%20/%20Chart%20/%20Progress%20Notes&amp;Sample=1873-Anemia%20&amp;%20Leukemia%20Followup" speakerCount="0" speakerList="none" title="Anemia &amp; Leukemia Followup" type="medical" summary="After examining a 72 year old man (allergic to Vicodin) with chronic lymphocytic leukemia (CLL) since May 2008 and currently taking 5mg predinsone every other day, a physician reports he is suffering from autoimmune hemolytic anemia and oral ulcers on the lip and tongue, and puts him back on Valtrex and lowers steroids to 1mg daily ahead of a clinic visit the next week.">
 <head rend="bold red">
 <s type="frag" transition="establishment">
 Description	NN	description	NN1	NOUN	root	Descrip-tion
@@ -60,7 +60,7 @@ COMPLAINT	NN	complaint	NN1	NOUN	root	COMPLAIN-T
 <list type="ordered">
 <item n="1">
 <s type="frag" transition="null">
-1.	LS	1.	CRD	X	dep	_
+1.	LS	1.	CRD	X	discourse	_
 Chronic	JJ	chronic	AJ0	ADJ	amod	_
 lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod	lympho-cyt-ic
 leukemia	NN	leukemia	NN1	NOUN	root	_
@@ -72,7 +72,7 @@ CLL	NP	CLL	NP0	PROPN	appos	_
 </item>
 <item n="2">
 <s type="frag" transition="null">
-2.	LS	2.	CRD	X	dep	_
+2.	LS	2.	CRD	X	discourse	_
 Autoimmune	JJ	autoimmune	AJ0	ADJ	amod	Auto-immune
 hemolytic	JJ	hemolytic	AJ0	ADJ	amod	hemo-lyt-ic
 anemia	NN	anemia	NN1	NOUN	root	_
@@ -81,7 +81,7 @@ anemia	NN	anemia	NN1	NOUN	root	_
 </item>
 <item n="3">
 <s type="frag" transition="null">
-3.	LS	3.	CRD	X	dep	_
+3.	LS	3.	CRD	X	discourse	_
 Oral	JJ	oral	AJ0	ADJ	amod	_
 ulcer	NN	ulcer	NN1	NOUN	root	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -121,7 +121,7 @@ leukemia	NN	leukemia	NN1	NOUN	obl	_
 in	IN	in	PRP	ADP	case	_
 <date when="2008-05">
 May	NP	May	NP0	PROPN	obl	_
-2008	CD	2008	CRD	NUM	nmod:tmod	_
+2008	CD	2008	CRD	NUM	nmod:unmarked	_
 </date>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -160,10 +160,10 @@ currently	RB	currently	AV0	ADV	advmod	current-ly
 on	IN	on	PRP	ADP	case	_
 prednisone	NN	prednisone	NN1	NOUN	conj	_
 5	CD	5	CRD	NUM	nummod	_
-mg	NNS	milligram	NN2	NOUN	obl:npmod	_
+mg	NNS	milligram	NN2	NOUN	obl:unmarked	_
 every	DT	every	AT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -172,7 +172,7 @@ comes	VVZ	come	VVZ	VERB	root	come-s
 in	RP	in	AVP	ADP	compound:prt	_
 to	IN	to	PRP	ADP	case	_
 clinic	NN	clinic	NN1	NOUN	obl	_
-today	NN	today	NN1	NOUN	obl:tmod	to-day
+today	NN	today	NN1	NOUN	obl:unmarked	to-day
 for	IN	for	PRP	ADP	case	_
 <w>
 follow	NN	follow	NN1	NOUN	obl	_
@@ -212,38 +212,38 @@ MEDICATIONS	NNS	medication	NN2	NOUN	root	MED-IC-AT-ION-S
 <s type="frag" transition="null">
 Prilosec	NN	prilosec	NN1	NOUN	root	_
 20	CD	20	CRD	NUM	nummod	_
-mg	NN	milligram	NN1	NOUN	obl:npmod	_
-b.i.d.	NN	b.i.d.	NN1	NOUN	nmod:tmod	_
+mg	NN	milligram	NN1	NOUN	obl:unmarked	_
+b.i.d.	NN	b.i.d.	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 levothyroxine	NN	levothyroxine	NN1	NOUN	conj	levo-thyrox-ine
 50	CD	50	CRD	NUM	nummod	_
-mcg	NN	microgram	NN1	NOUN	obl:npmod	_
-q.d.	NN	q.d.	NN1	NOUN	nmod:tmod	_
+mcg	NN	microgram	NN1	NOUN	obl:unmarked	_
+q.d.	NN	q.d.	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 Lopressor	NP	Lopressor	NP0	PROPN	conj	_
 75	CD	75	CRD	NUM	nummod	_
-mg	NN	milligram	NN1	NOUN	obl:npmod	_
-q.d.	NN	q.d.	NN1	NOUN	nmod:tmod	_
+mg	NN	milligram	NN1	NOUN	obl:unmarked	_
+q.d.	NN	q.d.	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 vitamin	NN	vitamin	NN1	NOUN	conj	_
 C	NP	C	NP0	PROPN	flat	_
 500	CD	500	CRD	NUM	nummod	_
-mg	NN	milligram	NN1	NOUN	obl:npmod	_
-q.d.	NN	q.d.	NN1	NOUN	nmod:tmod	_
+mg	NN	milligram	NN1	NOUN	obl:unmarked	_
+q.d.	NN	q.d.	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 multivitamin	NN	multivitamin	NN1	NOUN	conj	multi-vitamin
-q.d.	NN	q.d.	NN1	NOUN	nmod:tmod	_
+q.d.	NN	q.d.	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 simvastatin	NN	simvastatin	NN1	NOUN	conj	_
 20	CD	20	CRD	NUM	nummod	_
-mg	NN	milligram	NN1	NOUN	obl:npmod	_
-q.d.	NN	q.d.	NN1	NOUN	nmod:tmod	_
+mg	NN	milligram	NN1	NOUN	obl:unmarked	_
+q.d.	NN	q.d.	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 prednisone	NN	prednisone	NN1	NOUN	conj	_
 5	CD	5	CRD	NUM	nummod	_
-mg	NN	milligram	NN1	NOUN	obl:npmod	_
-q.o.d.	NN	q.o.d.	NN1	NOUN	nmod:tmod	_
+mg	NN	milligram	NN1	NOUN	obl:unmarked	_
+q.o.d.	NN	q.o.d.	NN1	NOUN	nmod:unmarked	_
 </s>
 </p>
 <head rend="bold red caps">
@@ -346,7 +346,7 @@ review	NN	review	NN1	NOUN	nmod	re-view
 of	IN	of	PRF	ADP	case	_
 systems	NNS	system	NN2	NOUN	nmod	system-s
 is	VBZ	be	VBZ	AUX	cop	_
-negative	JJ	negative	AJ0	ADJ	root	_
+negative	JJ	negative	AJ0	ADJ	root	neg-at-ive
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -642,7 +642,7 @@ of	IN	of	PRF	ADP	case	_
 prednisone	NN	prednisone	NN1	NOUN	nmod	_
 every	DT	every	AT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
-day	NN	day	NN1	NOUN	obl:tmod	_
+day	NN	day	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">

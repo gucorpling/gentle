@@ -1,4 +1,5 @@
-<text id="GENTLE_esports_fifa" partition="test" author="The Nobz" dateCollected="2022-11-14" dateCreated="2020-02-01" dateModified="2020-02-01"  shortTitle="fifa" sourceURL="https://www.youtube.com/watch?v=afGtqs-_LBo" speakerCount="1" speakerList="#Adam" title="CHAMPIONS LEAGUE SEMI-FINAL!!! FIFA 20 AC MILAN CAREER MODE #16" type="esports">
+<text id="GENTLE_esports_fifa" partition="test" author="The Nobz" dateCollected="2022-11-14" dateCreated="2020-02-01" dateModified="2020-02-01"  shortTitle="fifa" sourceURL="https://www.youtube.com/watch?v=afGtqs-_LBo" speakerCount="1" speakerList="#Adam" title="CHAMPIONS LEAGUE SEMI-FINAL!!! FIFA 20 AC MILAN CAREER MODE #16" type="esports" summary="This episode features three games towards winning the Scudetto, where the player wins a simulated game against Benevento 3:1, then plays and loses a game to Genoa 0:1 due to a penalty goal from Favilli, but wins a simulation against Manchester 3:1 with Paquetá and Jović scoring, making the semi-finals and fulfilling the club's objective for the Champions League this season.">
+<sp who="#Adam" whom="#Aud">
 <s type="decl" transition="establishment">
 Now	RB	now	AV0	ADV	advmod	_
 after	IN	after	PRP	ADP	case	_
@@ -181,7 +182,7 @@ of	IN	of	PRF	SCONJ	mark	_
 playing	VVG	play	VVG	VERB	acl	play-ing
 games	NNS	game	NN2	NOUN	obj	game-s
 this	DT	this	DT0	DET	det	_
-episode	NN	episode	NN1	NOUN	obl:npmod	_
+episode	NN	episode	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -265,11 +266,10 @@ be	VB	be	VBI	AUX	cop	_
 tough	JJ	tough	AJ0	ADJ	xcomp	_
 all	PDT	all	DT0	DET	det:predet	_
 the	DT	the	AT0	DET	det	_
-time	NN	time	NN1	NOUN	obl:npmod	_
-you	PP	you	PNP	PRON	nsubj	_
-'ve	VHP	have	VHB	AUX	reparandum	_
-as	IN	as	PRP	ADP	reparandum	_
-just	RB	just	AV0	ADV	advmod	_
+time	NN	time	NN1	NOUN	obl:unmarked	_
+UVA	NP	UVA	NP0	PROPN	nsubj	_
+'s	VBZ	be	POS	AUX	cop	_
+just	RB	just	AJ0	ADV	advmod	_
 way	RB	way	NN1	ADV	advmod	_
 too	RB	too	AV0	ADV	advmod	_
 strong	JJ	strong	AJ0	ADJ	parataxis	_
@@ -319,7 +319,7 @@ match	NN	match	NN1	NOUN	obl	_
 <s type="decl" transition="continue">
 The	DT	the	AT0	DET	det	_
 last	JJ	last	ORD	ADJ	amod	_
-match	NN	match	NN1	NOUN	obl:npmod	_
+match	NN	match	NN1	NOUN	obl:unmarked	_
 he	PP	he	PNP	PRON	nsubj	_
 scored	VVD	score	VVD	VERB	root	scor-ed
 Jović	NP	Jović	NP0	PROPN	obj	_
@@ -483,7 +483,7 @@ go	VV	go	VVB	VERB	conj	_
 <w>
 all	RB	all	DT0	ADV	advmod	_
 -	HYPH	-	PUN	PUNCT	punct	_
-out	JJ	out	AJ0	ADJ	obl:npmod	_
+out	JJ	out	AJ0	ADJ	obl:unmarked	_
 </w>
 and	CC	and	CJC	CCONJ	cc	_
 win	VV	win	VVI	VERB	conj	w-in
@@ -499,7 +499,7 @@ back	RB	back	AVP	ADV	advmod	_
 That	DT	that	DT0	PRON	nsubj	_
 would	MD	would	VM0	AUX	aux	_
 be	VB	be	VBI	AUX	cop	_
-something	NN	something	NN1	PRON	root	_
+something	NN	something	NN1	PRON	root	some-thing
 incredibly	RB	incredibly	AV0	ADV	advmod	incredib-ly
 special	JJ	special	AJ0	ADJ	amod	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -596,7 +596,7 @@ taken	VVN	take	VVN	VERB	root	tak-en
 it	PP	it	PNP	PRON	obj	_
 a	DT	a	AT0	DET	det	_
 little	JJ	little	AJ0	ADJ	amod	_
-bit	NN	bit	NN1	NOUN	obl:npmod	_
+bit	NN	bit	NN1	NOUN	obl:unmarked	_
 inside	IN	inside	PRP	ADP	case	in-side
 the	DT	the	AT0	DET	det	_
 box	NN	box	NN1	NOUN	obl	_
@@ -617,7 +617,7 @@ forbid	RB	forbid	VVB	ADV	conj	_
 we	PP	we	PNP	PRON	nsubj	_
 would	MD	would	VM0	AUX	aux	_
 get	VV	get	VVI	VERB	ccomp	_
-anything	NN	anything	NN1	PRON	obj	_
+anything	NN	anything	NN1	PRON	obj	any-thing
 off	IN	off	PRP	ADP	case	_
 corners	NNS	corner	NN2	NOUN	obl	corner-s
 .	SENT	.	PUN	PUNCT	punct	_
@@ -633,7 +633,7 @@ Beek	NP	Beek	NP0	PROPN	flat	_
 ,	,	,	PUN	PUNCT	punct	_
 looking	VVG	look	VVG	VERB	parataxis	look-ing
 for	IN	for	PRP	ADP	case	_
-something	NN	something	NN1	PRON	obl	_
+something	NN	something	NN1	PRON	obl	some-thing
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -644,7 +644,7 @@ in	IN	in	PRP	ADP	case	_
 some	DT	some	DT0	DET	det	_
 space	NN	space	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
-somebody	NN	somebody	NN1	PRON	nsubj	some-body
+somebody	NN	somebody	NN1	PRON	vocative	some-body
 take	VV	take	VVI	VERB	parataxis	_
 a	DT	a	AT0	DET	det	_
 shot	NN	shot	NN1	NOUN	obj	_
@@ -652,10 +652,11 @@ shot	NN	shot	NN1	NOUN	obj	_
 </s>
 <s type="frag" transition="zero">
 Ok	UH	ok	ITJ	INTJ	discourse	_
-Favilli	NP	Favilli	NP0	PROPN	root	_
+Favilli	NP	Favilli	NP0	PROPN	reparandum	_
 and	CC	and	CJC	CCONJ	cc	_
-of	IN	of	PRF	ADP	reparandum	_
-what	WP	what	PNQ	PRON	conj	_
+of	IN	of	PRF	ADP	conj	_
+—	:	—	UNC	PUNCT	punct	_
+what	WP	what	PNQ	PRON	root	_
 ?	SENT	?	PUN	PUNCT	punct	_
 </s>
 <s type="wh" transition="null">
@@ -668,7 +669,7 @@ how	WRB	how	AVQ	ADV	advmod	_
 is	VBZ	be	VBZ	VERB	root	_
 there	EX	there	AV0	PRON	expl	_
 a	DT	a	AT0	DET	det	_
-penalty	NN	penalty	NN1	NOUN	nsubj	_
+penalty	NN	penalty	NN1	NOUN	nsubj	penal-ty
 what	WP	what	PNQ	PRON	nsubj	_
 just	RB	just	AV0	ADV	advmod	_
 happened	VVD	happen	VVD	VERB	parataxis	happen-ed
@@ -676,7 +677,7 @@ happened	VVD	happen	VVD	VERB	parataxis	happen-ed
 </s>
 <s type="decl" transition="establishment">
 One	CD	one	CRD	NUM	nummod	_
-minute	NN	minute	NN1	NOUN	obl:tmod	_
+minute	NN	minute	NN1	NOUN	obl:unmarked	_
 it	PP	it	PNP	PRON	nsubj	_
 looked	VVD	look	VVD	VERB	root	look-ed
 like	IN	like	PRP	SCONJ	mark	_
@@ -691,16 +692,16 @@ a	DT	a	AT0	DET	det	_
 corner	NN	corner	NN1	NOUN	xcomp	_
 ,	,	,	PUN	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
-next	JJ	next	ORD	ADJ	obl:tmod	_
+next	JJ	next	ORD	ADJ	obl:unmarked	_
 Favilli	NP	Favilli	NP0	PROPN	nsubj	_
 is	VBZ	be	VBZ	AUX	aux	_
 scoring	VVG	score	VVG	VERB	parataxis	scor-ing
 a	DT	a	AT0	DET	det	_
-penalty	NN	penalty	NN1	NOUN	obj	_
+penalty	NN	penalty	NN1	NOUN	obj	penal-ty
 and	CC	and	CJC	CCONJ	cc	_
 we	PP	we	PNP	PRON	nsubj	_
 're	VBP	be	VBB	AUX	cop	_
-one	CD	one	PNI	NUM	obl:npmod	_
+one	CD	one	PNI	NUM	obl:unmarked	_
 nil	CD	nil	PNI	NUM	dep	_
 down	JJ	down	AJ0	ADJ	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -724,14 +725,14 @@ Genoa	NP	Genoa	NP0	PROPN	discourse	_
 take	VVP	take	VVB	VERB	root	_
 the	DT	the	AT0	DET	det	_
 lead	NN	lead	NN1	NOUN	obj	_
-one	CD	one	PNX	NUM	obl:npmod	_
+one	CD	one	PNX	NUM	obl:unmarked	_
 nil	CD	nil	PNI	NUM	dep	_
 after	IN	after	PRP	SCONJ	mark	_
 doing	VVG	do	VDG	VERB	advcl	do-ing
 absolutely	RB	absolutely	AV0	ADV	advmod	absolute-ly
-nothing	NN	nothing	NN1	PRON	obj	_
+nothing	NN	nothing	NN1	PRON	obj	no-thing
 all	DT	all	DT0	DET	det	_
-match	NN	match	NN1	NOUN	obl:tmod	_
+match	NN	match	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
@@ -761,7 +762,7 @@ many	JJ	many	DT0	ADJ	amod	_
 times	NNS	time	NN2	NOUN	reparandum	time-s
 how	WRB	how	AVQ	ADV	advmod	_
 many	JJ	many	DT0	ADJ	amod	_
-times	NNS	time	NN2	NOUN	obl:npmod	time-s
+times	NNS	time	NN2	NOUN	obl:unmarked	time-s
 is	VBZ	be	VBZ	AUX	aux	_
 he	PP	he	PNP	PRON	nsubj	_
 <w>
@@ -794,14 +795,14 @@ not	RB	not	XX0	PART	advmod	_
 finish	VV	finish	VVI	VERB	conj	_
 a	DT	a	AT0	DET	det	_
 simple	JJ	simple	AJ0	ADJ	amod	_
-bicycle	NN	bicycle	NN1	NOUN	compound	_
+bicycle	NN	bicycle	NN1	NOUN	compound	bi-cycle
 kick	NN	kick	NN1	NOUN	obj	_
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Box	NN	box	NN1	NOUN	obl	_
 even	RB	even	CJS	ADV	advmod	_
 a	DT	a	AT0	DET	det	_
-moment	NN	moment	NN1	NOUN	obl:tmod	_
+moment	NN	moment	NN1	NOUN	obl:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
 I	PP	I	PNP	PRON	nsubj	_
 'm	VBP	be	VBB	AUX	aux	_
@@ -816,13 +817,13 @@ Welcome	UH	welcome	ITJ	INTJ	root	_
 to	IN	to	PRP	SCONJ	mark	_
 Adam	NP	Adam	NP0	PROPN	nsubj	_
 gets	VVZ	get	VVZ	VERB	advcl	get-s
-frustrated	JJ	frustrated	AJ0	ADJ	xcomp	frustrat-ed
+frustrated	VVN	frustrate	VVN	VERB	xcomp	frustrat-ed
 about	IN	about	PRP	SCONJ	mark	_
 losing	VVG	lose	VVG	VERB	advcl	los-ing
 against	IN	against	PRP	ADP	case	a-gainst
 Genoa	NP	Genoa	NP0	PROPN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
-one	CD	one	PNI	NUM	obl:npmod	_
+one	CD	one	PNI	NUM	obl:unmarked	_
 nil	NN	nil	NN1	NOUN	dep	_
 complete	JJ	complete	AJ0	ADJ	amod	_
 BS	NN	BS	NN1	NOUN	parataxis	_
@@ -837,7 +838,7 @@ how	WRB	how	AVQ	ADV	conj	_
 they	PP	they	PNP	PRON	nsubj	_
 got	VVD	get	VVD	VERB	acl:relcl	_
 a	DT	a	AT0	DET	det	_
-penalty	NN	penalty	NN1	NOUN	obj	_
+penalty	NN	penalty	NN1	NOUN	obj	penal-ty
 ,	,	,	PUN	PUNCT	punct	_
 to	TO	to	TO0	PART	mark	_
 make	VV	make	VVI	VERB	advcl	_
@@ -851,7 +852,7 @@ Manchester	NP	Manchester	NP0	PROPN	compound	_
 City	NP	City	NP0	PROPN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
 who	WP	who	PNQ	PRON	nsubj	_
-today	NN	today	NN1	NOUN	obl:tmod	to-day
+today	NN	today	NN1	NOUN	obl:unmarked	to-day
 's	VBZ	be	VBZ	AUX	reparandum	_
 ah	UH	ah	ITJ	INTJ	discourse	_
 is	VBZ	be	VBZ	AUX	cop	_
@@ -970,7 +971,7 @@ some	DT	some	DT0	DET	det	_
 BS	NN	BS	NN1	NOUN	parataxis	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
-<s type="decl" transition="establishment">
+<s type="decl" transition="null">
 We	PP	we	PNP	PRON	nsubj	_
 did	VVD	do	VDD	VERB	root	_
 it	PP	it	PNP	PRON	obj	_
@@ -983,7 +984,7 @@ semi	NN	semi	NN1	NOUN	compound	_
 -	HYPH	-	PUN	PUNCT	punct	_
 finals	NNS	final	NN2	NOUN	obl	final-s
 </s>
-<s type="decl" transition="rough-shift">
+<s type="decl" transition="establishment">
 And	CC	and	CJC	CCONJ	cc	_
 I	PP	I	PNP	PRON	nsubj	_
 just	RB	just	AV0	ADV	advmod	_
@@ -1001,7 +1002,7 @@ the	DT	the	AT0	DET	det	_
 Champions	NPS	Champion	NP0	PROPN	compound	Champion-s
 League	NP	League	NP0	PROPN	obl	_
 this	DT	this	DT0	DET	det	_
-season	NN	season	NN1	NOUN	obl:tmod	_
+season	NN	season	NN1	NOUN	obl:unmarked	_
 they	PP	they	PNP	PRON	nsubj	_
 wanted	VVD	want	VVD	VERB	parataxis	want-ed
 us	PP	we	PNP	PRON	obj	_
@@ -1035,4 +1036,5 @@ we	PP	we	PNP	PRON	nsubj	_
 did	VVD	do	VDD	AUX	conj	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
+</sp>
 </text>

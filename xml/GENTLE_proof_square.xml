@@ -1,7 +1,7 @@
-<text id="GENTLE_proof_square" partition="test" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2014-10-21" dateModified="2020-09-29"  shortTitle="square" sourceURL="https://proofwiki.org/wiki/Square_on_Second_Bimedial_Straight_Line_applied_to_Rational_Straight_Line" speakerCount="0" speakerList="none" title="Square on Second Bimedial Straight Line applied to Rational Straight Line" type="proof">
+<text id="GENTLE_proof_square" partition="test" author="Pr∞fWiki" dateCollected="2022-11-11" dateCreated="2014-10-21" dateModified="2020-09-29"  shortTitle="square" sourceURL="https://proofwiki.org/wiki/Square_on_Second_Bimedial_Straight_Line_applied_to_Rational_Straight_Line" speakerCount="0" speakerList="none" title="Square on Second Bimedial Straight Line applied to Rational Straight Line" type="proof" summary="This proof demonstrates that if AB is a second bimedial line divided at C into its medials, and DE is a rational line where DEFG = AB² is applied to DE such that DG is its breadth, then DG is a third binomial straight line.">
 <head>
 <s type="frag" transition="establishment">
-Proof	NN	Proof	NN1	NOUN	root	_
+Proof	NN	proof	NN1	NOUN	root	_
 </s>
 </head>
 <p>
@@ -34,7 +34,7 @@ C	NN	C	NN1	NOUN	obl	_
 Let	VV	let	VVB	VERB	root	_
 AC	NN	AC	NN1	NOUN	obj	_
 &gt;	SYM	&gt;	UNC	SYM	xcomp	_
-CB	NN	CB	NN1	NOUN	obl:npmod	_
+CB	NN	CB	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="imp" transition="null">
@@ -127,7 +127,7 @@ be	VB	be	VBI	AUX	aux:pass	_
 applied	VVN	apply	VVN	VERB	xcomp	appl-i-ed
 to	IN	to	PRP	ADP	case	_
 DE	NN	DE	NN1	NOUN	obl	_
-such	JJ	such	DT0	ADJ	mark	_
+such	RB	such	DT0	ADV	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
 DH	NN	DH	NN1	NOUN	nsubj	_
 =	SYM	=	UNC	SYM	advcl	_
@@ -145,7 +145,7 @@ be	VB	be	VBI	AUX	aux:pass	_
 applied	VVN	apply	VVN	VERB	xcomp	appl-i-ed
 to	IN	to	PRP	ADP	case	_
 DE	NN	DE	NN1	NOUN	obl	_
-such	JJ	such	DT0	ADJ	mark	_
+such	RB	such	DT0	ADV	mark	_
 that	IN/that	that	CJT	SCONJ	fixed	_
 KL	NN	KL	NN1	NOUN	nsubj	_
 =	SYM	=	UNC	SYM	advcl	_
@@ -268,7 +268,7 @@ in	IN	in	PRP	ADP	case	_
 square	NN	square	NN1	NOUN	obl	_
 only	RB	only	AV0	ADV	advmod	_
 </ref>
-such	JJ	such	AJ0	ADJ	mark	_
+such	RB	such	PRP	ADV	mark	_
 that	IN/that	that	DT0	SCONJ	fixed	_
 AC	NN	AC	NN1	NOUN	nsubj	_
 ⋅	SYM	⋅	UNC	SYM	case	_
@@ -709,7 +709,7 @@ AC2	NN	AC2	NN1	NOUN	nsubj	_
 +	SYM	+	UNC	SYM	cc	_
 CB2	NN	CB2	NN1	NOUN	conj	_
 &gt;	SYM	&gt;	UNC	SYM	root	_
-2	CD	2	CRD	NUM	obl:npmod	_
+2	CD	2	CRD	NUM	obl:unmarked	_
 ⋅	SYM	⋅	AJ0	SYM	case	_
 AC	NN	AC	NN1	NOUN	nmod	_
 ⋅	SYM	⋅	UNC	SYM	case	_
@@ -717,7 +717,7 @@ CB	NN	CB	NN1	NOUN	nmod	_
 Therefore	RB	therefore	AV0	ADV	advmod	There-fore
 DL	NN	DL	NN1	NOUN	nsubj	_
 &gt;	SYM	&gt;	UNC	SYM	parataxis	_
-MF	NN	MF	NN1	NOUN	obl:npmod	_
+MF	NN	MF	NN1	NOUN	obl:unmarked	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
@@ -741,7 +741,7 @@ Base	NN	base	NN1	NOUN	obl	_
 :	:	:	PUN	PUNCT	punct	_
 DM	NN	DM	NN1	NOUN	nsubj	_
 &gt;	SYM	&gt;	UNC	SYM	root	_
-MG	NN	MG	NN0	NOUN	obl:npmod	_
+MG	NN	MG	NN0	NOUN	obl:unmarked	_
 </s>
 <s type="decl" transition="null">
 Since	IN	since	CJS	SCONJ	mark	_

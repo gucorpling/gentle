@@ -1,4 +1,4 @@
-<text id="GENTLE_dictionary_trust" partition="test" author="Wiktionary" dateCollected="2022-09-02" dateCreated="2022-04-04" dateModified="2022-11-08"  shortTitle="trust" sourceURL="https://en.wiktionary.org/wiki/trust" speakerCount="0" speakerList="none" title="trust" type="dictionary">
+<text id="GENTLE_dictionary_trust" partition="test" author="Wiktionary" dateCollected="2022-09-02" dateCreated="2022-04-04" dateModified="2022-11-08"  shortTitle="trust" sourceURL="https://en.wiktionary.org/wiki/trust" speakerCount="0" speakerList="none" title="trust" type="dictionary" summary="This dictionary entry for the word 'trust' provides its etymology from Middle English 'trust' and Proto-Indo-European *deru- 'be firm', cognates such as Danish trøst, pronunciations like /trʌst/ and /trʊst/ and synonyms, antonyms, usage examples and definitions as a noun (e.g. 'confidence', 'hope'), senses in computing and law, and as a verb meaning to have faith or believe.">
 <head>
 <s type="frag" transition="establishment">
 trust	NN	trust	NN1	NOUN	root	_
@@ -352,7 +352,7 @@ Rhymes	NNS	rhyme	NN2	NOUN	dep	_
 Noun	NN	noun	NN1	NOUN	root	_
 </hi>
 </s>
-<s type="frag" transition="null">
+<s type="frag" transition="establishment">
 <hi rend="bold">
 trust	NN	trust	NN1	NOUN	root	_
 </hi>
@@ -375,7 +375,7 @@ trusts	NNS	trust	NN2	NOUN	appos	_
 </s>
 <list type="ordered">
 <item>
-<s type="decl" transition="null">
+<s type="decl" transition="zero">
 <ref target="https://en.wiktionary.org/wiki/confidence">
 Confidence	NN	confidence	NN1	NOUN	root	Confid-ence
 </ref>
@@ -418,7 +418,7 @@ lose	VV	lose	VVI	VERB	root	_
 trust	NN	trust	NN1	NOUN	obj	_
 </hi>
 in	IN	in	PRP	ADP	case	_
-someone	NN	someone	NN1	PRON	obl	_
+someone	NN	someone	NN1	PRON	obl	some-one
 </s>
 <s type="frag" transition="null">
 build	VV	build	VVI	VERB	root	_
@@ -442,7 +442,7 @@ trust	NN	trust	NN1	NOUN	obl	_
 Dependence	NN	dependence	NN1	NOUN	root	Depend-ence
 </ref>
 upon	IN	upon	PRP	ADP	case	up-on
-something	NN	something	NN1	PRON	nmod	_
+something	NN	something	NN1	PRON	nmod	some-thing
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 future	NN	future	NN1	NOUN	nmod	_
@@ -501,7 +501,7 @@ committed	VVN	commit	VVN	VERB	acl:relcl	committ-ed
 or	CC	or	CJC	CCONJ	cc	_
 entrusted	VVN	entrust	VVN	VERB	conj	en-trust-ed
 ;	:	;	PUN	PUNCT	punct	_
-something	NN	something	NN1	PRON	parataxis	_
+something	NN	something	NN1	PRON	parataxis	some-thing
 received	VVN	receive	VVN	VERB	acl	receiv-ed
 in	IN	in	PRP	ADP	case	_
 confidence	NN	confidence	NN1	NOUN	obl	confid-ence
@@ -557,7 +557,7 @@ of	IN	of	PRF	ADP	case	_
 one	CD	one	CRD	NUM	nmod	_
 to	IN	to	PRP	ADP	case	_
 whom	WP	who	PNQ	PRON	obl	_
-anything	NN	anything	NN1	PRON	nsubj:pass	_
+anything	NN	anything	NN1	PRON	nsubj:pass	any-thing
 is	VBZ	be	VBZ	AUX	aux:pass	_
 confided	VVN	confide	VVN	VERB	acl:relcl	confid-ed
 ;	:	;	PUN	PUNCT	punct	_
@@ -852,20 +852,20 @@ third	JJ	third	ORD	ADJ	amod	_
 -	HYPH	-	PUN	PUNCT	punct	_
 person	NN	person	NN1	NOUN	compound	_
 </w>
-singular	JJ	singular	AJ0	ADJ	amod	_
+singular	JJ	singular	AJ0	ADJ	amod	sing-ul-ar
 simple	JJ	simple	AJ0	ADJ	amod	_
-present	NN	present	NN1	NOUN	compound	_
+present	NN	present	NN1	NOUN	nsubj	_
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusts#English">
-trusts	NNS	trust	NN2	NOUN	dep	_
+trusts	NNS	trust	NN2	NOUN	parataxis	_
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="italic">
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	compound	particip-le
+participle	NN	participle	NN1	NOUN	nsubj	particip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusting#English">
-trusting	VVG	trust	VVG	VERB	dep	trust-ing
+trusting	VVG	trust	VVG	VERB	parataxis	trust-ing
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="italic">
@@ -876,7 +876,7 @@ past	JJ	past	AJ0	ADJ	amod	_
 participle	NN	participle	NN1	NOUN	conj	particip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusted#English">
-trusted	VVN	trust	VVN	VERB	dep	trust-ed
+trusted	VVN	trust	VVN	VERB	parataxis	trust-ed
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -1049,7 +1049,7 @@ by	IN	by	PRP	SCONJ	mark	_
 entrusting	VVG	entrust	VVG	VERB	advcl	en-trust-ing
 them	PP	they	PNP	PRON	obj	_
 with	IN	with	PRP	ADP	case	_
-something	NN	something	NN1	PRON	obl	_
+something	NN	something	NN1	PRON	obl	some-thing
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
@@ -1136,7 +1136,7 @@ To	TO	to	TO0	PART	mark	_
 rely	VV	rely	VVI	VERB	root	_
 on	IN	on	PRP	ADP	case	_
 (	(	(	PUL	PUNCT	punct	_
-something	NN	something	NN1	PRON	obl	_
+something	NN	something	NN1	PRON	obl	some-thing
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
 as	IN	as	CJS	SCONJ	mark	_
@@ -1243,7 +1243,7 @@ To	TO	to	TO0	PART	mark	_
 sell	VV	sell	VVI	VERB	root	_
 or	CC	or	CJC	CCONJ	cc	_
 deliver	VV	deliver	VVI	VERB	conj	_
-anything	NN	anything	NN1	PRON	obj	_
+anything	NN	anything	NN1	PRON	obj	any-thing
 in	IN	in	PRP	ADP	case	_
 reliance	NN	reliance	NN1	NOUN	obl	_
 upon	IN	upon	PRP	ADP	case	up-on

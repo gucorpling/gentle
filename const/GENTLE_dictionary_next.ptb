@@ -174,7 +174,7 @@
     (VP
       (VBD kept)
       (S (NP-SBJ (PRP me)) (ADJP-PRD (JJ awake)))
-      (NP-TMP (DT all) (NN night))
+      (NP (DT all) (NN night))
       (PP (IN with) (NP (PRP$ his) (NN snoring))))
     (. .)))
 
@@ -317,7 +317,7 @@
       (VBZ is)
       (VP
         (VBN used)
-        (NP-TMP (NN today))
+        (NP (NN today))
         (PP
           (ADVP (RB mostly))
           (IN in)
@@ -400,10 +400,7 @@
     (NP-SBJ (PRP I))
     (VP
       (MD 'll)
-      (VP
-        (VB know)
-        (ADVP-MNR (RBR better))
-        (NP-TMP (JJ next) (NN time))))
+      (VP (VB know) (ADVP-MNR (RBR better)) (NP (JJ next) (NN time))))
     (. .)))
 
 (ROOT
@@ -420,7 +417,9 @@
     (-RRB- -RRB-)
     (UCP
       (UCP
-        (ADJP (JJS Closest) (PP (IN in) (NP (DT the) (NN future))))
+        (ADJP
+          (JJS Closest)
+          (PP-TMP (IN in) (NP (DT the) (NN future))))
         (, ,)
         (CC or)
         (ADJP
@@ -493,9 +492,9 @@
     (VP
       (VB mean)
       (NP
-        (NP (NP (NNP Thursday)) (NP-TMP (DT this) (NN week)))
+        (NP (NP (NNP Thursday)) (NP (DT this) (NN week)))
         (CC or)
-        (NP (NP (NNP Thursday)) (NP-TMP (JJ next) (NN week)))))
+        (NP (NP (NNP Thursday)) (NP (JJ next) (NN week)))))
     (. ?)))
 
 (ROOT (S (VP (VB See) (ADVP (RB also)))))
@@ -507,10 +506,12 @@
 (ROOT (NP (DT this) (VBG coming)))
 
 (ROOT
-  (S
+  (NP
     (NP (NN week))
-    (VP (-LRB- -LRB-as) (PP (IN in) (NP (NNP Saturday) (NN week))))
-    (-RRB- -RRB-)))
+    (PRN
+      (-LRB- -LRB-)
+      (PP (IN as) (PP (IN in) (NP (NNP Saturday) (NN week))))
+      (-RRB- -RRB-))))
 
 (ROOT (NP (NN Adverb)))
 
@@ -678,7 +679,7 @@
       (VP (VBD was) (ADVP-PRD (RB there))))
     (, ,)
     (S
-      (NP-TMP (DT the) (JJ next))
+      (NP (DT the) (JJ next))
       (NP-SBJ (PRP she))
       (VP (VBD was) (RB n't)))
     (. .)))

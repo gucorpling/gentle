@@ -7,12 +7,12 @@
 1-1	0-7	Welcome	_	_	_	_	_	_	_
 1-2	8-10	to	_	_	_	_	_	_	_
 1-3	11-14	the	_	_	_	_	cf1[1]	_	_
-1-4	15-25	Techtonica	abstract[2]	new[2]	nonsal[2]	_	cf1[1]|cf2[2]	coref	2-1[3_2]
+1-4	15-25	Techtonica	abstract[2]	new[2]	sal[2]	_	cf1[1]|cf2[2]	coref	2-1[3_2]
 1-5	26-36	curriculum	_	_	_	_	cf1[1]	_	_
 1-6	37-38	!	_	_	_	_	_	_	_
 
 #Text=Techtonica is a non-profit project of SocialGood that does free tech training and job placement for unemployed or underemployed folks .
-2-1	39-49	Techtonica	abstract[3]	giv:act[3]	nonsal[3]	_	cf1*[3]	coref	5-4[32_3]
+2-1	39-49	Techtonica	abstract[3]	giv:act[3]	sal[3]	_	cf1*[3]	coref	5-4[32_3]
 2-2	50-52	is	_	_	_	_	_	_	_
 2-3	53-54	a	_	_	_	_	cf1*[6]	_	_
 2-4	55-65	non-profit	_	_	_	_	cf1*[6]	_	_
@@ -66,7 +66,7 @@
 5-1	324-328	What	_	_	_	_	_	_	_
 5-2	329-338	bootcamps	abstract[30]	new[30]	nonsal[30]	Coding_bootcamp[31]	cf1[30]|cf3[31]	ana	5-12[36_30]
 5-3	339-342	and	abstract[30]	new[30]	nonsal[30]	_	cf1[30]	_	_
-5-4	343-353	Techtonica	abstract[30]|abstract[32]	new[30]|giv:inact[32]	nonsal[30]|nonsal[32]	_	cf1[30]|cf2[32]	coref	7-1[48_32]
+5-4	343-353	Techtonica	abstract[30]|abstract[32]	new[30]|giv:inact[32]	nonsal[30]|sal[32]	_	cf1[30]|cf2[32]	coref	7-1[48_32]
 5-5	354-358	have	_	_	_	_	_	_	_
 5-6	359-361	in	_	_	_	_	_	_	_
 5-7	362-368	common	_	_	_	_	_	_	_
@@ -102,7 +102,7 @@
 6-19	519-520	.	_	_	_	_	_	_	_
 
 #Text=Techtonica aims to be more like the workplace to make the transition into the industry better — instead of having an instructor constantly guiding you ( which you wo n’t have in any software engineering job ) , you are given a general schedule of topics and assignments ( see our curriculum repo for an idea of the resources provided ) and you ’re expected to figure out what to do on your own or in collaboration with volunteers , mentors , tech groups , and other participants .
-7-1	521-531	Techtonica	abstract[48]	giv:inact[48]	nonsal[48]	_	cf3[48]	coref	8-4[88_48]
+7-1	521-531	Techtonica	abstract[48]	giv:inact[48]	sal[48]	_	cf3[48]	coref	8-4[88_48]
 7-2	532-536	aims	_	_	_	_	_	_	_
 7-3	537-539	to	_	_	_	_	_	_	_
 7-4	540-542	be	_	_	_	_	_	_	_
@@ -196,8 +196,8 @@
 8-1	1002-1004	We	person[85]	giv:act[85]	nonsal[85]	_	cf1*[85]	_	_
 8-2	1005-1008	’re	_	_	_	_	_	_	_
 8-3	1009-1015	making	_	_	_	_	_	_	_
-8-4	1016-1026	Techtonica	abstract[87]|abstract[88]	giv:inact[87]|giv:act[88]	nonsal[87]|nonsal[88]	_	cf4[87]|cf3[88]	coref|coref	11-11[109_87]|35-5[210_88]
-8-5	1027-1029	’s	abstract[87]|abstract[88]	giv:inact[87]|giv:act[88]	nonsal[87]|nonsal[88]	_	cf4[87]|cf3[88]	_	_
+8-4	1016-1026	Techtonica	abstract[87]|abstract[88]	giv:inact[87]|giv:act[88]	nonsal[87]|sal[88]	_	cf4[87]|cf3[88]	coref|coref	35-5[210_88]|11-11[109_87]
+8-5	1027-1029	’s	abstract[87]|abstract[88]	giv:inact[87]|giv:act[88]	nonsal[87]|sal[88]	_	cf4[87]|cf3[88]	_	_
 8-6	1030-1037	program	abstract[87]	giv:inact[87]	nonsal[87]	_	cf4[87]	_	_
 8-7	1038-1040	as	_	_	_	_	_	_	_
 8-8	1041-1046	hands	_	_	_	_	cf7[89]	_	_
@@ -288,9 +288,9 @@
 14-3	1410-1411	-	_	_	_	_	_	_	_
 14-4	1412-1420	Webpages	_	_	_	_	cf4[123]	_	_
 14-5	1421-1422	:	_	_	_	_	_	_	_
-14-6	1423-1427	HTML	abstract[124]	new[124]	nonsal[124]	HTML[124]	cf1[124]	coref	54-2[250_124]
+14-6	1423-1427	HTML	abstract[124]	new[124]	sal[124]	HTML[124]	cf1[124]	coref	54-2[250_124]
 14-7	1428-1429	&	_	_	_	_	_	_	_
-14-8	1430-1433	CSS	abstract[125]	new[125]	nonsal[125]	CSS[125]	cf2[125]	coref	55-4[254_125]
+14-8	1430-1433	CSS	abstract[125]	new[125]	sal[125]	CSS[125]	cf2[125]	coref	55-4[254_125]
 
 #Text=Week 3 - JavaScript Fundamentals
 15-1	1434-1438	Week	_	_	_	_	cf2[129]	_	_
@@ -306,7 +306,7 @@
 16-4	1476-1488	Intermediate	abstract[134]	new[134]	nonsal[134]	_	cf2[134]|cf3[135]	coref	95-4[401_134]
 16-5	1489-1499	JavaScript	abstract[134]	new[134]	nonsal[134]	JavaScript[136]	cf2[134]|cf3[135]|cf1*[136]	_	_
 16-6	1500-1503	and	abstract[134]	new[134]	nonsal[134]	_	cf2[134]	_	_
-16-7	1504-1509	React	abstract[134]|abstract[137]	new[134]|new[137]	nonsal[134]|nonsal[137]	React_%28JavaScript_library%29[137]	cf2[134]|cf4[137]	coref	19-7[149_137]
+16-7	1504-1509	React	abstract[134]|abstract[137]	new[134]|new[137]	nonsal[134]|sal[137]	React_%28JavaScript_library%29[137]	cf2[134]|cf4[137]	coref	19-7[149_137]
 
 #Text=Week 5 - Web APIs
 17-1	1510-1514	Week	_	_	_	_	cf1[140]	_	_
@@ -326,9 +326,9 @@
 19-2	1552-1553	7	_	_	_	_	cf3[145]	_	_
 19-3	1554-1555	-	_	_	_	_	_	_	_
 19-4	1556-1564	Advanced	_	_	_	_	cf4[146]|cf5[147]	_	_
-19-5	1565-1567	JS	abstract[148]	giv:inact[148]	nonsal[148]	JavaScript[148]	cf4[146]|cf5[147]|cf2[148]	coref	31-14[192_148]
+19-5	1565-1567	JS	abstract[148]	giv:inact[148]	sal[148]	JavaScript[148]	cf4[146]|cf5[147]|cf2[148]	coref	31-14[192_148]
 19-6	1568-1571	and	_	_	_	_	cf4[146]	_	_
-19-7	1572-1577	React	abstract[149]	giv:inact[149]	nonsal[149]	React_%28JavaScript_library%29[149]	cf4[146]|cf1[149]	coref	95-7[403_149]
+19-7	1572-1577	React	abstract[149]	giv:inact[149]	sal[149]	React_%28JavaScript_library%29[149]	cf4[146]|cf1[149]	coref	95-7[403_149]
 
 #Text=Week 8 - Testing
 20-1	1578-1582	Week	_	_	_	_	cf1[152]	_	_
@@ -340,7 +340,7 @@
 21-1	1595-1599	Week	_	_	_	_	cf1[155]	_	_
 21-2	1600-1601	9	_	_	_	_	cf1[155]	_	_
 21-3	1602-1603	-	_	_	_	_	_	_	_
-21-4	1604-1614	Eventonica	abstract[157]	new[157]	nonsal[157]	_	cf2[156]|cf3[157]	coref	139-4[559_157]
+21-4	1604-1614	Eventonica	abstract[157]	new[157]	sal[157]	_	cf2[156]|cf3[157]	coref	139-4[559_157]
 21-5	1615-1622	Project	_	_	_	_	cf2[156]	_	_
 
 #Text=Week 10 - More PERN & Review
@@ -379,8 +379,8 @@
 27-1	1746-1750	Week	_	_	_	_	cf2[172]	_	_
 27-2	1751-1753	13	_	_	_	_	cf2[172]	_	_
 27-3	1754-1755	-	_	_	_	_	_	_	_
-27-4	1756-1762	Career	time[173]|abstract[174]	new[173]|new[174]	nonsal[173]|nonsal[174]	Career[174]	cf1[173]|cf3[174]	coref|coref	162-4[623_174]|162-4[622_173]
-27-5	1763-1767	Week	time[173]	new[173]	nonsal[173]	_	cf1[173]	_	_
+27-4	1756-1762	Career	time[173]|abstract[174]	new[173]|new[174]	sal[173]|sal[174]	Career[174]	cf1[173]|cf3[174]	coref|coref	162-4[622_173]|162-4[623_174]
+27-5	1763-1767	Week	time[173]	new[173]	sal[173]	_	cf1[173]	_	_
 27-6	1768-1769	!	_	_	_	_	_	_	_
 
 #Text=Week 14 - Project Prep Week & Electives
@@ -423,7 +423,7 @@
 31-11	1919-1924	weeks	_	_	_	_	cf5[190]	_	_
 31-12	1925-1927	to	_	_	_	_	_	_	_
 31-13	1928-1933	learn	_	_	_	_	_	_	_
-31-14	1934-1944	JavaScript	abstract[192]	giv:inact[192]	nonsal[192]	JavaScript[192]	cf4[191]|cf3[192]	coref	32-5[197_192]
+31-14	1934-1944	JavaScript	abstract[192]	giv:inact[192]	sal[192]	JavaScript[192]	cf4[191]|cf3[192]	coref	32-5[197_192]
 31-15	1945-1957	fundamentals	_	_	_	_	cf4[191]	_	_
 31-16	1958-1959	.	_	_	_	_	_	_	_
 
@@ -432,7 +432,7 @@
 32-2	1973-1979	should	_	_	_	_	_	_	_
 32-3	1980-1988	memorize	_	_	_	_	_	_	_
 32-4	1989-1995	common	_	_	_	_	cf3[196]	_	_
-32-5	1996-2006	JavaScript	abstract[197]	giv:act[197]	nonsal[197]	JavaScript[197]	cf3[196]|cf2[197]	coref	56-2[258_197]
+32-5	1996-2006	JavaScript	abstract[197]	giv:act[197]	sal[197]	JavaScript[197]	cf3[196]|cf2[197]	coref	56-2[258_197]
 32-6	2007-2012	built	_	_	_	_	cf3[196]	_	_
 32-7	2013-2014	-	_	_	_	_	cf3[196]	_	_
 32-8	2015-2017	in	_	_	_	_	cf3[196]	_	_
@@ -466,7 +466,7 @@
 35-2	2124-2136	Expectations	_	_	_	_	cf2[209]	_	_
 35-3	2137-2142	While	_	_	_	_	cf2[209]	_	_
 35-4	2143-2145	at	_	_	_	_	cf2[209]	_	_
-35-5	2146-2156	Techtonica	abstract[210]	giv:inact[210]	nonsal[210]	_	cf2[209]|cf1[210]	coref	166-4[632_210]
+35-5	2146-2156	Techtonica	abstract[210]	giv:inact[210]	sal[210]	_	cf2[209]|cf1[210]	coref	166-4[632_210]
 
 #Text=3. How to Learn
 36-1	2157-2159	3.	_	_	_	_	_	_	_
@@ -482,7 +482,7 @@
 38-1	2192-2194	5.	_	_	_	_	_	_	_
 38-2	2195-2200	Roles	_	_	_	_	cf2[214]	_	_
 38-3	2201-2203	in	_	_	_	_	cf2[214]	_	_
-38-4	2204-2208	Tech	abstract[215]	giv:inact[215]	nonsal[215]	Technology[215]	cf2[214]|cf1[215]	coref	166-9[635_215]
+38-4	2204-2208	Tech	abstract[215]	giv:inact[215]	sal[215]	Technology[215]	cf2[214]|cf1[215]	coref	166-9[635_215]
 
 #Text=6. Intro to Command Line Interface Tools
 39-1	2209-2211	6.	_	_	_	_	_	_	_
@@ -590,17 +590,17 @@
 
 #Text=21. HTML
 54-1	2628-2631	21.	_	_	_	_	_	_	_
-54-2	2632-2636	HTML	abstract[250]	giv:inact[250]	nonsal[250]	HTML[250]	cf1[250]	coref	58-6[266_250]
+54-2	2632-2636	HTML	abstract[250]	giv:inact[250]	sal[250]	HTML[250]	cf1[250]	coref	58-6[266_250]
 
 #Text=22. Intro to CSS
 55-1	2637-2640	22.	_	_	_	_	_	_	_
 55-2	2641-2646	Intro	_	_	_	_	cf2[253]	_	_
 55-3	2647-2649	to	_	_	_	_	cf2[253]	_	_
-55-4	2650-2653	CSS	abstract[254]	giv:inact[254]	nonsal[254]	CSS[254]	cf2[253]|cf1[254]	coref	59-8[272_254]
+55-4	2650-2653	CSS	abstract[254]	giv:inact[254]	sal[254]	CSS[254]	cf2[253]|cf1[254]	coref	59-8[272_254]
 
 #Text=23. JS HTML DOM Methods
 56-1	2654-2657	23.	_	_	_	_	_	_	_
-56-2	2658-2660	JS	abstract[258]	giv:inact[258]	nonsal[258]	JavaScript[258]	cf2[256]|cf3[257]|cf1[258]	coref	84-4[359_258]
+56-2	2658-2660	JS	abstract[258]	giv:inact[258]	sal[258]	JavaScript[258]	cf2[256]|cf3[257]|cf1[258]	coref	84-4[359_258]
 56-3	2661-2665	HTML	_	_	_	HTML[259]	cf2[256]|cf3[257]|cf4[259]	_	_
 56-4	2666-2669	DOM	_	_	_	_	cf2[256]|cf3[257]	_	_
 56-5	2670-2677	Methods	_	_	_	_	cf2[256]	_	_
@@ -615,7 +615,7 @@
 58-3	2703-2707	Page	_	_	_	_	cf3[264]	_	_
 58-4	2708-2715	Project	_	_	_	_	cf2[265]	_	_
 58-5	2716-2717	:	_	_	_	_	_	_	_
-58-6	2718-2722	HTML	abstract[266]	giv:inact[266]	nonsal[266]	HTML[266]	cf1[266]	coref	59-6[271_266]
+58-6	2718-2722	HTML	abstract[266]	giv:inact[266]	sal[266]	HTML[266]	cf1[266]	coref	59-6[271_266]
 
 #Text=Week 2 - Webpages : HTML & CSS
 59-1	2723-2727	Week	_	_	_	_	cf3[269]	_	_
@@ -623,9 +623,9 @@
 59-3	2730-2731	-	_	_	_	_	_	_	_
 59-4	2732-2740	Webpages	_	_	_	_	cf4[270]	_	_
 59-5	2741-2742	:	_	_	_	_	_	_	_
-59-6	2743-2747	HTML	abstract[271]	giv:act[271]	nonsal[271]	HTML[271]	cf1*[271]	coref	77-5[326_271]
+59-6	2743-2747	HTML	abstract[271]	giv:act[271]	sal[271]	HTML[271]	cf1*[271]	coref	77-5[326_271]
 59-7	2748-2749	&	_	_	_	_	_	_	_
-59-8	2750-2753	CSS	abstract[272]	giv:inact[272]	nonsal[272]	CSS[272]	cf2[272]	coref	69-6[304_272]
+59-8	2750-2753	CSS	abstract[272]	giv:inact[272]	sal[272]	CSS[272]	cf2[272]	coref	69-6[304_272]
 
 #Text=1. Git Version Control
 60-1	2754-2756	1.	_	_	_	_	_	_	_
@@ -700,7 +700,7 @@
 69-3	3028-3032	Page	_	_	_	_	cf2[302]|cf3[303]	_	_
 69-4	3033-3040	Project	_	_	_	_	cf2[302]	_	_
 69-5	3041-3042	:	_	_	_	_	_	_	_
-69-6	3043-3046	CSS	abstract[304]	giv:inact[304]	nonsal[304]	CSS[304]	cf1[304]	coref	77-7[327_304]
+69-6	3043-3046	CSS	abstract[304]	giv:inact[304]	sal[304]	CSS[304]	cf1[304]	coref	77-7[327_304]
 
 #Text=11. Media Queries
 70-1	3047-3050	11.	_	_	_	_	_	_	_
@@ -750,9 +750,9 @@
 77-2	3212-3221	Portfolio	_	_	_	_	cf4[324]|cf5[325]	_	_
 77-3	3222-3229	Project	_	_	_	_	cf4[324]	_	_
 77-4	3230-3231	:	_	_	_	_	_	_	_
-77-5	3232-3236	HTML	abstract[326]	giv:inact[326]	nonsal[326]	HTML[326]	cf1[326]	coref	97-2[413_326]
+77-5	3232-3236	HTML	abstract[326]	giv:inact[326]	sal[326]	HTML[326]	cf1[326]	coref	97-2[413_326]
 77-6	3237-3238	,	_	_	_	_	_	_	_
-77-7	3239-3242	CSS	abstract[327]	giv:inact[327]	nonsal[327]	CSS[327]	cf2[327]	_	_
+77-7	3239-3242	CSS	abstract[327]	giv:inact[327]	sal[327]	CSS[327]	cf2[327]	_	_
 77-8	3243-3244	&	_	_	_	_	_	_	_
 77-9	3245-3254	Bootstrap	abstract[328]	giv:inact[328]	nonsal[328]	Bootstrap_%28front%2Dend_framework%29[328]	cf3[328]	_	_
 
@@ -813,7 +813,7 @@
 84-1	3529-3533	Week	_	_	_	_	cf1[357]	_	_
 84-2	3534-3535	3	_	_	_	_	cf1[357]	_	_
 84-3	3536-3537	-	_	_	_	_	_	_	_
-84-4	3538-3548	JavaScript	abstract[359]	giv:inact[359]	nonsal[359]	JavaScript[359]	cf2[358]|cf3[359]	coref	92-3[390_359]
+84-4	3538-3548	JavaScript	abstract[359]	giv:inact[359]	sal[359]	JavaScript[359]	cf2[358]|cf3[359]	coref	92-3[390_359]
 84-5	3549-3561	Fundamentals	_	_	_	_	cf2[358]	_	_
 
 #Text=1. JavaScript 1 - Variables , Strings , Numbers
@@ -877,7 +877,7 @@
 #Text=8. Basic JavaScript Practice
 92-1	3809-3811	8.	_	_	_	_	_	_	_
 92-2	3812-3817	Basic	_	_	_	_	cf2[389]	_	_
-92-3	3818-3828	JavaScript	abstract[390]	giv:inact[390]	nonsal[390]	JavaScript[390]	cf2[389]|cf1[390]	coref	94-6[398_390]
+92-3	3818-3828	JavaScript	abstract[390]	giv:inact[390]	sal[390]	JavaScript[390]	cf2[389]|cf1[390]	coref	94-6[398_390]
 92-4	3829-3837	Practice	_	_	_	_	cf2[389]	_	_
 
 #Text=9. Testing & TDD
@@ -892,20 +892,20 @@
 94-3	3868-3875	Reading	_	_	_	_	cf3[396]	_	_
 94-4	3876-3877	-	_	_	_	_	_	_	_
 94-5	3878-3886	Eloquent	_	_	_	_	cf2[397]	_	_
-94-6	3887-3897	JavaScript	abstract[398]	giv:inact[398]	nonsal[398]	JavaScript[398]	cf2[397]|cf1[398]	coref	95-5[402_398]
+94-6	3887-3897	JavaScript	abstract[398]	giv:inact[398]	sal[398]	JavaScript[398]	cf2[397]|cf1[398]	coref	95-5[402_398]
 
 #Text=Week 4 - Intermediate JavaScript and React
 95-1	3898-3902	Week	_	_	_	_	cf4[400]	_	_
 95-2	3903-3904	4	_	_	_	_	cf4[400]	_	_
 95-3	3905-3906	-	_	_	_	_	_	_	_
 95-4	3907-3919	Intermediate	abstract[401]	giv:inact[401]	nonsal[401]	_	cf2[401]	_	_
-95-5	3920-3930	JavaScript	abstract[401]|abstract[402]	giv:inact[401]|giv:act[402]	nonsal[401]|nonsal[402]	JavaScript[402]	cf2[401]|cf1*[402]	coref	96-2[408_402]
+95-5	3920-3930	JavaScript	abstract[401]|abstract[402]	giv:inact[401]|giv:act[402]	nonsal[401]|sal[402]	JavaScript[402]	cf2[401]|cf1*[402]	coref	96-2[408_402]
 95-6	3931-3934	and	abstract[401]	giv:inact[401]	nonsal[401]	_	cf2[401]	_	_
-95-7	3935-3940	React	abstract[401]|abstract[403]	giv:inact[401]|giv:inact[403]	nonsal[401]|nonsal[403]	React_%28JavaScript_library%29[403]	cf2[401]|cf3[403]	coref	104-3[438_403]
+95-7	3935-3940	React	abstract[401]|abstract[403]	giv:inact[401]|giv:inact[403]	nonsal[401]|sal[403]	React_%28JavaScript_library%29[403]	cf2[401]|cf3[403]	coref	104-3[438_403]
 
 #Text=1. JavaScript DOM Manipulation - formerly jQuery
 96-1	3941-3943	1.	_	_	_	_	_	_	_
-96-2	3944-3954	JavaScript	abstract[408]	giv:act[408]	nonsal[408]	JavaScript[408]	cf3[406]|cf4[407]|cf1*[408]	coref	97-4[414_408]
+96-2	3944-3954	JavaScript	abstract[408]	giv:act[408]	sal[408]	JavaScript[408]	cf3[406]|cf4[407]|cf1*[408]	coref	97-4[414_408]
 96-3	3955-3958	DOM	_	_	_	_	cf3[406]|cf4[407]	_	_
 96-4	3959-3971	Manipulation	_	_	_	_	cf3[406]	_	_
 96-5	3972-3973	-	_	_	_	_	_	_	_
@@ -914,9 +914,9 @@
 
 #Text=2. HTML / JS Game Project
 97-1	3990-3992	2.	_	_	_	_	_	_	_
-97-2	3993-3997	HTML	abstract[413]	giv:inact[413]	nonsal[413]	HTML[413]	cf3[412]|cf2[413]	_	_
+97-2	3993-3997	HTML	abstract[413]	giv:inact[413]	sal[413]	HTML[413]	cf3[412]|cf2[413]	_	_
 97-3	3998-3999	/	_	_	_	_	cf3[412]	_	_
-97-4	4000-4002	JS	abstract[414]	giv:act[414]	nonsal[414]	JavaScript[414]	cf3[412]|cf1*[414]	coref	102-9[434_414]
+97-4	4000-4002	JS	abstract[414]	giv:act[414]	sal[414]	JavaScript[414]	cf3[412]|cf1*[414]	coref	102-9[434_414]
 97-5	4003-4007	Game	_	_	_	_	cf3[412]	_	_
 97-6	4008-4015	Project	_	_	_	_	cf3[412]	_	_
 
@@ -959,7 +959,7 @@
 102-6	4166-4174	Oriented	abstract[433]	giv:act[433]	nonsal[433]	Object%2Doriented_programming[433]	cf1*[433]	_	_
 102-7	4175-4186	Programming	abstract[433]	giv:act[433]	nonsal[433]	Object%2Doriented_programming[433]	cf1*[433]	_	_
 102-8	4187-4189	in	_	_	_	_	_	_	_
-102-9	4190-4192	JS	abstract[434]	giv:inact[434]	nonsal[434]	JavaScript[434]	cf2[434]	coref	132-2[528_434]
+102-9	4190-4192	JS	abstract[434]	giv:inact[434]	sal[434]	JavaScript[434]	cf2[434]	coref	132-2[528_434]
 
 #Text=8. Functional Programming
 103-1	4193-4195	8.	_	_	_	_	_	_	_
@@ -969,7 +969,7 @@
 #Text=9. All React Lessons
 104-1	4219-4221	9.	_	_	_	_	_	_	_
 104-2	4222-4225	All	_	_	_	_	cf2[437]	_	_
-104-3	4226-4231	React	abstract[438]	giv:inact[438]	nonsal[438]	React_%28JavaScript_library%29[438]	cf2[437]|cf1[438]	coref	129-7[516_438]
+104-3	4226-4231	React	abstract[438]	giv:inact[438]	sal[438]	React_%28JavaScript_library%29[438]	cf2[437]|cf1[438]	coref	129-7[516_438]
 104-4	4232-4239	Lessons	_	_	_	_	cf2[437]	_	_
 
 #Text=Week 5 - Web APIs
@@ -1144,7 +1144,7 @@
 129-4	4841-4849	Advanced	_	_	_	_	cf1[514]|cf4[515]	_	_
 129-5	4850-4852	JS	_	_	_	_	cf1[514]|cf4[515]	_	_
 129-6	4853-4856	and	_	_	_	_	cf1[514]	_	_
-129-7	4857-4862	React	abstract[516]	giv:inact[516]	nonsal[516]	React_%28JavaScript_library%29[516]	cf1[514]|cf2[516]	coref	130-8[520_516]
+129-7	4857-4862	React	abstract[516]	giv:inact[516]	sal[516]	React_%28JavaScript_library%29[516]	cf1[514]|cf2[516]	coref	130-8[520_516]
 
 #Text=1. Full - Stack Web App Using React and Express
 130-1	4863-4865	1.	_	_	_	_	_	_	_
@@ -1154,7 +1154,7 @@
 130-5	4879-4882	Web	_	_	_	World_Wide_Web[519]	cf4[518]|cf3[519]	_	_
 130-6	4883-4886	App	_	_	_	_	cf4[518]	_	_
 130-7	4887-4892	Using	_	_	_	_	cf4[518]	_	_
-130-8	4893-4898	React	abstract[520]	giv:act[520]	nonsal[520]	React_%28JavaScript_library%29[520]	cf4[518]|cf1*[520]	coref	138-8[556_520]
+130-8	4893-4898	React	abstract[520]	giv:act[520]	sal[520]	React_%28JavaScript_library%29[520]	cf4[518]|cf1*[520]	coref	138-8[556_520]
 130-9	4899-4902	and	_	_	_	_	cf4[518]	_	_
 130-10	4903-4910	Express	abstract[521]	giv:inact[521]	nonsal[521]	Express.js[521]	cf4[518]|cf2[521]	_	_
 
@@ -1164,7 +1164,7 @@
 
 #Text=3. JavaScript Set object
 132-1	4924-4926	3.	_	_	_	_	_	_	_
-132-2	4927-4937	JavaScript	abstract[528]	giv:inact[528]	nonsal[528]	JavaScript[528]	cf2[527]|cf1[528]	coref	153-2[605_528]
+132-2	4927-4937	JavaScript	abstract[528]	giv:inact[528]	sal[528]	JavaScript[528]	cf2[527]|cf1[528]	coref	153-2[605_528]
 132-3	4938-4941	Set	_	_	_	_	cf2[527]	_	_
 132-4	4942-4948	object	_	_	_	_	cf2[527]	_	_
 
@@ -1213,7 +1213,7 @@
 138-5	5115-5119	with	_	_	_	_	_	_	_
 138-6	5120-5124	Jest	abstract[553]	giv:act[553]	nonsal[553]	_	cf1*[553]	_	_
 138-7	5125-5128	and	_	_	_	_	_	_	_
-138-8	5129-5134	React	abstract[556]	giv:inact[556]	nonsal[556]	React_%28JavaScript_library%29[556]	cf4[555]|cf2[556]	coref	142-6[567_556]
+138-8	5129-5134	React	abstract[556]	giv:inact[556]	sal[556]	React_%28JavaScript_library%29[556]	cf4[555]|cf2[556]	coref	142-6[567_556]
 138-9	5135-5142	Testing	_	_	_	_	cf4[555]	_	_
 138-10	5143-5150	Library	_	_	_	_	cf4[555]	_	_
 
@@ -1221,11 +1221,11 @@
 139-1	5151-5155	Week	_	_	_	_	cf2[558]	_	_
 139-2	5156-5157	9	_	_	_	_	cf2[558]	_	_
 139-3	5158-5159	-	_	_	_	_	_	_	_
-139-4	5160-5170	Eventonica	abstract[559]	giv:inact[559]	nonsal[559]	_	cf1[559]	coref	140-2[562_559]
+139-4	5160-5170	Eventonica	abstract[559]	giv:inact[559]	sal[559]	_	cf1[559]	coref	140-2[562_559]
 
 #Text=1. Eventonica Project
 140-1	5171-5173	1.	_	_	_	_	_	_	_
-140-2	5174-5184	Eventonica	abstract[562]	giv:act[562]	nonsal[562]	_	cf2[561]|cf1*[562]	_	_
+140-2	5174-5184	Eventonica	abstract[562]	giv:act[562]	sal[562]	_	cf2[561]|cf1*[562]	_	_
 140-3	5185-5192	Project	_	_	_	_	cf2[561]	_	_
 
 #Text=Week 10 - Full Stack Practice
@@ -1242,7 +1242,7 @@
 142-3	5236-5238	to	_	_	_	_	_	_	_
 142-4	5239-5245	Heroku	abstract[566]	new[566]	nonsal[566]	Heroku[566]	cf3[566]	coref	197-5[770_566]
 142-5	5246-5250	with	_	_	_	_	_	_	_
-142-6	5251-5256	React	abstract[567]	giv:inact[567]	nonsal[567]	React_%28JavaScript_library%29[567]	cf1[567]	coref	143-4[574_567]
+142-6	5251-5256	React	abstract[567]	giv:inact[567]	sal[567]	React_%28JavaScript_library%29[567]	cf1[567]	coref	143-4[574_567]
 142-7	5257-5260	and	_	_	_	_	_	_	_
 142-8	5261-5265	Node	abstract[568]	giv:inact[568]	nonsal[568]	Node.js[568]	cf2[568]	coref	143-6[575_568]
 
@@ -1250,7 +1250,7 @@
 143-1	5266-5268	2.	_	_	_	_	_	_	_
 143-2	5269-5279	Optimizing	_	_	_	_	_	_	_
 143-3	5280-5284	your	person[573]	giv:inact[573]	nonsal[573]	_	cf4[572]|cf3[573]	ana	183-6[708_573]
-143-4	5285-5290	React	abstract[574]	giv:act[574]	nonsal[574]	React_%28JavaScript_library%29[574]	cf4[572]|cf2[574]	_	_
+143-4	5285-5290	React	abstract[574]	giv:act[574]	sal[574]	React_%28JavaScript_library%29[574]	cf4[572]|cf2[574]	_	_
 143-5	5291-5292	/	_	_	_	_	cf4[572]	_	_
 143-6	5293-5299	NodeJS	abstract[575]	giv:act[575]	nonsal[575]	Node.js[575]	cf4[572]|cf1*[575]	_	_
 143-7	5300-5307	Project	_	_	_	_	cf4[572]	_	_
@@ -1323,7 +1323,7 @@
 
 #Text=7. JavaScript Map
 153-1	5585-5587	7.	_	_	_	_	_	_	_
-153-2	5588-5598	JavaScript	abstract[605]	giv:inact[605]	nonsal[605]	JavaScript[605]	cf2[604]|cf1[605]	_	_
+153-2	5588-5598	JavaScript	abstract[605]	giv:inact[605]	sal[605]	JavaScript[605]	cf2[604]|cf1[605]	_	_
 153-3	5599-5602	Map	_	_	_	_	cf2[604]	_	_
 
 #Text=8. Data Structures : Trees
@@ -1378,8 +1378,8 @@
 162-1	5796-5800	Week	_	_	_	_	cf2[621]	_	_
 162-2	5801-5803	13	_	_	_	_	cf2[621]	_	_
 162-3	5804-5805	-	_	_	_	_	_	_	_
-162-4	5806-5812	Career	time[622]|abstract[623]	giv:inact[622]|giv:inact[623]	nonsal[622]|nonsal[623]	Career[623]	cf1[622]|cf3[623]	coref|coref	167-2[641_622]|167-2[642_623]
-162-5	5813-5817	Week	time[622]	giv:inact[622]	nonsal[622]	_	cf1[622]	_	_
+162-4	5806-5812	Career	time[622]|abstract[623]	giv:inact[622]|giv:inact[623]	sal[622]|sal[623]	Career[623]	cf1[622]|cf3[623]	coref|coref	167-2[641_622]|167-2[642_623]
+162-5	5813-5817	Week	time[622]	giv:inact[622]	sal[622]	_	cf1[622]	_	_
 162-6	5818-5819	!	_	_	_	_	_	_	_
 
 #Text=1. Technical Interviewing
@@ -1403,13 +1403,13 @@
 166-1	5893-5895	4.	_	_	_	_	_	_	_
 166-2	5896-5903	Article	_	_	_	_	cf1[630]	_	_
 166-3	5904-5906	by	_	_	_	_	cf1[630]	_	_
-166-4	5907-5917	Techtonica	abstract[632]	giv:inact[632]	nonsal[632]	_	cf1[630]|cf6[631]|cf4[632]	_	_
+166-4	5907-5917	Techtonica	abstract[632]	giv:inact[632]	sal[632]	_	cf1[630]|cf6[631]|cf4[632]	_	_
 166-5	5918-5922	Alum	_	_	_	_	cf1[630]|cf6[631]	_	_
 166-6	5923-5924	:	_	_	_	_	_	_	_
 166-7	5925-5932	Working	_	_	_	_	cf1[634]	_	_
 166-8	5933-5935	in	_	_	_	_	cf1[634]	_	_
-166-9	5936-5939	the	abstract[635]	giv:inact[635]	nonsal[635]	Technology[635]	cf1[634]|cf2[635]	coref	185-6[713_635]
-166-10	5940-5945	field	abstract[635]	giv:inact[635]	nonsal[635]	Technology[635]	cf1[634]|cf2[635]	_	_
+166-9	5936-5939	the	abstract[635]	giv:inact[635]	sal[635]	Technology[635]	cf1[634]|cf2[635]	coref	185-6[713_635]
+166-10	5940-5945	field	abstract[635]	giv:inact[635]	sal[635]	Technology[635]	cf1[634]|cf2[635]	_	_
 166-11	5946-5948	as	_	_	_	_	cf1[634]	_	_
 166-12	5949-5950	a	_	_	_	_	cf1[634]|cf7[636]	_	_
 166-13	5951-5954	New	_	_	_	_	cf1[634]|cf7[636]	_	_
@@ -1421,8 +1421,8 @@
 
 #Text=5. Career Week : Machine Learning Engineer
 167-1	5989-5991	5.	_	_	_	_	_	_	_
-167-2	5992-5998	Career	time[641]|abstract[642]	giv:inact[641]|giv:inact[642]	nonsal[641]|nonsal[642]	Career[642]	cf1[641]|cf2[642]	coref|coref	168-2[646_642]|168-2[645_641]
-167-3	5999-6003	Week	time[641]	giv:inact[641]	nonsal[641]	_	cf1[641]	_	_
+167-2	5992-5998	Career	time[641]|abstract[642]	giv:inact[641]|giv:inact[642]	sal[641]|sal[642]	Career[642]	cf1[641]|cf2[642]	coref|coref	168-2[645_641]|168-2[646_642]
+167-3	5999-6003	Week	time[641]	giv:inact[641]	sal[641]	_	cf1[641]	_	_
 167-4	6004-6005	:	_	_	_	_	_	_	_
 167-5	6006-6013	Machine	_	_	_	_	cf3[644]	_	_
 167-6	6014-6022	Learning	_	_	_	_	cf3[644]	_	_
@@ -1430,54 +1430,54 @@
 
 #Text=6. Career Week : Entrepreneurship
 168-1	6032-6034	6.	_	_	_	_	_	_	_
-168-2	6035-6041	Career	time[645]|abstract[646]	giv:act[645]|giv:act[646]	nonsal[645]|nonsal[646]	Career[646]	cf1*[645]|cf2[646]	coref|coref	169-2[650_645]|169-2[651_646]
-168-3	6042-6046	Week	time[645]	giv:act[645]	nonsal[645]	_	cf1*[645]	_	_
+168-2	6035-6041	Career	time[645]|abstract[646]	giv:act[645]|giv:act[646]	sal[645]|sal[646]	Career[646]	cf1*[645]|cf2[646]	coref|coref	169-2[651_646]|169-2[650_645]
+168-3	6042-6046	Week	time[645]	giv:act[645]	sal[645]	_	cf1*[645]	_	_
 168-4	6047-6048	:	_	_	_	_	_	_	_
 168-5	6049-6065	Entrepreneurship	_	_	_	Entrepreneurship[647]	cf3[647]	_	_
 
 #Text=7. Career Week : Data Science
 169-1	6066-6068	7.	_	_	_	_	_	_	_
-169-2	6069-6075	Career	time[650]|abstract[651]	giv:act[650]|giv:act[651]	nonsal[650]|nonsal[651]	Career[651]	cf1*[650]|cf2[651]	coref|coref	170-2[655_651]|170-2[654_650]
-169-3	6076-6080	Week	time[650]	giv:act[650]	nonsal[650]	_	cf1*[650]	_	_
+169-2	6069-6075	Career	time[650]|abstract[651]	giv:act[650]|giv:act[651]	sal[650]|sal[651]	Career[651]	cf1*[650]|cf2[651]	coref|coref	170-2[655_651]|170-2[654_650]
+169-3	6076-6080	Week	time[650]	giv:act[650]	sal[650]	_	cf1*[650]	_	_
 169-4	6081-6082	:	_	_	_	_	_	_	_
 169-5	6083-6087	Data	_	_	_	Data_science[653]	cf3[653]	_	_
 169-6	6088-6095	Science	_	_	_	Data_science[653]	cf3[653]	_	_
 
 #Text=8. Career Week : Security
 170-1	6096-6098	8.	_	_	_	_	_	_	_
-170-2	6099-6105	Career	time[654]|abstract[655]	giv:act[654]|giv:act[655]	nonsal[654]|nonsal[655]	Career[655]	cf1*[654]|cf2[655]	coref|coref	171-2[660_655]|171-2[659_654]
-170-3	6106-6110	Week	time[654]	giv:act[654]	nonsal[654]	_	cf1*[654]	_	_
+170-2	6099-6105	Career	time[654]|abstract[655]	giv:act[654]|giv:act[655]	sal[654]|sal[655]	Career[655]	cf1*[654]|cf2[655]	coref|coref	171-2[659_654]|171-2[660_655]
+170-3	6106-6110	Week	time[654]	giv:act[654]	sal[654]	_	cf1*[654]	_	_
 170-4	6111-6112	:	_	_	_	_	_	_	_
 170-5	6113-6121	Security	_	_	_	_	cf3[656]	_	_
 
 #Text=9. Career Week : QA Engineer
 171-1	6122-6124	9.	_	_	_	_	_	_	_
-171-2	6125-6131	Career	time[659]|abstract[660]	giv:act[659]|giv:act[660]	nonsal[659]|nonsal[660]	Career[660]	cf1*[659]|cf2[660]	coref|coref	172-2[663_659]|172-2[664_660]
-171-3	6132-6136	Week	time[659]	giv:act[659]	nonsal[659]	_	cf1*[659]	_	_
+171-2	6125-6131	Career	time[659]|abstract[660]	giv:act[659]|giv:act[660]	sal[659]|sal[660]	Career[660]	cf1*[659]|cf2[660]	coref|coref	172-2[663_659]|172-2[664_660]
+171-3	6132-6136	Week	time[659]	giv:act[659]	sal[659]	_	cf1*[659]	_	_
 171-4	6137-6138	:	_	_	_	_	_	_	_
 171-5	6139-6141	QA	_	_	_	_	cf3[662]	_	_
 171-6	6142-6150	Engineer	_	_	_	_	cf3[662]	_	_
 
 #Text=10. Career Week : Developer Advocate
 172-1	6151-6154	10.	_	_	_	_	_	_	_
-172-2	6155-6161	Career	time[663]|abstract[664]	giv:act[663]|giv:act[664]	nonsal[663]|nonsal[664]	Career[664]	cf1*[663]|cf2[664]	coref|coref	173-2[668_664]|173-2[667_663]
-172-3	6162-6166	Week	time[663]	giv:act[663]	nonsal[663]	_	cf1*[663]	_	_
+172-2	6155-6161	Career	time[663]|abstract[664]	giv:act[663]|giv:act[664]	sal[663]|sal[664]	Career[664]	cf1*[663]|cf2[664]	coref|coref	173-2[667_663]|173-2[668_664]
+172-3	6162-6166	Week	time[663]	giv:act[663]	sal[663]	_	cf1*[663]	_	_
 172-4	6167-6168	:	_	_	_	_	_	_	_
 172-5	6169-6178	Developer	_	_	_	_	cf3[666]	_	_
 172-6	6179-6187	Advocate	_	_	_	_	cf3[666]	_	_
 
 #Text=11. Career Week : Sales Engineering
 173-1	6188-6191	11.	_	_	_	_	_	_	_
-173-2	6192-6198	Career	time[667]|abstract[668]	giv:act[667]|giv:act[668]	nonsal[667]|nonsal[668]	Career[668]	cf1*[667]|cf2[668]	coref|coref	174-2[674_668]|174-2[673_667]
-173-3	6199-6203	Week	time[667]	giv:act[667]	nonsal[667]	_	cf1*[667]	_	_
+173-2	6192-6198	Career	time[667]|abstract[668]	giv:act[667]|giv:act[668]	sal[667]|sal[668]	Career[668]	cf1*[667]|cf2[668]	coref|coref	174-2[674_668]|174-2[673_667]
+173-3	6199-6203	Week	time[667]	giv:act[667]	sal[667]	_	cf1*[667]	_	_
 173-4	6204-6205	:	_	_	_	_	_	_	_
 173-5	6206-6211	Sales	_	_	_	_	cf3[670]|cf4[671]	_	_
 173-6	6212-6223	Engineering	_	_	_	_	cf3[670]	_	_
 
 #Text=12. Career Week : Technical Program Manager
 174-1	6224-6227	12.	_	_	_	_	_	_	_
-174-2	6228-6234	Career	time[673]|abstract[674]	giv:act[673]|giv:act[674]	nonsal[673]|nonsal[674]	Career[674]	cf1*[673]|cf2[674]	_	_
-174-3	6235-6239	Week	time[673]	giv:act[673]	nonsal[673]	_	cf1*[673]	_	_
+174-2	6228-6234	Career	time[673]|abstract[674]	giv:act[673]|giv:act[674]	sal[673]|sal[674]	Career[674]	cf1*[673]|cf2[674]	_	_
+174-3	6235-6239	Week	time[673]	giv:act[673]	sal[673]	_	cf1*[673]	_	_
 174-4	6240-6241	:	_	_	_	_	_	_	_
 174-5	6242-6251	Technical	_	_	_	_	cf3[676]	_	_
 174-6	6252-6259	Program	_	_	_	_	cf3[676]	_	_
@@ -1562,7 +1562,7 @@
 185-3	6576-6577	:	_	_	_	_	_	_	_
 185-4	6578-6594	Underrepresented	_	_	_	_	_	_	_
 185-5	6595-6597	in	_	_	_	_	_	_	_
-185-6	6598-6602	Tech	abstract[713]	giv:inact[713]	nonsal[713]	Technology[713]	cf1[713]	_	_
+185-6	6598-6602	Tech	abstract[713]	giv:inact[713]	sal[713]	Technology[713]	cf1[713]	_	_
 
 #Text=11. Difficult Workplace Situations
 186-1	6603-6606	11.	_	_	_	_	_	_	_
@@ -1641,7 +1641,7 @@
 194-5	6947-6951	have	_	_	_	_	cf2[748]	_	_
 194-6	6952-6960	features	_	_	_	_	cf2[748]	_	_
 194-7	6961-6964	for	_	_	_	_	_	_	_
-194-8	6965-6970	their	abstract[749]|person[750]	new[749]|giv:inact[750]	nonsal[749]|nonsal[750]	Minimum_viable_product[749]	cf3[749]|cf1[750]	ana|coref	195-4[755_750]|196-8[765_749]
+194-8	6965-6970	their	abstract[749]|person[750]	new[749]|giv:inact[750]	nonsal[749]|nonsal[750]	Minimum_viable_product[749]	cf3[749]|cf1[750]	coref|ana	196-8[765_749]|195-4[755_750]
 194-9	6971-6974	MVP	abstract[749]	new[749]	nonsal[749]	Minimum_viable_product[749]	cf3[749]	_	_
 
 #Text=Updating status on their Trello board to meet weekly milestones / sprints
