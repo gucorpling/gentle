@@ -900,14 +900,12 @@
         (NP (NNP Adam))
         (VBZ gets)
         (ADJP
-          (ADJP
-            (JJ frustrated)
-            (PP
-              (IN about)
-              (S
-                (VP (VBG losing) (PP (IN against) (NP (NNP Genoa)))))))
-          (, ,)
-          (NP (ADJP (CD one) (NN nil)) (JJ complete) (NN BS)))
+          (VBN frustrated)
+          (PP
+            (IN about)
+            (S (VP (VBG losing) (PP (IN against) (NP (NNP Genoa)))))))
+        (, ,)
+        (NP (ADJP (CD one) (NN nil)) (JJ complete) (NN BS))
         (, ,)
         (SBAR
           (WHADVP (WRB how))

@@ -119,7 +119,7 @@
             (VBN applied)
             (PP (IN to) (NP (NN DE)))
             (SBAR
-              (JJ such)
+              (RB such)
               (IN that)
               (S (NP (NN DH)) (VP (SYM =) (NP (NN AC2)))))))))
     (. .)))
@@ -136,7 +136,7 @@
             (VBN applied)
             (PP (IN to) (NP (NN DE)))
             (SBAR
-              (JJ such)
+              (RB such)
               (IN that)
               (S (NP (NN KL)) (VP (SYM =) (NP (NN BC2)))))))))
     (. .)))
@@ -248,7 +248,7 @@
               (ADJP (JJ commensurable) (PP (IN in) (NP (NN square))))
               (ADVP (RB only))
               (SBAR
-                (JJ such)
+                (RB such)
                 (IN that)
                 (S
                   (NP (NN AC) (SYM ⋅) (NNP CB))
