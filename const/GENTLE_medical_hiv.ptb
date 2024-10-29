@@ -242,7 +242,7 @@
                   (VBG following)
                   (PRT (RP up))
                   (PP (IN with) (NP (NNP Surgery)))
-                  (NP (NN today)))))))))
+                  (NP-TMP (NN today)))))))))
     (. .)))
 
 (ROOT (NP (JJ CURRENT) (NNS MEDICATIONS) (: :)))
@@ -258,35 +258,35 @@
   (NP
     (LS 2.)
     (NP (NNP Metformin))
-    (NP (NP (CD 1000) (NNS mg)) (NP (RB twice) (DT a) (NN day)))
+    (NP (NP (CD 1000) (NNS mg)) (NP-TMP (RB twice) (DT a) (NN day)))
     (. .)))
 
 (ROOT
   (NP
     (LS 3.)
     (NP (NNP Glipizide))
-    (NP (NP (CD 5) (NNS mg)) (NP (DT a) (NN day)))
+    (NP (NP (CD 5) (NNS mg)) (NP-TMP (DT a) (NN day)))
     (. .)))
 
 (ROOT
   (NP
     (LS 4.)
     (NP (NP (NNP Flagyl)) (NP (CD 500) (NNS mg)))
-    (NP (NP-EXT (CD four) (NNS times)) (NP (DT a) (NN day)))
+    (NP (NP-TMP (CD four) (NNS times)) (NP-TMP (DT a) (NN day)))
     (. .)))
 
 (ROOT
   (NP
     (LS 5.)
     (NP (NNP Flexeril))
-    (NP (NP (CD 10) (NN mg)) (NP (RB twice) (DT a) (NN day)))
+    (NP (NP (CD 10) (NN mg)) (NP-TMP (RB twice) (DT a) (NN day)))
     (. .)))
 
 (ROOT
   (NP
     (LS 6.)
     (NP (NNP Paroxetine))
-    (NP (NP (CD 20) (NN mg)) (NP (DT a) (NN day)))
+    (NP (NP (CD 20) (NN mg)) (NP-TMP (DT a) (NN day)))
     (. .)))
 
 (ROOT
@@ -300,7 +300,7 @@
   (NP
     (LS 8.)
     (NP (NNP Clonazepam))
-    (NP (NP (CD 1) (NN mg)) (NP (RB twice) (DT a) (NN day)))
+    (NP (NP (CD 1) (NN mg)) (NP-TMP (RB twice) (DT a) (NN day)))
     (. .)))
 
 (ROOT
@@ -525,7 +525,9 @@
         (VP
           (VB see)
           (NP (PRP him))
-          (ADVP-TMP (NP (DT a) (JJ few) (NNS weeks)) (RB thereafter)))))
+          (ADVP-TMP
+            (NP-TMP (DT a) (JJ few) (NNS weeks))
+            (RB thereafter)))))
     (. .)))
 
 (ROOT

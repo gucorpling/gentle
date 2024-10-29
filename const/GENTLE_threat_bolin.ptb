@@ -59,7 +59,7 @@
         (S
           (VP
             (TO to)
-            (VP (VB say) (NP (DT this)) (NP-EXT (CD one) (NN time)))))
+            (VP (VB say) (NP (DT this)) (NP-TMP (CD one) (NN time)))))
         (SBAR-ADV
           (IN so)
           (S
@@ -245,7 +245,7 @@
     (VP
       (VP
         (VBD sounded)
-        (ADJP-PRD (NP (DT a) (JJ little)) (JJ shaky))
+        (ADJP-PRD (NP-ADV (DT a) (JJ little)) (JJ shaky))
         (PP (IN over) (NP (DT the) (NN phone))))
       (CC and)
       (VP (VBD gave) (NP (PRP yourself)) (PRT (RP away))))
@@ -257,7 +257,7 @@
     (VP
       (VBD told)
       (NP (PRP you))
-      (ADVP-TMP (NP (DT a) (JJ long) (NN time)) (RB ago))
+      (ADVP-TMP (NP-TMP (DT a) (JJ long) (NN time)) (RB ago))
       (S
         (VP
           (VBP do)

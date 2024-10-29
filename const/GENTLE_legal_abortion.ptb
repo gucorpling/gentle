@@ -33,14 +33,14 @@
   (FRAG
     (S (VP (VBN Argued)))
     (: :)
-    (NP (NNP December) (CD 13) (, ,) (CD 1971))
+    (NP-TMP (NNP December) (CD 13) (, ,) (CD 1971))
     (: ---)))
 
 (ROOT
   (NP
     (NP (VBN Decided))
     (: :)
-    (NP (NNP January) (CD 22) (, ,) (CD 1973))))
+    (NP-TMP (NNP January) (CD 22) (, ,) (CD 1973))))
 
 (ROOT
   (S

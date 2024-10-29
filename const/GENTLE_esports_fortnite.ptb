@@ -11,7 +11,7 @@
               (VBZ has)
               (VP
                 (VBN launched)
-                (NP-EXT (ADJP (CD one) (JJR more)) (NN time))))))))
+                (NP-TMP (ADJP (CD one) (JJR more)) (NN time))))))))
     (, ,)
     (NP-SBJ
       (DT the)
@@ -207,7 +207,7 @@
         (, ,)))
     (VP
       (VBD qualified)
-      (NP (DT the) (RB very) (JJ first) (NN week))
+      (NP-TMP (DT the) (RB very) (JJ first) (NN week))
       (PP (IN for) (NP (DT the) (NNP World) (NNP Cup))))
     (. .)))
 
@@ -776,7 +776,7 @@
               (TO na)
               (VP
                 (VB roll)
-                (ADVP (NP (PDT all) (DT the) (NN way)) (RB down))))))))
+                (ADVP (NP-ADV (PDT all) (DT the) (NN way)) (RB down))))))))
     (VP
       (VBZ looks)
       (PP
@@ -805,7 +805,7 @@
                 (PRT (RP off))
                 (PP (IN against) (NP (DT each) (JJ other)))
                 (NP
-                  (NP (DT a) (NN number))
+                  (NP-TMP (DT a) (NN number))
                   (PP (IN of) (NP (NNS times))))))))))
     (, ,)
     (VP
@@ -904,7 +904,7 @@
             (NP-PRD
               (NP (PRP$ our) (JJ final) (NN game))
               (ADVP (RB here))
-              (NP (NN tonight)))))))
+              (NP-TMP (NN tonight)))))))
     (. .)))
 
 (ROOT
@@ -1306,7 +1306,9 @@
                   (MD may)
                   (VP
                     (VB be)
-                    (ADJP-PRD (NP (DT a) (JJ little)) (JJ sparse))
+                    (ADJP-PRD
+                      (NP-ADV (DT a) (JJ little))
+                      (JJ sparse))
                     (PP
                       (IN in)
                       (NP

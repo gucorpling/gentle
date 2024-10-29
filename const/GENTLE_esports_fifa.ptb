@@ -324,7 +324,7 @@
               (VP
                 (VB be)
                 (ADJP-PRD (JJ tough))
-                (NP (PDT all) (DT the) (NN time)))
+                (NP-TMP (PDT all) (DT the) (NN time)))
               (SBAR
                 (S
                   (NP-SBJ (NNP UVA))
@@ -394,7 +394,7 @@
 (ROOT
   (S
     (S
-      (NP (DT The) (JJ last) (NN match))
+      (NP-TMP (DT The) (JJ last) (NN match))
       (NP-SBJ (PRP he))
       (VP (VBD scored) (NP (NNP Jović))))
     (RB so)
@@ -780,7 +780,7 @@
 (ROOT
   (S
     (S
-      (NP-EXT (CD One) (NN minute))
+      (NP-TMP (CD One) (NN minute))
       (NP-SBJ (PRP it))
       (VP
         (VBD looked)
@@ -799,7 +799,7 @@
     (, ,)
     (S
       (S
-        (NP (DT the) (JJ next))
+        (NP-TMP (DT the) (JJ next))
         (S
           (NP-SBJ (NNP Favilli))
           (VP (VBZ is) (VP (VBG scoring) (NP (DT a) (NN penalty))))))
@@ -841,7 +841,7 @@
           (VP
             (VBG doing)
             (NP (RB absolutely) (NN nothing))
-            (NP (DT all) (NN match))))))
+            (NP-TMP (DT all) (NN match))))))
     (. .)))
 
 (ROOT
@@ -905,7 +905,7 @@
             (NP
               (NP (DT a) (JJ simple) (NN bicycle) (NN kick))
               (PP-LOC (IN in) (NP (DT the) (NN Box))))
-            (NP (RB even) (DT a) (NN moment))))))
+            (NP-TMP (RB even) (DT a) (NN moment))))))
     (, ,)
     (S
       (NP-SBJ (PRP I))
@@ -968,7 +968,7 @@
                     (NP-SBJ (WP who))
                     (S
                       (S
-                        (NP (NP (NN today) (VBZ 's)) (UH ah))
+                        (NP (NP-TMP (NN today) (VBZ 's)) (UH ah))
                         (VP
                           (VBZ is)
                           (ADVP
@@ -1137,7 +1137,7 @@
                     (PP
                       (IN for)
                       (NP (DT the) (NNPS Champions) (NNP League)))
-                    (NP (DT this) (NN season)))))
+                    (NP-TMP (DT this) (NN season)))))
               (S
                 (NP-SBJ (PRP they))
                 (VP

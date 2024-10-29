@@ -299,7 +299,7 @@
           (SBAR
             (S
               (NP-SBJ (PRP I))
-              (VP (VBD had) (NP (DT the) (JJ first) (NN time))))))))
+              (VP (VBD had) (NP-TMP (DT the) (JJ first) (NN time))))))))
     (. .)
     (. .)
     (. .)

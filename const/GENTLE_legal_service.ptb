@@ -297,7 +297,7 @@
                   (IN upon)
                   (NP
                     (NP
-                      (NP-EXT (CD 30) (NNS days))
+                      (NP-TMP (CD 30) (NNS days))
                       (JJ prior)
                       (NN notice))
                     (PP (IN to) (NP (PRP you)))))))))))
@@ -1166,7 +1166,7 @@
             (VBZ requests)
             (NP (NN termination))
             (PP
-              (NP-EXT (QP (IN at) (JJS least) (CD 30)) (NNS days))
+              (NP-TMP (QP (IN at) (JJS least) (CD 30)) (NNS days))
               (RB prior)
               (PP
                 (IN to)

@@ -647,7 +647,7 @@
       (NP (NN AC2) (SYM +) (NN CB2))
       (SYM >)
       (NP-SBJ
-        (NP (CD 2) (SYM ⋅) (NP (NN AC)))
+        (NP-TMP (CD 2) (SYM ⋅) (NP (NN AC)))
         (SYM ⋅)
         (NP (NN CB))
         (RB Therefore)

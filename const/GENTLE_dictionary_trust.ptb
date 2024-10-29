@@ -507,7 +507,7 @@
                                 (NP
                                   (NP (DT the) (NN benefit))
                                   (PP (IN of)))))
-                            (NN ,)
+                            (, ,)
                             (CC or)
                             (VP
                               (ADVP-TMP (RB eventually))

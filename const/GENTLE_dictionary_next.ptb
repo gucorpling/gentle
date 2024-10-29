@@ -11,13 +11,13 @@
 
 (ROOT
   (NP
-    (NP (NNP neist))
+    (NP (FW neist))
     (PRN (-LRB- -LRB-) (NP (NNP Scotland)) (-RRB- -RRB-))))
 
 (ROOT
   (NP
-    (NP (NNP nex))
-    (PRN (-LRB- -LRB-) (ADJP (NN archaic)) (-RRB- -RRB-))))
+    (NP (FW nex))
+    (PRN (-LRB- -LRB-) (ADJP (JJ archaic)) (-RRB- -RRB-))))
 
 (ROOT
   (NP
@@ -174,7 +174,7 @@
     (VP
       (VBD kept)
       (S (NP-SBJ (PRP me)) (ADJP-PRD (JJ awake)))
-      (NP (DT all) (NN night))
+      (NP-TMP (DT all) (NN night))
       (PP (IN with) (NP (PRP$ his) (NN snoring))))
     (. .)))
 
@@ -317,7 +317,7 @@
       (VBZ is)
       (VP
         (VBN used)
-        (NP (NN today))
+        (NP-TMP (NN today))
         (PP
           (ADVP (RB mostly))
           (IN in)
@@ -400,7 +400,10 @@
     (NP-SBJ (PRP I))
     (VP
       (MD 'll)
-      (VP (VB know) (ADVP-MNR (RBR better)) (NP (JJ next) (NN time))))
+      (VP
+        (VB know)
+        (ADVP-MNR (RBR better))
+        (NP-TMP (JJ next) (NN time))))
     (. .)))
 
 (ROOT
@@ -492,9 +495,9 @@
     (VP
       (VB mean)
       (NP
-        (NP (NP (NNP Thursday)) (NP (DT this) (NN week)))
+        (NP (NP (NNP Thursday)) (NP-TMP (DT this) (NN week)))
         (CC or)
-        (NP (NP (NNP Thursday)) (NP (JJ next) (NN week)))))
+        (NP (NP (NNP Thursday)) (NP-TMP (JJ next) (NN week)))))
     (. ?)))
 
 (ROOT (S (VP (VB See) (ADVP (RB also)))))
@@ -674,12 +677,12 @@
 (ROOT
   (S
     (S
-      (NP-EXT (CD One) (NN moment))
+      (NP-TMP (CD One) (NN moment))
       (NP-SBJ (PRP she))
       (VP (VBD was) (ADVP-PRD (RB there))))
     (, ,)
     (S
-      (NP (DT the) (JJ next))
+      (NP-TMP (DT the) (JJ next))
       (NP-SBJ (PRP she))
       (VP (VBD was) (RB n't)))
     (. .)))

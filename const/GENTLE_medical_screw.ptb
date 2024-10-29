@@ -4,7 +4,7 @@
   (NP
     (NP (NN Followup))
     (NP
-      (NP (NP-EXT (CD 4) (NNS months)) (NN status))
+      (NP (NP-TMP (CD 4) (NNS months)) (NN status))
       (PP
         (IN post)
         (NP
@@ -36,7 +36,7 @@
   (NP
     (NP (NN Followup))
     (NP
-      (NP (NP-EXT (CD 4) (NNS months)) (NN status))
+      (NP (NP-TMP (CD 4) (NNS months)) (NN status))
       (PP
         (IN post)
         (NP
@@ -86,7 +86,7 @@
               (ADVP-TMP (RB now))
               (PP-PRD
                 (NP
-                  (NP-EXT
+                  (NP-TMP
                     (QP (RB approximately) (CD 4))
                     (NNS months))
                   (NN status))
@@ -160,7 +160,7 @@
           (PP (IN with) (NP (JJ physical) (NN therapy)))
           (NP
             (NP (QP (CD two) (IN to) (CD three)) (NNS times))
-            (NP (DT a) (NN week))))))
+            (NP-TMP (DT a) (NN week))))))
     (. .)))
 
 (ROOT

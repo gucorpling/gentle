@@ -228,7 +228,7 @@
                   (PP
                     (IN from)
                     (NP (DT an) (NN internet) (NN dealer)))
-                  (NP (NN today)))))))
+                  (NP-TMP (NN today)))))))
         (, ,)
         (CC and)
         (VP

@@ -88,7 +88,7 @@
   (S
     (CC And)
     (NP-SBJ (DT both))
-    (NP (DT that) (NN morning))
+    (NP-TMP (DT that) (NN morning))
     (VP
       (ADVP (RB equally))
       (VBD lay)
@@ -153,7 +153,7 @@
             (NP (DT this))
             (PP (IN with) (NP (DT a) (NN sigh)))
             (ADVP (RB Somewhere))
-            (ADVP (NP (NNS ages) (CC and) (NNS ages)) (RB hence))))))
+            (ADVP (NP-TMP (NNS ages) (CC and) (NNS ages)) (RB hence))))))
     (: :)
     (S
       (S

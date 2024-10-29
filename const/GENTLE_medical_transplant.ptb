@@ -549,7 +549,7 @@
                 (ADJP (JJ sixth) (CC and) (JJ final))
                 (NN cycle))
               (PP (IN of) (NP (NN chemotherapy))))
-            (NP (NN today))))))
+            (NP-TMP (NN today))))))
     (. .)))
 
 (ROOT
@@ -631,7 +631,7 @@
       (VBZ is)
       (VP
         (VBN elevated)
-        (NP (NN today))
+        (NP-TMP (NN today))
         (SBAR-ADV
           (IN because)
           (S

@@ -494,7 +494,10 @@
       (S
         (S
           (NP (PRP$ my) (NN heart))
-          (VP (VB be) (ADVP-TMP (RB still)) (NP (DT a) (NN moment))))
+          (VP
+            (VB be)
+            (ADVP-TMP (RB still))
+            (NP-TMP (DT a) (NN moment))))
         (CC and)
         (S (NP (DT this) (NN mystery)) (VP (VB explore)))))
     (: ;)

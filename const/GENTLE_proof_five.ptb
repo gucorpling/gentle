@@ -53,7 +53,7 @@
                           (IN that)
                           (S
                             (NP-SBJ (NN k))
-                            (VP (SYM ≤) (NP (CD 5)))))))))))))))
+                            (VP (SYM ≤) (NP-TMP (CD 5)))))))))))))))
     (. .)))
 
 (ROOT
@@ -69,7 +69,7 @@
       (ADJP-PRD
         (RB trivially)
         (JJ true)
-        (PP (IN for) (NP-SBJ (CD 1) (SYM ≤) (NN r) (SYM ≤) (CD 5))))
+        (PP (IN for) (NP-TMP (CD 1) (SYM ≤) (NN r) (SYM ≤) (CD 5))))
       (, ,)
       (SBAR-ADV
         (IN as)
@@ -125,7 +125,7 @@
                   (, ,)
                   (SBAR
                     (WHADVP (WRB where))
-                    (S (NP-SBJ (NN r)) (VP (SYM ≥) (NP (CD 5)))))
+                    (S (NP-SBJ (NN r)) (VP (SYM ≥) (NP-TMP (CD 5)))))
                   (, ,))
                 (ADVP-TMP (RB then))
                 (NP (PRP it))
@@ -172,7 +172,7 @@
               (SBAR
                 (JJ such)
                 (IN that)
-                (S (NP-SBJ (NN k)) (VP (SYM ≤) (NP (CD 5))))))))))
+                (S (NP-SBJ (NN k)) (VP (SYM ≤) (NP-TMP (CD 5))))))))))
     (. .)))
 
 (ROOT
@@ -206,7 +206,9 @@
                       (SBAR
                         (JJ such)
                         (IN that)
-                        (S (NP-SBJ (NN k)) (VP (SYM ≤) (NP (CD 5))))))))))))))
+                        (S
+                          (NP-SBJ (NN k))
+                          (VP (SYM ≤) (NP-TMP (CD 5))))))))))))))
     (. .)))
 
 (ROOT (NP (NN Induction) (NN Step)))
@@ -700,5 +702,5 @@
               (SBAR
                 (JJ such)
                 (IN that)
-                (S (NP-SBJ (NN k)) (VP (SYM ≤) (NP (CD 5))))))))))
+                (S (NP-SBJ (NN k)) (VP (SYM ≤) (NP-TMP (CD 5))))))))))
     (. .)))
