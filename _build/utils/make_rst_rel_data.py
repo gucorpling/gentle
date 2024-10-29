@@ -4,6 +4,7 @@ from collections import defaultdict
 from argparse import ArgumentParser
 from depedit import DepEdit
 
+
 def make_plain(conllu):
     tok_num = 1
     output = []
@@ -572,20 +573,19 @@ def main(conn_data, make_tok_files=True, reddit=False, corpus="gum", outmode="st
 
     dev, train, test = make_rels(rsd_data, conll_data, dev_set, test_set, corpus=corpus, outmode=outmode)
 
-
     if make_tok_files:
         plain_dev = plain_test = plain_train = ""
         conllu_dev = conllu_test = conllu_train = ""
         for docname in conll_data:
             if docname in dev_set:
                 plain_dev += make_plain(conll_data[docname].strip() + "\n\n")
-                conllu_dev += disrpt_conllu(conll_data[docname].strip())
+                conllu_dev += disrpt_conllu(conll_data[docname].strip() + "\n\n")
             elif docname in test_set or "gentle" in corpus:
                 plain_test += make_plain(conll_data[docname].strip() + "\n\n")
-                conllu_test += disrpt_conllu(conll_data[docname].strip())
+                conllu_test += disrpt_conllu(conll_data[docname].strip() + "\n\n")
             else:
                 plain_train += make_plain(conll_data[docname].strip() + "\n\n")
-                conllu_train += disrpt_conllu(conll_data[docname].strip())
+                conllu_train += disrpt_conllu(conll_data[docname].strip() + "\n\n")
         if "gentle" not in corpus:
             with io.open(disrpt_dir + corpus + "_dev.tok", 'w', encoding="utf8", newline="\n") as f:
                 f.write(plain_dev)

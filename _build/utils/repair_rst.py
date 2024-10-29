@@ -60,7 +60,10 @@ def get_conn_data(filename):
 					conn_data[int(tok)] = "B"
 				else:
 					if conn_data[int(tok)] != "B":
-						conn_data[int(tok)] = "I"
+						if conn_data[int(tok)-1] != "":
+							conn_data[int(tok)] = "I"
+						else:
+							conn_data[int(tok)] = "B"
 	return conn_data
 
 
