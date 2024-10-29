@@ -25,10 +25,10 @@
 
 #Text=For all n ∈ N>0 , let P ( n ) be the proposition : Gn can be assigned a proper vertex k - coloring such that k ≤ 5 .
 3-1	96-99	For	_	_	_	_	_	_	_
-3-2	100-103	all	abstract[9]	new[9]	nonsal[9]	_	cf8[9]	ana	40-2[312_9]
-3-3	104-105	n	abstract[9]	new[9]	nonsal[9]	_	cf8[9]|cf3[10]	_	_
+3-2	100-103	all	abstract[9]	new[9]	nonsal[9]	_	cf7[9]	coref	40-2[312_9]
+3-3	104-105	n	abstract[9]	new[9]	nonsal[9]	_	cf7[9]|cf3[10]	_	_
 3-4	106-107	∈	_	_	_	_	cf9[12]	_	_
-3-5	108-111	N>0	_	_	_	_	cf9[12]|cf7[13]	_	_
+3-5	108-111	N>0	_	_	_	_	cf9[12]|cf8[13]	_	_
 3-6	112-113	,	_	_	_	_	_	_	_
 3-7	114-117	let	_	_	_	_	_	_	_
 3-8	118-119	P	_	_	_	_	cf2[15]	_	_
@@ -668,10 +668,10 @@
 
 #Text=For all n ∈ N>0 , Gn can be assigned a proper vertex k - coloring such that k ≤ 5 .
 40-1	2613-2616	For	_	_	_	_	_	_	_
-40-2	2617-2620	all	abstract[312]	giv:inact[312]	nonsal[312]	_	cf7[312]	_	_
-40-3	2621-2622	n	abstract[312]	giv:inact[312]	nonsal[312]	_	cf7[312]|cf5[313]	_	_
+40-2	2617-2620	all	abstract[312]	giv:inact[312]	nonsal[312]	_	cf5[312]	_	_
+40-3	2621-2622	n	abstract[312]	giv:inact[312]	nonsal[312]	_	cf5[312]|cf6[313]	_	_
 40-4	2623-2624	∈	_	_	_	_	cf8[315]	_	_
-40-5	2625-2628	N>0	_	_	_	_	cf8[315]|cf6[316]	_	_
+40-5	2625-2628	N>0	_	_	_	_	cf8[315]|cf7[316]	_	_
 40-6	2629-2630	,	_	_	_	_	_	_	_
 40-7	2631-2633	Gn	_	_	_	_	cf2[317]	_	_
 40-8	2634-2637	can	_	_	_	_	_	_	_

@@ -33,7 +33,7 @@
 # s_type = frag
 # transition = null
 # text = Alternative forms
-1	Alternative	alternative	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:3->4:2:grf-ly-|MSeg=Alternat-ive|XML=<hi rend:::"bold">
+1	Alternative	alternative	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=organization-heading:3->4:2:grf-ly-|MSeg=Alternat-ive|PDTB=NoRel:NoRel:_:_:2:3-4|XML=<hi rend:::"bold">
 2	forms	form	NOUN	NNS	Number=Plur	0	root	0:root	MSeg=form-s|XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-4
@@ -55,7 +55,7 @@
 # text = neist (Scotland)
 # newpar
 # newpar_block = item (1 s)
-1	neist	Neist	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:6->4:1:grf-seq-|XML=<ref target:::"https://en.wiktionary.org/wiki/neist#English"></ref>
+1	neist	neist	X	FW	_	0	root	0:root	Discourse=joint-list_m:6->4:1:grf-seq-|XML=<ref target:::"https://en.wiktionary.org/wiki/neist#English"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:7->6:0:grf-prn-10,12|SpaceAfter=No
 3	Scotland	Scotland	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	MSeg=Scot-land|SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
@@ -67,9 +67,9 @@
 # text = nex (archaic)
 # newpar
 # newpar_block = item (1 s)
-1	nex	Nex	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=joint-list_m:8->4:1:grf-seq-|XML=<ref target:::"https://en.wiktionary.org/wiki/nex#English"></ref>
+1	nex	nex	X	FW	_	0	root	0:root	Discourse=joint-list_m:8->4:1:grf-seq-|XML=<ref target:::"https://en.wiktionary.org/wiki/nex#English"></ref>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:9->8:0:grf-prn-14,16|SpaceAfter=No
-3	archaic	archaic	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"italic"></hi>
+3	archaic	archaic	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	SpaceAfter=No|XML=<hi rend:::"italic"></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
 
 # sent_id = GENTLE_dictionary_next-7
@@ -96,7 +96,7 @@
 # s_type = frag
 # transition = null
 # text = From Middle English nexte, nexste, nixte, from Old English nīehsta, nīehste, etc., inflected forms of nīehst (“nearest, next”), superlative form of nēah (“nigh, near”), corresponding to Proto-Germanic *nēhwist (“nearest, closest”); equivalent to nigh + -est.
-1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:13->4:3:_
+1	From	from	ADP	IN	_	3	case	3:case	Discourse=joint-other_m:13->4:3:_|PDTB=NoRel:NoRel:_:_:21:22-81
 2	Middle	Middle	ADJ	NNP	Degree=Pos	3	amod	3:amod	XML=<ref target:::"https://en.wikipedia.org/wiki/Middle_English">
 3	English	English	PROPN	NNP	Number=Sing	4	nmod	4:nmod:from	MSeg=Engl-ish|XML=</ref>
 4	nexte	nexte	X	FW	_	0	root	0:root	SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/nexte#Middle_English"></ref>
@@ -273,7 +273,7 @@
 # text = Rhymes: -ɛkst
 # newpar
 # newpar_block = item (1 s)
-1	Rhymes	rhyme	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:41->42:0:ref-prop-163,165+grf-col-164|SpaceAfter=No
+1	Rhymes	rhyme	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=organization-preparation:41->42:0:ref-prop-163,165+grf-col-164|SpaceAfter=No
 2	:	:	PUNCT	:	_	3	punct	3:punct	_
 3	-ɛkst	-ɛkst	INTJ	UH	_	1	dep	1:dep	Discourse=joint-list_m:42->36:2:grf-seq-|XML=<ref target:::"https://en.wiktionary.org/wiki/Rhymes:English/%C9%9Bkst"></ref>
 
@@ -289,7 +289,7 @@
 # s_type = frag
 # transition = null
 # text = next (not comparable)
-1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:44->46:4:grf-ly-|XML=<hi rend:::"bold"></hi>
+1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:44->46:4:grf-ly-|PDTB=NoRel:NoRel:_:_:166:167-171|XML=<hi rend:::"bold"></hi>
 2	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration-additional:45->44:0:grf-prn-168,171|SpaceAfter=No
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	comparable	comparable	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=compar-able|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#comparable"></ref>
@@ -327,7 +327,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 5	next	next	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
 6	bunk	bunk	NOUN	NN	Number=Sing	2	nmod	2:nmod:in	Entity=2)
-7	kept	keep	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+7	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	7:obj|9:nsubj:xsubj	_
 9	awake	awake	ADJ	JJ	Degree=Pos	7	xcomp	7:xcomp	MSeg=a-wake
 10	all	all	DET	DT	PronType=Ind	11	det	11:det	_
@@ -342,8 +342,8 @@
 # s_type = decl
 # transition = null
 # text = She lives a mile or two away, in the next village.
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-list_m:51->50:0:_|XML=<hi rend:::"italic">
-2	lives	life	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-list_m:51->50:0:_|PDTB=NoRel:NoRel:_:_:185-199:200-212|XML=<hi rend:::"italic">
+2	lives	life	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_
 4	mile	mile	NOUN	NN	Number=Sing	7	obl:unmarked	7:obl:unmarked	_
 5	or	or	CCONJ	CC	_	6	cc	6:cc	_
@@ -395,7 +395,7 @@
 9	;	;	PUNCT	:	_	11	punct	11:punct	_
 10	immediately	immediately	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=restatement-repetition_m:55->54:0:sem-rpt-230,245+grf-prn-239,243|MSeg=im-mediate-ly
 11	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	1:parataxis	MSeg=follow-ing|XML=<ref target:::"https://en.wiktionary.org/wiki/following#English"></ref>
-12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=adversative-concession:56->55:0:sem-lxchn-238,242+dm-or-240|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=adversative-concession:56->55:0:sem-lxchn-238,242+dm-or-240|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:or:_:237-238,244-246:239-243|SpaceAfter=No
 13	or	or	CCONJ	CC	_	15	cc	15:cc	_
 14	sometimes	sometimes	ADV	RB	_	15	advmod	15:advmod	MSeg=sometime-s
 15	preceding	precede	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	11:conj:or	MSeg=preced-ing|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/preceding#English"></ref>
@@ -422,7 +422,7 @@
 # s_type = decl
 # transition = null
 # text = On Wednesday next, I'm going to Spain.
-1	On	on	ADP	IN	_	2	case	2:case	Discourse=joint-list_m:59->58:0:_|XML=<hi rend:::"italic">
+1	On	on	ADP	IN	_	2	case	2:case	Discourse=joint-list_m:59->58:0:_|PDTB=NoRel:NoRel:_:_:247-253:254-263|XML=<hi rend:::"italic">
 2	Wednesday	Wednesday	PROPN	NNP	Number=Sing	7	obl	7:obl:on	MSeg=Wednes-day
 3	next	next	ADJ	JJ	Degree=Pos	2	amod	2:amod	SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	2:punct	_
@@ -499,7 +499,7 @@
 # s_type = imp
 # transition = null
 # text = (See also next of kin.)
-1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=elaboration-additional:65->64:1:sem-lxchn-302,309+grf-prn-304,311+dm-also-306|SpaceAfter=No
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=elaboration-additional:65->64:1:sem-lxchn-302,309+grf-prn-304,311+dm-also-306|PDTB=Explicit:Expansion.Conjunction:also:_:296-303:304-311|SpaceAfter=No
 2	See	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
 3	also	also	ADV	RB	_	2	advmod	2:advmod	_
 4	next	next	ADJ	JJ	Degree=Pos	2	obj	2:obj	XML=<ref target:::"https://en.wiktionary.org/wiki/next_of_kin#English">
@@ -552,7 +552,7 @@
 # s_type = decl
 # transition = establishment
 # text = Nigh is used today mostly in archaic, poetic, or regional contexts.
-1	Nigh	nigh	ADJ	JJ	Degree=Pos	3	nsubj:pass	3:nsubj:pass	Discourse=adversative-contrast_m:70->68:1:_
+1	Nigh	nigh	ADJ	JJ	Degree=Pos	3	nsubj:pass	3:nsubj:pass	Discourse=adversative-contrast_m:70->68:1:_|PDTB=Implicit:Comparison.Contrast:but:_:316-330:331-344
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	_
 3	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	MSeg=us-ed
 4	today	today	NOUN	NN	Number=Sing	3	obl:unmarked	3:obl:unmarked	MSeg=to-day
@@ -572,7 +572,7 @@
 # s_type = frag
 # transition = zero
 # text = Synonyms
-1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:71->73:1:grf-ly-|XML=<hi rend:::"bold"></hi>
+1	Synonyms	synonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:71->73:1:grf-ly-|MSeg=Synonym-s|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-33
 # s_prominence = 2
@@ -602,7 +602,7 @@
 # s_type = frag
 # transition = null
 # text = Antonyms
-1	Antonyms	antonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:74->75:0:grf-ly-+sem-synym-361-362|XML=<hi rend:::"bold"></hi>
+1	Antonyms	antonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:74->75:0:grf-ly-+sem-synym-361-362|MSeg=Antonym-s|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-35
 # s_prominence = 2
@@ -644,7 +644,7 @@
 # s_type = frag
 # transition = establishment
 # text = next
-1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:79->80:3:grf-ly-|XML=<hi rend:::"bold"></hi>
+1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:79->80:3:grf-ly-|PDTB=NoRel:NoRel:_:_:368:369|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-40
 # s_prominence = 1
@@ -653,7 +653,7 @@
 # text = Denotes the one immediately following the current or most recent one.
 # newpar
 # newpar_block = list type:::"ordered" (6 s) | item (3 s)
-1	Denotes	denote	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:80->46:7:_|XML=<hi rend:::"italic">
+1	Denotes	denote	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=joint-list_m:80->46:7:_|XML=<hi rend:::"italic">
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
 3	one	one	NOUN	NN	Number=Sing	1	obj	1:obj	_
 4	immediately	immediately	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=elaboration-attribute:81->80:0:syn-mdf-372+syn-nmn-374|MSeg=im-mediate-ly
@@ -688,7 +688,7 @@
 # transition = null
 # text = I'll know better next time.
 1-2	I'll	_	_	_	_	_	_	_	_
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:84->82:1:_|XML=<hi rend:::"italic">
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=joint-list_m:84->82:1:_|PDTB=NoRel:NoRel:_:_:382-391:392-398|XML=<hi rend:::"italic">
 2	'll	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
 3	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
 4	better	well	ADV	RBR	Degree=Cmp	3	advmod	3:advmod	MSeg=bett-er
@@ -721,15 +721,15 @@
 16	future	future	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=4)|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/future"></ref>
 17	,	,	PUNCT	,	_	19	punct	19:punct	_
 18	or	or	CCONJ	CC	_	19	cc	19:cc	_
-19	closest	close	ADJ	JJS	Degree=Sup	13	conj	13:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=clos-est
+19	closest	close	ADJ	JJS	Degree=Sup	13	conj	13:conj:or	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=clos-est
 20	but	but	ADP	IN	_	21	case	21:case	_
 21	one	one	NUM	CD	NumForm=Word|NumType=Card	19	obl	19:obl:but	_
-22	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=contingency-condition:87->86:0:dm-if-420
+22	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=contingency-condition:87->86:0:dm-if-420|PDTB=Explicit:Contingency.Condition.Arg1-as-cond:if:_:411-419:420-426
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	_
 24	closest	close	ADJ	JJS	Degree=Sup	27	nsubj	27:nsubj	MSeg=clos-est
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
 26	very	very	ADV	RB	_	27	advmod	27:advmod	_
-27	soon	soon	ADV	RB	Degree=Pos	19	advcl	19:advcl:if	SpaceAfter=No
+27	soon	soon	ADV	RB	Degree=Pos	19	advcl	19:advcl:if	CxnElt=Protasis|SpaceAfter=No
 28	;	;	PUNCT	:	_	30	punct	30:punct	_
 29	of	of	ADP	IN	_	30	case	30:case	Discourse=joint-disjunction_m:88->86:2:grf-seq-+grf-semcol-426
 30	days	day	NOUN	NNS	Number=Plur	33	obl	33:obl:of	MSeg=day-s|SpaceAfter=No
@@ -766,7 +766,7 @@
 4	next	next	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	0:root	SpaceAfter=No
 6	;	;	PUNCT	:	_	7	punct	7:punct	_
-7	that	that	PRON	DT	ExtPos=ADV|Number=Sing|PronType=Dem	11	advmod	11:advmod	Discourse=explanation-justify:92->91:0:_;restatement-partial:92->91:1:0:lex-altlex-456-457
+7	that	that	PRON	DT	ExtPos=ADV|Number=Sing|PronType=Dem	11	advmod	11:advmod	Discourse=explanation-justify:92->91:0:_;restatement-partial:92->91:1:0:lex-altlex-456-457|PDTB=Explicit:Comparison.Contrast:but:_:459-461:456-458,462-467
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	7:fixed	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	7:punct	_
 10	not	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	Discourse=adversative-antithesis:93->94:0:dm-but-462|Negation=Yes
@@ -776,7 +776,7 @@
 14	eight	eight	NUM	CD	NumForm=Word|NumType=Card	15	nummod	15:nummod	_
 15	days	day	NOUN	NNS	Number=Plur	11	conj	11:conj:but	MSeg=day-s
 16	from	from	ADP	IN	_	17	case	17:case	_
-17	now	now	ADV	RB	Polarity=Neg	15	nmod	15:nmod:from	SpaceAfter=No
+17	now	now	ADV	RB	_	15	nmod	15:nmod:from	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	5:punct	XML=</hi>
 
 # sent_id = GENTLE_dictionary_next-45
@@ -784,21 +784,21 @@
 # s_type = q
 # transition = null
 # text = When you say next Thursday, do you mean Thursday this week or Thursday next week?
-1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:95->96:0:dm-when-468|XML=<hi rend:::"italic">
+1	When	when	ADV	WRB	PronType=Int	3	advmod	3:advmod	Discourse=context-circumstance:95->96:0:dm-when-468|PDTB=Explicit:Temporal.Synchronous:when:_:474-484:468-473;NoRel:NoRel:_:_:450-467:468-484|XML=<hi rend:::"italic">
 2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(5)
-3	say	say	VERB	VBP	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	_
+3	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	_
 4	next	next	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
 5	Thursday	Thursday	PROPN	NNP	Number=Sing	3	obj	3:obj	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	3:punct	_
 7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	Discourse=joint-list_m:96->91:1:grf-semcol-455
 8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(5)
-9	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct
+9	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=Clause
 10	Thursday	Thursday	PROPN	NNP	Number=Sing	9	obj	9:obj	_
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	_
 12	week	week	NOUN	NN	Number=Sing	10	nmod:unmarked	10:nmod:unmarked	_
 13	or	or	CCONJ	CC	_	14	cc	14:cc	_
 14	Thursday	Thursday	PROPN	NNP	Number=Sing	10	conj	9:obj|10:conj:or	_
-15	next	next	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+15	next	next	ADJ	JJ	Degree=Pos	16	amod	16:amod	PDTB=AltLex:Temporal.Asynchronous.Precedence:next:482:474-481,483-484:468-473
 16	week	week	NOUN	NN	Number=Sing	14	nmod:unmarked	14:nmod:unmarked	SpaceAfter=No
 17	?	?	PUNCT	.	_	9	punct	9:punct	XML=</hi>
 
@@ -817,7 +817,7 @@
 # text = last
 # newpar
 # newpar_block = list type:::"unordered" (4 s) | item (1 s)
-1	last	last	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=elaboration-additional:98->80:4:dm-also-486|XML=<ref target:::"https://en.wiktionary.org/wiki/last#English"></ref>
+1	last	last	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=elaboration-additional:98->80:4:dm-also-486|PDTB=Explicit:Expansion.Conjunction:also:_:370-381:487|XML=<ref target:::"https://en.wiktionary.org/wiki/last#English"></ref>
 
 # sent_id = GENTLE_dictionary_next-48
 # s_prominence = 2
@@ -846,7 +846,7 @@
 # newpar
 # newpar_block = item (1 s)
 1	week	week	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:101->98:0:grf-seq-|XML=<ref target:::"https://en.wiktionary.org/wiki/week"></ref>
-2	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=mode-manner:102->101:0:dm-as-493|SpaceAfter=No
+2	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=mode-manner:102->101:0:dm-as-493|PDTB=Explicit:Comparison.Similarity:as:_:491:492-497|SpaceAfter=No
 3	as	as	ADP	IN	_	6	case	6:case	_
 4	in	in	ADP	IN	_	6	case	6:case	_
 5	Saturday	Saturday	PROPN	NNP	Number=Sing	6	compound	6:compound	XML=<hi rend:::"italic">
@@ -865,7 +865,7 @@
 # s_type = frag
 # transition = establishment
 # text = next (not comparable)
-1	next	next	ADV	RB	Degree=Pos	0	root	0:root	Discourse=organization-heading:104->106:3:grf-ly-|XML=<hi rend:::"bold"></hi>
+1	next	next	ADV	RB	Degree=Pos	0	root	0:root	Discourse=organization-heading:104->106:3:grf-ly-|PDTB=NoRel:NoRel:_:_:498:499-503|XML=<hi rend:::"bold"></hi>
 2	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=elaboration-additional:105->104:0:grf-prn-500,503|SpaceAfter=No
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes|XML=<hi rend:::"italic">
 4	comparable	comparable	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=compar-able|SpaceAfter=No|XML=<ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#comparable"></ref></hi>
@@ -898,7 +898,7 @@
 # transition = null
 # text = They live in the next closest house.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=explanation-evidence:107->106:0:_|XML=<hi rend:::"italic">
-2	live	live	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	in	in	ADP	IN	_	7	case	7:case	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
 5	next	next	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
@@ -912,7 +912,7 @@
 # transition = null
 # text = It's the next best thing to ice cream.
 1-2	It's	_	_	_	_	_	_	_	_
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=joint-list_m:108->107:0:_|Entity=(6)|XML=<hi rend:::"italic">
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=joint-list_m:108->107:0:_|Entity=(6)|PDTB=NoRel:NoRel:_:_:517-524:525-534|XML=<hi rend:::"italic">
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 4	next	next	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
@@ -949,17 +949,17 @@
 # s_type = decl
 # transition = null
 # text = First we removed all the handles; next, we stripped off the old paint.
-1	First	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	3	advmod	3:advmod	Discourse=explanation-evidence:112->110:2:_|XML=<hi rend:::"italic">
+1	First	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	3	advmod	3:advmod	Discourse=explanation-evidence:112->110:2:_|PDTB=Implicit:Expansion.Level-of-detail.Arg2-as-detail:for example:_:535-549:550-565|XML=<hi rend:::"italic">
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(7)
-3	removed	remove	VERB	VBD	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=re-mov-ed
+3	removed	remove	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	MSeg=re-mov-ed
 4	all	all	DET	PDT	PronType=Tot	6	det:predet	6:det:predet	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
-6	handles	handle	NOUN	NNS	Number=Plur	3	obj	3:obj	SpaceAfter=No
+6	handles	handle	NOUN	NNS	Number=Plur	3	obj	3:obj	MSeg=handle-s|SpaceAfter=No
 7	;	;	PUNCT	:	_	8	punct	8:punct	_
-8	next	next	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=joint-sequence_m:113->112:0:grf-semcol-556|SpaceAfter=No
+8	next	next	ADV	RB	Degree=Pos	11	advmod	11:advmod	Discourse=joint-sequence_m:113->112:0:grf-semcol-556|PDTB=AltLex:Temporal.Asynchronous.Precedence:next:_:550-556:557-565|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	8:punct	_
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(7)
-11	stripped	strip	VERB	VBD	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	MSeg=stripp-ed
+11	stripped	strip	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	MSeg=stripp-ed
 12	off	off	ADP	RP	_	11	compound:prt	11:compound:prt	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	_
 14	old	old	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
@@ -993,7 +993,7 @@
 4	earthquakes	earthquake	NOUN	NNS	Number=Plur	2	conj	2:conj	MSeg=earthquake-s|SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	7:punct	_
 6	oil	oil	NOUN	NN	Number=Sing	7	compound	7:compound	_
-7	spills	spill	NOUN	NNS	Number=Plur	2	conj	2:conj	SpaceAfter=No
+7	spills	spill	NOUN	NNS	Number=Plur	2	conj	2:conj	MSeg=spill-s|SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	9:punct	_
 9	riots	riot	NOUN	NNS	Number=Plur	2	conj	2:conj	MSeg=riot-s|SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	2:punct	_
@@ -1004,7 +1004,7 @@
 # transition = null
 # text = What comes next?
 1	What	what	PRON	WP	PronType=Int	2	nsubj	2:nsubj	Discourse=explanation-evidence:116->114:0:_
-2	comes	come	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=come-s
+2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=come-s
 3	next	next	ADV	RB	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
 4	?	?	PUNCT	.	_	2	punct	2:punct	_
 
@@ -1013,10 +1013,10 @@
 # s_type = decl
 # transition = null
 # text = When we next meet, you'll be married.
-1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:117->118:0:dm-when-586|XML=<hi rend:::"italic">
+1	When	when	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:117->118:0:dm-when-586|PDTB=Explicit:Temporal.Synchronous:when:_:591-595:586-590|XML=<hi rend:::"italic">
 2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
 3	next	next	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
-4	meet	meet	VERB	VBP	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	SpaceAfter=No
+4	meet	meet	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	4:punct	_
 6-7	you'll	_	_	_	_	_	_	_	_
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj:pass	9:nsubj:pass	Discourse=joint-list_m:118->116:1:_
@@ -1030,7 +1030,7 @@
 # s_type = frag
 # transition = null
 # text = Antonyms
-1	Antonyms	antonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:119->120:0:grf-ly-+sem-synym-596-597|XML=<hi rend:::"bold"></hi>
+1	Antonyms	antonym	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=organization-heading:119->120:0:grf-ly-+sem-synym-596-597|MSeg=Antonym-s|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-63
 # s_prominence = 2
@@ -1053,7 +1053,7 @@
 # s_type = frag
 # transition = establishment
 # text = next
-1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:122->124:1:grf-ly-+sem-lxchn-599,615|XML=<hi rend:::"bold"></hi>
+1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:122->124:1:grf-ly-+sem-lxchn-599,615|PDTB=NoRel:NoRel:_:_:598:599|XML=<hi rend:::"bold"></hi>
 
 # sent_id = GENTLE_dictionary_next-66
 # s_prominence = 1
@@ -1093,7 +1093,7 @@
 # s_type = frag
 # transition = establishment
 # text = next (uncountable)
-1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:126->128:2:grf-ly-|XML=<hi rend:::"bold"></hi>
+1	next	next	ADJ	JJ	Degree=Pos	0	root	0:root	Discourse=organization-heading:126->128:2:grf-ly-|PDTB=NoRel:NoRel:_:_:618:619-622|XML=<hi rend:::"bold"></hi>
 2	(	(	PUNCT	-LRB-	_	3	punct	3:punct	Discourse=elaboration-additional:127->126:0:grf-prn-620,622|SpaceAfter=No
 3	uncountable	uncountable	ADJ	JJ	Degree=Pos	1	parataxis	1:parataxis	MSeg=un-count-able|Negation=Yes|SpaceAfter=No|XML=<hi rend:::"bold"><ref target:::"https://en.wiktionary.org/wiki/Appendix:Glossary#uncountable"></ref></hi>
 4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
@@ -1108,7 +1108,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=joint-list_m:128->46:7:grf-seq-
 2	one	one	NOUN	NN	Number=Sing	0	root	0:root|4:nsubj	_
 3	that	that	PRON	WDT	PronType=Rel	4	nsubj	2:ref	Discourse=elaboration-attribute:129->128:0:syn-mdf-624+syn-relcl-625-626
-4	follows	follow	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	MSeg=follow-s
+4	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	MSeg=follow-s
 5	after	after	ADP	IN	_	7	case	7:case	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	_
 7	one	one	NOUN	NN	Number=Sing	4	obl	4:obl:after	SpaceAfter=No
@@ -1137,7 +1137,7 @@
 # s_type = decl
 # transition = null
 # text = One moment she was there, the next she wasn't.
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:132->130:1:_|XML=<hi rend:::"italic">
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=joint-list_m:132->130:1:_|PDTB=NoRel:NoRel:_:_:631-641:642-653|XML=<hi rend:::"italic">
 2	moment	moment	NOUN	NN	Number=Sing	5	obl:unmarked	5:obl:unmarked	_
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(8)
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_

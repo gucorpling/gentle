@@ -98,7 +98,7 @@
 #Text=I and my ANNABEL LEE ;
 6-1	345-346	I	person[32]	giv:inact[32]	sal[32]	_	cf1[32]	ana	6-3[36_32]
 6-2	347-350	and	_	_	_	_	_	_	_
-6-3	351-353	my	person[35]|person[36]	giv:inact[35]|giv:act[36]	sal[35]|sal[36]	_	cf2[35]|cf1[36]	ana|ana	7-11[41_35]|7-13[42_36]
+6-3	351-353	my	person[35]|person[36]	giv:inact[35]|giv:act[36]	sal[35]|sal[36]	_	cf2[35]|cf1[36]	ana|ana	7-13[42_36]|7-11[41_35]
 6-4	354-361	ANNABEL	person[35]	giv:inact[35]	sal[35]	_	cf2[35]	_	_
 6-5	362-365	LEE	person[35]	giv:inact[35]	sal[35]	_	cf2[35]	_	_
 6-6	366-367	;	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 8-24	527-532	cloud	object[52]	new[52]	sal[52]	_	cf1*[48]|cf7[52]	_	_
 8-25	533-534	,	_	_	_	_	cf1*[48]	_	_
 8-26	535-543	chilling	_	_	_	_	cf1*[48]	_	_
-8-27	544-546	My	person[53]|person[54]	giv:act[53]|giv:act[54]	sal[53]|sal[54]	_	cf1*[48]|cf3[53]|cf2[54]	ana|ana	9-3[57_53]|9-12[59_54]
+8-27	544-546	My	person[53]|person[54]	giv:act[53]|giv:act[54]	sal[53]|sal[54]	_	cf1*[48]|cf3[53]|cf2[54]	ana|ana	9-12[59_54]|9-3[57_53]
 8-28	547-556	beautiful	person[53]	giv:act[53]	sal[53]	_	cf1*[48]|cf3[53]	_	_
 8-29	557-564	ANNABEL	person[53]	giv:act[53]	sal[53]	_	cf1*[48]|cf3[53]	_	_
 8-30	565-568	LEE	person[53]	giv:act[53]	sal[53]	_	cf1*[48]|cf3[53]	_	_
@@ -241,7 +241,7 @@
 
 #Text=But our love it was stronger by far than the love Of those who were older than we —
 12-1	923-926	But	_	_	_	_	_	_	_
-12-2	927-930	our	abstract[89]|person[90]	giv:inact[89]|giv:inact[90]	nonsal[89]|nonsal[90]	_	cf1[89]|cf2[90]	ana|ana	12-18[96_90]|12-4[91_89]
+12-2	927-930	our	abstract[89]|person[90]	giv:inact[89]|giv:inact[90]	nonsal[89]|nonsal[90]	_	cf1[89]|cf2[90]	ana|ana	12-4[91_89]|12-18[96_90]
 12-3	931-935	love	abstract[89]	giv:inact[89]	nonsal[89]	_	cf1[89]	_	_
 12-4	936-938	it	abstract[91]	giv:act[91]	nonsal[91]	_	cf1[91]	_	_
 12-5	939-942	was	_	_	_	_	_	_	_
@@ -356,13 +356,13 @@
 17-14	1399-1402	the	_	_	_	_	cf6[126]	_	_
 17-15	1403-1407	side	_	_	_	_	cf6[126]	_	_
 17-16	1408-1410	Of	_	_	_	_	cf6[126]	_	_
-17-17	1411-1413	my	person[128]|person[178]	giv:act[128]|new[178]	sal[128]	_	cf6[126]|cf2[127]|cf1*[128]	ana|coref	17-20[131_128]|17-23[133_178]
+17-17	1411-1413	my	person[128]|person[178]	giv:act[128]|new[178]	sal[128]	_	cf6[126]|cf2[127]|cf1*[128]	coref|ana	17-23[133_178]|17-20[131_128]
 17-18	1414-1421	darling	person[178]	new[178]	_	_	cf6[126]|cf2[127]	_	_
 17-19	1422-1423	—	person[178]	new[178]	_	_	_	_	_
 17-20	1424-1426	my	person[131]|person[178]	giv:act[131]|new[178]	sal[131]	_	cf2[130]|cf1*[131]	ana	17-23[135_131]
 17-21	1427-1434	darling	person[178]	new[178]	_	_	cf2[130]	_	_
 17-22	1435-1436	—	_	_	_	_	_	_	_
-17-23	1437-1439	my	person[133]|person[135]	giv:act[133]|giv:act[135]	sal[133]|sal[135]	_	cf2[133]|cf7[134]|cf1*[135]	ana|ana	17-26[138_135]|17-38[143_133]
+17-23	1437-1439	my	person[133]|person[135]	giv:act[133]|giv:act[135]	sal[133]|sal[135]	_	cf2[133]|cf7[134]|cf1*[135]	ana|ana	17-38[143_133]|17-26[138_135]
 17-24	1440-1444	life	person[133]	giv:act[133]	sal[133]	_	cf2[133]|cf7[134]	_	_
 17-25	1445-1448	and	person[133]	giv:act[133]	sal[133]	_	cf2[133]	_	_
 17-26	1449-1451	my	person[133]|person[138]	giv:act[133]|giv:act[138]	sal[133]|sal[138]	_	cf2[133]|cf2[137]|cf1*[138]	_	_

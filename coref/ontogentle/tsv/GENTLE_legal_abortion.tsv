@@ -194,7 +194,7 @@
 12-12	929-930	,	_	_	_	_	_	_	_
 12-13	931-935	held	_	_	_	_	_	_	_
 12-14	936-940	that	_	_	_	_	_	_	_
-12-15	941-944	Roe	person[70]|person[71]|person[72]	new[70]|new[71]|giv:inact[72]	sal[70]|nonsal[71]|sal[72]	Norma_McCorvey[72]	cf5[70]|cf1[71]|cf2[72]	ana|coref|coref	12-22[77_71]|13-25[88_70]|15-27[105_72]
+12-15	941-944	Roe	person[70]|person[71]|person[72]	new[70]|new[71]|giv:inact[72]	sal[70]|nonsal[71]|sal[72]	Norma_McCorvey[72]	cf5[70]|cf1[71]|cf2[72]	coref|ana|coref	15-27[105_72]|12-22[77_71]|13-25[88_70]
 12-16	945-948	and	person[70]|person[71]	new[70]|new[71]	sal[70]|nonsal[71]	_	cf5[70]|cf1[71]	_	_
 12-17	949-957	Hallford	person[70]|person[71]|person[73]	new[70]|new[71]|giv:inact[73]	sal[70]|nonsal[71]|nonsal[73]	_	cf5[70]|cf1[71]|cf3[73]	coref	15-29[106_73]
 12-18	958-959	,	person[70]	new[70]	sal[70]	_	cf5[70]	_	_
@@ -253,7 +253,7 @@
 14-1	1267-1270	The	organization[91]	giv:act[91]	nonsal[91]	United_States_District_Court_for_the_Northern_District_of_Texas[91]	cf1*[91]	coref	15-5[96_91]
 14-2	1271-1276	court	organization[91]	giv:act[91]	nonsal[91]	United_States_District_Court_for_the_Northern_District_of_Texas[91]	cf1*[91]	_	_
 14-3	1277-1282	ruled	_	_	_	_	_	_	_
-14-4	1283-1286	the	event[92]|person[93]	giv:inact[92]|giv:inact[93]	sal[92]|nonsal[93]	_	cf2[92]|cf3[93]	coref|coref	19-8[129_93]|22-43[154_92]
+14-4	1283-1286	the	event[92]|person[93]	giv:inact[92]|giv:inact[93]	sal[92]|nonsal[93]	_	cf2[92]|cf3[93]	coref|coref	22-43[154_92]|19-8[129_93]
 14-5	1287-1291	Does	event[92]|person[93]	giv:inact[92]|giv:inact[93]	sal[92]|nonsal[93]	_	cf2[92]|cf3[93]	_	_
 14-6	1292-1293	'	event[92]|person[93]	giv:inact[92]|giv:inact[93]	sal[92]|nonsal[93]	_	cf2[92]|cf3[93]	_	_
 14-7	1294-1303	complaint	event[92]	giv:inact[92]	sal[92]	_	cf2[92]	_	_

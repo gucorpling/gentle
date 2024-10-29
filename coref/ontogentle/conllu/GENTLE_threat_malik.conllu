@@ -21,27 +21,27 @@
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	Negation=Yes
 4	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
-5	what	what	PRON	WP	PronType=Int	8	xcomp	8:xcomp	_
+5	what	what	PRON	WP	PronType=Int	8	xcomp	8:xcomp	CxnElt=WHWord
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(2
 7	Court	court	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=2)
-8	deem	deem	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	4	ccomp	4:ccomp	CorrectForm=deems|Cxn=Interrogative-WHInfo-Indirect|XML=<sic ana:::"deems"></sic>
+8	deem	deem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	4	ccomp	4:ccomp	CorrectForm=deems|Cxn=Interrogative-WHInfo-Indirect|CxnElt=Clause|XML=<sic ana:::"deems"></sic>
 9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	5:nsubj:xsubj|8:obj	_
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-11	but	but	CCONJ	CC	_	47	cc	47:cc	Discourse=ROOT:2:0
-12	unless	unless	SCONJ	IN	_	15	mark	15:mark	Discourse=contingency-condition:3->5:2:dm-unless-12+dm-than-22
+11	but	but	CCONJ	CC	_	47	cc	47:cc	Discourse=ROOT:2:0|PDTB=Explicit:Comparison.Concession.Arg2-as-denier:but:11:1-10:12-60
+12	unless	unless	SCONJ	IN	_	15	mark	15:mark	Discourse=contingency-condition:3->5:2:dm-unless-12+dm-than-22|PDTB=Explicit:Contingency.Negative-condition.Arg1-as-negcond:unless:12:13-21:11,22-60
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	_
 14	Case	case	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
-15	reverse	reverse	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	47	advcl	47:advcl:unless	CorrectForm=reverses|XML=<sic ana:::"reverses"></sic>
+15	reverse	reverse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	47	advcl	47:advcl:unless	CorrectForm=reverses|XML=<sic ana:::"reverses"></sic>
 16	it	itself	PRON	GW	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes|Typo=Yes	15	obj	15:obj	CorrectForm=itself|Entity=(3|XML=<sic ana:::"itself">
 17	self	_	X	PRP	_	16	goeswith	16:goeswith	CorrectForm=_|Entity=3)|XML=</sic>
-18	as	as	SCONJ	IN	_	21	mark	21:mark	Discourse=evaluation-comment:4->3:0:_;mode-manner:4->3:0:0:orp-as-18
+18	as	as	SCONJ	IN	_	21	mark	21:mark	Discourse=evaluation-comment:4->3:0:_;mode-manner:4->3:0:0:orp-as-18|PDTB=Explicit:Contingency.Cause.Reason:as:18:12-17:19-21
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 20	justl	just	ADV	RB	Typo=Yes	21	advmod	21:advmod	CorrectForm=just|XML=<sic ana:::"just"></sic>
 21	due	due	ADJ	JJ	Degree=Pos	15	advcl	15:advcl:as	_
 22	than	then	ADV	RB	Typo=Yes	26	advmod	26:advmod	CorrectForm=then|Discourse=same-unit_m:5->2:0:_|XML=<sic ana:::"then"></sic>
 23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	_
 24	White	white	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
-25	Folks	folk	NOUN	NNS	Number=Plur	26	compound	26:compound	_
+25	Folks	folk	NOUN	NNS	Number=Plur	26	compound	26:compound	MSeg=Folk-s
 26	favor	favor	NOUN	NN	Number=Sing	21	obl	21:obl	_
 27	to	to	ADP	IN	_	29	case	29:case	_
 28	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	29:nmod:poss	Entity=(1
@@ -56,7 +56,7 @@
 37	American	American	PROPN	NNP	Number=Sing	47	nsubj	47:nsubj|48:nsubj:xsubj	MSeg=America-n
 38	richly	richly	ADV	RB	Degree=Pos	39	advmod	39:advmod	Discourse=elaboration-attribute:6->5:0:syn-mdf-37+syn-nmn-39
 39	having	have	VERB	VBG	VerbForm=Ger	37	acl	37:acl	MSeg=hav-ing
-40	jews	Jew	PROPN	NNPS	Number=Plur	41	nmod:poss	41:nmod:poss	_
+40	jews	Jew	PROPN	NNPS	Number=Plur	41	nmod:poss	41:nmod:poss	MSeg=jew-s
 41	money	money	NOUN	NN	Number=Sing	39	obj	39:obj	_
 42	of	of	ADP	IN	_	45	case	45:case	_
 43	20	20	NUM	CD	NumForm=Digit|NumType=Card	44	compound	44:compound	_
@@ -70,7 +70,7 @@
 51	for	for	ADP	IN	_	55	case	55:case	_
 52	you	your	PRON	PRP$	Case=Gen|Number=Sing|Person=3|PronType=Prs	54	nmod:poss	54:nmod:poss	_
 53	Jewish	Jewish	ADJ	JJ	Degree=Pos	54	amod	54:amod	MSeg=Jew-ish
-54	Judges	judge	NOUN	NNS	Number=Plur	55	compound	55:compound	_
+54	Judges	judge	NOUN	NNS	Number=Plur	55	compound	55:compound	MSeg=Judge-s
 55	action	action	NOUN	NN	Number=Sing	48	obl	48:obl:for	MSeg=act-ion
 56	of	of	ADP	IN	_	57	case	57:case	_
 57	unfairness	unfairness	NOUN	NN	Number=Sing	55	nmod	55:nmod:of	MSeg=un-fair-ness
@@ -83,7 +83,7 @@
 # s_type = decl
 # transition = establishment
 # text = My criminal rap sheet is no joke I'm know in prison for a store holdup on blacks or a black and if you White American Jewish Judges wanna act racially motivated with justice in a double sided way dropping the "I"; "C" and "E" of the Word Justice apparently raising the word "Just" well then so become it Ii'll play likewise with you judges from a Koranic and Torooh perspective thats an eye for an eye and life for a life which means if just treatment is not actioned in this case if I can arranged sooner than upon soon prison discharge two - American Jewish rich person will become armed robbed of 20 thousand cash dollars in replace for my case.
-1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=context-background:8->10:1:_|Entity=(1)
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=context-background:8->10:1:_|Entity=(1)|PDTB=Implicit:Expansion.Conjunction:in fact:_:1-60:61-196
 2	criminal	criminal	ADJ	JJ	Degree=Pos	4	amod	4:amod	MSeg=crimin-al
 3	rap	rap	NOUN	NN	Number=Sing	4	compound	4:compound	_
 4	sheet	sheet	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|68:nsubj|69:nsubj:xsubj	_
@@ -101,19 +101,19 @@
 15	store	store	NOUN	NN	Number=Sing	16	compound	16:compound	_
 16	holdup	holdup	NOUN	NN	Number=Sing	10	obl	10:obl:for	_
 17	on	on	ADP	IN	_	18	case	18:case	_
-18	blacks	black	NOUN	NNS	Number=Plur	16	nmod	16:nmod:on	_
+18	blacks	black	NOUN	NNS	Number=Plur	16	nmod	16:nmod:on	MSeg=black-s
 19	or	or	CCONJ	CC	_	21	cc	21:cc	_
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	_
 21	black	black	NOUN	NN	Number=Sing	16	conj	10:obl:for|16:conj:or	_
-22	and	and	CCONJ	CC	_	68	cc	68:cc	Discourse=evaluation-comment:10->2:2:lex-indph-66-67;mode-manner:10->15:1:1:orp-likewise-133;causal-result:10->8:1:1:orp-and-82
-23	if	if	SCONJ	IN	_	29	mark	29:mark	Discourse=contingency-condition:11->14:0:dm-if then-83,126
+22	and	and	CCONJ	CC	_	68	cc	68:cc	Discourse=evaluation-comment:10->2:2:lex-indph-66-67;mode-manner:10->15:1:1:orp-likewise-133;causal-result:10->8:1:1:orp-and-82|PDTB=Explicit:Contingency.Cause.Result:and:82:61-81:83-129
+23	if	if	SCONJ	IN	_	29	mark	29:mark	Discourse=contingency-condition:11->14:0:dm-if then-83,126|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if then:83,126:82,125,127-129:84-124
 24	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	28	discourse	28:discourse	_
 25	White	white	ADJ	JJ	Degree=Pos	28	amod	28:amod	_
 26	American	American	ADJ	JJ	Degree=Pos	28	amod	28:amod	MSeg=America-n
 27	Jewish	Jewish	ADJ	JJ	Degree=Pos	28	amod	28:amod	MSeg=Jew-ish
-28	Judges	judge	NOUN	NNS	Number=Plur	29	nsubj	29:nsubj|31:nsubj:xsubj|33:nsubj:xsubj	_
+28	Judges	judge	NOUN	NNS	Number=Plur	29	nsubj	29:nsubj|31:nsubj:xsubj|33:nsubj:xsubj	MSeg=Judge-s
 29-30	wanna	_	_	_	_	_	_	_	_
-29	wan	want	VERB	VBP	Mood=Ind|Person=3|Style=Vrnc|Tense=Pres|VerbForm=Fin	68	advcl	68:advcl:if	XML=<w>
+29	wan	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Style=Vrnc|Tense=Pres|VerbForm=Fin	68	advcl	68:advcl:if	CxnElt=Protasis|XML=<w>
 30	na	to	PART	TO	_	31	mark	31:mark	XML=</w>
 31	act	act	VERB	VB	VerbForm=Inf	29	xcomp	29:xcomp	Entity=(5)
 32	racially	racially	ADV	RB	Degree=Pos	33	advmod	33:advmod	_
@@ -125,7 +125,7 @@
 38	double	double	ADJ	JJ	Degree=Pos	39	advmod	39:advmod	_
 39	sided	sided	ADJ	JJ	Degree=Pos	40	amod	40:amod	MSeg=sid-ed
 40	way	way	NOUN	NN	Number=Sing	31	obl	31:obl:in	_
-41	dropping	drop	VERB	VBG	Tense=Pres|VerbForm=Part	31	advcl	31:advcl	Discourse=mode-manner:12->11:0:syn-pres-101,119|MSeg=dropp-ing
+41	dropping	drop	VERB	VBG	Tense=Pres|VerbForm=Part	31	advcl	31:advcl	Discourse=mode-manner:12->11:0:syn-pres-101,119|MSeg=dropp-ing|PDTB=Implicit:Expansion.Manner.Arg2-as-manner:by:_:83-100:101-124
 42	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	_
 43	"	''	PUNCT	``	_	44	punct	44:punct	SpaceAfter=No
 44	I	I	NOUN	NN	Number=Sing	41	obj	41:obj	SpaceAfter=No
@@ -152,13 +152,13 @@
 65	well	well	INTJ	UH	_	68	discourse	68:discourse	Discourse=same-unit_m:14->10:0:_
 66	then	then	ADV	RB	PronType=Dem	68	advmod	68:advmod	_
 67	so	so	ADV	RB	_	68	advmod	68:advmod	_
-68	become	become	VERB	VB	VerbForm=Inf	7	conj	7:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=be-come
+68	become	become	VERB	VB	VerbForm=Inf	7	conj	7:conj:and	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=be-come
 69	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	68	xcomp	68:xcomp	Entity=(5)
 70-71	Ii'll	_	_	_	_	_	_	_	_
 70	Ii	I	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs|Typo=Yes	72	nsubj	72:nsubj	CorrectForm=I|Discourse=organization-preparation:15->20:2:ref-prs-130,167+sem-synym-135-136,176-181|Entity=(1)|XML=<sic ana:::"I"></sic>
 71	'll	will	AUX	MD	VerbForm=Fin	72	aux	72:aux	_
 72	play	play	VERB	VB	VerbForm=Inf	68	parataxis	68:parataxis	Entity=(6)
-73	likewise	likewise	ADV	RB	_	72	advmod	72:advmod	_
+73	likewise	likewise	ADV	RB	_	72	advmod	72:advmod	PDTB=Explicit:Expansion.Conjunction:likewise:133:82-129:130-132,134-154
 74	with	with	ADP	IN	_	76	case	76:case	_
 75	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	76	vocative	76:vocative	_
 76	judges	judge	NOUN	NNS	Number=Plur	72	obl	72:obl:with	MSeg=judge-s
@@ -182,20 +182,20 @@
 93	a	a	DET	DT	Definite=Ind|PronType=Art	94	det	94:det	_
 94	life	life	NOUN	NN	Number=Sing	91	nmod	91:nmod:for	_
 95	which	which	PRON	WDT	PronType=Rel	96	nsubj	86:ref	Discourse=attribution-positive:17->20:1:sem-atsrc-145-146,155+lex-indwd-156+syn-rpr-157,166
-96	means	mean	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	86	acl:relcl	86:acl:relcl	MSeg=mean-s
-97	if	if	SCONJ	IN	_	102	mark	102:mark	Discourse=contingency-condition:18->20:0:dm-if-157+dm-if-166
+96	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	86	acl:relcl	86:acl:relcl	MSeg=mean-s
+97	if	if	SCONJ	IN	_	102	mark	102:mark	Discourse=contingency-condition:18->20:0:dm-if-157+dm-if-166|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:157:176-196:158-175
 98	just	just	ADJ	JJ	Degree=Pos	99	amod	99:amod	_
 99	treatment	treatment	NOUN	NN	Number=Sing	102	nsubj:pass	102:nsubj:pass	MSeg=treat-ment
 100	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	102	aux:pass	102:aux:pass	_
 101	not	not	PART	RB	Polarity=Neg	102	advmod	102:advmod	Negation=Yes
-102	actioned	action	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	123	advcl	123:advcl:if	MSeg=act-ion-ed
+102	actioned	action	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	123	advcl	123:advcl:if	CxnElt=Protasis|MSeg=act-ion-ed
 103	in	in	ADP	IN	_	105	case	105:case	_
 104	this	this	DET	DT	Number=Sing|PronType=Dem	105	det	105:det	Entity=(3
 105	case	case	NOUN	NN	Number=Sing	102	obl	102:obl:in	Entity=3)
-106	if	if	SCONJ	IN	_	109	mark	109:mark	Discourse=joint-list_m:19->18:0:_
+106	if	if	SCONJ	IN	_	109	mark	109:mark	Discourse=joint-list_m:19->18:0:_|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:166:176-196:157-165,167-175
 107	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	109	nsubj	109:nsubj	Entity=(1)
 108	can	can	AUX	MD	VerbForm=Fin	109	aux	109:aux	_
-109	arranged	arrange	VERB	VB	Typo=Yes|VerbForm=Inf	123	advcl	123:advcl:if	CorrectForm=arrange|MSeg=arrang-ed|XML=<sic ana:::"arrange"></sic>
+109	arranged	arrange	VERB	VB	Typo=Yes|VerbForm=Inf	123	advcl	123:advcl:if	CorrectForm=arrange|CxnElt=Protasis|MSeg=arrang-ed|XML=<sic ana:::"arrange"></sic>
 110	sooner	soon	ADV	RBR	Degree=Cmp	109	advmod	109:advmod	MSeg=soon-er
 111	than	than	ADP	IN	_	113	case	113:case	_
 112	upon	upon	ADP	IN	_	113	reparandum	113:reparandum	MSeg=up-on
@@ -209,7 +209,7 @@
 120	rich	rich	ADJ	JJ	Degree=Pos	121	amod	121:amod	_
 121	person	person	NOUN	NN	Number=Sing	123	nsubj	123:nsubj|125:nsubj:xsubj	_
 122	will	will	AUX	MD	VerbForm=Fin	123	aux	123:aux	_
-123	become	become	VERB	VB	VerbForm=Inf	96	ccomp	96:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=be-come
+123	become	become	VERB	VB	VerbForm=Inf	96	ccomp	96:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=be-come
 124	armed	armed	ADJ	JJ	Degree=Pos	125	compound	125:compound	MSeg=arm-ed
 125	robbed	rob	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	123	xcomp	123:xcomp	MSeg=robb-ed
 126	of	of	ADP	IN	_	130	case	130:case	_
@@ -229,25 +229,25 @@
 # s_type = decl
 # transition = continue
 # text = Right Courts rob me I rob Court citizen sounds reasonable to me and just as wrong as Court in handling this case at issue wrongly.
-1	Right	right	ADJ	JJ	Degree=Pos	3	discourse	3:discourse	Discourse=causal-cause:21->22:0:_
+1	Right	right	ADJ	JJ	Degree=Pos	3	discourse	3:discourse	Discourse=causal-cause:21->22:0:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:1-60:197-222;NoRel:NoRel:_:_:61-196:197-222
 2	Courts	court	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	MSeg=Court-s
-3	rob	rob	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	rob	rob	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	3:obj	Entity=(1)
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj:outer	6:nsubj:outer	Discourse=elaboration-additional:22->20:3:ref-prs-130,200+sem-synym-135-136,203-204+ref-gnrl-164-165,217-220+sem-lxchn-195,203|Entity=(1)
-6	rob	rob	VERB	VBP	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
+6	rob	rob	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
 7	Court	court	NOUN	NN	Number=Sing	6	obj	6:obj	_
 8	citizen	citizen	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
-9	sounds	sound	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	Discourse=evaluation-comment:23->22:1:lex-indwd-205|MSeg=sound-s
+9	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	Discourse=evaluation-comment:23->22:1:lex-indwd-205|MSeg=sound-s
 10	reasonable	reasonable	ADJ	JJ	Degree=Pos	9	xcomp	9:xcomp	MSeg=reason-able
 11	to	to	ADP	IN	_	12	case	12:case	_
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	9:obl:to	Entity=(1)
-13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:24->22:2:dm-and-209
+13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint-list_m:24->22:2:dm-and-209|PDTB=Explicit:Expansion.Conjunction:and:209:197-208:210-222
 14	just	just	ADV	RB	_	16	advmod	16:advmod	_
 15	as	as	ADV	RB	_	16	advmod	16:advmod	_
 16	wrong	wrong	ADJ	JJ	Degree=Pos	9	conj	9:conj:and	_
 17	as	as	ADP	IN	_	18	case	18:case	_
 18	Court	court	NOUN	NN	Number=Sing	16	obl	16:obl:as	Entity=(7)
-19	in	in	SCONJ	IN	_	20	mark	20:mark	Discourse=mode-manner:25->24:0:dm-in-215+syn-pres-216
+19	in	in	SCONJ	IN	_	20	mark	20:mark	Discourse=mode-manner:25->24:0:dm-in-215+syn-pres-216|PDTB=Explicit:Expansion.Manner.Arg2-as-manner:in:215:209-214:216-222
 20	handling	handle	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	16:advcl:in	MSeg=hand-l-ing
 21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	22:det	Entity=(3
 22	case	case	NOUN	NN	Number=Sing	20	obj	20:obj	_
@@ -263,15 +263,15 @@
 # text = If my case had no merit I 'ed have know objection to its dismissal treatment.
 # newpar
 # newpar_block = p (1 s)
-1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:26->27:0:dm-if-223+mrf-md-230
+1	If	if	SCONJ	IN	_	4	mark	4:mark	Discourse=contingency-condition:26->27:0:dm-if-223+mrf-md-230|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:223:229-238:224-228
 2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(3(1)
 3	case	case	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=3)
-4	had	have	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:if	_
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:if	CxnElt=Protasis
 5	no	no	DET	DT	PronType=Neg	6	det	6:det	Negation=Yes
 6	merit	merit	NOUN	NN	Number=Sing	4	obj	4:obj	_
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	Discourse=joint-other_m:27->2:3:_|Entity=(1)
 8	'ed	would	AUX	MD	Typo=Yes|VerbForm=Fin	9	aux	9:aux	CorrectForm='d|XML=<sic ana:::"'d"></sic>
-9	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
+9	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
 10	know	no	DET	DT	PronType=Neg|Typo=Yes	11	det	11:det	CorrectForm=no|Negation=Yes|XML=<sic ana:::"no"></sic>
 11	objection	objection	NOUN	NN	Number=Sing	9	obj	9:obj	MSeg=object-ion
 12	to	to	ADP	IN	_	15	case	15:case	_
@@ -289,15 +289,15 @@
 # newpar_block = p (2 s)
 1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=explanation-justify:28->29:1:dm-so-243|Entity=(3(1)
 2	case	case	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=3)
-3	has	have	VERB	VBZ	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MSeg=ha-s
 4	merit	merit	NOUN	NN	Number=Sing	3	obj	3:obj	_
-5	so	so	ADV	IN	_	33	advmod	33:advmod	Discourse=adversative-contrast_m:29->27:1:_
+5	so	so	ADV	IN	_	33	advmod	33:advmod	Discourse=adversative-contrast_m:29->27:1:_|PDTB=Explicit:Contingency.Cause.Result:so:243:239-242:244-273
 6	unless	unless	SCONJ	IN	_	11	mark	11:mark	Discourse=contingency-condition:30->31:0:_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_
 8	just	just	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
 9	treatment	treatment	NOUN	NN	Number=Sing	11	nsubj:pass	11:nsubj:pass	MSeg=treat-ment
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	11:aux:pass	_
-11	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	advcl	33:advcl:unless	_
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	advcl	33:advcl:unless	MSeg=do-ne
 12	by	by	ADP	IN	_	14	case	14:case	_
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	Entity=(7
 14	Court	court	NOUN	NN	Number=Sing	11	obl:agent	11:obl:agent	Entity=7)
@@ -322,28 +322,28 @@
 33	become	become	VERB	VB	VerbForm=Inf	3	parataxis	3:parataxis	MSeg=be-come
 34	dealt	deal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	xcomp	33:xcomp	_
 35	with	with	ADP	IN	_	34	obl	34:obl	_
-36	now	now	INTJ	UH	Polarity=Neg	37	discourse	37:discourse	Discourse=explanation-motivation:32->35:2:_
-37	take	take	VERB	VB	Person=2|VerbForm=Inf	34	parataxis	34:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion
+36	now	now	INTJ	UH	_	37	discourse	37:discourse	Discourse=explanation-motivation:32->35:2:_
+37	take	take	VERB	VB	Person=2|VerbForm=Inf	34	parataxis	34:parataxis	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis
 38	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	obj	37:obj	Entity=(1)
 39	lightly	lightly	ADV	RB	Degree=Pos	37	advmod	37:advmod	MSeg=light-ly
-40	if	if	SCONJ	IN	_	43	mark	43:mark	Discourse=contingency-condition:33->32:0:dm-if-278
+40	if	if	SCONJ	IN	_	43	mark	43:mark	Discourse=contingency-condition:33->32:0:dm-if-278|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:278:274-277:279-281
 41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	42:det	Entity=(7
 42	Court	Court	PROPN	NNP	Number=Sing	43	nsubj	43:nsubj	Entity=7)
-43	will	will	AUX	MD	VerbForm=Fin	37	advcl	37:advcl:if	_
-44	an	and	CCONJ	CC	Typo=Yes	45	cc	45:cc	CorrectForm=and|Discourse=attribution-positive:34->35:1:sem-atsrc-265-269+lex-indwd-283+syn-rpr-290|XML=<sic ana:::"and"></sic>
+43	will	will	AUX	MD	VerbForm=Fin	37	advcl	37:advcl:if	CxnElt=Protasis
+44	an	and	CCONJ	CC	Typo=Yes	45	cc	45:cc	CorrectForm=and|Discourse=attribution-positive:34->35:1:sem-atsrc-265-269+lex-indwd-283+syn-rpr-290|PDTB=Explicit:Contingency.Cause.Reason:an:282:274-281:283-297|XML=<sic ana:::"and"></sic>
 45	see	see	VERB	VB	Person=2|VerbForm=Inf	37	conj	37:conj:and	_
 46-47	won't	_	_	_	_	_	_	_	_
 46	wo	will	AUX	MD	VerbForm=Fin	49	aux	49:aux	Discourse=explanation-motivation:35->41:2:_;causal-result:35->32:2:1:orp-an-282
 47	n't	not	PART	RB	Polarity=Neg	49	advmod	49:advmod	Negation=Yes
 48	justice	justice	NOUN	NN	Number=Sing	49	nsubj	49:nsubj|50:nsubj:xsubj	Entity=(8)|MSeg=just-ice
-49	become	become	VERB	VB	VerbForm=Inf	45	ccomp	45:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|MSeg=be-come
-50	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	49	xcomp	49:xcomp	_
-51	even	even	ADV	RB	_	56	advmod	56:advmod	Discourse=adversative-concession:36->35:0:dm-even if-289-290
+49	become	become	VERB	VB	VerbForm=Inf	45	ccomp	45:ccomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=Apodosis|MSeg=be-come
+50	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	49	xcomp	49:xcomp	MSeg=do-ne
+51	even	even	ADV	RB	_	56	advmod	56:advmod	Discourse=adversative-concession:36->35:0:dm-even if-289-290|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:even if:289-290:284-288:291-297
 52	if	if	SCONJ	IN	_	56	mark	56:mark	_
 53	you	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	54	dep	54:dep	_
-54	Judges	judge	NOUN	NNS	Number=Plur	56	nsubj	56:nsubj	_
+54	Judges	judge	NOUN	NNS	Number=Plur	56	nsubj	56:nsubj	MSeg=Judge-s
 55	never	never	ADV	RB	_	56	advmod	56:advmod	Negation=Yes
-56	here	hear	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	49	advcl	49:advcl:if	CorrectForm=hear|XML=<sic ana:::"hear"></sic>
+56	here	hear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	49	advcl	49:advcl:if	CorrectForm=hear|CxnElt=Protasis|XML=<sic ana:::"hear"></sic>
 57	of	of	ADP	IN	_	58	case	58:case	_
 58	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	obl	56:obl:of	Entity=(8)|SpaceAfter=No
 59	.	.	PUNCT	.	_	3	punct	3:punct	_
@@ -353,7 +353,7 @@
 # s_type = decl
 # transition = continue
 # text = And in the next two weeks my person is gonna submit 5 lawsuits in the Northern District Court although legitimate I really do not have 'ta do so but I will.
-1	And	and	CCONJ	CC	_	10	cc	10:cc	Discourse=context-background:37->39:2:ref-prs-304-305,319
+1	And	and	CCONJ	CC	_	10	cc	10:cc	Discourse=context-background:37->39:2:ref-prs-304-305,319|PDTB=Explicit:Expansion.Conjunction:and:298:239-297:299-330
 2	in	in	ADP	IN	_	6	case	6:case	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	_
 4	next	next	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
@@ -373,7 +373,7 @@
 17	Northern	Northern	ADJ	NNP	Degree=Pos	19	amod	19:amod	MSeg=North-ern
 18	District	District	PROPN	NNP	Number=Sing	19	compound	19:compound	_
 19	Court	Court	PROPN	NNP	Number=Sing	12	obl	12:obl:in	Entity=7)
-20	although	although	SCONJ	IN	_	21	mark	21:mark	Discourse=adversative-concession:38->39:0:dm-although-317|MSeg=al-though
+20	although	although	SCONJ	IN	_	21	mark	21:mark	Discourse=adversative-concession:38->39:0:dm-although-317|MSeg=al-though|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:although:317:319-326:318
 21	legitimate	legitimate	ADV	RB	Degree=Pos	26	advcl	26:advcl:although	MSeg=legit-im-ate
 22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	26:nsubj|28:nsubj:xsubj	Discourse=explanation-motivation:39->41:0:mrf-md-331;joint-other:39->35:3:3:orp-and-298|Entity=(1)
 23	really	really	ADV	RB	Degree=Pos	26	advmod	26:advmod	MSeg=real-ly
@@ -383,7 +383,7 @@
 27	'ta	to	PART	TO	Style=Coll	28	mark	28:mark	_
 28	do	do	VERB	VB	VerbForm=Inf	26	xcomp	26:xcomp	_
 29	so	so	ADV	RB	_	28	advmod	28:advmod	_
-30	but	but	CCONJ	CC	_	32	cc	32:cc	Discourse=adversative-contrast_m:40->39:1:dm-but-327
+30	but	but	CCONJ	CC	_	32	cc	32:cc	Discourse=adversative-contrast_m:40->39:1:dm-but-327|PDTB=Explicit:Comparison.Contrast:but:327:317-326:328-330
 31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	32:nsubj	Entity=(1)
 32	will	will	AUX	MD	VerbForm=Fin	26	conj	12:advcl|26:conj:but	SpaceAfter=No
 33	.	.	PUNCT	.	_	10	punct	10:punct	_
@@ -411,8 +411,8 @@
 14	will	will	NOUN	NN	Number=Sing	16	nsubj	16:nsubj|17:nsubj:xsubj	Entity=9)
 15	shall	shall	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
 16	become	become	VERB	VB	VerbForm=Inf	12	acl:relcl	12:acl:relcl	MSeg=be-come
-17	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	16:xcomp	_
-18	whether	whether	SCONJ	IN	_	21	mark	21:mark	Discourse=adversative-concession:42->43:0:dm-whether-348
+17	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	16:xcomp	MSeg=do-ne
+18	whether	whether	SCONJ	IN	_	21	mark	21:mark	Discourse=adversative-concession:42->43:0:dm-whether-348|PDTB=Explicit:Comparison.Concession.Arg1-as-denier:whether:348:355-360:349-354
 19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	20:det	Entity=(7
 20	Court	court	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=7)
 21	believe	believe	VERB	VB	VerbForm=Inf	25	dislocated	25:dislocated	Entity=(10)
@@ -424,7 +424,7 @@
 26	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	29	cop	29:cop	CorrectForm='s|XML=<sic ana:::"'s"></sic></w>
 27	up	up	ADP	IN	_	29	case	29:case	_
 28	to	to	ADP	IN	_	29	case	29:case	_
-29	Judges	judge	NOUN	NNS	Number=Plur	1	parataxis	1:parataxis	SpaceAfter=No
+29	Judges	judge	NOUN	NNS	Number=Plur	1	parataxis	1:parataxis	MSeg=Judge-s|SpaceAfter=No
 30	.	.	PUNCT	.	_	1	punct	1:punct	_
 
 # sent_id = GENTLE_threat_malik-8
@@ -449,9 +449,9 @@
 13	of	of	ADP	IN	_	15	case	15:case	_
 14	material	material	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
 15	civilization	civilization	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	MSeg=civiliz-ation
-16	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=causal-result:45->44:0:dm-and-376
+16	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=causal-result:45->44:0:dm-and-376|PDTB=Explicit:Contingency.Cause.Result:and:376:361-375:377-380
 17	grievously	grievously	ADV	RB	Degree=Pos	18	advmod	18:advmod	MSeg=griev-ous-ly
-18	oppressed	oppress	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj:and	MSeg=oppress-ed
+18	oppressed	oppress	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj:and	MSeg=oppress-ed
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(12
 20	israelities	Israelite	PROPN	NNPS	Number=Plur|Typo=Yes	18	obj	18:obj	CorrectForm=Israelites|Entity=12)|MSeg=israel-itie-s|XML=<sic ana:::"Israelites"></sic>
 
@@ -460,9 +460,9 @@
 # s_type = decl
 # transition = establishment
 # text = What Pharoah Wished Was To Crush Them
-1	What	what	PRON	WP	PronType=Rel	6	nsubj:outer	6:nsubj:outer	Discourse=joint-list_m:46->44:1:_
+1	What	what	PRON	WP	PronType=Rel	6	nsubj:outer	6:nsubj:outer	Discourse=joint-list_m:46->44:1:_|PDTB=Implicit:Expansion.Conjunction:in fact:_:361-380:381-387
 2	Pharoah	Pharaoh	PROPN	NNP	Number=Sing|Typo=Yes	3	nsubj	3:nsubj	CorrectForm=Pharaoh|Entity=(11)|XML=<sic ana:::"Pharaoh"></sic>
-3	Wished	wish	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	MSeg=Wish-ed
+3	Wished	wish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	MSeg=Wish-ed
 4	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 5	To	to	PART	TO	_	6	mark	6:mark	_
 6	Crush	Crush	VERB	VB	VerbForm=Inf	0	root	0:root	Entity=(13)
@@ -473,11 +473,11 @@
 # s_type = decl
 # transition = smooth-shift
 # text = Is That What You Folks Trying to Do Me As And My Cases
-1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=evaluation-comment:47->2:4:_
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=evaluation-comment:47->2:4:_|PDTB=EntRel:EntRel:_:_:381-387:388-400
 2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(13)
 3	What	what	PRON	WP	PronType=Rel	0	root	0:root	_
 4	You	you	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	dep	5:dep	_
-5	Folks	folk	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|8:nsubj:xsubj	_
+5	Folks	folk	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj|8:nsubj:xsubj	MSeg=Folk-s
 6	Trying	try	VERB	VBG	Typo=Yes|VerbForm=Ger	3	acl:relcl	3:acl:relcl	CorrectForm=are trying|MSeg=Try-ing|XML=<sic ana:::"are trying"></sic>
 7	to	to	PART	TO	_	8	mark	8:mark	_
 8	Do	do	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
@@ -485,7 +485,7 @@
 10	As	as	ADV	RB	_	8	obl	8:obl	_
 11	And	and	CCONJ	CC	_	13	cc	13:cc	_
 12	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(3(1)
-13	Cases	case	NOUN	NNS	Number=Plur	9	conj	8:obj|9:conj:and	Entity=3)
+13	Cases	case	NOUN	NNS	Number=Plur	9	conj	8:obj|9:conj:and	Entity=3)|MSeg=Case-s
 
 # sent_id = GENTLE_threat_malik-11
 # s_prominence = 3
@@ -496,7 +496,7 @@
 2	ware	_	X	VB	_	1	goeswith	1:goeswith	CorrectForm=_|XML=</sic>
 3	Of	of	ADP	IN	_	5	case	5:case	_
 4	All	all	DET	DT	PronType=Ind	5	det	5:det	_
-5	Actions	action	NOUN	NNS	Number=Plur	1	obl	1:obl:of	_
+5	Actions	action	NOUN	NNS	Number=Plur	1	obl	1:obl:of	MSeg=Action-s
 6	South	South	PROPN	NNP	Number=Sing	7	compound	7:compound	Discourse=evaluation-comment:49->47:2:_
 7	Africanner	African	ADJ	NNP	Degree=Cmp|Typo=Yes	8	compound	8:compound	CorrectForm=African|MSeg=Afric-ann-er|XML=<sic ana:::"African"></sic>
 8	Europeans	European	PROPN	NNPS	Number=Plur	5	compound	5:compound	MSeg=Europe-an-s

@@ -58,7 +58,7 @@
 3-20	232-233	,	_	_	_	_	_	_	_
 3-21	234-241	rapping	_	_	_	_	_	_	_
 3-22	242-244	at	_	_	_	_	_	_	_
-3-23	245-247	my	place[11]|person[12]	new[11]|giv:act[12]	sal[11]|sal[12]	_	cf4[11]|cf1*[12]	ana|coref	4-8[15_12]|4-14[18_11]
+3-23	245-247	my	place[11]|person[12]	new[11]|giv:act[12]	sal[11]|sal[12]	_	cf4[11]|cf1*[12]	coref|ana	4-14[18_11]|4-8[15_12]
 3-24	248-255	chamber	place[11]	new[11]	sal[11]	_	cf4[11]	_	_
 3-25	256-260	door	place[11]	new[11]	sal[11]	_	cf4[11]	_	_
 3-26	261-262	.	_	_	_	_	_	_	_
@@ -77,7 +77,7 @@
 4-11	301-302	"	_	_	_	_	_	_	_
 4-12	303-310	tapping	event[564]	new[564]	_	_	cf4[17]	disc	5-2[20_564]
 4-13	311-313	at	_	_	_	_	cf4[17]	_	_
-4-14	314-316	my	place[18]|person[19]	giv:act[18]|giv:act[19]	sal[18]|sal[19]	_	cf4[17]|cf3[18]|cf1*[19]	coref|ana	10-9[67_18]|6-4[24_19]
+4-14	314-316	my	place[18]|person[19]	giv:act[18]|giv:act[19]	sal[18]|sal[19]	_	cf4[17]|cf3[18]|cf1*[19]	ana|coref	6-4[24_19]|10-9[67_18]
 4-15	317-324	chamber	place[18]	giv:act[18]	sal[18]	_	cf4[17]|cf3[18]	_	_
 4-16	325-329	door	place[18]	giv:act[18]	sal[18]	_	cf4[17]|cf3[18]	_	_
 4-17	330-331	—	_	_	_	_	_	_	_
@@ -196,7 +196,7 @@
 9-7	854-857	the	_	_	_	_	cf2[58]	_	_
 9-8	858-865	beating	_	_	_	_	cf2[58]	_	_
 9-9	866-868	of	_	_	_	_	cf2[58]	_	_
-9-10	869-871	my	object[59]|person[60]	new[59]|giv:act[60]	nonsal[59]|sal[60]	_	cf2[58]|cf3[59]|cf1*[60]	coref|ana	25-2[162_59]|9-13[61_60]
+9-10	869-871	my	object[59]|person[60]	new[59]|giv:act[60]	nonsal[59]|sal[60]	_	cf2[58]|cf3[59]|cf1*[60]	ana|coref	9-13[61_60]|25-2[162_59]
 9-11	872-877	heart	object[59]	new[59]	nonsal[59]	_	cf2[58]|cf3[59]	_	_
 9-12	878-879	,	_	_	_	_	_	_	_
 9-13	880-881	I	person[61]	giv:act[61]	sal[61]	_	cf1*[61]	ana	10-9[68_61]
@@ -212,7 +212,7 @@
 10-6	919-929	entreating	_	_	_	_	_	_	_
 10-7	930-938	entrance	_	_	_	_	cf4[65]	_	_
 10-8	939-941	at	_	_	_	_	_	_	_
-10-9	942-944	my	place[67]|person[68]	giv:inact[67]|giv:act[68]	sal[67]|sal[68]	_	cf3[67]|cf1*[68]	ana|coref	11-7[74_68]|11-7[73_67]
+10-9	942-944	my	place[67]|person[68]	giv:inact[67]|giv:act[68]	sal[67]|sal[68]	_	cf3[67]|cf1*[68]	coref|ana	11-7[73_67]|11-7[74_68]
 10-10	945-952	chamber	place[67]	giv:inact[67]	sal[67]	_	cf3[67]	_	_
 10-11	953-957	door	place[67]	giv:inact[67]	sal[67]	_	cf3[67]	_	_
 10-12	958-959	—	_	_	_	_	_	_	_
@@ -1106,7 +1106,7 @@
 54-6	4809-4814	cried	_	_	_	_	_	_	_
 54-7	4815-4816	,	_	_	_	_	_	_	_
 54-8	4817-4818	"	_	_	_	_	_	_	_
-54-9	4819-4822	thy	person[365]|animal[366]	new[365]|giv:act[366]	nonsal[365]|sal[366]	God[365]	cf2[365]|cf3[366]	ana|ana	54-13[367_366]|54-18[371_365]
+54-9	4819-4822	thy	person[365]|animal[366]	new[365]|giv:act[366]	nonsal[365]|sal[366]	God[365]	cf2[365]|cf3[366]	ana|ana	54-18[371_365]|54-13[367_366]
 54-10	4823-4826	God	person[365]	new[365]	nonsal[365]	God[365]	cf2[365]	_	_
 54-11	4827-4831	hath	_	_	_	_	_	_	_
 54-12	4832-4836	lent	_	_	_	_	_	_	_
@@ -1419,7 +1419,7 @@
 74-3	6040-6043	the	object[490]	giv:inact[490]	nonsal[490]	_	cf2[490]	coref	77-16[510_490]
 74-4	6044-6048	bust	object[490]	giv:inact[490]	nonsal[490]	_	cf2[490]	_	_
 74-5	6049-6054	above	object[490]	giv:inact[490]	nonsal[490]	_	cf2[490]	_	_
-74-6	6055-6057	my	object[490]|place[491]|person[492]	giv:inact[490]|giv:inact[491]|giv:act[492]	nonsal[490]|sal[491]|sal[492]	_	cf2[490]|cf3[491]|cf1*[492]	ana|coref	75-6[498_492]|75-15[503_491]
+74-6	6055-6057	my	object[490]|place[491]|person[492]	giv:inact[490]|giv:inact[491]|giv:act[492]	nonsal[490]|sal[491]|sal[492]	_	cf2[490]|cf3[491]|cf1*[492]	coref|ana	75-15[503_491]|75-6[498_492]
 74-7	6058-6062	door	object[490]|place[491]	giv:inact[490]|giv:inact[491]	nonsal[490]|sal[491]	_	cf2[490]|cf3[491]	_	_
 74-8	6063-6064	!	_	_	_	_	_	_	_
 

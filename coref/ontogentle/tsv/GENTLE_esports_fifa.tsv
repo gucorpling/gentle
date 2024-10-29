@@ -44,7 +44,7 @@
 1-38	202-205	the	event[17]	new[17]	sal[17]	_	cf18[1]|cf14[17]	coref	36-8[397_17]
 1-39	206-217	semi-finals	event[17]	new[17]	sal[17]	_	cf18[1]|cf14[17]	_	_
 1-40	218-225	against	event[17]	new[17]	sal[17]	_	cf18[1]|cf14[17]	_	_
-1-41	226-236	Manchester	event[17]|organization[18]|place[19]	new[17]|new[18]|new[19]	sal[17]|sal[18]|nonsal[19]	Manchester_City_F.C.[18]|Manchester[19]	cf18[1]|cf14[17]|cf4[18]|cf5[19]	coref|coref	1-82[34_18]|1-82[35_19]
+1-41	226-236	Manchester	event[17]|organization[18]|place[19]	new[17]|new[18]|new[19]	sal[17]|sal[18]|nonsal[19]	Manchester_City_F.C.[18]|Manchester[19]	cf18[1]|cf14[17]|cf4[18]|cf5[19]	coref|coref	1-82[35_19]|1-82[34_18]
 1-42	237-241	City	event[17]|organization[18]	new[17]|new[18]	sal[17]|sal[18]	Manchester_City_F.C.[18]	cf18[1]|cf14[17]|cf4[18]	_	_
 1-43	242-243	,	_	_	_	_	_	_	_
 1-44	244-249	today	event[21]	new[21]	sal[21]	_	cf8[21]|cf7[22]	coref	3-20[73_21]
@@ -85,7 +85,7 @@
 1-79	400-401	,	_	_	_	_	_	_	_
 1-80	402-404	we	person[31]	giv:act[31]	nonsal[31]	_	cf1[31]	ana	1-114[47_31]
 1-81	405-409	have	_	_	_	_	_	_	_
-1-82	410-420	Manchester	organization[34]|place[35]	giv:act[34]|giv:act[35]	sal[34]|nonsal[35]	Manchester_City_F.C.[34]|Manchester[35]	cf4[34]|cf5[35]	coref|coref	1-117[49_34]|1-117[50_35]
+1-82	410-420	Manchester	organization[34]|place[35]	giv:act[34]|giv:act[35]	sal[34]|nonsal[35]	Manchester_City_F.C.[34]|Manchester[35]	cf4[34]|cf5[35]	coref|coref	1-117[50_35]|1-117[49_34]
 1-83	421-425	City	organization[34]	giv:act[34]	sal[34]	Manchester_City_F.C.[34]	cf4[34]	_	_
 1-84	426-428	in	_	_	_	_	_	_	_
 1-85	429-432	the	_	_	_	_	cf22[37]	_	_
@@ -120,7 +120,7 @@
 1-114	570-573	our	person[47]	giv:act[47]	nonsal[47]	_	cf22[37]|cf10[46]|cf1[47]	ana	2-2[58_47]
 1-115	574-578	game	_	_	_	_	cf22[37]|cf10[46]	_	_
 1-116	579-582	and	_	_	_	_	cf22[37]	_	_
-1-117	583-593	Manchester	organization[49]|place[50]	giv:act[49]|giv:act[50]	sal[49]|nonsal[50]	Manchester_City_F.C.[49]|Manchester[50]	cf22[37]|cf4[49]|cf5[50]	coref|ana	19-18[213_50]|1-123[55_49]
+1-117	583-593	Manchester	organization[49]|place[50]	giv:act[49]|giv:act[50]	sal[49]|nonsal[50]	Manchester_City_F.C.[49]|Manchester[50]	cf22[37]|cf4[49]|cf5[50]	ana|coref	1-123[55_49]|19-18[213_50]
 1-118	594-598	City	organization[49]	giv:act[49]	sal[49]	Manchester_City_F.C.[49]	cf22[37]|cf4[49]	_	_
 1-119	599-600	I	person[51]	giv:act[51]	sal[51]	_	cf22[37]|cf2[51]	ana	6-2[88_51]
 1-120	601-605	know	_	_	_	_	cf22[37]	_	_

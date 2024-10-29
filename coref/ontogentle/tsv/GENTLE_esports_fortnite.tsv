@@ -17,7 +17,7 @@
 1-11	48-52	time	_	_	_	_	cf5[3]	_	_
 1-12	53-54	,	_	_	_	_	_	_	_
 1-13	55-58	the	event[4]	new[4]	sal[4]	_	cf3[4]	ana	12-4[119_4]
-1-14	59-67	Fortnite	event[4]|event[5]|abstract[6]	new[4]|new[5]|new[6]	sal[4]|sal[5]|sal[6]	Fortnite[6]	cf3[4]|cf6[5]|cf7[6]	coref|coref	10-22[108_5]|9-18[94_6]
+1-14	59-67	Fortnite	event[4]|event[5]|abstract[6]	new[4]|new[5]|new[6]	sal[4]|sal[5]|sal[6]	Fortnite[6]	cf3[4]|cf6[5]|cf7[6]	coref|coref	9-18[94_6]|10-22[108_5]
 1-15	68-73	World	event[4]|event[5]	new[4]|new[5]	sal[4]|sal[5]	_	cf3[4]|cf6[5]	_	_
 1-16	74-77	Cup	event[4]|event[5]	new[4]|new[5]	sal[4]|sal[5]	_	cf3[4]|cf6[5]	_	_
 1-17	78-84	Finals	event[4]	new[4]	sal[4]	_	cf3[4]	_	_

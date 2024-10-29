@@ -95,7 +95,7 @@
 8-11	335-337	in	event[38]	giv:inact[38]	sal[38]	_	cf4[38]	_	_
 8-12	338-344	stolen	event[38]	giv:inact[38]	sal[38]	_	cf4[38]	_	_
 8-13	345-349	from	event[38]	giv:inact[38]	sal[38]	_	cf4[38]	_	_
-8-14	350-354	your	event[38]|place[41]|person[42]	giv:inact[38]|giv:inact[41]|giv:act[42]	sal[38]|nonsal[41]|sal[42]	_	cf4[38]|cf5[41]|cf3[42]	ana|ana	9-1[43_41]|10-2[48_42]
+8-14	350-354	your	event[38]|place[41]|person[42]	giv:inact[38]|giv:inact[41]|giv:act[42]	sal[38]|nonsal[41]|sal[42]	_	cf4[38]|cf5[41]|cf3[42]	ana|ana	10-2[48_42]|9-1[43_41]
 8-15	355-360	house	event[38]|place[41]	giv:inact[38]|giv:inact[41]	sal[38]|nonsal[41]	_	cf4[38]|cf5[41]	_	_
 8-16	361-362	.	_	_	_	_	_	_	_
 
@@ -169,7 +169,7 @@
 13-16	611-615	them	person[77]	giv:inact[77]	nonsal[77]	_	cf3[77]	ana	14-1[83_77]
 13-17	616-619	all	_	_	_	_	_	_	_
 13-18	620-625	about	_	_	_	_	_	_	_
-13-19	626-630	your	event[81]|person[82]	giv:inact[81]|giv:act[82]	sal[81]|sal[82]	_	cf4[81]|cf2*[82]	ana|ana	14-8[87_81]|15-1[88_82]
+13-19	626-630	your	event[81]|person[82]	giv:inact[81]|giv:act[82]	sal[81]|sal[82]	_	cf4[81]|cf2*[82]	ana|ana	15-1[88_82]|14-8[87_81]
 13-20	631-635	scam	event[81]	giv:inact[81]	sal[81]	_	cf4[81]	_	_
 13-21	636-637	.	_	_	_	_	_	_	_
 
@@ -398,7 +398,7 @@
 30-26	1428-1432	here	_	_	_	Prison[173]	cf3[173]	_	_
 30-27	1433-1435	or	_	_	_	_	_	_	_
 30-28	1436-1441	maybe	_	_	_	_	_	_	_
-30-29	1442-1446	your	person[181]|person[182]	new[181]|giv:act[182]	nonsal[181]|sal[182]	_	cf4[181]|cf2[182]	coref|ana	32-13[193_181]|32-3[184_182]
+30-29	1442-1446	your	person[181]|person[182]	new[181]|giv:act[182]	nonsal[181]|sal[182]	_	cf4[181]|cf2[182]	ana|coref	32-3[184_182]|32-13[193_181]
 30-30	1447-1454	fucking	person[181]	new[181]	nonsal[181]	_	cf4[181]	_	_
 30-31	1455-1458	Mom	person[181]	new[181]	nonsal[181]	_	cf4[181]	_	_
 30-32	1459-1462	can	_	_	_	_	_	_	_

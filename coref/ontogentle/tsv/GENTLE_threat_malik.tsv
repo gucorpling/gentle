@@ -199,7 +199,7 @@
 2-131	950-952	in	_	_	_	_	_	_	_
 2-132	953-960	replace	_	_	_	_	_	_	_
 2-133	961-964	for	_	_	_	_	_	_	_
-2-134	965-967	my	abstract[76]|person[77]	giv:act[76]|giv:act[77]	sal[76]|sal[77]	_	cf5[76]|cf1*[77]	ana|coref	3-4[79_77]|3-21[92_76]
+2-134	965-967	my	abstract[76]|person[77]	giv:act[76]|giv:act[77]	sal[76]|sal[77]	_	cf5[76]|cf1*[77]	coref|ana	3-21[92_76]|3-4[79_77]
 2-135	968-972	case	abstract[76]	giv:act[76]	sal[76]	_	cf5[76]	_	_
 2-136	973-974	.	_	_	_	_	_	_	_
 
@@ -233,7 +233,7 @@
 
 #Text=If my case had no merit I 'ed have know objection to its dismissal treatment .
 4-1	1107-1109	If	_	_	_	_	_	_	_
-4-2	1110-1112	my	abstract[93]|person[94]	giv:act[93]|giv:act[94]	sal[93]|sal[94]	_	cf2[93]|cf1*[94]	ana|ana	4-7[97_94]|4-13[101_93]
+4-2	1110-1112	my	abstract[93]|person[94]	giv:act[93]|giv:act[94]	sal[93]|sal[94]	_	cf2[93]|cf1*[94]	ana|ana	4-13[101_93]|4-7[97_94]
 4-3	1113-1117	case	abstract[93]	giv:act[93]	sal[93]	_	cf2[93]	_	_
 4-4	1118-1121	had	_	_	_	_	_	_	_
 4-5	1122-1124	no	_	_	_	_	cf3[96]	_	_
