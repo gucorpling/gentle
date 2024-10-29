@@ -31,7 +31,7 @@ dialectal	JJ	dialectal
 <item>
 <s type="frag">
 <ref target="https://en.wiktionary.org/wiki/neist#English">
-neist	NP	Neist
+neist	FW	neist
 </ref>
 (	(	(
 <hi rend="italic">
@@ -43,11 +43,11 @@ Scotland	NP	Scotland
 <item>
 <s type="frag">
 <ref target="https://en.wiktionary.org/wiki/nex#English">
-nex	NP	Nex
+nex	FW	nex
 </ref>
 (	(	(
 <hi rend="italic">
-archaic	NN	archaic
+archaic	JJ	archaic
 </hi>
 )	)	)
 </s>
