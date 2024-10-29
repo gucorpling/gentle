@@ -22,7 +22,7 @@ the	DT	the	AT0	DET	det	_
 number	NN	number	NN1	NOUN	nmod	_
 of	IN	of	PRF	ADP	case	_
 <ref target="https://proofwiki.org/wiki/Definition:Vertex_of_Graph">
-vertices	NNS	vertice	NN2	NOUN	nmod	_
+vertices	NNS	vertice	NN2	NOUN	nmod	vertice-s
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -30,8 +30,8 @@ vertices	NNS	vertice	NN2	NOUN	nmod	_
 <p>
 <s type="imp" transition="zero">
 For	IN	for	PRP	ADP	case	_
-all	DT	all	DT0	DET	obl	_
-n	NN	n	NN1	DET	det	_
+all	DT	all	DT0	DET	det	_
+n	NN	n	NN1	NOUN	obl	_
 ∈	SYM	∈	UNC	SYM	appos	_
 N&gt;0	NN	N&gt;0	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -98,7 +98,7 @@ more	RBR	more	AV0	ADV	advmod	_
 than	IN	than	CJS	ADP	fixed	_
 5	CD	5	CRD	NUM	nummod	_
 <ref target="https://proofwiki.org/wiki/Definition:Vertex_of_Graph">
-vertices	NNS	vertice	NN2	NOUN	nsubj	_
+vertices	NNS	vertice	NN2	NOUN	nsubj	vertice-s
 </ref>
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	AUX	aux:pass	_
@@ -357,7 +357,7 @@ Then	RB	then	AV0	ADV	advmod	_
 examine	VV	examine	VVB	VERB	root	_
 the	DT	the	AT0	DET	det	_
 five	CD	five	CRD	NUM	nummod	_
-vertices	NNS	vertice	NN2	NOUN	obj	_
+vertices	NNS	vertice	NN2	NOUN	obj	vertice-s
 x	NN	x	NN1	NOUN	nsubj	_
 was	VBD	be	VBD	AUX	cop	_
 <ref target="https://proofwiki.org/wiki/Definition:Adjacent_(Graph_Theory)">
@@ -428,7 +428,7 @@ G′r	NN	G′r	NN1	NOUN	nmod	_
 induced	VVN	induce	VVN	VERB	acl	induc-ed
 by	IN	by	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-vertices	NNS	vertice	NN2	NOUN	obl:agent	_
+vertices	NNS	vertice	NN2	NOUN	obl:agent	vertice-s
 colored	VVN	color	VVN	VERB	acl	color-ed
 with	IN	with	PRP	ADP	case	_
 ci	NN	circa	NN1	NOUN	obl	_
@@ -550,7 +550,7 @@ Since	IN	since	CJS	SCONJ	mark	_
 we	PP	we	PNP	PRON	nsubj	_
 indexed	VVD	index	VVD	VERB	advcl	index-ed
 the	DT	the	AT0	DET	det	_
-vertices	NNS	vertice	NN2	NOUN	obj	_
+vertices	NNS	vertice	NN2	NOUN	obj	vertice-s
 y1	NN	y1	NN1	NOUN	dep	_
 ,	,	,	PUN	PUNCT	punct	_
 y2	NN	y2	NN1	NOUN	conj	_
@@ -566,7 +566,7 @@ exactly	RB	exactly	AV0	ADV	advmod	exact-ly
 one	CD	one	CRD	NUM	nsubj	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
-vertices	NNS	vertice	NN2	NOUN	nmod	_
+vertices	NNS	vertice	NN2	NOUN	nmod	vertice-s
 y2	NN	y2	NN0	NOUN	dep	_
 and	CC	and	CJC	CCONJ	cc	_
 y4	NN	y4	NN0	NOUN	conj	_
@@ -684,7 +684,7 @@ lines	NNS	line	NN2	NOUN	nsubj	line-s
 represent	VVP	represent	VVB	VERB	root	_
 edges	NNS	edge	NN2	NOUN	obj	edge-s
 and	CC	and	CJC	CCONJ	cc	_
-vertices	NNS	vertice	NN2	NOUN	conj	_
+vertices	NNS	vertice	NN2	NOUN	conj	vertice-s
 that	WDT	that	CJT	PRON	nsubj	_
 might	MD	might	VM0	AUX	aux	_
 exist	VV	exist	VVI	VERB	acl:relcl	_
@@ -741,8 +741,8 @@ Therefore	RB	therefore	AV0	ADV	root	There-fore
 </s>
 <s type="decl" transition="null">
 For	IN	for	PRP	ADP	case	_
-all	DT	all	DT0	DET	obl	_
-n	NN	n	NN1	DET	det	_
+all	DT	all	DT0	DET	det	_
+n	NN	n	NN1	NOUN	obl	_
 ∈	SYM	∈	UNC	SYM	appos	_
 N&gt;0	NN	N&gt;0	NN1	NOUN	nmod:unmarked	_
 ,	,	,	PUN	PUNCT	punct	_

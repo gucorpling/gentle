@@ -115,7 +115,7 @@ na	TO	to	TO0	PART	mark	_
 </w>
 be	VB	be	VBI	AUX	aux	_
 playing	VVG	play	VVG	VERB	xcomp	play-ing
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 Napoli	NP	Napoli	NP0	PROPN	nsubj	_
 has	VHZ	have	VHZ	AUX	aux	ha-s
 given	VVN	give	VVN	VERB	advcl	giv-en
@@ -292,7 +292,7 @@ be	VB	be	VBI	AUX	aux	_
 playing	VVG	play	VVG	VERB	xcomp	play-ing
 this	DT	this	DT0	DET	det	_
 match	NN	match	NN1	NOUN	obj	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 it	PP	it	PNP	PRON	nsubj	_
 's	VBZ	be	VBZ	AUX	cop	_
 at	IN	at	PRP	ADP	case	_
@@ -783,7 +783,7 @@ guy	NN	guy	NN1	NOUN	nsubj	_
 has	VHZ	have	VHZ	AUX	aux	ha-s
 scored	VVN	score	VVN	VERB	root	scor-ed
 overhead	JJ	overhead	AJ0	ADJ	amod	_
-kicks	NNS	kick	NN2	NOUN	obj	_
+kicks	NNS	kick	NN2	NOUN	obj	kick-s
 from	IN	from	PRP	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
 field	NN	field	NN1	NOUN	obl	_
@@ -873,7 +873,7 @@ in	IN	in	PRP	ADP	case	_
 place	NN	place	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 but	CC	but	CJC	CCONJ	cc	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 I	PP	I	PNP	PRON	nsubj	_
 'm	VBP	be	VBB	AUX	aux	_
 <w>

@@ -95,7 +95,7 @@ ring	NN	ring	NN1	NOUN	obl	_
 We	PP	we	PNP	PRON	nsubj	_
 passed	VVD	pass	VVD	VERB	root	pass-ed
 the	DT	the	AT0	DET	det	_
-Fields	NNS	field	NN2	NOUN	obj	_
+Fields	NNS	field	NN2	NOUN	obj	Field-s
 of	IN	of	PRF	ADP	case	_
 Gazing	VVG	gaze	VVG	VERB	amod	Gaz-ing
 Grain	NP	Grain	NP0	PROPN	nmod	_
@@ -125,7 +125,7 @@ Us	PP	we	PNP	PRON	obj	_
 <s type="decl" transition="zero">
 <l n="14"/>
 The	DT	the	AT0	DET	det	_
-Dews	NNS	dew	NN2	NOUN	nsubj	_
+Dews	NNS	dew	NN2	NOUN	nsubj	Dew-s
 drew	VVD	draw	VVD	VERB	root	_
 quivering	VVG	quiver	VVG	VERB	xcomp	quiver-ing
 and	CC	and	CJC	CCONJ	cc	_
@@ -174,7 +174,7 @@ The	DT	the	AT0	DET	det	_
 Roof	NP	Roof	NP0	PROPN	nsubj	_
 was	VBD	be	VBD	AUX	cop	_
 scarcely	RB	scarcely	AV0	ADV	advmod	_
-visible	JJ	visible	AJ0	ADJ	root	_
+visible	JJ	visible	AJ0	ADJ	root	vis-ible
 —	:	—	UNC	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
@@ -213,9 +213,9 @@ I	PP	I	PNP	PRON	nsubj	_
 first	RB	first	ORD	ADV	advmod	_
 surmised	VVD	surmise	VVD	VERB	acl:relcl	surmis-ed
 the	DT	the	AT0	DET	det	_
-Horses	NNS	horse	NN2	NOUN	nmod:poss	_
+Horses	NNS	horse	NN2	NOUN	nmod:poss	Horse-s
 '	POS	's	POS	PART	case	_
-Heads	NNS	head	NN2	NOUN	nsubj	_
+Heads	NNS	head	NN2	NOUN	nsubj	Head-s
 <l n="24"/>
 Were	VBD	be	VBD	AUX	cop	_
 toward	IN	toward	PRP	ADP	case	to-ward

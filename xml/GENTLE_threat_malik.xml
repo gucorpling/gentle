@@ -35,7 +35,7 @@ than	RB	then	CJS	ADV	advmod	_
 </sic>
 a	DT	a	AT0	DET	det	_
 White	JJ	white	AJ0	ADJ	amod	_
-Folks	NNS	folk	NN2	NOUN	compound	_
+Folks	NNS	folk	NN2	NOUN	compound	Folk-s
 favor	NN	favor	NN1	NOUN	obl	_
 to	IN	to	PRP	ADP	case	_
 my	PP$	my	DPS	PRON	nmod:poss	_
@@ -50,7 +50,7 @@ White	JJ	white	AJ0	ADJ	amod	_
 American	NP	American	NP0	PROPN	nsubj	America-n
 richly	RB	richly	AV0	ADV	advmod	_
 having	VHG	have	VHG	VERB	acl	hav-ing
-jews	NPS	Jew	NP0	PROPN	nmod:poss	_
+jews	NPS	Jew	NP0	PROPN	nmod:poss	jew-s
 money	NN	money	NN1	NOUN	obj	_
 of	IN	of	PRF	ADP	case	_
 20	CD	20	CRD	NUM	compound	_
@@ -64,7 +64,7 @@ them	PP	they	PNP	PRON	obl	_
 for	IN	for	PRP	ADP	case	_
 you	PP$	your	DPS	PRON	nmod:poss	_
 Jewish	JJ	Jewish	AJ0	ADJ	amod	Jew-ish
-Judges	NNS	judge	NN2	NOUN	compound	_
+Judges	NNS	judge	NN2	NOUN	compound	Judge-s
 action	NN	action	NN1	NOUN	obl	act-ion
 of	IN	of	PRF	ADP	case	_
 unfairness	NN	unfairness	NN1	NOUN	nmod	un-fair-ness
@@ -92,7 +92,7 @@ a	DT	a	AT0	DET	det	_
 store	NN	store	NN1	NOUN	compound	_
 holdup	NN	holdup	NN1	NOUN	obl	_
 on	IN	on	PRP	ADP	case	_
-blacks	NNS	black	NN2	NOUN	nmod	_
+blacks	NNS	black	NN2	NOUN	nmod	black-s
 or	CC	or	CJC	CCONJ	cc	_
 a	DT	a	AT0	DET	det	_
 black	NN	black	NN1	NOUN	conj	_
@@ -102,7 +102,7 @@ you	PP	you	PNP	PRON	discourse	_
 White	JJ	white	AJ0	ADJ	amod	_
 American	JJ	American	AJ0	ADJ	amod	America-n
 Jewish	JJ	Jewish	AJ0	ADJ	amod	Jew-ish
-Judges	NNS	judge	NN2	NOUN	nsubj	_
+Judges	NNS	judge	NN2	NOUN	nsubj	Judge-s
 <w>
 wan	VVP	want	VVB	VERB	advcl	_
 na	TO	to	TO0	PART	mark	_
@@ -289,7 +289,7 @@ a	DT	a	AT0	DET	det	_
 just	JJ	just	AJ0	ADJ	amod	_
 treatment	NN	treatment	NN1	NOUN	nsubj:pass	treat-ment
 is	VBZ	be	VBZ	AUX	aux:pass	_
-done	VVN	do	VDN	VERB	advcl	_
+done	VVN	do	VDN	VERB	advcl	do-ne
 by	IN	by	PRP	ADP	case	_
 this	DT	this	DT0	DET	det	_
 Court	NN	court	NN1	NOUN	obl:agent	_
@@ -332,11 +332,11 @@ wo	MD	will	VM0	AUX	aux	_
 n't	RB	not	XX0	PART	advmod	_
 justice	NN	justice	NN1	NOUN	nsubj	just-ice
 become	VV	become	VVB	VERB	ccomp	be-come
-done	VVN	do	VDN	VERB	xcomp	_
+done	VVN	do	VDN	VERB	xcomp	do-ne
 even	RB	even	AV0	ADV	advmod	_
 if	IN	if	CJS	SCONJ	mark	_
 you	PP	you	PNP	PRON	dep	_
-Judges	NNS	judge	NN2	NOUN	nsubj	_
+Judges	NNS	judge	NN2	NOUN	nsubj	Judge-s
 never	RB	never	AV0	ADV	advmod	_
 <sic ana="hear">
 here	VVP	hear	VVB	VERB	advcl	_
@@ -401,7 +401,7 @@ my	PP$	my	DPS	PRON	nmod:poss	_
 will	NN	will	NN1	NOUN	nsubj	_
 shall	MD	shall	VM0	AUX	aux	_
 become	VV	become	VVI	VERB	acl:relcl	be-come
-done	VVN	do	VDN	VERB	xcomp	_
+done	VVN	do	VDN	VERB	xcomp	do-ne
 whether	IN	whether	CJS	SCONJ	mark	_
 this	DT	this	DT0	DET	det	_
 Court	NN	court	NN1	NOUN	nsubj	_
@@ -417,7 +417,7 @@ s	VBZ	be	ZZ0	AUX	cop	_
 </w>
 up	IN	up	PRP	ADP	case	_
 to	IN	to	PRP	ADP	case	_
-Judges	NNS	judge	NN2	NOUN	parataxis	_
+Judges	NNS	judge	NN2	NOUN	parataxis	Judge-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -464,7 +464,7 @@ Is	VBZ	be	VBZ	AUX	cop	_
 That	DT	that	DT0	PRON	nsubj	_
 What	WP	what	PNQ	PRON	root	_
 You	PP	you	PNP	PRON	dep	_
-Folks	NNS	folk	NN2	NOUN	nsubj	_
+Folks	NNS	folk	NN2	NOUN	nsubj	Folk-s
 <sic ana="are trying">
 Trying	VVG	try	VVG	VERB	acl:relcl	Try-ing
 </sic>
@@ -474,7 +474,7 @@ Me	PP	I	PNP	PRON	obj	_
 As	RB	as	AV0	ADV	obl	_
 And	CC	and	CJC	CCONJ	cc	_
 My	PP$	my	DPS	PRON	nmod:poss	_
-Cases	NNS	case	NN2	NOUN	conj	_
+Cases	NNS	case	NN2	NOUN	conj	Case-s
 </s>
 <s type="imp" transition="zero">
 <sic ana="Beware">
@@ -483,7 +483,7 @@ ware	VV	_	AJ0	X	goeswith	_
 </sic>
 Of	IN	of	PRF	ADP	case	_
 All	DT	all	DT0	DET	det	_
-Actions	NNS	action	NN2	NOUN	obl	_
+Actions	NNS	action	NN2	NOUN	obl	Action-s
 South	NP	South	NP0	PROPN	compound	_
 <sic ana="African">
 Africanner	NP	African	NP0	ADJ	compound	Afric-ann-er

@@ -31,7 +31,7 @@ dialectal	JJ	dialectal	AJ0	ADJ	parataxis	dialect-al
 <item>
 <s type="frag" transition="null">
 <ref target="https://en.wiktionary.org/wiki/neist#English">
-neist	NP	Neist	NP0	PROPN	root	_
+neist	FW	neist	UNC	X	root	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="italic">
@@ -43,11 +43,11 @@ Scotland	NP	Scotland	NP0	PROPN	parataxis	Scot-land
 <item>
 <s type="frag" transition="null">
 <ref target="https://en.wiktionary.org/wiki/nex#English">
-nex	NP	Nex	NP0	PROPN	root	_
+nex	FW	nex	UNC	X	root	_
 </ref>
 (	(	(	PUL	PUNCT	punct	_
 <hi rend="italic">
-archaic	NN	archaic	NN1	NOUN	parataxis	_
+archaic	JJ	archaic	AJ0	ADJ	parataxis	_
 </hi>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -575,7 +575,7 @@ contexts	NNS	context	NN2	NOUN	obl	context-s
 </list>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Synonyms	NNS	synonym	NN2	NOUN	root	_
+Synonyms	NNS	synonym	NN2	NOUN	root	Synonym-s
 </hi>
 </s>
 <list type="unordered">
@@ -605,7 +605,7 @@ subsequent	JJ	subsequent	AJ0	ADJ	conj	sub-sequent
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Antonyms	NNS	antonym	NN2	NOUN	root	_
+Antonyms	NNS	antonym	NN2	NOUN	root	Antonym-s
 </hi>
 </s>
 <list type="unordered">
@@ -923,7 +923,7 @@ we	PP	we	PNP	PRON	nsubj	_
 removed	VVD	remove	VVD	VERB	root	re-mov-ed
 all	PDT	all	DT0	DET	det:predet	_
 the	DT	the	AT0	DET	det	_
-handles	NNS	handle	NN2	NOUN	obj	_
+handles	NNS	handle	NN2	NOUN	obj	handle-s
 ;	:	;	PUN	PUNCT	punct	_
 next	RB	next	ORD	ADV	advmod	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -956,7 +956,7 @@ panic	NN	panic	NN1	NOUN	root	_
 earthquakes	NNS	earthquake	NN2	NOUN	conj	earthquake-s
 ,	,	,	PUN	PUNCT	punct	_
 oil	NN	oil	NN1	NOUN	compound	_
-spills	NNS	spill	NN2	NOUN	conj	_
+spills	NNS	spill	NN2	NOUN	conj	spill-s
 ,	,	,	PUN	PUNCT	punct	_
 riots	NNS	riot	NN2	NOUN	conj	riot-s
 .	SENT	.	PUN	PUNCT	punct	_
@@ -986,7 +986,7 @@ married	VVN	marry	VVN	VERB	root	marri-ed
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Antonyms	NNS	antonym	NN2	NOUN	root	_
+Antonyms	NNS	antonym	NN2	NOUN	root	Antonym-s
 </hi>
 </s>
 <list type="unordered">

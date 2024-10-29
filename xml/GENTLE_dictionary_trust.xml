@@ -339,7 +339,7 @@ GA	NP	GA	NP0	PROPN	dep	_
 </item>
 <item>
 <s type="frag" transition="null">
-Rhymes	NNS	rhyme	NN2	NOUN	dep	_
+Rhymes	NNS	rhyme	NN2	NOUN	dep	Rhyme-s
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Rhymes:English/%CA%8Cst">
 -ʌst	NN	-ʌst	NN1	NOUN	root	_
@@ -369,7 +369,7 @@ uncountable	JJ	uncountable	AJ0	ADJ	conj	un-count-able
 plural	JJ	plural	AJ0	ADJ	amod	_
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusts#English">
-trusts	NNS	trust	NN2	NOUN	appos	_
+trusts	NNS	trust	NN2	NOUN	appos	trust-s
 </ref>
 )	)	)	PUR	PUNCT	punct	_
 </s>
@@ -659,7 +659,7 @@ for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 benefit	NN	benefit	NN1	NOUN	obl	_
 of	IN	of	PRF	ADP	obl	_
-,	NN	,	NN1	PUNCT	punct	_
+,	,	,	PUN	PUNCT	punct	_
 or	CC	or	CJC	CCONJ	cc	_
 eventually	RB	eventually	AV0	ADV	advmod	event-ual-ly
 transferred	VVN	transfer	VVN	VERB	conj	transferr-ed
@@ -667,7 +667,7 @@ to	IN	to	PRP	ADP	case	_
 ,	,	,	PUN	PUNCT	punct	_
 a	DT	a	AT0	DET	det	_
 stated	VVN	state	VVN	VERB	amod	stat-ed
-beneficiary	NN	beneficiary	NN1	NOUN	obl	benefic-iary
+beneficiary	NN	beneficiary	NN1	NOUN	obl	bene-fic-iary
 ;	:	;	PUN	PUNCT	punct	_
 for	IN	for	PRP	ADP	case	_
 example	NN	example	NN1	NOUN	nmod	_
@@ -695,7 +695,7 @@ group	NN	group	NN1	NOUN	root	_
 of	IN	of	PRF	ADP	case	_
 businessmen	NNS	businessmen	NN2	NOUN	nmod	busi-ness-men
 or	CC	or	CJC	CCONJ	cc	_
-traders	NNS	trader	NN2	NOUN	conj	_
+traders	NNS	trader	NN2	NOUN	conj	trader-s
 organised	VVN	organise	VVN	VERB	acl	organ-is-ed
 for	IN	for	PRP	ADP	case	_
 mutual	JJ	mutual	AJ0	ADJ	amod	_
@@ -717,7 +717,7 @@ central	JJ	central	AJ0	ADJ	amod	centr-al
 body	NN	body	NN1	NOUN	obl:agent	_
 of	IN	of	PRF	ADP	case	_
 <ref target="https://en.wiktionary.org/wiki/trustees">
-trustees	NNS	trustee	NN2	NOUN	nmod	_
+trustees	NNS	trustee	NN2	NOUN	nmod	trustee-s
 </ref>
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
@@ -755,7 +755,7 @@ system	NN	system	NN1	NOUN	nmod	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Synonyms	NNS	synonym	NN2	NOUN	root	_
+Synonyms	NNS	synonym	NN2	NOUN	root	Synonym-s
 </hi>
 </s>
 <list type="unordered">
@@ -803,7 +803,7 @@ hope	NN	hope	NN1	NOUN	conj	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Antonyms	NPS	Antonym	NP0	PROPN	root	_
+Antonyms	NPS	Antonym	NP0	PROPN	root	Antonym-s
 </hi>
 </s>
 <list type="unordered">
@@ -857,12 +857,12 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 present	NN	present	NN1	NOUN	nsubj	_
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusts#English">
-trusts	NNS	trust	NN2	NOUN	parataxis	_
+trusts	NNS	trust	NN2	NOUN	parataxis	trust-s
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="italic">
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	nsubj	particip-le
+participle	NN	participle	NN1	NOUN	nsubj	part-ic-ip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusting#English">
 trusting	VVG	trust	VVG	VERB	parataxis	trust-ing
@@ -873,7 +873,7 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 past	NN	past	NN1	NOUN	nsubj	_
 and	CC	and	CJC	CCONJ	cc	_
 past	JJ	past	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	conj	particip-le
+participle	NN	participle	NN1	NOUN	conj	part-ic-ip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/trusted#English">
 trusted	VVN	trust	VVN	VERB	parataxis	trust-ed
@@ -1261,7 +1261,7 @@ credit	NN	credit	NN1	NOUN	obj	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Antonyms	NPS	Antonym	NP0	PROPN	root	_
+Antonyms	NPS	Antonym	NP0	PROPN	root	Antonym-s
 </hi>
 </s>
 <list type="unordered">

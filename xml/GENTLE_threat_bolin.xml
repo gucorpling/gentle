@@ -208,7 +208,7 @@ top	NN	top	NN1	NOUN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
 burnt	VVN	burnt	VVN	VERB	amod	burn-t
-valves	NNS	valve	NN2	NOUN	nsubj	_
+valves	NNS	valve	NN2	NOUN	nsubj	valve-s
 was	VBD	be	VBD	AUX	cop	_
 a	DT	a	AT0	DET	det	_
 bunch	NN	bunch	NN1	NOUN	conj	_
@@ -316,12 +316,12 @@ Paula	NP	Paula	NP0	PROPN	obj	_
 What	WP	what	PNQ	PRON	root	_
 I	PP	I	PNP	PRON	nsubj	_
 want	VVP	want	VVB	VERB	acl:relcl	_
-done	VVN	do	VDN	VERB	xcomp	_
+done	VVN	do	VDN	VERB	xcomp	do-ne
 and	CC	and	CJC	CCONJ	cc	_
 it	PP	it	PNP	PRON	nsubj:pass	_
 better	RBR	well	AV0	ADV	advmod	bett-er
 be	VB	be	VBI	AUX	aux:pass	_
-done	VVN	do	VDN	VERB	conj	_
+done	VVN	do	VDN	VERB	conj	do-ne
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="multiple" transition="continue">

@@ -7,7 +7,7 @@ Exhibit	NP	exhibit	NP0	PROPN	root	_
 </head>
 <head>
 <s type="frag" transition="null">
-SERVICES	NNS	service	NN2	NOUN	compound	_
+SERVICES	NNS	service	NN2	NOUN	compound	SERVICE-S
 AGREEMENT	NN	agreement	NN1	NOUN	root	AGREE-MENT
 </s>
 </head>
@@ -19,7 +19,7 @@ Agreement	NP	Agreement	NP0	PROPN	nsubj:pass	Agree-ment
 (	(	(	PUL	PUNCT	punct	_
 <q>
 "	``	''	PUQ	PUNCT	punct	_
-Services	NPS	service	NP0	PROPN	compound	_
+Services	NPS	service	NP0	PROPN	compound	Service-s
 Agreement	NP	Agreement	NP0	PROPN	appos	Agree-ment
 "	''	''	PUQ	PUNCT	punct	_
 </q>
@@ -94,7 +94,7 @@ you	PP	you	PNP	PRON	conj	_
 <s type="frag" transition="establishment">
 <hi rend="bold">
 1.	LS	1.	CRD	X	discourse	_
-Services	NNS	service	NN2	NOUN	root	_
+Services	NNS	service	NN2	NOUN	root	Service-s
 </hi>
 </s>
 </head>
@@ -127,12 +127,12 @@ Offering	NN	offering	NN1	NOUN	appos	Offer-ing
 </q>
 )	)	)	PUR	PUNCT	punct	_
 to	IN	to	PRP	ADP	case	_
-Users	NNS	user	NN2	NOUN	obl	_
+Users	NNS	user	NN2	NOUN	obl	User-s
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 to	TO	to	TO0	PART	mark	_
 permit	VV	permit	VVI	VERB	acl	_
-Users	NNS	user	NN2	NOUN	obj	_
+Users	NNS	user	NN2	NOUN	obj	User-s
 to	TO	to	TO0	PART	mark	_
 create	VV	create	VVI	VERB	xcomp	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -176,7 +176,7 @@ together	RB	together	AV0	ADV	advmod	_
 the	DT	the	AT0	DET	det	_
 <q>
 "	``	''	PUQ	PUNCT	punct	_
-Services	NPS	service	NP0	PROPN	appos	_
+Services	NPS	service	NP0	PROPN	appos	Service-s
 "	''	''	PUQ	PUNCT	punct	_
 </q>
 )	)	)	PUR	PUNCT	punct	_
@@ -215,9 +215,9 @@ website	NN	website	NN1	NOUN	nmod	web-site
 <s type="frag" transition="zero">
 <hi rend="bold">
 2.	LS	2.	CRD	X	discourse	_
-Fees	NNS	fee	NN2	NOUN	root	_
+Fees	NNS	fee	NN2	NOUN	root	Fee-s
 and	CC	and	CJC	CCONJ	cc	_
-expenses	NNS	expense	NN2	NOUN	conj	_
+expenses	NNS	expense	NN2	NOUN	conj	expense-s
 </hi>
 </s>
 </head>
@@ -231,7 +231,7 @@ In	IN	in	PRP	ADP	case	_
 exchange	NN	exchange	NN1	NOUN	obl	ex-change
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-Services	NPS	service	NP0	PROPN	nmod	_
+Services	NPS	service	NP0	PROPN	nmod	Service-s
 ,	,	,	PUN	PUNCT	punct	_
 you	PP	you	PNP	PRON	nsubj	_
 shall	MD	shall	VM0	AUX	aux	_
@@ -243,7 +243,7 @@ then	RB	then	AV0	ADV	advmod	_
 applicable	JJ	applicable	AJ0	ADJ	amod	applic-able
 fees	NNS	fee	NN2	NOUN	obj	fee-s
 and	CC	and	CJC	CCONJ	cc	_
-expenses	NNS	expense	NN2	NOUN	obj	_
+expenses	NNS	expense	NN2	NOUN	obj	expense-s
 set	VVN	set	VVN	VERB	acl	_
 out	RP	out	AVP	ADP	compound:prt	_
 below	RB	below	AV0	ADV	advmod	be-low
@@ -357,7 +357,7 @@ contact@startengine.com	NP	contact@startengine.com	NP0	PROPN	obl	_
 <hi rend="bold">
 b)	LS	b)	UNC	X	discourse	_
 Monthly	JJ	Monthly	AJ0	ADJ	amod	_
-Fees	NNS	fee	NN2	NOUN	root	_
+Fees	NNS	fee	NN2	NOUN	root	Fee-s
 and	CC	and	CJC	CCONJ	cc	_
 Billing	NN	billing	NN1	NOUN	conj	Bill-ing
 </hi>
@@ -373,7 +373,7 @@ you	PP	you	PNP	PRON	obj	_
 monthly	RB	monthly	AJ0	ADV	advmod	mon-th-ly
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
-Services	NNS	service	NN2	NOUN	obl	_
+Services	NNS	service	NN2	NOUN	obl	Service-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="establishment">
@@ -397,7 +397,7 @@ deduct	VV	deduct	VVI	VERB	xcomp	_
 such	JJ	such	DT0	ADJ	amod	_
 fees	NNS	fee	NN2	NOUN	obj	fee-s
 ,	,	,	PUN	PUNCT	punct	_
-debts	NNS	debt	NN2	NOUN	conj	_
+debts	NNS	debt	NN2	NOUN	conj	debt-s
 and	CC	and	CJC	CCONJ	cc	_
 any	DT	any	DT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
@@ -433,7 +433,7 @@ escrow	NN	escrow	NN1	NOUN	obl	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
-Amounts	NNS	amount	NN2	NOUN	nsubj	_
+Amounts	NNS	amount	NN2	NOUN	nsubj	Amount-s
 which	WDT	which	DTQ	PRON	nsubj	_
 remain	VVP	remain	VVB	VERB	acl:relcl	_
 unpaid	JJ	unpaid	AJ0	ADJ	xcomp	_
@@ -470,7 +470,7 @@ lower	JJR	low	AJC	ADJ	acl:relcl	low-er
 ,	,	,	PUN	PUNCT	punct	_
 plus	CC	plus	PRP	CCONJ	cc	_
 all	DT	all	DT0	DET	det	_
-expenses	NNS	expense	NN2	NOUN	conj	_
+expenses	NNS	expense	NN2	NOUN	conj	expense-s
 of	IN	of	PRF	ADP	case	_
 collection	NN	collection	NN1	NOUN	nmod	collect-ion
 and	CC	and	CJC	CCONJ	cc	_
@@ -493,7 +493,7 @@ all	DT	all	DT0	DET	det	_
 taxes	NNS	taxis	NN2	NOUN	obl	taxe-s
 associated	VVN	associate	VVN	VERB	acl	associat-ed
 with	IN	with	PRP	ADP	case	_
-Services	NNS	service	NN2	NOUN	obl	_
+Services	NNS	service	NN2	NOUN	obl	Service-s
 other	JJ	other	AJ0	ADJ	advmod	_
 than	IN	than	CJS	ADP	case	_
 U.S.	NP	U.S.	NP0	ADJ	amod	_
@@ -513,7 +513,7 @@ income	NN	income	NN1	NOUN	obl	in-come
 <hi rend="bold">
 c)	LS	c)	UNC	X	discourse	_
 Transaction	NN	transaction	NN1	NOUN	compound	Trans-act-ion
-Fees	NNS	fee	NN2	NOUN	root	_
+Fees	NNS	fee	NN2	NOUN	root	Fee-s
 </hi>
 </s>
 </p>
@@ -564,7 +564,7 @@ $	SYM	$	UNC	SYM	root	_
 <hi rend="bold">
 d)	LS	d)	UNC	X	discourse	_
 AML	NP	AML	NP0	PROPN	dep	_
-Fees	NNS	fee	NN2	NOUN	root	_
+Fees	NNS	fee	NN2	NOUN	root	Fee-s
 </hi>
 </s>
 </p>
@@ -604,7 +604,7 @@ $	SYM	$	UNC	SYM	root	_
 <hi rend="bold">
 e)	LS	e)	UNC	X	discourse	_
 Reimbursable	JJ	Reimbursable	AJ0	ADJ	amod	Re-im-burs-able
-expenses	NNS	expense	NN2	NOUN	root	_
+expenses	NNS	expense	NN2	NOUN	root	expense-s
 </hi>
 </s>
 </p>
@@ -618,7 +618,7 @@ Company	NP	Company	NP0	PROPN	obj	_
 for	IN	for	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 following	VVG	follow	VVG	VERB	amod	follow-ing
-expenses	NNS	expense	NN2	NOUN	obl	_
+expenses	NNS	expense	NN2	NOUN	obl	expense-s
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -708,11 +708,11 @@ in	IN	in	PRP	ADP	case	_
 Section	NP	Section	NP0	PROPN	obl	_
 4	CD	4	CRD	NUM	dep	_
 (	(	(	PUL	PUNCT	punct	_
-Returns	NPS	return	NP0	PROPN	appos	_
+Returns	NPS	return	NP0	PROPN	appos	Return-s
 ,	,	,	PUN	PUNCT	punct	_
 Reversals	NPS	Reversal	NP0	PROPN	appos	Revers-al-s
 ,	,	,	PUN	PUNCT	punct	_
-Disputes	NPS	Dispute	NP0	PROPN	appos	_
+Disputes	NPS	Dispute	NP0	PROPN	appos	Dispute-s
 and	CC	and	CJC	CCONJ	cc	_
 Reserves	NPS	reserve	NP0	PROPN	appos	Reserve-s
 )	)	)	PUR	PUNCT	punct	_
@@ -729,7 +729,7 @@ is	VBZ	be	VBZ	AUX	cop	_
 %	SYM	%	UNC	SYM	parataxis	_
 (	(	(	PUL	PUNCT	punct	_
 varies	VVZ	vary	VVZ	VERB	parataxis	varie-s
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 it	PP	it	PNP	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 a	DT	a	AT0	DET	det	_
@@ -765,7 +765,7 @@ Warranties	NNS	warranty	NN2	NOUN	conj	Warrant-ie-s
 Customer	NN	customer	NN1	NOUN	nsubj	Custom-er
 represents	VVZ	represent	VVZ	VERB	root	represent-s
 and	CC	and	CJC	CCONJ	cc	_
-warrants	NNS	warrant	NN2	NOUN	conj	_
+warrants	NNS	warrant	NN2	NOUN	conj	warrant-s
 to	IN	to	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 Company	NP	Company	NP0	PROPN	obl	_
@@ -806,7 +806,7 @@ terms	NNS	term	NN2	NOUN	nmod	term-s
 <s type="frag" transition="zero">
 <hi rend="bold">
 4.	LS	4.	CRD	X	discourse	_
-Returns	NNS	return	NN2	NOUN	root	_
+Returns	NNS	return	NN2	NOUN	root	Return-s
 and	CC	and	CJC	CCONJ	cc	_
 Reversals	NNS	reversal	NN2	NOUN	conj	Revers-al-s
 </hi>
@@ -816,7 +816,7 @@ Reversals	NNS	reversal	NN2	NOUN	conj	Revers-al-s
 <s type="frag" transition="establishment">
 <hi rend="bold">
 a)	LS	a)	UNC	X	discourse	_
-Returns	NNS	return	NN2	NOUN	root	_
+Returns	NNS	return	NN2	NOUN	root	Return-s
 and	CC	and	CJC	CCONJ	cc	_
 Reversals	NNS	reversal	NN2	NOUN	conj	Revers-al-s
 </hi>
@@ -835,7 +835,7 @@ ACH	NP	ACH	NP0	PROPN	obl	_
 are	VBP	be	VBB	AUX	cop	_
 subject	JJ	subject	AJ0	ADJ	root	_
 to	IN	to	PRP	ADP	case	_
-returns	NNS	return	NN2	NOUN	obl	_
+returns	NNS	return	NN2	NOUN	obl	return-s
 (	(	(	PUL	PUNCT	punct	_
 e.g.	FW	e.g.	UNC	ADV	advmod	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -882,7 +882,7 @@ guidelines	NNS	guideline	NN2	NOUN	conj	guidel-ine-s
 collectively	RB	collectively	AV0	ADV	advmod	collect-ive-ly
 ,	,	,	PUN	PUNCT	punct	_
 such	JJ	such	DT0	ADJ	amod	_
-returns	NNS	return	NN2	NOUN	nsubj	_
+returns	NNS	return	NN2	NOUN	nsubj	return-s
 and	CC	and	CJC	CCONJ	cc	_
 reversals	NNS	reversal	NN2	NOUN	conj	revers-al-s
 are	VBP	be	VBB	AUX	cop	_
@@ -905,7 +905,7 @@ Customer	NN	customer	NN1	NOUN	obj	Custom-er
 and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
 receiving	VVG	receive	VVG	VERB	amod	receiv-ing
-Users	NNS	user	NN2	NOUN	obj	_
+Users	NNS	user	NN2	NOUN	obj	User-s
 from	IN	from	PRP	ADP	case	_
 unwarranted	JJ	unwarranted	AJ0	ADJ	amod	un-warrant-ed
 Reversals	NNS	reversal	NN2	NOUN	obl	Revers-al-s
@@ -1044,7 +1044,7 @@ actions	NNS	action	NN2	NOUN	nmod	act-ion-s
 (	(	(	PUL	PUNCT	punct	_
 in	IN	in	PRP	ADP	case	_
 any	DT	any	DT0	DET	det	_
-particular	JJ	particular	AJ0	ADJ	amod	particul-ar
+particular	JJ	particular	AJ0	ADJ	amod	part-ic-ul-ar
 order	NN	order	NN1	NOUN	nmod	_
 )	)	)	PUR	PUNCT	punct	_
 :	:	:	PUN	PUNCT	punct	_
@@ -1439,7 +1439,7 @@ party	NN	party	NN1	NOUN	nmod:poss	_
 <w>
 costs	NNS	cost	NN2	NOUN	conj	cost-s
 /	SYM	/	UNC	SYM	cc	_
-revenues	NNS	revenue	NN2	NOUN	conj	_
+revenues	NNS	revenue	NN2	NOUN	conj	revenue-s
 </w>
 with	IN	with	PRP	ADP	case	_
 respect	NN	respect	NN1	NOUN	nmod	_

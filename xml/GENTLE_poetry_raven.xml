@@ -25,7 +25,7 @@ weary	JJ	weary	AJ0	ADJ	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 <l n="2"/>
 Over	IN	over	PRP	ADP	case	_
-many	JJ	many	DT0	DET	det:predet	_
+many	JJ	many	DT0	ADJ	amod	_
 a	DT	a	AT0	DET	det	_
 quaint	JJ	quaint	AJ0	ADJ	amod	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -395,7 +395,7 @@ Doubting	VVG	doubt	VVG	VERB	conj	Doubt-ing
 dreaming	VVG	dream	VVG	VERB	conj	dream-ing
 dreams	NNS	dream	NN2	NOUN	obj	dream-s
 no	DT	no	AT0	DET	det	_
-mortals	NNS	mortal	NN2	NOUN	nsubj	_
+mortals	NNS	mortal	NN2	NOUN	nsubj	mortal-s
 ever	RB	ever	AV0	ADV	advmod	_
 dared	VVD	dare	VVD	VERB	acl:relcl	dar-ed
 to	TO	to	TO0	PART	mark	_
@@ -575,7 +575,7 @@ shutter	NN	shutter	NN1	NOUN	obj	_
 when	WRB	when	AVQ	ADV	mark	_
 ,	,	,	PUN	PUNCT	punct	_
 with	IN	with	PRP	ADP	case	_
-many	JJ	many	DT0	DET	det:predet	_
+many	JJ	many	DT0	ADJ	amod	_
 a	DT	a	AT0	DET	det	_
 flirt	NN	flirt	NN1	NOUN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -917,7 +917,7 @@ me	PP	I	PNP	PRON	obj	_
 ,	,	,	PUN	PUNCT	punct	_
 as	IN	as	CJS	SCONJ	mark	_
 my	PP$	my	DPS	PRON	nmod:poss	_
-Hopes	NNS	hope	NN2	NOUN	nsubj	_
+Hopes	NNS	hope	NN2	NOUN	nsubj	Hope-s
 have	VHP	have	VHB	AUX	aux	_
 flown	VVN	flow	VVN	VERB	advcl	_
 before	RB	before	AV0	ADV	advmod	_
@@ -987,7 +987,7 @@ followed	VVD	follow	VVD	VERB	conj	follow-ed
 faster	RBR	fast	AJC	ADV	advmod	fast-er
 till	IN	till	CJS	SCONJ	mark	_
 his	PP$	his	DPS	PRON	nmod:poss	_
-songs	NNS	song	NN2	NOUN	nsubj	_
+songs	NNS	song	NN2	NOUN	nsubj	song-s
 one	CD	one	CRD	NUM	nummod	_
 burden	NN	burden	NN1	NOUN	obj	_
 bore	NN	bore	NN1	NOUN	advcl	_
@@ -997,7 +997,7 @@ bore	NN	bore	NN1	NOUN	advcl	_
 <l n="65"/>
 Till	IN	till	CJS	ADP	case	_
 the	DT	the	AT0	DET	det	_
-dirges	NNS	dirge	NN2	NOUN	obj	_
+dirges	NNS	dirge	NN2	NOUN	obj	dirge-s
 of	IN	of	PRF	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 Hope	NN	hope	NN1	NOUN	nmod	_
@@ -1214,7 +1214,7 @@ Seraphim	NPS	Seraphim	NP0	PROPN	obl:agent	_
 whose	WP$	whose	DTQ	PRON	nmod:poss	_
 foot	NN	foot	NN1	NOUN	compound	_
 -	:	-	PUN	PUNCT	punct	_
-falls	NNS	fall	NN2	NOUN	nsubj	_
+falls	NNS	fall	NN2	NOUN	nsubj	fall-s
 tinkled	VVD	tinkle	VVD	VERB	acl:relcl	tinkl-ed
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_

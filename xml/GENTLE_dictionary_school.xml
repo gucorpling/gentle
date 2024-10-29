@@ -48,7 +48,7 @@ Pronunciation	NP	Pronunciation	NP0	PROPN	parataxis	Pronunc-iation
 </item>
 <item>
 <s type="decl" transition="null">
-Rhymes	NNS	rhyme	NN2	NOUN	dep	_
+Rhymes	NNS	rhyme	NN2	NOUN	dep	Rhyme-s
 :	:	:	PUN	PUNCT	punct	_
 <ref target="https://en.wiktionary.org/wiki/Rhymes:English/u%CB%90l">
 -uːl	UH	-uːl	ITJ	INTJ	root	_
@@ -334,7 +334,7 @@ multitude	NN	multitude	NN1	NOUN	root	multi-tude
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Synonyms	NNS	synonym	NN2	NOUN	root	_
+Synonyms	NNS	synonym	NN2	NOUN	root	Synonym-s
 </hi>
 </s>
 <list type="unordered">
@@ -378,7 +378,7 @@ schools	NNS	school	NN2	NOUN	parataxis	school-s
 ,	,	,	PUN	PUNCT	punct	_
 <hi rend="bold">
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	dep	particip-le
+participle	NN	participle	NN1	NOUN	dep	part-ic-ip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/schooling#English">
 schooling	VVG	school	VVG	VERB	conj	school-ing
@@ -389,7 +389,7 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 past	NN	past	NN1	NOUN	dep	_
 and	CC	and	CJC	CCONJ	cc	_
 past	NN	past	NN1	NOUN	compound	_
-participle	NN	participle	NN1	NOUN	conj	particip-le
+participle	NN	participle	NN1	NOUN	conj	part-ic-ip-le
 </hi>
 <ref target="https://en.wiktionary.org/wiki/schooled#English">
 schooled	VVD	school	VVD	VERB	conj	school-ed
@@ -501,7 +501,7 @@ discussion	NN	discussion	NN1	NOUN	appos	discuss-ion
 or	CC	or	CJC	CCONJ	cc	_
 dissertation	NN	dissertation	NN1	NOUN	conj	dissertat-ion
 ,	,	,	PUN	PUNCT	punct	_
-lecture	NN	lecture	NN1	NOUN	conj	_
+lecture	NN	lecture	NN1	NOUN	conj	lec-ture
 ,	,	,	PUN	PUNCT	punct	_
 school	NN	school	NN1	NOUN	conj	_
 ”	''	''	PUQ	PUNCT	punct	_
@@ -1017,7 +1017,7 @@ movement	NN	movement	NN1	NOUN	root	move-ment
 a	DT	a	AT0	DET	det	_
 community	NN	community	NN1	NOUN	conj	commun-ity
 of	IN	of	PRF	ADP	case	_
-artists	NNS	artist	NN2	NOUN	nmod	_
+artists	NNS	artist	NN2	NOUN	nmod	artist-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
@@ -1025,7 +1025,7 @@ The	DT	the	AT0	DET	det	_
 Barbizon	NP	Barbizon	NP0	PROPN	compound	_
 school	NN	school	NN1	NOUN	nsubj	_
 of	IN	of	PRF	ADP	case	_
-painters	NNS	painter	NN2	NOUN	nmod	_
+painters	NNS	painter	NN2	NOUN	nmod	painter-s
 were	VBD	be	VBD	AUX	cop	_
 part	NN	part	NN1	NOUN	root	_
 of	IN	of	PRF	ADP	case	_
@@ -1038,7 +1038,7 @@ in	IN	in	PRP	ADP	case	_
 art	NN	art	NN1	NOUN	nmod	_
 ,	,	,	PUN	PUNCT	punct	_
 which	WDT	which	DTQ	PRON	nsubj	_
-arose	VVD	arise	VVD	VERB	acl:relcl	_
+arose	VVD	arise	VVD	VERB	acl:relcl	a-rose
 in	IN	in	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 context	NN	context	NN1	NOUN	obl	con-text
@@ -1063,16 +1063,16 @@ The	DT	the	AT0	DET	det	_
 followers	NNS	follower	NN2	NOUN	root	follow-er-s
 of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
-particular	JJ	particular	AJ0	ADJ	amod	particul-ar
+particular	JJ	particular	AJ0	ADJ	amod	part-ic-ul-ar
 doctrine	NN	doctrine	NN1	NOUN	nmod	_
 ;	:	;	PUN	PUNCT	punct	_
 a	DT	a	AT0	DET	det	_
-particular	JJ	particular	AJ0	ADJ	amod	particul-ar
+particular	JJ	particular	AJ0	ADJ	amod	part-ic-ul-ar
 way	NN	way	NN1	NOUN	parataxis	_
 of	IN	of	PRF	SCONJ	mark	_
 thinking	VVG	think	VVG	VERB	advcl	think-ing
 or	CC	or	CJC	CCONJ	cc	_
-particular	JJ	particular	AJ0	ADJ	amod	particul-ar
+particular	JJ	particular	AJ0	ADJ	amod	part-ic-ul-ar
 doctrine	NN	doctrine	NN1	NOUN	conj	_
 ;	:	;	PUN	PUNCT	punct	_
 a	DT	a	AT0	DET	det	_
@@ -1137,7 +1137,7 @@ examinations	NNS	examination	NN2	NOUN	nsubj:pass	examin-ation-s
 for	IN	for	PRP	ADP	case	_
 degrees	NNS	degree	NN2	NOUN	nmod	degree-s
 and	CC	and	CJC	CCONJ	cc	_
-honours	NNS	honour	NN2	NOUN	conj	_
+honours	NNS	honour	NN2	NOUN	conj	honour-s
 are	VBP	be	VBB	AUX	aux:pass	_
 held	VVN	hold	VVN	VERB	acl:relcl	_
 .	SENT	.	PUN	PUNCT	punct	_
@@ -1146,9 +1146,9 @@ held	VVN	hold	VVN	VERB	acl:relcl	_
 <item>
 <s type="frag" transition="null">
 The	DT	the	AT0	DET	det	_
-canons	NNS	canon	NN2	NOUN	root	_
+canons	NNS	canon	NN2	NOUN	root	canon-s
 ,	,	,	PUN	PUNCT	punct	_
-precepts	NNS	precept	NN2	NOUN	conj	_
+precepts	NNS	precept	NN2	NOUN	conj	precept-s
 ,	,	,	PUN	PUNCT	punct	_
 or	CC	or	CJC	CCONJ	cc	_
 body	NN	body	NN1	NOUN	conj	_
@@ -1163,7 +1163,7 @@ the	DT	the	AT0	DET	det	_
 authority	NN	authority	NN1	NOUN	obl:agent	author-ity
 of	IN	of	PRF	ADP	case	_
 a	DT	a	AT0	DET	det	_
-particular	JJ	particular	AJ0	ADJ	amod	particul-ar
+particular	JJ	particular	AJ0	ADJ	amod	part-ic-ul-ar
 class	NN	class	NN1	NOUN	nmod	_
 or	CC	or	CJC	CCONJ	cc	_
 age	NN	age	NN1	NOUN	conj	_
@@ -1205,7 +1205,7 @@ etc.	FW	etc.	UNC	NOUN	conj	_
 </list>
 <s type="frag" transition="null">
 <hi rend="bold">
-Synonyms	NNS	synonym	NN2	NOUN	root	_
+Synonyms	NNS	synonym	NN2	NOUN	root	Synonym-s
 </hi>
 </s>
 <list type="unordered">
@@ -1264,7 +1264,7 @@ institute	NN	institute	NN1	NOUN	conj	_
 </list>
 <s type="frag" transition="zero">
 <hi rend="bold">
-Hyponyms	NNS	hyponym	NN2	NOUN	root	_
+Hyponyms	NNS	hyponym	NN2	NOUN	root	Hyponym-s
 </hi>
 </s>
 <s type="imp" transition="null">
@@ -1332,7 +1332,7 @@ schools	NNS	school	NN2	NOUN	parataxis	school-s
 </ref>
 ,	,	,	PUN	PUNCT	punct	_
 present	JJ	present	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	dep	particip-le
+participle	NN	participle	NN1	NOUN	dep	part-ic-ip-le
 <ref target="https://en.wiktionary.org/wiki/schooling#English">
 schooling	VVG	school	VVG	VERB	conj	school-ing
 </ref>
@@ -1341,7 +1341,7 @@ simple	JJ	simple	AJ0	ADJ	amod	_
 past	NN	past	NN1	NOUN	dep	_
 and	CC	and	CJC	CCONJ	cc	_
 past	JJ	past	AJ0	ADJ	amod	_
-participle	NN	participle	NN1	NOUN	conj	particip-le
+participle	NN	participle	NN1	NOUN	conj	part-ic-ip-le
 <ref target="https://en.wiktionary.org/wiki/schooled#English">
 schooled	VVD	school	VVD	VERB	conj	school-ed
 </ref>

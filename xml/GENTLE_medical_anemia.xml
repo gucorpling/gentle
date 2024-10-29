@@ -29,7 +29,7 @@ patient	NN	patient	NN1	NOUN	nsubj:pass	_
 was	VBD	be	VBD	AUX	aux:pass	_
 diagnosed	VVN	diagnose	VVN	VERB	root	diagnos-ed
 with	IN	with	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod	lympho-cyt-ic
 leukemia	NN	leukemia	NN1	NOUN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
@@ -115,7 +115,7 @@ who	WP	who	PNQ	PRON	nsubj:pass	_
 was	VBD	be	VBD	AUX	aux:pass	_
 diagnosed	VVN	diagnose	VVN	VERB	acl:relcl	diagnos-ed
 with	IN	with	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod	lympho-cyt-ic
 leukemia	NN	leukemia	NN1	NOUN	obl	_
 in	IN	in	PRP	ADP	case	_
@@ -148,8 +148,8 @@ He	PP	he	PNP	PRON	nsubj	_
 has	VHZ	have	VHZ	AUX	aux	ha-s
 been	VBN	be	VBN	AUX	cop	_
 on	IN	on	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
-steroids	NNS	steroid	NN2	NOUN	root	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
+steroids	NNS	steroid	NN2	NOUN	root	steroid-s
 to	TO	to	TO0	PART	mark	_
 control	VV	control	VVI	VERB	acl	_
 his	PP$	his	DPS	PRON	nmod:poss	_
@@ -262,7 +262,7 @@ Vicodin	NP	Vicodin	NP0	PROPN	root	_
 <s type="frag" transition="null">
 REVIEW	NN	review	NN1	NOUN	root	_
 OF	IN	of	PRF	ADP	case	_
-SYSTEMS	NNS	system	NN2	NOUN	nmod	_
+SYSTEMS	NNS	system	NN2	NOUN	nmod	SYSTEM-S
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -326,7 +326,7 @@ chills	NNS	chill	NN2	NOUN	conj	ch-ill-s
 ,	,	,	PUN	PUNCT	punct	_
 or	CC	or	CJC	CCONJ	cc	_
 night	NN	night	NN1	NOUN	compound	_
-sweats	NNS	sweat	NN2	NOUN	conj	_
+sweats	NNS	sweat	NN2	NOUN	conj	sweat-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="continue">
@@ -432,7 +432,7 @@ HEENT	NP	HEENT	NP0	PROPN	root	_
 </hi>
 </s>
 <s type="decl" transition="null">
-Pupils	NNS	pupil	NN2	NOUN	nsubj	_
+Pupils	NNS	pupil	NN2	NOUN	nsubj	Pupil-s
 are	VBP	be	VBB	AUX	cop	_
 equal	JJ	equal	AJ0	ADJ	root	_
 ,	,	,	PUN	PUNCT	punct	_
@@ -464,7 +464,7 @@ tongue	NN	tongue	NN1	NOUN	nmod	_
 </s>
 <s type="frag" transition="establishment">
 No	DT	no	AT0	DET	det	_
-ulcers	NNS	ulcer	NN2	NOUN	root	_
+ulcers	NNS	ulcer	NN2	NOUN	root	ulcer-s
 on	IN	on	PRP	ADP	case	_
 his	PP$	his	DPS	PRON	nmod:poss	_
 buccal	JJ	buccal	AJ0	ADJ	amod	_
@@ -495,7 +495,7 @@ adenopathy	NN	adenopathy	NN1	NOUN	obj	adeno-path-y
 <item>
 <s type="frag" transition="null">
 <hi rend="caps">
-LUNGS	NNS	lung	NN2	NOUN	root	_
+LUNGS	NNS	lung	NN2	NOUN	root	LUNG-S
 :	:	:	PUN	PUNCT	punct	_
 </hi>
 </s>
@@ -522,7 +522,7 @@ S1	NN	S1	NN1	NOUN	parataxis	_
 S2	NN	S2	NN1	NOUN	conj	_
 ,	,	,	PUN	PUNCT	punct	_
 no	DT	no	AT0	DET	det	_
-murmurs	NNS	murmur	NN2	NOUN	appos	_
+murmurs	NNS	murmur	NN2	NOUN	appos	murmur-s
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
@@ -616,12 +616,12 @@ old	JJ	old	AJ0	ADJ	amod	_
 </w>
 gentleman	NN	gentleman	NN1	NOUN	root	gentle-man
 with	IN	with	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 lymphocytic	JJ	lymphocytic	AJ0	ADJ	amod	lympho-cyt-ic
 leukemia	NN	leukemia	NN1	NOUN	nmod	_
 on	IN	on	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
-steroids	NNS	steroid	NN2	NOUN	nmod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
+steroids	NNS	steroid	NN2	NOUN	nmod	steroid-s
 for	IN	for	PRP	ADP	case	_
 autoimmune	JJ	autoimmune	AJ0	ADJ	amod	auto-immune
 hemolytic	JJ	hemolytic	AJ0	ADJ	amod	hemo-lyt-ic
@@ -659,7 +659,7 @@ Valtrex	NP	Valtrex	NP0	PROPN	obl	_
 and	CC	and	CJC	CCONJ	cc	_
 decreasing	VVG	decrease	VVG	VERB	conj	decreas-ing
 his	PP$	his	DPS	PRON	nmod:poss	_
-steroids	NNS	steroid	NN2	NOUN	obj	_
+steroids	NNS	steroid	NN2	NOUN	obj	steroid-s
 to	IN	to	PRP	ADP	case	_
 1	CD	1	CRD	NUM	nummod	_
 mg	NN	milligram	NN1	NOUN	obl	_

@@ -17,7 +17,7 @@ the	DT	the	AT0	DET	det	_
 Fortnite	NP	Fortnite	NP0	PROPN	compound	_
 World	NP	World	NP0	PROPN	compound	_
 Cup	NP	Cup	NP0	PROPN	compound	_
-Finals	NPS	Final	NP0	PROPN	nsubj	_
+Finals	NPS	Final	NP0	PROPN	nsubj	Final-s
 ends	VVZ	end	VVZ	VERB	parataxis	end-s
 right	RB	right	AV0	ADV	advmod	_
 here	RB	here	AV0	ADV	advmod	_
@@ -368,7 +368,7 @@ currently	RB	currently	AV0	ADV	advmod	current-ly
 set	VVD	set	VVD	VERB	root	_
 up	RP	up	AVP	ADP	compound:prt	_
 many	JJ	many	DT0	ADJ	amod	_
-builds	NNS	build	NN2	NOUN	obj	_
+builds	NNS	build	NN2	NOUN	obj	build-s
 ,	,	,	PUN	PUNCT	punct	_
 one	CD	one	CRD	NUM	nsubj	_
 of	IN	of	PRF	ADP	case	_
@@ -376,7 +376,7 @@ these	DT	this	DT0	DET	det	_
 very	RB	very	AV0	ADV	advmod	_
 early	JJ	early	AJ0	ADJ	amod	_
 awkward	JJ	awkward	AJ0	ADJ	amod	awk-ward
-fights	NNS	fight	NN2	NOUN	parataxis	_
+fights	NNS	fight	NN2	NOUN	parataxis	fight-s
 ,	,	,	PUN	PUNCT	punct	_
 sees	VVZ	see	VVZ	VERB	parataxis	see-s
 those	DT	this	DT0	PRON	obj	_
@@ -662,7 +662,7 @@ able	JJ	able	AJ0	ADJ	parataxis	_
 to	TO	to	TO0	PART	mark	_
 get	VV	get	VVI	VERB	xcomp	_
 it	PP	it	PNP	PRON	obj	_
-done	VVN	do	VDN	VERB	xcomp	_
+done	VVN	do	VDN	VERB	xcomp	do-ne
 as	IN	as	PRP	ADP	case	_
 of	IN	of	PRF	ADP	fixed	_
 yet	RB	yet	AV0	ADV	obl	_
@@ -676,7 +676,7 @@ up	RP	up	AVP	ADP	compound:prt	_
 ,	,	,	PUN	PUNCT	punct	_
 will	MD	will	VM0	AUX	aux	_
 have	VH	have	VHI	VERB	parataxis	_
-bandages	NNS	bandage	NN2	NOUN	obj	_
+bandages	NNS	bandage	NN2	NOUN	obj	bandage-s
 to	TO	to	TO0	PART	mark	_
 get	VV	get	VVI	VERB	advcl	_
 back	RB	back	AVP	ADV	advmod	_
@@ -884,7 +884,7 @@ it	PP	it	PNP	PRON	nsubj:pass	_
 all	RB	all	AV0	ADV	advmod	_
 said	VVN	say	VVN	VERB	advcl	sai-d
 and	CC	and	CJC	CCONJ	cc	_
-done	VVN	do	VDN	AUX	conj	_
+done	VVN	do	VDN	AUX	conj	do-ne
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
@@ -987,7 +987,7 @@ through	IN	through	PRP	ADP	case	_
 a	DT	a	AT0	DET	det	_
 handful	NN	handful	NN1	NOUN	obl	hand-ful
 of	IN	of	PRF	ADP	case	_
-edits	NNS	edit	NN2	NOUN	nmod	_
+edits	NNS	edit	NN2	NOUN	nmod	edit-s
 here	RB	here	AV0	ADV	advmod	_
 at	IN	at	PRP	ADP	case	_
 Megamall	NP	Megamall	NP0	PROPN	obl	_
@@ -1176,10 +1176,10 @@ HP	NNS	HP	NN2	NOUN	parataxis	_
 ,	,	,	PUN	PUNCT	punct	_
 two	CD	two	CRD	NUM	nummod	_
 slurp	NN	slurp	NN1	NOUN	compound	_
-juices	NNS	juice	NN2	NOUN	conj	_
+juices	NNS	juice	NN2	NOUN	conj	juice-s
 ,	,	,	PUN	PUNCT	punct	_
 6	CD	6	CRD	NUM	nummod	_
-minis	NNS	mini	NN2	NOUN	conj	_
+minis	NNS	mini	NN2	NOUN	conj	mini-s
 ,	,	,	PUN	PUNCT	punct	_
 a	DT	a	AT0	DET	det	_
 very	RB	very	AV0	ADV	advmod	_
@@ -1208,7 +1208,7 @@ to	TO	to	TO0	PART	mark	_
 play	VV	play	VVI	VERB	xcomp	_
 these	DT	this	DT0	DET	det	_
 box	NN	box	NN1	NOUN	compound	_
-fights	NNS	fight	NN2	NOUN	obj	_
+fights	NNS	fight	NN2	NOUN	obj	fight-s
 by	IN	by	PRP	SCONJ	mark	_
 using	VVG	use	VVG	VERB	advcl	us-ing
 the	DT	the	AT0	DET	det	_
@@ -1408,7 +1408,7 @@ Get	VV	get	VVB	VERB	root	_
 a	DT	a	AT0	DET	det	_
 different	JJ	different	AJ0	ADJ	amod	differ-ent
 angle	NN	angle	NN1	NOUN	obj	_
-because	IN	because	PRP	SCONJ	mark	_
+because	IN	because	PRP	SCONJ	mark	be-cause
 awareness	NN	awareness	NN1	NOUN	nsubj	a-ware-ness
 inside	IN	inside	PRP	ADP	case	in-side
 Megamall	NP	Megamall	NP0	PROPN	nmod	_

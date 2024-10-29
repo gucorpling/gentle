@@ -24,7 +24,7 @@ divided	VVN	divide	VVN	VERB	acl	divid-ed
 into	IN	into	PRP	ADP	case	in-to
 its	PP$	its	DPS	PRON	nmod:poss	it-s
 <ref target="https://proofwiki.org/wiki/Definition:Medial">
-medials	NNS	medial	NN2	NOUN	obl	_
+medials	NNS	medial	NN2	NOUN	obl	medial-s
 </ref>
 at	IN	at	PRP	ADP	case	_
 C	NN	C	NN1	NOUN	obl	_
@@ -239,7 +239,7 @@ divided	VVN	divide	VVN	VERB	acl:relcl	divid-ed
 into	IN	into	PRP	ADP	case	in-to
 its	PP$	its	DPS	PRON	nmod:poss	it-s
 <ref target="https://proofwiki.org/wiki/Definition:Medial">
-medials	NNS	medial	NN2	NOUN	obl	_
+medials	NNS	medial	NN2	NOUN	obl	medial-s
 </ref>
 at	IN	at	PRP	ADP	case	_
 C	NN	C	NN1	NOUN	obl	_
@@ -586,7 +586,7 @@ of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
 VI	CD	VI	CRD	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
-Areas	NNS	area	NN2	NOUN	appos	_
+Areas	NNS	area	NN2	NOUN	appos	Area-s
 of	IN	of	PRF	ADP	case	_
 Triangles	NNS	triangle	NN2	NOUN	nmod	Tri-angle-s
 and	CC	and	CJC	CCONJ	cc	_
@@ -729,7 +729,7 @@ of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
 VI	CD	VI	CRD	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
-Areas	NNS	area	NN2	NOUN	appos	_
+Areas	NNS	area	NN2	NOUN	appos	Area-s
 of	IN	of	PRF	ADP	case	_
 Triangles	NNS	triangle	NN2	NOUN	nmod	Tri-angle-s
 and	CC	and	CJC	CCONJ	cc	_
@@ -777,7 +777,7 @@ of	IN	of	PRF	ADP	case	_
 Book	NP	Book	NP0	PROPN	nmod	_
 VI	CD	VI	CRD	NUM	dep	_
 :	:	:	PUN	PUNCT	punct	_
-Areas	NNS	area	NN2	NOUN	appos	_
+Areas	NNS	area	NN2	NOUN	appos	Area-s
 of	IN	of	PRF	ADP	case	_
 Triangles	NNS	triangle	NN2	NOUN	nmod	Tri-angle-s
 and	CC	and	CJC	CCONJ	cc	_
@@ -842,7 +842,7 @@ Condition	NN	condition	NN1	NOUN	appos	_
 for	IN	for	PRP	ADP	case	_
 Commensurability	NN	commensurability	NN1	NOUN	nmod	Commensur-abil-ity
 of	IN	of	PRF	ADP	case	_
-Roots	NNS	root	NN2	NOUN	nmod	_
+Roots	NNS	root	NN2	NOUN	nmod	Root-s
 of	IN	of	PRF	ADP	case	_
 Quadratic	JJ	quadratic	AJ0	ADJ	amod	Quadr-at-ic
 Equation	NN	equation	NN1	NOUN	nmod	_

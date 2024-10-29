@@ -3,10 +3,10 @@
 3	Alternative forms	2	_	_	pos1=JJ|head_tok=form|head_pos=NNS|head_id=4|parent_pos=_|sid=3|stype=frag|len=2|head_func=root|edu_tense=None	4	organization-heading_r	_	graphical-layout-
 4	neest	0	_	_	pos1=FW|head_tok=neest|head_pos=FW|head_id=5|parent_pos=_|sid=4|stype=frag|len=1|head_func=root|edu_tense=None|item=item	0	ROOT	_	_
 5	( dialectal )	0	_	_	pos1=(|head_tok=dialectal|head_pos=JJ|head_id=7|parent_posFW|sid=4|stype=frag|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	4	elaboration-additional_r	_	graphical-parentheses-6,8
-6	neist	1	_	_	pos1=NP|head_tok=Neist|head_pos=NP|head_id=9|parent_pos=_|sid=5|stype=frag|len=1|head_func=root|edu_tense=None|item=item	4	joint-list_m	_	graphical-items_in_sequence-
-7	( Scotland )	0	_	_	pos1=(|head_tok=Scotland|head_pos=NP|head_id=11|parent_posNP|sid=5|stype=frag|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	6	elaboration-additional_r	_	graphical-parentheses-10,12
-8	nex	1	_	_	pos1=NP|head_tok=Nex|head_pos=NP|head_id=13|parent_pos=_|sid=6|stype=frag|len=1|head_func=root|edu_tense=None|item=item	4	joint-list_m	_	graphical-items_in_sequence-
-9	( archaic )	0	_	_	pos1=(|head_tok=archaic|head_pos=NN|head_id=15|parent_posNP|sid=6|stype=frag|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	8	elaboration-additional_r	_	graphical-parentheses-14,16
+6	neist	1	_	_	pos1=FW|head_tok=neist|head_pos=FW|head_id=9|parent_pos=_|sid=5|stype=frag|len=1|head_func=root|edu_tense=None|item=item	4	joint-list_m	_	graphical-items_in_sequence-
+7	( Scotland )	0	_	_	pos1=(|head_tok=Scotland|head_pos=NP|head_id=11|parent_posFW|sid=5|stype=frag|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	6	elaboration-additional_r	_	graphical-parentheses-10,12
+8	nex	1	_	_	pos1=FW|head_tok=nex|head_pos=FW|head_id=13|parent_pos=_|sid=6|stype=frag|len=1|head_func=root|edu_tense=None|item=item	4	joint-list_m	_	graphical-items_in_sequence-
+9	( archaic )	0	_	_	pos1=(|head_tok=archaic|head_pos=JJ|head_id=15|parent_posFW|sid=6|stype=frag|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	8	elaboration-additional_r	_	graphical-parentheses-14,16
 10	nex'	1	_	_	pos1=FW|head_tok=nex'|head_pos=FW|head_id=17|parent_pos=_|sid=7|stype=frag|len=1|head_func=root|edu_tense=None|item=item	4	joint-list_m	_	graphical-items_in_sequence-
 11	( dialectal )	0	_	_	pos1=(|head_tok=dialectal|head_pos=JJ|head_id=19|parent_posFW|sid=7|stype=frag|len=3|head_func=parataxis|edu_tense=None|subord=LEFT	10	elaboration-additional_r	_	graphical-parentheses-18,20
 12	Etymology	3	_	_	pos1=NN|head_tok=etymology|head_pos=NN|head_id=21|parent_pos=_|sid=8|stype=frag|len=1|head_func=root|edu_tense=None	13	organization-heading_r	_	graphical-layout-

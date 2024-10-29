@@ -126,7 +126,7 @@ love	NN	love	NN1	NOUN	root	_
 that	WDT	that	CJT	PRON	obj	_
 the	DT	the	AT0	DET	det	_
 winged	JJ	winged	AJ0	ADJ	amod	wing-ed
-seraphs	NNS	seraph	NN2	NOUN	nsubj	_
+seraphs	NNS	seraph	NN2	NOUN	nsubj	seraph-s
 of	IN	of	PRF	ADP	case	_
 heaven	NN	heaven	NN1	NOUN	nmod	_
 <l n="12"/>

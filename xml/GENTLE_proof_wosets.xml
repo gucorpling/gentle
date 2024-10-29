@@ -312,7 +312,7 @@ Then	RB	then	AV0	ADV	advmod	_
 x	NN	x	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	AJ0	SYM	root	_
 z	NN	z	NN1	NOUN	obl:unmarked	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
 S	NPS	S	NP0	PROPN	nmod:unmarked	_
@@ -341,7 +341,7 @@ x	NN	x	NN1	NOUN	nsubj	_
 ⪯	SYM	⪯	AJ0	SYM	root	_
 z	NN	z	NN1	NOUN	obl:unmarked	_
 also	RB	also	AV0	ADV	advmod	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 x	NN	x	NN1	NOUN	nsubj	_
 ∈	SYM	∈	UNC	SYM	advcl	_
 S	NN	S	NN1	NOUN	obl:unmarked	_
@@ -773,7 +773,7 @@ Strictly	RB	strictly	AV0	ADV	advmod	_
 Increasing	VVG	increase	VVG	VERB	amod	In-creas-ing
 Mapping	NN	mapping	NN1	NOUN	nsubj	Mapp-ing
 Between	IN	between	PRP	ADP	case	Be-tween
-Wosets	NNS	woset	NN2	NOUN	nmod	_
+Wosets	NNS	woset	NN2	NOUN	nmod	Woset-s
 Implies	VVZ	imply	VVZ	VERB	advcl	_
 Order	NN	order	NN1	NOUN	compound	_
 Isomorphism	NN	isomorphism	NN1	NOUN	obj	Iso-morph-ism
@@ -827,7 +827,7 @@ Ik	NN	Ik	NN1	NOUN	obj	_
 x	NN	x	NN1	NOUN	nmod:unmarked	_
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 k	NN	k	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
 x	NN	x	NN1	NOUN	nmod:unmarked	_
@@ -850,7 +850,7 @@ Then	RB	then	AV0	ADV	advmod	_
 Ix	NN	Ix	NN1	NOUN	nsubj	_
 ⊆	SYM	⊆	UNC	SYM	root	_
 S	NN	S	NN1	NOUN	nmod:unmarked	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 ⪯	SYM	⪯	NP0	SYM	nsubj	_
 is	VBZ	be	VBZ	AUX	cop	_
 a	DT	a	AV0	DET	det	_

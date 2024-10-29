@@ -21,7 +21,7 @@ Atripla	NP	Atripla	NP0	PROPN	nmod	_
 <s type="other" transition="null">
 Resolving	VVG	resolve	VVG	VERB	root	Resolv-ing
 left	JJ	left	AJ0	ADJ	amod	_
-gluteal	JJ	gluteal	AJ0	ADJ	amod	_
+gluteal	JJ	gluteal	AJ0	ADJ	amod	glut-eal
 abscess	NN	abscess	NN1	NOUN	obj	_
 ,	,	,	PUN	PUNCT	punct	_
 completing	VVG	complete	VVG	VERB	conj	complet-ing
@@ -44,12 +44,12 @@ Hypertension	NN	hypertension	NN1	NOUN	root	Hyper-tens-ion
 depression	NN	depression	NN1	NOUN	conj	de-press-ion
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 musculoskeletal	JJ	musculoskeletal	AJ0	ADJ	amod	musculo-skelet-al
 pain	NN	pain	NN1	NOUN	conj	_
 of	IN	of	PRF	ADP	case	_
 unclear	JJ	unclear	AJ0	ADJ	amod	un-clear
-etiology	NN	etiology	NN1	NOUN	nmod	_
+etiology	NN	etiology	NN1	NOUN	nmod	etio-logy
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </p>
@@ -114,7 +114,7 @@ recently	RB	recently	AV0	ADV	advmod	recent-ly
 hospitalized	VVN	hospitalize	VVN	VERB	root	hospital-iz-ed
 for	IN	for	PRP	ADP	case	_
 left	JJ	left	AJ0	ADJ	amod	_
-gluteal	JJ	gluteal	AJ0	ADJ	amod	_
+gluteal	JJ	gluteal	AJ0	ADJ	amod	glut-eal
 abscess	NN	abscess	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 for	IN	for	PRP	ADP	case	_
@@ -200,7 +200,7 @@ this	DT	this	DT0	DET	det	_
 patient	NN	patient	NN1	NOUN	obl	_
 ,	,	,	PUN	PUNCT	punct	_
 but	CC	but	CJC	CCONJ	cc	_
-because	IN	because	CJS	ADP	case	_
+because	IN	because	CJS	ADP	case	be-cause
 of	IN	of	PRF	ADP	fixed	_
 financial	JJ	financial	AJ0	ADJ	amod	financ-ial
 issues	NNS	issue	NN2	NOUN	obl	issue-s
@@ -242,7 +242,7 @@ He	PP	he	PNP	PRON	nsubj	_
 says	VVZ	say	VVZ	VERB	root	say-s
 that	IN/that	that	CJT	SCONJ	mark	_
 his	PP$	his	DPS	PRON	nmod:poss	_
-gluteal	JJ	gluteal	AJ0	ADJ	amod	_
+gluteal	JJ	gluteal	AJ0	ADJ	amod	glut-eal
 abscess	NN	abscess	NN1	NOUN	nsubj	_
 is	VBZ	be	VBZ	AUX	aux	_
 improving	VVG	improve	VVG	VERB	ccomp	improv-ing
@@ -375,7 +375,7 @@ unknown	JJ	unknown	AJ0	ADJ	parataxis	un-know-n
 <s type="frag" transition="null">
 REVIEW	NN	review	NN1	NOUN	root	_
 OF	IN	of	PRF	ADP	case	_
-SYSTEMS	NNS	system	NN2	NOUN	nmod	_
+SYSTEMS	NNS	system	NN2	NOUN	nmod	SYSTEM-S
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -403,7 +403,7 @@ EXAMINATION	NN	examination	NN1	NOUN	root	EXAMIN-ATION
 <s type="other" transition="null">
 <hi rend="caps">
 VITAL	JJ	vital	AJ0	ADJ	amod	_
-SIGNS	NNS	sign	NN2	NOUN	dep	_
+SIGNS	NNS	sign	NN2	NOUN	dep	SIGN-S
 :	:	:	PUN	PUNCT	punct	_
 </hi>
 Temperature	NN	temperature	NN1	NOUN	nsubj	Temperat-ure
@@ -465,7 +465,7 @@ Supple	JJ	supple	AJ0	ADJ	root	_
 </s>
 <s type="other" transition="null">
 <hi rend="caps">
-LUNGS	NNS	lung	NN2	NOUN	dep	_
+LUNGS	NNS	lung	NN2	NOUN	dep	LUNG-S
 :	:	:	PUN	PUNCT	punct	_
 </hi>
 Clear	JJ	clear	AJ0	ADJ	root	_
@@ -514,7 +514,7 @@ EXTREMITIES	NNS	extremity	NN2	NOUN	nsubj	EXTREMIT-IES
 </hi>
 Show	VVP	show	VVB	VERB	root	_
 no	DT	no	AT0	DET	det	_
-cyanosis	NN	cyanosis	NN1	NOUN	obj	_
+cyanosis	NN	cyanosis	NN1	NOUN	obj	cyan-os-is
 ,	,	,	PUN	PUNCT	punct	_
 clubbing	NN	clubbing	NN1	NOUN	conj	clubb-ing
 or	CC	or	CJC	CCONJ	cc	_
@@ -534,7 +534,7 @@ revealed	VVD	reveal	VVD	VERB	root	reveal-ed
 an	DT	a	AT0	DET	det	_
 open	JJ	open	AJ0	ADJ	amod	_
 left	JJ	left	AJ0	ADJ	amod	_
-gluteal	JJ	gluteal	AJ0	ADJ	amod	_
+gluteal	JJ	gluteal	AJ0	ADJ	amod	glut-eal
 wound	NN	wound	NN1	NOUN	obj	_
 that	WDT	that	CJT	PRON	nsubj	_
 appears	VVZ	appear	VVZ	VERB	acl:relcl	appear-s
@@ -572,7 +572,7 @@ Atripla	NP	Atripla	NP0	PROPN	nmod	_
 2.	LS	2.	CRD	X	discourse	_
 Resolving	VVG	resolve	VVG	VERB	amod	Resolv-ing
 left	JJ	left	AJ0	ADJ	amod	_
-gluteal	JJ	gluteal	AJ0	ADJ	amod	_
+gluteal	JJ	gluteal	AJ0	ADJ	amod	glut-eal
 abscess	NN	abscess	NN1	NOUN	root	_
 ,	,	,	PUN	PUNCT	punct	_
 completing	VVG	complete	VVG	VERB	parataxis	complet-ing
@@ -615,7 +615,7 @@ musculoskeletal	JJ	musculoskeletal	AJ0	ADJ	amod	musculo-skelet-al
 pain	NN	pain	NN1	NOUN	root	_
 of	IN	of	PRF	ADP	case	_
 unclear	JJ	unclear	AJ0	ADJ	amod	un-clear
-etiology	NN	etiology	NN1	NOUN	nmod	_
+etiology	NN	etiology	NN1	NOUN	nmod	etio-logy
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 </item>
@@ -643,7 +643,7 @@ will	MD	will	VM0	AUX	aux	_
 have	VH	have	VHI	VERB	root	_
 laboratory	NN	laboratory	NN1	NOUN	compound	labor-atory
 studies	NNS	study	NN2	NOUN	obj	studie-s
-done	VVN	do	VDN	VERB	xcomp	_
+done	VVN	do	VDN	VERB	xcomp	do-ne
 in	IN	in	PRP	ADP	case	_
 <date notBefore="2022-11-30" notAfter="2022-12-7">
 3	CD	3	CRD	NUM	nummod	_

@@ -89,7 +89,7 @@ for	IN	for	PRP	ADP	case	_
 adoption	NN	adoption	NN1	NOUN	nmod	ad-opt-ion
 is	VBZ	be	VBZ	AUX	cop	_
 36	CD	36	CRD	NUM	nummod	_
-couples	NNS	couple	NN2	NOUN	advcl	_
+couples	NNS	couple	NN2	NOUN	advcl	couple-s
 to	IN	to	PRP	ADP	case	_
 1	CD	1	CRD	NUM	nummod	_
 baby	NN	baby	NN1	NOUN	nmod	bab-y
@@ -205,7 +205,7 @@ car	NN	car	NN1	NOUN	obl	_
 every	DT	every	AT0	DET	det	_
 day	NN	day	NN1	NOUN	obl:unmarked	_
 —	:	—	UNC	PUNCT	punct	_
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 maybe	RB	maybe	AV0	ADV	advmod	may-be
 today	NN	today	NN1	NOUN	nsubj	to-day
 is	VBZ	be	VBZ	AUX	cop	_
@@ -292,7 +292,7 @@ like	IN	like	PRP	ADP	case	_
 all	PDT	all	DT0	DET	det:predet	_
 the	DT	the	AT0	DET	det	_
 other	JJ	other	AJ0	ADJ	amod	_
-hacks	NNS	hack	NN2	NOUN	obl	_
+hacks	NNS	hack	NN2	NOUN	obl	hack-s
 that	WDT	that	CJT	PRON	nsubj	_
 have	VHP	have	VHB	AUX	aux	_
 stooped	VVN	stoop	VVN	VERB	acl:relcl	stoop-ed
@@ -483,7 +483,7 @@ heart	NN	heart	NN1	NOUN	conj	_
 that	WDT	that	CJT	PRON	nsubj	_
 devises	VVZ	devise	VVZ	VERB	acl:relcl	_
 evil	JJ	evil	AJ0	ADJ	amod	_
-schemes	NNS	scheme	NN2	NOUN	obj	_
+schemes	NNS	scheme	NN2	NOUN	obj	scheme-s
 ,	,	,	PUN	PUNCT	punct	_
 feet	NNS	foot	NN2	NOUN	conj	_
 that	WDT	that	CJT	PRON	nsubj	_
@@ -494,7 +494,7 @@ rush	VV	rush	VVI	VERB	xcomp	_
 into	IN	into	PRP	ADP	case	in-to
 evil	NN	evil	NN1	NOUN	obl	_
 "	``	''	PUQ	PUNCT	punct	_
-Proverbs	NPS	proverb	NP0	PROPN	dep	_
+Proverbs	NPS	proverb	NP0	PROPN	dep	Proverb-s
 6	CD	6	CRD	NUM	dep	_
 :	SYM	:	PUN	PUNCT	punct	_
 16	CD	16	CRD	NUM	dep	_

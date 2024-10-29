@@ -244,8 +244,8 @@
 			<signal source="38" type="syntactic" subtype="relative_clause" tokens="268"/>
 			<signal source="43" type="syntactic" subtype="modified_head" tokens="324"/>
 			<signal source="43" type="syntactic" subtype="nominal_modifier" tokens="325"/>
-			<signal source="45" type="lexical" subtype="indicative_word" tokens="334"/>
 			<signal source="45" type="semantic" subtype="attribution_source" tokens="334"/>
+			<signal source="45" type="lexical" subtype="indicative_word" tokens="334"/>
 			<signal source="47-106" type="orphan" subtype="orphan" tokens="346" status="gold"/>
 			<signal source="49" type="syntactic" subtype="modified_head" tokens="368"/>
 			<signal source="49" type="syntactic" subtype="relative_clause" tokens="369,371"/>

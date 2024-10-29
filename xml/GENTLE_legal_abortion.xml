@@ -164,7 +164,7 @@ married	JJ	married	AJ0	ADJ	amod	marri-ed
 couple	NN	couple	NN1	NOUN	nsubj	_
 (	(	(	PUL	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
-Does	NPS	Doe	NP0	PROPN	appos	_
+Does	NPS	Doe	NP0	PROPN	appos	Doe-s
 )	)	)	PUR	PUNCT	punct	_
 ,	,	,	PUN	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
@@ -259,7 +259,7 @@ court	NN	court	NN1	NOUN	nsubj	_
 declared	VVD	declare	VVD	VERB	root	declar-ed
 the	DT	the	AT0	DET	det	_
 abortion	NN	abortion	NN1	NOUN	compound	_
-statutes	NNS	statute	NN2	NOUN	obj	_
+statutes	NNS	statute	NN2	NOUN	obj	statute-s
 void	JJ	void	AJ0	ADJ	xcomp	_
 as	IN	as	PRP	SCONJ	mark	_
 vague	JJ	vague	AJ0	ADJ	advcl	_
@@ -281,7 +281,7 @@ The	DT	the	AT0	DET	det	_
 court	NN	court	NN1	NOUN	nsubj	_
 ruled	VVD	rule	VVD	VERB	root	rul-ed
 the	DT	the	AT0	DET	det	_
-Does	NPS	Doe	NP0	PROPN	nmod:poss	_
+Does	NPS	Doe	NP0	PROPN	nmod:poss	Doe-s
 '	POS	's	POS	PART	case	_
 complaint	NN	complaint	NN1	NOUN	obj	complain-t
 not	RB	not	XX0	PART	advmod	_
@@ -298,7 +298,7 @@ Court	NP	Court	NP0	PROPN	obl	_
 on	IN	on	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 injunctive	JJ	injunctive	AJ0	ADJ	amod	injunct-ive
-rulings	NNS	ruling	NN2	NOUN	obl	_
+rulings	NNS	ruling	NN2	NOUN	obl	ruling-s
 ,	,	,	PUN	PUNCT	punct	_
 and	CC	and	CJC	CCONJ	cc	_
 appellee	NP	appellee	NP0	PROPN	nsubj	_
@@ -410,7 +410,7 @@ to	TO	to	TO0	PART	mark	_
 sue	VV	sue	VVI	VERB	acl	_
 ;	:	;	PUN	PUNCT	punct	_
 the	DT	the	AT0	DET	det	_
-Does	NPS	Doe	NP0	PROPN	nsubj	_
+Does	NPS	Doe	NP0	PROPN	nsubj	Doe-s
 and	CC	and	CJC	CCONJ	cc	_
 Hallford	NP	Hallford	NP0	PROPN	conj	_
 do	VVP	do	VD	AUX	parataxis	_
@@ -581,7 +581,7 @@ Pp.	NNS	page	NN2	NOUN	root	_
 <s type="decl" transition="null">
 (c)	LS	(c)	UNC	X	discourse	_
 The	DT	the	AT0	DET	det	_
-Does	NPS	Doe	NP0	PROPN	nmod:poss	_
+Does	NPS	Doe	NP0	PROPN	nmod:poss	Doe-s
 '	POS	's	POS	PART	case	_
 complaint	NN	complaint	NN1	NOUN	nsubj	complain-t
 ,	,	,	PUN	PUNCT	punct	_
@@ -1030,7 +1030,7 @@ the	DT	the	AT0	DET	det	_
 Texas	NP	Texas	NP0	PROPN	compound	_
 criminal	JJ	criminal	AJ0	ADJ	amod	crimin-al
 abortion	NN	abortion	NN1	NOUN	compound	_
-statutes	NNS	statute	NN2	NOUN	nsubj	_
+statutes	NNS	statute	NN2	NOUN	nsubj	statute-s
 are	VBP	be	VBB	AUX	cop	_
 unconstitutional	JJ	unconstitutional	AJ0	ADJ	acl	un-constitut-ion-al
 .	SENT	.	PUN	PUNCT	punct	_

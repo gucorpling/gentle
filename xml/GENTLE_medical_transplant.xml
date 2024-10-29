@@ -11,7 +11,7 @@ Posttransplant	JJ	posttransplant	AJ0	ADJ	compound	Post-trans-plant
 lymphoproliferative	JJ	lymphoproliferative	AJ0	ADJ	compound	lympho-proliferat-ive
 disorder	NN	disorder	NN1	NOUN	root	dis-ord-er
 ,	,	,	PUN	PUNCT	punct	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 renal	JJ	renal	AJ0	ADJ	amod	_
 insufficiency	NN	insufficiency	NN1	NOUN	conj	in-sufficien-cy
 ,	,	,	PUN	PUNCT	punct	_
@@ -25,7 +25,7 @@ skin	NN	skin	NN1	NOUN	nmod	_
 anemia	NN	anemia	NN1	NOUN	conj	_
 secondary	JJ	secondary	AJ0	ADJ	amod	second-ary
 to	IN	to	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 renal	JJ	renal	AJ0	ADJ	amod	_
 insufficiency	NN	insufficiency	NN1	NOUN	obl	in-sufficien-cy
 and	CC	and	CJC	CCONJ	cc	_
@@ -112,7 +112,7 @@ skin	NN	skin	NN1	NOUN	nmod	_
 Anemia	NN	anemia	NN1	NOUN	root	_
 secondary	JJ	secondary	AJ0	ADJ	amod	second-ary
 to	IN	to	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 renal	JJ	renal	AJ0	ADJ	amod	_
 insufficiency	NN	insufficiency	NN1	NOUN	obl	in-sufficien-cy
 and	CC	and	CJC	CCONJ	cc	_
@@ -307,7 +307,7 @@ scan	NN	scan	NN1	NOUN	nmod	_
 after	IN	after	PRP	ADP	case	_
 3	CD	3	CRD	NUM	nummod	_
 cycles	NNS	cycle	NN2	NOUN	obl	cycle-s
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 he	PP	he	PNP	PRON	nsubj	_
 was	VBD	be	VBD	AUX	aux	_
 not	RB	not	XX0	PART	advmod	_
@@ -431,7 +431,7 @@ EXAMINATION	NN	examination	NN1	NOUN	root	EXAMIN-ATION
 <s type="frag" transition="null">
 <hi rend="caps">
 VITAL	JJ	vital	AJ0	ADJ	amod	_
-SIGNS	NNS	sign	NN2	NOUN	root	_
+SIGNS	NNS	sign	NN2	NOUN	root	SIGN-S
 :	:	:	PUN	PUNCT	punct	_
 </hi>
 </s>
@@ -659,7 +659,7 @@ been	VBN	be	VBN	AUX	aux:pass	_
 ordered	VVN	order	VVN	VERB	root	order-ed
 to	TO	to	TO0	PART	mark	_
 be	VB	be	VBI	AUX	aux:pass	_
-done	VVN	do	VDN	VERB	advcl	_
+done	VVN	do	VDN	VERB	advcl	do-ne
 within	IN	within	PRP	ADP	case	with-in
 2	CD	2	CRD	NUM	nummod	_
 weeks	NNS	week	NN2	NOUN	obl	week-s
@@ -702,7 +702,7 @@ insufficiency	NN	insufficiency	NN1	NOUN	root	in-sufficien-cy
 Anemia	NN	anemia	NN1	NOUN	root	_
 secondary	JJ	secondary	AJ0	ADJ	amod	second-ary
 to	IN	to	PRP	ADP	case	_
-chronic	JJ	chronic	AJ0	ADJ	amod	_
+chronic	JJ	chronic	AJ0	ADJ	amod	chron-ic
 renal	JJ	renal	AJ0	ADJ	amod	_
 failure	NN	failure	NN1	NOUN	obl	fail-ure
 and	CC	and	CJC	CCONJ	cc	_
@@ -735,12 +735,12 @@ This	DT	this	DT0	PRON	nsubj:pass	_
 is	VBZ	be	VBZ	AUX	aux:pass	_
 elevated	VVN	elevate	VVN	VERB	root	elevat-ed
 today	NN	today	NN1	NOUN	obl:unmarked	to-day
-because	IN	because	CJS	SCONJ	mark	_
+because	IN	because	CJS	SCONJ	mark	be-cause
 he	PP	he	PNP	PRON	nsubj	_
 held	VVD	hold	VVD	VERB	advcl	_
 his	PP$	his	DPS	PRON	nmod:poss	_
-meds	NNS	med	NN2	NOUN	obj	_
-because	IN	because	CJS	SCONJ	mark	_
+meds	NNS	med	NN2	NOUN	obj	med-s
+because	IN	because	CJS	SCONJ	mark	be-cause
 he	PP	he	PNP	PRON	nsubj	_
 is	VBZ	be	VBZ	AUX	aux	_
 getting	VVG	get	VVG	VERB	advcl	gett-ing

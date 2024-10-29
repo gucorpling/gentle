@@ -288,7 +288,7 @@ I	PP	I	PNP	PRON	nsubj	_
 'm	VBP	be	VBB	AUX	aux	_
 not	RB	not	XX0	PART	advmod	_
 playing	VVG	play	VVG	VERB	root	play-ing
-anymore	RB	anymore	AV0	ADV	advmod	_
+anymore	RB	anymore	AV0	ADV	advmod	any-more
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="multiple" transition="establishment">

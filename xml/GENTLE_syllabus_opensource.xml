@@ -131,10 +131,10 @@ https://creativecommons.org/licenses/by-sa/4.0/	NP	https://creativecommons.org/l
 <s type="decl" transition="null">
 Our	PP$	our	DPS	PRON	nmod:poss	_
 Lecture	NN	lecture	NN1	NOUN	compound	_
-Slides	NNS	slide	NN2	NOUN	nsubj	_
+Slides	NNS	slide	NN2	NOUN	nsubj	Slide-s
 have	VHP	have	VHB	AUX	aux	_
 greatly	RB	greatly	AV0	ADV	advmod	great-ly
-benefited	VVN	benefit	VVN	VERB	root	benef-it-ed
+benefited	VVN	benefit	VVN	VERB	root	bene-fit-ed
 from	IN	from	PRP	ADP	case	_
 the	DT	the	AT0	DET	det	_
 previous	JJ	previous	AJ0	ADJ	amod	_
@@ -363,7 +363,7 @@ TBD	NP	TBD	NP0	PROPN	root	_
 </list>
 <head>
 <s type="frag" transition="null">
-Mentors	NNS	mentor	NN2	NOUN	root	_
+Mentors	NNS	mentor	NN2	NOUN	root	Mentor-s
 </s>
 </head>
 <p>
@@ -442,9 +442,9 @@ Sage	NP	Sage	NP0	PROPN	obl	_
 5510	CD	5510	CRD	NUM	dep	_
 </hi>
 on	IN	on	PRP	ADP	case	_
-Tuesdays	NPS	Tuesday	NP0	PROPN	obl	_
+Tuesdays	NPS	Tuesday	NP0	PROPN	obl	Tuesday-s
 and	CC	and	CJC	CCONJ	cc	_
-Fridays	NPS	Friday	NP0	PROPN	conj	_
+Fridays	NPS	Friday	NP0	PROPN	conj	Friday-s
 from	IN	from	PRP	ADP	case	_
 <time when="22:30">
 10:30	CD	10:30	CRD	NUM	obl	_
@@ -466,10 +466,10 @@ important	JJ	important	AJ0	ADJ	amod	import-ant
 part	NN	part	NN1	NOUN	root	_
 of	IN	of	PRF	ADP	case	_
 the	DT	the	AT0	DET	det	_
-lecture	NN	lecture	NN1	NOUN	nmod	_
+lecture	NN	lecture	NN1	NOUN	nmod	lec-ture
 and	CC	and	CJC	CCONJ	cc	_
 the	DT	the	AT0	DET	det	_
-labs	NNS	lab	NN2	NOUN	conj	_
+labs	NNS	lab	NN2	NOUN	conj	lab-s
 so	RB	so	CJS	ADV	advmod	_
 attendance	NN	attendance	NN1	NOUN	nsubj:pass	at-tend-ance
 is	VBZ	be	VBZ	AUX	aux:pass	_
@@ -484,7 +484,7 @@ temporarily	RB	temporarily	AV0	ADV	advmod	temporari-ly
 unable	JJ	unable	AJ0	ADJ	advcl	un-able
 to	TO	to	TO0	PART	mark	_
 attend	VV	attend	VVI	VERB	xcomp	at-tend
-because	IN	because	CJS	ADP	case	_
+because	IN	because	CJS	ADP	case	be-cause
 of	IN	of	PRF	ADP	fixed	_
 quarantine	NN	quarantine	NN1	NOUN	obl	_
 or	CC	or	CJC	CCONJ	cc	_
@@ -556,7 +556,7 @@ the	DT	the	AT0	DET	det	_
 creative	JJ	creative	AJ0	ADJ	amod	creat-ive
 and	CC	and	CJC	CCONJ	cc	_
 technical	JJ	technical	AJ0	ADJ	conj	techn-ic-al
-auspices	NNS	auspice	NN2	NOUN	conj	_
+auspices	NNS	auspice	NN2	NOUN	conj	auspice-s
 of	IN	of	PRF	ADP	case	_
 Prof.	NP	Prof.	NP0	PROPN	nmod	_
 Barbara	NP	Barbara	NP0	PROPN	flat	_
@@ -704,7 +704,7 @@ semester	NN	semester	NN1	NOUN	obl	_
 <head>
 <s type="frag" transition="null">
 Learning	NN	learning	NN1	NOUN	compound	Learn-ing
-Outcomes	NNS	outcome	NN2	NOUN	root	_
+Outcomes	NNS	outcome	NN2	NOUN	root	Outcome-s
 :	:	:	PUN	PUNCT	punct	_
 </s>
 </head>
@@ -784,7 +784,7 @@ of	IN	of	PRF	ADP	case	_
 Open	NP	Open	NP0	ADJ	amod	_
 Source	NP	Source	NP0	PROPN	compound	_
 Software	NP	Software	NP0	PROPN	compound	_
-Tools	NPS	Tool	NP0	PROPN	nmod	_
+Tools	NPS	Tool	NP0	PROPN	nmod	Tool-s
 and	CC	and	CJC	CCONJ	cc	_
 Community	NP	Community	NP0	PROPN	conj	Commun-ity
 </s>
@@ -832,7 +832,7 @@ Common	JJ	common	AJ0	ADJ	amod	_
 Open	NP	Open	NP0	ADJ	amod	_
 Source	NP	Source	NP0	PROPN	compound	_
 Software	NP	Software	NP0	PROPN	compound	_
-Stacks	NPS	Stack	NP0	PROPN	nmod	_
+Stacks	NPS	Stack	NP0	PROPN	nmod	Stack-s
 and	CC	and	CJC	CCONJ	cc	_
 common	JJ	common	AJ0	ADJ	amod	_
 tools	NNS	tool	NN2	NOUN	conj	tool-s
@@ -875,7 +875,7 @@ Licensing	NN	licensing	NN1	NOUN	root	Licens-ing
 2.	LS	2.	CRD	X	discourse	_
 Software	NN	software	NN1	NOUN	compound	_
 Management	NN	management	NN1	NOUN	compound	Manage-ment
-Tools	NNS	tool	NN2	NOUN	root	_
+Tools	NNS	tool	NN2	NOUN	root	Tool-s
 </s>
 </item>
 </list>
@@ -889,7 +889,7 @@ Control	NN	control	NN1	NOUN	root	_
 <item>
 <s type="frag" transition="null">
 Documentation	NN	documentation	NN1	NOUN	compound	Document-ation
-Tools	NNS	tool	NN2	NOUN	root	_
+Tools	NNS	tool	NN2	NOUN	root	Tool-s
 </s>
 </item>
 <item>
@@ -918,7 +918,7 @@ Development	NN	development	NN1	NOUN	root	Develop-ment
 3.	LS	3.	CRD	X	discourse	_
 Software	NN	software	NN1	NOUN	compound	_
 Development	NNS	development	NN2	NOUN	compound	Develop-ment
-Tools	NNS	tool	NN2	NOUN	root	_
+Tools	NNS	tool	NN2	NOUN	root	Tool-s
 and	CC	and	CJC	CCONJ	cc	_
 Paradigms	NNS	paradigm	NN2	NOUN	conj	Paradigm-s
 </s>
@@ -996,7 +996,7 @@ etc.	FW	etc.	UNC	NOUN	conj	_
 <item n="6">
 <s type="frag" transition="null">
 6.	LS	6.	CRD	X	discourse	_
-Projects	NNS	project	NN2	NOUN	root	_
+Projects	NNS	project	NN2	NOUN	root	Project-s
 </s>
 </item>
 </list>
@@ -1037,7 +1037,7 @@ Paper	NN	paper	NN1	NOUN	dep	_
 <item>
 <s type="frag" transition="null">
 9	CD	9	CRD	NUM	nummod	_
-Labs	NNS	lab	NN2	NOUN	dep	_
+Labs	NNS	lab	NN2	NOUN	dep	Lab-s
 (	(	(	PUL	PUNCT	punct	_
 3.75	CD	3.75	CRD	NUM	nummod	_
 points	NNS	point	NN2	NOUN	parataxis	point-s
@@ -1065,7 +1065,7 @@ Project	NN	project	NN1	NOUN	dep	_
 <head>
 <s type="frag" transition="null">
 Test	NN	test	NN1	NOUN	compound	_
-Dates	NNS	date	NN2	NOUN	root	_
+Dates	NNS	date	NN2	NOUN	root	Date-s
 </s>
 </head>
 <list type="unordered">
@@ -1222,7 +1222,7 @@ https://discord.gg/5WEv84aGDz	NP	https://discord.gg/5WEv84aGDz	NP0	PROPN	obl	_
 </p>
 <head>
 <s type="frag" transition="null">
-Policies	NNS	policy	NN2	NOUN	root	_
+Policies	NNS	policy	NN2	NOUN	root	Policie-s
 </s>
 </head>
 <p>
@@ -1426,7 +1426,7 @@ own	JJ	own	DT0	ADJ	ccomp	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="smooth-shift">
-Acts	NNS	act	NN2	NOUN	nsubj	_
+Acts	NNS	act	NN2	NOUN	nsubj	Act-s
 that	WDT	that	DT0	PRON	nsubj	_
 violate	VVP	violate	VVB	VERB	acl:relcl	_
 this	DT	this	DT0	DET	det	_
@@ -1473,7 +1473,7 @@ blindly	RB	blindly	AV0	ADV	advmod	_
 .	SENT	.	PUN	PUNCT	punct	_
 </s>
 <s type="decl" transition="null">
-Labs	NNS	lab	NN2	NOUN	nsubj:pass	_
+Labs	NNS	lab	NN2	NOUN	nsubj:pass	Lab-s
 and	CC	and	CJC	CCONJ	cc	_
 Quizzes	NNS	quiz	NN2	NOUN	conj	_
 should	MD	should	VM0	AUX	aux	_
@@ -1639,7 +1639,7 @@ either	CC	either	AV0	CCONJ	cc:preconj	_
 the	DT	the	AT0	DET	det	_
 Dean	NP	Dean	NP0	PROPN	conj	_
 of	IN	of	PRF	ADP	case	_
-Students	NPS	Student	NP0	PROPN	nmod	_
+Students	NPS	Student	NP0	PROPN	nmod	Student-s
 (	(	(	PUL	PUNCT	punct	_
 for	IN	for	PRP	ADP	case	_
 Undergraduates	NPS	Undergraduate	NP0	PROPN	orphan	Under-gradu-ate-s
