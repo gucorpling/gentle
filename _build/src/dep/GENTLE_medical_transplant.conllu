@@ -677,10 +677,10 @@
 3	no	_	_	_	_	5	det	_	_
 4	active	_	_	_	_	5	amod	_	_
 5	drainage	_	_	_	_	2	obj	_	_
-6	,	_	_	_	_	10	punct	_	_
-7	but	_	_	_	_	10	cc	_	_
-8	it	_	_	_	_	10	nsubj	_	_
-9	is	_	_	_	_	10	cop	_	_
+6	,	_	_	_	_	12	punct	_	_
+7	but	_	_	_	_	12	cc	_	_
+8	it	_	_	_	_	12	nsubj	_	_
+9	is	_	_	_	_	12	cop	_	_
 10	yet	_	_	_	_	12	advmod	_	_
 11	to	_	_	_	_	12	mark	_	_
 12	heal	_	_	_	_	2	conj	_	_
