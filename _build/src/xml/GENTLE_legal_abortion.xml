@@ -457,7 +457,7 @@ pregnancy	NN	pregnancy
 ,	,	,
 which	WDT	which
 is	VBZ	be
-"	``	''
+"	``	"
 capable	JJ	capable
 of	IN	of
 repetition	NN	repetition
@@ -466,7 +466,7 @@ yet	CC	yet
 evading	VVG	evade
 review	NN	review
 ,	,	,
-"	''	''
+"	''	"
 is	VBZ	be
 an	DT	a
 exception	NN	exception
@@ -740,9 +740,9 @@ and	CC	and
 reaches	VVZ	reach
 a	DT	a
 <q>
-"	``	''
+"	``	"
 compelling	JJ	compelling
-"	''	''
+"	''	"
 </q>
 point	NN	point
 at	IN	at
@@ -956,9 +956,9 @@ define	VV	define
 the	DT	the
 term	NN	term
 <q>
-"	``	''
+"	``	"
 physician	NN	physician
-"	''	''
+"	''	"
 </q>
 to	TO	to
 mean	VV	mean

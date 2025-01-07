@@ -70,7 +70,7 @@ door	NN	door
 </s>
 <s type="decl">
 <l n="5"/>
-"	``	''
+"	``	"
 <w>
 'T	PP	it
 is	VBZ	be
@@ -80,11 +80,11 @@ some	DT	some
 visiter	NN	visitor
 </sic>
 ,	,	,
-"	''	''
+"	''	"
 I	PP	I
 muttered	VVD	mutter
 ,	,	,
-"	``	''
+"	``	"
 tapping	VVG	tap
 at	IN	at
 my	PP$	my
@@ -100,7 +100,7 @@ and	CC	and
 nothing	NN	nothing
 more	JJR	more
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -229,7 +229,7 @@ repeating	VVG	repeat
 </s>
 <s type="decl">
 <l n="16"/>
-"	``	''
+"	``	"
 <w>
 'T	PP	it
 is	VBZ	be
@@ -270,7 +270,7 @@ and	CC	and
 nothing	NN	nothing
 more	JJR	more
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -290,14 +290,14 @@ no	RB	no
 longer	RBR	long
 ,	,	,
 <l n="20"/>
-"	``	''
+"	``	"
 Sir	NP	Sir
 ,	,	,
-"	''	''
+"	''	"
 said	VVD	say
 I	PP	I
 ,	,	,
-"	``	''
+"	``	"
 or	CC	or
 Madam	NP	Madam
 ,	,	,
@@ -348,7 +348,7 @@ sure	JJ	sure
 I	PP	I
 heard	VVD	hear
 you	PP	you
-"	''	''
+"	''	"
 —	:	—
 </s>
 <s type="decl">
@@ -430,10 +430,10 @@ the	DT	the
 whispered	VVN	whisper
 word	NN	word
 ,	,	,
-"	``	''
+"	``	"
 Lenore	NP	Lenore
 ?	SENT	?
-"	''	''
+"	''	"
 </s>
 <s type="decl">
 <l n="29"/>
@@ -449,10 +449,10 @@ back	RB	back
 the	DT	the
 word	NN	word
 ,	,	,
-"	``	''
+"	``	"
 Lenore	NP	Lenore
 !	SENT	!
-"	''	''
+"	''	"
 —	:	—
 </s>
 <s type="frag">
@@ -496,14 +496,14 @@ before	RB	before
 </s>
 <s type="decl">
 <l n="33"/>
-"	``	''
+"	``	"
 Surely	RB	surely
 ,	,	,
-"	''	''
+"	''	"
 said	VVD	say
 I	PP	I
 ,	,	,
-"	``	''
+"	``	"
 surely	RB	surely
 that	DT	that
 is	VBZ	be
@@ -559,7 +559,7 @@ and	CC	and
 nothing	NN	nothing
 more	JJR	more
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -688,7 +688,7 @@ it	PP	it
 wore	VVD	wear
 ,	,	,
 <l n="45"/>
-"	``	''
+"	``	"
 Though	IN	though
 thy	PP$	thy
 crest	NN	crest
@@ -699,11 +699,11 @@ shaven	JJ	shaven
 ,	,	,
 thou	PP	thou
 ,	,	,
-"	''	''
+"	''	"
 I	PP	I
 said	VVD	say
 ,	,	,
-"	``	''
+"	``	"
 art	VBP	be
 sure	JJ	sure
 no	DT	no
@@ -738,7 +738,7 @@ Night	NN	night
 Plutonian	JJ	Plutonian
 shore	NN	shore
 !	SENT	!
-"	''	''
+"	''	"
 </s>
 <s type="decl">
 <l n="48"/>
@@ -746,10 +746,10 @@ Quoth	VVZ	quoth
 the	DT	the
 Raven	NN	raven
 ,	,	,
-"	``	''
+"	``	"
 Nevermore	NP	Nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -827,10 +827,10 @@ With	IN	with
 such	JJ	such
 name	NN	name
 as	IN	as
-"	``	''
+"	``	"
 Nevermore	NP	Nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -895,7 +895,7 @@ than	IN	than
 muttered	VVD	mutter
 </s>
 <s type="decl">
-"	``	''
+"	``	"
 Other	JJ	other
 friends	NNS	friend
 have	VHP	have
@@ -922,7 +922,7 @@ have	VHP	have
 flown	VVN	flow
 before	RB	before
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 <s type="decl">
 <l n="60"/>
@@ -930,10 +930,10 @@ Then	RB	then
 the	DT	the
 bird	NN	bird
 said	VVD	say
-"	``	''
+"	``	"
 Nevermore	RB	nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -951,14 +951,14 @@ aptly	RB	aptly
 spoken	VVN	speak
 ,	,	,
 <l n="62"/>
-"	``	''
+"	``	"
 Doubtless	RB	doubtless
 ,	,	,
-"	''	''
+"	''	"
 said	VVD	say
 I	PP	I
 ,	,	,
-"	``	''
+"	``	"
 what	WP	what
 it	PP	it
 utters	VVZ	utter
@@ -1013,7 +1013,7 @@ Never	RB	never
 nevermore	RB	nevermore
 .	SENT	.
 '	''	'
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -1095,10 +1095,10 @@ yore	NN	yore
 Meant	VVD	mean
 in	IN	in
 croaking	VVG	croak
-"	``	''
+"	``	"
 Nevermore	RB	nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
@@ -1224,14 +1224,14 @@ floor	NN	floor
 </s>
 <s type="decl">
 <l n="81"/>
-"	``	''
+"	``	"
 Wretch	NN	wretch
 ,	,	,
-"	''	''
+"	''	"
 I	PP	I
 cried	VVD	cry
 ,	,	,
-"	``	''
+"	``	"
 thy	PP$	thy
 God	NP	God
 hath	VHZ	have
@@ -1273,7 +1273,7 @@ this	DT	this
 lost	VVN	lose
 Lenore	NP	Lenore
 !	SENT	!
-"	''	''
+"	''	"
 </s>
 <s type="decl">
 <l n="84"/>
@@ -1281,23 +1281,23 @@ Quoth	VVZ	quoth
 the	DT	the
 Raven	NN	raven
 ,	,	,
-"	``	''
+"	``	"
 Nevermore	RB	nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
 <s type="decl">
 <l n="85"/>
-"	``	''
+"	``	"
 Prophet	NN	prophet
 !	SENT	!
-"	''	''
+"	''	"
 said	VVD	say
 I	PP	I
 ,	,	,
-"	``	''
+"	``	"
 thing	NN	thing
 of	IN	of
 evil	NN	evil
@@ -1383,7 +1383,7 @@ me	PP	I
 I	PP	I
 implore	VVP	implore
 !	SENT	!
-"	''	''
+"	''	"
 </s>
 <s type="decl">
 <l n="90"/>
@@ -1391,23 +1391,23 @@ Quoth	VVZ	quoth
 the	DT	the
 Raven	NN	raven
 ,	,	,
-"	``	''
+"	``	"
 Nevermore	RB	nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
 <s type="decl">
 <l n="91"/>
-"	``	''
+"	``	"
 Prophet	NN	prophet
 !	SENT	!
-"	''	''
+"	''	"
 said	VVD	say
 I	PP	I
 ,	,	,
-"	``	''
+"	``	"
 thing	NN	thing
 of	IN	of
 evil	NN	evil
@@ -1494,16 +1494,16 @@ Quoth	VVZ	quoth
 the	DT	the
 Raven	NN	raven
 ,	,	,
-"	``	''
+"	``	"
 Nevermore	RB	nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>
 <s type="decl">
 <l n="97"/>
-"	``	''
+"	``	"
 Be	VB	be
 that	DT	that
 word	NN	word
@@ -1516,7 +1516,7 @@ bird	NN	bird
 or	CC	or
 fiend	NN	fiend
 !	SENT	!
-"	''	''
+"	''	"
 I	PP	I
 shrieked	VVD	shriek
 ,	,	,
@@ -1525,7 +1525,7 @@ upstarting	VVG	upstart
 </s>
 <s type="imp">
 <l n="98"/>
-"	``	''
+"	``	"
 Get	VV	get
 thee	PP	thee
 back	RB	back
@@ -1595,7 +1595,7 @@ off	RP	off
 my	PP$	my
 door	NN	door
 !	SENT	!
-"	''	''
+"	''	"
 </s>
 <s type="decl">
 <l n="102"/>
@@ -1603,10 +1603,10 @@ Quoth	VVZ	quoth
 the	DT	the
 Raven	NN	raven
 ,	,	,
-"	``	''
+"	``	"
 Nevermore	RB	nevermore
 .	SENT	.
-"	''	''
+"	''	"
 </s>
 </p>
 <p>

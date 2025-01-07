@@ -25,11 +25,11 @@ English	NP	English
 trust	NN	trust
 </ref>
 (	(	(
-“	``	''
+“	``	"
 trust	NN	trust
 ,	,	,
 protection	NN	protection
-”	''	''
+”	''	"
 )	)	)
 .	SENT	.
 </s>
@@ -47,13 +47,13 @@ Norse	NP	Norse
 traust	FW	traust
 </ref>
 (	(	(
-“	``	''
+“	``	"
 confidence	NN	confidence
 ,	,	,
 help	NN	help
 ,	,	,
 protection	NN	protection
-”	''	''
+”	''	"
 )	)	)
 ,	,	,
 itself	PP	itself
@@ -124,9 +124,9 @@ German	NP	German
 getrüste	FW	getrüste
 </ref>
 (	(	(
-“	``	''
+“	``	"
 host	NN	host
-”	''	''
+”	''	"
 )	)	)
 .	SENT	.
 </s>
@@ -152,7 +152,7 @@ firm	JJ	firm
 hard	JJ	hard
 ,	,	,
 solid	JJ	solid
-”	''	''
+”	''	"
 )	)	)
 .	SENT	.
 </s>
@@ -168,11 +168,11 @@ Danish	NP	Danish
 trøst	FW	trøst
 </ref>
 (	(	(
-“	``	''
+“	``	"
 comfort	NN	comfort
 ,	,	,
 solace	NN	solace
-”	''	''
+”	''	"
 )	)	)
 ,	,	,
 <ref target="https://en.wikipedia.org/wiki/Saterland_Frisian_language">
@@ -183,11 +183,11 @@ Frisian	NP	Frisian
 Traast	FW	Traast
 </ref>
 (	(	(
-“	``	''
+“	``	"
 comfort	NN	comfort
 ,	,	,
 solace	NN	solace
-”	''	''
+”	''	"
 )	)	)
 ,	,	,
 <ref target="https://en.wikipedia.org/wiki/West_Frisian_language">
@@ -198,11 +198,11 @@ Frisian	NP	Frisian
 treast	FW	treast
 </ref>
 (	(	(
-“	``	''
+“	``	"
 comfort	NN	comfort
 ,	,	,
 solace	NN	solace
-”	''	''
+”	''	"
 )	)	)
 ,	,	,
 <ref target="https://en.wikipedia.org/wiki/Dutch_language">
@@ -212,11 +212,11 @@ Dutch	NP	Dutch
 troost	FW	troost
 </ref>
 (	(	(
-“	``	''
+“	``	"
 comfort	NN	comfort
 ,	,	,
 consolation	NN	consolation
-”	''	''
+”	''	"
 )	)	)
 ,	,	,
 <ref target="https://en.wikipedia.org/wiki/German_language">
@@ -226,11 +226,11 @@ German	NP	German
 Trost	FW	Trost
 </ref>
 (	(	(
-“	``	''
+“	``	"
 comfort	NN	comfort
 ,	,	,
 consolation	NN	consolation
-”	''	''
+”	''	"
 )	)	)
 ,	,	,
 <ref target="https://en.wikipedia.org/wiki/Gothic_language">
@@ -242,11 +242,11 @@ trausti	FW	trausti
 (	(	(
 trausti	FW	trausti
 ,	,	,
-“	``	''
+“	``	"
 alliance	NN	alliance
 ,	,	,
 pact	NN	pact
-”	''	''
+”	''	"
 )	)	)
 .	SENT	.
 </s>

@@ -18,16 +18,16 @@ Services	NP	service
 Agreement	NP	Agreement
 (	(	(
 <q>
-"	``	''
+"	``	"
 Services	NPS	service
 Agreement	NP	Agreement
-"	''	''
+"	''	"
 </q>
 or	CC	or
 <q>
-"	``	''
+"	``	"
 Agreement	NP	Agreement
-"	''	''
+"	''	"
 </q>
 )	)	)
 is	VBZ	be
@@ -42,10 +42,10 @@ below	RB	below
 (	(	(
 the	DT	the
 <q>
-"	``	''
+"	``	"
 Effective	NP	effective
 Date	NP	Date
-"	''	''
+"	''	"
 </q>
 )	)	)
 between	IN	between
@@ -59,9 +59,9 @@ Delaware	NP	Delaware
 corporation	NN	corporation
 (	(	(
 <q>
-"	``	''
+"	``	"
 Company	NP	Company
-"	''	''
+"	''	"
 </q>
 )	)	)
 ,	,	,
@@ -76,15 +76,15 @@ ___DE	JJ	___DE
 corporation	NN	corporation
 (	(	(
 <q>
-"	``	''
+"	``	"
 Customer	NN	customer
-"	''	''
+"	''	"
 </q>
 or	CC	or
 <q>
-"	``	''
+"	``	"
 you	PP	you
-"	''	''
+"	''	"
 </q>
 )	)	)
 .	SENT	.
@@ -121,9 +121,9 @@ offering	NN	offering
 (	(	(
 the	DT	the
 <q>
-"	``	''
+"	``	"
 Offering	NN	offering
-"	''	''
+"	''	"
 </q>
 )	)	)
 to	IN	to
@@ -175,9 +175,9 @@ together	RB	together
 ,	,	,
 the	DT	the
 <q>
-"	``	''
+"	``	"
 Services	NPS	service
-"	''	''
+"	''	"
 </q>
 )	)	)
 .	SENT	.
@@ -185,9 +185,9 @@ Services	NPS	service
 <s type="decl">
 A	DT	a
 <q>
-"	``	''
+"	``	"
 User	NN	user
-"	''	''
+"	''	"
 </q>
 means	VVZ	mean
 a	DT	a
@@ -887,9 +887,9 @@ and	CC	and
 reversals	NNS	reversal
 are	VBP	be
 <q>
-"	``	''
+"	``	"
 Reversals	NPS	Reversal
-"	''	''
+"	''	"
 </q>
 )	)	)
 .	SENT	.
@@ -968,10 +968,10 @@ the	DT	the
 Reversal	NN	reversal
 (	(	(
 <q>
-"	``	''
+"	``	"
 Reversed	NP	Reverse
 Payment	NP	Payment
-"	''	''
+"	''	"
 </q>
 )	)	)
 plus	CC	plus
@@ -983,19 +983,19 @@ reversal	NN	reversal
 fee	NN	fee
 (	(	(
 <q>
-"	``	''
+"	``	"
 Reversal	NP	Reversal
 Fee	NP	Fee
-"	''	''
+"	''	"
 </q>
 and	CC	and
 collectively	RB	collectively
 the	DT	the
 <q>
-"	``	''
+"	``	"
 Reversal	NP	Reversal
 Liability	NP	Liability
-"	''	''
+"	''	"
 </q>
 )	)	)
 ;	:	;
@@ -1162,10 +1162,10 @@ Offering	NN	offering
 (	(	(
 the	DT	the
 <q>
-"	``	''
+"	``	"
 Initial	JJ	initial
 Term	NN	term
-"	''	''
+"	''	"
 </q>
 )	)	)
 unless	IN	unless
