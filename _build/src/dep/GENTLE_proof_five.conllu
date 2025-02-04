@@ -218,7 +218,7 @@
 
 1	Remove	_	_	_	_	0	root	_	_
 2	vertex	_	_	_	_	1	obj	_	_
-3	x	_	_	_	_	2	dep	_	_
+3	x	_	_	_	_	2	flat	_	_
 4	from	_	_	_	_	5	case	_	_
 5	Gr+1	_	_	_	_	1	obl	_	_
 6	to	_	_	_	_	7	mark	_	_
@@ -321,7 +321,7 @@
 13	respectively	_	_	_	_	12	advmod	_	_
 14	by	_	_	_	_	15	case	_	_
 15	colors	_	_	_	_	12	obl:agent	_	_
-16	c1	_	_	_	_	15	dep	_	_
+16	c1	_	_	_	_	15	flat	_	_
 17	,	_	_	_	_	18	punct	_	_
 18	c2	_	_	_	_	16	conj	_	_
 19	,	_	_	_	_	20	punct	_	_
@@ -410,7 +410,7 @@
 9	vertex	_	_	_	_	6	obl	_	_
 10	of	_	_	_	_	11	case	_	_
 11	color	_	_	_	_	9	nmod	_	_
-12	c1	_	_	_	_	11	dep	_	_
+12	c1	_	_	_	_	11	flat	_	_
 13	,	_	_	_	_	18	punct	_	_
 14	so	_	_	_	_	18	advmod	_	_
 15	x	_	_	_	_	18	nsubj:pass	_	_
@@ -436,7 +436,7 @@
 1	Including	_	_	_	_	9	advcl	_	_
 2	the	_	_	_	_	3	det	_	_
 3	vertex	_	_	_	_	1	obj	_	_
-4	x	_	_	_	_	3	dep	_	_
+4	x	_	_	_	_	3	flat	_	_
 5	in	_	_	_	_	7	case	_	_
 6	this	_	_	_	_	7	det	_	_
 7	path	_	_	_	_	1	obl	_	_
@@ -444,7 +444,7 @@
 9	get	_	_	_	_	0	root	_	_
 10	a	_	_	_	_	11	det	_	_
 11	circuit	_	_	_	_	9	obj	_	_
-12	C	_	_	_	_	11	dep	_	_
+12	C	_	_	_	_	11	flat	_	_
 13	.	_	_	_	_	9	punct	_	_
 
 1	Since	_	_	_	_	3	mark	_	_
@@ -452,7 +452,7 @@
 3	indexed	_	_	_	_	27	advcl	_	_
 4	the	_	_	_	_	5	det	_	_
 5	vertices	_	_	_	_	3	obj	_	_
-6	y1	_	_	_	_	5	dep	_	_
+6	y1	_	_	_	_	5	flat	_	_
 7	,	_	_	_	_	8	punct	_	_
 8	y2	_	_	_	_	6	conj	_	_
 9	,	_	_	_	_	10	punct	_	_
@@ -468,7 +468,7 @@
 19	of	_	_	_	_	21	case	_	_
 20	the	_	_	_	_	21	det	_	_
 21	vertices	_	_	_	_	18	nmod	_	_
-22	y2	_	_	_	_	21	dep	_	_
+22	y2	_	_	_	_	21	flat	_	_
 23	and	_	_	_	_	24	cc	_	_
 24	y4	_	_	_	_	22	conj	_	_
 25	is	_	_	_	_	27	cop	_	_
@@ -520,7 +520,7 @@
 9	vertex	_	_	_	_	6	obl	_	_
 10	of	_	_	_	_	11	case	_	_
 11	color	_	_	_	_	9	nmod	_	_
-12	c2	_	_	_	_	11	dep	_	_
+12	c2	_	_	_	_	11	flat	_	_
 13	,	_	_	_	_	17	punct	_	_
 14	so	_	_	_	_	17	advmod	_	_
 15	we	_	_	_	_	17	nsubj	_	_

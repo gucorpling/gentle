@@ -250,14 +250,14 @@
 30	.	_	_	_	_	6	punct	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	0	_	_	_	_	1	dep	_	_
+2	0	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Pre	_	_	_	_	6	compound	_	_
 5	-	_	_	_	_	4	punct	_	_
 6	Work	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	1	_	_	_	_	1	dep	_	_
+2	1	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Onboarding	_	_	_	_	1	appos	_	_
 5	&	_	_	_	_	7	cc	_	_
@@ -265,7 +265,7 @@
 7	Tools	_	_	_	_	4	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	2	_	_	_	_	1	dep	_	_
+2	2	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Webpages	_	_	_	_	1	appos	_	_
 5	:	_	_	_	_	6	punct	_	_
@@ -274,13 +274,13 @@
 8	CSS	_	_	_	_	6	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	3	_	_	_	_	1	dep	_	_
+2	3	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	JavaScript	_	_	_	_	5	compound	_	_
 5	Fundamentals	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	4	_	_	_	_	1	dep	_	_
+2	4	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Intermediate	_	_	_	_	5	amod	_	_
 5	JavaScript	_	_	_	_	1	appos	_	_
@@ -288,18 +288,18 @@
 7	React	_	_	_	_	5	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	5	_	_	_	_	1	dep	_	_
+2	5	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Web	_	_	_	_	5	compound	_	_
 5	APIs	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	6	_	_	_	_	1	dep	_	_
+2	6	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Databases	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	7	_	_	_	_	1	dep	_	_
+2	7	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Advanced	_	_	_	_	5	amod	_	_
 5	JS	_	_	_	_	1	appos	_	_
@@ -307,18 +307,18 @@
 7	React	_	_	_	_	5	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	8	_	_	_	_	1	dep	_	_
+2	8	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Testing	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	9	_	_	_	_	1	dep	_	_
+2	9	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Eventonica	_	_	_	_	5	compound	_	_
 5	Project	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	10	_	_	_	_	1	dep	_	_
+2	10	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	More	_	_	_	_	5	advmod	_	_
 5	PERN	_	_	_	_	1	appos	_	_
@@ -326,7 +326,7 @@
 7	Review	_	_	_	_	5	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	11	_	_	_	_	1	dep	_	_
+2	11	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Data	_	_	_	_	5	compound	_	_
 5	Structures	_	_	_	_	1	appos	_	_
@@ -339,20 +339,20 @@
 1	Algorithms	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	12	_	_	_	_	1	dep	_	_
+2	12	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Final	_	_	_	_	5	amod	_	_
 5	Assessments	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	13	_	_	_	_	1	dep	_	_
+2	13	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Career	_	_	_	_	5	compound	_	_
 5	Week	_	_	_	_	1	appos	_	_
 6	!	_	_	_	_	1	punct	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	14	_	_	_	_	1	dep	_	_
+2	14	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	6	punct	_	_
 4	Project	_	_	_	_	5	compound	_	_
 5	Prep	_	_	_	_	6	compound	_	_
@@ -361,14 +361,14 @@
 8	Electives	_	_	_	_	6	conj	_	_
 
 1	Weeks	_	_	_	_	0	root	_	_
-2	15	_	_	_	_	1	dep	_	_
+2	15	_	_	_	_	1	flat	_	_
 3	+	_	_	_	_	2	conj	_	_
 4	-	_	_	_	_	6	punct	_	_
 5	Final	_	_	_	_	6	amod	_	_
 6	Project	_	_	_	_	1	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	0	_	_	_	_	1	dep	_	_
+2	0	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Pre	_	_	_	_	6	compound	_	_
 5	-	_	_	_	_	4	punct	_	_
@@ -407,7 +407,7 @@
 14	.	_	_	_	_	3	punct	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	1	_	_	_	_	1	dep	_	_
+2	1	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Onboarding	_	_	_	_	1	appos	_	_
 5	&	_	_	_	_	7	cc	_	_
@@ -473,10 +473,10 @@
 
 1	12.	_	_	_	_	2	discourse	_	_
 2	Project	_	_	_	_	0	root	_	_
-3	0	_	_	_	_	2	dep	_	_
+3	0	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	7	punct	_	_
 5	Week	_	_	_	_	7	compound	_	_
-6	1	_	_	_	_	5	dep	_	_
+6	1	_	_	_	_	5	flat	_	_
 7	Review	_	_	_	_	2	appos	_	_
 
 1	13.	_	_	_	_	3	discourse	_	_
@@ -555,7 +555,7 @@
 6	HTML	_	_	_	_	4	appos	_	_
 
 1	Week	_	_	_	_	4	dep	_	_
-2	2	_	_	_	_	1	dep	_	_
+2	2	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	1	punct	_	_
 4	Webpages	_	_	_	_	0	root	_	_
 5	:	_	_	_	_	6	punct	_	_
@@ -659,7 +659,7 @@
 1	17.	_	_	_	_	3	discourse	_	_
 2	Git	_	_	_	_	3	compound	_	_
 3	Part	_	_	_	_	0	root	_	_
-4	2	_	_	_	_	3	dep	_	_
+4	2	_	_	_	_	3	flat	_	_
 5	:	_	_	_	_	7	punct	_	_
 6	Study	_	_	_	_	7	compound	_	_
 7	Guide	_	_	_	_	3	appos	_	_
@@ -722,14 +722,14 @@
 7	Review	_	_	_	_	3	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	3	_	_	_	_	1	dep	_	_
+2	3	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	JavaScript	_	_	_	_	5	compound	_	_
 5	Fundamentals	_	_	_	_	1	appos	_	_
 
 1	1.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	1	_	_	_	_	2	dep	_	_
+3	1	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	5	punct	_	_
 5	Variables	_	_	_	_	2	appos	_	_
 6	,	_	_	_	_	7	punct	_	_
@@ -739,7 +739,7 @@
 
 1	2.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	2	_	_	_	_	2	dep	_	_
+3	2	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	5	punct	_	_
 5	Arrays	_	_	_	_	2	appos	_	_
 6	,	_	_	_	_	7	punct	_	_
@@ -747,7 +747,7 @@
 
 1	3.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	3	_	_	_	_	2	dep	_	_
+3	3	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	5	punct	_	_
 5	Conditionals	_	_	_	_	2	appos	_	_
 6	,	_	_	_	_	7	punct	_	_
@@ -757,20 +757,20 @@
 
 1	4.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	4	_	_	_	_	2	dep	_	_
+3	4	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	3	punct	_	_
 5	Loops	_	_	_	_	2	appos	_	_
 
 1	5.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	5	_	_	_	_	2	dep	_	_
+3	5	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	3	punct	_	_
 5	Switch	_	_	_	_	6	compound	_	_
 6	Statements	_	_	_	_	2	appos	_	_
 
 1	6.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	6	_	_	_	_	2	dep	_	_
+3	6	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	6	punct	_	_
 5	Object	_	_	_	_	6	compound	_	_
 6	Literals	_	_	_	_	2	appos	_	_
@@ -796,7 +796,7 @@
 6	JavaScript	_	_	_	_	3	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	4	_	_	_	_	1	dep	_	_
+2	4	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Intermediate	_	_	_	_	5	amod	_	_
 5	JavaScript	_	_	_	_	1	appos	_	_
@@ -837,7 +837,7 @@
 
 1	6.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	7	_	_	_	_	2	dep	_	_
+3	7	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	5	punct	_	_
 5	Object	_	_	_	_	7	compound	_	_
 6	-	_	_	_	_	5	punct	_	_
@@ -864,7 +864,7 @@
 4	Lessons	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	5	_	_	_	_	1	dep	_	_
+2	5	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Web	_	_	_	_	5	compound	_	_
 5	APIs	_	_	_	_	1	appos	_	_
@@ -874,7 +874,7 @@
 
 1	2.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	8	_	_	_	_	2	dep	_	_
+3	8	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	6	punct	_	_
 5	Regular	_	_	_	_	6	amod	_	_
 6	Expressions	_	_	_	_	2	appos	_	_
@@ -908,13 +908,13 @@
 3	APIs	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	6	_	_	_	_	1	dep	_	_
+2	6	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Databases	_	_	_	_	1	appos	_	_
 
 1	1.	_	_	_	_	2	discourse	_	_
 2	JavaScript	_	_	_	_	0	root	_	_
-3	9	_	_	_	_	2	dep	_	_
+3	9	_	_	_	_	2	flat	_	_
 4	-	_	_	_	_	5	punct	_	_
 5	Async	_	_	_	_	2	appos	_	_
 6	,	_	_	_	_	7	punct	_	_
@@ -960,7 +960,7 @@
 1	9.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Modeling	_	_	_	_	0	root	_	_
-4	1	_	_	_	_	3	dep	_	_
+4	1	_	_	_	_	3	flat	_	_
 5	(	_	_	_	_	7	punct	_	_
 6	Single	_	_	_	_	7	amod	_	_
 7	tables	_	_	_	_	3	appos	_	_
@@ -968,7 +968,7 @@
 
 1	10.	_	_	_	_	2	discourse	_	_
 2	SQL	_	_	_	_	0	root	_	_
-3	1	_	_	_	_	2	dep	_	_
+3	1	_	_	_	_	2	flat	_	_
 4	(	_	_	_	_	6	punct	_	_
 5	Single	_	_	_	_	6	amod	_	_
 6	tables	_	_	_	_	2	appos	_	_
@@ -977,7 +977,7 @@
 1	11.	_	_	_	_	3	discourse	_	_
 2	Data	_	_	_	_	3	compound	_	_
 3	Modeling	_	_	_	_	0	root	_	_
-4	2	_	_	_	_	3	dep	_	_
+4	2	_	_	_	_	3	flat	_	_
 5	(	_	_	_	_	7	punct	_	_
 6	Multiple	_	_	_	_	7	amod	_	_
 7	tables	_	_	_	_	3	appos	_	_
@@ -985,7 +985,7 @@
 
 1	12.	_	_	_	_	2	discourse	_	_
 2	SQL	_	_	_	_	0	root	_	_
-3	2	_	_	_	_	2	dep	_	_
+3	2	_	_	_	_	2	flat	_	_
 4	(	_	_	_	_	6	punct	_	_
 5	Multiple	_	_	_	_	6	amod	_	_
 6	tables	_	_	_	_	2	appos	_	_
@@ -1005,7 +1005,7 @@
 7	Docker	_	_	_	_	6	obj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	7	_	_	_	_	1	dep	_	_
+2	7	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Advanced	_	_	_	_	5	amod	_	_
 5	JS	_	_	_	_	1	appos	_	_
@@ -1032,7 +1032,7 @@
 4	object	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	8	_	_	_	_	1	dep	_	_
+2	8	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Testing	_	_	_	_	1	appos	_	_
 
@@ -1075,7 +1075,7 @@
 10	Library	_	_	_	_	6	conj	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	9	_	_	_	_	1	dep	_	_
+2	9	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	4	punct	_	_
 4	Eventonica	_	_	_	_	1	appos	_	_
 
@@ -1084,7 +1084,7 @@
 3	Project	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	10	_	_	_	_	1	dep	_	_
+2	10	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	6	punct	_	_
 4	Full	_	_	_	_	5	amod	_	_
 5	Stack	_	_	_	_	6	compound	_	_
@@ -1112,7 +1112,7 @@
 3	Testing	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	11	_	_	_	_	1	dep	_	_
+2	11	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Data	_	_	_	_	5	compound	_	_
 5	Structures	_	_	_	_	1	appos	_	_
@@ -1192,7 +1192,7 @@
 4	Sorting	_	_	_	_	2	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	12	_	_	_	_	1	dep	_	_
+2	12	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Final	_	_	_	_	5	amod	_	_
 5	Assessments	_	_	_	_	1	appos	_	_
@@ -1209,7 +1209,7 @@
 5	Projects	_	_	_	_	0	root	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	13	_	_	_	_	1	dep	_	_
+2	13	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	5	punct	_	_
 4	Career	_	_	_	_	5	compound	_	_
 5	Week	_	_	_	_	1	appos	_	_
@@ -1305,7 +1305,7 @@
 7	Manager	_	_	_	_	3	appos	_	_
 
 1	Week	_	_	_	_	0	root	_	_
-2	14	_	_	_	_	1	dep	_	_
+2	14	_	_	_	_	1	flat	_	_
 3	-	_	_	_	_	6	punct	_	_
 4	Project	_	_	_	_	5	compound	_	_
 5	Prep	_	_	_	_	6	compound	_	_
@@ -1393,14 +1393,14 @@
 5	Engineering	_	_	_	_	2	nmod	_	_
 
 1	Weeks	_	_	_	_	5	dep	_	_
-2	15	_	_	_	_	1	dep	_	_
+2	15	_	_	_	_	1	flat	_	_
 3	+	_	_	_	_	2	conj	_	_
 4	Final	_	_	_	_	5	amod	_	_
 5	Project	_	_	_	_	0	root	_	_
 
 1	After	_	_	_	_	2	case	_	_
 2	Week	_	_	_	_	6	obl	_	_
-3	14	_	_	_	_	2	dep	_	_
+3	14	_	_	_	_	2	flat	_	_
 4	,	_	_	_	_	2	punct	_	_
 5	Participants	_	_	_	_	6	nsubj	_	_
 6	build	_	_	_	_	0	root	_	_
