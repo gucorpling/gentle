@@ -71,9 +71,9 @@
 3	is	_	_	_	_	10	cop	_	_
 4	a	_	_	_	_	10	det	_	_
 5	59	_	_	_	_	7	nummod	_	_
-6	-	_	_	_	_	7	punct	_	_
+6	-	_	_	_	_	5	punct	_	_
 7	year	_	_	_	_	9	compound	_	_
-8	-	_	_	_	_	9	punct	_	_
+8	-	_	_	_	_	7	punct	_	_
 9	old	_	_	_	_	10	amod	_	_
 10	gentleman	_	_	_	_	0	root	_	_
 11	who	_	_	_	_	17	nsubj	_	_
@@ -138,7 +138,7 @@
 8	two	_	_	_	_	11	nummod	_	_
 9	to	_	_	_	_	10	case	_	_
 10	three	_	_	_	_	8	nmod	_	_
-11	times	_	_	_	_	4	advmod	_	_
+11	times	_	_	_	_	4	obl:unmarked	_	_
 12	a	_	_	_	_	13	det	_	_
 13	week	_	_	_	_	11	nmod:unmarked	_	_
 14	.	_	_	_	_	4	punct	_	_
@@ -266,7 +266,7 @@
 9	in	_	_	_	_	14	case	_	_
 10	the	_	_	_	_	14	det	_	_
 11	L4	_	_	_	_	14	compound	_	_
-12	-	_	_	_	_	13	case	_	_
+12	-	_	_	_	_	13	punct	_	_
 13	L5	_	_	_	_	11	nmod	_	_
 14	distribution	_	_	_	_	5	nmod	_	_
 15	of	_	_	_	_	17	case	_	_

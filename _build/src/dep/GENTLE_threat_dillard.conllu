@@ -1,6 +1,6 @@
-1	Dr.	_	_	_	_	0	root	_	_
-2	Means	_	_	_	_	1	flat	_	_
-3	,	_	_	_	_	1	punct	_	_
+1	Dr.	_	_	_	_	2	nmod:desc	_	_
+2	Means	_	_	_	_	0	root	_	_
+3	,	_	_	_	_	2	punct	_	_
 
 1	It	_	_	_	_	3	expl	_	_
 2	has	_	_	_	_	3	aux	_	_
@@ -74,7 +74,7 @@
 36	of	_	_	_	_	38	case	_	_
 37	a	_	_	_	_	38	det	_	_
 38	baby	_	_	_	_	35	nmod	_	_
-39	when	_	_	_	_	46	mark	_	_
+39	when	_	_	_	_	46	advmod	_	_
 40	the	_	_	_	_	41	det	_	_
 41	ratio	_	_	_	_	46	nsubj	_	_
 42	for	_	_	_	_	43	case	_	_
@@ -106,7 +106,7 @@
 4	speak	_	_	_	_	10	advcl	_	_
 5	from	_	_	_	_	6	case	_	_
 6	hell	_	_	_	_	4	obl	_	_
-7	,	_	_	_	_	10	punct	_	_
+7	,	_	_	_	_	4	punct	_	_
 8	he	_	_	_	_	10	nsubj	_	_
 9	would	_	_	_	_	10	aux	_	_
 10	tell	_	_	_	_	0	root	_	_
@@ -119,7 +119,7 @@
 17	are	_	_	_	_	19	aux	_	_
 18	purposefully	_	_	_	_	19	advmod	_	_
 19	considering	_	_	_	_	11	ccomp	_	_
-20	,	_	_	_	_	10	punct	_	_
+20	,	_	_	_	_	24	punct	_	_
 21	all	_	_	_	_	24	advmod	_	_
 22	in	_	_	_	_	24	case	_	_
 23	the	_	_	_	_	24	det	_	_
@@ -137,7 +137,7 @@
 7	into	_	_	_	_	9	case	_	_
 8	your	_	_	_	_	9	nmod:poss	_	_
 9	background	_	_	_	_	6	obl	_	_
-10	,	_	_	_	_	6	punct	_	_
+10	,	_	_	_	_	14	punct	_	_
 11	not	_	_	_	_	14	advmod	_	_
 12	just	_	_	_	_	14	advmod	_	_
 13	in	_	_	_	_	14	case	_	_
@@ -169,11 +169,11 @@
 8	your	_	_	_	_	9	nmod:poss	_	_
 9	friends	_	_	_	_	10	nsubj	_	_
 10	are	_	_	_	_	7	acl:relcl	_	_
-11	,	_	_	_	_	14	punct	_	_
+11	,	_	_	_	_	12	punct	_	_
 12	what	_	_	_	_	5	conj	_	_
 13	you	_	_	_	_	14	nsubj	_	_
 14	drive	_	_	_	_	12	acl:relcl	_	_
-15	,	_	_	_	_	18	punct	_	_
+15	,	_	_	_	_	16	punct	_	_
 16	where	_	_	_	_	5	conj	_	_
 17	you	_	_	_	_	18	nsubj	_	_
 18	live	_	_	_	_	16	advcl:relcl	_	_
@@ -188,7 +188,7 @@
 7	car	_	_	_	_	4	obl	_	_
 8	every	_	_	_	_	9	det	_	_
 9	day	_	_	_	_	4	obl:unmarked	_	_
-10	—	_	_	_	_	4	punct	_	_
+10	—	_	_	_	_	16	punct	_	_
 11	because	_	_	_	_	16	mark	_	_
 12	maybe	_	_	_	_	16	advmod	_	_
 13	today	_	_	_	_	16	nsubj	_	_
@@ -225,7 +225,7 @@
 9	've	_	_	_	_	11	aux	_	_
 10	ever	_	_	_	_	11	advmod	_	_
 11	known	_	_	_	_	5	advcl	_	_
-12	,	_	_	_	_	3	punct	_	_
+12	,	_	_	_	_	13	punct	_	_
 13	legally	_	_	_	_	3	advmod	_	_
 14	and	_	_	_	_	15	cc	_	_
 15	professionally	_	_	_	_	13	conj	_	_
@@ -252,7 +252,7 @@
 3	become	_	_	_	_	0	root	_	_
 4	a	_	_	_	_	5	det	_	_
 5	pariah	_	_	_	_	3	xcomp	_	_
-6	—	_	_	_	_	5	punct	_	_
+6	—	_	_	_	_	10	punct	_	_
 7	no	_	_	_	_	8	det	_	_
 8	physician	_	_	_	_	10	nsubj	_	_
 9	will	_	_	_	_	10	aux	_	_
@@ -261,7 +261,7 @@
 12	associate	_	_	_	_	10	xcomp	_	_
 13	with	_	_	_	_	14	case	_	_
 14	you	_	_	_	_	12	obl	_	_
-15	.	_	_	_	_	5	punct	_	_
+15	.	_	_	_	_	3	punct	_	_
 
 1	You	_	_	_	_	4	nsubj:pass	_	_
 2	will	_	_	_	_	4	aux	_	_
@@ -297,7 +297,7 @@
 4	your	_	_	_	_	6	nmod:poss	_	_
 5	legitimate	_	_	_	_	6	amod	_	_
 6	clientele	_	_	_	_	3	obj	_	_
-7	,	_	_	_	_	3	punct	_	_
+7	,	_	_	_	_	17	punct	_	_
 8	as	_	_	_	_	17	mark	_	_
 9	no	_	_	_	_	10	det	_	_
 10	one	_	_	_	_	17	nsubj	_	_
@@ -336,7 +336,7 @@
 12	in	_	_	_	_	16	case	_	_
 13	innocent	_	_	_	_	14	amod	_	_
 14	blood	_	_	_	_	16	compound	_	_
-15	-	_	_	_	_	16	punct	_	_
+15	-	_	_	_	_	14	punct	_	_
 16	shedding	_	_	_	_	11	obl	_	_
 17	and	_	_	_	_	21	cc	_	_
 18	wo	_	_	_	_	21	aux	_	_
@@ -367,9 +367,9 @@
 8	kind	_	_	_	_	5	obj	_	_
 9	of	_	_	_	_	15	case	_	_
 10	rat	_	_	_	_	12	compound	_	_
-11	-	_	_	_	_	12	punct	_	_
+11	-	_	_	_	_	10	punct	_	_
 12	infested	_	_	_	_	15	amod	_	_
-13	,	_	_	_	_	15	punct	_	_
+13	,	_	_	_	_	12	punct	_	_
 14	dirty	_	_	_	_	15	amod	_	_
 15	facility	_	_	_	_	8	nmod	_	_
 16	that	_	_	_	_	18	obj	_	_
@@ -377,7 +377,7 @@
 18	have	_	_	_	_	15	acl:relcl	_	_
 19	in	_	_	_	_	23	case	_	_
 20	north	_	_	_	_	22	compound	_	_
-21	-	_	_	_	_	22	punct	_	_
+21	-	_	_	_	_	20	punct	_	_
 22	eastern	_	_	_	_	23	amod	_	_
 23	Kansas	_	_	_	_	18	obl	_	_
 24	.	_	_	_	_	3	punct	_	_
@@ -406,15 +406,15 @@
 10	haunted	_	_	_	_	5	acl	_	_
 11	by	_	_	_	_	17	case	_	_
 12	bloody	_	_	_	_	17	amod	_	_
-13	,	_	_	_	_	17	punct	_	_
+13	,	_	_	_	_	12	punct	_	_
 14	squirming	_	_	_	_	17	amod	_	_
-15	,	_	_	_	_	17	punct	_	_
+15	,	_	_	_	_	14	punct	_	_
 16	dismembered	_	_	_	_	17	amod	_	_
 17	babies	_	_	_	_	10	obl:agent	_	_
 18	in	_	_	_	_	20	case	_	_
 19	your	_	_	_	_	20	nmod:poss	_	_
 20	sleep	_	_	_	_	10	obl	_	_
-21	.	_	_	_	_	5	punct	_	_
+21	.	_	_	_	_	3	punct	_	_
 
 1	You	_	_	_	_	4	nsubj	_	_
 2	ca	_	_	_	_	4	aux	_	_
@@ -434,8 +434,8 @@
 1	The	_	_	_	_	2	det	_	_
 2	Bible	_	_	_	_	3	nsubj	_	_
 3	says	_	_	_	_	0	root	_	_
-4	,	_	_	_	_	3	punct	_	_
-5	"	_	_	_	_	3	punct	_	_
+4	,	_	_	_	_	7	punct	_	_
+5	"	_	_	_	_	7	punct	_	_
 6	There	_	_	_	_	7	expl	_	_
 7	are	_	_	_	_	3	ccomp	_	_
 8	six	_	_	_	_	9	nummod	_	_
@@ -456,7 +456,7 @@
 23	devises	_	_	_	_	21	acl:relcl	_	_
 24	evil	_	_	_	_	25	amod	_	_
 25	schemes	_	_	_	_	23	obj	_	_
-26	,	_	_	_	_	14	punct	_	_
+26	,	_	_	_	_	27	punct	_	_
 27	feet	_	_	_	_	14	conj	_	_
 28	that	_	_	_	_	30	nsubj	_	_
 29	are	_	_	_	_	30	cop	_	_
@@ -468,7 +468,7 @@
 35	"	_	_	_	_	7	punct	_	_
 36	Proverbs	_	_	_	_	7	dep	_	_
 37	6	_	_	_	_	36	flat	_	_
-38	:	_	_	_	_	36	punct	_	_
+38	:	_	_	_	_	39	punct	_	_
 39	16	_	_	_	_	36	flat	_	_
 40	-	_	_	_	_	41	case	_	_
 41	18	_	_	_	_	39	nmod	_	_
@@ -478,7 +478,7 @@
 2	kills	_	_	_	_	0	root	_	_
 3	human	_	_	_	_	4	amod	_	_
 4	life	_	_	_	_	2	obj	_	_
-5	-	_	_	_	_	2	punct	_	_
+5	-	_	_	_	_	7	punct	_	_
 6	it	_	_	_	_	7	expl	_	_
 7	matters	_	_	_	_	2	parataxis	_	_
 8	not	_	_	_	_	7	advmod	_	_
@@ -493,13 +493,13 @@
 17	at	_	_	_	_	19	case	_	_
 18	26	_	_	_	_	19	nummod	_	_
 19	weeks	_	_	_	_	15	conj	_	_
-20	,	_	_	_	_	28	punct	_	_
+20	,	_	_	_	_	21	punct	_	_
 21	it	_	_	_	_	28	nsubj	_	_
 22	's	_	_	_	_	28	cop	_	_
 23	still	_	_	_	_	28	advmod	_	_
 24	the	_	_	_	_	28	det	_	_
 25	unnatural	_	_	_	_	28	amod	_	_
-26	,	_	_	_	_	28	punct	_	_
+26	,	_	_	_	_	25	punct	_	_
 27	violent	_	_	_	_	28	amod	_	_
 28	death	_	_	_	_	7	parataxis	_	_
 29	of	_	_	_	_	32	case	_	_
@@ -558,7 +558,7 @@
 8	of	_	_	_	_	10	case	_	_
 9	your	_	_	_	_	10	nmod:poss	_	_
 10	practice	_	_	_	_	7	nmod	_	_
-11	,	_	_	_	_	14	punct	_	_
+11	,	_	_	_	_	7	punct	_	_
 12	and	_	_	_	_	14	cc	_	_
 13	many	_	_	_	_	14	amod	_	_
 14	others	_	_	_	_	4	conj	_	_
@@ -614,7 +614,7 @@
 26	judgment	_	_	_	_	25	obj	_	_
 27	on	_	_	_	_	28	case	_	_
 28	you	_	_	_	_	25	obl	_	_
-29	,	_	_	_	_	25	punct	_	_
+29	,	_	_	_	_	37	punct	_	_
 30	the	_	_	_	_	31	det	_	_
 31	likes	_	_	_	_	37	obj	_	_
 32	of	_	_	_	_	33	case	_	_

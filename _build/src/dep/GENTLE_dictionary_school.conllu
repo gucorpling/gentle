@@ -5,17 +5,17 @@
 1	Pronunciation	_	_	_	_	0	root	_	_
 
 1	enPR	_	_	_	_	3	dep	_	_
-2	:	_	_	_	_	3	punct	_	_
+2	:	_	_	_	_	1	punct	_	_
 3	sko͞ol	_	_	_	_	0	root	_	_
 4	,	_	_	_	_	5	punct	_	_
 5	IPA	_	_	_	_	11	dep	_	_
 6	(	_	_	_	_	7	punct	_	_
 7	key	_	_	_	_	5	parataxis	_	_
 8	)	_	_	_	_	7	punct	_	_
-9	:	_	_	_	_	7	punct	_	_
-10	/	_	_	_	_	11	punct	_	_
+9	:	_	_	_	_	5	punct	_	_
+10	/	_	_	_	_	5	punct	_	_
 11	skuːl	_	_	_	_	3	parataxis	_	_
-12	/	_	_	_	_	11	punct	_	_
+12	/	_	_	_	_	3	punct	_	_
 
 1	Audio	_	_	_	_	0	root	_	_
 2	(	_	_	_	_	4	punct	_	_
@@ -24,7 +24,7 @@
 5	)	_	_	_	_	4	punct	_	_
 
 1	Rhymes	_	_	_	_	3	dep	_	_
-2	:	_	_	_	_	3	punct	_	_
+2	:	_	_	_	_	1	punct	_	_
 3	-uːl	_	_	_	_	0	root	_	_
 
 1	Etymology	_	_	_	_	0	root	_	_
@@ -139,11 +139,11 @@
 32	fish	_	_	_	_	30	nmod	_	_
 33	”	_	_	_	_	20	punct	_	_
 34	)	_	_	_	_	20	punct	_	_
-35	.	_	_	_	_	6	punct	_	_
+35	.	_	_	_	_	1	punct	_	_
 36	Doublet	_	_	_	_	1	parataxis	_	_
 37	of	_	_	_	_	38	case	_	_
 38	shoal	_	_	_	_	36	nmod	_	_
-39	.	_	_	_	_	36	punct	_	_
+39	.	_	_	_	_	1	punct	_	_
 
 1	Alternative	_	_	_	_	2	amod	_	_
 2	forms	_	_	_	_	0	root	_	_
@@ -200,7 +200,7 @@
 6	school	_	_	_	_	3	obj	_	_
 7	of	_	_	_	_	8	case	_	_
 8	mackerel	_	_	_	_	6	nmod	_	_
-9	.	_	_	_	_	6	punct	_	_
+9	.	_	_	_	_	3	punct	_	_
 
 1	A	_	_	_	_	2	det	_	_
 2	multitude	_	_	_	_	0	root	_	_
@@ -211,7 +211,7 @@
 1	(	_	_	_	_	2	punct	_	_
 2	fish	_	_	_	_	5	parataxis	_	_
 3	)	_	_	_	_	2	punct	_	_
-4	:	_	_	_	_	5	punct	_	_
+4	:	_	_	_	_	2	punct	_	_
 5	shoal	_	_	_	_	0	root	_	_
 
 1	Verb	_	_	_	_	0	root	_	_
@@ -229,7 +229,7 @@
 11	present	_	_	_	_	12	amod	_	_
 12	participle	_	_	_	_	13	dep	_	_
 13	schooling	_	_	_	_	9	conj	_	_
-14	,	_	_	_	_	16	punct	_	_
+14	,	_	_	_	_	20	punct	_	_
 15	simple	_	_	_	_	16	amod	_	_
 16	past	_	_	_	_	20	dep	_	_
 17	and	_	_	_	_	19	cc	_	_
@@ -339,13 +339,13 @@
 75	;	_	_	_	_	77	punct	_	_
 76	the	_	_	_	_	77	det	_	_
 77	places	_	_	_	_	61	conj	_	_
-78	where	_	_	_	_	81	mark	_	_
+78	where	_	_	_	_	81	advmod	_	_
 79	these	_	_	_	_	80	det	_	_
 80	conversations	_	_	_	_	81	nsubj	_	_
 81	took	_	_	_	_	77	acl:relcl	_	_
 82	place	_	_	_	_	81	obj	_	_
 83	”	_	_	_	_	61	punct	_	_
-84	)	_	_	_	_	57	punct	_	_
+84	)	_	_	_	_	61	punct	_	_
 85	,	_	_	_	_	88	punct	_	_
 86	from	_	_	_	_	88	case	_	_
 87	Proto-Indo-European	_	_	_	_	88	compound	_	_
@@ -461,7 +461,7 @@
 31	band	_	_	_	_	27	conj	_	_
 32	”	_	_	_	_	27	punct	_	_
 33	)	_	_	_	_	27	punct	_	_
-34	.	_	_	_	_	0	punct	_	_
+34	.	_	_	_	_	1	punct	_	_
 
 1	See	_	_	_	_	0	root	_	_
 2	school	_	_	_	_	1	obj	_	_
@@ -475,7 +475,7 @@
 5	High	_	_	_	_	6	amod	_	_
 6	German	_	_	_	_	7	compound	_	_
 7	sigi	_	_	_	_	1	obl	_	_
-8	(	_	_	_	_	9	punct	_	_
+8	(	_	_	_	_	10	punct	_	_
 9	German	_	_	_	_	10	compound	_	_
 10	Sieg	_	_	_	_	7	conj	_	_
 11	,	_	_	_	_	13	punct	_	_
@@ -767,7 +767,7 @@
 5	in	_	_	_	_	7	case	_	_
 6	English	_	_	_	_	7	amod	_	_
 7	universities	_	_	_	_	2	nmod	_	_
-8	where	_	_	_	_	16	mark	_	_
+8	where	_	_	_	_	16	advmod	_	_
 9	the	_	_	_	_	10	det	_	_
 10	examinations	_	_	_	_	16	nsubj:pass	_	_
 11	for	_	_	_	_	12	case	_	_
@@ -840,7 +840,7 @@
 6	and	_	_	_	_	7	cc	_	_
 7	learning	_	_	_	_	5	conj	_	_
 8	)	_	_	_	_	2	punct	_	_
-9	:	_	_	_	_	10	punct	_	_
+9	:	_	_	_	_	2	punct	_	_
 10	academy	_	_	_	_	0	root	_	_
 11	,	_	_	_	_	12	punct	_	_
 12	college	_	_	_	_	10	conj	_	_
@@ -855,7 +855,7 @@
 6	educational	_	_	_	_	7	amod	_	_
 7	institution	_	_	_	_	3	nmod	_	_
 8	)	_	_	_	_	3	punct	_	_
-9	:	_	_	_	_	10	punct	_	_
+9	:	_	_	_	_	3	punct	_	_
 10	college	_	_	_	_	0	root	_	_
 11	,	_	_	_	_	12	punct	_	_
 12	department	_	_	_	_	10	conj	_	_
@@ -869,7 +869,7 @@
 1	See	_	_	_	_	0	root	_	_
 2	also	_	_	_	_	1	advmod	_	_
 3	Thesaurus	_	_	_	_	5	dep	_	_
-4	:	_	_	_	_	5	punct	_	_
+4	:	_	_	_	_	3	punct	_	_
 5	school	_	_	_	_	1	obj	_	_
 
 1	Coordinate	_	_	_	_	2	amod	_	_
@@ -883,7 +883,7 @@
 6	secondary	_	_	_	_	4	conj	_	_
 7	education	_	_	_	_	3	obj	_	_
 8	)	_	_	_	_	2	punct	_	_
-9	:	_	_	_	_	11	punct	_	_
+9	:	_	_	_	_	2	punct	_	_
 10	nursery	_	_	_	_	11	compound	_	_
 11	school	_	_	_	_	0	root	_	_
 12	,	_	_	_	_	13	punct	_	_
@@ -935,7 +935,7 @@
 14	but	_	_	_	_	16	cc	_	_
 15	not	_	_	_	_	16	advmod	_	_
 16	necessarily	_	_	_	_	12	conj	_	_
-17	,	_	_	_	_	20	punct	_	_
+17	,	_	_	_	_	12	punct	_	_
 18	in	_	_	_	_	20	case	_	_
 19	a	_	_	_	_	20	det	_	_
 20	school	_	_	_	_	5	obl	_	_
@@ -976,7 +976,7 @@
 6	,	_	_	_	_	8	punct	_	_
 7	or	_	_	_	_	8	cc	_	_
 8	compose	_	_	_	_	5	conj	_	_
-9	,	_	_	_	_	8	punct	_	_
+9	,	_	_	_	_	12	punct	_	_
 10	one	_	_	_	_	12	nmod:poss	_	_
 11	's	_	_	_	_	10	case	_	_
 12	expression	_	_	_	_	5	obj	_	_

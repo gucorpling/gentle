@@ -10,7 +10,7 @@
 6	a	_	_	_	_	7	det	_	_
 7	year	_	_	_	_	8	obl:unmarked	_	_
 8	ago	_	_	_	_	0	root	_	_
-9	,	_	_	_	_	8	punct	_	_
+9	,	_	_	_	_	12	punct	_	_
 10	In	_	_	_	_	12	case	_	_
 11	a	_	_	_	_	12	det	_	_
 12	kingdom	_	_	_	_	8	obl	_	_
@@ -63,7 +63,7 @@
 7	was	_	_	_	_	9	cop	_	_
 8	a	_	_	_	_	9	det	_	_
 9	child	_	_	_	_	4	conj	_	_
-10	,	_	_	_	_	9	punct	_	_
+10	,	_	_	_	_	13	punct	_	_
 11	In	_	_	_	_	13	case	_	_
 12	this	_	_	_	_	13	det	_	_
 13	kingdom	_	_	_	_	4	obl	_	_
@@ -113,17 +113,17 @@
 4	the	_	_	_	_	5	det	_	_
 5	reason	_	_	_	_	0	root	_	_
 6	that	_	_	_	_	20	mark	_	_
-7	,	_	_	_	_	20	punct	_	_
+7	,	_	_	_	_	6	punct	_	_
 8	long	_	_	_	_	9	advmod	_	_
 9	ago	_	_	_	_	20	advmod	_	_
-10	,	_	_	_	_	20	punct	_	_
+10	,	_	_	_	_	9	punct	_	_
 11	In	_	_	_	_	13	case	_	_
 12	this	_	_	_	_	13	det	_	_
 13	kingdom	_	_	_	_	20	obl	_	_
 14	by	_	_	_	_	16	case	_	_
 15	the	_	_	_	_	16	det	_	_
 16	sea	_	_	_	_	13	nmod	_	_
-17	,	_	_	_	_	20	punct	_	_
+17	,	_	_	_	_	13	punct	_	_
 18	A	_	_	_	_	19	det	_	_
 19	wind	_	_	_	_	20	nsubj	_	_
 20	blew	_	_	_	_	5	acl	_	_
@@ -131,7 +131,7 @@
 22	of	_	_	_	_	21	fixed	_	_
 23	a	_	_	_	_	24	det	_	_
 24	cloud	_	_	_	_	20	obl	_	_
-25	,	_	_	_	_	20	punct	_	_
+25	,	_	_	_	_	26	punct	_	_
 26	chilling	_	_	_	_	20	advcl	_	_
 27	My	_	_	_	_	29	nmod:poss	_	_
 28	beautiful	_	_	_	_	29	amod	_	_
@@ -151,7 +151,7 @@
 10	away	_	_	_	_	8	advmod	_	_
 11	from	_	_	_	_	12	case	_	_
 12	me	_	_	_	_	10	obl	_	_
-13	,	_	_	_	_	8	punct	_	_
+13	,	_	_	_	_	15	punct	_	_
 14	To	_	_	_	_	15	mark	_	_
 15	shut	_	_	_	_	8	advcl	_	_
 16	her	_	_	_	_	15	obj	_	_
@@ -169,14 +169,14 @@
 
 1	The	_	_	_	_	2	det	_	_
 2	angels	_	_	_	_	11	nsubj	_	_
-3	,	_	_	_	_	2	punct	_	_
+3	,	_	_	_	_	7	punct	_	_
 4	not	_	_	_	_	7	advmod	_	_
 5	half	_	_	_	_	7	advmod	_	_
 6	so	_	_	_	_	7	advmod	_	_
 7	happy	_	_	_	_	2	acl	_	_
 8	in	_	_	_	_	9	case	_	_
 9	heaven	_	_	_	_	7	obl	_	_
-10	,	_	_	_	_	11	punct	_	_
+10	,	_	_	_	_	2	punct	_	_
 11	Went	_	_	_	_	0	root	_	_
 12	envying	_	_	_	_	11	xcomp	_	_
 13	her	_	_	_	_	12	obj	_	_
@@ -185,8 +185,8 @@
 16	—	_	_	_	_	11	punct	_	_
 
 1	Yes	_	_	_	_	7	discourse	_	_
-2	!	_	_	_	_	7	punct	_	_
-3	—	_	_	_	_	7	punct	_	_
+2	!	_	_	_	_	1	punct	_	_
+3	—	_	_	_	_	1	punct	_	_
 4	that	_	_	_	_	7	nsubj	_	_
 5	was	_	_	_	_	7	cop	_	_
 6	the	_	_	_	_	7	det	_	_
@@ -196,7 +196,7 @@
 10	all	_	_	_	_	11	det	_	_
 11	men	_	_	_	_	12	nsubj	_	_
 12	know	_	_	_	_	7	advcl	_	_
-13	,	_	_	_	_	12	punct	_	_
+13	,	_	_	_	_	16	punct	_	_
 14	In	_	_	_	_	16	case	_	_
 15	this	_	_	_	_	16	det	_	_
 16	kingdom	_	_	_	_	12	obl	_	_
@@ -214,7 +214,7 @@
 28	cloud	_	_	_	_	24	obl	_	_
 29	by	_	_	_	_	30	case	_	_
 30	night	_	_	_	_	24	obl	_	_
-31	,	_	_	_	_	24	punct	_	_
+31	,	_	_	_	_	32	punct	_	_
 32	Chilling	_	_	_	_	24	advcl	_	_
 33	and	_	_	_	_	34	cc	_	_
 34	killing	_	_	_	_	32	conj	_	_
@@ -262,11 +262,11 @@
 9	Nor	_	_	_	_	11	cc	_	_
 10	the	_	_	_	_	11	det	_	_
 11	demons	_	_	_	_	4	conj	_	_
-12	down	_	_	_	_	13	advmod	_	_
+12	down	_	_	_	_	15	advmod	_	_
 13	under	_	_	_	_	15	case	_	_
 14	the	_	_	_	_	15	det	_	_
 15	sea	_	_	_	_	11	nmod	_	_
-16	,	_	_	_	_	19	punct	_	_
+16	,	_	_	_	_	4	punct	_	_
 17	Can	_	_	_	_	19	aux	_	_
 18	ever	_	_	_	_	19	advmod	_	_
 19	dissever	_	_	_	_	0	root	_	_
@@ -287,7 +287,7 @@
 3	moon	_	_	_	_	5	nsubj	_	_
 4	never	_	_	_	_	5	advmod	_	_
 5	beams	_	_	_	_	0	root	_	_
-6	,	_	_	_	_	5	punct	_	_
+6	,	_	_	_	_	8	punct	_	_
 7	without	_	_	_	_	8	mark	_	_
 8	bringing	_	_	_	_	5	advcl	_	_
 9	me	_	_	_	_	8	iobj	_	_
@@ -320,13 +320,13 @@
 
 1	And	_	_	_	_	11	cc	_	_
 2	so	_	_	_	_	11	advmod	_	_
-3	,	_	_	_	_	11	punct	_	_
+3	,	_	_	_	_	2	punct	_	_
 4	all	_	_	_	_	8	det:predet	_	_
 5	the	_	_	_	_	8	det	_	_
 6	night	_	_	_	_	8	compound	_	_
-7	-	_	_	_	_	8	punct	_	_
+7	-	_	_	_	_	6	punct	_	_
 8	tide	_	_	_	_	11	obl:unmarked	_	_
-9	,	_	_	_	_	11	punct	_	_
+9	,	_	_	_	_	8	punct	_	_
 10	I	_	_	_	_	11	nsubj	_	_
 11	lie	_	_	_	_	0	root	_	_
 12	down	_	_	_	_	11	advmod	_	_
@@ -336,16 +336,16 @@
 16	Of	_	_	_	_	18	case	_	_
 17	my	_	_	_	_	18	nmod:poss	_	_
 18	darling	_	_	_	_	15	nmod	_	_
-19	—	_	_	_	_	18	punct	_	_
+19	—	_	_	_	_	21	punct	_	_
 20	my	_	_	_	_	21	nmod:poss	_	_
 21	darling	_	_	_	_	18	appos	_	_
-22	—	_	_	_	_	18	punct	_	_
+22	—	_	_	_	_	24	punct	_	_
 23	my	_	_	_	_	24	nmod:poss	_	_
 24	life	_	_	_	_	18	appos	_	_
 25	and	_	_	_	_	27	cc	_	_
 26	my	_	_	_	_	27	nmod:poss	_	_
 27	bride	_	_	_	_	24	conj	_	_
-28	,	_	_	_	_	11	punct	_	_
+28	,	_	_	_	_	31	punct	_	_
 29	In	_	_	_	_	31	case	_	_
 30	the	_	_	_	_	31	det	_	_
 31	sepulchre	_	_	_	_	11	obl	_	_
@@ -353,7 +353,7 @@
 33	by	_	_	_	_	35	case	_	_
 34	the	_	_	_	_	35	det	_	_
 35	sea	_	_	_	_	32	obl	_	_
-36	,	_	_	_	_	31	punct	_	_
+36	,	_	_	_	_	39	punct	_	_
 37	In	_	_	_	_	39	case	_	_
 38	her	_	_	_	_	39	nmod:poss	_	_
 39	tomb	_	_	_	_	11	obl	_	_

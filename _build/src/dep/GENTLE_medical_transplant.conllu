@@ -102,9 +102,9 @@
 
 1	A	_	_	_	_	8	det	_	_
 2	51	_	_	_	_	4	nummod	_	_
-3	-	_	_	_	_	4	punct	_	_
+3	-	_	_	_	_	2	punct	_	_
 4	year	_	_	_	_	6	obl:unmarked	_	_
-5	-	_	_	_	_	6	punct	_	_
+5	-	_	_	_	_	4	punct	_	_
 6	old	_	_	_	_	8	amod	_	_
 7	white	_	_	_	_	8	amod	_	_
 8	male	_	_	_	_	0	root	_	_
@@ -409,14 +409,14 @@
 10	.	_	_	_	_	2	punct	_	_
 
 1	CHEST	_	_	_	_	0	root	_	_
-2	:	_	_	_	_	1	punct	_	_
+2	:	_	_	_	_	3	punct	_	_
 3	Clear	_	_	_	_	1	dep	_	_
 4	to	_	_	_	_	5	case	_	_
 5	auscultation	_	_	_	_	3	obl	_	_
 6	.	_	_	_	_	1	punct	_	_
 
 1	CARDIOVASCULAR	_	_	_	_	0	root	_	_
-2	:	_	_	_	_	1	punct	_	_
+2	:	_	_	_	_	6	punct	_	_
 3	S1	_	_	_	_	6	nsubj	_	_
 4	and	_	_	_	_	5	cc	_	_
 5	S2	_	_	_	_	3	conj	_	_
@@ -441,7 +441,7 @@
 11	.	_	_	_	_	6	punct	_	_
 
 1	ABDOMEN	_	_	_	_	0	root	_	_
-2	:	_	_	_	_	1	punct	_	_
+2	:	_	_	_	_	3	punct	_	_
 3	Soft	_	_	_	_	1	dep	_	_
 4	and	_	_	_	_	5	cc	_	_
 5	nontender	_	_	_	_	3	conj	_	_
@@ -466,7 +466,7 @@
 14	.	_	_	_	_	4	punct	_	_
 
 1	EXTREMITIES	_	_	_	_	0	root	_	_
-2	:	_	_	_	_	1	punct	_	_
+2	:	_	_	_	_	3	punct	_	_
 3	Reveal	_	_	_	_	1	dep	_	_
 4	no	_	_	_	_	5	det	_	_
 5	edema	_	_	_	_	3	obj	_	_
@@ -520,7 +520,7 @@
 2	Diffuse	_	_	_	_	0	root	_	_
 3	large	_	_	_	_	7	amod	_	_
 4	B	_	_	_	_	6	compound	_	_
-5	-	_	_	_	_	6	punct	_	_
+5	-	_	_	_	_	4	punct	_	_
 6	cell	_	_	_	_	7	compound	_	_
 7	lymphoma	_	_	_	_	2	obj	_	_
 8	following	_	_	_	_	2	advcl	_	_

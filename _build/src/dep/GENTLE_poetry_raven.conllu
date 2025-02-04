@@ -7,15 +7,15 @@
 3	a	_	_	_	_	4	det	_	_
 4	midnight	_	_	_	_	0	root	_	_
 5	dreary	_	_	_	_	4	amod	_	_
-6	,	_	_	_	_	4	punct	_	_
+6	,	_	_	_	_	9	punct	_	_
 7	while	_	_	_	_	9	mark	_	_
 8	I	_	_	_	_	9	nsubj	_	_
 9	pondered	_	_	_	_	4	advcl	_	_
-10	,	_	_	_	_	9	punct	_	_
+10	,	_	_	_	_	11	punct	_	_
 11	weak	_	_	_	_	9	advmod	_	_
 12	and	_	_	_	_	13	cc	_	_
 13	weary	_	_	_	_	11	conj	_	_
-14	,	_	_	_	_	9	punct	_	_
+14	,	_	_	_	_	21	punct	_	_
 15	Over	_	_	_	_	21	case	_	_
 16	many	_	_	_	_	21	amod	_	_
 17	a	_	_	_	_	21	det	_	_
@@ -31,16 +31,16 @@
 1	While	_	_	_	_	3	mark	_	_
 2	I	_	_	_	_	3	nsubj	_	_
 3	nodded	_	_	_	_	10	advcl	_	_
-4	,	_	_	_	_	3	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
 5	nearly	_	_	_	_	6	advmod	_	_
 6	napping	_	_	_	_	3	advcl	_	_
-7	,	_	_	_	_	10	punct	_	_
+7	,	_	_	_	_	3	punct	_	_
 8	suddenly	_	_	_	_	10	advmod	_	_
 9	there	_	_	_	_	10	expl	_	_
 10	came	_	_	_	_	0	root	_	_
 11	a	_	_	_	_	12	det	_	_
 12	tapping	_	_	_	_	10	nsubj	_	_
-13	,	_	_	_	_	12	punct	_	_
+13	,	_	_	_	_	19	punct	_	_
 14	As	_	_	_	_	16	case	_	_
 15	of	_	_	_	_	14	fixed	_	_
 16	some	_	_	_	_	19	nsubj	_	_
@@ -65,7 +65,7 @@
 8	I	_	_	_	_	9	nsubj	_	_
 9	muttered	_	_	_	_	5	parataxis	_	_
 10	,	_	_	_	_	5	punct	_	_
-11	"	_	_	_	_	5	punct	_	_
+11	"	_	_	_	_	12	punct	_	_
 12	tapping	_	_	_	_	5	acl	_	_
 13	at	_	_	_	_	16	case	_	_
 14	my	_	_	_	_	16	nmod:poss	_	_
@@ -82,7 +82,7 @@
 7	"	_	_	_	_	2	punct	_	_
 
 1	Ah	_	_	_	_	5	discourse	_	_
-2	,	_	_	_	_	5	punct	_	_
+2	,	_	_	_	_	1	punct	_	_
 3	distinctly	_	_	_	_	5	advmod	_	_
 4	I	_	_	_	_	5	nsubj	_	_
 5	remember	_	_	_	_	0	root	_	_
@@ -112,7 +112,7 @@
 4	the	_	_	_	_	5	det	_	_
 5	morrow	_	_	_	_	3	obj	_	_
 6	;	_	_	_	_	3	punct	_	_
-7	—	_	_	_	_	3	punct	_	_
+7	—	_	_	_	_	11	punct	_	_
 8	vainly	_	_	_	_	11	advmod	_	_
 9	I	_	_	_	_	11	nsubj	_	_
 10	had	_	_	_	_	11	aux	_	_
@@ -143,12 +143,12 @@
 35	angels	_	_	_	_	36	nsubj	_	_
 36	name	_	_	_	_	32	acl:relcl	_	_
 37	Lenore	_	_	_	_	36	xcomp	_	_
-38	—	_	_	_	_	32	punct	_	_
+38	—	_	_	_	_	39	punct	_	_
 39	Nameless	_	_	_	_	32	amod	_	_
 40	here	_	_	_	_	39	advmod	_	_
 41	for	_	_	_	_	42	case	_	_
 42	evermore	_	_	_	_	39	obl	_	_
-43	.	_	_	_	_	39	punct	_	_
+43	.	_	_	_	_	3	punct	_	_
 
 1	And	_	_	_	_	11	cc	_	_
 2	the	_	_	_	_	6	det	_	_
@@ -162,7 +162,7 @@
 10	curtain	_	_	_	_	6	nmod	_	_
 11	Thrilled	_	_	_	_	0	root	_	_
 12	me	_	_	_	_	11	obj	_	_
-13	—	_	_	_	_	11	punct	_	_
+13	—	_	_	_	_	14	punct	_	_
 14	filled	_	_	_	_	11	parataxis	_	_
 15	me	_	_	_	_	14	obj	_	_
 16	with	_	_	_	_	18	case	_	_
@@ -176,7 +176,7 @@
 1	So	_	_	_	_	14	advmod	_	_
 2	that	_	_	_	_	14	mark	_	_
 3	now	_	_	_	_	14	advmod	_	_
-4	,	_	_	_	_	14	punct	_	_
+4	,	_	_	_	_	3	punct	_	_
 5	to	_	_	_	_	6	mark	_	_
 6	still	_	_	_	_	14	advcl	_	_
 7	the	_	_	_	_	8	det	_	_
@@ -184,7 +184,7 @@
 9	of	_	_	_	_	11	case	_	_
 10	my	_	_	_	_	11	nmod:poss	_	_
 11	heart	_	_	_	_	8	nmod	_	_
-12	,	_	_	_	_	14	punct	_	_
+12	,	_	_	_	_	6	punct	_	_
 13	I	_	_	_	_	14	nsubj	_	_
 14	stood	_	_	_	_	0	root	_	_
 15	repeating	_	_	_	_	14	xcomp	_	_
@@ -200,7 +200,7 @@
 9	my	_	_	_	_	11	nmod:poss	_	_
 10	chamber	_	_	_	_	11	compound	_	_
 11	door	_	_	_	_	6	obl	_	_
-12	—	_	_	_	_	6	punct	_	_
+12	—	_	_	_	_	5	punct	_	_
 
 1	Some	_	_	_	_	3	det	_	_
 2	late	_	_	_	_	3	amod	_	_
@@ -211,7 +211,7 @@
 7	my	_	_	_	_	9	nmod:poss	_	_
 8	chamber	_	_	_	_	9	compound	_	_
 9	door	_	_	_	_	4	obl	_	_
-10	;	_	_	_	_	4	punct	_	_
+10	;	_	_	_	_	3	punct	_	_
 
 1	This	_	_	_	_	3	obj	_	_
 2	it	_	_	_	_	3	nsubj	_	_
@@ -233,18 +233,18 @@
 2	then	_	_	_	_	1	advmod	_	_
 3	no	_	_	_	_	4	advmod	_	_
 4	longer	_	_	_	_	1	advmod	_	_
-5	,	_	_	_	_	10	punct	_	_
-6	"	_	_	_	_	10	punct	_	_
+5	,	_	_	_	_	1	punct	_	_
+6	"	_	_	_	_	7	punct	_	_
 7	Sir	_	_	_	_	21	vocative	_	_
-8	,	_	_	_	_	10	punct	_	_
-9	"	_	_	_	_	10	punct	_	_
+8	,	_	_	_	_	7	punct	_	_
+9	"	_	_	_	_	7	punct	_	_
 10	said	_	_	_	_	21	parataxis	_	_
 11	I	_	_	_	_	10	nsubj	_	_
 12	,	_	_	_	_	10	punct	_	_
 13	"	_	_	_	_	10	punct	_	_
 14	or	_	_	_	_	15	cc	_	_
 15	Madam	_	_	_	_	7	conj	_	_
-16	,	_	_	_	_	21	punct	_	_
+16	,	_	_	_	_	15	punct	_	_
 17	truly	_	_	_	_	21	advmod	_	_
 18	your	_	_	_	_	19	nmod:poss	_	_
 19	forgiveness	_	_	_	_	21	obj	_	_
@@ -254,7 +254,7 @@
 
 1	But	_	_	_	_	7	cc	_	_
 2	the	_	_	_	_	3	det	_	_
-3	fact	_	_	_	_	7	csubj:outer	_	_
+3	fact	_	_	_	_	7	csubj	_	_
 4	is	_	_	_	_	7	cop	_	_
 5	I	_	_	_	_	7	nsubj	_	_
 6	was	_	_	_	_	7	aux	_	_
@@ -273,13 +273,13 @@
 19	you	_	_	_	_	20	nsubj	_	_
 20	came	_	_	_	_	7	conj	_	_
 21	tapping	_	_	_	_	20	xcomp	_	_
-22	,	_	_	_	_	21	punct	_	_
+22	,	_	_	_	_	23	punct	_	_
 23	tapping	_	_	_	_	21	advcl	_	_
 24	at	_	_	_	_	27	case	_	_
 25	my	_	_	_	_	27	nmod:poss	_	_
 26	chamber	_	_	_	_	27	compound	_	_
 27	door	_	_	_	_	23	obl	_	_
-28	,	_	_	_	_	21	punct	_	_
+28	,	_	_	_	_	33	punct	_	_
 29	That	_	_	_	_	33	mark	_	_
 30	I	_	_	_	_	33	nsubj	_	_
 31	scarce	_	_	_	_	33	advmod	_	_
@@ -313,7 +313,7 @@
 3	that	_	_	_	_	4	det	_	_
 4	darkness	_	_	_	_	5	obl	_	_
 5	peering	_	_	_	_	9	advcl	_	_
-6	,	_	_	_	_	9	punct	_	_
+6	,	_	_	_	_	5	punct	_	_
 7	long	_	_	_	_	9	advmod	_	_
 8	I	_	_	_	_	9	nsubj	_	_
 9	stood	_	_	_	_	0	root	_	_
@@ -358,11 +358,11 @@
 21	the	_	_	_	_	23	det	_	_
 22	whispered	_	_	_	_	23	amod	_	_
 23	word	_	_	_	_	5	conj	_	_
-24	,	_	_	_	_	23	punct	_	_
-25	"	_	_	_	_	23	punct	_	_
+24	,	_	_	_	_	26	punct	_	_
+25	"	_	_	_	_	26	punct	_	_
 26	Lenore	_	_	_	_	23	appos	_	_
-27	?	_	_	_	_	5	punct	_	_
-28	"	_	_	_	_	5	punct	_	_
+27	?	_	_	_	_	26	punct	_	_
+28	"	_	_	_	_	26	punct	_	_
 
 1	This	_	_	_	_	3	obj	_	_
 2	I	_	_	_	_	3	nsubj	_	_
@@ -375,7 +375,7 @@
 9	back	_	_	_	_	8	advmod	_	_
 10	the	_	_	_	_	11	det	_	_
 11	word	_	_	_	_	8	obj	_	_
-12	,	_	_	_	_	11	punct	_	_
+12	,	_	_	_	_	14	punct	_	_
 13	"	_	_	_	_	14	punct	_	_
 14	Lenore	_	_	_	_	11	appos	_	_
 15	!	_	_	_	_	14	punct	_	_
@@ -394,14 +394,14 @@
 3	the	_	_	_	_	4	det	_	_
 4	chamber	_	_	_	_	5	obl	_	_
 5	turning	_	_	_	_	17	advcl	_	_
-6	,	_	_	_	_	12	punct	_	_
+6	,	_	_	_	_	5	punct	_	_
 7	all	_	_	_	_	9	det:predet	_	_
 8	my	_	_	_	_	9	nmod:poss	_	_
 9	soul	_	_	_	_	12	nsubj	_	_
 10	within	_	_	_	_	11	case	_	_
 11	me	_	_	_	_	12	obl	_	_
 12	burning	_	_	_	_	17	advcl	_	_
-13	,	_	_	_	_	17	punct	_	_
+13	,	_	_	_	_	12	punct	_	_
 14	Soon	_	_	_	_	17	advmod	_	_
 15	again	_	_	_	_	17	advmod	_	_
 16	I	_	_	_	_	17	nsubj	_	_
@@ -414,10 +414,10 @@
 23	before	_	_	_	_	21	obl	_	_
 24	.	_	_	_	_	17	punct	_	_
 
-1	"	_	_	_	_	12	punct	_	_
+1	"	_	_	_	_	2	punct	_	_
 2	Surely	_	_	_	_	12	advmod	_	_
-3	,	_	_	_	_	5	punct	_	_
-4	"	_	_	_	_	5	punct	_	_
+3	,	_	_	_	_	2	punct	_	_
+4	"	_	_	_	_	2	punct	_	_
 5	said	_	_	_	_	12	parataxis	_	_
 6	I	_	_	_	_	5	nsubj	_	_
 7	,	_	_	_	_	5	punct	_	_
@@ -437,7 +437,7 @@
 3	see	_	_	_	_	1	xcomp	_	_
 4	,	_	_	_	_	3	punct	_	_
 5	then	_	_	_	_	1	advmod	_	_
-6	,	_	_	_	_	8	punct	_	_
+6	,	_	_	_	_	5	punct	_	_
 7	what	_	_	_	_	8	nsubj	_	_
 8	thereat	_	_	_	_	3	ccomp	_	_
 9	is	_	_	_	_	8	cop	_	_
@@ -477,16 +477,16 @@
 4	flung	_	_	_	_	0	root	_	_
 5	the	_	_	_	_	6	det	_	_
 6	shutter	_	_	_	_	4	obj	_	_
-7	,	_	_	_	_	4	punct	_	_
-8	when	_	_	_	_	19	mark	_	_
-9	,	_	_	_	_	19	punct	_	_
+7	,	_	_	_	_	8	punct	_	_
+8	when	_	_	_	_	19	advmod	_	_
+9	,	_	_	_	_	8	punct	_	_
 10	with	_	_	_	_	13	case	_	_
 11	many	_	_	_	_	13	amod	_	_
 12	a	_	_	_	_	13	det	_	_
 13	flirt	_	_	_	_	19	obl	_	_
 14	and	_	_	_	_	15	cc	_	_
 15	flutter	_	_	_	_	13	conj	_	_
-16	,	_	_	_	_	19	punct	_	_
+16	,	_	_	_	_	13	punct	_	_
 17	In	_	_	_	_	18	case	_	_
 18	there	_	_	_	_	19	obl	_	_
 19	stepped	_	_	_	_	4	advcl	_	_
@@ -519,20 +519,20 @@
 8	;	_	_	_	_	4	punct	_	_
 
 1	But	_	_	_	_	10	cc	_	_
-2	,	_	_	_	_	10	punct	_	_
+2	,	_	_	_	_	1	punct	_	_
 3	with	_	_	_	_	4	case	_	_
 4	mien	_	_	_	_	10	obl	_	_
 5	of	_	_	_	_	6	case	_	_
 6	lord	_	_	_	_	4	nmod	_	_
 7	or	_	_	_	_	8	cc	_	_
 8	lady	_	_	_	_	6	conj	_	_
-9	,	_	_	_	_	10	punct	_	_
+9	,	_	_	_	_	4	punct	_	_
 10	perched	_	_	_	_	0	root	_	_
 11	above	_	_	_	_	14	case	_	_
 12	my	_	_	_	_	14	nmod:poss	_	_
 13	chamber	_	_	_	_	14	compound	_	_
 14	door	_	_	_	_	10	obl	_	_
-15	—	_	_	_	_	10	punct	_	_
+15	—	_	_	_	_	16	punct	_	_
 16	Perched	_	_	_	_	10	advcl	_	_
 17	upon	_	_	_	_	19	case	_	_
 18	a	_	_	_	_	19	det	_	_
@@ -566,7 +566,7 @@
 8	fancy	_	_	_	_	5	obj	_	_
 9	into	_	_	_	_	10	mark	_	_
 10	smiling	_	_	_	_	5	advcl	_	_
-11	,	_	_	_	_	5	punct	_	_
+11	,	_	_	_	_	17	punct	_	_
 12	By	_	_	_	_	17	case	_	_
 13	the	_	_	_	_	17	det	_	_
 14	grave	_	_	_	_	17	amod	_	_
@@ -578,7 +578,7 @@
 20	countenance	_	_	_	_	17	nmod	_	_
 21	it	_	_	_	_	22	nsubj	_	_
 22	wore	_	_	_	_	20	acl:relcl	_	_
-23	,	_	_	_	_	29	punct	_	_
+23	,	_	_	_	_	5	punct	_	_
 24	"	_	_	_	_	29	punct	_	_
 25	Though	_	_	_	_	29	mark	_	_
 26	thy	_	_	_	_	27	nmod:poss	_	_
@@ -587,7 +587,7 @@
 29	shorn	_	_	_	_	0	root	_	_
 30	and	_	_	_	_	31	cc	_	_
 31	shaven	_	_	_	_	29	conj	_	_
-32	,	_	_	_	_	29	punct	_	_
+32	,	_	_	_	_	33	punct	_	_
 33	thou	_	_	_	_	49	nsubj	_	_
 34	,	_	_	_	_	33	punct	_	_
 35	"	_	_	_	_	33	punct	_	_
@@ -599,7 +599,7 @@
 41	sure	_	_	_	_	49	advmod	_	_
 42	no	_	_	_	_	49	det	_	_
 43	craven	_	_	_	_	49	amod	_	_
-44	,	_	_	_	_	45	punct	_	_
+44	,	_	_	_	_	46	punct	_	_
 45	Ghastly	_	_	_	_	46	amod	_	_
 46	grim	_	_	_	_	43	conj	_	_
 47	and	_	_	_	_	48	cc	_	_
@@ -610,7 +610,7 @@
 52	the	_	_	_	_	54	det	_	_
 53	Nightly	_	_	_	_	54	amod	_	_
 54	shore	_	_	_	_	50	obl	_	_
-55	—	_	_	_	_	49	punct	_	_
+55	—	_	_	_	_	29	punct	_	_
 
 1	Tell	_	_	_	_	0	root	_	_
 2	me	_	_	_	_	1	iobj	_	_
@@ -631,11 +631,11 @@
 1	Quoth	_	_	_	_	0	root	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	1	nsubj	_	_
-4	,	_	_	_	_	1	punct	_	_
-5	"	_	_	_	_	1	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
+5	"	_	_	_	_	6	punct	_	_
 6	Nevermore	_	_	_	_	1	ccomp	_	_
-7	.	_	_	_	_	1	punct	_	_
-8	"	_	_	_	_	1	punct	_	_
+7	.	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 
 1	Much	_	_	_	_	3	advmod	_	_
 2	I	_	_	_	_	3	nsubj	_	_
@@ -655,7 +655,7 @@
 3	answer	_	_	_	_	9	nsubj	_	_
 4	little	_	_	_	_	5	amod	_	_
 5	meaning	_	_	_	_	9	obj	_	_
-6	—	_	_	_	_	5	punct	_	_
+6	—	_	_	_	_	8	punct	_	_
 7	little	_	_	_	_	8	amod	_	_
 8	relevancy	_	_	_	_	5	conj	_	_
 9	bore	_	_	_	_	0	root	_	_
@@ -695,33 +695,33 @@
 32	his	_	_	_	_	34	nmod:poss	_	_
 33	chamber	_	_	_	_	34	compound	_	_
 34	door	_	_	_	_	30	nmod	_	_
-35	,	_	_	_	_	30	punct	_	_
+35	,	_	_	_	_	38	punct	_	_
 36	With	_	_	_	_	38	case	_	_
 37	such	_	_	_	_	38	amod	_	_
 38	name	_	_	_	_	18	nmod	_	_
 39	as	_	_	_	_	41	case	_	_
 40	"	_	_	_	_	41	punct	_	_
 41	Nevermore	_	_	_	_	38	nmod	_	_
-42	.	_	_	_	_	38	punct	_	_
-43	"	_	_	_	_	38	punct	_	_
+42	.	_	_	_	_	41	punct	_	_
+43	"	_	_	_	_	41	punct	_	_
 
 1	But	_	_	_	_	12	cc	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	12	nsubj	_	_
-4	,	_	_	_	_	12	punct	_	_
+4	,	_	_	_	_	5	punct	_	_
 5	sitting	_	_	_	_	3	acl	_	_
 6	lonely	_	_	_	_	5	advmod	_	_
 7	on	_	_	_	_	10	case	_	_
 8	that	_	_	_	_	10	det	_	_
 9	placid	_	_	_	_	10	amod	_	_
 10	bust	_	_	_	_	5	obl	_	_
-11	,	_	_	_	_	12	punct	_	_
+11	,	_	_	_	_	3	punct	_	_
 12	spoke	_	_	_	_	0	root	_	_
 13	only	_	_	_	_	16	advmod	_	_
 14	That	_	_	_	_	16	det	_	_
 15	one	_	_	_	_	16	nummod	_	_
 16	word	_	_	_	_	12	obj	_	_
-17	,	_	_	_	_	12	punct	_	_
+17	,	_	_	_	_	28	punct	_	_
 18	as	_	_	_	_	28	mark	_	_
 19	if	_	_	_	_	28	mark	_	_
 20	his	_	_	_	_	21	nmod:poss	_	_
@@ -772,7 +772,7 @@
 5	will	_	_	_	_	6	aux	_	_
 6	leave	_	_	_	_	0	root	_	_
 7	me	_	_	_	_	6	obj	_	_
-8	,	_	_	_	_	6	punct	_	_
+8	,	_	_	_	_	13	punct	_	_
 9	as	_	_	_	_	13	mark	_	_
 10	my	_	_	_	_	11	nmod:poss	_	_
 11	Hopes	_	_	_	_	13	nsubj	_	_
@@ -786,10 +786,10 @@
 2	the	_	_	_	_	3	det	_	_
 3	bird	_	_	_	_	4	nsubj	_	_
 4	said	_	_	_	_	0	root	_	_
-5	"	_	_	_	_	4	punct	_	_
+5	"	_	_	_	_	6	punct	_	_
 6	Nevermore	_	_	_	_	4	ccomp	_	_
-7	.	_	_	_	_	4	punct	_	_
-8	"	_	_	_	_	4	punct	_	_
+7	.	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 
 1	Startled	_	_	_	_	16	advcl	_	_
 2	at	_	_	_	_	4	case	_	_
@@ -801,11 +801,11 @@
 8	so	_	_	_	_	9	advmod	_	_
 9	aptly	_	_	_	_	10	advmod	_	_
 10	spoken	_	_	_	_	7	acl	_	_
-11	,	_	_	_	_	16	punct	_	_
-12	"	_	_	_	_	16	punct	_	_
+11	,	_	_	_	_	1	punct	_	_
+12	"	_	_	_	_	13	punct	_	_
 13	Doubtless	_	_	_	_	26	advmod	_	_
-14	,	_	_	_	_	16	punct	_	_
-15	"	_	_	_	_	16	punct	_	_
+14	,	_	_	_	_	13	punct	_	_
+15	"	_	_	_	_	13	punct	_	_
 16	said	_	_	_	_	26	parataxis	_	_
 17	I	_	_	_	_	16	nsubj	_	_
 18	,	_	_	_	_	16	punct	_	_
@@ -854,10 +854,10 @@
 11	Of	_	_	_	_	13	case	_	_
 12	'	_	_	_	_	13	punct	_	_
 13	Never	_	_	_	_	15	reparandum	_	_
-14	—	_	_	_	_	15	punct	_	_
+14	—	_	_	_	_	13	punct	_	_
 15	nevermore	_	_	_	_	10	advmod	_	_
-16	.	_	_	_	_	10	punct	_	_
-17	'	_	_	_	_	10	punct	_	_
+16	.	_	_	_	_	15	punct	_	_
+17	'	_	_	_	_	15	punct	_	_
 18	"	_	_	_	_	10	punct	_	_
 
 1	But	_	_	_	_	15	cc	_	_
@@ -889,12 +889,12 @@
 27	;	_	_	_	_	15	punct	_	_
 
 1	Then	_	_	_	_	9	advmod	_	_
-2	,	_	_	_	_	9	punct	_	_
+2	,	_	_	_	_	1	punct	_	_
 3	upon	_	_	_	_	5	case	_	_
 4	the	_	_	_	_	5	det	_	_
 5	velvet	_	_	_	_	6	obl	_	_
 6	sinking	_	_	_	_	9	advcl	_	_
-7	,	_	_	_	_	9	punct	_	_
+7	,	_	_	_	_	6	punct	_	_
 8	I	_	_	_	_	9	nsubj	_	_
 9	betook	_	_	_	_	0	root	_	_
 10	myself	_	_	_	_	9	obj	_	_
@@ -903,7 +903,7 @@
 13	Fancy	_	_	_	_	12	obj	_	_
 14	unto	_	_	_	_	15	case	_	_
 15	fancy	_	_	_	_	12	obl	_	_
-16	,	_	_	_	_	12	punct	_	_
+16	,	_	_	_	_	17	punct	_	_
 17	thinking	_	_	_	_	12	advcl	_	_
 18	what	_	_	_	_	25	reparandum	_	_
 19	this	_	_	_	_	21	det	_	_
@@ -911,13 +911,13 @@
 21	bird	_	_	_	_	18	acl:relcl	_	_
 22	of	_	_	_	_	23	case	_	_
 23	yore	_	_	_	_	21	nmod	_	_
-24	—	_	_	_	_	17	punct	_	_
+24	—	_	_	_	_	18	punct	_	_
 25	What	_	_	_	_	17	ccomp	_	_
 26	this	_	_	_	_	37	det	_	_
 27	grim	_	_	_	_	37	amod	_	_
-28	,	_	_	_	_	33	punct	_	_
+28	,	_	_	_	_	29	punct	_	_
 29	ungainly	_	_	_	_	27	conj	_	_
-30	,	_	_	_	_	33	punct	_	_
+30	,	_	_	_	_	31	punct	_	_
 31	ghastly	_	_	_	_	27	conj	_	_
 32	,	_	_	_	_	33	punct	_	_
 33	gaunt	_	_	_	_	27	conj	_	_
@@ -930,7 +930,7 @@
 40	Meant	_	_	_	_	25	acl:relcl	_	_
 41	in	_	_	_	_	42	mark	_	_
 42	croaking	_	_	_	_	40	advcl	_	_
-43	"	_	_	_	_	42	punct	_	_
+43	"	_	_	_	_	44	punct	_	_
 44	Nevermore	_	_	_	_	42	ccomp	_	_
 45	.	_	_	_	_	44	punct	_	_
 46	"	_	_	_	_	44	punct	_	_
@@ -967,7 +967,7 @@
 4	I	_	_	_	_	5	nsubj	_	_
 5	sat	_	_	_	_	0	root	_	_
 6	divining	_	_	_	_	5	xcomp	_	_
-7	,	_	_	_	_	6	punct	_	_
+7	,	_	_	_	_	13	punct	_	_
 8	with	_	_	_	_	13	mark	_	_
 9	my	_	_	_	_	10	nmod:poss	_	_
 10	head	_	_	_	_	13	nsubj	_	_
@@ -983,7 +983,7 @@
 20	that	_	_	_	_	25	obl	_	_
 21	the	_	_	_	_	24	det	_	_
 22	lamp	_	_	_	_	24	compound	_	_
-23	-	_	_	_	_	24	punct	_	_
+23	-	_	_	_	_	22	punct	_	_
 24	light	_	_	_	_	25	nsubj	_	_
 25	gloated	_	_	_	_	19	acl:relcl	_	_
 26	o'er	_	_	_	_	20	case	_	_
@@ -997,29 +997,29 @@
 6	with	_	_	_	_	10	case	_	_
 7	the	_	_	_	_	10	det	_	_
 8	lamp	_	_	_	_	10	compound	_	_
-9	-	_	_	_	_	10	punct	_	_
+9	-	_	_	_	_	8	punct	_	_
 10	light	_	_	_	_	11	compound	_	_
 11	gloating	_	_	_	_	5	acl	_	_
 12	o'er	_	_	_	_	11	advmod	_	_
 13	She	_	_	_	_	15	nsubj	_	_
 14	shall	_	_	_	_	15	aux	_	_
 15	press	_	_	_	_	0	root	_	_
-16	,	_	_	_	_	15	punct	_	_
+16	,	_	_	_	_	17	punct	_	_
 17	ah	_	_	_	_	15	discourse	_	_
-18	,	_	_	_	_	15	punct	_	_
+18	,	_	_	_	_	19	punct	_	_
 19	nevermore	_	_	_	_	15	advmod	_	_
 20	!	_	_	_	_	15	punct	_	_
 
 1	Then	_	_	_	_	4	advmod	_	_
-2	,	_	_	_	_	4	punct	_	_
+2	,	_	_	_	_	1	punct	_	_
 3	me	_	_	_	_	4	nsubj	_	_
 4	thought	_	_	_	_	0	root	_	_
-5	,	_	_	_	_	4	punct	_	_
+5	,	_	_	_	_	8	punct	_	_
 6	the	_	_	_	_	7	det	_	_
 7	air	_	_	_	_	8	nsubj	_	_
 8	grew	_	_	_	_	4	ccomp	_	_
 9	denser	_	_	_	_	8	xcomp	_	_
-10	,	_	_	_	_	8	punct	_	_
+10	,	_	_	_	_	11	punct	_	_
 11	perfumed	_	_	_	_	8	advcl	_	_
 12	from	_	_	_	_	15	case	_	_
 13	an	_	_	_	_	15	det	_	_
@@ -1030,29 +1030,29 @@
 18	Seraphim	_	_	_	_	16	obl:agent	_	_
 19	whose	_	_	_	_	22	nmod:poss	_	_
 20	foot	_	_	_	_	22	compound	_	_
-21	-	_	_	_	_	22	punct	_	_
+21	-	_	_	_	_	20	punct	_	_
 22	falls	_	_	_	_	23	nsubj	_	_
 23	tinkled	_	_	_	_	18	acl:relcl	_	_
 24	on	_	_	_	_	27	case	_	_
 25	the	_	_	_	_	27	det	_	_
 26	tufted	_	_	_	_	27	amod	_	_
 27	floor	_	_	_	_	23	obl	_	_
-28	.	_	_	_	_	8	punct	_	_
+28	.	_	_	_	_	4	punct	_	_
 
-1	"	_	_	_	_	12	punct	_	_
+1	"	_	_	_	_	2	punct	_	_
 2	Wretch	_	_	_	_	12	vocative	_	_
-3	,	_	_	_	_	12	punct	_	_
-4	"	_	_	_	_	12	punct	_	_
+3	,	_	_	_	_	2	punct	_	_
+4	"	_	_	_	_	2	punct	_	_
 5	I	_	_	_	_	6	nsubj	_	_
 6	cried	_	_	_	_	12	parataxis	_	_
-7	,	_	_	_	_	12	punct	_	_
-8	"	_	_	_	_	12	punct	_	_
+7	,	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 9	thy	_	_	_	_	10	nmod:poss	_	_
 10	God	_	_	_	_	12	nsubj	_	_
 11	hath	_	_	_	_	12	aux	_	_
 12	lent	_	_	_	_	0	root	_	_
 13	thee	_	_	_	_	12	obj	_	_
-14	—	_	_	_	_	12	punct	_	_
+14	—	_	_	_	_	20	punct	_	_
 15	by	_	_	_	_	17	case	_	_
 16	these	_	_	_	_	17	det	_	_
 17	angels	_	_	_	_	20	obl	_	_
@@ -1061,7 +1061,7 @@
 20	sent	_	_	_	_	12	parataxis	_	_
 21	thee	_	_	_	_	20	iobj	_	_
 22	Respite	_	_	_	_	20	obj	_	_
-23	—	_	_	_	_	22	punct	_	_
+23	—	_	_	_	_	24	punct	_	_
 24	respite	_	_	_	_	22	appos	_	_
 25	and	_	_	_	_	26	cc	_	_
 26	nepenthe	_	_	_	_	24	conj	_	_
@@ -1073,7 +1073,7 @@
 32	!	_	_	_	_	12	punct	_	_
 
 1	Quaff	_	_	_	_	0	root	_	_
-2	,	_	_	_	_	1	punct	_	_
+2	,	_	_	_	_	4	punct	_	_
 3	oh	_	_	_	_	4	discourse	_	_
 4	quaff	_	_	_	_	1	parataxis	_	_
 5	this	_	_	_	_	7	det	_	_
@@ -1090,20 +1090,20 @@
 1	Quoth	_	_	_	_	0	root	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	1	nsubj	_	_
-4	,	_	_	_	_	1	punct	_	_
-5	"	_	_	_	_	1	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
+5	"	_	_	_	_	6	punct	_	_
 6	Nevermore	_	_	_	_	1	ccomp	_	_
-7	.	_	_	_	_	1	punct	_	_
-8	"	_	_	_	_	1	punct	_	_
+7	.	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 
 1	"	_	_	_	_	2	punct	_	_
-2	Prophet	_	_	_	_	0	parataxis	_	_
+2	Prophet	_	_	_	_	0	root	_	_
 3	!	_	_	_	_	2	punct	_	_
 4	"	_	_	_	_	2	punct	_	_
 5	said	_	_	_	_	2	parataxis	_	_
 6	I	_	_	_	_	5	nsubj	_	_
 7	,	_	_	_	_	5	punct	_	_
-8	"	_	_	_	_	5	punct	_	_
+8	"	_	_	_	_	9	punct	_	_
 9	thing	_	_	_	_	2	parataxis	_	_
 10	of	_	_	_	_	11	case	_	_
 11	evil	_	_	_	_	9	nmod	_	_
@@ -1112,7 +1112,7 @@
 1	—	_	_	_	_	2	punct	_	_
 2	prophet	_	_	_	_	0	root	_	_
 3	still	_	_	_	_	2	advmod	_	_
-4	,	_	_	_	_	2	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
 5	if	_	_	_	_	6	mark	_	_
 6	bird	_	_	_	_	2	advcl	_	_
 7	or	_	_	_	_	8	cc	_	_
@@ -1132,12 +1132,12 @@
 10	here	_	_	_	_	3	advmod	_	_
 11	a	_	_	_	_	12	case	_	_
 12	shore	_	_	_	_	10	appos	_	_
-13	,	_	_	_	_	12	punct	_	_
+13	,	_	_	_	_	10	punct	_	_
 14	Desolate	_	_	_	_	9	amod	_	_
 15	yet	_	_	_	_	17	cc	_	_
 16	all	_	_	_	_	17	advmod	_	_
 17	undaunted	_	_	_	_	14	conj	_	_
-18	,	_	_	_	_	17	punct	_	_
+18	,	_	_	_	_	14	punct	_	_
 19	on	_	_	_	_	22	case	_	_
 20	this	_	_	_	_	22	det	_	_
 21	desert	_	_	_	_	22	compound	_	_
@@ -1150,14 +1150,14 @@
 28	by	_	_	_	_	29	case	_	_
 29	Horror	_	_	_	_	30	obl:agent	_	_
 30	haunted	_	_	_	_	27	acl	_	_
-31	—	_	_	_	_	37	punct	_	_
+31	—	_	_	_	_	32	punct	_	_
 32	tell	_	_	_	_	37	ccomp	_	_
 33	me	_	_	_	_	32	iobj	_	_
 34	truly	_	_	_	_	32	advmod	_	_
-35	,	_	_	_	_	37	punct	_	_
+35	,	_	_	_	_	32	punct	_	_
 36	I	_	_	_	_	37	nsubj	_	_
 37	implore	_	_	_	_	3	parataxis	_	_
-38	—	_	_	_	_	37	punct	_	_
+38	—	_	_	_	_	3	punct	_	_
 
 1	Is	_	_	_	_	4	reparandum	_	_
 2	there	_	_	_	_	1	expl	_	_
@@ -1172,10 +1172,10 @@
 1	—	_	_	_	_	2	punct	_	_
 2	tell	_	_	_	_	0	root	_	_
 3	me	_	_	_	_	2	iobj	_	_
-4	—	_	_	_	_	2	punct	_	_
+4	—	_	_	_	_	5	punct	_	_
 5	tell	_	_	_	_	9	ccomp	_	_
 6	me	_	_	_	_	5	iobj	_	_
-7	,	_	_	_	_	9	punct	_	_
+7	,	_	_	_	_	5	punct	_	_
 8	I	_	_	_	_	9	nsubj	_	_
 9	implore	_	_	_	_	2	parataxis	_	_
 10	!	_	_	_	_	2	punct	_	_
@@ -1184,20 +1184,20 @@
 1	Quoth	_	_	_	_	0	root	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	1	nsubj	_	_
-4	,	_	_	_	_	1	punct	_	_
-5	"	_	_	_	_	1	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
+5	"	_	_	_	_	6	punct	_	_
 6	Nevermore	_	_	_	_	1	ccomp	_	_
-7	.	_	_	_	_	1	punct	_	_
-8	"	_	_	_	_	1	punct	_	_
+7	.	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 
 1	"	_	_	_	_	2	punct	_	_
-2	Prophet	_	_	_	_	0	parataxis	_	_
+2	Prophet	_	_	_	_	0	root	_	_
 3	!	_	_	_	_	2	punct	_	_
 4	"	_	_	_	_	2	punct	_	_
 5	said	_	_	_	_	2	parataxis	_	_
 6	I	_	_	_	_	5	nsubj	_	_
 7	,	_	_	_	_	5	punct	_	_
-8	"	_	_	_	_	5	punct	_	_
+8	"	_	_	_	_	9	punct	_	_
 9	thing	_	_	_	_	2	parataxis	_	_
 10	of	_	_	_	_	11	case	_	_
 11	evil	_	_	_	_	9	nmod	_	_
@@ -1205,7 +1205,7 @@
 
 1	prophet	_	_	_	_	0	root	_	_
 2	still	_	_	_	_	1	advmod	_	_
-3	,	_	_	_	_	1	punct	_	_
+3	,	_	_	_	_	5	punct	_	_
 4	if	_	_	_	_	5	mark	_	_
 5	bird	_	_	_	_	1	advcl	_	_
 6	or	_	_	_	_	7	cc	_	_
@@ -1236,12 +1236,12 @@
 5	sorrow	_	_	_	_	6	obl	_	_
 6	laden	_	_	_	_	3	acl	_	_
 7	if	_	_	_	_	16	mark	_	_
-8	,	_	_	_	_	16	punct	_	_
+8	,	_	_	_	_	7	punct	_	_
 9	within	_	_	_	_	12	case	_	_
 10	the	_	_	_	_	12	det	_	_
 11	distant	_	_	_	_	12	amod	_	_
 12	Aidenn	_	_	_	_	16	obl	_	_
-13	,	_	_	_	_	16	punct	_	_
+13	,	_	_	_	_	12	punct	_	_
 14	It	_	_	_	_	16	nsubj	_	_
 15	shall	_	_	_	_	16	aux	_	_
 16	clasp	_	_	_	_	1	advcl	_	_
@@ -1272,11 +1272,11 @@
 1	Quoth	_	_	_	_	0	root	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	1	nsubj	_	_
-4	,	_	_	_	_	1	punct	_	_
-5	"	_	_	_	_	1	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
+5	"	_	_	_	_	6	punct	_	_
 6	Nevermore	_	_	_	_	1	ccomp	_	_
-7	.	_	_	_	_	1	punct	_	_
-8	"	_	_	_	_	1	punct	_	_
+7	.	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 
 1	"	_	_	_	_	6	punct	_	_
 2	Be	_	_	_	_	6	cop	_	_
@@ -1286,7 +1286,7 @@
 6	sign	_	_	_	_	16	ccomp	_	_
 7	of	_	_	_	_	8	case	_	_
 8	parting	_	_	_	_	6	nmod	_	_
-9	,	_	_	_	_	6	punct	_	_
+9	,	_	_	_	_	10	punct	_	_
 10	bird	_	_	_	_	6	vocative	_	_
 11	or	_	_	_	_	12	cc	_	_
 12	fiend	_	_	_	_	10	conj	_	_
@@ -1294,7 +1294,7 @@
 14	"	_	_	_	_	6	punct	_	_
 15	I	_	_	_	_	16	nsubj	_	_
 16	shrieked	_	_	_	_	0	root	_	_
-17	,	_	_	_	_	16	punct	_	_
+17	,	_	_	_	_	18	punct	_	_
 18	upstarting	_	_	_	_	16	advcl	_	_
 19	—	_	_	_	_	16	punct	_	_
 
@@ -1366,19 +1366,19 @@
 1	Quoth	_	_	_	_	0	root	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	1	nsubj	_	_
-4	,	_	_	_	_	1	punct	_	_
-5	"	_	_	_	_	1	punct	_	_
+4	,	_	_	_	_	6	punct	_	_
+5	"	_	_	_	_	6	punct	_	_
 6	Nevermore	_	_	_	_	1	ccomp	_	_
-7	.	_	_	_	_	1	punct	_	_
-8	"	_	_	_	_	1	punct	_	_
+7	.	_	_	_	_	6	punct	_	_
+8	"	_	_	_	_	6	punct	_	_
 
 1	And	_	_	_	_	10	cc	_	_
 2	the	_	_	_	_	3	det	_	_
 3	Raven	_	_	_	_	10	nsubj	_	_
-4	,	_	_	_	_	10	punct	_	_
+4	,	_	_	_	_	3	punct	_	_
 5	never	_	_	_	_	6	advmod	_	_
 6	flitting	_	_	_	_	10	advcl	_	_
-7	,	_	_	_	_	10	punct	_	_
+7	,	_	_	_	_	6	punct	_	_
 8	still	_	_	_	_	10	advmod	_	_
 9	is	_	_	_	_	10	aux	_	_
 10	sitting	_	_	_	_	0	root	_	_
@@ -1417,7 +1417,7 @@
 1	And	_	_	_	_	9	cc	_	_
 2	the	_	_	_	_	5	det	_	_
 3	lamp	_	_	_	_	5	compound	_	_
-4	-	_	_	_	_	5	punct	_	_
+4	-	_	_	_	_	3	punct	_	_
 5	light	_	_	_	_	9	nsubj	_	_
 6	o'er	_	_	_	_	7	case	_	_
 7	him	_	_	_	_	8	obl	_	_
@@ -1446,7 +1446,7 @@
 14	Shall	_	_	_	_	16	aux	_	_
 15	be	_	_	_	_	16	aux:pass	_	_
 16	lifted	_	_	_	_	0	root	_	_
-17	—	_	_	_	_	16	punct	_	_
+17	—	_	_	_	_	18	punct	_	_
 18	nevermore	_	_	_	_	16	advmod	_	_
-19	!	_	_	_	_	18	punct	_	_
+19	!	_	_	_	_	16	punct	_	_
 

@@ -35,7 +35,7 @@
 6	nexste	_	_	_	_	4	conj	_	_
 7	,	_	_	_	_	8	punct	_	_
 8	nixte	_	_	_	_	4	conj	_	_
-9	,	_	_	_	_	4	punct	_	_
+9	,	_	_	_	_	13	punct	_	_
 10	from	_	_	_	_	13	case	_	_
 11	Old	_	_	_	_	12	amod	_	_
 12	English	_	_	_	_	13	amod	_	_
@@ -56,19 +56,19 @@
 27	next	_	_	_	_	25	conj	_	_
 28	”	_	_	_	_	25	punct	_	_
 29	)	_	_	_	_	25	punct	_	_
-30	,	_	_	_	_	22	punct	_	_
+30	,	_	_	_	_	32	punct	_	_
 31	superlative	_	_	_	_	32	amod	_	_
 32	form	_	_	_	_	22	appos	_	_
 33	of	_	_	_	_	34	case	_	_
 34	nēah	_	_	_	_	32	nmod	_	_
-35	(	_	_	_	_	39	punct	_	_
-36	“	_	_	_	_	39	punct	_	_
+35	(	_	_	_	_	37	punct	_	_
+36	“	_	_	_	_	37	punct	_	_
 37	nigh	_	_	_	_	32	parataxis	_	_
 38	,	_	_	_	_	39	punct	_	_
 39	near	_	_	_	_	37	conj	_	_
-40	”	_	_	_	_	39	punct	_	_
-41	)	_	_	_	_	25	punct	_	_
-42	,	_	_	_	_	22	punct	_	_
+40	”	_	_	_	_	37	punct	_	_
+41	)	_	_	_	_	37	punct	_	_
+42	,	_	_	_	_	43	punct	_	_
 43	corresponding	_	_	_	_	4	acl	_	_
 44	to	_	_	_	_	46	case	_	_
 45	Proto-Germanic	_	_	_	_	46	amod	_	_
@@ -78,9 +78,9 @@
 49	nearest	_	_	_	_	46	parataxis	_	_
 50	,	_	_	_	_	51	punct	_	_
 51	closest	_	_	_	_	49	conj	_	_
-52	”	_	_	_	_	39	punct	_	_
+52	”	_	_	_	_	49	punct	_	_
 53	)	_	_	_	_	49	punct	_	_
-54	;	_	_	_	_	4	punct	_	_
+54	;	_	_	_	_	55	punct	_	_
 55	equivalent	_	_	_	_	4	parataxis	_	_
 56	to	_	_	_	_	57	case	_	_
 57	nigh	_	_	_	_	55	obl	_	_
@@ -120,16 +120,16 @@
 30	(	_	_	_	_	32	punct	_	_
 31	“	_	_	_	_	32	punct	_	_
 32	next	_	_	_	_	29	parataxis	_	_
-33	”	_	_	_	_	16	punct	_	_
-34	)	_	_	_	_	16	punct	_	_
+33	”	_	_	_	_	32	punct	_	_
+34	)	_	_	_	_	32	punct	_	_
 35	,	_	_	_	_	37	punct	_	_
 36	Swedish	_	_	_	_	37	amod	_	_
 37	näst	_	_	_	_	5	conj	_	_
 38	(	_	_	_	_	40	punct	_	_
 39	“	_	_	_	_	40	punct	_	_
 40	next	_	_	_	_	37	parataxis	_	_
-41	”	_	_	_	_	48	punct	_	_
-42	)	_	_	_	_	48	punct	_	_
+41	”	_	_	_	_	40	punct	_	_
+42	)	_	_	_	_	40	punct	_	_
 43	,	_	_	_	_	45	punct	_	_
 44	Icelandic	_	_	_	_	45	amod	_	_
 45	næst	_	_	_	_	5	conj	_	_
@@ -143,14 +143,14 @@
 53	نزد	_	_	_	_	5	conj	_	_
 54	(	_	_	_	_	55	punct	_	_
 55	nazd	_	_	_	_	53	appos	_	_
-56	,	_	_	_	_	55	punct	_	_
+56	,	_	_	_	_	58	punct	_	_
 57	“	_	_	_	_	58	punct	_	_
 58	near	_	_	_	_	55	parataxis	_	_
 59	,	_	_	_	_	60	punct	_	_
 60	with	_	_	_	_	58	conj	_	_
 61	”	_	_	_	_	58	punct	_	_
-62	)	_	_	_	_	58	punct	_	_
-63	.	_	_	_	_	53	punct	_	_
+62	)	_	_	_	_	55	punct	_	_
+63	.	_	_	_	_	1	punct	_	_
 
 1	Pronunciation	_	_	_	_	0	root	_	_
 
@@ -158,15 +158,15 @@
 2	:	_	_	_	_	1	punct	_	_
 3	nĕ	_	_	_	_	0	root	_	_
 4	kst	_	_	_	_	3	flat	_	_
-5	,	_	_	_	_	3	punct	_	_
+5	,	_	_	_	_	6	punct	_	_
 6	IPA	_	_	_	_	12	dep	_	_
 7	(	_	_	_	_	8	punct	_	_
 8	key	_	_	_	_	6	parataxis	_	_
 9	)	_	_	_	_	8	punct	_	_
-10	:	_	_	_	_	12	punct	_	_
-11	/	_	_	_	_	12	punct	_	_
+10	:	_	_	_	_	6	punct	_	_
+11	/	_	_	_	_	6	punct	_	_
 12	nɛkst	_	_	_	_	3	parataxis	_	_
-13	/	_	_	_	_	12	punct	_	_
+13	/	_	_	_	_	3	punct	_	_
 
 1	Audio	_	_	_	_	0	root	_	_
 2	(	_	_	_	_	3	punct	_	_
@@ -174,7 +174,7 @@
 4	)	_	_	_	_	3	punct	_	_
 
 1	Rhymes	_	_	_	_	0	root	_	_
-2	:	_	_	_	_	1	punct	_	_
+2	:	_	_	_	_	3	punct	_	_
 3	-ɛkst	_	_	_	_	1	dep	_	_
 
 1	Adjective	_	_	_	_	0	root	_	_
@@ -190,7 +190,7 @@
 3	place	_	_	_	_	1	obl	_	_
 4	or	_	_	_	_	5	cc	_	_
 5	position	_	_	_	_	3	conj	_	_
-6	,	_	_	_	_	1	punct	_	_
+6	,	_	_	_	_	7	punct	_	_
 7	having	_	_	_	_	1	parataxis	_	_
 8	nothing	_	_	_	_	7	obj	_	_
 9	similar	_	_	_	_	8	amod	_	_
@@ -222,7 +222,7 @@
 5	or	_	_	_	_	6	cc	_	_
 6	two	_	_	_	_	4	conj	_	_
 7	away	_	_	_	_	2	advmod	_	_
-8	,	_	_	_	_	2	punct	_	_
+8	,	_	_	_	_	12	punct	_	_
 9	in	_	_	_	_	12	case	_	_
 10	the	_	_	_	_	12	det	_	_
 11	next	_	_	_	_	12	amod	_	_
@@ -253,14 +253,14 @@
 6	,	_	_	_	_	8	punct	_	_
 7	or	_	_	_	_	8	cc	_	_
 8	rank	_	_	_	_	3	conj	_	_
-9	;	_	_	_	_	1	punct	_	_
+9	;	_	_	_	_	11	punct	_	_
 10	immediately	_	_	_	_	11	advmod	_	_
 11	following	_	_	_	_	1	parataxis	_	_
-12	(	_	_	_	_	11	punct	_	_
+12	(	_	_	_	_	15	punct	_	_
 13	or	_	_	_	_	15	cc	_	_
 14	sometimes	_	_	_	_	15	advmod	_	_
 15	preceding	_	_	_	_	11	conj	_	_
-16	)	_	_	_	_	11	punct	_	_
+16	)	_	_	_	_	15	punct	_	_
 17	in	_	_	_	_	18	case	_	_
 18	order	_	_	_	_	11	obl	_	_
 19	.	_	_	_	_	1	punct	_	_
@@ -276,7 +276,7 @@
 1	On	_	_	_	_	2	case	_	_
 2	Wednesday	_	_	_	_	7	obl	_	_
 3	next	_	_	_	_	2	amod	_	_
-4	,	_	_	_	_	7	punct	_	_
+4	,	_	_	_	_	2	punct	_	_
 5	I	_	_	_	_	7	nsubj	_	_
 6	'm	_	_	_	_	7	aux	_	_
 7	going	_	_	_	_	0	root	_	_
@@ -287,11 +287,11 @@
 1	the	_	_	_	_	3	det	_	_
 2	next	_	_	_	_	3	amod	_	_
 3	chapter	_	_	_	_	0	root	_	_
-4	;	_	_	_	_	3	punct	_	_
+4	;	_	_	_	_	7	punct	_	_
 5	the	_	_	_	_	7	det	_	_
 6	next	_	_	_	_	7	amod	_	_
 7	week	_	_	_	_	3	parataxis	_	_
-8	;	_	_	_	_	3	punct	_	_
+8	;	_	_	_	_	10	punct	_	_
 9	the	_	_	_	_	10	det	_	_
 10	Sunday	_	_	_	_	7	parataxis	_	_
 11	next	_	_	_	_	10	amod	_	_
@@ -350,7 +350,7 @@
 6	form	_	_	_	_	0	root	_	_
 7	of	_	_	_	_	8	case	_	_
 8	nigh	_	_	_	_	6	nmod	_	_
-9	;	_	_	_	_	6	punct	_	_
+9	;	_	_	_	_	14	punct	_	_
 10	the	_	_	_	_	12	det	_	_
 11	superlative	_	_	_	_	12	amod	_	_
 12	form	_	_	_	_	14	nsubj	_	_
@@ -399,7 +399,7 @@
 2	terms	_	_	_	_	0	root	_	_
 
 1	next	_	_	_	_	3	compound	_	_
-2	-	_	_	_	_	3	punct	_	_
+2	-	_	_	_	_	1	punct	_	_
 3	day	_	_	_	_	0	root	_	_
 
 1	Determiner	_	_	_	_	0	root	_	_
@@ -465,7 +465,7 @@
 25	is	_	_	_	_	27	cop	_	_
 26	very	_	_	_	_	27	advmod	_	_
 27	soon	_	_	_	_	19	advcl	_	_
-28	;	_	_	_	_	13	punct	_	_
+28	;	_	_	_	_	30	punct	_	_
 29	of	_	_	_	_	30	case	_	_
 30	days	_	_	_	_	33	obl	_	_
 31	,	_	_	_	_	30	punct	_	_
@@ -495,10 +495,10 @@
 3	is	_	_	_	_	5	cop	_	_
 4	next	_	_	_	_	5	amod	_	_
 5	Tuesday	_	_	_	_	0	root	_	_
-6	;	_	_	_	_	5	punct	_	_
+6	;	_	_	_	_	7	punct	_	_
 7	that	_	_	_	_	11	advmod	_	_
 8	is	_	_	_	_	7	fixed	_	_
-9	,	_	_	_	_	11	punct	_	_
+9	,	_	_	_	_	7	punct	_	_
 10	not	_	_	_	_	11	advmod	_	_
 11	tomorrow	_	_	_	_	5	parataxis	_	_
 12	,	_	_	_	_	15	punct	_	_
@@ -509,12 +509,12 @@
 17	now	_	_	_	_	15	nmod	_	_
 18	.	_	_	_	_	5	punct	_	_
 
-1	When	_	_	_	_	3	mark	_	_
+1	When	_	_	_	_	3	advmod	_	_
 2	you	_	_	_	_	3	nsubj	_	_
 3	say	_	_	_	_	9	advcl	_	_
 4	next	_	_	_	_	5	amod	_	_
 5	Thursday	_	_	_	_	3	obj	_	_
-6	,	_	_	_	_	9	punct	_	_
+6	,	_	_	_	_	3	punct	_	_
 7	do	_	_	_	_	9	aux	_	_
 8	you	_	_	_	_	9	nsubj	_	_
 9	mean	_	_	_	_	0	root	_	_
@@ -565,7 +565,7 @@
 10	closest	_	_	_	_	0	root	_	_
 11	or	_	_	_	_	12	cc	_	_
 12	following	_	_	_	_	10	conj	_	_
-13	.	_	_	_	_	3	punct	_	_
+13	.	_	_	_	_	10	punct	_	_
 
 1	They	_	_	_	_	2	nsubj	_	_
 2	live	_	_	_	_	0	root	_	_
@@ -601,7 +601,7 @@
 12	something	_	_	_	_	7	obj	_	_
 13	previously	_	_	_	_	14	advmod	_	_
 14	mentioned	_	_	_	_	12	acl	_	_
-15	.	_	_	_	_	2	punct	_	_
+15	.	_	_	_	_	7	punct	_	_
 
 1	First	_	_	_	_	3	advmod	_	_
 2	we	_	_	_	_	3	nsubj	_	_
@@ -609,9 +609,9 @@
 4	all	_	_	_	_	6	det:predet	_	_
 5	the	_	_	_	_	6	det	_	_
 6	handles	_	_	_	_	3	obj	_	_
-7	;	_	_	_	_	3	punct	_	_
+7	;	_	_	_	_	8	punct	_	_
 8	next	_	_	_	_	11	advmod	_	_
-9	,	_	_	_	_	11	punct	_	_
+9	,	_	_	_	_	8	punct	_	_
 10	we	_	_	_	_	11	nsubj	_	_
 11	stripped	_	_	_	_	3	parataxis	_	_
 12	off	_	_	_	_	11	compound:prt	_	_
@@ -631,10 +631,10 @@
 2	panic	_	_	_	_	0	root	_	_
 3	,	_	_	_	_	4	punct	_	_
 4	earthquakes	_	_	_	_	2	conj	_	_
-5	,	_	_	_	_	2	punct	_	_
+5	,	_	_	_	_	7	punct	_	_
 6	oil	_	_	_	_	7	compound	_	_
 7	spills	_	_	_	_	2	conj	_	_
-8	,	_	_	_	_	2	punct	_	_
+8	,	_	_	_	_	9	punct	_	_
 9	riots	_	_	_	_	2	conj	_	_
 10	.	_	_	_	_	2	punct	_	_
 
@@ -643,11 +643,11 @@
 3	next	_	_	_	_	2	advmod	_	_
 4	?	_	_	_	_	2	punct	_	_
 
-1	When	_	_	_	_	4	mark	_	_
+1	When	_	_	_	_	4	advmod	_	_
 2	we	_	_	_	_	4	nsubj	_	_
 3	next	_	_	_	_	4	advmod	_	_
 4	meet	_	_	_	_	9	advcl	_	_
-5	,	_	_	_	_	9	punct	_	_
+5	,	_	_	_	_	4	punct	_	_
 6	you	_	_	_	_	9	nsubj:pass	_	_
 7	'll	_	_	_	_	9	aux	_	_
 8	be	_	_	_	_	9	aux:pass	_	_
@@ -671,7 +671,7 @@
 7	the	_	_	_	_	8	det	_	_
 8	side	_	_	_	_	0	root	_	_
 9	of	_	_	_	_	8	obl	_	_
-10	;	_	_	_	_	8	punct	_	_
+10	;	_	_	_	_	11	punct	_	_
 11	nearest	_	_	_	_	8	parataxis	_	_
 12	or	_	_	_	_	13	cc	_	_
 13	adjacent	_	_	_	_	11	conj	_	_
@@ -707,14 +707,14 @@
 8	up	_	_	_	_	7	compound:prt	_	_
 9	the	_	_	_	_	10	det	_	_
 10	queue	_	_	_	_	7	obj	_	_
-11	!	_	_	_	_	7	punct	_	_
+11	!	_	_	_	_	1	punct	_	_
 
 1	One	_	_	_	_	2	nummod	_	_
 2	moment	_	_	_	_	5	obl:unmarked	_	_
 3	she	_	_	_	_	5	nsubj	_	_
 4	was	_	_	_	_	5	cop	_	_
 5	there	_	_	_	_	0	root	_	_
-6	,	_	_	_	_	5	punct	_	_
+6	,	_	_	_	_	10	punct	_	_
 7	the	_	_	_	_	8	det	_	_
 8	next	_	_	_	_	10	obl:unmarked	_	_
 9	she	_	_	_	_	10	nsubj	_	_

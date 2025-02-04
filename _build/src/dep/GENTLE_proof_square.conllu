@@ -68,7 +68,7 @@
 4	of	_	_	_	_	5	case	_	_
 5	Book	_	_	_	_	2	nmod	_	_
 6	II	_	_	_	_	5	flat	_	_
-7	:	_	_	_	_	8	punct	_	_
+7	:	_	_	_	_	2	punct	_	_
 8	Square	_	_	_	_	0	root	_	_
 9	of	_	_	_	_	10	case	_	_
 10	Sum	_	_	_	_	8	nmod	_	_
@@ -254,7 +254,7 @@
 21	of	_	_	_	_	22	case	_	_
 22	Book	_	_	_	_	19	nmod	_	_
 23	X	_	_	_	_	22	flat	_	_
-24	:	_	_	_	_	26	punct	_	_
+24	:	_	_	_	_	33	punct	_	_
 25	Straight	_	_	_	_	26	amod	_	_
 26	Line	_	_	_	_	33	nsubj	_	_
 27	Commensurable	_	_	_	_	26	acl	_	_
@@ -267,11 +267,11 @@
 34	it	_	_	_	_	35	expl	_	_
 35	follows	_	_	_	_	0	root	_	_
 36	that	_	_	_	_	40	mark	_	_
-37	:	_	_	_	_	40	punct	_	_
+37	:	_	_	_	_	36	punct	_	_
 38	DL	_	_	_	_	40	nsubj	_	_
 39	is	_	_	_	_	40	cop	_	_
 40	medial	_	_	_	_	35	csubj	_	_
-41	.	_	_	_	_	40	punct	_	_
+41	.	_	_	_	_	35	punct	_	_
 
 1	We	_	_	_	_	2	nsubj	_	_
 2	have	_	_	_	_	0	root	_	_
@@ -301,7 +301,7 @@
 11	Medial	_	_	_	_	13	amod	_	_
 12	Straight	_	_	_	_	13	amod	_	_
 13	Line	_	_	_	_	9	nmod	_	_
-14	:	_	_	_	_	17	punct	_	_
+14	:	_	_	_	_	3	punct	_	_
 15	MD	_	_	_	_	17	nsubj	_	_
 16	is	_	_	_	_	17	cop	_	_
 17	rational	_	_	_	_	0	root	_	_
@@ -311,7 +311,7 @@
 21	length	_	_	_	_	19	obl	_	_
 22	with	_	_	_	_	23	case	_	_
 23	DE	_	_	_	_	17	obl	_	_
-24	.	_	_	_	_	3	punct	_	_
+24	.	_	_	_	_	17	punct	_	_
 
 1	For	_	_	_	_	4	case	_	_
 2	the	_	_	_	_	4	det	_	_
@@ -370,11 +370,11 @@
 1	Also	_	_	_	_	6	advmod	_	_
 2	:	_	_	_	_	1	punct	_	_
 3	AC	_	_	_	_	6	nsubj	_	_
-4	:	_	_	_	_	5	case	_	_
+4	:	_	_	_	_	5	punct	_	_
 5	CB	_	_	_	_	3	nmod	_	_
 6	=	_	_	_	_	0	root	_	_
 7	AC2	_	_	_	_	6	obj	_	_
-8	:	_	_	_	_	9	case	_	_
+8	:	_	_	_	_	9	punct	_	_
 9	AC	_	_	_	_	7	nmod	_	_
 10	⋅	_	_	_	_	11	case	_	_
 11	CB	_	_	_	_	9	nmod	_	_
@@ -393,7 +393,7 @@
 12	of	_	_	_	_	14	case	_	_
 13	Proportional	_	_	_	_	14	amod	_	_
 14	Magnitudes	_	_	_	_	11	nmod	_	_
-15	:	_	_	_	_	18	punct	_	_
+15	:	_	_	_	_	3	punct	_	_
 16	AC2	_	_	_	_	18	nsubj	_	_
 17	is	_	_	_	_	18	cop	_	_
 18	incommensurable	_	_	_	_	0	root	_	_
@@ -405,7 +405,7 @@
 
 1	Hence	_	_	_	_	30	advmod	_	_
 2	by	_	_	_	_	4	case	_	_
-3	:	_	_	_	_	4	punct	_	_
+3	:	_	_	_	_	2	punct	_	_
 4	Proposition	_	_	_	_	30	obl	_	_
 5	12	_	_	_	_	4	flat	_	_
 6	of	_	_	_	_	7	case	_	_
@@ -450,7 +450,7 @@
 
 1	That	_	_	_	_	6	advmod	_	_
 2	is	_	_	_	_	1	fixed	_	_
-3	:	_	_	_	_	6	punct	_	_
+3	:	_	_	_	_	1	punct	_	_
 4	DL	_	_	_	_	6	nsubj	_	_
 5	is	_	_	_	_	6	cop	_	_
 6	incommensurable	_	_	_	_	0	root	_	_
@@ -492,7 +492,7 @@
 32	it	_	_	_	_	33	expl	_	_
 33	follows	_	_	_	_	0	root	_	_
 34	that	_	_	_	_	38	mark	_	_
-35	:	_	_	_	_	38	punct	_	_
+35	:	_	_	_	_	34	punct	_	_
 36	DM	_	_	_	_	38	nsubj	_	_
 37	is	_	_	_	_	38	cop	_	_
 38	incommensurable	_	_	_	_	33	csubj	_	_
@@ -500,7 +500,7 @@
 40	length	_	_	_	_	38	obl	_	_
 41	with	_	_	_	_	42	case	_	_
 42	MG	_	_	_	_	38	obl	_	_
-43	.	_	_	_	_	38	punct	_	_
+43	.	_	_	_	_	33	punct	_	_
 
 1	But	_	_	_	_	8	cc	_	_
 2	DM	_	_	_	_	8	nsubj	_	_
@@ -562,7 +562,7 @@
 17	Rational	_	_	_	_	19	amod	_	_
 18	Straight	_	_	_	_	19	amod	_	_
 19	Line	_	_	_	_	15	obl	_	_
-20	:	_	_	_	_	21	punct	_	_
+20	:	_	_	_	_	2	punct	_	_
 21	AC2	_	_	_	_	24	nsubj	_	_
 22	+	_	_	_	_	23	cc	_	_
 23	CB2	_	_	_	_	21	conj	_	_
@@ -576,7 +576,7 @@
 31	DL	_	_	_	_	32	nsubj	_	_
 32	>	_	_	_	_	24	parataxis	_	_
 33	MF	_	_	_	_	32	obl:unmarked	_	_
-34	.	_	_	_	_	2	punct	_	_
+34	.	_	_	_	_	24	punct	_	_
 
 1	From	_	_	_	_	2	case	_	_
 2	Proposition	_	_	_	_	18	obl	_	_
@@ -593,7 +593,7 @@
 13	Proportional	_	_	_	_	8	acl	_	_
 14	to	_	_	_	_	15	case	_	_
 15	Base	_	_	_	_	13	obl	_	_
-16	:	_	_	_	_	17	punct	_	_
+16	:	_	_	_	_	2	punct	_	_
 17	DM	_	_	_	_	18	nsubj	_	_
 18	>	_	_	_	_	0	root	_	_
 19	MG	_	_	_	_	18	obl:unmarked	_	_
@@ -608,17 +608,17 @@
 8	it	_	_	_	_	9	expl	_	_
 9	follows	_	_	_	_	0	root	_	_
 10	that	_	_	_	_	14	mark	_	_
-11	:	_	_	_	_	14	punct	_	_
+11	:	_	_	_	_	10	punct	_	_
 12	DH	_	_	_	_	14	nsubj	_	_
 13	is	_	_	_	_	14	cop	_	_
 14	commensurable	_	_	_	_	9	csubj	_	_
 15	with	_	_	_	_	16	case	_	_
 16	KL	_	_	_	_	14	obl	_	_
-17	.	_	_	_	_	14	punct	_	_
+17	.	_	_	_	_	9	punct	_	_
 
 1	So	_	_	_	_	33	advmod	_	_
 2	from	_	_	_	_	4	case	_	_
-3	:	_	_	_	_	4	punct	_	_
+3	:	_	_	_	_	2	punct	_	_
 4	Proposition	_	_	_	_	33	obl	_	_
 5	1	_	_	_	_	4	flat	_	_
 6	of	_	_	_	_	7	case	_	_
@@ -634,13 +634,13 @@
 16	to	_	_	_	_	17	case	_	_
 17	Base	_	_	_	_	15	obl	_	_
 18	and	_	_	_	_	20	cc	_	_
-19	:	_	_	_	_	20	punct	_	_
+19	:	_	_	_	_	18	punct	_	_
 20	Proposition	_	_	_	_	4	conj	_	_
 21	11	_	_	_	_	20	flat	_	_
 22	of	_	_	_	_	23	case	_	_
 23	Book	_	_	_	_	20	nmod	_	_
 24	X	_	_	_	_	23	flat	_	_
-25	:	_	_	_	_	24	punct	_	_
+25	:	_	_	_	_	26	punct	_	_
 26	Commensurability	_	_	_	_	20	appos	_	_
 27	of	_	_	_	_	28	case	_	_
 28	Elements	_	_	_	_	26	nmod	_	_
@@ -650,7 +650,7 @@
 32	it	_	_	_	_	33	expl	_	_
 33	follows	_	_	_	_	0	root	_	_
 34	that	_	_	_	_	38	mark	_	_
-35	:	_	_	_	_	33	punct	_	_
+35	:	_	_	_	_	34	punct	_	_
 36	DK	_	_	_	_	38	nsubj	_	_
 37	is	_	_	_	_	38	cop	_	_
 38	commensurable	_	_	_	_	33	ccomp	_	_
@@ -686,7 +686,7 @@
 16	of	_	_	_	_	18	case	_	_
 17	Quadratic	_	_	_	_	18	amod	_	_
 18	Equation	_	_	_	_	15	nmod	_	_
-19	:	_	_	_	_	22	punct	_	_
+19	:	_	_	_	_	3	punct	_	_
 20	DM2	_	_	_	_	22	nsubj	_	_
 21	is	_	_	_	_	22	cop	_	_
 22	greater	_	_	_	_	0	root	_	_
